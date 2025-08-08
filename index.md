@@ -3,7 +3,7 @@ title: 中文佛法资源
 feature_text: |
   ## True Dhamma
   为 **渴望** 或 **正在** 真切 **实践佛陀教法** 的 **华人** 而设立
-feature_image: "/uploads/banner_home.png"
+feature_image: "/uploads/top_banner_home.png"
 excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 ---
 
@@ -53,18 +53,14 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
   </tr>
 </table>
 
-<div style="background-color: #f0fff0;">
-
-# 世间成瘾与出世间觉悟
+### 世间成瘾与出世间觉悟
 世间成瘾与出世间觉悟
 世间成瘾与出世间觉悟
 世间成瘾与出世间觉悟
-
-</div>
 
 ---
 
-# 成瘾/以智慧戒断
+### 成瘾/以智慧戒断
 
 > 成瘾是堕入轮回不可自拔的体现，以智慧戒断成瘾则是从轮回中解脱的开始
 
@@ -106,11 +102,9 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 * SuttaCentral：<a href="https://suttacentral.net/?lang=zh" target="_blank">https://suttacentral.net/?lang=zh</a>
 * Dhamma Talks：<a href="https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html" target="_blank">https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html</a>
 
-</div>
-
 ---
 
-# 隆波帕默尊者
+### 隆波帕默尊者
 
 > 泰国当代最知名的高僧大德之一，尤其以心念住和法念住的教导闻名于世
 
@@ -128,7 +122,9 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 * 南传上座部早晚课诵本：<a href="https://download.true-dhamma.com/%E9%9A%86%E6%B3%A2%E5%B8%95%E9%BB%98%E5%B0%8A%E8%80%85/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E6%97%A9%E6%99%9A%E8%AF%BE%E8%AF%B5%E6%9C%AC.mp4" target="_blank">[True-Dhamma网盘]</a>
 * **电子书：**<a href="https://download.true-dhamma.com/%E9%9A%86%E6%B3%A2%E5%B8%95%E9%BB%98%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/" target="_blank">[True-Dhamma网盘]</a>
 
-# 隆塔纳荣萨尊者
+---
+
+### 隆塔纳荣萨尊者
 
 > 当代教导心念住的知名高僧大德
 
@@ -152,7 +148,9 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 **法谈：**
 全网唯一，包含近200篇隆塔泰语法谈视频的中文翻译。因语言识别及AI翻译质量问题，请修行者在已有相当基础的情况下使用。下载 <a href="https://download.true-dhamma.com/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E6%B3%95%E8%B0%88%EF%BC%88AI%E7%BF%BB%E8%AF%91-%E8%B4%A8%E9%87%8F%E5%8F%82%E5%B7%AE%E4%B8%8D%E9%BD%90%EF%BC%89/" target="_blank">[True-Dhamma网盘]</a>
 
-# 南传上座部佛法
+---
+
+### 南传上座部佛法
 
 > 遵循佛陀的足迹与教诲......
 
@@ -170,6 +168,8 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
   * **南传上座部佛法实修书籍：**
 
 请直接访问 <a href="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/" target="_blank">[True-Dhamma网盘]</a> 获取完整内容
+
+---
 
 ### True Dhamma 网站
 * <a href="http://www.true-dhamma.com" target="_blank">http://www.true-dhamma.com</a>
