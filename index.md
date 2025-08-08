@@ -90,7 +90,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
   <img src="/uploads/tipitaka_snapshot_3.webp" alt="Snapshot 3" width="32%">
 </div><br>
 
-##### 下载：<a href="https://download.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/" target="_blank">[True-Dhamma网盘]</a>**
+##### 下载：<a href="https://download.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/" target="_blank">[True-Dhamma网盘]</a>
 * **全网唯一，带目录的EPUB(推荐)/MOBI/AZW3格式**
 * **全网唯一，完全白话文翻译**
 * **由巴利语重新翻译、与文言文及多个翻译版本对照校对而成**
