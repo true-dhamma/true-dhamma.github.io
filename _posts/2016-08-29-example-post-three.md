@@ -1,6 +1,6 @@
 ---
 title: Description of a Pot Still
-date: 2016-08-29 00:00:00 +01:00
+date: 2016-08-29 07:00:00 +08:00
 categories:
 - General
 excerpt: 'A pot still is a type of still used in distilling spirits such as whisky
