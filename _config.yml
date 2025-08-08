@@ -77,14 +77,14 @@ repo: https://github.com/daviddarnes/alembic
 email: zhining@gmx.com
 css_inline: true
 favicons:
-  '16': "/assets/logos/logo@16px.png"
-  '32': "/assets/logos/logo@32px.png"
-  '96': "/assets/logos/logo@96px.png"
-  '120': "/assets/logos/logo@120px.png"
-  '144': "/assets/logos/logo@144px.png"
-  '180': "/assets/logos/logo@180px.png"
-  '512': "/assets/logos/logo@512px.png"
-  '1024': "/assets/logos/logo@1024px.png"
+  '16': "/uploads/siteicon.png"
+  '32': "/uploads/siteicon.png"
+  '96': "/uploads/siteicon.png"
+  '120': "/uploads/siteicon.png"
+  '144': "/uploads/siteicon.png"
+  '180': "/uploads/siteicon.png"
+  '512': "/uploads/siteicon.png"
+  '1024': "/uploads/siteicon.png"
 navigation_header:
 - title: Home
   url: "/"
