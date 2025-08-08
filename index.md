@@ -76,7 +76,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ......详情请访问 <a href="https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/" target="_blank">[True-Dhamma网盘]</a>
 
-<div style="background-color: #f0fff0;">
+---
 
 # 巴利圣典 Tipitaka
 
