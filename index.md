@@ -53,6 +53,63 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
   </tr>
 </table>
 
+# 世间成瘾与出世间觉悟
+世间成瘾与出世间觉悟
+世间成瘾与出世间觉悟
+世间成瘾与出世间觉悟
+
+# 成瘾/以智慧戒断
+
+> 成瘾是堕入轮回不可自拔的体现，以智慧戒断成瘾则是从轮回中解脱的开始
+
+**提供相关公开版权的内容或音视频的中文翻译：**
+* Allen Carr's Easy Way
+* Jack Trimpey's Rational Racovery及AVRT
+* EasyPeasy Way等
+
+**帮助了解以下成瘾的本质，并以智慧或觉性戒断：**
+* 烟、糖、药物等等（EasyWay）
+* 酒精、肥胖（RR/AVRT）
+* 色情（EasyPeasy）
+
+......详情请访问 <a href="https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/" target="_blank">[True-Dhamma网盘]</a>
+
+# 巴利圣典 Tipitaka
+
+> 简体中文白话文与巴利语对照《巴利圣典》
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="/uploads/tipitaka_snapshot_1.png
+" alt="Snapshot 1" width="32%">
+  <img src="/uploads/tipitaka_snapshot_2.png
+" alt="Snapshot 2" width="32%">
+  <img src="/uploads/tipitaka_snapshot_3.png
+" alt="Snapshot 3" width="32%">
+</div><br>
+
+**下载：<a href="https://download.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/" target="_blank">[True-Dhamma网盘]</a>**
+* **全网唯一，带目录的EPUB(推荐)/MOBI/AZW3格式**
+* **全网唯一，完全白话文翻译**
+* **由巴利语重新翻译、与文言文及多个翻译版本对照校对而成**
+* 包含完整经藏、律藏，不含论藏
+* 以菩提僧团翻译的文言文底稿为基础，保留菩提僧团说明
+
+巴利语（Pāli）是与佛陀及弟子所使用的摩揭陀语或相近的古代印度俗语最为接近的语言之一。《巴利圣典》（Pāḷi Tipiṭaka）被全世界公认为是现存最古老、最完整、流变最少的早期佛教经典集成，是精确记录了佛陀本人教导的核心文献。
+《乾隆大藏经》的四部《阿含经》中：《长阿含经》与巴利《长部》（Dīgha Nikāya，DN）约65%内容重合；《中阿含经》与巴利《中部》（Majjhima Nikāya，MN）约75%内容重合；《杂阿含经》与巴利《相应部》（Saṃyutta Nikāya，SN）约85%内容重合；《增一阿含经》与巴利《增支部》（Aṅguttara Nikāya，AN）约50%内容重合。
+
+**更多资源：**
+* SuttaCentral：<a href="https://suttacentral.net/?lang=zh" target="_blank">https://suttacentral.net/?lang=zh</a>
+* Dhamma Talks：<a href="https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html" target="_blank">https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html</a>
+
+
+
+## True Dhamma 网站
+* <a href="http://www.true-dhamma.com" target="_blank">http://www.true-dhamma.com</a>
+* <a href="" target="_blank">http://download.true-dhamma.com</a>
+* <a href="http://true-dhamma.github.io" target="_blank">http://true-dhamma.github.io</a>
+* <a href="http://sites.google.com/view/true-dhamma" target="_blank">http://sites.google.com/view/true-dhamma</a>
+
+> 2025 智宁居士 zhining@gmx.com
 
 AAA Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it.
 
