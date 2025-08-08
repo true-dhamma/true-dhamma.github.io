@@ -53,10 +53,16 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
   </tr>
 </table>
 
+<div style="background-color: #f0fff0;">
+
 # 世间成瘾与出世间觉悟
 世间成瘾与出世间觉悟
 世间成瘾与出世间觉悟
 世间成瘾与出世间觉悟
+
+</div>
+
+---
 
 # 成瘾/以智慧戒断
 
@@ -73,6 +79,8 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 * 色情（EasyPeasy）
 
 ......详情请访问 <a href="https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/" target="_blank">[True-Dhamma网盘]</a>
+
+<div style="background-color: #f0fff0;">
 
 # 巴利圣典 Tipitaka
 
@@ -97,6 +105,10 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 **更多资源：**
 * SuttaCentral：<a href="https://suttacentral.net/?lang=zh" target="_blank">https://suttacentral.net/?lang=zh</a>
 * Dhamma Talks：<a href="https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html" target="_blank">https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html</a>
+
+</div>
+
+---
 
 # 隆波帕默尊者
 
