@@ -2,11 +2,9 @@
 title: True Dhamma
 feature_text: |
   ## True Dhamma 中文佛法资源
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
+  为 **渴望** 或 **正在** 真切 **实践佛陀教法** 的 **华人** 而设立
 feature_image: https://picsum.photos/1300/400?image=989
-excerpt: Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects.
-  Rather than starting from scratch, this boilerplate is designed to get the ball
-  rolling immediately. Install it, configure it, tweak it, push it.
+excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 ---
 
 AAA Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it.
