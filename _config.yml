@@ -1,6 +1,6 @@
 ---
-title: Alembic
-timezone: Europe/London
+title: True Dhamma
+timezone: Asia/Shanghai
 collections:
   posts:
     title: Posts
@@ -71,10 +71,10 @@ lang: en-GB
 logo: "/assets/logos/logo.svg"
 description: Alembic is a starting point for Jekyll projects. Rather than starting
   from scratch, this boilerplate is designed to get the ball rolling immediately
-url: https://alembic.darn.es
-baseurl: ''
+url: https://true-dhamma.github.io
+baseurl: 
 repo: https://github.com/daviddarnes/alembic
-email: me@daviddarnes.com
+email: zhining@gmx.com
 css_inline: true
 favicons:
   '16': "/assets/logos/logo@16px.png"
