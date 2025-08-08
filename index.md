@@ -180,6 +180,23 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 > 2025 智宁居士 zhining@gmx.com
 
+
+> [!NOTE]
+> 这是一条普通的笔记。
+
+> [!TIP]
+> 这是一条非常有用的提示。
+
+> [!IMPORTANT]
+> 这是重要的信息。
+
+> [!WARNING]
+> 这是一条警告信息，需要注意。
+
+<div style="background-color: #e7f3fe; border-left: 6px solid #2196F3; padding: 15px; margin-bottom: 15px;">
+  💡 <strong>提示:</strong>
+  这里是你的提示内容。你可以完全自定义背景颜色、边框样式和内外边距，非常灵活。
+</div>
 AAA Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it.
 
 {% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Buy me a coffee ☕️" link="https://buymeacoffee.com/daviddarnes#support" color="#f68140" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %}
