@@ -79,12 +79,9 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 > 简体中文白话文与巴利语对照《巴利圣典》
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/uploads/tipitaka_snapshot_1.webp
-" alt="Snapshot 1" width="32%">
-  <img src="/uploads/tipitaka_snapshot_2.webp
-" alt="Snapshot 2" width="32%">
-  <img src="/uploads/tipitaka_snapshot_3.webp
-" alt="Snapshot 3" width="32%">
+  <img src="/uploads/tipitaka_snapshot_1.webp" alt="Snapshot 1" width="32%">
+  <img src="/uploads/tipitaka_snapshot_2.webp" alt="Snapshot 2" width="32%">
+  <img src="/uploads/tipitaka_snapshot_3.webp" alt="Snapshot 3" width="32%">
 </div><br>
 
 **下载：<a href="https://download.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/" target="_blank">[True-Dhamma网盘]</a>**
