@@ -1,10 +1,9 @@
 ---
+title: "[Question]: Please add a title"
 name: Help request
 about: Ask for help or have a question
-title: "[Question]: Please add a title"
 labels: question
 assignees: ''
-
 ---
 
 ## Summary

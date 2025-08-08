@@ -1,10 +1,9 @@
 ---
+title: "[Proposal]: Please add a title"
 name: Feature request
 about: Propose an idea or feature for this project
-title: "[Proposal]: Please add a title"
 labels: enhancement
 assignees: ''
-
 ---
 
 ## Summary 

@@ -1,10 +1,9 @@
 ---
+title: "[Bug]: Please add a title"
 name: Bug report
 about: Report a bug you've encountered
-title: "[Bug]: Please add a title"
 labels: bug
 assignees: ''
-
 ---
 
 ## Summary

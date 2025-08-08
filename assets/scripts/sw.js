@@ -1,6 +1,6 @@
 ---
 permalink: "/sw.js"
-layout: null
+layout: 
 sitemap: false
 ---
 
