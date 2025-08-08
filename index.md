@@ -90,7 +90,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
   <img src="/uploads/tipitaka_snapshot_3.webp" alt="Snapshot 3" width="32%">
 </div><br>
 
-**下载：<a href="https://download.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/" target="_blank">[True-Dhamma网盘]</a>**
+##### 下载：<a href="https://download.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/" target="_blank">[True-Dhamma网盘]</a>**
 * **全网唯一，带目录的EPUB(推荐)/MOBI/AZW3格式**
 * **全网唯一，完全白话文翻译**
 * **由巴利语重新翻译、与文言文及多个翻译版本对照校对而成**
@@ -100,32 +100,20 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 巴利语（Pāli）是与佛陀及弟子所使用的摩揭陀语或相近的古代印度俗语最为接近的语言之一。《巴利圣典》（Pāḷi Tipiṭaka）被全世界公认为是现存最古老、最完整、流变最少的早期佛教经典集成，是精确记录了佛陀本人教导的核心文献。
 《乾隆大藏经》的四部《阿含经》中：《长阿含经》与巴利《长部》（Dīgha Nikāya，DN）约65%内容重合；《中阿含经》与巴利《中部》（Majjhima Nikāya，MN）约75%内容重合；《杂阿含经》与巴利《相应部》（Saṃyutta Nikāya，SN）约85%内容重合；《增一阿含经》与巴利《增支部》（Aṅguttara Nikāya，AN）约50%内容重合。
 
-#### 更多资源：
-* SuttaCentral：<a href="https://suttacentral.net/?lang=zh" target="_blank">https://suttacentral.net/?lang=zh</a>
-* Dhamma Talks：<a href="https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html" target="_blank">https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html</a>
-
 ##### 更多资源：
 * SuttaCentral：<a href="https://suttacentral.net/?lang=zh" target="_blank">https://suttacentral.net/?lang=zh</a>
 * Dhamma Talks：<a href="https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html" target="_blank">https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html</a>
-
-
-###### 更多资源：
-* SuttaCentral：<a href="https://suttacentral.net/?lang=zh" target="_blank">https://suttacentral.net/?lang=zh</a>
-* Dhamma Talks：<a href="https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html" target="_blank">https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html</a>
-
-#### 更多资源：
-##### 更多资源：
 
 ---
 
 <h3 id="luangpor_pramote">隆波帕默尊者</h3>
 泰国当代最知名的高僧大德之一，尤其以心念住和法念住的教导闻名于世
 
-**官方网站：**
+##### 官方网站：
 * 泰文：<a href="https://www.dhamma.com/" target="_blank">https://www.dhamma.com/</a>
 * 中文：<a href="https://www.dhamma.com/zh/" target="_blank">https://www.dhamma.com/zh/</a>
 
-**第三方网站：**
+##### 第三方网站：
 * 解脱园：<a href="https://www.jietuoyuan.com/" target="_blank">https://www.jietuoyuan.com/</a>
 * 法藏：<a href="https://www.idhamma.cn/" target="_blank">https://www.idhamma.cn/</a>
 * 甘露雨：<a href="https://www.ganluyu.net/" target="_blank">https://www.ganluyu.net/</a>
@@ -140,12 +128,12 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 <h3 id="luangta_narongsak">隆塔纳荣萨尊者</h3>
 当代教导心念住的知名高僧大德
 
-**官方网站：**
+##### 官方网站：
 * 泰文：<a href="https://www.luangtanarongsak.org/" target="_blank">https://www.luangtanarongsak.org/</a>
 * 泰文Youtube：<a href="https://www.youtube.com/@%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%B0%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B8%95%E0%B8%B2%E0%B8%93%E0%B8%A3%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%A8%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%B4%E0%B9%8C%E0%B8%82%E0%B8%B5%E0%B8%93" target="_blank">https://www.youtube.com/@%E0%B9%80%E0%B8%AA...</a>
 * 英文Youtube：<a href="https://www.youtube.com/@luangtanarongsakkheenalayo3071" target="_blank">https://www.youtube.com/@luangtanarongsakkheenalayo3071</a>
 
-**电子书（全网唯一，包含所有隆塔已面世书籍的高质量中文翻译）：**
+##### 电子书（全网唯一，包含所有隆塔已面世书籍的高质量中文翻译）：**
 * <a href="https://download.true-dhamma.com/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/%E6%AD%A2%E4%BA%8E%E5%BF%83&%E6%B3%95%E8%AF%AD108%20v1.1.pdf" target="_blank">《止于心&法语108 v1.1》中文版</a> -（<a href="https://www.luangtanarongsak.org/home/index.php/2017-10-14-13-19-49/2017-11-12-10-51-16/item/1415-book-06" target="_blank">泰语原版链接</a>）
 * <a href="https://download.true-dhamma.com/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/%E4%BF%AE%E8%A1%8C%EF%BC%88%E7%AC%AC%E4%B8%80%E5%86%8C%EF%BC%89%20-%20%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8.epub" target="_blank">《修行（第一册）》中文版</a> -（<a href="https://www.luangtanarongsak.org/home/index.php/2017-10-14-13-19-49/2017-11-12-10-51-16/item/1413-book-04" target="_blank">泰语原版链接</a>）
 * <a href="https://download.true-dhamma.com/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/%E5%BD%BB%E5%BA%95%E7%BB%93%E6%9D%9F%E5%90%A7-%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8.epub" target="_blank">《彻底结束吧》中文版</a> -（<a href="https://www.luangtanarongsak.org/home/index.php/2017-10-14-13-19-49/2017-11-12-10-51-16/item/1416-book-07" target="_blank">泰语原版链接</a>）
@@ -157,7 +145,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 * <a href="https://download.true-dhamma.com/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/%E6%92%A4%E5%9B%9E%E5%8F%91%E6%84%BF%E6%96%87%E3%80%81%E6%85%88%E5%BF%83%E7%A6%85%E8%AF%B5%E6%96%87%E4%B8%8E%E6%B0%94%E6%81%AF%E8%83%BD%E9%87%8F%E7%BB%8F%20-%20%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8.epub" target="_blank">《撤回发愿文、慈心禅诵文与气息能量经》中文版</a> -（<a href="https://www.luangtanarongsak.org/home/index.php/2017-10-14-13-19-49/2017-11-12-10-51-16/item/1491-book-08" target="_blank">泰语原版链接</a>）
 * ...全部电子书下载 <a href="https://download.true-dhamma.com/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/" target="_blank">[True-Dhamma网盘]</a>
 
-**法谈：**
+##### 法谈：
 全网唯一，包含近200篇隆塔泰语法谈视频的中文翻译。因语言识别及AI翻译质量问题，请修行者在已有相当基础的情况下使用。下载 <a href="https://download.true-dhamma.com/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E6%B3%95%E8%B0%88%EF%BC%88AI%E7%BF%BB%E8%AF%91-%E8%B4%A8%E9%87%8F%E5%8F%82%E5%B7%AE%E4%B8%8D%E9%BD%90%EF%BC%89/" target="_blank">[True-Dhamma网盘]</a>
 
 ---
