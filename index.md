@@ -56,14 +56,14 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 <h3 id="enlightenment">世间成瘾与出世间觉悟</h3>
 世间成瘾与出世间觉悟
+
 世间成瘾与出世间觉悟
 世间成瘾与出世间觉悟
 
 ---
 
 <h3 id="addiction">成瘾/以智慧戒断</h3>
-
-> 成瘾是堕入轮回不可自拔的体现，以智慧戒断成瘾则是从轮回中解脱的开始
+成瘾是堕入轮回不可自拔的体现，以智慧戒断成瘾则是从轮回中解脱的开始
 
 **提供相关公开版权的内容或音视频的中文翻译：**
 * Allen Carr's Easy Way
@@ -80,8 +80,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 ---
 
 <h3 id="tipitaka">巴利圣典 Tipitaka</h3>
-
-> 简体中文白话文与巴利语对照《巴利圣典》
+简体中文白话文与巴利语对照《巴利圣典》
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/uploads/tipitaka_snapshot_1.webp" alt="Snapshot 1" width="32%">
@@ -106,8 +105,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 ---
 
 <h3 id="luangpor_pramote">隆波帕默尊者</h3>
-
-> 泰国当代最知名的高僧大德之一，尤其以心念住和法念住的教导闻名于世
+泰国当代最知名的高僧大德之一，尤其以心念住和法念住的教导闻名于世
 
 **官方网站：**
 * 泰文：<a href="https://www.dhamma.com/" target="_blank">https://www.dhamma.com/</a>
@@ -126,8 +124,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 ---
 
 <h3 id="luangta_narongsak">隆塔纳荣萨尊者</h3>
-
-> 当代教导心念住的知名高僧大德
+当代教导心念住的知名高僧大德
 
 **官方网站：**
 * 泰文：<a href="https://www.luangtanarongsak.org/" target="_blank">https://www.luangtanarongsak.org/</a>
@@ -152,8 +149,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 ---
 
 <h3 id="theravada">南传上座部佛法</h3>
-
-> 遵循佛陀的足迹与教诲......
+遵循佛陀的足迹与教诲......
 
 * **海量南传上座部佛法资源下载：**
   * **佛陀传记，包括：**
