@@ -2,9 +2,10 @@
 title: True Dhamma
 timezone: Asia/Shanghai
 collections:
-  blog:
+  blog1:
     title: Blog
     output: true
+    permalink: blog1
   posts:
     title: Posts
     output: true
@@ -57,7 +58,7 @@ paginate_path: blog/page:num
 jekyll-mentions: https://twitter.com
 twitter:
   username: DavidDarnes
-author: DavidDarnes
+author: 智宁居士
 social:
   name: David Darnes
   links:
@@ -71,9 +72,8 @@ permalink: pretty
 excerpt_separator: "<!-- more -->"
 encoding: utf-8
 lang: zh-CN
-logo: "/assets/logos/logo.svg"
-description: Alembic is a starting point for Jekyll projects. Rather than starting
-  from scratch, this boilerplate is designed to get the ball rolling immediately
+logo: "/uploads/Dhamma_Wheel.svg.webp"
+description: 世间成瘾与出世间觉悟,南传上座部,佛法,解脱,彼岸,涅槃,修行,实修,实证
 url: https://true-dhamma.github.io
 baseurl: 
 repo: https://github.com/daviddarnes/alembic

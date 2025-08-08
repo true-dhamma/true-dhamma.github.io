@@ -1,7 +1,7 @@
 ---
 title: True Dhamma
 feature_text: |
-  ## Alembic
+  ## True Dhamma 中文佛法资源
   A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
 feature_image: https://picsum.photos/1300/400?image=989
 excerpt: Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects.
