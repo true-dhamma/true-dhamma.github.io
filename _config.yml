@@ -1,14 +1,19 @@
 ---
-title: True Dhamma_old
+title: True Dhamma
 timezone: Asia/Shanghai
 collections:
-  docs:
-    title: Documentation
+  blog1:
+    title: Blog
     output: true
-    permalink: "/:path/"
+    permalink: blog1
   posts:
     title: Posts
     output: true
+    description: My thoughts and ideas
+    feature_text: 'Welcome to the blog
+
+'
+    feature_image: https://picsum.photos/2560/600?image=866
   uploads:
     title: Uploads
     output: true
@@ -16,50 +21,102 @@ defaults:
 - scope:
     path: ''
   values:
-    layout: default
-- scope:
-    path: ''
-    type: docs
-  values:
-    seo:
-      type: Article
-    _comments:
-      category: Group navigation links with this field
-      order: Used to sort links in the navigation
-    _options:
-      content:
-        width: 800
-        height: 2000
+    image: "/assets/default-social-image.png"
 - scope:
     path: ''
     type: posts
   values:
-    _comments:
-      type: Marks the impact of this release
-url: https://true-dhamma_old.github.io
-baseurl: 
-google_analytics_key: GTM-M9VNH47B
-show_full_navigation: true
-logo: "/siteicon.png"
-description: 世间成瘾与出世间觉悟,南传上座部,佛法,解脱,彼岸,涅槃,修行,实修,实证
-author:
-  name: 智宁居士
-  email: zhining@gmx.com
-  twitter: 
-social:
-  name: True-Dhamma
-  links:
-  - https://github.com/true-dhamma
-permalink: pretty
-plugins:
-- jekyll-sitemap
-- jekyll-seo-tag
-- jekyll-feed
+    layout: post
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
 exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
 - Gemfile
 - Gemfile.lock
-- README.md
-- LICENCE
-types:
-- minor
-- major
+- alembic-jekyll-theme.gemspec
+- ".jekyll-cache"
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
+paginate: 2
+paginate_path: blog/page:num
+jekyll-mentions: https://twitter.com
+twitter:
+  username: DavidDarnes
+author: DavidDarnes
+social:
+  name: David Darnes
+  links:
+  - https://twitter.com/DavidDarnes
+  - https://www.facebook.com/daviddarnes
+  - https://www.linkedin.com/in/daviddarnes
+  - https://github.com/daviddarnes
+sass:
+  style: compressed
+permalink: pretty
+excerpt_separator: "<!-- more -->"
+encoding: utf-8
+lang: zh-CN
+logo: "/assets/logos/logo.svg"
+description: Alembic is a starting point for Jekyll projects. Rather than starting
+  from scratch, this boilerplate is designed to get the ball rolling immediately
+url: https://true-dhamma.github.io
+baseurl: 
+repo: https://github.com/daviddarnes/alembic
+email: zhining@gmx.com
+css_inline: true
+favicons:
+  '16': "/uploads/siteicon.png"
+  '32': "/uploads/siteicon.png"
+  '96': "/uploads/siteicon.png"
+  '120': "/uploads/siteicon.png"
+  '144': "/uploads/siteicon.png"
+  '180': "/uploads/siteicon.png"
+  '512': "/uploads/siteicon.png"
+  '1024': "/uploads/siteicon.png"
+navigation_header:
+- title: Home
+  url: "/"
+- title: Elements_DEL
+  url: "/elements/"
+- title: Blog
+  url: "/blog/"
+- title: 文章/Categories
+  url: "/categories/"
+- title: Search
+  url: "/search/"
+- title: Fork Alembic_DEL
+  url: https://github.com/daviddarnes/alembic
+navigation_footer:
+- title: Created by David Darnes
+  url: https://darn.es
+social_links:
+  Twitter: https://twitter.com/DavidDarnes
+  LinkedIn: https://www.linkedin.com/in/daviddarnes
+  GitHub: https://github.com/daviddarnes
+  link: https://darn.es
+  RSS: "/feed.xml"
+sharing_links:
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  Email: true
+fonts:
+  preconnect_urls:
+  - https://fonts.gstatic.com
+  font_urls:
+  - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
