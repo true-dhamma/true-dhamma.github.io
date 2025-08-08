@@ -39,7 +39,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
       </a>
     </td>
     <td style="text-align: center; border: none; vertical-align: top;">
-      <a href="/luangta_narongsak/">
+      <a href="#luangta_narongsak">
         <img src="/uploads/banner5.jpg" alt="隆塔纳荣萨尊者 Luangta Narongsak Kheenalayo" style="width: 100%; max-width: 300px;">
         <p>隆塔纳荣萨尊者<br>Luangta Narongsak Kheenalayo</p>
       </a>
@@ -124,7 +124,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
-### 隆塔纳荣萨尊者
+<h3 id="luangta_narongsak">隆塔纳荣萨尊者</h3>
 
 > 当代教导心念住的知名高僧大德
 
