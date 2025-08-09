@@ -13,8 +13,6 @@ feature-image: "/uploads/top_banner_addiction.png"
 aside: true
 ---
 
-{% include video.html url="https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/Allen%20Carr%E2%80%98s%20Easyway/Allen%20Carr%20Video.mp4" %}
-
 ### **目录**
 
 * [引言：来自罗宾·海利](#引言来自罗宾海利)
@@ -33,6 +31,8 @@ aside: true
   * [恶性循环](#恶性循环)
 * [吸烟者的自我辩解](#吸烟者的自我辩解)
 * [结语：终结内心的斗争](#结语终结内心的斗争)
+
+{% include video.html url="https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/Allen%20Carr%E2%80%98s%20Easyway/Allen%20Carr%20Video.mp4" %}
 
 ---
 
