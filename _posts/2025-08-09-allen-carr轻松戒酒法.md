@@ -13,7 +13,7 @@ feature-image: "/uploads/top_banner_addiction.png"
 aside: true
 ---
 
-## The EasyWay to Stop Drinking
+The EasyWay to Stop Drinking
 停止饮酒的简单方法 (摘要)
 作者：艾伦·卡尔
 
