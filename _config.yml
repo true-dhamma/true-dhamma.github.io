@@ -2,10 +2,6 @@
 title: True Dhamma
 timezone: Asia/Shanghai
 collections:
-  blog1:
-    title: Blog
-    output: true
-    permalink: blog1
   posts:
     title: Posts
     output: true
