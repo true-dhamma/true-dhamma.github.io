@@ -8,6 +8,7 @@ collections_config:
     path: ''
     name: Pages
     icon: wysiwyg
+    disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -15,6 +16,7 @@ collections_config:
     path: _drafts
     name: Drafts
     icon: event
+    disable_url: false
     _inputs:
       categories:
         type: multiselect
@@ -40,6 +42,7 @@ collections_config:
     path: _posts
     name: Posts
     icon: event_available
+    disable_url: false
     _inputs:
       categories:
         type: multiselect
@@ -69,11 +72,14 @@ collections_config:
     path: _uploads
     name: Uploads
     icon: upload
+    disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
 _snippets_imports:
   jekyll: true
+editor:
+  default_path:
 timezone: Asia/Bangkok
 markdown:
   engine: kramdown

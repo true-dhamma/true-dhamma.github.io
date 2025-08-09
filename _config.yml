@@ -51,17 +51,17 @@ plugins:
 - jemoji
 paginate: 2
 paginate_path: blog/page:num
-jekyll-mentions: https://twitter.com
+jekyll-mentions: 
 twitter:
-  username: DavidDarnes
+  username: 
 author: 智宁居士
 social:
-  name: David Darnes
+  name: 
   links:
-  - https://twitter.com/DavidDarnes
-  - https://www.facebook.com/daviddarnes
-  - https://www.linkedin.com/in/daviddarnes
-  - https://github.com/daviddarnes
+  - 
+  - 
+  - 
+  - 
 sass:
   style: compressed
 permalink: pretty
@@ -72,7 +72,7 @@ logo: "/uploads/Dhamma_Wheel.svg.webp"
 description: 世间成瘾与出世间觉悟,南传上座部,佛法,解脱,彼岸,涅槃,修行,实修,实证
 url: https://true-dhamma.github.io
 baseurl: 
-repo: https://github.com/daviddarnes/alembic
+repo: 
 email: zhining@gmx.com
 css_inline: true
 favicons:
@@ -85,26 +85,26 @@ favicons:
   '512': "/uploads/siteicon.png"
   '1024': "/uploads/siteicon.png"
 navigation_header:
-- title: Home
+- title: 首页
   url: "/"
-- title: Elements_DEL
-  url: "/elements/"
+- title: 巴利圣典
+  url: "/南传上座部佛教/2025/08/09/巴利圣典/"
+- title: 文章
+  url: "/categories/"
+- title: 搜索
+  url: "/search/"
 - title: Blog
   url: "/blog/"
-- title: 文章/Categories
-  url: "/categories/"
-- title: Search
-  url: "/search/"
 - title: Fork Alembic_DEL
   url: https://github.com/daviddarnes/alembic
 navigation_footer:
-- title: Created by David Darnes
-  url: https://darn.es
+- title: Created by 智宁居士
+  url: mailto:zhining@gmx.com
 social_links:
-  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
+  Twitter: 
+  LinkedIn: 
+  GitHub: 
+  link: https://true-dhamma.com
   RSS: "/feed.xml"
 sharing_links:
   Twitter: "#0d94e7"
@@ -115,4 +115,3 @@ fonts:
   - https://fonts.gstatic.com
   font_urls:
   - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
-aside: true
