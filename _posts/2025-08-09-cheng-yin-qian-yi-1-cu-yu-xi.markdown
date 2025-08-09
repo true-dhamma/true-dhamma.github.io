@@ -9,5 +9,6 @@ excerpt: 南传上座部佛教早晚课诵本，包含礼敬三宝、三皈依�
 feature_text: |-
   ## 南传上座部佛教早晚课诵本
   礼敬三宝、三皈依、佛法僧随念、需要经常思维的五法及慈悲喜舍篇
+feature-image: "/uploads/top_banner_chanting.png"
 ---
 
