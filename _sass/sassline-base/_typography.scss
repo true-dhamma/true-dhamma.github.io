@@ -99,22 +99,36 @@ a {
   // Lists.
   ul, ol {
     @include baseline(zeta, $bodytype, 2, 2, all);
+    /* Modified by Kevin - 使用padding代替margin来缩进列表，确保项目符号(圆点/数字)能正确对齐 */
+    padding-left: 2rem;
 
     li {
       font-feature-settings: 'kern', 'onum', 'liga';
-        margin-left: 2rem;
+      /* Modified by Kevin - 移除了li上的左外边距，因为缩进已由父元素ul/ol的padding-left控制 */
+      // margin-left: 2rem;
 
       @include breakpoint(break-1) {
-        margin-left: 0;
+        /* Modified by Kevin - 此规则不再需要，因为对齐逻辑已移至父元素ul/ol */
+        // margin-left: 0;
       }
 
       ol, ul {
         padding-top: 1rem;
         margin-bottom: 1rem;
-        margin-left: 2rem;
+        /* Modified by Kevin - 嵌套列表同样使用padding-left以保持对齐一致性 */
+        padding-left: 2rem;
+        // margin-left: 2rem;
       }
     }
   }
+
+  /* Modified by Kevin - 在小屏幕上移除列表缩进 */
+  @include breakpoint(break-1) {
+    ul, ol {
+      padding-left: 0;
+    }
+  }
+
 
   // Ordered lists.
   ol {
@@ -122,6 +136,8 @@ a {
 
     li {
       counter-increment: top-level;
+      /* Modified by Kevin - 添加相对定位，为::before伪元素的绝对定位提供可靠的上下文，确保数字角标位置正确 */
+      position: relative;
 
       &:before {
         content: counter(top-level) '.';
@@ -268,11 +284,15 @@ a {
 
   // Quotes.
   blockquote {
+    /* Modified by Kevin - 将边框和内边距从p标签移至blockquote，以确保整个引用块的左侧竖线与文本正确对齐 */
+    border-left: 0.15rem solid $linkColour;
+    padding-left: 1rem;
 
     p {
-      border-left: 0.15rem solid $linkColour;
+      /* Modified by Kevin - 移除了p标签上的边框和内边距，这些样式已应用到父元素blockquote */
+      // border-left: 0.15rem solid $linkColour;
       font-style: map-get($bodytype, italic);
-      padding-left: 1rem;
+      // padding-left: 1rem;
 
       // Add spacing below blockquote paragraphs to align to baseline grid.
       $get-scale: map-get($modular-scale, scale-0);
@@ -299,7 +319,8 @@ a {
     }
 
     @include breakpoint(break-1) {
-      margin-left: -1rem;
+      /* Modified by Kevin - 移除了此处的负外边距，以防止引用块在小屏幕上向左“凸出”，确保其与上方文本左侧对齐 */
+      // margin-left: -1rem;
     }
   }
 
@@ -360,5 +381,4 @@ a {
   .oldstyle-numerals {
     font-feature-settings: 'onum', 'kern';
   }
-  //kevin mod nothing
 }
