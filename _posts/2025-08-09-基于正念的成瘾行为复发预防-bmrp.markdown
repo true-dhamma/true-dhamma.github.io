@@ -10,6 +10,7 @@ feature_text:
 feature_image: "/uploads/top_banner_addiction.png"
 aside: true
 ---
+
 **Mindfulness-Based Relapse Prevention for Addictive Behaviors: A Clinician's Guide（基于正念的成瘾行为复发预防：临床医生指南（第二版） - 摘要**
 
 **作者：** 莎拉·博文 (Sarah Bowen), 内哈·肖拉 (Neha Chawla), 乔尔·格罗 (Joel Grow), 及 G. 艾伦·马尔拉特 (G. Alan Marlatt)
