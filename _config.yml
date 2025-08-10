@@ -108,7 +108,7 @@ social_links:
   RSS: "/feed.xml"
 sharing_links:
   Twitter: "#0d94e7"
-  facebook: "#3B5998"
+  facebook: "#3B5998" 
   Email: true
 fonts:
   preconnect_urls:
