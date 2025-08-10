@@ -25,7 +25,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
         </a>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#巴利圣典tipitaka" style="text-decoration: none; color: inherit;">
+        <a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner3.png" alt="巴利圣典 Pāli Tipiṭaka" style="width: 100%; max-width: 300px;" />
           <p>巴利圣典<br />Pāli Tipiṭaka</p>
         </a>
