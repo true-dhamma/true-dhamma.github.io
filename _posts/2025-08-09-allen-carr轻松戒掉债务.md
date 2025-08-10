@@ -1,16 +1,16 @@
 ---
 title: Allen Carr轻松戒掉债务
-date: 2025-08-09 21:13:00 +08:00
+date: 2025-08-09T21:13:00+07:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
-excerpt: 过度消费是一种瘾，本书揭示消费主义与信贷陷阱背后的幻觉，旨在从根本上消除消费欲望，而非依赖意志力。通过明确的指导，帮助读者停止借贷、掌控财务，最终摆脱债务束缚，重获生活控制权与幸福。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.png"
+  - 成瘾
+excerpt: >-
+  过度消费是一种瘾，本书揭示消费主义与信贷陷阱背后的幻觉，旨在从根本上消除消费欲望，而非依赖意志力。通过明确的指导，帮助读者停止借贷、掌控财务，最终摆脱债务束缚，重获生活控制权与幸福。
+feature_text:
+feature_image: /uploads/top_banner_addiction.png
 aside: true
 ---
-
 **Get Out of Debt Now - Allen Carr - 摘要**
 
 > “一旦家庭生活建立在借贷和负债的基础上，它就不再自由和美好。” ——亨利克·易卜生
