@@ -38,7 +38,7 @@ $headingtype: (
 $monospacetype: (
   // 代码字体优先使用各平台最优的等宽字体。
   // SF Mono (macOS) 和 Consolas (Windows) 都是非常出色的编程字体，能清晰地显示代码。
-  // 中文会由浏览器自动回退到默认的等宽或黑体，保持对齐。
+  // 中文会由浏览器自动回退到默认的等宽或黑体，保持对齐。 
   // 顺序: Mac 新 -> Win -> Mac 旧 -> Linux -> 备用
   font-family: "SFMono-Regular", "Consolas", "Menlo", "Liberation Mono", "PingFang SC", "Microsoft YaHei", monospace,
   regular: 400,
