@@ -15,10 +15,9 @@ $white: #ffffff !default;
 
 // Typography
 $bodytype: (
-  // 正文使用经典的衬线字体 (Serif) 搭配各平台最优的无衬线中文字体 (Sans-serif)。
-  // 这种组合在屏幕上既保留了西文的优雅易读性，又确保了中文在小字号下的清晰度，是现代网页设计中的成熟方案。
-  // 顺序: Mac/iOS 英文 -> Win 英文 -> Mac 中文 -> Win 中文 -> Linux 英文 -> 开源中文 -> 备用
-  font-family: "Georgia", "Times New Roman", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", serif',
+  // 优先使用系统 UI 字体，以获得最佳原生体验。
+  // 英文字体在前，中文字体在后，确保中英文混排时都能调用到最合适的字体。
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, sans-serif,
   regular: 400,
   bold: 700,
   italic: italic,
@@ -26,21 +25,17 @@ $bodytype: (
 ) !default;
 
 $headingtype: (
-  // 标题同样采用西文衬线搭配中文无衬线，但选择了更具设计感的 Merriweather。
-  // 中文字体与正文一致，通过字重 (bold) 来与正文进行区分，保证了视觉的统一性与力量感。
-  // 顺序: 优选英文字体 -> Mac 中文 -> Win 中文 -> 开源中文 -> 备用
-  font-family: '"Merriweather"', "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", serif',
+  // 标题字体与正文保持一致，以保证视觉统一性。通过字重和字号来区分层级。
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, sans-serif,
   regular: 400,
   bold: 700,
   cap-height: 0.75
 ) !default;
 
 $monospacetype: (
-  // 代码字体优先使用各平台最优的等宽字体。
-  // SF Mono (macOS) 和 Consolas (Windows) 都是非常出色的编程字体，能清晰地显示代码。
-  // 中文会由浏览器自动回退到默认的等宽或黑体，保持对齐。 
-  // 顺序: Mac 新 -> Win -> Mac 旧 -> Linux -> 备用
-  font-family: "SFMono-Regular", "Consolas", "Menlo", "Liberation Mono", "PingFang SC", "Microsoft YaHei", monospace',
+  // 为代码和等宽场景选择清晰的等宽字体。
+  // SF Mono, Menlo, Monaco 在 Mac 上表现优异，Consolas 是 Windows 的首选。
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Menlo", "Monaco", "Consolas", "PingFang SC", "Microsoft YaHei", "Courier New", monospace,
   regular: 400,
   cap-height: 0.68
 ) !default;
