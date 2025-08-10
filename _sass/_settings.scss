@@ -1,15 +1,15 @@
 // Background colours
 $backgroundColour: #ffffff !default;
 $codeBackgroundColour: #fafafa !default;
-$featureBackgroundColour: #f9fafa !default;
-$accentColour: #05bf85 !default;
+$featureBackgroundColour: #f4f6f8 !default; // A very light, cool gray to complement the blue theme
+$accentColour: #3A77D8 !default; // A professional, deep blue
 
 // Text colours
-$headingColour: #242e2b !default;
-$bodyColour: #384743 !default;
-$linkColour: #05bf85 !default;
-$hoverColour: #008000 !default;
-$focusColour: #fa407a !default;
+$headingColour: #2c3e50 !default; // A dark slate blue for headings
+$bodyColour: #34495e !default; // A slightly lighter slate blue for body text for good readability
+$linkColour: #3A77D8 !default; // Link color matches the accent blue
+$hoverColour: #2e60ad !default; // A darker shade of the link color for hover effect
+$focusColour: #fa407a !default; // Kept the original focus color as it provides a strong, accessible contrast
 $captionColour: #a8adac !default;
 $white: #ffffff !default;
 
