@@ -15,7 +15,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
       <a href="#世间成瘾与出世间觉悟">
         <img src="/uploads/banner1.png" alt="《世间成瘾与出世间觉悟》及相关资源" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#enlightenment">《世间成瘾与出世间觉悟》<br />及相关资源</a></p><a href="#enlightenment">
+        </a><p><a href="#enlightenment">《世间成瘾与出世间觉悟》<br />及相关资源</a></p><a href="#世间成瘾与出世间觉悟">
       </a><p></p>
     </td>
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
