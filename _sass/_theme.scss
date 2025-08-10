@@ -174,8 +174,8 @@ body {
 
 // Lists
 .list {
-  // list-style: none;  注释掉这行
-  list-style-position: inside; // 将圆点放在文本块内部
+  list-style: none;  // 注释掉这行
+  // list-style-position: inside; // 将圆点放在文本块内部
   &--nav {
     overflow: hidden;
     margin-bottom: var(--listHeight, 0);
