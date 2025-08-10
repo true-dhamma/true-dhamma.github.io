@@ -1,16 +1,16 @@
 ---
 title: 理性恢复(Rational Recovery)
-date: 2025-08-09T21:13:00+08:00
+date: 2025-08-09 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
-excerpt: >-
-  《理性恢复》介绍“成瘾声音识别技术”。它不视成瘾为疾病，而是由追求快感的内在“成瘾声音”驱动。通过识别并战胜此声音，做出“永不再犯”的决定，即可实现即时、永久的自力更生式康复。
-feature_text:
-feature_image: /uploads/top_banner_addiction.png
+- 成瘾
+excerpt: "《理性恢复》介绍“成瘾声音识别技术”。它不视成瘾为疾病，而是由追求快感的内在“成瘾声音”驱动。通过识别并战胜此声音，做出“永不再犯”的决定，即可实现即时、永久的自力更生式康复。"
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.png"
 aside: true
 ---
+
 **Rational Recovery - 杰克·特林佩 (Jack Trimpey) - 摘要**
 
 ### **核心理念**
