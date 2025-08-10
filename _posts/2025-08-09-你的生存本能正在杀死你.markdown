@@ -1,17 +1,17 @@
 ---
 title: 你的生存本能正在杀死你
-date: 2025-08-09 21:13:00 +08:00
+date: 2025-08-09T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
-excerpt: 本书揭示了现代生活为何会过度激活我们的生存本能，从而导致焦虑与不安。通过学习管理不适感和训练大脑的理性思维，我们可以打破这种恶性循环，重获身心健康与内心的平静。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.png"
+  - 成瘾
+excerpt: >-
+  本书揭示了现代生活为何会过度激活我们的生存本能，从而导致焦虑与不安。通过学习管理不适感和训练大脑的理性思维，我们可以打破这种恶性循环，重获身心健康与内心的平静。
+feature_text:
+feature_image: /uploads/top_banner_addiction.png
 aside: true
 ---
-
-> ##### 你的生存本能正在杀死你 - 摘要
+> ##### 你的生存本能正在杀死你 - Matthew Sleeth - 摘要
 >
 > 对生存与存在底层的成瘾，是杀死我们的关键要素。
 
