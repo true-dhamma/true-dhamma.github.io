@@ -1,16 +1,16 @@
 ---
 title: 理性恢复(Rational Recovery)
-date: 2025-08-09 21:13:00 +08:00
+date: 2025-08-09T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
-excerpt: "《理性恢复》一书介绍了杰克·特林佩的“成瘾声音识别技术”(AVRT)，为成瘾者提供了一种自力更生的康复方法。该方法认为，成瘾并非疾病，而是由追求即时快感的“成瘾声音”驱动。通过学习识别并分离这个内在的“野兽”，个体可以制定一个“永不再犯”的计划，从而立即并永久地戒除成瘾，无需依赖团体或无尽的治疗过程。核心在于，康复是一个理性的、一次性的决定。"
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.png"
+  - 成瘾
+excerpt: >-
+  《理性恢复》介绍了杰克·特林佩的“成瘾声音识别技术”(AVRT)。该方法将成瘾视为由追求即时满足的“成瘾声音”驱动，而非一种疾病。它教导个体识别并战胜这个内在的“野兽”，通过制定“永不再犯”的理性决定，实现即时且永久的自力更生式康复，无需依赖无尽的治疗。
+feature_text:
+feature_image: /uploads/top_banner_addiction.png
 aside: true
 ---
-
 **Rational Recovery - 杰克·特林佩 (Jack Trimpey) - 摘要**
 
 ### **核心理念**
