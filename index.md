@@ -35,8 +35,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
       <a href="#luangpor_pramote">
         <img src="/uploads/banner4.jpg" alt="隆波帕默尊者 Luangpor Pramote Pamojjo" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#luangpor_pramote">隆波帕默尊者<br />Luangpor Pramote Pamojjo</a></p><a href="#隆波帕默尊者">
-      </a><p></p>
+        </a><p><a href="#隆波帕默尊者">隆波帕默尊者<br />Luangpor Pramote Pamojjo</a></p>
     </td>
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
       <a href="#luangta_narongsak">
