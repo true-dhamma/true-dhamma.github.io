@@ -93,7 +93,7 @@ navigation_header:
   url: "/categories/"
 - title: 搜索
   url: "/search/"
-- title: 关于ele
+- title: 关于本站
   url: "/about/"
 navigation_footer:
 - title: Created by 智宁居士
