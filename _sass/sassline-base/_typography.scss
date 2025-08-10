@@ -102,7 +102,7 @@ a {
 
     li {
       font-feature-settings: 'kern', 'onum', 'liga';
-      // margin-left: 2rem; Kevin
+        margin-left: 2rem;
 
       @include breakpoint(break-1) {
         margin-left: 0;
@@ -127,6 +127,7 @@ a {
         content: counter(top-level) '.';
         font-feature-settings: 'lnum', 'tnum';
         // margin-left: -3rem; Kevin
+        margin-left: 0;
         position: absolute;
         text-align: right;
         width: 2em;
