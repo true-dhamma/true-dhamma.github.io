@@ -12,7 +12,6 @@ aside: true
 ---
 
 > **The EasyWay to Stop Drinking - Allen Carr - 摘要**
->
 > 停止饮酒的简单方法 (摘要) 作者：艾伦·卡尔
 
 ## 目录
