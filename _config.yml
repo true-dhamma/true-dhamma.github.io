@@ -93,10 +93,10 @@ navigation_header:
   url: "/categories/"
 - title: 搜索
   url: "/search/"
-- title: Blog
-  url: "/blog/"
-- title: Fork Alembic_DEL
-  url: https://github.com/daviddarnes/alembic
+- title: 关于ele
+  url: "/about/"
+- title: 关于ele
+  url: "/elements/"
 navigation_footer:
 - title: Created by 智宁居士
   url: mailto:zhining@gmx.com
