@@ -1,15 +1,16 @@
 ---
 title: 梦瘾：美国阿片类药物泛滥的真相
-date: 2025-08-09T21:13:00+08:00
+date: 2025-08-09 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 本书揭示美国阿片危机的两条主线：制药公司营销的止痛药制造了成瘾潮，而墨西哥贩毒网络则送来廉价海洛因。二者的致命交汇在美国引发了一场毁灭性的成瘾灾难。
-feature_text:
-feature_image: /uploads/top_banner_addiction.png
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.png"
 aside: true
 ---
+
 **梦瘾：美国阿片类药物泛滥的真相 - 摘要**
 
 **参考：电视剧《成瘾剂量》概要**
