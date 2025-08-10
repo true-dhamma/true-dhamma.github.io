@@ -1,11 +1,13 @@
 ---
 title: 关于
-feature_text: |
-  A demo of Markdown and HTML includes
+feature_text: 'A demo of Markdown and HTML includes
+
+'
 feature_image: https://picsum.photos/2560/600?image=873
 excerpt: A demo of Markdown and HTML includes
 aside: true
 ---
+
 使用30年前的网页技术，构建了这个小网站。就让它安静的呆在这里，不与五欲的喧闹争锋。它不会有多少人访问，但深埋在Github数据底层的“法”，终究会被三两个有缘人遇到。
 
 ### **孤勇者之路**
