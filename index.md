@@ -3,10 +3,9 @@ title: 中文佛法资源
 feature_text: |
   ## True Dhamma
   为 **渴望** 或 **正在** 真切 **实践佛陀教法** 的 **华人** 而设立
-feature_image: "/uploads/top_banner_home.png"
+feature_image: /uploads/top_banner_home.png
 excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 ---
-
 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 
 <table style="width:100%; border: none;">
@@ -74,7 +73,11 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 * Jack Trimpey’s Rational Racovery及AVRT
 * EasyPeasy Way等
 
-**帮助了解以下成瘾的本质，并以智慧或觉性戒断：** \* 烟、糖、药物等等（EasyWay） \* 酒精、肥胖（RR/AVRT） \* 色情（EasyPeasy）
+**帮助了解以下成瘾的本质，并以智慧或觉性戒断：**
+
+* 烟、酒精、药物、糖、贷款等等（EasyWay）
+* 酒精、肥胖、赌博（RR/AVRT）
+* 色情（EasyPeasy）
 
 ……详情请访问 [\[True-Dhamma网盘\]](https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/){: target="_blank" rel="noopener"}
 
