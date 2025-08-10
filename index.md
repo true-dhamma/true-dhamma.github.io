@@ -3,10 +3,9 @@ title: 中文佛法资源
 feature_text: |
   ## True Dhamma
   为 **渴望** 或 **正在** 真切 **实践佛陀教法** 的 **华人** 而设立
-feature_image: "/uploads/top_banner_home.png"
+feature_image: /uploads/top_banner_home.png
 excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 ---
-
 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 
 <table style="width:100%; border: none;">
@@ -55,8 +54,12 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
+&nbsp;
+
 ### 世间成瘾与出世间觉悟
 {: id="enlightenment"}
+
+&nbsp;
 
 世间成瘾与出世间觉悟
 
@@ -64,12 +67,20 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
+&nbsp;
+
 ### 成瘾/以智慧戒断
 {: id="addiction"}
 
+&nbsp;
+
 成瘾是堕入轮回不可自拔的体现，以智慧戒断成瘾则是从轮回中解脱的开始
 
-**提供相关公开版权的内容或音视频的中文翻译：** \* Allen Carr’s Easy Way \* Jack Trimpey’s Rational Racovery及AVRT \* EasyPeasy Way等
+**提供相关公开版权的内容或音视频的中文翻译：**
+
+* Allen Carr’s Easy Way
+* Jack Trimpey’s Rational Racovery及AVRT
+* EasyPeasy Way等
 
 **帮助了解以下成瘾的本质，并以智慧或觉性戒断：** \* 烟、糖、药物等等（EasyWay） \* 酒精、肥胖（RR/AVRT） \* 色情（EasyPeasy）
 
@@ -77,8 +88,12 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
+&nbsp;
+
 ### 巴利圣典 Tipitaka
 {: id="tipitaka"}
+
+&nbsp;
 
 简体中文白话文与巴利语对照《巴利圣典》
 
@@ -99,8 +114,12 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
+&nbsp;
+
 ### 隆波帕默尊者
 {: id="luangpor_pramote"}
+
+&nbsp;
 
 泰国当代最知名的高僧大德之一，尤其以心念住和法念住的教导闻名于世
 
@@ -122,8 +141,12 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
+&nbsp;
+
 ### 隆塔纳荣萨尊者
 {: id="luangta_narongsak"}
+
+&nbsp;
 
 当代以直指人心的教法教导心念住的知名高僧大德
 
@@ -152,8 +175,12 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
+&nbsp;
+
 ### 南传上座部佛法
 {: id="theravada"}
+
+&nbsp;
 
 遵循佛陀的足迹与教诲……
 
