@@ -1,0 +1,45 @@
+// Background colours
+$backgroundColour: #ffffff !default;
+$codeBackgroundColour: #fafafa !default;
+$featureBackgroundColour: #f4f6f8 !default; // A very light, cool gray to complement the blue theme
+$accentColour: #3A77D8 !default; // A professional, deep blue
+
+// Text colours
+$headingColour: #2c3e50 !default; // A dark slate blue for headings
+$bodyColour: #34495e !default; // A slightly lighter slate blue for body text for good readability
+$linkColour: #3A77D8 !default; // Link color matches the accent blue
+$hoverColour: #2e60ad !default; // A darker shade of the link color for hover effect
+$focusColour: #fa407a !default; // Kept the original focus color as it provides a strong, accessible contrast
+$captionColour: #a8adac !default;
+$white: #ffffff !default;
+
+// Typography: 方案二 - 典雅复古风格 (Classic & Refined)
+
+$headingtype: (
+  // 标题和正文统一使用衬线体系，营造经典、沉稳的风格。
+  // Palatino (Mac) 和 Georgia (Win) 是非常经典的衬线字体。
+  // 中文搭配宋体(Songti SC, SimSun)和仿宋(FangSong)，保持风格一致。
+  font-family: '"Palatino", "Apple Garamond", Georgia, "Songti SC", "SimSun", "FangSong", serif',
+  regular: 400,
+  // 标题使用粗体来与正文区分
+  bold: 700,
+  cap-height: 0.75
+) !default;
+
+$bodytype: (
+  // 正文使用与标题相同的字体族，但字重为常规。
+  font-family: '"Palatino", "Apple Garamond", Georgia, "Songti SC", "SimSun", "FangSong", serif',
+  regular: 400,
+  bold: 700,
+  italic: italic,
+  cap-height: 0.75
+) !default;
+
+$monospacetype: (
+  // 等宽：保持功能性优先，这是代码字体的最佳实践组合。
+  font-family: '"SF Mono", "Fira Code", Menlo, Monaco, Consolas, "Courier New", monospace',
+  regular: 400,
+  cap-height: 0.68
+) !default;
+
+// TIP: Load custom fonts in _config.yaml
