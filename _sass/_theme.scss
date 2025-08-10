@@ -174,9 +174,7 @@ body {
 
 // Lists
 .list {
-  // list-style: none; // Modified by Kevin - 注释掉此行以显示列表标记 (圆点/数字)
-  list-style-position: inside; // Modified by Kevin - 将列表标记定位在内容内部，使其与文本左侧对齐
-  padding-left: 0; // Modified by Kevin - 移除ul元素的默认内边距，防止整体缩进
+  list-style: none;
   &--nav {
     overflow: hidden;
     margin-bottom: var(--listHeight, 0);
@@ -437,16 +435,6 @@ pre code {
       color: $backgroundColour;
     }
   }
-  
-  // Modified by Kevin - Start
-  // 控制blockquote的样式，使其左侧边框与文本边界对齐
-  blockquote {
-    margin-left: 0; // 移除默认的左外边距
-    padding-left: 1rem; // 为引用的文本添加左内边距（缩进）
-    border-left: 3px solid $captionColour; // 定义左侧竖线样式
-  }
-  // Modified by Kevin - End
-
   hr {
     width: 100%;
   }
@@ -456,6 +444,20 @@ pre code {
       margin: 0;
     }
   }
+
+  // Modified by Kevin - Start
+  // 解决了列表项符号（如小圆点）与块引用（blockquote）的对齐问题
+  ul, ol {
+    list-style-position: inside; // 将列表项符号放置在文本流内部，使其对齐
+    padding-left: 0; // 移除默认的左内边距，避免双重缩进
+  }
+  blockquote {
+    margin-left: 0; // 移除默认的左外边距，使块引用的边界与文本对齐
+    padding-left: 1rem; // 在左侧边框和文本之间添加一些空间
+    border-left: 4px solid #e0e0e0; // 添加装饰性的左侧竖线
+  }
+  // Modified by Kevin - End
+
   .nav a {
     padding-left: 0;
     padding-right: 0;
@@ -466,3 +468,4 @@ pre code {
     white-space: pre;
     overflow-x: scroll;
   }
+}
