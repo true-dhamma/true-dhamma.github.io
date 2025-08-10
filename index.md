@@ -3,10 +3,9 @@ title: 中文佛法资源
 feature_text: |
   ## True Dhamma
   为 **渴望** 或 **正在** 真切 **实践佛陀教法** 的 **华人** 而设立
-feature_image: "/uploads/top_banner_home.png"
+feature_image: /uploads/top_banner_home.png
 excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 ---
-
 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 
 <table style="width:100%; border: none;">
@@ -86,13 +85,15 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ### 巴利圣典 Tipitaka
 
+&nbsp;
+
 <div style="display: flex; justify-content: space-around;">
   <img src="/uploads/tipitaka_snapshot_1.webp" alt="Snapshot 1" width="32%" />
   <img src="/uploads/tipitaka_snapshot_2.webp" alt="Snapshot 2" width="32%" />
   <img src="/uploads/tipitaka_snapshot_3.webp" alt="Snapshot 3" width="32%" />
 </div>
 
-##### 简体中文白话文与巴利语对照《巴利圣典》
+##### 简体中文白话文与巴利语对照《巴利圣典》：
 
 * **全网唯一，带目录的EPUB(推荐)/MOBI/AZW3格式**
 * **全网唯一，完全白话文翻译**
