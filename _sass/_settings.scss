@@ -13,22 +13,23 @@ $focusColour: #fa407a !default; // Kept the original focus color as it provides 
 $captionColour: #a8adac !default;
 $white: #ffffff !default;
 
-// Typography: 方案二 - 典雅复古风格 (Classic & Refined)
+// Typography: 方案一 - 现代人文主义风格 (Modern Humanist)
 
 $headingtype: (
-  // 标题和正文统一使用衬线体系，营造经典、沉稳的风格。
-  // Palatino (Mac) 和 Georgia (Win) 是非常经典的衬线字体。
-  // 中文搭配宋体(Songti SC, SimSun)和仿宋(FangSong)，保持风格一致。
-  font-family: '"Palatino", "Apple Garamond", Georgia, "Songti SC", "SimSun", "FangSong", serif',
+  // 标题：使用现代、清晰、有力的无衬线字体。
+  // Avenir Next/Avenir 是 Mac 上非常优雅的几何无衬线字体。Franklin Gothic 在 Windows 上表现出类似的力量感。
+  font-family: '"Avenir Next", "Avenir", "Franklin Gothic Medium", "Segoe UI", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", sans-serif',
   regular: 400,
-  // 标题使用粗体来与正文区分
+  // 标题通常需要更粗的字重来突出
   bold: 700,
   cap-height: 0.75
 ) !default;
 
 $bodytype: (
-  // 正文使用与标题相同的字体族，但字重为常规。
-  font-family: '"Palatino", "Apple Garamond", Georgia, "Songti SC", "SimSun", "FangSong", serif',
+  // 正文：使用优雅、易读的衬线字体，营造书卷气和高级感。
+  // Iowan Old Style (Mac) 和 Georgia (Win) 是为屏幕显示优化的顶级衬线字体。
+  // 中文搭配宋体(Songti SC)和楷体(KaiTi)，气质非常匹配。
+  font-family: '"Iowan Old Style", "Palatino", "Apple Garamond", Georgia, "Songti SC", "SimSun", "KaiTi", serif',
   regular: 400,
   bold: 700,
   italic: italic,
