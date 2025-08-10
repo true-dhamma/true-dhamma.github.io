@@ -1,14 +1,36 @@
 ---
 title: 关于
-feature_text: 'A demo of Markdown and HTML includes
-
-'
+feature_text: |
+  A demo of Markdown and HTML includes
 feature_image: https://picsum.photos/2560/600?image=873
 excerpt: A demo of Markdown and HTML includes
 aside: true
 ---
+使用30年前的网页技术，构建了这个小网站。就让它安静的呆在这里，不与五欲的喧闹争锋。它不会有多少人访问，但深埋在Github数据底层的“法”，终究会被三两个有缘人遇到。
 
-# Heading 1
+### **孤勇者之路**
+
+佛法修行是一条艰苦漫长而又充满惊喜的旅程，这是一条“孤勇者”之路，希望看见这个网站的你，也能意识到在前行的路上，佛陀的教导始终与你相伴。
+
+### **法就是事实真相**
+
+真正的“法”（the True Dhamma）不是玄妙的东西，也不是高深的玄理，它只是时时刻刻在我们身心之内呈现的事实真相，仅此而已。然而，我们忽略它已经很久、很久。我们为了逃避事实真相，做了很多傻事……
+
+### **从真实法、真实心中生起力量**
+
+发现了真正的“法”，就是发现了“心”、发现了“道”——前行的路上将不再孤单——在这个世界上，再没有什么比真实更有力量的了！
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Heading 1
 
 ## Heading 2
 
