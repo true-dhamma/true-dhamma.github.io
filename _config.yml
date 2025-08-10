@@ -95,8 +95,6 @@ navigation_header:
   url: "/search/"
 - title: 关于ele
   url: "/about/"
-- title: 关于ele
-  url: "/elements/"
 navigation_footer:
 - title: Created by 智宁居士
   url: mailto:zhining@gmx.com
