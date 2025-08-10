@@ -7,7 +7,7 @@ tags:
 - 成瘾
 excerpt: 本书介绍了一种无需意志力的“信念方法”来戒除色情成瘾。它论证色情所带来的快感、减压等益处皆为幻觉，使用者并未放弃任何有价值的东西。核心在于识别并战胜大脑中寻求多巴胺的“心瘾”。通过改变错误信念，认识到色情成瘾的陷阱本质，用户可以轻松、永久地戒除，无需经历戒断痛苦或被剥夺感，从而重获自由与自信。
 feature_text: 
-feature-image: "/uploads/top_banner_addiction.png"
+feature-image: "/uploads/top_banner_tipitaka.png"
 ---
 
 **采用信念方法** **无需意志力** **没有戒断痛苦** **没有被剥夺感**
