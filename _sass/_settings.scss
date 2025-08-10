@@ -15,7 +15,10 @@ $white: #ffffff !default;
 
 // Typography
 $bodytype: (
-  font-family: "Georgia, serif",
+  // 正文使用经典的衬线字体 (Serif) 搭配各平台最优的无衬线中文字体 (Sans-serif)。
+  // 这种组合在屏幕上既保留了西文的优雅易读性，又确保了中文在小字号下的清晰度，是现代网页设计中的成熟方案。
+  // 顺序: Mac/iOS 英文 -> Win 英文 -> Mac 中文 -> Win 中文 -> Linux 英文 -> 开源中文 -> 备用
+  font-family: "Georgia", "Times New Roman", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", serif,
   regular: 400,
   bold: 700,
   italic: italic,
@@ -23,14 +26,21 @@ $bodytype: (
 ) !default;
 
 $headingtype: (
-  font-family: '"Merriweather", serif',
+  // 标题同样采用西文衬线搭配中文无衬线，但选择了更具设计感的 Merriweather。
+  // 中文字体与正文一致，通过字重 (bold) 来与正文进行区分，保证了视觉的统一性与力量感。
+  // 顺序: 优选英文字体 -> Mac 中文 -> Win 中文 -> 开源中文 -> 备用
+  font-family: '"Merriweather"', "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", serif,
   regular: 400,
   bold: 700,
   cap-height: 0.75
 ) !default;
 
 $monospacetype: (
-  font-family: "Menlo, monospace",
+  // 代码字体优先使用各平台最优的等宽字体。
+  // SF Mono (macOS) 和 Consolas (Windows) 都是非常出色的编程字体，能清晰地显示代码。
+  // 中文会由浏览器自动回退到默认的等宽或黑体，保持对齐。
+  // 顺序: Mac 新 -> Win -> Mac 旧 -> Linux -> 备用
+  font-family: "SFMono-Regular", "Consolas", "Menlo", "Liberation Mono", "PingFang SC", "Microsoft YaHei", monospace,
   regular: 400,
   cap-height: 0.68
 ) !default;
