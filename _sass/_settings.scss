@@ -14,10 +14,11 @@ $captionColour: #a8adac !default;
 $white: #ffffff !default;
 
 // Typography
+
+// 将整个 font-family 的值用单引号或双引号包裹，确保它被识别为一个字符串，而不是一个 Sass 列表。
+// This is the correct and more robust way.
 $bodytype: (
-  // 优先使用系统 UI 字体，以获得最佳原生体验。
-  // 英文字体在前，中文字体在后，确保中英文混排时都能调用到最合适的字体。
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, sans-serif,
+  font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, sans-serif',
   regular: 400,
   bold: 700,
   italic: italic,
@@ -25,17 +26,16 @@ $bodytype: (
 ) !default;
 
 $headingtype: (
-  // 标题字体与正文保持一致，以保证视觉统一性。通过字重和字号来区分层级。
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, sans-serif,
+  // 标题字体与正文保持一致，保证视觉统一性。
+  font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, sans-serif',
   regular: 400,
   bold: 700,
   cap-height: 0.75
 ) !default;
 
 $monospacetype: (
-  // 为代码和等宽场景选择清晰的等宽字体。
-  // SF Mono, Menlo, Monaco 在 Mac 上表现优异，Consolas 是 Windows 的首选。
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Menlo", "Monaco", "Consolas", "PingFang SC", "Microsoft YaHei", "Courier New", monospace,
+  // 等宽字体的 font stack 同样需要用引号包裹。
+  font-family: '"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", Menlo, Monaco, Consolas, "PingFang SC", "Microsoft YaHei", "Courier New", monospace',
   regular: 400,
   cap-height: 0.68
 ) !default;
