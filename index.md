@@ -13,19 +13,19 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
   <tbody><tr style="border: none;">
 
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-      <a href="#enlightenment">
+      <a href="#世间成瘾与出世间觉悟">
         <img src="/uploads/banner1.png" alt="《世间成瘾与出世间觉悟》及相关资源" style="width: 100%; max-width: 300px;" />
         </a><p><a href="#enlightenment">《世间成瘾与出世间觉悟》<br />及相关资源</a></p><a href="#enlightenment">
       </a><p></p>
     </td>
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-      <a href="#addiction">
+      <a href="#成瘾/以智慧戒断">
         <img src="/uploads/banner2.jpg" alt="成瘾/以智慧戒断 现代心理学" style="width: 100%; max-width: 300px;" />
         </a><p><a href="#addiction">成瘾/以智慧戒断<br />现代心理学</a></p><a href="#addiction">
       </a><p></p>
     </td>
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-      <a href="#tipitaka">
+      <a href="#巴利圣典 Tipitaka">
         <img src="/uploads/banner3.png" alt="巴利圣典 Pāli Tipiṭaka" style="width: 100%; max-width: 300px;" />
         </a><p><a href="#tipitaka">巴利圣典<br />Pāli Tipiṭaka</a></p><a href="#tipitaka">
       </a><p></p>
@@ -35,19 +35,19 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
       <a href="#luangpor_pramote">
         <img src="/uploads/banner4.jpg" alt="隆波帕默尊者 Luangpor Pramote Pamojjo" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#luangpor_pramote">隆波帕默尊者<br />Luangpor Pramote Pamojjo</a></p><a href="#luangpor_pramote">
+        </a><p><a href="#luangpor_pramote">隆波帕默尊者<br />Luangpor Pramote Pamojjo</a></p><a href="#隆波帕默尊者">
       </a><p></p>
     </td>
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
       <a href="#luangta_narongsak">
         <img src="/uploads/banner5.jpg" alt="隆塔纳荣萨尊者 Luangta Narongsak Kheenalayo" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#luangta_narongsak">隆塔纳荣萨尊者<br />Luangta Narongsak Kheenalayo</a></p><a href="#luangta_narongsak">
+        </a><p><a href="#luangta_narongsak">隆塔纳荣萨尊者<br />Luangta Narongsak Kheenalayo</a></p><a href="#隆塔纳荣萨尊者">
       </a><p></p>
     </td>
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
       <a href="#theravada">
         <img src="/uploads/banner6.jpg" alt="更多南传上座部佛法资源" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#theravada">更多南传上座部<br />佛法资源</a></p><a href="#theravada">
+        </a><p><a href="#theravada">更多南传上座部<br />佛法资源</a></p><a href="#南传上座部佛法">
       </a><p></p>
     </td>
   </tr>
@@ -55,16 +55,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
-&nbsp;
-
-&nbsp;
-
 ### 世间成瘾与出世间觉悟
-{: id="enlightenment"}
-
-&nbsp;
-
-&nbsp;
 
 世间成瘾与出世间觉悟
 
@@ -72,16 +63,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
-&nbsp;
-
-&nbsp;
-
 ### 成瘾/以智慧戒断
-{: id="addiction"}
-
-&nbsp;
-
-&nbsp;
 
 成瘾是堕入轮回不可自拔的体现，以智慧戒断成瘾则是从轮回中解脱的开始
 
@@ -97,18 +79,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
-&nbsp;
-
-&nbsp;
-
 ### 巴利圣典 Tipitaka
-{: id="tipitaka"}
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 简体中文白话文与巴利语对照《巴利圣典》
 
@@ -129,16 +100,8 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
-&nbsp;
-
-&nbsp;
-
 ### 隆波帕默尊者
 {: id="luangpor_pramote"}
-
-&nbsp;
-
-&nbsp;
 
 泰国当代最知名的高僧大德之一，尤其以心念住和法念住的教导闻名于世
 
@@ -160,16 +123,8 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ---
 
-&nbsp;
-
-&nbsp;
-
 ### 隆塔纳荣萨尊者
 {: id="luangta_narongsak"}
-
-&nbsp;
-
-&nbsp;
 
 当代以直指人心的教法教导心念住的知名高僧大德
 
@@ -199,7 +154,6 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 ---
 
 ### 南传上座部佛法
-{: id="theravada"}
 
 遵循佛陀的足迹与教诲……
 
