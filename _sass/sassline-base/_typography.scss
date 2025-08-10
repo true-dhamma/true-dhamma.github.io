@@ -126,8 +126,7 @@ a {
       &:before {
         content: counter(top-level) '.';
         font-feature-settings: 'lnum', 'tnum';
-        // margin-left: -3rem; Kevin
-        margin-left: 0;
+        margin-left: -3rem;
         position: absolute;
         text-align: right;
         width: 2em;
