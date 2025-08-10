@@ -21,13 +21,13 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
       <a href="#成瘾/以智慧戒断">
         <img src="/uploads/banner2.jpg" alt="成瘾/以智慧戒断 现代心理学" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#成瘾/以智慧戒断">成瘾/以智慧戒断<br />现代心理学</a></p><a href="#addiction">
+        </a><p><a href="#成瘾/以智慧戒断">成瘾/以智慧戒断<br />现代心理学</a></p><a href="#成瘾/以智慧戒断">
       </a><p></p>
     </td>
     <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
       <a href="#巴利圣典 Tipitaka">
         <img src="/uploads/banner3.png" alt="巴利圣典 Pāli Tipiṭaka" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#tipitaka">巴利圣典<br />Pāli Tipiṭaka</a></p><a href="#tipitaka">
+        </a><p><a href="#巴利圣典 Tipitaka">巴利圣典<br />Pāli Tipiṭaka</a></p><a href="#巴利圣典 Tipitaka">
       </a><p></p>
     </td>
   </tr>
