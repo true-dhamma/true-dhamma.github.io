@@ -3,10 +3,9 @@ title: 中文佛法资源
 feature_text: |
   ## True Dhamma
   为 **渴望** 或 **正在** 真切 **实践佛陀教法** 的 **华人** 而设立
-feature_image: "/uploads/top_banner_home.png"
+feature_image: /uploads/top_banner_home.png
 excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 ---
-
 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 
 <table style="width:100%; border: none;">
@@ -15,40 +14,40 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
         <a href="#世间成瘾与出世间觉悟" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner1.png" alt="《世间成瘾与出世间觉悟》及相关资源" style="width: 100%; max-width: 300px;" />
-          <p>《世间成瘾与出世间觉悟》<br />及相关资源</p>
-        </a>
+          </a><p><a href="#世间成瘾与出世间觉悟" style="text-decoration: none; color: inherit;">《世间成瘾与出世间觉悟》<br />及相关资源</a></p><a href="#世间成瘾与出世间觉悟" style="text-decoration: none; color: inherit;">
+        </a><p></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
         <a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner2.jpg" alt="成瘾/以智慧戒断 现代心理学" style="width: 100%; max-width: 300px;" />
-          <p>成瘾/以智慧戒断<br />现代心理学</p>
-        </a>
+          </a><p><a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">成瘾/以智慧戒断<br />现代心理学</a></p><a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">
+        </a><p></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
         <a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner3.png" alt="巴利圣典 Pāli Tipiṭaka" style="width: 100%; max-width: 300px;" />
-          <p>巴利圣典<br />Pāli Tipiṭaka</p>
-        </a>
+          </a><p><a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">巴利圣典<br />Pāli Tipiṭaka</a></p><a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">
+        </a><p></p>
       </td>
     </tr>
     <tr style="border: none;">
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
         <a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner4.jpg" alt="隆波帕默尊者 Luangpor Pramote Pamojjo" style="width: 100%; max-width: 300px;" />
-          <p>隆波帕默尊者<br />Luangpor Pramote Pamojjo</p>
-        </a>
+          </a><p><a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">隆波帕默尊者<br />Luangpor Pramote Pamojjo</a></p><a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">
+        </a><p></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
         <a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner5.jpg" alt="隆塔纳荣萨尊者 Luangta Narongsak Kheenalayo" style="width: 100%; max-width: 300px;" />
-          <p>隆塔纳荣萨尊者<br />Luangta Narongsak Kheenalayo</p>
-        </a>
+          </a><p><a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">隆塔纳荣萨尊者<br />Luangta Narongsak Kheenalayo</a></p><a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">
+        </a><p></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
         <a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner6.jpg" alt="更多南传上座部佛法资源" style="width: 100%; max-width: 300px;" />
-          <p>更多南传上座部<br />佛法资源</p>
-        </a>
+          </a><p><a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">更多南传上座部<br />佛法资源</a></p><a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">
+        </a><p></p>
       </td>
     </tr>
   </tbody>
