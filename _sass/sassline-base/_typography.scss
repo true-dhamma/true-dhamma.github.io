@@ -116,6 +116,17 @@ a {
     }
   }
 
+  // Modified by Kevin
+  // Add specific rules for unordered lists to align the bullet point with the left text boundary.
+  ul {
+    list-style-position: inside;
+    padding-left: 0; // Remove padding to align bullet with the text boundary.
+
+    li {
+      margin-left: 0; // Remove margin to prevent indentation.
+    }
+  }
+
   // Ordered lists.
   ol {
     list-style-type: none;
@@ -268,6 +279,10 @@ a {
 
   // Quotes.
   blockquote {
+    // Modified by Kevin
+    // Set margin-left to 0 to align the blockquote's left edge (the vertical line)
+    // with the surrounding text, preventing the outdent effect.
+    margin-left: 0;
 
     p {
       border-left: 0.15rem solid $linkColour;
@@ -299,7 +314,7 @@ a {
     }
 
     @include breakpoint(break-1) {
-      margin-left: -1rem;
+      // margin-left: -1rem; // Modified by Kevin: This rule caused the outdent and is now handled above.
     }
   }
 
@@ -360,4 +375,4 @@ a {
   .oldstyle-numerals {
     font-feature-settings: 'onum', 'kern';
   }
-}
+  // Kevin
