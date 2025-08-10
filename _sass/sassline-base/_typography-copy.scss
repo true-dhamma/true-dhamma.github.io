@@ -1,15 +1,3 @@
-好的，我已经根据您的要求修改了CSS文件。
-
-主要有两处修改：
-
-1.  **处理 `<ul>` 列表项的小圆点对齐问题：**
-    *   我添加了针对 `<ul>` 的特定样式，通过设置 `list-style-position: inside;` 让项目符号（小圆点）成为列表项内容的一部分，并移除了 `padding` 和 `margin`，从而使小圆点能够与上方文本的左侧边界对齐。
-2.  **处理 `<blockquote>` 引用块的左侧竖线对齐问题：**
-    *   我修改了 `<blockquote>` 的样式，将其 `margin-left` 设置为 `0`，并移除了在特定断点下导致其向左“凸出”的负外边距规则。这使得引用块的左侧竖线能够与常规文本的左侧边界对齐。
-
-以下是修改后的完整SCSS源文件，修改之处已添加了您要求的注释。
-
-```scss
 // Typography
 // ---------------------------------------
 
@@ -125,17 +113,6 @@ a {
         margin-bottom: 1rem;
         margin-left: 2rem;
       }
-    }
-  }
-
-  // Modified by Kevin
-  // Add specific rules for unordered lists to align the bullet point with the left text boundary.
-  ul {
-    list-style-position: inside;
-    padding-left: 0; // Remove padding to align bullet with the text boundary.
-
-    li {
-      margin-left: 0; // Remove margin to prevent indentation.
     }
   }
 
@@ -291,10 +268,6 @@ a {
 
   // Quotes.
   blockquote {
-    // Modified by Kevin
-    // Set margin-left to 0 to align the blockquote's left edge (the vertical line)
-    // with the surrounding text, preventing the outdent effect.
-    margin-left: 0;
 
     p {
       border-left: 0.15rem solid $linkColour;
@@ -326,7 +299,7 @@ a {
     }
 
     @include breakpoint(break-1) {
-      // margin-left: -1rem; // Modified by Kevin: This rule caused the outdent and is now handled above.
+      margin-left: -1rem;
     }
   }
 
@@ -388,4 +361,3 @@ a {
     font-feature-settings: 'onum', 'kern';
   }
 }
-```
