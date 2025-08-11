@@ -1,15 +1,16 @@
 ---
 title: EasyWay这书能让你戒掉咖啡因
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 揭示咖啡因的成瘾机制和心理骗局，消除人们对咖啡因“益处”的误解，如提神、助专注等。读者可以在无剥夺感的情况下，快乐地实现永久戒断。
-feature_text:
-feature_image: /uploads/top_banner_addiction.png
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.png"
 aside: true
 ---
+
 > ##### The Easy Way to Quit Caffeine - Allen Carr - 摘要
 >
 > ##### 这书能让你戒掉咖啡因 - 艾伦·卡尔
