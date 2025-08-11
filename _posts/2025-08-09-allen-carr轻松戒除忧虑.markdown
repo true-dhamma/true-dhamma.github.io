@@ -1,15 +1,16 @@
 ---
 title: Allen Carr轻松戒除忧虑
-date: 2025-08-09T21:13:00+08:00
+date: 2025-08-09 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 本书摘要了“轻松法”：忧虑源于社会“洗脑”而非天性。通过重塑思维并遵循其法则，任何人都能摆脱精神枷锁，重获平静、自主、快乐的生活。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### **Allen Carr’s No More Worrying - 摘要**
 
 ## 目录

@@ -1,15 +1,16 @@
 ---
 title: Allen Carr从手机成瘾中解放出来
-date: 2025-08-09T21:13:00+08:00
+date: 2025-08-09 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 本书运用著名的“轻松法”原理，助你摆脱数字成瘾。其核心是改变思维而非依赖意志力，通过揭示数字垃圾的成瘾真相，消除其带来快乐的幻觉，从而轻松重获自由。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### **Smart Phone Dumb Phone - Allen Carr - 摘要**
 >
 > 作者：艾伦·卡尔 (Allen Carr) 与 约翰·迪西 (John Dicey)
