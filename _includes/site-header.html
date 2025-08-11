@@ -1,4 +1,16 @@
 <header class="header">
+  // Baidu统计
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8e011a93010c7c8768cdc64bc31cbc41";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+// Baidu统计结束
+  
   <div class="container">
     {% if site.logo %}{% include site-logo.html %}{% endif %}
 
@@ -6,5 +18,4 @@
   </div>
 
   {% include site-feature.html %}
-
 </header>
