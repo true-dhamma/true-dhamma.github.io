@@ -11,7 +11,7 @@ feature_image: "/uploads/top_banner_addiction.png"
 aside: true
 ---
 
-**The EasyWay to Stop Drinking - Allen Carr - 摘要**
+> ##### **The EasyWay to Stop Drinking - Allen Carr - 摘要**
 
 ## 目录
 

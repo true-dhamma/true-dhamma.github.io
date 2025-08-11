@@ -49,8 +49,8 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
-paginate: 2
-paginate_path: blog/page:num
+paginate: 10
+paginate_path: "/blog/page:num"
 jekyll-mentions: 
 twitter:
   username: 
@@ -90,13 +90,13 @@ navigation_header:
 - title: 巴利圣典
   url: "/南传上座部佛教/2025/08/09/巴利圣典/"
 - title: 文章
-  url: "/categories/"
+  url: "/blog/"
+- title: 网盘
+  url: https://download.true-dhamma.com/
 - title: 搜索
   url: "/search/"
-- title: 关于ele
+- title: 关于本站
   url: "/about/"
-- title: 关于ele
-  url: "/elements/"
 navigation_footer:
 - title: Created by 智宁居士
   url: mailto:zhining@gmx.com

@@ -11,9 +11,9 @@ feature_image: "/uploads/top_banner_addiction.png"
 aside: true
 ---
 
-**Smart Phone Dumb Phone - Allen Carr - 摘要**
-
-作者：艾伦·卡尔 (Allen Carr) 与 约翰·迪西 (John Dicey)
+> ##### **Smart Phone Dumb Phone - Allen Carr - 摘要**
+>
+> 作者：艾伦·卡尔 (Allen Carr) 与 约翰·迪西 (John Dicey)
 
 ### 内容摘要
 

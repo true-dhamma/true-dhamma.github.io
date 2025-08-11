@@ -11,8 +11,8 @@ feature_image: "/uploads/top_banner_addiction.png"
 aside: true
 ---
 
-**Get Out of Debt Now - Allen Carr - 摘要**
-
+> ##### **Get Out of Debt Now - Allen Carr - 摘要**
+>
 > “一旦家庭生活建立在借贷和负债的基础上，它就不再自由和美好。” ——亨利克·易卜生
 
 ## 目录

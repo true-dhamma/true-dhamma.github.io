@@ -10,77 +10,85 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 
 <table style="width:100%; border: none;">
-  <tbody><tr style="border: none;">
-
-    <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-      <a href="#enlightenment">
-        <img src="/uploads/banner1.png" alt="《世间成瘾与出世间觉悟》及相关资源" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#enlightenment">《世间成瘾与出世间觉悟》<br />及相关资源</a></p><a href="#enlightenment">
-      </a><p></p>
-    </td>
-    <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-      <a href="#addiction">
-        <img src="/uploads/banner2.jpg" alt="成瘾/以智慧戒断 现代心理学" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#addiction">成瘾/以智慧戒断<br />现代心理学</a></p><a href="#addiction">
-      </a><p></p>
-    </td>
-    <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-      <a href="#tipitaka">
-        <img src="/uploads/banner3.png" alt="巴利圣典 Pāli Tipiṭaka" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#tipitaka">巴利圣典<br />Pāli Tipiṭaka</a></p><a href="#tipitaka">
-      </a><p></p>
-    </td>
-  </tr>
-  <tr style="border: none;">
-    <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-      <a href="#luangpor_pramote">
-        <img src="/uploads/banner4.jpg" alt="隆波帕默尊者 Luangpor Pramote Pamojjo" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#luangpor_pramote">隆波帕默尊者<br />Luangpor Pramote Pamojjo</a></p><a href="#luangpor_pramote">
-      </a><p></p>
-    </td>
-    <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-      <a href="#luangta_narongsak">
-        <img src="/uploads/banner5.jpg" alt="隆塔纳荣萨尊者 Luangta Narongsak Kheenalayo" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#luangta_narongsak">隆塔纳荣萨尊者<br />Luangta Narongsak Kheenalayo</a></p><a href="#luangta_narongsak">
-      </a><p></p>
-    </td>
-    <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-      <a href="#theravada">
-        <img src="/uploads/banner6.jpg" alt="更多南传上座部佛法资源" style="width: 100%; max-width: 300px;" />
-        </a><p><a href="#theravada">更多南传上座部<br />佛法资源</a></p><a href="#theravada">
-      </a><p></p>
-    </td>
-  </tr>
-</tbody></table>
+  <tbody>
+    <tr style="border: none;">
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+        <a href="#世间成瘾与出世间觉悟" style="text-decoration: none; color: inherit;">
+          <img src="/uploads/banner1.png" alt="《世间成瘾与出世间觉悟》及相关资源" style="width: 100%; max-width: 300px;" />
+          </a><p><a href="#世间成瘾与出世间觉悟" style="text-decoration: none; color: inherit;">《世间成瘾与出世间觉悟》<br />及相关资源</a></p><a href="#世间成瘾与出世间觉悟" style="text-decoration: none; color: inherit;">
+        </a><p></p>
+      </td>
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+        <a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">
+          <img src="/uploads/banner2.jpg" alt="成瘾/以智慧戒断 现代心理学" style="width: 100%; max-width: 300px;" />
+          </a><p><a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">成瘾/以智慧戒断<br />现代心理学</a></p><a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">
+        </a><p></p>
+      </td>
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+        <a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">
+          <img src="/uploads/banner3.png" alt="巴利圣典 Pāli Tipiṭaka" style="width: 100%; max-width: 300px;" />
+          </a><p><a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">巴利圣典<br />Pāli Tipiṭaka</a></p><a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">
+        </a><p></p>
+      </td>
+    </tr>
+    <tr style="border: none;">
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+        <a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">
+          <img src="/uploads/banner4.jpg" alt="隆波帕默尊者 Luangpor Pramote Pamojjo" style="width: 100%; max-width: 300px;" />
+          </a><p><a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">隆波帕默尊者<br />Luangpor Pramote Pamojjo</a></p><a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">
+        </a><p></p>
+      </td>
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+        <a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">
+          <img src="/uploads/banner5.jpg" alt="隆塔纳荣萨尊者 Luangta Narongsak Kheenalayo" style="width: 100%; max-width: 300px;" />
+          </a><p><a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">隆塔纳荣萨尊者<br />Luangta Narongsak Kheenalayo</a></p><a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">
+        </a><p></p>
+      </td>
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+        <a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">
+          <img src="/uploads/banner6.jpg" alt="更多南传上座部佛法资源" style="width: 100%; max-width: 300px;" />
+          </a><p><a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">更多南传上座部<br />佛法资源</a></p><a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">
+        </a><p></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ### 世间成瘾与出世间觉悟
-{: id="enlightenment"}
 
 世间成瘾与出世间觉悟
 
 世间成瘾与出世间觉悟 世间成瘾与出世间觉悟
 
+[aaa](https://true-dhamma.github.io/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%95%99/2025/08/09/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8/){: target="_blank" rel="noopener"}
+
 ---
 
 ### 成瘾/以智慧戒断
-{: id="addiction"}
 
 成瘾是堕入轮回不可自拔的体现，以智慧戒断成瘾则是从轮回中解脱的开始
 
-**提供相关公开版权的内容或音视频的中文翻译：** \* Allen Carr’s Easy Way \* Jack Trimpey’s Rational Racovery及AVRT \* EasyPeasy Way等
+**提供相关公开版权的内容或音视频的中文翻译：**
 
-**帮助了解以下成瘾的本质，并以智慧或觉性戒断：** \* 烟、糖、药物等等（EasyWay） \* 酒精、肥胖（RR/AVRT） \* 色情（EasyPeasy）
+* Allen Carr’s Easy Way
+* Jack Trimpey’s Rational Racovery及AVRT
+* EasyPeasy Way等
+
+**帮助了解以下成瘾的本质，并以智慧或觉性戒断：**
+
+* 烟、酒精、药物、糖、贷款等等（EasyWay）
+* 酒精、肥胖、赌博（RR/AVRT）
+* 色情（EasyPeasy）
 
 ……详情请访问 [\[True-Dhamma网盘\]](https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/){: target="_blank" rel="noopener"}
 
 ---
 
 ### 巴利圣典 Tipitaka
-{: id="tipitaka"}
 
-简体中文白话文与巴利语对照《巴利圣典》
+&nbsp;
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/uploads/tipitaka_snapshot_1.webp" alt="Snapshot 1" width="32%" />
@@ -88,7 +96,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
   <img src="/uploads/tipitaka_snapshot_3.webp" alt="Snapshot 3" width="32%" />
 </div>
 
-<br>
+##### 简体中文白话文与巴利语对照《巴利圣典》：
 
 * **全网唯一，带目录的EPUB(推荐)/MOBI/AZW3格式**
 * **全网唯一，完全白话文翻译**
@@ -100,7 +108,6 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 ---
 
 ### 隆波帕默尊者
-{: id="luangpor_pramote"}
 
 泰国当代最知名的高僧大德之一，尤其以心念住和法念住的教导闻名于世
 
@@ -123,7 +130,6 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 ---
 
 ### 隆塔纳荣萨尊者
-{: id="luangta_narongsak"}
 
 当代以直指人心的教法教导心念住的知名高僧大德
 
@@ -153,7 +159,6 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 ---
 
 ### 南传上座部佛法
-{: id="theravada"}
 
 遵循佛陀的足迹与教诲……
 

@@ -11,7 +11,7 @@ feature_image: "/uploads/top_banner_addiction.png"
 aside: true
 ---
 
-**Rational Recovery - 杰克·特林佩 (Jack Trimpey) - 摘要**
+> ##### **Rational Recovery - Jack Trimpey - 摘要**
 
 ### **核心理念**
 
