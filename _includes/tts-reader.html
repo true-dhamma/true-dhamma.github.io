@@ -1,10 +1,10 @@
 <!-- tts-reader.html -->
 <!-- 
-  修改版功能 v4 (稳定版):
-  1. 采用“分句朗读”模式，彻底修复所有浏览器（尤其是Edge）的暂停/继续播放bug。
-  2. Safari 语音选择顺序: "Siri" -> "莉莉 (Li-li)" -> "语舒 (Yu-Shu)"。
-  3. Edge 浏览器优先选择 Yunyang (Natural) 语音。
-  4. 按钮为内联样式，可插入任意位置。
+  修改版功能 v5 (最终稳定版):
+  - 重写核心逻辑，采用清晰的状态管理，彻底修复所有浏览器的暂停/继续播放bug。
+  - Safari 语音选择顺序: "Siri" -> "莉莉 (Li-li)" -> "语舒 (Yu-Shu)"。
+  - Edge 浏览器优先选择 Yunyang (Natural) 语音。
+  - 内联样式，可插入任意位置。
 -->
 
 <span class="tts-reader-wrapper" id="tts-reader-container" style="display: none;">
@@ -15,17 +15,8 @@
 </span>
 
 <style>
-  .tts-reader-wrapper {
-    display: inline-flex; align-items: center; justify-content: center;
-    vertical-align: middle; margin: 0 0.2em;
-  }
-  .tts-button {
-    display: flex; justify-content: center; align-items: center;
-    width: 32px; height: 32px; border: 1px solid #ddd;
-    background-color: #f7f7f7; border-radius: 50%;
-    cursor: pointer; padding: 0;
-    transition: background-color 0.2s ease-in-out, transform 0.1s ease;
-  }
+  .tts-reader-wrapper { display: inline-flex; align-items: center; justify-content: center; vertical-align: middle; margin: 0 0.2em; }
+  .tts-button { display: flex; justify-content: center; align-items: center; width: 32px; height: 32px; border: 1px solid #ddd; background-color: #f7f7f7; border-radius: 50%; cursor: pointer; padding: 0; transition: background-color 0.2s ease-in-out, transform 0.1s ease; }
   .tts-button:hover { background-color: #e0e0e0; }
   .tts-button:active { transform: scale(0.9); }
   .tts-icon { fill: #333; width: 20px; height: 20px; }
@@ -48,59 +39,66 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const textElements = article.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
   const fullText = Array.from(textElements).map(el => el.innerText.trim()).join(' ');
-  
-  // 1. **分句逻辑**：将文本分割成句子数组
   const sentences = fullText.match(/[^.!?…]+[.!?…]*/g) || [];
   if (sentences.length === 0) return;
   
   let preferredVoice = null;
   const pageLang = document.documentElement.lang || 'zh-CN';
   
-  // --- State Management ---
-  let currentSentenceIndex = 0; // 记录当前播放到第几个句子
-  let isPaused = true;          // 控制播放/暂停状态
+  // --- Core State ---
+  let sentenceIndex = 0;
+  let isPlaying = false; // The single source of truth for playback state.
 
   const updateUI = () => {
-    if (isPaused) {
-      playIcon.style.display = 'inline-block';
-      pauseIcon.style.display = 'none';
-      playPauseBtn.setAttribute('aria-label', '朗读文章');
-    } else {
+    if (isPlaying) {
       playIcon.style.display = 'none';
       pauseIcon.style.display = 'inline-block';
       playPauseBtn.setAttribute('aria-label', '暂停朗读');
+    } else {
+      playIcon.style.display = 'inline-block';
+      pauseIcon.style.display = 'none';
+      playPauseBtn.setAttribute('aria-label', '朗读文章');
     }
   };
-
-  const playQueue = () => {
-    // 如果是暂停状态，或者所有句子都已读完，则停止
-    if (isPaused || currentSentenceIndex >= sentences.length) {
-      if (currentSentenceIndex >= sentences.length) { // 自然播放结束
-        currentSentenceIndex = 0; // 重置以便下次播放
-        isPaused = true;
-      }
+  
+  const resetReader = () => {
+      isPlaying = false;
+      sentenceIndex = 0;
       updateUI();
+  };
+
+  const handleSentenceEnd = () => {
+    // This is the key logic. It's called when a sentence finishes
+    // for any reason (natural end or cancellation).
+    
+    // We only proceed if the state is still "playing".
+    // If the user clicked pause, `isPlaying` will be false, and this chain will stop.
+    if (!isPlaying) {
       return;
     }
-
-    const sentence = sentences[currentSentenceIndex];
-    const utterance = new SpeechSynthesisUtterance(sentence);
+    
+    sentenceIndex++;
+    
+    // If there are more sentences, play the next one.
+    if (sentenceIndex < sentences.length) {
+      playCurrentSentence();
+    } else {
+      // All sentences have been played.
+      resetReader();
+    }
+  };
+  
+  const playCurrentSentence = () => {
+    const utterance = new SpeechSynthesisUtterance(sentences[sentenceIndex]);
     utterance.lang = pageLang;
     if (preferredVoice) utterance.voice = preferredVoice;
 
-    utterance.onend = () => {
-      // 只有在非暂停状态下（即句子自然结束），才自动播放下一句
-      if (!isPaused) {
-        currentSentenceIndex++;
-        playQueue();
-      }
-    };
+    // Set the callback for when this sentence finishes.
+    utterance.onend = handleSentenceEnd;
     
     utterance.onerror = (event) => {
       console.error('朗读发生错误:', event);
-      isPaused = true;
-      currentSentenceIndex = 0;
-      updateUI();
+      resetReader();
     };
 
     synth.speak(utterance);
@@ -135,27 +133,27 @@ document.addEventListener('DOMContentLoaded', () => {
   synth.onvoiceschanged = selectVoice;
   selectVoice();
 
-  // --- Click Handler ---
+  // --- The Master Click Handler ---
   playPauseBtn.addEventListener('click', () => {
-    if (isPaused) {
-      // --- 从暂停/停止状态 -> 开始播放 ---
-      isPaused = false;
+    // Toggle the desired state.
+    isPlaying = !isPlaying;
+
+    if (isPlaying) {
+      // --- User wants to PLAY or RESUME ---
       updateUI();
-      // 在开始前确保语音已加载
-      if (!preferredVoice) selectVoice();
-      playQueue();
+      if (!preferredVoice) selectVoice(); // Ensure voice is selected
+      playCurrentSentence();
     } else {
-      // --- 从播放状态 -> 暂停 ---
-      isPaused = true;
-      synth.cancel(); // 立即停止当前朗读
+      // --- User wants to PAUSE ---
+      // This will stop speech and trigger the `onend` event.
+      // The `handleSentenceEnd` function will see `isPlaying` is false and stop the chain.
+      // The sentenceIndex is NOT incremented, so resume is correct.
+      synth.cancel();
       updateUI();
-      // `cancel`会触发`onend`事件, 但因为isPaused=true, 朗读链会中断, 句号不变
     }
   });
 
   window.addEventListener('beforeunload', () => {
-    isPaused = true;
-    currentSentenceIndex = 0;
     synth.cancel();
   });
 
