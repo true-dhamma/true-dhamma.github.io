@@ -1,7 +1,7 @@
 <!-- tts-fab-reader.html -->
 <!-- 浮动操作按钮 (FAB) 形式的 TTS 阅读器 -->
 <!-- 放置在 Jekyll 的 _includes 文件夹下 -->
-<!-- 已更新语音选择逻辑 (2025-08-11) -->
+<!-- 已集成调试信息输出功能 (2025-08-11) -->
 
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
   <button id="tts-play-pause-btn" class="tts-button" aria-label="朗读文章">
@@ -10,13 +10,16 @@
   </button>
 </div>
 
+<!-- 用于显示调试信息的新增区域 -->
+<div id="tts-debug-info" style="display: none;"></div>
+
 <style>
   /* 浮动按钮容器 */
   .tts-fab-container {
-    position: fixed; /* 固定定位，不随滚动条滚动 */
-    bottom: 30px;    /* 距离底部30px */
-    right: 30px;     /* 距离右侧30px */
-    z-index: 1000;   /* 确保在页面其他元素之上 */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
   }
 
   /* 按钮样式 */
@@ -24,19 +27,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;   /* 按钮宽度 50px */
-    height: 50px;  /* 按钮高度 50px */
+    width: 50px;
+    height: 50px;
     border: none;
     background-color: #ffffff;
-    border-radius: 50%; /* 圆形按钮 */
+    border-radius: 50%;
     cursor: pointer;
     padding: 0;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* 更明显的阴影效果 */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     transition: background-color 0.2s ease-in-out, transform 0.2s ease;
   }
   .tts-button:hover {
     background-color: #f2f2f2;
-    transform: translateY(-2px); /* 悬浮时轻微上移 */
+    transform: translateY(-2px);
   }
   .tts-button:active {
     transform: scale(0.95);
@@ -45,39 +48,88 @@
   /* 图标样式 */
   .tts-icon {
     fill: #333;
-    width: 24px;  /* 图标尺寸适配新按钮 */
+    width: 24px;
     height: 24px;
   }
 
   /* 朗读时高亮当前元素 */
   .tts-highlight {
-    background-color: #fef8e0; /* 一个柔和的黄色高亮 */
-    scroll-margin-top: 40px; /* 滚动到视图时顶部留白，避免被导航栏遮挡 */
+    background-color: #fef8e0;
+    scroll-margin-top: 40px;
     transition: background-color 0.3s ease;
+  }
+
+  /* 调试信息框样式 */
+  #tts-debug-info {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    width: 300px;
+    max-height: 70vh;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 12px;
+    line-height: 1.5;
+    z-index: 999;
+    border: 1px solid #555;
+    display: block; /* 默认显示，方便调试 */
+  }
+  #tts-debug-info h4 {
+    margin: 10px 0 5px 0;
+    color: #4CAF50; /* 绿色标题 */
+    border-bottom: 1px solid #4CAF50;
+    padding-bottom: 3px;
+  }
+  #tts-debug-info div {
+    margin-bottom: 5px;
+    word-wrap: break-word;
+  }
+  #tts-debug-info .voice-list {
+    color: #e0e0e0;
+  }
+   #tts-debug-info .logic-step {
+    color: #ffeb3b; /* 黄色表示逻辑步骤 */
+  }
+  #tts-debug-info .final-choice {
+    color: #2196F3; /* 蓝色表示最终选择 */
+    font-weight: bold;
   }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const synth = window.speechSynthesis;
-  if (!synth) {
-    console.warn('浏览器不支持 Web Speech API。');
-    return;
-  }
-
   // --- DOM 元素引用 ---
   const container = document.getElementById('tts-fab-container');
   const playPauseBtn = document.getElementById('tts-play-pause-btn');
   const playIcon = document.getElementById('tts-play-icon');
   const pauseIcon = document.getElementById('tts-pause-icon');
   const article = document.querySelector('article');
+  const debugInfoBox = document.getElementById('tts-debug-info'); // 调试信息框
 
-  if (!article) {
-    // 如果页面没有<article>标签，则不显示按钮
+  // --- 调试信息输出函数 ---
+  const logDebug = (htmlContent) => {
+    if (debugInfoBox) {
+      debugInfoBox.innerHTML += htmlContent;
+    }
+    console.log(htmlContent.replace(/<[^>]*>/g, '')); // 同时在控制台输出纯文本
+  };
+  
+  if (!synth) {
+    logDebug('<h4>错误</h4><div>浏览器不支持 Web Speech API。</div>');
     return;
   }
 
-  // --- 状态管理 ---
+  if (!article) {
+    logDebug('<h4>信息</h4><div>页面中未找到 &lt;article&gt; 标签，朗读功能不加载。</div>');
+    return;
+  }
+
+  // --- 状态管理等其他代码 (保持不变) ---
   let isReading = false;
   let isPaused = false;
   let utteranceQueue = [];
@@ -85,161 +137,139 @@ document.addEventListener('DOMContentLoaded', () => {
   let preferredVoice = null;
   let currentlyHighlightedElement = null;
 
-  // --- UI 更新 ---
-  const updateUI = () => {
-    if (isReading && !isPaused) { // 正在播放
-      playIcon.style.display = 'none';
-      pauseIcon.style.display = 'inline-block';
-      playPauseBtn.setAttribute('aria-label', '暂停');
-    } else { // 暂停或停止状态
-      playIcon.style.display = 'inline-block';
-      pauseIcon.style.display = 'none';
-      playPauseBtn.setAttribute('aria-label', isPaused ? '继续朗读' : '朗读文章');
-    }
+  const updateUI = () => { /* ... (此函数保持不变) ... */
+    if (isReading && !isPaused) { playIcon.style.display = 'none'; pauseIcon.style.display = 'inline-block'; playPauseBtn.setAttribute('aria-label', '暂停'); } else { playIcon.style.display = 'inline-block'; pauseIcon.style.display = 'none'; playPauseBtn.setAttribute('aria-label', isPaused ? '继续朗读' : '朗读文章'); }
   };
-  
-  // --- 高亮处理 ---
-  const clearHighlight = () => {
-    if (currentlyHighlightedElement) {
-      currentlyHighlightedElement.classList.remove('tts-highlight');
-      currentlyHighlightedElement = null;
-    }
+  const clearHighlight = () => { /* ... (此函数保持不变) ... */
+    if (currentlyHighlightedElement) { currentlyHighlightedElement.classList.remove('tts-highlight'); currentlyHighlightedElement = null; }
+  };
+  const highlightElement = (element) => { /* ... (此函数保持不变) ... */
+    clearHighlight(); if (element) { element.classList.add('tts-highlight'); currentlyHighlightedElement = element; element.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+  };
+  const playNext = () => { /* ... (此函数保持不变) ... */
+    if (currentUtteranceIndex >= utteranceQueue.length) { stopReading(); return; } const { utterance, element } = utteranceQueue[currentUtteranceIndex]; utterance.onstart = () => highlightElement(element); utterance.onend = () => { currentUtteranceIndex++; playNext(); }; utterance.onerror = (event) => { console.error('朗读发生错误:', event); stopReading(); }; synth.speak(utterance);
+  };
+  const startReading = () => { /* ... (此函数保持不变) ... */
+    if (!preferredVoice) { setTimeout(startReading, 100); return; } isReading = true; isPaused = false; currentUtteranceIndex = 0; utteranceQueue.forEach(item => item.utterance.voice = preferredVoice); playNext(); updateUI();
+  };
+  const stopReading = () => { /* ... (此函数保持不变) ... */
+    isReading = false; isPaused = false; synth.cancel(); clearHighlight(); updateUI();
   };
 
-  const highlightElement = (element) => {
-    clearHighlight();
-    if (element) {
-      element.classList.add('tts-highlight');
-      currentlyHighlightedElement = element;
-      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-  };
-
-  // --- 语音合成核心逻辑 ---
-  const playNext = () => {
-    if (currentUtteranceIndex >= utteranceQueue.length) {
-      stopReading();
-      return;
-    }
-
-    const { utterance, element } = utteranceQueue[currentUtteranceIndex];
-    
-    utterance.onstart = () => highlightElement(element);
-    utterance.onend = () => {
-      currentUtteranceIndex++;
-      playNext();
-    };
-    utterance.onerror = (event) => {
-      console.error('朗读发生错误:', event);
-      stopReading();
-    };
-    
-    synth.speak(utterance);
-  };
-
-  const startReading = () => {
-    if (!preferredVoice) {
-        // 如果语音尚未加载，稍等片刻后重试
-        setTimeout(startReading, 100);
-        return;
-    }
-    
-    isReading = true;
-    isPaused = false;
-    currentUtteranceIndex = 0;
-    
-    utteranceQueue.forEach(item => item.utterance.voice = preferredVoice);
-    playNext();
-    updateUI();
-  };
-
-  const stopReading = () => {
-    isReading = false;
-    isPaused = false;
-    synth.cancel();
-    clearHighlight();
-    updateUI();
-  };
-
-  // --- 语音选择 (已重构) ---
+  // --- 重构的语音选择逻辑，并集成调试输出 ---
   const selectVoice = () => {
+    // 每次重新选择时清空调试信息
+    debugInfoBox.innerHTML = '';
+  
     const voices = synth.getVoices();
-    if (voices.length === 0) return;
-
     const pageLang = document.documentElement.lang || 'zh-CN';
     const langPrefix = pageLang.split('-')[0];
 
-    // --- 更精准的平台和浏览器检测 ---
+    // --- 1. 环境检测并输出 ---
+    logDebug('<h4>1. 环境检测</h4>');
     const userAgent = navigator.userAgent;
     const platform = navigator.platform;
-
-    // 平台检测
     const isIOS = /iPhone|iPad|iPod/.test(platform) || (platform === 'MacIntel' && navigator.maxTouchPoints > 1);
     const isMac = /Mac/.test(platform) && !isIOS;
     const isPC = /Win/.test(platform);
-    
-    // 浏览器检测 (能区分不同平台上的Edge)
     const isEdgeOnDesktop = /Edg\//.test(userAgent);
     const isEdgeOnIOS = /EdgiOS/.test(userAgent);
     const isEdge = isEdgeOnDesktop || isEdgeOnIOS;
     const isSafari = /Safari/.test(userAgent) && !/Chrome/.test(userAgent) && !isEdge;
     const isChrome = /Chrome/.test(userAgent) && !isEdge;
 
-    let voiceChecks = [];
+    logDebug(`<div><b>OS:</b> ${isIOS ? 'iOS' : isMac ? 'macOS' : isPC ? 'Windows PC' : 'Other'}</div>`);
+    logDebug(`<div><b>Browser:</b> ${isEdge ? 'Edge' : isSafari ? 'Safari' : isChrome ? 'Chrome' : 'Other'}</div>`);
+    logDebug(`<div><b style="color: #ccc;">UserAgent:</b> ${userAgent}</div>`);
 
-    // --- 语音优先级规则 ---
-
-    // 规则 1: Edge 浏览器 (PC/Mac/iOS) 优先使用微软语音
-    if (isEdge) {
-      voiceChecks.push(v => v.lang.startsWith(langPrefix) && v.name.includes('Microsoft Xiaoxiao Online'));
-      voiceChecks.push(v => v.lang.startsWith(langPrefix) && v.name.includes('Microsoft Yunyang Online'));
+    if (voices.length === 0) {
+      logDebug('<h4>警告</h4><div>浏览器语音列表为空，稍后重试...</div>');
+      return;
     }
-
-    // 规则 2: PC/Mac 上的 Safari 或 Chrome
-    // "Siri" 和 "Ting-Ting" 主要存在于苹果设备，此规则在Mac上效果最好
-    if (isMac && (isSafari || isChrome)) {
-      voiceChecks.push(v => v.lang.startsWith(langPrefix) && v.name.includes('Siri'));
-      voiceChecks.push(v => v.lang.startsWith(langPrefix) && /Ting-Ting|tingting|婷婷/i.test(v.name));
-      // 保留原版中其他优质的苹果中文语音
-      voiceChecks.push(v => v.lang.startsWith(langPrefix) && v.name.toLowerCase().includes('yushu'));
-      voiceChecks.push(v => v.lang.startsWith(langPrefix) && v.name.toLowerCase().includes('li-mu'));
-    }
-
-    // 规则 3: 通用后备规则，优先选择在线/云端语音
-    voiceChecks.push(v => v.lang.startsWith(langPrefix) && (v.localService === false || /Online|Neural/.test(v.name)));
     
-    // 规则 4: 最终后备，选择任何匹配语言的本地语音
-    voiceChecks.push(v => v.lang.startsWith(langPrefix));
+    // --- 2. 列出所有可用中文语音 ---
+    logDebug('<h4>2. 可用中文语音列表</h4>');
+    const chineseVoices = voices.filter(v => v.lang.startsWith(langPrefix));
+    if (chineseVoices.length > 0) {
+      chineseVoices.forEach(v => {
+        logDebug(`<div class="voice-list">- ${v.name} (lang: ${v.lang}, local: ${v.localService})</div>`);
+      });
+    } else {
+      logDebug('<div>未找到任何中文语音。</div>');
+      return;
+    }
 
-    // --- 执行查找 ---
-    for (const check of voiceChecks) {
-      const foundVoice = voices.find(check);
+    // --- 3. 按优先级进行逻辑判断 ---
+    logDebug('<h4>3. 语音选择逻辑</h4>');
+    let voiceChecks = [];
+    
+    // 规则 1: Edge (所有平台)
+    if (isEdge) {
+      logDebug('<div class="logic-step"><b>规则1 (Edge):</b> 正在查找 "Xiaoxiao" 或 "Yunyang"...</div>');
+      voiceChecks.push({
+        rule: "Edge (Xiaoxiao)",
+        check: v => v.lang.startsWith(langPrefix) && v.name.includes('Microsoft Xiaoxiao Online')
+      });
+      voiceChecks.push({
+        rule: "Edge (Yunyang)",
+        check: v => v.lang.startsWith(langPrefix) && v.name.includes('Microsoft Yunyang Online')
+      });
+    }
+
+    // 规则 2: Mac 上的 Safari 或 Chrome
+    if (isMac && (isSafari || isChrome)) {
+      logDebug('<div class="logic-step"><b>规则2 (macOS - Safari/Chrome):</b> 正在查找 "Siri", "Ting-Ting"...</div>');
+      voiceChecks.push({
+        rule: "Mac (Siri)",
+        check: v => v.lang.startsWith(langPrefix) && v.name.includes('Siri')
+      });
+       voiceChecks.push({
+        rule: "Mac (Ting-Ting)",
+        check: v => v.lang.startsWith(langPrefix) && /Ting-Ting|tingting|婷婷/i.test(v.name)
+      });
+      voiceChecks.push({
+        rule: "Mac (Yushu)",
+        check: v => v.lang.startsWith(langPrefix) && v.name.toLowerCase().includes('yushu')
+      });
+      voiceChecks.push({
+        rule: "Mac (Li-mu)",
+        check: v => v.lang.startsWith(langPrefix) && v.name.toLowerCase().includes('li-mu')
+      });
+    }
+
+    // 规则 3: 通用后备 - 在线语音
+    logDebug('<div class="logic-step"><b>规则3 (后备):</b> 正在查找任意 "Online" 或 "Neural" 语音...</div>');
+    voiceChecks.push({
+      rule: "通用在线语音",
+      check: v => v.lang.startsWith(langPrefix) && (v.localService === false || /Online|Neural/.test(v.name))
+    });
+
+    // 规则 4: 最终后备 - 任何本地中文语音
+    logDebug('<div class="logic-step"><b>规则4 (最终后备):</b> 正在查找任意匹配的本地语音...</div>');
+    voiceChecks.push({
+      rule: "任意本地语音",
+      check: v => v.lang.startsWith(langPrefix)
+    });
+    
+    // --- 执行查找并输出最终结果 ---
+    logDebug('<h4>4. 最终选择</h4>');
+    for (const item of voiceChecks) {
+      const foundVoice = chineseVoices.find(item.check);
       if (foundVoice) {
         preferredVoice = foundVoice;
-        console.log('TTS Voice Selected:', preferredVoice.name, preferredVoice);
-        return; // 找到最佳语音后立即退出
+        logDebug(`<div class="final-choice"><b>选中:</b> ${preferredVoice.name}<br><b>理由:</b> 满足规则 "${item.rule}"</div>`);
+        // 更新队列中的语音对象
+        utteranceQueue.forEach(qItem => qItem.utterance.voice = preferredVoice);
+        return; // 找到后立即退出
       }
     }
+    logDebug('<div>未找到任何符合优先级的语音。将使用浏览器默认语音。</div>');
   };
 
-
   // --- 事件监听 ---
-  playPauseBtn.addEventListener('click', () => {
-    if (!isReading) {
-      startReading();
-    } else if (isPaused) {
-      isPaused = false;
-      synth.resume();
-      highlightElement(utteranceQueue[currentUtteranceIndex].element);
-      updateUI();
-    } else {
-      isPaused = true;
-      synth.pause();
-      clearHighlight();
-      updateUI();
-    }
+  playPauseBtn.addEventListener('click', () => { /* ... (此函数保持不变) ... */
+    if (!isReading) { startReading(); } else if (isPaused) { isPaused = false; synth.resume(); highlightElement(utteranceQueue[currentUtteranceIndex].element); updateUI(); } else { isPaused = true; synth.pause(); clearHighlight(); updateUI(); }
   });
-
   window.addEventListener('beforeunload', stopReading);
 
   // --- 初始化 ---
@@ -248,9 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pageLang = document.documentElement.lang || 'zh-CN';
 
     textElements.forEach(el => {
-      // 过滤掉包含代码块等不适合朗读的元素
       if (el.closest('pre, code, .no-tts')) return;
-      
       const text = el.innerText.trim();
       if (text) {
         const utterance = new SpeechSynthesisUtterance(text);
@@ -259,16 +287,18 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    if (utteranceQueue.length === 0) return;
-    
-    // 浏览器加载语音列表需要时间，因此使用onvoiceschanged事件
-    selectVoice(); // 先尝试立即选择
-    if (synth.onvoiceschanged !== undefined) {
-      synth.onvoiceschanged = selectVoice; // 当语音列表变化时再次选择
+    if (utteranceQueue.length === 0) {
+      logDebug('<h4>信息</h4><div>文章内容为空，无法创建朗读队列。</div>');
+      return;
     }
     
-    // 准备就绪，显示浮动按钮
+    selectVoice(); // 先尝试立即选择
+    if (synth.onvoiceschanged !== undefined) {
+      synth.onvoiceschanged = selectVoice; // 当语音列表更新时，再次运行选择逻辑
+    }
+    
     container.style.display = 'block';
+    debugInfoBox.style.display = 'block'; // 确保调试框可见
     updateUI();
   };
 
