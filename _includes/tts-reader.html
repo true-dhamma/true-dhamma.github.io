@@ -1,318 +1,100 @@
-<!-- ======================================================================= -->
-<!-- =============  TTS (Text-to-Speech) Reader Include  ============= -->
-<!-- ======================================================================= -->
-<!-- 
-  Version: 2.0 (Jekyll-safe & Bug-fixed)
-  Author: AI Assistant
-  Description: A self-contained, robust TTS widget. Fixes voice-loading race 
-               conditions and improves reliability. Wrapped in {% raw %} tags 
-               to prevent Liquid parsing errors in Jekyll.
--->
+<!-- tts-reader.html -->
+<!-- 放置在 Jekyll 的 _includes 文件夹下 -->
 
-<div class="tts-reader-widget-container" id="tts-reader-widget" style="visibility: hidden;">
-    <!-- Main Floating Action Button (FAB) -->
-    <button id="tts-fab-main" class="tts-fab" aria-label="朗读工具" disabled>
-        <svg class="icon-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M8 5v14l11-7z"></path></svg>
-        <svg class="icon-pause" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24" style="display: none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>
-        <svg class="icon-loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="24" height="24" style="display: block;"><circle cx="50" cy="50" fill="none" stroke="currentColor" stroke-width="10" r="35" stroke-dasharray="164.93361431346415 56.97787143782138"><animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" values="0 50 50;360 50 50" keyTimes="0;1"></animateTransform></circle></svg>
-    </button>
-
-    <!-- Controls Panel (expands from FAB) -->
-    <div id="tts-controls-panel" class="tts-controls">
-        <button id="tts-stop-btn" class="tts-control-btn" aria-label="停止">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M6 6h12v12H6z"></path></svg>
-        </button>
-        <button id="tts-settings-btn" class="tts-control-btn" aria-label="设置">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"></path></svg>
-        </button>
-    </div>
-
-    <!-- Settings Panel (pops up) -->
-    <div id="tts-settings-panel" class="tts-settings" style="display: none;">
-        <div class="tts-setting-item">
-            <label for="tts-voice-select">语音选择:</label>
-            <select id="tts-voice-select"></select>
-        </div>
-        <div class="tts-setting-item">
-            <label for="tts-rate-slider">语速: <span id="tts-rate-value">1.0</span>x</label>
-            <input type="range" id="tts-rate-slider" min="0.5" max="2" step="0.1" value="1">
-        </div>
-    </div>
+<div class="tts-reader-container">
+  <button id="tts-play-pause" aria-label="朗读文章">朗读本页</button>
+  <button id="tts-stop" aria-label="停止朗读" style="display: none;">停止</button>
 </div>
 
-{% raw %}
 <style>
-    /* Scoped styles for the TTS widget to avoid conflicts */
-    .tts-reader-widget-container {
-        position: fixed;
-        bottom: 25px;
-        right: 25px;
-        z-index: 9999;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        /* Use visibility to prevent layout shift before JS runs */
-        transition: opacity 0.3s ease;
-    }
-    .tts-reader-widget-container:not([style*="visibility: hidden"]) {
-        opacity: 1;
-    }
-    .tts-fab {
-        width: 56px; height: 56px; border-radius: 50%; background-color: #1e88e5; color: white; border: none;
-        box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.2);
-        cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s, transform 0.2s; outline: none;
-    }
-    .tts-fab:disabled { cursor: not-allowed; background-color: #9e9e9e; }
-    .tts-fab:not(:disabled):hover { background-color: #1565c0; }
-    .tts-fab.active { background-color: #e53935; }
-    .tts-controls {
-        position: absolute; bottom: 10px; right: 70px; display: flex; gap: 10px;
-        opacity: 0; transform: translateY(10px); transition: opacity 0.3s ease, transform 0.3s ease; pointer-events: none;
-    }
-    .tts-reader-widget-container.open .tts-controls { opacity: 1; transform: translateY(0); pointer-events: auto; }
-    .tts-control-btn {
-        width: 40px; height: 40px; border-radius: 50%; background-color: #fff; color: #555; border: none;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.2); cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background-color 0.2s;
-    }
-    .tts-control-btn:hover { background-color: #f1f1f1; }
-    .tts-settings {
-        position: absolute; bottom: 70px; right: 0; width: 280px; background: #fff; border-radius: 8px;
-        box-shadow: 0 8px 16px rgba(0,0,0,0.2); padding: 16px; display: none; flex-direction: column; gap: 15px;
-    }
-    .tts-setting-item { display: flex; flex-direction: column; gap: 8px; }
-    .tts-setting-item label { font-size: 14px; color: #333; font-weight: 500; }
-    #tts-voice-select, #tts-rate-slider { width: 100%; }
-    #tts-voice-select { padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; }
-    #tts-rate-slider { cursor: pointer; }
+  /* 简单的按钮样式，您可以根据自己的主题进行修改 */
+  .tts-reader-container {
+    margin: 20px 0;
+  }
+  .tts-reader-container button {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+  }
+  .tts-reader-container button:hover {
+    background-color: #e0e0e0;
+  }
 </style>
 
 <script>
-(() => {
-    'use strict';
+document.addEventListener('DOMContentLoaded', () => {
+  // 检查浏览器是否支持 Speech Synthesis API
+  if ('speechSynthesis' in window) {
+    const playPauseButton = document.getElementById('tts-play-pause');
+    const stopButton = document.getElementById('tts-stop');
+    const articleElement = document.querySelector('article');
 
-    if (!('speechSynthesis' in window)) {
-        console.warn("TTS Reader: Speech Synthesis not supported.");
-        return;
+    // 如果页面上没有 <article> 标签，则不显示按钮
+    if (!articleElement) {
+      document.querySelector('.tts-reader-container').style.display = 'none';
+      return;
     }
 
-    const widget = document.getElementById('tts-reader-widget');
-    const fab = document.getElementById('tts-fab-main');
-    const playIcon = fab.querySelector('.icon-play');
-    const pauseIcon = fab.querySelector('.icon-pause');
-    const loadingIcon = fab.querySelector('.icon-loading');
-    const controlsPanel = document.getElementById('tts-controls-panel');
-    const stopBtn = document.getElementById('tts-stop-btn');
-    const settingsBtn = document.getElementById('tts-settings-btn');
-    const settingsPanel = document.getElementById('tts-settings-panel');
-    const voiceSelect = document.getElementById('tts-voice-select');
-    const rateSlider = document.getElementById('tts-rate-slider');
-    const rateValue = document.getElementById('tts-rate-value');
+    const textToRead = articleElement.textContent || articleElement.innerText;
+    const utterance = new SpeechSynthesisUtterance(textToRead);
+
+    // 自动设置语言，优先使用<html>标签的lang属性
+    utterance.lang = document.documentElement.lang || 'zh-CN';
+
+    // 朗读结束时重置按钮状态
+    utterance.onend = () => {
+      playPauseButton.textContent = '朗读本页';
+      stopButton.style.display = 'none';
+    };
     
-    let voices = [];
-    let utterance = null;
-    let state = 'loading'; // 'loading', 'idle', 'playing', 'paused'
-    let restartOnEnd = false; // Flag to handle voice change during playback
+    // 朗读发生错误时重置按钮状态
+    utterance.onerror = (event) => {
+        console.error('SpeechSynthesisUtterance.onerror', event);
+        playPauseButton.textContent = '朗读本页';
+        stopButton.style.display = 'none';
+    };
 
-    // Make widget visible but in loading state
-    widget.style.visibility = 'visible';
 
-    function getVoicePriority(voice) {
-        if (!voice.lang.startsWith('zh-CN')) return -1;
-        let score = 1;
-        if (voice.name.includes('Online')) score += 10;
-        if (voice.name.includes('Natural')) score += 5;
-        if (!voice.localService) score += 20;
-        return score;
-    }
-
-    function populateVoiceList() {
-        const loadedVoices = speechSynthesis.getVoices();
-        if (loadedVoices.length === 0) {
-            // Voices are not ready yet, wait for the onvoiceschanged event.
-            return;
-        }
-
-        voices = loadedVoices
-            .map(voice => ({ voice, priority: getVoicePriority(voice) }))
-            .filter(item => item.priority > 0)
-            .sort((a, b) => b.priority - a.priority)
-            .map(item => item.voice);
-
-        if (voices.length === 0) {
-             console.error("TTS Reader: No suitable Chinese voices found.");
-             widget.style.display = 'none'; // Hide widget completely
-             return;
-        }
-
-        voiceSelect.innerHTML = '';
-        voices.forEach(voice => {
-            const option = document.createElement('option');
-            option.textContent = `${voice.name} (${voice.lang})`;
-            option.setAttribute('data-lang', voice.lang);
-            option.setAttribute('data-name', voice.name);
-            voiceSelect.appendChild(option);
-        });
-        
-        loadPreferences();
-        updateUI('idle'); // Voices are ready, move to idle state
-    }
-    
-    // Attempt to load voices, and set up a handler for when they change.
-    speechSynthesis.onvoiceschanged = populateVoiceList;
-    populateVoiceList();
-
-    function getTextToSpeak() {
-        const selectors = ['article', 'main', '.post-content', '.content', '#content', '#main', '.main-content'];
-        let contentElement = null;
-        for (const selector of selectors) {
-            contentElement = document.querySelector(selector);
-            if (contentElement) break;
-        }
-        
-        if (!contentElement) {
-            console.warn("TTS Reader: Could not find a main content area, falling back to body.");
-            contentElement = document.body;
-        }
-        
-        const clone = contentElement.cloneNode(true);
-        clone.querySelectorAll('script, style, .tts-reader-widget-container, noscript, button, a[aria-hidden="true"]').forEach(el => el.remove());
-        clone.querySelectorAll('img[alt]').forEach(img => {
-            if (img.alt) {
-                const p = document.createElement('p');
-                p.textContent = `[图片描述: ${img.alt}]`;
-                img.parentNode.replaceChild(p, img);
-            }
-        });
-        return clone.innerText.trim();
-    }
-
-    function speak() {
-        if (speechSynthesis.speaking) speechSynthesis.cancel();
-        
-        const text = getTextToSpeak();
-        if (!text) {
-            alert("没有找到可朗读的内容。");
-            return;
-        }
-        
-        utterance = new SpeechSynthesisUtterance(text);
-        const selectedOption = voiceSelect.selectedOptions[0];
-        const selectedVoice = voices.find(v => v.name === selectedOption.getAttribute('data-name'));
-
-        if (selectedVoice) utterance.voice = selectedVoice;
-        
-        utterance.rate = parseFloat(rateSlider.value);
-        utterance.onstart = () => updateUI('playing');
-        utterance.onpause = () => updateUI('paused');
-        utterance.onresume = () => updateUI('playing');
-        utterance.onend = () => {
-            if (restartOnEnd) {
-                restartOnEnd = false;
-                speak();
-            } else {
-                updateUI('idle');
-            }
-        };
-        utterance.onerror = (e) => {
-            console.error("TTS Reader: SpeechSynthesis Error", e);
-            restartOnEnd = false;
-            updateUI('idle');
-        };
-
+    // 播放/暂停按钮的点击事件
+    playPauseButton.addEventListener('click', () => {
+      // 如果当前正在朗读且未暂停，则暂停
+      if (speechSynthesis.speaking && !speechSynthesis.paused) {
+        speechSynthesis.pause();
+        playPauseButton.textContent = '继续朗读';
+      } 
+      // 如果当前已暂停，则恢复朗读
+      else if (speechSynthesis.paused) {
+        speechSynthesis.resume();
+        playPauseButton.textContent = '暂停';
+      } 
+      // 否则，开始朗读
+      else {
+        // 先取消上一次可能存在的任务，以防万一
+        speechSynthesis.cancel(); 
         speechSynthesis.speak(utterance);
-    }
-    
-    function updateUI(newState) {
-        state = newState;
-        fab.classList.remove('active');
-        playIcon.style.display = 'none';
-        pauseIcon.style.display = 'none';
-        loadingIcon.style.display = 'none';
-        fab.disabled = false;
-
-        switch (state) {
-            case 'loading':
-                loadingIcon.style.display = 'block';
-                fab.disabled = true;
-                break;
-            case 'idle':
-                playIcon.style.display = 'block';
-                widget.classList.remove('open');
-                break;
-            case 'playing':
-                pauseIcon.style.display = 'block';
-                fab.classList.add('active');
-                widget.classList.add('open');
-                settingsPanel.style.display = 'none';
-                break;
-            case 'paused':
-                playIcon.style.display = 'block';
-                fab.classList.add('active');
-                widget.classList.add('open');
-                break;
-        }
-    }
-
-    fab.addEventListener('click', () => {
-        if (state === 'playing') speechSynthesis.pause();
-        else if (state === 'paused') speechSynthesis.resume();
-        else if (state === 'idle') speak();
-    });
-    
-    stopBtn.addEventListener('click', () => {
-        restartOnEnd = false;
-        speechSynthesis.cancel();
-    });
-    
-    settingsBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        settingsPanel.style.display = settingsPanel.style.display === 'flex' ? 'none' : 'flex';
-    });
-    
-    rateSlider.addEventListener('input', () => {
-        const newRate = parseFloat(rateSlider.value).toFixed(1);
-        rateValue.textContent = newRate;
-        if (utterance) utterance.rate = newRate;
-        savePreferences();
-    });
-    
-    voiceSelect.addEventListener('change', () => {
-        savePreferences();
-        if (state === 'playing' || state === 'paused') {
-            restartOnEnd = true; // Set flag to restart with new voice after stop
-            speechSynthesis.cancel(); // This will trigger onend event
-        }
+        playPauseButton.textContent = '暂停';
+        stopButton.style.display = 'inline-block';
+      }
     });
 
-    document.addEventListener('click', (e) => {
-        if (!settingsPanel.contains(e.target) && !settingsBtn.contains(e.target)) {
-            settingsPanel.style.display = 'none';
-        }
+    // 停止按钮的点击事件
+    stopButton.addEventListener('click', () => {
+      speechSynthesis.cancel(); // cancel()会触发onend事件，自动重置按钮
     });
 
+    // 当用户离开页面时，停止朗读，避免在后台继续发声
     window.addEventListener('beforeunload', () => {
-        restartOnEnd = false;
-        speechSynthesis.cancel();
+      speechSynthesis.cancel();
     });
 
-    function savePreferences() {
-        localStorage.setItem('tts_voice_name', voiceSelect.selectedOptions[0].getAttribute('data-name'));
-        localStorage.setItem('tts_rate', rateSlider.value);
-    }
-    
-    function loadPreferences() {
-        const savedVoiceName = localStorage.getItem('tts_voice_name');
-        const savedRate = localStorage.getItem('tts_rate');
-        if (savedVoiceName) {
-            const voiceOption = Array.from(voiceSelect.options).find(opt => opt.getAttribute('data-name') === savedVoiceName);
-            if (voiceOption) voiceOption.selected = true;
-        }
-        if (savedRate) {
-            rateSlider.value = savedRate;
-            rateValue.textContent = parseFloat(savedRate).toFixed(1);
-        }
-    }
-    
-    // Initial UI state is 'loading'
-    updateUI('loading');
-})();
+  } else {
+    // 如果浏览器不支持，则隐藏整个控件
+    console.log('抱歉，您的浏览器不支持 Web Speech API。');
+    document.querySelector('.tts-reader-container').style.display = 'none';
+  }
+});
 </script>
-{% endraw %}
