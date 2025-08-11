@@ -1,14 +1,12 @@
 <!-- tts-fab-reader.html -->
 <!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 4.0: 增加拖拽定位朗读功能 -->
+<!-- 版本 4.1: 修复了 "Assignment to constant variable" 错误 -->
 
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
-  <!-- 将按钮放在一个可拖拽的包装器内 -->
   <div id="tts-draggable-wrapper">
     <button id="tts-play-pause-btn" class="tts-button" aria-label="朗读文章">
       <svg class="tts-icon" id="tts-play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
       <svg class="tts-icon" id="tts-pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>
-      <!-- 新增：手形拖拽图标 -->
       <svg class="tts-icon" id="tts-hand-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none;"><path d="M18.15,12.57a1,1,0,0,0-1,1v4.43a1,1,0,0,0,2,0V13.57A1,1,0,0,0,18.15,12.57Zm-4,0a1,1,0,0,0-1,1v4.43a1,1,0,0,0,2,0V13.57A1,1,0,0,0,14.15,12.57Zm-4,0a1,1,0,0,0-1,1v4.43a1,1,0,0,0,2,0V13.57A1,1,0,0,0,10.15,12.57Zm-4-1a1,1,0,0,0-1,1v4.43a1,1,0,1,0,2,0V12.57A1,1,0,0,0,6.15,11.57Zm12.42-5.4L16.43,2.4A2.33,2.33,0,0,0,14.79,2h-6a2.43,2.43,0,0,0-2.28,1.8l-1.9,8.2a1,1,0,0,0,1,1.2h10.9a1,1,0,0,0,1-1.2l-1.06-4.63Z"></path></svg>
     </button>
   </div>
@@ -16,28 +14,10 @@
 
 <style>
   /* 容器样式 */
-  .tts-fab-container {
-    /* 移除 position, bottom, right，移动到包装器上 */
-    z-index: 1000;
-  }
-  
-  /* 新增：拖拽包装器样式 */
-  #tts-draggable-wrapper {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    transition: transform 0.2s ease; /* 用于拖拽时的视觉反馈 */
-  }
-
-  /* 拖拽状态下的样式 */
-  #tts-draggable-wrapper.tts-dragging {
-    cursor: grabbing;
-    transform: scale(1.1); /* 拖动时稍微放大 */
-    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
-    border-radius: 50%;
-  }
-
-  /* 按钮和图标样式保持不变 */
+  .tts-fab-container { z-index: 1000; }
+  #tts-draggable-wrapper { position: fixed; bottom: 30px; right: 30px; transition: transform 0.2s ease; }
+  #tts-draggable-wrapper.tts-dragging { cursor: grabbing; transform: scale(1.1); box-shadow: 0 8px 24px rgba(0,0,0,0.25); border-radius: 50%; }
+  /* 按钮和图标样式 */
   .tts-button { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; border: none; background-color: #ffffff; border-radius: 50%; cursor: pointer; padding: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: background-color 0.2s ease-in-out, transform 0.2s ease; }
   .tts-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
   .tts-button:active:not(:disabled) { transform: scale(0.95); }
@@ -48,7 +28,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置 ---
-  const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com'; // 已更新
+  const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com';
   const VOICE_NAME = 'zh-CN-YunyangNeural';
 
   // --- DOM 元素引用 ---
@@ -88,44 +68,57 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
   
-  // --- 高亮处理 (无变动) ---
+  // --- 高亮处理 ---
   const clearHighlight = () => { if (currentlyHighlightedElement) { currentlyHighlightedElement.classList.remove('tts-highlight'); currentlyHighlightedElement = null; } };
   const highlightElement = (element) => { clearHighlight(); if (element) { element.classList.add('tts-highlight'); currentlyHighlightedElement = element; element.scrollIntoView({ behavior: 'smooth', block: 'center' }); } };
 
   // --- 核心逻辑：预读取和播放 ---
-  const fetchAndCacheAudio = async (index) => { /* ... (此函数保持不变) ... */ };
-  const playCurrentAndPrefetchNext = async () => { /* ... (此函数保持不变) ... */ };
-  // (为保持代码简洁，将 v3.1 中未变动的这两个函数实现折叠，实际代码中它们是存在的)
-  const fetchAndCacheAudioImpl = async (index) => {
+  const fetchAndCacheAudio = async (index) => {
     const item = textQueue[index];
     if (!item || item.blobUrl || item.isFetching) return;
     item.isFetching = true;
     try {
-      const response = await fetch(WORKER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: item.text, voice: VOICE_NAME }), });
+      const response = await fetch(WORKER_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: item.text, voice: VOICE_NAME }),
+      });
       if (!response.ok) throw new Error(`Azure TTS request failed`);
       const audioBlob = await response.blob();
       item.blobUrl = URL.createObjectURL(audioBlob);
-    } catch (error) { console.error(`无法获取索引 ${index} 的音频:`, error); stopReading(); } finally { item.isFetching = false; }
+    } catch (error) {
+      console.error(`无法获取索引 ${index} 的音频:`, error);
+      stopReading();
+    } finally {
+      item.isFetching = false;
+    }
   };
-  fetchAndCacheAudio = fetchAndCacheAudioImpl;
-  const playCurrentAndPrefetchNextImpl = async () => {
+
+  const playCurrentAndPrefetchNext = async () => {
     if (currentIndex >= textQueue.length) { stopReading(); return; }
+    
     const previousItem = textQueue[currentIndex - 1];
-    if (previousItem && previousItem.blobUrl) { URL.revokeObjectURL(previousItem.blobUrl); previousItem.blobUrl = null; }
+    if (previousItem && previousItem.blobUrl) {
+      URL.revokeObjectURL(previousItem.blobUrl);
+      previousItem.blobUrl = null;
+    }
+
     const currentItem = textQueue[currentIndex];
     highlightElement(currentItem.element);
-    if (!currentItem.blobUrl) { await fetchAndCacheAudio(currentIndex); if (!currentItem.blobUrl) return; }
+    
+    if (!currentItem.blobUrl) {
+      await fetchAndCacheAudio(currentIndex);
+      if (!currentItem.blobUrl) return; // fetch failed
+    }
+    
     audioPlayer.src = currentItem.blobUrl;
     audioPlayer.play();
-    if (currentIndex + 1 < textQueue.length) { fetchAndCacheAudio(currentIndex + 1); }
+    
+    if (currentIndex + 1 < textQueue.length) {
+      fetchAndCacheAudio(currentIndex + 1);
+    }
   };
-  playCurrentAndPrefetchNext = playCurrentAndPrefetchNextImpl;
-
-
-  /**
-   * 清理从指定索引开始的所有缓存，用于跳转后释放内存
-   * @param {number} fromIndex - 从哪个索引开始清理
-   */
+  
   const resetQueueFrom = (fromIndex) => {
     for (let i = fromIndex; i < textQueue.length; i++) {
       const item = textQueue[i];
@@ -145,20 +138,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- 拖拽事件处理 ---
   const onDragStart = (e) => {
-    // 仅当处于暂停状态时才允许拖拽
     if (!isPaused) return;
-
     e.preventDefault();
     isDragging = true;
     draggableWrapper.classList.add('tts-dragging');
-    
     const rect = draggableWrapper.getBoundingClientRect();
     const touch = e.touches ? e.touches[0] : e;
     dragOffset.x = touch.clientX - rect.left;
     dragOffset.y = touch.clientY - rect.top;
-
     updateUI();
-    
     window.addEventListener('mousemove', onDragMove);
     window.addEventListener('touchmove', onDragMove, { passive: false });
     window.addEventListener('mouseup', onDragEnd);
@@ -177,39 +165,28 @@ document.addEventListener('DOMContentLoaded', () => {
   const onDragEnd = (e) => {
     if (!isDragging) return;
     isDragging = false;
-    
     const touch = e.changedTouches ? e.changedTouches[0] : e;
-    // 使用释放点的坐标来查找元素
     const droppedElement = document.elementFromPoint(touch.clientX, touch.clientY);
     
-    // 检查释放点是否在 <article> 区域内
     if (droppedElement && article.contains(droppedElement)) {
       const targetBlock = droppedElement.closest('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
       if (targetBlock) {
         const newIndex = textQueue.findIndex(item => item.element === targetBlock);
-        
         if (newIndex !== -1 && newIndex !== currentIndex) {
-          console.log(`跳转到新的段落，索引: ${newIndex}`);
-          // 清理掉新位置之后的所有旧缓存
+          audioPlayer.pause(); // 立即停止当前可能在恢复播放的声音
           resetQueueFrom(newIndex);
           currentIndex = newIndex;
-          // 高亮新位置，但不立即播放
           highlightElement(targetBlock);
         }
       }
-    } else {
-        console.log("在文章区域外释放，操作取消。");
     }
-
-    // 清理拖拽样式和事件监听
     draggableWrapper.classList.remove('tts-dragging');
-    draggableWrapper.style.transform = ''; // 恢复原位
+    draggableWrapper.style.transform = '';
     window.removeEventListener('mousemove', onDragMove);
     window.removeEventListener('touchmove', onDragMove);
     window.removeEventListener('mouseup', onDragEnd);
     window.removeEventListener('touchend', onDragEnd);
-
-    updateUI(); // 恢复图标
+    updateUI();
   };
 
   // --- 事件监听 ---
@@ -218,11 +195,8 @@ document.addEventListener('DOMContentLoaded', () => {
     else if (isPaused) resumeReading();
     else pauseReading();
   });
-
-  // 绑定拖拽开始事件
   draggableWrapper.addEventListener('mousedown', onDragStart);
   draggableWrapper.addEventListener('touchstart', onDragStart, { passive: false });
-
   audioPlayer.onended = () => { currentIndex++; playCurrentAndPrefetchNext(); };
   audioPlayer.onerror = (e) => { console.error('Audio Player 发生错误:', e); stopReading(); };
   window.addEventListener('beforeunload', stopReading);
@@ -236,7 +210,6 @@ document.addEventListener('DOMContentLoaded', () => {
         textQueue.push({ text, element: el, blobUrl: null, isFetching: false });
       }
     });
-
     if (textQueue.length > 0) {
       fabContainer.style.display = 'block';
     }
