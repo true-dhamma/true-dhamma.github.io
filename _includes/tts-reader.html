@@ -1,12 +1,11 @@
 <!-- tts-reader.html -->
-<!-- 放置在 Jekyll 的 _includes 文件夹下 -->
 <!-- 
-  修改版功能:
-  1. 朗读和暂停合并为单个按钮。
-  2. 自动读取 <article> 标签内的文本。
-  3. Edge 浏览器优先选择 Yunyang (Natural) 语音。
-  4. Safari 浏览器优先选择 Siri 语音。
-  5. 按钮为内联样式 (inline-flex)，可插入到标题等任意位置不换行。
+  修改版功能 v2:
+  1. 修复了 Edge/Chrome 浏览器上暂停后无法恢复播放的 bug。
+  2. 优化 Safari 语音选择顺序为: "Siri" -> "莉莉 (Li-li)" -> "语舒 (Yu-Shu)"。
+  3. 朗读和暂停合并为单个按钮。
+  4. 自动读取 <article> 标签内的文本。
+  5. 按钮为内联样式，可插入任意位置不换行。
 -->
 
 <span class="tts-reader-wrapper" id="tts-reader-container" style="display: none;">
@@ -66,9 +65,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const article = document.querySelector('article');
 
   if (!article) return;
+  
+  // --- Global State ---
+  let keepAliveInterval = null; // 用于修复 Edge/Chrome 暂停 bug 的计时器
 
   // --- Text Extraction ---
-  // 精准提取文章内容，忽略代码块等
   const textElements = article.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
   let textToRead = Array.from(textElements).map(el => el.innerText.trim()).join('. ');
 
@@ -86,6 +87,13 @@ document.addEventListener('DOMContentLoaded', () => {
       playPauseBtn.setAttribute('aria-label', '朗读文章');
     }
   };
+  
+  const stopReading = () => {
+      clearInterval(keepAliveInterval); // 停止时必须清除计时器
+      synth.cancel();
+      updateUI();
+  };
+
 
   // --- Speech Synthesis Setup ---
   const utterance = new SpeechSynthesisUtterance(textToRead);
@@ -97,17 +105,12 @@ document.addEventListener('DOMContentLoaded', () => {
   utterance.onpause = updateUI;
   utterance.onresume = updateUI;
   utterance.onend = () => {
-      // 朗读结束后重置UI
-      playIcon.style.display = 'inline-block';
-      pauseIcon.style.display = 'none';
-      playPauseBtn.setAttribute('aria-label', '朗读文章');
+      clearInterval(keepAliveInterval); // 朗读结束，清除计时器
+      updateUI();
   };
   utterance.onerror = (event) => {
     console.error('朗读发生错误:', event);
-    // 发生错误也重置UI
-    playIcon.style.display = 'inline-block';
-    pauseIcon.style.display = 'none';
-    playPauseBtn.setAttribute('aria-label', '朗读文章');
+    stopReading(); // 发生错误时也停止并重置
   };
 
   // --- Browser-Specific Voice Selection ---
@@ -120,44 +123,50 @@ document.addEventListener('DOMContentLoaded', () => {
     const isSafari = userAgent.includes("Safari/") && !userAgent.includes("Chrome/");
     const langPrefix = pageLang.split('-')[0]; // e.g., 'zh'
 
-    // 1. Edge: 优先寻找 Yunyang
-    if (isEdge) {
-      const yunyangVoice = voices.find(voice => 
-        voice.lang.startsWith(langPrefix) && voice.name.includes('Yunyang')
-      );
-      if (yunyangVoice) {
-        preferredVoice = yunyangVoice;
-        utterance.voice = preferredVoice;
-        return;
+    let foundVoice = null;
+
+    // 1. Safari: 按指定顺序 "Siri" -> "Li-li" -> "Yu-Shu"
+    if (isSafari) {
+      const preferredNames = ['Siri', 'Li-li', 'Yu-Shu'];
+      for (const name of preferredNames) {
+        foundVoice = voices.find(voice => 
+          voice.lang.startsWith(langPrefix) && voice.name.includes(name)
+        );
+        if (foundVoice) break; // 找到一个就跳出循环
+      }
+      if (foundVoice) {
+          preferredVoice = foundVoice;
+          utterance.voice = preferredVoice;
+          return;
       }
     }
     
-    // 2. Safari: 优先寻找 Siri
-    if (isSafari) {
-      const siriVoice = voices.find(voice => 
-        voice.lang.startsWith(langPrefix) && voice.name.includes('Siri')
+    // 2. Edge: 优先寻找 Yunyang
+    if (isEdge) {
+      foundVoice = voices.find(voice => 
+        voice.lang.startsWith(langPrefix) && voice.name.includes('Yunyang')
       );
-      if (siriVoice) {
-        preferredVoice = siriVoice;
-        utterance.voice = preferredVoice;
-        return;
+      if (foundVoice) {
+          preferredVoice = foundVoice;
+          utterance.voice = preferredVoice;
+          return;
       }
     }
 
     // 3. Fallback: 寻找其他高质量在线语音
-    const onlineVoice = voices.find(voice => 
+    foundVoice = voices.find(voice => 
         voice.lang.startsWith(langPrefix) && voice.localService === false
     );
-    if (onlineVoice) {
-        preferredVoice = onlineVoice;
+    if (foundVoice) {
+        preferredVoice = foundVoice;
         utterance.voice = preferredVoice;
         return;
     }
     
     // 4. Final Fallback: 寻找任何匹配语言的本地语音
-    const localVoice = voices.find(voice => voice.lang.startsWith(langPrefix));
-    if (localVoice) {
-        preferredVoice = localVoice;
+    foundVoice = voices.find(voice => voice.lang.startsWith(langPrefix));
+    if (foundVoice) {
+        preferredVoice = foundVoice;
         utterance.voice = preferredVoice;
     }
   };
@@ -168,27 +177,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Event Listeners ---
   playPauseBtn.addEventListener('click', () => {
-    // 在开始朗读前，确保语音已选择
-    if (!utterance.voice) {
-       selectVoice();
-    }
+    if (!utterance.voice) selectVoice();
       
-    if (synth.speaking) {
-      if (synth.paused) {
-        synth.resume();
-      } else {
-        synth.pause();
-      }
+    if (synth.speaking && !synth.paused) {
+      // --- 正在朗读 -> 暂停 ---
+      synth.pause();
+      // ** 启动保活计时器以修复 Edge/Chrome 的 bug **
+      keepAliveInterval = setInterval(() => {
+        if (synth.paused) {
+          synth.resume();
+          synth.pause();
+        }
+      }, 5000);
+
+    } else if (synth.paused) {
+      // --- 已暂停 -> 继续 ---
+      clearInterval(keepAliveInterval); // 清除保活计时器
+      synth.resume();
+
     } else {
-      // 如果之前有残留，先取消
-      synth.cancel(); 
+      // --- 未开始 -> 开始朗读 ---
+      clearInterval(keepAliveInterval); // 以防万一
+      synth.cancel(); // 清除之前的任何队列
       synth.speak(utterance);
     }
   });
   
-  // 在用户离开页面时停止朗读，防止后台播放
+  // 在用户离开页面时停止朗读
   window.addEventListener('beforeunload', () => {
-    synth.cancel();
+    stopReading();
   });
 
   // 一切准备就绪，显示播放器
