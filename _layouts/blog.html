@@ -25,6 +25,26 @@ layout: default
 
     {% include post-list.html %}
 
+    
+      <aside class="sidebar">
+    <div class="sidebar-wrap">
+      <div class="sidebar-box">
+        <h3 class="sidebar-title">分类</h3>
+        <ul class="sidebar-list">
+        {% for category in site.categories %}
+          <!-- 
+            这个链接直接指向 categories 页面，并使用 #锚点 跳转到对应分类
+            这完全符合你的要求：链接到 categories 页面，而不是 blog 页面
+          -->
+          <li><a href="{{ site.baseurl }}/categories/#{{ category | first | slugify }}">{{ category | first }} ({{ category | last | size }})</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+
+    
   </div>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
