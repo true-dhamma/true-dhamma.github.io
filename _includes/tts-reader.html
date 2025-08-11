@@ -1,12 +1,10 @@
 <!-- tts-fab-reader.html -->
 <!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 4.0: 智能播放起点, 简化的播放/停止控制, 严格的资源管理 -->
+<!-- 版本 4.1: 修复了点击停止按钮时的异步竞争条件 (Race Condition) 错误 -->
 
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
-  <!-- 按钮现在只负责播放和停止 -->
   <button id="tts-control-btn" class="tts-button" aria-label="朗读文章">
     <svg class="tts-icon" id="tts-play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
-    <!-- 此图标现在代表“停止” -->
     <svg class="tts-icon" id="tts-stop-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none;"><path d="M6 6h12v12H6z"></path></svg>
   </button>
 </div>
@@ -24,26 +22,26 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置 ---
-  const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com'; // 已更新为指定地址
-  const VOICE_NAME = 'zh-CN-YunyangNeural'; // 'zh-CN-YunyangNeural' 或 'zh-CN-XiaoxiaoNeural'
+  const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com';
+  const VOICE_NAME = 'zh-CN-YunyangNeural';
 
   // --- DOM 元素引用 ---
   const container = document.getElementById('tts-fab-container');
   const controlBtn = document.getElementById('tts-control-btn');
   const playIcon = document.getElementById('tts-play-icon');
-  const stopIcon = document.getElementById('tts-stop-icon'); // 对应新的停止图标
+  const stopIcon = document.getElementById('tts-stop-icon');
   const article = document.querySelector('article');
 
   if (!article) return;
 
   // --- 状态管理 ---
-  let isReading = false; // 唯一的播放状态
-  let textQueue = []; // 存储 { text, element, blobUrl, isFetching }
+  let isReading = false;
+  let textQueue = [];
   let currentIndex = 0;
   let currentlyHighlightedElement = null;
   const audioPlayer = new Audio();
 
-  // --- UI 更新 ---
+  // --- UI 更新 (无变动) ---
   const updateUI = () => {
     if (isReading) {
       playIcon.style.display = 'none';
@@ -73,20 +71,13 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // --- 核心功能函数 ---
-
-  /**
-   * 使用 IntersectionObserver API 找到屏幕上第一个可见的段落索引。
-   * 这是现代、高效的方式，避免了在滚动时频繁计算。
-   * @returns {Promise<number>} 返回一个解析为起始索引的 Promise。
-   */
+  
   const findStartingIndex = () => {
     return new Promise(resolve => {
       const elements = textQueue.map(item => item.element);
-      
       const observer = new IntersectionObserver(entries => {
         let firstVisibleElement = null;
         let minTop = Infinity;
-
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             const top = entry.boundingClientRect.top;
@@ -96,27 +87,18 @@ document.addEventListener('DOMContentLoaded', () => {
             }
           }
         });
-        
-        // 结束观察，避免不必要的性能开销
         observer.disconnect();
-
-        if (firstVisibleElement) {
-          const foundIndex = elements.findIndex(el => el === firstVisibleElement);
-          resolve(foundIndex > -1 ? foundIndex : 0);
-        } else {
-          // 如果 <article> 内没有任何元素可见，则从头开始
-          resolve(0);
-        }
-      }, {
-        // rootMargin: '0px 0px -50% 0px' // 可选：调整触发区域，例如只考虑屏幕上半部分
-        threshold: 0.01 // 元素露出一点点就算可见
-      });
-
+        const foundIndex = firstVisibleElement ? elements.findIndex(el => el === firstVisibleElement) : -1;
+        resolve(foundIndex > -1 ? foundIndex : 0);
+      }, { threshold: 0.01 });
       elements.forEach(el => observer.observe(el));
     });
   };
 
   const fetchAndCacheAudio = async (index) => {
+    // **修复**: 增加前置检查，如果已停止，则不发起请求
+    if (!isReading) return;
+
     const item = textQueue[index];
     if (!item || item.blobUrl || item.isFetching) return;
 
@@ -128,25 +110,28 @@ document.addEventListener('DOMContentLoaded', () => {
         body: JSON.stringify({ text: item.text, voice: VOICE_NAME }),
       });
 
+      // **修复**: 增加检查，在网络请求返回后，再次确认是否已停止
+      if (!isReading) return;
+
       if (!response.ok) throw new Error(`Azure TTS request failed: ${response.status}`);
       
       const audioBlob = await response.blob();
       item.blobUrl = URL.createObjectURL(audioBlob);
     } catch (error) {
       console.error(`无法获取索引 ${index} 的音频:`, error);
+      // 如果在读取状态下发生错误，则停止整个流程
       if (isReading) stopReading();
     } finally {
-      item.isFetching = false;
+      if(item) item.isFetching = false;
     }
   };
 
   const playCurrentAndPrefetchNext = async () => {
     if (currentIndex >= textQueue.length || !isReading) {
-      stopReading();
+      if (isReading) stopReading();
       return;
     }
     
-    // 释放上一个音频对象的内存
     const previousItem = textQueue[currentIndex - 1];
     if (previousItem && previousItem.blobUrl) {
       URL.revokeObjectURL(previousItem.blobUrl);
@@ -158,13 +143,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!currentItem.blobUrl) {
       await fetchAndCacheAudio(currentIndex);
-      if (!currentItem.blobUrl) return; // 获取失败则停止
-    }
-
-    // 再次检查状态，因为音频获取可能是异步的
-    if (!isReading) {
-        stopReading();
+      
+      // **核心修复**: 在 await 之后，必须立即检查状态！
+      // 如果在等待音频下载时用户点击了停止，则必须在此处终止执行。
+      if (!isReading) {
+        return; 
+      }
+      
+      // 如果音频获取失败，blobUrl 会是 null，此时也应停止
+      if (!currentItem.blobUrl) {
         return;
+      }
     }
 
     audioPlayer.src = currentItem.blobUrl;
@@ -177,35 +166,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- 控制函数 ---
 
-  /**
-   * 开始朗读。会先确定起点，然后启动播放流程。
-   */
   const startReading = async () => {
     if (isReading) return;
     isReading = true;
-    
     updateUI();
-    
     currentIndex = await findStartingIndex();
     playCurrentAndPrefetchNext();
   };
 
-  /**
-   * 停止朗读并清理所有资源。
-   * 这是唯一的停止/重置函数，确保彻底清理。
-   */
   const stopReading = () => {
     isReading = false;
-    
     audioPlayer.pause();
     audioPlayer.src = '';
 
-    // 关键：清理所有已缓存的 blob URL，彻底释放内存
     textQueue.forEach(item => {
       if (item.blobUrl) {
         URL.revokeObjectURL(item.blobUrl);
       }
-      // 重置队列状态，为下次播放做准备
       item.blobUrl = null;
       item.isFetching = false;
     });
@@ -217,7 +194,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- 事件监听 ---
   controlBtn.addEventListener('click', () => {
-    // 逻辑简化为播放和停止的切换
     if (isReading) {
       stopReading();
     } else {
@@ -233,13 +209,15 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   
   audioPlayer.onerror = (e) => {
-    console.error('Audio Player 发生错误:', e);
-    stopReading();
+    if (isReading) {
+      console.error('Audio Player 发生错误:', e);
+      stopReading();
+    }
   };
 
   window.addEventListener('beforeunload', stopReading);
 
-  // --- 初始化 ---
+  // --- 初始化 (无变动) ---
   const initializeReader = () => {
     const elements = article.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
     elements.forEach(el => {
