@@ -1,0 +1,177 @@
+<!-- tts-reader.html -->
+<!-- 放置在 Jekyll 的 _includes 文件夹下 -->
+
+<div class="tts-reader" id="tts-reader-container" style="display: none;">
+  <button id="tts-play-pause-btn" class="tts-button" aria-label="朗读文章">
+    <svg class="tts-icon" id="tts-play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M8 5v14l11-7z"></path></svg>
+    <svg class="tts-icon" id="tts-pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="display: none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>
+  </button>
+  <button id="tts-stop-btn" class="tts-button" aria-label="停止朗读" style="display: none;">
+    <svg class="tts-icon" id="tts-stop-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M6 6h12v12H6z"></path></svg>
+  </button>
+</div>
+
+<style>
+  .tts-reader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    background-color: #f5f5f5;
+    border-radius: 50px; /* 胶囊形状 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 1px solid #e0e0e0;
+    margin: 20px 0;
+    width: fit-content; /* 宽度自适应内容 */
+  }
+  .tts-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+  }
+  .tts-button:hover {
+    background-color: #e0e0e0;
+  }
+  .tts-button:active {
+    transform: scale(0.9);
+  }
+  .tts-icon {
+    fill: #333;
+    width: 22px;
+    height: 22px;
+  }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const synth = window.speechSynthesis;
+  if (!synth) {
+    console.log('抱歉，您的浏览器不支持 Web Speech API。');
+    return;
+  }
+
+  // --- DOM Element References ---
+  const container = document.getElementById('tts-reader-container');
+  const playPauseBtn = document.getElementById('tts-play-pause-btn');
+  const stopBtn = document.getElementById('tts-stop-btn');
+  const playIcon = document.getElementById('tts-play-icon');
+  const pauseIcon = document.getElementById('tts-pause-icon');
+  const article = document.querySelector('article');
+
+  if (!article) return;
+
+  // --- Text Extraction ---
+  // 精准提取文章内容，忽略代码块等
+  const textElements = article.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
+  let textToRead = Array.from(textElements).map(el => el.innerText.trim()).join('. ');
+
+  if (!textToRead.trim()) return;
+
+  // --- UI State Management ---
+  const resetUI = () => {
+    playIcon.style.display = 'inline-block';
+    pauseIcon.style.display = 'none';
+    stopBtn.style.display = 'none';
+    playPauseBtn.setAttribute('aria-label', '朗读文章');
+  };
+  
+  const setPlayingUI = () => {
+    playIcon.style.display = 'none';
+    pauseIcon.style.display = 'inline-block';
+    stopBtn.style.display = 'inline-block';
+    playPauseBtn.setAttribute('aria-label', '暂停朗读');
+  };
+
+  const setPausedUI = () => {
+    playIcon.style.display = 'inline-block';
+    pauseIcon.style.display = 'none';
+    stopBtn.style.display = 'inline-block';
+    playPauseBtn.setAttribute('aria-label', '继续朗读');
+  };
+
+  // --- Speech Synthesis Setup ---
+  const utterance = new SpeechSynthesisUtterance(textToRead);
+  let preferredVoice = null;
+  const pageLang = document.documentElement.lang || 'zh-CN';
+  utterance.lang = pageLang;
+  
+  utterance.onend = resetUI;
+  utterance.onerror = (event) => {
+    console.error('朗读发生错误:', event);
+    resetUI();
+  };
+
+  // --- High-Quality Voice Selection (for Edge) ---
+  const selectVoice = () => {
+    const voices = synth.getVoices();
+    const isEdge = navigator.userAgent.includes("Edg/");
+    
+    // 如果是Edge浏览器，优先寻找Online高质量中文语音
+    if (isEdge) {
+      const edgeOnlineVoice = voices.find(voice =>
+        voice.lang.startsWith(pageLang.split('-')[0]) && // e.g., 'zh'
+        voice.localService === false &&
+        (voice.name.includes('Online') || voice.name.includes('Neural'))
+      );
+      if (edgeOnlineVoice) {
+        preferredVoice = edgeOnlineVoice;
+        return;
+      }
+    }
+
+    // 备选方案：寻找任何匹配语言的Online语音
+    const onlineVoice = voices.find(voice => 
+        voice.lang.startsWith(pageLang.split('-')[0]) && voice.localService === false
+    );
+    if(onlineVoice) {
+        preferredVoice = onlineVoice;
+        return;
+    }
+    
+    // 最终备选：寻找任何匹配语言的语音
+    preferredVoice = voices.find(voice => voice.lang.startsWith(pageLang.split('-')[0]));
+  };
+
+  // The 'voiceschanged' event is crucial.
+  synth.onvoiceschanged = selectVoice;
+  selectVoice(); // Also call it once in case voices are already loaded
+
+  // --- Event Listeners ---
+  playPauseBtn.addEventListener('click', () => {
+    if (synth.paused) {
+      synth.resume();
+      setPlayingUI();
+    } else if (synth.speaking) {
+      synth.pause();
+      setPausedUI();
+    } else {
+      // 在开始朗读前，应用选择的语音
+      if (preferredVoice) {
+        utterance.voice = preferredVoice;
+      }
+      synth.cancel(); // Clear any previous utterance
+      synth.speak(utterance);
+      setPlayingUI();
+    }
+  });
+
+  stopBtn.addEventListener('click', () => {
+    synth.cancel(); // onend will fire, which calls resetUI
+  });
+  
+  window.addEventListener('beforeunload', () => {
+    synth.cancel();
+  });
+
+  // Everything is ready, show the reader.
+  container.style.display = 'flex';
+});
+</script>
