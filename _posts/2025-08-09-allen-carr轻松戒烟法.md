@@ -1,16 +1,15 @@
 ---
-title: Allen Carr轻松戒烟法
-date: 2025-08-09 21:13:00 +08:00
+title: EasyWay轻松戒烟法
+date: 2025-08-09T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 吸烟是一种精巧的尼古丁陷阱，只是为缓解上一支烟的戒断症状，而所谓的减压、提神等好处皆是幻觉。戒烟的真正障碍是心理恐惧，而非生理依赖。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 ### **目录**
 
 * [引言：来自罗宾·海利](#引言来自罗宾海利)
