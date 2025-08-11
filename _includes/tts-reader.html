@@ -1,6 +1,6 @@
 <!-- tts-fab-reader.html -->
-<!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 3.3: 修复了常量赋值错误并整合了代码 -->
+<!-- 使用 Azure TTS 的高级语音朗读器 -->
+<!-- 版本 4.0: 支持从视口位置播放、预读取、无缝跳转 -->
 
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
   <button id="tts-play-pause-btn" class="tts-button" aria-label="朗读文章">
@@ -16,14 +16,15 @@
   .tts-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
   .tts-button:active { transform: scale(0.95); }
   .tts-icon { fill: #333; width: 24px; height: 24px; }
-  .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
+  .tts-highlight { background-color: #fef8e0; scroll-margin-top: 60px; /* 增加顶部留白，适配滚动定位 */ transition: background-color 0.3s ease; }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置 ---
-  const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com';
-  const VOICE_NAME = 'zh-CN-YunyangNeural';
+  const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com'; // 已按要求更新
+  const VOICE_NAME = 'zh-CN-YunyangNeural'; // 'zh-CN-YunyangNeural' 或 'zh-CN-XiaoxiaoNeural'
+  const VIEWPORT_TOP_MARGIN = 60; // 视口顶部偏移量(px)，用于定位元素，避免被导航栏遮挡
 
   // --- DOM 元素引用 ---
   const container = document.getElementById('tts-fab-container');
@@ -37,13 +38,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- 状态管理 ---
   let isReading = false;
   let isPaused = false;
-  let textQueue = [];
+  let textQueue = []; // 存储 { text, element, blobUrl, isFetching }
   let currentIndex = 0;
   let currentlyHighlightedElement = null;
   const audioPlayer = new Audio();
 
-  // --- 功能函数定义 ---
-
+  // --- UI 更新 (无变动) ---
   const updateUI = () => {
     if (isReading && !isPaused) {
       playIcon.style.display = 'none';
@@ -56,36 +56,44 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
+  // --- 高亮处理 (无变动) ---
   const clearHighlight = () => {
     if (currentlyHighlightedElement) {
       currentlyHighlightedElement.classList.remove('tts-highlight');
       currentlyHighlightedElement = null;
     }
   };
-
   const highlightElement = (element) => {
     clearHighlight();
     if (element) {
       element.classList.add('tts-highlight');
       currentlyHighlightedElement = element;
+      // 'center' 保证了高亮元素总是在屏幕中间，提供更好的滚动跟随体验
       element.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   };
 
-  const findTopVisibleElementIndex = () => {
-    const viewTopMargin = 80;
+  /**
+   * 查找当前视口顶部的第一个可朗读元素的索引
+   * @returns {number} 元素的索引
+   */
+  const findFirstVisibleElementIndex = () => {
     for (let i = 0; i < textQueue.length; i++) {
       const rect = textQueue[i].element.getBoundingClientRect();
-      if (rect.top >= viewTopMargin) {
+      // 找到第一个顶部在视口指定边距下方（或之上）的元素
+      if (rect.top >= VIEWPORT_TOP_MARGIN) {
         return i;
       }
     }
+    // 如果都不可见（例如滚动到了页面底部注释区），则默认最后一个元素
     return textQueue.length > 0 ? textQueue.length - 1 : 0;
   };
 
+  // --- 核心逻辑：预读取和播放 ---
   const fetchAndCacheAudio = async (index) => {
     const item = textQueue[index];
     if (!item || item.blobUrl || item.isFetching) return;
+
     item.isFetching = true;
     try {
       const response = await fetch(WORKER_URL, {
@@ -93,15 +101,49 @@ document.addEventListener('DOMContentLoaded', () => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text: item.text, voice: VOICE_NAME }),
       });
-      if (!response.ok) throw new Error(`TTS request failed: ${response.status}`);
+      if (!response.ok) throw new Error(`Azure TTS request failed`);
       const audioBlob = await response.blob();
       item.blobUrl = URL.createObjectURL(audioBlob);
     } catch (error) {
       console.error(`无法获取索引 ${index} 的音频:`, error);
-      stopReading(); // 出现严重错误时停止朗读
+      stopReading();
     } finally {
-      item.isFetching = false;
+      if(item) item.isFetching = false;
     }
+  };
+
+  const playCurrentAndPrefetchNext = async () => {
+    if (!isReading || currentIndex >= textQueue.length) {
+      stopReading();
+      return;
+    }
+
+    const currentItem = textQueue[currentIndex];
+    highlightElement(currentItem.element);
+
+    if (!currentItem.blobUrl) {
+      await fetchAndCacheAudio(currentIndex);
+      if (!currentItem.blobUrl) return; 
+    }
+
+    audioPlayer.src = currentItem.blobUrl;
+    audioPlayer.play().catch(e => {
+        console.error("音频播放失败:", e);
+        stopReading();
+    });
+
+    if (currentIndex + 1 < textQueue.length) {
+      fetchAndCacheAudio(currentIndex + 1);
+    }
+  };
+
+  // --- 播放控制 ---
+  const startReading = (startIndex = 0) => {
+    isReading = true;
+    isPaused = false;
+    currentIndex = startIndex;
+    updateUI();
+    playCurrentAndPrefetchNext();
   };
   
   const stopReading = () => {
@@ -110,8 +152,10 @@ document.addEventListener('DOMContentLoaded', () => {
     audioPlayer.pause();
     audioPlayer.src = '';
     textQueue.forEach(item => {
-      if (item.blobUrl) URL.revokeObjectURL(item.blobUrl);
-      item.blobUrl = null;
+      if (item.blobUrl) {
+        URL.revokeObjectURL(item.blobUrl);
+        item.blobUrl = null;
+      }
       item.isFetching = false;
     });
     currentIndex = 0;
@@ -119,89 +163,75 @@ document.addEventListener('DOMContentLoaded', () => {
     updateUI();
   };
 
-  const playCurrentAndPrefetchNext = async () => {
-    if (currentIndex >= textQueue.length) {
-      stopReading();
-      return;
-    }
-    // 释放上一个音频对象的内存
-    const previousItem = textQueue[currentIndex - 1];
-    if (previousItem && previousItem.blobUrl) {
-      URL.revokeObjectURL(previousItem.blobUrl);
-      previousItem.blobUrl = null;
-    }
-    
-    const currentItem = textQueue[currentIndex];
-    highlightElement(currentItem.element);
-    
-    if (!currentItem.blobUrl) {
-      await fetchAndCacheAudio(currentIndex);
-      if (!currentItem.blobUrl) return; 
-    }
-    
-    audioPlayer.src = currentItem.blobUrl;
-    audioPlayer.play().catch(e => {
-        console.error("音频播放失败:", e);
-        stopReading();
-    });
-    
-    // 预读取下一个
-    if (currentIndex + 1 < textQueue.length) {
-      fetchAndCacheAudio(currentIndex + 1);
-    }
-  };
-
-  /**
-   * @param {number} startIndex - 指定从哪个索引开始朗读
-   */
-  const startReading = (startIndex = 0) => {
-    isReading = true;
-    isPaused = false;
-    currentIndex = startIndex;
-    updateUI();
-    playCurrentAndPrefetchNext();
-  };
-
   const pauseReading = () => {
+    if (!isReading) return;
     isPaused = true;
     audioPlayer.pause();
-    clearHighlight();
+    clearHighlight(); // 暂停时清除高亮，更清晰
     updateUI();
   };
 
+  const resumeReading = () => {
+    isPaused = false;
+    highlightElement(textQueue[currentIndex].element);
+    audioPlayer.play();
+    updateUI();
+  };
+  
+  /**
+   * 跳转到指定索引并开始播放，这是实现“从视口播放”的核心
+   * @param {number} newIndex - 新的播放索引
+   */
+  const jumpToAndPlay = (newIndex) => {
+    // 停止当前播放并清理所有缓存
+    audioPlayer.pause();
+    audioPlayer.src = '';
+    textQueue.forEach(item => {
+      if (item.blobUrl) {
+        URL.revokeObjectURL(item.blobUrl);
+        item.blobUrl = null;
+      }
+      item.isFetching = false;
+    });
+    
+    // 从新位置开始
+    startReading(newIndex);
+  };
+
+
   // --- 事件监听 ---
-
   playPauseBtn.addEventListener('click', () => {
-    // 情况一：如果正在播放，则执行暂停
-    if (isReading && !isPaused) {
+    // 1. 如果从未开始或已停止 -> 从当前视口位置开始读
+    if (!isReading) {
+      const startIndex = findFirstVisibleElementIndex();
+      startReading(startIndex);
+    } 
+    // 2. 如果正在播放 -> 暂停
+    else if (!isPaused) {
       pauseReading();
-      return;
     }
-
-    // 情况二：如果是已停止或已暂停状态，则从当前可见位置开始或继续
-    const newStartIndex = findTopVisibleElementIndex();
-
-    // 如果是暂停状态，且用户没有滚动到新的段落，直接恢复播放
-    if (isPaused && newStartIndex === currentIndex) {
-      isPaused = false;
-      highlightElement(textQueue[currentIndex].element);
-      audioPlayer.play().catch(e => {
-        console.error("音频恢复播放失败:", e);
-        stopReading();
-      });
-      updateUI();
-    } else {
-      // 否则（首次播放，或暂停后滚动到新位置），就从新位置开始
-      stopReading(); 
-      startReading(newStartIndex);
+    // 3. 如果已暂停 -> 检查位置后决定是继续还是跳转
+    else {
+      const newStartIndex = findFirstVisibleElementIndex();
+      // 如果屏幕已滚动到新的位置
+      if (newStartIndex !== currentIndex) {
+        jumpToAndPlay(newStartIndex);
+      } else { // 否则，在原处继续
+        resumeReading();
+      }
     }
   });
 
   audioPlayer.onended = () => {
+    const previousItem = textQueue[currentIndex];
+    if (previousItem && previousItem.blobUrl) {
+      URL.revokeObjectURL(previousItem.blobUrl);
+      previousItem.blobUrl = null;
+    }
     currentIndex++;
     playCurrentAndPrefetchNext();
   };
-
+  
   audioPlayer.onerror = (e) => {
     console.error('Audio Player 发生错误:', e);
     stopReading();
@@ -210,7 +240,6 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('beforeunload', stopReading);
 
   // --- 初始化 ---
-
   const initializeReader = () => {
     const elements = article.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
     elements.forEach(el => {
@@ -219,6 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
         textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false });
       }
     });
+
     if (textQueue.length > 0) {
       container.style.display = 'block';
     }
