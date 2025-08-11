@@ -1,6 +1,6 @@
 <!-- tts-fab-reader.html -->
-<!-- 使用 Azure TTS 的高级语音朗读器 -->
-<!-- 版本 4.0: 支持从视口位置播放、预读取、无缝跳转 -->
+<!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
+<!-- 版本 4.0: 支持从视口位置开始播放和智能重启 -->
 
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
   <button id="tts-play-pause-btn" class="tts-button" aria-label="朗读文章">
@@ -16,15 +16,14 @@
   .tts-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
   .tts-button:active { transform: scale(0.95); }
   .tts-icon { fill: #333; width: 24px; height: 24px; }
-  .tts-highlight { background-color: #fef8e0; scroll-margin-top: 60px; /* 增加顶部留白，适配滚动定位 */ transition: background-color 0.3s ease; }
+  .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置 ---
-  const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com'; // 已按要求更新
+  const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com'; // 已更新为指定的 Worker URL
   const VOICE_NAME = 'zh-CN-YunyangNeural'; // 'zh-CN-YunyangNeural' 或 'zh-CN-XiaoxiaoNeural'
-  const VIEWPORT_TOP_MARGIN = 60; // 视口顶部偏移量(px)，用于定位元素，避免被导航栏遮挡
 
   // --- DOM 元素引用 ---
   const container = document.getElementById('tts-fab-container');
@@ -35,10 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (!article) return;
 
-  // --- 状态管理 ---
+  // --- 状态管理 (使用 let) ---
   let isReading = false;
   let isPaused = false;
-  let textQueue = []; // 存储 { text, element, blobUrl, isFetching }
+  let textQueue = [];
   let currentIndex = 0;
   let currentlyHighlightedElement = null;
   const audioPlayer = new Audio();
@@ -68,32 +67,32 @@ document.addEventListener('DOMContentLoaded', () => {
     if (element) {
       element.classList.add('tts-highlight');
       currentlyHighlightedElement = element;
-      // 'center' 保证了高亮元素总是在屏幕中间，提供更好的滚动跟随体验
       element.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   };
 
   /**
-   * 查找当前视口顶部的第一个可朗读元素的索引
-   * @returns {number} 元素的索引
+   * 核心功能：查找当前视口顶部的元素索引
+   * @returns {number} 目标元素在 textQueue 中的索引
    */
-  const findFirstVisibleElementIndex = () => {
+  const findIndexFromViewport = () => {
+    // 将视口顶部下方约 15% 的位置作为目标线，这比严格的顶部更自然
+    const targetY = window.innerHeight * 0.15; 
     for (let i = 0; i < textQueue.length; i++) {
       const rect = textQueue[i].element.getBoundingClientRect();
-      // 找到第一个顶部在视口指定边距下方（或之上）的元素
-      if (rect.top >= VIEWPORT_TOP_MARGIN) {
+      // 找到第一个底部在目标线以下的元素，即为当前正在阅读的元素
+      if (rect.bottom >= targetY) {
         return i;
       }
     }
-    // 如果都不可见（例如滚动到了页面底部注释区），则默认最后一个元素
-    return textQueue.length > 0 ? textQueue.length - 1 : 0;
+    // 如果循环结束都没找到（例如页面底部），则返回第一个元素的索引
+    return 0; 
   };
-
-  // --- 核心逻辑：预读取和播放 ---
+  
+  // --- 音频获取与播放 ---
   const fetchAndCacheAudio = async (index) => {
     const item = textQueue[index];
     if (!item || item.blobUrl || item.isFetching) return;
-
     item.isFetching = true;
     try {
       const response = await fetch(WORKER_URL, {
@@ -103,10 +102,13 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       if (!response.ok) throw new Error(`Azure TTS request failed`);
       const audioBlob = await response.blob();
-      item.blobUrl = URL.createObjectURL(audioBlob);
+      // 仅当朗读仍在进行时才创建和赋值 Blob URL
+      if (isReading) {
+        item.blobUrl = URL.createObjectURL(audioBlob);
+      }
     } catch (error) {
       console.error(`无法获取索引 ${index} 的音频:`, error);
-      stopReading();
+      if (isReading) stopReading(); // 如果在朗读过程中出错，则停止
     } finally {
       if(item) item.isFetching = false;
     }
@@ -117,13 +119,20 @@ document.addEventListener('DOMContentLoaded', () => {
       stopReading();
       return;
     }
+    
+    // 释放上一个音频对象的内存
+    const previousItem = textQueue[currentIndex - 1];
+    if (previousItem && previousItem.blobUrl) {
+      URL.revokeObjectURL(previousItem.blobUrl);
+      previousItem.blobUrl = null;
+    }
 
     const currentItem = textQueue[currentIndex];
     highlightElement(currentItem.element);
 
     if (!currentItem.blobUrl) {
       await fetchAndCacheAudio(currentIndex);
-      if (!currentItem.blobUrl) return; 
+      if (!isReading || !currentItem.blobUrl) return; 
     }
 
     audioPlayer.src = currentItem.blobUrl;
@@ -138,10 +147,9 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // --- 播放控制 ---
-  const startReading = (startIndex = 0) => {
+  const startReading = () => {
     isReading = true;
     isPaused = false;
-    currentIndex = startIndex;
     updateUI();
     playCurrentAndPrefetchNext();
   };
@@ -152,10 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
     audioPlayer.pause();
     audioPlayer.src = '';
     textQueue.forEach(item => {
-      if (item.blobUrl) {
-        URL.revokeObjectURL(item.blobUrl);
-        item.blobUrl = null;
-      }
+      if (item.blobUrl) URL.revokeObjectURL(item.blobUrl);
+      item.blobUrl = null;
       item.isFetching = false;
     });
     currentIndex = 0;
@@ -164,70 +170,51 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const pauseReading = () => {
-    if (!isReading) return;
     isPaused = true;
     audioPlayer.pause();
-    clearHighlight(); // 暂停时清除高亮，更清晰
+    clearHighlight();
     updateUI();
   };
 
   const resumeReading = () => {
     isPaused = false;
     highlightElement(textQueue[currentIndex].element);
-    audioPlayer.play();
+    audioPlayer.play().catch(e => {
+        console.error("音频恢复播放失败:", e);
+        stopReading();
+    });
     updateUI();
   };
-  
-  /**
-   * 跳转到指定索引并开始播放，这是实现“从视口播放”的核心
-   * @param {number} newIndex - 新的播放索引
-   */
-  const jumpToAndPlay = (newIndex) => {
-    // 停止当前播放并清理所有缓存
-    audioPlayer.pause();
-    audioPlayer.src = '';
-    textQueue.forEach(item => {
-      if (item.blobUrl) {
-        URL.revokeObjectURL(item.blobUrl);
-        item.blobUrl = null;
-      }
-      item.isFetching = false;
-    });
-    
-    // 从新位置开始
-    startReading(newIndex);
-  };
-
 
   // --- 事件监听 ---
   playPauseBtn.addEventListener('click', () => {
-    // 1. 如果从未开始或已停止 -> 从当前视口位置开始读
-    if (!isReading) {
-      const startIndex = findFirstVisibleElementIndex();
-      startReading(startIndex);
-    } 
-    // 2. 如果正在播放 -> 暂停
-    else if (!isPaused) {
+    // 1. 如果当前正在播放，则暂停
+    if (isReading && !isPaused) {
       pauseReading();
+      return;
     }
-    // 3. 如果已暂停 -> 检查位置后决定是继续还是跳转
+
+    // 2. 查找当前应该播放的位置
+    const newIndex = findIndexFromViewport();
+
+    // 3. 如果之前是暂停状态，且用户没有滚动到新位置
+    if (isPaused && newIndex === currentIndex) {
+      resumeReading();
+    } 
+    // 4. 否则（包括首次播放，或暂停后滚动到新位置），都视为一次新的开始
     else {
-      const newStartIndex = findFirstVisibleElementIndex();
-      // 如果屏幕已滚动到新的位置
-      if (newStartIndex !== currentIndex) {
-        jumpToAndPlay(newStartIndex);
-      } else { // 否则，在原处继续
-        resumeReading();
+      // 如果之前在朗读，先彻底停止并清理资源
+      if (isReading) {
+        stopReading();
       }
+      // 设置新的起点并开始朗读
+      currentIndex = newIndex;
+      startReading();
     }
   });
 
   audioPlayer.onended = () => {
-    const previousItem = textQueue[currentIndex];
-    if (previousItem && previousItem.blobUrl) {
-      URL.revokeObjectURL(previousItem.blobUrl);
-      previousItem.blobUrl = null;
-    }
+    if (!isReading) return;
     currentIndex++;
     playCurrentAndPrefetchNext();
   };
@@ -245,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.forEach(el => {
       const text = el.innerText.trim();
       if (text) {
-        textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false });
+        textQueue.push({ text, element: el, blobUrl: null, isFetching: false });
       }
     });
 
