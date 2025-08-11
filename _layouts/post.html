@@ -2,14 +2,14 @@
 layout: default
 ---
 
-{% include site-header.html %}
-
 <main class="main  container">
 
   {% include tts-reader.html %}
 
   <article class="article  article--post  content  typeset">
 
+    {% include site-header.html %}
+    
     <h1>{{ page.title }}</h1>
     {% include post-meta.html %}
     {{ content }}
