@@ -1,6 +1,6 @@
 <!-- tts-fab-reader.html -->
-<!-- 使用 Azure TTS 和 Cloudflare Worker 的高级 TTS 阅读器 -->
-<!-- 版本 3.0: Azure API angetrieben -->
+<!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
+<!-- 版本 3.0: Azure TTS Integration -->
 
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
   <button id="tts-play-pause-btn" class="tts-button" aria-label="朗读文章">
@@ -11,51 +11,22 @@
 
 <style>
   /* 样式部分保持不变 */
-  .tts-fab-container {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 1000;
-  }
-  .tts-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border: none;
-    background-color: #ffffff;
-    border-radius: 50%;
-    cursor: pointer;
-    padding: 0;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    transition: background-color 0.2s ease-in-out, transform 0.2s ease;
-  }
-  .tts-button:hover {
-    background-color: #f2f2f2;
-    transform: translateY(-2px);
-  }
-  .tts-button:active {
-    transform: scale(0.95);
-  }
-  .tts-icon {
-    fill: #333;
-    width: 24px;
-    height: 24px;
-  }
-  .tts-highlight {
-    background-color: #fef8e0;
-    scroll-margin-top: 40px;
-    transition: background-color 0.3s ease;
-  }
+  .tts-fab-container { position: fixed; bottom: 30px; right: 30px; z-index: 1000; }
+  .tts-button { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; border: none; background-color: #ffffff; border-radius: 50%; cursor: pointer; padding: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: background-color 0.2s ease-in-out, transform 0.2s ease; }
+  .tts-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
+  .tts-button:active { transform: scale(0.95); }
+  .tts-icon { fill: #333; width: 24px; height: 24px; }
+  .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // ##################################################################
-  // # 用户配置: 请将这里替换为您的 Cloudflare Worker URL #
-  // ##################################################################
-  const CLOUDFLARE_WORKER_URL = 'https://azure-tts-proxy.daizhikang.workers.dev';
+  // --- 配置 ---
+  // !!! 重要: 将这里替换为您在第 2 部分获得的 Cloudflare Worker URL !!!
+  const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com';
+  
+  // 选择您偏好的语音: 'zh-CN-YunyangNeural' (男声) 或 'zh-CN-XiaoxiaoNeural' (女声)
+  const VOICE_NAME = 'zh-CN-YunyangNeural';
 
   // --- DOM 元素引用 ---
   const container = document.getElementById('tts-fab-container');
@@ -65,29 +36,25 @@ document.addEventListener('DOMContentLoaded', () => {
   const article = document.querySelector('article');
 
   if (!article) return;
-  if (!CLOUDFLARE_WORKER_URL.startsWith('https')) {
-      console.warn('TTS 阅读器未配置 Cloudflare Worker URL。');
-      return;
-  }
-
+  
   // --- 状态管理 ---
   let isReading = false;
   let isPaused = false;
-  let textQueue = []; // 队列现在存储 {text, element}
+  let isFetching = false; // 防止在获取音频时重复点击
+  let textQueue = [];
   let currentIndex = 0;
-  let currentAudio = null; // 用于存储当前的 HTMLAudioElement
   let currentlyHighlightedElement = null;
-
-  // 默认使用晓晓的声音，可改为 'Yunyang-Neural'
-  const preferredVoiceName = 'Xiaoxiao-Neural'; 
+  
+  // 使用一个 Audio 对象来播放所有音频
+  const audioPlayer = new Audio();
 
   // --- UI 更新 ---
   const updateUI = () => {
-    if (isReading && !isPaused) { // 正在播放
+    if (isReading && !isPaused) {
       playIcon.style.display = 'none';
       pauseIcon.style.display = 'inline-block';
       playPauseBtn.setAttribute('aria-label', '暂停');
-    } else { // 暂停或停止状态
+    } else {
       playIcon.style.display = 'inline-block';
       pauseIcon.style.display = 'none';
       playPauseBtn.setAttribute('aria-label', isPaused ? '继续朗读' : '朗读文章');
@@ -101,7 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
       currentlyHighlightedElement = null;
     }
   };
-
   const highlightElement = (element) => {
     clearHighlight();
     if (element) {
@@ -111,90 +77,77 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // --- 核心音频播放逻辑 ---
-  const playNext = async () => {
+  // --- 音频播放核心逻辑 ---
+  const playNextInQueue = async () => {
     if (currentIndex >= textQueue.length) {
       stopReading();
       return;
     }
+    if (isFetching) return;
 
-    const { text, element } = textQueue[currentIndex];
-    highlightElement(element); // 立即高亮以提供反馈
+    const currentItem = textQueue[currentIndex];
+    highlightElement(currentItem.element);
+    isFetching = true;
+    playPauseBtn.disabled = true; // 获取时禁用按钮
 
     try {
-      const response = await fetch(CLOUDFLARE_WORKER_URL, {
+      const response = await fetch(WORKER_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text, voice: preferredVoiceName }),
+        body: JSON.stringify({ text: currentItem.text, voice: VOICE_NAME }),
       });
 
       if (!response.ok) {
-        throw new Error(`API 请求失败: ${response.status} ${response.statusText}`);
+        const errorText = await response.text();
+        console.error('无法获取音频:', errorText);
+        throw new Error('Failed to fetch audio');
       }
 
       const audioBlob = await response.blob();
       const audioUrl = URL.createObjectURL(audioBlob);
-      
-      if (currentAudio) {
-        currentAudio.src = ''; // 清理旧音频
-      }
-      currentAudio = new Audio(audioUrl);
-      
-      currentAudio.addEventListener('ended', () => {
-        URL.revokeObjectURL(audioUrl); // 释放内存
-        currentIndex++;
-        playNext(); // 播放下一个
-      });
-
-      currentAudio.addEventListener('error', (e) => {
-        console.error('音频播放错误:', e);
-        stopReading();
-      });
-
-      currentAudio.play();
+      audioPlayer.src = audioUrl;
+      audioPlayer.play();
 
     } catch (error) {
-      console.error('获取或播放音频时出错:', error);
-      stopReading();
+      console.error('播放失败:', error);
+      stopReading(); // 发生错误时停止朗读
+    } finally {
+      isFetching = false;
+      playPauseBtn.disabled = false; // 恢复按钮
     }
   };
-
-  // --- 控制函数 ---
+  
+  // --- 播放控制 ---
   const startReading = () => {
     isReading = true;
     isPaused = false;
     currentIndex = 0;
     updateUI();
-    playNext();
+    playNextInQueue();
   };
 
   const stopReading = () => {
-    if (currentAudio) {
-      currentAudio.pause();
-      currentAudio = null;
-    }
     isReading = false;
     isPaused = false;
+    audioPlayer.pause();
+    audioPlayer.src = ''; // 清理资源
+    currentIndex = 0;
     clearHighlight();
     updateUI();
   };
-  
+
   const pauseReading = () => {
-    if (currentAudio && isReading && !isPaused) {
-      currentAudio.pause();
-      isPaused = true;
-      clearHighlight(); // 暂停时取消高亮
-      updateUI();
-    }
+    isPaused = true;
+    audioPlayer.pause();
+    clearHighlight();
+    updateUI();
   };
 
   const resumeReading = () => {
-    if (currentAudio && isReading && isPaused) {
-      isPaused = false;
-      highlightElement(textQueue[currentIndex].element); // 恢复时重新高亮
-      currentAudio.play();
-      updateUI();
-    }
+    isPaused = false;
+    highlightElement(textQueue[currentIndex].element);
+    audioPlayer.play();
+    updateUI();
   };
 
   // --- 事件监听 ---
@@ -208,23 +161,33 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  window.addEventListener('beforeunload', stopReading); // 离开页面时停止朗读
+  // 音频播放完毕后，自动播放下一个
+  audioPlayer.onended = () => {
+    currentIndex++;
+    playNextInQueue();
+  };
+
+  audioPlayer.onerror = (e) => {
+    console.error('Audio Player 发生错误:', e);
+    stopReading();
+  };
+
+  window.addEventListener('beforeunload', stopReading);
 
   // --- 初始化 ---
   const initializeReader = () => {
+    // 收集页面上所有需要朗读的文本元素
     const elements = article.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
     elements.forEach(el => {
-      // 过滤掉不包含有意义文本的元素
       const text = el.innerText.trim();
       if (text) {
-        textQueue.push({ text, element: el });
+        textQueue.push({ text: text, element: el });
       }
     });
 
-    if (textQueue.length === 0) return;
-    
-    container.style.display = 'block';
-    updateUI();
+    if (textQueue.length > 0) {
+      container.style.display = 'block'; // 准备就绪，显示按钮
+    }
   };
 
   initializeReader();
