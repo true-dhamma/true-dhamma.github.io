@@ -1,262 +1,197 @@
 <!-- tts-reader.html -->
-<!-- 最终版：支持进度条拖动、双击朗读、内容高亮和高级设置 -->
+<!-- 放置在 Jekyll 的 _includes 文件夹下 -->
+<!-- 
+  修改版功能:
+  1. 朗读和暂停合并为单个按钮。
+  2. 自动读取 <article> 标签内的文本。
+  3. Edge 浏览器优先选择 Yunyang (Natural) 语音。
+  4. Safari 浏览器优先选择 Siri 语音。
+  5. 按钮为内联样式 (inline-flex)，可插入到标题等任意位置不换行。
+-->
 
-<div class="tts-reader" id="tts-reader-container" style="visibility: hidden;">
-  <!-- ... (rest of the HTML is the same as the previous version) ... -->
-  <div class="tts-main-controls">
-    <button id="tts-play-pause-btn" class="tts-button" aria-label="朗读文章">
-      <svg class="tts-icon" id="tts-play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
-      <svg class="tts-icon" id="tts-pause-icon" viewBox="0 0 24 24" style="display: none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>
-    </button>
-    <button id="tts-stop-btn" class="tts-button" aria-label="停止朗读" style="display: none;">
-      <svg class="tts-icon" id="tts-stop-icon" viewBox="0 0 24 24"><path d="M6 6h12v12H6z"></path></svg>
-    </button>
-    <div id="tts-progress-container" class="tts-progress-bar-container">
-      <div id="tts-progress-bar" class="tts-progress-bar"></div>
-    </div>
-    <button id="tts-settings-btn" class="tts-button" aria-label="设置">
-      <svg class="tts-icon" id="tts-settings-icon" viewBox="0 0 24 24"><path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"></path></svg>
-    </button>
-  </div>
-  <div id="tts-settings-panel" class="tts-settings-panel">
-    <div class="tts-setting">
-      <label for="tts-voice-select">语音:</label>
-      <select id="tts-voice-select"></select>
-    </div>
-    <div class="tts-setting">
-      <label for="tts-rate-slider">语速:</label>
-      <input type="range" id="tts-rate-slider" min="0.5" max="2" step="0.1" value="1">
-      <span id="tts-rate-value">1.0x</span>
-    </div>
-  </div>
-</div>
+<span class="tts-reader-wrapper" id="tts-reader-container" style="display: none;">
+  <button id="tts-play-pause-btn" class="tts-button" aria-label="朗读文章">
+    <svg class="tts-icon" id="tts-play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M8 5v14l11-7z"></path></svg>
+    <svg class="tts-icon" id="tts-pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="display: none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>
+  </button>
+</span>
 
 <style>
-  /* ... (most CSS is the same as the previous version) ... */
-  .tts-reader {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.05);
-    padding: 8px;
-    margin: 20px auto;
-    width: fit-content;
-    max-width: 90%;
-    transition: all 0.3s ease;
+  .tts-reader-wrapper {
+    display: inline-flex; /* 关键：使其成为内联元素 */
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle; /* 优化与旁边文本的对齐 */
+    margin: 0 0.2em; /* 与周围文本留出一点间距 */
   }
-  .tts-main-controls { display: flex; align-items: center; gap: 8px; }
-  .tts-button { display: inline-flex; justify-content: center; align-items: center; width: 36px; height: 36px; border: none; background-color: #f0f0f0; border-radius: 50%; cursor: pointer; padding: 0; transition: background-color 0.2s ease; }
-  .tts-button:hover { background-color: #e0e0e0; }
-  .tts-icon { fill: #333; width: 20px; height: 20px; }
-  .tts-progress-bar-container {
-    flex-grow: 1; height: 8px; background-color: #e9ecef; border-radius: 4px;
-    overflow: hidden; margin: 0 5px; cursor: pointer; /* New: Indicate interactivity */
+  .tts-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px; /* 调小尺寸以适应内联 */
+    height: 32px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease;
   }
-  .tts-progress-bar { width: 0%; height: 100%; background-color: #007bff; transition: width 0.2s linear; }
-  .tts-settings-panel { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out, padding-top 0.3s ease-out; padding-top: 0; }
-  .tts-settings-panel.open { max-height: 200px; padding-top: 10px; }
-  .tts-setting { display: flex; align-items: center; margin-bottom: 8px; font-size: 14px; }
-  .tts-setting label { margin-right: 8px; color: #555; }
-  .tts-setting select, .tts-setting input { flex-grow: 1; }
-  #tts-rate-value { width: 40px; text-align: right; color: #555; }
-  #tts-voice-select { border: 1px solid #ccc; border-radius: 4px; padding: 4px; background-color: #fff; }
-  .tts-highlight {
-    background-color: #fff3cd !important;
-    transition: background-color 0.3s ease;
-    border-radius: 4px;
-    scroll-margin-top: 20px;
+  .tts-button:hover {
+    background-color: #e0e0e0;
+  }
+  .tts-button:active {
+    transform: scale(0.9);
+  }
+  .tts-icon {
+    fill: #333;
+    width: 20px; /* 调小图标尺寸 */
+    height: 20px;
   }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const synth = window.speechSynthesis;
-  if (!synth) { console.warn('Web Speech API not supported.'); return; }
+  if (!synth) {
+    console.log('抱歉，您的浏览器不支持 Web Speech API。');
+    return;
+  }
 
-  // --- DOM Elements ---
+  // --- DOM Element References ---
   const container = document.getElementById('tts-reader-container');
   const playPauseBtn = document.getElementById('tts-play-pause-btn');
-  const stopBtn = document.getElementById('tts-stop-btn');
   const playIcon = document.getElementById('tts-play-icon');
   const pauseIcon = document.getElementById('tts-pause-icon');
-  const progressContainer = document.getElementById('tts-progress-container');
-  const progressBar = document.getElementById('tts-progress-bar');
-  const settingsBtn = document.getElementById('tts-settings-btn');
-  const settingsPanel = document.getElementById('tts-settings-panel');
-  const voiceSelect = document.getElementById('tts-voice-select');
-  const rateSlider = document.getElementById('tts-rate-slider');
-  const rateValue = document.getElementById('tts-rate-value');
   const article = document.querySelector('article');
 
   if (!article) return;
 
-  // --- State ---
-  let utterances = [];
-  let currentUtteranceIndex = 0;
-  let currentHighlightElement = null;
-  const readableSelectors = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption';
+  // --- Text Extraction ---
+  // 精准提取文章内容，忽略代码块等
+  const textElements = article.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
+  let textToRead = Array.from(textElements).map(el => el.innerText.trim()).join('. ');
 
-  // --- Text & Utterance Preparation ---
-  const prepareUtterances = () => {
-    const readableElements = article.querySelectorAll(readableSelectors);
-    utterances = Array.from(readableElements).map(el => {
-      const text = el.innerText.trim();
-      if (text) {
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.sourceElement = el;
-        return utterance;
-      }
-      return null;
-    }).filter(Boolean);
+  if (!textToRead.trim()) return;
+
+  // --- UI State Management ---
+  const updateUI = () => {
+    if (synth.speaking && !synth.paused) { // 正在朗读
+      playIcon.style.display = 'none';
+      pauseIcon.style.display = 'inline-block';
+      playPauseBtn.setAttribute('aria-label', '暂停朗读');
+    } else { // 已暂停或已停止
+      playIcon.style.display = 'inline-block';
+      pauseIcon.style.display = 'none';
+      playPauseBtn.setAttribute('aria-label', '朗读文章');
+    }
   };
 
-  // --- UI Update Functions (unchanged) ---
-  const updateUI = (state) => { /* ... same as before ... */ };
-  const updateProgress = () => { /* ... same as before ... */ };
-  const highlightCurrentElement = (element) => { /* ... same as before ... */ };
-
-  // --- Player Logic ---
-  const playFrom = (index) => {
-    synth.cancel();
-    currentUtteranceIndex = Math.max(0, Math.min(index, utterances.length - 1));
-    speakNext();
-  };
+  // --- Speech Synthesis Setup ---
+  const utterance = new SpeechSynthesisUtterance(textToRead);
+  let preferredVoice = null;
+  const pageLang = document.documentElement.lang || 'zh-CN';
+  utterance.lang = pageLang;
   
-  const speakNext = () => {
-    if (currentUtteranceIndex >= utterances.length || !utterances[currentUtteranceIndex]) {
-      updateUI('stopped');
-      return;
-    }
-    const utterance = utterances[currentUtteranceIndex];
-    /* ... (rest of speakNext is the same) ... */
+  utterance.onstart = updateUI;
+  utterance.onpause = updateUI;
+  utterance.onresume = updateUI;
+  utterance.onend = () => {
+      // 朗读结束后重置UI
+      playIcon.style.display = 'inline-block';
+      pauseIcon.style.display = 'none';
+      playPauseBtn.setAttribute('aria-label', '朗读文章');
   };
-  const stop = () => { /* ... same as before ... */ };
+  utterance.onerror = (event) => {
+    console.error('朗读发生错误:', event);
+    // 发生错误也重置UI
+    playIcon.style.display = 'inline-block';
+    pauseIcon.style.display = 'none';
+    playPauseBtn.setAttribute('aria-label', '朗读文章');
+  };
 
-  // --- New: Click to Seek on Progress Bar ---
-  progressContainer.addEventListener('click', (e) => {
-    if (utterances.length === 0) return;
-    const rect = progressContainer.getBoundingClientRect();
-    const clickX = e.clientX - rect.left;
-    const width = rect.width;
-    const percentage = clickX / width;
-    const targetIndex = Math.floor(percentage * utterances.length);
-    playFrom(targetIndex);
-  });
+  // --- Browser-Specific Voice Selection ---
+  const selectVoice = () => {
+    const voices = synth.getVoices();
+    if (voices.length === 0) return;
 
-  // --- New: Double-click to Read from Element ---
-  article.addEventListener('dblclick', (e) => {
-    const targetElement = e.target.closest(readableSelectors);
-    if (targetElement) {
-      const targetIndex = utterances.findIndex(u => u.sourceElement === targetElement);
-      if (targetIndex !== -1) {
-        playFrom(targetIndex);
+    const userAgent = navigator.userAgent;
+    const isEdge = userAgent.includes("Edg/");
+    const isSafari = userAgent.includes("Safari/") && !userAgent.includes("Chrome/");
+    const langPrefix = pageLang.split('-')[0]; // e.g., 'zh'
+
+    // 1. Edge: 优先寻找 Yunyang
+    if (isEdge) {
+      const yunyangVoice = voices.find(voice => 
+        voice.lang.startsWith(langPrefix) && voice.name.includes('Yunyang')
+      );
+      if (yunyangVoice) {
+        preferredVoice = yunyangVoice;
+        utterance.voice = preferredVoice;
+        return;
       }
     }
-  });
+    
+    // 2. Safari: 优先寻找 Siri
+    if (isSafari) {
+      const siriVoice = voices.find(voice => 
+        voice.lang.startsWith(langPrefix) && voice.name.includes('Siri')
+      );
+      if (siriVoice) {
+        preferredVoice = siriVoice;
+        utterance.voice = preferredVoice;
+        return;
+      }
+    }
+
+    // 3. Fallback: 寻找其他高质量在线语音
+    const onlineVoice = voices.find(voice => 
+        voice.lang.startsWith(langPrefix) && voice.localService === false
+    );
+    if (onlineVoice) {
+        preferredVoice = onlineVoice;
+        utterance.voice = preferredVoice;
+        return;
+    }
+    
+    // 4. Final Fallback: 寻找任何匹配语言的本地语音
+    const localVoice = voices.find(voice => voice.lang.startsWith(langPrefix));
+    if (localVoice) {
+        preferredVoice = localVoice;
+        utterance.voice = preferredVoice;
+    }
+  };
+
+  // 'voiceschanged' 事件对于动态加载语音至关重要
+  synth.onvoiceschanged = selectVoice;
+  selectVoice(); // 同时立即调用一次，以防语音已加载
 
   // --- Event Listeners ---
   playPauseBtn.addEventListener('click', () => {
-    if (synth.speaking && !synth.paused) { synth.pause(); updateUI('paused'); }
-    else if (synth.paused) { synth.resume(); updateUI('playing'); }
-    else { playFrom(currentUtteranceIndex); } // Start from current or beginning
-  });
-  
-  // ... (All other event listeners for stop, settings, etc. remain the same) ...
-
-  // --- Initialization ---
-  // ... (Initialization logic remains the same) ...
-  
-  // --- Re-pasting unchanged functions for completeness ---
-  updateUI = (state) => {
-    if (state === 'playing') {
-      playIcon.style.display = 'none'; pauseIcon.style.display = 'inline-block';
-      stopBtn.style.display = 'inline-flex';
-      playPauseBtn.setAttribute('aria-label', '暂停朗读');
-    } else if (state === 'paused') {
-      playIcon.style.display = 'inline-block'; pauseIcon.style.display = 'none';
-      playPauseBtn.setAttribute('aria-label', '继续朗读');
-    } else { // 'stopped'
-      playIcon.style.display = 'inline-block'; pauseIcon.style.display = 'none';
-      stopBtn.style.display = 'none';
-      playPauseBtn.setAttribute('aria-label', '朗读文章');
-      progressBar.style.width = '0%';
-      if (currentHighlightElement) {
-        currentHighlightElement.classList.remove('tts-highlight');
-        currentHighlightElement = null;
+    // 在开始朗读前，确保语音已选择
+    if (!utterance.voice) {
+       selectVoice();
+    }
+      
+    if (synth.speaking) {
+      if (synth.paused) {
+        synth.resume();
+      } else {
+        synth.pause();
       }
+    } else {
+      // 如果之前有残留，先取消
+      synth.cancel(); 
+      synth.speak(utterance);
     }
-  };
-  updateProgress = () => {
-      const progress = utterances.length > 0 ? ((currentUtteranceIndex + 1) / utterances.length) * 100 : 0;
-      progressBar.style.width = `${progress}%`;
-  };
-  highlightCurrentElement = (element) => {
-    if (currentHighlightElement) {
-      currentHighlightElement.classList.remove('tts-highlight');
-    }
-    element.classList.add('tts-highlight');
-    element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    currentHighlightElement = element;
-  };
-  speakNext = () => {
-    if (currentUtteranceIndex >= utterances.length) {
-      updateUI('stopped');
-      return;
-    }
-    const utterance = utterances[currentUtteranceIndex];
-    const settings = getSettings();
-    utterance.voice = settings.voice;
-    utterance.rate = settings.rate;
-    utterance.lang = document.documentElement.lang || 'zh-CN';
-
-    utterance.onstart = () => {
-      updateUI('playing');
-      highlightCurrentElement(utterance.sourceElement);
-    };
-
-    utterance.onend = () => {
-      currentUtteranceIndex++;
-      updateProgress();
-      speakNext();
-    };
-    utterance.onerror = (e) => { console.error('Speech synthesis error:', e); stop(); };
-    synth.speak(utterance);
-  };
-  stop = () => {
+  });
+  
+  // 在用户离开页面时停止朗读，防止后台播放
+  window.addEventListener('beforeunload', () => {
     synth.cancel();
-    currentUtteranceIndex = 0;
-    updateUI('stopped');
-  };
-  const getSettings = () => { /* ... */ };
-  const populateVoiceList = () => { /* ... */ };
-  const settings = getSettings.call(this)
-  const rate = settings.rate
-  rateSlider.addEventListener('input', () => {
-    rateValue.textContent = `${parseFloat(rateSlider.value).toFixed(1)}x`;
   });
-  rateSlider.addEventListener('change', () => {
-    localStorage.setItem('tts-rate', rateSlider.value);
-  });
-  voiceSelect.addEventListener('change', (e) => {
-    localStorage.setItem('tts-voiceURI', e.target.options[e.target.selectedIndex].getAttribute('data-voice-uri'));
-  });
-  settingsBtn.addEventListener('click', () => settingsPanel.classList.toggle('open'));
-  stopBtn.addEventListener('click', stop);
-  window.addEventListener('beforeunload', () => synth.cancel());
 
-  prepareUtterances();
-  if (utterances.length > 0) {
-    container.style.visibility = 'visible';
-    updateProgress();
-  }
-  if (synth.onvoiceschanged !== undefined) {
-    synth.onvoiceschanged = populateVoiceList;
-  }
-  populateVoiceList();
-  const savedRate = localStorage.getItem('tts-rate');
-  if (savedRate) {
-    rateSlider.value = savedRate;
-    rateValue.textContent = `${parseFloat(savedRate).toFixed(1)}x`;
-  }
+  // 一切准备就绪，显示播放器
+  container.style.display = 'inline-flex';
 });
 </script>
