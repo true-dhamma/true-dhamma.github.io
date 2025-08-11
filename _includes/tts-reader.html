@@ -1,6 +1,6 @@
 <!-- tts-fab-reader.html -->
 <!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 3.1: 增加了预读取功能以实现无缝播放 -->
+<!-- 版本 3.2: 增加双击跳转朗读功能 -->
 
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
   <button id="tts-play-pause-btn" class="tts-button" aria-label="朗读文章">
@@ -22,7 +22,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置 ---
-  const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com'; // !!! 确保这里是您正确的 Worker URL
+  const WORKER_URL = 'https://your-worker-name.your-subdomain.workers.dev'; // !!! 确保这里是您正确的 Worker URL
   const VOICE_NAME = 'zh-CN-YunyangNeural'; // 'zh-CN-YunyangNeural' 或 'zh-CN-XiaoxiaoNeural'
 
   // --- DOM 元素引用 ---
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- 状态管理 ---
   let isReading = false;
   let isPaused = false;
-  let textQueue = []; // 现在会存储 { text, element, blobUrl, isFetching }
+  let textQueue = [];
   let currentIndex = 0;
   let currentlyHighlightedElement = null;
   const audioPlayer = new Audio();
@@ -71,19 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // --- 核心逻辑：预读取和播放 ---
-  
-  /**
-   * 异步获取指定索引的音频并存储到队列中
-   * @param {number} index - 要获取的文本在队列中的索引
-   */
+  // --- 核心逻辑：预读取和播放 (无变动) ---
   const fetchAndCacheAudio = async (index) => {
     const item = textQueue[index];
-    // 如果索引无效，或者已经有音频，或者正在获取中，则直接返回
-    if (!item || item.blobUrl || item.isFetching) {
-      return;
-    }
-
+    if (!item || item.blobUrl || item.isFetching) return;
     item.isFetching = true;
     try {
       const response = await fetch(WORKER_URL, {
@@ -91,51 +82,35 @@ document.addEventListener('DOMContentLoaded', () => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text: item.text, voice: VOICE_NAME }),
       });
-
-      if (!response.ok) throw new Error(`Azure TTS request failed with status ${response.status}`);
-      
+      if (!response.ok) throw new Error(`Azure TTS request failed`);
       const audioBlob = await response.blob();
       item.blobUrl = URL.createObjectURL(audioBlob);
     } catch (error) {
       console.error(`无法获取索引 ${index} 的音频:`, error);
-      // 如果获取失败，可以决定是否停止整个朗读过程
       stopReading();
     } finally {
       item.isFetching = false;
     }
   };
 
-  /**
-   * 播放当前索引的音频，并开始预读取下一个
-   */
   const playCurrentAndPrefetchNext = async () => {
     if (currentIndex >= textQueue.length) {
       stopReading();
       return;
     }
-    
-    // 释放上一个音频对象的内存
     const previousItem = textQueue[currentIndex - 1];
     if (previousItem && previousItem.blobUrl) {
       URL.revokeObjectURL(previousItem.blobUrl);
       previousItem.blobUrl = null;
     }
-
     const currentItem = textQueue[currentIndex];
     highlightElement(currentItem.element);
-
-    // 如果当前音频还没有被缓存（通常只在第一次播放时发生），则等待它加载完成
     if (!currentItem.blobUrl) {
       await fetchAndCacheAudio(currentIndex);
-      // 如果加载失败，fetchAndCacheAudio 内部会调用 stopReading，这里直接返回
-      if (!currentItem.blobUrl) return; 
+      if (!currentItem.blobUrl) return;
     }
-
-    // 播放当前已缓存的音频
     audioPlayer.src = currentItem.blobUrl;
     audioPlayer.play();
-
-    // **核心：立即开始预读取下一个音频**
     if (currentIndex + 1 < textQueue.length) {
       fetchAndCacheAudio(currentIndex + 1);
     }
@@ -155,14 +130,10 @@ document.addEventListener('DOMContentLoaded', () => {
     isPaused = false;
     audioPlayer.pause();
     audioPlayer.src = '';
-    // 清理所有可能已缓存的 blob URL，释放内存
     textQueue.forEach(item => {
       if (item.blobUrl) URL.revokeObjectURL(item.blobUrl);
-    });
-    // 重置队列状态
-    textQueue.forEach(item => {
-        item.blobUrl = null;
-        item.isFetching = false;
+      item.blobUrl = null;
+      item.isFetching = false;
     });
     currentIndex = 0;
     clearHighlight();
@@ -183,6 +154,30 @@ document.addEventListener('DOMContentLoaded', () => {
     updateUI();
   };
 
+  // --- 新增功能：跳转到指定索引并播放 ---
+  const jumpToAndPlay = (newIndex) => {
+    // 立即停止当前播放
+    audioPlayer.pause();
+    audioPlayer.src = '';
+    
+    // 清理所有已缓存的音频并重置状态，以便从新位置重新开始预取
+    textQueue.forEach(item => {
+      if (item.blobUrl) {
+        URL.revokeObjectURL(item.blobUrl);
+        item.blobUrl = null;
+      }
+      item.isFetching = false;
+    });
+
+    // 更新状态
+    currentIndex = newIndex;
+    isReading = true;
+    isPaused = false;
+    
+    updateUI();
+    playCurrentAndPrefetchNext();
+  };
+
   // --- 事件监听 ---
   playPauseBtn.addEventListener('click', () => {
     if (!isReading) {
@@ -194,7 +189,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 当前音频播放完毕后，自动播放下一个
   audioPlayer.onended = () => {
     currentIndex++;
     playCurrentAndPrefetchNext();
@@ -207,19 +201,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('beforeunload', stopReading);
 
+  // --- 新增功能：处理双击事件 ---
+  const handleArticleDoubleClick = (event) => {
+    // 只有在已经开始朗读（播放中或暂停中）时，双击才有效
+    if (!isReading) return;
+
+    // 找到被双击的、可朗读的块级元素
+    const selector = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption';
+    const clickedBlockElement = event.target.closest(selector);
+
+    if (!clickedBlockElement) return;
+
+    // 在队列中找到该元素的索引
+    const newIndex = textQueue.findIndex(item => item.element === clickedBlockElement);
+
+    if (newIndex !== -1) {
+      jumpToAndPlay(newIndex);
+    }
+  };
+
+
   // --- 初始化 ---
   const initializeReader = () => {
     const elements = article.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
     elements.forEach(el => {
       const text = el.innerText.trim();
       if (text) {
-        // 初始化队列对象结构
-        textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false });
+        textQueue.push({ text, element: el, blobUrl: null, isFetching: false });
       }
     });
 
     if (textQueue.length > 0) {
       container.style.display = 'block';
+      // *** 新增：在此处绑定双击事件监听器 ***
+      article.addEventListener('dblclick', handleArticleDoubleClick);
     }
   };
 
