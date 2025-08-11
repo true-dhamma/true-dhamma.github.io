@@ -2,15 +2,13 @@
 title: True Dhamma
 timezone: Asia/Shanghai
 collections:
-  posts:
-    title: 文章
-    output: true
-    description: 
-    feature_text: 
-    feature_image: "/uploads/top_banner_blog.jpg"
   uploads:
     title: Uploads
     output: true
+  posts:
+    title: 文章
+    output: true
+    feature_image: "/uploads/top_banner_blog.jpg"
 defaults:
 - scope:
     path: ''
