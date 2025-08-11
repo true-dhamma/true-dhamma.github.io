@@ -8,7 +8,7 @@ layout: default
 
   <article class="article  article--post  content  typeset">
 
-    <h1>{{ page.title }} <span style="align: right">{% include tts-reader.html %}</span></h1>
+    <h1>{{ page.title }}</h1>
     {% include post-meta.html %}
     {{ content }}
 
@@ -19,6 +19,7 @@ layout: default
   </article>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+  {% include tts-reader.html %}
 
 </main>
 
