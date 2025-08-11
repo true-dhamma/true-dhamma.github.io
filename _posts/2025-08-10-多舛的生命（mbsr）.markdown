@@ -10,6 +10,7 @@ feature_text:
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Full Catastrophe Living (Revised Edition) - Jon Kabat-Zinn
 >
 > ##### 多舛的生命（修订版） - 乔恩·卡巴金

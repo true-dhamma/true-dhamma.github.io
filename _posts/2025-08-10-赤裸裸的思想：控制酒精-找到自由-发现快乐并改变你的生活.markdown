@@ -1,15 +1,16 @@
 ---
 title: 赤裸裸的思想：控制酒精、找到自由、发现快乐并改变你的生活
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 当你看清酒精的真相，曾经对“再也不能喝酒”的恐惧，会被“再也无需喝酒”的兴奋所取代。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### This Naked Mind: Control Alcohol, Find Freedom, Discover Happiness & Change Your Life - Annie Grace - 摘要
 >
 > ##### 赤裸裸的思想：控制酒精、找到自由、发现快乐并改变你的生活 - 安妮·格雷斯

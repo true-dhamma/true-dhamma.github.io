@@ -1,15 +1,16 @@
 ---
 title: 空洞的心：成瘾的真相与疗愈
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 成瘾的真相：它并非道德缺陷或疾病，而是对童年创伤和难以忍受的痛苦的一种适应性反应。疗愈之路始于慈悲的好奇，而非谴责。
-feature_text:
-feature_image: /uploads/top_banner_addiction.png
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.png"
 aside: true
 ---
+
 > ##### In the Realm of Hungry Ghosts: Close Encounters with Addiction - Gabor Maté - 摘要
 >
 > ##### 空洞的心：成瘾的真相与疗愈 - 加博尔·马泰
