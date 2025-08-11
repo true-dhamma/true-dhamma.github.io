@@ -7,8 +7,6 @@ layout: default
   {% include tts-reader.html %}
 
   <article class="article  article--post  content  typeset">
-
-    {% include site-header.html %}
     
     <h1>{{ page.title }}</h1>
     {% include post-meta.html %}
@@ -21,6 +19,7 @@ layout: default
   </article>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+    {% include site-header.html %}
 
 </main>
 
