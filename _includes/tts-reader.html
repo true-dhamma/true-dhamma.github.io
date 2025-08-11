@@ -1,11 +1,10 @@
 <!-- tts-reader.html -->
 <!-- 
-  修改版功能 v2:
-  1. 修复了 Edge/Chrome 浏览器上暂停后无法恢复播放的 bug。
-  2. 优化 Safari 语音选择顺序为: "Siri" -> "莉莉 (Li-li)" -> "语舒 (Yu-Shu)"。
-  3. 朗读和暂停合并为单个按钮。
-  4. 自动读取 <article> 标签内的文本。
-  5. 按钮为内联样式，可插入任意位置不换行。
+  修改版功能 v3 (稳定版):
+  1. 通过“记录位置并重启”的方式，彻底修复 Edge/Chrome 浏览器暂停后无法播放的 bug。
+  2. Safari 语音选择顺序: "Siri" -> "莉莉 (Li-li)" -> "语舒 (Yu-Shu)"。
+  3. Edge 浏览器优先选择 Yunyang (Natural) 语音。
+  4. 朗读和暂停合并为单个按钮，按钮为内联样式，可插入任意位置。
 -->
 
 <span class="tts-reader-wrapper" id="tts-reader-container" style="display: none;">
@@ -17,36 +16,19 @@
 
 <style>
   .tts-reader-wrapper {
-    display: inline-flex; /* 关键：使其成为内联元素 */
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle; /* 优化与旁边文本的对齐 */
-    margin: 0 0.2em; /* 与周围文本留出一点间距 */
+    display: inline-flex; align-items: center; justify-content: center;
+    vertical-align: middle; margin: 0 0.2em;
   }
   .tts-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 32px; /* 调小尺寸以适应内联 */
-    height: 32px;
-    border: 1px solid #ddd;
-    background-color: #f7f7f7;
-    border-radius: 50%;
-    cursor: pointer;
-    padding: 0;
+    display: flex; justify-content: center; align-items: center;
+    width: 32px; height: 32px; border: 1px solid #ddd;
+    background-color: #f7f7f7; border-radius: 50%;
+    cursor: pointer; padding: 0;
     transition: background-color 0.2s ease-in-out, transform 0.1s ease;
   }
-  .tts-button:hover {
-    background-color: #e0e0e0;
-  }
-  .tts-button:active {
-    transform: scale(0.9);
-  }
-  .tts-icon {
-    fill: #333;
-    width: 20px; /* 调小图标尺寸 */
-    height: 20px;
-  }
+  .tts-button:hover { background-color: #e0e0e0; }
+  .tts-button:active { transform: scale(0.9); }
+  .tts-icon { fill: #333; width: 20px; height: 20px; }
 </style>
 
 <script>
@@ -57,31 +39,31 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  // --- DOM Element References ---
   const container = document.getElementById('tts-reader-container');
   const playPauseBtn = document.getElementById('tts-play-pause-btn');
   const playIcon = document.getElementById('tts-play-icon');
   const pauseIcon = document.getElementById('tts-pause-icon');
   const article = document.querySelector('article');
-
   if (!article) return;
-  
-  // --- Global State ---
-  let keepAliveInterval = null; // 用于修复 Edge/Chrome 暂停 bug 的计时器
 
-  // --- Text Extraction ---
   const textElements = article.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
-  let textToRead = Array.from(textElements).map(el => el.innerText.trim()).join('. ');
+  const fullText = Array.from(textElements).map(el => el.innerText.trim()).join('. ');
+  if (!fullText.trim()) return;
 
-  if (!textToRead.trim()) return;
+  let preferredVoice = null;
+  const pageLang = document.documentElement.lang || 'zh-CN';
+  
+  // --- State Management ---
+  let currentUtterance = null;
+  let currentCharIndex = 0; // 记录当前播放到的字符位置
+  let isManuallyPaused = false; // 标记是用户暂停，还是自然结束
 
-  // --- UI State Management ---
-  const updateUI = () => {
-    if (synth.speaking && !synth.paused) { // 正在朗读
+  const updateUI = (state) => {
+    if (state === 'playing') {
       playIcon.style.display = 'none';
       pauseIcon.style.display = 'inline-block';
       playPauseBtn.setAttribute('aria-label', '暂停朗读');
-    } else { // 已暂停或已停止
+    } else { // 'paused' or 'stopped'
       playIcon.style.display = 'inline-block';
       pauseIcon.style.display = 'none';
       playPauseBtn.setAttribute('aria-label', '朗读文章');
@@ -89,31 +71,43 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   
   const stopReading = () => {
-      clearInterval(keepAliveInterval); // 停止时必须清除计时器
-      synth.cancel();
-      updateUI();
+    isManuallyPaused = false;
+    currentCharIndex = 0;
+    synth.cancel();
+    updateUI('stopped');
   };
 
+  const speak = (textToSpeak, startIndex) => {
+    synth.cancel(); // 开始前先清空队列
+    
+    currentUtterance = new SpeechSynthesisUtterance(textToSpeak);
+    currentUtterance.lang = pageLang;
+    if (preferredVoice) {
+      currentUtterance.voice = preferredVoice;
+    }
 
-  // --- Speech Synthesis Setup ---
-  const utterance = new SpeechSynthesisUtterance(textToRead);
-  let preferredVoice = null;
-  const pageLang = document.documentElement.lang || 'zh-CN';
-  utterance.lang = pageLang;
-  
-  utterance.onstart = updateUI;
-  utterance.onpause = updateUI;
-  utterance.onresume = updateUI;
-  utterance.onend = () => {
-      clearInterval(keepAliveInterval); // 朗读结束，清除计时器
-      updateUI();
-  };
-  utterance.onerror = (event) => {
-    console.error('朗读发生错误:', event);
-    stopReading(); // 发生错误时也停止并重置
+    currentUtterance.onboundary = (event) => {
+      // 实时更新当前读到的字符绝对位置
+      currentCharIndex = startIndex + event.charIndex;
+    };
+
+    currentUtterance.onend = () => {
+      // 如果不是用户手动暂停，则说明是自然播放结束，重置状态
+      if (!isManuallyPaused) {
+        currentCharIndex = 0;
+        updateUI('stopped');
+      }
+    };
+    
+    currentUtterance.onerror = (event) => {
+      console.error('朗读发生错误:', event);
+      stopReading();
+    };
+
+    synth.speak(currentUtterance);
+    updateUI('playing');
   };
 
-  // --- Browser-Specific Voice Selection ---
   const selectVoice = () => {
     const voices = synth.getVoices();
     if (voices.length === 0) return;
@@ -121,94 +115,59 @@ document.addEventListener('DOMContentLoaded', () => {
     const userAgent = navigator.userAgent;
     const isEdge = userAgent.includes("Edg/");
     const isSafari = userAgent.includes("Safari/") && !userAgent.includes("Chrome/");
-    const langPrefix = pageLang.split('-')[0]; // e.g., 'zh'
+    const langPrefix = pageLang.split('-')[0];
 
     let foundVoice = null;
-
-    // 1. Safari: 按指定顺序 "Siri" -> "Li-li" -> "Yu-Shu"
     if (isSafari) {
       const preferredNames = ['Siri', 'Li-li', 'Yu-Shu'];
       for (const name of preferredNames) {
-        foundVoice = voices.find(voice => 
-          voice.lang.startsWith(langPrefix) && voice.name.includes(name)
-        );
-        if (foundVoice) break; // 找到一个就跳出循环
+        foundVoice = voices.find(v => v.lang.startsWith(langPrefix) && v.name.includes(name));
+        if (foundVoice) break;
       }
-      if (foundVoice) {
-          preferredVoice = foundVoice;
-          utterance.voice = preferredVoice;
-          return;
-      }
-    }
-    
-    // 2. Edge: 优先寻找 Yunyang
-    if (isEdge) {
-      foundVoice = voices.find(voice => 
-        voice.lang.startsWith(langPrefix) && voice.name.includes('Yunyang')
-      );
-      if (foundVoice) {
-          preferredVoice = foundVoice;
-          utterance.voice = preferredVoice;
-          return;
-      }
+    } else if (isEdge) {
+      foundVoice = voices.find(v => v.lang.startsWith(langPrefix) && v.name.includes('Yunyang'));
     }
 
-    // 3. Fallback: 寻找其他高质量在线语音
-    foundVoice = voices.find(voice => 
-        voice.lang.startsWith(langPrefix) && voice.localService === false
-    );
-    if (foundVoice) {
-        preferredVoice = foundVoice;
-        utterance.voice = preferredVoice;
-        return;
+    if (!foundVoice) {
+      foundVoice = voices.find(v => v.lang.startsWith(langPrefix) && v.localService === false);
+    }
+    if (!foundVoice) {
+      foundVoice = voices.find(v => v.lang.startsWith(langPrefix));
     }
     
-    // 4. Final Fallback: 寻找任何匹配语言的本地语音
-    foundVoice = voices.find(voice => voice.lang.startsWith(langPrefix));
-    if (foundVoice) {
-        preferredVoice = foundVoice;
-        utterance.voice = preferredVoice;
-    }
+    preferredVoice = foundVoice;
   };
 
-  // 'voiceschanged' 事件对于动态加载语音至关重要
   synth.onvoiceschanged = selectVoice;
-  selectVoice(); // 同时立即调用一次，以防语音已加载
+  selectVoice();
 
-  // --- Event Listeners ---
   playPauseBtn.addEventListener('click', () => {
-    if (!utterance.voice) selectVoice();
-      
-    if (synth.speaking && !synth.paused) {
-      // --- 正在朗读 -> 暂停 ---
-      synth.pause();
-      // ** 启动保活计时器以修复 Edge/Chrome 的 bug **
-      keepAliveInterval = setInterval(() => {
-        if (synth.paused) {
-          synth.resume();
-          synth.pause();
-        }
-      }, 5000);
-
-    } else if (synth.paused) {
-      // --- 已暂停 -> 继续 ---
-      clearInterval(keepAliveInterval); // 清除保活计时器
-      synth.resume();
-
+    if (synth.speaking) {
+      // --- 正在朗读 -> 触发暂停 ---
+      isManuallyPaused = true;
+      synth.cancel(); // 使用cancel而不是pause
+      updateUI('paused');
     } else {
-      // --- 未开始 -> 开始朗读 ---
-      clearInterval(keepAliveInterval); // 以防万一
-      synth.cancel(); // 清除之前的任何队列
-      synth.speak(utterance);
+      // --- 停止或已暂停 -> 触发播放/继续 ---
+      isManuallyPaused = false;
+      // 从记录的位置截取剩余文本并开始朗读
+      const textToSpeak = fullText.substring(currentCharIndex);
+      if (textToSpeak) {
+        speak(textToSpeak, currentCharIndex);
+      } else {
+        // 如果文本为空（比如从末尾开始），则重置
+        stopReading();
+      }
     }
   });
-  
-  // 在用户离开页面时停止朗读
+
   window.addEventListener('beforeunload', () => {
-    stopReading();
+    // 离开页面时，确保完全停止，而不是进入暂停状态
+    isManuallyPaused = false;
+    currentCharIndex = 0;
+    synth.cancel();
   });
 
-  // 一切准备就绪，显示播放器
   container.style.display = 'inline-flex';
 });
 </script>
