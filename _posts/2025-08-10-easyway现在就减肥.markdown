@@ -1,16 +1,15 @@
 ---
 title: EasyWay现在就减肥
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 过度饮食和肥胖并非因为我们太爱吃，而是因为我们吃错了东西，通过遵循自然的指引，我们就能重获饮食的乐趣与自由。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.png"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### Allen Carr’s Lose Weight Now - Allen Carr
 >
 > ##### 现在就减肥 - 艾伦·卡尔
