@@ -1,162 +1,168 @@
 <!-- tts-reader.html -->
-<!-- 
-  修改版功能 v5 (最终稳定版):
-  - 重写核心逻辑，采用清晰的状态管理，彻底修复所有浏览器的暂停/继续播放bug。
-  - Safari 语音选择顺序: "Siri" -> "莉莉 (Li-li)" -> "语舒 (Yu-Shu)"。
-  - Edge 浏览器优先选择 Yunyang (Natural) 语音。
-  - 内联样式，可插入任意位置。
--->
+<!-- 放置在 Jekyll 的 _includes 文件夹下 -->
+<!-- 使用方式: 在需要的地方插入 {% include tts-reader.html %} -->
 
-<span class="tts-reader-wrapper" id="tts-reader-container" style="display: none;">
-  <button id="tts-play-pause-btn" class="tts-button" aria-label="朗读文章">
-    <svg class="tts-icon" id="tts-play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M8 5v14l11-7z"></path></svg>
-    <svg class="tts-icon" id="tts-pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="display: none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>
+<span class="tts-button-wrapper" id="tts-button-wrapper" style="display: none;">
+  <button id="tts-toggle-btn" class="tts-button" aria-label="朗读文章">
+    <svg class="tts-icon" id="tts-play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
+    <svg class="tts-icon" id="tts-pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></svg>
   </button>
 </span>
 
 <style>
-  .tts-reader-wrapper { display: inline-flex; align-items: center; justify-content: center; vertical-align: middle; margin: 0 0.2em; }
-  .tts-button { display: flex; justify-content: center; align-items: center; width: 32px; height: 32px; border: 1px solid #ddd; background-color: #f7f7f7; border-radius: 50%; cursor: pointer; padding: 0; transition: background-color 0.2s ease-in-out, transform 0.1s ease; }
-  .tts-button:hover { background-color: #e0e0e0; }
-  .tts-button:active { transform: scale(0.9); }
-  .tts-icon { fill: #333; width: 20px; height: 20px; }
+  .tts-button-wrapper {
+    display: inline-flex; /* 改为内联元素 */
+    vertical-align: middle; /* 垂直居中对齐文本 */
+    margin-left: 8px; /* 和前面的元素保持一点距离 */
+  }
+  .tts-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;  /* 缩小尺寸以适应内联 */
+    height: 28px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+  }
+  .tts-button:hover {
+    background-color: #f0f0f0;
+  }
+  .tts-button:active {
+    transform: scale(0.9);
+  }
+  .tts-icon {
+    fill: #555;
+    width: 16px; /* 配合按钮缩小图标 */
+    height: 16px;
+  }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const synth = window.speechSynthesis;
   if (!synth) {
-    console.log('抱歉，您的浏览器不支持 Web Speech API。');
+    console.warn('浏览器不支持 Web Speech API。');
     return;
   }
 
-  const container = document.getElementById('tts-reader-container');
-  const playPauseBtn = document.getElementById('tts-play-pause-btn');
+  // --- DOM Element References ---
+  const wrapper = document.getElementById('tts-button-wrapper');
+  const toggleBtn = document.getElementById('tts-toggle-btn');
   const playIcon = document.getElementById('tts-play-icon');
   const pauseIcon = document.getElementById('tts-pause-icon');
   const article = document.querySelector('article');
+
   if (!article) return;
 
-  const textElements = article.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
-  const fullText = Array.from(textElements).map(el => el.innerText.trim()).join(' ');
-  const sentences = fullText.match(/[^.!?…]+[.!?…]*/g) || [];
-  if (sentences.length === 0) return;
+  // --- Text Extraction ---
+  let textToRead = '';
+  try {
+    const readableElements = article.querySelectorAll('p, h1, h2, h3, h4, li, blockquote, figcaption');
+    textToRead = Array.from(readableElements).map(el => el.innerText.trim()).join('. ').replace(/\s+/g, ' ');
+  } catch (e) {
+    console.error("提取文章文本时出错:", e);
+    return;
+  }
   
-  let preferredVoice = null;
+  if (!textToRead.trim()) return;
+
+  // --- UI State Management ---
+  const setStoppedUI = () => {
+    playIcon.style.display = 'block';
+    pauseIcon.style.display = 'none';
+    toggleBtn.setAttribute('aria-label', '朗读文章');
+  };
+  
+  const setPlayingUI = () => {
+    playIcon.style.display = 'none';
+    pauseIcon.style.display = 'block';
+    toggleBtn.setAttribute('aria-label', '停止朗读');
+  };
+
+  // --- Speech Synthesis Setup ---
+  const utterance = new SpeechSynthesisUtterance(textToRead);
   const pageLang = document.documentElement.lang || 'zh-CN';
+  utterance.lang = pageLang;
   
-  // --- Core State ---
-  let sentenceIndex = 0;
-  let isPlaying = false; // The single source of truth for playback state.
-
-  const updateUI = () => {
-    if (isPlaying) {
-      playIcon.style.display = 'none';
-      pauseIcon.style.display = 'inline-block';
-      playPauseBtn.setAttribute('aria-label', '暂停朗读');
-    } else {
-      playIcon.style.display = 'inline-block';
-      pauseIcon.style.display = 'none';
-      playPauseBtn.setAttribute('aria-label', '朗读文章');
-    }
-  };
-  
-  const resetReader = () => {
-      isPlaying = false;
-      sentenceIndex = 0;
-      updateUI();
+  utterance.onend = setStoppedUI;
+  utterance.onerror = (event) => {
+    console.error('朗读发生错误:', event);
+    setStoppedUI();
   };
 
-  const handleSentenceEnd = () => {
-    // This is the key logic. It's called when a sentence finishes
-    // for any reason (natural end or cancellation).
-    
-    // We only proceed if the state is still "playing".
-    // If the user clicked pause, `isPlaying` will be false, and this chain will stop.
-    if (!isPlaying) {
-      return;
-    }
-    
-    sentenceIndex++;
-    
-    // If there are more sentences, play the next one.
-    if (sentenceIndex < sentences.length) {
-      playCurrentSentence();
-    } else {
-      // All sentences have been played.
-      resetReader();
-    }
-  };
-  
-  const playCurrentSentence = () => {
-    const utterance = new SpeechSynthesisUtterance(sentences[sentenceIndex]);
-    utterance.lang = pageLang;
-    if (preferredVoice) utterance.voice = preferredVoice;
-
-    // Set the callback for when this sentence finishes.
-    utterance.onend = handleSentenceEnd;
-    
-    utterance.onerror = (event) => {
-      console.error('朗读发生错误:', event);
-      resetReader();
-    };
-
-    synth.speak(utterance);
-  };
+  // --- Voice Selection Logic ---
+  let preferredVoice = null;
+  const userAgent = navigator.userAgent;
+  const isEdge = userAgent.includes("Edg/");
+  const isSafari = userAgent.includes('Safari') && !userAgent.includes('Chrome');
 
   const selectVoice = () => {
-    const voices = synth.getVoices();
+    const voices = synth.getVoices().filter(v => v.lang.startsWith(pageLang.slice(0, 2)));
     if (voices.length === 0) return;
 
-    const userAgent = navigator.userAgent;
-    const isEdge = userAgent.includes("Edg/");
-    const isSafari = userAgent.includes("Safari/") && !userAgent.includes("Chrome/");
-    const langPrefix = pageLang.split('-')[0];
-
-    let foundVoice = null;
-    if (isSafari) {
-      const preferredNames = ['Siri', 'Li-li', 'Yu-Shu'];
-      for (const name of preferredNames) {
-        foundVoice = voices.find(v => v.lang.startsWith(langPrefix) && v.name.includes(name));
-        if (foundVoice) break;
+    // 1. Edge: 优先寻找 Xiaoxiao 和 Yunyang
+    if (isEdge) {
+      const edgePriorityVoices = ['xiaoxiao', 'yunyang'];
+      for (const name of edgePriorityVoices) {
+        const found = voices.find(v => v.name.toLowerCase().includes(name));
+        if (found) {
+          preferredVoice = found;
+          return;
+        }
       }
-    } else if (isEdge) {
-      foundVoice = voices.find(v => v.lang.startsWith(langPrefix) && v.name.includes('Yunyang'));
+    }
+    
+    // 2. Safari: 优先寻找指定语音
+    if (isSafari) {
+      const safariPriorityVoices = ['ting-ting', 'li-mu', 'yu-shu', 'siri'];
+       for (const name of safariPriorityVoices) {
+        const found = voices.find(v => v.name.toLowerCase().includes(name));
+        if (found) {
+          preferredVoice = found;
+          return;
+        }
+      }
     }
 
-    if (!foundVoice) foundVoice = voices.find(v => v.lang.startsWith(langPrefix) && v.localService === false);
-    if (!foundVoice) foundVoice = voices.find(v => v.lang.startsWith(langPrefix));
-    
-    preferredVoice = foundVoice;
+    // 3. 通用备选: 寻找任何高质量的在线语音 (Neural)
+    const neuralVoice = voices.find(v => v.name.includes('Neural') && v.localService === false);
+    if (neuralVoice) {
+      preferredVoice = neuralVoice;
+      return;
+    }
+
+    // 4. 最终备选: 使用找到的第一个匹配语言的语音
+    preferredVoice = voices[0];
   };
 
   synth.onvoiceschanged = selectVoice;
-  selectVoice();
+  selectVoice(); // Call once in case voices are already loaded
 
-  // --- The Master Click Handler ---
-  playPauseBtn.addEventListener('click', () => {
-    // Toggle the desired state.
-    isPlaying = !isPlaying;
-
-    if (isPlaying) {
-      // --- User wants to PLAY or RESUME ---
-      updateUI();
-      if (!preferredVoice) selectVoice(); // Ensure voice is selected
-      playCurrentSentence();
+  // --- Event Listener for the single button ---
+  toggleBtn.addEventListener('click', () => {
+    // 如果正在说话或暂停，则停止
+    if (synth.speaking || synth.paused) {
+      synth.cancel(); // onend 事件会自动触发，并调用 setStoppedUI
     } else {
-      // --- User wants to PAUSE ---
-      // This will stop speech and trigger the `onend` event.
-      // The `handleSentenceEnd` function will see `isPlaying` is false and stop the chain.
-      // The sentenceIndex is NOT incremented, so resume is correct.
-      synth.cancel();
-      updateUI();
+      // 如果没有在说话，则开始
+      if (preferredVoice) {
+        utterance.voice = preferredVoice;
+      }
+      synth.speak(utterance);
+      setPlayingUI();
     }
   });
-
+  
+  // Stop speaking when the user navigates away
   window.addEventListener('beforeunload', () => {
     synth.cancel();
   });
 
-  container.style.display = 'inline-flex';
+  // Everything is ready, show the button.
+  wrapper.style.display = 'inline-flex';
 });
 </script>
