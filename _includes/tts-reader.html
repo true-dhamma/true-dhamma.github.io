@@ -1,6 +1,6 @@
 <!-- tts-fab-reader.html -->
 <!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 3.2: 增加双击跳转朗读功能 -->
+<!-- 版本 3.2: 增加双击跳转朗读位置的功能 -->
 
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
   <button id="tts-play-pause-btn" class="tts-button" aria-label="朗读文章">
@@ -23,7 +23,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置 ---
   const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com'; // !!! 确保这里是您正确的 Worker URL
-  const VOICE_NAME = 'zh-CN-YunyangNeural'; // 'zh-CN-YunyangNeural' 或 'zh-CN-XiaoxiaoNeural'
+  const VOICE_NAME = 'zh-CN-YunyangNeural';
 
   // --- DOM 元素引用 ---
   const container = document.getElementById('tts-fab-container');
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // --- 核心逻辑：预读取和播放 (无变动) ---
+  // --- 核心逻辑：预读取和播放 ---
   const fetchAndCacheAudio = async (index) => {
     const item = textQueue[index];
     if (!item || item.blobUrl || item.isFetching) return;
@@ -116,6 +116,22 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
+  // --- 播放状态重置辅助函数 ---
+  /**
+   * 重置播放状态，停止音频，清除所有缓存。
+   * 这是 `stopReading` 和 `jumpToAndPlay` 的核心部分。
+   */
+  const resetPlaybackState = () => {
+    audioPlayer.pause();
+    audioPlayer.src = '';
+    textQueue.forEach(item => {
+      if (item.blobUrl) URL.revokeObjectURL(item.blobUrl);
+      item.blobUrl = null;
+      item.isFetching = false;
+    });
+    clearHighlight();
+  };
+  
   // --- 播放控制 ---
   const startReading = () => {
     isReading = true;
@@ -128,15 +144,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const stopReading = () => {
     isReading = false;
     isPaused = false;
-    audioPlayer.pause();
-    audioPlayer.src = '';
-    textQueue.forEach(item => {
-      if (item.blobUrl) URL.revokeObjectURL(item.blobUrl);
-      item.blobUrl = null;
-      item.isFetching = false;
-    });
+    resetPlaybackState();
     currentIndex = 0;
-    clearHighlight();
     updateUI();
   };
 
@@ -154,27 +163,23 @@ document.addEventListener('DOMContentLoaded', () => {
     updateUI();
   };
 
-  // --- 新增功能：跳转到指定索引并播放 ---
-  const jumpToAndPlay = (newIndex) => {
-    // 立即停止当前播放
-    audioPlayer.pause();
-    audioPlayer.src = '';
+  /**
+   * [新增] 跳转到指定索引并开始播放
+   * @param {number} index - 要跳转到的队列索引
+   */
+  const jumpToAndPlay = (index) => {
+    // 1. 重置当前所有播放和缓存状态
+    resetPlaybackState();
     
-    // 清理所有已缓存的音频并重置状态，以便从新位置重新开始预取
-    textQueue.forEach(item => {
-      if (item.blobUrl) {
-        URL.revokeObjectURL(item.blobUrl);
-        item.blobUrl = null;
-      }
-      item.isFetching = false;
-    });
-
-    // 更新状态
-    currentIndex = newIndex;
+    // 2. 更新状态变量以反映新的播放状态
     isReading = true;
     isPaused = false;
+    currentIndex = index;
     
+    // 3. 更新UI以显示“暂停”按钮
     updateUI();
+    
+    // 4. 从新位置开始播放和预读取循环
     playCurrentAndPrefetchNext();
   };
 
@@ -200,41 +205,41 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   window.addEventListener('beforeunload', stopReading);
+  
+  /**
+   * [新增] 处理双击事件的函数
+   */
+  const handleDoubleClick = (event) => {
+    // 查找被双击元素最近的、可朗读的父元素
+    const targetElement = event.target.closest('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
 
-  // --- 新增功能：处理双击事件 ---
-  const handleArticleDoubleClick = (event) => {
-    // 只有在已经开始朗读（播放中或暂停中）时，双击才有效
-    if (!isReading) return;
+    if (targetElement) {
+      // 在队列中找到该元素的索引
+      const newIndex = textQueue.findIndex(item => item.element === targetElement);
 
-    // 找到被双击的、可朗读的块级元素
-    const selector = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption';
-    const clickedBlockElement = event.target.closest(selector);
-
-    if (!clickedBlockElement) return;
-
-    // 在队列中找到该元素的索引
-    const newIndex = textQueue.findIndex(item => item.element === clickedBlockElement);
-
-    if (newIndex !== -1) {
-      jumpToAndPlay(newIndex);
+      if (newIndex !== -1) {
+        // 如果找到了，就跳转到该处播放
+        jumpToAndPlay(newIndex);
+      }
     }
   };
 
-
   // --- 初始化 ---
   const initializeReader = () => {
-    const elements = article.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption');
+    const readableTags = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption';
+    const elements = article.querySelectorAll(readableTags);
+    
     elements.forEach(el => {
       const text = el.innerText.trim();
       if (text) {
-        textQueue.push({ text, element: el, blobUrl: null, isFetching: false });
+        textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false });
       }
     });
 
     if (textQueue.length > 0) {
       container.style.display = 'block';
-      // *** 新增：在此处绑定双击事件监听器 ***
-      article.addEventListener('dblclick', handleArticleDoubleClick);
+      // [新增] 为 article 元素绑定双击事件监听器
+      article.addEventListener('dblclick', handleDoubleClick);
     }
   };
 
