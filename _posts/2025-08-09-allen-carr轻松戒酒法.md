@@ -1,16 +1,16 @@
 ---
 title: Allen Carr轻松戒酒法
-date: 2025-08-09 21:13:00 +08:00
+date: 2025-08-09T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
-excerpt: 戒酒困难源于心理陷阱和社会洗脑，而非意志力薄弱。酒精是毒药，其所谓的“乐趣”仅是暂时缓解它自身造成的戒断感。一旦认清这一真相，消除饮酒的欲望，戒酒便不再是痛苦的牺牲，而是一次重获自由的轻松解放。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.png"
+  - 成瘾
+excerpt: >-
+  戒酒困难源于心理陷阱和社会洗脑，而非意志力薄弱。酒精是毒药，其所谓的“乐趣”仅是暂时缓解它自身造成的戒断感。一旦认清这一真相，消除饮酒的欲望，戒酒便不再是痛苦的牺牲，而是一次重获自由的轻松解放。
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### **The EasyWay to Stop Drinking - Allen Carr - 摘要**
 
 ## 目录
