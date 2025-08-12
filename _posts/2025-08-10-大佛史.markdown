@@ -1,13 +1,14 @@
 ---
 title: 大佛史
-date: 2025-08-10T10:00:00+07:00
+date: 2025-08-10 11:00:00 +08:00
 categories:
-  - 南传上座部佛教
-  - 精选
+- 南传上座部佛教
+- 精选
 excerpt: 为了无上的智慧，菩萨所布施的鲜血比四大海洋的水还多，所献出的眼睛比满天星辰还多。
-feature_image: /uploads/top_banner_tipitaka.jpg
+feature_image: "/uploads/top_banner_tipitaka.jpg"
 aside: true
 ---
+
 > ##### Mahābuddhavaṃsa - The Great Chronicle of Buddhas - Ven. Mingun Sayadaw Bhaddanta Vicittasārābhivaṃsa
 >
 > ##### 大佛史 - 明昆三藏持者西亚多 维基搭萨拉阿毗旺萨尊者
