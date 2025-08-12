@@ -1,15 +1,15 @@
 ---
 title: 成瘾剂量：贩子、医生和给美国带来上瘾的制药公司
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
+  - 精选
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 你没有任何爱可以施加给他们，没有任何拥抱大到足以改变那种药物的力量；它的控制力和破坏力超乎想象。
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### Dopesick: Dealers, Doctors, and the Drug Company that Addicted America - Beth Macy
 >
 > ##### 成瘾剂量：贩子、医生和给美国带来上瘾的制药公司 - 贝丝·梅西 - 摘要
