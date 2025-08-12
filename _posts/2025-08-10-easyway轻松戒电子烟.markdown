@@ -10,6 +10,7 @@ feature_text:
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Allen Carr's Easy Way to Quit Vaping - Allen Carr, John Dicey
 >
 > ##### 亚伦·卡尔的轻松戒电子烟 - 亚伦·卡尔, 约翰·戴西 - 摘要
