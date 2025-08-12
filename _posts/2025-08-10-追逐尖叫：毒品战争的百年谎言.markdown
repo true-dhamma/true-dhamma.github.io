@@ -5,7 +5,7 @@ categories:
 - 心理学
 tags:
 - 成瘾
-feature_text: 成瘾的对立面不是清醒，而是连接。我们一直在对成瘾者唱着战歌，但其实，我们早就应该为他们唱响情歌。
+excerpt: 成瘾的对立面不是清醒，而是连接。我们一直在对成瘾者唱着战歌，但其实，我们早就应该为他们唱响情歌。
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---

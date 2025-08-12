@@ -6,7 +6,7 @@ categories:
 - 精选
 tags:
 - 成瘾
-feature_text: 在这个充满诱惑的时代，一位精神病学家揭示了快乐与痛苦的惊人联系，并为我们如何在过度沉溺中恢复平衡提供了实用指南。
+excerpt: 在这个充满诱惑的时代，一位精神病学家揭示了快乐与痛苦的惊人联系，并为我们如何在过度沉溺中恢复平衡提供了实用指南。
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
