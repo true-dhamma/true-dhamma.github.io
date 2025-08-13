@@ -45,7 +45,7 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
-paginate: 10
+paginate: 20
 paginate_path: "/blog/page:num"
 jekyll-mentions: 
 twitter:
