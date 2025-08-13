@@ -1,9 +1,17 @@
 <nav class="nav  nav--categories">
   <ul class="list  list--categories">
-  {% for category in site.categories %}
+    
+    <!-- 新增的「全部」標籤 -->
+    <li class="item  item--category">
+      <a href="/blogs/">全部 ({{ site.posts | size }})</a>
+    </li>
+    
+    <!-- 原有的分類迴圈 -->
+    {% for category in site.categories %}
       <li class="item  item--category">
         <a href="/categories/#{{ category | first | slugify }}">{{ category | first }} ({{ category | last | size }})</a>
       </li>
-  {% endfor %}    
+    {% endfor %}
+      
   </ul>
 </nav>
