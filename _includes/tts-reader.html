@@ -1,6 +1,6 @@
 <!-- tts-fab-reader.html -->
 <!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 6.6: 彻底修复了 iOS Safari 上按钮点击后滚动导致样式残留的 Bug -->
+<!-- 版本 6.6: 移除了 :hover 效果以修复 iOS Safari 上的样式残留 Bug -->
 
 <!-- ================= HTML 结构 (无变动) ================= -->
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
@@ -13,9 +13,9 @@
   </button>
 </div>
 
-<!-- ================= CSS 样式 (已针对 iOS Safari 修复) ================= -->
+<!-- ================= CSS 样式 (已修改) ================= -->
 <style>
-  /* 容器样式 */
+  /* 容器样式：使用 Flexbox 进行垂直布局 */
   .tts-fab-container {
     position: fixed;
     bottom: 30px;
@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 16px; /* 两个按钮之间的间距 */
   }
 
   /* 按钮通用样式 */
@@ -35,30 +35,27 @@
     width: 50px;
     height: 50px;
     border: none;
-    background-color: #ffffff; /* 始终保持白色背景 */
+    background-color: #ffffff;
     border-radius: 50%;
     cursor: pointer;
     padding: 0;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    transition: background-color 0.2s ease-in-out, transform 0.2s ease, opacity 0.3s ease-in-out;
-    
-    /* [修复关键] 彻底禁用 iOS Safari 的点击高亮效果，这是导致灰色背景残留的主要原因 */
-    -webkit-tap-highlight-color: transparent; 
+    /* 注意：移除了 hover 相关的 transform 过渡，但保留了 opacity 过渡 */
+    transition: opacity 0.3s ease-in-out, transform 0.2s ease;
   }
+  
+  /*
+    ! 已移除的规则：
+    ! .tts-button:hover {
+    !   background-color: #f2f2f2;
+    !   transform: translateY(-2px);
+    ! }
+    ! 通过移除此规则，彻底解决了 iOS Safari 上的样式残留问题。
+  */
 
   .tts-button:active {
-    /* 明确 :active 状态的样式，虽然 transform 会被应用，但背景色不会改变 */
+    /* 保留点击时的缩小效果，提供即时反馈 */
     transform: scale(0.95);
-    background-color: #ffffff; /* 再次强调，防止默认样式覆盖 */
-  }
-
-  /* [修复关键] 使用媒体查询，仅在支持鼠标悬停的设备上应用 hover 效果 */
-  /* 这可以从根本上防止触控设备（如 iPhone）“卡住” hover 状态 */
-  @media (hover: hover) and (pointer: fine) {
-    .tts-button:hover {
-      background-color: #f2f2f2;
-      transform: translateY(-2px);
-    }
   }
 
   /* 图标样式 */
@@ -76,7 +73,7 @@
   }
 </style>
 
-<!-- ================= JavaScript 逻辑 (无变动, 功能完好) ================= -->
+<!-- ================= JavaScript 逻辑 (与 v6.5 完全相同，无变动) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置 ---
