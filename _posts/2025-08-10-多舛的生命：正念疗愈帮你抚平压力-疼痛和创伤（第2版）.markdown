@@ -1,15 +1,16 @@
 ---
 title: 多舛的生命：正念疗愈帮你抚平压力、疼痛和创伤（第2版）
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 正念
+- 正念
 excerpt: 只要你还在呼吸，无论此刻你病得有多重或感觉有多么绝望，你身上安好的地方要比不对劲的地方多。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Full Catastrophe Living: Using the Wisdom of Your Body and Mind to Face Stress, Pain, and Illness - Jon Kabat-Zinn
 >
 > ##### 多舛的生命：正念疗愈帮你抚平压力、疼痛和创伤（第2版） - 乔恩·卡巴金 - 摘要
