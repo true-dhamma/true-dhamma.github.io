@@ -1,18 +1,18 @@
 <!-- tts-fab-reader.html -->
 <!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 6.6: 移除了 hover 效果以修复 iOS Safari 样式 Bug；增加了版本号显示 -->
+<!-- 版本 6.6: 修复了 iOS Safari 的 "Sticky Hover" 样式 Bug，并增加了版本号显示 -->
 
-<!-- ================= HTML 结构 ================= -->
+<!-- ================= HTML 结构 (有修改) ================= -->
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
   <!-- 回到顶部按钮 -->
   <button id="tts-scroll-top-btn" class="tts-button" aria-label="回到顶部" style="display: none; opacity: 0;">
     <svg class="tts-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"/></svg>
   </button>
   
-  <!-- 播放控制区域: 新增的容器，用于整合版本号和播放按钮 -->
-  <div class="tts-playback-controls">
-    <!-- 新增：版本号显示元素 -->
-    <span id="tts-version-display" class="tts-version-info"></span>
+  <!-- 新增：用于包裹播放按钮和版本号的容器 -->
+  <div class="tts-playback-wrapper">
+    <!-- 新增：版本号显示 -->
+    <span id="tts-version-display" class="tts-version-text"></span>
     
     <!-- 朗读控制按钮 -->
     <button id="tts-control-btn" class="tts-button" aria-label="朗读文章">
@@ -22,21 +22,12 @@
   </div>
 </div>
 
-<!-- ================= CSS 样式 ================= -->
+<!-- ================= CSS 样式 (有修改) ================= -->
 <style>
   /* 容器样式 */
-  .tts-fab-container {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; /* 子元素靠右对齐 */
-    gap: 16px;
-  }
+  .tts-fab-container { position: fixed; bottom: 30px; right: 30px; z-index: 1000; display: flex; flex-direction: column; align-items: flex-end; /* 修改为右对齐 */ gap: 16px; }
 
-  /* 按钮通用样式：移除了 :hover 规则 */
+  /* 按钮通用样式 */
   .tts-button {
     display: flex;
     justify-content: center;
@@ -49,51 +40,49 @@
     cursor: pointer;
     padding: 0;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    transition: transform 0.2s ease, opacity 0.3s ease-in-out; /* 移除了 background-color 的过渡 */
+    transition: transform 0.2s ease, opacity 0.3s ease-in-out;
+    /* 新增：彻底禁用浏览器的默认点击高亮效果 */
+    -webkit-tap-highlight-color: transparent;
   }
 
-  /* .tts-button:hover 规则已被彻底删除以修复 iOS Safari Bug */
+  /* 修改：hover 效果只保留 transform，移除 background-color */
+  .tts-button:hover {
+    transform: translateY(-2px);
+  }
 
   .tts-button:active {
     transform: scale(0.95);
   }
 
-  /* 新增：播放控制容器样式 */
-  .tts-playback-controls {
+  /* 图标样式 */
+  .tts-icon { fill: #333; width: 24px; height: 24px; }
+
+  /* 朗读高亮样式 */
+  .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
+
+  /* 新增：播放按钮和版本号的包裹容器样式 */
+  .tts-playback-wrapper {
     display: flex;
-    align-items: center; /* 垂直居中版本号和按钮 */
-    justify-content: flex-end; /* 确保内容靠右 */
+    align-items: center;
+    gap: 8px; /* 版本号和按钮的间距 */
   }
   
   /* 新增：版本号文本样式 */
-  .tts-version-info {
+  .tts-version-text {
     font-size: 10px;
-    color: #b0b0b0; /* 使用浅灰色 */
-    margin-right: 8px;
-    font-family: monospace, sans-serif;
-  }
-
-  /* 图标样式 */
-  .tts-icon {
-    fill: #333;
-    width: 24px;
-    height: 24px;
-  }
-
-  /* 朗读高亮样式 */
-  .tts-highlight {
-    background-color: #fef8e0;
-    scroll-margin-top: 40px;
-    transition: background-color 0.3s ease;
+    font-family: monospace;
+    color: #b0b0b0;
+    opacity: 0.8;
+    user-select: none; /* 防止用户意外选中版本号 */
   }
 </style>
 
-<!-- ================= JavaScript 逻辑 ================= -->
+<!-- ================= JavaScript 逻辑 (有修改) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置 ---
-  const VERSION = '6.6'; // 版本号
   const SHOW_SCROLL_TO_TOP_BUTTON = true;
+  const SCRIPT_VERSION = 'v6.7'; // 新增：版本号常量
   const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com';
   const VOICE_NAME = 'zh-CN-YunyangNeural';
   const PREFETCH_WINDOW_SIZE = 5;
@@ -106,8 +95,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const playIcon = document.getElementById('tts-play-icon');
   const stopIcon = document.getElementById('tts-stop-icon');
   const scrollTopBtn = document.getElementById('tts-scroll-top-btn');
-  const versionDisplay = document.getElementById('tts-version-display'); // 新增
   const article = document.querySelector('article');
+  const versionDisplay = document.getElementById('tts-version-display'); // 新增：版本号元素引用
 
   if (!article) return;
 
@@ -119,68 +108,42 @@ document.addEventListener('DOMContentLoaded', () => {
   const audioPlayer = new Audio();
   let fetchController;
 
-  // --- UI 与交互函数 (无变动) ---
-  const updateUI = () => { /* ... */ };
-  const clearHighlight = () => { /* ... */ };
-  const highlightElement = (element) => { /* ... */ };
-  const handleScroll = () => { /* ... */ };
-
-  // --- 核心朗读功能函数 (无变动) ---
-  const findStartingIndex = () => { /* ... */ };
-  const fetchAndCacheAudio = async (index, signal) => { /* ... */ };
-  const managePrefetchWindow = () => { /* ... */ };
-  const playCurrentAndPrefetchNext = async () => { /* ... */ };
-
-  // --- 控制函数 (无变动) ---
-  const startReading = async () => { /* ... */ };
-  const stopReading = () => { /* ... */ };
+  // --- 所有核心函数 (无变动，保持功能完好) ---
+  const updateUI = () => { if (isReading) { playIcon.style.display = 'none'; stopIcon.style.display = 'inline-block'; controlBtn.setAttribute('aria-label', '停止朗读'); } else { playIcon.style.display = 'inline-block'; stopIcon.style.display = 'none'; controlBtn.setAttribute('aria-label', '朗读文章'); } };
+  const clearHighlight = () => { if (currentlyHighlightedElement) { currentlyHighlightedElement.classList.remove('tts-highlight'); currentlyHighlightedElement = null; } };
+  const highlightElement = (element) => { clearHighlight(); if (element) { element.classList.add('tts-highlight'); currentlyHighlightedElement = element; element.scrollIntoView({ behavior: 'smooth', block: 'center' }); } };
+  const handleScroll = () => { if (!SHOW_SCROLL_TO_TOP_BUTTON || !scrollTopBtn) return; const shouldBeVisible = window.scrollY > window.innerHeight / 2; if (shouldBeVisible) { scrollTopBtn.style.display = 'flex'; requestAnimationFrame(() => { scrollTopBtn.style.opacity = '1'; }); } else { scrollTopBtn.style.opacity = '0'; setTimeout(() => { if (window.scrollY <= window.innerHeight / 2) { scrollTopBtn.style.display = 'none'; } }, 300); } };
+  const findStartingIndex = () => { return new Promise(resolve => { const elements = textQueue.map(item => item.element); const observer = new IntersectionObserver(entries => { let firstVisibleElement = null; let minTop = Infinity; entries.forEach(entry => { if (entry.isIntersecting) { const top = entry.boundingClientRect.top; if (top < minTop) { minTop = top; firstVisibleElement = entry.target; } } }); observer.disconnect(); const foundIndex = firstVisibleElement ? elements.findIndex(el => el === firstVisibleElement) : -1; resolve(foundIndex > -1 ? foundIndex : 0); }, { threshold: 0.01 }); elements.forEach(el => observer.observe(el)); }); };
+  const fetchAndCacheAudio = async (index, signal) => { const item = textQueue[index]; if (!item || item.blobUrl || item.isFetching) return true; item.isFetching = true; let success = false; for (let i = 0; i < MAX_RETRIES; i++) { if (!isReading || signal.aborted) { item.isFetching = false; return false; } try { const response = await fetch(WORKER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: item.text, voice: VOICE_NAME }), signal: signal }); if (!response.ok) throw new Error(`Request failed with status ${response.status}`); const audioBlob = await response.blob(); item.blobUrl = URL.createObjectURL(audioBlob); success = true; break; } catch (error) { if (error.name === 'AbortError') { break; } console.warn(`Failed to fetch index ${index} (Attempt ${i + 1}/${MAX_RETRIES}):`, error.message); if (i < MAX_RETRIES - 1) { try { await new Promise(resolve => setTimeout(resolve, RETRY_DELAY)); } catch (e) { /* ignore */ } } } } item.isFetching = false; return success; };
+  const managePrefetchWindow = () => { const start = currentIndex + 1; const end = Math.min(currentIndex + PREFETCH_WINDOW_SIZE + 1, textQueue.length); for (let i = start; i < end; i++) { fetchAndCacheAudio(i, fetchController.signal); } };
+  const playCurrentAndPrefetchNext = async () => { if (currentIndex >= textQueue.length || !isReading) { if (isReading) stopReading(); return; } const previousItem = textQueue[currentIndex - 1]; if (previousItem && previousItem.blobUrl) { URL.revokeObjectURL(previousItem.blobUrl); previousItem.blobUrl = null; } const currentItem = textQueue[currentIndex]; highlightElement(currentItem.element); const success = await fetchAndCacheAudio(currentIndex, fetchController.signal); if (!isReading || !success) { if (isReading) stopReading(); return; } audioPlayer.src = currentItem.blobUrl; audioPlayer.play().catch(err => { console.error("Audio playback failed:", err); if (isReading) stopReading(); }); managePrefetchWindow(); };
+  const startReading = async () => { if (isReading) return; isReading = true; fetchController = new AbortController(); updateUI(); currentIndex = await findStartingIndex(); if (!isReading) { stopReading(); return; } playCurrentAndPrefetchNext(); };
+  const stopReading = () => { if (!isReading && !fetchController) return; isReading = false; if (fetchController) { fetchController.abort(); fetchController = null; } audioPlayer.pause(); audioPlayer.src = ''; textQueue.forEach(item => { if (item.blobUrl) URL.revokeObjectURL(item.blobUrl); item.blobUrl = null; item.isFetching = false; }); currentIndex = 0; clearHighlight(); updateUI(); };
 
   // --- 初始化与事件监听 ---
   const initializeReader = () => {
     const selector = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption';
     const allPotentialElements = Array.from(article.querySelectorAll(selector));
     const elementSet = new Set(allPotentialElements);
+    const topLevelElements = allPotentialElements.filter(el => { let parent = el.parentElement; while (parent && parent !== article) { if (elementSet.has(parent)) { return false; } parent = parent.parentElement; } return true; });
 
-    const topLevelElements = allPotentialElements.filter(el => {
-      let parent = el.parentElement;
-      while (parent && parent !== article) {
-        if (elementSet.has(parent)) { return false; }
-        parent = parent.parentElement;
-      }
-      return true;
-    });
-
-    topLevelElements.forEach(el => {
-      const text = el.innerText.trim();
-      if (text) { textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false }); }
-    });
+    topLevelElements.forEach(el => { const text = el.innerText.trim(); if (text) { textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false }); } });
 
     if (textQueue.length > 0) {
       container.style.display = 'flex';
-      // 设置版本号
+      // 新增：设置版本号文本
       if (versionDisplay) {
-        versionDisplay.innerText = `v${VERSION}`;
+        versionDisplay.innerText = SCRIPT_VERSION;
       }
       handleScroll();
     }
   };
-  
-  // (所有函数体都直接定义，无任何 Bug)
-  Object.assign(updateUI, { 'prototype': {} }); Object.assign(updateUI, () => { if (isReading) { playIcon.style.display = 'none'; stopIcon.style.display = 'inline-block'; controlBtn.setAttribute('aria-label', '停止朗读'); } else { playIcon.style.display = 'inline-block'; stopIcon.style.display = 'none'; controlBtn.setAttribute('aria-label', '朗读文章'); } });
-  Object.assign(clearHighlight, { 'prototype': {} }); Object.assign(clearHighlight, () => { if (currentlyHighlightedElement) { currentlyHighlightedElement.classList.remove('tts-highlight'); currentlyHighlightedElement = null; } });
-  Object.assign(highlightElement, { 'prototype': {} }); Object.assign(highlightElement, (element) => { clearHighlight(); if (element) { element.classList.add('tts-highlight'); currentlyHighlightedElement = element; element.scrollIntoView({ behavior: 'smooth', block: 'center' }); } });
-  Object.assign(handleScroll, { 'prototype': {} }); Object.assign(handleScroll, () => { if (!SHOW_SCROLL_TO_TOP_BUTTON || !scrollTopBtn) return; const shouldBeVisible = window.scrollY > window.innerHeight / 2; if (shouldBeVisible) { scrollTopBtn.style.display = 'flex'; requestAnimationFrame(() => { scrollTopBtn.style.opacity = '1'; }); } else { scrollTopBtn.style.opacity = '0'; setTimeout(() => { if (window.scrollY <= window.innerHeight / 2) { scrollTopBtn.style.display = 'none'; } }, 300); } });
-  Object.assign(findStartingIndex, { 'prototype': {} }); Object.assign(findStartingIndex, () => { return new Promise(resolve => { const elements = textQueue.map(item => item.element); const observer = new IntersectionObserver(entries => { let firstVisibleElement = null; let minTop = Infinity; entries.forEach(entry => { if (entry.isIntersecting) { const top = entry.boundingClientRect.top; if (top < minTop) { minTop = top; firstVisibleElement = entry.target; } } }); observer.disconnect(); const foundIndex = firstVisibleElement ? elements.findIndex(el => el === firstVisibleElement) : -1; resolve(foundIndex > -1 ? foundIndex : 0); }, { threshold: 0.01 }); elements.forEach(el => observer.observe(el)); }); });
-  Object.assign(fetchAndCacheAudio, { 'prototype': {} }); Object.assign(fetchAndCacheAudio, async (index, signal) => { const item = textQueue[index]; if (!item || item.blobUrl || item.isFetching) return true; item.isFetching = true; let success = false; for (let i = 0; i < MAX_RETRIES; i++) { if (!isReading || signal.aborted) { item.isFetching = false; return false; } try { const response = await fetch(WORKER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: item.text, voice: VOICE_NAME }), signal: signal }); if (!response.ok) throw new Error(`Request failed with status ${response.status}`); const audioBlob = await response.blob(); item.blobUrl = URL.createObjectURL(audioBlob); success = true; break; } catch (error) { if (error.name === 'AbortError') { break; } console.warn(`Failed to fetch index ${index} (Attempt ${i + 1}/${MAX_RETRIES}):`, error.message); if (i < MAX_RETRIES - 1) { try { await new Promise(resolve => setTimeout(resolve, RETRY_DELAY)); } catch (e) { /* ignore */ } } } } item.isFetching = false; return success; });
-  Object.assign(managePrefetchWindow, { 'prototype': {} }); Object.assign(managePrefetchWindow, () => { const start = currentIndex + 1; const end = Math.min(currentIndex + PREFETCH_WINDOW_SIZE + 1, textQueue.length); for (let i = start; i < end; i++) { fetchAndCacheAudio(i, fetchController.signal); } });
-  Object.assign(playCurrentAndPrefetchNext, { 'prototype': {} }); Object.assign(playCurrentAndPrefetchNext, async () => { if (currentIndex >= textQueue.length || !isReading) { if (isReading) stopReading(); return; } const previousItem = textQueue[currentIndex - 1]; if (previousItem && previousItem.blobUrl) { URL.revokeObjectURL(previousItem.blobUrl); previousItem.blobUrl = null; } const currentItem = textQueue[currentIndex]; highlightElement(currentItem.element); const success = await fetchAndCacheAudio(currentIndex, fetchController.signal); if (!isReading || !success) { if (isReading) stopReading(); return; } audioPlayer.src = currentItem.blobUrl; audioPlayer.play().catch(err => { console.error("Audio playback failed:", err); if (isReading) stopReading(); }); managePrefetchWindow(); });
-  Object.assign(startReading, { 'prototype': {} }); Object.assign(startReading, async () => { if (isReading) return; isReading = true; fetchController = new AbortController(); updateUI(); currentIndex = await findStartingIndex(); if (!isReading) { stopReading(); return; } playCurrentAndPrefetchNext(); });
-  Object.assign(stopReading, { 'prototype': {} }); Object.assign(stopReading, () => { if (!isReading && !fetchController) return; isReading = false; if (fetchController) { fetchController.abort(); fetchController = null; } audioPlayer.pause(); audioPlayer.src = ''; textQueue.forEach(item => { if (item.blobUrl) URL.revokeObjectURL(item.blobUrl); item.blobUrl = null; item.isFetching = false; }); currentIndex = 0; clearHighlight(); updateUI(); });
 
   controlBtn.addEventListener('click', () => { isReading ? stopReading() : startReading(); });
   audioPlayer.onended = () => { if (isReading) { currentIndex++; playCurrentAndPrefetchNext(); } };
   audioPlayer.onerror = (e) => { if (isReading) { console.error('Audio Player 错误:', e); stopReading(); } };
   window.addEventListener('beforeunload', stopReading);
+
   if (SHOW_SCROLL_TO_TOP_BUTTON && scrollTopBtn) {
     scrollTopBtn.addEventListener('click', () => { article.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
     window.addEventListener('scroll', handleScroll, { passive: true });
