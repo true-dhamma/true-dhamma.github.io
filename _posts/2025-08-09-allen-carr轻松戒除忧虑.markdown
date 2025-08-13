@@ -11,9 +11,9 @@ feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
 
-> ##### **Allen Carr’s No More Worrying - 摘要**
+> ##### Allen Carr’s No More Worrying - Allen Carr
 >
-> ##### 轻松戒除忧虑
+> ##### 轻松戒除忧虑 - 艾伦·卡尔 - 摘要
 
 ## 目录
 
@@ -286,3 +286,7 @@ aside: true
 14. **让良知指引你。**
 15. **诚实是最好的策略。**
 16. **不要浪费你最宝贵的礼物**……
+
+---
+
+<table><tbody><tr><td><img alt="No More Worrying" width="120" src="/uploads/cover-no-more-worrying.webp" /></td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Allen%20Carr%E2%80%99s%20No%20More%20Worrying" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=Allen%20Carr%E2%80%99s%20No%20More%20Worrying" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=Allen%20Carr%E2%80%99s%20No%20More%20Worrying" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Allen%20Carr%E2%80%99s%20No%20More%20Worrying" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Allen+Carr%E2%80%99s+No+More+Worrying" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Allen+Carr%E2%80%99s+No+More+Worrying" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Allen%20Carr%E2%80%99s%20No%20More%20Worrying" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>

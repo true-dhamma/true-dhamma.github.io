@@ -12,9 +12,9 @@ feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
 
-> ##### Never Enough: The Neuroscience and Experience of Addiction - Judith Grisel - 摘要
+> ##### Never Enough: The Neuroscience and Experience of Addiction - Judith Grisel
 >
-> ##### 永不足够：成瘾的神经科学与亲身经历 - 朱迪斯·格里塞尔
+> ##### 永不足够：成瘾的神经科学与亲身经历 - 朱迪斯·格里塞尔 - 摘要
 >
 > 一位曾经的瘾君子、如今的神经科学家，为你揭示大脑如何将寻求快乐的本能，一步步扭曲为无法摆脱的痛苦枷锁。
 
@@ -802,3 +802,7 @@ GHB在俱乐部文化中流行，因为它能产生类似酒精的欣快和放�
 认识到这一点，我们或许应该停止将成瘾问题仅仅视为某个“病人”头脑里的问题。 disordered use comes from, thrives in, and creates alienation. 它源于、滋生于并最终创造了疏离。这意味着，建立高墙将我们与情感、与邻居隔离开来，只会让事情变得更糟。
 
 因为可能是我们中的任何一个，因为就是我们中的许多人，所以我们必须首先承认问题的存在，然后伸出援手，用我们的思想、心灵和行动去连接彼此。我们都在同一艘救生船上，背弃他人既不人道也不明智。我们真的都在一起。
+
+---
+
+<table><tbody><tr><td><img alt="Never Enough" width="120" src="/uploads/cover-never-enough.webp" /></td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Never%20Enough" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=Never%20Enough" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=Never%20Enough" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Never%20Enough" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Never+Enough" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Never+Enough" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Never%20Enough" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>

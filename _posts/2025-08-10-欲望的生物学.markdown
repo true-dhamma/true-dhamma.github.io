@@ -1,5 +1,5 @@
 ---
-title: 欲望的生物学
+title: 欲望的生物学：为什么成瘾不是一种病
 date: 2025-08-10 21:13:00 +08:00
 categories:
 - 心理学
@@ -10,9 +10,9 @@ feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
 
-> ##### The Biology of Desire - Marc Lewis
+> ##### The Biology of Desire: Why Addiction Is Not a Disease - Marc Lewis
 >
-> ##### 欲望的生物学 - 马克·刘易斯 - 摘要
+> ##### 欲望的生物学：为什么成瘾不是一种病 - 马克·刘易斯 - 摘要
 >
 > 这本书颠覆了“成瘾是种病”的传统观念，揭示其本质是植根于大脑正常发展过程的深度学习习惯。
 
@@ -470,3 +470,7 @@ aside: true
 *   **赋权而非控制**：帮助的核心是**搭建脚手架**，而不是代替成瘾者建造房屋。无论是支持小组、治疗师还是朋友，他们的角色都是倾听、理解，并帮助成瘾者稳固他们自己想象出的未来蓝图，同时为他们追求这个蓝图提供情感和实际的支持。
 
 最终，戒瘾是一场深刻的个人发展之旅。它需要个体重新发现自己，重写自己的生命故事，并重新驾驭自己最强大的内在能量——欲望。许多成功戒断者都表示，如果没有经历过成瘾的挣扎和超越，他们就不会成为今天这个更强大、更有智慧的自己。这并非从疾病中“康复”，而是从痛苦中**成长**。
+
+---
+
+<table><tbody><tr><td><img alt="The Biology of Desire" width="120" src="/uploads/cover-biology-of-desire.webp" /></td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=The%20Biology%20of%20Desire" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=The%20Biology%20of%20Desire" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=The%20Biology%20of%20Desire" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=The%20Biology%20of%20Desire" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=The+Biology+of+Desire" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=The+Biology+of+Desire" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=The%20Biology%20of%20Desire" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>
