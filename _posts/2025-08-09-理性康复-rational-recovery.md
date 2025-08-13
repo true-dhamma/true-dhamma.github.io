@@ -10,6 +10,7 @@ feature_text:
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Rational Recovery: The New Cure for Substance Addiction - Jack Trimpey
 >
 > ##### 理性康复 - 杰克·特林佩 - 摘要
