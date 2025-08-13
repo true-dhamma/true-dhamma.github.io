@@ -1,15 +1,14 @@
 ---
 title: 追逐尖叫：毒品战争的百年谎言
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 成瘾的对立面不是清醒，而是连接。我们一直在对成瘾者唱着战歌，但其实，我们早就应该为他们唱响情歌。
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### Chasing the Scream: The First and Last Days of the War on Drugs - Johann Hari
 >
 > ##### 追逐尖叫：毒品战争的百年谎言 - 约翰·哈里 - 摘要
@@ -596,4 +595,4 @@ aside: true
 
 ---
 
-> <table><tbody><tr><td><img alt="Chasing the Scream Cover" height="300" src="/uploads/cover-chasing-scream.webp" /></td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍</h5><ul><li><a href="http://search.dangdang.com/?key=%E8%BF%BD%E9%80%90%E5%B0%96%E5%8F%AB">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E8%BF%BD%E9%80%90%E5%B0%96%E5%8F%AB">[京东]</a> <a href="https://s.taobao.com/search?q=%E8%BF%BD%E9%80%90%E5%B0%96%E5%8F%AB">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E8%BF%BD%E9%80%90%E5%B0%96%E5%8F%AB">[孔夫子]</a></li><li><a href="https://www.amazon.com/s?k=Chasing+the+Scream">[Amazon]</a> <a href="https://books.apple.com/us/book/chasing-the-scream/id915348983">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Chasing%20the%20Scream">[BetterWorldBooks]</a></li></ul></td></tr></tbody></table>
+> <table><tbody><tr><td><img alt="Chasing the Scream" height="150" src="/uploads/cover-chasing-scream.webp" /></td><td><p><strong>本文为书籍摘要，不包含全文</strong></p><p><strong>如感兴趣请购买正版书籍</strong></p><p><a href="http://search.dangdang.com/?key=%E8%BF%BD%E9%80%90%E5%B0%96%E5%8F%AB">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E8%BF%BD%E9%80%90%E5%B0%96%E5%8F%AB">[京东]</a> <a href="https://s.taobao.com/search?q=%E8%BF%BD%E9%80%90%E5%B0%96%E5%8F%AB">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E8%BF%BD%E9%80%90%E5%B0%96%E5%8F%AB">[孔夫子]</a></p><p><a href="https://www.amazon.com/s?k=Chasing+the+Scream">[Amazon]</a> <a href="https://books.apple.com/us/book/chasing-the-scream/id915348983">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Chasing%20the%20Scream">[BetterWorldBooks]</a></p></td></tr></tbody></table>
