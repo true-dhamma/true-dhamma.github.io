@@ -1,20 +1,14 @@
 <!-- tts-fab-reader.html -->
 <!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 6.6: 修复了 iOS Safari 的 "Sticky Hover" 样式 Bug，并增加了版本号显示 -->
+<!-- 版本 6.7: 通过强力 CSS 重置，彻底修复了所有浏览器上的按钮变灰 Bug -->
 
-<!-- ================= HTML 结构 (有修改) ================= -->
+<!-- ================= HTML 结构 (无变动) ================= -->
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
-  <!-- 回到顶部按钮 -->
   <button id="tts-scroll-top-btn" class="tts-button" aria-label="回到顶部" style="display: none; opacity: 0;">
     <svg class="tts-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"/></svg>
   </button>
-  
-  <!-- 新增：用于包裹播放按钮和版本号的容器 -->
   <div class="tts-playback-wrapper">
-    <!-- 新增：版本号显示 -->
     <span id="tts-version-display" class="tts-version-text"></span>
-    
-    <!-- 朗读控制按钮 -->
     <button id="tts-control-btn" class="tts-button" aria-label="朗读文章">
       <svg class="tts-icon" id="tts-play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
       <svg class="tts-icon" id="tts-stop-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none;"><path d="M6 6h12v12H6z"></path></svg>
@@ -22,93 +16,77 @@
   </div>
 </div>
 
-<!-- ================= CSS 样式 (有修改) ================= -->
+<!-- ================= CSS 样式 (关键修改) ================= -->
 <style>
-  /* 容器样式 */
-  .tts-fab-container { position: fixed; bottom: 30px; right: 30px; z-index: 1000; display: flex; flex-direction: column; align-items: flex-end; /* 修改为右对齐 */ gap: 16px; }
+  .tts-fab-container { position: fixed; bottom: 30px; right: 30px; z-index: 1000; display: flex; flex-direction: column; align-items: flex-end; gap: 16px; }
 
-  /* 按钮通用样式 */
   .tts-button {
+    /* --- 关键修复：强力重置浏览器默认样式 --- */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #ffffff; /* 明确基础背景色 */
+    border: none; /* 明确无边框 */
+    outline: none; /* 移除默认的蓝色焦点轮廓 */
+    -webkit-tap-highlight-color: transparent; /* 移除 iOS 点击高亮 */
+    
+    /* --- 其他样式保持不变 --- */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50px;
     height: 50px;
-    border: none;
-    background-color: #ffffff;
     border-radius: 50%;
     cursor: pointer;
     padding: 0;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     transition: transform 0.2s ease, opacity 0.3s ease-in-out;
-    /* 新增：彻底禁用浏览器的默认点击高亮效果 */
-    -webkit-tap-highlight-color: transparent;
   }
 
-  /* 修改：hover 效果只保留 transform，移除 background-color */
-  .tts-button:hover {
-    transform: translateY(-2px);
+  /* --- 关键修复：为所有交互状态明确设置白色背景，防止被浏览器默认样式覆盖 --- */
+  .tts-button:hover,
+  .tts-button:focus,
+  .tts-button:focus-visible {
+    background-color: #ffffff; /* 确保悬浮和聚焦时背景不变 */
+    transform: translateY(-2px); /* 保留视觉反馈 */
+    outline: none; /* 再次确保无轮廓 */
   }
 
   .tts-button:active {
-    transform: scale(0.95);
+    background-color: #ffffff; /* 确保点击时背景不变 */
+    transform: scale(0.95); /* 保留视觉反馈 */
   }
 
-  /* 图标样式 */
   .tts-icon { fill: #333; width: 24px; height: 24px; }
-
-  /* 朗读高亮样式 */
   .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
-
-  /* 新增：播放按钮和版本号的包裹容器样式 */
-  .tts-playback-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 8px; /* 版本号和按钮的间距 */
-  }
-  
-  /* 新增：版本号文本样式 */
-  .tts-version-text {
-    font-size: 10px;
-    font-family: monospace;
-    color: #b0b0b0;
-    opacity: 0.8;
-    user-select: none; /* 防止用户意外选中版本号 */
-  }
+  .tts-playback-wrapper { display: flex; align-items: center; gap: 8px; }
+  .tts-version-text { font-size: 10px; font-family: monospace; color: #b0b0b0; opacity: 0.8; user-select: none; }
 </style>
 
-<!-- ================= JavaScript 逻辑 (有修改) ================= -->
+<!-- ================= JavaScript 逻辑 (无变动) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // --- 配置 ---
   const SHOW_SCROLL_TO_TOP_BUTTON = true;
-  const SCRIPT_VERSION = 'v6.7'; // 新增：版本号常量
+  const SCRIPT_VERSION = 'v6.7';
   const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com';
   const VOICE_NAME = 'zh-CN-YunyangNeural';
   const PREFETCH_WINDOW_SIZE = 5;
   const MAX_RETRIES = 3;
   const RETRY_DELAY = 1000;
-
-  // --- DOM 元素引用 ---
   const container = document.getElementById('tts-fab-container');
   const controlBtn = document.getElementById('tts-control-btn');
   const playIcon = document.getElementById('tts-play-icon');
   const stopIcon = document.getElementById('tts-stop-icon');
   const scrollTopBtn = document.getElementById('tts-scroll-top-btn');
   const article = document.querySelector('article');
-  const versionDisplay = document.getElementById('tts-version-display'); // 新增：版本号元素引用
-
+  const versionDisplay = document.getElementById('tts-version-display');
   if (!article) return;
-
-  // --- 状态管理 (无变动) ---
   let isReading = false;
   let textQueue = [];
   let currentIndex = 0;
   let currentlyHighlightedElement = null;
   const audioPlayer = new Audio();
   let fetchController;
-
-  // --- 所有核心函数 (无变动，保持功能完好) ---
   const updateUI = () => { if (isReading) { playIcon.style.display = 'none'; stopIcon.style.display = 'inline-block'; controlBtn.setAttribute('aria-label', '停止朗读'); } else { playIcon.style.display = 'inline-block'; stopIcon.style.display = 'none'; controlBtn.setAttribute('aria-label', '朗读文章'); } };
   const clearHighlight = () => { if (currentlyHighlightedElement) { currentlyHighlightedElement.classList.remove('tts-highlight'); currentlyHighlightedElement = null; } };
   const highlightElement = (element) => { clearHighlight(); if (element) { element.classList.add('tts-highlight'); currentlyHighlightedElement = element; element.scrollIntoView({ behavior: 'smooth', block: 'center' }); } };
@@ -119,36 +97,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const playCurrentAndPrefetchNext = async () => { if (currentIndex >= textQueue.length || !isReading) { if (isReading) stopReading(); return; } const previousItem = textQueue[currentIndex - 1]; if (previousItem && previousItem.blobUrl) { URL.revokeObjectURL(previousItem.blobUrl); previousItem.blobUrl = null; } const currentItem = textQueue[currentIndex]; highlightElement(currentItem.element); const success = await fetchAndCacheAudio(currentIndex, fetchController.signal); if (!isReading || !success) { if (isReading) stopReading(); return; } audioPlayer.src = currentItem.blobUrl; audioPlayer.play().catch(err => { console.error("Audio playback failed:", err); if (isReading) stopReading(); }); managePrefetchWindow(); };
   const startReading = async () => { if (isReading) return; isReading = true; fetchController = new AbortController(); updateUI(); currentIndex = await findStartingIndex(); if (!isReading) { stopReading(); return; } playCurrentAndPrefetchNext(); };
   const stopReading = () => { if (!isReading && !fetchController) return; isReading = false; if (fetchController) { fetchController.abort(); fetchController = null; } audioPlayer.pause(); audioPlayer.src = ''; textQueue.forEach(item => { if (item.blobUrl) URL.revokeObjectURL(item.blobUrl); item.blobUrl = null; item.isFetching = false; }); currentIndex = 0; clearHighlight(); updateUI(); };
-
-  // --- 初始化与事件监听 ---
-  const initializeReader = () => {
-    const selector = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption';
-    const allPotentialElements = Array.from(article.querySelectorAll(selector));
-    const elementSet = new Set(allPotentialElements);
-    const topLevelElements = allPotentialElements.filter(el => { let parent = el.parentElement; while (parent && parent !== article) { if (elementSet.has(parent)) { return false; } parent = parent.parentElement; } return true; });
-
-    topLevelElements.forEach(el => { const text = el.innerText.trim(); if (text) { textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false }); } });
-
-    if (textQueue.length > 0) {
-      container.style.display = 'flex';
-      // 新增：设置版本号文本
-      if (versionDisplay) {
-        versionDisplay.innerText = SCRIPT_VERSION;
-      }
-      handleScroll();
-    }
-  };
-
+  const initializeReader = () => { const selector = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption'; const allPotentialElements = Array.from(article.querySelectorAll(selector)); const elementSet = new Set(allPotentialElements); const topLevelElements = allPotentialElements.filter(el => { let parent = el.parentElement; while (parent && parent !== article) { if (elementSet.has(parent)) { return false; } parent = parent.parentElement; } return true; }); topLevelElements.forEach(el => { const text = el.innerText.trim(); if (text) { textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false }); } }); if (textQueue.length > 0) { container.style.display = 'flex'; if (versionDisplay) { versionDisplay.innerText = SCRIPT_VERSION; } handleScroll(); } };
   controlBtn.addEventListener('click', () => { isReading ? stopReading() : startReading(); });
   audioPlayer.onended = () => { if (isReading) { currentIndex++; playCurrentAndPrefetchNext(); } };
   audioPlayer.onerror = (e) => { if (isReading) { console.error('Audio Player 错误:', e); stopReading(); } };
   window.addEventListener('beforeunload', stopReading);
-
-  if (SHOW_SCROLL_TO_TOP_BUTTON && scrollTopBtn) {
-    scrollTopBtn.addEventListener('click', () => { article.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
-    window.addEventListener('scroll', handleScroll, { passive: true });
-  }
-
+  if (SHOW_SCROLL_TO_TOP_BUTTON && scrollTopBtn) { scrollTopBtn.addEventListener('click', () => { article.scrollIntoView({ behavior: 'smooth', block: 'start' }); }); window.addEventListener('scroll', handleScroll, { passive: true }); }
   initializeReader();
 });
 </script>
