@@ -11,59 +11,85 @@ layout: default
   <div class="content">
 
     <article class="article  article--page  typeset">
-
       <h1>{{ page.title }}</h1>
-
       {{ content }}
-
     </article>
 
     {% include post-categories.html %}
 
   </div>
-
 </main>
 
 {% include site-footer.html %}
 
 <script>
-  function filterCategories() {
-    // 1. 取得目前 URL 中的 hash 值（不包含 #）
-    const hash = window.location.hash.substring(1);
+// 使用一个立即执行的函数表达式 (IIFE) 来封装代码，避免污染全局命名空间
+(function() {
 
-    // 2. 選取所有代表分類的 <section> 元素
-    const categories = document.querySelectorAll('.section[id]');
-    let categoryFound = false;
+  // 根据您提供的HTML源码，这是定位到每个分类区块最精确的选择器
+  const categorySectionSelector = '.content > .section.typeset';
 
-    // 3. 如果 hash 值存在
-    if (hash) {
-      categories.forEach(cat => {
-        // 如果目前這個分類 section 的 id 和 hash 值相同
-        if (cat.id === hash) {
-          cat.style.display = 'block'; // 顯示這個分類
-          categoryFound = true;
+  // --- 防止内容闪烁的关键步骤 ---
+  // 为了防止页面加载时所有分类都短暂显示一下然后才被隐藏，
+  // 我们在脚本一开始就用JavaScript动态地向<head>中插入一个<style>标签。
+  // 这个样式会立即隐藏所有分类区块。这是最快、最有效的防闪烁方法。
+  const styleElement = document.createElement('style');
+  styleElement.textContent = `
+    /* 只有那些内部有h2标题的分类区块才会被默认隐藏 */
+    .content > .section.typeset:has(h2[id]) { 
+      display: none; 
+    }
+  `;
+  document.head.appendChild(styleElement);
+
+  // --- 核心过滤逻辑函数 ---
+  function runCategoryFilter() {
+    
+    // 1. 获取所有可能是分类区块的元素
+    const allSections = document.querySelectorAll(categorySectionSelector);
+    if (allSections.length === 0) {
+      return; // 如果页面上没有分类，就直接退出
+    }
+
+    // 2. 筛选出真正的分类区块（即：内部包含 <h2 id="..."> 的区块）
+    const categorySections = Array.from(allSections).filter(section => section.querySelector('h2[id]'));
+
+    // 3. 获取当前URL中的hash，并用decodeURIComponent进行解码以正确处理中文
+    const activeHash = window.location.hash ? decodeURIComponent(window.location.hash.substring(1)) : "";
+
+    // 4. 根据是否存在hash来决定显示逻辑
+    if (activeHash) {
+      let sectionWasFound = false;
+      categorySections.forEach(section => {
+        const heading = section.querySelector('h2[id]');
+        // 如果区块的标题ID与当前激活的hash匹配
+        if (heading && heading.id === activeHash) {
+          section.style.display = 'block'; // 明确地显示这个区块
+          sectionWasFound = true;
         } else {
-          cat.style.display = 'none'; // 隱藏其他所有分類
+          section.style.display = 'none'; // 明确地隐藏其他区块
         }
       });
 
-      // 如果 hash 存在但沒有對應的分類（例如錯誤的網址），則顯示全部
-      if (!categoryFound) {
-        categories.forEach(cat => {
-          cat.style.display = 'block';
+      // 安全回退：如果URL中的hash是无效的（找不到对应分类），则显示所有分类，避免空白页面
+      if (!sectionWasFound) {
+        categorySections.forEach(section => {
+          section.style.display = 'block';
         });
       }
     } else {
-      // 4. 如果 hash 值不存在，則顯示所有分類
-      categories.forEach(cat => {
-        cat.style.display = 'block';
+      // 如果URL中没有hash，则显示所有分类
+      categorySections.forEach(section => {
+        section.style.display = 'block';
       });
     }
   }
 
-  // 頁面首次載入時執行一次，以處理直接帶 hash 訪問的網址
-  window.addEventListener('DOMContentLoaded', filterCategories);
+  // --- 绑定事件监听器 ---
+  // 当HTML文档加载完毕后，立即执行一次过滤
+  document.addEventListener('DOMContentLoaded', runCategoryFilter);
+  // 每当URL的hash发生变化时（用户点击分类链接），再次执行过滤
+  window.addEventListener('hashchange', runCategoryFilter);
 
-  // 當 URL 的 hash 發生變化時（例如點擊了頁面上的錨點連結），再次執行
-  window.addEventListener('hashchange', filterCategories);
+})();
 </script>
