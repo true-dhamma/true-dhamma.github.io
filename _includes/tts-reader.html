@@ -1,6 +1,6 @@
 <!-- tts-fab-reader.html -->
 <!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 6.4: 修复了 blockquote 等嵌套元素内容被重复朗读的根本问题 -->
+<!-- 版本 6.5: 修正了导致功能完全失效的严重函数定义 Bug -->
 
 <!-- ================= HTML 结构 (无变动) ================= -->
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
@@ -23,10 +23,10 @@
   .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
 </style>
 
-<!-- ================= JavaScript 逻辑 ================= -->
+<!-- ================= JavaScript 逻辑 (完全修正版) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // --- 配置 (无变动) ---
+  // --- 配置 ---
   const SHOW_SCROLL_TO_TOP_BUTTON = true;
   const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com';
   const VOICE_NAME = 'zh-CN-YunyangNeural';
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const MAX_RETRIES = 3;
   const RETRY_DELAY = 1000;
 
-  // --- DOM 元素引用 (无变动) ---
+  // --- DOM 元素引用 ---
   const container = document.getElementById('tts-fab-container');
   const controlBtn = document.getElementById('tts-control-btn');
   const playIcon = document.getElementById('tts-play-icon');
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (!article) return;
 
-  // --- 状态管理 (无变动) ---
+  // --- 状态管理 ---
   let isReading = false;
   let textQueue = [];
   let currentIndex = 0;
@@ -52,53 +52,153 @@ document.addEventListener('DOMContentLoaded', () => {
   const audioPlayer = new Audio();
   let fetchController;
 
-  // --- UI 与交互函数 (无变动) ---
-  const updateUI = () => { /* ... */ };
-  const clearHighlight = () => { /* ... */ };
-  const highlightElement = (element) => { /* ... */ };
-  const handleScroll = () => { /* ... */ };
+  // --- UI 与交互函数 ---
+  const updateUI = () => {
+    if (isReading) {
+      playIcon.style.display = 'none';
+      stopIcon.style.display = 'inline-block';
+      controlBtn.setAttribute('aria-label', '停止朗读');
+    } else {
+      playIcon.style.display = 'inline-block';
+      stopIcon.style.display = 'none';
+      controlBtn.setAttribute('aria-label', '朗读文章');
+    }
+  };
 
-  // --- 核心朗读功能函数 (无变动) ---
-  const findStartingIndex = () => { /* ... */ };
-  const fetchAndCacheAudio = async (index, signal) => { /* ... */ };
-  const managePrefetchWindow = () => { /* ... */ };
-  const playCurrentAndPrefetchNext = async () => { /* ... */ };
+  const clearHighlight = () => {
+    if (currentlyHighlightedElement) {
+      currentlyHighlightedElement.classList.remove('tts-highlight');
+      currentlyHighlightedElement = null;
+    }
+  };
 
-  // --- 控制函数 (无变动) ---
-  const startReading = async () => { /* ... */ };
-  const stopReading = () => { /* ... */ };
+  const highlightElement = (element) => {
+    clearHighlight();
+    if (element) {
+      element.classList.add('tts-highlight');
+      currentlyHighlightedElement = element;
+      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  };
+  
+  const handleScroll = () => {
+    if (!SHOW_SCROLL_TO_TOP_BUTTON || !scrollTopBtn) return;
+    const shouldBeVisible = window.scrollY > window.innerHeight / 2;
+    if (shouldBeVisible) {
+      scrollTopBtn.style.display = 'flex';
+      requestAnimationFrame(() => { scrollTopBtn.style.opacity = '1'; });
+    } else {
+      scrollTopBtn.style.opacity = '0';
+      setTimeout(() => {
+        if (window.scrollY <= window.innerHeight / 2) { scrollTopBtn.style.display = 'none'; }
+      }, 300);
+    }
+  };
 
-  // (为保持代码整洁，以上未变动函数的函数体已省略，实际代码与上一版相同)
-  // --- Function Bodies Start ---
-  const updateUI_body = () => { if (isReading) { playIcon.style.display = 'none'; stopIcon.style.display = 'inline-block'; controlBtn.setAttribute('aria-label', '停止朗读'); } else { playIcon.style.display = 'inline-block'; stopIcon.style.display = 'none'; controlBtn.setAttribute('aria-label', '朗读文章'); } }; updateUI = updateUI_body;
-  const clearHighlight_body = () => { if (currentlyHighlightedElement) { currentlyHighlightedElement.classList.remove('tts-highlight'); currentlyHighlightedElement = null; } }; clearHighlight = clearHighlight_body;
-  const highlightElement_body = (element) => { clearHighlight(); if (element) { element.classList.add('tts-highlight'); currentlyHighlightedElement = element; element.scrollIntoView({ behavior: 'smooth', block: 'center' }); } }; highlightElement = highlightElement_body;
-  const handleScroll_body = () => { if (!SHOW_SCROLL_TO_TOP_BUTTON || !scrollTopBtn) return; const shouldBeVisible = window.scrollY > window.innerHeight / 2; if (shouldBeVisible) { scrollTopBtn.style.display = 'flex'; requestAnimationFrame(() => { scrollTopBtn.style.opacity = '1'; }); } else { scrollTopBtn.style.opacity = '0'; setTimeout(() => { if (window.scrollY <= window.innerHeight / 2) { scrollTopBtn.style.display = 'none'; } }, 300); } }; handleScroll = handleScroll_body;
-  const findStartingIndex_body = () => { return new Promise(resolve => { const elements = textQueue.map(item => item.element); const observer = new IntersectionObserver(entries => { let firstVisibleElement = null; let minTop = Infinity; entries.forEach(entry => { if (entry.isIntersecting) { const top = entry.boundingClientRect.top; if (top < minTop) { minTop = top; firstVisibleElement = entry.target; } } }); observer.disconnect(); const foundIndex = firstVisibleElement ? elements.findIndex(el => el === firstVisibleElement) : -1; resolve(foundIndex > -1 ? foundIndex : 0); }, { threshold: 0.01 }); elements.forEach(el => observer.observe(el)); }); }; findStartingIndex = findStartingIndex_body;
-  const fetchAndCacheAudio_body = async (index, signal) => { const item = textQueue[index]; if (!item || item.blobUrl || item.isFetching) return true; item.isFetching = true; let success = false; for (let i = 0; i < MAX_RETRIES; i++) { if (!isReading || signal.aborted) { item.isFetching = false; return false; } try { const response = await fetch(WORKER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: item.text, voice: VOICE_NAME }), signal: signal }); if (!response.ok) throw new Error(`Request failed with status ${response.status}`); const audioBlob = await response.blob(); item.blobUrl = URL.createObjectURL(audioBlob); success = true; break; } catch (error) { if (error.name === 'AbortError') { break; } console.warn(`Failed to fetch index ${index} (Attempt ${i + 1}/${MAX_RETRIES}):`, error.message); if (i < MAX_RETRIES - 1) { try { await new Promise(resolve => setTimeout(resolve, RETRY_DELAY)); } catch (e) { /* ignore */ } } } } item.isFetching = false; return success; }; fetchAndCacheAudio = fetchAndCacheAudio_body;
-  const managePrefetchWindow_body = () => { const start = currentIndex + 1; const end = Math.min(currentIndex + PREFETCH_WINDOW_SIZE + 1, textQueue.length); for (let i = start; i < end; i++) { fetchAndCacheAudio(i, fetchController.signal); } }; managePrefetchWindow = managePrefetchWindow_body;
-  const playCurrentAndPrefetchNext_body = async () => { if (currentIndex >= textQueue.length || !isReading) { if (isReading) stopReading(); return; } const previousItem = textQueue[currentIndex - 1]; if (previousItem && previousItem.blobUrl) { URL.revokeObjectURL(previousItem.blobUrl); previousItem.blobUrl = null; } const currentItem = textQueue[currentIndex]; highlightElement(currentItem.element); const success = await fetchAndCacheAudio(currentIndex, fetchController.signal); if (!isReading || !success) { if(isReading) stopReading(); return; } audioPlayer.src = currentItem.blobUrl; audioPlayer.play().catch(err => { console.error("Audio playback failed:", err); if(isReading) stopReading(); }); managePrefetchWindow(); }; playCurrentAndPrefetchNext = playCurrentAndPrefetchNext_body;
-  const startReading_body = async () => { if (isReading) return; isReading = true; fetchController = new AbortController(); updateUI(); currentIndex = await findStartingIndex(); if (!isReading) { stopReading(); return; } playCurrentAndPrefetchNext(); }; startReading = startReading_body;
-  const stopReading_body = () => { if (!isReading && !fetchController) return; isReading = false; if (fetchController) { fetchController.abort(); fetchController = null; } audioPlayer.pause(); audioPlayer.src = ''; textQueue.forEach(item => { if (item.blobUrl) URL.revokeObjectURL(item.blobUrl); item.blobUrl = null; item.isFetching = false; }); currentIndex = 0; clearHighlight(); updateUI(); }; stopReading = stopReading_body;
-  // --- Function Bodies End ---
+  // --- 核心朗读功能函数 ---
+  const findStartingIndex = () => {
+    return new Promise(resolve => {
+      const elements = textQueue.map(item => item.element);
+      const observer = new IntersectionObserver(entries => {
+        let firstVisibleElement = null; let minTop = Infinity;
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const top = entry.boundingClientRect.top;
+            if (top < minTop) { minTop = top; firstVisibleElement = entry.target; }
+          }
+        });
+        observer.disconnect();
+        const foundIndex = firstVisibleElement ? elements.findIndex(el => el === firstVisibleElement) : -1;
+        resolve(foundIndex > -1 ? foundIndex : 0);
+      }, { threshold: 0.01 });
+      elements.forEach(el => observer.observe(el));
+    });
+  };
 
+  const fetchAndCacheAudio = async (index, signal) => {
+    const item = textQueue[index];
+    if (!item || item.blobUrl || item.isFetching) return true;
+    item.isFetching = true;
+    let success = false;
+    for (let i = 0; i < MAX_RETRIES; i++) {
+      if (!isReading || signal.aborted) { item.isFetching = false; return false; }
+      try {
+        const response = await fetch(WORKER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: item.text, voice: VOICE_NAME }), signal: signal });
+        if (!response.ok) throw new Error(`Request failed with status ${response.status}`);
+        const audioBlob = await response.blob();
+        item.blobUrl = URL.createObjectURL(audioBlob);
+        success = true;
+        break;
+      } catch (error) {
+        if (error.name === 'AbortError') { break; }
+        console.warn(`Failed to fetch index ${index} (Attempt ${i + 1}/${MAX_RETRIES}):`, error.message);
+        if (i < MAX_RETRIES - 1) { try { await new Promise(resolve => setTimeout(resolve, RETRY_DELAY)); } catch (e) { /* ignore */ } }
+      }
+    }
+    item.isFetching = false;
+    return success;
+  };
+
+  const managePrefetchWindow = () => {
+    const start = currentIndex + 1;
+    const end = Math.min(currentIndex + PREFETCH_WINDOW_SIZE + 1, textQueue.length);
+    for (let i = start; i < end; i++) { fetchAndCacheAudio(i, fetchController.signal); }
+  };
+  
+  const playCurrentAndPrefetchNext = async () => {
+    if (currentIndex >= textQueue.length || !isReading) { if (isReading) stopReading(); return; }
+    const previousItem = textQueue[currentIndex - 1];
+    if (previousItem && previousItem.blobUrl) { URL.revokeObjectURL(previousItem.blobUrl); previousItem.blobUrl = null; }
+    const currentItem = textQueue[currentIndex];
+    highlightElement(currentItem.element);
+    const success = await fetchAndCacheAudio(currentIndex, fetchController.signal);
+    if (!isReading || !success) { if (isReading) stopReading(); return; }
+    audioPlayer.src = currentItem.blobUrl;
+    audioPlayer.play().catch(err => { console.error("Audio playback failed:", err); if (isReading) stopReading(); });
+    managePrefetchWindow();
+  };
+
+  // --- 控制函数 ---
+  const startReading = async () => {
+    if (isReading) return;
+    isReading = true;
+    fetchController = new AbortController();
+    updateUI();
+    currentIndex = await findStartingIndex();
+    if (!isReading) { stopReading(); return; }
+    playCurrentAndPrefetchNext();
+  };
+
+  const stopReading = () => {
+    if (!isReading && !fetchController) return;
+    isReading = false;
+    if (fetchController) { fetchController.abort(); fetchController = null; }
+    audioPlayer.pause();
+    audioPlayer.src = '';
+    textQueue.forEach(item => { if (item.blobUrl) URL.revokeObjectURL(item.blobUrl); item.blobUrl = null; item.isFetching = false; });
+    currentIndex = 0;
+    clearHighlight();
+    updateUI();
+  };
 
   // --- 初始化与事件监听 ---
   const initializeReader = () => {
     const selector = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption';
-    const allPotentialElements = article.querySelectorAll(selector);
+    const allPotentialElements = Array.from(article.querySelectorAll(selector));
+    const elementSet = new Set(allPotentialElements);
 
-    // [核心修复] 过滤掉所有被嵌套在其他朗读元素内部的元素。
-    // 只保留那些父级元素不匹配我们选择器的元素。
-    const topLevelElements = Array.from(allPotentialElements).filter(el => {
-        return !el.parentElement.closest(selector);
+    const topLevelElements = allPotentialElements.filter(el => {
+      let parent = el.parentElement;
+      while (parent && parent !== article) {
+        if (elementSet.has(parent)) { return false; }
+        parent = parent.parentElement;
+      }
+      return true;
     });
 
     topLevelElements.forEach(el => {
       const text = el.innerText.trim();
-      if (text) {
-        textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false });
-      }
+      if (text) { textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false }); }
     });
 
     if (textQueue.length > 0) {
