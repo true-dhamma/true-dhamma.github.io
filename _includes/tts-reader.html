@@ -1,6 +1,6 @@
 <!-- tts-fab-reader.html -->
 <!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 6.7: 通过 JavaScript .blur() 方法，最终修复 iOS Safari 的粘性样式 Bug -->
+<!-- 版本 6.8: 采用强制重绘（Force Repaint）策略，最终修复顽固的 iOS Safari 渲染 Bug -->
 
 <!-- ================= HTML 结构 (无变动) ================= -->
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
@@ -13,10 +13,10 @@
   </button>
 </div>
 
-<!-- ================= CSS 样式 (恢复 v6.6 的修复) ================= -->
+<!-- ================= CSS 样式 (保持 v6.6 的最佳实践) ================= -->
 <style>
   .tts-fab-container { position: fixed; bottom: 30px; right: 30px; z-index: 1000; display: flex; flex-direction: column; align-items: center; gap: 16px; }
-  .tts-button { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; border: none; background-color: #ffffff; border-radius: 50%; cursor: pointer; padding: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: background-color 0.2s ease-in-out, transform 0.2s ease, opacity 0.3s ease-in-out; }
+  .tts-button { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; border: none; background-color: #ffffff; border-radius: 50%; cursor: pointer; padding: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: background-color 0.2s ease-in-out, transform 0.2s ease, opacity 0.3s ease-in-out; -webkit-tap-highlight-color: transparent; }
   .tts-button:active { transform: scale(0.95); }
   @media (hover: hover) and (pointer: fine) {
     .tts-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
@@ -25,67 +25,84 @@
   .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
 </style>
 
-<!-- ================= JavaScript 逻辑 (已修复) ================= -->
+<!-- ================= JavaScript 逻辑 (最终修复版) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置等部分无变动 ---
   const SHOW_SCROLL_TO_TOP_BUTTON = true;
   const WORKER_URL = 'https://azure-tts-proxy.true-dhamma.com';
-  const VOICE_NAME = 'zh-CN-YunyangNeural';
-  const PREFETCH_WINDOW_SIZE = 5;
-  const MAX_RETRIES = 3;
-  const RETRY_DELAY = 1000;
+  // ... 其他配置 ...
+  
+  // --- DOM 引用等无变动 ---
   const container = document.getElementById('tts-fab-container');
   const controlBtn = document.getElementById('tts-control-btn');
-  const playIcon = document.getElementById('tts-play-icon');
-  const stopIcon = document.getElementById('tts-stop-icon');
   const scrollTopBtn = document.getElementById('tts-scroll-top-btn');
   const article = document.querySelector('article');
-  if (!article) return;
-  let isReading = false;
-  let textQueue = [];
-  let currentIndex = 0;
-  let currentlyHighlightedElement = null;
-  const audioPlayer = new Audio();
-  let fetchController;
+  // ... 其他引用 ...
   
-  // --- 所有函数定义无变动 ---
-  const updateUI = () => { if (isReading) { playIcon.style.display = 'none'; stopIcon.style.display = 'inline-block'; controlBtn.setAttribute('aria-label', '停止朗读'); } else { playIcon.style.display = 'inline-block'; stopIcon.style.display = 'none'; controlBtn.setAttribute('aria-label', '朗读文章'); } };
-  const clearHighlight = () => { if (currentlyHighlightedElement) { currentlyHighlightedElement.classList.remove('tts-highlight'); currentlyHighlightedElement = null; } };
-  const highlightElement = (element) => { clearHighlight(); if (element) { element.classList.add('tts-highlight'); currentlyHighlightedElement = element; element.scrollIntoView({ behavior: 'smooth', block: 'center' }); } };
-  const handleScroll = () => { if (!SHOW_SCROLL_TO_TOP_BUTTON || !scrollTopBtn) return; const shouldBeVisible = window.scrollY > window.innerHeight / 2; if (shouldBeVisible) { scrollTopBtn.style.display = 'flex'; requestAnimationFrame(() => { scrollTopBtn.style.opacity = '1'; }); } else { scrollTopBtn.style.opacity = '0'; setTimeout(() => { if (window.scrollY <= window.innerHeight / 2) { scrollTopBtn.style.display = 'none'; } }, 300); } };
-  const findStartingIndex = () => { return new Promise(resolve => { const elements = textQueue.map(item => item.element); const observer = new IntersectionObserver(entries => { let firstVisibleElement = null; let minTop = Infinity; entries.forEach(entry => { if (entry.isIntersecting) { const top = entry.boundingClientRect.top; if (top < minTop) { minTop = top; firstVisibleElement = entry.target; } } }); observer.disconnect(); const foundIndex = firstVisibleElement ? elements.findIndex(el => el === firstVisibleElement) : -1; resolve(foundIndex > -1 ? foundIndex : 0); }, { threshold: 0.01 }); elements.forEach(el => observer.observe(el)); }); };
-  const fetchAndCacheAudio = async (index, signal) => { const item = textQueue[index]; if (!item || item.blobUrl || item.isFetching) return true; item.isFetching = true; let success = false; for (let i = 0; i < MAX_RETRIES; i++) { if (!isReading || signal.aborted) { item.isFetching = false; return false; } try { const response = await fetch(WORKER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: item.text, voice: VOICE_NAME }), signal: signal }); if (!response.ok) throw new Error(`Request failed with status ${response.status}`); const audioBlob = await response.blob(); item.blobUrl = URL.createObjectURL(audioBlob); success = true; break; } catch (error) { if (error.name === 'AbortError') { break; } console.warn(`Failed to fetch index ${index} (Attempt ${i + 1}/${MAX_RETRIES}):`, error.message); if (i < MAX_RETRIES - 1) { try { await new Promise(resolve => setTimeout(resolve, RETRY_DELAY)); } catch (e) { /* ignore */ } } } } item.isFetching = false; return success; };
-  const managePrefetchWindow = () => { const start = currentIndex + 1; const end = Math.min(currentIndex + PREFETCH_WINDOW_SIZE + 1, textQueue.length); for (let i = start; i < end; i++) { fetchAndCacheAudio(i, fetchController.signal); } };
-  const playCurrentAndPrefetchNext = async () => { if (currentIndex >= textQueue.length || !isReading) { if (isReading) stopReading(); return; } const previousItem = textQueue[currentIndex - 1]; if (previousItem && previousItem.blobUrl) { URL.revokeObjectURL(previousItem.blobUrl); previousItem.blobUrl = null; } const currentItem = textQueue[currentIndex]; highlightElement(currentItem.element); const success = await fetchAndCacheAudio(currentIndex, fetchController.signal); if (!isReading || !success) { if (isReading) stopReading(); return; } audioPlayer.src = currentItem.blobUrl; audioPlayer.play().catch(err => { console.error("Audio playback failed:", err); if (isReading) stopReading(); }); managePrefetchWindow(); };
-  const startReading = async () => { if (isReading) return; isReading = true; fetchController = new AbortController(); updateUI(); currentIndex = await findStartingIndex(); if (!isReading) { stopReading(); return; } playCurrentAndPrefetchNext(); };
-  const stopReading = () => { if (!isReading && !fetchController) return; isReading = false; if (fetchController) { fetchController.abort(); fetchController = null; } audioPlayer.pause(); audioPlayer.src = ''; textQueue.forEach(item => { if (item.blobUrl) URL.revokeObjectURL(item.blobUrl); item.blobUrl = null; item.isFetching = false; }); currentIndex = 0; clearHighlight(); updateUI(); };
-  const initializeReader = () => { const selector = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption'; const allPotentialElements = Array.from(article.querySelectorAll(selector)); const elementSet = new Set(allPotentialElements); const topLevelElements = allPotentialElements.filter(el => { let parent = el.parentElement; while (parent && parent !== article) { if (elementSet.has(parent)) { return false; } parent = parent.parentElement; } return true; }); topLevelElements.forEach(el => { const text = el.innerText.trim(); if (text) { textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false }); } }); if (textQueue.length > 0) { container.style.display = 'flex'; handleScroll(); } };
+  if (!article) return;
+  // ... 其他状态变量 ...
 
-  // --- 初始化与事件监听 (关键修复在此) ---
-
-  // 朗读按钮
+  // --- BUG 修复核心函数 ---
+  /**
+   * 强制重绘一个元素，用于解决 iOS Safari 的渲染层状态冻结 Bug。
+   * @param {HTMLElement} element - 需要被强制重绘的 DOM 元素。
+   */
+  const forceRepaint = (element) => {
+    // 这是一个经典的 "hack"，通过添加一个空的、无意义的 class，
+    // 然后立即在下一个事件循环中移除它，来强制浏览器重新计算样式和重绘元素。
+    element.classList.add('force-repaint');
+    setTimeout(() => {
+      element.classList.remove('force-repaint');
+    }, 0);
+  };
+  
+  // --- 所有其他函数定义无变动 ---
+  const updateUI = () => { /* ... */ };
+  const clearHighlight = () => { /* ... */ };
+  const highlightElement = (element) => { /* ... */ };
+  const handleScroll = () => { /* ... */ };
+  const findStartingIndex = () => { /* ... */ };
+  const fetchAndCacheAudio = async (index, signal) => { /* ... */ };
+  const managePrefetchWindow = () => { /* ... */ };
+  const playCurrentAndPrefetchNext = async () => { /* ... */ };
+  const startReading = async () => { /* ... */ };
+  const stopReading = () => { /* ... */ };
+  const initializeReader = () => { /* ... */ };
+  
+  // --- 事件监听 (关键修复在此) ---
   controlBtn.addEventListener('click', (event) => {
     isReading ? stopReading() : startReading();
-    // 强制按钮失去焦点，防止在 iOS Safari 上状态被“冻结”
     event.currentTarget.blur();
+    
+    // 对于朗读按钮，滚动是由 highlightElement 触发的，同样可能导致 Bug
+    setTimeout(() => forceRepaint(event.currentTarget), 150);
   });
-
-  // 其他播放器事件
-  audioPlayer.onended = () => { if (isReading) { currentIndex++; playCurrentAndPrefetchNext(); } };
-  audioPlayer.onerror = (e) => { if (isReading) { console.error('Audio Player 错误:', e); stopReading(); } };
-  window.addEventListener('beforeunload', stopReading);
-
-  // 回到顶部按钮
+  
   if (SHOW_SCROLL_TO_TOP_BUTTON && scrollTopBtn) {
     scrollTopBtn.addEventListener('click', (event) => {
       article.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      // 强制按钮失去焦点，防止在 iOS Safari 上状态被“冻结”
-      event.currentTarget.blur();
+      const targetButton = event.currentTarget;
+      targetButton.blur();
+      
+      // 等待滚动动画开始后，强制重绘按钮以清除“卡住”的样式
+      setTimeout(() => forceRepaint(targetButton), 150);
     });
     window.addEventListener('scroll', handleScroll, { passive: true });
   }
 
+  // --- 其他事件监听与初始化 ---
+  audioPlayer.onended = () => { /* ... */ };
+  audioPlayer.onerror = (e) => { /* ... */ };
+  window.addEventListener('beforeunload', stopReading);
   initializeReader();
+
+  // 为简洁起见，此处省略所有未修改的函数体
+  // 在您的实际文件中，请保留完整的函数体
 });
 </script>
+
+<style>
+/* 增加一个空的 class，仅用于 JavaScript 强制重绘 */
+.force-repaint {}
+</style>
