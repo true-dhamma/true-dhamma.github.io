@@ -1,7 +1,6 @@
 <!-- tts-fab-reader.html -->
 <!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
 <!-- 版本 6.5: 修正了导致功能完全失效的严重函数定义 Bug -->
-<!-- 版本 6.6 (修复): 解决了 iOS Safari 上 hover 状态粘滞的问题 -->
 
 <!-- ================= HTML 结构 (无变动) ================= -->
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
@@ -14,50 +13,17 @@
   </button>
 </div>
 
-<!-- ================= CSS 样式 (已修正) ================= -->
+<!-- ================= CSS 样式 (无变动) ================= -->
 <style>
   .tts-fab-container { position: fixed; bottom: 30px; right: 30px; z-index: 1000; display: flex; flex-direction: column; align-items: center; gap: 16px; }
-  
-  .tts-button { 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    width: 50px; 
-    height: 50px; 
-    border: none; 
-    background-color: #ffffff; /* 默认白色背景 */
-    border-radius: 50%; 
-    cursor: pointer; 
-    padding: 0; 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
-    /* 定义了哪些属性的变化会产生动画效果 */
-    transition: background-color 0.2s ease-in-out, transform 0.2s ease, opacity 0.3s ease-in-out; 
-  }
-
-  /* 
-   * === iOS 问题修复 ===
-   * 使用 @media 查询，确保 :hover 样式（背景变灰和向上位移）
-   * 仅在拥有精细指针（如鼠标）且支持真正悬停的设备上生效。
-   * 触控设备（如 iPhone）将不会应用此规则，从而避免了 :hover 状态粘滞问题。
-   */
-  @media (hover: hover) and (pointer: fine) {
-    .tts-button:hover { 
-      background-color: #f2f2f2; /* 悬停时变灰 */
-      transform: translateY(-2px); /* 悬停时上移 */
-    }
-  }
-
-  /* 点击/触摸时的激活状态，所有设备通用。它提供了即时反馈且不会粘滞。*/
-  .tts-button:active { 
-    transform: scale(0.95); 
-  }
-  
+  .tts-button { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; border: none; background-color: #ffffff; border-radius: 50%; cursor: pointer; padding: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: background-color 0.2s ease-in-out, transform 0.2s ease, opacity 0.3s ease-in-out; }
+  .tts-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
+  .tts-button:active { transform: scale(0.95); }
   .tts-icon { fill: #333; width: 24px; height: 24px; }
-  
   .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
 </style>
 
-<!-- ================= JavaScript 逻辑 (无变动) ================= -->
+<!-- ================= JavaScript 逻辑 (完全修正版) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置 ---
