@@ -257,3 +257,7 @@ aside: true
 &nbsp;
 
 在健康方面，可能最糟糕的方面不是肺癌等致命疾病的风险。我并不是说这些疾病不重要，请不要误解我。但在我们吸烟的整个过程中，我们将它们从脑海中屏蔽，向自己承诺明天会戒烟。这就像一颗定时炸弹在滴答作响。我们希望它永远不会发生，或者奇迹般地在它发生之前我们已经戒烟了。
+
+---
+
+<table><tbody><tr><td><img alt="The Easy Way to Stop Smoking" width="120" src="/uploads/cover-easyway-stop-smoke.webp" /></td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E8%BF%99%E6%9C%AC%E4%B9%A6%E8%83%BD%E8%AE%A9%E4%BD%A0%E6%88%92%E7%83%9F" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E8%BF%99%E6%9C%AC%E4%B9%A6%E8%83%BD%E8%AE%A9%E4%BD%A0%E6%88%92%E7%83%9F" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=%E8%BF%99%E6%9C%AC%E4%B9%A6%E8%83%BD%E8%AE%A9%E4%BD%A0%E6%88%92%E7%83%9F" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E8%BF%99%E6%9C%AC%E4%B9%A6%E8%83%BD%E8%AE%A9%E4%BD%A0%E6%88%92%E7%83%9F" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=The+Easy+Way+to+Stop+Smoking" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=The+Easy+Way+to+Stop+Smoking" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=The%20Easy%20Way%20to%20Stop%20Smoking" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>

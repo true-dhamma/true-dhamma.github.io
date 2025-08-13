@@ -1,19 +1,18 @@
 ---
 title: 空洞的心：成瘾的真相与疗愈
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 成瘾的真相：它并非道德缺陷或疾病，而是对童年创伤和难以忍受的痛苦的一种适应性反应。疗愈之路始于慈悲的好奇，而非谴责。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.png"
+feature_text:
+feature_image: /uploads/top_banner_addiction.png
 aside: true
 ---
-
-> ##### In the Realm of Hungry Ghosts: Close Encounters with Addiction - Gabor Maté - 摘要
+> ##### In the Realm of Hungry Ghosts: Close Encounters with Addiction - Gabor Maté
 >
-> ##### 空洞的心：成瘾的真相与疗愈 - 加博尔·马泰
+> ##### 空洞的心：成瘾的真相与疗愈 - 加博尔·马泰 - 摘要
 >
 > 成瘾不是一种选择，也不是一种疾病，而是我们为了逃离痛苦而做出的孤注一掷的尝试。
 
@@ -450,3 +449,7 @@ aside: true
 因脊椎感染而几乎瘫痪的佩妮，在她的伴侣因癌症去世后，与朋友贝弗利相互扶持。贝弗利多年未见的儿子打电话来，邀请她回家过圣诞。她喜极而泣：“我没想到自己还能这么开心。”
 
 在痛苦和绝望之中，总有奇迹发生。生命仍在寻求生命，爱仍在渴求爱，人性仍在闪耀。
+
+---
+
+<table><tbody><tr><td><img alt="In the Realm of Hungry Ghosts" width="120" src="/uploads/cover-hungry-ghosts.webp" /></td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E7%A9%BA%E6%B4%9E%E7%9A%84%E5%BF%83" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E7%A9%BA%E6%B4%9E%E7%9A%84%E5%BF%83" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=%E7%A9%BA%E6%B4%9E%E7%9A%84%E5%BF%83" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E7%A9%BA%E6%B4%9E%E7%9A%84%E5%BF%83" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=In+the+Realm+of+Hungry+Ghosts" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=In+the+Realm+of+Hungry+Ghosts" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=In%20the%20Realm%20of%20Hungry%20Ghosts" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>

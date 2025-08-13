@@ -11,9 +11,9 @@ feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
 
-> ##### Metacognitive Therapy for Anxiety and Depression - Adrian Wells - 摘要
+> ##### Metacognitive Therapy for Anxiety and Depression - Adrian Wells
 >
-> ##### 焦虑与抑郁的元认知疗法 - 阿德里安·威尔斯
+> ##### 焦虑与抑郁的元认知疗法 - 阿德里安·威尔斯 - 摘要
 >
 > 这本书揭示了如何通过改变你的思维*方式*，而不仅仅是思维*内容*，从而将你从焦虑和抑郁的循环中解放出来。
 
@@ -209,3 +209,7 @@ OCD 的问题核心是错误的**融合信念 (Fusion Beliefs)**，主要有三�
 MCT 的“**硬核 (hard)**”观点认为，许多看似稳定的负面核心信念（如“我一无是处”）实际上是持续的**反刍**过程所**生成**的产物。因此，仅仅通过理性辩论来挑战这些信念的真实性可能效果有限，因为生成这些信念的“思维程序”仍在运行。MCT 旨在改变这个底层的“程序”，通过改变个体的**元认知模型**和**体验思维的方式**，从而带来更深刻、更持久的改变。
 
 **结语** “想法无关紧要，你对想法的反应才至关重要。” 这句话贯穿全书。MCT 提供了一套理论和工具，帮助人们改变对内心想法的反应，摆脱 CAS 的束缚，从而超越普通思维和信念所带来的局限和困扰，重获心理自由。
+
+---
+
+<table><tbody><tr><td><img alt="Metacognitive Therapy for Anxiety and Depression" width="120" src="/uploads/cover-metacognitive.webp" /></td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Metacognitive%20Therapy%20for%20Anxiety%20and%20Depression" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=Metacognitive%20Therapy%20for%20Anxiety%20and%20Depression" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=Metacognitive%20Therapy%20for%20Anxiety%20and%20Depression" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Metacognitive%20Therapy%20for%20Anxiety%20and%20Depression" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Metacognitive+Therapy+for+Anxiety+and+Depression" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Metacognitive+Therapy+for+Anxiety+and+Depression" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Metacognitive%20Therapy%20for%20Anxiety%20and%20Depression" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>

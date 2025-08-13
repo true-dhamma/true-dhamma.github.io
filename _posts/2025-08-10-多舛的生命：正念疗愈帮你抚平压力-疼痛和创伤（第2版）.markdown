@@ -1,19 +1,18 @@
 ---
 title: 多舛的生命：正念疗愈帮你抚平压力、疼痛和创伤（第2版）
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 正念
+  - 正念
 excerpt: 只要你还在呼吸，无论此刻你病得有多重或感觉有多么绝望，你身上安好的地方要比不对劲的地方多。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### Full Catastrophe Living: Using the Wisdom of Your Body and Mind to Face Stress, Pain, and Illness - Jon Kabat-Zinn
 >
-> ##### 多舛的生命：正念疗愈帮你抚平压力、疼痛和创伤（第2版） - 乔恩·卡巴金
+> ##### 多舛的生命：正念疗愈帮你抚平压力、疼痛和创伤（第2版） - 乔恩·卡巴金 - 摘要
 >
 > 学习如何全然拥抱生活的挑战，将压力、疼痛和苦难转化为内在力量与疗愈的源泉。
 
@@ -630,3 +629,7 @@ MBSR课程的核心是系统地训练**正念**——一种源自佛教传统的
 * **最终的邀约**：本书的结尾，作者引用了诗人巴勃罗·聂鲁达的诗《保持安静》，邀请我们一同“数到十二，然后保持止静”。这是一个深刻的隐喻，邀请我们从无尽的言语和行动中暂停，哪怕只是片刻，去体验那份能疗愈一切的、广阔而深邃的静默。这静默之中，蕴含着生命的全部奥秘和生机。
 
 觉知之道不是一条通往别处的路，而是让你在每一个当下，都更深地成为你自己的路。
+
+---
+
+<table><tbody><tr><td><img alt="Full Catastrophe Living" width="120" src="/uploads/cover-full-catastrophe.webp" /></td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http.search.dangdang.com/?key=%E5%A4%9A%E8%88%9B%E7%9A%84%E7%94%9F%E5%91%BD" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E5%A4%9A%E8%88%9B%E7%9A%84%E7%94%9F%E5%91%BD" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=%E5%A4%9A%E8%88%9B%E7%9A%84%E7%94%9F%E5%91%BD" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E5%A4%9A%E8%88%9B%E7%9A%84%E7%94%9F%E5%91%BD" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Full+Catastrophe+Living" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Full+Catastrophe+Living" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Full%20Catastrophe%20Living" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>

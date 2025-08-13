@@ -11,7 +11,9 @@ feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
 
-> ##### 你的生存本能正在杀死你 - Matthew Sleeth - 摘要
+> ##### Your Survival Instinct Is Killing You - Marc Schoen
+>
+> ##### 你的生存本能正在杀死你 - 马克·舍恩 - 摘要
 >
 > 对生存与存在底层的成瘾，是杀死我们的关键要素。
 
@@ -134,3 +136,7 @@ aside: true
 现代社会的快节奏和高压力，使得我们古老的生存本能常常被过度激活，成为焦虑、恐慌和各种慢性疾病的根源。这本书告诉我们，问题的关键不在于消灭生存本能，而在于学会管理它。
 
 通过**建立规律的生活、培养专注力**来减少日常的不适感累积，并通过**训练双重感知能力**，让理性能在关键时刻介入，平衡本能的冲动。这样，我们就能打破由不适感引发的恶性循环，从容自信地面对生活的挑战，最终获得内心的平静与真正的幸福。
+
+---
+
+<table><tbody><tr><td><img alt="Your Survival Instinct Is Killing You" width="120" src="/uploads/cover-survival-instinct.webp" /></td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Your+Survival+Instinct+Is+Killing+You" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Your+Survival+Instinct+Is+Killing+You" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Your%20Survival%20Instinct%20Is%20Killing%20You" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>

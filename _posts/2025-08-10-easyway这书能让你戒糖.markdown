@@ -1,19 +1,18 @@
 ---
 title: EasyWay这书能让你戒糖
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 戒糖的困难并非源于生理戒断，而是来自“没有糖就无法享受生活”的错误信念。通过破除这些迷思，读者可以无需意志力，轻松、永久地摆脱糖的奴役。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
-> ##### The Easy Way to Quit Sugar - Allen Carr - 摘要
+> ##### The Easy Way to Quit Sugar - Allen Carr
 >
-> ##### 这书能让你戒糖 - 亚伦·卡尔
+> ##### 这书能让你戒糖 - 亚伦·卡尔 - 摘要
 >
 > 告别糖瘾，无需意志力，只需揭开让你渴望糖分的心理陷阱，轻松重获健康、活力与理想体重。
 
