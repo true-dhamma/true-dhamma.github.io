@@ -25,3 +25,45 @@ layout: default
 </main>
 
 {% include site-footer.html %}
+
+<script>
+  function filterCategories() {
+    // 1. 取得目前 URL 中的 hash 值（不包含 #）
+    const hash = window.location.hash.substring(1);
+
+    // 2. 選取所有代表分類的 <section> 元素
+    const categories = document.querySelectorAll('.section[id]');
+    let categoryFound = false;
+
+    // 3. 如果 hash 值存在
+    if (hash) {
+      categories.forEach(cat => {
+        // 如果目前這個分類 section 的 id 和 hash 值相同
+        if (cat.id === hash) {
+          cat.style.display = 'block'; // 顯示這個分類
+          categoryFound = true;
+        } else {
+          cat.style.display = 'none'; // 隱藏其他所有分類
+        }
+      });
+
+      // 如果 hash 存在但沒有對應的分類（例如錯誤的網址），則顯示全部
+      if (!categoryFound) {
+        categories.forEach(cat => {
+          cat.style.display = 'block';
+        });
+      }
+    } else {
+      // 4. 如果 hash 值不存在，則顯示所有分類
+      categories.forEach(cat => {
+        cat.style.display = 'block';
+      });
+    }
+  }
+
+  // 頁面首次載入時執行一次，以處理直接帶 hash 訪問的網址
+  window.addEventListener('DOMContentLoaded', filterCategories);
+
+  // 當 URL 的 hash 發生變化時（例如點擊了頁面上的錨點連結），再次執行
+  window.addEventListener('hashchange', filterCategories);
+</script>
