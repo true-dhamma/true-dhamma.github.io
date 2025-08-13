@@ -1,30 +1,27 @@
 ---
 title: 毒贩医生：医生如何被骗，患者如何上瘾，以及为何如此难以停止
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
-- 新
+  - 心理学
+  - 新
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 我们陷入了一个疯狂的系统：即使清楚地知道这些药物正在伤害病人，我们却无法拒绝给他们开出更多的药片。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### Drug Dealer, MD: How Doctors Were Duped, Patients Got Hooked, and Why It’s So Hard to Stop - Anna Lembke, MD
 >
 > ##### 毒贩医生：医生如何被骗，患者如何上瘾，以及为何如此难以停止 - 安娜·莱姆克 - 摘要
 >
-> 一句话吸引人的摘要：本书揭示了善意的医生如何无意中将患者推向处方药成瘾的深渊，以及这个失控的系统为何难以停止。
+> 本书揭示了善意的医生如何无意中将患者推向处方药成瘾的深渊，以及这个失控的系统为何难以停止。
 
 ### 术语说明
 
 关于如何称呼那些使用药物并成瘾的人，其术语仍在不断变化中。特别是在治疗提供者中，人们越来越意识到当前用来描述成瘾的语言会给相关人员带来污名。例如，将康复中的人称为“干净的”（clean），就好像他们以前是“肮脏的”；将成瘾性药物使用称为“药物滥用”（drug abuse），这会让人联想到虐待儿童等其他形式的虐待；或者将成瘾者称为“酒鬼”（drunk）或“瘾君子”（junkie）。
 
 在本书中，我试图避免使用污名化的语言，转而使用更中性的术语，如“使用”、“不当使用”、“过度使用”、“成瘾性使用”和“成瘾”。尽管如此，当患者自己使用这些词语来描述他们的行为和经历时，像“成瘾者”、“酒鬼”和“瘾君子”这样的术语确实会出现在本书中。因此，我使用这些术语并非意在贬低，而是为了捕捉药物成瘾者的语言和体验。
-
----
 
 ### 序言
 
@@ -526,3 +523,11 @@ aside: true
 理解并终结处方药危机对我们所有人——医生、病人和他们的亲人——都至关重要。医生有道德责任安全、审慎地开具处方。病人有权获得高质量的护理，即使那不是他们认为自己需要的护理。**每个医生拥有的最宝贵的商品，就是他与病人的关系。**
 
 处方药危机是一个衰败体系的症状，它是一声嘹亮的号角，呼唤着变革——不仅仅是为了那些对处方药上瘾的病人，也是为了所有的病人和治疗他们的医生。
+
+---
+
+<table><tbody><tr><td><img alt="Drug Dealer, MD" width="120" src="/uploads/cover-drug-dealer-md.webp" /></td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Drug%20Dealer%2C%20MD" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=Drug%20Dealer%2C%20MD" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=Drug%20Dealer%2C%20MD" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Drug%20Dealer%2C%20MD" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Drug+Dealer+MD" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Drug+Dealer+MD" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Drug%20Dealer%20MD" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+
+&nbsp;
+
+&nbsp;
