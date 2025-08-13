@@ -10,6 +10,7 @@ feature_text:
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### The Easy Way to Quit Cocaine: Rediscover You - Allen Carr
 >
 > ##### 轻松戒掉可卡因 - 亚伦·卡尔 - 摘要

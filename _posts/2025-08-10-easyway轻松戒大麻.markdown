@@ -10,6 +10,7 @@ feature_text:
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### The Easy Way to Quit Cannabis - Allen Carr
 >
 > ##### 轻松戒大麻 - 艾伦·卡尔 - 摘要
