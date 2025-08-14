@@ -1,5 +1,5 @@
 ---
-title: 文章
+title: 文章分类
 excerpt: 
 aside: true
 layout: categories
