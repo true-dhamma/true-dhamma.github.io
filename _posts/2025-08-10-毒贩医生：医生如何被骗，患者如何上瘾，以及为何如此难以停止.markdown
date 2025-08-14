@@ -1,16 +1,17 @@
 ---
 title: 毒贩医生：医生如何被骗，患者如何上瘾，以及为何如此难以停止
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 心理学
-  - 精选
+- 心理学
+- 精选
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 我们陷入了一个疯狂的系统：即使清楚地知道这些药物正在伤害病人，我们却无法拒绝给他们开出更多的药片。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Drug Dealer, MD: How Doctors Were Duped, Patients Got Hooked, and Why It’s So Hard to Stop - Anna Lembke, MD
 >
 > ##### 毒贩医生：医生如何被骗，患者如何上瘾，以及为何如此难以停止 - 安娜·莱姆克 - 摘要
