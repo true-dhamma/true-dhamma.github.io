@@ -1,19 +1,21 @@
 ---
 title: 基于正念的成瘾行为复发预防(MBRP)
-date: 2025-08-09 21:13:00 +08:00
+date: 2025-08-09T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
-excerpt: 本书阐述了MBRP临床指南。该方法整合正念冥想与传统复发预防策略，旨在帮助成瘾者提升对内在体验的觉察力，学习与渴求和不适共处，从无意识的自动反应转向有意识的正念回应，从而实现持久康复。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+  - 成瘾
+excerpt: >-
+  本书阐述了MBRP临床指南。该方法整合正念冥想与传统复发预防策略，旨在帮助成瘾者提升对内在体验的觉察力，学习与渴求和不适共处，从无意识的自动反应转向有意识的正念回应，从而实现持久康复。
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
-> ##### Mindfulness-Based Relapse Prevention for Addictive Behaviors: A Clinician’s Guide（基于正念的成瘾行为复发预防：临床医生指南（第二版）- 摘要
+> ##### Mindfulness-Based Relapse Prevention for Addictive Behaviors: A Clinician’s Guide - Sarah Bowen, Neha Chawla, Joel Grow, G. Alan Marlatt
 >
-> **作者：** 莎拉·博文 (Sarah Bowen), 内哈·肖拉 (Neha Chawla), 乔尔·格罗 (Joel Grow), 及 G. 艾伦·马尔拉特 (G. Alan Marlatt)
+> ##### 基于正念的成瘾行为复发预防：临床医生指南（第二版）- 莎拉·博文, 内哈·肖拉, 乔尔·格罗, 及 G. 艾伦·马尔拉特 - 摘要
+>
+> 本书阐述了MBRP临床指南。该方法整合正念冥想与传统复发预防策略，旨在帮助成瘾者提升对内在体验的觉察力，学习与渴求和不适共处，从无意识的自动反应转向有意识的正念回应，从而实现持久康复。
 
 ## 目录
 
@@ -360,4 +362,8 @@ MBRP的首次随机对照试验是在一个城市社区治疗机构进行的。�
 
 ---
 
-<table><tbody><tr><td><img alt="Mindfulness-Based Relapse Prevention" width="120" src="/uploads/cover-mbrp.webp" /></td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Mindfulness-Based%20Relapse%20Prevention" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=Mindfulness-Based%20Relapse%20Prevention" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=Mindfulness-Based%20Relapse%20Prevention" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Mindfulness-Based%20Relapse%20Prevention" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Mindfulness-Based+Relapse+Prevention" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Mindfulness-Based+Relapse+Prevention" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Mindfulness-Based%20Relapse%20Prevention" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>
+<table><tbody><tr><td><img alt="Mindfulness-Based Relapse Prevention" width="120" src="/uploads/cover-mbrp.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Mindfulness-Based%20Relapse%20Prevention" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=Mindfulness-Based%20Relapse%20Prevention" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=Mindfulness-Based%20Relapse%20Prevention" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Mindfulness-Based%20Relapse%20Prevention" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Mindfulness-Based+Relapse+Prevention" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Mindfulness-Based+Relapse+Prevention" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Mindfulness-Based%20Relapse%20Prevention" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+
+&nbsp;
+
+&nbsp;
