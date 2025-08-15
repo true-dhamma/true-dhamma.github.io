@@ -139,7 +139,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 * 泰文Youtube：[https://www.youtube.com/@%E0%B9%80%E0%B8%AA…](https://www.youtube.com/@%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%B0%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B8%95%E0%B8%B2%E0%B8%93%E0%B8%A3%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%A8%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%B4%E0%B9%8C%E0%B8%82%E0%B8%B5%E0%B8%93){: target="_blank" rel="noopener"}
 * 英文Youtube：[https://www.youtube.com/@luangtanarongsakkheenalayo3071](https://www.youtube.com/@luangtanarongsakkheenalayo3071){: target="_blank" rel="noopener"}
 
-##### 电子书（全网唯一，包含所有隆塔已面世书籍的高质量中文翻译）：\*\*
+##### 电子书（全网唯一，包含所有隆塔已面世书籍的高质量中文翻译）：
 
 * [《止于心&法语108 v1.1》中文版](https://download.true-dhamma.com/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/%E6%AD%A2%E4%BA%8E%E5%BF%83&amp;%E6%B3%95%E8%AF%AD108%20v1.1.pdf){: target="_blank" rel="noopener"} -（[泰语原版链接](https://www.luangtanarongsak.org/home/index.php/2017-10-14-13-19-49/2017-11-12-10-51-16/item/1415-book-06){: target="_blank" rel="noopener"}）
 * [《修行（第一册）》中文版](https://download.true-dhamma.com/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/%E4%BF%AE%E8%A1%8C%EF%BC%88%E7%AC%AC%E4%B8%80%E5%86%8C%EF%BC%89%20-%20%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8.epub){: target="_blank" rel="noopener"} -（[泰语原版链接](https://www.luangtanarongsak.org/home/index.php/2017-10-14-13-19-49/2017-11-12-10-51-16/item/1413-book-04){: target="_blank" rel="noopener"}）
