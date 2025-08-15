@@ -1,6 +1,6 @@
 <!-- tts-fab-reader.html -->
 <!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 6.5: 修正了导致功能完全失效的严重函数定义 Bug -->
+<!-- 版本 6.6: 移除客户端声音选择逻辑，由 Worker 硬编码指定声音 -->
 
 <!-- ================= HTML 结构 (无变动) ================= -->
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
@@ -23,13 +23,13 @@
   .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
 </style>
 
-<!-- ================= JavaScript 逻辑 (完全修正版) ================= -->
+<!-- ================= JavaScript 逻辑 (适配后端修改) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置 ---
   const SHOW_SCROLL_TO_TOP_BUTTON = true;
   const WORKER_URL = 'https://proxy.true-dhamma.com/tts-proxy';
-  const VOICE_NAME = 'zh-CN-YunyangNeural';
+  // VOICE_NAME 常量已移除，因为声音由 Worker 决定
   const PREFETCH_WINDOW_SIZE = 5;
   const MAX_RETRIES = 3;
   const RETRY_DELAY = 1000;
@@ -123,7 +123,13 @@ document.addEventListener('DOMContentLoaded', () => {
     for (let i = 0; i < MAX_RETRIES; i++) {
       if (!isReading || signal.aborted) { item.isFetching = false; return false; }
       try {
-        const response = await fetch(WORKER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: item.text, voice: VOICE_NAME }), signal: signal });
+        // 请求体中不再发送 voice 字段
+        const response = await fetch(WORKER_URL, { 
+          method: 'POST', 
+          headers: { 'Content-Type': 'application/json' }, 
+          body: JSON.stringify({ text: item.text }), 
+          signal: signal 
+        });
         if (!response.ok) throw new Error(`Request failed with status ${response.status}`);
         const audioBlob = await response.blob();
         item.blobUrl = URL.createObjectURL(audioBlob);
