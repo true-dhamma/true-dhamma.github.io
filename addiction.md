@@ -1,15 +1,14 @@
 ---
 title: 成瘾与戒断
-date: 2025-08-09 01:00:00 +08:00
+date: 2025-08-09T01:00:00+08:00
 categories:
-- 心理学
+  - 心理学
 excerpt: 洞见物质成瘾、行为成瘾和心理成瘾的实相，从成瘾的漩涡中中解脱出来。
 feature_text: |-
   ## 成瘾心理学
   洞见物质成瘾、行为成瘾和心理成瘾的实相
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_image: /uploads/top_banner_addiction.jpg
 ---
-
 &nbsp;
 
 <table style="width:100%; border: none; border-collapse: collapse;">
@@ -137,7 +136,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
   </tbody>
 </table>
 
-# 成瘾背后的社会性探索
+# 成瘾背后的社会洞察
 
 [追逐尖叫-毒品战争的百年谎言](/心理学/精选/2025/08/10/追逐尖叫-毒品战争的百年谎言/){: target="_blank" rel="noopener"}
 

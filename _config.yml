@@ -83,10 +83,12 @@ favicons:
 navigation_header:
 - title: 首页
   url: "/"
-- title: 巴利圣典
-  url: "/tipitaka/"
+- title: 成瘾
+  url: "/addiction/"
 - title: 文章
   url: "/blog/"
+- title: 巴利圣典
+  url: "/tipitaka/"
 - title: 网盘
   url: https://download.true-dhamma.com/
 - title: 搜索
