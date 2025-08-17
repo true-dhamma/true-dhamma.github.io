@@ -1,15 +1,16 @@
 ---
 title: EasyWay轻松戒掉坏糖
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 通过揭示糖瘾背后的心理陷阱和洗脑机制，帮助读者消除对“坏糖”（包括精制糖、加工和淀粉类碳水化合物）的渴望。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Good Sugar Bad Sugar - Allen Carr
 >
 > ##### 轻松戒掉坏糖 - 亚伦·卡尔 - 摘要
