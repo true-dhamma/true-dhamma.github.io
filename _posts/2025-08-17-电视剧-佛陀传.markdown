@@ -73,9 +73,6 @@ feature_image: "/uploads/top_banner_tv_buddha.jpg"
   <a href="#" class="episode-link" data-episode="53">[53]</a>
   <a href="#" class="episode-link" data-episode="54">[54]</a>
 </div>
-
-
-
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const episodeLinks = document.querySelectorAll('.episode-link');
@@ -100,17 +97,12 @@ feature_image: "/uploads/top_banner_tv_buddha.jpg"
     });
   });
 </script>
-
-&nbsp;
-
 <style>
 .episode-links a {
   margin: 0 5px;
   text-decoration: none;
 }
 </style>
-
-&nbsp;
 
 ### 剧情简介
 
