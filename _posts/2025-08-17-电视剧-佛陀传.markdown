@@ -1,19 +1,17 @@
 ---
 title: 电视剧《佛陀传》
-date: 2025-08-17 00:15:00 +08:00
+date: 2025-08-17T00:15:00+08:00
 categories:
-- 南传上座部佛教
-- 精选
-excerpt: 南传上座部佛教早晚课诵本，包含礼敬三宝、三皈依、佛法僧随念、需要经常思维的五法及慈悲喜舍篇。是南传上座部佛教最经典的核心念诵内容，也是修习佛法僧随念、慈悲观、建立正见和正思维的关键法门。
+  - 南传上座部佛教
+  - 精选
+excerpt: >-
+  南传上座部佛教早晚课诵本，包含礼敬三宝、三皈依、佛法僧随念、需要经常思维的五法及慈悲喜舍篇。是南传上座部佛教最经典的核心念诵内容，也是修习佛法僧随念、慈悲观、建立正见和正思维的关键法门。
 feature_text: |-
   ## 南传上座部佛教早晚课诵本
   礼敬三宝、三皈依、佛法僧随念、需要经常思维的五法及慈悲喜舍篇
-feature_image: "/uploads/top_banner_chanting.jpg"
+feature_image: /uploads/top_banner_chanting.jpg
 ---
-
-## 电视剧《佛陀传》国语版
-
-> 这部电视剧生动再现了佛陀的成长历程与慈悲智慧，将深刻的哲理融入剧情，许多对白都能启发人心，成为生命的智慧指南。
+> 电视剧《佛陀传》国语版生动再现了佛陀的成长历程与慈悲智慧，将深刻的哲理融入剧情，许多对白都能启发人心，成为生命的智慧指南。
 
 <div id="video-player-container">
   {% include video.html url="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E4%BC%A0%E3%80%8B/%E4%BD%9B%E9%99%80%E5%9B%BD%E8%AF%AD01.mp4" %}
@@ -77,7 +75,6 @@ feature_image: "/uploads/top_banner_chanting.jpg"
   <a href="#" class="episode-link" data-episode="53">[53]</a>
   <a href="#" class="episode-link" data-episode="54">[54]</a>
 </div>
-
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const episodeLinks = document.querySelectorAll('.episode-link');
@@ -102,17 +99,12 @@ feature_image: "/uploads/top_banner_chanting.jpg"
     });
   });
 </script>
-
-&nbsp;
-
 <style>
 .episode-links a {
   margin: 0 5px;
   text-decoration: none;
 }
 </style>
-
-&nbsp;
 
 ### 剧情简介
 
