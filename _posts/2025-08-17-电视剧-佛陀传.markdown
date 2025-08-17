@@ -1,0 +1,114 @@
+---
+title: 电视剧《佛陀传》
+date: 2025-08-17T23:15:00+07:00
+categories: []
+tags: []
+---
+---
+
+## 电视剧《佛陀传》国语版
+
+<div id="video-player-container">
+  {% include video.html url="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E4%BC%A0%E3%80%8B/%E4%BD%9B%E9%99%80%E5%9B%BD%E8%AF%AD01.mp4" %}
+</div>
+
+### 剧集列表
+
+<div class="episode-links">
+  <a href="#" class="episode-link" data-episode="01">[01]</a>
+  <a href="#" class="episode-link" data-episode="02">[02]</a>
+  <a href="#" class="episode-link" data-episode="03">[03]</a>
+  <a href="#" class="episode-link" data-episode="04">[04]</a>
+  <a href="#" class="episode-link" data-episode="05">[05]</a>
+  <a href="#" class="episode-link" data-episode="06">[06]</a>
+  <a href="#" class="episode-link" data-episode="07">[07]</a>
+  <a href="#" class="episode-link" data-episode="08">[08]</a>
+  <a href="#" class="episode-link" data-episode="09">[09]</a>
+  <a href="#" class="episode-link" data-episode="10">[10]</a>
+  <a href="#" class="episode-link" data-episode="11">[11]</a>
+  <a href="#" class="episode-link" data-episode="12">[12]</a>
+  <a href="#" class="episode-link" data-episode="13">[13]</a>
+  <a href="#" class="episode-link" data-episode="14">[14]</a>
+  <a href="#" class="episode-link" data-episode="15">[15]</a>
+  <a href="#" class="episode-link" data-episode="16">[16]</a>
+  <a href="#" class="episode-link" data-episode="17">[17]</a>
+  <a href="#" class="episode-link" data-episode="18">[18]</a>
+  <a href="#" class="episode-link" data-episode="19">[19]</a>
+  <a href="#" class="episode-link" data-episode="20">[20]</a>
+  <a href="#" class="episode-link" data-episode="21">[21]</a>
+  <a href="#" class="episode-link" data-episode="22">[22]</a>
+  <a href="#" class="episode-link" data-episode="23">[23]</a>
+  <a href="#" class="episode-link" data-episode="24">[24]</a>
+  <a href="#" class="episode-link" data-episode="25">[25]</a>
+  <a href="#" class="episode-link" data-episode="26">[26]</a>
+  <a href="#" class="episode-link" data-episode="27">[27]</a>
+  <a href="#" class="episode-link" data-episode="28">[28]</a>
+  <a href="#" class="episode-link" data-episode="29">[29]</a>
+  <a href="#" class="episode-link" data-episode="30">[30]</a>
+  <a href="#" class="episode-link" data-episode="31">[31]</a>
+  <a href="#" class="episode-link" data-episode="32">[32]</a>
+  <a href="#" class="episode-link" data-episode="33">[33]</a>
+  <a href="#" class="episode-link" data-episode="34">[34]</a>
+  <a href="#" class="episode-link" data-episode="35">[35]</a>
+  <a href="#" class="episode-link" data-episode="36">[36]</a>
+  <a href="#" class="episode-link" data-episode="37">[37]</a>
+  <a href="#" class="episode-link" data-episode="38">[38]</a>
+  <a href="#" class="episode-link" data-episode="39">[39]</a>
+  <a href="#" class="episode-link" data-episode="40">[40]</a>
+  <a href="#" class="episode-link" data-episode="41">[41]</a>
+  <a href="#" class="episode-link" data-episode="42">[42]</a>
+  <a href="#" class="episode-link" data-episode="43">[43]</a>
+  <a href="#" class="episode-link" data-episode="44">[44]</a>
+  <a href="#" class="episode-link" data-episode="45">[45]</a>
+  <a href="#" class="episode-link" data-episode="46">[46]</a>
+  <a href="#" class="episode-link" data-episode="47">[47]</a>
+  <a href="#" class="episode-link" data-episode="48">[48]</a>
+  <a href="#" class="episode-link" data-episode="49">[49]</a>
+  <a href="#" class="episode-link" data-episode="50">[50]</a>
+  <a href="#" class="episode-link" data-episode="51">[51]</a>
+  <a href="#" class="episode-link" data-episode="52">[52]</a>
+  <a href="#" class="episode-link" data-episode="53">[53]</a>
+  <a href="#" class="episode-link" data-episode="54">[54]</a>
+</div>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const episodeLinks = document.querySelectorAll('.episode-link');
+    const videoPlayerContainer = document.getElementById('video-player-container');
+    const baseUrl = "https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E4%BC%A0%E3%80%8B/%E4%BD%9B%E9%99%80%E5%9B%BD%E8%AF%AD";
+
+    episodeLinks.forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        const episodeNumber = this.getAttribute('data-episode');
+        const videoUrl = `${baseUrl}${episodeNumber}.mp4`;
+
+        // 动态更新Jekyll include的url参数是不直接可行的
+        // 因此，我们直接替换播放器HTML
+        videoPlayerContainer.innerHTML = `
+          <video controls="" width="100%" autoplay>
+            <source src="${videoUrl}" type="video/mp4" />
+            您的浏览器不支持 HTML5 video 标签。
+          </video>
+        `;
+      });
+    });
+  });
+</script>
+
+<style>
+.episode-links a {
+  margin: 0 5px;
+  text-decoration: none;
+}
+</style>
+
+### 剧情简介
+
+这部印度电视剧《佛陀传》讲述了释迦牟尼佛，即乔达摩·悉达多，从太子诞生到最终悟道成佛，直至进入大涅槃的传奇一生。 \[2\] 悉达多王子自幼便心怀众生，展现出非凡的慈悲与智慧。 \[2\] 青年时期，他虽过着奢华的生活，却对生老病死等人生疾苦产生了深刻的思考。 \[2\] 最终，他毅然决然地放弃了王位、家庭和优渥的生活，出家寻求宇宙人生的真谛。 \[2, 3\]
+
+经过六年的苦行，悉达多认识到苦行并非解脱之道，转而采取中道。 \[2\] 他在菩提树下发愿，不成正觉誓不离座，经过与心魔的斗争，最终彻悟成佛。 \[2\] 成佛后，他游历四方，教化众生，组建僧团，弘扬佛法。 \[2, 3, 15\] 这部电视剧深刻地展现了佛陀的慈悲与智慧，许多对白都能启发人心，成为生命的智慧指南。 \[4, 15\]
+
+该剧制作精良，据说耗时长达6年，力求真实还原佛陀的时代背景和人物风貌。 \[4\] 演员阵容也经过精心挑选，旨在为观众呈现一部高质量的影视作品。 \[4\]
