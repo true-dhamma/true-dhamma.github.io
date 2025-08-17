@@ -16,41 +16,62 @@ feature_image: "/uploads/top_banner_addiction.jpg"
   <tbody>
     <tr style="border: none;">
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-       <img src="/uploads/addiction_smoking.svg" alt="吸烟成瘾" style="width: 60%; max-width: 300px;" /><br /><strong>吸烟</strong>
-        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E7%83%9F%E6%B3%95/" style="text-decoration: none; color: inherit;">EasyWay轻松戒烟法</a><br />
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E7%94%B5%E5%AD%90%E7%83%9F/" style="text-decoration: none; color: inherit;">EasyWay轻松戒电子烟</a></p>
+       <strong>吸烟</strong><br /><img src="/uploads/addiction_smoking.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E7%83%9F%E6%B3%95/" style="text-decoration: none; color: inherit;">EasyWay轻松戒烟法</a></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">
-          <img src="/uploads/banner2.jpg" alt="成瘾/以智慧戒断 现代心理学" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">成瘾/以智慧戒断<br />现代心理学</a></p><a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">
-        </a><p></p>
+       <strong>电子烟</strong><br /><img src="/uploads/addiction_smoking.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E7%94%B5%E5%AD%90%E7%83%9F/" style="text-decoration: none; color: inherit;">EasyWay轻松戒电子烟</a></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">
-          <img src="/uploads/banner3.jpg" alt="巴利圣典 Pāli Tipiṭaka" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">巴利圣典<br />Pāli Tipiṭaka</a></p><a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">
-        </a><p></p>
+       <strong>酒精</strong><br /><img src="/uploads/addiction_alcohol.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E7%90%86%E6%80%A7%E5%BA%B7%E5%A4%8D-rational-recovery/" style="text-decoration: none; color: inherit;">理性康复(Rational Recovery)</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%85%92%E6%B3%95/" style="text-decoration: none; color: inherit;">EasyWay轻松戒酒法</a></p>
       </td>
     </tr>
     <tr style="border: none;">
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">
-          <img src="/uploads/banner4.jpg" alt="隆波帕默尊者 Luangpor Pramote Pamojjo" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">隆波帕默尊者<br />Luangpor Pramote Pamojjo</a></p><a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">
-        </a><p></p>
+       <strong>药物与毒品</strong><br /><img src="/uploads/addiction_drugs.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E5%A4%A7%E9%BA%BB/" style="text-decoration: none; color: inherit;">EasyWay轻松戒大麻</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%8F%AF%E5%8D%A1%E5%9B%A0/" style="text-decoration: none; color: inherit;">EasyWay轻松戒掉可卡因</a></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">
-          <img src="/uploads/banner5.jpg" alt="隆塔纳荣萨尊者 Luangta Narongsak Kheenalayo" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">隆塔纳荣萨尊者<br />Luangta Narongsak Kheenalayo</a></p><a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">
-        </a><p></p>
+       <strong>色情</strong><br /><img src="/uploads/addiction_porn.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E6%88%92%E9%99%A4%E8%89%B2%E6%83%85%E6%88%90%E7%98%BE%E4%B9%8B%E4%B9%A6-easypeasy-way%E4%BC%98%E5%8C%96%E7%89%88/" style="text-decoration: none; color: inherit;">戒除色情成瘾之书</a></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">
-          <img src="/uploads/banner6.jpg" alt="更多南传上座部佛法资源" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">更多南传上座部<br />佛法资源</a></p><a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">
-        </a><p></p>
+       <strong>赌博</strong><br /><img src="/uploads/addiction_gambling.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E8%B5%8C/" style="text-decoration: none; color: inherit;">EasyWay轻松戒赌</a></p>
+      </td>
+    </tr>
+    <tr style="border: none;">
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+       <strong>手机</strong><br /><img src="/uploads/addiction_mobile.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E4%BB%8E%E6%89%8B%E6%9C%BA%E6%88%90%E7%98%BE%E4%B8%AD%E8%A7%A3%E6%94%BE%E5%87%BA%E6%9D%A5/" style="text-decoration: none; color: inherit;">EasyWay从手机成瘾中解放出来</a></p>
+      </td>
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+       <strong>债务</strong><br /><img src="/uploads/addiction_debt.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%80%BA%E5%8A%A1/" style="text-decoration: none; color: inherit;">EasyWay轻松戒掉债务</a></p>
+      </td>
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+       <strong>糖</strong><br /><img src="/uploads/addiction_sugar.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E7%B3%96/" style="text-decoration: none; color: inherit;">EasyWay轻松戒糖</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%9D%8F%E7%B3%96/" style="text-decoration: none; color: inherit;">EasyWay轻松戒掉坏糖</a></p>
+      </td>
+    </tr>
+    <tr style="border: none;">
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+       <strong>咖啡因</strong><br /><img src="/uploads/addiction_caffeine.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%92%96%E5%95%A1%E5%9B%A0/" style="text-decoration: none; color: inherit;">EasyWay轻松戒掉咖啡因</a></p>
+      </td>
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+       <strong>饮食过量</strong><br /><img src="/uploads/addiction_weight.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%87%8D%E6%B3%95/" style="text-decoration: none; color: inherit;">EasyWay轻松戒重法</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%8F%E8%82%A5/" style="text-decoration: none; color: inherit;">EasyWay现在就减肥</a></p>
+      </td>
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
+       <strong>忧虑</strong><br /><img src="/uploads/addiction_worrying.svg" style="width: 60%; max-width: 300px;" />
+        <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%99%A4%E5%BF%A7%E8%99%91/" style="text-decoration: none; color: inherit;">EasyWay轻松戒除忧虑</a></p>
       </td>
     </tr>
   </tbody>
