@@ -16,10 +16,9 @@ feature_image: "/uploads/top_banner_addiction.jpg"
   <tbody>
     <tr style="border: none;">
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="" style="text-decoration: none; color: inherit;"><img src="/uploads/addiction_smoking.svg" alt="吸烟成瘾" style="width: 100%; max-width: 300px;" /></a>
+        <a href="" style="text-decoration: none; color: inherit;"><img src="/uploads/addiction_smoking.svg" alt="吸烟成瘾" style="width: 60%; max-width: 300px;" /></a>
         <p><a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E7%83%9F%E6%B3%95/" style="text-decoration: none; color: inherit;">EasyWay轻松戒烟法</a><br />
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E7%94%B5%E5%AD%90%E7%83%9F/" style="text-decoration: none; color: inherit;">EasyWay轻松戒电子烟</a></p>
-
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
         <a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">
