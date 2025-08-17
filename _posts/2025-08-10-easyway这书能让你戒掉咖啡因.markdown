@@ -1,19 +1,18 @@
 ---
-title: EasyWay这书能让你戒掉咖啡因
-date: 2025-08-10 21:13:00 +08:00
+title: EasyWay轻松戒掉咖啡因
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 揭示咖啡因的成瘾机制和心理骗局，消除人们对咖啡因“益处”的误解，如提神、助专注等。读者可以在无剥夺感的情况下，快乐地实现永久戒断。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### The Easy Way to Quit Caffeine - Allen Carr - 摘要
 >
-> ##### 这书能让你戒掉咖啡因 - 艾伦·卡尔
+> ##### 轻松戒掉咖啡因 - 艾伦·卡尔
 >
 > 通过颠覆你对咖啡因的认知，让你无需意志力，轻松、快乐地摆脱成瘾。
 
@@ -245,32 +244,36 @@ aside: true
 
 ### 指令回顾
 
-**阅读本书的指令：** 
+**阅读本书的指令：**
 
-1.  遵循所有指令
-2.  在读完本书之前不要戒掉或减量
-3.  以愉快的心情开始
-4.  积极思考
-5.  保持开放的心态
+1. 遵循所有指令
+2. 在读完本书之前不要戒掉或减量
+3. 以愉快的心情开始
+4. 积极思考
+5. 保持开放的心态
 
 **让你轻松戒掉的指令：**
 
-1.  培养“太棒了！我自由了！”的态度。
-2.  永远不要怀疑你的决定。
-3.  不要试图避免思考咖啡因。
-4.  意识到小怪物的存在，但不要担心它。
-5.  偶尔忘记自己戒了也没关系。
-6.  检查饮料、食物和药物中的咖啡因成分。
-7.  不要等待成为非咖啡因成瘾者，你已经是了。
-8.  接受生活有好有坏。
-9.  你掌控着渴望。
-10.  为敌人的死亡而庆祝。
-11.  不要改变你的生活方式。
-12.  除非朋友求助，否则不要试图改变他们。
-13.  不要使用替代品。
-14.  享受打破关联的乐趣。
-15.  同情而非羡慕咖啡因成瘾者。
+1. 培养“太棒了！我自由了！”的态度。
+2. 永远不要怀疑你的决定。
+3. 不要试图避免思考咖啡因。
+4. 意识到小怪物的存在，但不要担心它。
+5. 偶尔忘记自己戒了也没关系。
+6. 检查饮料、食物和药物中的咖啡因成分。
+7. 不要等待成为非咖啡因成瘾者，你已经是了。
+8. 接受生活有好有坏。
+9. 你掌控着渴望。
+10. 为敌人的死亡而庆祝。
+11. 不要改变你的生活方式。
+12. 除非朋友求助，否则不要试图改变他们。
+13. 不要使用替代品。
+14. 享受打破关联的乐趣。
+15. 同情而非羡慕咖啡因成瘾者。
 
 ---
 
-<table><tbody><tr><td><img alt="The Easy Way to Quit Caffeine" width="120" src="/uploads/cover-easyway-quit-caffeine.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=The%20Easy%20Way%20to%20Quit%20Caffeine" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=The%20Easy%20Way%20to%20Quit%20Caffeine" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=The%20Easy%20Way%20to%20Quit%20Caffeine" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=The%20Easy%20Way%20to%20Quit%20Caffeine" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=The+Easy+Way+to+Quit+Caffeine" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=The+Easy+Way+to+Quit+Caffeine" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=The%20Easy%20Way%20to%20Quit%20Caffeine" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>
+<table><tbody><tr><td><img alt="The Easy Way to Quit Caffeine" width="120" src="/uploads/cover-easyway-quit-caffeine.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=The%20Easy%20Way%20to%20Quit%20Caffeine" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=The%20Easy%20Way%20to%20Quit%20Caffeine" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=The%20Easy%20Way%20to%20Quit%20Caffeine" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=The%20Easy%20Way%20to%20Quit%20Caffeine" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=The+Easy+Way+to+Quit+Caffeine" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=The+Easy+Way+to+Quit+Caffeine" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=The%20Easy%20Way%20to%20Quit%20Caffeine" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+
+&nbsp;
+
+&nbsp;
