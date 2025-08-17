@@ -80,7 +80,7 @@ feature_image: "/uploads/top_banner_tv_buddha.jpg"
   document.addEventListener("DOMContentLoaded", function() {
     const episodeLinks = document.querySelectorAll('.episode-link');
     const videoPlayerContainer = document.getElementById('video-player-container');
-    const baseUrl = "https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/%E4%BD%9B%E9%99%80%E5%9B%BD%E8%AF%AD.mp4";
+    const baseUrl = "https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/%E4%BD%9B%E9%99%80%E5%9B%BD%E8%AF%AD";
 
     episodeLinks.forEach(link => {
       link.addEventListener('click', function(event) {
