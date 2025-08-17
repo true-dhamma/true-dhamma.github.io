@@ -1,14 +1,15 @@
 ---
 title: 成瘾与戒断
-date: 2025-08-09T01:00:00+08:00
+date: 2025-08-09 01:00:00 +08:00
 categories:
-  - 心理学
+- 心理学
 excerpt: 洞见物质成瘾、行为成瘾和心理成瘾的实相，从成瘾的漩涡中中解脱出来。
 feature_text: |-
   ## 成瘾心理学
   从物质成瘾、行为成瘾和心理成瘾中解脱
-feature_image: /uploads/top_banner_addiction.jpg
+feature_image: "/uploads/top_banner_addiction.jpg"
 ---
+
 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 <style>
   body {
