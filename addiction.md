@@ -1,18 +1,21 @@
 ---
 title: 成瘾与戒断
-date: 2025-08-09 01:00:00 +08:00
+date: 2025-08-09T01:00:00+08:00
 categories:
-- 心理学
+  - 心理学
 excerpt: 洞见物质成瘾、行为成瘾和心理成瘾的实相，从成瘾的漩涡中中解脱出来。
 feature_text: |-
   ## 成瘾心理学
   从物质成瘾、行为成瘾和心理成瘾中解脱
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_image: /uploads/top_banner_addiction.jpg
 ---
-
 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
-
 <style>
+  body {
+    /* To ensure all font sizes are relative to a base that can be easily adjusted */
+    font-size: 16px; /* A default base font size */
+  }
+
   .addiction-grid {
     display: grid;
     /* Default to 2 columns for smaller screens */
@@ -44,15 +47,16 @@ feature_image: "/uploads/top_banner_addiction.jpg"
   }
 
   .addiction-header {
-    padding: 10px 0; /* Padding around title and image */
+    padding: 7px 0; /* Adjusted padding for reduced height */
     background-color: #f0f0f0; /* Slightly different background for the header part */
     flex-shrink: 0; /* Prevent header from shrinking */
+    border-bottom: 1px solid #ccc; /* Border to separate header from links, matching card border */
   }
 
   .addiction-header strong {
     display: block; /* Make strong a block element to control its margin */
-    margin-bottom: 5px; /* Space between title and image */
-    font-size: 1.1em; /* Slightly larger title */
+    margin-bottom: 3px; /* Smaller space between title and image */
+    font-size: 0.77em; /* Original 1.1em * 0.7 (30% smaller) */
   }
 
   .addiction-header img {
@@ -65,21 +69,28 @@ feature_image: "/uploads/top_banner_addiction.jpg"
   }
 
   .addiction-links {
-    padding: 10px 5px; /* Padding inside the links section */
+    padding: 5px; /* Reduced padding inside the links section */
     margin-top: 0; /* No gap between header and links */
     background-color: transparent; /* No background for links section itself */
+    border: none; /* No border for links section */
     flex-grow: 1; /* Allow links section to grow and take available space */
-    display: flex; /* Use flexbox for vertical centering of links */
+    display: flex; /* Use flexbox for vertical stacking of links */
     flex-direction: column;
-    justify-content: center; /* Vertically center links if they don't fill the space */
+    justify-content: flex-start; /* Align links to the top */
   }
 
   .addiction-links a {
     display: block; /* Each link on a new line */
     text-decoration: none; /* No default underline */
     color: #007bff; /* Standard blue link color */
-    font-size: 0.85em; /* Slightly smaller font for links */
-    padding: 2px 0; /* Vertical padding for each link */
+    font-size: 0.595em; /* Original 0.85em * 0.7 (30% smaller) */
+    padding: 0; /* Removed vertical padding for each link */
+    line-height: 1.2; /* Minimized line height */
+    margin-bottom: 2px; /* Small margin between links for readability */
+  }
+
+  .addiction-links a:last-child {
+    margin-bottom: 0; /* No margin after the last link */
   }
 
   .addiction-links a:hover {
@@ -113,7 +124,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
     </div>
     <div class="addiction-links">
       <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E7%90%86%E6%80%A7%E5%BA%B7%E5%A4%8D-rational-recovery/">理性康复(Rational Recovery)</a>
-      <a href="/%E5%86%85%E5%BF%83%E8%A7%A3%E6%94%BE%E6%B3%95/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%85%92%E6%B3%95/">EasyWay轻松戒酒法</a>
+      <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%85%92%E6%B3%95/">EasyWay轻松戒酒法</a>
     </div>
   </div>
   <div class="addiction-item">
