@@ -25,7 +25,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
         <div style="background-color: #f8f8f8; border: 1px solid #e0e0e0; padding: 5px; margin-bottom: 0;">
           <strong>电子烟</strong>
-          <img src="/uploads/addiction_smoking.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
+          <img src="/uploads/addiction_vaping.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center;">
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E7%94%B5%E5%AD%90%E7%83%9F/" style="text-decoration: none; font-size: 0.85em; line-height: 1.2;">EasyWay轻松戒电子烟</a>
