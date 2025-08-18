@@ -3,12 +3,12 @@ title: 深度工作
 date: 2025-08-16 21:13:00 +08:00
 categories:
 - 心理学
-tags:
 excerpt: 在这个日益浮躁的世界里，深度工作的能力是你脱颖而出的超级力量。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Deep Work: Rules for Focused Success in a Distracted World - Cal Newport
 >
 > ##### 深度工作 - 卡尔·纽波特 - 摘要
