@@ -1,21 +1,30 @@
 ---
 title: 追逐尖叫：毒品战争的百年谎言
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
-- 精选
+  - 心理学
+  - 精选
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 成瘾的对立面不是清醒，而是连接。我们一直在对成瘾者唱着战歌，但其实，我们早就应该为他们唱响情歌。
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### Chasing the Scream: The First and Last Days of the War on Drugs - Johann Hari
 >
 > ##### 追逐尖叫：毒品战争的百年谎言 - 约翰·哈里 - 摘要
 >
 > 这本书将彻底颠覆你对毒品、成瘾以及这场百年毒品战争的所有认知。
+
+---
+
+**参考：Everything you think you know about addiction is wrong by Johann Hari**
+
+{% include video.html url="https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/%E8%A7%86%E9%A2%91/Everything_you_think_you_know_about_addiction_is_wrong-Johann_Hari.mp4" %}
+
+原始视频：[https://www.youtube.com/watch?v=PY9DcIMGxMs](https://www.youtube.com/watch?v=PY9DcIMGxMs){: target="_blank" rel="noopener"}
+
+---
 
 ### 目录
 
