@@ -1,13 +1,14 @@
 ---
 title: 深度工作：浅薄时代个人成功的关键能力
-date: 2025-08-16T21:13:00+08:00
+date: 2025-08-16 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 excerpt: 在这个日益浮躁的世界里，深度工作的能力是你脱颖而出的超级力量。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Deep Work: Rules for Focused Success in a Distracted World - Cal Newport
 >
 > ##### 深度工作：浅薄时代个人成功的关键能力 - 卡尔·纽波特 - 摘要
