@@ -1,15 +1,16 @@
 ---
 title: 如何与你的手机分手
-date: 2025-08-16T21:13:00+07:00
+date: 2025-08-16 22:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 你的生活，取决于你关注什么。一份为期30天的实用指南，帮助你摆脱手机成瘾，重新掌控自己的注意力和生活。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### How to Break Up with Your Phone - Catherine Price
 >
 > ##### 如何与你的手机分手 - 凯瑟琳·普莱斯 - 摘要
