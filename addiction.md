@@ -62,7 +62,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E6%88%92%E9%99%A4%E8%89%B2%E6%83%85%E6%88%90%E7%98%BE%E4%B9%8B%E4%B9%A6-easypeasy-way%E4%BC%98%E5%8C%96%E7%89%88/" style="text-decoration: none; font-size: 0.85em;">戒除色情成瘾之书</a><br />
-           <a href="/心理学/精选/2025/08/15/轻松戒断色情成瘾-easypeasy" style="text-decoration: none; font-size: 0.85em;">轻松戒断色情成瘾(EasyPeasy)</a>
+           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/15/%E8%BD%BB%E6%9D%BE%E6%88%92%E6%96%AD%E8%89%B2%E6%83%85%E6%88%90%E7%98%BE-easypeasy/" style="text-decoration: none; font-size: 0.85em;">轻松戒断色情成瘾(EasyPeasy)</a>
         </p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
@@ -84,16 +84,18 @@ feature_image: "/uploads/top_banner_addiction.jpg"
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/16/%E5%A6%82%E4%BD%95%E4%B8%8E%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%88%86%E6%89%8B/" style="text-decoration: none; font-size: 0.85em;">如何与你的手机分手</a><br />
           <a href="/心理学/精选/2025/08/16/被偷走的注意力/" style="text-decoration: none; font-size: 0.85em;">被偷走的注意力</a><br />
+          <a href="/心理学/2025/08/16/数字极简主义/" style="text-decoration: none; font-size: 0.85em;">数字极简主义</a><br />
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E4%BB%8E%E6%89%8B%E6%9C%BA%E6%88%90%E7%98%BE%E4%B8%AD%E8%A7%A3%E6%94%BE%E5%87%BA%E6%9D%A5/" style="text-decoration: none; font-size: 0.85em;">EasyWay从手机成瘾中解放出来</a>
         </p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
         <div style="background-color: #f8f8f8; border: 1px solid #e0e0e0; padding: 5px; margin-bottom: 0;">
-          <strong>债务</strong>
-          <img src="/uploads/addiction_debt.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
+          <strong>饮食过量</strong>
+          <img src="/uploads/addiction_weight.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%80%BA%E5%8A%A1/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒掉债务</a>
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%87%8D%E6%B3%95/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒重法</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%8F%E8%82%A5/" style="text-decoration: none; font-size: 0.85em;">EasyWay现在就减肥</a>
         </p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
@@ -119,12 +121,11 @@ feature_image: "/uploads/top_banner_addiction.jpg"
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
         <div style="background-color: #f8f8f8; border: 1px solid #e0e0e0; padding: 5px; margin-bottom: 0;">
-          <strong>饮食过量</strong>
-          <img src="/uploads/addiction_weight.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
+          <strong>债务</strong>
+          <img src="/uploads/addiction_debt.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%87%8D%E6%B3%95/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒重法</a><br />
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%8F%E8%82%A5/" style="text-decoration: none; font-size: 0.85em;">EasyWay现在就减肥</a>
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%80%BA%E5%8A%A1/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒掉债务</a>
         </p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
