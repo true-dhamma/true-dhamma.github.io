@@ -10,6 +10,7 @@ feature_text:
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Digital Minimalism - Cal Newport
 >
 > ##### 数字极简主义 - 卡尔·纽波特 - 摘要
