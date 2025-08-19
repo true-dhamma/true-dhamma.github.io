@@ -94,8 +94,9 @@ feature_image: "/uploads/top_banner_addiction.jpg"
           <img src="/uploads/addiction_weight.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%87%8D%E6%B3%95/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒重法</a><br />
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%8F%E8%82%A5/" style="text-decoration: none; font-size: 0.85em;">EasyWay现在就减肥</a>
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/15/%E9%A5%A5%E9%A5%BF%E7%9A%84%E4%B9%A0%E6%83%AF-%E6%89%93%E7%A0%B4%E5%81%87%E6%80%A7%E9%A5%A5%E9%A5%BF%E4%B8%8E%E8%87%AA%E8%B4%A3%E6%84%A7%E7%96%9A%E7%9A%84%E6%80%AA%E5%9C%88/" style="text-decoration: none; font-size: 0.85em;">饥饿的习惯</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%8F%E8%82%A5/" style="text-decoration: none; font-size: 0.85em;">EasyWay现在就减肥</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%87%8D%E6%B3%95/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒重法</a>
         </p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
