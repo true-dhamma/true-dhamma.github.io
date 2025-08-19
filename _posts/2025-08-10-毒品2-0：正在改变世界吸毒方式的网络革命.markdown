@@ -1,15 +1,16 @@
 ---
 title: 毒品2.0：正在改变世界吸毒方式的网络革命
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 网络将审查行为视为系统损坏，并自动绕开它。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Drugs 2.0: The Web Revolution That’s Changing How the World Gets High - Mike Power
 >
 > ##### 毒品2.0：正在改变世界吸毒方式的网络革命 - 迈克·鲍尔 - 摘要
