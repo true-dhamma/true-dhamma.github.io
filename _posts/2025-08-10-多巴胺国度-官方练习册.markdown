@@ -1,17 +1,15 @@
 ---
 title: 多巴胺国度-官方练习册：在放纵时代找到平衡
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
-- 新
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 对快乐的不懈追求会导致无法体验任何快乐。相反，通过戒除，甚至有意拥抱痛苦，我们才能重置奖励回路，重新获得感受快乐的能力。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### The Official Dopamine Nation Workbook: Your Companion to Finding Balance in the Age of Indulgence - Dr. Anna Lembke
 >
 > ##### 多巴胺国度-官方练习册：在放纵时代找到平衡 - 安娜·莱姆克 - 摘要
@@ -91,8 +89,8 @@ aside: true
 
 请花时间审视你的行为。注意力的集中能增强意识，而意识是改变的第一步。以下是一些常见的成瘾类别和具体行为，你可以思考哪些与你相关：
 
-* **药物类：** 酒精、尼古丁、大麻、可卡因、兴奋剂、阿片类药物等。
-* \*\* медикамент类：\*\* 镇静剂、止痛药、安眠药、兴奋剂等。
+* **物质类：** 酒精、尼古丁、大麻、可卡因、兴奋剂、阿片类药物等。
+* **药物类：**镇静剂、止痛药、安眠药、兴奋剂等。
 * **媒体、网络和技术类：** 观看视频、社交媒体、无休止地刷手机、网络新闻、网络购物等。
 * **人际关系和身体类：** 爱情、性、色情、自残、拔头发、撒谎、担忧等。
 * **运动、游戏和刺激类：** 电子游戏、过度训练、体育博彩、偷窃、飙车等。
@@ -470,4 +468,8 @@ A也代表苦行。我用这个词指一种**有意寻求困难甚至痛苦的�
 
 ---
 
-<table><tbody><tr><td><img alt="The Official Dopamine Nation Workbook" width="120" src="/uploads/cover-dopamine-nation-workbook.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=The%20Official%20Dopamine%20Nation%20Workbook" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=The%20Official%20Dopamine%20Nation%20Workbook" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=The%20Official%20Dopamine%20Nation%20Workbook" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=The%20Official%20Dopamine%20Nation%20Workbook" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=The+Official+Dopamine+Nation+Workbook" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=The+Official+Dopamine+Nation+Workbook" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=The%20Official%20Dopamine%20Nation%20Workbook" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>
+<table><tbody><tr><td><img alt="The Official Dopamine Nation Workbook" width="120" src="/uploads/cover-dopamine-nation-workbook.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=The%20Official%20Dopamine%20Nation%20Workbook" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=The%20Official%20Dopamine%20Nation%20Workbook" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=The%20Official%20Dopamine%20Nation%20Workbook" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=The%20Official%20Dopamine%20Nation%20Workbook" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=The+Official+Dopamine+Nation+Workbook" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=The+Official+Dopamine+Nation+Workbook" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=The%20Official%20Dopamine%20Nation%20Workbook" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+
+&nbsp;
+
+&nbsp;
