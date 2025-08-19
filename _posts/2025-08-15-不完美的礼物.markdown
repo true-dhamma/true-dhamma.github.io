@@ -10,6 +10,7 @@ feature_text:
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### The Gifts of Imperfection - Brené Brown, Ph.D., L.M.S.W.
 > 
 > ##### 不完美的礼物 - 布琳·布朗 - 摘要
