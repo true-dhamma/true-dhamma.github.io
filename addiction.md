@@ -71,6 +71,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
           <img src="/uploads/addiction_gambling.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
+          <a href="/心理学/2025/08/15/赌博成瘾康复手册/" style="text-decoration: none; font-size: 0.85em;">赌博成瘾康复手册</a><br />
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E8%B5%8C/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒赌</a>
         </p>
       </td>
@@ -120,8 +121,8 @@ feature_image: "/uploads/top_banner_addiction.jpg"
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
         <div style="background-color: #f8f8f8; border: 1px solid #e0e0e0; padding: 5px; margin-bottom: 0;">
-          <strong>债务</strong>
-          <img src="/uploads/addiction_debt.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
+          <strong>消费与债务</strong>
+          <img src="/uploads/addiction_consumption.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%80%BA%E5%8A%A1/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒掉债务</a>
@@ -134,6 +135,38 @@ feature_image: "/uploads/top_banner_addiction.jpg"
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%99%A4%E5%BF%A7%E8%99%91/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒除忧虑</a>
+        </p>
+      </td>
+    </tr>
+    <tr style="border: none;">
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
+        <div style="background-color: #f8f8f8; border: 1px solid #e0e0e0; padding: 5px; margin-bottom: 0;">
+          <strong>自尊与自我证明</strong>
+          <img src="/uploads/addiction_approval.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
+        </div>
+        <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
+          <a href="/心理学/精选/2025/08/10/多巴胺国度-在纵欲时代找到平衡/" style="text-decoration: none; font-size: 0.85em;">多巴胺国度</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%92%96%E5%95%A1%E5%9B%A0/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒掉咖啡因</a>
+        </p>
+      </td>
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
+        <div style="background-color: #f8f8f8; border: 1px solid #e0e0e0; padding: 5px; margin-bottom: 0;">
+          <strong>能力与完美主义</strong>
+          <img src="/uploads/addiction_workaholism.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
+        </div>
+        <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
+          <a href="/心理学/精选/2025/08/10/多巴胺国度-在纵欲时代找到平衡/" style="text-decoration: none; font-size: 0.85em;">多巴胺国度</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%80%BA%E5%8A%A1/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒掉债务</a>
+        </p>
+      </td>
+      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
+        <div style="background-color: #f8f8f8; border: 1px solid #e0e0e0; padding: 5px; margin-bottom: 0;">
+          <strong>感受</strong>
+          <img src="/uploads/addiction_feeling.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
+        </div>
+        <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
+          <a href="/心理学/精选/2025/08/10/多巴胺国度-在纵欲时代找到平衡/" style="text-decoration: none; font-size: 0.85em;">多巴胺国度</a>
+          <a href="/心理学/精选/2025/08/10/多巴胺国度-在纵欲时代找到平衡/" style="text-decoration: none; font-size: 0.85em;">空洞的心</a>
         </p>
       </td>
     </tr>
