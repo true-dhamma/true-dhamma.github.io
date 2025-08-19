@@ -1,15 +1,16 @@
 ---
 title: 多巴胺国度-官方练习册：在放纵时代找到平衡
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 对快乐的不懈追求会导致无法体验任何快乐。相反，通过戒除，甚至有意拥抱痛苦，我们才能重置奖励回路，重新获得感受快乐的能力。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### The Official Dopamine Nation Workbook: Your Companion to Finding Balance in the Age of Indulgence - Dr. Anna Lembke
 >
 > ##### 多巴胺国度-官方练习册：在放纵时代找到平衡 - 安娜·莱姆克 - 摘要
