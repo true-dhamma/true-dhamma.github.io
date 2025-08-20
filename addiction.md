@@ -149,9 +149,9 @@ feature_image: "/uploads/top_banner_addiction.jpg"
           <img src="/uploads/addiction_approval.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
-          <a href="/心理学/2025/08/15/不完美的礼物/" style="text-decoration: none; font-size: 0.85em;">不完美的礼物</a><br />
-          <a href="/心理学/2025/08/15/自尊的六大支柱/" style="text-decoration: none; font-size: 0.85em;">自尊的六大支柱</a><br />
-          <a href="/心理学/2025/08/15/你是无畏的/" style="text-decoration: none; font-size: 0.85em;">你是无畏的</a>
+          <a href="/心理学/慈悲喜舍/2025/08/15/不完美的礼物/" style="text-decoration: none; font-size: 0.85em;">不完美的礼物</a><br />
+          <a href="/心理学/慈悲喜舍/2025/08/15/自尊的六大支柱/" style="text-decoration: none; font-size: 0.85em;">自尊的六大支柱</a><br />
+          <a href="/心理学/慈悲喜舍/2025/08/15/你是无畏的/" style="text-decoration: none; font-size: 0.85em;">你是无畏的</a>
         </p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
