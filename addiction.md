@@ -73,7 +73,8 @@ feature_image: "/uploads/top_banner_addiction.jpg"
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
           <a href="/心理学/2025/08/15/赌博成瘾康复手册/" style="text-decoration: none; font-size: 0.85em;">赌博成瘾康复手册</a><br />
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E8%B5%8C/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒赌</a>
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E8%B5%8C/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒赌</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E7%90%86%E6%80%A7%E5%BA%B7%E5%A4%8D-rational-recovery/" style="text-decoration: none; font-size: 0.85em;">理性康复(Rational Recovery)</a>
         </p>
       </td>
     </tr>

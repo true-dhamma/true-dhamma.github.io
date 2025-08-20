@@ -1,24 +1,22 @@
 ---
 title: 觉者的心：佛教心理学的普世智慧指南
-date: 2025-08-12 10:10:00 +08:00
+date: 2025-08-12T10:10:00+08:00
 categories:
-- 西方世界的佛法
-- 心理学
-tags:
-- 成瘾
+  - 正念
+  - 慈悲喜舍
+  - 心理学
+  - 西方世界的佛法
+tags: []
 excerpt: 真正的自由在于放下对“自我”的执着，以一颗慈悲、开放、明智的心，安住于生命的每一个当下，无论苦乐，皆得安宁。
-feature_text: 
-feature_image: "/uploads/top_banner_mindfulness.jpg"
+feature_text:
+feature_image: /uploads/top_banner_mindfulness.jpg
 aside: true
 ---
-
-> 西方世界的佛法
->
 > ##### The Wise Heart: A Guide to the Universal Teachings of Buddhist Psychology - Jack Kornfield
 >
 > ##### 觉者的心：佛教心理学的普世智慧指南 - 杰克·康菲尔德 - 摘要
 >
-> 这是一本融合东西方心理精髓的指南，带你深入佛教智慧，探寻内心真正的平静与自由，即使身处喧嚣与苦难，也能活出充满慈悲与觉醒的生命。
+> 西方世界的佛法：这是一本融合东西方心理精髓的指南，带你深入佛教智慧，探寻内心真正的平静与自由，即使身处喧嚣与苦难，也能活出充满慈悲与觉醒的生命。
 
 ### 目录
 
