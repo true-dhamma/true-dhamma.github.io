@@ -7,17 +7,28 @@
       {% assign url = site.url | append: site.baseurl | append: page.url %}
       {% assign color = network[1] %}
 
-      {% capture share_link %}
-        {%- if id contains "twitter" %}https://twitter.com/intent/tweet/?url={{ url }}&text={{ page.title | uri_escape }}{% if site.twitter.username %}&via={{ site.twitter.username }}{% endif %}{% endif -%}
-        {%- if id contains "facebook" %}https://facebook.com/sharer/sharer.php?u={{ url }}{% endif -%}
-        {%- if id contains "pinterest" %}https://pinterest.com/pin/create/button/?url={{ url }}&description={{ page.title }}&media={{ page.image }}{% endif -%}
-        {%- if id contains "linkedin" %}https://www.linkedin.com/shareArticle?url={{ url }}&title={{ page.title }}&source={{ site.title }}&mini=true{% endif -%}
-        {%- if id contains "tumblr" %}https://tumblr.com/widgets/share/tool?canonicalUrl={{ url }}&tags={{ page.category }}&caption={{ page.title }}{% endif -%}
-        {%- if id contains "reddit" %}https://reddit.com/submit?url={{ url }}&title={{ page.title }}&resubmit=true{% endif -%}
-        {%- if id contains "hackernews" %}https://news.ycombinator.com/submitlink?u={{ url }}&t={{ page.title }}{% endif --}
-        {%- if id contains "designernews" %}https://www.designernews.co/submit?url={{ url }}&title={{ page.title }}{% endif -%}
-        {%- if id contains "email" %}mailto:?subject={{ page.title }}&body={{ url | prepend: "Hey, check out this: "}}{% endif -%}
-      {% endcapture %}
+      {% assign share_link = "" %} {# 初始化 share_link 变量 #}
+
+      {% if id contains "twitter" %}
+        {% assign share_link = "https://twitter.com/intent/tweet/?url=" | append: url | append: "&text=" | append: page.title | uri_escape %}
+        {% if site.twitter.username %}{% assign share_link = share_link | append: "&via=" | append: site.twitter.username %}{% endif %}
+      {% elsif id contains "facebook" %}
+        {% assign share_link = "https://facebook.com/sharer/sharer.php?u=" | append: url %}
+      {% elsif id contains "pinterest" %}
+        {% assign share_link = "https://pinterest.com/pin/create/button/?url=" | append: url | append: "&description=" | append: page.title | append: "&media=" | append: page.image %}
+      {% elsif id contains "linkedin" %}
+        {% assign share_link = "https://www.linkedin.com/shareArticle?url=" | append: url | append: "&title=" | append: page.title | append: "&source=" | append: site.title | append: "&mini=true" %}
+      {% elsif id contains "tumblr" %}
+        {% assign share_link = "https://tumblr.com/widgets/share/tool?canonicalUrl=" | append: url | append: "&tags=" | append: page.category | append: "&caption=" | append: page.title %}
+      {% elsif id contains "reddit" %}
+        {% assign share_link = "https://reddit.com/submit?url=" | append: url | append: "&title=" | append: page.title | append: "&resubmit=true" %}
+      {% elsif id contains "hackernews" %}
+        {% assign share_link = "https://news.ycombinator.com/submitlink?u=" | append: url | append: "&t=" | append: page.title %}
+      {% elsif id contains "designernews" %}
+        {% assign share_link = "https://www.designernews.co/submit?url=" | append: url | append: "&title=" | append: page.title %}
+      {% elsif id contains "email" %}
+        {% assign share_link = "mailto:?subject=" | append: page.title | append: "&body=" | append: url | prepend: "Hey, check out this: " %}
+      {% endif %}
 
       {% include button.html text=name icon=id link=share_link color=color %}
     {% endif %}
@@ -105,10 +116,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // 找到包含分享按钮的容器
     const shareButtonContainer = document.querySelector('.share-page-button-container');
-    // 找到 button.html 生成的实际 <a> 标签按钮。
-    // button.html 会给 <a> 标签添加一个基于 icon 参数的类，例如 icon="link" 会生成 class="button--link"。
     const shareButton = shareButtonContainer ? shareButtonContainer.querySelector('.button--link') : null;
     const qrcodeModal = document.getElementById('qrcode-modal');
     const qrcodeDiv = document.getElementById('qrcode');
@@ -136,8 +144,7 @@
             qrcodeModal.classList.remove('qrcode-modal-hidden'); // 显示模态框
 
             // 只有当二维码实例不存在或需要更新时才重新生成
-            // 对于静态 Jekyll 页面，URL 通常不会改变，但为了安全起见，每次显示时清空并重新生成确保最新。
-            if (qrcodeDiv) { // 确保二维码的 div 存在
+            if (qrcodeDiv) {
               qrcodeDiv.innerHTML = ''; // 清空之前的二维码内容
               qrCodeInstance = new QRCode(qrcodeDiv, {
                 text: pageUrl,
