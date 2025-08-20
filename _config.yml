@@ -105,9 +105,10 @@ social_links:
   link: https://true-dhamma.github.io
   RSS: "/feed.xml"
 sharing_links:
-  Twitter: "#0d94e7"
-  facebook: "#3B5998"
+  Twitter: ""
+  facebook: ""
   Email: true
+  GenericShare: true
 fonts:
   preconnect_urls:
   - https://fonts.gstatic.com
