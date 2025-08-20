@@ -16,15 +16,19 @@
         {%- if id contains "hackernews" %}https://news.ycombinator.com/submitlink?u={{ url }}&t={{ page.title }}{% endif -%}
         {%- if id contains "designernews" %}https://www.designernews.co/submit?url={{ url }}&title={{ page.title }}{% endif -%}
         {%- if id contains "email" %}mailto:?subject={{ page.title }}&body={{ url | prepend: "Hey, check out this: "}}{% endif -%}
+        {%- if id contains "universalshare" %}javascript:handlePageShare(){% endif -%}
       {% endcapture %}
 
-      {% include button.html text=name icon=id link=share_link color=color %}
+      {% assign button_text = name %}
+      {% assign button_icon = id %}
+      {% if id == "universalshare" %}
+        {% assign button_text = "Share" %}
+        {% assign button_icon = "link" %}
+      {% endif %}
+
+      {% include button.html text=button_text icon=button_icon link=share_link color=color %}
     {% endif %}
   {% endfor %}
-
-  {% if site.sharing_links.PageShare %}
-    {% include button.html text="分享" icon="link" link="javascript:handlePageShare()" %}
-  {% endif %}
 
   <script>
     function handlePageShare() {
@@ -65,6 +69,8 @@
       textArea.style.top = "0";
       textArea.style.left = "0";
       textArea.style.position = "fixed";
+      textArea.style.opacity = "0";
+      textArea.style.pointerEvents = "none";
 
       document.body.appendChild(textArea);
       textArea.focus();

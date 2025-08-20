@@ -108,7 +108,7 @@ sharing_links:
   Twitter: ''
   facebook: ''
   Email: true
-  PageShare: true
+  UniversalShare: '#4CAF50'
 fonts:
   preconnect_urls:
   - https://fonts.gstatic.com
