@@ -607,7 +607,3 @@ aside: true
 ---
 
 <table><tbody><tr><td><img alt="The Perfectionist's Guide to Losing Control" width="120" src="/uploads/cover-perfectionist.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E5%AE%8C%E7%BE%8E%E4%B8%BB%E4%B9%89%E8%80%85%E5%A4%B1%E6%8E%A7%E6%8C%87%E5%8D%97" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E5%AE%8C%E7%BE%8E%E4%B8%BB%E4%B9%89%E8%80%85%E5%A4%B1%E6%8E%A7%E6%8C%87%E5%8D%97" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=%E5%AE%8C%E7%BE%8E%E4%B8%BB%E4%B9%89%E8%80%85%E5%A4%B1%E6%8E%A7%E6%8C%87%E5%8D%97" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E5%AE%8C%E7%BE%8E%E4%B8%BB%E4%B9%89%E8%80%85%E5%A4%B1%E6%8E%A7%E6%8C%87%E5%8D%97" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=The+Perfectionist%27s+Guide+to+Losing+Control" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=The+Perfectionist%27s+Guide+to+Losing+Control" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=The%20Perfectionist%27s%20Guide%20to%20Losing%20Control" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>
-
-&nbsp;
-
-&nbsp;

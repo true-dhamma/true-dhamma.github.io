@@ -1201,7 +1201,3 @@ aside: true
 ---
 
 <table><tbody><tr><td><img alt="Stepping Out of Fear" width="120" src="/uploads/cover-stepping-out-fear.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Stepping+Out+of+Fear" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Stepping+Out+of+Fear" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Stepping%20Out%20of%20Fear" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table>
-
-&nbsp;
-
-&nbsp;
