@@ -1,3 +1,4 @@
+<!-- _includes/nav-share.html -->
 <div class="share">
   {% for network in site.sharing_links %}
     {% if network[1] != blank %}
@@ -6,72 +7,38 @@
 
       {% if id contains "genericshare" %}
         <!-- 自定义分享按钮及其逻辑：手机端调用浏览器分享API，PC端显示二维码 -->
-        <style>
-          /* 按钮样式 */
-          .share-button-custom {
-            display: inline-flex; /* 使图标和文字在一行并居中 */
-            align-items: center;
-            justify-content: center;
-            padding: 8px 12px;
-            background-color: #6c757d; /* 中性灰色，作为分享按钮的默认色 */
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            gap: 8px; /* 图标与文字之间的间距 */
-            margin: 5px; /* 增加一点外边距 */
-            text-decoration: none;
-            -webkit-appearance: none; /* 移除iOS上的默认按钮样式 */
-            appearance: none;
-            transition: background-color 0.3s ease;
-          }
-          .share-button-custom:hover {
-            background-color: #5a6268;
-          }
-          .share-button-custom svg {
-            width: 16px;
-            height: 16px;
-            fill: currentColor; /* 使SVG图标颜色继承按钮文字颜色 */
-          }
-          /* 二维码容器样式 */
-          #qrcodeContainer {
-            margin-top: 15px;
-            padding: 10px;
-            border: 1px solid #eee;
-            border-radius: 5px;
-            display: inline-block; /* 使其可以居中 */
-            text-align: center; /* 居中内容 */
-            max-width: 200px; /* 限制宽度，防止过大 */
-          }
-          #qrcodeContainer canvas {
-            display: block; /* 移除canvas元素下方的额外空白 */
-            margin: 0 auto; /* 将canvas自身居中 */
-          }
-        </style>
+        {% comment %}
+          我们通过 button.html 渲染按钮，其生成的 class 会是 "button--genericshare"，
+          JavaScript 将通过这个 class 来选中按钮。
+          link="#" 是一个占位符，JavaScript 会阻止其默认行为。
+          color 设置为中性灰色。
+        {% endcomment %}
+        {% include button.html text="分享" icon="link" link="#" color="#6c757d" %}
 
-        <button class="share-button-custom" id="sharePageButton">
-          <!-- 使用 site-icons.svg 中已有的 'link' 图标 -->
-          <svg width="16" height="16" class="icon icon--share" role="img" aria-label="分享图标"><title>分享</title><use xlink:href="#link" fill="currentColor"></use></svg>
-          分享
-        </button>
-        <div id="qrcodeContainer" style="display:none;"></div>
+        <div id="qrcodeContainer" style="display:none; text-align: center; margin-top: 15px; padding: 10px; border: 1px solid #eee; border-radius: 5px; display: inline-block; max-width: 200px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.9em; color: #666; margin-bottom: 5px;">（请用手机微信扫描二维码分享）</p>
+            <div id="qrcodeCanvas"></div> {# Inner div for QRCode.js to render into #}
+        </div>
 
         <!-- 引入二维码生成库 (这里使用简单CDN，生产环境可下载到本地assets) -->
         <script src="https://cdn.jsdelivr.net/npm/qrcode.js@1.0.0/qrcode.min.js"></script>
         <script>
           document.addEventListener('DOMContentLoaded', function() {
-            const shareButton = document.getElementById('sharePageButton');
+            // 通过 class 选择器获取按钮，因为我们不能修改 button.html 来添加 ID
+            const shareButton = document.querySelector('.button--genericshare');
             const qrcodeContainer = document.getElementById('qrcodeContainer');
+            const qrcodeCanvas = document.getElementById('qrcodeCanvas');
             let qrcodeInstance = null; // 存储二维码实例，避免重复创建
 
             if (shareButton) {
-              shareButton.addEventListener('click', async () => {
+              shareButton.addEventListener('click', async (event) => {
+                event.preventDefault(); // 阻止<a>标签的默认跳转行为 (link="#")
+
                 const currentUrl = window.location.href; // 获取当前页面的完整URL
                 const pageTitle = document.title;       // 获取当前页面的标题
                 const shareText = '我发现了一个很棒的页面，快来看看！'; // 分享时默认的文本
 
-                // 尝试调用 Web Share API (手机端)
+                // 尝试调用 Web Share API (手机端优先)
                 if (navigator.share) {
                   try {
                     await navigator.share({
@@ -89,12 +56,11 @@
                     if (error.name === 'AbortError') {
                       console.log('用户取消了分享。');
                     } else {
-                      // Web Share API 调用失败或被拒绝， fallback 到二维码 (通常是PC端或不支持API的手机端)
-                      // 这段逻辑会在 Web Share API 失败时执行，也会在 PC 端直接执行
-                      if (qrcodeContainer) {
+                      // Web Share API 调用失败或被拒绝， fallback 到二维码 (PC端或不支持API的手机端)
+                      if (qrcodeContainer && qrcodeCanvas) {
                         if (!qrcodeInstance) { // 第一次点击且不支持Web Share API，或用户取消
-                          qrcodeContainer.innerHTML = ''; // 清空内容
-                          qrcodeInstance = new QRCode(qrcodeContainer, {
+                          qrcodeCanvas.innerHTML = ''; // 清空内容
+                          qrcodeInstance = new QRCode(qrcodeCanvas, {
                             text: currentUrl,
                             width: 128,
                             height: 128
@@ -106,10 +72,10 @@
                   }
                 } else {
                   // 不支持 Web Share API (通常是PC端或旧版手机浏览器)
-                  if (qrcodeContainer) {
+                  if (qrcodeContainer && qrcodeCanvas) {
                     if (!qrcodeInstance) { // 第一次点击
-                      qrcodeContainer.innerHTML = ''; // 清空内容
-                      qrcodeInstance = new QRCode(qrcodeContainer, {
+                      qrcodeCanvas.innerHTML = ''; // 清空内容
+                      qrcodeInstance = new QRCode(qrcodeCanvas, {
                         text: currentUrl,
                         width: 128,
                         height: 128
@@ -129,10 +95,10 @@
         {% capture share_link %}
           {%- if id contains "twitter" %}https://twitter.com/intent/tweet/?url={{ url }}&text={{ page.title | uri_escape }}{% if site.twitter.username %}&via={{ site.twitter.username }}{% endif %}{% endif -%}
           {%- if id contains "facebook" %}https://facebook.com/sharer/sharer.php?u={{ url }}{% endif -%}
-          {%- if id contains "pinterest" %}https://pinterest.com/pin/create/button/?url={{ url }}&description={{ page.title }}&media={{ page.image }}{% endif -%}
+          {%- if id contains "pinterest" %}https://pinterest.com/pin/create/button/?url={{ url }}&description={{ page.title }}&media={{ page.image }}{% endif --}
           {%- if id contains "linkedin" %}https://www.linkedin.com/shareArticle?url={{ url }}&title={{ page.title }}&source={{ site.title }}&mini=true{% endif -%}
           {%- if id contains "tumblr" %}https://tumblr.com/widgets/share/tool?canonicalUrl={{ url }}&tags={{ page.category }}&caption={{ page.title }}{% endif -%}
-          {%- if id contains "reddit" %}https://reddit.com/submit?url={{ url }}&title={{ page.title }}&resubmit=true{% endif -%}
+          {%- if id contains "reddit" %}https://reddit.com/submit?url={{ url }}&title={{ page.title }}&resubmit=true{% endif --}
           {%- if id contains "hackernews" %}https://news.ycombinator.com/submitlink?u={{ url }}&t={{ page.title }}{% endif -%}
           {%- if id contains "designernews" %}https://www.designernews.co/submit?url={{ url }}&title={{ page.title }}{% endif -%}
           {%- if id contains "email" %}mailto:?subject={{ page.title }}&body={{ url | prepend: "Hey, check out this: "}}{% endif -%}
