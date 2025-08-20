@@ -12,9 +12,9 @@ layout: default
 
     {{ content }}
 
-  </article>
+    {% include nav-share.html %}
 
-  {% include nav-share.html %}
+  </article>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
 
