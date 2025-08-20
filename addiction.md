@@ -40,6 +40,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E7%90%86%E6%80%A7%E5%BA%B7%E5%A4%8D-rational-recovery/" style="text-decoration: none; font-size: 0.85em;">理性康复(Rational Recovery)</a><br />
+          <a href="/心理学/2025/08/10/赤裸裸的思想-控制酒精-找到自由-发现快乐并改变你的生活/" style="text-decoration: none; font-size: 0.85em;">赤裸裸的思想：控制酒精，找到自由</a><br />
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%85%92%E6%B3%95/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒酒法</a>
         </p>
       </td>
@@ -169,7 +170,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
           <a href="/心理学/精选/2025/08/10/多巴胺国度-在纵欲时代找到平衡/" style="text-decoration: none; font-size: 0.85em;">多巴胺国度</a><br />
-          <a href="/心理学/2025/08/10/多巴胺国度-官方练习册/" style="text-decoration: none; font-size: 0.85em;">多巴胺国度-官方练习册</a><br />
+          <a href="/心理学/正念/2025/08/10/多巴胺国度-官方练习册/" style="text-decoration: none; font-size: 0.85em;">多巴胺国度-官方练习册</a><br />
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/%E7%A9%BA%E6%B4%9E%E7%9A%84%E5%BF%83-%E6%88%90%E7%98%BE%E7%9A%84%E7%9C%9F%E7%9B%B8%E4%B8%8E%E7%96%97%E6%84%88/" style="text-decoration: none; font-size: 0.85em;">空洞的心</a>
         </p>
       </td>

@@ -1,14 +1,14 @@
 ---
 title: 舍利弗的一生
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 南传上座部佛法
+  - 南传上座部佛法
+  - 高僧大德
 excerpt: 佛陀说：“要以自己为岛屿，以自己为皈依处；以法为岛屿，以法为皈依处，不要寻求其他的皈依处。”
-feature_text: 
-feature_image: "/uploads/top_banner_tipitaka.jpg"
+feature_text:
+feature_image: /uploads/top_banner_tv_buddha.jpg
 aside: true
 ---
-
 > ##### The Life of Sāriputta - Nyanaponika Thera
 >
 > ##### 舍利弗的一生 - 向智尊者 - 摘要

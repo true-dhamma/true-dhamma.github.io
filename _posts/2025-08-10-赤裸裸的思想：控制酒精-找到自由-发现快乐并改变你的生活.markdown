@@ -1,17 +1,15 @@
 ---
 title: 赤裸裸的思想：控制酒精、找到自由、发现快乐并改变你的生活
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
-- 新
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 当你看清酒精的真相，曾经对“再也不能喝酒”的恐惧，会被“再也无需喝酒”的兴奋所取代。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### This Naked Mind: Control Alcohol, Find Freedom, Discover Happiness & Change Your Life - Annie Grace - 摘要
 >
 > ##### 赤裸裸的思想：控制酒精、找到自由、发现快乐并改变你的生活 - 安妮·格雷斯
@@ -793,4 +791,8 @@ moderate drinker（适度饮酒者）和alcoholic（酒鬼）之间的区别，�
 
 ---
 
-<table><tbody><tr><td><img alt="This Naked Mind" width="120" src="/uploads/cover-this-naked-mind.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=This%20Naked%20Mind" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=This%20Naked%20Mind" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=This%20Naked%20Mind" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=This%20Naked%20Mind" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=This+Naked+Mind" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=This+Naked+Mind" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=This%20Naked%20Mind" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>
+<table><tbody><tr><td><img alt="This Naked Mind" width="120" src="/uploads/cover-this-naked-mind.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=This%20Naked%20Mind" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=This%20Naked%20Mind" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=This%20Naked%20Mind" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=This%20Naked%20Mind" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=This+Naked+Mind" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=This+Naked+Mind" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=This%20Naked%20Mind" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+
+&nbsp;
+
+&nbsp;

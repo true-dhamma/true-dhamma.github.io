@@ -1,16 +1,17 @@
 ---
 title: 基于正念的成瘾行为复发预防(MBRP)
-date: 2025-08-09 21:13:00 +08:00
+date: 2025-08-09T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
+  - 正念
 tags:
-- 成瘾
-excerpt: 本书阐述了MBRP临床指南。该方法整合正念冥想与传统复发预防策略，旨在帮助成瘾者提升对内在体验的觉察力，学习与渴求和不适共处，从无意识的自动反应转向有意识的正念回应，从而实现持久康复。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+  - 成瘾
+excerpt: >-
+  本书阐述了MBRP临床指南。该方法整合正念冥想与传统复发预防策略，旨在帮助成瘾者提升对内在体验的觉察力，学习与渴求和不适共处，从无意识的自动反应转向有意识的正念回应，从而实现持久康复。
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### Mindfulness-Based Relapse Prevention for Addictive Behaviors: A Clinician’s Guide - Sarah Bowen, Neha Chawla, Joel Grow, G. Alan Marlatt
 >
 > ##### 基于正念的成瘾行为复发预防：临床医生指南（第二版）- 莎拉·博文, 内哈·肖拉, 乔尔·格罗, 及 G. 艾伦·马尔拉特 - 摘要

@@ -1,14 +1,14 @@
 ---
 title: 走出恐惧
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
+  - 慈悲喜舍
 excerpt: 我们痛苦的根源，是我们认同了内在那个充满恐惧与羞耻的“情绪小孩”。疗愈之路是去观察、理解、并与其脱离认同。它并非你的真实身份，只是你过往的痕迹。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### Uscire Dalla Paura (Stepping Out of Fear) - Krishnananda, Amana
 >
 > ##### 走出恐惧 - 克里希那南达，阿玛娜 - 摘要
@@ -1115,7 +1115,27 @@ aside: true
 
 **从孩子状态到成人状态的转变**
 
-<table><thead><tr><td><p><th style="text-align: left">孩子状态</th>       <th style="text-align: left">成人状态</th>     </p></td></tr></thead><tbody><tr><td><p><td style="text-align: left">防御性</td>       <td style="text-align: left">清晰地看待他人</td>     </p></td></tr><tr><td><p><td style="text-align: left">为自己的情绪状态指责他人</td>       <td style="text-align: left">为自己的情绪状态负责</td>     </p></td></tr><tr><td><p><td style="text-align: left">对他人不敏感</td>       <td style="text-align: left">尊重他人</td>     </p></td></tr><tr><td><p><td style="text-align: left">请求许可获得空间</td>       <td style="text-align: left">获取自己需要的空间</td>     </p></td></tr><tr><td><p><td style="text-align: left">界限不清或过度</td>       <td style="text-align: left">清晰地设定界限</td>     </p></td></tr><tr><td><p><td style="text-align: left">对爱的承诺不明确</td>       <td style="text-align: left">共享的理解</td>     </p></td></tr><tr><td><p><td style="text-align: left">对方是拯救者</td>       <td style="text-align: left">接受并享受独处</td>     </p></td></tr><tr><td><p><td style="text-align: left">不想感受恐惧和痛苦</td>       <td style="text-align: left">接受并感受恐惧和痛苦</td>     </p></td></tr><tr><td><p><td style="text-align: left">期待一致性</td>       <td style="text-align: left">欣赏差异</td>     </p></td></tr></tbody></table>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<table><thead><tr><td><p></p></td><th style="text-align: left">孩子状态</th>       <th style="text-align: left">成人状态</th>     </tr></thead><tbody><tr><td><p></p></td><td style="text-align: left">防御性</td>       <td style="text-align: left">清晰地看待他人</td>     </tr><tr><td><p></p></td><td style="text-align: left">为自己的情绪状态指责他人</td>       <td style="text-align: left">为自己的情绪状态负责</td>     </tr><tr><td><p></p></td><td style="text-align: left">对他人不敏感</td>       <td style="text-align: left">尊重他人</td>     </tr><tr><td><p></p></td><td style="text-align: left">请求许可获得空间</td>       <td style="text-align: left">获取自己需要的空间</td>     </tr><tr><td><p></p></td><td style="text-align: left">界限不清或过度</td>       <td style="text-align: left">清晰地设定界限</td>     </tr><tr><td><p></p></td><td style="text-align: left">对爱的承诺不明确</td>       <td style="text-align: left">共享的理解</td>     </tr><tr><td><p></p></td><td style="text-align: left">对方是拯救者</td>       <td style="text-align: left">接受并享受独处</td>     </tr><tr><td><p></p></td><td style="text-align: left">不想感受恐惧和痛苦</td>       <td style="text-align: left">接受并感受恐惧和痛苦</td>     </tr><tr><td><p></p></td><td style="text-align: left">期待一致性</td>       <td style="text-align: left">欣赏差异</td>     </tr></tbody></table>
 
 **从孩子到成人的八个步骤：** 1.  **愿意真诚**：不真诚会阻碍亲密。 2.  **愿意放弃权力游戏**：控制、操纵或报复会破坏爱。 3.  **愿意揭示我们的恐惧和不安全感**：分享会减轻它们的负荷并拉近距离。 4.  **愿意停止试图改变对方**：这迫使我们面对自己的被抛弃感，并学会接纳对方。 5.  **愿意坚持自我**：在感到不被尊重时，为自己挺身而出。 6.  **愿意接受反馈**：关系是一面镜子，能帮助我们更深地了解自己。 7.  **愿意在挫折中坚持**：爱需要工作、承诺和毅力。 8.  **培养内在空间**：爱建立在静心之上，即内在的空间感。
 
@@ -1179,4 +1199,8 @@ aside: true
 
 ---
 
-<table><tbody><tr><td><img alt="Stepping Out of Fear" width="120" src="/uploads/cover-stepping-out-fear.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Stepping+Out+of+Fear" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Stepping+Out+of+Fear" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Stepping%20Out%20of%20Fear" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table><p></p><p></p>
+<table><tbody><tr><td><img alt="Stepping Out of Fear" width="120" src="/uploads/cover-stepping-out-fear.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Stepping+Out+of+Fear" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Stepping+Out+of+Fear" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Stepping%20Out%20of%20Fear" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+
+&nbsp;
+
+&nbsp;
