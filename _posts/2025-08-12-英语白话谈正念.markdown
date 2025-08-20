@@ -1,14 +1,15 @@
 ---
 title: 英语白话谈正念
-date: 2025-08-12T10:10:00+08:00
+date: 2025-08-12 10:10:00 +08:00
 categories:
-  - 正念
-  - 西方世界的佛法
+- 正念
+- 西方世界的佛法
 excerpt: 痛苦是不可避免的，但受苦是可以选择的。禅修不是为了逃避现实，而是直面现实，深入地体验生活本来的样子，从而超越痛苦。
-feature_text:
-feature_image: /uploads/top_banner_mindfulness.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_mindfulness.jpg"
 aside: true
 ---
+
 > ##### Mindfulness in Plain English - Bhante Henepola Gunaratana
 >
 > ##### 英语白话谈正念 - 德宝·古纳拉特纳法师 - 摘要
