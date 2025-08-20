@@ -48,7 +48,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
     <tr style="border: none;">
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
         <div style="background-color: #f8f8f8; border: 1px solid #e0e0e0; padding: 5px; margin-bottom: 0;">
-          <strong>药物与毒品成瘾</strong>
+          <strong>毒品成瘾</strong>
           <img src="/uploads/addiction_drugs.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
@@ -124,7 +124,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
         <div style="background-color: #f8f8f8; border: 1px solid #e0e0e0; padding: 5px; margin-bottom: 0;">
-          <strong>消费与债务成瘾</strong>
+          <strong>消费成瘾</strong>
           <img src="/uploads/addiction_consumption.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
@@ -166,7 +166,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
         <div style="background-color: #f8f8f8; border: 1px solid #e0e0e0; padding: 5px; margin-bottom: 0;">
-          <strong>感受成瘾</strong>
+          <strong>享乐与感受成瘾</strong>
           <img src="/uploads/addiction_feeling.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
