@@ -1,14 +1,15 @@
 ---
 title: 走出恐惧
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 心理学
-  - 慈悲喜舍
+- 心理学
+- 慈悲喜舍
 excerpt: 我们痛苦的根源，是我们认同了内在那个充满恐惧与羞耻的“情绪小孩”。疗愈之路是去观察、理解、并与其脱离认同。它并非你的真实身份，只是你过往的痕迹。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Uscire Dalla Paura (Stepping Out of Fear) - Krishnananda, Amana
 >
 > ##### 走出恐惧 - 克里希那南达，阿玛娜 - 摘要

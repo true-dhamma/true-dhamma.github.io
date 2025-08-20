@@ -1,15 +1,15 @@
 ---
 title: 觉醒之翼：来自巴利经典的选集
-date: 2025-08-12T10:10:00+08:00
+date: 2025-08-12 10:10:00 +08:00
 categories:
-  - 西方世界的佛法
-  - 巴利圣典
-tags: []
+- 西方世界的佛法
+- 巴利圣典
 excerpt: 佛陀亲自阐述的觉醒之道，深入解析了通往彻底解脱的三十七项核心修行要素。
-feature_text:
-feature_image: /uploads/top_banner_tipitaka.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_tipitaka.jpg"
 aside: true
 ---
+
 > ##### The Wings to Awakening: An Anthology from the Pali Canon - Thanissaro Bhikkhu
 >
 > ##### 觉醒之翼：来自巴利经典的选集 - 坦尼沙罗·比丘 - 摘要

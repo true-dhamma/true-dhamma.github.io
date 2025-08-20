@@ -1,16 +1,17 @@
 ---
 title: 全然接纳：以佛陀的心拥抱生活
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 心理学
-  - 英语世界的佛法
+- 心理学
+- 英语世界的佛法
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 痛苦是不可避免的，但苦难却是可以选择的。全然接纳的瞬间，就是真正自由的瞬间。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Radical Acceptance: Embracing Your Life With the Heart of a Buddha - Tara Brach
 >
 > ##### 全然接纳：以佛陀的心拥抱生活 - 塔拉·布莱克

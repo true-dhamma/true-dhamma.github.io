@@ -1,15 +1,16 @@
 ---
 title: 完整的大脑：一种理解成瘾的全新革命性方式
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 心理学
-  - 慈悲喜舍
+- 心理学
+- 慈悲喜舍
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 成瘾者的大脑并未“损坏”，它只是经历了一条不同的发育路径。就像多动症或自闭症一样，这是一种“布线差异”，而不一定是组织的破坏。
-feature_image: /uploads/top_banner_addiction.jpg
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Unbroken Brain: A Revolutionary New Way of Understanding Addiction - Maia Szalavitz
 >
 > ##### 完整的大脑：一种理解成瘾的全新革命性方式 - 玛雅·萨拉维茨 - 摘要

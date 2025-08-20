@@ -1,15 +1,15 @@
 ---
 title: 你是无畏的
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 心理学
-  - 慈悲喜舍
-tags: []
+- 心理学
+- 慈悲喜舍
 excerpt: 你的人生取决于你的决定。如果你想过一种你从未有过的生活，就必须去做一些你从未做过的事。
-feature_text:
-feature_image: /uploads/top_banner_metta.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_metta.jpg"
 aside: true
 ---
+
 > ##### You Are a Badass - Jen Sincero
 >
 > ##### 你是无畏的 - 珍·新赛罗 - 摘要

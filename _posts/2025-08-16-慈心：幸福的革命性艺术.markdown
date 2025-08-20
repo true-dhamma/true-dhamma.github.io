@@ -1,15 +1,15 @@
 ---
 title: 慈心：幸福的革命性艺术
-date: 2025-08-16T10:10:00+08:00
+date: 2025-08-16 10:10:00 +08:00
 categories:
-  - 心理学
-  - 慈悲喜舍
-tags: []
+- 心理学
+- 慈悲喜舍
 excerpt: 仇恨永远无法通过仇恨来平息，唯有爱才能平息仇恨。这是一条永恒的法则。
-feature_text:
-feature_image: /uploads/top_banner_metta.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_metta.jpg"
 aside: true
 ---
+
 > ##### Lovingkindness: The Revolutionary Art of Happiness - Sharon Salzberg
 >
 > ##### 慈心：幸福的革命性艺术 - 莎伦·萨尔兹堡 - 摘要
