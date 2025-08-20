@@ -160,8 +160,8 @@ feature_image: "/uploads/top_banner_addiction.jpg"
           <img src="/uploads/addiction_workaholism.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/15/%E5%9B%B0%E5%9C%A8%E5%8A%9E%E5%85%AC%E6%A1%8C%E5%89%8D-%E4%B8%BA%E5%B7%A5%E4%BD%9C%E7%8B%82-%E4%BB%96%E4%BB%AC%E7%9A%84%E4%BC%B4%E4%BE%A3%E5%92%8C%E5%AD%A9%E5%AD%90%E4%BB%A5%E5%8F%8A%E4%B8%B4%E5%BA%8A%E5%8C%BB%E7%94%9F%E6%8F%90%E4%BE%9B%E7%9A%84%E6%8C%87%E5%8D%97/" style="text-decoration: none; font-size: 0.85em;">困在办公桌前</a><br />
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/15/%E5%AE%8C%E7%BE%8E%E4%B8%BB%E4%B9%89%E8%80%85%E5%A4%B1%E6%8E%A7%E6%8C%87%E5%8D%97/" style="text-decoration: none; font-size: 0.85em;">完美主义者失控指南</a>
+          <a href="/心理学/正念/2025/08/15/困在办公桌前-为工作狂-他们的伴侣和孩子以及临床医生提供的指南/" style="text-decoration: none; font-size: 0.85em;">困在办公桌前</a><br />
+          <a href="/心理学/慈悲喜舍/2025/08/15/完美主义者失控指南/" style="text-decoration: none; font-size: 0.85em;">完美主义者失控指南</a>
         </p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
