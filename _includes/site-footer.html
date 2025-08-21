@@ -5,57 +5,66 @@
     </div>
 
     <!-- G-Translate 翻译浮动条控制逻辑 -->
-    <div id="gtranslate-block-wrapper">
+    <div id="gtranslate-block-container">
+      <div class="gtranslate_wrapper"></div>
       <script>
-        // 获取浏览器首选语言
-        const browserLang = navigator.language || navigator.userLanguage;
+        // G-Translate 设置 - 确保它们在脚本加载前定义
+        window.gtranslateSettings = {
+          "default_language": "zh-CN",
+          "detect_browser_language": true, // 保持为 true，以便 G-Translate 首次加载时检测
+          "languages": ["zh-CN", "zh-TW", "th", "en"],
+          "wrapper_selector": ".gtranslate_wrapper"
+        };
 
-        /**
-         * 初始化并显示 G-Translate 插件。
-         * 如果插件的 HTML 元素和 JS 脚本尚未加载，此函数将负责加载它们。
-         */
-        function initGTranslate() {
-          let gTranslateDiv = document.querySelector('.gtranslate_wrapper');
-          if (!gTranslateDiv) { // 如果 .gtranslate_wrapper 元素不存在，则创建它
-            gTranslateDiv = document.createElement('div');
-            gTranslateDiv.className = 'gtranslate_wrapper';
-            // 将其添加到 id 为 gtranslate-block-wrapper 的父元素中
-            document.getElementById('gtranslate-block-wrapper').appendChild(gTranslateDiv);
-          }
-          // 确保其显示
-          gTranslateDiv.style.display = 'block';
+        // 动态创建并加载 G-Translate 脚本。
+        // 由于我们将始终控制其可见性，所以脚本本身需要加载。
+        const gTranslateScript = document.createElement('script');
+        gTranslateScript.src = "https://cdn.gtranslate.net/widgets/latest/float.js";
+        gTranslateScript.defer = true; // 延迟加载，不阻塞页面渲染
+        document.getElementById('gtranslate-block-container').appendChild(gTranslateScript);
 
-          // 如果 G-Translate 脚本尚未加载，则加载它
-          if (!window.gtranslateSettings) { // 检查全局设置是否已定义，作为脚本是否加载的简单判断
-            window.gtranslateSettings = {"default_language":"zh-CN","detect_browser_language":true,"languages":["zh-CN","zh-TW","th","en"],"wrapper_selector":".gtranslate_wrapper"};
-            const script = document.createElement('script');
-            script.src = "https://cdn.gtranslate.net/widgets/latest/float.js";
-            script.defer = true; // 延迟加载脚本
-            document.getElementById('gtranslate-block-wrapper').appendChild(script);
-          }
-        }
+        // 获取 G-Translate 包装器元素
+        const gTranslateWrapper = document.querySelector('.gtranslate_wrapper');
 
-        // 页面加载时，检查浏览器语言。如果不是简体中文，则初始化并显示浮动条。
-        if (!browserLang.startsWith('zh-CN')) {
-          initGTranslate();
-        }
+        // 在脚本加载后立即运行的函数，因为 gTranslateWrapper 可能还没有完全初始化
+        gTranslateScript.onload = () => {
+            // 获取浏览器首选语言
+            const browserLangIsZhCn = navigator.language.startsWith('zh-CN');
+            // 从 localStorage 读取用户是否手动设置了浮动条的可见性
+            // 'visible' 表示用户希望它显示，'hidden' 表示用户希望它隐藏
+            const userOverride = localStorage.getItem('gTranslateOverrideVisibility');
+
+            let initialDisplay = 'none'; // 默认情况下，先隐藏浮动条
+
+            if (userOverride === 'visible') {
+                initialDisplay = 'block'; // 用户明确设置为显示
+            } else if (userOverride === 'hidden') {
+                initialDisplay = 'none'; // 用户明确设置为隐藏
+            } else if (!browserLangIsZhCn) {
+                // 如果没有用户偏好，且浏览器语言不是简体中文，则默认显示
+                initialDisplay = 'block';
+            }
+            // 否则（浏览器语言是简体中文且无用户偏好），保持为 'none'
+
+            gTranslateWrapper.style.display = initialDisplay;
+        };
+
 
         /**
          * 全局函数：用于切换 G-Translate 浮动条的可见性。
-         * 如果浮动条未初始化，它会先初始化。
+         * 每次切换时，都会将用户的选择存储到 localStorage。
          */
         window.toggleGTranslateVisibility = function() {
-          const gTranslateWrapper = document.querySelector('.gtranslate_wrapper');
-          if (gTranslateWrapper) {
-            // 如果已经存在，则切换显示状态
-            if (gTranslateWrapper.style.display === 'none') {
-              gTranslateWrapper.style.display = 'block';
-            } else {
-              gTranslateWrapper.style.display = 'none';
-            }
+          const currentDisplay = gTranslateWrapper.style.display;
+
+          if (currentDisplay === 'none') {
+            gTranslateWrapper.style.display = 'block';
+            // 用户点击了显示，所以保存偏好为 'visible'
+            localStorage.setItem('gTranslateOverrideVisibility', 'visible');
           } else {
-            // 如果不存在（例如，最初因为是简体中文而未加载），则调用初始化函数来创建并显示它
-            initGTranslate();
+            gTranslateWrapper.style.display = 'none';
+            // 用户点击了隐藏，所以保存偏好为 'hidden'
+            localStorage.setItem('gTranslateOverrideVisibility', 'hidden');
           }
         };
       </script>
