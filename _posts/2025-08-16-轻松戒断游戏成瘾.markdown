@@ -1,17 +1,16 @@
 ---
 title: 轻松戒断游戏成瘾
-date: 2025-08-16 11:10:00 +08:00
+date: 2025-08-16T11:10:00+08:00
 categories:
-- 心理学
-- 精选
+  - 心理学
+  - 精选
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 你没有放弃任何东西。你正在摆脱一个让你生活痛苦不堪的致命敌人。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### 轻松戒断游戏成瘾
 >
 > ##### 由 true-dhamma.com 根据 Allen Carr 的 “EasyWay” 原理改编
@@ -20,11 +19,11 @@ aside: true
 
 ---
 
-更多资源：
+其他参考：[GameQuitters](https://gamequitters.com/){: target="_blank" rel="noopener"}
 
-{% include video.html url="https://download.[true-dhamma.com](https://true-dhamma.com)/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/%E8%A7%86%E9%A2%91/Escaping_video_game_addiction-Cam_Adair.mp4" %}
+{% include video.html url="https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/%E8%A7%86%E9%A2%91/Escaping_video_game_addiction-Cam_Adair.mp4" %}
 
-原始视频：https://www.youtube.com/watch?v=EHmC2D0\_Hdg GameQuitters：https://gamequitters.com/
+原始视频：[https://www.youtube.com/watch?v=EHmC2D0\_Hdg](https://www.youtube.com/watch?v=EHmC2D0_Hdg){: target="_blank" rel="noopener"}
 
 ---
 
@@ -2137,7 +2136,33 @@ aside: true
 
 **如果你感觉像一只渴望挣脱束缚的狗，渴望继续前进，那很好，但你仍然需要仔细专注于本书的其余部分。**
 
-<table><thead><tr><td><p><th style="text-align: left">字母</th>       <th style="text-align: left">关键词（英文）</th>       <th style="text-align: left">中文解释</th>     </p></td></tr></thead><tbody><tr><td><p><td style="text-align: left"><strong>R</strong></td>       <td style="text-align: left"><strong>REJOICE!</strong></td>       <td style="text-align: left"><strong>欢庆！</strong> 没有什么可放弃的。</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>A</strong></td>       <td style="text-align: left"><strong>ADVICE</strong></td>       <td style="text-align: left"><strong>建议</strong> 如果与“轻松戒”冲突，请忽略。</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>T</strong></td>       <td style="text-align: left"><strong>TIMING</strong></td>       <td style="text-align: left"><strong>时机</strong> 现在就做！</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>I</strong></td>       <td style="text-align: left"><strong>ILLUSIONS</strong></td>       <td style="text-align: left"><strong>幻觉</strong> 现在就消除它们，你就会自由。</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>O</strong></td>       <td style="text-align: left"><strong>ONE GAME</strong></td>       <td style="text-align: left"><strong>一局游戏</strong> 只需要一局就能让你再次上钩。</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>N</strong></td>       <td style="text-align: left"><strong>NEVER</strong></td>       <td style="text-align: left"><strong>永不</strong> 玩游戏，甚至不渴望玩游戏。</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>A</strong></td>       <td style="text-align: left"><strong>ADDICTIVE PERSONALITY</strong></td>       <td style="text-align: left"><strong>成瘾型人格</strong> 一个与停止无关的理论。</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>L</strong></td>       <td style="text-align: left"><strong>LIFESTYLE</strong></td>       <td style="text-align: left"><strong>生活方式</strong> 重新发现真正的乐趣。</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>I</strong></td>       <td style="text-align: left"><strong>IMMEDIATE</strong></td>       <td style="text-align: left"><strong>立即</strong> 你决定后立刻就自由了。</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>S</strong></td>       <td style="text-align: left"><strong>SUBSTITUTES</strong></td>       <td style="text-align: left"><strong>替代品</strong> 你没有“放弃”任何东西，所以你不需要任何替代品。</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>E</strong></td>       <td style="text-align: left"><strong>ELEPHANTS</strong></td>       <td style="text-align: left"><strong>大象</strong> 不要试图不去想游戏。</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>D</strong></td>       <td style="text-align: left"><strong>DOUBT</strong></td>       <td style="text-align: left"><strong>怀疑</strong> 永远不要怀疑你戒除的决定。</td>     </p></td></tr></tbody></table>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<table><thead><tr><td><p></p></td><td><p><th style="text-align: left">字母</th><th style="text-align: left">关键词（英文）</th><th style="text-align: left">中文解释</th></p></td></tr></thead><tbody><tr><td><p></p></td><td><p><td style="text-align: left"><strong>R</strong></td><td style="text-align: left"><strong>REJOICE!</strong></td><td style="text-align: left"><strong>欢庆！</strong> 没有什么可放弃的。</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left"><strong>A</strong></td><td style="text-align: left"><strong>ADVICE</strong></td><td style="text-align: left"><strong>建议</strong> 如果与“轻松戒”冲突，请忽略。</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left"><strong>T</strong></td><td style="text-align: left"><strong>TIMING</strong></td><td style="text-align: left"><strong>时机</strong> 现在就做！</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left"><strong>I</strong></td><td style="text-align: left"><strong>ILLUSIONS</strong></td><td style="text-align: left"><strong>幻觉</strong> 现在就消除它们，你就会自由。</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left"><strong>O</strong></td><td style="text-align: left"><strong>ONE GAME</strong></td><td style="text-align: left"><strong>一局游戏</strong> 只需要一局就能让你再次上钩。</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left"><strong>N</strong></td><td style="text-align: left"><strong>NEVER</strong></td><td style="text-align: left"><strong>永不</strong> 玩游戏，甚至不渴望玩游戏。</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left"><strong>A</strong></td><td style="text-align: left"><strong>ADDICTIVE PERSONALITY</strong></td><td style="text-align: left"><strong>成瘾型人格</strong> 一个与停止无关的理论。</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left"><strong>L</strong></td><td style="text-align: left"><strong>LIFESTYLE</strong></td><td style="text-align: left"><strong>生活方式</strong> 重新发现真正的乐趣。</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left"><strong>I</strong></td><td style="text-align: left"><strong>IMMEDIATE</strong></td><td style="text-align: left"><strong>立即</strong> 你决定后立刻就自由了。</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left"><strong>S</strong></td><td style="text-align: left"><strong>SUBSTITUTES</strong></td><td style="text-align: left"><strong>替代品</strong> 你没有“放弃”任何东西，所以你不需要任何替代品。</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left"><strong>E</strong></td><td style="text-align: left"><strong>ELEPHANTS</strong></td><td style="text-align: left"><strong>大象</strong> 不要试图不去想游戏。</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left"><strong>D</strong></td><td style="text-align: left"><strong>DOUBT</strong></td><td style="text-align: left"><strong>怀疑</strong> 永远不要怀疑你戒除的决定。</td></p></td></tr></tbody></table>
 
 #### 了结未了之事
 
