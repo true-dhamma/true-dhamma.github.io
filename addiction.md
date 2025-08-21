@@ -10,8 +10,6 @@ feature_text: |-
 feature_image: "/uploads/top_banner_addiction.jpg"
 ---
 
-&nbsp;
-
 <table style="width:100%; border: none; border-collapse: collapse;">
   <tbody>
     <tr style="border: none;">
