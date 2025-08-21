@@ -13,13 +13,6 @@
         <a href="{{ url }}">{{ item.title }}</a>
       </li>
     {% endfor %}
-
-    <!-- 添加 Language 开关 -->
-    <li class="item  item--nav">
-      <a href="#" onclick="window.toggleGTranslateVisibility(); return false;">Language</a>
-    </li>
-    <!-- Language 开关结束 -->
-
   </ul>
   <button class="button  button--nav" aria-label="Menu toggle">
     {% include icon.html id="nav" title="Menu" %}

@@ -4,11 +4,63 @@
       <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small>
     </div>
 
-    <!-- Translantiun -->
-    <div class="gtranslate_wrapper"></div>
-<script>window.gtranslateSettings = {"default_language":"zh-CN","detect_browser_language":true,"languages":["zh-CN","zh-TW","th","en"],"wrapper_selector":".gtranslate_wrapper"}</script>
-<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
-    <!-- Translantiun -->
+    <!-- G-Translate 翻译浮动条控制逻辑 -->
+    <div id="gtranslate-block-wrapper">
+      <script>
+        // 获取浏览器首选语言
+        const browserLang = navigator.language || navigator.userLanguage;
+
+        /**
+         * 初始化并显示 G-Translate 插件。
+         * 如果插件的 HTML 元素和 JS 脚本尚未加载，此函数将负责加载它们。
+         */
+        function initGTranslate() {
+          let gTranslateDiv = document.querySelector('.gtranslate_wrapper');
+          if (!gTranslateDiv) { // 如果 .gtranslate_wrapper 元素不存在，则创建它
+            gTranslateDiv = document.createElement('div');
+            gTranslateDiv.className = 'gtranslate_wrapper';
+            // 将其添加到 id 为 gtranslate-block-wrapper 的父元素中
+            document.getElementById('gtranslate-block-wrapper').appendChild(gTranslateDiv);
+          }
+          // 确保其显示
+          gTranslateDiv.style.display = 'block';
+
+          // 如果 G-Translate 脚本尚未加载，则加载它
+          if (!window.gtranslateSettings) { // 检查全局设置是否已定义，作为脚本是否加载的简单判断
+            window.gtranslateSettings = {"default_language":"zh-CN","detect_browser_language":true,"languages":["zh-CN","zh-TW","th","en"],"wrapper_selector":".gtranslate_wrapper"};
+            const script = document.createElement('script');
+            script.src = "https://cdn.gtranslate.net/widgets/latest/float.js";
+            script.defer = true; // 延迟加载脚本
+            document.getElementById('gtranslate-block-wrapper').appendChild(script);
+          }
+        }
+
+        // 页面加载时，检查浏览器语言。如果不是简体中文，则初始化并显示浮动条。
+        if (!browserLang.startsWith('zh-CN')) {
+          initGTranslate();
+        }
+
+        /**
+         * 全局函数：用于切换 G-Translate 浮动条的可见性。
+         * 如果浮动条未初始化，它会先初始化。
+         */
+        window.toggleGTranslateVisibility = function() {
+          const gTranslateWrapper = document.querySelector('.gtranslate_wrapper');
+          if (gTranslateWrapper) {
+            // 如果已经存在，则切换显示状态
+            if (gTranslateWrapper.style.display === 'none') {
+              gTranslateWrapper.style.display = 'block';
+            } else {
+              gTranslateWrapper.style.display = 'none';
+            }
+          } else {
+            // 如果不存在（例如，最初因为是简体中文而未加载），则调用初始化函数来创建并显示它
+            initGTranslate();
+          }
+        };
+      </script>
+    </div>
+    <!-- G-Translate 翻译浮动条控制逻辑 结束 -->
 
     {% include nav-footer.html %}
   </div>
