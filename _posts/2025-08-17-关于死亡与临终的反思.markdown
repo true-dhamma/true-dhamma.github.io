@@ -1,18 +1,17 @@
 ---
 title: 关于死亡与临终的反思
-date: 2025-08-17 11:10:00 +08:00
+date: 2025-08-17T11:10:00+08:00
 categories:
-- 生老病死
-- 南传上座部佛法
+  - 生老病死
+  - 南传上座部佛法
 excerpt: 这本书教导我们如何将对死亡的恐惧转化为修行的动力，以智慧和慈悲面对生命的终点。
-feature_text: 
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_text:
+feature_image: /uploads/top_banner_dhamma.jpg
 aside: true
 ---
-
-> ##### Reflections on Death and Dying - Somdet Phra Buddhaghosacariya (P.A.Payutto)
+> ##### Reflections on Death and Dying - P.A.Payutto
 >
-> ##### 关于死亡与临终的反思 - 向智尊者(P.A.Payutto)
+> ##### 关于死亡与临终的反思 - **巴育陀**尊者 - 摘要
 >
 > 纵然活上百年，若对万物生灭之理一无所知，不如生命只有一日，却能洞察此理。
 
@@ -315,7 +314,6 @@ aside: true
 * 世间众生被死亡重创，被衰老吞噬。
 * 因此，在余下的生命里，人们应当履行责任，保持警醒。
 * 我未曾造作任何恶业，因此，我不惧死亡的到来。
-
 
 ---
 
