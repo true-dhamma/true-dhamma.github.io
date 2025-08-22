@@ -1,16 +1,15 @@
 ---
 title: 信业-知业-解业
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 业力与命运
-  - 南传上座部佛法
-tags:
-  -
-excerpt: “业”，即中国人所说的“命”，深入剖析佛法中关于“业”的核心教义，帮助你建立正见，智慧地面对人生。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+- 业力与命运
+- 南传上座部佛法
+excerpt: "“业”，即中国人所说的“命”，深入剖析佛法中关于“业”的核心教义，帮助你建立正见，智慧地面对人生。"
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: true
 ---
+
 > ##### เชื่อกรรม-รู้กรรม-แก้กรรม - สมเด็จพระพุทธโฆษาจารย์ (ป. อ. ปยุตฺโต)
 >
 > ##### 信业-知业-解业 - 巴育陀尊者 - 摘要

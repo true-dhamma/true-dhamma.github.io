@@ -1,13 +1,14 @@
 ---
 title: 佛法导论：美好生命，和谐社会，宜人自然
-date: 2025-08-17T11:10:00+08:00
+date: 2025-08-17 11:10:00 +08:00
 categories:
-  - 南传上座部佛法
+- 南传上座部佛法
 excerpt: 一部深入浅出地阐释佛法核心理念的指南，指引我们走向美好人生、和谐社会与宜人自然。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
 ---
+
 > ##### Prelude to Buddhadhamma - P.A.Payutto
 >
 > ##### 佛法导论：美好生命，和谐社会，宜人自然 - 巴育陀尊者 - 摘要

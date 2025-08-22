@@ -3,13 +3,12 @@ title: 缘起法：佛法中的因果法则
 date: 2025-08-17 10:10:00 +08:00
 categories:
 - 南传上座部佛法
-tags:
-- 
 excerpt: 深入揭示佛陀的核心教法——缘起法则，阐明痛苦如何产生，以及如何通过智慧斩断其根源，走向真正的自由。
 feature_text: 
 feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: true
 ---
+
 > ##### Dependent Origination - The Buddhist Law of Conditionality - P. A. Payutto
 >
 > ##### 缘起法：佛法中的因果法则 - 巴育陀尊者 - 摘要

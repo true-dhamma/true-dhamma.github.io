@@ -1,16 +1,15 @@
 ---
 title: 善恶与超越善恶：佛陀教义中的业
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 业力与命运
-  - 南传上座部佛法
-tags:
-  -
+- 业力与命运
+- 南传上座部佛法
 excerpt: 深入剖析佛陀关于业力的教导，揭示善恶的真正含义，并指引一条超越业力束缚的解脱之道。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: true
 ---
+
 > ##### Good, Evil and Beyond: Kamma in the Buddha’s Teaching - Bhikkhu P. A. Payutto
 >
 > ##### 善恶与超越善恶：佛陀教义中的业 - 巴育陀尊者 - 摘要
