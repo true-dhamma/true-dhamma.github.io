@@ -1,16 +1,15 @@
 ---
 title: 巴利圣典：佛教徒须知
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 南传上座部佛法
-  - 巴利圣典
-tags:
-  -
-excerpt:
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+- 南传上座部佛法
+- 巴利圣典
+excerpt: 
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: true
 ---
+
 > ##### The Tipitaka: What a Buddhist Should Know - P.A.Payutto
 >
 > ##### 巴利圣典：佛教徒须知 - 巴育陀尊者 - 摘要

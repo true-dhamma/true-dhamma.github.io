@@ -1,14 +1,15 @@
 ---
 title: 吉祥的选择：南传上座部佛教生死书
-date: 2025-08-17T11:10:00+08:00
+date: 2025-08-17 11:10:00 +08:00
 categories:
-  - 生老病死
-  - 南传上座部佛法
+- 生老病死
+- 南传上座部佛法
 excerpt: 这是一本南传上座部佛教的生死书，完整阐释了从临终关怀到身后事宜的智慧，引导读者作出吉祥的选择，迈向光明的生命。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: true
 ---
+
 > ##### 吉祥的选择：南传上座部佛教生死书 - 佛护尊者、舍喜尊者 - 摘要
 >
 > 这是一本南传上座部佛教的生死书，完整阐释了从临终关怀到身后事宜的智慧，引导读者作出吉祥的选择，迈向光明的生命。

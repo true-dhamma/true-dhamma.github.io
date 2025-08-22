@@ -1,15 +1,15 @@
 ---
 title: 隆普敦尊者：法语微言
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 高僧大德
-  - 南传上座部佛法
-tags: []
+- 高僧大德
+- 南传上座部佛法
 excerpt: 隆普敦尊者以简洁而犀利的开示，揭示佛法真谛，引导众生超越世间烦恼，走向内心解脱。
-feature_text:
-feature_image: /uploads/top_banner_sangha.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_sangha.jpg"
 aside: true
 ---
+
 > ##### Gifts He Left Behind - The Dhamma Legacy of Ajaan Dune Atulo (Phra Rajavuddhacariya) - Compiled by Phra Bodhinandamuni, Translated from the Thai by Thanissaro Bhikkhu
 >
 > ##### 隆普敦尊者：法语微言 - 摘要

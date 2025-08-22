@@ -1,15 +1,15 @@
 ---
 title: 人类手册-佛使比丘
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 南传上座部佛法
-  - 精选
-tags: []
+- 南传上座部佛法
+- 精选
 excerpt: 佛使比丘以直白简洁的语言，揭示佛法核心，引导我们洞悉万物实相，从而摆脱痛苦，掌握生活的艺术，被认为是所有佛教徒必读的书籍。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: true
 ---
+
 > ##### Handbook for Mankind - Buddhadasa Bhikkhu
 >
 > ##### 人类手册 - 佛使比丘

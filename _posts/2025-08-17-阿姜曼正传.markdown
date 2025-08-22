@@ -1,16 +1,16 @@
 ---
 title: 阿姜曼正传
-date: 2025-08-17T10:10:00+07:00
+date: 2025-08-17 11:10:00 +08:00
 categories:
-  - 高僧大德
-  - 南传上座部佛法
-  - 精选
-tags: []
+- 高僧大德
+- 南传上座部佛法
+- 精选
 excerpt: 探索一位现代阿罗汉的非凡人生，他的苦行与教导，为无数众生点亮了通往解脱的明灯。
-feature_text:
-feature_image: /uploads/top_banner_sangha.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_sangha.jpg"
 aside: true
 ---
+
 > ##### Ācariya Mun Bhūridatta Thera - Ācariya Mahā Boowa
 >
 > ##### 阿姜曼正传 - 阿姜摩诃布瓦尊者
