@@ -1,16 +1,15 @@
 ---
 title: 森林里的一棵树：阿姜查的比喻集
-date: 2025-08-17T09:10:00+07:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 南传上座部佛法
-  - 精选
-tags:
-  -
+- 南传上座部佛法
+- 精选
 excerpt: 通过简单质朴的日常比喻，揭示佛法深刻而又触手可及的智慧。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: true
 ---
+
 > ##### A Tree in a Forest - A Collection of Ajahn Chah’s Similes
 >
 > ##### 森林里的一棵树：阿姜查的比喻集 - 摘要
