@@ -7,11 +7,11 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v2.9 (Definitive List Style Fix)
+  Modern Chatbot UI v3.0 (Font and UI Polish)
   Author: Gemini Assistant & User
-  Updates: Replaced patchwork list styling with a robust ruleset that
-           restores browser-like default behavior for ul, ol, and li,
-           overcoming the initial CSS reset. This is the definitive fix.
+  Updates: 1. Increased base font size for better readability on all devices.
+           2. Kept the input text area font size unchanged as requested.
+           3. Standardized the close button color to black on all devices.
   =============================================================
 -->
 
@@ -64,7 +64,8 @@ excerpt: Search for a page or post's content
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    font-size: 18px; /* Base font size for PC */
+    /* UPDATE: Increased base font size for PC */
+    font-size: 19px; 
 }
 .chat-fab-button svg, .chat-submit-button svg {
     height: 24px;
@@ -151,9 +152,10 @@ excerpt: Search for a page or post's content
 }
 .chat-close-button {
     background: none; border: none; font-size: 1.8rem; line-height: 1;
-    cursor: pointer; color: #a8adac; padding: 0 5px; transition: color 0.2s ease;
+    cursor: pointer; padding: 0 5px;
+    /* UPDATE: Standardized to black on all devices */
+    color: #2c3e50; 
 }
-.chat-close-button:hover { color: #2c3e50; }
 
 /* Messages Container */
 .chat-messages {
@@ -190,33 +192,19 @@ excerpt: Search for a page or post's content
 .message-content { color: #2c3e50; font-size: 1em; }
 .message-content > *:first-child { margin-top: 0; }
 .message-content > *:last-child { margin-bottom: 0; }
-.message-content p { margin: 0.5em 0; padding: 0; } /* 恢复段落的垂直间距 */
+.message-content p { margin: 0.5em 0; padding: 0; } 
 .message-content a { color: #3a77d8; text-decoration: underline; cursor: pointer; }
 
-/* =================================================================== */
-/* ===         最终列表样式修复 (恢复类浏览器默认行为)         === */
-/* =================================================================== */
-/* 
- * 核心问题：顶部的 .chat-modal * { padding: 0; } 重置了列表的默认缩进。
- * 以下规则将覆盖该重置，为列表元素恢复浏览器默认样式，确保列表正确显示。
- */
+/* List Style Fix (Restore browser-like default behavior) */
 .message-content ul, .message-content ol {
-    /* 恢复列表的垂直外边距 */
     margin-top: 1em;
     margin-bottom: 1em;
-    /* 恢复列表标记所需的左侧内边距 (关键！值为浏览器默认值) */
     padding-left: 40px; 
 }
-
 .message-content li {
-    /* 确保元素被正确渲染为列表项 */
     display: list-item;
-    /* 可以保留一个小的底部外边距，让列表项之间更清晰 */
     margin-bottom: 0.5em;
 }
-/* =================================================================== */
-/* =========================   修正结束   ========================= */
-/* =================================================================== */
 
 /* Input Area */
 .chat-input-area {
@@ -235,10 +223,11 @@ excerpt: Search for a page or post's content
     padding: 8px 18px;
     resize: none;
     max-height: 120px;
-    font-size: 1rem;
     outline: none;
     transition: border-color 0.2s ease;
     -webkit-appearance: none;
+    /* UPDATE: Explicitly set font size to keep it from changing */
+    font-size: 18px;
 }
 .chat-input-area textarea:focus { border-color: #3a77d8; }
 
@@ -271,12 +260,11 @@ excerpt: Search for a page or post's content
         border-radius: 0;
     }
     .chat-modal, .chat-modal * {
-        font-size: 17px;
-    }
-    .chat-header .chat-close-button {
-        color: #2c3e50;
+        /* UPDATE: Increased base font size for mobile */
+        font-size: 18px;
     }
     .chat-input-area textarea {
+        /* Keep mobile input text size consistent */
         font-size: 16px;
         padding: 10px 18px;
     }

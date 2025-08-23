@@ -91,7 +91,7 @@ navigation_header:
   url: "/tipitaka/"
 - title: 网盘
   url: https://download.true-dhamma.com/
-- title: 搜索
+- title: 搜索&提问
   url: "/search/"
 - title: 关于本站
   url: "/about/"
