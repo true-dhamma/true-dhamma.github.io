@@ -7,9 +7,9 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v2.5 (Final Polish)
+  Modern Chatbot UI v2.6 (Final Alignment)
   Author: Gemini Assistant & User
-  Updates: Fine-tuned input field height for perfect alignment with the send button.
+  Updates: Implemented CSS Counters for perfect list alignment.
   =============================================================
 -->
 
@@ -56,7 +56,7 @@ excerpt: Search for a page or post's content
 
 
 <style>
-/* Reset and Base Styles to avoid conflicts with the main site's CSS */
+/* Reset and Base Styles */
 .chat-fab-button, .chat-modal, .chat-modal * {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     box-sizing: border-box;
@@ -189,12 +189,40 @@ excerpt: Search for a page or post's content
 .message-content > *:last-child { margin-bottom: 0; }
 .message-content p { margin: 0.5em 0; padding: 0; }
 .message-content a { color: #3a77d8; text-decoration: underline; }
-.message-content ul, .message-content ol { 
-    margin: 0.7em 0; 
+/* FIX: CSS Counters for perfect list alignment */
+.message-content ul, .message-content ol {
+    margin: 0.7em 0;
     padding-left: 0;
-    list-style-position: inside;
+    list-style-type: none; /* Disable native list styles */
 }
-.message-content li { margin-bottom: 0.25em; }
+.message-content ol {
+    counter-reset: list-counter; /* Initialize a counter for <ol> */
+}
+.message-content li {
+    margin-bottom: 0.25em;
+    position: relative;
+}
+.message-content ul > li::before {
+    content: "•"; /* Use a bullet character for <ul> */
+    font-weight: bold;
+    display: inline-block;
+    width: 1.2em; /* Allocate space for the bullet */
+    margin-left: -1.2em; /* Pull it back to align with text */
+    text-align: right;
+    margin-right: 0.6em; /* Space between bullet and text */
+}
+.message-content ol > li {
+    counter-increment: list-counter; /* Increment the counter for each <li> */
+}
+.message-content ol > li::before {
+    content: counter(list-counter) "."; /* Display the counter */
+    font-weight: bold;
+    display: inline-block;
+    width: 1.2em; /* Allocate space for the number */
+    margin-left: -1.2em; /* Pull it back to align with text */
+    text-align: right;
+    margin-right: 0.6em; /* Space between number and text */
+}
 
 /* Input Area */
 .chat-input-area {
@@ -210,7 +238,7 @@ excerpt: Search for a page or post's content
     flex-grow: 1;
     border: 1px solid #ccc;
     border-radius: 22px;
-    padding: 8px 18px; /* FIX: Reduced vertical padding for alignment */
+    padding: 8px 18px;
     resize: none;
     max-height: 120px;
     font-size: 1rem;
@@ -256,7 +284,7 @@ excerpt: Search for a page or post's content
     }
     .chat-input-area textarea {
         font-size: 16px;
-        padding: 10px 18px; /* FIX: Adjusted mobile padding for alignment */
+        padding: 10px 18px;
     }
 }
 </style>
