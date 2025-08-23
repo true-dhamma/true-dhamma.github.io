@@ -1,15 +1,14 @@
 ---
 title: 法集：整装待发
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 南传上座部佛法
-tags:
-  -
+- 南传上座部佛法
 excerpt: 世间最高的胜利，并非战胜千万敌人，而是战胜自己内心唯一的敌人——烦恼。这胜利，将带来永恒的安宁。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: true
 ---
+
 > ##### ธรรมชุดเตรียมพรอม - ท่านอาจารย์พระมหาบัว ญาณสัมปันโน
 >
 > ##### 法集：整装待发 - 阿姜摩诃布瓦尊者 - 摘要
