@@ -7,12 +7,10 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v4.0 (Conversational Context)
+  Modern Chatbot UI v4.1 (Bugfix)
   Author: Gemini Assistant & User
-  Updates: 1. Implemented chat history management on the client-side.
-           2. Each request now sends the conversation history to the worker.
-           3. Added a "New Chat" button to clear history and start over.
-           4. Implemented a sliding window for history to prevent token overflow.
+  Updates: 1. Fixed a "Assignment to constant variable" JavaScript error
+              caused by redundant function definitions.
   =============================================================
 -->
 
@@ -154,13 +152,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- State Management ---
     let fetchController = null;
     let typingInterval = null;
-    let chatHistory = []; // <-- NEW: Array to store conversation history
+    let chatHistory = []; 
 
     // --- DOM Elements ---
     const chatFabButton = document.getElementById('chat-fab-button');
     const chatOverlay = document.getElementById('chat-overlay');
     const chatCloseButton = document.getElementById('chat-close-button');
-    const chatNewButton = document.getElementById('chat-new-button'); // <-- NEW
+    const chatNewButton = document.getElementById('chat-new-button'); 
     const chatMessages = document.getElementById('chat-messages');
     const chatInput = document.getElementById('chat-input');
     const chatSubmitButton = document.getElementById('chat-submit-button');
@@ -186,7 +184,6 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => { document.body.style.overflow = ''; }, 300);
     };
     
-    // <-- NEW: Function to start a new chat -->
     const startNewChat = () => {
         stopFetchingAndTyping();
         chatHistory = [];
@@ -208,74 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // --- Core Functionality ---
-    const typeMessage = (messageElement, fullMarkdown, delay = 15) => { /* ... (no changes) ... */ };
-    const stopFetchingAndTyping = () => { /* ... (no changes) ... */ };
-    
-    // <-- UPDATED: sendMessage to handle history -->
-    const sendMessage = async () => {
-        const query = chatInput.value.trim();
-        if (!query) return;
-
-        stopFetchingAndTyping();
-        
-        // Display user message
-        const userMessageDiv = document.createElement('div');
-        userMessageDiv.className = 'message user-message';
-        userMessageDiv.innerHTML = `<div class="message-content">${query.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</div>`;
-        chatMessages.appendChild(userMessageDiv);
-        chatMessages.scrollTop = chatMessages.scrollHeight;
-        
-        chatInput.value = '';
-        chatInput.style.height = 'auto';
-        setButtonState('thinking');
-
-        // Create bot message placeholder
-        const botMessageDiv = document.createElement('div');
-        botMessageDiv.className = 'message bot-message';
-        const botMessageContent = document.createElement('div');
-        botMessageContent.className = 'message-content';
-        botMessageDiv.appendChild(botMessageContent);
-        chatMessages.appendChild(botMessageDiv);
-        
-        try {
-            fetchController = new AbortController();
-            
-            // Sliding window for history
-            const historyToSend = chatHistory.slice(-MAX_HISTORY_TURNS * 2);
-
-            const response = await fetch(WORKER_URL, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ query, history: historyToSend }), // <-- SEND HISTORY
-                signal: fetchController.signal
-            });
-
-            if (!response.ok) throw new Error(`API 请求失败: ${response.statusText}`);
-
-            const data = await response.json();
-            await typeMessage(botMessageContent, data.answer);
-
-            // <-- UPDATE HISTORY -->
-            chatHistory.push({ role: 'user', parts: [{ text: query }] });
-            chatHistory.push({ role: 'model', parts: [{ text: data.answer }] });
-
-        } catch (error) {
-            if (error.name === 'AbortError') {
-                botMessageContent.textContent = '已停止。';
-            } else {
-                console.error('Chat error:', error);
-                botMessageContent.innerHTML = sanitize(marked.parse('抱歉，服务出现了一点问题，请稍后再试。'));
-            }
-        } finally {
-            if (fetchController && !fetchController.signal.aborted) {
-                setButtonState('idle');
-            }
-            fetchController = null;
-        }
-    };
-    
-    // --- Re-implementing unchanged functions for completeness ---
-    typeMessage = (messageElement, fullMarkdown, delay = 15) => {
+    const typeMessage = (messageElement, fullMarkdown, delay = 15) => {
         return new Promise((resolve) => {
             if (typingInterval) clearInterval(typingInterval);
             let currentMarkdown = '';
@@ -294,17 +224,75 @@ document.addEventListener('DOMContentLoaded', () => {
             }, delay);
         });
     };
-    stopFetchingAndTyping = () => {
+    
+    const stopFetchingAndTyping = () => {
         if (fetchController) fetchController.abort();
         if (typingInterval) clearInterval(typingInterval);
         setButtonState('idle');
     };
+    
+    const sendMessage = async () => {
+        const query = chatInput.value.trim();
+        if (!query) return;
 
+        stopFetchingAndTyping();
+        
+        const userMessageDiv = document.createElement('div');
+        userMessageDiv.className = 'message user-message';
+        userMessageDiv.innerHTML = `<div class="message-content">${query.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</div>`;
+        chatMessages.appendChild(userMessageDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+        
+        chatInput.value = '';
+        chatInput.style.height = 'auto';
+        setButtonState('thinking');
+
+        const botMessageDiv = document.createElement('div');
+        botMessageDiv.className = 'message bot-message';
+        const botMessageContent = document.createElement('div');
+        botMessageContent.className = 'message-content';
+        botMessageDiv.appendChild(botMessageContent);
+        chatMessages.appendChild(botMessageDiv);
+        
+        try {
+            fetchController = new AbortController();
+            
+            const historyToSend = chatHistory.slice(-MAX_HISTORY_TURNS * 2);
+
+            const response = await fetch(WORKER_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ query, history: historyToSend }),
+                signal: fetchController.signal
+            });
+
+            if (!response.ok) throw new Error(`API 请求失败: ${response.statusText}`);
+
+            const data = await response.json();
+            await typeMessage(botMessageContent, data.answer);
+
+            chatHistory.push({ role: 'user', parts: [{ text: query }] });
+            chatHistory.push({ role: 'model', parts: [{ text: data.answer }] });
+
+        } catch (error) {
+            if (error.name === 'AbortError') {
+                botMessageContent.textContent = '已停止。';
+            } else {
+                console.error('Chat error:', error);
+                botMessageContent.innerHTML = sanitize(marked.parse('抱歉，服务出现了一点问题，请稍后再试。'));
+            }
+        } finally {
+            if (fetchController && !fetchController.signal.aborted) {
+                setButtonState('idle');
+            }
+            fetchController = null;
+        }
+    };
 
     // --- Event Listeners ---
     chatFabButton.addEventListener('click', openChat);
     chatCloseButton.addEventListener('click', closeChat);
-    chatNewButton.addEventListener('click', startNewChat); // <-- NEW
+    chatNewButton.addEventListener('click', startNewChat); 
     chatOverlay.addEventListener('click', (e) => { if (e.target === chatOverlay) closeChat(); });
     
     chatMessages.addEventListener('click', (event) => {
