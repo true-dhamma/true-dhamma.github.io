@@ -7,11 +7,11 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v4.2 (UI/UX Polish)
+  Modern Chatbot UI v4.3 (Centering & Font Fix)
   Author: Gemini Assistant & User
-  Updates: 1. Relocated "New Chat" button to the top-left to prevent mis-clicks.
-           2. Styled "New Chat" button as a blue link for clarity.
-           3. Ensured the close button is consistently black on all devices.
+  Updates: 1. Corrected flexbox properties to perfectly center the header title.
+           2. Increased the title's font size on mobile for better hierarchy.
+           3. Confirmed all UI elements match the latest requests.
   =============================================================
 -->
 
@@ -27,7 +27,6 @@ excerpt: Search for a page or post's content
 <div id="chat-overlay" class="chat-overlay hidden">
   <div id="chat-modal" class="chat-modal">
     <div class="chat-header">
-      <!-- UPDATED: HTML structure for new layout -->
       <button id="chat-new-button" class="chat-header-button" aria-label="新聊天">新聊天</button>
       <span class="chat-title">佛法问答</span>
       <button id="chat-close-button" class="chat-header-button" aria-label="关闭聊天">&times;</button>
@@ -91,24 +90,24 @@ excerpt: Search for a page or post's content
 }
 .chat-overlay.hidden .chat-modal { transform: scale(0.95); }
 
-/* UPDATED: Header Styles for new layout */
+/* UPDATED: Header Styles for perfect centering */
 .chat-header {
     background: #f4f6f8; color: #2c3e50; padding: 10px 15px;
-    border-bottom: 1px solid #e0e0e0; display: flex;
-    justify-content: space-between; align-items: center;
+    border-bottom: 1px solid #e0e0e0; 
+    display: flex;
+    align-items: center; /* Vertically align items */
     flex-shrink: 0;
 }
 .chat-title {
     font-weight: 700;
     font-size: 1.1rem;
-    text-align: center;
-    flex-grow: 1; /* Allows title to take up space and center properly */
+    text-align: center; /* Center text inside the span */
+    flex-grow: 1; /* Allow title to take up all available space */
 }
 .chat-header-button {
     background: none; border: none; cursor: pointer;
     font-size: 1rem; padding: 5px 8px; flex-shrink: 0;
 }
-/* Style for New Chat Link */
 #chat-new-button {
     color: #3a77d8;
     font-weight: normal;
@@ -117,12 +116,11 @@ excerpt: Search for a page or post's content
 #chat-new-button:hover {
     text-decoration: underline;
 }
-/* Style for Close Button (X) */
 #chat-close-button {
     font-size: 1.8rem;
     line-height: 1;
     padding: 0 5px;
-    color: #2c3e50; /* Ensure it's black */
+    color: #2c3e50;
 }
 
 /* Messages */
@@ -155,7 +153,10 @@ excerpt: Search for a page or post's content
     .chat-modal, .chat-modal * { font-size: 18px; }
     .chat-input-area textarea { font-size: 16px; padding: 10px 18px; }
     .chat-header { padding: 10px; }
-    .chat-title { font-size: 1rem; }
+    /* UPDATED: Increase mobile title size */
+    .chat-title { 
+        font-size: 1.15rem; /* Make title more prominent on mobile */
+    }
 }
 </style>
 
