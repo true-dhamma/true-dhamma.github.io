@@ -7,9 +7,10 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v2.6 (Final Alignment)
+  Modern Chatbot UI v2.6 (Final Polish)
   Author: Gemini Assistant & User
-  Updates: Implemented CSS Counters for perfect list alignment.
+  Updates: Forced links to open in a new tab via JS event listener.
+           Implemented a smooth, non-jumping close animation for mobile.
   =============================================================
 -->
 
@@ -56,7 +57,7 @@ excerpt: Search for a page or post's content
 
 
 <style>
-/* Reset and Base Styles */
+/* Reset and Base Styles to avoid conflicts with the main site's CSS */
 .chat-fab-button, .chat-modal, .chat-modal * {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     box-sizing: border-box;
@@ -109,12 +110,11 @@ excerpt: Search for a page or post's content
     align-items: center;
     opacity: 1;
     visibility: visible;
-    transition: opacity 0.3s ease, visibility 0s 0s;
+    transition: opacity 0.3s ease; /* Animate only opacity */
 }
 .chat-overlay.hidden {
-    opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0s 0.3s;
+    opacity: 0;
 }
 
 /* Chat Modal */
@@ -131,6 +131,9 @@ excerpt: Search for a page or post's content
     overflow: hidden;
     transform: scale(1);
     transition: transform 0.3s ease;
+}
+.chat-overlay.hidden .chat-modal {
+    transform: scale(0.95);
 }
 
 /* Header */
@@ -188,41 +191,13 @@ excerpt: Search for a page or post's content
 .message-content > *:first-child { margin-top: 0; }
 .message-content > *:last-child { margin-bottom: 0; }
 .message-content p { margin: 0.5em 0; padding: 0; }
-.message-content a { color: #3a77d8; text-decoration: underline; }
-/* FIX: CSS Counters for perfect list alignment */
-.message-content ul, .message-content ol {
-    margin: 0.7em 0;
+.message-content a { color: #3a77d8; text-decoration: underline; cursor: pointer; }
+.message-content ul, .message-content ol { 
+    margin: 0.7em 0; 
     padding-left: 0;
-    list-style-type: none; /* Disable native list styles */
+    list-style-position: inside;
 }
-.message-content ol {
-    counter-reset: list-counter; /* Initialize a counter for <ol> */
-}
-.message-content li {
-    margin-bottom: 0.25em;
-    position: relative;
-}
-.message-content ul > li::before {
-    content: "•"; /* Use a bullet character for <ul> */
-    font-weight: bold;
-    display: inline-block;
-    width: 1.2em; /* Allocate space for the bullet */
-    margin-left: -1.2em; /* Pull it back to align with text */
-    text-align: right;
-    margin-right: 0.6em; /* Space between bullet and text */
-}
-.message-content ol > li {
-    counter-increment: list-counter; /* Increment the counter for each <li> */
-}
-.message-content ol > li::before {
-    content: counter(list-counter) "."; /* Display the counter */
-    font-weight: bold;
-    display: inline-block;
-    width: 1.2em; /* Allocate space for the number */
-    margin-left: -1.2em; /* Pull it back to align with text */
-    text-align: right;
-    margin-right: 0.6em; /* Space between number and text */
-}
+.message-content li { margin-bottom: 0.25em; }
 
 /* Input Area */
 .chat-input-area {
@@ -311,26 +286,29 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Markdown Parser Setup ---
     const renderer = new marked.Renderer();
     renderer.link = (href, title, text) => {
+        // This is a good fallback, but the event listener is more robust.
         return `<a href="${href}" title="${title || ''}" target="_blank" rel="noopener noreferrer">${text}</a>`;
     };
-    marked.setOptions({
-        renderer: renderer,
-        gfm: true,
-        breaks: true,
-    });
+    marked.setOptions({ renderer: renderer, gfm: true, breaks: true });
     const sanitize = DOMPurify.sanitize;
 
     // --- UI Logic ---
     const openChat = () => {
+        document.body.style.overflow = 'hidden'; // Prevent background scroll
         chatOverlay.classList.remove('hidden');
-        document.body.style.overflow = 'hidden';
-        setTimeout(() => chatInput.focus(), 300);
+        setTimeout(() => chatInput.focus(), 300); // Focus after transition
     };
 
     const closeChat = () => {
         stopFetchingAndTyping();
-        chatOverlay.classList.add('hidden');
-        document.body.style.overflow = '';
+        // Start fade-out animation
+        chatOverlay.classList.add('hidden'); 
+        
+        // IMPORTANT: Restore scroll only *after* the fade-out animation completes
+        // to prevent the page from "jumping". The transition duration is 0.3s (300ms).
+        setTimeout(() => {
+            document.body.style.overflow = '';
+        }, 300);
     };
     
     const setButtonState = (state) => {
@@ -347,10 +325,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const typeMessage = (messageElement, fullMarkdown, delay = 15) => {
         return new Promise((resolve) => {
             if (typingInterval) clearInterval(typingInterval);
-            
             let currentMarkdown = '';
             let charIndex = 0;
-            
             typingInterval = setInterval(() => {
                 if (charIndex < fullMarkdown.length) {
                     currentMarkdown += fullMarkdown[charIndex];
@@ -367,14 +343,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     
     const stopFetchingAndTyping = () => {
-        if (fetchController) {
-            fetchController.abort();
-            fetchController = null;
-        }
-        if (typingInterval) {
-            clearInterval(typingInterval);
-            typingInterval = null;
-        }
+        if (fetchController) fetchController.abort();
+        if (typingInterval) clearInterval(typingInterval);
         setButtonState('idle');
     };
     
@@ -400,7 +370,6 @@ document.addEventListener('DOMContentLoaded', () => {
         botMessageContent.className = 'message-content';
         botMessageDiv.appendChild(botMessageContent);
         chatMessages.appendChild(botMessageDiv);
-        chatMessages.scrollTop = chatMessages.scrollHeight;
         
         try {
             fetchController = new AbortController();
@@ -436,6 +405,15 @@ document.addEventListener('DOMContentLoaded', () => {
     chatCloseButton.addEventListener('click', closeChat);
     chatOverlay.addEventListener('click', (e) => { if (e.target === chatOverlay) closeChat(); });
     
+    // FIX: Force links in chat to open in a new tab
+    chatMessages.addEventListener('click', (event) => {
+        const link = event.target.closest('a');
+        if (link && link.href) {
+            event.preventDefault();
+            window.open(link.href, '_blank', 'noopener,noreferrer');
+        }
+    });
+
     chatSubmitButton.addEventListener('click', () => {
         (stopIcon.style.display === 'block') ? stopFetchingAndTyping() : sendMessage();
     });
