@@ -5,411 +5,497 @@ excerpt: Search for a page or post you're looking for
 
 {% include site-search.html %}
 
-<!-- Chatbot UI Container -->
-<div id="chat-ui-wrapper">
+<!-- Markdown Renderer CDN -->
+<!-- Marked.js 是一个高性能的 Markdown 解析器，用于将 Markdown 文本转换为 HTML。 -->
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
 
-  <!-- Collapsed Input Box (Default State) -->
-  <div id="chat-collapsed-input">
-    <input type="text" id="chat-input-collapsed" placeholder="向我提问..." title="向我提问..." />
-    <button id="chat-send-collapsed" aria-label="发送问题">发送</button>
-  </div>
-
-  <!-- Expanded Chat Box (Hidden by default) -->
-  <div id="chat-expanded-box" class="hidden">
-    <div id="chat-header">
-      <span>佛法问答</span>
-      <button id="chat-close-button" aria-label="关闭聊天">X</button>
-    </div>
-    <div id="chat-messages">
-      <div class="bot-message initial-message">阿弥陀佛，请问有什么可以帮助您？</div>
-      <!-- Messages will be appended here -->
-    </div>
-    <div id="chat-input-container">
-      <input type="text" id="chat-input-expanded" placeholder="输入您的问题..." title="输入您的问题..." />
-      <button id="chat-send-expanded" aria-label="发送问题">发送</button>
-    </div>
-  </div>
-
-</div>
-
+<!-- Chat Widget Styles -->
 <style>
-  /* Base styles for the chat UI wrapper */
-  #chat-ui-wrapper {
+  /* 从您的网站 CSS 中提取的基础颜色和样式，以保持一致性 */
+  :root {
+    --primary-text-color: #34495e; /* 主要文本颜色 */
+    --header-color: #2c3e50; /* 标题颜色，也用于按钮背景 */
+    --link-color: #3a77d8; /* 链接颜色 */
+    --link-hover-color: #2e60ad; /* 链接悬停颜色 */
+    --border-color: #e0e0e0; /* 通用边框颜色 */
+    --input-bg-color: #fff; /* 输入框背景 */
+    --input-placeholder-color: #a8adac; /* 输入框占位符颜色 */
+    --send-button-bg: var(--header-color); /* 发送按钮背景，与标题色一致 */
+    --send-button-hover-bg: #3a4f65; /* 发送按钮悬停颜色 */
+    --bot-message-bg: #eef; /* 机器人消息背景（淡蓝色） */
+    --user-message-bg: #dcf8c6; /* 用户消息背景（淡绿色） */
+    --chat-header-bg: #f4f6f8; /* 聊天框头部背景（淡灰色，来自 .feature background） */
+    --chat-message-area-bg: #fcfcfc; /* 聊天消息区域背景（略微偏白的灰色） */
+
+    /* 为 rgba() 效果定义颜色的 RGB 值 */
+    --link-color-rgb: 58, 119, 216;
+    --header-color-rgb: 44, 62, 80;
+  }
+
+  /* 通用盒模型设置 */
+  .chat-widget * {
+    box-sizing: border-box;
+  }
+
+  /* 浮动输入框样式 */
+  #chat-floating-input {
     position: fixed;
-    bottom: 0; /* Align to the bottom of the viewport initially */
+    bottom: 100px; /* 离底部约 100px */
     right: 20px;
-    z-index: 1000; /* Ensure it stays on top of other content */
-    font-family: "Palatino", "Apple Garamond", Georgia, "Songti SC", "SimSun", "FangSong", serif;
-    font-size: 1rem; /* Adjust base font size for readability */
-    line-height: 1.5;
-    color: #34495e; /* Default text color from your site */
-  }
-
-  /* Shared input/button styles, matching your site's search input */
-  #chat-ui-wrapper input[type="text"],
-  #chat-ui-wrapper button {
-    padding: .6rem 1.2rem;
-    margin-bottom: 0; /* Remove default margin from existing site CSS */
-    transition: color .1s, background-color .1s, border .1s, box-shadow .1s;
-    line-height: inherit;
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    -webkit-appearance: none; /* Reset browser default styles */
-    font-family: inherit;
-    font-size: inherit;
-  }
-
-  #chat-ui-wrapper input[type="text"] {
-    border: 1px solid #a8adac; /* From your site's input border color */
-    background: #fff;
-    color: #34495e;
-  }
-  #chat-ui-wrapper input[type="text"]:hover {
-    border-color: #34495e; /* From your site's input hover border color */
-  }
-  #chat-ui-wrapper input[type="text"]::placeholder {
-    color: #a8adac; /* Lighter placeholder for better contrast */
-    opacity: 0.7;
-  }
-  #chat-ui-wrapper input[type="text"]:focus {
-    outline: solid .12rem #fa407a; /* Focus outline from your site */
-    outline-offset:-0.12rem;
-  }
-
-  #chat-ui-wrapper button {
-    cursor: pointer;
-    background: #3a77d8; /* Adapted from your site's link blue for buttons */
-    color: white;
-    box-shadow: inset 0 0 0 2rem rgba(0,0,0,0); /* Hover effect from your site's buttons */
-  }
-  #chat-ui-wrapper button:hover {
-    box-shadow: inset 0 0 0 2rem rgba(0,0,0,.25); /* Hover effect */
-  }
-  #chat-ui-wrapper button:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-    box-shadow: none;
-  }
-  #chat-ui-wrapper button:focus {
-    outline: solid .12rem #fa407a; /* Focus outline from your site */
-    outline-offset:-0.12rem;
-  }
-
-
-  /* Collapsed Input Specific Styles */
-  #chat-collapsed-input {
-    display: flex; /* Arrange input and button horizontally */
-    align-items: center;
-    width: 280px; /* Default width for collapsed input on PC */
-    background: white;
-    border: 1px solid #ccc; /* Border from previous chat box */
+    width: 280px; /* PC 端宽度 */
+    max-width: calc(100% - 40px); /* 手机端宽度，两侧留 20px 边距 */
+    background: var(--input-bg-color);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Soft shadow */
-    padding: 8px 10px;
-    box-sizing: border-box; /* Include padding in width calculation */
-    transform: translateY(-50px); /* Lift 50px from the actual bottom:0 position */
-    transition: transform 0.3s ease-out, opacity 0.3s ease-out, width 0.3s ease-out; /* Smooth transition for expansion */
-  }
-  #chat-collapsed-input input {
-    flex-grow: 1; /* Input takes available space */
-    border: none; /* Remove border from the inner input */
-    padding: 0; /* Adjust padding for compact layout */
-    height: 30px; /* Fixed height for consistency */
-    line-height: 30px;
-    box-shadow: none;
-  }
-  #chat-collapsed-input button {
-    padding: 6px 12px;
-    border-radius: 4px; /* Slightly rounded button in collapsed state */
-    margin-left: 10px;
-    white-space: nowrap; /* Prevent "发送" from wrapping */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* 柔和阴影 */
+    z-index: 1000; /* 确保在最上层 */
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    cursor: pointer; /* 指示可点击 */
+    transition: transform 0.2s ease-out, opacity 0.2s ease-out; /* 动画效果 */
   }
 
-  /* Expanded Chat Box Specific Styles */
-  #chat-expanded-box {
-    display: flex; /* Stack header, messages, input vertically */
-    flex-direction: column;
-    position: fixed; /* Override wrapper's bottom:0 and align to full screen */
-    top: 50px;
-    bottom: 50px;
+  #chat-floating-input:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2); /* 悬停时增强阴影 */
+    transform: translateY(-2px); /* 向上微移 */
+  }
+
+  #chat-floating-input input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: var(--primary-text-color);
+    padding: 0;
+    background: transparent;
+    cursor: pointer; /* 保持输入框可点击 */
+  }
+
+  #chat-floating-input input::placeholder {
+    color: var(--input-placeholder-color);
+  }
+  
+  /* 聊天框外背景遮罩层 */
+  #chat-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.4); /* 半透明黑色 */
+    z-index: 999; /* 在浮动输入框之下，聊天框之上 */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-out, visibility 0s 0.3s; /* 动画效果 */
+  }
+
+  #chat-overlay.open {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-out, visibility 0s; /* 打开时立即显示 */
+  }
+
+  /* 完整聊天窗口样式 */
+  #chat-full-window {
+    position: fixed;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%); /* Center horizontally */
-    width: 90%; /* Default width for PC */
-    max-width: 600px; /* Max width for PC */
-    background: white;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2); /* Deeper shadow for expanded state */
-    overflow: hidden; /* Ensures content respects rounded corners */
-    transition: all 0.3s ease-out; /* Smooth transition for expansion */
+    width: 90vw; /* PC 端宽度为视口宽度的 90% */
+    height: 80vh; /* PC 端高度为视口高度的 80% */
+    max-width: 600px; /* PC 端最大宽度 */
+    max-height: 700px; /* PC 端最大高度 */
+    transform: translate(-50%, -50%) scale(0.95); /* 初始略微缩小并居中 */
+    opacity: 0;
+    visibility: hidden;
+    background: var(--input-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25); /* 较强阴影 */
+    z-index: 1001; /* 确保在最顶层 */
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55), opacity 0.3s ease-out, visibility 0s 0.3s; /* 弹性动画 */
   }
 
+  #chat-full-window.open {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    visibility: visible;
+    transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55), opacity 0.3s ease-out, visibility 0s;
+  }
+
+  /* 聊天框头部 */
   #chat-header {
     display: flex;
-    justify-content: space-between; /* Align title left, close button right */
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
-    background: #f4f6f8; /* Light gray from your site's feature background */
-    border-bottom: 1px solid #e0e0e0; /* From your site's blockquote border */
-    font-weight: bold;
-    color: #2c3e50; /* Header color from your site's headings */
-    font-size: 1.1em;
+    padding: 12px 15px;
+    background: var(--chat-header-bg);
+    border-bottom: 1px solid var(--border-color);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: var(--chat-title-color);
+    font-weight: 600;
+    font-size: 1.1rem;
   }
+
   #chat-header button {
     background: none;
     border: none;
-    color: #2c3e50; /* Match header text color */
-    font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--input-placeholder-color); /* 柔和的关闭按钮颜色 */
     padding: 0 5px;
     line-height: 1;
+    transition: color 0.2s ease-in-out;
   }
 
-  #chat-messages {
-    flex-grow: 1; /* Message area takes up most of the vertical space */
-    overflow-y: auto; /* Enable scrolling for messages */
+  #chat-header button:hover {
+    color: var(--header-color); /* 悬停时变深 */
+  }
+
+  /* 聊天消息区域 */
+  #chat-messages-full {
+    flex-grow: 1;
+    overflow-y: auto;
     padding: 15px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    background: #fcfcfc; /* Slightly off-white for message area */
-  }
-
-  .bot-message, .user-message {
-    padding: 10px 12px;
-    border-radius: 12px;
-    max-width: 85%;
-    word-wrap: break-word; /* Ensure long words break within the bubble */
-    white-space: pre-wrap; /* Preserve whitespace and allow line breaks */
+    gap: 12px;
+    background-color: var(--chat-message-area-bg);
     line-height: 1.6;
+    scroll-behavior: smooth; /* 平滑滚动 */
   }
+
+  /* 消息气泡样式 */
+  .chat-message {
+    padding: 10px 14px;
+    border-radius: 18px; /* 更现代的圆角 */
+    max-width: 85%;
+    word-wrap: break-word;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08); /* 柔和阴影 */
+    position: relative;
+    font-size: 0.95rem; /* 气泡内文本略小 */
+  }
+
   .bot-message {
-    background: #eef; /* Light blue from previous version */
-    align-self: flex-start; /* Align bot messages to the left */
-    color: #34495e; /* Default text color */
+    background: var(--bot-message-bg);
+    align-self: flex-start;
+    border-bottom-left-radius: 4px; /* 一角略尖 */
+    color: var(--primary-text-color);
   }
+
   .user-message {
-    background: #dcf8c6; /* Light green from previous version */
-    align-self: flex-end; /* Align user messages to the right */
-    color: #34495e;
-  }
-  /* Markdown styling within messages */
-  .bot-message a, .user-message a {
-    color: #3a77d8; /* Link color from your site */
-    text-decoration: underline;
-  }
-  .bot-message strong, .user-message strong {
-    font-weight: 700; /* Bold from your site */
-  }
-  /* Initial bot message style to push it to bottom if few messages */
-  .bot-message.initial-message {
-    margin-top: auto;
+    background: var(--user-message-bg);
+    align-self: flex-end;
+    border-bottom-right-radius: 4px; /* 一角略尖 */
+    color: var(--primary-text-color);
   }
 
-  #chat-input-container {
+  /* 打字动画指示器 */
+  .thinking-message {
+    background: var(--bot-message-bg);
+    align-self: flex-start;
+    border-bottom-left-radius: 4px;
+    color: var(--primary-text-color);
+    padding: 10px 14px;
+    border-radius: 18px;
+    max-width: 85%;
+    font-size: 0.95rem;
+  }
+  .thinking-message::after {
+    content: '.';
+    animation: typing-dots 1.5s infinite steps(3, end); /* 3步动画 */
+  }
+  @keyframes typing-dots {
+    0%, 20% { content: '.'; }
+    40% { content: '..'; }
+    60%, 100% { content: '...'; }
+  }
+
+
+  /* 聊天输入框容器（完整窗口） */
+  #chat-input-container-full {
     display: flex;
-    border-top: 1px solid #e0e0e0; /* Match header border */
     padding: 10px 15px;
-    background: #f4f6f8; /* Match header background */
+    border-top: 1px solid var(--border-color);
+    background: var(--chat-header-bg); /* 与头部背景一致 */
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
   }
-  #chat-input-expanded {
+
+  #chat-input-full {
     flex-grow: 1;
-    border: 1px solid #a8adac; /* From your site's input border */
-    border-radius: 6px; /* Slightly rounded for the expanded input field */
-    padding: 8px 12px;
-    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 20px; /* 完全圆角输入框 */
+    padding: 8px 15px;
+    outline: none;
+    font-size: 1rem;
+    color: var(--primary-text-color);
+    background: var(--input-bg-color);
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   }
-  #chat-input-expanded:focus {
-    border-color: #3a77d8; /* Focus color from your site's links */
+
+  #chat-input-full:focus {
+    border-color: var(--link-color); /* 聚焦时高亮 */
+    box-shadow: 0 0 0 2px rgba(var(--link-color-rgb), 0.2); /* 柔和的聚焦光晕 */
   }
-  #chat-input-container button {
-    margin-left: 10px;
+
+  #chat-send-button {
+    border: none;
+    background: var(--send-button-bg);
+    color: white;
     padding: 8px 18px;
-    border-radius: 6px; /* Rounded buttons in expanded state */
+    border-radius: 20px; /* 完全圆角按钮 */
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.2s ease-in-out, opacity 0.2s ease-in-out;
   }
 
-  /* Utility class to hide elements */
-  .hidden {
-    display: none !important;
+  #chat-send-button:hover:not(:disabled) {
+    background: var(--send-button-hover-bg);
   }
 
-  /* Mobile responsiveness */
+  #chat-send-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  /* Markdown 内部元素样式（确保在聊天气泡内正确渲染） */
+  .chat-message p:last-child { margin-bottom: 0; } /* 移除消息中最后一个 p 标签的额外底部边距 */
+  .chat-message p { margin-top: 0.5em; margin-bottom: 0.5em; } /* 调整段落间距 */
+  .chat-message ul, .chat-message ol { padding-left: 20px; margin-top: 0.5em; margin-bottom: 0.5em; }
+  .chat-message li { margin-bottom: 0.2em; }
+  .chat-message strong { font-weight: 700; color: var(--header-color); } /* 加粗文本 */
+  .chat-message em { font-style: italic; } /* 斜体文本 */
+  .chat-message a { color: var(--link-color); text-decoration: underline; } /* 链接 */
+  .chat-message a:hover { color: var(--link-hover-color); }
+  .chat-message code { 
+    background-color: rgba(var(--header-color-rgb), 0.1); 
+    padding: 2px 4px; 
+    border-radius: 4px; 
+    font-family: monospace; 
+    font-size: 0.85em; 
+    white-space: pre-wrap; /* 允许代码内换行 */
+    word-break: break-all; /* 强制长单词换行 */
+  }
+  .chat-message pre { 
+    background-color: var(--fafafa); 
+    padding: 10px; 
+    border-radius: 5px; 
+    overflow-x: auto; 
+    margin-top: 1em; 
+    margin-bottom: 1em; 
+    line-height: 1.4;
+  }
+  .chat-message blockquote {
+    border-left: 4px solid var(--border-color);
+    padding-left: 10px;
+    margin: 1em 0;
+    color: var(--primary-text-color);
+    font-style: italic;
+  }
+
+  /* 手机端适配 */
   @media (max-width: 768px) {
-    #chat-ui-wrapper {
-      right: 10px; /* Adjust right margin for smaller screens */
-      left: 10px; /* Add left margin */
-    }
-    #chat-collapsed-input {
-      width: calc(100% - 20px); /* Full width minus side margins */
-      left: 10px;
-      right: 10px;
-      transform: translateY(-50px);
-    }
-    #chat-expanded-box {
-      width: calc(100% - 20px); /* Almost full width minus side margins */
-      top: 10px; /* Closer to top */
-      bottom: 10px; /* Closer to bottom */
-      max-width: none; /* Allow full mobile width */
-      left: 10px;
-      right: 10px;
-      transform: none; /* No horizontal transform needed */
-      border-radius: 5px; /* Slightly smaller border radius for mobile */
-    }
-    #chat-header, #chat-input-container {
-      padding: 8px 10px; /* Adjust padding for mobile */
-      font-size: 1em;
-    }
-    #chat-header button {
-      font-size: 1.1em;
-    }
-    #chat-messages {
-      padding: 10px;
-      gap: 8px; /* Slightly smaller gap between messages */
-    }
-    .bot-message, .user-message {
-      max-width: 90%; /* Slightly wider on mobile */
-      padding: 8px 10px;
-      font-size: 0.95rem; /* Slightly smaller font size */
-    }
-    #chat-input-expanded {
+    #chat-floating-input {
+      bottom: 70px; /* 手机端离底部更近 */
+      right: 15px;
+      width: calc(100% - 30px); /* 手机端宽度占满 */
       padding: 6px 10px;
     }
-    #chat-input-container button {
-      padding: 6px 15px;
+    #chat-floating-input input {
+      font-size: 0.95rem;
+    }
+
+    #chat-full-window {
+      width: 100vw; /* 手机端宽度全屏 */
+      height: 100vh; /* 手机端高度全屏 */
+      border-radius: 0; /* 手机端取消圆角 */
+      top: 0;
+      left: 0;
+      transform: translate(0, 0) scale(0.95); /* 手机端不进行 translate，只处理 scale */
+      transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55), opacity 0.3s ease-out, visibility 0s 0.3s;
+    }
+    #chat-full-window.open {
+      transform: translate(0, 0) scale(1);
+    }
+
+    #chat-header {
+      padding: 10px 12px;
+      font-size: 1rem;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+    #chat-header button {
+      font-size: 1.3rem;
+    }
+    #chat-messages-full {
+      padding: 12px;
+      gap: 10px;
+    }
+    .chat-message {
+      padding: 8px 12px;
+      font-size: 0.9rem;
+    }
+    #chat-input-container-full {
+      padding: 8px 12px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    #chat-input-full, #chat-send-button {
+      padding: 6px 12px;
+      font-size: 0.9rem;
     }
   }
 </style>
 
-<!-- Calling Worker API JavaScript -->
+<!-- Chat Widget HTML -->
+<div class="chat-widget">
+  <!-- 默认浮动输入框 -->
+  <div id="chat-floating-input">
+    <input type="text" id="chat-initial-input" placeholder="向我提问..." />
+  </div>
+
+  <!-- 聊天框外背景遮罩层 -->
+  <div id="chat-overlay"></div>
+
+  <!-- 完整的聊天窗口 -->
+  <div id="chat-full-window">
+    <div id="chat-header">
+      <span id="chat-title">佛法问答</span>
+      <button id="chat-close-button" aria-label="关闭聊天">&times;</button> <!-- Unicode '×' 作为关闭图标 -->
+    </div>
+    <div id="chat-messages-full">
+      <div class="bot-message chat-message">阿弥陀佛，请问有什么可以帮助您？</div>
+    </div>
+    <div id="chat-input-container-full">
+      <input type="text" id="chat-input-full" placeholder="输入您的问题..." />
+      <button id="chat-send-button" disabled>发送</button>
+    </div>
+  </div>
+</div>
+
+<!-- Chat Widget JavaScript -->
 <script>
-  // --- Element References ---
-  const chatUiWrapper = document.getElementById('chat-ui-wrapper');
-  const chatCollapsedInput = document.getElementById('chat-collapsed-input');
-  const chatInputCollapsed = document.getElementById('chat-input-collapsed');
-  const chatSendCollapsed = document.getElementById('chat-send-collapsed');
+  // Cloudflare Worker URL
+  const WORKER_URL = 'https://proxy.true-dhamma.com/kb-chat';
 
-  const chatExpandedBox = document.getElementById('chat-expanded-box');
+  // DOM 元素获取
+  const chatFloatingInput = document.getElementById('chat-floating-input');
+  const chatInitialInput = document.getElementById('chat-initial-input');
+  const chatFullWindow = document.getElementById('chat-full-window');
+  const chatOverlay = document.getElementById('chat-overlay');
   const chatCloseButton = document.getElementById('chat-close-button');
-  const chatMessages = document.getElementById('chat-messages');
-  const chatInputExpanded = document.getElementById('chat-input-expanded');
-  const chatSendExpanded = document.getElementById('chat-send-expanded');
+  const chatMessagesFull = document.getElementById('chat-messages-full');
+  const chatInputFull = document.getElementById('chat-input-full');
+  const chatSendButton = document.getElementById('chat-send-button');
 
-  // --- Configuration ---
-  const WORKER_URL = 'https://proxy.true-dhamma.com/kb-chat'; // Your KB-Chat Worker URL
+  // --- 辅助函数 ---
 
-  // --- State Management ---
-  let isChatExpanded = false;
+  // Markdown 渲染函数
+  const renderMarkdown = (markdownText) => {
+    // 设置 marked.js 选项
+    marked.setOptions({
+        gfm: true, // 启用 GitHub Flavored Markdown
+        breaks: true, // 将换行符转换为 <br>
+        // highlight: function(code, lang) { // 可选：代码高亮
+        //   const hljs = window.hljs; // 如果您有引入 highlight.js
+        //   if (hljs && lang && hljs.getLanguage(lang)) {
+        //     try {
+        //       return hljs.highlight(code, { language: lang }).value;
+        //     } catch (__) {}
+        //   }
+        //   return code;
+        // }
+    });
+    // 使用 marked.parse 将 Markdown 文本解析为 HTML
+    return marked.parse(markdownText || '');
+  };
 
-  /**
-   * Toggles the chat UI between collapsed and expanded states.
-   * @param {boolean} expanded - True to expand, false to collapse.
-   */
-  function setChatState(expanded) {
-    isChatExpanded = expanded;
-    if (expanded) {
-      chatCollapsedInput.classList.add('hidden');
-      chatExpandedBox.classList.remove('hidden');
-      chatInputExpanded.focus(); // Focus on the input in the expanded box
-    } else {
-      chatCollapsedInput.classList.remove('hidden');
-      chatExpandedBox.classList.add('hidden');
-      chatInputExpanded.value = ''; // Clear expanded input when collapsing
-      chatInputCollapsed.focus(); // Focus on the collapsed input
+  // 打字机效果函数（带 Markdown 渲染）
+  async function typewriterEffect(element, markdownText, speed = 20) { // 调整速度以获得更平滑的效果
+    let i = 0;
+    element.innerHTML = ''; // 清空现有内容
+
+    // 逐字符显示，并实时渲染整个已显示内容的 Markdown
+    while (i < markdownText.length) {
+      const currentText = markdownText.substring(0, i + 1);
+      element.innerHTML = renderMarkdown(currentText);
+      chatMessagesFull.scrollTop = chatMessagesFull.scrollHeight; // 自动滚动到底部
+      await new Promise(resolve => setTimeout(resolve, speed)); // 暂停一段时间
+      i++;
     }
-    scrollToBottom(); // Always scroll to bottom after state change
   }
 
-  // --- Utility: Markdown Renderer (Lightweight and incremental for typing effect) ---
-  // This renderer needs to be efficient as it runs on every character/interval.
-  // It handles bold, links, and newlines. It avoids complex block-level parsing
-  // during typing for performance, focusing on inline elements and line breaks.
-  function renderPartialMarkdown(markdownText) {
-    let html = markdownText;
+  // --- UI 状态管理 ---
 
-    // Bold: **text** -> <strong>text</strong>
-    // Needs to handle cases where ** is split, so non-greedy `*?`
-    html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  // 打开聊天窗口
+  function openChat() {
+    chatFloatingInput.style.display = 'none'; // 隐藏浮动输入框
+    chatFullWindow.classList.add('open'); // 添加 'open' 类以显示聊天窗口
+    chatOverlay.classList.add('open'); // 显示遮罩层
     
-    // Links: [text](url) -> <a href="url" target="_blank">text</a>
-    // Ensure relative URLs are handled correctly and target="_blank" for safety.
-    html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, text, url) => {
-        const target = url.startsWith('http') || url.startsWith('//') ? '_blank' : '_self';
-        return `<a href="${url}" target="${target}">${text}</a>`;
-    });
-    
-    // Convert newlines to <br> for simple line breaks within a message block.
-    // This allows visual breaks during typing without complex paragraph reconstruction.
-    html = html.replace(/\n/g, '<br>');
-
-    return html;
+    // 将浮动输入框中的内容转移到完整聊天框的输入框
+    if (chatInitialInput.value.trim() !== '') {
+        chatInputFull.value = chatInitialInput.value;
+        chatInitialInput.value = ''; // 清空浮动输入框
+    }
+    chatInputFull.focus(); // 聚焦到完整聊天框的输入框
+    toggleSendButtonState(); // 更新发送按钮状态
   }
 
-  // --- Typing Effect Function ---
-  /**
-   * Simulates typing a message into a given HTML element with Markdown rendering.
-   * @param {HTMLElement} targetElement - The element to type into.
-   * @param {string} fullText - The complete text to type.
-   * @returns {Promise<void>} A promise that resolves when typing is complete.
-   */
-  async function typeMessage(targetElement, fullText) {
-    targetElement.innerHTML = ''; // Clear existing content before typing
-    let currentText = '';
-    let charIndex = 0;
-    const typingDelay = 25; // Milliseconds per character for typing speed
-    const renderInterval = 5; // Re-render markdown every N characters to balance performance and visual effect
-
-    return new Promise(resolve => {
-      function typeChar() {
-        if (charIndex < fullText.length) {
-          currentText += fullText.charAt(charIndex);
-          // Only re-render Markdown periodically or at the very end of the message
-          if (charIndex % renderInterval === 0 || charIndex === fullText.length - 1) {
-             targetElement.innerHTML = renderPartialMarkdown(currentText);
-             scrollToBottom();
-          }
-          charIndex++;
-          setTimeout(typeChar, typingDelay);
-        } else {
-          // Ensure final, complete Markdown rendering for the whole text
-          targetElement.innerHTML = renderPartialMarkdown(fullText);
-          scrollToBottom();
-          resolve();
-        }
-      }
-      typeChar(); // Start typing
-    });
+  // 关闭聊天窗口
+  function closeChat() {
+    chatFullWindow.classList.remove('open'); // 移除 'open' 类以隐藏聊天窗口
+    chatOverlay.classList.remove('open'); // 隐藏遮罩层
+    chatFloatingInput.style.display = 'flex'; // 显示浮动输入框
+    chatInitialInput.value = ''; // 清空浮动输入框内容
   }
 
-  // --- Send Message Logic ---
-  /**
-   * Handles sending a user message, displaying it, calling the worker,
-   * and displaying the bot's response with a typing effect.
-   * @param {HTMLInputElement} inputElement - The input field where the query was typed.
-   * @param {HTMLButtonElement} sendButton - The send button.
-   */
-  async function sendMessage(inputElement, sendButton) {
-    const query = inputElement.value.trim();
+  // 根据输入框内容启用/禁用发送按钮
+  function toggleSendButtonState() {
+    chatSendButton.disabled = chatInputFull.value.trim() === '';
+  }
+
+  // --- 事件监听器 ---
+
+  // 浮动输入框聚焦或点击时打开聊天
+  chatFloatingInput.addEventListener('click', openChat);
+  chatInitialInput.addEventListener('focus', openChat); // 确保通过 Tab 键聚焦也能打开
+
+  // 关闭聊天按钮和遮罩层点击事件
+  chatCloseButton.addEventListener('click', closeChat);
+  chatOverlay.addEventListener('click', closeChat);
+
+  // 监听完整聊天框输入框的输入事件，更新发送按钮状态
+  chatInputFull.addEventListener('input', toggleSendButtonState);
+
+  // 发送消息函数
+  async function sendMessage() {
+    const query = chatInputFull.value.trim();
     if (!query) return;
 
-    // Display user's question
+    // 显示用户的问题
     const userMessageDiv = document.createElement('div');
-    userMessageDiv.className = 'user-message';
-    userMessageDiv.textContent = query;
-    chatMessages.appendChild(userMessageDiv);
-    scrollToBottom();
+    userMessageDiv.classList.add('user-message', 'chat-message');
+    userMessageDiv.innerHTML = renderMarkdown(query); // 用户消息直接渲染 Markdown
+    chatMessagesFull.appendChild(userMessageDiv);
+    
+    chatInputFull.value = ''; // 清空输入框
+    toggleSendButtonState(); // 禁用发送按钮
+    chatSendButton.textContent = '思考中...'; // 显示思考中状态
+    chatSendButton.disabled = true;
 
-    // Clear input and disable send button
-    inputElement.value = '';
-    sendButton.disabled = true;
-    sendButton.textContent = '思考中...';
-
-    // Display a temporary thinking message from the bot
+    // 显示思考指示器
     const thinkingMessageDiv = document.createElement('div');
-    thinkingMessageDiv.className = 'bot-message';
-    thinkingMessageDiv.textContent = '思考中...'; // Initial text
-    chatMessages.appendChild(thinkingMessageDiv);
-    scrollToBottom();
+    thinkingMessageDiv.classList.add('bot-message', 'chat-message', 'thinking-message');
+    chatMessagesFull.appendChild(thinkingMessageDiv);
+    chatMessagesFull.scrollTop = chatMessagesFull.scrollHeight; // 滚动到底部
 
     try {
       const response = await fetch(WORKER_URL, {
@@ -423,68 +509,50 @@ excerpt: Search for a page or post you're looking for
       }
 
       const data = await response.json();
-      // Replace the thinking message with the actual answer, using the typing effect
-      await typeMessage(thinkingMessageDiv, data.answer);
+      
+      // 移除思考指示器
+      chatMessagesFull.removeChild(thinkingMessageDiv);
+
+      // 显示机器人回复，使用打字机效果
+      const botMessageDiv = document.createElement('div');
+      botMessageDiv.classList.add('bot-message', 'chat-message');
+      chatMessagesFull.appendChild(botMessageDiv);
+      await typewriterEffect(botMessageDiv, data.answer); // 打字机效果
 
     } catch (error) {
-      // Display error message, also with Markdown rendering
-      thinkingMessageDiv.innerHTML = renderPartialMarkdown('抱歉，服务出现了一点问题，请稍后再试。');
+      // 错误处理
+      if (thinkingMessageDiv.parentNode === chatMessagesFull) {
+          thinkingMessageDiv.classList.remove('thinking-message');
+          thinkingMessageDiv.textContent = '抱歉，服务出现了一点问题，请稍后再试。';
+      } else {
+          // 如果 thinkingMessageDiv 已经被移除（比如在打字机效果前出错了），则创建新的错误消息
+          const errorMessageDiv = document.createElement('div');
+          errorMessageDiv.classList.add('bot-message', 'chat-message');
+          errorMessageDiv.textContent = '抱歉，服务出现了一点问题，请稍后再试。';
+          chatMessagesFull.appendChild(errorMessageDiv);
+      }
       console.error('Chat error:', error);
     } finally {
-      // Re-enable send button and restore its text
-      sendButton.disabled = false;
-      sendButton.textContent = '发送';
-      scrollToBottom(); // Ensure scroll to bottom after final message/error
+      chatSendButton.disabled = false; // 启用发送按钮
+      chatSendButton.textContent = '发送'; // 恢复按钮文本
+      chatMessagesFull.scrollTop = chatMessagesFull.scrollHeight; // 滚动到底部
+      chatInputFull.focus(); // 保持焦点在输入框
     }
   }
 
-  // --- Scroll to Bottom Utility ---
-  function scrollToBottom() {
-    // Smooth scroll if browser supports it
-    chatMessages.scrollTo({
-      top: chatMessages.scrollHeight,
-      behavior: 'smooth'
-    });
-  }
-
-  // --- Event Listeners ---
-
-  // Collapsed input element interactions
-  chatInputCollapsed.addEventListener('focus', () => setChatState(true));
-  chatInputCollapsed.addEventListener('click', () => setChatState(true));
-  chatSendCollapsed.addEventListener('click', () => {
-    // Expand the chat first, then send the message from the expanded input
-    setChatState(true);
-    // Use a small timeout to allow UI to expand before sending
-    setTimeout(() => {
-      chatInputExpanded.value = chatInputCollapsed.value; // Transfer text
-      sendMessage(chatInputExpanded, chatSendExpanded);
-    }, 10);
-  });
-  chatInputCollapsed.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter') {
-      event.preventDefault(); // Prevent form submission or newline
-      setChatState(true);
-      setTimeout(() => {
-        chatInputExpanded.value = chatInputCollapsed.value;
-        sendMessage(chatInputExpanded, chatSendExpanded);
-      }, 10);
+  // 完整聊天框的发送按钮点击和回车键事件
+  chatSendButton.addEventListener('click', sendMessage);
+  chatInputFull.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' && !chatSendButton.disabled) {
+      event.preventDefault(); // 阻止默认的回车换行行为
+      sendMessage();
     }
   });
 
+  // 页面加载时，确保浮动输入框可见且可交互
+  chatFloatingInput.style.display = 'flex';
+  // 如果输入框有预填充内容（例如浏览器自动填充），则更新按钮状态
+  toggleSendButtonState();
 
-  // Expanded chat close button
-  chatCloseButton.addEventListener('click', () => setChatState(false));
 
-  // Expanded chat input and send button interactions
-  chatSendExpanded.addEventListener('click', () => sendMessage(chatInputExpanded, chatSendExpanded));
-  chatInputExpanded.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter' && !event.shiftKey) { // Shift+Enter for multiline input
-      event.preventDefault(); // Prevent newline in input
-      sendMessage(chatInputExpanded, chatSendExpanded);
-    }
-  });
-
-  // --- Initial Setup ---
-  setChatState(false); // Start the chat in a collapsed state by default
 </script>
