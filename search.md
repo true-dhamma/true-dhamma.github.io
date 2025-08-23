@@ -9,8 +9,8 @@ excerpt: Search for a page or post's content
   =============================================================
   Modern Chatbot UI v2.4
   Author: Gemini Assistant & User
-  Updates: PC input alignment fix, visible mobile close button,
-           no-jump on mobile close, list indentation fix.
+  Updates: Perfected input/button alignment, fixed mobile close button,
+           aligned lists inside bubbles, and refined color scheme.
   =============================================================
 -->
 
@@ -73,75 +73,115 @@ excerpt: Search for a page or post's content
 
 /* Chat FAB Button */
 .chat-fab-button {
-    position: fixed; bottom: 30px; right: 30px; z-index: 1000;
-    display: flex; justify-content: center; align-items: center;
-    width: 56px; height: 56px; border: none; background-color: #3a77d8;
-    color: #fff; border-radius: 50%; cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border: none;
+    background-color: #3a77d8;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
     box-shadow: 0 6px 16px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
     -webkit-tap-highlight-color: transparent;
 }
-.chat-fab-button:hover { background-color: #2e60ad; transform: translateY(-2px); }
-.chat-fab-button .chat-icon { fill: #fff; }
+.chat-fab-button:hover {
+    background-color: #2e60ad;
+    transform: translateY(-2px);
+}
+.chat-fab-button .chat-icon {
+    fill: #fff;
+}
 
 /* Chat Overlay */
 .chat-overlay {
-    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(44, 62, 80, 0.6); z-index: 1100;
-    display: flex; justify-content: center; align-items: center;
-    opacity: 1; visibility: visible;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(44, 62, 80, 0.6);
+    z-index: 1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
     transition: opacity 0.3s ease, visibility 0s 0s;
 }
 .chat-overlay.hidden {
-    opacity: 0; visibility: hidden;
+    opacity: 0;
+    visibility: hidden;
     transition: opacity 0.3s ease, visibility 0s 0.3s;
 }
 
 /* Chat Modal */
 .chat-modal {
-    background: #ffffff; border-radius: 12px;
+    background: #ffffff;
+    border-radius: 12px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.2);
-    display: flex; flex-direction: column;
-    width: 90vw; height: 85vh;
-    max-width: 700px; max-height: 800px;
-    overflow: hidden; transform: scale(1);
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 85vh;
+    max-width: 700px;
+    max-height: 800px;
+    overflow: hidden;
+    transform: scale(1);
     transition: transform 0.3s ease;
 }
-.chat-overlay.hidden .chat-modal { transform: scale(0.95); }
 
 /* Header */
 .chat-header {
-    background: #f4f6f8; color: #2c3e50; padding: 14px 20px;
+    background: #f4f6f8;
+    color: #2c3e50;
+    padding: 14px 20px;
     border-bottom: 1px solid #e0e0e0;
-    display: flex; justify-content: space-between; align-items: center;
-    font-weight: 700; font-size: 1.1rem;
-    flex-shrink: 0; position: relative; z-index: 10; /* Ensure header is on top */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    flex-shrink: 0;
 }
 .chat-close-button {
     background: none; border: none; font-size: 1.8rem; line-height: 1;
-    cursor: pointer; color: #555; /* Darker for visibility */
-    padding: 0 5px; transition: color 0.2s ease;
-    z-index: 11; /* Ensure button is on top of header content */
+    cursor: pointer; color: #a8adac; padding: 0 5px; transition: color 0.2s ease;
 }
-.chat-close-button:hover { color: #000; }
+.chat-close-button:hover { color: #2c3e50; }
 
 /* Messages Container */
 .chat-messages {
-    flex-grow: 1; padding: 20px; overflow-y: auto;
-    display: flex; flex-direction: column; gap: 14px;
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
 
 /* Individual Message Styles */
 .chat-messages .message {
-    max-width: 85%; padding: 12px 18px; border-radius: 18px;
-    word-wrap: break-word; box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+    max-width: 85%;
+    padding: 12px 18px;
+    border-radius: 18px;
+    word-wrap: break-word;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
     line-height: 1.6;
 }
 .chat-messages .user-message {
-    background: #dcf8c6; align-self: flex-end; border-bottom-right-radius: 4px;
+    background: #EAEAEA; /* FIX: New neutral user message color */
+    color: #2c3e50;
+    align-self: flex-end;
+    border-bottom-right-radius: 4px;
 }
 .chat-messages .bot-message {
-    background: #eaf2ff; align-self: flex-start; border-bottom-left-radius: 4px;
+    background: #eaf2ff;
+    align-self: flex-start;
+    border-bottom-left-radius: 4px;
 }
 
 /* Markdown Rendering Styles */
@@ -152,19 +192,20 @@ excerpt: Search for a page or post's content
 .message-content a { color: #3a77d8; text-decoration: underline; }
 .message-content ul, .message-content ol { 
     margin: 0.7em 0;
-    padding-left: 0; /* FIX: Remove browser default padding */
-    list-style-position: inside; /* FIX: Bring markers inside the bubble */
+    padding-left: 0; /* FIX: Remove default padding */
+    list-style-position: inside; /* FIX: Move marker inside the bubble */
 }
-.message-content li { margin-left: 1em; } /* Add a small margin to list items for readability */
+.message-content li { margin-bottom: 0.25em; }
 
 /* Input Area */
 .chat-input-area {
     display: flex;
-    align-items: flex-end; /* Align bottom of textarea with bottom of button */
+    align-items: flex-end;
     padding: 12px 15px;
     border-top: 1px solid #e0e0e0;
     background: #fff;
     flex-shrink: 0;
+    gap: 10px;
 }
 .chat-input-area textarea {
     flex-grow: 1;
@@ -173,7 +214,7 @@ excerpt: Search for a page or post's content
     padding: 10px 18px;
     resize: none;
     max-height: 120px;
-    font-size: 1.05rem;
+    font-size: 1rem;
     outline: none;
     transition: border-color 0.2s ease;
     -webkit-appearance: none;
@@ -181,10 +222,18 @@ excerpt: Search for a page or post's content
 .chat-input-area textarea:focus { border-color: #3a77d8; }
 
 .chat-submit-button {
-    background: #3a77d8; border: none; border-radius: 50%;
-    width: 44px; height: 44px; margin-left: 10px; cursor: pointer;
-    flex-shrink: 0; display: flex; justify-content: center; align-items: center;
-    transition: all 0.2s ease; color: white;
+    background: #3a77d8;
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    color: white;
     -webkit-tap-highlight-color: transparent;
 }
 .chat-submit-button:hover:not(:disabled) { background-color: #2e60ad; }
@@ -194,12 +243,17 @@ excerpt: Search for a page or post's content
 /* Mobile Responsive adjustments (Fullscreen experience) */
 @media (max-width: 768px) {
     .chat-modal {
-        width: 100%; height: 100%;
-        max-width: 100vw; max-height: 100vh;
+        width: 100%;
+        height: 100%;
+        max-width: 100vw;
+        max-height: 100vh;
         border-radius: 0;
     }
     .chat-modal, .chat-modal * {
         font-size: 17px;
+    }
+    .chat-header .chat-close-button {
+        color: #2c3e50; /* FIX: Ensure close button is visible on mobile */
     }
     .chat-input-area textarea {
         font-size: 16px; /* CRITICAL: Must be >= 16px to prevent iOS auto-zoom */
@@ -232,18 +286,17 @@ document.addEventListener('DOMContentLoaded', () => {
     renderer.link = (href, title, text) => {
         return `<a href="${href}" title="${title || ''}" target="_blank" rel="noopener noreferrer">${text}</a>`;
     };
-    marked.setOptions({ renderer, gfm: true, breaks: true });
+    marked.setOptions({
+        renderer: renderer,
+        gfm: true,
+        breaks: true,
+    });
     const sanitize = DOMPurify.sanitize;
 
     // --- UI Logic ---
     const openChat = () => {
-        // FIX: Prevent page jump on mobile when hiding scrollbar
-        const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-        if (scrollbarWidth > 0) {
-            document.body.style.paddingRight = `${scrollbarWidth}px`;
-        }
-        document.body.style.overflow = 'hidden';
         chatOverlay.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
         setTimeout(() => chatInput.focus(), 300);
     };
 
@@ -251,7 +304,6 @@ document.addEventListener('DOMContentLoaded', () => {
         stopFetchingAndTyping();
         chatOverlay.classList.add('hidden');
         document.body.style.overflow = '';
-        document.body.style.paddingRight = ''; // Reset padding
     };
     
     const setButtonState = (state) => {
