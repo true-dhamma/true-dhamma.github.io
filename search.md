@@ -7,11 +7,12 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v3.0 (Font and UI Polish)
+  Modern Chatbot UI v4.0 (Conversational Context)
   Author: Gemini Assistant & User
-  Updates: 1. Increased base font size for better readability on all devices.
-           2. Kept the input text area font size unchanged as requested.
-           3. Standardized the close button color to black on all devices.
+  Updates: 1. Implemented chat history management on the client-side.
+           2. Each request now sends the conversation history to the worker.
+           3. Added a "New Chat" button to clear history and start over.
+           4. Implemented a sliding window for history to prevent token overflow.
   =============================================================
 -->
 
@@ -28,7 +29,10 @@ excerpt: Search for a page or post's content
   <div id="chat-modal" class="chat-modal">
     <div class="chat-header">
       <span class="chat-title">佛法问答</span>
-      <button id="chat-close-button" class="chat-close-button" aria-label="关闭聊天">&times;</button>
+      <div>
+        <button id="chat-new-button" class="chat-header-button" aria-label="新聊天">新聊天</button>
+        <button id="chat-close-button" class="chat-header-button" aria-label="关闭聊天">&times;</button>
+      </div>
     </div>
     <div id="chat-messages" class="chat-messages">
       <div class="message bot-message">
@@ -51,223 +55,93 @@ excerpt: Search for a page or post's content
   </div>
 </div>
 
-<!-- Dependencies: Markdown Parser (marked.js) and HTML Sanitizer (DOMPurify) -->
+<!-- Dependencies -->
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.11/dist/purify.min.js"></script>
 
 
 <style>
-/* Reset and Base Styles to avoid conflicts with the main site's CSS */
+/* Base Styles */
 .chat-fab-button, .chat-modal, .chat-modal * {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     box-sizing: border-box;
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    /* UPDATE: Increased base font size for PC */
-    font-size: 19px; 
+    font-size: 19px;
 }
-.chat-fab-button svg, .chat-submit-button svg {
-    height: 24px;
-    width: 24px;
-}
+.chat-fab-button svg, .chat-submit-button svg { height: 24px; width: 24px; }
 
-/* Chat FAB Button */
+/* FAB */
 .chat-fab-button {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 56px;
-    height: 56px;
-    border: none;
-    background-color: #3a77d8;
-    color: #fff;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-    transition: all 0.2s ease-in-out;
+    position: fixed; bottom: 30px; right: 30px; z-index: 1000;
+    display: flex; justify-content: center; align-items: center;
+    width: 56px; height: 56px; border: none; background-color: #3a77d8;
+    color: #fff; border-radius: 50%; cursor: pointer;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2); transition: all 0.2s ease-in-out;
     -webkit-tap-highlight-color: transparent;
 }
-.chat-fab-button:hover {
-    background-color: #2e60ad;
-    transform: translateY(-2px);
-}
-.chat-fab-button .chat-icon {
-    fill: #fff;
-}
+.chat-fab-button:hover { background-color: #2e60ad; transform: translateY(-2px); }
+.chat-fab-button .chat-icon { fill: #fff; }
 
-/* Chat Overlay */
+/* Overlay & Modal */
 .chat-overlay {
-    position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(44, 62, 80, 0.6);
-    z-index: 1100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 0.3s ease; /* Animate only opacity */
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(44, 62, 80, 0.6); z-index: 1100;
+    display: flex; justify-content: center; align-items: center;
+    opacity: 1; visibility: visible; transition: opacity 0.3s ease;
 }
-.chat-overlay.hidden {
-    visibility: hidden;
-    opacity: 0;
-}
-
-/* Chat Modal */
+.chat-overlay.hidden { visibility: hidden; opacity: 0; }
 .chat-modal {
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
-    display: flex;
-    flex-direction: column;
-    width: 90vw;
-    height: 85vh;
-    max-width: 700px;
-    max-height: 800px;
-    overflow: hidden;
-    transform: scale(1);
-    transition: transform 0.3s ease;
+    background: #ffffff; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    display: flex; flex-direction: column; width: 90vw; height: 85vh;
+    max-width: 700px; max-height: 800px; overflow: hidden;
+    transform: scale(1); transition: transform 0.3s ease;
 }
-.chat-overlay.hidden .chat-modal {
-    transform: scale(0.95);
-}
+.chat-overlay.hidden .chat-modal { transform: scale(0.95); }
 
 /* Header */
 .chat-header {
-    background: #f4f6f8;
-    color: #2c3e50;
-    padding: 14px 20px;
-    border-bottom: 1px solid #e0e0e0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 700;
-    font-size: 1.1rem;
-    flex-shrink: 0;
+    background: #f4f6f8; color: #2c3e50; padding: 14px 20px;
+    border-bottom: 1px solid #e0e0e0; display: flex;
+    justify-content: space-between; align-items: center;
+    font-weight: 700; font-size: 1.1rem; flex-shrink: 0;
 }
-.chat-close-button {
-    background: none; border: none; font-size: 1.8rem; line-height: 1;
-    cursor: pointer; padding: 0 5px;
-    /* UPDATE: Standardized to black on all devices */
-    color: #2c3e50; 
+.chat-header-button {
+    background: none; border: none; cursor: pointer; color: #2c3e50;
+    font-size: 1rem; padding: 5px 8px; vertical-align: middle;
 }
+#chat-close-button { font-size: 1.8rem; line-height: 1; padding: 0 5px;}
 
-/* Messages Container */
-.chat-messages {
-    flex-grow: 1;
-    padding: 20px;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-}
+/* Messages */
+.chat-messages { flex-grow: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 14px; }
+.chat-messages .message { max-width: 85%; padding: 12px 18px; border-radius: 18px; word-wrap: break-word; box-shadow: 0 1px 2px rgba(0,0,0,0.08); line-height: 1.6; }
+.chat-messages .user-message { background: #EAEAEA; color: #2c3e50; align-self: flex-end; border-bottom-right-radius: 4px; }
+.chat-messages .bot-message { background: #eaf2ff; align-self: flex-start; border-bottom-left-radius: 4px; }
 
-/* Individual Message Styles */
-.chat-messages .message {
-    max-width: 85%;
-    padding: 12px 18px;
-    border-radius: 18px;
-    word-wrap: break-word;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
-    line-height: 1.6;
-}
-.chat-messages .user-message {
-    background: #EAEAEA;
-    color: #2c3e50;
-    align-self: flex-end;
-    border-bottom-right-radius: 4px;
-}
-.chat-messages .bot-message {
-    background: #eaf2ff;
-    align-self: flex-start;
-    border-bottom-left-radius: 4px;
-}
-
-/* Markdown Rendering Styles */
+/* Markdown & List Styles */
 .message-content { color: #2c3e50; font-size: 1em; }
 .message-content > *:first-child { margin-top: 0; }
 .message-content > *:last-child { margin-bottom: 0; }
 .message-content p { margin: 0.5em 0; padding: 0; } 
 .message-content a { color: #3a77d8; text-decoration: underline; cursor: pointer; }
-
-/* List Style Fix (Restore browser-like default behavior) */
-.message-content ul, .message-content ol {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding-left: 40px; 
-}
-.message-content li {
-    display: list-item;
-    margin-bottom: 0.5em;
-}
+.message-content ul, .message-content ol { margin-top: 1em; margin-bottom: 1em; padding-left: 40px; }
+.message-content li { display: list-item; margin-bottom: 0.5em; }
 
 /* Input Area */
-.chat-input-area {
-    display: flex;
-    align-items: flex-end;
-    padding: 12px 15px;
-    border-top: 1px solid #e0e0e0;
-    background: #fff;
-    flex-shrink: 0;
-    gap: 10px;
-}
-.chat-input-area textarea {
-    flex-grow: 1;
-    border: 1px solid #ccc;
-    border-radius: 22px;
-    padding: 8px 18px;
-    resize: none;
-    max-height: 120px;
-    outline: none;
-    transition: border-color 0.2s ease;
-    -webkit-appearance: none;
-    /* UPDATE: Explicitly set font size to keep it from changing */
-    font-size: 18px;
-}
+.chat-input-area { display: flex; align-items: flex-end; padding: 12px 15px; border-top: 1px solid #e0e0e0; background: #fff; flex-shrink: 0; gap: 10px; }
+.chat-input-area textarea { flex-grow: 1; border: 1px solid #ccc; border-radius: 22px; padding: 8px 18px; resize: none; max-height: 120px; outline: none; transition: border-color 0.2s ease; -webkit-appearance: none; font-size: 18px; }
 .chat-input-area textarea:focus { border-color: #3a77d8; }
-
-.chat-submit-button {
-    background: #3a77d8;
-    border: none;
-    border-radius: 50%;
-    width: 44px;
-    height: 44px;
-    cursor: pointer;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s ease;
-    color: white;
-    -webkit-tap-highlight-color: transparent;
-}
+.chat-submit-button { background: #3a77d8; border: none; border-radius: 50%; width: 44px; height: 44px; cursor: pointer; flex-shrink: 0; display: flex; justify-content: center; align-items: center; transition: all 0.2s ease; color: white; -webkit-tap-highlight-color: transparent; }
 .chat-submit-button:hover:not(:disabled) { background-color: #2e60ad; }
 .chat-submit-button:disabled { background-color: #a8adac; cursor: not-allowed; }
 .chat-submit-button .chat-icon { fill: currentColor; }
 
-/* Mobile Responsive adjustments (Fullscreen experience) */
+/* Mobile */
 @media (max-width: 768px) {
-    .chat-modal {
-        width: 100%;
-        height: 100%;
-        max-width: 100vw;
-        max-height: 100vh;
-        border-radius: 0;
-    }
-    .chat-modal, .chat-modal * {
-        /* UPDATE: Increased base font size for mobile */
-        font-size: 18px;
-    }
-    .chat-input-area textarea {
-        /* Keep mobile input text size consistent */
-        font-size: 16px;
-        padding: 10px 18px;
-    }
+    .chat-modal { width: 100%; height: 100%; max-width: 100vw; max-height: 100vh; border-radius: 0; }
+    .chat-modal, .chat-modal * { font-size: 18px; }
+    .chat-input-area textarea { font-size: 16px; padding: 10px 18px; }
 }
 </style>
 
@@ -275,15 +149,18 @@ excerpt: Search for a page or post's content
 document.addEventListener('DOMContentLoaded', () => {
     // --- Configuration ---
     const WORKER_URL = 'https://proxy.true-dhamma.com/kb-chat';
-    
+    const MAX_HISTORY_TURNS = 5; // Keep last 5 pairs of user/model messages
+
     // --- State Management ---
     let fetchController = null;
     let typingInterval = null;
+    let chatHistory = []; // <-- NEW: Array to store conversation history
 
     // --- DOM Elements ---
     const chatFabButton = document.getElementById('chat-fab-button');
     const chatOverlay = document.getElementById('chat-overlay');
     const chatCloseButton = document.getElementById('chat-close-button');
+    const chatNewButton = document.getElementById('chat-new-button'); // <-- NEW
     const chatMessages = document.getElementById('chat-messages');
     const chatInput = document.getElementById('chat-input');
     const chatSubmitButton = document.getElementById('chat-submit-button');
@@ -292,30 +169,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Markdown Parser Setup ---
     const renderer = new marked.Renderer();
-    renderer.link = (href, title, text) => {
-        // This is a good fallback, but the event listener is more robust.
-        return `<a href="${href}" title="${title || ''}" target="_blank" rel="noopener noreferrer">${text}</a>`;
-    };
+    renderer.link = (href, title, text) => `<a href="${href}" title="${title || ''}" target="_blank" rel="noopener noreferrer">${text}</a>`;
     marked.setOptions({ renderer: renderer, gfm: true, breaks: true });
     const sanitize = DOMPurify.sanitize;
 
     // --- UI Logic ---
     const openChat = () => {
-        document.body.style.overflow = 'hidden'; // Prevent background scroll
+        document.body.style.overflow = 'hidden';
         chatOverlay.classList.remove('hidden');
-        setTimeout(() => chatInput.focus(), 300); // Focus after transition
+        setTimeout(() => chatInput.focus(), 300);
     };
 
     const closeChat = () => {
         stopFetchingAndTyping();
-        // Start fade-out animation
-        chatOverlay.classList.add('hidden'); 
-        
-        // IMPORTANT: Restore scroll only *after* the fade-out animation completes
-        // to prevent the page from "jumping". The transition duration is 0.3s (300ms).
-        setTimeout(() => {
-            document.body.style.overflow = '';
-        }, 300);
+        chatOverlay.classList.add('hidden');
+        setTimeout(() => { document.body.style.overflow = ''; }, 300);
+    };
+    
+    // <-- NEW: Function to start a new chat -->
+    const startNewChat = () => {
+        stopFetchingAndTyping();
+        chatHistory = [];
+        chatMessages.innerHTML = `
+            <div class="message bot-message">
+                <div class="message-content">您好，新的对话已经开始。请问有什么可以帮助您？</div>
+            </div>`;
+        chatInput.focus();
     };
     
     const setButtonState = (state) => {
@@ -329,7 +208,74 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // --- Core Functionality ---
-    const typeMessage = (messageElement, fullMarkdown, delay = 15) => {
+    const typeMessage = (messageElement, fullMarkdown, delay = 15) => { /* ... (no changes) ... */ };
+    const stopFetchingAndTyping = () => { /* ... (no changes) ... */ };
+    
+    // <-- UPDATED: sendMessage to handle history -->
+    const sendMessage = async () => {
+        const query = chatInput.value.trim();
+        if (!query) return;
+
+        stopFetchingAndTyping();
+        
+        // Display user message
+        const userMessageDiv = document.createElement('div');
+        userMessageDiv.className = 'message user-message';
+        userMessageDiv.innerHTML = `<div class="message-content">${query.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</div>`;
+        chatMessages.appendChild(userMessageDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+        
+        chatInput.value = '';
+        chatInput.style.height = 'auto';
+        setButtonState('thinking');
+
+        // Create bot message placeholder
+        const botMessageDiv = document.createElement('div');
+        botMessageDiv.className = 'message bot-message';
+        const botMessageContent = document.createElement('div');
+        botMessageContent.className = 'message-content';
+        botMessageDiv.appendChild(botMessageContent);
+        chatMessages.appendChild(botMessageDiv);
+        
+        try {
+            fetchController = new AbortController();
+            
+            // Sliding window for history
+            const historyToSend = chatHistory.slice(-MAX_HISTORY_TURNS * 2);
+
+            const response = await fetch(WORKER_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ query, history: historyToSend }), // <-- SEND HISTORY
+                signal: fetchController.signal
+            });
+
+            if (!response.ok) throw new Error(`API 请求失败: ${response.statusText}`);
+
+            const data = await response.json();
+            await typeMessage(botMessageContent, data.answer);
+
+            // <-- UPDATE HISTORY -->
+            chatHistory.push({ role: 'user', parts: [{ text: query }] });
+            chatHistory.push({ role: 'model', parts: [{ text: data.answer }] });
+
+        } catch (error) {
+            if (error.name === 'AbortError') {
+                botMessageContent.textContent = '已停止。';
+            } else {
+                console.error('Chat error:', error);
+                botMessageContent.innerHTML = sanitize(marked.parse('抱歉，服务出现了一点问题，请稍后再试。'));
+            }
+        } finally {
+            if (fetchController && !fetchController.signal.aborted) {
+                setButtonState('idle');
+            }
+            fetchController = null;
+        }
+    };
+    
+    // --- Re-implementing unchanged functions for completeness ---
+    typeMessage = (messageElement, fullMarkdown, delay = 15) => {
         return new Promise((resolve) => {
             if (typingInterval) clearInterval(typingInterval);
             let currentMarkdown = '';
@@ -348,71 +294,19 @@ document.addEventListener('DOMContentLoaded', () => {
             }, delay);
         });
     };
-    
-    const stopFetchingAndTyping = () => {
+    stopFetchingAndTyping = () => {
         if (fetchController) fetchController.abort();
         if (typingInterval) clearInterval(typingInterval);
         setButtonState('idle');
     };
-    
-    const sendMessage = async () => {
-        const query = chatInput.value.trim();
-        if (!query) return;
 
-        stopFetchingAndTyping();
-        
-        const userMessageDiv = document.createElement('div');
-        userMessageDiv.className = 'message user-message';
-        userMessageDiv.innerHTML = `<div class="message-content">${query.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</div>`;
-        chatMessages.appendChild(userMessageDiv);
-        chatMessages.scrollTop = chatMessages.scrollHeight;
-        
-        chatInput.value = '';
-        chatInput.style.height = 'auto';
-        setButtonState('thinking');
-
-        const botMessageDiv = document.createElement('div');
-        botMessageDiv.className = 'message bot-message';
-        const botMessageContent = document.createElement('div');
-        botMessageContent.className = 'message-content';
-        botMessageDiv.appendChild(botMessageContent);
-        chatMessages.appendChild(botMessageDiv);
-        
-        try {
-            fetchController = new AbortController();
-            const response = await fetch(WORKER_URL, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ query }),
-                signal: fetchController.signal
-            });
-
-            if (!response.ok) throw new Error(`API 请求失败: ${response.statusText}`);
-
-            const data = await response.json();
-            await typeMessage(botMessageContent, data.answer);
-
-        } catch (error) {
-            if (error.name === 'AbortError') {
-                botMessageContent.textContent = '已停止。';
-            } else {
-                console.error('Chat error:', error);
-                botMessageContent.innerHTML = sanitize(marked.parse('抱歉，服务出现了一点问题，请稍后再试。'));
-            }
-        } finally {
-            if (fetchController && !fetchController.signal.aborted) {
-                setButtonState('idle');
-            }
-            fetchController = null;
-        }
-    };
 
     // --- Event Listeners ---
     chatFabButton.addEventListener('click', openChat);
     chatCloseButton.addEventListener('click', closeChat);
+    chatNewButton.addEventListener('click', startNewChat); // <-- NEW
     chatOverlay.addEventListener('click', (e) => { if (e.target === chatOverlay) closeChat(); });
     
-    // FIX: Force links in chat to open in a new tab
     chatMessages.addEventListener('click', (event) => {
         const link = event.target.closest('a');
         if (link && link.href) {
