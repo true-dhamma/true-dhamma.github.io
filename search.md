@@ -7,25 +7,21 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v2.8 (Icon Update)
+  Modern Chatbot UI v2.9 (Definitive List Style Fix)
   Author: Gemini Assistant & User
-  Updates: Replaced the FAB icon with a more intuitive "Forum/Q&A" icon
-           to better represent dialogue.
+  Updates: Replaced patchwork list styling with a robust ruleset that
+           restores browser-like default behavior for ul, ol, and li,
+           overcoming the initial CSS reset. This is the definitive fix.
   =============================================================
 -->
 
 <!-- Chatbot FAB (Floating Action Button) -->
 <div id="chat-fab-button" class="chat-fab-button">
-  <!-- 
-    Icon Change: Replaced the original "info" bubble with a "forum/question_answer"
-    icon (two overlapping bubbles) to better signify a Q&A dialogue.
-  -->
   <svg class="chat-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
     <path d="M0 0h24v24H0V0z" fill="none"/>
     <path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V4c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"/>
   </svg>
 </div>
-
 
 <!-- Chat Overlay and Modal Window -->
 <div id="chat-overlay" class="chat-overlay hidden">
@@ -194,23 +190,33 @@ excerpt: Search for a page or post's content
 .message-content { color: #2c3e50; font-size: 1em; }
 .message-content > *:first-child { margin-top: 0; }
 .message-content > *:last-child { margin-bottom: 0; }
-.message-content p { margin: 0.5em 0; padding: 0; }
+.message-content p { margin: 0.5em 0; padding: 0; } /* 恢复段落的垂直间距 */
 .message-content a { color: #3a77d8; text-decoration: underline; cursor: pointer; }
 
-/* ================================== */
-/* =========   列表样式修正   ========= */
-/* ================================== */
-.message-content ul, .message-content ol { 
-    margin: 0.7em 0; 
-    padding-left: 25px; /* 为列表标记提供标准的左侧缩进空间 */
+/* =================================================================== */
+/* ===         最终列表样式修复 (恢复类浏览器默认行为)         === */
+/* =================================================================== */
+/* 
+ * 核心问题：顶部的 .chat-modal * { padding: 0; } 重置了列表的默认缩进。
+ * 以下规则将覆盖该重置，为列表元素恢复浏览器默认样式，确保列表正确显示。
+ */
+.message-content ul, .message-content ol {
+    /* 恢复列表的垂直外边距 */
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* 恢复列表标记所需的左侧内边距 (关键！值为浏览器默认值) */
+    padding-left: 40px; 
 }
-.message-content li { 
-    display: list-item;   /* 关键！强制恢复为列表项的显示方式 */
-    margin-bottom: 0.25em; /* 保持列表项之间的垂直间距 */
+
+.message-content li {
+    /* 确保元素被正确渲染为列表项 */
+    display: list-item;
+    /* 可以保留一个小的底部外边距，让列表项之间更清晰 */
+    margin-bottom: 0.5em;
 }
-/* ================================== */
-/* =========   修正结束   ========= */
-/* ================================== */
+/* =================================================================== */
+/* =========================   修正结束   ========================= */
+/* =================================================================== */
 
 /* Input Area */
 .chat-input-area {
