@@ -7,10 +7,11 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v4.1 (Bugfix)
+  Modern Chatbot UI v4.2 (UI/UX Polish)
   Author: Gemini Assistant & User
-  Updates: 1. Fixed a "Assignment to constant variable" JavaScript error
-              caused by redundant function definitions.
+  Updates: 1. Relocated "New Chat" button to the top-left to prevent mis-clicks.
+           2. Styled "New Chat" button as a blue link for clarity.
+           3. Ensured the close button is consistently black on all devices.
   =============================================================
 -->
 
@@ -26,11 +27,10 @@ excerpt: Search for a page or post's content
 <div id="chat-overlay" class="chat-overlay hidden">
   <div id="chat-modal" class="chat-modal">
     <div class="chat-header">
+      <!-- UPDATED: HTML structure for new layout -->
+      <button id="chat-new-button" class="chat-header-button" aria-label="新聊天">新聊天</button>
       <span class="chat-title">佛法问答</span>
-      <div>
-        <button id="chat-new-button" class="chat-header-button" aria-label="新聊天">新聊天</button>
-        <button id="chat-close-button" class="chat-header-button" aria-label="关闭聊天">&times;</button>
-      </div>
+      <button id="chat-close-button" class="chat-header-button" aria-label="关闭聊天">&times;</button>
     </div>
     <div id="chat-messages" class="chat-messages">
       <div class="message bot-message">
@@ -40,14 +40,8 @@ excerpt: Search for a page or post's content
     <div class="chat-input-area">
       <textarea id="chat-input" placeholder="输入您的问题..." rows="1" aria-label="输入聊天信息"></textarea>
       <button id="chat-submit-button" class="chat-submit-button" aria-label="发送">
-        <!-- Send Icon -->
-        <svg id="send-icon" class="chat-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px">
-            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-        </svg>
-        <!-- Stop Icon (hidden by default) -->
-        <svg id="stop-icon" class="chat-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px" style="display: none;">
-            <path d="M6 6h12v12H6z"/>
-        </svg>
+        <svg id="send-icon" class="chat-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+        <svg id="stop-icon" class="chat-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px" style="display: none;"><path d="M6 6h12v12H6z"/></svg>
       </button>
     </div>
   </div>
@@ -56,7 +50,6 @@ excerpt: Search for a page or post's content
 <!-- Dependencies -->
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.11/dist/purify.min.js"></script>
-
 
 <style>
 /* Base Styles */
@@ -98,18 +91,39 @@ excerpt: Search for a page or post's content
 }
 .chat-overlay.hidden .chat-modal { transform: scale(0.95); }
 
-/* Header */
+/* UPDATED: Header Styles for new layout */
 .chat-header {
-    background: #f4f6f8; color: #2c3e50; padding: 14px 20px;
+    background: #f4f6f8; color: #2c3e50; padding: 10px 15px;
     border-bottom: 1px solid #e0e0e0; display: flex;
     justify-content: space-between; align-items: center;
-    font-weight: 700; font-size: 1.1rem; flex-shrink: 0;
+    flex-shrink: 0;
+}
+.chat-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
+    flex-grow: 1; /* Allows title to take up space and center properly */
 }
 .chat-header-button {
-    background: none; border: none; cursor: pointer; color: #2c3e50;
-    font-size: 1rem; padding: 5px 8px; vertical-align: middle;
+    background: none; border: none; cursor: pointer;
+    font-size: 1rem; padding: 5px 8px; flex-shrink: 0;
 }
-#chat-close-button { font-size: 1.8rem; line-height: 1; padding: 0 5px;}
+/* Style for New Chat Link */
+#chat-new-button {
+    color: #3a77d8;
+    font-weight: normal;
+    text-decoration: none;
+}
+#chat-new-button:hover {
+    text-decoration: underline;
+}
+/* Style for Close Button (X) */
+#chat-close-button {
+    font-size: 1.8rem;
+    line-height: 1;
+    padding: 0 5px;
+    color: #2c3e50; /* Ensure it's black */
+}
 
 /* Messages */
 .chat-messages { flex-grow: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 14px; }
@@ -140,6 +154,8 @@ excerpt: Search for a page or post's content
     .chat-modal { width: 100%; height: 100%; max-width: 100vw; max-height: 100vh; border-radius: 0; }
     .chat-modal, .chat-modal * { font-size: 18px; }
     .chat-input-area textarea { font-size: 16px; padding: 10px 18px; }
+    .chat-header { padding: 10px; }
+    .chat-title { font-size: 1rem; }
 }
 </style>
 
@@ -147,7 +163,7 @@ excerpt: Search for a page or post's content
 document.addEventListener('DOMContentLoaded', () => {
     // --- Configuration ---
     const WORKER_URL = 'https://proxy.true-dhamma.com/kb-chat';
-    const MAX_HISTORY_TURNS = 5; // Keep last 5 pairs of user/model messages
+    const MAX_HISTORY_TURNS = 5;
 
     // --- State Management ---
     let fetchController = null;
@@ -177,23 +193,17 @@ document.addEventListener('DOMContentLoaded', () => {
         chatOverlay.classList.remove('hidden');
         setTimeout(() => chatInput.focus(), 300);
     };
-
     const closeChat = () => {
         stopFetchingAndTyping();
         chatOverlay.classList.add('hidden');
         setTimeout(() => { document.body.style.overflow = ''; }, 300);
     };
-    
     const startNewChat = () => {
         stopFetchingAndTyping();
         chatHistory = [];
-        chatMessages.innerHTML = `
-            <div class="message bot-message">
-                <div class="message-content">您好，新的对话已经开始。请问有什么可以帮助您？</div>
-            </div>`;
+        chatMessages.innerHTML = `<div class="message bot-message"><div class="message-content">您好，新的对话已经开始。请问有什么可以帮助您？</div></div>`;
         chatInput.focus();
     };
-    
     const setButtonState = (state) => {
         const isThinking = state === 'thinking';
         chatInput.disabled = isThinking;
@@ -208,14 +218,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const typeMessage = (messageElement, fullMarkdown, delay = 15) => {
         return new Promise((resolve) => {
             if (typingInterval) clearInterval(typingInterval);
-            let currentMarkdown = '';
-            let charIndex = 0;
+            let currentMarkdown = '', charIndex = 0;
             typingInterval = setInterval(() => {
                 if (charIndex < fullMarkdown.length) {
-                    currentMarkdown += fullMarkdown[charIndex];
+                    currentMarkdown += fullMarkdown[charIndex++];
                     messageElement.innerHTML = sanitize(marked.parse(currentMarkdown));
                     chatMessages.scrollTop = chatMessages.scrollHeight;
-                    charIndex++;
                 } else {
                     clearInterval(typingInterval);
                     typingInterval = null;
@@ -224,13 +232,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }, delay);
         });
     };
-    
     const stopFetchingAndTyping = () => {
         if (fetchController) fetchController.abort();
         if (typingInterval) clearInterval(typingInterval);
         setButtonState('idle');
     };
-    
     const sendMessage = async () => {
         const query = chatInput.value.trim();
         if (!query) return;
@@ -256,9 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         try {
             fetchController = new AbortController();
-            
             const historyToSend = chatHistory.slice(-MAX_HISTORY_TURNS * 2);
-
             const response = await fetch(WORKER_URL, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -294,7 +298,6 @@ document.addEventListener('DOMContentLoaded', () => {
     chatCloseButton.addEventListener('click', closeChat);
     chatNewButton.addEventListener('click', startNewChat); 
     chatOverlay.addEventListener('click', (e) => { if (e.target === chatOverlay) closeChat(); });
-    
     chatMessages.addEventListener('click', (event) => {
         const link = event.target.closest('a');
         if (link && link.href) {
@@ -302,18 +305,15 @@ document.addEventListener('DOMContentLoaded', () => {
             window.open(link.href, '_blank', 'noopener,noreferrer');
         }
     });
-
     chatSubmitButton.addEventListener('click', () => {
         (stopIcon.style.display === 'block') ? stopFetchingAndTyping() : sendMessage();
     });
-
     chatInput.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) {
             e.preventDefault();
             sendMessage();
         }
     });
-
     chatInput.addEventListener('input', () => {
         chatInput.style.height = 'auto';
         chatInput.style.height = `${chatInput.scrollHeight}px`;
