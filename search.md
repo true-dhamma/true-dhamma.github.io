@@ -7,9 +7,10 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v2.1
+  Modern Chatbot UI v2.2
   Author: Gemini Assistant & User
-  Fixes: Typewriter HTML rendering, mobile viewport/input issues.
+  Updates: Links in new tab, list overflow fix, color/font tweaks,
+           FAB icon color fix.
   =============================================================
 -->
 
@@ -63,7 +64,7 @@ excerpt: Search for a page or post's content
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    font-size: 16px; /* Set a base font size for the chat */
+    font-size: 17px; /* Increased base font size for PC */
 }
 .chat-fab-button svg, .chat-submit-button svg {
     height: 24px;
@@ -93,6 +94,9 @@ excerpt: Search for a page or post's content
 .chat-fab-button:hover {
     background-color: #2e60ad;
     transform: translateY(-2px);
+}
+.chat-fab-button .chat-icon {
+    fill: #fff; /* Explicitly set icon color to white */
 }
 
 /* Chat Overlay (for modal background) */
@@ -129,9 +133,6 @@ excerpt: Search for a page or post's content
     transform: scale(1);
     transition: transform 0.3s ease;
 }
-.chat-overlay.hidden .chat-modal {
-    transform: scale(0.95);
-}
 
 /* Header */
 .chat-header {
@@ -143,7 +144,7 @@ excerpt: Search for a page or post's content
     justify-content: space-between;
     align-items: center;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.1rem; /* Slightly larger header font */
     flex-shrink: 0;
 }
 .chat-close-button {
@@ -165,7 +166,7 @@ excerpt: Search for a page or post's content
 /* Individual Message Styles */
 .chat-messages .message {
     max-width: 85%;
-    padding: 10px 15px;
+    padding: 12px 18px;
     border-radius: 18px;
     word-wrap: break-word;
     box-shadow: 0 1px 2px rgba(0,0,0,0.08);
@@ -177,26 +178,29 @@ excerpt: Search for a page or post's content
     border-bottom-right-radius: 4px;
 }
 .chat-messages .bot-message {
-    background: #f4f6f8;
+    background: #eaf2ff; /* New light blue color */
     align-self: flex-start;
     border-bottom-left-radius: 4px;
 }
 
 /* Markdown Rendering Styles */
-.message-content { color: #2c3e50; }
+.message-content { color: #2c3e50; font-size: 1em; }
 .message-content > *:first-child { margin-top: 0; }
 .message-content > *:last-child { margin-bottom: 0; }
 .message-content p { margin: 0.5em 0; padding: 0; }
 .message-content a { color: #3a77d8; text-decoration: underline; }
-.message-content ul, .message-content ol { padding-left: 20px; margin: 0.5em 0; }
-.message-content code { background-color: #e0e0e0; padding: 2px 5px; border-radius: 4px; font-size: 0.9em; }
-.message-content pre { background-color: #f4f6f8; padding: 10px; border-radius: 6px; overflow-x: auto; }
+.message-content ul, .message-content ol { 
+    margin: 0.7em 0; 
+    padding-left: 25px; /* FIX: Prevents numbers from overflowing the bubble */
+}
+.message-content code { background-color: #dbe4f0; padding: 2px 5px; border-radius: 4px; font-size: 0.9em; }
+.message-content pre { background-color: #dbe4f0; padding: 10px; border-radius: 6px; overflow-x: auto; }
 .message-content pre code { background: none; padding: 0; }
 
 /* Input Area */
 .chat-input-area {
     display: flex;
-    align-items: flex-end; /* Align textarea bottom with button center */
+    align-items: flex-end;
     padding: 10px 15px;
     border-top: 1px solid #e0e0e0;
     background: #fff;
@@ -206,13 +210,13 @@ excerpt: Search for a page or post's content
     flex-grow: 1;
     border: 1px solid #ccc;
     border-radius: 20px;
-    padding: 8px 15px;
+    padding: 10px 18px;
     resize: none;
     max-height: 120px;
     font-size: 1rem;
     outline: none;
     transition: border-color 0.2s ease;
-    -webkit-appearance: none; /* Fix for iOS input styling issues */
+    -webkit-appearance: none;
 }
 .chat-input-area textarea:focus { border-color: #3a77d8; }
 
@@ -220,8 +224,8 @@ excerpt: Search for a page or post's content
     background: #3a77d8;
     border: none;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 44px; /* Slightly larger button */
+    height: 44px;
     margin-left: 10px;
     cursor: pointer;
     flex-shrink: 0;
@@ -238,6 +242,9 @@ excerpt: Search for a page or post's content
 
 /* Mobile Responsive adjustments */
 @media (max-width: 768px) {
+    .chat-modal, .chat-modal * {
+        font-size: 16px; /* Adjust base font size for mobile */
+    }
     .chat-modal {
         width: 100%;
         height: 100%;
@@ -267,7 +274,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const stopIcon = document.getElementById('stop-icon');
 
     // --- Markdown Parser Setup ---
-    marked.setOptions({ gfm: true, breaks: true });
+    const renderer = new marked.Renderer();
+    // FIX: Open all links in a new tab
+    renderer.link = (href, title, text) => {
+        return `<a href="${href}" title="${title || ''}" target="_blank" rel="noopener noreferrer">${text}</a>`;
+    };
+    marked.setOptions({
+        renderer: renderer,
+        gfm: true,
+        breaks: true,
+    });
     const sanitize = DOMPurify.sanitize;
 
     // --- UI Logic ---
@@ -275,7 +291,6 @@ document.addEventListener('DOMContentLoaded', () => {
         chatOverlay.classList.remove('hidden');
         document.body.style.overflow = 'hidden';
         setTimeout(() => chatInput.focus(), 300);
-        chatMessages.scrollTop = chatMessages.scrollHeight;
     };
 
     const closeChat = () => {
@@ -305,8 +320,6 @@ document.addEventListener('DOMContentLoaded', () => {
             typingInterval = setInterval(() => {
                 if (charIndex < fullMarkdown.length) {
                     currentMarkdown += fullMarkdown[charIndex];
-                    // On each step, re-render the *current* markdown string.
-                    // This ensures correct HTML parsing at all times.
                     messageElement.innerHTML = sanitize(marked.parse(currentMarkdown));
                     chatMessages.scrollTop = chatMessages.scrollHeight;
                     charIndex++;
@@ -339,7 +352,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         const userMessageDiv = document.createElement('div');
         userMessageDiv.className = 'message user-message';
-        userMessageDiv.innerHTML = `<div class="message-content">${query.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</div>`; // Basic sanitation for user input
+        userMessageDiv.innerHTML = `<div class="message-content">${query.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</div>`;
         chatMessages.appendChild(userMessageDiv);
         chatMessages.scrollTop = chatMessages.scrollHeight;
         
