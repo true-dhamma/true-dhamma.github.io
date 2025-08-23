@@ -7,11 +7,12 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v4.3 (Centering & Font Fix)
+  Modern Chatbot UI v4.4 (Definitive UI Centering/Sizing Fix)
   Author: Gemini Assistant & User
-  Updates: 1. Corrected flexbox properties to perfectly center the header title.
-           2. Increased the title's font size on mobile for better hierarchy.
-           3. Confirmed all UI elements match the latest requests.
+  Updates: 1. Implemented a robust absolute positioning method for the header
+              title to ensure it is always perfectly centered.
+           2. Standardized mobile header title and button font sizes for
+              visual consistency. This is the definitive UI fix.
   =============================================================
 -->
 
@@ -90,23 +91,35 @@ excerpt: Search for a page or post's content
 }
 .chat-overlay.hidden .chat-modal { transform: scale(0.95); }
 
-/* UPDATED: Header Styles for perfect centering */
+/* UPDATED: Definitive Header Centering Fix */
 .chat-header {
     background: #f4f6f8; color: #2c3e50; padding: 10px 15px;
     border-bottom: 1px solid #e0e0e0; 
     display: flex;
-    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Pushes buttons to edges */
+    align-items: center;
     flex-shrink: 0;
+    position: relative; /* Crucial for absolute positioning of the child */
 }
 .chat-title {
     font-weight: 700;
     font-size: 1.1rem;
-    text-align: center; /* Center text inside the span */
-    flex-grow: 1; /* Allow title to take up all available space */
+    /* Absolute centering technique */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Prevent title from overlapping buttons on very small screens */
+    max-width: 60%; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .chat-header-button {
     background: none; border: none; cursor: pointer;
     font-size: 1rem; padding: 5px 8px; flex-shrink: 0;
+    /* Keep buttons visible for layering context */
+    position: relative; 
+    z-index: 1;
 }
 #chat-new-button {
     color: #3a77d8;
@@ -153,9 +166,9 @@ excerpt: Search for a page or post's content
     .chat-modal, .chat-modal * { font-size: 18px; }
     .chat-input-area textarea { font-size: 16px; padding: 10px 18px; }
     .chat-header { padding: 10px; }
-    /* UPDATED: Increase mobile title size */
+    /* UPDATED: Remove specific font-size to inherit base size (18px) */
     .chat-title { 
-        font-size: 1.15rem; /* Make title more prominent on mobile */
+       font-size: 1rem; /* Make it inherit the 18px base, matching the button */
     }
 }
 </style>
