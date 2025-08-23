@@ -7,10 +7,9 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v2.0
+  Modern Chatbot UI v2.1
   Author: Gemini Assistant & User
-  Features: FAB, Fullscreen Modal, Mobile-first, Stop Generation,
-            Markdown Typewriter Effect.
+  Fixes: Typewriter HTML rendering, mobile viewport/input issues.
   =============================================================
 -->
 
@@ -57,11 +56,18 @@ excerpt: Search for a page or post's content
 
 
 <style>
-/* Reset and Base Styles to avoid conflicts */
+/* Reset and Base Styles to avoid conflicts with the main site's CSS */
 .chat-fab-button, .chat-modal, .chat-modal * {
-    font-family: sans-serif; /* Use a consistent, clean font for the chat UI */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     box-sizing: border-box;
-    line-height: 1.5; /* Reset line-height */
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Set a base font size for the chat */
+}
+.chat-fab-button svg, .chat-submit-button svg {
+    height: 24px;
+    width: 24px;
 }
 
 /* Chat FAB Button */
@@ -76,7 +82,7 @@ excerpt: Search for a page or post's content
     width: 56px;
     height: 56px;
     border: none;
-    background-color: #3a77d8; /* Match page accent color */
+    background-color: #3a77d8;
     color: #fff;
     border-radius: 50%;
     cursor: pointer;
@@ -88,42 +94,37 @@ excerpt: Search for a page or post's content
     background-color: #2e60ad;
     transform: translateY(-2px);
 }
-.chat-fab-button .chat-icon {
-    width: 28px;
-    height: 28px;
-    fill: currentColor;
-}
 
 /* Chat Overlay (for modal background) */
 .chat-overlay {
     position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(44, 62, 80, 0.6); /* Use a color from the theme for the overlay */
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(44, 62, 80, 0.6);
     z-index: 1100;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 1;
     visibility: visible;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transition: opacity 0.3s ease, visibility 0s 0s;
 }
 .chat-overlay.hidden {
     opacity: 0;
     visibility: hidden;
-    pointer-events: none;
+    transition: opacity 0.3s ease, visibility 0s 0.3s;
 }
 
 /* Chat Modal */
 .chat-modal {
-    background: #fff;
+    background: #ffffff;
     border-radius: 12px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.2);
     display: flex;
     flex-direction: column;
-    max-width: 650px;
-    width: 90%;
-    height: 80vh;
-    max-height: 700px;
+    width: 90vw;
+    height: 85vh;
+    max-width: 680px;
+    max-height: 750px;
     overflow: hidden;
     transform: scale(1);
     transition: transform 0.3s ease;
@@ -146,14 +147,8 @@ excerpt: Search for a page or post's content
     flex-shrink: 0;
 }
 .chat-close-button {
-    background: none;
-    border: none;
-    font-size: 1.8rem;
-    line-height: 1;
-    cursor: pointer;
-    color: #a8adac;
-    padding: 0 5px;
-    transition: color 0.2s ease;
+    background: none; border: none; font-size: 1.8rem; line-height: 1;
+    cursor: pointer; color: #a8adac; padding: 0 5px; transition: color 0.2s ease;
 }
 .chat-close-button:hover { color: #2c3e50; }
 
@@ -165,17 +160,16 @@ excerpt: Search for a page or post's content
     display: flex;
     flex-direction: column;
     gap: 12px;
-    font-size: 1rem;
 }
 
 /* Individual Message Styles */
 .chat-messages .message {
     max-width: 85%;
-    padding: 10px 15px; /* Reduced padding for better height */
+    padding: 10px 15px;
     border-radius: 18px;
     word-wrap: break-word;
     box-shadow: 0 1px 2px rgba(0,0,0,0.08);
-    line-height: 1.6; /* Improved readability */
+    line-height: 1.6;
 }
 .chat-messages .user-message {
     background: #dcf8c6;
@@ -188,23 +182,21 @@ excerpt: Search for a page or post's content
     border-bottom-left-radius: 4px;
 }
 
-/* Markdown Rendering Styles (within message-content) */
+/* Markdown Rendering Styles */
 .message-content { color: #2c3e50; }
 .message-content > *:first-child { margin-top: 0; }
 .message-content > *:last-child { margin-bottom: 0; }
-.message-content p { margin: 0.5em 0; }
+.message-content p { margin: 0.5em 0; padding: 0; }
 .message-content a { color: #3a77d8; text-decoration: underline; }
-.message-content strong { font-weight: 700; }
 .message-content ul, .message-content ol { padding-left: 20px; margin: 0.5em 0; }
 .message-content code { background-color: #e0e0e0; padding: 2px 5px; border-radius: 4px; font-size: 0.9em; }
 .message-content pre { background-color: #f4f6f8; padding: 10px; border-radius: 6px; overflow-x: auto; }
 .message-content pre code { background: none; padding: 0; }
-.message-content blockquote { border-left: 3px solid #a8adac; padding-left: 10px; margin: 0.5em 0; color: #555; }
 
 /* Input Area */
 .chat-input-area {
     display: flex;
-    align-items: center;
+    align-items: flex-end; /* Align textarea bottom with button center */
     padding: 10px 15px;
     border-top: 1px solid #e0e0e0;
     background: #fff;
@@ -218,9 +210,9 @@ excerpt: Search for a page or post's content
     resize: none;
     max-height: 120px;
     font-size: 1rem;
-    line-height: 1.5;
     outline: none;
     transition: border-color 0.2s ease;
+    -webkit-appearance: none; /* Fix for iOS input styling issues */
 }
 .chat-input-area textarea:focus { border-color: #3a77d8; }
 
@@ -240,15 +232,8 @@ excerpt: Search for a page or post's content
     color: white;
     -webkit-tap-highlight-color: transparent;
 }
-.chat-submit-button:hover:not(:disabled) {
-    background-color: #2e60ad;
-    transform: scale(1.05);
-}
-.chat-submit-button:disabled {
-    background-color: #a8adac;
-    cursor: not-allowed;
-    transform: none;
-}
+.chat-submit-button:hover:not(:disabled) { background-color: #2e60ad; }
+.chat-submit-button:disabled { background-color: #a8adac; cursor: not-allowed; }
 .chat-submit-button .chat-icon { fill: currentColor; }
 
 /* Mobile Responsive adjustments */
@@ -259,9 +244,6 @@ excerpt: Search for a page or post's content
         max-height: 100vh;
         border-radius: 0;
     }
-    .chat-header { padding: 12px 15px; }
-    .chat-messages { padding: 15px; font-size: 0.95rem; }
-    .chat-input-area { padding: 8px 10px; }
 }
 </style>
 
@@ -271,13 +253,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const WORKER_URL = 'https://proxy.true-dhamma.com/kb-chat';
     
     // --- State Management ---
-    let fetchController = null; // To manage aborting the fetch request
-    let typingInterval = null;  // To manage the typewriter effect interval
+    let fetchController = null;
+    let typingInterval = null;
 
     // --- DOM Elements ---
     const chatFabButton = document.getElementById('chat-fab-button');
     const chatOverlay = document.getElementById('chat-overlay');
-    const chatModal = document.getElementById('chat-modal');
     const chatCloseButton = document.getElementById('chat-close-button');
     const chatMessages = document.getElementById('chat-messages');
     const chatInput = document.getElementById('chat-input');
@@ -286,58 +267,49 @@ document.addEventListener('DOMContentLoaded', () => {
     const stopIcon = document.getElementById('stop-icon');
 
     // --- Markdown Parser Setup ---
-    marked.setOptions({
-        renderer: new marked.Renderer(),
-        gfm: true,
-        breaks: true,
-    });
+    marked.setOptions({ gfm: true, breaks: true });
     const sanitize = DOMPurify.sanitize;
 
     // --- UI Logic ---
     const openChat = () => {
         chatOverlay.classList.remove('hidden');
-        document.body.style.overflow = 'hidden'; // Prevent background scrolling
-        setTimeout(() => chatInput.focus(), 300); // Focus after transition
+        document.body.style.overflow = 'hidden';
+        setTimeout(() => chatInput.focus(), 300);
         chatMessages.scrollTop = chatMessages.scrollHeight;
     };
 
     const closeChat = () => {
-        stopFetching(); // Stop any ongoing AI response
+        stopFetchingAndTyping();
         chatOverlay.classList.add('hidden');
-        document.body.style.overflow = ''; // Restore background scrolling
+        document.body.style.overflow = '';
     };
     
     const setButtonState = (state) => {
-        if (state === 'thinking') {
-            chatInput.disabled = true;
-            chatSubmitButton.disabled = false; // Keep button enabled for stopping
-            chatSubmitButton.setAttribute('aria-label', '停止');
-            sendIcon.style.display = 'none';
-            stopIcon.style.display = 'block';
-        } else { // 'idle' state
-            chatInput.disabled = false;
-            chatSubmitButton.disabled = false;
-            chatSubmitButton.setAttribute('aria-label', '发送');
-            sendIcon.style.display = 'block';
-            stopIcon.style.display = 'none';
-            chatInput.focus();
-        }
+        const isThinking = state === 'thinking';
+        chatInput.disabled = isThinking;
+        chatSubmitButton.disabled = false;
+        chatSubmitButton.setAttribute('aria-label', isThinking ? '停止' : '发送');
+        sendIcon.style.display = isThinking ? 'none' : 'block';
+        stopIcon.style.display = isThinking ? 'block' : 'none';
+        if (!isThinking) chatInput.focus();
     };
 
     // --- Core Functionality ---
-    const typeMessage = (messageElement, fullMarkdown, delay = 20) => {
+    const typeMessage = (messageElement, fullMarkdown, delay = 15) => {
         return new Promise((resolve) => {
             if (typingInterval) clearInterval(typingInterval);
             
-            messageElement.innerHTML = '';
-            const fullHtml = sanitize(marked.parse(fullMarkdown));
-            let i = 0;
-
+            let currentMarkdown = '';
+            let charIndex = 0;
+            
             typingInterval = setInterval(() => {
-                if (i < fullHtml.length) {
-                    messageElement.innerHTML += fullHtml[i];
+                if (charIndex < fullMarkdown.length) {
+                    currentMarkdown += fullMarkdown[charIndex];
+                    // On each step, re-render the *current* markdown string.
+                    // This ensures correct HTML parsing at all times.
+                    messageElement.innerHTML = sanitize(marked.parse(currentMarkdown));
                     chatMessages.scrollTop = chatMessages.scrollHeight;
-                    i++;
+                    charIndex++;
                 } else {
                     clearInterval(typingInterval);
                     typingInterval = null;
@@ -347,7 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
     
-    const stopFetching = () => {
+    const stopFetchingAndTyping = () => {
         if (fetchController) {
             fetchController.abort();
             fetchController = null;
@@ -363,15 +335,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const query = chatInput.value.trim();
         if (!query) return;
 
-        stopFetching(); // Clear any previous state
+        stopFetchingAndTyping();
         
-        // --- Add User Message ---
         const userMessageDiv = document.createElement('div');
         userMessageDiv.className = 'message user-message';
-        const userMessageContent = document.createElement('div');
-        userMessageContent.className = 'message-content';
-        userMessageContent.textContent = query;
-        userMessageDiv.appendChild(userMessageContent);
+        userMessageDiv.innerHTML = `<div class="message-content">${query.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</div>`; // Basic sanitation for user input
         chatMessages.appendChild(userMessageDiv);
         chatMessages.scrollTop = chatMessages.scrollHeight;
         
@@ -379,14 +347,12 @@ document.addEventListener('DOMContentLoaded', () => {
         chatInput.style.height = 'auto';
         setButtonState('thinking');
 
-        // --- Add Bot Placeholder ---
-        const botThinkingDiv = document.createElement('div');
-        botThinkingDiv.className = 'message bot-message';
-        const botThinkingContent = document.createElement('div');
-        botThinkingContent.className = 'message-content';
-        botThinkingContent.innerHTML = '<span class="thinking-cursor"></span>'; // Blinking cursor
-        botThinkingDiv.appendChild(botThinkingContent);
-        chatMessages.appendChild(botThinkingDiv);
+        const botMessageDiv = document.createElement('div');
+        botMessageDiv.className = 'message bot-message';
+        const botMessageContent = document.createElement('div');
+        botMessageContent.className = 'message-content';
+        botMessageDiv.appendChild(botMessageContent);
+        chatMessages.appendChild(botMessageDiv);
         chatMessages.scrollTop = chatMessages.scrollHeight;
         
         try {
@@ -398,26 +364,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 signal: fetchController.signal
             });
 
-            if (!response.ok) {
-                throw new Error(`API 请求失败: ${response.statusText}`);
-            }
+            if (!response.ok) throw new Error(`API 请求失败: ${response.statusText}`);
 
             const data = await response.json();
-            await typeMessage(botThinkingContent, data.answer);
+            await typeMessage(botMessageContent, data.answer);
 
         } catch (error) {
             if (error.name === 'AbortError') {
-                botThinkingContent.textContent = '已停止生成。';
+                botMessageContent.textContent = '已停止。';
             } else {
                 console.error('Chat error:', error);
-                botThinkingContent.innerHTML = sanitize(marked.parse('抱歉，服务出现了一点问题，请稍后再试。'));
+                botMessageContent.innerHTML = sanitize(marked.parse('抱歉，服务出现了一点问题，请稍后再试。'));
             }
         } finally {
             if (fetchController && !fetchController.signal.aborted) {
                 setButtonState('idle');
             }
             fetchController = null;
-            chatMessages.scrollTop = chatMessages.scrollHeight;
         }
     };
 
@@ -427,21 +390,16 @@ document.addEventListener('DOMContentLoaded', () => {
     chatOverlay.addEventListener('click', (e) => { if (e.target === chatOverlay) closeChat(); });
     
     chatSubmitButton.addEventListener('click', () => {
-        if (stopIcon.style.display === 'block') {
-            stopFetching();
-        } else {
-            sendMessage();
-        }
+        (stopIcon.style.display === 'block') ? stopFetchingAndTyping() : sendMessage();
     });
 
     chatInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' && !e.shiftKey) {
+        if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) {
             e.preventDefault();
             sendMessage();
         }
     });
 
-    // Auto-resize textarea
     chatInput.addEventListener('input', () => {
         chatInput.style.height = 'auto';
         chatInput.style.height = `${chatInput.scrollHeight}px`;
