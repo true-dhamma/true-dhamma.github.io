@@ -7,10 +7,9 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v2.4
+  Modern Chatbot UI v2.5 (Final Polish)
   Author: Gemini Assistant & User
-  Updates: Perfected input/button alignment, fixed mobile close button,
-           aligned lists inside bubbles, and refined color scheme.
+  Updates: Fine-tuned input field height for perfect alignment with the send button.
   =============================================================
 -->
 
@@ -173,7 +172,7 @@ excerpt: Search for a page or post's content
     line-height: 1.6;
 }
 .chat-messages .user-message {
-    background: #EAEAEA; /* FIX: New neutral user message color */
+    background: #EAEAEA;
     color: #2c3e50;
     align-self: flex-end;
     border-bottom-right-radius: 4px;
@@ -191,9 +190,9 @@ excerpt: Search for a page or post's content
 .message-content p { margin: 0.5em 0; padding: 0; }
 .message-content a { color: #3a77d8; text-decoration: underline; }
 .message-content ul, .message-content ol { 
-    margin: 0.7em 0;
-    padding-left: 0; /* FIX: Remove default padding */
-    list-style-position: inside; /* FIX: Move marker inside the bubble */
+    margin: 0.7em 0; 
+    padding-left: 0;
+    list-style-position: inside;
 }
 .message-content li { margin-bottom: 0.25em; }
 
@@ -211,7 +210,7 @@ excerpt: Search for a page or post's content
     flex-grow: 1;
     border: 1px solid #ccc;
     border-radius: 22px;
-    padding: 10px 18px;
+    padding: 8px 18px; /* FIX: Reduced vertical padding for alignment */
     resize: none;
     max-height: 120px;
     font-size: 1rem;
@@ -253,11 +252,11 @@ excerpt: Search for a page or post's content
         font-size: 17px;
     }
     .chat-header .chat-close-button {
-        color: #2c3e50; /* FIX: Ensure close button is visible on mobile */
+        color: #2c3e50;
     }
     .chat-input-area textarea {
-        font-size: 16px; /* CRITICAL: Must be >= 16px to prevent iOS auto-zoom */
-        padding: 12px 18px;
+        font-size: 16px;
+        padding: 10px 18px; /* FIX: Adjusted mobile padding for alignment */
     }
 }
 </style>
