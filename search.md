@@ -7,21 +7,25 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v2.6 (Final Polish)
+  Modern Chatbot UI v2.8 (Icon Update)
   Author: Gemini Assistant & User
-  Updates: Forced links to open in a new tab via JS event listener.
-           Implemented a smooth, non-jumping close animation for mobile.
+  Updates: Replaced the FAB icon with a more intuitive "Forum/Q&A" icon
+           to better represent dialogue.
   =============================================================
 -->
 
 <!-- Chatbot FAB (Floating Action Button) -->
 <div id="chat-fab-button" class="chat-fab-button">
-  <!-- Chat Icon -->
+  <!-- 
+    Icon Change: Replaced the original "info" bubble with a "forum/question_answer"
+    icon (two overlapping bubbles) to better signify a Q&A dialogue.
+  -->
   <svg class="chat-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
     <path d="M0 0h24v24H0V0z" fill="none"/>
-    <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12zM11 6h2v6h-2V6zm0 8h2v2h-2v-2z"/>
+    <path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V4c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"/>
   </svg>
 </div>
+
 
 <!-- Chat Overlay and Modal Window -->
 <div id="chat-overlay" class="chat-overlay hidden">
@@ -192,11 +196,21 @@ excerpt: Search for a page or post's content
 .message-content > *:last-child { margin-bottom: 0; }
 .message-content p { margin: 0.5em 0; padding: 0; }
 .message-content a { color: #3a77d8; text-decoration: underline; cursor: pointer; }
+
+/* ================================== */
+/* =========   列表样式修正   ========= */
+/* ================================== */
 .message-content ul, .message-content ol { 
     margin: 0.7em 0; 
-    padding-left: 0.6em;
+    padding-left: 25px; /* 为列表标记提供标准的左侧缩进空间 */
 }
-.message-content li { margin-bottom: 0.25em; }
+.message-content li { 
+    display: list-item;   /* 关键！强制恢复为列表项的显示方式 */
+    margin-bottom: 0.25em; /* 保持列表项之间的垂直间距 */
+}
+/* ================================== */
+/* =========   修正结束   ========= */
+/* ================================== */
 
 /* Input Area */
 .chat-input-area {
