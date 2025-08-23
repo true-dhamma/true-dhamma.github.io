@@ -7,10 +7,10 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v2.2
+  Modern Chatbot UI v2.3
   Author: Gemini Assistant & User
-  Updates: Links in new tab, list overflow fix, color/font tweaks,
-           FAB icon color fix.
+  Updates: Mobile fullscreen experience, larger fonts, PC input alignment,
+           and various mobile UX fixes.
   =============================================================
 -->
 
@@ -64,7 +64,7 @@ excerpt: Search for a page or post's content
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    font-size: 17px; /* Increased base font size for PC */
+    font-size: 18px; /* Increased base font size for PC */
 }
 .chat-fab-button svg, .chat-submit-button svg {
     height: 24px;
@@ -127,24 +127,27 @@ excerpt: Search for a page or post's content
     flex-direction: column;
     width: 90vw;
     height: 85vh;
-    max-width: 680px;
-    max-height: 750px;
+    max-width: 700px;
+    max-height: 800px;
     overflow: hidden;
     transform: scale(1);
     transition: transform 0.3s ease;
+}
+.chat-overlay.hidden .chat-modal {
+    transform: scale(0.95);
 }
 
 /* Header */
 .chat-header {
     background: #f4f6f8;
     color: #2c3e50;
-    padding: 12px 20px;
+    padding: 14px 20px;
     border-bottom: 1px solid #e0e0e0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 700;
-    font-size: 1.1rem; /* Slightly larger header font */
+    font-size: 1.1rem;
     flex-shrink: 0;
 }
 .chat-close-button {
@@ -160,7 +163,7 @@ excerpt: Search for a page or post's content
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
 }
 
 /* Individual Message Styles */
@@ -178,7 +181,7 @@ excerpt: Search for a page or post's content
     border-bottom-right-radius: 4px;
 }
 .chat-messages .bot-message {
-    background: #eaf2ff; /* New light blue color */
+    background: #eaf2ff;
     align-self: flex-start;
     border-bottom-left-radius: 4px;
 }
@@ -189,19 +192,13 @@ excerpt: Search for a page or post's content
 .message-content > *:last-child { margin-bottom: 0; }
 .message-content p { margin: 0.5em 0; padding: 0; }
 .message-content a { color: #3a77d8; text-decoration: underline; }
-.message-content ul, .message-content ol { 
-    margin: 0.7em 0; 
-    padding-left: 25px; /* FIX: Prevents numbers from overflowing the bubble */
-}
-.message-content code { background-color: #dbe4f0; padding: 2px 5px; border-radius: 4px; font-size: 0.9em; }
-.message-content pre { background-color: #dbe4f0; padding: 10px; border-radius: 6px; overflow-x: auto; }
-.message-content pre code { background: none; padding: 0; }
+.message-content ul, .message-content ol { margin: 0.7em 0; padding-left: 25px; }
 
 /* Input Area */
 .chat-input-area {
     display: flex;
-    align-items: flex-end;
-    padding: 10px 15px;
+    align-items: flex-end; /* FIX: Aligns bottom of textarea with bottom of button */
+    padding: 12px 15px;
     border-top: 1px solid #e0e0e0;
     background: #fff;
     flex-shrink: 0;
@@ -209,11 +206,11 @@ excerpt: Search for a page or post's content
 .chat-input-area textarea {
     flex-grow: 1;
     border: 1px solid #ccc;
-    border-radius: 20px;
+    border-radius: 22px;
     padding: 10px 18px;
     resize: none;
     max-height: 120px;
-    font-size: 1rem;
+    font-size: 1.05rem;
     outline: none;
     transition: border-color 0.2s ease;
     -webkit-appearance: none;
@@ -224,7 +221,7 @@ excerpt: Search for a page or post's content
     background: #3a77d8;
     border: none;
     border-radius: 50%;
-    width: 44px; /* Slightly larger button */
+    width: 44px;
     height: 44px;
     margin-left: 10px;
     cursor: pointer;
@@ -240,16 +237,21 @@ excerpt: Search for a page or post's content
 .chat-submit-button:disabled { background-color: #a8adac; cursor: not-allowed; }
 .chat-submit-button .chat-icon { fill: currentColor; }
 
-/* Mobile Responsive adjustments */
+/* Mobile Responsive adjustments (Fullscreen experience) */
 @media (max-width: 768px) {
-    .chat-modal, .chat-modal * {
-        font-size: 16px; /* Adjust base font size for mobile */
-    }
     .chat-modal {
         width: 100%;
         height: 100%;
+        max-width: 100vw;
         max-height: 100vh;
         border-radius: 0;
+    }
+    .chat-modal, .chat-modal * {
+        font-size: 17px; /* Increase mobile base font */
+    }
+    .chat-input-area textarea {
+        font-size: 16px; /* CRITICAL: Must be >= 16px to prevent iOS auto-zoom */
+        padding: 12px 18px; /* Increase height */
     }
 }
 </style>
@@ -275,7 +277,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Markdown Parser Setup ---
     const renderer = new marked.Renderer();
-    // FIX: Open all links in a new tab
     renderer.link = (href, title, text) => {
         return `<a href="${href}" title="${title || ''}" target="_blank" rel="noopener noreferrer">${text}</a>`;
     };
