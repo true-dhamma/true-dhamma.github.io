@@ -1,16 +1,15 @@
 ---
 title: 阿姜潘那瓦多(Ajahn Panyavaddho)法谈问答
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 南传上座部佛法
-  - 西方世界的佛法
-tags:
-  -
+- 南传上座部佛法
+- 西方世界的佛法
 excerpt: 一位英国工程师背景的森林派禅师，用清晰的逻辑为你剖析佛法的核心，引导你走出痛苦的轮回。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: true
 ---
+
 > ##### Answering Dhamma Questions - Ajahn Panyavaddho (Compiled by Ajahn Dick Sīlaratano)
 >
 > ##### 阿姜潘那瓦多法谈问答 - 阿姜迪克·西拉腊塔诺尊者整理 - 摘要
