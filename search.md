@@ -5,50 +5,74 @@ excerpt: Search for a page or post you're looking for
 
 {% include site-search.html %}
 
-<!-- Chatbot FAB and Window HTML -->
+<!-- Chatbot FAB (Mobile Only / Toggle) -->
 <div class="kb-chat-fab-container" id="kb-chat-fab-container">
-  <button id="kb-chat-toggle-btn" class="kb-chat-fab-button" aria-label="打开/关闭佛法问答机器人">
-    <!-- Chat Icon - Material Design style -->
+  <button id="kb-chat-toggle-fab" class="kb-chat-fab-button" aria-label="打开/关闭佛法问答机器人">
     <svg class="kb-chat-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF">
-      <path d="M0 0h24v24H0V0z" fill="none"/>
-      <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
+      <path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
     </svg>
   </button>
 </div>
 
-<div id="kb-chat-window" class="kb-chat-window">
+<!-- Initial Input Bar (PC default, hidden on mobile until FAB clicked) -->
+<div id="kb-chat-initial-input" class="kb-chat-initial-input-container">
+  <input type="text" id="kb-chat-input-initial" placeholder="提问佛法，获取智慧解答..." autocomplete="off" />
+  <button id="kb-chat-send-initial" class="kb-chat-send-btn">
+    <svg class="kb-chat-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor">
+      <path d="M0 0h24v24H0V0z" fill="none"/><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2 .01 7z"/>
+    </svg>
+  </button>
+</div>
+
+<!-- Full Chat Window -->
+<div id="kb-chat-full-window" class="kb-chat-full-window">
   <div class="kb-chat-header">
     佛法问答
-    <button id="kb-chat-close-btn" class="kb-chat-close-btn" aria-label="关闭聊天窗口">
+    <button id="kb-chat-close-full" class="kb-chat-close-btn" aria-label="关闭聊天窗口">
       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF">
-        <path d="M0 0h24v24H0V0z" fill="none"/>
-        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
       </svg>
     </button>
   </div>
-  <div id="kb-chat-messages" class="kb-chat-messages">
-    <div class="kb-message kb-message--bot"></div> <!-- Initial message will be set by JS -->
+  <div id="kb-chat-messages-full" class="kb-chat-messages">
+    <!-- Messages will be appended here -->
   </div>
   <div class="kb-chat-input-container">
-    <textarea id="kb-chat-input" placeholder="输入您的问题..." rows="1" autocomplete="off"></textarea>
-    <button id="kb-chat-send-btn" class="kb-chat-send-btn">
+    <input type="text" id="kb-chat-input-full" placeholder="输入您的问题..." autocomplete="off" />
+    <button id="kb-chat-send-full" class="kb-chat-send-btn">
       <svg class="kb-chat-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor">
-        <path d="M0 0h24v24H0V0z" fill="none"/>
-        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2 .01 7z"/>
+        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2 .01 7z"/>
       </svg>
     </button>
   </div>
 </div>
 
-<!-- CSS Styles for Chatbot -->
 <style>
-  /* Import Google Fonts for a modern look */
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap');
+  /* Base styles for existing page elements - for reference on reuse */
+  body {
+    font-family: "Palatino", "Apple Garamond", Georgia, "Songti SC", "SimSun", "FangSong", serif;
+    color: #34495e; /* Existing body text color */
+  }
+  a {
+    color: #3a77d8; /* Existing link color */
+  }
+  .button, input[type=submit] {
+    background: #3a77d8; /* Existing button color */
+    color: #fff;
+  }
+  input[type=text], input[type=email], input[type=search], textarea, select {
+    border: 1px solid #a8adac; /* Existing input border color */
+  }
+  input[type=text]:focus, input[type=email]:focus, input[type=search]:focus, textarea:focus, select:focus {
+    outline: solid .12rem #fa407a; /* Existing focus outline */
+  }
+
+  /* Chatbot Specific Styles - Flat Design with Square Corners */
 
   /* FAB Container */
   .kb-chat-fab-container {
     position: fixed;
-    bottom: 30px; /* Same as TTS FAB to ensure no conflict, or adjust if needed */
+    bottom: 30px;
     right: 30px;
     z-index: 1000;
   }
@@ -61,82 +85,143 @@ excerpt: Search for a page or post you're looking for
     width: 56px;
     height: 56px;
     border: none;
-    background-color: #4CAF50; /* A soft green for the FAB */
-    border-radius: 50%;
+    background-color: #3a77d8; /* Primary blue from site links */
+    border-radius: 0; /* Square corners */
     cursor: pointer;
     padding: 0;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     transition: background-color 0.2s ease-in-out, transform 0.2s ease;
   }
   .kb-chat-fab-button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #2e60ad; /* Darker blue on hover */
     transform: translateY(-2px);
   }
   .kb-chat-fab-button:active {
     transform: scale(0.95);
   }
   .kb-chat-fab-button .kb-chat-icon {
-    fill: white; /* Icon color */
-    width: 28px; /* Slightly larger icon */
+    fill: white;
+    width: 28px;
     height: 28px;
   }
 
-  /* Chat Window */
-  .kb-chat-window {
+  /* Initial Input Bar (PC default) */
+  .kb-chat-initial-input-container {
     position: fixed;
-    border-radius: 12px;
+    bottom: 0; /* Position at the very bottom */
+    left: 0;
+    width: 100%;
+    padding: 10px 20px; /* Some padding */
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0; /* Subtle top border */
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05); /* Subtle shadow */
+    display: flex;
+    align-items: center;
+    z-index: 990; /* Below FAB, above page content */
+    transition: all 0.3s ease-in-out;
+    visibility: hidden; /* Controlled by JS */
+    opacity: 0; /* Controlled by JS */
+    transform: translateY(100%); /* Start off-screen */
+  }
+  .kb-chat-initial-input-container.visible {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  #kb-chat-input-initial {
+    flex-grow: 1;
+    border: 1px solid #a8adac; /* Reuse page input border */
+    border-radius: 0; /* Square corners */
+    padding: 10px 15px;
+    outline: none;
+    font-size: 1em;
+    margin-right: 10px;
+    background-color: #fff;
+    color: #34495e;
+  }
+  #kb-chat-input-initial:focus {
+    border-color: #fa407a; /* Reuse page focus color */
+    outline: none; /* remove default browser outline */
+  }
+
+  /* Send Button for both initial bar and full window */
+  .kb-chat-send-btn {
+    background-color: #3a77d8; /* Reuse primary blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 0; /* Square corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+  }
+  .kb-chat-send-btn:hover {
+    background-color: #2e60ad;
+  }
+  .kb-chat-send-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .kb-chat-send-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+
+  /* Full Chat Window */
+  .kb-chat-full-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw; /* Occupy most width */
+    height: 80vh; /* Occupy most height */
+    max-width: 900px; /* Max width for large screens */
+    max-height: 700px; /* Max height */
+    border-radius: 0; /* Square corners */
     background: #fff;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.3); /* Softer, larger shadow */
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
     display: flex;
     flex-direction: column;
-    overflow: hidden; /* Ensures rounded corners */
-    font-family: 'Roboto', 'Noto Sans SC', sans-serif; /* Modern font, with Chinese fallback */
-    color: #333;
-    z-index: 999; /* Below FAB but above other content */
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Material Design-like curve */
-    transform: scale(0.95) translateY(20px); /* Initial subtle offset for animation */
-    opacity: 0; /* Initial hidden for animation */
-    visibility: hidden; /* For screen readers */
-    pointer-events: none; /* Disable interaction when hidden */
+    overflow: hidden;
+    font-family: inherit; /* Inherit font from page */
+    color: inherit; /* Inherit color from page */
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(-50%, -45%) scale(0.95); /* Initial slightly off-center and scaled for animation */
   }
-  .kb-chat-window.open {
-    transform: scale(1) translateY(0);
-    opacity: 1;
+  .kb-chat-full-window.visible {
     visibility: visible;
-    pointer-events: auto; /* Enable interaction when open */
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  /* Overlay for full window */
+  .kb-chat-full-window-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .kb-chat-full-window-overlay.visible {
+    visibility: visible;
+    opacity: 1;
   }
 
-  /* Chat Window - Desktop styles */
-  @media (min-width: 769px) {
-    .kb-chat-window {
-      width: 700px; /* Wider window for PC */
-      height: 600px; /* Taller window for PC */
-      bottom: 100px; /* Position above FAB */
-      right: 50%; /* Center horizontally */
-      transform: translateX(50%) translateY(20px) scale(0.95); /* Adjust for centering */
-    }
-    .kb-chat-window.open {
-      transform: translateX(50%) translateY(0) scale(1);
-    }
-  }
 
-  /* Chat Window - Mobile styles */
-  @media (max-width: 768px) {
-    .kb-chat-window {
-      width: 100vw;
-      height: 100vh;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      border-radius: 0; /* Full screen, no rounded corners */
-      transform: scale(0.95); /* Still animate from smaller */
-    }
-  }
-
-  /* Header */
+  /* Header for full window */
   .kb-chat-header {
-    background: linear-gradient(to right, #66bb6a, #43a047); /* Softer green gradient */
+    background-color: #607D8B; /* Soft blue-grey */
     color: white;
     padding: 15px 20px;
     font-size: 1.1em;
@@ -144,29 +229,22 @@ excerpt: Search for a page or post you're looking for
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-  }
-  @media (min-width: 769px) {
-    .kb-chat-header {
-      border-top-left-radius: 12px;
-      border-top-right-radius: 12px;
-    }
+    border-bottom: 1px solid #455A64; /* Darker border */
+    border-radius: 0; /* Square corners */
   }
   .kb-chat-close-btn {
     background: none;
     border: none;
     cursor: pointer;
     padding: 5px;
-    margin-right: -5px; /* Adjust to align better visually */
-    transition: opacity 0.2s ease;
   }
   .kb-chat-close-btn svg {
-    fill: white; /* Close icon color */
+    fill: white;
     width: 20px;
     height: 20px;
   }
-  .kb-chat-close-btn:hover {
-    opacity: 0.8;
+  .kb-chat-close-btn:hover svg {
+    fill: #e0e0e0;
   }
 
   /* Messages Container */
@@ -177,81 +255,74 @@ excerpt: Search for a page or post you're looking for
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: #fcfcfc; /* Very light background for messages */
+    background-color: #f8f8f8; /* Light background for messages */
   }
-  /* Scrollbar styles for modern look */
+  /* Scrollbar styles - reuse if available or define simple */
   .kb-chat-messages::-webkit-scrollbar { width: 8px; }
-  .kb-chat-messages::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
-  .kb-chat-messages::-webkit-scrollbar-thumb { background: #bbb; border-radius: 10px; }
-  .kb-chat-messages::-webkit-scrollbar-thumb:hover { background: #999; }
+  .kb-chat-messages::-webkit-scrollbar-track { background: #f1f1f1; }
+  .kb-chat-messages::-webkit-scrollbar-thumb { background: #bbb; }
+  .kb-chat-messages::-webkit-scrollbar-thumb:hover { background: #888; }
+
 
   /* Message Bubbles */
   .kb-message {
-    padding: 12px 18px; /* Slightly more padding */
-    border-radius: 20px; /* More rounded */
-    max-width: 85%; /* Slightly wider */
-    word-wrap: break-word; /* Ensure long words wrap */
-    line-height: 1.6; /* Better readability */
+    padding: 10px 15px;
+    border-radius: 0; /* Square corners */
+    max-width: 85%; /* Slightly wider messages */
+    word-wrap: break-word;
+    line-height: 1.5;
     font-size: 0.95em;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08); /* Subtle shadow for bubbles */
+    position: relative; /* For typing cursor */
   }
   .kb-message--bot {
-    background: #e9ecef; /* Light grey-blue for bot */
-    color: #34495e;
+    background: #e0e0e0; /* Light grey for bot */
+    color: inherit; /* Inherit from page */
     align-self: flex-start;
-    border-bottom-left-radius: 6px; /* Slight edge for first message */
   }
   .kb-message--user {
-    background: #d4edda; /* Light green for user */
-    color: #214d23;
+    background: #e0f2f7; /* Soft blue for user */
+    color: inherit;
     align-self: flex-end;
-    border-bottom-right-radius: 6px; /* Slight edge for last message */
   }
+  /* Markdown specific styles within messages - reuse .typeset where possible */
+  .kb-message strong, .kb-message b { font-weight: 700; } /* Matches .typeset b, .typeset strong */
+  .kb-message em, .kb-message i { font-style: italic; } /* Matches .typeset em, .typeset i */
   .kb-message a {
-    color: #007bff; /* Link color within messages */
+    color: #3a77d8; /* Matches page link color */
     text-decoration: underline;
-    word-break: break-all; /* Ensure long URLs break */
   }
   .kb-message--user a {
-    color: #176d1a; /* Darker green link in user bubbles */
+    color: #2e60ad; /* Slightly darker for contrast on user bubble */
   }
-  /* Markdown specific styles within messages */
-  .kb-message strong, .kb-message b { font-weight: 700; }
-  .kb-message em, .kb-message i { font-style: italic; }
-  .kb-message ul, .kb-message ol { padding-left: 25px; margin: 8px 0; }
-  .kb-message li { margin-bottom: 4px; }
+  .kb-message ul, .kb-message ol { padding-left: 20px; margin: 5px 0; }
+  .kb-message li { margin-bottom: 5px; }
   .kb-message pre {
-    background-color: #f0f0f0;
-    padding: 10px;
-    border-radius: 6px;
-    font-family: 'Fira Code', 'SF Mono', monospace; /* Monospace font for code */
-    font-size: 0.8em;
+    background-color: #eee;
+    padding: 8px;
+    border-radius: 0; /* Square corners */
+    font-family: 'Fira Code', 'SF Mono', monospace;
+    font-size: 0.85em;
     white-space: pre-wrap;
     word-break: break-all;
-    overflow-x: auto; /* Allow horizontal scrolling for code blocks */
-    margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 1.4;
+    overflow-x: auto;
   }
   .kb-message code {
     background-color: #e0e0e0;
-    padding: 2px 5px;
-    border-radius: 4px;
+    padding: 2px 4px;
+    border-radius: 0; /* Square corners */
     font-family: 'Fira Code', 'SF Mono', monospace;
     font-size: 0.85em;
   }
   /* For footnote style sources section */
   .kb-message .sources-section {
-    font-size: 0.85em;
-    margin-top: 18px;
-    padding-top: 12px;
-    border-top: 1px dashed #cfd8dc; /* Dashed line for subtle separation */
-    color: #555;
+    font-size: 0.8em;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    color: #666;
   }
   .kb-message .sources-section strong {
     color: #333;
-    display: block; /* Make strong tag a block for better spacing */
-    margin-bottom: 5px;
   }
   .kb-message .sources-section ol {
     list-style-type: decimal;
@@ -260,91 +331,76 @@ excerpt: Search for a page or post you're looking for
   }
   .kb-message .sources-section ol li {
     margin-bottom: 3px;
-    line-height: 1.4;
-  }
-  .kb-message p { /* Ensure paragraphs within messages have consistent styling */
-    margin: 0;
   }
 
-
-  /* Footer/Input */
-  .kb-chat-input-container {
+  /* Input Container for full window */
+  .kb-chat-full-window .kb-chat-input-container {
     display: flex;
-    align-items: flex-end; /* Align items to the bottom */
     padding: 10px 15px;
     border-top: 1px solid #eee;
     background-color: #fff;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.05); /* Shadow at bottom */
+    border-radius: 0; /* Square corners */
   }
-  @media (min-width: 769px) {
-    .kb-chat-input-container {
-      border-bottom-left-radius: 12px;
-      border-bottom-right-radius: 12px;
-    }
-  }
-
-  #kb-chat-input {
+  #kb-chat-input-full {
     flex-grow: 1;
-    border: 1px solid #cfd8dc; /* Light, neutral border */
-    border-radius: 22px; /* Pill-shaped input */
-    padding: 10px 18px; /* More padding */
+    border: 1px solid #a8adac; /* Reuse page input border */
+    border-radius: 0; /* Square corners */
+    padding: 10px 15px;
     outline: none;
     font-size: 1em;
     margin-right: 10px;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease;
-    resize: none; /* Disable manual resize */
-    overflow-y: hidden; /* Hide scrollbar initially */
-    min-height: 44px; /* Minimum height for input */
-    max-height: 120px; /* Maximum height for input before scrolling */
-    line-height: 1.5;
+    background-color: #fff;
+    color: #34495e;
   }
-  #kb-chat-input:focus {
-    border-color: #66bb6a; /* Green focus highlight */
-    box-shadow: 0 0 0 2px rgba(102, 187, 106, 0.2); /* Soft shadow on focus */
-  }
-  .kb-chat-send-btn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #66bb6a; /* Icon color matches primary */
-    padding: 8px; /* Larger clickable area */
-    display: flex; /* Center SVG */
-    align-items: center;
-    justify-content: center;
-    transition: color 0.2s ease, transform 0.2s ease;
-    border-radius: 50%; /* Make button round */
-  }
-  .kb-chat-send-btn:hover {
-    color: #4CAF50;
-    transform: scale(1.05);
-  }
-  .kb-chat-send-btn:disabled {
-    color: #bdbdbd; /* Lighter grey when disabled */
-    cursor: not-allowed;
-    transform: none;
-  }
-  .kb-chat-send-btn svg {
-    width: 24px;
-    height: 24px;
+  #kb-chat-input-full:focus {
+    border-color: #fa407a; /* Reuse page focus color */
+    outline: none;
   }
 
-  /* Typewriter caret animation */
-  .typing-caret {
+  /* Typing cursor */
+  .kb-typing-cursor {
     display: inline-block;
     width: 2px;
-    height: 1.2em; /* Height relative to font size */
-    background-color: #333;
-    animation: blink-caret 0.75s step-end infinite;
+    height: 1em; /* Adjust height to match text line height */
+    background-color: #333; /* Color of the cursor */
     vertical-align: middle;
     margin-left: 2px;
+    animation: blink-caret 0.75s step-end infinite;
   }
   @keyframes blink-caret {
-    from, to { background-color: transparent; }
-    50% { background-color: #333; }
+    from, to { background-color: transparent }
+    50% { background-color: #333 }
+  }
+
+
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .kb-chat-full-window {
+      width: 95vw; /* Almost full width */
+      height: 90vh; /* Almost full height */
+      /* No transform from initial for mobile, it always opens from FAB */
+      transform: translate(-50%, -50%); 
+    }
+    .kb-chat-initial-input-container {
+      display: none !important; /* Hide initial input bar on mobile */
+      visibility: hidden !important;
+      opacity: 0 !important;
+    }
+    .kb-chat-fab-container {
+      display: block; /* Show FAB on mobile */
+    }
+  }
+
+  @media (min-width: 769px) {
+    .kb-chat-fab-container {
+      display: none !important; /* Hide FAB on PC */
+    }
+    .kb-chat-initial-input-container {
+      bottom: 50px; /* Adjust as per requirement - 50px from bottom */
+    }
   }
 </style>
 
-<!-- JavaScript Logic for Chatbot -->
 <script>
   // Utility to render basic Markdown to HTML
   function renderMarkdown(markdownText) {
@@ -369,174 +425,195 @@ excerpt: Search for a page or post you're looking for
     html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
 
     // Handle paragraphs and lists
+    // Split by double newline to treat blocks separately.
     const blocks = html.split(/\n\n+/); 
-    let processedHtml = blocks.map(block => {
-        if (!block.trim()) return '';
 
-        // Check for "相关内容出自：" section first
-        if (block.startsWith('**相关内容出自：**')) {
-            const sourcesContent = block.substring('**相关内容出自：**'.length).trim();
-            const listItems = sourcesContent.split('\n').filter(line => line.trim() !== '').map(item => {
-                // Each item might be "1. [Title](URL)"
-                const parsedItem = item.replace(/^\d+\.\s/, '').trim(); // Remove leading number and dot
-                return `<li>${parsedItem}</li>`;
-            }).join('');
-            return `<div class="sources-section"><strong>相关内容出自：</strong><ol>${listItems}</ol></div>`;
+    let processedHtml = blocks.map(block => {
+        // Check for lists at the start of a block
+        if (block.match(/^\d+\.\s/) || block.match(/^\s*[-*+]\s/)) {
+            // If it's the "**相关内容出自：**" section, wrap it in a div for specific styling
+            if (block.startsWith('**相关内容出自：**')) {
+                const sourcesContent = block.substring('**相关内容出自：**'.length).trim();
+                const listItems = sourcesContent.split('\n').filter(line => line.trim() !== '').map(item => {
+                    // Item could be "1. [Title](URL)"
+                    // Keep the number, but remove any extra spaces, then render link.
+                    const match = item.match(/^(\d+\.\s*)(.*)$/);
+                    if (match) {
+                        return `<li>${match[1]}${renderMarkdown(match[2].trim())}</li>`;
+                    }
+                    return `<li>${renderMarkdown(item.trim())}</li>`; // Fallback for unexpected formats
+                }).join('');
+                return `<div class="sources-section"><strong>相关内容出自：</strong><ol>${listItems}</ol></div>`;
+            } else if (block.match(/^\d+\.\s/)) { // Generic ordered list
+                const items = block.split('\n').filter(line => line.match(/^\d+\.\s/)).map(item => `<li>${item.replace(/^\d+\.\s/, '').trim()}</li>`).join('');
+                return `<ol>${items}</ol>`;
+            } else { // Generic unordered list
+                const items = block.split('\n').filter(line => line.match(/^\s*[-*+]\s/)).map(item => `<li>${item.replace(/^\s*[-*+]\s/, '').trim()}</li>`).join('');
+                return `<ul>${items}</ul>`;
+            }
         } 
-        // Then handle generic ordered lists
-        else if (block.match(/^\d+\.\s/)) {
-            const items = block.split('\n').filter(line => line.match(/^\d+\.\s/)).map(item => {
-                 const parsedItem = item.replace(/^\d+\.\s/, '').trim();
-                 return `<li>${parsedItem}</li>`;
-            }).join('');
-            return `<ol>${items}</ol>`;
-        } 
-        // Then handle generic unordered lists
-        else if (block.match(/^\s*[-*+]\s/)) {
-            const items = block.split('\n').filter(line => line.match(/^\s*[-*+]\s/)).map(item => {
-                const parsedItem = item.replace(/^\s*[-*+]\s/, '').trim();
-                return `<li>${parsedItem}</li>`;
-            }).join('');
-            return `<ul>${items}</ul>`;
-        }
-        // Handle code blocks that might be on their own line
-        else if (block.startsWith('<pre><code>')) {
-            return block; // Already processed by regex, just return it
-        }
-        // For everything else, treat as paragraph and convert single newlines to <br>
+        // For other blocks, treat as paragraphs and convert single newlines to <br>
         else {
             return `<p>${block.replace(/\n/g, '<br>')}</p>`;
         }
     }).join('');
-    
+
     // Remove any empty <p> tags that might result from parsing
     processedHtml = processedHtml.replace(/<p><\/p>/g, '');
     
     return processedHtml;
   }
 
-  const kbChatToggleBtn = document.getElementById('kb-chat-toggle-btn');
-  const kbChatCloseBtn = document.getElementById('kb-chat-close-btn');
-  const kbChatWindow = document.getElementById('kb-chat-window');
-  const kbChatInput = document.getElementById('kb-chat-input');
-  const kbChatSendBtn = document.getElementById('kb-chat-send-btn');
-  const kbChatMessages = document.getElementById('kb-chat-messages');
-  const initialBotMessageDiv = kbChatMessages.querySelector('.kb-message--bot');
+  // --- DOM Elements ---
+  const kbChatFabContainer = document.getElementById('kb-chat-fab-container');
+  const kbChatToggleFab = document.getElementById('kb-chat-toggle-fab');
+  
+  const kbChatInitialInputContainer = document.getElementById('kb-chat-initial-input');
+  const kbChatInputInitial = document.getElementById('kb-chat-input-initial');
+  const kbChatSendInitial = document.getElementById('kb-chat-send-initial');
 
-  const CHAT_WORKER_URL = 'https://proxy.true-dhamma.com/kb-chat'; // Your KB-Chat Worker URL
+  const kbChatFullWindow = document.getElementById('kb-chat-full-window');
+  const kbChatCloseFull = document.getElementById('kb-chat-close-full');
+  const kbChatMessagesFull = document.getElementById('kb-chat-messages-full');
+  const kbChatInputFull = document.getElementById('kb-chat-input-full');
+  const kbChatSendFull = document.getElementById('kb-chat-send-full');
 
-  // State variable for chat window visibility
-  let isChatWindowOpen = false;
-  let isTyping = false;
-  const TYPING_SPEED = 20; // Milliseconds per character
+  // Create an overlay for the full chat window (added to body in HTML for cleaner structure)
+  const overlay = document.querySelector('.kb-chat-full-window-overlay');
 
-  // --- UI Update & Lifecycle Functions ---
-  const toggleChatWindow = () => {
-    isChatWindowOpen = !isChatWindowOpen;
-    if (isChatWindowOpen) {
-      kbChatWindow.classList.add('open');
-      localStorage.setItem('kbChatOpenState', 'open'); // Save state
-      kbChatInput.focus();
+  const CHAT_WORKER_URL = 'https://proxy.true-dhamma.com/kb-chat';
+  const TYPING_SPEED = 30; // Milliseconds per character
+  const TYPING_CHUNK_SIZE = 2; // How many characters to type at once (for faster feeling)
+
+  // --- State Variables ---
+  let isMobileDevice = window.innerWidth <= 768; // Initial check
+  let isFullChatWindowVisible = false;
+
+  // --- Utility Functions ---
+  const saveChatState = () => {
+    localStorage.setItem('kbChatFullWindowVisible', isFullChatWindowVisible);
+  };
+
+  const setFullChatWindowVisibility = (visible) => {
+    isFullChatWindowVisible = visible;
+    if (visible) {
+      kbChatFullWindow.classList.add('visible');
+      overlay.classList.add('visible');
+      kbChatInputFull.focus();
     } else {
-      kbChatWindow.classList.remove('open');
-      localStorage.setItem('kbChatOpenState', 'closed'); // Save state
+      kbChatFullWindow.classList.remove('visible');
+      overlay.classList.remove('visible');
+    }
+    saveChatState();
+  };
+
+  const showInitialInputBar = (visible) => {
+    if (visible) {
+      kbChatInitialInputContainer.classList.add('visible');
+      kbChatInputInitial.focus();
+    } else {
+      kbChatInitialInputContainer.classList.remove('visible');
     }
   };
 
-  const addMessage = (text, sender, isLoading = false) => {
+  const showFabButton = (visible) => {
+    if (visible) {
+      kbChatFabContainer.style.display = 'block';
+    } else {
+      kbChatFabContainer.style.display = 'none';
+    }
+  };
+
+  const initializeChatUI = () => {
+    isMobileDevice = window.innerWidth <= 768; // Re-evaluate on init/resize
+    const savedState = localStorage.getItem('kbChatFullWindowVisible');
+
+    if (savedState !== null) {
+      isFullChatWindowVisible = (savedState === 'true'); // localStorage stores strings
+    } else {
+      // Default: PC shows input bar (which can expand), mobile shows FAB (closed)
+      isFullChatWindowVisible = false; // Always start with full window closed, then determine how to trigger it
+    }
+
+    if (isMobileDevice) {
+      showFabButton(true);
+      showInitialInputBar(false);
+      setFullChatWindowVisibility(false); // Mobile always starts with FAB, full window closed
+    } else {
+      showFabButton(false);
+      // On PC, if user previously had full chat open, reopen it. Otherwise, show initial input bar.
+      if (isFullChatWindowVisible) {
+        showInitialInputBar(false);
+        setFullChatWindowVisibility(true);
+      } else {
+        showInitialInputBar(true); // PC default: initial input bar visible
+        setFullChatWindowVisibility(false);
+      }
+    }
+  };
+
+  const typeWriter = (element, text, typingCursorElement, onComplete) => {
+    let i = 0;
+    const interval = setInterval(() => {
+      if (i < text.length) {
+        const currentPartialText = text.substring(0, i + TYPING_CHUNK_SIZE);
+        element.innerHTML = renderMarkdown(currentPartialText);
+        element.appendChild(typingCursorElement); // Keep cursor at the end
+        // Scroll parent if it's scrollable and cursor is near bottom
+        if (element.parentElement) {
+            const container = element.parentElement;
+            if (container.scrollHeight - container.scrollTop - container.clientHeight < 50) { // If close to bottom
+                container.scrollTop = container.scrollHeight;
+            }
+        }
+        i += TYPING_CHUNK_SIZE;
+      } else {
+        clearInterval(interval);
+        if (typingCursorElement && typingCursorElement.parentElement) {
+          typingCursorElement.remove(); // Remove cursor after typing
+        }
+        element.innerHTML = renderMarkdown(text); // Final render after all text
+        if (element.parentElement) {
+            element.parentElement.scrollTop = element.parentElement.scrollHeight; // Final scroll
+        }
+        if (typeof onComplete === 'function') {
+          onComplete();
+        }
+      }
+    }, TYPING_SPEED);
+  };
+
+  const addMessageWithTyping = (text, sender, targetContainer) => {
     const messageDiv = document.createElement('div');
     messageDiv.classList.add('kb-message');
     messageDiv.classList.add(`kb-message--${sender}`);
     
-    if (isLoading) {
-        messageDiv.textContent = '思考中'; 
-    } else {
-        // Placeholder for typewriter effect or direct render
-    }
-    
-    kbChatMessages.appendChild(messageDiv);
-    kbChatMessages.scrollTop = kbChatMessages.scrollHeight; // Auto scroll to bottom
-    return messageDiv; // Return the message element to update later if loading/typing
-  };
+    const contentSpan = document.createElement('div'); // Use div for block-level markdown elements like lists/code
+    messageDiv.appendChild(contentSpan);
 
-  const typewriterEffect = (element, markdownText, callback) => {
-    isTyping = true;
-    const plainText = markdownText.replace(/<\/?[^>]+(>|$)/g, ""); // Remove HTML for typing animation
-    let i = 0;
-    element.innerHTML = ''; // Clear content for typing
+    const typingCursor = document.createElement('span'); // Cursor element
+    typingCursor.classList.add('kb-typing-cursor');
+    messageDiv.appendChild(typingCursor); // Add cursor initially
 
-    const caret = document.createElement('span');
-    caret.classList.add('typing-caret');
-    element.appendChild(caret);
+    targetContainer.appendChild(messageDiv);
+    targetContainer.scrollTop = targetContainer.scrollHeight;
 
-    const type = () => {
-      if (i < plainText.length) {
-        element.textContent += plainText.charAt(i);
-        element.appendChild(caret); // Keep caret at the end
-        kbChatMessages.scrollTop = kbChatMessages.scrollHeight;
-        i++;
-        setTimeout(type, TYPING_SPEED);
-      } else {
-        isTyping = false;
-        caret.remove(); // Remove caret after typing is done
-        element.innerHTML = renderMarkdown(markdownText); // Render full markdown after typing
-        kbChatMessages.scrollTop = kbChatMessages.scrollHeight;
-        if (callback) callback();
-      }
-    };
-    type();
-  };
-
-  // --- Initial Setup (PC default open, Mobile default closed) ---
-  const initializeChatbotState = () => {
-    // Initial bot greeting
-    // Use raw markdown for the typewriter effect, then it will be rendered
-    const greetingMarkdown = '阿弥陀佛，请问有什么可以帮助您？';
-    const initialBotMsgDiv = kbChatMessages.querySelector('.kb-message--bot');
-    
-    // Set initial text with typewriter effect
-    typewriterEffect(initialBotMsgDiv, greetingMarkdown, () => {
-      kbChatMessages.scrollTop = kbChatMessages.scrollHeight;
-      if (isChatWindowOpen) {
-          kbChatInput.focus(); // Only focus if already open
-      }
+    return new Promise(resolve => {
+        typeWriter(contentSpan, text, typingCursor, resolve);
     });
-
-    const isMobile = window.innerWidth <= 768; // Define mobile breakpoint
-    const savedState = localStorage.getItem('kbChatOpenState');
-
-    if (savedState) {
-        // User has a saved preference
-        isChatWindowOpen = (savedState === 'open');
-    } else {
-        // No saved preference, use default based on device type
-        isChatWindowOpen = !isMobile;
-    }
-
-    if (isChatWindowOpen) {
-      kbChatWindow.classList.add('open');
-    }
   };
 
-  // --- Auto-resize textarea ---
-  const autoResizeTextarea = () => {
-    kbChatInput.style.height = 'auto'; // Reset height to recalculate
-    kbChatInput.style.height = kbChatInput.scrollHeight + 'px'; // Set to scroll height
-    kbChatMessages.scrollTop = kbChatMessages.scrollHeight; // Keep chat scrolled
-  };
+  const sendQuestion = async (query, inputElement, sendButtonElement, messagesContainer) => {
+    if (!query) return;
 
-  // --- Event Handlers ---
-  const askQuestion = async () => {
-    const query = kbChatInput.value.trim();
-    if (!query || isTyping) return;
+    // Add user message immediately
+    await addMessageWithTyping(query, 'user', messagesContainer);
+    inputElement.value = '';
+    inputElement.disabled = true;
+    sendButtonElement.disabled = true;
 
-    addMessage(query, 'user');
-    kbChatInput.value = '';
-    autoResizeTextarea(); // Reset textarea height after sending
-    kbChatInput.disabled = true;
-    kbChatSendBtn.disabled = true;
-
-    const botMessageDiv = addMessage('思考中', 'bot'); // This will be updated by typewriter
+    // Show "思考中" with typing effect
+    const thinkingMessagePromise = addMessageWithTyping('思考中', 'bot', messagesContainer); 
     
     try {
       const response = await fetch(CHAT_WORKER_URL, {
@@ -550,57 +627,87 @@ excerpt: Search for a page or post you're looking for
       }
 
       const data = await response.json();
-      typewriterEffect(botMessageDiv, data.answer, () => {
-        // Callback after typing is done
-        kbChatInput.disabled = false;
-        kbChatSendBtn.disabled = false;
-        kbChatInput.focus();
-        kbChatMessages.scrollTop = kbChatMessages.scrollHeight;
-      });
+      await thinkingMessagePromise; // Wait for "思考中" to finish typing
+      messagesContainer.lastChild.remove(); // Remove "思考中" placeholder
+      
+      await addMessageWithTyping(data.answer, 'bot', messagesContainer); // Type out the actual answer
 
     } catch (error) {
       console.error('Chat error:', error);
-      botMessageDiv.innerHTML = renderMarkdown('抱歉，服务出现了一点问题，请稍后再试。');
-      kbChatInput.disabled = false;
-      kbChatSendBtn.disabled = false;
-      kbChatMessages.scrollTop = kbChatMessages.scrollHeight;
-      kbChatInput.focus();
+      await thinkingMessagePromise; // Wait for "思考中" to finish typing
+      messagesContainer.lastChild.remove(); // Remove "思考中" placeholder
+      await addMessageWithTyping('抱歉，服务出现了一点问题，请稍后再试。', 'bot', messagesContainer);
     } finally {
-      // These are now handled in the typewriter callback or error block
+      inputElement.disabled = false;
+      sendButtonElement.disabled = false;
+      messagesContainer.scrollTop = messagesContainer.scrollHeight;
+      inputElement.focus();
     }
   };
 
-  // --- Event Listeners ---
-  kbChatToggleBtn.addEventListener('click', toggleChatWindow);
-  kbChatCloseBtn.addEventListener('click', toggleChatWindow); // Use toggle for close as well
 
-  kbChatSendBtn.addEventListener('click', askQuestion);
-  kbChatInput.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter' && !event.shiftKey) { // Allow Shift+Enter for new line
-      event.preventDefault(); // Prevent new line in input if only Enter is pressed
-      askQuestion();
+  // --- Event Listeners ---
+  kbChatToggleFab.addEventListener('click', () => {
+    setFullChatWindowVisibility(!isFullChatWindowVisible);
+  });
+
+  kbChatCloseFull.addEventListener('click', () => {
+    setFullChatWindowVisibility(false);
+    // On PC, if full chat is closed, revert to initial input bar
+    if (!isMobileDevice) {
+      showInitialInputBar(true);
     }
   });
-  // Adjust textarea height on input
-  kbChatInput.addEventListener('input', autoResizeTextarea);
 
+  // PC: Initial input bar focus/keydown
+  kbChatInputInitial.addEventListener('focus', () => {
+    setFullChatWindowVisibility(true);
+    showInitialInputBar(false);
+    // Transfer text from initial input to full chat input
+    kbChatInputFull.value = kbChatInputInitial.value;
+  });
 
-  // Initialize chat window state on page load
-  document.addEventListener('DOMContentLoaded', initializeChatbotState);
-  window.addEventListener('resize', () => {
-    // Re-evaluate open state on resize for responsiveness
-    const isMobileNow = window.innerWidth <= 768;
-    const savedState = localStorage.getItem('kbChatOpenState');
-
-    if (!savedState) { // If no user override, adjust based on device type
-      if (isMobileNow && isChatWindowOpen) {
-        kbChatWindow.classList.remove('open');
-        isChatWindowOpen = false;
-      } else if (!isMobileNow && !isChatWindowOpen) {
-        kbChatWindow.classList.add('open');
-        isChatWindowOpen = true;
-      }
+  kbChatSendInitial.addEventListener('click', () => {
+    // If user sends from initial bar, open full window and send
+    setFullChatWindowVisibility(true);
+    showInitialInputBar(false);
+    sendQuestion(kbChatInputInitial.value, kbChatInputFull, kbChatSendFull, kbChatMessagesFull);
+    kbChatInputInitial.value = ''; // Clear initial input
+  });
+  kbChatInputInitial.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      setFullChatWindowVisibility(true);
+      showInitialInputBar(false);
+      sendQuestion(kbChatInputInitial.value, kbChatInputFull, kbChatSendFull, kbChatMessagesFull);
+      kbChatInputInitial.value = ''; // Clear initial input
     }
-    autoResizeTextarea(); // Adjust textarea height if window resized
+  });
+
+
+  // Full chat window input/send
+  kbChatSendFull.addEventListener('click', () => sendQuestion(kbChatInputFull.value, kbChatInputFull, kbChatSendFull, kbChatMessagesFull));
+  kbChatInputFull.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      sendQuestion(kbChatInputFull.value, kbChatInputFull, kbChatSendFull, kbChatMessagesFull);
+    }
+  });
+
+  // Handle window resize for responsiveness
+  window.addEventListener('resize', () => {
+    // Re-initialize UI based on new window size, but keep current chat open state if possible
+    const wasFullChatOpen = isFullChatWindowVisible; // Store current state
+    initializeChatUI(); // Re-apply visibility based on device type
+    if (wasFullChatOpen) { // If it was open, try to keep it open
+        setFullChatWindowVisibility(true);
+    }
+  });
+
+  // --- Initial Page Load ---
+  document.addEventListener('DOMContentLoaded', async () => {
+    initializeChatUI();
+    // Add initial bot greeting message with typing effect to full chat window
+    await addMessageWithTyping('阿弥陀佛，请问有什么可以帮助您？', 'bot', kbChatMessagesFull);
   });
 </script>
