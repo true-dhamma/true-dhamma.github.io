@@ -1,5 +1,5 @@
 ---
-title: 搜索
+title: 搜索&提问
 excerpt: Search for a page or post's content
 ---
 
@@ -32,7 +32,7 @@ excerpt: Search for a page or post's content
     </div>
     <div id="chat-messages" class="chat-messages">
       <div class="message bot-message">
-        <div class="message-content">阿弥陀佛，请问有什么可以帮助您？</div>
+        <div class="message-content">请问有什么可以帮助您？</div>
       </div>
     </div>
     <div class="chat-input-area">
@@ -194,8 +194,7 @@ excerpt: Search for a page or post's content
 .message-content a { color: #3a77d8; text-decoration: underline; cursor: pointer; }
 .message-content ul, .message-content ol { 
     margin: 0.7em 0; 
-    padding-left: 0;
-    list-style-position: inside;
+    padding-left: 0.6em;
 }
 .message-content li { margin-bottom: 0.25em; }
 
