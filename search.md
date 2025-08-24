@@ -7,13 +7,10 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v4.7 (Link Rendering Fix)
+  Modern Chatbot UI v4.7.1 (CORS Bugfix)
   Author: Gemini Assistant & User
-  Updates: 1. Refactored the sendMessage function to split the main answer
-              from the source links before rendering.
-           2. The main answer is typed out character by character.
-           3. The source link block is appended instantly once complete,
-              preventing the display of garbled URL-encoded characters.
+  Updates: 1. Corrected the WORKER_URL constant to include the proper
+              /kb-chat path, fixing the critical CORS preflight error.
   =============================================================
 -->
 
@@ -104,7 +101,8 @@ excerpt: Search for a page or post's content
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     // --- Configuration ---
-    const WORKER_URL = 'https://proxy.true-dhamma.com/';
+    // CORRECTED URL
+    const WORKER_URL = 'https://proxy.true-dhamma.com/kb-chat';
     const MAX_HISTORY_TURNS = 5;
 
     // --- State Management & DOM Elements ---
@@ -155,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     const stopFetchingAndTyping = () => { if (fetchController) fetchController.abort(); if (typingInterval) clearInterval(typingInterval); setButtonState('idle'); };
 
-    // --- UPDATED sendMessage function ---
+    // --- sendMessage function with link rendering fix ---
     const sendMessage = async () => {
         const query = chatInput.value.trim();
         if (!query) return;
@@ -193,7 +191,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const data = await response.json();
             
-            // --- NEW: Split answer from sources for smooth rendering ---
             const sourceSeparator = "\n\n**相关内容出自：**";
             let mainAnswer = data.answer;
             let sourcePart = "";
@@ -204,12 +201,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 sourcePart = data.answer.substring(separatorIndex);
             }
 
-            // 1. Type out the main answer
             await typeMessage(botMessageContent, mainAnswer);
 
-            // 2. Instantly append the fully formed source links
             if (sourcePart) {
-                // We need to get the already rendered HTML and append to it
                 const existingHTML = botMessageContent.innerHTML;
                 const sourceHTML = sanitize(marked.parse(sourcePart));
                 botMessageContent.innerHTML = existingHTML + sourceHTML;
@@ -217,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             chatHistory.push({ role: 'user', parts: [{ text: query }] });
-            chatHistory.push({ role: 'model', parts: [{ text: data.answer }] }); // Store the full answer
+            chatHistory.push({ role: 'model', parts: [{ text: data.answer }] });
 
         } catch (error) {
             if (error.name === 'AbortError') {
