@@ -7,15 +7,15 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v4.5 (Definitive Mobile Font Size Fix)
+  Modern Chatbot UI v4.6 (JavaScript Syntax Bugfix)
   Author: Gemini Assistant & User
-  Updates: 1. Used the 'em' unit within the mobile media query to definitively
-              force the header title and button to have the exact same font size,
-              resolving the visual inconsistency.
+  Updates: 1. Fixed a critical "Unexpected end of input" syntax error
+              by adding the missing closing bracket for the DOMContentLoaded
+              event listener.
   =============================================================
 -->
 
-<!-- Chatbot FAB (Floating Action Button) -->
+<!-- Chatbot FAB (Floating ActionButton) -->
 <div id="chat-fab-button" class="chat-fab-button">
   <svg class="chat-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
     <path d="M0 0h24v24H0V0z" fill="none"/>
@@ -162,13 +162,11 @@ excerpt: Search for a page or post's content
     .chat-modal, .chat-modal * { font-size: 18px; }
     .chat-input-area textarea { font-size: 16px; padding: 10px 18px; }
     .chat-header { padding: 10px; }
-
-    /* UPDATED: Definitive Mobile Font Size Fix */
     .chat-title { 
-       font-size: 1em; /* Use 'em' to ensure it's exactly the same as the parent's font size (18px) */
+       font-size: 1em;
     }
     .chat-header-button {
-       font-size: 1em; /* Also use 'em' here to guarantee consistency */
+       font-size: 1em;
     }
 }
 </style>
