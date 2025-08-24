@@ -320,4 +320,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     chatSubmitButton.addEventListener('click', () => {
-        (stopIcon.style.display ==
+        (stopIcon.style.display === 'block') ? stopFetchingAndTyping() : sendMessage();
+    });
+    chatInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) {
+            e.preventDefault();
+            sendMessage();
+        }
+    });
+    chatInput.addEventListener('input', () => {
+        chatInput.style.height = 'auto';
+        chatInput.style.height = `${chatInput.scrollHeight}px`;
+    });
+});
+</script>
