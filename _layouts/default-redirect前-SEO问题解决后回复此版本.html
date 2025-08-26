@@ -2,29 +2,6 @@
 <html lang="{{ site.lang | default: "en-US" }}">
 
   <head>
-    <!-- 解决SEO问题 -->
-    <script>
-  var currentHost = window.location.hostname;
-  var newHost = "true-dhamma.com";
-  var isGithubIO = currentHost.endsWith('github.io');
-
-  // 仅当网站托管在 github.io 上时才执行重定向
-  if (isGithubIO) {
-    var newURL = "https://" + newHost + window.location.pathname + window.location.search;
-    
-    // 创建一个指向新域名的 canonical 标签，以防 Google 没有执行 JS
-    var link = document.createElement('link');
-    link.rel = 'canonical';
-    link.href = newURL;
-    document.head.appendChild(link);
-
-    // 执行 JS 重定向
-    window.location.replace(newURL);
-  }
-</script>
-
-
-    
     <!-- General meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
