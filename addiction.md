@@ -60,8 +60,8 @@ feature_image: "/uploads/top_banner_addiction.jpg"
           <img src="/uploads/addiction_porn.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E6%88%92%E9%99%A4%E8%89%B2%E6%83%85%E6%88%90%E7%98%BE%E4%B9%8B%E4%B9%A6-easypeasy-way%E4%BC%98%E5%8C%96%E7%89%88/" style="text-decoration: none; font-size: 0.85em;">戒除色情成瘾之书</a><br />
-           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/15/%E8%BD%BB%E6%9D%BE%E6%88%92%E6%96%AD%E8%89%B2%E6%83%85%E6%88%90%E7%98%BE-easypeasy/" style="text-decoration: none; font-size: 0.85em;">轻松戒断色情成瘾(EasyPeasy)</a>
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E8%BD%BB%E6%9D%BE%E6%88%92%E8%89%B2%E6%B3%95-easypeasy-%E4%BC%98%E5%8C%96%E7%89%88/" style="text-decoration: none; font-size: 0.85em;">轻松戒色法(EasyPeasy优化版)</a><br />
+           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/15/easypeasy-%E6%88%92%E8%89%B2%E4%B9%8B%E8%B7%AF/" style="text-decoration: none; font-size: 0.85em;">EasyPeasy戒色之路</a>
         </p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
@@ -83,8 +83,9 @@ feature_image: "/uploads/top_banner_addiction.jpg"
           <img src="/uploads/addiction_mobile.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/16/%E5%A6%82%E4%BD%95%E4%B8%8E%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%88%86%E6%89%8B/" style="text-decoration: none; font-size: 0.85em;">如何与你的手机分手</a><br />
           <a href="/心理学/2025/08/16/数字极简主义/" style="text-decoration: none; font-size: 0.85em;">数字极简主义</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/%E7%B2%BE%E9%80%89/2025/08/16/%E8%BD%BB%E6%9D%BE%E6%88%92%E6%96%AD%E6%B8%B8%E6%88%8F%E6%88%90%E7%98%BE/" style="text-decoration: none; font-size: 0.85em;">轻松戒断游戏成瘾</a><br />
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/16/%E5%A6%82%E4%BD%95%E4%B8%8E%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%88%86%E6%89%8B/" style="text-decoration: none; font-size: 0.85em;">如何与你的手机分手</a><br />
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E4%BB%8E%E6%89%8B%E6%9C%BA%E6%88%90%E7%98%BE%E4%B8%AD%E8%A7%A3%E6%94%BE%E5%87%BA%E6%9D%A5/" style="text-decoration: none; font-size: 0.85em;">EasyWay从手机成瘾中解放出来</a>
         </p>
       </td>
