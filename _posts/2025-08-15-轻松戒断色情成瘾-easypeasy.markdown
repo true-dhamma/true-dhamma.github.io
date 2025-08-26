@@ -1,19 +1,18 @@
 ---
-title: 轻松戒断色情成瘾(EasyPeasy)
-date: 2025-08-15 21:13:00 +08:00
+title: EasyPeasy戒色之路
+date: 2025-08-15T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 一本帮你彻底戒断色情内容（或类似数字成瘾）的指南，让你轻松摆脱束缚，重获自由。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: true
 ---
-
 > ##### EasyPeasy: The Easy Way To Quit Porn - Hackauthor
 >
-> ##### 轻松戒断色情成瘾(EasyPeasy) - 黑客作者
+> ##### EasyPeasy戒色之路 - 黑客作者
 >
 > 你没有任何需要放弃的，戒断色情内容并非牺牲，而是摆脱一个毫无益处的负担，重获真正的自由、快乐和健康。你不是在戒断，你只是在变得清醒，享受没有谎言的生活。
 
