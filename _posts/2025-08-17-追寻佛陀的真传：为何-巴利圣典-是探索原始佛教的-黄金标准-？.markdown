@@ -1,16 +1,15 @@
 ---
 title: 追寻佛陀的真传：为何《巴利圣典》是探索原始佛教的“黄金标准”？
-date: 2025-08-17 10:10:00 +08:00
+date: 2025-08-17T10:10:00+08:00
 categories:
-- 巴利圣典
-- 南传上座部佛法
-- 精选
+  - 巴利圣典
+  - 南传上座部佛法
+  - 精选
 excerpt: 通过历史考证、文本对勘、语言学分析及考古证据，系统论证了为何《巴利圣典》因其完整性、古朴性和传承单一性，被全球学术界视为研究早期佛教的“黄金标准”。
-feature_text: 
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_text:
+feature_image: /uploads/top_banner_dhamma.jpg
 aside: true
 ---
-
 > ##### **追寻佛陀的真传：为何《巴利圣典》是探索原始佛教的“黄金标准”？** - 智宁居士
 >
 > 在佛教两千五百多年的历史长河中，探寻释迦牟尼佛陀最本初、最核心的教诲，是无数修行者与学者心中的理想。当我们将目光投向现存的卷帙浩繁的佛教经典时，两套最古老的文献体系——南传上座部佛教的《巴利圣典》（Pāli Canon）与汉传佛教的《阿含经》（Āgamas）——无疑是通往这一源头的关键窗口。
@@ -72,7 +71,9 @@ aside: true
 
 **时间线对比**
 
-<table border="1" style="border-collapse: collapse; width: 100%;"><thead><tr><th style="text-align: left;">事件</th><th style="text-align: left;">大致时间</th><th style="text-align: left;">证据/说明</th></tr></thead><tbody><tr><td style="text-align: left;"><strong>佛陀涅槃</strong></td><td style="text-align: left;">~公元前5-4世纪</td><td style="text-align: left;">历史起点</td></tr><tr><td style="text-align: left;"><strong>佛教根本分裂</strong></td><td style="text-align: left;">公元前4世纪</td><td style="text-align: left;">上座部与大众部因戒律分歧而分裂</td></tr><tr><td style="text-align: left;"><strong>第三次结集</strong></td><td style="text-align: left;">公元前3世纪</td><td style="text-align: left;">阿育王护持，审定三藏，形成巴利圣典核心</td></tr><tr><td style="text-align: left;"><strong>阿育王派遣传法使团</strong></td><td style="text-align: left;">公元前3世纪中叶</td><td style="text-align: left;">摩哂陀长老将上座部教法传入斯里兰卡，奠定巴利圣典传承基础</td></tr><tr><td style="text-align: left;"><strong>阿育王敕令（考古证据）</strong></td><td style="text-align: left;">公元前3世纪</td><td style="text-align: left;">石刻证实巴利圣典部分经文已流传并被视为权威</td></tr><tr><td style="text-align: left;"><strong>巴利圣典首次书写成文</strong></td><td style="text-align: left;"><strong>公元前1世纪末</strong></td><td style="text-align: left;">斯里兰卡第四次结集，首次完整记录</td></tr><tr><td style="text-align: left;"><strong>《法华经》等早期大乘经典成型</strong></td><td style="text-align: left;">公元1-2世纪</td><td style="text-align: left;">大乘思想开始以经文形式出现</td></tr><tr><td style="text-align: left;"><strong>汉译《阿含经》</strong></td><td style="text-align: left;">公元4-5世纪</td><td style="text-align: left;">从各种梵语底本翻译成汉文的时间</td></tr><tr><td style="text-align: left;"><strong>《华严经》等晚期大乘经典编纂</strong></td><td style="text-align: left;">公元3-6世纪</td><td style="text-align: left;">历时数百年的集成作品</td></tr><tr><td style="text-align: left;"><strong>《圆觉经》出现</strong></td><td style="text-align: left;">公元7-8世纪</td><td style="text-align: left;">中国本土撰述的佛经</td></tr></tbody></table>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ccc;"><thead style="border: 1px solid #ccc;"><tr style="border: 1px solid #ccc;"><th style="border: 1px solid #ccc; padding: 8px; text-align: left;">事件</th><th style="border: 1px solid #ccc; padding: 8px; text-align: left;">大致时间</th><th style="border: 1px solid #ccc; padding: 8px; text-align: left;">证据/说明</th></tr></thead><tbody style="border: 1px solid #ccc;"><tr style="border: 1px solid #ccc;"><td style="border: 1px solid #ccc; padding: 8px; text-align: left;"><strong>佛陀涅槃</strong></td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">~公元前5-4世纪</td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">历史起点</td></tr><tr style="border: 1px solid #ccc;"><td style="border: 1px solid #ccc; padding: 8px; text-align: left;"><strong>佛教根本分裂</strong></td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">公元前4世纪</td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">上座部与大众部因戒律分歧而分裂</td></tr><tr style="border: 1px solid #ccc;"><td style="border: 1px solid #ccc; padding: 8px; text-align: left;"><strong>第三次结集</strong></td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">公元前3世纪</td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">阿育王护持，审定三藏，形成巴利圣典核心</td></tr><tr style="border: 1px solid #ccc;"><td style="border: 1px solid #ccc; padding: 8px; text-align: left;"><strong>阿育王派遣传法使团</strong></td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">公元前3世纪中叶</td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">摩哂陀长老将上座部教法传入斯里兰卡，奠定巴利圣典传承基础</td></tr><tr style="border: 1px solid #ccc;"><td style="border: 1px solid #ccc; padding: 8px; text-align: left;"><strong>阿育王敕令（考古证据）</strong></td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">公元前3世纪</td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">石刻证实巴利圣典部分经文已流传并被视为权威</td></tr><tr style="border: 1px solid #ccc;"><td style="border: 1px solid #ccc; padding: 8px; text-align: left;"><strong>巴利圣典首次书写成文</strong></td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;"><strong>公元前1世纪末</strong></td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">斯里兰卡第四次结集，首次完整记录</td></tr><tr style="border: 1px solid #ccc;"><td style="border: 1px solid #ccc; padding: 8px; text-align: left;"><strong>《法华经》等早期大乘经典成型</strong></td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">公元1-2世纪</td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">大乘思想开始以经文形式出现</td></tr><tr style="border: 1px solid #ccc;"><td style="border: 1px solid #ccc; padding: 8px; text-align: left;"><strong>汉译《阿含经》</strong></td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">公元4-5世纪</td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">从各种梵语底本翻译成汉文的时间</td></tr><tr style="border: 1px solid #ccc;"><td style="border: 1px solid #ccc; padding: 8px; text-align: left;"><strong>《华严经》等晚期大乘经典编纂</strong></td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">公元3-6世纪</td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">历时数百年的集成作品</td></tr><tr style="border: 1px solid #ccc;"><td style="border: 1px solid #ccc; padding: 8px; text-align: left;"><strong>《圆觉经》出现</strong></td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">公元7-8世纪</td><td style="border: 1px solid #ccc; padding: 8px; text-align: left;">中国本土撰述的佛经</td></tr></tbody></table>
+
+&nbsp;
 
 这条清晰的时间线清晰的反应出大乘经典的文本形态，是在《巴利圣典》已经结集、甚至书写成文数百年之后，才开始陆续出现并发展成熟的。
 
