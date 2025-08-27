@@ -13,7 +13,7 @@ collections:
 uploads:
     title: Uploads
     output: true
-  posts:
+posts:
     title: 文章
     output: true
     feature_image: "/uploads/top_banner_blog.jpg"
