@@ -1,5 +1,5 @@
 ---
-title: "第二章：六处 Title"
+title: 第二章：六处 Title
 order: 1
 toc: true
 ---

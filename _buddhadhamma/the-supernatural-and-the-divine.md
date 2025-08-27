@@ -1,5 +1,5 @@
 ---
-title: "第九章：神通与神圣"
+title: 第九章：神通与神圣
 order: 2
 toc: true
 ---

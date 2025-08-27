@@ -2,6 +2,10 @@
 title: True Dhamma
 timezone: Asia/Shanghai
 collections:
+  buddhadhamma:
+    title: Buddhadhamma
+    output: true
+    permalink: "/buddhadhamma/:path/"
   uploads:
     title: Uploads
     output: true
@@ -9,9 +13,6 @@ collections:
     title: 文章
     output: true
     feature_image: "/uploads/top_banner_blog.jpg"
-  buddhadhamma:
-    output: true  # 确保 Jekyll 会为这个 collection 里的每个文件生成一个页面
-    permalink: /buddhadhamma/:path/ # 定义生成页面的 URL 结构，例如 /docs/introduction/
 defaults:
 - scope:
     path: ''
@@ -119,9 +120,9 @@ fonts:
   font_urls:
   - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
 toc:
-  min_level: 2 # 从 H2 标题开始生成目录
-  max_level: 3 # 到 H3 标题为止
-  list_class: "toc-list"
-  sublist_class: "toc-sublist"
-  item_class: "toc-item"
-  link_class: "toc-link"
+  min_level: 2
+  max_level: 3
+  list_class: toc-list
+  sublist_class: toc-sublist
+  item_class: toc-item
+  link_class: toc-link
