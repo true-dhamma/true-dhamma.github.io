@@ -26,5 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-include-cache", "~> 0.2"
   spec.add_runtime_dependency "jemoji", "~> 0.12"
   spec.add_runtime_dependency "jekyll-toc", "~> 0.18.0"
-  spec.add_runtime_dependency "jekyll-anchor-headings", "~> 1.2.0"
+  spec.add_runtime_dependency "jekyll-anchor-headings"
 end
