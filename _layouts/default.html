@@ -1,198 +1,58 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
 
-<!-- 1. 引入 AlbeMic 主题的页眉 -->
-{% include site-header.html %}
+  <head>
+    <!-- General meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- ======================================================================= -->
-<!-- 2. 内联 CSS 样式 -->
-<!-- ======================================================================= -->
-<style>
-  /* 
-    我们自定义的 doc-layout 容器将替换 AlbeMic 的 .content 容器。
-    我们需要确保它能在 .main.container 内部正确展示。
-  */
-  .doc-layout {
-    display: grid;
-    grid-template-columns: 1fr; /* 移动端优先，单栏 */
-    gap: 2.5rem; /* 使用和主题可能一致的间距 */
-    align-items: flex-start;
-  }
+    {% if page.indexing == false %}
+      <meta name="robots" content="noindex">
+    {% endif %}
 
-  /* 桌面端 (中等屏幕) 两栏布局 */
-  @media (min-width: 768px) {
-    .doc-layout {
-      grid-template-columns: 240px 1fr;
-    }
-  }
+    {% if page.collectionpage %}
+      {% seo title=false %}
 
-  /* 桌面端 (大屏幕) 三栏布局 */
-  @media (min-width: 1024px) {
-    .doc-layout {
-      grid-template-columns: 240px 1fr 240px;
-    }
-  }
+      {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+      <title>{{ collectiondata.title }} - {{ site.title }}</title>
+      <meta property="og:title" content="{{ collectiondata.title }}">
+      <meta name="description" content="{{ collectiondata.description }}">
+      <meta property="og:description" content="{{ collectiondata.description }}">
+    {% else %}
+      {% seo %}
+    {% endif %}
+    {% if site.fonts.preconnect_urls %}
+      {% for url in site.fonts.preconnect_urls %}
+        <link rel="preconnect" href="{{ url }}" crossorigin />
+      {% endfor %}
+    {% endif %}
 
-  /* 左右侧边栏通用样式 */
-  .doc-sidebar-left,
-  .doc-sidebar-right {
-    position: sticky;
-    top: 2rem; /* 根据你的 site-header 高度可能需要微调 */
-    height: calc(100vh - 4rem);
-    overflow-y: auto;
-  }
-  
-  /* 左侧边栏 (章节导航) */
-  .doc-sidebar-left {
-    display: none; 
-  }
-  @media (min-width: 768px) {
-    .doc-sidebar-left {
-      display: block; 
-    }
-  }
-  .doc-sidebar-left nav h3 {
-    margin-top: 0;
-    font-size: 1.1em;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid #eee;
-  }
-  .doc-sidebar-left nav ul { list-style: none; padding: 0; margin: 0; }
-  .doc-sidebar-left nav li a {
-    display: block; padding: 0.5rem 1rem 0.5rem 0.75rem;
-    text-decoration: none; border-left: 4px solid transparent; transition: all 0.2s ease;
-  }
-  .doc-sidebar-left nav li a:hover { background-color: #f8f9fa; border-left-color: #ddd; }
-  .doc-sidebar-left nav li.active a {
-    font-weight: 600; color: #007bff; border-left-color: #007bff;
-  }
-  
-  /* 右侧边栏 (页面内 TOC) */
-  .doc-sidebar-right {
-    display: none; 
-    font-size: 0.875em;
-  }
-  @media (min-width: 1024px) {
-    .doc-sidebar-right {
-      display: block;
-    }
-  }
-  .doc-sidebar-right .doc-toc-nav h4 {
-    margin-top: 0; font-size: 0.9em; font-weight: bold;
-    text-transform: uppercase; color: #6c757d;
-  }
-  .doc-sidebar-right .toc-list, .doc-sidebar-right .toc-sublist { list-style: none; padding-left: 0; }
-  .doc-sidebar-right .toc-sublist { padding-left: 1rem; }
-  .doc-sidebar-right .toc-link {
-    display: block; padding: 0.25rem 0; text-decoration: none;
-    color: #6c757d; transition: all 0.2s ease-in-out;
-  }
-  .doc-sidebar-right .toc-link:hover { color: #343a40; }
-  .doc-sidebar-right .toc-link.is-active {
-    color: #007bff; font-weight: 600; transform: translateX(5px);
-  }
-  
-  /* 中间主内容区 - 让它继承 AlbeMic 的文章样式 */
-  .doc-main-content .article {
-    /* 如果需要，可以在这里覆盖或添加 article 的样式 */
-    padding: 0; /* 假设 AlbeMic 的 article 自带 padding */
-  }
+    <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
+    <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
 
-  /* 翻页导航 */
-  .doc-pagination {
-    display: flex; justify-content: space-between;
-    margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #eee;
-  }
-  .doc-pagination a { max-width: 48%; }
-</style>
+    {% if site.css_inline == true %}
+      {% include site-styles.html %}
+    {% else %}
+      <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    {% endif %}
 
-<!-- 
-  3. HTML 结构 
-  我们借鉴 blog.html 的 <main> 结构，但用我们自己的 doc-layout 替换掉 content div
--->
-<main class="main  container">
+    {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
 
-  <div class="doc-layout">
+    {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
 
-    <!-- 左侧边栏：全局章节导航 -->
-    <aside class="doc-sidebar-left">
-      <nav class="doc-chapters-nav">
-        <h3>{{ site.title | default: "My Book" }}</h3>
-        <ul>
-          {% assign sorted_docs = site.docs | sort: 'order' %}
-          {% for doc in sorted_docs %}
-            <li {% if page.url == doc.url %}class="active"{% endif %}>
-              <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </aside>
+    {% include site-fonts.html %}
 
-    <!-- 中间主内容区 - 模仿 blog.html 的 article 结构以继承样式 -->
-    <div class="doc-main-content">
-      <article class="article  article--page  typeset">
-        <h1>{{ page.title }}</h1>
-        {{ content }}
+    {% include site-before-start.html %}
+  </head>
 
-        <nav class="doc-pagination">
-          {% assign current_index = -1 %}
-          {% for doc in sorted_docs %}
-            {% if doc.url == page.url %}
-              {% assign current_index = forloop.index0 %}
-            {% endif %}
-          {% endfor %}
-          {% if current_index != -1 %}
-            {% if current_index > 0 %}
-              {% assign prev_doc = sorted_docs[current_index | minus: 1] %}
-              <a href="{{ prev_doc.url | relative_url }}" class="prev">&laquo; {{ prev_doc.title }}</a>
-            {% else %}
-              <span></span>
-            {% endif %}
-            {% assign next_index = current_index | plus: 1 %}
-            {% if next_index < sorted_docs.size %}
-              {% assign next_doc = sorted_docs[next_index] %}
-              <a href="{{ next_doc.url | relative_url }}" class="next">{{ next_doc.title }} &raquo;</a>
-            {% endif %}
-          {% endif %}
-        </nav>
-      </article>
-    </div>
+  <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+    {% include site-icons.svg %}
 
-    <!-- 右侧边栏：页面内 TOC -->
-    <aside class="doc-sidebar-right">
-      {% if page.toc %}
-        <nav class="doc-toc-nav">
-          <h4>On This Page</h4>
-          {{ content | toc_generate }}
-        </nav>
-      {% endif %}
-    </aside>
+    {{ content }}
 
-  </div><!-- /.doc-layout -->
+    {% if site.service_worker != false %}{% include site-sw.html %}{% endif %}
 
-</main>
+    {% include site-before-end.html %}
+  </body>
 
-<!-- 4. 引入 AlbeMic 主题的页脚 -->
-{% include site-footer.html %}
-
-<!-- 5. 内联 JavaScript 脚本 -->
-<script>
-  // Vanilla Scrollspy (minified code)
-  var VanillaScrollspy=function(){"use strict";var t={};return t.init=function(e){var n=e.menu,o=document.querySelectorAll(e.section),i=e.speed||500,s=e.easing||"linear",c=e.offset||0,l=e.activeClass||"active",a=e.onEnter||null,r=e.onLeave||null,u=0;n.addEventListener("click",function(t){t.preventDefault();var e=t.target;"a"===e.tagName.toLowerCase()&&(u=document.querySelector(e.hash).offsetTop-c,function t(e,n,o,i,s){var c=n-e,l=0,a=function(t){return t<.5?2*t*t:-1+(4-2*t)*t},r=function(t){return t<.5?4*t*t*t:.5*Math.pow(2*t-2,3)+1},u=function(n){switch(s){case"linear":l=n;break;case"easeInQuad":l=n*n;break;case"easeOutQuad":l=n*(2-n);break;case"easeInOutQuad":l=a(n);break;case"easeInCubic":l=n*n*n;break;case"easeOutCubic":l=--n*n*n+1;break;case"easeInOutCubic":l=r(n);break;case"easeInQuart":l=n*n*n*n;break;case"easeOutQuart":l=1- --n*n*n*n;break;case"easeInOutQuart":l=n<.5?8*n*n*n*n:1-8*--n*n*n*n;break;case"easeInQuint":l=n*n*n*n*n;break;case"easeOutQuint":l=1+--n*n*n*n*n;break;case"easeInOutQuint":l=n<.5?16*n*n*n*n*n:1+16*--n*n*n*n*n;break;default:l=n}return l*c+e};var d,f=null;window.requestAnimationFrame(function t(s){f||(f=s);var c=s-f,p=u(c/i);window.scrollTo(0,p),c<i&&window.requestAnimationFrame(t)})}(window.pageYOffset,u,0,i,s))});for(var d=0;d<n.querySelectorAll("a").length;d++)n.querySelectorAll("a")[d].classList.remove(l);var f=0,p=0;window.addEventListener("scroll",function(){for(var t=0;t<o.length;t++){var e=window.pageYOffset+c,i=o[t].offsetTop,s=i+o[t].offsetHeight,u=o[t].id;e>=i&&e<=s?(p=t,f!==p&&(null!==r&&r(o[f]),n.querySelector('a.active').classList.remove(l),f=p,n.querySelector('a[href="#'+u+'"]').classList.add(l),null!==a&&a(o[t]))):n.querySelector('a[href="#'+u+'"]').classList.remove(l)}})},t}();
-
-  // Initialize Scrollspy
-  document.addEventListener('DOMContentLoaded', function() {
-    const tocMenu = document.querySelector('.doc-toc-nav');
-    if (tocMenu) {
-      const scrollSpy = new VanillaScrollspy({
-        menu: tocMenu,
-        section: document.querySelectorAll('.article h2, .article h3'), // Spy on headers inside the article
-        offset: 100,
-        activeClass: 'is-active'
-      });
-      scrollSpy.init();
-    }
-  });
-</script>
+</html>
