@@ -68,8 +68,6 @@ plugins:
 - jekyll-feed
 - jekyll-commonmark
 - jekyll-include-cache
-- jekyll-toc
-- jekyll-anchor-headings
 - jemoji
 paginate: 20
 paginate_path: "/blog/page:num"
