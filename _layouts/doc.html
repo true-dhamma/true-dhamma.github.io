@@ -1,0 +1,245 @@
+---
+layout: default
+---
+
+<!-- ======================================================================= -->
+<!-- 1. 内联 CSS 样式 (Styles for this layout only) -->
+<!-- 将所有样式包裹在 <style> 标签中，使其仅对该布局生效 -->
+<!-- ======================================================================= -->
+<style>
+  /* 全局布局容器 */
+  .doc-layout {
+    display: grid;
+    grid-template-columns: 1fr; /* 移动端优先，默认为单栏 */
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem; /* 在小屏幕上增加一些边距 */
+    align-items: flex-start;
+  }
+
+  /* 桌面端 (中等屏幕) 两栏布局 */
+  @media (min-width: 768px) {
+    .doc-layout {
+      grid-template-columns: 240px 1fr;
+    }
+  }
+
+  /* 桌面端 (大屏幕) 三栏布局 */
+  @media (min-width: 1024px) {
+    .doc-layout {
+      grid-template-columns: 240px 1fr 240px;
+    }
+  }
+
+  /* 左右侧边栏通用样式 */
+  .doc-sidebar-left,
+  .doc-sidebar-right {
+    position: sticky;
+    top: 2rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+  }
+  
+  /* 左侧边栏 (章节导航) */
+  .doc-sidebar-left {
+    display: none; /* 移动端默认隐藏，或者你可以选择让它在顶部显示 */
+  }
+  @media (min-width: 768px) {
+    .doc-sidebar-left {
+      display: block; /* 在桌面端显示 */
+    }
+  }
+  .doc-sidebar-left nav h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  .doc-sidebar-left nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .doc-sidebar-left nav li a {
+    display: block;
+    padding: 0.5rem 1rem 0.5rem 0.75rem;
+    text-decoration: none;
+    border-left: 4px solid transparent;
+    transition: all 0.2s ease;
+  }
+  .doc-sidebar-left nav li a:hover {
+    background-color: #f8f9fa;
+    border-left-color: #ddd;
+  }
+  .doc-sidebar-left nav li.active a {
+    font-weight: 600;
+    color: #007bff; /* 高亮颜色，你可以根据你的主题修改 */
+    border-left-color: #007bff;
+  }
+  
+  /* 右侧边栏 (页面内 TOC) */
+  .doc-sidebar-right {
+    display: none; /* 移动端和中等屏幕隐藏 */
+    font-size: 0.875em;
+  }
+  @media (min-width: 1024px) {
+    .doc-sidebar-right {
+      display: block; /* 仅在大屏幕上显示 */
+    }
+  }
+  .doc-sidebar-right .doc-toc-nav h4 {
+    margin-top: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6c757d;
+  }
+  .doc-sidebar-right .toc-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .doc-sidebar-right .toc-sublist {
+    list-style: none;
+    padding-left: 1rem;
+  }
+  .doc-sidebar-right .toc-link {
+    display: block;
+    padding: 0.25rem 0;
+    text-decoration: none;
+    color: #6c757d;
+    transition: all 0.2s ease-in-out;
+  }
+  .doc-sidebar-right .toc-link:hover {
+    color: #343a40;
+  }
+  /* Scrollspy 高亮样式 */
+  .doc-sidebar-right .toc-link.is-active {
+    color: #007bff;
+    font-weight: 600;
+    transform: translateX(5px);
+  }
+  
+  /* 中间主内容区 */
+  .doc-main-content {
+    /* 确保内容不会太宽，提高可读性 */
+    max-width: 800px;
+    width: 100%;
+  }
+
+  /* 翻页导航 */
+  .doc-pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+  }
+  .doc-pagination a {
+    max-width: 48%;
+  }
+</style>
+
+
+<!-- ======================================================================= -->
+<!-- 2. HTML 结构 (The Three-Column Layout Structure) -->
+<!-- ======================================================================= -->
+<div class="doc-layout">
+
+  <!-- 左侧边栏：全局章节导航 -->
+  <aside class="doc-sidebar-left">
+    <nav class="doc-chapters-nav">
+      <h3>{{ site.title | default: "My Book" }}</h3>
+      <ul>
+        {% assign sorted_docs = site.docs | sort: 'order' %}
+        {% for doc in sorted_docs %}
+          <li {% if page.url == doc.url %}class="active"{% endif %}>
+            <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- 中间主内容区 -->
+  <main class="doc-main-content">
+    <article class="post">
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+      </header>
+      <div class="post-content">
+        {{ content }}
+      </div>
+      <nav class="doc-pagination">
+        {% assign current_index = -1 %}
+        {% for doc in sorted_docs %}
+          {% if doc.url == page.url %}
+            {% assign current_index = forloop.index0 %}
+          {% endif %}
+        {% endfor %}
+        {% if current_index != -1 %}
+          {% if current_index > 0 %}
+            {% assign prev_doc = sorted_docs[current_index | minus: 1] %}
+            <a href="{{ prev_doc.url | relative_url }}" class="prev">&laquo; {{ prev_doc.title }}</a>
+          {% else %}
+            <span></span>
+          {% endif %}
+          {% assign next_index = current_index | plus: 1 %}
+          {% if next_index < sorted_docs.size %}
+            {% assign next_doc = sorted_docs[next_index] %}
+            <a href="{{ next_doc.url | relative_url }}" class="next">{{ next_doc.title }} &raquo;</a>
+          {% endif %}
+        {% endif %}
+      </nav>
+    </article>
+  </main>
+
+  <!-- 右侧边栏：页面内 TOC -->
+  <aside class="doc-sidebar-right">
+    {% if page.toc %}
+      <nav class="doc-toc-nav">
+        <h4>On This Page</h4>
+        {{ content | toc_generate }}
+      </nav>
+    {% endif %}
+  </aside>
+</div>
+
+
+<!-- ======================================================================= -->
+<!-- 3. 内联 JavaScript 脚本 (JavaScript for this layout only) -->
+<!-- 将脚本放在布局底部，确保页面元素加载完毕后再执行 -->
+<!-- ======================================================================= -->
+<script>
+  // Vanilla Scrollspy v1.2.0 (https://github.com/its-danny/vanilla-scrollspy)
+  // We include the minified library code directly here to avoid external dependencies.
+  var VanillaScrollspy=function(){"use strict";var t={};return t.init=function(e){var n=e.menu,o=document.querySelectorAll(e.section),i=e.speed||500,s=e.easing||"linear",c=e.offset||0,l=e.activeClass||"active",a=e.onEnter||null,r=e.onLeave||null,u=0;n.addEventListener("click",function(t){t.preventDefault();var e=t.target;"a"===e.tagName.toLowerCase()&&(u=document.querySelector(e.hash).offsetTop-c,function t(e,n,o,i,s){var c=n-e,l=0,a=function(t){return t<.5?2*t*t:-1+(4-2*t)*t},r=function(t){return t<.5?4*t*t*t:.5*Math.pow(2*t-2,3)+1},u=function(n){switch(s){case"linear":l=n;break;case"easeInQuad":l=n*n;break;case"easeOutQuad":l=n*(2-n);break;case"easeInOutQuad":l=a(n);break;case"easeInCubic":l=n*n*n;break;case"easeOutCubic":l=--n*n*n+1;break;case"easeInOutCubic":l=r(n);break;case"easeInQuart":l=n*n*n*n;break;case"easeOutQuart":l=1- --n*n*n*n;break;case"easeInOutQuart":l=n<.5?8*n*n*n*n:1-8*--n*n*n*n;break;case"easeInQuint":l=n*n*n*n*n;break;case"easeOutQuint":l=1+--n*n*n*n*n;break;case"easeInOutQuint":l=n<.5?16*n*n*n*n*n:1+16*--n*n*n*n*n;break;default:l=n}return l*c+e};var d,f=null;window.requestAnimationFrame(function t(s){f||(f=s);var c=s-f,p=u(c/i);window.scrollTo(0,p),c<i&&window.requestAnimationFrame(t)})}(window.pageYOffset,u,0,i,s))});for(var d=0;d<n.querySelectorAll("a").length;d++)n.querySelectorAll("a")[d].classList.remove(l);var f=0,p=0;window.addEventListener("scroll",function(){for(var t=0;t<o.length;t++){var e=window.pageYOffset+c,i=o[t].offsetTop,s=i+o[t].offsetHeight,u=o[t].id;e>=i&&e<=s?(p=t,f!==p&&(null!==r&&r(o[f]),n.querySelector('a.active').classList.remove(l),f=p,n.querySelector('a[href="#'+u+'"]').classList.add(l),null!==a&&a(o[t]))):n.querySelector('a[href="#'+u+'"]').classList.remove(l)}})},t}();
+
+  // Initialize Scrollspy
+  document.addEventListener('DOMContentLoaded', function() {
+    // Select the navigation container generated by jekyll-toc
+    const tocMenu = document.querySelector('.doc-toc-nav');
+    
+    // Only initialize if the TOC exists on the page
+    if (tocMenu) {
+      const scrollSpy = new VanillaScrollspy({
+        menu: tocMenu,
+        section: document.querySelectorAll('.post-content h2, .post-content h3'), // What to spy on
+        offset: 100, // Add a 100px offset for better positioning
+        activeClass: 'is-active'
+      });
+      scrollSpy.init();
+    }
+  });
+</script>
+```
+
+### 如何使用
+
+1.  **复制粘贴**: 将上面的全部代码复制到你的 `_layouts/doc.html` 文件中。
+2.  **配置 Collection**: 确保你的 `_config.yml` 文件中已经设置好了 `docs` collection 并为它指定了 `layout: doc` 的默认值。
+3.  **启用 TOC**: 在你需要显示右侧目录的 Markdown 文件的 Front Matter 中添加 `toc: true`。
+4.  **安装插件**: 确认你的 `Gemfile` 和 `_config.yml` 中已经添加并配置了 `jekyll-toc` 插件。
+5.  **运行 Jekyll**: 启动 `bundle exec jekyll serve` 查看效果。
+
+现在，你就拥有一个完全自包含的、功能强大的文档布局，无需修改主题的其他任何文件，非常整洁和方便。
