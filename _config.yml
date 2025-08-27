@@ -6,7 +6,11 @@ collections:
     title: Buddhadhamma
     output: true
     permalink: "/buddhadhamma/:path/"
-  uploads:
+  testbook:
+    title: TestBook
+    output: true
+    permalink: "/testbook/:path/"
+uploads:
     title: Uploads
     output: true
   posts:
@@ -31,6 +35,11 @@ defaults:
 - scope:
     path: ''
     type: buddhadhamma
+  values:
+    layout: doc
+- scope:
+    path: ''
+    type: testbook
   values:
     layout: doc
 exclude:
