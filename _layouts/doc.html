@@ -200,14 +200,29 @@ layout: default
     <!-- ======================================================= -->
     <!-- 右侧边栏 -->
     <!-- ======================================================= -->
-    <aside class="doc-sidebar-right">
-      {% if page.toc %}
-        <nav class="doc-toc-nav">
-          <h4>On This Page</h4>
-          {{ content | toc_generate }}
-        </nav>
-      {% endif %}
-    </aside>
+<aside class="doc-sidebar-right">
+  {% if page.toc %}
+    <nav class="doc-toc-nav">
+      <h4>On This Page</h4>
+      <!-- ======================================================= -->
+      <!-- 手动构建 TOC -->
+      <!-- ======================================================= -->
+      {% assign content_without_frontmatter = content | split: "---" | last %}
+      {% assign headings = content_without_frontmatter | split: /<h[2-3]/ %}
+      <ul class="toc-list">
+        {% for heading in headings offset: 1 %}
+          {% assign h_level = heading | slice: 0 %}
+          {% assign h_content = heading | split: '>' | slice: 1 | join: '>' | split: '</h' | first %}
+          {% assign h_id = h_content | strip_html | slugify %}
+          
+          <li class="toc-item">
+            <a href="#{{ h_id }}" class="toc-link toc-level-{{ h_level }}">{{ h_content | strip_html }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  {% endif %}
+</aside>
 
   </div><!-- /.doc-layout -->
 </main>

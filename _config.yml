@@ -69,6 +69,7 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jekyll-toc
+- jekyll-anchor-headings
 - jemoji
 paginate: 20
 paginate_path: "/blog/page:num"
@@ -146,3 +147,5 @@ toc:
   sublist_class: toc-sublist
   item_class: toc-item
   link_class: toc-link
+anchor_headings:
+  max_level: 3 # 只为 h1, h2, h3 生成锚点
