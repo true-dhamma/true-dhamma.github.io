@@ -31,7 +31,7 @@ defaults:
 - scope:
     path: ""
     type: "buddhadhamma" # 对第一本书生效
-    values:
+  values:
     layout: "doc"
 exclude:
 - README.md
