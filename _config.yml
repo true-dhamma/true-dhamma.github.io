@@ -148,4 +148,4 @@ toc:
   item_class: toc-item
   link_class: toc-link
 anchor_headings:
-  max_level: 3 # 只为 h1, h2, h3 生成锚点
+  max_level: 3
