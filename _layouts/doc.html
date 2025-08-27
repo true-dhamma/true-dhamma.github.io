@@ -6,6 +6,23 @@ layout: default
 {% include site-header.html %}
 
 <!-- ======================================================================= -->
+<!-- SEO 描述覆盖 (只在本布局生效) -->
+<!-- 1. 我们先用 Liquid 生成一个干净的摘要 -->
+{% capture auto_description %}
+  {{ content | strip_html | strip_newlines | truncate: 160 }}
+{% endcapture %}
+
+<!-- 
+  2. 然后，我们把这个摘要赋值给 page.description 变量。
+     jekyll-seo-tag 插件会优先使用这个变量。
+     我们只在页面本身没有定义 description 时才这样做，以保留手动设置的灵活性。
+-->
+{% unless page.description %}
+  {% assign page.description = auto_description %}
+{% endunless %}
+<!-- ======================================================================= -->
+
+<!-- ======================================================================= -->
 <!-- 2. 内联 CSS 样式 -->
 <!-- ======================================================================= -->
 <style>

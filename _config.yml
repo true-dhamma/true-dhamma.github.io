@@ -33,7 +33,6 @@ defaults:
     type: buddhadhamma
   values:
     layout: doc
-    description: "{{ page.content | strip_html | strip_newlines | truncate: 160 }}"
 exclude:
 - README.md
 - CODE_OF_CONDUCT.md
