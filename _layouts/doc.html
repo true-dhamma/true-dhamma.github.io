@@ -5,17 +5,112 @@ layout: default
 <!-- 1. 引入 AlbeMic 主题的页眉 -->
 {% include site-header.html %}
 
-<!-- CSS 样式 (保持不变) -->
+<!-- ======================================================================= -->
+<!-- 2. 内联 CSS 样式 -->
+<!-- ======================================================================= -->
 <style>
-  /* ... 这里是你之前的全部 CSS 代码，无需改动 ... */
-  .doc-layout { display: grid; /* ... etc */ }
+  /* 全局布局容器 */
+  .doc-layout {
+    display: grid;
+    grid-template-columns: 1fr; /* 移动端优先，默认为单栏 */
+    gap: 2.5rem;
+    max-width: 1200px; /* 或者你主题的 container 宽度 */
+    margin: 0 auto;
+    align-items: flex-start;
+  }
+
+  /* 桌面端 (中等屏幕) 两栏布局 */
+  @media (min-width: 768px) {
+    .doc-layout {
+      grid-template-columns: 240px 1fr;
+    }
+  }
+
+  /* 桌面端 (大屏幕) 三栏布局 */
+  @media (min-width: 1024px) {
+    .doc-layout {
+      grid-template-columns: 240px 1fr 240px;
+    }
+  }
+
+  /* 左右侧边栏通用样式 */
+  .doc-sidebar-left,
+  .doc-sidebar-right {
+    position: sticky;
+    top: 2rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+  }
+  
+  /* 左侧边栏 (章节导航) */
+  .doc-sidebar-left {
+    display: none; /* 移动端默认隐藏 */
+  }
+  @media (min-width: 768px) {
+    .doc-sidebar-left {
+      display: block; /* 在桌面端显示 */
+    }
+  }
+  .doc-sidebar-left nav h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  .doc-sidebar-left nav ul { list-style: none; padding: 0; margin: 0; }
+  .doc-sidebar-left nav li a {
+    display: block; padding: 0.5rem 1rem 0.5rem 0.75rem;
+    text-decoration: none; border-left: 4px solid transparent; transition: all 0.2s ease;
+    color: inherit; /* 继承主题颜色 */
+  }
+  .doc-sidebar-left nav li a:hover { background-color: #f8f9fa; border-left-color: #ddd; }
+  .doc-sidebar-left nav li.active a {
+    font-weight: 600;
+    color: #007bff; /* 高亮颜色，你可以根据你的主题修改 */
+    border-left-color: #007bff;
+  }
+  
+  /* 右侧边栏 (页面内 TOC) */
+  .doc-sidebar-right {
+    display: none; /* 移动端和中等屏幕隐藏 */
+    font-size: 0.875em;
+  }
+  @media (min-width: 1024px) {
+    .doc-sidebar-right {
+      display: block; /* 仅在大屏幕上显示 */
+    }
+  }
+  .doc-sidebar-right .doc-toc-nav h4 {
+    margin-top: 0; font-size: 0.9em; font-weight: bold;
+    text-transform: uppercase; color: #6c757d;
+  }
+  .doc-sidebar-right .toc-list, .doc-sidebar-right .toc-sublist { list-style: none; padding-left: 0; }
+  .doc-sidebar-right .toc-sublist { padding-left: 1rem; }
+  .doc-sidebar-right .toc-link {
+    display: block; padding: 0.25rem 0; text-decoration: none;
+    color: #6c757d; transition: all 0.2s ease-in-out;
+  }
+  .doc-sidebar-right .toc-link:hover { color: #343a40; }
+  .doc-sidebar-right .toc-link.is-active {
+    color: #007bff; font-weight: 600; transform: translateX(5px);
+  }
+  
+  /* 中间主内容区 */
+  .doc-main-content .article {
+    padding: 0;
+  }
+
+  /* 翻页导航 */
+  .doc-pagination {
+    display: flex; justify-content: space-between;
+    margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #eee;
+  }
+  .doc-pagination a { max-width: 48%; }
 </style>
 
 <!-- 
   =======================================================================
   动态获取当前 Collection 的内容
-  - page.collection 的值会是 "buddhadhamma" 或 "yetanotherbook"
-  - site[page.collection] 就可以动态地访问 site.buddhadhamma 或 site.yetanotherbook
   =======================================================================
 -->
 {% assign current_collection_name = page.collection %}
@@ -25,11 +120,10 @@ layout: default
   <div class="doc-layout">
     
     <!-- ======================================================= -->
-    <!-- 左侧边栏 - 使用动态获取的 Collection -->
+    <!-- 左侧边栏 -->
     <!-- ======================================================= -->
     <aside class="doc-sidebar-left">
       <nav class="doc-chapters-nav">
-        <!-- 动态显示 Collection 的标题，如果在 _config.yml 中定义了 -->
         <h3>{{ site.collections[current_collection_name].title | default: current_collection_name | capitalize }}</h3>
         
         {% if documents_in_collection and documents_in_collection.size > 0 %}
@@ -46,7 +140,7 @@ layout: default
     </aside>
 
     <!-- ======================================================= -->
-    <!-- 中间主内容区 - 使用动态获取的 Collection -->
+    <!-- 中间主内容区 -->
     <!-- ======================================================= -->
     <div class="doc-main-content">
       <article class="article  article--page  typeset">
@@ -86,7 +180,9 @@ layout: default
       </article>
     </div>
 
-    <!-- 右侧边栏 (保持不变) -->
+    <!-- ======================================================= -->
+    <!-- 右侧边栏 -->
+    <!-- ======================================================= -->
     <aside class="doc-sidebar-right">
       {% if page.toc %}
         <nav class="doc-toc-nav">
@@ -96,13 +192,30 @@ layout: default
       {% endif %}
     </aside>
 
-  </div>
+  </div><!-- /.doc-layout -->
 </main>
 
 <!-- 4. 引入 AlbeMic 主题的页脚 -->
 {% include site-footer.html %}
 
-<!-- 5. 内联 JavaScript 脚本 (保持不变) -->
+<!-- ======================================================================= -->
+<!-- 5. 内联 JavaScript 脚本 -->
+<!-- ======================================================================= -->
 <script>
-  /* ... 这里是你之前的全部 JS 代码，无需改动 ... */
+  // Vanilla Scrollspy v1.2.0 (minified)
+  var VanillaScrollspy=function(){"use strict";var t={};return t.init=function(e){var n=e.menu,o=document.querySelectorAll(e.section),i=e.speed||500,s=e.easing||"linear",c=e.offset||0,l=e.activeClass||"active",a=e.onEnter||null,r=e.onLeave||null,u=0;n.addEventListener("click",function(t){t.preventDefault();var e=t.target;"a"===e.tagName.toLowerCase()&&(u=document.querySelector(e.hash).offsetTop-c,function t(e,n,o,i,s){var c=n-e,l=0,a=function(t){return t<.5?2*t*t:-1+(4-2*t)*t},r=function(t){return t<.5?4*t*t*t:.5*Math.pow(2*t-2,3)+1},u=function(n){switch(s){case"linear":l=n;break;case"easeInQuad":l=n*n;break;case"easeOutQuad":l=n*(2-n);break;case"easeInOutQuad":l=a(n);break;case"easeInCubic":l=n*n*n;break;case"easeOutCubic":l=--n*n*n+1;break;case"easeInOutCubic":l=r(n);break;case"easeInQuart":l=n*n*n*n;break;case"easeOutQuart":l=1- --n*n*n*n;break;case"easeInOutQuart":l=n<.5?8*n*n*n*n:1-8*--n*n*n*n;break;case"easeInQuint":l=n*n*n*n*n;break;case"easeOutQuint":l=1+--n*n*n*n*n;break;case"easeInOutQuint":l=n<.5?16*n*n*n*n*n:1+16*--n*n*n*n*n;break;default:l=n}return l*c+e};var d,f=null;window.requestAnimationFrame(function t(s){f||(f=s);var c=s-f,p=u(c/i);window.scrollTo(0,p),c<i&&window.requestAnimationFrame(t)})}(window.pageYOffset,u,0,i,s))});for(var d=0;d<n.querySelectorAll("a").length;d++)n.querySelectorAll("a")[d].classList.remove(l);var f=0,p=0;window.addEventListener("scroll",function(){for(var t=0;t<o.length;t++){var e=window.pageYOffset+c,i=o[t].offsetTop,s=i+o[t].offsetHeight,u=o[t].id;e>=i&&e<=s?(p=t,f!==p&&(null!==r&&r(o[f]),n.querySelector('a.active').classList.remove(l),f=p,n.querySelector('a[href="#'+u+'"]').classList.add(l),null!==a&&a(o[t]))):n.querySelector('a[href="#'+u+'"]').classList.remove(l)}})},t}();
+
+  // Initialize Scrollspy
+  document.addEventListener('DOMContentLoaded', function() {
+    const tocMenu = document.querySelector('.doc-toc-nav');
+    if (tocMenu) {
+      const scrollSpy = new VanillaScrollspy({
+        menu: tocMenu,
+        section: document.querySelectorAll('.article h2, .article h3'),
+        offset: 100,
+        activeClass: 'is-active'
+      });
+      scrollSpy.init();
+    }
+  });
 </script>

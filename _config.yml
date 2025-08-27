@@ -33,6 +33,8 @@ defaults:
     type: buddhadhamma
   values:
     layout: doc
+    excerpt: > # 使用 > 可以让 YAML 处理多行字符串
+        {{ page.content | markdownify | strip_html | strip_newlines | truncate: 160 }}
 exclude:
 - README.md
 - CODE_OF_CONDUCT.md
