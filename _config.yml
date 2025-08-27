@@ -6,17 +6,16 @@ collections:
     title: Buddhadhamma
     output: true
     permalink: "/buddhadhamma/:path/"
+  posts:
+    title: Posts
+    output: true
   testbook:
     title: TestBook
     output: true
     permalink: "/testbook/:path/"
-uploads:
+  uploads:
     title: Uploads
     output: true
-posts:
-    title: 文章
-    output: true
-    feature_image: "/uploads/top_banner_blog.jpg"
 defaults:
 - scope:
     path: ''
@@ -42,6 +41,13 @@ defaults:
     type: testbook
   values:
     layout: doc
+uploads:
+  title: Uploads
+  output: true
+posts:
+  title: 文章
+  output: true
+  feature_image: "/uploads/top_banner_blog.jpg"
 exclude:
 - README.md
 - CODE_OF_CONDUCT.md
