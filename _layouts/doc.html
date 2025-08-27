@@ -200,29 +200,33 @@ layout: default
     <!-- ======================================================= -->
     <!-- 右侧边栏 -->
     <!-- ======================================================= -->
+<!-- ======================================================= -->
+<!-- 右侧边栏 (已修正的纯 Liquid TOC) -->
+<!-- ======================================================= -->
 <aside class="doc-sidebar-right">
   {% if page.toc %}
     <nav class="doc-toc-nav">
       <h4>On This Page</h4>
-
+      
       {% comment %}
-        这段代码通过正则表达式匹配已渲染内容中的 h2 和 h3 标签，
-        然后提取它们的 id 和文本来构建 TOC。
-        这依赖于 Jekyll 默认的 Markdown 处理器 (kramdown) 会自动为标题添加 id。
+        使用正则表达式从渲染后的 content 中精确捕获 h2 和 h3 标签的
+        级别(level), ID, 和标题文本(title)。
+        这是最可靠的纯 Liquid 方法。
       {% endcomment %}
+      {% assign headings = content | scan: /<h([2-3])\s+id="([^"]+)"[^>]*>([\s\S]*?)<\/h[2-3]>/ %}
       
-      {% assign headings = content | scan: /<h([2-3]) id="([^"]+)">([^<]+)<\/h[2-3]>/ %}
-      
-      <ul class="toc-list">
-        {% for heading in headings %}
-          {% assign level = heading[0] %}
-          {% assign id = heading[1] %}
-          {% assign title = heading[2] %}
-          <li class="toc-item">
-            <a href="#{{ id }}" class="toc-link toc-level-{{ level }}">{{ title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+      {% if headings.size > 0 %}
+        <ul class="toc-list">
+          {% for heading in headings %}
+            {% assign level = heading[0] %}
+            {% assign id = heading[1] %}
+            {% assign title = heading[2] | strip_html | strip %}
+            <li class="toc-item">
+              <a href="#{{ id }}" class="toc-link toc-level-{{ level }}">{{ title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     </nav>
   {% endif %}
 </aside>
