@@ -204,19 +204,22 @@ layout: default
   {% if page.toc %}
     <nav class="doc-toc-nav">
       <h4>On This Page</h4>
-      <!-- ======================================================= -->
-      <!-- 手动构建 TOC -->
-      <!-- ======================================================= -->
-      {% assign content_without_frontmatter = content | split: "---" | last %}
-      {% assign headings = content_without_frontmatter | split: /<h[2-3]/ %}
+
+      {% comment %}
+        这段代码通过正则表达式匹配已渲染内容中的 h2 和 h3 标签，
+        然后提取它们的 id 和文本来构建 TOC。
+        这依赖于 Jekyll 默认的 Markdown 处理器 (kramdown) 会自动为标题添加 id。
+      {% endcomment %}
+      
+      {% assign headings = content | scan: /<h([2-3]) id="([^"]+)">([^<]+)<\/h[2-3]>/ %}
+      
       <ul class="toc-list">
-        {% for heading in headings offset: 1 %}
-          {% assign h_level = heading | slice: 0 %}
-          {% assign h_content = heading | split: '>' | slice: 1 | join: '>' | split: '</h' | first %}
-          {% assign h_id = h_content | strip_html | slugify %}
-          
+        {% for heading in headings %}
+          {% assign level = heading[0] %}
+          {% assign id = heading[1] %}
+          {% assign title = heading[2] %}
           <li class="toc-item">
-            <a href="#{{ h_id }}" class="toc-link toc-level-{{ h_level }}">{{ h_content | strip_html }}</a>
+            <a href="#{{ id }}" class="toc-link toc-level-{{ level }}">{{ title }}</a>
           </li>
         {% endfor %}
       </ul>
