@@ -28,6 +28,11 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ""
+    type: "buddhadhamma" # 对第一本书生效
+    values:
+    layout: "doc"
 exclude:
 - README.md
 - CODE_OF_CONDUCT.md

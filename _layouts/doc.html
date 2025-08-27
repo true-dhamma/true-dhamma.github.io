@@ -8,28 +8,33 @@ layout: default
 <!-- CSS 样式 (保持不变) -->
 <style>
   /* ... 这里是你之前的全部 CSS 代码，无需改动 ... */
-  /* 为了简洁，我在这里省略，请保留你文件里已有的 <style> 部分 */
   .doc-layout { display: grid; /* ... etc */ }
 </style>
 
 <!-- 
-  3. HTML 结构 
+  =======================================================================
+  动态获取当前 Collection 的内容
+  - page.collection 的值会是 "buddhadhamma" 或 "yetanotherbook"
+  - site[page.collection] 就可以动态地访问 site.buddhadhamma 或 site.yetanotherbook
+  =======================================================================
 -->
-<main class="main  container">
+{% assign current_collection_name = page.collection %}
+{% assign documents_in_collection = site[current_collection_name] %}
 
+<main class="main  container">
   <div class="doc-layout">
     
     <!-- ======================================================= -->
-    <!-- 左侧边栏 - 添加了安全检查 -->
+    <!-- 左侧边栏 - 使用动态获取的 Collection -->
     <!-- ======================================================= -->
     <aside class="doc-sidebar-left">
       <nav class="doc-chapters-nav">
-        <h3>{{ site.title | default: "My Book" }}</h3>
+        <!-- 动态显示 Collection 的标题，如果在 _config.yml 中定义了 -->
+        <h3>{{ site.collections[current_collection_name].title | default: current_collection_name | capitalize }}</h3>
         
-        <!-- 安全检查：仅当 site.docs 存在时才进行排序和循环 -->
-        {% if site.docs and site.docs.size > 0 %}
+        {% if documents_in_collection and documents_in_collection.size > 0 %}
           <ul>
-            {% assign sorted_docs = site.docs | sort: 'order' %}
+            {% assign sorted_docs = documents_in_collection | sort: 'order' %}
             {% for doc in sorted_docs %}
               <li {% if page.url == doc.url %}class="active"{% endif %}>
                 <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
@@ -37,22 +42,20 @@ layout: default
             {% endfor %}
           </ul>
         {% endif %}
-        
       </nav>
     </aside>
 
     <!-- ======================================================= -->
-    <!-- 中间主内容区 - 翻页逻辑已修正 -->
+    <!-- 中间主内容区 - 使用动态获取的 Collection -->
     <!-- ======================================================= -->
     <div class="doc-main-content">
       <article class="article  article--page  typeset">
         <h1>{{ page.title }}</h1>
         {{ content }}
 
-        <!-- 翻页导航 - 添加了安全检查并修正了语法 -->
         <nav class="doc-pagination">
-          {% if site.docs and site.docs.size > 0 %}
-            {% assign sorted_docs = site.docs | sort: 'order' %}
+          {% if documents_in_collection and documents_in_collection.size > 0 %}
+            {% assign sorted_docs = documents_in_collection | sort: 'order' %}
             {% assign current_index = -1 %}
             
             {% for doc in sorted_docs %}
@@ -68,7 +71,7 @@ layout: default
                 {% assign prev_doc = sorted_docs[prev_doc_index] %}
                 <a href="{{ prev_doc.url | relative_url }}" class="prev">&laquo; {{ prev_doc.title }}</a>
               {% else %}
-                <span></span> <!-- 占位符 -->
+                <span></span>
               {% endif %}
               
               <!-- 下一页 -->
@@ -93,8 +96,7 @@ layout: default
       {% endif %}
     </aside>
 
-  </div><!-- /.doc-layout -->
-
+  </div>
 </main>
 
 <!-- 4. 引入 AlbeMic 主题的页脚 -->
@@ -103,6 +105,4 @@ layout: default
 <!-- 5. 内联 JavaScript 脚本 (保持不变) -->
 <script>
   /* ... 这里是你之前的全部 JS 代码，无需改动 ... */
-  // Vanilla Scrollspy code...
-  document.addEventListener('DOMContentLoaded', function() { /* ... */ });
 </script>
