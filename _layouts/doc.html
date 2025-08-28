@@ -40,6 +40,38 @@ layout: default
   ============================================================================
 {%- endcomment %}
 <style>
+/* _layouts/doc.html 内的 <style> 标签中 */
+
+/* --- ULTRA-WIDE SCREEN ENHANCEMENTS (方案 A: 四栏布局) --- */
+
+/* 在屏幕宽度大于 1600px 时激活 */
+@media screen and (min-width: 1600px) {
+
+  /* 1. 增加左侧书籍导航的宽度 */
+  .doc-nav-container {
+    flex-basis: 320px; /* 从 280px 增加到 320px */
+  }
+
+  /* 2. 调整主容器，让内容和TOC整体向右移动 */
+  .main.container--doc {
+    /* 使用 max-width 限制内容区的最大宽度，让布局在超大屏上更舒适 */
+    /* 1400px 是一个比较舒适的阅读宽度，可以自行调整 */
+    max-width: 1400px; 
+    /* 增加左右边距，使其在超大屏上居中 */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* 3. (可选) 如果你希望内容区利用更多空间，可以这样做 */
+  /*
+  .main.container--doc {
+    gap: 3.5em; // 稍微增加栏间距
+  }
+  .article--doc {
+    // flex: 1 1 auto 已经让它自动填充了，这里可以不用动
+  }
+  */
+}
   /* --- BASE DOC LAYOUT STYLES --- */
   @media screen and (min-width: 1200px) {
     .main.container--doc { position: relative; display: flex; align-items: flex-start; gap: 2.5em; }
