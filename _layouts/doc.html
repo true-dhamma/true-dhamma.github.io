@@ -11,9 +11,6 @@ layout: default
 {%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 --- {% endcomment %}
 {%- assign has_right_toc = false -%}
 {%- assign right_toc_html = "" -%}
-{%- comment %}
-  --- 修正后的逻辑：将复杂的单行if拆分为嵌套if，以消除Liquid警告 ---
-{%- endcomment %}
 {%- if page.toc == true -%}
   {%- if content contains '<h2' or content contains '<h3' or content contains '<h4' -%}
     {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
@@ -152,7 +149,6 @@ layout: default
 
 {%- comment %}
   --- 生成多级导航列表HTML (已修正，移除parent-active) ---
-  使用 `capture` 生成一次，然后在桌面和移动视图中重复使用。
 {%- endcomment %}
 {%- capture nav_list_html %}
 <ul>
@@ -203,6 +199,7 @@ layout: default
   {% if has_right_toc %}
   <aside class="doc-chapter-toc">
     <h3>本章目录</h3>
+    <!-- PC和移动端都从这里获取原始的、正确的HTML -->
     <div class="js-toc">{{ right_toc_html }}</div>
   </aside>
   {% endif %}
@@ -239,18 +236,25 @@ document.addEventListener('DOMContentLoaded', function() {
   const desktopBreakpoint = 1200;
   if (window.innerWidth >= desktopBreakpoint && document.querySelector('.js-toc')) {
     
-    // --- 修正后的PC端初始化代码 ---
-    // 这个配置让Tocbot使用.js-toc中由Jekyll生成的静态HTML，而不是自己扫描内容生成目录
+    // --- 最终正确配置 ---
     tocbot.init({
+      // 1. 目录容器：这里面已经有您完美的HTML了
       tocSelector: '.js-toc',
-      // contentSelector 和 headingSelector 已被移除
+      
+      // 2. 内容容器：告诉Tocbot去监视这个区域的滚动
+      contentSelector: '.js-toc-content',
+      
+      // 3. (关键) 不提供 headingSelector，这样Tocbot就不会重新生成目录，
+      //    而是会使用您在 .js-toc 中提供的现有链接，并为其添加滚动高亮功能。
+      
+      // 4. 其他功能性选项
       hasInnerContainers: true, 
       scrollSmooth: true, 
       scrollSmoothOffset: -80, 
     });
 
   } else {
-    // 移动端逻辑保持不变，它本来就是正确的
+    // 移动端逻辑保持不变，它直接使用您生成的HTML，所以总是正确的。
     const mobileAnchor = document.getElementById('mobile-toc-anchor');
     const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
     if (mobileAnchor && rawTocHtml) {
@@ -264,6 +268,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 {% endif %}
+
+<!-- 其他脚本... (无变化) -->
 
 <!-- Mobile Navigation FAB & Menu JS -->
 <script>
@@ -281,41 +287,21 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<!-- 
-  ==========================================================================
-  PART 5: DYNAMIC IMAGE PATH CORRECTION SCRIPT (v4 - Universal Rewrite)
-  ==========================================================================
-  - This script rewrites all relative image paths starting with './'
-    to an absolute path based on the collection.
-  - It handles any subdirectory structure within your Markdown files.
--->
+<!-- DYNAMIC IMAGE PATH CORRECTION SCRIPT -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const collectionName = '{{ page.collection }}';
   if (!collectionName) { return; }
-
-  // Define the base path where all book assets are stored.
   const assetBasePath = `/uploads/${collectionName}/`;
-
   const contentArea = document.querySelector('.article--doc');
   if (!contentArea) { return; }
-  
   const images = contentArea.querySelectorAll('img');
-
   images.forEach(img => {
     const originalSrc = img.getAttribute('src');
-
-    // We only process paths that start with './'
     if (originalSrc && originalSrc.startsWith('./')) {
-      
-      // Remove the leading './' to get the pure relative path
       const relativePath = originalSrc.substring(2);
-      
-      // Construct the new, absolute path
       const newSrc = assetBasePath + relativePath;
-      
       img.setAttribute('src', newSrc);
-      
       console.log(`Universal Image Rewrite: ${originalSrc} -> ${newSrc}`);
     }
   });
