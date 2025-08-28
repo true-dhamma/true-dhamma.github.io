@@ -1,3 +1,5 @@
+---
+---
 Ch. 7. Awakened Beings
 
 ## 入流的要素
