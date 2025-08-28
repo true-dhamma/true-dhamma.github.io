@@ -9,20 +9,19 @@ collections:
   posts:
     title: Posts
     output: true
-  testbook:
-    title: Testbook
-    output: true
-    permalink: "/:collection/:name/"
   uploads:
     title: Uploads
-    output: false
-defaults:
+    output: true
+    defaults:
+- scope:
+    path: ''
+  values:
+    image: "/assets/default-social-image.png"
 - scope:
     path: ''
     type: posts
   values:
     layout: post
-    feature_image: "/uploads/top_banner_blog.jpg"
 - scope:
     path: ''
     type: pages
@@ -33,6 +32,9 @@ defaults:
     type: buddhadhamma
   values:
     layout: doc
+    feature_text: |
+      ## 佛法 Buddhadhamma
+      P. A. Payutto
     feature_image: "/uploads/top_banner_dhamma.jpg"
     toc: true
 - scope:
@@ -40,15 +42,24 @@ defaults:
     type: testbook
   values:
     layout: doc
-url: https://true-dhamma.com
-baseurl: ''
-description: 世间成瘾与出世间觉悟，南传上座部佛法，实修实证，亲知实见，趋向涅槃，从无明中解脱。
-encoding: utf-8
-lang: zh-CN
-permalink: pretty
-excerpt_separator: "<!-- more -->"
-paginate: 20
-paginate_path: "/blog/page:num"
+uploads:
+  title: Uploads
+  output: true
+posts:
+  title: 文章
+  output: true
+  feature_image: "/uploads/top_banner_blog.jpg"
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- alembic-jekyll-theme.gemspec
+- ".jekyll-cache"
 plugins:
 - jekyll-sitemap
 - jekyll-mentions
@@ -59,9 +70,41 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
+paginate: 20
+paginate_path: "/blog/page:num"
+jekyll-mentions: 
+twitter:
+  username: 
 author: 智宁居士
-email: zhining@true-dhamma.com
+social:
+  name: 
+  links:
+  - 
+  - 
+  - 
+  - 
+sass:
+  style: compressed
+permalink: pretty
+excerpt_separator: "<!-- more -->"
+encoding: utf-8
+lang: zh-CN
 logo: "/uploads/Dhamma_Wheel.svg.webp"
+description: 世间成瘾与出世间觉悟，南传上座部佛法，实修实证，亲知实见，趋向涅槃，从无明中解脱
+url: https://true-dhamma.com
+baseurl: 
+repo: 
+email: zhining@true-dhamma.com
+css_inline: true
+favicons:
+  '16': "/uploads/siteicon.png"
+  '32': "/uploads/siteicon.png"
+  '96': "/uploads/siteicon.png"
+  '120': "/uploads/siteicon.png"
+  '144': "/uploads/siteicon.png"
+  '180': "/uploads/siteicon.png"
+  '512': "/uploads/siteicon.png"
+  '1024': "/uploads/siteicon.png"
 navigation_header:
 - title: 首页
   url: "/"
@@ -80,9 +123,19 @@ navigation_header:
 navigation_footer:
 - title: Created by 智宁居士
   url: mailto:zhining@gmx.com
-exclude:
-- README.md
-- LICENSE
-- Gemfile
-- Gemfile.lock
-- ".jekyll-cache"
+social_links:
+  Twitter: 
+  LinkedIn: 
+  GitHub: 
+  link: https://true-dhamma.github.io
+  RSS: "/feed.xml"
+sharing_links:
+  Twitter: ''
+  facebook: ''
+  Email: true
+  UniversalShare: "#4CAF50"
+fonts:
+  preconnect_urls:
+  - https://fonts.gstatic.com
+  font_urls:
+  - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
