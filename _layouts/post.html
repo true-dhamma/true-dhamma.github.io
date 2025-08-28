@@ -2,23 +2,99 @@
 layout: default
 ---
 
-{% comment %}
-  第一步：先运行TOC生成器，并捕获其输出
-  我们先做一个快速检查，如果文章内容里连<h2或<h3都找不到，就跳过耗费性能的TOC生成步骤
-{% endcomment %}
-{%- assign has_headings = false -%}
-{%- if content contains '<h2' or content contains '<h3' -%}
-  {%- assign has_headings = true -%}
-{%- endif -%}
-
+{%- comment %}
+  步骤 A: 预处理TOC数据。
+  仅当 aside: true 且文章内有标题时才进行。
+{%- endcomment %}
 {%- assign has_toc = false -%}
-{%- if has_headings -%}
-  {%- capture toc_html -%}{% include toc.html content=content %}{%- endcapture -%}
-  {%- assign toc_trimmed = toc_html | strip -%}
-  {%- if toc_trimmed != "" -%}
-    {%- assign has_toc = true -%}
+{%- assign toc_html = "" -%}
+
+{%- if page.aside == true -%}
+  {%- comment %} 快速检查是否存在标题，避免不必要的TOC生成 {% endcomment %}
+  {%- if content contains '<h2' or content contains '<h3' or content contains '<h4' -%}
+    {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
+    {%- assign toc_trimmed = captured_toc | strip -%}
+    {%- if toc_trimmed != "" -%}
+      {%- assign has_toc = true -%}
+      {%- assign toc_html = captured_toc -%}
+    {%- endif -%}
   {%- endif -%}
 {%- endif -%}
+
+{%- comment %}
+  步骤 B: 如果存在TOC，则注入内联CSS。
+{%- endcomment %}
+{% if has_toc %}
+<style>
+  /* --- TOC显示逻辑的内联CSS --- */
+
+  /* 1. 默认隐藏PC端的侧边栏 */
+  #aside-container {
+    display: none;
+  }
+
+  /* 2. 手机端动态生成的TOC容器样式 */
+  .toc-mobile-container {
+    display: block;
+    margin: 2em 0;
+    padding: 1em 1.5em;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+
+  .toc-mobile-container h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+  }
+
+  /* 3. 通用的TOC内容样式 (PC和手机共用) */
+  .toc-content-wrapper .list--toc {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .toc-content-wrapper .list--toc > .item {
+    font-weight: bold;
+    margin-top: 0.75em;
+  }
+  .toc-content-wrapper .list--toc > .item:first-child {
+    margin-top: 0;
+  }
+
+  .toc-content-wrapper .list--toc-nested {
+    list-style: none;
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
+
+  .toc-content-wrapper .list--toc-nested > .item {
+    font-weight: normal;
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+
+  .toc-content-wrapper a {
+    text-decoration: none;
+    color: #555;
+  }
+
+  .toc-content-wrapper a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+
+  /* 4. 确保手机锚点不可见 */
+  #mobile-toc-anchor {
+    display: none;
+  }
+</style>
+{% endif %}
 
 
 {% include site-header.html %}
@@ -30,31 +106,92 @@ layout: default
     <h1>{{ page.title }}</h1>
     {% include post-meta.html %}
 
-    {% comment %} 在手机上，目录显示在文章内容上方 {% endcomment %}
-    {% if has_toc %}
-      <div class="toc-mobile">
-        <h3>本文目录</h3>
-        {{ toc_html }}
-      </div>
-    {% endif %}
+    {%- comment %}
+      步骤 C: 埋下手机端目录的第一个可能位置（锚点A）。
+    {%- endcomment %}
+    {% if has_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
 
     {{ content }}
 
     {% include nav-share.html %}
-
     {% include post-comments.html %}
 
   </article>
 
-  {% comment %} 
-    在桌面上，如果 front matter 中 aside: true 并且确实生成了目录，
-    则在右侧显示侧边栏，并将目录内容传递过去。
-  {% endcomment %}
-  {% if page.aside == true and has_toc %}
-    {% include site-aside.html toc=toc_html %}
-  {% endif %}
+  {%- comment %}
+    步骤 D: 无论如何都引入侧边栏的HTML结构（如果aside=true）。
+  {%- endcomment %}
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
 
 </main>
 
 {% include tts-reader.html %}
 {% include site-footer.html %}
+
+{%- comment %}
+  步骤 E: 将TOC数据作为模板存储在页面上，并包含核心JS逻辑。
+{%- endcomment %}
+{% if has_toc %}
+<script id="toc-data-template" type="text/template">
+  {{ toc_html | strip_newlines }}
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // 1. 获取TOC数据
+  const tocTemplate = document.getElementById('toc-data-template');
+  if (!tocTemplate) return;
+  const tocHTML = tocTemplate.innerHTML;
+  if (!tocHTML.trim()) return;
+
+  // 2. 定义设备判断断点 (请根据你的主题CSS断点调整，例如 1024 对应 64em)
+  const desktopBreakpoint = 1024;
+  const isDesktop = window.innerWidth >= desktopBreakpoint;
+
+  // 3. 创建要注入的TOC内容DOM
+  const tocContent = document.createElement('div');
+  tocContent.className = 'toc-content-wrapper'; // 统一的class，便于样式控制
+  tocContent.innerHTML = tocHTML;
+
+  if (isDesktop) {
+    // === PC端逻辑 ===
+    const desktopTarget = document.getElementById('desktop-toc-target');
+    const asideContainer = document.getElementById('aside-container');
+    if (desktopTarget && asideContainer) {
+      desktopTarget.appendChild(tocContent);
+      asideContainer.style.display = 'block'; // 显示侧边栏
+    }
+  } else {
+    // === 手机端逻辑 ===
+    const mobileAnchor = document.getElementById('mobile-toc-anchor');
+    if (!mobileAnchor) return;
+
+    // 检查锚点之后紧邻的元素是否是<blockquote>
+    let finalTargetElement = mobileAnchor;
+    const nextSibling = mobileAnchor.nextElementSibling;
+    if (nextSibling && nextSibling.tagName === 'BLOCKQUOTE') {
+      finalTargetElement = nextSibling; // 如果是，目标变为blockquote
+    }
+    
+    // 创建完整的手机端TOC区块（带'Index'标题）
+    const mobileWrapper = document.createElement('div');
+    mobileWrapper.className = 'toc-mobile-container';
+    mobileWrapper.innerHTML = '<h3>Index</h3>';
+    mobileWrapper.appendChild(tocContent);
+    
+    // 注入TOC
+    if (finalTargetElement === mobileAnchor) {
+      // 情况1: 注入到锚点之后
+      finalTargetElement.parentNode.insertBefore(mobileWrapper, finalTargetElement.nextSibling);
+      // 从DOM中移除空锚点，保持HTML整洁
+      finalTargetElement.parentNode.removeChild(finalTargetElement); 
+    } else {
+      // 情况2: 注入到blockquote之后
+      finalTargetElement.parentNode.insertBefore(mobileWrapper, finalTargetElement.nextSibling);
+      // 同样移除锚点
+      mobileAnchor.parentNode.removeChild(mobileAnchor);
+    }
+  }
+});
+</script>
+{% endif %}
