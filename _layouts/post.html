@@ -6,8 +6,6 @@ layout: default
 
 <main class="main  container">
 
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
-
   <article class="article  article--post  content  typeset">
     
     <h1>{{ page.title }}</h1>
@@ -19,6 +17,8 @@ layout: default
     {% include post-comments.html %}
 
   </article>
+
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
 
 </main>
 
