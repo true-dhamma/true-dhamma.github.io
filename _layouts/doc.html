@@ -49,7 +49,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS (已实现全新四档位响应式布局)
+  PART 2: INLINE CSS (已实现带悬浮高亮效果的四档位布局)
   ============================================================================
 {%- endcomment %}
 <style>
@@ -84,24 +84,37 @@ layout: default
   /* --- 档位4: 超宽屏 (>= 1600px) --- */
   @media screen and (min-width: 1600px) {
     .main.container--doc {
-      max-width: 1800px; /* 容器可占据更宽的范围 */
-      width: 90%; /* 占屏幕宽度的90%，两边留白 */
-      justify-content: space-between; /* 核心！将多余空间作为栏目间距 */
-      gap: 0; /* 使用justify-content后，gap不再需要 */
+      max-width: 1800px;
+      width: 90%;
+      justify-content: space-between;
+      gap: 0;
     }
-    .doc-nav-container {
-      flex-basis: 300px; /* 固定左栏宽度 */
-    }
-    .article--doc {
-      flex-grow: 0; /* 不允许文章区变宽 */
-      flex-shrink: 1; /* 允许收缩 */
-      flex-basis: 820px; /* 核心！文章区最大宽度被固定 */
-    }
-    .main.container--doc.has-right-toc .doc-chapter-toc {
-      flex-basis: 280px; /* 固定右栏宽度 */
-    }
+    .doc-nav-container { flex-basis: 300px; }
+    .article--doc { flex-grow: 0; flex-shrink: 1; flex-basis: 820px; }
+    .main.container--doc.has-right-toc .doc-chapter-toc { flex-basis: 280px; }
   }
 
+  /* 
+   * =======================================================
+   *  新增功能: 侧边栏悬浮高亮效果 (焦点模式)
+   * =======================================================
+  */
+  @media screen and (min-width: 992px) {
+    .doc-nav-container,
+    .doc-chapter-toc {
+      /* 默认状态下降低不透明度 */
+      opacity: 0.35;
+      /* 添加平滑的过渡动画 */
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    /* 鼠标悬浮或触摸时，完全显示 */
+    .doc-nav-container:hover,
+    .doc-chapter-toc:hover {
+      opacity: 1;
+    }
+  }
+  
   /* --- 通用组件样式 --- */
   .doc-nav-scroll-area { height: 100%; overflow-y: auto; background-color: #f1f3f5; border: 1px solid #e0e0e0; border-radius: 8px; padding: 1em; }
   .doc-nav-container h3 { display: none; }
@@ -121,7 +134,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 3: HTML STRUCTURE (无需改动)
+  PART 3, 4, 5: HTML & JAVASCRIPT (保持不变)
   ============================================================================
 {%- endcomment %}
 
@@ -194,12 +207,6 @@ layout: default
 
 {% include site-footer.html %}
 
-{%- comment %}
-  ============================================================================
-  PART 4: JAVASCRIPT LOGIC (无需改动)
-  ============================================================================
-{%- endcomment %}
-
 <!-- Tocbot JS (条件性加载) -->
 {% if has_right_toc %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
@@ -213,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function() {
       scrollSmooth: true,
       scrollSmoothOffset: -80,
     });
-  } else if (window.innerWidth < 1200) { // 确保只在移动端/平板端执行
+  } else if (window.innerWidth < 1200) {
     const mobileAnchor = document.getElementById('mobile-toc-anchor');
     const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
     if (mobileAnchor && rawTocHtml) {
@@ -244,11 +251,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<!-- 
-  ==========================================================================
-  PART 5: DYNAMIC IMAGE PATH CORRECTION SCRIPT (无需改动)
-  ==========================================================================
--->
+<!-- DYNAMIC IMAGE PATH CORRECTION SCRIPT -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const collectionName = '{{ page.collection }}';
@@ -267,4 +270,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-</script>
+</script>```
