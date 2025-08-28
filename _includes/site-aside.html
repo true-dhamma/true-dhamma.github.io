@@ -3,16 +3,13 @@
   {% if page.layout == "post" %}
     <!-- 目录所需的 CSS 样式 -->
     <style>
-      /* 为 h3 级别的目录项添加左边距，实现缩进效果 */
-      .item--category.toc-level-h3 {
-        padding-left: 1.5em; 
+
+      .section--toc .nav--categories a {
+        background-image: none !important; /* 移除背景渐变实现的下划线 */
+        text-decoration: none !important; /* 确保也没有浏览器默认的下划线 */
+        padding-bottom: 2px; /* 可以微调，补偿移除下划线后视觉上的高度变化 */
       }
-      /* 可以为目录链接添加一些细微样式，让它不那么大 */
-      .section--toc .item--category a {
-        font-size: 0.9em;
-        padding: 0.2em 0;
-        display: block;
-      }
+
     </style>
 
     <!-- 1. 目录容器 (默认隐藏) -->
