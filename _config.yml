@@ -16,8 +16,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-include:
-  - "_buddhadhamma/includes"defaults:
+include: ["_buddhadhamma/includes"]
 - scope:
     path: ''
     type: posts
