@@ -1,6 +1,6 @@
 ---
+title: Five Aggregates
 ---
-
 
 # 第一章：五蕴
 
