@@ -1,6 +1,4 @@
 ---
-title: The Truth Of Suffering
-date: 2002-01-01 00:00:00 +08:00
 ---
 
 # 2\.1.1 详解苦谛 (Dukkha)

@@ -1,5 +1,4 @@
 ---
-title: 01 Foreword
 ---
 
 # 前言

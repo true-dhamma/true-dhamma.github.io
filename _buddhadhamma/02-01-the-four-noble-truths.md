@@ -1,5 +1,4 @@
 ---
-title: 02 01 The Four Noble Truths
 ---
 
 # 2.1 四圣谛：法的核心框架
