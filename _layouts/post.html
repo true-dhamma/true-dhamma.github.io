@@ -6,7 +6,6 @@ layout: default
   ============================================================================
   PART 1: DATA PREPARATION (Jekyll/Liquid)
   ============================================================================
-  - 生成基础的TOC HTML，为Tocbot提供原材料。
 {%- endcomment %}
 {%- assign has_toc = false -%}
 {%- assign toc_html = "" -%}
@@ -21,13 +20,12 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS
+  PART 2: INLINE CSS (Aesthetic Upgrade)
   ============================================================================
-  - 定义PC端的双栏布局、sticky侧边栏，以及Tocbot的美化样式。
 {%- endcomment %}
 {% if has_toc %}
 <style>
-  /* --- TOCBOT INTEGRATION STYLES --- */
+  /* --- TOCBOT INTEGRATION STYLES (ENHANCED) --- */
 
   /* 1. Main Layout: Two columns on desktop */
   @media screen and (min-width: 1024px) {
@@ -44,31 +42,38 @@ layout: default
     }
   }
 
-  /* 2. PC Sticky TOC Container */
+  /* 2. PC Sticky TOC Container (New Card Style) */
   .post-toc-container {
-    display: none; /* Hidden on mobile by default */
+    display: none;
   }
   @media screen and (min-width: 1024px) {
     .post-toc-container {
       display: block;
-      flex: 0 0 260px; /* Fixed width for the TOC column */
+      flex: 0 0 260px;
       position: sticky;
       top: 2rem;
       align-self: flex-start;
-      max-height: calc(100vh - 4rem); /* Prevent it from being too long */
+      max-height: calc(100vh - 4rem);
       overflow-y: auto;
+      /* --- Visual Enhancements --- */
+      background-color: #f8f9fa; /* Light grey background */
+      padding: 1.25em;              /* Generous padding for breathing room */
+      border-radius: 8px;           /* Soft rounded corners */
+      border: 1px solid #e9ecef;    /* Subtle border */
     }
   }
 
-  /* 3. Tocbot Core Styles (Clean & Modern) */
+  /* 3. Tocbot Core Styles (Enhanced Interactivity) */
   .post-toc-container h3 {
     margin-top: 0;
     margin-bottom: 1em;
-    font-size: 1.1em;
+    font-size: 0.9em; /* Slightly smaller title */
     font-weight: 600;
-    color: #333;
+    color: #343a40;
+    text-transform: uppercase; /* Uppercase for a 'doc' feel */
+    letter-spacing: 0.5px;
   }
-  .toc { /* This is the main class Tocbot uses */
+  .toc {
     overflow-y: auto;
   }
   .toc-list {
@@ -77,35 +82,45 @@ layout: default
     list-style-type: none;
   }
   .toc-list-item {
-    margin-bottom: 5px;
+    margin-bottom: 2px; /* Small gap between items */
   }
   .toc-link {
     display: block;
-    padding: 4px 10px;
-    border-left: 2px solid #EEE;
-    color: #777;
+    padding: 8px 12px; /* More clickable area */
+    border-left: 3px solid transparent; /* Prepare for active state border */
+    color: #5f676d; /* Softer text color */
     text-decoration: none;
-    font-size: 0.875em;
+    font-size: 0.85em;
     line-height: 1.5;
-    transition: all 0.2s ease-in-out;
-  }
-  .toc-link:hover {
-    color: #333;
-    border-left-color: #AAA;
-  }
-  /* Active state styles */
-  .is-active-link {
-    color: #007bff; /* A nice highlight color */
-    font-weight: 600;
-    border-left-color: #007bff;
-    background-color: #f0f7ff;
-  }
-  /* Nested list indentation */
-  .toc-list .toc-list {
-    padding-left: 1.25em;
+    transition: all 0.15s ease-in-out;
+    border-radius: 5px; /* Rounded corners for hover effect */
   }
 
-  /* 4. Mobile TOC Container (Same as before) */
+  /* --- Hover State --- */
+  .toc-link:hover {
+    color: #000;
+    background-color: #e9ecef; /* Subtle background highlight on hover */
+  }
+  
+  /* --- Active State --- */
+  .is-active-link {
+    color: #0d6efd; /* A vibrant blue for active link */
+    font-weight: 600;
+    background-color: #e7f1ff; /* Light blue background */
+    border-left-color: #0d6efd; /* Strong left border to indicate active state */
+  }
+  /* Ensure active state overrides hover state visually */
+  .is-active-link:hover {
+    background-color: #e7f1ff; 
+  }
+
+  /* Nested list indentation */
+  .toc-list .toc-list {
+    padding-left: 1em;
+    margin-top: 5px;
+  }
+
+  /* 4. Mobile TOC Container (Unchanged) */
   .toc-mobile-container {
     display: block;
     margin: 2em 0;
@@ -115,7 +130,6 @@ layout: default
     background-color: #f9f9f9;
   }
   .toc-mobile-container h3 { margin-top: 0; }
-  /* Hide mobile TOC on desktop */
   @media screen and (min-width: 1024px) {
     .toc-mobile-container { display: none; }
   }
@@ -129,19 +143,14 @@ layout: default
   
   {%- comment %}
     ============================================================================
-    PART 3: HTML STRUCTURE
+    PART 3: HTML STRUCTURE (Unchanged)
     ============================================================================
-    - Article content area gets a `js-toc-content` class.
-    - A dedicated aside container is created for the PC TOC.
-    - Both PC and Mobile TOC structures are rendered, CSS controls visibility.
   {%- endcomment %}
 
-  <!-- The main article content that Tocbot will scan -->
   <article class="article article--post content typeset js-toc-content">
     <h1>{{ page.title }}</h1>
     {% include post-meta.html %}
     
-    <!-- Mobile TOC will be injected here by JS -->
     {% if has_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
 
     {{ content }}
@@ -151,10 +160,8 @@ layout: default
   </article>
 
   {% if has_toc %}
-  <!-- PC Sticky TOC Container -->
   <aside class="post-toc-container">
     <h3>Index</h3>
-    <!-- Tocbot will enhance the content of this div -->
     <div class="js-toc">
         {{ toc_html }}
     </div>
@@ -169,40 +176,26 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 4: JAVASCRIPT LOGIC
+  PART 4: JAVASCRIPT LOGIC (Unchanged)
   ============================================================================
-  - Load Tocbot library from a CDN.
-  - Initialize Tocbot for desktop view.
-  - Handle mobile view by injecting the raw HTML into a container.
 {%- endcomment %}
 {% if has_toc %}
-<!-- 1. Load Tocbot library from CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
-
-<!-- 2. Initialize Tocbot or handle mobile view -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const desktopBreakpoint = 1024;
   const isDesktop = window.innerWidth >= desktopBreakpoint;
 
   if (isDesktop && document.querySelector('.js-toc')) {
-    // === DESKTOP: Initialize Tocbot ===
     tocbot.init({
-      // Where to render the table of contents.
       tocSelector: '.js-toc',
-      // Where to grab the headings from.
       contentSelector: '.js-toc-content',
-      // Which headings to grab inside of the contentSelector element.
       headingSelector: 'h2, h3, h4',
-      // For more decorative styles.
       hasInnerContainers: true,
-      // Smooth scrolling enabled
       scrollSmooth: true,
-      // Offset for sticky headers (if you have one)
       scrollSmoothOffset: -80,
     });
   } else {
-    // === MOBILE: Inject raw TOC HTML into a container ===
     const mobileAnchor = document.getElementById('mobile-toc-anchor');
     const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
 
