@@ -1,8 +1,3 @@
----
-title: 01 Foreword
-toc: false
----
-
 # 前言
 
 欢迎阅读本书。

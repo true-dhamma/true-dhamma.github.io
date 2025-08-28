@@ -6,17 +6,13 @@ collections:
     title: Buddhadhamma
     output: true
     permalink: "/:collection/:name/"
-  posts:
-    title: Posts
-    output: true
-  testbook:
-    title: TestBook
-    output: true
-    permalink: "/:collection/:title/"
-  uploads:
-    title: Uploads
-    output: true
-defaults:
+#  posts:
+#    title: Posts
+#    output: true
+#  uploads:
+#    title: Uploads
+#    output: true
+#    defaults:
 - scope:
     path: ''
   values:
