@@ -66,7 +66,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-redirect-from
 - jekyll-feed
-- jekyll-toc  
+- jekyll-toc
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
