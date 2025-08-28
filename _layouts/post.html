@@ -65,7 +65,8 @@ layout: default
         const link = document.createElement('a');
         link.href = '#' + heading.id;
         link.textContent = heading.textContent;
-        
+        link.style.textDecoration = 'none'; // 去掉默认的下划线 mod
+        link.style.borderBottom = 'none';   // 去掉主题可能添加的边框横线 mod
         listItem.appendChild(link);
         tocList.appendChild(listItem); // 将 H2 项添加到主列表
 
@@ -89,7 +90,8 @@ layout: default
           const link = document.createElement('a');
           link.href = '#' + heading.id;
           link.textContent = heading.textContent;
-
+          link.style.textDecoration = 'none'; // 去掉默认的下划线 mod
+          link.style.borderBottom = 'none';   // 去掉主题可能添加的边框横线 mod
           subListItem.appendChild(link);
           sublist.appendChild(subListItem); // 将 H3 项添加到嵌套的 <ul> 中
         }
