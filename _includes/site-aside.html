@@ -1,27 +1,8 @@
 <aside class="aside  typeset  aside--{{ include.align | default: 'right' }}">
 
   {% if page.layout == "post" %}
-    <!-- 目录所需的 CSS 样式 -->
-    <style>
 
-      .section--toc .nav--categories a {
-        background-image: none !important; /* 移除背景渐变实现的下划线 */
-        text-decoration: none !important; /* 确保也没有浏览器默认的下划线 */
-        padding-bottom: 2px; /* 可以微调，补偿移除下划线后视觉上的高度变化 */
-      }
-
-    </style>
-
-    <!-- 1. 目录容器 (默认隐藏) -->
-    <section class="section section--toc" id="toc-container" style="display: none;">
-      <h3>Index</h3>
-      <nav class="nav nav--categories" id="toc-nav">
-        <!-- 目录将由 JavaScript 动态生成于此 -->
-      </nav>
-    </section>
-
-    <!-- 2. 相关文章容器 (默认显示) -->
-    <section class="section  section--related-posts" id="related-posts-container">
+  <section class="section  section--related-posts" id="related-posts-container">
       {% include post-related.html %}
     </section>
 
