@@ -76,8 +76,22 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+collection_groups:
+  - heading:
+    collections:
+commit_templates:
+  - label:
+    template_string:
+    template_path:
+    _inputs:
+    extra_data:
 _snippets_imports:
   jekyll: true
+file_config:
+  - glob:
+    _inputs:
+    _structures:
+    _select_data:
 editor:
   default_path:
 timezone: Asia/Bangkok

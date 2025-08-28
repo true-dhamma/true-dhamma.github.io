@@ -15,7 +15,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-include: ["_buddhadhamma/includes"]
 - scope:
     path: ''
     type: posts
@@ -48,6 +47,7 @@ permalink: pretty
 excerpt_separator: "<!-- more -->"
 paginate: 20
 paginate_path: "/blog/page:num"
+include: ["_buddhadhamma/includes"]
 plugins:
 - jekyll-sitemap
 - jekyll-mentions
