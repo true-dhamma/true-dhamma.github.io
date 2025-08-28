@@ -3,95 +3,121 @@ layout: default
 ---
 
 {%- comment %}
-  步骤 A: 预处理TOC数据。
-  仅当 aside: true 且文章内有标题时才进行。
+  ============================================================================
+  PART 1: DATA PREPARATION (Jekyll/Liquid)
+  ============================================================================
+  - 生成基础的TOC HTML，为Tocbot提供原材料。
 {%- endcomment %}
 {%- assign has_toc = false -%}
 {%- assign toc_html = "" -%}
-
-{%- if page.aside == true -%}
-  {%- comment %} 快速检查是否存在标题，避免不必要的TOC生成 {% endcomment %}
-  {%- if content contains '<h2' or content contains '<h3' or content contains '<h4' -%}
-    {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
-    {%- assign toc_trimmed = captured_toc | strip -%}
-    {%- if toc_trimmed != "" -%}
-      {%- assign has_toc = true -%}
-      {%- assign toc_html = captured_toc -%}
-    {%- endif -%}
+{%- if page.aside == true and (content contains '<h2' or content contains '<h3' or content contains '<h4') -%}
+  {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
+  {%- assign toc_trimmed = captured_toc | strip -%}
+  {%- if toc_trimmed != "" -%}
+    {%- assign has_toc = true -%}
+    {%- assign toc_html = captured_toc -%}
   {%- endif -%}
 {%- endif -%}
 
 {%- comment %}
-  步骤 B: 如果存在TOC，则注入内联CSS。
+  ============================================================================
+  PART 2: INLINE CSS
+  ============================================================================
+  - 定义PC端的双栏布局、sticky侧边栏，以及Tocbot的美化样式。
 {%- endcomment %}
 {% if has_toc %}
 <style>
-  /* --- TOC显示逻辑的内联CSS --- */
+  /* --- TOCBOT INTEGRATION STYLES --- */
 
-  /* 1. 默认隐藏PC端的侧边栏 */
-  #aside-container {
-    display: none;
+  /* 1. Main Layout: Two columns on desktop */
+  @media screen and (min-width: 1024px) {
+    .main.container {
+      position: relative;
+      display: flex;
+      flex-direction: row-reverse; /* TOC on the right */
+      align-items: flex-start;
+      gap: 2.5em;
+    }
+    .article--post {
+      flex: 1 1 auto;
+      min-width: 0;
+    }
   }
 
-  /* 2. 手机端动态生成的TOC容器样式 */
+  /* 2. PC Sticky TOC Container */
+  .post-toc-container {
+    display: none; /* Hidden on mobile by default */
+  }
+  @media screen and (min-width: 1024px) {
+    .post-toc-container {
+      display: block;
+      flex: 0 0 260px; /* Fixed width for the TOC column */
+      position: sticky;
+      top: 2rem;
+      align-self: flex-start;
+      max-height: calc(100vh - 4rem); /* Prevent it from being too long */
+      overflow-y: auto;
+    }
+  }
+
+  /* 3. Tocbot Core Styles (Clean & Modern) */
+  .post-toc-container h3 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #333;
+  }
+  .toc { /* This is the main class Tocbot uses */
+    overflow-y: auto;
+  }
+  .toc-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .toc-list-item {
+    margin-bottom: 5px;
+  }
+  .toc-link {
+    display: block;
+    padding: 4px 10px;
+    border-left: 2px solid #EEE;
+    color: #777;
+    text-decoration: none;
+    font-size: 0.875em;
+    line-height: 1.5;
+    transition: all 0.2s ease-in-out;
+  }
+  .toc-link:hover {
+    color: #333;
+    border-left-color: #AAA;
+  }
+  /* Active state styles */
+  .is-active-link {
+    color: #007bff; /* A nice highlight color */
+    font-weight: 600;
+    border-left-color: #007bff;
+    background-color: #f0f7ff;
+  }
+  /* Nested list indentation */
+  .toc-list .toc-list {
+    padding-left: 1.25em;
+  }
+
+  /* 4. Mobile TOC Container (Same as before) */
   .toc-mobile-container {
     display: block;
     margin: 2em 0;
-    padding: 1em 1.5em;
+    padding: 1em;
     border: 1px solid #eee;
     border-radius: 4px;
     background-color: #f9f9f9;
   }
-
-  .toc-mobile-container h3 {
-    margin-top: 0;
-    font-size: 1.1em;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 0.5em;
-    margin-bottom: 1em;
-  }
-
-  /* 3. 通用的TOC内容样式 (PC和手机共用) */
-  .toc-content-wrapper .list--toc {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
-  }
-
-  .toc-content-wrapper .list--toc > .item {
-    font-weight: bold;
-    margin-top: 0.75em;
-  }
-  .toc-content-wrapper .list--toc > .item:first-child {
-    margin-top: 0;
-  }
-
-  .toc-content-wrapper .list--toc-nested {
-    list-style: none;
-    padding-left: 1.5em;
-    margin-top: 0.5em;
-    margin-bottom: 0;
-  }
-
-  .toc-content-wrapper .list--toc-nested > .item {
-    font-weight: normal;
-    font-size: 0.9em;
-    line-height: 1.6;
-  }
-
-  .toc-content-wrapper a {
-    text-decoration: none;
-    color: #555;
-  }
-
-  .toc-content-wrapper a:hover {
-    text-decoration: underline;
-    color: #000;
-  }
-
-  /* 4. 确保手机锚点不可见 */
-  #mobile-toc-anchor {
-    display: none;
+  .toc-mobile-container h3 { margin-top: 0; }
+  /* Hide mobile TOC on desktop */
+  @media screen and (min-width: 1024px) {
+    .toc-mobile-container { display: none; }
   }
 </style>
 {% endif %}
@@ -99,96 +125,103 @@ layout: default
 
 {% include site-header.html %}
 
-<main class="main  container">
+<main class="main container">
+  
+  {%- comment %}
+    ============================================================================
+    PART 3: HTML STRUCTURE
+    ============================================================================
+    - Article content area gets a `js-toc-content` class.
+    - A dedicated aside container is created for the PC TOC.
+    - Both PC and Mobile TOC structures are rendered, CSS controls visibility.
+  {%- endcomment %}
 
-  <article class="article  article--post  content  typeset">
-    
+  <!-- The main article content that Tocbot will scan -->
+  <article class="article article--post content typeset js-toc-content">
     <h1>{{ page.title }}</h1>
     {% include post-meta.html %}
-
-    {%- comment %}
-      步骤 C: 埋下手机端目录的第一个可能位置（锚点A）。
-    {%- endcomment %}
+    
+    <!-- Mobile TOC will be injected here by JS -->
     {% if has_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
 
     {{ content }}
 
     {% include nav-share.html %}
     {% include post-comments.html %}
-
   </article>
 
-  {%- comment %}
-    步骤 D: 无论如何都引入侧边栏的HTML结构（如果aside=true）。
-  {%- endcomment %}
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+  {% if has_toc %}
+  <!-- PC Sticky TOC Container -->
+  <aside class="post-toc-container">
+    <h3>Index</h3>
+    <!-- Tocbot will enhance the content of this div -->
+    <div class="js-toc">
+        {{ toc_html }}
+    </div>
+  </aside>
+  {% endif %}
 
 </main>
 
 {% include tts-reader.html %}
 {% include site-footer.html %}
 
+
 {%- comment %}
-  步骤 E: 将TOC数据作为模板存储在页面上，并包含核心JS逻辑。
+  ============================================================================
+  PART 4: JAVASCRIPT LOGIC
+  ============================================================================
+  - Load Tocbot library from a CDN.
+  - Initialize Tocbot for desktop view.
+  - Handle mobile view by injecting the raw HTML into a container.
 {%- endcomment %}
 {% if has_toc %}
-<script id="toc-data-template" type="text/template">
-  {{ toc_html | strip_newlines }}
-</script>
+<!-- 1. Load Tocbot library from CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 
+<!-- 2. Initialize Tocbot or handle mobile view -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // 1. 获取TOC数据
-  const tocTemplate = document.getElementById('toc-data-template');
-  if (!tocTemplate) return;
-  const tocHTML = tocTemplate.innerHTML;
-  if (!tocHTML.trim()) return;
-
-  // 2. 定义设备判断断点 (请根据你的主题CSS断点调整，例如 1024 对应 64em)
   const desktopBreakpoint = 1024;
   const isDesktop = window.innerWidth >= desktopBreakpoint;
 
-  // 3. 创建要注入的TOC内容DOM
-  const tocContent = document.createElement('div');
-  tocContent.className = 'toc-content-wrapper'; // 统一的class，便于样式控制
-  tocContent.innerHTML = tocHTML;
-
-  if (isDesktop) {
-    // === PC端逻辑 ===
-    const desktopTarget = document.getElementById('desktop-toc-target');
-    const asideContainer = document.getElementById('aside-container');
-    if (desktopTarget && asideContainer) {
-      desktopTarget.appendChild(tocContent);
-      asideContainer.style.display = 'block'; // 显示侧边栏
-    }
+  if (isDesktop && document.querySelector('.js-toc')) {
+    // === DESKTOP: Initialize Tocbot ===
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.js-toc',
+      // Where to grab the headings from.
+      contentSelector: '.js-toc-content',
+      // Which headings to grab inside of the contentSelector element.
+      headingSelector: 'h2, h3, h4',
+      // For more decorative styles.
+      hasInnerContainers: true,
+      // Smooth scrolling enabled
+      scrollSmooth: true,
+      // Offset for sticky headers (if you have one)
+      scrollSmoothOffset: -80,
+    });
   } else {
-    // === 手机端逻辑 ===
+    // === MOBILE: Inject raw TOC HTML into a container ===
     const mobileAnchor = document.getElementById('mobile-toc-anchor');
-    if (!mobileAnchor) return;
+    const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
 
-    // 检查锚点之后紧邻的元素是否是<blockquote>
-    let finalTargetElement = mobileAnchor;
-    const nextSibling = mobileAnchor.nextElementSibling;
-    if (nextSibling && nextSibling.tagName === 'BLOCKQUOTE') {
-      finalTargetElement = nextSibling; // 如果是，目标变为blockquote
-    }
-    
-    // 创建完整的手机端TOC区块（带'Index'标题）
-    const mobileWrapper = document.createElement('div');
-    mobileWrapper.className = 'toc-mobile-container';
-    mobileWrapper.innerHTML = '<h3>Index</h3>';
-    mobileWrapper.appendChild(tocContent);
-    
-    // 注入TOC
-    if (finalTargetElement === mobileAnchor) {
-      // 情况1: 注入到锚点之后
-      finalTargetElement.parentNode.insertBefore(mobileWrapper, finalTargetElement.nextSibling);
-      // 从DOM中移除空锚点，保持HTML整洁
-      finalTargetElement.parentNode.removeChild(finalTargetElement); 
-    } else {
-      // 情况2: 注入到blockquote之后
-      finalTargetElement.parentNode.insertBefore(mobileWrapper, finalTargetElement.nextSibling);
-      // 同样移除锚点
+    if (mobileAnchor && rawTocHtml) {
+      let finalTargetElement = mobileAnchor;
+      const nextSibling = mobileAnchor.nextElementSibling;
+      if (nextSibling && nextSibling.tagName === 'BLOCKQUOTE') {
+        finalTargetElement = nextSibling;
+      }
+      
+      const mobileWrapper = document.createElement('div');
+      mobileWrapper.className = 'toc-mobile-container';
+      mobileWrapper.innerHTML = `<h3>Index</h3><div class="toc-content-wrapper">${rawTocHtml}</div>`;
+      
+      if (finalTargetElement === mobileAnchor) {
+        finalTargetElement.parentNode.insertBefore(mobileWrapper, finalTargetElement.nextSibling);
+      } else {
+        finalTargetElement.parentNode.insertBefore(mobileWrapper, finalTargetElement.nextSibling);
+      }
       mobileAnchor.parentNode.removeChild(mobileAnchor);
     }
   }
