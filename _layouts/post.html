@@ -2,6 +2,25 @@
 layout: default
 ---
 
+{% comment %}
+  第一步：先运行TOC生成器，并捕获其输出
+  我们先做一个快速检查，如果文章内容里连<h2或<h3都找不到，就跳过耗费性能的TOC生成步骤
+{% endcomment %}
+{%- assign has_headings = false -%}
+{%- if content contains '<h2' or content contains '<h3' -%}
+  {%- assign has_headings = true -%}
+{%- endif -%}
+
+{%- assign has_toc = false -%}
+{%- if has_headings -%}
+  {%- capture toc_html -%}{% include toc.html content=content %}{%- endcapture -%}
+  {%- assign toc_trimmed = toc_html | strip -%}
+  {%- if toc_trimmed != "" -%}
+    {%- assign has_toc = true -%}
+  {%- endif -%}
+{%- endif -%}
+
+
 {% include site-header.html %}
 
 <main class="main  container">
@@ -10,6 +29,15 @@ layout: default
     
     <h1>{{ page.title }}</h1>
     {% include post-meta.html %}
+
+    {% comment %} 在手机上，目录显示在文章内容上方 {% endcomment %}
+    {% if has_toc %}
+      <div class="toc-mobile">
+        <h3>本文目录</h3>
+        {{ toc_html }}
+      </div>
+    {% endif %}
+
     {{ content }}
 
     {% include nav-share.html %}
@@ -18,7 +46,13 @@ layout: default
 
   </article>
 
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+  {% comment %} 
+    在桌面上，如果 front matter 中 aside: true 并且确实生成了目录，
+    则在右侧显示侧边栏，并将目录内容传递过去。
+  {% endcomment %}
+  {% if page.aside == true and has_toc %}
+    {% include site-aside.html toc=toc_html %}
+  {% endif %}
 
 </main>
 

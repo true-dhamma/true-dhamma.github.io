@@ -1,13 +1,8 @@
 <aside class="aside  typeset  aside--{{ include.align | default: 'right' }}">
 
   {% if page.layout == "post" %}
-    {% comment %} 
-      这里的逻辑被 post.html 控制了。
-      如果这个文件被 include，那一定是因为有TOC要显示。
-    {% endcomment %}
-    <section class="section  section--toc">
-      <h3>本文目录</h3>
-      {{ include.toc }}
+    <section class="section  section--related-posts">
+      {% include post-related.html %}
     </section>
 
   {% elsif page.layout == "page" or page.layout == "home" %}

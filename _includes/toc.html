@@ -1,4 +1,40 @@
-<!-- _includes/toc.html -->
-<div id="toc" class="toc">
-  {{ include.html | toc_generate }}
-</div>
+{% comment %}
+  输入: include.content (文章的HTML内容)
+  输出: 一个HTML的<ul>列表，作为TOC
+{% endcomment %}
+
+{%- assign toc_list = "" -%}
+{%- assign heading_count = 0 -%}
+
+{%- assign content_parts = include.content | split: '<h' -%}
+
+<nav class="nav nav--toc">
+  <ul class="list list--toc">
+    {%- for part in content_parts -%}
+      {%- if part contains 'id="' -%}
+        {%- capture heading_level %}{{ part | slice: 0 }}{% endcapture -%}
+        
+        {%- if heading_level == "2" or heading_level == "3" -%}
+          {%- assign heading_count = heading_count | plus: 1 -%}
+
+          {%- assign id_parts = part | split: 'id="' -%}
+          {%- assign id_and_rest = id_parts[1] | split: '"' -%}
+          {%- assign heading_id = id_and_rest[0] -%}
+
+          {%- assign text_parts = part | split: '</h' -%}
+          {%- assign text_and_tags = text_parts[0] | split: '>' -%}
+          {%- assign heading_text = text_and_tags[1] | strip_html -%}
+
+          <li class="item item--toc-h{{ heading_level }}">
+            <a href="#{{ heading_id }}">{{ heading_text }}</a>
+          </li>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</nav>
+
+{% comment %}如果一个标题都没找到，则最终不输出任何内容{% endcomment %}
+{%- if heading_count == 0 -%}
+  {{ "" }}
+{%- endif -%}
