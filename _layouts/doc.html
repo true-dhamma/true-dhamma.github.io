@@ -87,22 +87,19 @@ layout: default
       display: block;
       padding: 0.4em 0.5em;
       text-decoration: none;
-      color: #666666; /* <-- 您的要求：默认颜色 #666666 */
-      font-weight: normal; /* <-- 您的要求：默认不加粗 */
+      color: #666666;
+      font-weight: normal;
     }
     
     /* (悬停状态) 无效果 */
     .doc-nav-container a:hover {
-      /* <-- 您的要求：鼠标移动过去无任何效果 */
-      text-decoration: none; 
-      color: #666666; /* 保持颜色不变 */
+      text-decoration: none;
     }
     
     /* (当前页面状态) 黑色，加粗 */
-    /* 这个选择器精确地只选择 li 标签上有 active 类的直属 a 标签 */
     .doc-nav-container li.active > a {
-      color: #000; /* <-- 您的要求：当前页面变黑 */
-      font-weight: 600; /* <-- 您的要求：当前页面变粗 */
+      color: #000;
+      font-weight: 600;
     }
     
     /* (子目录) 仅保留缩进 */
@@ -155,35 +152,13 @@ layout: default
 {%- capture nav_list_html %}
 <ul>
   {%- for item_l1 in book_chapters %}
-    {%- assign is_active_l1 = (page.url == item_l1.url) -%}
-    {%- assign is_parent_active_l1 = false -%}
-    {%- if item_l1.subitems -%}
-      {%- for item_l2 in item_l1.subitems -%}
-        {%- if page.url == item_l2.url -%}{%- assign is_parent_active_l1 = true -%}{%- break -%}{%- endif -%}
-        {%- if item_l2.subitems -%}
-          {%- for item_l3 in item_l2.subitems -%}
-            {%- if page.url == item_l3.url -%}{%- assign is_parent_active_l1 = true -%}{%- break -%}{%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
-        {%- if is_parent_active_l1 == true -%}{%- break -%}{%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-
-    <li class="{% if is_active_l1 %}active{% elsif is_parent_active_l1 %}parent-active{% endif %}">
+    <li class="{% if page.url == item_l1.url %}active{% endif %}">
       <a href="{{ item_l1.url | relative_url }}">{{ item_l1.title }}</a>
       
       {%- if item_l1.subitems %}
       <ul>
         {%- for item_l2 in item_l1.subitems %}
-          {%- assign is_active_l2 = (page.url == item_l2.url) -%}
-          {%- assign is_parent_active_l2 = false -%}
-          {%- if item_l2.subitems -%}
-            {%- for item_l3 in item_l2.subitems -%}
-              {%- if page.url == item_l3.url -%}{%- assign is_parent_active_l2 = true -%}{%- break -%}{%- endif -%}
-            {%- endfor -%}
-          {%- endif -%}
-
-          <li class="{% if is_active_l2 %}active{% elsif is_parent_active_l2 %}parent-active{% endif %}">
+          <li class="{% if page.url == item_l2.url %}active{% endif %}">
             <a href="{{ item_l2.url | relative_url }}">{{ item_l2.title }}</a>
             
             {%- if item_l2.subitems %}
