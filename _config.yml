@@ -49,9 +49,6 @@ permalink: pretty
 excerpt_separator: "<!-- more -->"
 paginate: 20
 paginate_path: "/blog/page:num"
-include:
-- _buddhadhamma/includes
-- _testbook/includes
 exclude:
 - README.md
 - LICENSE

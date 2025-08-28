@@ -144,7 +144,6 @@ layout: default
 {%- comment %}
   --- 生成多级导航列表HTML ---
   使用 `capture` 生成一次，然后在桌面和移动视图中重复使用。
-  支持最多3个层级，可以按需扩展。
 {%- endcomment %}
 {%- capture nav_list_html %}
 <ul>
@@ -185,7 +184,6 @@ layout: default
               {%- for item_l3 in item_l2.subitems %}
                 <li class="{% if page.url == item_l3.url %}active{% endif %}">
                   <a href="{{ item_l3.url | relative_url }}">{{ item_l3.title }}</a>
-                  <!-- 如需支持第4级，在此处添加 `if item_l3.subitems` -->
                 </li>
               {%- endfor %}
             </ul>
@@ -202,7 +200,6 @@ layout: default
 <!-- 主体内容 -->
 <main class="main container container--doc {% if has_right_toc %}has-right-toc{% endif %}">
   
-  <!-- Left Sidebar: DESKTOP Book Navigation -->
   <aside class="doc-nav-container">
     <div class="doc-nav-scroll-area">
       <h3>{{ book_title }}</h3>
@@ -210,14 +207,12 @@ layout: default
     </div>
   </aside>
 
-  <!-- Center: Main article content -->
   <article class="article article--doc content typeset js-toc-content">
     <h1>{{ page_title_to_display }}</h1>
     {% if has_right_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
     {{ content }}
   </article>
 
-  <!-- Right Sidebar: Chapter TOC (Tocbot) -->
   {% if has_right_toc %}
   <aside class="doc-chapter-toc">
     <h3>本章目录</h3>
@@ -243,7 +238,13 @@ layout: default
 
 {% include site-footer.html %}
 
-<!-- JAVASCRIPT LOGIC (No changes needed) -->
+{%- comment %}
+  ============================================================================
+  PART 4: JAVASCRIPT LOGIC
+  ============================================================================
+{%- endcomment %}
+
+<!-- Tocbot JS (条件性加载) -->
 {% if has_right_toc %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 <script>
@@ -265,6 +266,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 {% endif %}
+
+<!-- Mobile Navigation FAB & Menu JS -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const fab = document.getElementById('doc-nav-fab');
@@ -277,5 +280,46 @@ document.addEventListener('DOMContentLoaded', function() {
     overlay.addEventListener('click', closeMenu);
     menu.addEventListener('click', function(event) { if (event.target.closest('a')) { closeMenu(); } });
     document.addEventListener('keydown', function(event) { if (event.key === 'Escape' && menu.classList.contains('is-open')) { closeMenu(); } });
+});
+</script>
+
+<!-- 
+  ==========================================================================
+  PART 5: DYNAMIC IMAGE PATH CORRECTION SCRIPT (v4 - Universal Rewrite)
+  ==========================================================================
+  - This script rewrites all relative image paths starting with './'
+    to an absolute path based on the collection.
+  - It handles any subdirectory structure within your Markdown files.
+-->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const collectionName = '{{ page.collection }}';
+  if (!collectionName) { return; }
+
+  // Define the base path where all book assets are stored.
+  const assetBasePath = `/uploads/${collectionName}/`;
+
+  const contentArea = document.querySelector('.article--doc');
+  if (!contentArea) { return; }
+  
+  const images = contentArea.querySelectorAll('img');
+
+  images.forEach(img => {
+    const originalSrc = img.getAttribute('src');
+
+    // We only process paths that start with './'
+    if (originalSrc && originalSrc.startsWith('./')) {
+      
+      // Remove the leading './' to get the pure relative path
+      const relativePath = originalSrc.substring(2);
+      
+      // Construct the new, absolute path
+      const newSrc = assetBasePath + relativePath;
+      
+      img.setAttribute('src', newSrc);
+      
+      console.log(`Universal Image Rewrite: ${originalSrc} -> ${newSrc}`);
+    }
+  });
 });
 </script>
