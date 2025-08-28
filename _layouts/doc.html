@@ -65,55 +65,56 @@ layout: default
       flex: 0 0 280px;
       position: sticky; top: 2rem;
       max-height: calc(100vh - 4rem);
-      font-size: 18px; /* <-- 优化(3): 字号调大到18px */
+      font-size: 18px; /* 字号保持18px */
       transition: flex-basis 0.3s ease;
     }
     .doc-nav-scroll-area {
       height: 100%; overflow-y: auto;
-      background-color: #f1f3f5; /* <-- 优化(1): 背景灰色加深，增加对比度 */
-      border: 1px solid #e0e0e0; /* 边框颜色也相应调整 */
+      background-color: #f1f3f5; /* 浅雅灰背景 */
+      border: 1px solid #e0e0e0;
       border-radius: 8px;
-      /* <-- 优化(7): 调整内边距，让左右更均衡，文字离左边缘更近 */
-      padding: 1.25em 1em;
+      padding: 1.25em 1em; /* 均衡的内边距 */
     }
     .doc-nav-container h3 {
-      /* <-- 优化(5): 在PC上隐藏头部的书名 */
-      display: none; 
-      padding: 0 0.75em; margin: 0 0 1em;
-      font-size: 1.3em; font-weight: 700; color: #2c3e50;
+      display: none; /* 在PC上隐藏头部的书名 */
     }
     .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
     .doc-nav-container li { position: relative; }
+
+    /* --- 新设计方案 --- */
+    /* (默认状态) 灰底黑字 */
     .doc-nav-container a {
       display: block; text-decoration: none;
       padding: 0.6em 0.75em;
       margin-bottom: 4px;
       border-radius: 6px;
-      color: #343a40; /* <-- 优化(1): 默认文字颜色改为近黑色 */
+      color: #343a40; /* 深碳黑文字 */
       line-height: 1.4;
-      transition: background-color 0.2s, color 0.2s;
+      border-left: 3px solid transparent; /* 关键：预留边框空间，防止激活时内容跳动 */
+      transition: background-color 0.2s, color 0.2s, border-left-color 0.2s ease-in-out; /* 平滑过渡效果 */
     }
-    /* <-- 优化(1): 鼠标悬停样式 */
-    .doc-nav-container a:hover { 
-      background-color: #e9ecef; 
-      color: #000; 
+    /* (悬停状态) 改变背景和文字颜色 */
+    .doc-nav-container a:hover {
+      background-color: #e9ecef; /* 悬停时背景变为浅石灰 */
+      color: #212529; /* 文字颜色加深 */
     }
-    /* <-- 优化(1): 当前页面链接样式 (蓝底白字) */
+    /* (当前状态) 蓝色文字 + 蓝色左竖线 */
     .doc-nav-container li.active > a {
-      background-color: #3a77d8; 
-      color: #fff; 
-      font-weight: 600;
+      background-color: transparent; /* 关键：当前项背景为透明 */
+      color: #0d6efd; /* 品牌蓝文字 */
+      font-weight: 600; /* 字体加粗 */
+      border-left-color: #0d6efd; /* 左侧竖线变为蓝色 */
     }
+    /* (当前项的父级) 仅加粗文字，以示层级 */
     .doc-nav-container li.parent-active > a {
-        background-color: #e0e9f8; 
-        color: #1c3d70;
+        color: #343a40; /* 保持默认的黑色 */
+        font-weight: 600; /* 字体加粗 */
     }
+    /* 子目录样式 */
     .doc-nav-container ul ul {
-      /* <-- 优化(4): 不同级别目录缩进比现在小50% */
-      padding-left: 0.6em; 
+      padding-left: 0.6em; /* 保持减半的缩进 */
       margin-top: 4px;
-      /* <-- 优化(6): 去掉左侧的竖线 */
-      /* border-left: 2px solid #dee2e6; */
+      /* 已移除 border-left */
     }
   }
 
@@ -245,7 +246,7 @@ layout: default
     </div>
   </nav>
   <button id="doc-nav-fab" class="doc-nav-fab" aria-label="打开目录">
-    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+    <svg class="icon" xmlns="http://www.w.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
   </button>
 </div>
 
