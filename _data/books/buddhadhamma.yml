@@ -1,0 +1,34 @@
+chapters:
+  - title: 随喜
+    url: /buddhadhamma/anumodana/
+  - title: 缩写
+    url: /buddhadhamma/abbreviations/
+  - title: 阿姜·查雅萨罗前言
+    url: /buddhadhamma/foreword-by-ajahn-jayasaro/
+  - title: 导论
+    url: /buddhadhamma/introduction/
+
+  - title: 第一部：中道法义
+    url: /buddhadhamma/middle-teaching/
+
+  - title: 第一篇：生命是什么？
+    url: /buddhadhamma/nature-of-human-life/
+    subitems:
+      - title: 第一章：五蕴
+        url: /buddhadhamma/five-aggregates/
+      - title: 第二章：六处
+        url: /buddhadhamma/six-sense-spheres/
+
+  - title: 第二篇：生命的怎样的？
+    url: /buddhadhamma/attributes-of-life/
+    subitems:
+      - title: 第三章：三法印
+        url: /buddhadhamma/three-characteristics/
+
+  - title: 第三篇：生命如何运作？
+    url: /buddhadhamma/process-of-life/
+    subitems:
+      - title: 第四章：缘起
+        url: /buddhadhamma/dependent-origination_split_000/
+      - title: 第五章：业的法则
+        url: /buddhadhamma/law-of-kamma_split_000/

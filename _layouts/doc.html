@@ -4,159 +4,133 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 1: DATA PREPARATION (Jekyll/Liquid) (高兼容性版)
+  PART 1: DATA PREPARATION (Jekyll/Liquid)
   ============================================================================
 {%- endcomment %}
-{%- assign collection_name = page.collection -%}
-{%- assign collection_title = collection_name | capitalize -%}
 
-{%- comment %} 提取页面标题 (高兼容性版) {% endcomment %}
-{% assign content_lines = page.content | split: "
-" %}
-{% assign first_line_with_content = "" %}
-{% assign page_title = "" %}
-{% for line in content_lines %}
-  {% assign stripped_line = line | strip %}
-  {% if stripped_line.size > 0 %}
-      {% assign first_char = stripped_line | slice: 0 %}
-      {% if first_char == "#" %}
-        {% assign page_title = stripped_line | remove_first: "#### " | remove_first: "### " | remove_first: "## " | remove_first: "# " | strip %}
-        {% assign first_line_with_content = line %}
-        {% break %}
-      {% endif %}
-  {% endif %}
-{% endfor %}
-
-{%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 (高兼容性版) --- {% endcomment %}
+{%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 --- {% endcomment %}
 {%- assign has_right_toc = false -%}
 {%- assign right_toc_html = "" -%}
-{%- if page.toc == true -%}
-  {%- if page.content contains '<h2' or page.content contains '<h3' or page.content contains '<h4' -%}
-    {%- capture captured_toc -%}{% include toc.html content=page.content %}{%- endcapture -%}
-    {%- assign toc_trimmed = captured_toc | strip -%}
-    {%- if toc_trimmed != "" -%}
-      {%- assign has_right_toc = true -%}
-      {%- assign right_toc_html = captured_toc -%}
-    {%- endif -%}
+{%- if page.toc == true and (content contains '<h2' or content contains '<h3' or content contains '<h4') -%}
+  {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
+  {%- assign toc_trimmed = captured_toc | strip -%}
+  {%- if toc_trimmed != "" -%}
+    {%- assign has_right_toc = true -%}
+    {%- assign right_toc_html = captured_toc -%}
   {%- endif -%}
 {%- endif -%}
 
+{%- comment %} --- 左侧书籍导航的数据准备 (从YAML文件加载) --- {% endcomment %}
+{%- assign collection_name = page.collection -%}
+{%- assign book_data = site.data.books[collection_name] -%}
+{%- assign book_title = book_data.title | default: collection_name | capitalize -%}
+{%- assign book_chapters = book_data.chapters -%}
+
+{%- comment %} --- 从YAML数据中查找当前页面的标题 --- {% endcomment %}
+{%- assign page_title_from_data = "" -%}
+{%- for chapter in book_chapters -%}
+  {%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{%- endif -%}
+  {%- if chapter.subitems -%}
+    {%- for subitem in chapter.subitems -%}
+      {%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{%- endif -%}
+       {%- if subitem.subitems -%}
+        {%- for subsubitem in subitem.subitems -%}
+          {%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{%- endif -%}
+        {%- endfor -%}
+        {%- if page_title_from_data != "" %}{% break %}{% endif %}
+       {%- endif -%}
+    {%- endfor -%}
+    {%- if page_title_from_data != "" %}{% break %}{% endif %}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign page_title_to_display = page_title_from_data | default: page.title | default: "Untitled" -%}
+
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS (无变动)
+  PART 2: INLINE CSS (方案A集成版)
   ============================================================================
 {%- endcomment %}
 <style>
-  :root {
-    --doc-nav-accent: #3a77d8;
-    --doc-nav-text: #343a40;
-    --doc-nav-text-subtle: #6c757d;
-    --doc-nav-bg-hover: #e9ecef;
-    --doc-nav-ancestor-bg: rgba(58, 119, 216, 0.08);
-  }
+  /* --- BASE DOC LAYOUT STYLES --- */
   @media screen and (min-width: 1200px) {
     .main.container--doc { position: relative; display: flex; align-items: flex-start; gap: 2.5em; }
     .article--doc { flex: 1 1 auto; min-width: 0; }
   }
-  @media screen and (min-width: 1600px) {
-    .main.container--doc { max-width: 1400px; margin-left: auto; margin-right: auto; }
-  }
+
+  /* --- LEFT BOOK NAVIGATION (DESKTOP) --- */
   .doc-nav-container { display: none; }
   @media screen and (min-width: 1200px) {
     .doc-nav-container {
-      display: block; flex: 0 0 280px; position: sticky; top: 2rem;
-      max-height: calc(100vh - 4rem); font-size: 16px;
+      display: block;
+      flex: 0 0 280px;
+      position: sticky; top: 2rem;
+      max-height: calc(100vh - 4rem);
+      font-size: 15px;
+      transition: flex-basis 0.3s ease;
     }
     .doc-nav-scroll-area {
-      height: 100%; overflow-y: auto; padding-right: 1em;
+      height: 100%; overflow-y: auto;
+      background-color: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 8px;
+      padding: 1.25em 0.5em 1.25em 1.25em;
     }
     .doc-nav-container h3 {
-      margin: 0 0 1em; font-size: 1.4em; font-weight: 700; color: var(--doc-nav-text);
+      padding: 0 0.75em; margin: 0 0 1em;
+      font-size: 1.3em; font-weight: 700; color: #2c3e50;
     }
-    .doc-nav-container ul, .doc-nav-container li { list-style: none; padding: 0; margin: 0; }
-    .doc-nav-container ul { position: relative; }
-    .doc-nav-container ul ul { margin-left: 20px; }
+    .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
+    .doc-nav-container li { position: relative; }
     .doc-nav-container a {
-      display: block; text-decoration: none; padding: 8px 12px;
-      border-radius: 6px; color: var(--doc-nav-text-subtle);
-      line-height: 1.5; transition: all 0.2s ease;
-      border-left: 3px solid transparent;
+      display: block; text-decoration: none;
+      padding: 0.6em 0.75em;
+      margin-bottom: 4px;
+      border-radius: 6px;
+      color: #495057;
+      line-height: 1.4;
+      transition: background-color 0.2s, color 0.2s;
     }
-    .doc-nav-container a:hover {
-      color: var(--doc-nav-text); background-color: var(--doc-nav-bg-hover);
+    .doc-nav-container a:hover { background-color: #e9ecef; color: #000; }
+    .doc-nav-container li.active > a {
+      background-color: #3a77d8; color: #fff; font-weight: 600;
     }
-    .doc-nav-container li.is-ancestor > a {
-      color: var(--doc-nav-text); background-color: var(--doc-nav-ancestor-bg);
+    .doc-nav-container li.parent-active > a {
+        background-color: #e0e9f8; color: #1c3d70;
     }
-    .doc-nav-container li.is-active > a {
-      color: var(--doc-nav-accent); font-weight: 600;
-      border-left-color: var(--doc-nav-accent);
+    .doc-nav-container ul ul {
+      padding-left: 1.2em;
+      margin-top: 4px;
+      border-left: 2px solid #dee2e6;
     }
   }
-  @media screen and (min-width: 1600px) {
-    .doc-nav-container { flex-basis: 320px; }
-  }
-  .doc-nav-fab {
-    position: fixed; bottom: 30px; left: 20px;
-    width: 56px; height: 56px;
-    background-color: #ffffff; color: #495057;
-    border-radius: 50%; border: 1px solid #dee2e6;
-    display: flex; justify-content: center; align-items: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    cursor: pointer; z-index: 1001;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease;
-  }
-  .doc-nav-fab:hover { transform: scale(1.05); box-shadow: 0 6px 16px rgba(0,0,0,0.12); }
+
+  /* --- MOBILE NAVIGATION (FAB & OFF-CANVAS MENU) --- */
+  .doc-nav-fab { position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; background-color: #2c3e50; color: white; border-radius: 50%; border: none; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; transition: transform 0.2s ease-in-out; }
+  .doc-nav-fab:hover { transform: scale(1.05); }
   .doc-nav-fab .icon { width: 24px; height: 24px; fill: currentColor; }
-  .doc-nav-mobile-menu {
-    position: fixed; top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-color: #f8f9fa; color: var(--doc-nav-text);
-    z-index: 1002;
-    transform: translateX(-100%);
-    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-    display: flex; flex-direction: column;
-  }
+  .doc-nav-mobile-menu { position: fixed; top: 0; left: 0; width: 80%; max-width: 320px; height: 100%; background-color: white; z-index: 1002; transform: translateX(-100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 20px rgba(0,0,0,0.2); overflow-y: auto; }
   .doc-nav-mobile-menu.is-open { transform: translateX(0); }
-  .doc-nav-mobile-header {
-    flex-shrink: 0; display: flex; justify-content: space-between; align-items: center;
-    padding: 1rem 1.5rem; border-bottom: 1px solid #dee2e6;
-  }
-  .doc-nav-mobile-header h3 { font-size: 1.2rem; margin: 0; }
-  .doc-nav-mobile-close {
-    background: none; border: none; cursor: pointer; padding: 8px;
-    color: var(--doc-nav-text-subtle);
-  }
-  .doc-nav-mobile-close:hover { color: var(--doc-nav-text); }
-  .doc-nav-mobile-menu .doc-nav-scroll-area {
-    flex-grow: 1; overflow-y: auto; padding: 1rem 1.5rem;
-  }
-  .doc-nav-mobile-menu ul, .doc-nav-mobile-menu li { list-style:none; margin:0; padding:0; }
-  .doc-nav-mobile-menu ul ul { margin-left: 20px; }
-  .doc-nav-mobile-menu a {
-    padding: 12px 10px; display:block; text-decoration: none;
-    font-size: 1.1rem; color: var(--doc-nav-text-subtle);
-  }
-  .doc-nav-mobile-menu li.is-ancestor > a { color: var(--doc-nav-text); }
-  .doc-nav-mobile-menu li.is-active > a { color: var(--doc-nav-accent); font-weight: 600; }
-  @media screen and (min-width: 1200px) {
-    .doc-nav-fab, .doc-nav-mobile-menu { display: none; }
-  }
+  .doc-nav-mobile-menu .doc-nav-scroll-area { padding-top: 2em; }
+  .doc-nav-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s; }
+  .doc-nav-overlay.is-visible { opacity: 1; visibility: visible; }
+  @media screen and (min-width: 1200px) { .doc-nav-fab, .doc-nav-mobile-menu, .doc-nav-overlay { display: none; } }
+
+  /* --- RIGHT TOCBOT STYLES --- */
   .doc-chapter-toc { display: none; }
-  @media screen and (min-width: 1200px) {
-    .main.container--doc.has-right-toc .doc-chapter-toc {
-      display: block; flex: 0 0 260px; position: sticky; top: 2rem;
-      max-height: calc(100vh - 4rem); overflow-y: auto;
-    }
-  }
+  @media screen and (min-width: 1200px) { .main.container--doc.has-right-toc .doc-chapter-toc { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto; } }
   .doc-chapter-toc h3 { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
-  .toc-list { margin:0; padding:0; list-style:none; }
+  .toc-list { margin: 0; padding: 0; list-style: none; }
   .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; text-decoration: none; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; }
   .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; }
-  .toc-list .toc-list { padding-left: 1.25em; }
-  .toc-mobile-container { margin: 2em 0; padding: 1em; border: 1px solid #eee; border-radius: 4px; background-color: #f9f9f9; }
+  .toc-mobile-container { display: block; margin: 2em 0; padding: 1em; border: 1px solid #eee; border-radius: 4px; background-color: #f9f9f9; }
   .toc-mobile-container h3 { margin-top: 0; }
   @media screen and (min-width: 1200px) { .toc-mobile-container { display: none; } }
+
+  /* --- ULTRA-WIDE SCREEN ENHANCEMENTS (方案 A) --- */
+  @media screen and (min-width: 1600px) {
+    .doc-nav-container { flex-basis: 320px; }
+    .main.container--doc { max-width: 1400px; margin-left: auto; margin-right: auto; }
+  }
 </style>
 
 {%- comment %}
@@ -167,61 +141,116 @@ layout: default
 
 {% include site-header.html %}
 
+{%- comment %}
+  --- 生成多级导航列表HTML ---
+  使用 `capture` 生成一次，然后在桌面和移动视图中重复使用。
+  支持最多3个层级，可以按需扩展。
+{%- endcomment %}
+{%- capture nav_list_html %}
+<ul>
+  {%- for item_l1 in book_chapters %}
+    {%- assign is_active_l1 = (page.url == item_l1.url) -%}
+    {%- assign is_parent_active_l1 = false -%}
+    {%- if item_l1.subitems -%}
+      {%- for item_l2 in item_l1.subitems -%}
+        {%- if page.url == item_l2.url -%}{%- assign is_parent_active_l1 = true -%}{%- break -%}{%- endif -%}
+        {%- if item_l2.subitems -%}
+          {%- for item_l3 in item_l2.subitems -%}
+            {%- if page.url == item_l3.url -%}{%- assign is_parent_active_l1 = true -%}{%- break -%}{%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+        {%- if is_parent_active_l1 == true -%}{%- break -%}{%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    <li class="{% if is_active_l1 %}active{% elsif is_parent_active_l1 %}parent-active{% endif %}">
+      <a href="{{ item_l1.url | relative_url }}">{{ item_l1.title }}</a>
+      
+      {%- if item_l1.subitems %}
+      <ul>
+        {%- for item_l2 in item_l1.subitems %}
+          {%- assign is_active_l2 = (page.url == item_l2.url) -%}
+          {%- assign is_parent_active_l2 = false -%}
+          {%- if item_l2.subitems -%}
+            {%- for item_l3 in item_l2.subitems -%}
+              {%- if page.url == item_l3.url -%}{%- assign is_parent_active_l2 = true -%}{%- break -%}{%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+
+          <li class="{% if is_active_l2 %}active{% elsif is_parent_active_l2 %}parent-active{% endif %}">
+            <a href="{{ item_l2.url | relative_url }}">{{ item_l2.title }}</a>
+            
+            {%- if item_l2.subitems %}
+            <ul>
+              {%- for item_l3 in item_l2.subitems %}
+                <li class="{% if page.url == item_l3.url %}active{% endif %}">
+                  <a href="{{ item_l3.url | relative_url }}">{{ item_l3.title }}</a>
+                  <!-- 如需支持第4级，在此处添加 `if item_l3.subitems` -->
+                </li>
+              {%- endfor %}
+            </ul>
+            {%- endif %}
+          </li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+    </li>
+  {%- endfor %}
+</ul>
+{%- endcapture %}
+
+<!-- 主体内容 -->
 <main class="main container container--doc {% if has_right_toc %}has-right-toc{% endif %}">
   
-  <aside id="doc-nav-desktop-container" class="doc-nav-container">
+  <!-- Left Sidebar: DESKTOP Book Navigation -->
+  <aside class="doc-nav-container">
     <div class="doc-nav-scroll-area">
-      <h3>{{ collection_title }}</h3>
-      {% include build-nav-tree.html collection=collection_name %}
+      <h3>{{ book_title }}</h3>
+      {{ nav_list_html }}
     </div>
   </aside>
 
+  <!-- Center: Main article content -->
   <article class="article article--doc content typeset js-toc-content">
-    <h1>{{ page_title }}</h1>
+    <h1>{{ page_title_to_display }}</h1>
     {% if has_right_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
-    
-    {{ page.content | remove_first: first_line_with_content }}
+    {{ content }}
   </article>
 
+  <!-- Right Sidebar: Chapter TOC (Tocbot) -->
   {% if has_right_toc %}
   <aside class="doc-chapter-toc">
     <h3>本章目录</h3>
     <div class="js-toc">{{ right_toc_html }}</div>
   </aside>
   {% endif %}
+
 </main>
 
+<!-- MOBILE Navigation Elements -->
 <div class="doc-nav-mobile-container">
+  <div id="doc-nav-overlay" class="doc-nav-overlay"></div>
   <nav id="doc-nav-mobile-menu" class="doc-nav-mobile-menu">
-    <div class="doc-nav-mobile-header">
-      <h3>{{ collection_title }}</h3>
-      <button id="doc-nav-mobile-close" class="doc-nav-mobile-close" aria-label="关闭目录">
-        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-      </button>
-    </div>
     <div class="doc-nav-scroll-area">
-      {% include build-nav-tree.html collection=collection_name %}
+      <h3>{{ book_title }}</h3>
+      {{ nav_list_html }}
     </div>
   </nav>
   <button id="doc-nav-fab" class="doc-nav-fab" aria-label="打开目录">
-    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5v14a1 1 0 0 1-1 1H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h11a1 1 0 0 1 1 1zM8 7a1 1 0 0 0-1 1v10h10V7H8z"></path><path d="M17.5 17a.5.5 0 0 0 .5-.5V7a.5.5 0 0 0-1 0v9.5a.5.5 0 0 0 .5.5z"></path></svg>
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
   </button>
 </div>
 
 {% include site-footer.html %}
 
-{%- comment %}
-  ============================================================================
-  PART 4: JAVASCRIPT LOGIC (无变动)
-  ============================================================================
-{%- endcomment %}
-<!-- 1. Tocbot JS (条件性加载) -->
+<!-- JAVASCRIPT LOGIC (No changes needed) -->
 {% if has_right_toc %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  if (window.innerWidth >= 1200 && document.querySelector('.js-toc')) {
-    tocbot.init({ tocSelector: '.js-toc', contentSelector: '.js-toc-content', headingSelector: 'h2, h3, h4', hasInnerContainers: true, scrollSmooth: true, scrollSmoothOffset: -80 });
+  const desktopBreakpoint = 1200;
+  if (window.innerWidth >= desktopBreakpoint && document.querySelector('.js-toc')) {
+    tocbot.init({ tocSelector: '.js-toc', contentSelector: '.js-toc-content', headingSelector: 'h2, h3, h4', hasInnerContainers: true, scrollSmooth: true, scrollSmoothOffset: -80, });
   } else {
     const mobileAnchor = document.getElementById('mobile-toc-anchor');
     const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
@@ -236,67 +265,17 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 {% endif %}
-
-<!-- 2. Navigation Tree Builder & Mobile Menu JS -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    function buildNavTree(container) {
-        const list = container.querySelector('ul');
-        if (!list) return;
-
-        const allItems = Array.from(list.children);
-        const parentStack = [list];
-
-        allItems.forEach(item => {
-            const level = parseInt(item.dataset.level, 10);
-            
-            while (level < parentStack.length) {
-                parentStack.pop();
-            }
-            
-            if (level > parentStack.length) {
-                const newUl = document.createElement('ul');
-                const lastLi = parentStack[parentStack.length - 1].lastElementChild;
-                if (lastLi) {
-                    lastLi.appendChild(newUl);
-                    parentStack.push(newUl);
-                }
-            }
-            
-            // It's crucial to append the original item, not a clone
-            parentStack[parentStack.length - 1].appendChild(item);
-        });
-    }
-
-    const desktopNav = document.getElementById('doc-nav-desktop-container');
-    const mobileNav = document.getElementById('doc-nav-mobile-menu');
-
-    if (desktopNav) buildNavTree(desktopNav);
-    if (mobileNav) buildNavTree(mobileNav);
-
     const fab = document.getElementById('doc-nav-fab');
     const menu = document.getElementById('doc-nav-mobile-menu');
-    const closeBtn = document.getElementById('doc-nav-mobile-close');
-
-    if (!fab || !menu || !closeBtn) return;
-
-    function openMenu() {
-        menu.classList.add('is-open');
-        document.body.style.overflow = 'hidden';
-    }
-
-    function closeMenu() {
-        menu.classList.remove('is-open');
-        document.body.style.overflow = '';
-    }
-
+    const overlay = document.getElementById('doc-nav-overlay');
+    if (!fab || !menu || !overlay) return;
+    function openMenu() { menu.classList.add('is-open'); overlay.classList.add('is-visible'); document.body.style.overflow = 'hidden'; }
+    function closeMenu() { menu.classList.remove('is-open'); overlay.classList.remove('is-visible'); document.body.style.overflow = ''; }
     fab.addEventListener('click', openMenu);
-    closeBtn.addEventListener('click', closeMenu);
-    menu.addEventListener('click', function(event) {
-        if (event.target.tagName === 'A') { closeMenu(); }
-    });
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'Escape' && menu.classList.contains('is-open')) { closeMenu(); }
-    });
+    overlay.addEventListener('click', closeMenu);
+    menu.addEventListener('click', function(event) { if (event.target.closest('a')) { closeMenu(); } });
+    document.addEventListener('keydown', function(event) { if (event.key === 'Escape' && menu.classList.contains('is-open')) { closeMenu(); } });
 });
 </script>
