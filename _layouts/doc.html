@@ -4,13 +4,27 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 1: DATA PREPARATION (Jekyll/Liquid)
+  PART 1: DATA PREPARATION (Jekyll/Liquid) (修正版)
   ============================================================================
 {%- endcomment %}
 {%- assign collection_name = page.collection -%}
 {%- assign collection_title = collection_name | capitalize -%}
-{%- assign page_title = page.content | split: '
-' | first | remove_first: '#' | remove_first: '#' | remove_first: '#' | remove_first: '#' | strip %}
+
+{%- comment %} 提取页面标题 (修正版) {% endcomment %}
+{% assign content_lines = page.content | split: "
+" %}
+{% assign first_line_with_content = "" %}
+{% assign page_title = "" %}
+{% for line in content_lines %}
+  {% assign stripped_line = line | strip %}
+  {% if stripped_line != "" %}
+      {% if stripped_line startswith "#" %}
+        {% assign page_title = stripped_line | remove_first: "#### " | remove_first: "### " | remove_first: "## " | remove_first: "# " | strip %}
+        {% assign first_line_with_content = line %}
+        {% break %}
+      {% endif %}
+  {% endif %}
+{% endfor %}
 
 {%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 --- {% endcomment %}
 {%- assign has_right_toc = false -%}
@@ -26,7 +40,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS (最终专业版)
+  PART 2: INLINE CSS (无变动)
   ============================================================================
 {%- endcomment %}
 <style>
@@ -37,8 +51,6 @@ layout: default
     --doc-nav-bg-hover: #e9ecef;
     --doc-nav-ancestor-bg: rgba(58, 119, 216, 0.08);
   }
-
-  /* --- BASE DOC LAYOUT --- */
   @media screen and (min-width: 1200px) {
     .main.container--doc { position: relative; display: flex; align-items: flex-start; gap: 2.5em; }
     .article--doc { flex: 1 1 auto; min-width: 0; }
@@ -46,8 +58,6 @@ layout: default
   @media screen and (min-width: 1600px) {
     .main.container--doc { max-width: 1400px; margin-left: auto; margin-right: auto; }
   }
-
-  /* --- PC LEFT NAVIGATION --- */
   .doc-nav-container { display: none; }
   @media screen and (min-width: 1200px) {
     .doc-nav-container {
@@ -62,7 +72,7 @@ layout: default
     }
     .doc-nav-container ul, .doc-nav-container li { list-style: none; padding: 0; margin: 0; }
     .doc-nav-container ul { position: relative; }
-    .doc-nav-container ul ul { margin-left: 20px; } /* Indentation */
+    .doc-nav-container ul ul { margin-left: 20px; }
     .doc-nav-container a {
       display: block; text-decoration: none; padding: 8px 12px;
       border-radius: 6px; color: var(--doc-nav-text-subtle);
@@ -83,8 +93,6 @@ layout: default
   @media screen and (min-width: 1600px) {
     .doc-nav-container { flex-basis: 320px; }
   }
-
-  /* --- MOBILE NAVIGATION --- */
   .doc-nav-fab {
     position: fixed; bottom: 30px; left: 20px;
     width: 56px; height: 56px;
@@ -97,7 +105,6 @@ layout: default
   }
   .doc-nav-fab:hover { transform: scale(1.05); box-shadow: 0 6px 16px rgba(0,0,0,0.12); }
   .doc-nav-fab .icon { width: 24px; height: 24px; fill: currentColor; }
-  
   .doc-nav-mobile-menu {
     position: fixed; top: 0; left: 0;
     width: 100%; height: 100%;
@@ -129,12 +136,9 @@ layout: default
   }
   .doc-nav-mobile-menu li.is-ancestor > a { color: var(--doc-nav-text); }
   .doc-nav-mobile-menu li.is-active > a { color: var(--doc-nav-accent); font-weight: 600; }
-
   @media screen and (min-width: 1200px) {
     .doc-nav-fab, .doc-nav-mobile-menu { display: none; }
   }
-
-  /* --- RIGHT TOCBOT STYLES (NO CHANGE) --- */
   .doc-chapter-toc { display: none; }
   @media screen and (min-width: 1200px) {
     .main.container--doc.has-right-toc .doc-chapter-toc {
@@ -154,13 +158,13 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 3: HTML STRUCTURE
+  PART 3: HTML STRUCTURE (修正版)
   ============================================================================
 {%- endcomment %}
 
 {% include site-header.html %}
 
-<main class="main container container--doc {% if has_right-toc %}has-right-toc{% endif %}">
+<main class="main container container--doc {% if has_right_toc %}has-right-toc{% endif %}">
   
   <aside id="doc-nav-desktop-container" class="doc-nav-container">
     <div class="doc-nav-scroll-area">
@@ -172,8 +176,9 @@ layout: default
   <article class="article article--doc content typeset js-toc-content">
     <h1>{{ page_title }}</h1>
     {% if has_right_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
-    {{ content | remove_first: page.content | split: '
-' | first }}
+    
+    {%- comment %} 渲染内容，同时移除第一行标题 (修正版) {% endcomment %}
+    {{ page.content | remove_first: first_line_with_content }}
   </article>
 
   {% if has_right_toc %}
@@ -182,7 +187,6 @@ layout: default
     <div class="js-toc">{{ right_toc_html }}</div>
   </aside>
   {% endif %}
-
 </main>
 
 <div class="doc-nav-mobile-container">
@@ -206,10 +210,9 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 4: JAVASCRIPT LOGIC
+  PART 4: JAVASCRIPT LOGIC (无变动)
   ============================================================================
 {%- endcomment %}
-
 <!-- 1. Tocbot JS (条件性加载) -->
 {% if has_right_toc %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
@@ -223,7 +226,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (mobileAnchor && rawTocHtml) {
       const mobileWrapper = document.createElement('div');
       mobileWrapper.className = 'toc-mobile-container';
-      mobileWrapper.innerHTML = `<h3>本章目录</h3>${rawTocHtml}`;
+      mobileWrapper.innerHTML = `<h3>本章目录</h3><div class="toc-content-wrapper">${rawTocHtml}</div>`;
       mobileAnchor.parentNode.insertBefore(mobileWrapper, mobileAnchor.nextSibling);
       mobileAnchor.parentNode.removeChild(mobileAnchor);
     }
@@ -240,25 +243,25 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!list) return;
 
         const allItems = Array.from(list.children);
-        let lastParent = list;
-        let lastLevel = 0;
         const parentStack = [list];
 
         allItems.forEach(item => {
             const level = parseInt(item.dataset.level, 10);
             
-            if (level > lastLevel) {
+            while (level < parentStack.length) {
+                parentStack.pop();
+            }
+            
+            if (level > parentStack.length) {
                 const newUl = document.createElement('ul');
-                parentStack[parentStack.length - 1].lastElementChild.appendChild(newUl);
-                parentStack.push(newUl);
-            } else if (level < lastLevel) {
-                for (let i = 0; i < lastLevel - level; i++) {
-                    parentStack.pop();
+                const lastLi = parentStack[parentStack.length - 1].lastElementChild;
+                if (lastLi) {
+                    lastLi.appendChild(newUl);
+                    parentStack.push(newUl);
                 }
             }
             
             parentStack[parentStack.length - 1].appendChild(item);
-            lastLevel = level;
         });
     }
 

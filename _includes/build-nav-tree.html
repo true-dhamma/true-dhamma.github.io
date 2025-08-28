@@ -1,23 +1,33 @@
 {%- comment %}
-  _includes/build-nav-tree.html
-  - 生成一个扁平化的<ul>列表，但通过 data-level 属性和 class 记录了层级和状态。
-  - JavaScript 将会用这些信息来构建可视化的嵌套树。
+  _includes/build-nav-tree.html (健壮版)
+  - 使用正则表达式和更可靠的逻辑来提取标题和层级。
 {%- endcomment %}
 
 <ul>
 {% assign docs = site[include.collection] | sort: 'path' %}
 {% for doc in docs %}
-  {%- comment %}从内容中提取第一个标题作为文档标题{% endcomment %}
-  {% assign first_line = doc.content | split: '
-' | first %}
-  {% assign title = first_line | remove_first: '#' | remove_first: '#' | remove_first: '#' | remove_first: '#' | strip %}
+  {%- comment %}从内容中提取第一个标题 (H1-H4){% endcomment %}
+  {% assign content_lines = doc.content | split: "
+" %}
+  {% assign title = "" %}
+  {% for line in content_lines %}
+    {% if line contains "#" %}
+      {% assign temp_title = line | strip %}
+      {% if temp_title startswith "#" %}
+        {% assign title = temp_title | remove_first: "#### " | remove_first: "### " | remove_first: "## " | remove_first: "# " | strip %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 
-  {%- comment %}从文件名计算层级{% endcomment %}
-  {% assign parts = doc.name | split: '-' %}
+  {%- comment %}从文件名计算层级 (更健壮的方式){% endcomment %}
+  {% assign filename_base = doc.name | split: "." | first %}
+  {% assign numeric_prefix = filename_base | split: "-" %}
   {% assign level = 0 %}
-  {% for part in parts %}
-    {% assign is_numeric = part | plus: 0 %}
-    {% if is_numeric > 0 or part == "0" or part == "00" %}
+  {% for part in numeric_prefix %}
+    {% assign part_as_num = part | plus: 0 %}
+    {% assign is_all_digits = part | match: '^\d+$' %}
+    {% if is_all_digits %}
       {% assign level = level | plus: 1 %}
     {% else %}
       {% break %}
@@ -25,20 +35,23 @@
   {% endfor %}
   {% if level == 0 %}{% assign level = 1 %}{% endif %}
 
-  {%- comment %}检查是否是当前页面或当前页面的祖先{% endcomment %}
-  {% assign is_active = '' %}
-  {% if page.path == doc.path %}
-    {% assign is_active = 'is-active' %}
-  {% elsif page.path contains doc.path | split: '.' | first %}
-    {%- comment %}更精确的祖先判断，避免 "01" 匹配到 "01-01" 的同时还匹配到 "10" {% endcomment %}
-    {% assign current_path_prefix = page.path | split: doc.name | first %}
-    {% assign doc_path_prefix = doc.path | split: doc.name | first %}
-    {% if current_path_prefix == doc_path_prefix %}
-        {% assign is_active = 'is-ancestor' %}
+  {%- comment %}检查是否是当前页面或当前页面的祖先 (更精确的判断){% endcomment %}
+  {% assign is_active_class = '' %}
+  {% assign current_doc_prefix = page.name | split: '.' | first %}
+  {% assign this_doc_prefix = doc.name | split: '.' | first %}
+
+  {% if current_doc_prefix == this_doc_prefix %}
+    {% assign is_active_class = 'is-active' %}
+  {% elsif current_doc_prefix startswith this_doc_prefix and current_doc_prefix contains '-' %}
+    {%- comment %} e.g., current is "02-01-01" and this is "02-01" {% endcomment %}
+    {% assign check_char_index = this_doc_prefix.size %}
+    {% assign next_char = current_doc_prefix | slice: check_char_index, 1 %}
+    {% if next_char == '-' %}
+        {% assign is_active_class = 'is-ancestor' %}
     {% endif %}
   {% endif %}
 
-  <li data-level="{{ level }}" class="{{ is_active }}">
+  <li data-level="{{ level }}" class="{{ is_active_class }}">
     <a href="{{ doc.url | relative_url }}">{{ title }}</a>
   </li>
 {% endfor %}
