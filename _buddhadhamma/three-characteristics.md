@@ -2,7 +2,7 @@
 title: Three Characteristics
 ---
 
-第三章：三法印
+123
 
 # 第三章：三法印
 
