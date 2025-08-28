@@ -139,7 +139,7 @@ fonts:
   font_urls:
   - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
 toc:
-  min_level: 1 # 开始级别，h1
-  max_level: 3 # 结束级别，h3
-  list_class: "list list--toc" # 应用于 <ul> 的类
-  item_class: "item item--toc" # 应用于 <li> 的类
+  min_level: 1
+  max_level: 3
+  list_class: list list--toc
+  item_class: item item--toc
