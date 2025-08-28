@@ -1,7 +1,30 @@
 <aside class="aside  typeset  aside--{{ include.align | default: 'right' }}">
 
   {% if page.layout == "post" %}
-    <section class="section  section--related-posts">
+    <!-- 目录所需的 CSS 样式 -->
+    <style>
+      /* 为 h3 级别的目录项添加左边距，实现缩进效果 */
+      .item--category.toc-level-h3 {
+        padding-left: 1.5em; 
+      }
+      /* 可以为目录链接添加一些细微样式，让它不那么大 */
+      .section--toc .item--category a {
+        font-size: 0.9em;
+        padding: 0.2em 0;
+        display: block;
+      }
+    </style>
+
+    <!-- 1. 目录容器 (默认隐藏) -->
+    <section class="section section--toc" id="toc-container" style="display: none;">
+      <h3>本文目录</h3>
+      <nav class="nav nav--categories" id="toc-nav">
+        <!-- 目录将由 JavaScript 动态生成于此 -->
+      </nav>
+    </section>
+
+    <!-- 2. 相关文章容器 (默认显示) -->
+    <section class="section  section--related-posts" id="related-posts-container">
       {% include post-related.html %}
     </section>
 
