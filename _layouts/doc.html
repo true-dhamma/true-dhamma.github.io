@@ -11,12 +11,17 @@ layout: default
 {%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 --- {% endcomment %}
 {%- assign has_right_toc = false -%}
 {%- assign right_toc_html = "" -%}
-{%- if page.toc == true and (content contains '<h2' or content contains '<h3' or content contains '<h4') -%}
-  {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
-  {%- assign toc_trimmed = captured_toc | strip -%}
-  {%- if toc_trimmed != "" -%}
-    {%- assign has_right_toc = true -%}
-    {%- assign right_toc_html = captured_toc -%}
+{%- comment %}
+  --- 修正后的逻辑：将复杂的单行if拆分为嵌套if，以消除Liquid警告 ---
+{%- endcomment %}
+{%- if page.toc == true -%}
+  {%- if content contains '<h2' or content contains '<h3' or content contains '<h4' -%}
+    {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
+    {%- assign toc_trimmed = captured_toc | strip -%}
+    {%- if toc_trimmed != "" -%}
+      {%- assign has_right_toc = true -%}
+      {%- assign right_toc_html = captured_toc -%}
+    {%- endif -%}
   {%- endif -%}
 {%- endif -%}
 

@@ -10,12 +10,15 @@ layout: default
 {%- endcomment %}
 {%- assign has_toc = false -%}
 {%- assign toc_html = "" -%}
-{%- if page.aside == true and (content contains '<h2' or content contains '<h3' or content contains '<h4') -%}
-  {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
-  {%- assign toc_trimmed = captured_toc | strip -%}
-  {%- if toc_trimmed != "" -%}
-    {%- assign has_toc = true -%}
-    {%- assign toc_html = captured_toc -%}
+{%- comment %} --- 修正后的逻辑：将复杂的单行if拆分为嵌套if，以消除Liquid警告 --- {% endcomment %}
+{%- if page.aside == true -%}
+  {%- if content contains '<h2' or content contains '<h3' or content contains '<h4' -%}
+    {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
+    {%- assign toc_trimmed = captured_toc | strip -%}
+    {%- if toc_trimmed != "" -%}
+      {%- assign has_toc = true -%}
+      {%- assign toc_html = captured_toc -%}
+    {%- endif -%}
   {%- endif -%}
 {%- endif -%}
 
@@ -186,14 +189,15 @@ document.addEventListener('DOMContentLoaded', function() {
   const isDesktop = window.innerWidth >= desktopBreakpoint;
 
   if (isDesktop && document.querySelector('.js-toc')) {
-    // === DESKTOP: Initialize Tocbot ===
+    // === DESKTOP: Initialize Tocbot (修正后的版本) ===
+    // 这个配置让Tocbot使用.js-toc中由Jekyll生成的静态HTML，而不是自己扫描内容生成目录
     tocbot.init({
       // Where to render the table of contents.
       tocSelector: '.js-toc',
-      // Where to grab the headings from.
-      contentSelector: '.js-toc-content',
-      // Which headings to grab inside of the contentSelector element.
-      headingSelector: 'h2, h3, h4',
+      // The following two options are removed to use existing HTML
+      // contentSelector: '.js-toc-content',
+      // headingSelector: 'h2, h3, h4',
+      
       // For more decorative styles.
       hasInnerContainers: true,
       // Smooth scrolling enabled
@@ -202,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function() {
       scrollSmoothOffset: -80,
     });
   } else {
-    // === MOBILE: Inject raw TOC HTML into a container ===
+    // === MOBILE: Inject raw TOC HTML into a container (逻辑保持不变) ===
     const mobileAnchor = document.getElementById('mobile-toc-anchor');
     const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
 
