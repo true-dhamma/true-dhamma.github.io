@@ -40,8 +40,7 @@ defaults:
       ## 佛法 Buddhadhamma
       P. A. Payutto
     feature_image: "/uploads/top_banner_dhamma.jpg"
-    layout: "doc" # 为所有文档设置默认布局
-    toc: true     # 为所有文档默认开启右侧 TOC
+    toc: true
 - scope:
     path: ''
     type: testbook
