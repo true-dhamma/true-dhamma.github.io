@@ -6,21 +6,51 @@ layout: default
 
 <main class="main  container">
 
-  <article class="article  article--post  content  typeset">
+  {% if page.aside == true %}{% include site-aside.html align="left" %}{% endif %}
+
+  <div class="content">
+
+    <!-- =============================================================== -->
+    <!-- 为移动端准备的目录（仅在有目录时生成） -->
+    <!-- =============================================================== -->
+    {% capture post_toc %}{{ content | toc_only }}{% endcapture %}
+    {% assign post_toc_trimmed = post_toc | strip %}
+    {% if post_toc_trimmed != "" %}
+      <div class="mobile-toc-wrapper">
+        <h3>本文目录</h3>
+        {{ post_toc }}
+      </div>
+    {% endif %}
+    <!-- =============================================================== -->
+
+
+    <article class="article  article--post  typeset">
+      <header class="article-header">
+        <h1 class="article-title">{{ page.title }}</h1>
+        <div class="article-meta">
+          <span class="article-date">{{ page.date | date: "%B %d, %Y" }}</span>
+          {% if page.categories.size > 0 %}
+          <span class="article-categories">
+            in {% for category in page.categories %}<a href="/categories/#{{ category | slugify }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+          </span>
+          {% endif %}
+        </div>
+      </header>
+
+      {{ content }}
+      
+    </article>
+
+    <!-- =============================================================== -->
+    <!-- 移动端和桌面端都显示在文章下方的 "相关文章" -->
+    <!-- =============================================================== -->
+    <div class="post-footer-related">
+      {% include post-related.html %}
+    </div>
+    <!-- =============================================================== -->
     
-    <h1>{{ page.title }}</h1>
-    {% include post-meta.html %}
-    {{ content }}
-
-    {% include nav-share.html %}
-
-    {% include post-comments.html %}
-
-  </article>
-
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+  </div>
 
 </main>
 
-{% include tts-reader.html %}
 {% include site-footer.html %}
