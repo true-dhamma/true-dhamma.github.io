@@ -5,7 +5,7 @@ collections:
   buddhadhamma:
     title: Buddhadhamma
     output: true
-    permalink: "/:collection/:name/"
+    permalink: /:collection/:name.html # 确保是 .html 后缀
   posts:
     title: Posts
     output: true
@@ -16,7 +16,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-defaults:
+include:
+  - "_buddhadhamma/includes"defaults:
 - scope:
     path: ''
     type: posts
