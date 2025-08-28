@@ -57,68 +57,65 @@ layout: default
 {%- endcomment %}
 <style>
   /* --- BASE DOC LAYOUT STYLES --- */
+  
+  /* ==================================================================
+   *  [布局核心] 桌面端三栏（或两栏）布局
+   *  - 使用 CSS Grid 实现稳定、居中、更宽的阅读区布局
+   * ==================================================================
+  */
   @media screen and (min-width: 1200px) {
-    .main.container--doc { 
-      position: relative; 
-      display: flex; 
-      align-items: flex-start; 
-      gap: 2.5em;
-      /* [新增] 设定最大宽度并居中，防止页面切换时布局跳动 */
-      max-width: 1200px;
-      margin: 0 auto;
+    .main.container--doc {
+      display: grid;
+      /* 定义一个五列网格:
+       * 1fr:        左侧空白，自适应
+       * 280px:      左侧导航栏固定宽度
+       * 820px:      中间内容区最大宽度 (更宽的阅读区)
+       * 260px:      右侧TOC固定宽度
+       * 1fr:        右侧空白，自适应
+       * 这个结构确保了无论右侧TOC是否存在，中间内容区的宽度都保持不变
+      */
+      grid-template-columns: 1fr 280px minmax(0, 820px) 260px 1fr;
+      gap: 0 2.5em; /* 列间距，行间距为0 */
+      align-items: flex-start;
     }
-    .article--doc { flex: 1 1 auto; min-width: 0; }
+
+    /* 将子元素放置到指定的网格列中 */
+    .main.container--doc > .doc-nav-container {
+      grid-column: 2 / 3;
+    }
+    .main.container--doc > .article--doc {
+      grid-column: 3 / 4;
+      min-width: 0; /* 防止内容过长时撑破网格 */
+    }
+    .main.container--doc > .doc-chapter-toc {
+      grid-column: 4 / 5;
+    }
   }
+
 
   /* --- LEFT BOOK NAVIGATION (DESKTOP) --- */
   .doc-nav-container { display: none; }
   @media screen and (min-width: 1200px) {
     .doc-nav-container {
       display: block;
-      flex: 0 0 280px;
       position: sticky; top: 2rem;
       max-height: calc(100vh - 4rem);
-      font-size: 18px; /* 保留字号 */
+      font-size: 18px;
     }
     .doc-nav-scroll-area {
       height: 100%; overflow-y: auto;
-      background-color: #f1f3f5; /* 保留背景色 */
+      background-color: #f1f3f5;
       border: 1px solid #e0e0e0;
       border-radius: 8px;
       padding: 1em;
     }
-    .doc-nav-container h3 {
-      display: none;
-    }
+    .doc-nav-container h3 { display: none; }
     .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
     .doc-nav-container li { position: relative; }
-
-    /* --- 最终修正的极简样式 --- */
-    
-    /* (默认状态) #666灰色，不加粗 */
-    .doc-nav-container a {
-      display: block;
-      padding: 0.4em 0.5em;
-      text-decoration: none;
-      color: #666666;
-      font-weight: normal;
-    }
-    
-    /* (悬停状态) 无效果 */
-    .doc-nav-container a:hover {
-      text-decoration: none;
-    }
-    
-    /* (当前页面状态) 黑色，加粗 */
-    .doc-nav-container li.active > a {
-      color: #000;
-      font-weight: 600;
-    }
-    
-    /* (子目录) 仅保留缩进 */
-    .doc-nav-container ul ul {
-      padding-left: 1em;
-    }
+    .doc-nav-container a { display: block; padding: 0.4em 0.5em; text-decoration: none; color: #666666; font-weight: normal; }
+    .doc-nav-container a:hover { text-decoration: none; }
+    .doc-nav-container li.active > a { color: #000; font-weight: 600; }
+    .doc-nav-container ul ul { padding-left: 1em; }
   }
 
   /* --- MOBILE NAVIGATION (FAB & OFF-CANVAS MENU) --- */
@@ -132,9 +129,17 @@ layout: default
   .doc-nav-overlay.is-visible { opacity: 1; visibility: visible; }
   @media screen and (min-width: 1200px) { .doc-nav-fab, .doc-nav-mobile-menu, .doc-nav-overlay { display: none; } }
 
-  /* --- RIGHT TOCBOT STYLES (已根据post.html修正和补充) --- */
+  /* --- RIGHT TOCBOT STYLES --- */
   .doc-chapter-toc { display: none; }
-  @media screen and (min-width: 1200px) { .main.container--doc.has-right-toc .doc-chapter-toc { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto; } }
+  @media screen and (min-width: 1200px) {
+    /* 仅当存在TOC时才显示容器 */
+    .main.container--doc.has-right-toc .doc-chapter-toc { 
+      display: block; 
+      position: sticky; top: 2rem; 
+      max-height: calc(100vh - 4rem); 
+      overflow-y: auto; 
+    }
+  }
   .doc-chapter-toc h3 { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
   .toc-list { margin: 0; padding: 0; list-style: none; }
   .toc-list-item { margin-bottom: 5px; }
@@ -146,16 +151,14 @@ layout: default
   .toc-mobile-container h3 { margin-top: 0; }
   @media screen and (min-width: 1200px) { .toc-mobile-container { display: none; } }
 
-  /* --- ULTRA-WIDE SCREEN ENHANCEMENTS (方案 A) --- */
+  /* --- (已废弃) ULTRA-WIDE SCREEN ENHANCEMENTS --- */
+  /* 新的Grid布局已自动处理超宽屏，无需此规则 */
+  /*
   @media screen and (min-width: 1600px) {
-    /* [修改] 增大左侧导航栏的宽度 */
     .doc-nav-container { flex-basis: 320px; }
-    /* [修改] 增大整体容器最大宽度，并增加列间距，让布局更舒展 */
-    .main.container--doc { 
-      max-width: 1560px; 
-      gap: 3.5em;
-    }
+    .main.container--doc { max-width: 1400px; margin-left: auto; margin-right: auto; }
   }
+  */
 </style>
 
 {%- comment %}
@@ -167,8 +170,7 @@ layout: default
 {% include site-header.html %}
 
 {%- comment %}
-  --- 生成多级导航列表HTML (已修正，移除parent-active) ---
-  使用 `capture` 生成一次，然后在桌面和移动视图中重复使用。
+  --- 生成多级导航列表HTML ---
 {%- endcomment %}
 {%- capture nav_list_html %}
 <ul>
@@ -256,24 +258,15 @@ document.addEventListener('DOMContentLoaded', function() {
   if (window.innerWidth >= desktopBreakpoint && document.querySelector('.js-toc')) {
     
     // --- 修正后的PC端初始化代码 ---
-    // 这个配置让Tocbot使用.js-toc中由Jekyll生成的静态HTML，而不是自己扫描内容生成目录
     tocbot.init({
-      // Where to render the table of contents.
       tocSelector: '.js-toc',
-      // The following two options are removed to use existing HTML
-      // contentSelector: '.js-toc-content', 不需要，用toc.html生成的文内目录
-      // headingSelector: 'h2, h3, h4', 不需要，用toc.html生成的文内目录
-      
-      // For more decorative styles.
       hasInnerContainers: true,
-      // Smooth scrolling enabled
       scrollSmooth: true,
-      // Offset for sticky headers (if you have one)
       scrollSmoothOffset: -80,
     });
 
   } else {
-    // 移动端逻辑保持不变，它本来就是正确的
+    // 移动端逻辑保持不变
     const mobileAnchor = document.getElementById('mobile-toc-anchor');
     const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
     if (mobileAnchor && rawTocHtml) {
@@ -308,18 +301,13 @@ document.addEventListener('DOMContentLoaded', function() {
   ==========================================================================
   PART 5: DYNAMIC IMAGE PATH CORRECTION SCRIPT (v4 - Universal Rewrite)
   ==========================================================================
-  - This script rewrites all relative image paths starting with './'
-    to an absolute path based on the collection.
-  - It handles any subdirectory structure within your Markdown files.
 -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const collectionName = '{{ page.collection }}';
   if (!collectionName) { return; }
 
-  // Define the base path where all book assets are stored.
   const assetBasePath = `/uploads/${collectionName}/`;
-
   const contentArea = document.querySelector('.article--doc');
   if (!contentArea) { return; }
   
@@ -328,19 +316,12 @@ document.addEventListener('DOMContentLoaded', function() {
   images.forEach(img => {
     const originalSrc = img.getAttribute('src');
 
-    // We only process paths that start with './'
     if (originalSrc && originalSrc.startsWith('./')) {
-      
-      // Remove the leading './' to get the pure relative path
       const relativePath = originalSrc.substring(2);
-      
-      // Construct the new, absolute path
       const newSrc = assetBasePath + relativePath;
-      
       img.setAttribute('src', newSrc);
-      
       console.log(`Universal Image Rewrite: ${originalSrc} -> ${newSrc}`);
     }
   });
 });
-</script>
+</script>```
