@@ -1,28 +1,15 @@
 {%- comment %}
-  _includes/build-nav-tree.html (终极健壮版)
-  - 增加 nil/空值检查。
-  - 简化所有逻辑。
+  _includes/build-nav-tree.html (v3 - 正则表达式版)
+  - 使用正则表达式提取标题，解决换行符问题。
 {%- endcomment %}
 
 <ul>
 {% assign docs = site[include.collection] | sort: 'path' %}
 {% for doc in docs %}
-  {%- assign title = "Untitled" -%}
-  {%- assign content_lines = doc.content | split: "
-" -%}
-  {%- for line in content_lines -%}
-    {%- assign stripped_line = line | strip -%}
-    {%- if stripped_line.size > 0 and stripped_line contains "#" -%}
-      {%- assign first_char = stripped_line | slice: 0 -%}
-      {%- if first_char == "#" -%}
-        {%- assign temp_title = stripped_line | remove_first: "#### " | remove_first: "### " | remove_first: "## " | remove_first: "# " | strip -%}
-        {%- if temp_title.size > 0 -%}
-          {%- assign title = temp_title -%}
-        {%- endif -%}
-        {%- break -%}
-      {%- endif -%}
-    {%- endif -%}
-  {%- endfor -%}
+  {%- comment %}用正则表达式从内容中捕获第一个H1-H4标题{% endcomment %}
+  {% assign title_match = doc.content | match: '^#+\s+(.*)' %}
+  {% assign title = title_match | default: "Untitled" %}
+  {% if title == "" %}{% assign title = "Untitled" %}{% endif %}
 
   {%- assign filename_base = doc.name | split: "." | first | default: "" -%}
   {%- assign numeric_prefix_parts = filename_base | split: "-" -%}

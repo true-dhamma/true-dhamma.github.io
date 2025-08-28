@@ -4,36 +4,25 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 1: DATA PREPARATION (Jekyll/Liquid) (终极健壮版)
+  PART 1: DATA PREPARATION (Jekyll/Liquid) (v3 - 正则表达式版)
   ============================================================================
 {%- endcomment %}
 {%- assign collection_name = page.collection -%}
 {%- assign collection_title = collection_name | capitalize -%}
 
-{%- assign page_title = "Untitled Page" -%}
-{%- assign first_line_with_content = "" -%}
-{%- assign content_lines = page.content | split: "
-" -%}
-{%- for line in content_lines -%}
-  {%- assign stripped_line = line | strip -%}
-  {%- if stripped_line.size > 0 -%}
-    {%- assign first_char = stripped_line | slice: 0 -%}
-    {%- if first_char == "#" -%}
-      {%- assign temp_title = stripped_line | remove_first: "#### " | remove_first: "### " | remove_first: "## " | remove_first: "# " | strip -%}
-      {%- if temp_title.size > 0 -%}
-          {%- assign page_title = temp_title -%}
-      {%- endif -%}
-      {%- assign first_line_with_content = line -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endif -%}
-{%- endfor -%}
+{%- comment %}用正则表达式提取页面标题{% endcomment %}
+{%- assign title_match = page.content | match: '^#+\s+(.*)' -%}
+{%- assign page_title = title_match | default: "Untitled Page" -%}
+{% if page_title == "" %}{% assign page_title = "Untitled Page" %}{% endif %}
 
+{%- comment %}从内容中移除标题行{% endcomment %}
+{%- assign first_line_match = page.content | match: '^#+\s+.*' -%}
 {%- assign content_to_render = page.content -%}
-{%- if first_line_with_content.size > 0 -%}
-  {%- assign content_to_render = page.content | remove_first: first_line_with_content -%}
+{%- if first_line_match -%}
+  {%- assign content_to_render = page.content | remove_first: first_line_match -%}
 {%- endif -%}
 
+{%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 --- {% endcomment %}
 {%- assign has_right_toc = false -%}
 {%- assign right_toc_html = "" -%}
 {%- if page.toc == true -%}
@@ -49,7 +38,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 2 & 3 & 4 (HTML, CSS, JS) - (基本无变动)
+  PART 2 & 3 & 4 (HTML, CSS, JS) - (无变动)
   ============================================================================
 {%- endcomment %}
 <style>
@@ -208,41 +197,46 @@ layout: default
 
 {% include site-footer.html %}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 <script>
+// Combined JS for Tocbot and Nav Tree for simplicity
 document.addEventListener('DOMContentLoaded', function() {
-  if (window.innerWidth >= 1200 && document.querySelector('.js-toc') && document.querySelector('.js-toc-content').innerHTML.trim() !== '') {
-    const hasRightToc = {{ has_right_toc | default: false }};
-    if (hasRightToc) {
-      tocbot.init({ tocSelector: '.js-toc', contentSelector: '.js-toc-content', headingSelector: 'h2, h3, h4', hasInnerContainers: true, scrollSmooth: true, scrollSmoothOffset: -80 });
-    }
-  } else {
-    const mobileAnchor = document.getElementById('mobile-toc-anchor');
-    const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
-    if (mobileAnchor && rawTocHtml && rawTocHtml.trim() !== '') {
-      const mobileWrapper = document.createElement('div');
-      mobileWrapper.className = 'toc-mobile-container';
-      mobileWrapper.innerHTML = `<h3>本章目录</h3><div class="toc-content-wrapper">${rawTocHtml}</div>`;
-      mobileAnchor.parentNode.insertBefore(mobileWrapper, mobileAnchor.nextSibling);
-      mobileAnchor.parentNode.removeChild(mobileAnchor);
-    }
+  // Tocbot initialization (if needed)
+  const hasRightToc = {{ has_right_toc | default: false }};
+  if (hasRightToc) {
+    const tocbotScript = document.createElement('script');
+    tocbotScript.src = "https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js";
+    tocbotScript.onload = function() {
+      if (window.innerWidth >= 1200 && document.querySelector('.js-toc')) {
+        tocbot.init({ tocSelector: '.js-toc', contentSelector: '.js-toc-content', headingSelector: 'h2, h3, h4', hasInnerContainers: true, scrollSmooth: true, scrollSmoothOffset: -80 });
+      } else {
+        const mobileAnchor = document.getElementById('mobile-toc-anchor');
+        const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
+        if (mobileAnchor && rawTocHtml && rawTocHtml.trim() !== '') {
+          const mobileWrapper = document.createElement('div');
+          mobileWrapper.className = 'toc-mobile-container';
+          mobileWrapper.innerHTML = `<h3>本章目录</h3><div class="toc-content-wrapper">${rawTocHtml}</div>`;
+          mobileAnchor.parentNode.insertBefore(mobileWrapper, mobileAnchor.nextSibling);
+          mobileAnchor.parentNode.removeChild(mobileAnchor);
+        }
+      }
+    };
+    document.head.appendChild(tocbotScript);
   }
 
+  // Navigation Tree Builder
   function buildNavTree(container) {
       const list = container.querySelector('ul');
       if (!list || !list.hasChildNodes()) return;
 
       const allItems = Array.from(list.children);
-      list.innerHTML = ''; // Clear the list to rebuild
+      list.innerHTML = '';
       const parentStack = [list];
 
       allItems.forEach(item => {
           const level = parseInt(item.dataset.level, 10);
-          
           while (level < parentStack.length) {
               parentStack.pop();
           }
-          
           if (level > parentStack.length) {
               const newUl = document.createElement('ul');
               const lastLi = parentStack[parentStack.length - 1].lastElementChild;
@@ -250,12 +244,9 @@ document.addEventListener('DOMContentLoaded', function() {
                   lastLi.appendChild(newUl);
                   parentStack.push(newUl);
               } else {
-                   // This case should ideally not happen with correct data-level, but as a fallback:
-                   parentStack[parentStack.length - 1].appendChild(item);
-                   return;
+                  return;
               }
           }
-          
           parentStack[parentStack.length - 1].appendChild(item);
       });
   }
@@ -266,6 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (desktopNav) buildNavTree(desktopNav);
   if (mobileNav) buildNavTree(mobileNav);
 
+  // Mobile Menu Controls
   const fab = document.getElementById('doc-nav-fab');
   const menu = document.getElementById('doc-nav-mobile-menu');
   const closeBtn = document.getElementById('doc-nav-mobile-close');
@@ -276,7 +268,6 @@ document.addEventListener('DOMContentLoaded', function() {
       menu.classList.add('is-open');
       document.body.style.overflow = 'hidden';
   }
-
   function closeMenu() {
       menu.classList.remove('is-open');
       document.body.style.overflow = '';
