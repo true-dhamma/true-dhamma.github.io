@@ -36,7 +36,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS (方案A集成版)
+  PART 2: INLINE CSS (方案B集成版)
   ============================================================================
 {%- endcomment %}
 <style>
@@ -55,7 +55,7 @@ layout: default
       position: sticky; top: 2rem;
       max-height: calc(100vh - 4rem);
       font-size: 15px;
-      transition: flex-basis 0.3s ease; /* 为宽度变化添加过渡效果 */
+      transition: flex-basis 0.3s ease;
     }
     .doc-nav-scroll-area {
       height: 100%; overflow-y: auto;
@@ -156,22 +156,43 @@ layout: default
 
   /*
    * ==========================================================================
-   *  ULTRA-WIDE SCREEN ENHANCEMENTS (方案 A: 四栏布局)
+   *  ULTRA-WIDE SCREEN ENHANCEMENTS (方案 B: Tocbot 悬浮)
    * ==========================================================================
    */
   @media screen and (min-width: 1600px) {
-
+  
     /* 1. 增加左侧书籍导航的宽度 */
     .doc-nav-container {
-      flex-basis: 320px; /* 从 280px 增加到 320px */
+      flex-basis: 320px;
     }
 
-    /* 2. 调整主容器，让内容和TOC整体保持舒适宽度并居中 */
+    /* 2. 调整主布局容器，让其可以变得更宽 */
     .main.container--doc {
-      max-width: 1400px; /* 限制阅读区域总宽度，避免在4K屏上过分拉伸 */
-      margin-left: auto;
-      margin-right: auto;
+      max-width: 90%; 
     }
+
+    /* 3. 将右侧 Tocbot 变为悬浮 */
+    .main.container--doc.has-right-toc .doc-chapter-toc {
+      /* 使用绝对定位使其脱离文档流 */
+      position: absolute;
+      /* 定位到主容器的右侧外部 */
+      left: 100%; 
+      top: 2rem; /* 与 sticky 时的 top 值保持一致 */
+      margin-left: 2.5em; /* 与 gap 保持一致，创建间距 */
+      
+      /* 恢复其尺寸，因为 position:absolute 会改变它 */
+      width: 260px;
+      /* display: block; 已经是 block 了 */
+    }
+  }
+
+  /* (可选) 针对方案B，在更大屏幕上限制内容宽度以提高可读性 */
+  @media screen and (min-width: 1920px) {
+      .article--doc {
+          max-width: 80ch; /* 限制内容区的最大宽度为80个字符 */
+          margin-left: auto; /* 在其分配的空间内向右偏移，给左边留出空间 */
+          margin-right: auto;
+      }
   }
 
 </style>
