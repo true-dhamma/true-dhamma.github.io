@@ -1,141 +1,92 @@
----
+# _config.yml (修正和清理后)
+
 title: True Dhamma
 timezone: Asia/Shanghai
-collections:
-  buddhadhamma:
-    title: Buddhadhamma
-    output: true
-    permalink: "/:collection/:name/"
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-    defaults:
-- scope:
-    path: ''
-  values:
-    image: "/assets/default-social-image.png"
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-- scope:
-    path: ''
-    type: buddhadhamma
-  values:
-    layout: doc
-    feature_text: |
-      ## 佛法 Buddhadhamma
-      P. A. Payutto
-    feature_image: "/uploads/top_banner_dhamma.jpg"
-    toc: true
-- scope:
-    path: ''
-    type: testbook
-  values:
-    layout: doc
-uploads:
-  title: Uploads
-  output: true
-posts:
-  title: 文章
-  output: true
-  feature_image: "/uploads/top_banner_blog.jpg"
-exclude:
-- README.md
-- CODE_OF_CONDUCT.md
-- CONTRIBUTING.md
-- screenshot.png
-- LICENSE
-- CNAME
-- Gemfile
-- Gemfile.lock
-- alembic-jekyll-theme.gemspec
-- ".jekyll-cache"
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jekyll-commonmark
-- jekyll-include-cache
-- jemoji
-paginate: 20
-paginate_path: "/blog/page:num"
-jekyll-mentions: 
-twitter:
-  username: 
-author: 智宁居士
-social:
-  name: 
-  links:
-  - 
-  - 
-  - 
-  - 
-sass:
-  style: compressed
-permalink: pretty
-excerpt_separator: "<!-- more -->"
+url: "https://true-dhamma.com"
+baseurl: ""
+description: 世间成瘾与出世间觉悟，南传上座部佛法，实修实证，亲知实见，趋向涅槃，从无明中解脱。
+
+# 核心配置
 encoding: utf-8
 lang: zh-CN
-logo: "/uploads/Dhamma_Wheel.svg.webp"
-description: 世间成瘾与出世间觉悟，南传上座部佛法，实修实证，亲知实见，趋向涅槃，从无明中解脱
-url: https://true-dhamma.com
-baseurl: 
-repo: 
+permalink: pretty # /page/
+excerpt_separator: "<!-- more -->"
+paginate: 20
+paginate_path: "/blog/page:num"
+
+# 插件
+plugins:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-commonmark
+  - jekyll-include-cache
+  - jemoji
+
+# collections 定义 (清晰、无冲突)
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+  buddhadhamma:
+    output: true
+    permalink: "/:collection/:name/"
+  testbook:
+    output: true
+    permalink: "/:collection/:name/"
+  uploads:
+    output: false # 通常 uploads 不需要生成单独页面
+
+# Defaults (为每个 collection 设置默认值)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      feature_image: "/uploads/top_banner_blog.jpg"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "buddhadhamma"
+    values:
+      layout: "doc"
+      feature_image: "/uploads/top_banner_dhamma.jpg"
+      toc: true # 默认开启TOC，可在具体文件中用 toc:false 关闭
+  - scope:
+      path: ""
+      type: "testbook"
+    values:
+      layout: "doc"
+
+# 作者和社交信息
+author: 智宁居士
 email: zhining@true-dhamma.com
-css_inline: true
-favicons:
-  '16': "/uploads/siteicon.png"
-  '32': "/uploads/siteicon.png"
-  '96': "/uploads/siteicon.png"
-  '120': "/uploads/siteicon.png"
-  '144': "/uploads/siteicon.png"
-  '180': "/uploads/siteicon.png"
-  '512': "/uploads/siteicon.png"
-  '1024': "/uploads/siteicon.png"
+logo: "/uploads/Dhamma_Wheel.svg.webp"
+
+# 导航
 navigation_header:
-- title: 首页
-  url: "/"
-- title: 成瘾
-  url: "/addiction/"
-- title: 文章
-  url: "/blog/"
-- title: 巴利圣典
-  url: "/tipitaka/"
-- title: 网盘
-  url: https://download.true-dhamma.com/
-- title: 搜索&提问
-  url: "/search/"
-- title: 关于本站
-  url: "/about/"
+  - {title: 首页, url: "/"}
+  - {title: 成瘾, url: "/addiction/"}
+  - {title: 文章, url: "/blog/"}
+  - {title: 巴利圣典, url: "/tipitaka/"}
+  - {title: 网盘, url: "https://download.true-dhamma.com/"}
+  - {title: 搜索&提问, url: "/search/"}
+  - {title: 关于本站, url: "/about/"}
 navigation_footer:
-- title: Created by 智宁居士
-  url: mailto:zhining@gmx.com
-social_links:
-  Twitter: 
-  LinkedIn: 
-  GitHub: 
-  link: https://true-dhamma.github.io
-  RSS: "/feed.xml"
-sharing_links:
-  Twitter: ''
-  facebook: ''
-  Email: true
-  UniversalShare: "#4CAF50"
-fonts:
-  preconnect_urls:
-  - https://fonts.gstatic.com
-  font_urls:
-  - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
+  - {title: Created by 智宁居士, url: "mailto:zhining@gmx.com"}
+
+# 其他配置
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - ".jekyll-cache"
