@@ -6,116 +6,212 @@ layout: default
   ============================================================================
   PART 1: DATA PREPARATION (Jekyll/Liquid)
   ============================================================================
-  - 检查是否需要生成右侧的章节TOC (Tocbot)。
-  - 获取当前 collection 的信息，并对其文档进行排序，用于生成左侧导航。
 {%- endcomment %}
 
-{%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 --- {% endcomment %}
+{%- comment %} --- 右侧 Tocbot 目录数据 --- {% endcomment %}
 {%- assign has_right_toc = false -%}
 {%- assign right_toc_html = "" -%}
-
 {%- if page.toc == true and (content contains '<h2' or content contains '<h3' or content contains '<h4') -%}
   {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
-  {%- assign toc_trimmed = captured_toc | strip -%}
-  {%- if toc_trimmed != "" -%}
+  {%- if captured_toc | strip != "" -%}
     {%- assign has_right_toc = true -%}
     {%- assign right_toc_html = captured_toc -%}
   {%- endif -%}
 {%- endif -%}
 
-{%- comment %} --- 左侧书籍导航的数据准备 --- {% endcomment %}
+{%- comment %} --- 左侧多级导航数据 --- {% endcomment %}
 {%- assign collection_name = page.collection -%}
-{%- assign collection_docs = site[collection_name] | sort: 'order' -%}
+{%- assign collection_docs_sorted = site[collection_name] | sort: 'order' -%}
 {%- assign collection_title = collection_name | capitalize -%}
 
+{%- comment %} 构建层级导航数据结构 {% endcomment %}
+{%- assign nav_items = "" | split: "" -%}
+{%- for doc in collection_docs_sorted -%}
+  {%- unless doc.parent -%}
+    {%- capture nav_item -%}
+      { "title": "{{ doc.title | escape }}", "url": "{{ doc.url | relative_url }}", "children": [] }
+    {%- endcapture -%}
+    {%- assign nav_items = nav_items | push: (nav_item | json_to_object) -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- for doc in collection_docs_sorted -%}
+  {%- if doc.parent -%}
+    {%- for item in nav_items -%}
+      {%- if item.title == doc.parent -%}
+        {%- capture child_item -%}
+          { "title": "{{ doc.title | escape }}", "url": "{{ doc.url | relative_url }}" }
+        {%- endcapture -%}
+        {%- assign item_children = item.children | push: (child_item | json_to_object) -%}
+        {%- assign updated_item = item | add_property: 'children', item_children -%}
+        {%- assign nav_items = nav_items | replace_first: item, updated_item -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS
+  PART 2: INLINE CSS (UPGRADED)
   ============================================================================
-  - 定义三栏布局：左侧书籍导航，中间内容，右侧章节目录。
-  - 使用 modifier class `.has-right-toc` 来动态切换两栏/三栏布局。
 {%- endcomment %}
 <style>
-  /* --- DOC LAYOUT STYLES --- */
-
-  /* 1. 主布局: 在宽屏上使用 Flexbox */
-  @media screen and (min-width: 1200px) { /* 三栏布局需要更宽的屏幕 */
-    .main.container--doc {
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      gap: 2.5em; /* 栏间距 */
-    }
+  /* --- BASE & LAYOUT --- */
+  body {
+    background-color: #fff;
+  }
+  .doc-layout-wrapper {
+    display: flex;
+    position: relative;
   }
 
-  /* 2. 左侧边栏: 书籍导航 */
-  .doc-nav-container {
-    display: none; /* 移动端默认隐藏 */
+  /* --- LEFT NAVIGATION (PC) --- */
+  #doc-nav-menu {
+    display: none; /* Hidden on mobile by default */
+    background-color: #fafafa;
+    border-right: 1px solid #e0e0e0;
+    width: 300px;
+    flex-shrink: 0;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    padding: 1.5rem;
   }
-  @media screen and (min-width: 1200px) {
-    .doc-nav-container {
-      display: block;
-      flex: 0 0 280px; /* 左侧导航固定宽度 */
-      position: sticky;
-      top: 2rem;
-      align-self: flex-start;
-      max-height: calc(100vh - 4rem);
-      overflow-y: auto;
-      background-color: #f5f5f5; /* 灰色背景 */
-      padding: 1.5em;
-      border-radius: 8px;
-    }
-    .doc-nav-container h3 {
-      margin-top: 0;
-      margin-bottom: 1em;
-      font-size: 1.2em;
-      font-weight: 700;
-      color: #2c3e50;
-    }
-    .doc-nav-container ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .doc-nav-container li a {
-      display: block;
-      padding: 8px 12px;
-      text-decoration: none;
-      color: #555;
-      border-radius: 4px;
-      transition: background-color 0.2s, color 0.2s;
-      font-size: 0.9em;
-      line-height: 1.4;
-    }
-    .doc-nav-container li a:hover {
-      background-color: #e9e9e9;
-      color: #000;
-    }
-    /* 当前活动页面的链接样式 */
-    .doc-nav-container li.active a {
-      background-color: #3a77d8; /* 主题色 */
-      color: #fff;
-      font-weight: 600;
-    }
+  @media (min-width: 1200px) {
+    #doc-nav-menu { display: block; }
   }
 
-  /* 3. 中间内容区 */
+  .doc-nav-header h3 {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #333;
+  }
+  .doc-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  .doc-nav-list a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.2s;
+  }
+  .doc-nav-list-item > a, .doc-nav-list-item > details > summary {
+    display: block;
+    padding: 0.6rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .doc-nav-list-item > a:hover {
+    color: #007bff;
+    background-color: #f0f0f0;
+  }
+  .doc-nav-list-item.active > a,
+  .doc-nav-list-item details[open] > summary {
+    font-weight: 600;
+    color: #007bff;
+  }
+  .doc-nav-list-item.active > a {
+    background-color: #e6f2ff;
+  }
+
+  /* Sub-menu styling */
+  .doc-nav-list-item details {
+    margin-bottom: 0.25rem;
+  }
+  .doc-nav-list-item details summary {
+    list-style: none; /* Hide default arrow */
+    position: relative;
+    padding-right: 2rem;
+  }
+  .doc-nav-list-item details summary::after { /* Custom arrow */
+    content: '\f0da';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.2s;
+  }
+  .doc-nav-list-item details[open] > summary::after {
+    transform: translateY(-50%) rotate(90deg);
+  }
+  .doc-nav-submenu {
+    list-style: none;
+    padding-left: 1.2rem;
+    margin-top: 0.5rem;
+    border-left: 1px solid #e0e0e0;
+  }
+  .doc-nav-submenu-item a {
+    display: block;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border-radius: 4px;
+  }
+  .doc-nav-submenu-item.active a {
+    font-weight: 600;
+    color: #007bff;
+    background-color: #e6f2ff;
+  }
+
+  /* --- MAIN CONTENT PANEL (#doc-main-panel) --- */
+  #doc-main-panel {
+    width: 100%;
+    min-width: 0; /* Important for flexbox */
+    background-color: #fff;
+    padding-bottom: 4rem;
+  }
+  .main.container.doc-container {
+    max-width: 1100px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    gap: 2rem;
+  }
+
   .article--doc {
-    flex: 1 1 auto;
-    min-width: 0; /* 防止内容过长时撑破布局 */
+    flex-grow: 1;
+    min-width: 0;
   }
-  
-  /* 4. 右侧边栏: 章节目录 (Tocbot) */
+
+  /* Mobile header with hamburger button */
+  .mobile-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fafafa;
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  @media (min-width: 1200px) {
+    .mobile-header { display: none; }
+  }
+  .toggle-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    color: #333;
+  }
+  .mobile-header-title {
+    font-weight: 600;
+  }
+
+  /* --- RIGHT TOC (STYLES INHERITED/ADAPTED) --- */
   .doc-chapter-toc {
-    display: none; /* 默认隐藏 */
+    display: none;
   }
-  /* 仅在 .has-right-toc 容器内且为宽屏时显示 */
-  @media screen and (min-width: 1200px) {
-    .main.container--doc.has-right-toc .doc-chapter-toc {
+  @media screen and (min-width: 992px) {
+    .main.container.doc-container.has-right-toc .doc-chapter-toc {
       display: block;
-      flex: 0 0 260px; /* 右侧 TOC 固定宽度 */
+      flex: 0 0 260px;
       position: sticky;
       top: 2rem;
       align-self: flex-start;
@@ -123,123 +219,151 @@ layout: default
       overflow-y: auto;
     }
   }
-
-  /* 5. Tocbot 核心样式 (与 post.html 保持一致) */
-  .doc-chapter-toc h3 { margin-top: 0; margin-bottom: 1em; font-size: 1.1em; font-weight: 600; color: #333; }
-  .toc { overflow-y: auto; }
-  .toc-list { margin: 0; padding: 0; list-style-type: none; }
-  .toc-list-item { margin-bottom: 5px; }
-  .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; text-decoration: none; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; }
-  .toc-link:hover { color: #333; border-left-color: #AAA; }
-  .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; }
-  .toc-list .toc-list { padding-left: 1.25em; }
-
-  /* 6. 移动端 TOC 容器 (与 post.html 保持一致) */
-  .toc-mobile-container { display: block; margin: 2em 0; padding: 1em; border: 1px solid #eee; border-radius: 4px; background-color: #f9f9f9; }
+  /* (Other .toc styles from your previous code remain valid) */
+  .toc-mobile-container { margin: 2em 0; padding: 1em; border: 1px solid #eee; border-radius: 4px; background-color: #f9f9f9; }
   .toc-mobile-container h3 { margin-top: 0; }
-  @media screen and (min-width: 1200px) {
-    .toc-mobile-container { display: none; }
-  }
-</style>
-
-{% include site-header.html %}
-
-<!-- 根据是否存在右侧TOC，给 main 标签添加一个 class，用于CSS选择 -->
-<main class="main container container--doc {% if has_right_toc %}has-right-toc{% endif %}">
+  @media screen and (min-width: 992px) { .toc-mobile-container { display: none; } }
   
-  {%- comment %}
-    ============================================================================
-    PART 3: HTML STRUCTURE
-    ============================================================================
-    - 左侧: 书籍导航
-    - 中间: 文章内容
-    - 右侧: 章节目录 (条件性显示)
-  {%- endcomment %}
-
-  <!-- Left Sidebar: Book Navigation -->
-  {% if collection_name %}
-  <aside class="doc-nav-container">
-    <h3>{{ collection_title }}</h3>
-    <ul>
-      {% for doc in collection_docs %}
-        <li {% if page.url == doc.url %}class="active"{% endif %}>
-          <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </aside>
-  {% endif %}
-
-  <!-- Center: Main article content -->
-  <article class="article article--doc content typeset js-toc-content">
-    <h1>{{ page.title }}</h1>
-    
-    <!-- 移动端TOC的锚点，JS会把TOC插入到这里 -->
-    {% if has_right_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
-
-    {{ content }}
-
-  </article>
-
-  <!-- Right Sidebar: Chapter TOC (Tocbot) -->
-  {% if has_right_toc %}
-  <aside class="doc-chapter-toc">
-    <h3>本章目录</h3>
-    <!-- Tocbot 将会填充这个 div -->
-    <div class="js-toc">
-        {{ right_toc_html }}
-    </div>
-  </aside>
-  {% endif %}
-
-</main>
-
-{% include site-footer.html %}
+  /* Slideout.js specific styles */
+  .slideout-menu { position: fixed; top: 0; bottom: 0; width: 300px; min-height: 100vh; overflow-y: scroll; -webkit-overflow-scrolling: touch; z-index: 0; display: none; }
+  .slideout-menu-left { left: 0; }
+  .slideout-panel { position: relative; z-index: 1; background-color: #fff; min-height: 100vh; }
+  .slideout-open, .slideout-open body, .slideout-open .slideout-panel { overflow: hidden; }
+  .slideout-open .slideout-menu { display: block; }
+</style>
 
 
 {%- comment %}
   ============================================================================
-  PART 4: JAVASCRIPT LOGIC
+  PART 3: HTML STRUCTURE (UPGRADED for Slideout.js)
   ============================================================================
-  - 只有在 `has_right_toc` 为 true 时才加载和执行 Tocbot 脚本。
-  - JS 断点与 CSS 保持一致 (1200px)。
 {%- endcomment %}
-{% if has_right_toc %}
-<!-- 1. 仅在需要时加载 Tocbot 库 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 
-<!-- 2. 初始化 Tocbot 或处理移动端视图 -->
+<div class="doc-layout-wrapper">
+    <!-- Navigation Menu (for both PC and Mobile Drawer) -->
+    <nav id="doc-nav-menu">
+        <div class="doc-nav-header">
+            <h3>{{ collection_title }}</h3>
+        </div>
+        <ul class="doc-nav-list">
+            {%- for item in nav_items -%}
+                {%- assign is_parent_active = false -%}
+                {%- if page.parent == item.title or page.title == item.title -%}
+                    {%- assign is_parent_active = true -%}
+                {%- endif -%}
+
+                <li class="doc-nav-list-item {% if is_parent_active %}active{% endif %}">
+                    {% if item.children.size > 0 %}
+                        <details {% if is_parent_active %}open{% endif %}>
+                            <summary>{{ item.title }}</summary>
+                            <ul class="doc-nav-submenu">
+                                {% for child in item.children %}
+                                    <li class="doc-nav-submenu-item {% if page.url == child.url %}active{% endif %}">
+                                        <a href="{{ child.url }}">{{ child.title }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </details>
+                    {% else %}
+                        <a href="{{ item.url }}">{{ item.title }}</a>
+                    {% endif %}
+                </li>
+            {%- endfor -%}
+        </ul>
+    </nav>
+
+    <!-- Main Content Panel -->
+    <div id="doc-main-panel">
+        {% include site-header.html %}
+        
+        <!-- Mobile Header -->
+        <header class="mobile-header">
+            <button class="toggle-button" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <span class="mobile-header-title">{{ collection_title }}</span>
+        </header>
+
+        <main class="main container doc-container {% if has_right_toc %}has-right-toc{% endif %}">
+            <article class="article article--doc content typeset js-toc-content">
+                <h1>{{ page.title }}</h1>
+                {% if has_right_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
+                {{ content }}
+            </article>
+
+            {% if has_right_toc %}
+            <aside class="doc-chapter-toc">
+                <h3>本章目录</h3>
+                <div class="js-toc">{{ right_toc_html }}</div>
+            </aside>
+            {% endif %}
+        </main>
+        
+        {% include site-footer.html %}
+    </div>
+</div>
+
+{%- comment %}
+  ============================================================================
+  PART 4: JAVASCRIPT LOGIC (UPGRADED for Slideout.js)
+  ============================================================================
+{%- endcomment %}
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const desktopBreakpoint = 1200; // 必须与 CSS 中的断点匹配
-  const isDesktop = window.innerWidth >= desktopBreakpoint;
+  // --- Initialize Mobile Drawer Menu ---
+  const slideout = new Slideout({
+    'panel': document.getElementById('doc-main-panel'),
+    'menu': document.getElementById('doc-nav-menu'),
+    'padding': 300,
+    'tolerance': 70,
+    'side': 'left'
+  });
 
-  if (isDesktop && document.querySelector('.js-toc')) {
-    // === 桌面端: 初始化 Tocbot ===
-    tocbot.init({
-      tocSelector: '.js-toc',
-      contentSelector: '.js-toc-content',
-      headingSelector: 'h2, h3, h4',
-      hasInnerContainers: true,
-      scrollSmooth: true,
-      scrollSmoothOffset: -80, // 如果你有固定的顶部导航，这里可以设置偏移
-    });
-  } else {
-    // === 移动端: 注入原始的 TOC HTML ===
-    const mobileAnchor = document.getElementById('mobile-toc-anchor');
-    const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
+  document.querySelector('.toggle-button').addEventListener('click', function() {
+    slideout.toggle();
+  });
+  
+  // Close menu when a link is clicked
+  const navMenu = document.getElementById('doc-nav-menu');
+  navMenu.addEventListener('click', function(event) {
+      if (event.target.tagName === 'A' && slideout.isOpen()) {
+          slideout.close();
+      }
+  });
 
-    if (mobileAnchor && rawTocHtml) {
-      const mobileWrapper = document.createElement('div');
-      mobileWrapper.className = 'toc-mobile-container';
-      mobileWrapper.innerHTML = `<h3>本章目录</h3><div class="toc-content-wrapper">${rawTocHtml}</div>`;
-      
-      // 插入到锚点之后
-      mobileAnchor.parentNode.insertBefore(mobileWrapper, mobileAnchor.nextSibling);
-      // 移除锚点
-      mobileAnchor.parentNode.removeChild(mobileAnchor);
-    }
+  // --- Tocbot Initialization (Conditional) ---
+  const hasRightToc = document.querySelector('.doc-chapter-toc');
+  if (hasRightToc) {
+    const desktopBreakpoint = 992;
+    const isDesktop = window.innerWidth >= desktopBreakpoint;
+    
+    // Dynamically load Tocbot script only when needed
+    const tocbotScript = document.createElement('script');
+    tocbotScript.src = "https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js";
+    tocbotScript.onload = () => {
+        if (isDesktop && document.querySelector('.js-toc')) {
+            tocbot.init({
+              tocSelector: '.js-toc',
+              contentSelector: '.js-toc-content',
+              headingSelector: 'h2, h3, h4',
+              hasInnerContainers: true,
+              scrollSmooth: true,
+              scrollSmoothOffset: -80
+            });
+        } else {
+            const mobileAnchor = document.getElementById('mobile-toc-anchor');
+            const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
+            if (mobileAnchor && rawTocHtml) {
+              const mobileWrapper = document.createElement('div');
+              mobileWrapper.className = 'toc-mobile-container';
+              mobileWrapper.innerHTML = `<h3>本章目录</h3><div class="toc-content-wrapper">${rawTocHtml}</div>`;
+              mobileAnchor.parentNode.insertBefore(mobileWrapper, mobileAnchor.nextSibling);
+              mobileAnchor.parentNode.removeChild(mobileAnchor);
+            }
+        }
+    };
+    document.body.appendChild(tocbotScript);
   }
 });
 </script>
-{% endif %}
