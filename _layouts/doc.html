@@ -4,37 +4,43 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 1: DATA PREPARATION (Jekyll/Liquid) (高兼容性版)
+  PART 1: DATA PREPARATION (Jekyll/Liquid) (终极健壮版)
   ============================================================================
 {%- endcomment %}
 {%- assign collection_name = page.collection -%}
 {%- assign collection_title = collection_name | capitalize -%}
 
-{%- comment %} 提取页面标题 (高兼容性版) {% endcomment %}
-{% assign content_lines = page.content | split: "
-" %}
-{% assign first_line_with_content = "" %}
-{% assign page_title = "" %}
-{% for line in content_lines %}
-  {% assign stripped_line = line | strip %}
-  {% if stripped_line.size > 0 %}
-      {% assign first_char = stripped_line | slice: 0 %}
-      {% if first_char == "#" %}
-        {% assign page_title = stripped_line | remove_first: "#### " | remove_first: "### " | remove_first: "## " | remove_first: "# " | strip %}
-        {% assign first_line_with_content = line %}
-        {% break %}
-      {% endif %}
-  {% endif %}
-{% endfor %}
+{%- assign page_title = "Untitled Page" -%}
+{%- assign first_line_with_content = "" -%}
+{%- assign content_lines = page.content | split: "
+" -%}
+{%- for line in content_lines -%}
+  {%- assign stripped_line = line | strip -%}
+  {%- if stripped_line.size > 0 -%}
+    {%- assign first_char = stripped_line | slice: 0 -%}
+    {%- if first_char == "#" -%}
+      {%- assign temp_title = stripped_line | remove_first: "#### " | remove_first: "### " | remove_first: "## " | remove_first: "# " | strip -%}
+      {%- if temp_title.size > 0 -%}
+          {%- assign page_title = temp_title -%}
+      {%- endif -%}
+      {%- assign first_line_with_content = line -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
 
-{%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 (高兼容性版) --- {% endcomment %}
+{%- assign content_to_render = page.content -%}
+{%- if first_line_with_content.size > 0 -%}
+  {%- assign content_to_render = page.content | remove_first: first_line_with_content -%}
+{%- endif -%}
+
 {%- assign has_right_toc = false -%}
 {%- assign right_toc_html = "" -%}
 {%- if page.toc == true -%}
-  {%- if page.content contains '<h2' or page.content contains '<h3' or page.content contains '<h4' -%}
-    {%- capture captured_toc -%}{% include toc.html content=page.content %}{%- endcapture -%}
+  {%- if content_to_render contains '<h2' or content_to_render contains '<h3' or content_to_render contains '<h4' -%}
+    {%- capture captured_toc -%}{% include toc.html content=content_to_render %}{%- endcapture -%}
     {%- assign toc_trimmed = captured_toc | strip -%}
-    {%- if toc_trimmed != "" -%}
+    {%- if toc_trimmed.size > 0 -%}
       {%- assign has_right_toc = true -%}
       {%- assign right_toc_html = captured_toc -%}
     {%- endif -%}
@@ -43,7 +49,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS (无变动)
+  PART 2 & 3 & 4 (HTML, CSS, JS) - (基本无变动)
   ============================================================================
 {%- endcomment %}
 <style>
@@ -159,16 +165,9 @@ layout: default
   @media screen and (min-width: 1200px) { .toc-mobile-container { display: none; } }
 </style>
 
-{%- comment %}
-  ============================================================================
-  PART 3: HTML STRUCTURE
-  ============================================================================
-{%- endcomment %}
-
 {% include site-header.html %}
 
 <main class="main container container--doc {% if has_right_toc %}has-right-toc{% endif %}">
-  
   <aside id="doc-nav-desktop-container" class="doc-nav-container">
     <div class="doc-nav-scroll-area">
       <h3>{{ collection_title }}</h3>
@@ -179,8 +178,7 @@ layout: default
   <article class="article article--doc content typeset js-toc-content">
     <h1>{{ page_title }}</h1>
     {% if has_right_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
-    
-    {{ page.content | remove_first: first_line_with_content }}
+    {{ content_to_render }}
   </article>
 
   {% if has_right_toc %}
@@ -210,22 +208,18 @@ layout: default
 
 {% include site-footer.html %}
 
-{%- comment %}
-  ============================================================================
-  PART 4: JAVASCRIPT LOGIC (无变动)
-  ============================================================================
-{%- endcomment %}
-<!-- 1. Tocbot JS (条件性加载) -->
-{% if has_right_toc %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  if (window.innerWidth >= 1200 && document.querySelector('.js-toc')) {
-    tocbot.init({ tocSelector: '.js-toc', contentSelector: '.js-toc-content', headingSelector: 'h2, h3, h4', hasInnerContainers: true, scrollSmooth: true, scrollSmoothOffset: -80 });
+  if (window.innerWidth >= 1200 && document.querySelector('.js-toc') && document.querySelector('.js-toc-content').innerHTML.trim() !== '') {
+    const hasRightToc = {{ has_right_toc | default: false }};
+    if (hasRightToc) {
+      tocbot.init({ tocSelector: '.js-toc', contentSelector: '.js-toc-content', headingSelector: 'h2, h3, h4', hasInnerContainers: true, scrollSmooth: true, scrollSmoothOffset: -80 });
+    }
   } else {
     const mobileAnchor = document.getElementById('mobile-toc-anchor');
     const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
-    if (mobileAnchor && rawTocHtml) {
+    if (mobileAnchor && rawTocHtml && rawTocHtml.trim() !== '') {
       const mobileWrapper = document.createElement('div');
       mobileWrapper.className = 'toc-mobile-container';
       mobileWrapper.innerHTML = `<h3>本章目录</h3><div class="toc-content-wrapper">${rawTocHtml}</div>`;
@@ -233,70 +227,68 @@ document.addEventListener('DOMContentLoaded', function() {
       mobileAnchor.parentNode.removeChild(mobileAnchor);
     }
   }
-});
-</script>
-{% endif %}
 
-<!-- 2. Navigation Tree Builder & Mobile Menu JS -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    function buildNavTree(container) {
-        const list = container.querySelector('ul');
-        if (!list) return;
+  function buildNavTree(container) {
+      const list = container.querySelector('ul');
+      if (!list || !list.hasChildNodes()) return;
 
-        const allItems = Array.from(list.children);
-        const parentStack = [list];
+      const allItems = Array.from(list.children);
+      list.innerHTML = ''; // Clear the list to rebuild
+      const parentStack = [list];
 
-        allItems.forEach(item => {
-            const level = parseInt(item.dataset.level, 10);
-            
-            while (level < parentStack.length) {
-                parentStack.pop();
-            }
-            
-            if (level > parentStack.length) {
-                const newUl = document.createElement('ul');
-                const lastLi = parentStack[parentStack.length - 1].lastElementChild;
-                if (lastLi) {
-                    lastLi.appendChild(newUl);
-                    parentStack.push(newUl);
-                }
-            }
-            
-            // It's crucial to append the original item, not a clone
-            parentStack[parentStack.length - 1].appendChild(item);
-        });
-    }
+      allItems.forEach(item => {
+          const level = parseInt(item.dataset.level, 10);
+          
+          while (level < parentStack.length) {
+              parentStack.pop();
+          }
+          
+          if (level > parentStack.length) {
+              const newUl = document.createElement('ul');
+              const lastLi = parentStack[parentStack.length - 1].lastElementChild;
+              if (lastLi) {
+                  lastLi.appendChild(newUl);
+                  parentStack.push(newUl);
+              } else {
+                   // This case should ideally not happen with correct data-level, but as a fallback:
+                   parentStack[parentStack.length - 1].appendChild(item);
+                   return;
+              }
+          }
+          
+          parentStack[parentStack.length - 1].appendChild(item);
+      });
+  }
 
-    const desktopNav = document.getElementById('doc-nav-desktop-container');
-    const mobileNav = document.getElementById('doc-nav-mobile-menu');
+  const desktopNav = document.getElementById('doc-nav-desktop-container');
+  const mobileNav = document.getElementById('doc-nav-mobile-menu');
 
-    if (desktopNav) buildNavTree(desktopNav);
-    if (mobileNav) buildNavTree(mobileNav);
+  if (desktopNav) buildNavTree(desktopNav);
+  if (mobileNav) buildNavTree(mobileNav);
 
-    const fab = document.getElementById('doc-nav-fab');
-    const menu = document.getElementById('doc-nav-mobile-menu');
-    const closeBtn = document.getElementById('doc-nav-mobile-close');
+  const fab = document.getElementById('doc-nav-fab');
+  const menu = document.getElementById('doc-nav-mobile-menu');
+  const closeBtn = document.getElementById('doc-nav-mobile-close');
 
-    if (!fab || !menu || !closeBtn) return;
+  if (!fab || !menu || !closeBtn) return;
 
-    function openMenu() {
-        menu.classList.add('is-open');
-        document.body.style.overflow = 'hidden';
-    }
+  function openMenu() {
+      menu.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+  }
 
-    function closeMenu() {
-        menu.classList.remove('is-open');
-        document.body.style.overflow = '';
-    }
+  function closeMenu() {
+      menu.classList.remove('is-open');
+      document.body.style.overflow = '';
+  }
 
-    fab.addEventListener('click', openMenu);
-    closeBtn.addEventListener('click', closeMenu);
-    menu.addEventListener('click', function(event) {
-        if (event.target.tagName === 'A') { closeMenu(); }
-    });
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'Escape' && menu.classList.contains('is-open')) { closeMenu(); }
-    });
+  fab.addEventListener('click', openMenu);
+  closeBtn.addEventListener('click', closeMenu);
+  menu.addEventListener('click', function(event) {
+      if (event.target.tagName === 'A') { closeMenu(); }
+  });
+  document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape' && menu.classList.contains('is-open')) { closeMenu(); }
+  });
 });
 </script>
