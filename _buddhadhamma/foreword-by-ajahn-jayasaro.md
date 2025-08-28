@@ -1,5 +1,7 @@
 ---
+title: Foreword By Ajahn Jayasaro
 ---
+
 阿姜·查雅萨罗前言
 
 # 阿姜·查雅萨罗前言

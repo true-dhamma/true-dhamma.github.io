@@ -1,5 +1,7 @@
 ---
+title: Foreword By Translator
 ---
+
 译者前言
 
 # 英文译者前言

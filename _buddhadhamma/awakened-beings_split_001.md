@@ -1,5 +1,7 @@
 ---
+title: Awakened Beings_split_001
 ---
+
 Ch. 7. Awakened Beings
 
 ## 入流的要素
