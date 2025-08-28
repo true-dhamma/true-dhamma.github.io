@@ -47,7 +47,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS (优化版样式)
+  PART 2: INLINE CSS (方案A集成版)
   ============================================================================
 {%- endcomment %}
 <style>
@@ -57,7 +57,7 @@ layout: default
     .article--doc { flex: 1 1 auto; min-width: 0; }
   }
 
-  /* --- LEFT BOOK NAVIGATION (DESKTOP) - 优化版样式 --- */
+  /* --- LEFT BOOK NAVIGATION (DESKTOP) --- */
   .doc-nav-container { display: none; }
   @media screen and (min-width: 1200px) {
     .doc-nav-container {
@@ -65,74 +65,55 @@ layout: default
       flex: 0 0 280px;
       position: sticky; top: 2rem;
       max-height: calc(100vh - 4rem);
-      font-size: 18px; /* <- 需求: 调大字号 */
+      font-size: 18px; /* <-- 优化(3): 字号调大到18px */
       transition: flex-basis 0.3s ease;
     }
     .doc-nav-scroll-area {
       height: 100%; overflow-y: auto;
-      /* 需求: 目录区背景加深, 与内容区有效分割 */
-      background-color: #F0F2F5;
-      border: 1px solid #DDE1E6;
+      background-color: #f1f3f5; /* <-- 优化(1): 背景灰色加深，增加对比度 */
+      border: 1px solid #e0e0e0; /* 边框颜色也相应调整 */
       border-radius: 8px;
-      /* 需求: 调整内边距，让文字离左侧更近，左右更均衡 */
+      /* <-- 优化(7): 调整内边距，让左右更均衡，文字离左边缘更近 */
       padding: 1.25em 1em;
     }
     .doc-nav-container h3 {
-      /* 需求: 在PC上隐藏掉头部h3的那个书名 */
-      display: none;
+      /* <-- 优化(5): 在PC上隐藏头部的书名 */
+      display: none; 
+      padding: 0 0.75em; margin: 0 0 1em;
+      font-size: 1.3em; font-weight: 700; color: #2c3e50;
     }
     .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
-    .doc-nav-container li { 
-      position: relative; 
-      padding: 0;
-      margin: 0;
-    }
+    .doc-nav-container li { position: relative; }
     .doc-nav-container a {
       display: block; text-decoration: none;
-      padding: 0.5em 0.75em;
-      margin-bottom: 2px;
+      padding: 0.6em 0.75em;
+      margin-bottom: 4px;
       border-radius: 6px;
-      /* 需求: 提升区分度，非当前项为深灰色 */
-      color: #343a40; 
-      line-height: 1.45;
-      font-weight: 400;
+      color: #343a40; /* <-- 优化(1): 默认文字颜色改为近黑色 */
+      line-height: 1.4;
       transition: background-color 0.2s, color 0.2s;
     }
-    /* 需求: 鼠标悬停的目录应该有个hover色 */
+    /* <-- 优化(1): 鼠标悬停样式 */
     .doc-nav-container a:hover { 
-      background-color: #DFE3E8;
-      color: #0056b3;
+      background-color: #e9ecef; 
+      color: #000; 
     }
-    /* 需求: 当前区域样式优化，不要扎眼背景，区分度高 */
+    /* <-- 优化(1): 当前页面链接样式 (蓝底白字) */
     .doc-nav-container li.active > a {
-      color: #0056b3; /* 仅文字变色 */
-      font-weight: 700;  /* 加粗以突出 */
-      background-color: transparent; /* 确保无背景色 */
+      background-color: #3a77d8; 
+      color: #fff; 
+      font-weight: 600;
     }
-    /* 使用伪元素创建左侧竖条，作为当前项的视觉焦点 */
-    .doc-nav-container li.active > a::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      height: 70%;
-      width: 4px;
-      background-color: #0056b3;
-      border-radius: 2px;
-    }
-    /* 父级激活项（当前页面是其子项） */
     .doc-nav-container li.parent-active > a {
-        font-weight: 700; /* 只加粗，不改变颜色和背景 */
-        color: #343a40; 
+        background-color: #e0e9f8; 
+        color: #1c3d70;
     }
-    /* 需求: 不同级别目录的缩进比现在小, 且去掉左侧的线 */
     .doc-nav-container ul ul {
-      /* padding-left 从 1.2em 减小到 0.7em */
-      padding-left: 0.7em; 
-      margin-top: 2px;
-      margin-bottom: 2px;
-      border-left: none; /* 去掉细线 */
+      /* <-- 优化(4): 不同级别目录缩进比现在小50% */
+      padding-left: 0.6em; 
+      margin-top: 4px;
+      /* <-- 优化(6): 去掉左侧的竖线 */
+      /* border-left: 2px solid #dee2e6; */
     }
   }
 
@@ -158,7 +139,7 @@ layout: default
   .toc-mobile-container h3 { margin-top: 0; }
   @media screen and (min-width: 1200px) { .toc-mobile-container { display: none; } }
 
-  /* --- ULTRA-WIDE SCREEN ENHANCEMENTS --- */
+  /* --- ULTRA-WIDE SCREEN ENHANCEMENTS (方案 A) --- */
   @media screen and (min-width: 1600px) {
     .doc-nav-container { flex-basis: 320px; }
     .main.container--doc { max-width: 1400px; margin-left: auto; margin-right: auto; }
@@ -319,21 +300,37 @@ document.addEventListener('DOMContentLoaded', function() {
   ==========================================================================
   PART 5: DYNAMIC IMAGE PATH CORRECTION SCRIPT (v4 - Universal Rewrite)
   ==========================================================================
+  - This script rewrites all relative image paths starting with './'
+    to an absolute path based on the collection.
+  - It handles any subdirectory structure within your Markdown files.
 -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const collectionName = '{{ page.collection }}';
   if (!collectionName) { return; }
+
+  // Define the base path where all book assets are stored.
   const assetBasePath = `/uploads/${collectionName}/`;
+
   const contentArea = document.querySelector('.article--doc');
   if (!contentArea) { return; }
+  
   const images = contentArea.querySelectorAll('img');
+
   images.forEach(img => {
     const originalSrc = img.getAttribute('src');
+
+    // We only process paths that start with './'
     if (originalSrc && originalSrc.startsWith('./')) {
+      
+      // Remove the leading './' to get the pure relative path
       const relativePath = originalSrc.substring(2);
+      
+      // Construct the new, absolute path
       const newSrc = assetBasePath + relativePath;
+      
       img.setAttribute('src', newSrc);
+      
       console.log(`Universal Image Rewrite: ${originalSrc} -> ${newSrc}`);
     }
   });
