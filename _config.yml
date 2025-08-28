@@ -66,7 +66,6 @@ plugins:
 - jekyll-seo-tag
 - jekyll-redirect-from
 - jekyll-feed
-- jekyll-toc
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
@@ -139,8 +138,3 @@ fonts:
   - https://fonts.gstatic.com
   font_urls:
   - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
-toc:
-  min_level: 1
-  max_level: 3
-  list_class: list list--toc
-  item_class: item item--toc
