@@ -1,96 +1,88 @@
-# _config.yml (修正和清理后)
-
+---
 title: True Dhamma
 timezone: Asia/Shanghai
-url: "https://true-dhamma.com"
-baseurl: ""
-description: 世间成瘾与出世间觉悟，南传上座部佛法，实修实证，亲知实见，趋向涅槃，从无明中解脱。
-
-# 核心配置
-encoding: utf-8
-lang: zh-CN
-permalink: pretty # /page/
-excerpt_separator: "<!-- more -->"
-paginate: 20
-paginate_path: "/blog/page:num"
-
-# 插件
-plugins:
-  - jekyll-sitemap
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-  - jekyll-feed
-  - jekyll-commonmark
-  - jekyll-include-cache
-  - jemoji
-
-# collections 定义 (清晰、无冲突)
 collections:
-  posts:
-    output: true
-    permalink: /:categories/:year/:month/:day/:title/
   buddhadhamma:
+    title: Buddhadhamma
     output: true
     permalink: "/:collection/:name/"
+  posts:
+    title: Posts
+    output: true
   testbook:
+    title: Testbook
     output: true
     permalink: "/:collection/:name/"
-  uploads:
-    output: false # 通常 uploads 不需要生成单独页面
   uploads:
     title: Uploads
     output: true
-    defaults:
-
-# Defaults (为每个 collection 设置默认值)
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      feature_image: "/uploads/top_banner_blog.jpg"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "buddhadhamma"
-    values:
-      layout: "doc"
-      feature_image: "/uploads/top_banner_dhamma.jpg"
-      toc: true # 默认开启TOC，可在具体文件中用 toc:false 关闭
-  - scope:
-      path: ""
-      type: "testbook"
-    values:
-      layout: "doc"
-
-# 作者和社交信息
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    feature_image: "/uploads/top_banner_blog.jpg"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: buddhadhamma
+  values:
+    layout: doc
+    feature_image: "/uploads/top_banner_dhamma.jpg"
+    toc: true
+- scope:
+    path: ''
+    type: testbook
+  values:
+    layout: doc
+url: https://true-dhamma.com
+baseurl: ''
+description: 世间成瘾与出世间觉悟，南传上座部佛法，实修实证，亲知实见，趋向涅槃，从无明中解脱。
+encoding: utf-8
+lang: zh-CN
+permalink: pretty
+excerpt_separator: "<!-- more -->"
+paginate: 20
+paginate_path: "/blog/page:num"
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
 author: 智宁居士
 email: zhining@true-dhamma.com
 logo: "/uploads/Dhamma_Wheel.svg.webp"
-
-# 导航
 navigation_header:
-  - {title: 首页, url: "/"}
-  - {title: 成瘾, url: "/addiction/"}
-  - {title: 文章, url: "/blog/"}
-  - {title: 巴利圣典, url: "/tipitaka/"}
-  - {title: 网盘, url: "https://download.true-dhamma.com/"}
-  - {title: 搜索&提问, url: "/search/"}
-  - {title: 关于本站, url: "/about/"}
+- title: 首页
+  url: "/"
+- title: 成瘾
+  url: "/addiction/"
+- title: 文章
+  url: "/blog/"
+- title: 巴利圣典
+  url: "/tipitaka/"
+- title: 网盘
+  url: https://download.true-dhamma.com/
+- title: 搜索&提问
+  url: "/search/"
+- title: 关于本站
+  url: "/about/"
 navigation_footer:
-  - {title: Created by 智宁居士, url: "mailto:zhining@gmx.com"}
-
-# 其他配置
+- title: Created by 智宁居士
+  url: mailto:zhining@gmx.com
 exclude:
-  - README.md
-  - LICENSE
-  - Gemfile
-  - Gemfile.lock
-  - ".jekyll-cache"
+- README.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
+- ".jekyll-cache"
