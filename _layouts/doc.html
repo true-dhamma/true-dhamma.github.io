@@ -65,43 +65,44 @@ layout: default
       flex: 0 0 280px;
       position: sticky; top: 2rem;
       max-height: calc(100vh - 4rem);
-      font-size: 18px; /* <-- 保留：字号 */
+      font-size: 18px; /* 保留字号 */
       transition: flex-basis 0.3s ease;
     }
     .doc-nav-scroll-area {
       height: 100%; overflow-y: auto;
-      background-color: #f1f3f5; /* <-- 保留：背景色 */
+      background-color: #f1f3f5; /* 保留背景色 */
       border: 1px solid #e0e0e0;
       border-radius: 8px;
-      padding: 1em; /* 保持基本内边距 */
+      padding: 1em;
     }
     .doc-nav-container h3 {
-      display: none; /* 保持隐藏PC端书名 */
+      display: none;
     }
     .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
     .doc-nav-container li { position: relative; }
 
-    /* --- 回归原始、最简化的样式 --- */
-    /* (默认状态) 黑色文字 */
+    /* --- 全新、精确、极简的样式 --- */
+    /* (默认状态) #666灰色，不加粗 */
     .doc-nav-container a {
       display: block;
-      padding: 0.4em 0.5em; /* 极简的内边距 */
-      text-decoration: none;
-      color: #212529; /* <-- 修正：明确指定默认颜色为黑色，解决继承问题 */
-      background-color: transparent; /* 确保无背景 */
-      border: none; /* 确保无边框 */
-      transition: color 0.2s; /* 平滑过渡 */
+      padding: 0.4em 0.5em;
+      text-decoration: none; /* 确保无原生下划线 */
+      color: #666666; /* <-- 您的要求: 默认颜色 */
+      font-weight: 400; /* <-- 您的要求: 默认不加粗 */
+      border-bottom: 2px solid transparent; /* 关键：为模拟下划线预留空间，防止跳动 */
+      transition: color 0.2s, border-bottom-color 0.2s;
     }
-    /* (悬停状态) 仅添加下划线 */
+    /* (鼠标悬停) 模拟下划线 */
     .doc-nav-container a:hover {
-      text-decoration: underline;
+      color: #000; /* 悬停时文字也变黑，反馈更清晰 */
+      border-bottom-color: #ccc; /* <-- 您的要求: 模拟下划线 (用浅灰色) */
     }
-    /* (当前状态) 仅改变文字颜色为蓝色并加粗 */
+    /* (选中状态) 纯黑，加粗 */
     .doc-nav-container li.active > a {
-      color: #0d6efd;
-      font-weight: 600;
+      color: #000000; /* <-- 您的要求: 选中后纯黑 */
+      font-weight: 600; /* <-- 您的要求: 选中后加粗 */
     }
-    /* (子目录) 仅保留最基本的缩进 */
+    /* (子目录) 基本缩进 */
     .doc-nav-container ul ul {
       padding-left: 1em;
     }
@@ -126,7 +127,7 @@ layout: default
   .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; text-decoration: none; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; }
   .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; }
   .toc-mobile-container { display: block; margin: 2em 0; padding: 1em; border: 1px solid #eee; border-radius: 4px; background-color: #f9f9f9; }
-  .toc-mobile-container h3 { margin-top: 0; }
+  .doc-mobile-container h3 { margin-top: 0; }
   @media screen and (min-width: 1200px) { .toc-mobile-container { display: none; } }
 
   /* --- ULTRA-WIDE SCREEN ENHANCEMENTS (方案 A) --- */
