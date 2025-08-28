@@ -7,12 +7,16 @@ layout: default
   PART 1: DATA PREPARATION (Jekyll/Liquid)
   ============================================================================
 {%- endcomment %}
+{%- assign collection_name = page.collection -%}
+{%- assign collection_title = collection_name | capitalize -%}
+{%- assign page_title = page.content | split: '
+' | first | remove_first: '#' | remove_first: '#' | remove_first: '#' | remove_first: '#' | strip %}
 
 {%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 --- {% endcomment %}
 {%- assign has_right_toc = false -%}
 {%- assign right_toc_html = "" -%}
-{%- if page.toc == true and (content contains '<h2' or content contains '<h3' or content contains '<h4') -%}
-  {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
+{%- if page.toc == true and (page.content contains '<h2' or page.content contains '<h3' or page.content contains '<h4') -%}
+  {%- capture captured_toc -%}{% include toc.html content=page.content %}{%- endcapture -%}
   {%- assign toc_trimmed = captured_toc | strip -%}
   {%- if toc_trimmed != "" -%}
     {%- assign has_right_toc = true -%}
@@ -20,200 +24,132 @@ layout: default
   {%- endif -%}
 {%- endif -%}
 
-{%- comment %} --- 左侧书籍导航的数据准备 --- {% endcomment %}
-{%- assign collection_name = page.collection -%}
-{%- assign collection_title = collection_name | capitalize -%}
-{%- assign docs_sorted = site[collection_name] | sort: 'order' -%}
-
-{%- comment %} --- 递归 Include 的定义 (用于生成多级列表) --- {% endcomment %}
-{%- include build-nav-tree.html docs=docs_sorted parent_id=nil current_page=page -%}
-{%- assign nav_list_items = nav_tree -%}
-
-
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS (最终美化版)
+  PART 2: INLINE CSS (最终专业版)
   ============================================================================
 {%- endcomment %}
 <style>
   :root {
-    --doc-nav-accent-color: #3a77d8;
-    --doc-nav-text-color: #343a40;
-    --doc-nav-text-light-color: #6c757d;
-    --doc-nav-bg-color: #f8f9fa;
-    --doc-nav-border-color: #e9ecef;
-    --doc-nav-hover-bg-color: #e9ecef;
-    --doc-nav-active-bg-color: #e7f1ff;
+    --doc-nav-accent: #3a77d8;
+    --doc-nav-text: #343a40;
+    --doc-nav-text-subtle: #6c757d;
+    --doc-nav-bg-hover: #e9ecef;
+    --doc-nav-ancestor-bg: rgba(58, 119, 216, 0.08);
   }
 
-  /* --- BASE DOC LAYOUT STYLES --- */
+  /* --- BASE DOC LAYOUT --- */
   @media screen and (min-width: 1200px) {
     .main.container--doc { position: relative; display: flex; align-items: flex-start; gap: 2.5em; }
     .article--doc { flex: 1 1 auto; min-width: 0; }
   }
+  @media screen and (min-width: 1600px) {
+    .main.container--doc { max-width: 1400px; margin-left: auto; margin-right: auto; }
+  }
 
-  /*
-   * ==========================================================================
-   *  PC LEFT NAVIGATION - REFINED AESTHETICS
-   * ==========================================================================
-   */
+  /* --- PC LEFT NAVIGATION --- */
   .doc-nav-container { display: none; }
   @media screen and (min-width: 1200px) {
     .doc-nav-container {
-      display: block;
-      flex: 0 0 280px;
-      position: sticky; top: 2rem;
-      max-height: calc(100vh - 4rem);
-      font-size: 16px; /* 增大基础字号 */
-      transition: flex-basis 0.3s ease;
+      display: block; flex: 0 0 280px; position: sticky; top: 2rem;
+      max-height: calc(100vh - 4rem); font-size: 16px;
     }
     .doc-nav-scroll-area {
-      height: 100%; overflow-y: auto;
-      background-color: var(--doc-nav-bg-color);
-      border: 1px solid var(--doc-nav-border-color);
-      border-radius: 8px;
-      padding: 1.5em;
+      height: 100%; overflow-y: auto; padding-right: 1em;
     }
     .doc-nav-container h3 {
-      padding: 0; margin: 0 0 1em;
-      font-size: 1.25em; font-weight: 700; color: var(--doc-nav-text-color);
+      margin: 0 0 1em; font-size: 1.4em; font-weight: 700; color: var(--doc-nav-text);
     }
-    .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
+    .doc-nav-container ul, .doc-nav-container li { list-style: none; padding: 0; margin: 0; }
+    .doc-nav-container ul { position: relative; }
+    .doc-nav-container ul ul { margin-left: 20px; } /* Indentation */
     .doc-nav-container a {
-      display: block; text-decoration: none;
-      padding: 0.5em 0.75em;
-      margin-left: -0.75em; /* 抵消内边距，让背景色能通栏 */
-      border-radius: 6px;
-      color: var(--doc-nav-text-light-color);
-      line-height: 1.5; /* 增加行高以适应长标题换行 */
-      transition: background-color 0.2s, color 0.2s;
+      display: block; text-decoration: none; padding: 8px 12px;
+      border-radius: 6px; color: var(--doc-nav-text-subtle);
+      line-height: 1.5; transition: all 0.2s ease;
+      border-left: 3px solid transparent;
     }
     .doc-nav-container a:hover {
-      background-color: var(--doc-nav-hover-bg-color);
-      color: var(--doc-nav-text-color);
+      color: var(--doc-nav-text); background-color: var(--doc-nav-bg-hover);
     }
-    /* 当前页面链接 - 更柔和的样式 */
-    .doc-nav-container li.active > a {
-      color: var(--doc-nav-accent-color);
-      background-color: var(--doc-nav-active-bg-color);
-      font-weight: 600;
+    .doc-nav-container li.is-ancestor > a {
+      color: var(--doc-nav-text); background-color: var(--doc-nav-ancestor-bg);
     }
-    /* 当前页面的父级链接 */
-    .doc-nav-container li.parent-active > a {
-      color: var(--doc-nav-text-color);
-      font-weight: 500;
-    }
-    /* 多级目录样式 - 使用连接线 */
-    .doc-nav-container ul ul {
-      padding-left: 1em;
-      margin-left: 0.5em;
-      margin-top: 0.5em;
-      border-left: 1px solid var(--doc-nav-border-color);
+    .doc-nav-container li.is-active > a {
+      color: var(--doc-nav-accent); font-weight: 600;
+      border-left-color: var(--doc-nav-accent);
     }
   }
+  @media screen and (min-width: 1600px) {
+    .doc-nav-container { flex-basis: 320px; }
+  }
 
-  /*
-   * ==========================================================================
-   *  MOBILE NAVIGATION - FAB & PROFESSIONAL OFF-CANVAS MENU
-   * ==========================================================================
-   */
+  /* --- MOBILE NAVIGATION --- */
   .doc-nav-fab {
     position: fixed; bottom: 30px; left: 20px;
     width: 56px; height: 56px;
-    background-color: #ffffff; /* 浅色背景 */
-    color: #343a40; /* 深色图标 */
-    border-radius: 50%; border: none;
+    background-color: #ffffff; color: #495057;
+    border-radius: 50%; border: 1px solid #dee2e6;
     display: flex; justify-content: center; align-items: center;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.15); /* 更精致的阴影 */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     cursor: pointer; z-index: 1001;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease;
   }
-  .doc-nav-fab:hover { transform: scale(1.05); }
+  .doc-nav-fab:hover { transform: scale(1.05); box-shadow: 0 6px 16px rgba(0,0,0,0.12); }
   .doc-nav-fab .icon { width: 24px; height: 24px; fill: currentColor; }
   
   .doc-nav-mobile-menu {
     position: fixed; top: 0; left: 0;
-    width: 85%; max-width: 340px; height: 100vh;
-    background-color: #ffffff;
+    width: 100%; height: 100%;
+    background-color: #f8f9fa; color: var(--doc-nav-text);
     z-index: 1002;
     transform: translateX(-100%);
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex; flex-direction: column;
   }
   .doc-nav-mobile-menu.is-open { transform: translateX(0); }
-
-  /* 移动菜单头部 */
   .doc-nav-mobile-header {
-    flex-shrink: 0;
-    padding: 1rem 1.5rem;
-    border-bottom: 1px solid var(--doc-nav-border-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-shrink: 0; display: flex; justify-content: space-between; align-items: center;
+    padding: 1rem 1.5rem; border-bottom: 1px solid #dee2e6;
   }
-  .doc-nav-mobile-header h3 { font-size: 1.1rem; margin: 0; color: var(--doc-nav-text-color); }
-  #doc-nav-mobile-close-btn {
-    background: none; border: none; padding: 8px; cursor: pointer;
-    color: var(--doc-nav-text-light-color);
+  .doc-nav-mobile-header h3 { font-size: 1.2rem; margin: 0; }
+  .doc-nav-mobile-close {
+    background: none; border: none; cursor: pointer; padding: 8px;
+    color: var(--doc-nav-text-subtle);
   }
-  #doc-nav-mobile-close-btn .icon { width: 24px; height: 24px; }
-
-  /* 移动菜单内容区 */
+  .doc-nav-mobile-close:hover { color: var(--doc-nav-text); }
   .doc-nav-mobile-menu .doc-nav-scroll-area {
-    flex-grow: 1;
-    overflow-y: auto;
-    padding: 1rem 1.5rem;
+    flex-grow: 1; overflow-y: auto; padding: 1rem 1.5rem;
   }
-  /* 移动菜单列表项样式 */
-  .doc-nav-mobile-menu ul { list-style: none; padding: 0; margin: 0; }
+  .doc-nav-mobile-menu ul, .doc-nav-mobile-menu li { list-style:none; margin:0; padding:0; }
+  .doc-nav-mobile-menu ul ul { margin-left: 20px; }
   .doc-nav-mobile-menu a {
-    display: block; text-decoration: none;
-    padding: 0.75rem 0; /* 增大点击区域 */
-    color: var(--doc-nav-text-color);
-    border-bottom: 1px solid var(--doc-nav-border-color);
+    padding: 12px 10px; display:block; text-decoration: none;
+    font-size: 1.1rem; color: var(--doc-nav-text-subtle);
   }
-  .doc-nav-mobile-menu li:last-child > a { border-bottom: none; }
-  .doc-nav-mobile-menu li.active > a {
-    color: var(--doc-nav-accent-color);
-    font-weight: 600;
-  }
-  .doc-nav-mobile-menu ul ul {
-    padding-left: 1.25rem;
-  }
-  .doc-nav-mobile-menu ul ul a {
-    font-size: 0.95em;
-    color: var(--doc-nav-text-light-color);
-  }
-  .doc-nav-mobile-menu li.active ul a { /* 让子项恢复正常颜色 */
-     color: var(--doc-nav-text-color);
-  }
-
-  .doc-nav-overlay {
-    position: fixed; top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 1000; opacity: 0; visibility: hidden;
-    transition: opacity 0.3s, visibility 0.3s;
-  }
-  .doc-nav-overlay.is-visible { opacity: 1; visibility: visible; }
+  .doc-nav-mobile-menu li.is-ancestor > a { color: var(--doc-nav-text); }
+  .doc-nav-mobile-menu li.is-active > a { color: var(--doc-nav-accent); font-weight: 600; }
 
   @media screen and (min-width: 1200px) {
-    .doc-nav-fab, .doc-nav-mobile-menu, .doc-nav-overlay { display: none; }
+    .doc-nav-fab, .doc-nav-mobile-menu { display: none; }
   }
 
-  /* --- RIGHT TOCBOT STYLES (No Change) --- */
+  /* --- RIGHT TOCBOT STYLES (NO CHANGE) --- */
   .doc-chapter-toc { display: none; }
-  @media screen and (min-width: 1200px) { .main.container--doc.has-right-toc .doc-chapter-toc { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto; } }
-  .doc-chapter-toc h3 { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
-  .toc-list { margin: 0; padding: 0; list-style: none; } .toc-list-item { margin-bottom: 5px; } .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; text-decoration: none; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; } .toc-link:hover { color: #333; border-left-color: #AAA; } .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; } .toc-list .toc-list { padding-left: 1.25em; }
-  .toc-mobile-container { margin: 2em 0; padding: 1em; border: 1px solid #eee; border-radius: 4px; background-color: #f9f9f9; } .toc-mobile-container h3 { margin-top: 0; }
-  @media screen and (min-width: 1200px) { .toc-mobile-container { display: none; } }
-
-  /* --- ULTRA-WIDE SCREEN ENHANCEMENTS (方案 A) --- */
-  @media screen and (min-width: 1600px) {
-    .doc-nav-container { flex-basis: 320px; }
-    .main.container--doc { max-width: 1400px; margin-left: auto; margin-right: auto; }
+  @media screen and (min-width: 1200px) {
+    .main.container--doc.has-right-toc .doc-chapter-toc {
+      display: block; flex: 0 0 260px; position: sticky; top: 2rem;
+      max-height: calc(100vh - 4rem); overflow-y: auto;
+    }
   }
+  .doc-chapter-toc h3 { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
+  .toc-list { margin:0; padding:0; list-style:none; }
+  .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; text-decoration: none; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; }
+  .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; }
+  .toc-list .toc-list { padding-left: 1.25em; }
+  .toc-mobile-container { margin: 2em 0; padding: 1em; border: 1px solid #eee; border-radius: 4px; background-color: #f9f9f9; }
+  .toc-mobile-container h3 { margin-top: 0; }
+  @media screen and (min-width: 1200px) { .toc-mobile-container { display: none; } }
 </style>
 
 {%- comment %}
@@ -226,22 +162,20 @@ layout: default
 
 <main class="main container container--doc {% if has_right-toc %}has-right-toc{% endif %}">
   
-  <!-- Left Sidebar: DESKTOP Book Navigation -->
-  <aside class="doc-nav-container">
+  <aside id="doc-nav-desktop-container" class="doc-nav-container">
     <div class="doc-nav-scroll-area">
       <h3>{{ collection_title }}</h3>
-      <ul>{{ nav_list_items }}</ul>
+      {% include build-nav-tree.html collection=collection_name %}
     </div>
   </aside>
 
-  <!-- Center: Main article content -->
   <article class="article article--doc content typeset js-toc-content">
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page_title }}</h1>
     {% if has_right_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
-    {{ content }}
+    {{ content | remove_first: page.content | split: '
+' | first }}
   </article>
 
-  <!-- Right Sidebar: Chapter TOC (Tocbot) -->
   {% if has_right_toc %}
   <aside class="doc-chapter-toc">
     <h3>本章目录</h3>
@@ -251,23 +185,20 @@ layout: default
 
 </main>
 
-<!-- MOBILE Navigation Elements -->
 <div class="doc-nav-mobile-container">
-  <div id="doc-nav-overlay" class="doc-nav-overlay"></div>
   <nav id="doc-nav-mobile-menu" class="doc-nav-mobile-menu">
     <div class="doc-nav-mobile-header">
       <h3>{{ collection_title }}</h3>
-      <button id="doc-nav-mobile-close-btn" aria-label="关闭目录">
-        <svg class="icon" xmlns="http://www.w.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+      <button id="doc-nav-mobile-close" class="doc-nav-mobile-close" aria-label="关闭目录">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
       </button>
     </div>
     <div class="doc-nav-scroll-area">
-      <ul>{{ nav_list_items }}</ul>
+      {% include build-nav-tree.html collection=collection_name %}
     </div>
   </nav>
   <button id="doc-nav-fab" class="doc-nav-fab" aria-label="打开目录">
-    <!-- 新的书本/列表图标 -->
-    <svg class="icon" xmlns="http://www.w.org/2000/svg" viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5v14a1 1 0 0 1-1 1H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h11a1 1 0 0 1 1 1zM8 7a1 1 0 0 0-1 1v10h10V7H8z"></path><path d="M17.5 17a.5.5 0 0 0 .5-.5V7a.5.5 0 0 0-1 0v9.5a.5.5 0 0 0 .5.5z"></path></svg>
   </button>
 </div>
 
@@ -283,38 +214,80 @@ layout: default
 {% if has_right_toc %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', function() { /* ... Tocbot JS (No Change) ... */ });
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.innerWidth >= 1200 && document.querySelector('.js-toc')) {
+    tocbot.init({ tocSelector: '.js-toc', contentSelector: '.js-toc-content', headingSelector: 'h2, h3, h4', hasInnerContainers: true, scrollSmooth: true, scrollSmoothOffset: -80 });
+  } else {
+    const mobileAnchor = document.getElementById('mobile-toc-anchor');
+    const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
+    if (mobileAnchor && rawTocHtml) {
+      const mobileWrapper = document.createElement('div');
+      mobileWrapper.className = 'toc-mobile-container';
+      mobileWrapper.innerHTML = `<h3>本章目录</h3>${rawTocHtml}`;
+      mobileAnchor.parentNode.insertBefore(mobileWrapper, mobileAnchor.nextSibling);
+      mobileAnchor.parentNode.removeChild(mobileAnchor);
+    }
+  }
+});
 </script>
 {% endif %}
 
-<!-- 2. Mobile Navigation FAB & Menu JS (带关闭按钮逻辑) -->
+<!-- 2. Navigation Tree Builder & Mobile Menu JS -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    function buildNavTree(container) {
+        const list = container.querySelector('ul');
+        if (!list) return;
+
+        const allItems = Array.from(list.children);
+        let lastParent = list;
+        let lastLevel = 0;
+        const parentStack = [list];
+
+        allItems.forEach(item => {
+            const level = parseInt(item.dataset.level, 10);
+            
+            if (level > lastLevel) {
+                const newUl = document.createElement('ul');
+                parentStack[parentStack.length - 1].lastElementChild.appendChild(newUl);
+                parentStack.push(newUl);
+            } else if (level < lastLevel) {
+                for (let i = 0; i < lastLevel - level; i++) {
+                    parentStack.pop();
+                }
+            }
+            
+            parentStack[parentStack.length - 1].appendChild(item);
+            lastLevel = level;
+        });
+    }
+
+    const desktopNav = document.getElementById('doc-nav-desktop-container');
+    const mobileNav = document.getElementById('doc-nav-mobile-menu');
+
+    if (desktopNav) buildNavTree(desktopNav);
+    if (mobileNav) buildNavTree(mobileNav);
+
     const fab = document.getElementById('doc-nav-fab');
     const menu = document.getElementById('doc-nav-mobile-menu');
-    const overlay = document.getElementById('doc-nav-overlay');
-    const closeBtn = document.getElementById('doc-nav-mobile-close-btn');
+    const closeBtn = document.getElementById('doc-nav-mobile-close');
 
-    if (!fab || !menu || !overlay || !closeBtn) return;
+    if (!fab || !menu || !closeBtn) return;
 
     function openMenu() {
         menu.classList.add('is-open');
-        overlay.classList.add('is-visible');
         document.body.style.overflow = 'hidden';
     }
 
     function closeMenu() {
         menu.classList.remove('is-open');
-        overlay.classList.remove('is-visible');
         document.body.style.overflow = '';
     }
 
     fab.addEventListener('click', openMenu);
-    overlay.addEventListener('click', closeMenu);
     closeBtn.addEventListener('click', closeMenu);
-
     menu.addEventListener('click', function(event) {
-        if (event.target.closest('a')) { closeMenu(); }
+        if (event.target.tagName === 'A') { closeMenu(); }
     });
     document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape' && menu.classList.contains('is-open')) { closeMenu(); }

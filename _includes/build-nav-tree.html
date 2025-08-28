@@ -1,52 +1,45 @@
 {%- comment %}
-  _includes/build_nav_tree.html
-  - 递归构建导航树
-  - 参数:
-    - docs: 所有文档的集合 (site.buddhadhamma | sort: 'order')
-    - parent_id: 当前要查找的父ID (顶级为 nil)
-    - current_page: 当前页面对象 (page)
-{%- endcomment -%}
+  _includes/build-nav-tree.html
+  - 生成一个扁平化的<ul>列表，但通过 data-level 属性和 class 记录了层级和状态。
+  - JavaScript 将会用这些信息来构建可视化的嵌套树。
+{%- endcomment %}
 
-{%- assign docs_to_render = include.docs | where_exp: "item", "item.parent == include.parent_id" -%}
+<ul>
+{% assign docs = site[include.collection] | sort: 'path' %}
+{% for doc in docs %}
+  {%- comment %}从内容中提取第一个标题作为文档标题{% endcomment %}
+  {% assign first_line = doc.content | split: '
+' | first %}
+  {% assign title = first_line | remove_first: '#' | remove_first: '#' | remove_first: '#' | remove_first: '#' | strip %}
 
-{%- if docs_to_render.size > 0 -%}
-  <ul>
-    {%- for doc in docs_to_render -%}
-      {%- assign is_parent_of_current = false -%}
-      {%- if include.current_page.parent and include.current_page.parent == doc.doc_id -%}
-        {%- assign is_parent_of_current = true -%}
-      {%- endif -%}
+  {%- comment %}从文件名计算层级{% endcomment %}
+  {% assign parts = doc.name | split: '-' %}
+  {% assign level = 0 %}
+  {% for part in parts %}
+    {% assign is_numeric = part | plus: 0 %}
+    {% if is_numeric > 0 or part == "0" or part == "00" %}
+      {% assign level = level | plus: 1 %}
+    {% else %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% if level == 0 %}{% assign level = 1 %}{% endif %}
 
-      {%- assign parent_ids = "" | split: "," -%}
-      {%- assign current_doc = include.current_page -%}
-      {%- for i in (1..10) -%}
-        {%- if current_doc.parent -%}
-          {%- assign parent_ids = parent_ids | push: current_doc.parent -%}
-          {%- assign parent_doc = include.docs | where_exp: "item", "item.doc_id == current_doc.parent" | first -%}
-          {%- assign current_doc = parent_doc -%}
-        {%- else -%}
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
-      
-      {%- assign is_ancestor = false -%}
-      {%- if parent_ids contains doc.doc_id -%}
-        {%- assign is_ancestor = true -%}
-      {%- endif -%}
+  {%- comment %}检查是否是当前页面或当前页面的祖先{% endcomment %}
+  {% assign is_active = '' %}
+  {% if page.path == doc.path %}
+    {% assign is_active = 'is-active' %}
+  {% elsif page.path contains doc.path | split: '.' | first %}
+    {%- comment %}更精确的祖先判断，避免 "01" 匹配到 "01-01" 的同时还匹配到 "10" {% endcomment %}
+    {% assign current_path_prefix = page.path | split: doc.name | first %}
+    {% assign doc_path_prefix = doc.path | split: doc.name | first %}
+    {% if current_path_prefix == doc_path_prefix %}
+        {% assign is_active = 'is-ancestor' %}
+    {% endif %}
+  {% endif %}
 
-      <li class="{% if include.current_page.url == doc.url %}active{% elsif is_parent_of_current or is_ancestor %}parent-active{% endif %}">
-        <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
-        
-        {%- comment %} --- 递归调用 --- {% endcomment %}
-        {%- include build_nav_tree.html docs=include.docs parent_id=doc.doc_id current_page=include.current_page -%}
-        {%- assign nav_tree = "" -%}
-      </li>
-    {%- endfor -%}
-  </ul>
-{%- endif -%}
-
-{%- if include.parent_id == nil -%}
-  {%- capture nav_tree -%}
-    {{ content }}
-  {%- endcapture -%}
-{%- endif -%}
+  <li data-level="{{ level }}" class="{{ is_active }}">
+    <a href="{{ doc.url | relative_url }}">{{ title }}</a>
+  </li>
+{% endfor %}
+</ul>
