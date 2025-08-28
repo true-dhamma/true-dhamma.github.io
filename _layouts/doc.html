@@ -65,55 +65,45 @@ layout: default
       flex: 0 0 280px;
       position: sticky; top: 2rem;
       max-height: calc(100vh - 4rem);
-      font-size: 18px;
+      font-size: 18px; /* <-- 保留：字号 */
       transition: flex-basis 0.3s ease;
     }
     .doc-nav-scroll-area {
       height: 100%; overflow-y: auto;
-      background-color: #f1f3f5;
+      background-color: #f1f3f5; /* <-- 保留：背景色 */
       border: 1px solid #e0e0e0;
       border-radius: 8px;
-      /* <-- 新要求(3): 减少左右内边距，让内容更靠近左边缘 */
-      padding: 1.25em 0.5em;
+      padding: 1em; /* 保持基本内边距 */
     }
     .doc-nav-container h3 {
-      display: none;
+      display: none; /* 保持隐藏PC端书名 */
     }
     .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
     .doc-nav-container li { position: relative; }
 
-    /* --- 新极简设计方案 --- */
+    /* --- 回归原始、最简化的样式 --- */
     /* (默认状态) 黑色文字 */
     .doc-nav-container a {
-      display: block; text-decoration: none;
-      padding: 0.6em 0.75em;
-      margin-bottom: 4px;
-      border-radius: 6px;
-      color: #212529; /* <-- 新要求(2): 默认文字为黑色 */
-      line-height: 1.4;
-      /* <-- 新要求(1): 移除所有边框 */
-      transition: background-color 0.2s, color 0.2s;
+      display: block;
+      padding: 0.4em 0.5em; /* 极简的内边距 */
+      text-decoration: none;
+      color: #212529; /* <-- 修正：明确指定默认颜色为黑色，解决继承问题 */
+      background-color: transparent; /* 确保无背景 */
+      border: none; /* 确保无边框 */
+      transition: color 0.2s; /* 平滑过渡 */
     }
-    /* (悬停状态) 白色背景 */
+    /* (悬停状态) 仅添加下划线 */
     .doc-nav-container a:hover {
-      background-color: #fff; /* <-- 新要求(4): 悬停时背景变为白色 */
-      color: #212529;
+      text-decoration: underline;
     }
-    /* (当前状态) 蓝色文字 */
+    /* (当前状态) 仅改变文字颜色为蓝色并加粗 */
     .doc-nav-container li.active > a {
-      background-color: transparent; /* 确保无背景色 */
-      color: #0d6efd; /* <-- 新要求(5): 当前项文字为蓝色 */
-      font-weight: 600; /* 保留加粗以增强辨识度 */
+      color: #0d6efd;
+      font-weight: 600;
     }
-    /* (当前项的父级) 仅加粗文字 */
-    .doc-nav-container li.parent-active > a {
-        color: #212529;
-        font-weight: 600;
-    }
-    /* 子目录样式 */
+    /* (子目录) 仅保留最基本的缩进 */
     .doc-nav-container ul ul {
-      padding-left: 0.6em; /* 保持减半的缩进 */
-      margin-top: 4px;
+      padding-left: 1em;
     }
   }
 
