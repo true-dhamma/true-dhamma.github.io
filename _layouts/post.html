@@ -6,7 +6,6 @@ layout: default
   ============================================================================
   PART 1: DATA PREPARATION (Jekyll/Liquid)
   ============================================================================
-  - 生成基础的TOC HTML，为Tocbot提供原材料。
 {%- endcomment %}
 {%- assign has_toc = false -%}
 {%- assign toc_html = "" -%}
@@ -23,7 +22,6 @@ layout: default
   ============================================================================
   PART 2: INLINE CSS
   ============================================================================
-  - 定义PC端的双栏布局、sticky侧边栏，以及Tocbot的美化样式。
 {%- endcomment %}
 {% if has_toc %}
 <style>
@@ -57,6 +55,12 @@ layout: default
       align-self: flex-start;
       max-height: calc(100vh - 4rem); /* Prevent it from being too long */
       overflow-y: auto;
+      
+      /* --- 新增样式：背景、内边距和圆角 --- */
+      background-color: #f9f9f9; /* 一个柔和的浅灰色背景 */
+      padding: 1.25em;             /* 在容器内部增加空间 */
+      border-radius: 8px;          /* 添加圆角使其看起来更像卡片 */
+      border: 1px solid #eee;      /* 一个细微的边框增加分隔感 */
     }
   }
 
@@ -82,23 +86,24 @@ layout: default
   .toc-link {
     display: block;
     padding: 4px 10px;
-    border-left: 2px solid #EEE;
+    border-left: 2px solid transparent; /* 背景色变化后，初始边框颜色可以设为透明 */
     color: #777;
     text-decoration: none;
     font-size: 0.875em;
     line-height: 1.5;
     transition: all 0.2s ease-in-out;
+    border-radius: 4px; /* 为链接本身也添加一点圆角 */
   }
   .toc-link:hover {
     color: #333;
-    border-left-color: #AAA;
+    background-color: #e9e9e9; /* 悬停时改变背景色 */
   }
   /* Active state styles */
   .is-active-link {
     color: #007bff; /* A nice highlight color */
     font-weight: 600;
     border-left-color: #007bff;
-    background-color: #f0f7ff;
+    background-color: #e6f2ff; /* 激活状态的背景色 */
   }
   /* Nested list indentation */
   .toc-list .toc-list {
@@ -127,21 +132,10 @@ layout: default
 
 <main class="main container">
   
-  {%- comment %}
-    ============================================================================
-    PART 3: HTML STRUCTURE
-    ============================================================================
-    - Article content area gets a `js-toc-content` class.
-    - A dedicated aside container is created for the PC TOC.
-    - Both PC and Mobile TOC structures are rendered, CSS controls visibility.
-  {%- endcomment %}
-
-  <!-- The main article content that Tocbot will scan -->
   <article class="article article--post content typeset js-toc-content">
     <h1>{{ page.title }}</h1>
     {% include post-meta.html %}
     
-    <!-- Mobile TOC will be injected here by JS -->
     {% if has_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
 
     {{ content }}
@@ -151,10 +145,8 @@ layout: default
   </article>
 
   {% if has_toc %}
-  <!-- PC Sticky TOC Container -->
   <aside class="post-toc-container">
     <h3>Index</h3>
-    <!-- Tocbot will enhance the content of this div -->
     <div class="js-toc">
         {{ toc_html }}
     </div>
@@ -167,45 +159,26 @@ layout: default
 {% include site-footer.html %}
 
 
-{%- comment %}
-  ============================================================================
-  PART 4: JAVASCRIPT LOGIC
-  ============================================================================
-  - Load Tocbot library from a CDN.
-  - Initialize Tocbot for desktop view.
-  - Handle mobile view by injecting the raw HTML into a container.
-{%- endcomment %}
 {% if has_toc %}
-<!-- 1. Load Tocbot library from CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 
-<!-- 2. Initialize Tocbot or handle mobile view -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const desktopBreakpoint = 1024;
   const isDesktop = window.innerWidth >= desktopBreakpoint;
 
   if (isDesktop && document.querySelector('.js-toc')) {
-    // === DESKTOP: Initialize Tocbot ===
     tocbot.init({
-      // Where to render the table of contents.
       tocSelector: '.js-toc',
-      // Where to grab the headings from.
       contentSelector: '.js-toc-content',
-      // Which headings to grab inside of the contentSelector element.
       headingSelector: 'h2, h3, h4',
-      // For more decorative styles.
       hasInnerContainers: true,
-      // Smooth scrolling enabled
       scrollSmooth: true,
-      // Offset for sticky headers (if you have one)
       scrollSmoothOffset: -80,
     });
   } else {
-    // === MOBILE: Inject raw TOC HTML into a container ===
     const mobileAnchor = document.getElementById('mobile-toc-anchor');
     const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
-
     if (mobileAnchor && rawTocHtml) {
       let finalTargetElement = mobileAnchor;
       const nextSibling = mobileAnchor.nextElementSibling;
