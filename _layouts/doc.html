@@ -26,7 +26,7 @@ layout: default
 {%- assign docs_sorted = site[collection_name] | sort: 'order' -%}
 
 {%- comment %} --- 递归 Include 的定义 (用于生成多级列表) --- {% endcomment %}
-{%- include build_nav_tree.html docs=docs_sorted parent_id=nil current_page=page -%}
+{%- include build-nav-tree.html docs=docs_sorted parent_id=nil current_page=page -%}
 {%- assign nav_list_items = nav_tree -%}
 
 

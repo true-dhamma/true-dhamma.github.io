@@ -1,0 +1,52 @@
+{%- comment %}
+  _includes/build_nav_tree.html
+  - 递归构建导航树
+  - 参数:
+    - docs: 所有文档的集合 (site.buddhadhamma | sort: 'order')
+    - parent_id: 当前要查找的父ID (顶级为 nil)
+    - current_page: 当前页面对象 (page)
+{%- endcomment -%}
+
+{%- assign docs_to_render = include.docs | where_exp: "item", "item.parent == include.parent_id" -%}
+
+{%- if docs_to_render.size > 0 -%}
+  <ul>
+    {%- for doc in docs_to_render -%}
+      {%- assign is_parent_of_current = false -%}
+      {%- if include.current_page.parent and include.current_page.parent == doc.doc_id -%}
+        {%- assign is_parent_of_current = true -%}
+      {%- endif -%}
+
+      {%- assign parent_ids = "" | split: "," -%}
+      {%- assign current_doc = include.current_page -%}
+      {%- for i in (1..10) -%}
+        {%- if current_doc.parent -%}
+          {%- assign parent_ids = parent_ids | push: current_doc.parent -%}
+          {%- assign parent_doc = include.docs | where_exp: "item", "item.doc_id == current_doc.parent" | first -%}
+          {%- assign current_doc = parent_doc -%}
+        {%- else -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      
+      {%- assign is_ancestor = false -%}
+      {%- if parent_ids contains doc.doc_id -%}
+        {%- assign is_ancestor = true -%}
+      {%- endif -%}
+
+      <li class="{% if include.current_page.url == doc.url %}active{% elsif is_parent_of_current or is_ancestor %}parent-active{% endif %}">
+        <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+        
+        {%- comment %} --- 递归调用 --- {% endcomment %}
+        {%- include build_nav_tree.html docs=include.docs parent_id=doc.doc_id current_page=include.current_page -%}
+        {%- assign nav_tree = "" -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+
+{%- if include.parent_id == nil -%}
+  {%- capture nav_tree -%}
+    {{ content }}
+  {%- endcapture -%}
+{%- endif -%}
