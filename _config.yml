@@ -7,8 +7,9 @@ collections:
     output: true
     permalink: "/:collection/:name/"
   posts:
-    title: Posts
+    title: 文章
     output: true
+    feature_image: "/uploads/top_banner_blog.jpg"
   uploads:
     title: Uploads
     output: true
@@ -42,10 +43,6 @@ collections:
 uploads:
   title: Uploads
   output: true
-posts:
-  title: 文章
-  output: true
-  feature_image: "/uploads/top_banner_blog.jpg"
 exclude:
 - README.md
 - CODE_OF_CONDUCT.md
