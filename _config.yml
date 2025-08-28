@@ -5,7 +5,7 @@ collections:
   buddhadhamma:
     title: Buddhadhamma
     output: true
-    permalink: "/:collection/:name/"
+    permalink: "/:collection/:path:output_ext"
   posts:
     title: Posts
     output: true
