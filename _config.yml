@@ -62,6 +62,16 @@ plugins:
 author: 智宁居士
 email: zhining@true-dhamma.com
 logo: "/uploads/Dhamma_Wheel.svg.webp"
+css_inline: true
+favicons:
+  '16': "/uploads/siteicon.png"
+  '32': "/uploads/siteicon.png"
+  '96': "/uploads/siteicon.png"
+  '120': "/uploads/siteicon.png"
+  '144': "/uploads/siteicon.png"
+  '180': "/uploads/siteicon.png"
+  '512': "/uploads/siteicon.png"
+  '1024': "/uploads/siteicon.png"
 navigation_header:
 - title: 首页
   url: "/"
@@ -80,6 +90,12 @@ navigation_header:
 navigation_footer:
 - title: Created by 智宁居士
   url: mailto:zhining@gmx.com
+social_links:
+  Twitter: 
+  LinkedIn: 
+  GitHub: 
+  link: https://true-dhamma.github.io
+  RSS: "/feed.xml"
 exclude:
 - README.md
 - LICENSE
