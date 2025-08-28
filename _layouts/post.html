@@ -28,59 +28,45 @@ layout: default
 <!-- ==============  开始：自动生成文章目录 (TOC) 的脚本  ============== -->
 <!-- =================================================================== -->
 <script>
-  // 使用 DOMContentLoaded确保在操作DOM前页面已准备好
   document.addEventListener('DOMContentLoaded', function() {
     
-    // 查找文章内容容器和侧边栏中的目标容器
     const content = document.querySelector('.article--post');
     const tocContainer = document.getElementById('toc-container');
     const tocNav = document.getElementById('toc-nav');
     const relatedPostsContainer = document.getElementById('related-posts-container');
 
-    // 如果侧边栏不存在 (例如 page.aside == false)，则直接退出
     if (!tocContainer || !relatedPostsContainer) {
       return;
     }
 
-    // 在文章内容中查找所有 h2 和 h3 标题
-    // 我们只关心 #, ##, ###，其中 # (h1) 已经是文章标题了，所以只找 h2, h3
     const headings = content.querySelectorAll('h2, h3');
 
-    // 如果没有找到任何 h2 或 h3 标题，则不执行任何操作，保持显示相关文章
     if (headings.length === 0) {
       return;
     }
 
-    // 创建一个 ul 元素来存放目录列表
     const tocList = document.createElement('ul');
-    tocList.className = 'list list--categories'; // 复用现有的样式类
+    tocList.className = 'list list--categories';
 
-    // 遍历所有找到的标题
     headings.forEach(heading => {
-      // 确保标题有 id 属性，这是 Kramdown 自动生成的
       if (!heading.id) {
         return; 
       }
 
-      // 创建列表项 <li>
       const listItem = document.createElement('li');
-      // 根据标题级别 (h2/h3) 添加不同的 class，用于 CSS 缩进
-      listItem.className = 'item item--category toc-level-' + heading.tagName.toLowerCase();
+      // 【修改点】不再添加 toc-level-h* 类，只使用基础类
+      listItem.className = 'item item--category';
 
-      // 创建链接 <a>
       const link = document.createElement('a');
-      link.href = '#' + heading.id;        // 链接到页内锚点
-      link.textContent = heading.textContent; // 链接文字就是标题文字
+      link.href = '#' + heading.id;
+      link.textContent = heading.textContent;
 
-      // 组装：<a> -> <li> -> <ul>
       listItem.appendChild(link);
       tocList.appendChild(listItem);
     });
 
-    // 将生成好的目录列表放入导航容器
     tocNav.appendChild(tocList);
 
-    // 显示目录容器，并隐藏相关文章容器
     tocContainer.style.display = 'block';
     relatedPostsContainer.style.display = 'none';
   });
