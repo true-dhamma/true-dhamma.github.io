@@ -2,20 +2,20 @@
 title: True Dhamma
 timezone: Asia/Shanghai
 collections:
-  buddhadhamma:
-    title: Buddhadhamma
-    output: true
-    permalink: "/buddhadhamma/:path/"
   posts:
     title: Posts
     output: true
-  testbook:
-    title: TestBook
-    output: true
-    permalink: "/testbook/:path/"
   uploads:
     title: Uploads
     output: true
+  buddhadhamma:
+    title: Buddhadhamma
+    output: true
+    permalink: "/:collection/:title/"
+  testbook:
+    title: TestBook
+    output: true
+    permalink: "/:collection/:title/"
 defaults:
 - scope:
     path: ''

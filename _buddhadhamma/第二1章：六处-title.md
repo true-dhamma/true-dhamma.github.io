@@ -1,9 +1,9 @@
 ---
-title: 第二章：六处 Title
+title: 第二1章：六处 Title
 order: 1
+parant: 第二章：六处 Title
 toc: true
 ---
-
 第二章：六处
 
 # 第二章：六处
