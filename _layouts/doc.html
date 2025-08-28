@@ -47,7 +47,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS (已优化版本)
+  PART 2: INLINE CSS (最终优化版)
   ============================================================================
 {%- endcomment %}
 <style>
@@ -57,7 +57,7 @@ layout: default
     .article--doc { flex: 1 1 auto; min-width: 0; }
   }
 
-  /* --- LEFT BOOK NAVIGATION (DESKTOP) - OPTIMIZED --- */
+  /* --- LEFT BOOK NAVIGATION (DESKTOP) - FINAL OPTIMIZED VERSION --- */
   .doc-nav-container { display: none; }
   @media screen and (min-width: 1200px) {
     .doc-nav-container {
@@ -65,55 +65,55 @@ layout: default
       flex: 0 0 280px;
       position: sticky; top: 2rem;
       max-height: calc(100vh - 4rem);
-      /* [优化] 字号已增大 */
       font-size: 18px; 
       transition: flex-basis 0.3s ease;
     }
     .doc-nav-scroll-area {
       height: 100%; overflow-y: auto;
-      /* [优化]  हल्का背景和边框，更柔和 */
-      background-color: #fdfdfd; 
-      border: 1px solid #e9ecef;
+      /* [优化] 加深背景色，与内容区有效分割 */
+      background-color: #f1f3f5;
+      border: 1px solid #e0e2e4;
       border-radius: 8px;
-      padding: 1em 0.5em 1em 1em;
+      /* [优化] 调整内边距，减少左侧空白，使其更平衡 */
+      padding: 1.25em 0.5em 1.25em 0.75em; 
     }
     .doc-nav-container h3 {
-      /* [优化] 隐藏顶部的书名 */
+      /* 隐藏顶部的书名 */
       display: none; 
     }
     .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
     .doc-nav-container li { position: relative; }
     .doc-nav-container a {
       display: block; text-decoration: none;
-      padding: 0.5em 0.75em; /* 调整了内边距以适应新字号 */
+      padding: 0.5em 0.75em;
       margin-bottom: 2px;
       border-radius: 6px;
-      color: #555; /* [优化] 默认文字颜色变深一点 */
-      line-height: 1.45; /* 略微增加行高以改善多行文本的可读性 */
-      transition: background-color 0.2s, color 0.2s, transform 0.2s;
+      color: #343a40; /* 默认文字颜色 */
+      line-height: 1.45;
+      transition: background-color 0.15s, color 0.15s;
     }
-    .doc-nav-container a:hover { 
-      background-color: #f0f0f0; 
-      color: #111;
-      transform: translateX(2px);
+    /* [优化] 悬停效果仅应用于非活动项 */
+    .doc-nav-container li:not(.active) > a:hover { 
+      background-color: #e9ecef; 
+      color: #000;
     }
+    /* [优化] 当前页面样式：浅蓝背景 + 深蓝文字，最突出 */
     .doc-nav-container li.active > a {
-      /* [优化] 活动项样式：去掉背景，只改变文字颜色和粗细 */
-      background-color: transparent; 
-      color: #007bff; /* 主题蓝色 */
+      background-color: #e9f5ff; 
+      color: #0056b3; 
       font-weight: 700;
     }
+    /* [优化] 父级章节样式：无背景，仅深灰色粗体，清晰但不抢眼 */
     .doc-nav-container li.parent-active > a {
-      /* [优化] 父级活动项样式：去掉背景，只改变文字颜色和粗细 */
       background-color: transparent;
-      color: #343a40; /* 更深的灰色 */
+      color: #212529; 
       font-weight: 600;
     }
     .doc-nav-container ul ul {
-      /* [优化] 缩进减少了60%，边框线变细 */
-      padding-left: 0.5em; 
+      /* [优化] 缩进减少60%，并移除左侧引导线 */
+      padding-left: 0.8em; 
       margin-top: 4px;
-      border-left: 1px solid #e0e0e0; 
+      border-left: none; /* 移除引导线 */
     }
   }
 
@@ -123,7 +123,6 @@ layout: default
   .doc-nav-fab .icon { width: 24px; height: 24px; fill: currentColor; }
   .doc-nav-mobile-menu { position: fixed; top: 0; left: 0; width: 80%; max-width: 320px; height: 100%; background-color: white; z-index: 1002; transform: translateX(-100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 20px rgba(0,0,0,0.2); overflow-y: auto; }
   .doc-nav-mobile-menu.is-open { transform: translateX(0); }
-  /* [优化] 移动端菜单也隐藏标题 */
   .doc-nav-mobile-menu .doc-nav-scroll-area h3 { display: none; }
   .doc-nav-mobile-menu .doc-nav-scroll-area { padding-top: 2em; }
   .doc-nav-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s; }
