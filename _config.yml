@@ -32,9 +32,6 @@ collections:
     type: buddhadhamma
   values:
     layout: doc
-    feature_text: |
-      ## 佛法 Buddhadhamma
-      P. A. Payutto
     feature_image: "/uploads/top_banner_dhamma.jpg"
     toc: true
 - scope:
