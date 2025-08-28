@@ -37,8 +37,8 @@ defaults:
   values:
     layout: doc
     feature_text: |
-        ## True Dhamma
-        为 **渴望** 或 **正在** 真切 **实践佛陀教法** 的 **华人** 而设立
+      ## True Dhamma
+      为 **渴望** 或 **正在** 真切 **实践佛陀教法** 的 **华人** 而设立
     feature_image: "/uploads/top_banner_home.jpg"
 - scope:
     path: ''
