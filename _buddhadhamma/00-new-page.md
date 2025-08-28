@@ -1,8 +1,8 @@
 ---
-layout: doc
 title: 111 前言
-order: 0 
-toc: false # 这个页面内容简单，不需要右侧章节目录
+layout: doc
+order: 0
+toc: false
 ---
 
 这是《法句经》的前言部分。

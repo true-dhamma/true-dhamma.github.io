@@ -1,8 +1,8 @@
 ---
-layout: doc
 title: 222第一章：导论
+layout: doc
 order: 1
-toc: true # 这个页面内容复杂，需要右侧章节目录
+toc: true
 ---
 
 ## 1.1 什么是法（Dhamma）
