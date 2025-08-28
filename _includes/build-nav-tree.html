@@ -1,48 +1,57 @@
 {%- comment %}
-  _includes/build-nav-tree.html (v3 - 正则表达式版)
-  - 使用正则表达式提取标题，解决换行符问题。
+  _includes/build-nav-tree.html (高兼容性版)
+  - 移除了所有 'startswith' 操作符，改用 slice 替代。
 {%- endcomment %}
 
 <ul>
 {% assign docs = site[include.collection] | sort: 'path' %}
 {% for doc in docs %}
-  {%- comment %}用正则表达式从内容中捕获第一个H1-H4标题{% endcomment %}
-  {% assign title_match = doc.content | match: '^#+\s+(.*)' %}
-  {% assign title = title_match | default: "Untitled" %}
-  {% if title == "" %}{% assign title = "Untitled" %}{% endif %}
+  {%- comment %}从内容中提取第一个标题 (H1-H4){% endcomment %}
+  {% assign content_lines = doc.content | split: "
+" %}
+  {% assign title = "" %}
+  {% for line in content_lines %}
+    {% assign stripped_line = line | strip %}
+    {% if stripped_line.size > 0 %}
+      {% assign first_char = stripped_line | slice: 0 %}
+      {% if first_char == "#" %}
+        {% assign title = stripped_line | remove_first: "#### " | remove_first: "### " | remove_first: "## " | remove_first: "# " | strip %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 
-  {%- assign filename_base = doc.name | split: "." | first | default: "" -%}
-  {%- assign numeric_prefix_parts = filename_base | split: "-" -%}
-  {%- assign level = 0 -%}
-  {%- for part in numeric_prefix_parts -%}
-    {%- assign is_all_digits = part | match: '^\d+$' -%}
-    {%- if is_all_digits -%}
-      {%- assign level = level | plus: 1 -%}
-    {%- else -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
-  {%- if level == 0 %}{% assign level = 1 %}{% endif -%}
+  {%- comment %}从文件名计算层级 (健壮的方式){% endcomment %}
+  {% assign filename_base = doc.name | split: "." | first %}
+  {% assign numeric_prefix_parts = filename_base | split: "-" %}
+  {% assign level = 0 %}
+  {% for part in numeric_prefix_parts %}
+    {% assign is_all_digits = part | match: '^\d+$' %}
+    {% if is_all_digits %}
+      {% assign level = level | plus: 1 %}
+    {% else %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% if level == 0 %}{% assign level = 1 %}{% endif %}
 
-  {%- assign is_active_class = '' -%}
-  {%- assign current_doc_prefix = page.name | split: '.' | first | default: "" -%}
-  {%- assign this_doc_prefix = doc.name | split: '.' | first | default: "" -%}
+  {%- comment %}检查是否是当前页面或当前页面的祖先 (高兼容性判断){% endcomment %}
+  {% assign is_active_class = '' %}
+  {% assign current_doc_prefix = page.name | split: '.' | first %}
+  {% assign this_doc_prefix = doc.name | split: '.' | first %}
+  {% assign this_doc_prefix_size = this_doc_prefix.size %}
+  {% assign current_doc_prefix_slice = current_doc_prefix | slice: 0, this_doc_prefix_size %}
 
-  {%- if current_doc_prefix == this_doc_prefix -%}
-    {%- assign is_active_class = 'is-active' -%}
-  {%- else -%}
-    {%- assign this_doc_prefix_size = this_doc_prefix.size -%}
-    {%- if this_doc_prefix_size > 0 -%}
-      {%- assign current_doc_prefix_slice = current_doc_prefix | slice: 0, this_doc_prefix_size -%}
-      {%- if current_doc_prefix_slice == this_doc_prefix -%}
-        {%- assign next_char_index = this_doc_prefix_size -%}
-        {%- assign next_char = current_doc_prefix | slice: next_char_index, 1 -%}
-        {%- if next_char == '-' -%}
-          {%- assign is_active_class = 'is-ancestor' -%}
-        {%- endif -%}
-      {%- endif -%}
-    {%- endif -%}
-  {%- endif -%}
+  {% if current_doc_prefix == this_doc_prefix %}
+    {% assign is_active_class = 'is-active' %}
+  {% elsif current_doc_prefix_slice == this_doc_prefix %}
+    {%- comment %} 确保是真正的父级，例如 "02-01" 是 "02-01-01" 的父级，而不是 "02-01a" 的父级 {% endcomment %}
+    {% assign next_char_index = this_doc_prefix_size %}
+    {% assign next_char = current_doc_prefix | slice: next_char_index, 1 %}
+    {% if next_char == '-' %}
+        {% assign is_active_class = 'is-ancestor' %}
+    {% endif %}
+  {% endif %}
 
   <li data-level="{{ level }}" class="{{ is_active_class }}">
     <a href="{{ doc.url | relative_url }}">{{ title }}</a>

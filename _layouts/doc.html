@@ -4,21 +4,22 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 1: DATA PREPARATION (Jekyll/Liquid) (修正版)
+  PART 1: DATA PREPARATION (Jekyll/Liquid) (高兼容性版)
   ============================================================================
 {%- endcomment %}
 {%- assign collection_name = page.collection -%}
 {%- assign collection_title = collection_name | capitalize -%}
 
-{%- comment %} 提取页面标题 (修正版) {% endcomment %}
+{%- comment %} 提取页面标题 (高兼容性版) {% endcomment %}
 {% assign content_lines = page.content | split: "
 " %}
 {% assign first_line_with_content = "" %}
 {% assign page_title = "" %}
 {% for line in content_lines %}
   {% assign stripped_line = line | strip %}
-  {% if stripped_line != "" %}
-      {% if stripped_line startswith "#" %}
+  {% if stripped_line.size > 0 %}
+      {% assign first_char = stripped_line | slice: 0 %}
+      {% if first_char == "#" %}
         {% assign page_title = stripped_line | remove_first: "#### " | remove_first: "### " | remove_first: "## " | remove_first: "# " | strip %}
         {% assign first_line_with_content = line %}
         {% break %}
@@ -26,15 +27,17 @@ layout: default
   {% endif %}
 {% endfor %}
 
-{%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 --- {% endcomment %}
+{%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 (高兼容性版) --- {% endcomment %}
 {%- assign has_right_toc = false -%}
 {%- assign right_toc_html = "" -%}
-{%- if page.toc == true and (page.content contains '<h2' or page.content contains '<h3' or page.content contains '<h4') -%}
-  {%- capture captured_toc -%}{% include toc.html content=page.content %}{%- endcapture -%}
-  {%- assign toc_trimmed = captured_toc | strip -%}
-  {%- if toc_trimmed != "" -%}
-    {%- assign has_right_toc = true -%}
-    {%- assign right_toc_html = captured_toc -%}
+{%- if page.toc == true -%}
+  {%- if page.content contains '<h2' or page.content contains '<h3' or page.content contains '<h4' -%}
+    {%- capture captured_toc -%}{% include toc.html content=page.content %}{%- endcapture -%}
+    {%- assign toc_trimmed = captured_toc | strip -%}
+    {%- if toc_trimmed != "" -%}
+      {%- assign has_right_toc = true -%}
+      {%- assign right_toc_html = captured_toc -%}
+    {%- endif -%}
   {%- endif -%}
 {%- endif -%}
 
@@ -158,7 +161,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 3: HTML STRUCTURE (修正版)
+  PART 3: HTML STRUCTURE
   ============================================================================
 {%- endcomment %}
 
@@ -177,7 +180,6 @@ layout: default
     <h1>{{ page_title }}</h1>
     {% if has_right_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
     
-    {%- comment %} 渲染内容，同时移除第一行标题 (修正版) {% endcomment %}
     {{ page.content | remove_first: first_line_with_content }}
   </article>
 
@@ -261,6 +263,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
             
+            // It's crucial to append the original item, not a clone
             parentStack[parentStack.length - 1].appendChild(item);
         });
     }
