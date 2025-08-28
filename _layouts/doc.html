@@ -8,362 +8,300 @@ layout: default
   ============================================================================
 {%- endcomment %}
 
-{%- comment %} --- 右侧 Tocbot 目录数据 --- {% endcomment %}
+{%- comment %} --- 右侧章节目录 (Tocbot) 的数据准备 --- {% endcomment %}
 {%- assign has_right_toc = false -%}
 {%- assign right_toc_html = "" -%}
 {%- if page.toc == true and (content contains '<h2' or content contains '<h3' or content contains '<h4') -%}
   {%- capture captured_toc -%}{% include toc.html content=content %}{%- endcapture -%}
-  {%- if captured_toc | strip != "" -%}
+  {%- assign toc_trimmed = captured_toc | strip -%}
+  {%- if toc_trimmed != "" -%}
     {%- assign has_right_toc = true -%}
     {%- assign right_toc_html = captured_toc -%}
   {%- endif -%}
 {%- endif -%}
 
-{%- comment %} --- 左侧多级导航数据 --- {% endcomment %}
+{%- comment %} --- 左侧书籍导航的数据准备 (支持多级) --- {% endcomment %}
 {%- assign collection_name = page.collection -%}
-{%- assign collection_docs_sorted = site[collection_name] | sort: 'order' -%}
 {%- assign collection_title = collection_name | capitalize -%}
-
-{%- comment %} 构建层级导航数据结构 {% endcomment %}
-{%- assign nav_items = "" | split: "" -%}
-{%- for doc in collection_docs_sorted -%}
-  {%- unless doc.parent -%}
-    {%- capture nav_item -%}
-      { "title": "{{ doc.title | escape }}", "url": "{{ doc.url | relative_url }}", "children": [] }
-    {%- endcapture -%}
-    {%- assign nav_items = nav_items | push: (nav_item | json_to_object) -%}
-  {%- endunless -%}
-{%- endfor -%}
-{%- for doc in collection_docs_sorted -%}
-  {%- if doc.parent -%}
-    {%- for item in nav_items -%}
-      {%- if item.title == doc.parent -%}
-        {%- capture child_item -%}
-          { "title": "{{ doc.title | escape }}", "url": "{{ doc.url | relative_url }}" }
-        {%- endcapture -%}
-        {%- assign item_children = item.children | push: (child_item | json_to_object) -%}
-        {%- assign updated_item = item | add_property: 'children', item_children -%}
-        {%- assign nav_items = nav_items | replace_first: item, updated_item -%}
-      {%- endif -%}
-    {%- endfor -%}
+{%- assign docs_sorted = site[collection_name] | sort: 'order' -%}
+{%- assign docs_by_id = "" | split: "" -%}
+{%- for doc in docs_sorted -%}
+  {%- if doc.doc_id -%}
+    {%- capture new_pair -%}{{ doc.doc_id }}:{{ forloop.index0 }}{%- endcapture -%}
+    {%- assign docs_by_id = docs_by_id | push: new_pair -%}
   {%- endif -%}
 {%- endfor -%}
 
+{%- assign root_docs = docs_sorted | where_exp: "item", "item.parent == nil" -%}
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS (UPGRADED)
+  PART 2: INLINE CSS (全新升级版)
   ============================================================================
 {%- endcomment %}
 <style>
-  /* --- BASE & LAYOUT --- */
-  body {
-    background-color: #fff;
-  }
-  .doc-layout-wrapper {
-    display: flex;
-    position: relative;
+  /* --- BASE DOC LAYOUT STYLES --- */
+  @media screen and (min-width: 1200px) {
+    .main.container--doc { position: relative; display: flex; align-items: flex-start; gap: 2.5em; }
+    .article--doc { flex: 1 1 auto; min-width: 0; }
   }
 
-  /* --- LEFT NAVIGATION (PC) --- */
-  #doc-nav-menu {
-    display: none; /* Hidden on mobile by default */
-    background-color: #fafafa;
-    border-right: 1px solid #e0e0e0;
-    width: 300px;
-    flex-shrink: 0;
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    overflow-y: auto;
-    padding: 1.5rem;
-  }
-  @media (min-width: 1200px) {
-    #doc-nav-menu { display: block; }
-  }
-
-  .doc-nav-header h3 {
-    margin: 0 0 1.5rem 0;
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #333;
-  }
-  .doc-nav-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 0.95rem;
-  }
-  .doc-nav-list a {
-    text-decoration: none;
-    color: #555;
-    transition: color 0.2s;
-  }
-  .doc-nav-list-item > a, .doc-nav-list-item > details > summary {
-    display: block;
-    padding: 0.6rem 0.5rem;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  .doc-nav-list-item > a:hover {
-    color: #007bff;
-    background-color: #f0f0f0;
-  }
-  .doc-nav-list-item.active > a,
-  .doc-nav-list-item details[open] > summary {
-    font-weight: 600;
-    color: #007bff;
-  }
-  .doc-nav-list-item.active > a {
-    background-color: #e6f2ff;
-  }
-
-  /* Sub-menu styling */
-  .doc-nav-list-item details {
-    margin-bottom: 0.25rem;
-  }
-  .doc-nav-list-item details summary {
-    list-style: none; /* Hide default arrow */
-    position: relative;
-    padding-right: 2rem;
-  }
-  .doc-nav-list-item details summary::after { /* Custom arrow */
-    content: '\f0da';
-    font-family: 'Font Awesome 6 Free';
-    font-weight: 900;
-    position: absolute;
-    right: 0.5rem;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: transform 0.2s;
-  }
-  .doc-nav-list-item details[open] > summary::after {
-    transform: translateY(-50%) rotate(90deg);
-  }
-  .doc-nav-submenu {
-    list-style: none;
-    padding-left: 1.2rem;
-    margin-top: 0.5rem;
-    border-left: 1px solid #e0e0e0;
-  }
-  .doc-nav-submenu-item a {
-    display: block;
-    padding: 0.5rem;
-    font-size: 0.9rem;
-    border-radius: 4px;
-  }
-  .doc-nav-submenu-item.active a {
-    font-weight: 600;
-    color: #007bff;
-    background-color: #e6f2ff;
-  }
-
-  /* --- MAIN CONTENT PANEL (#doc-main-panel) --- */
-  #doc-main-panel {
-    width: 100%;
-    min-width: 0; /* Important for flexbox */
-    background-color: #fff;
-    padding-bottom: 4rem;
-  }
-  .main.container.doc-container {
-    max-width: 1100px; /* Adjust as needed */
-    margin: 0 auto;
-    padding: 0 2rem;
-    display: flex;
-    gap: 2rem;
-  }
-
-  .article--doc {
-    flex-grow: 1;
-    min-width: 0;
-  }
-
-  /* Mobile header with hamburger button */
-  .mobile-header {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    background-color: #fafafa;
-    border-bottom: 1px solid #e0e0e0;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-  }
-  @media (min-width: 1200px) {
-    .mobile-header { display: none; }
-  }
-  .toggle-button {
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin-right: 1rem;
-    color: #333;
-  }
-  .mobile-header-title {
-    font-weight: 600;
-  }
-
-  /* --- RIGHT TOC (STYLES INHERITED/ADAPTED) --- */
-  .doc-chapter-toc {
-    display: none;
-  }
-  @media screen and (min-width: 992px) {
-    .main.container.doc-container.has-right-toc .doc-chapter-toc {
+  /* --- LEFT BOOK NAVIGATION (DESKTOP) --- */
+  .doc-nav-container { display: none; }
+  @media screen and (min-width: 1200px) {
+    .doc-nav-container {
       display: block;
-      flex: 0 0 260px;
-      position: sticky;
-      top: 2rem;
-      align-self: flex-start;
+      flex: 0 0 280px;
+      position: sticky; top: 2rem;
       max-height: calc(100vh - 4rem);
-      overflow-y: auto;
+      font-size: 15px;
+    }
+    .doc-nav-scroll-area {
+      height: 100%; overflow-y: auto;
+      background-color: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 8px;
+      padding: 1.25em 0.5em 1.25em 1.25em;
+    }
+    .doc-nav-container h3 {
+      padding: 0 0.75em; margin: 0 0 1em;
+      font-size: 1.3em; font-weight: 700; color: #2c3e50;
+    }
+    .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
+    .doc-nav-container a {
+      display: block; text-decoration: none;
+      padding: 0.6em 0.75em;
+      margin-bottom: 4px;
+      border-radius: 6px;
+      color: #495057;
+      line-height: 1.4;
+      transition: background-color 0.2s, color 0.2s;
+    }
+    .doc-nav-container a:hover { background-color: #e9ecef; color: #000; }
+    .doc-nav-container li.active > a {
+      background-color: #3a77d8; color: #fff; font-weight: 600;
+    }
+    .doc-nav-container .parent-active > a {
+        background-color: #e0e9f8; color: #1c3d70;
+    }
+    /* 多级目录样式 */
+    .doc-nav-container ul ul {
+      padding-left: 1.2em;
+      margin-top: 4px;
+      border-left: 2px solid #dee2e6;
     }
   }
-  /* (Other .toc styles from your previous code remain valid) */
-  .toc-mobile-container { margin: 2em 0; padding: 1em; border: 1px solid #eee; border-radius: 4px; background-color: #f9f9f9; }
-  .toc-mobile-container h3 { margin-top: 0; }
-  @media screen and (min-width: 992px) { .toc-mobile-container { display: none; } }
+
+  /* --- MOBILE NAVIGATION (FAB & OFF-CANVAS MENU) --- */
+  .doc-nav-fab {
+    position: fixed; bottom: 30px; left: 30px;
+    width: 56px; height: 56px;
+    background-color: #2c3e50; color: white;
+    border-radius: 50%; border: none;
+    display: flex; justify-content: center; align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    cursor: pointer; z-index: 1001;
+    transition: transform 0.2s ease-in-out;
+  }
+  .doc-nav-fab:hover { transform: scale(1.05); }
+  .doc-nav-fab .icon { width: 24px; height: 24px; fill: currentColor; }
   
-  /* Slideout.js specific styles */
-  .slideout-menu { position: fixed; top: 0; bottom: 0; width: 300px; min-height: 100vh; overflow-y: scroll; -webkit-overflow-scrolling: touch; z-index: 0; display: none; }
-  .slideout-menu-left { left: 0; }
-  .slideout-panel { position: relative; z-index: 1; background-color: #fff; min-height: 100vh; }
-  .slideout-open, .slideout-open body, .slideout-open .slideout-panel { overflow: hidden; }
-  .slideout-open .slideout-menu { display: block; }
+  .doc-nav-mobile-menu {
+    position: fixed; top: 0; left: 0;
+    width: 80%; max-width: 320px; height: 100%;
+    background-color: white;
+    z-index: 1002;
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    overflow-y: auto;
+  }
+  .doc-nav-mobile-menu.is-open { transform: translateX(0); }
+  .doc-nav-mobile-menu .doc-nav-scroll-area { padding-top: 2em; }
+  
+  .doc-nav-overlay {
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  .doc-nav-overlay.is-visible { opacity: 1; visibility: visible; }
+
+  @media screen and (min-width: 1200px) {
+    .doc-nav-fab, .doc-nav-mobile-menu, .doc-nav-overlay { display: none; }
+  }
+
+  /* --- RIGHT TOCBOT STYLES (NO CHANGE) --- */
+  .doc-chapter-toc { display: none; }
+  @media screen and (min-width: 1200px) {
+    .main.container--doc.has-right-toc .doc-chapter-toc {
+      display: block; flex: 0 0 260px; position: sticky; top: 2rem;
+      max-height: calc(100vh - 4rem); overflow-y: auto;
+    }
+  }
+  .doc-chapter-toc h3 { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
+  .toc { overflow-y: auto; }
+  .toc-list { margin: 0; padding: 0; list-style: none; }
+  .toc-list-item { margin-bottom: 5px; }
+  .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; text-decoration: none; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; }
+  .toc-link:hover { color: #333; border-left-color: #AAA; }
+  .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; }
+  .toc-list .toc-list { padding-left: 1.25em; }
+  .toc-mobile-container { display: block; margin: 2em 0; padding: 1em; border: 1px solid #eee; border-radius: 4px; background-color: #f9f9f9; }
+  .toc-mobile-container h3 { margin-top: 0; }
+  @media screen and (min-width: 1200px) { .toc-mobile-container { display: none; } }
 </style>
 
-
 {%- comment %}
   ============================================================================
-  PART 3: HTML STRUCTURE (UPGRADED for Slideout.js)
+  PART 3: HTML STRUCTURE (全新升级版)
   ============================================================================
 {%- endcomment %}
 
-<div class="doc-layout-wrapper">
-    <!-- Navigation Menu (for both PC and Mobile Drawer) -->
-    <nav id="doc-nav-menu">
-        <div class="doc-nav-header">
-            <h3>{{ collection_title }}</h3>
-        </div>
-        <ul class="doc-nav-list">
-            {%- for item in nav_items -%}
-                {%- assign is_parent_active = false -%}
-                {%- if page.parent == item.title or page.title == item.title -%}
-                    {%- assign is_parent_active = true -%}
-                {%- endif -%}
+{% include site-header.html %}
 
-                <li class="doc-nav-list-item {% if is_parent_active %}active{% endif %}">
-                    {% if item.children.size > 0 %}
-                        <details {% if is_parent_active %}open{% endif %}>
-                            <summary>{{ item.title }}</summary>
-                            <ul class="doc-nav-submenu">
-                                {% for child in item.children %}
-                                    <li class="doc-nav-submenu-item {% if page.url == child.url %}active{% endif %}">
-                                        <a href="{{ child.url }}">{{ child.title }}</a>
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        </details>
-                    {% else %}
-                        <a href="{{ item.url }}">{{ item.title }}</a>
-                    {% endif %}
-                </li>
-            {%- endfor -%}
+{%- comment %} --- 递归生成多级导航列表的 Include --- {% endcomment %}
+{%- capture nav_list_items %}
+  {%- for doc in root_docs -%}
+    {%- assign children = docs_sorted | where_exp: "item", "item.parent == doc.doc_id" -%}
+    {%- assign is_parent_of_current = false -%}
+    {%- if page.parent and page.parent == doc.doc_id -%}
+        {%- assign is_parent_of_current = true -%}
+    {%- endif -%}
+    <li class="{% if page.url == doc.url %}active{% elsif is_parent_of_current %}parent-active{% endif %}">
+      <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+      {%- if children.size > 0 -%}
+        <ul>
+          {%- for child in children -%}
+            <li class="{% if page.url == child.url %}active{% endif %}">
+              <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+            </li>
+          {%- endfor -%}
         </ul>
-    </nav>
+      {%- endif -%}
+    </li>
+  {%- endfor -%}
+{%- endcapture %}
 
-    <!-- Main Content Panel -->
-    <div id="doc-main-panel">
-        {% include site-header.html %}
-        
-        <!-- Mobile Header -->
-        <header class="mobile-header">
-            <button class="toggle-button" aria-label="Toggle menu">
-                <i class="fas fa-bars"></i>
-            </button>
-            <span class="mobile-header-title">{{ collection_title }}</span>
-        </header>
-
-        <main class="main container doc-container {% if has_right_toc %}has-right-toc{% endif %}">
-            <article class="article article--doc content typeset js-toc-content">
-                <h1>{{ page.title }}</h1>
-                {% if has_right_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
-                {{ content }}
-            </article>
-
-            {% if has_right_toc %}
-            <aside class="doc-chapter-toc">
-                <h3>本章目录</h3>
-                <div class="js-toc">{{ right_toc_html }}</div>
-            </aside>
-            {% endif %}
-        </main>
-        
-        {% include site-footer.html %}
+<!-- 容器和主要内容区 -->
+<main class="main container container--doc {% if has_right_toc %}has-right-toc{% endif %}">
+  
+  <!-- Left Sidebar: DESKTOP Book Navigation -->
+  <aside class="doc-nav-container">
+    <div class="doc-nav-scroll-area">
+      <h3>{{ collection_title }}</h3>
+      <ul>{{ nav_list_items }}</ul>
     </div>
+  </aside>
+
+  <!-- Center: Main article content -->
+  <article class="article article--doc content typeset js-toc-content">
+    <h1>{{ page.title }}</h1>
+    {% if has_right_toc %}<div id="mobile-toc-anchor"></div>{% endif %}
+    {{ content }}
+  </article>
+
+  <!-- Right Sidebar: Chapter TOC (Tocbot) -->
+  {% if has_right_toc %}
+  <aside class="doc-chapter-toc">
+    <h3>本章目录</h3>
+    <div class="js-toc">{{ right_toc_html }}</div>
+  </aside>
+  {% endif %}
+
+</main>
+
+<!-- MOBILE Navigation Elements (FAB, Off-canvas Menu, Overlay) -->
+<div class="doc-nav-mobile-container">
+  <div id="doc-nav-overlay" class="doc-nav-overlay"></div>
+  <nav id="doc-nav-mobile-menu" class="doc-nav-mobile-menu">
+    <div class="doc-nav-scroll-area">
+      <h3>{{ collection_title }}</h3>
+      <ul>{{ nav_list_items }}</ul>
+    </div>
+  </nav>
+  <button id="doc-nav-fab" class="doc-nav-fab" aria-label="打开目录">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+  </button>
 </div>
 
+
+{% include site-footer.html %}
+
+
 {%- comment %}
   ============================================================================
-  PART 4: JAVASCRIPT LOGIC (UPGRADED for Slideout.js)
+  PART 4: JAVASCRIPT LOGIC (全新升级版)
   ============================================================================
 {%- endcomment %}
 
+<!-- 1. Tocbot JS (条件性加载) -->
+{% if has_right_toc %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // --- Initialize Mobile Drawer Menu ---
-  const slideout = new Slideout({
-    'panel': document.getElementById('doc-main-panel'),
-    'menu': document.getElementById('doc-nav-menu'),
-    'padding': 300,
-    'tolerance': 70,
-    'side': 'left'
-  });
-
-  document.querySelector('.toggle-button').addEventListener('click', function() {
-    slideout.toggle();
-  });
-  
-  // Close menu when a link is clicked
-  const navMenu = document.getElementById('doc-nav-menu');
-  navMenu.addEventListener('click', function(event) {
-      if (event.target.tagName === 'A' && slideout.isOpen()) {
-          slideout.close();
-      }
-  });
-
-  // --- Tocbot Initialization (Conditional) ---
-  const hasRightToc = document.querySelector('.doc-chapter-toc');
-  if (hasRightToc) {
-    const desktopBreakpoint = 992;
-    const isDesktop = window.innerWidth >= desktopBreakpoint;
-    
-    // Dynamically load Tocbot script only when needed
-    const tocbotScript = document.createElement('script');
-    tocbotScript.src = "https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js";
-    tocbotScript.onload = () => {
-        if (isDesktop && document.querySelector('.js-toc')) {
-            tocbot.init({
-              tocSelector: '.js-toc',
-              contentSelector: '.js-toc-content',
-              headingSelector: 'h2, h3, h4',
-              hasInnerContainers: true,
-              scrollSmooth: true,
-              scrollSmoothOffset: -80
-            });
-        } else {
-            const mobileAnchor = document.getElementById('mobile-toc-anchor');
-            const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
-            if (mobileAnchor && rawTocHtml) {
-              const mobileWrapper = document.createElement('div');
-              mobileWrapper.className = 'toc-mobile-container';
-              mobileWrapper.innerHTML = `<h3>本章目录</h3><div class="toc-content-wrapper">${rawTocHtml}</div>`;
-              mobileAnchor.parentNode.insertBefore(mobileWrapper, mobileAnchor.nextSibling);
-              mobileAnchor.parentNode.removeChild(mobileAnchor);
-            }
-        }
-    };
-    document.body.appendChild(tocbotScript);
+  const desktopBreakpoint = 1200;
+  if (window.innerWidth >= desktopBreakpoint && document.querySelector('.js-toc')) {
+    tocbot.init({
+      tocSelector: '.js-toc',
+      contentSelector: '.js-toc-content',
+      headingSelector: 'h2, h3, h4',
+      hasInnerContainers: true, scrollSmooth: true, scrollSmoothOffset: -80,
+    });
+  } else {
+    const mobileAnchor = document.getElementById('mobile-toc-anchor');
+    const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
+    if (mobileAnchor && rawTocHtml) {
+      const mobileWrapper = document.createElement('div');
+      mobileWrapper.className = 'toc-mobile-container';
+      mobileWrapper.innerHTML = `<h3>本章目录</h3><div class="toc-content-wrapper">${rawTocHtml}</div>`;
+      mobileAnchor.parentNode.insertBefore(mobileWrapper, mobileAnchor.nextSibling);
+      mobileAnchor.parentNode.removeChild(mobileAnchor);
+    }
   }
+});
+</script>
+{% endif %}
+
+<!-- 2. Mobile Navigation FAB & Menu JS -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const fab = document.getElementById('doc-nav-fab');
+    const menu = document.getElementById('doc-nav-mobile-menu');
+    const overlay = document.getElementById('doc-nav-overlay');
+
+    if (!fab || !menu || !overlay) return;
+
+    function openMenu() {
+        menu.classList.add('is-open');
+        overlay.classList.add('is-visible');
+        document.body.style.overflow = 'hidden'; // 禁止背景滚动
+    }
+
+    function closeMenu() {
+        menu.classList.remove('is-open');
+        overlay.classList.remove('is-visible');
+        document.body.style.overflow = ''; // 恢复背景滚动
+    }
+
+    fab.addEventListener('click', openMenu);
+    overlay.addEventListener('click', closeMenu);
+
+    // 点击菜单中的链接也应该关闭菜单
+    menu.addEventListener('click', function(event) {
+        if (event.target.tagName === 'A') {
+            closeMenu();
+        }
+    });
+
+    // 按下 Escape 键关闭菜单
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && menu.classList.contains('is-open')) {
+            closeMenu();
+        }
+    });
 });
 </script>
