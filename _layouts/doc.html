@@ -146,7 +146,7 @@ layout: default
 {% include site-header.html %}
 
 {%- comment %}
-  --- 生成多级导航列表HTML ---
+  --- 生成多级导航列表HTML (已修正，移除parent-active) ---
   使用 `capture` 生成一次，然后在桌面和移动视图中重复使用。
 {%- endcomment %}
 {%- capture nav_list_html %}
@@ -233,8 +233,19 @@ layout: default
 document.addEventListener('DOMContentLoaded', function() {
   const desktopBreakpoint = 1200;
   if (window.innerWidth >= desktopBreakpoint && document.querySelector('.js-toc')) {
-    tocbot.init({ tocSelector: '.js-toc', contentSelector: '.js-toc-content', headingSelector: 'h2, h3, h4', hasInnerContainers: true, scrollSmooth: true, scrollSmoothOffset: -80, });
+    
+    // --- 修正后的PC端初始化代码 ---
+    // 这个配置让Tocbot使用.js-toc中由Jekyll生成的静态HTML，而不是自己扫描内容生成目录
+    tocbot.init({
+      tocSelector: '.js-toc',
+      // contentSelector 和 headingSelector 已被移除
+      hasInnerContainers: true, 
+      scrollSmooth: true, 
+      scrollSmoothOffset: -80, 
+    });
+
   } else {
+    // 移动端逻辑保持不变，它本来就是正确的
     const mobileAnchor = document.getElementById('mobile-toc-anchor');
     const rawTocHtml = document.querySelector('.js-toc')?.innerHTML;
     if (mobileAnchor && rawTocHtml) {
