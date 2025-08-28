@@ -58,7 +58,15 @@ layout: default
 <style>
   /* --- BASE DOC LAYOUT STYLES --- */
   @media screen and (min-width: 1200px) {
-    .main.container--doc { position: relative; display: flex; align-items: flex-start; gap: 2.5em; }
+    .main.container--doc { 
+      position: relative; 
+      display: flex; 
+      align-items: flex-start; 
+      gap: 2.5em;
+      /* [新增] 设定最大宽度并居中，防止页面切换时布局跳动 */
+      max-width: 1200px;
+      margin: 0 auto;
+    }
     .article--doc { flex: 1 1 auto; min-width: 0; }
   }
 
@@ -130,7 +138,6 @@ layout: default
   .doc-chapter-toc h3 { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
   .toc-list { margin: 0; padding: 0; list-style: none; }
   .toc-list-item { margin-bottom: 5px; }
-  /* [关键修复] 为嵌套列表（二级目录）增加缩进 */
   .toc-list .toc-list { padding-left: 1.25em; }
   .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; text-decoration: none; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; }
   .toc-link:hover { color: #333; border-left-color: #AAA; }
@@ -141,8 +148,13 @@ layout: default
 
   /* --- ULTRA-WIDE SCREEN ENHANCEMENTS (方案 A) --- */
   @media screen and (min-width: 1600px) {
+    /* [修改] 增大左侧导航栏的宽度 */
     .doc-nav-container { flex-basis: 320px; }
-    .main.container--doc { max-width: 1400px; margin-left: auto; margin-right: auto; }
+    /* [修改] 增大整体容器最大宽度，并增加列间距，让布局更舒展 */
+    .main.container--doc { 
+      max-width: 1560px; 
+      gap: 3.5em;
+    }
   }
 </style>
 
