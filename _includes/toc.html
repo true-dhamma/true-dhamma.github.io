@@ -1,40 +1,68 @@
-{% comment %}
+{%- comment %}
   输入: include.content (文章的HTML内容)
-  输出: 一个HTML的<ul>列表，作为TOC
-{% endcomment %}
+  输出: 一个支持 h2/h3 嵌套的 HTML <ul> 列表，作为TOC
+{%- endcomment %}
 
-{%- assign toc_list = "" -%}
+{%- assign toc_output = "" -%}
 {%- assign heading_count = 0 -%}
+{%- assign last_level = 0 -%}
 
 {%- assign content_parts = include.content | split: '<h' -%}
 
-<nav class="nav nav--toc">
-  <ul class="list list--toc">
-    {%- for part in content_parts -%}
-      {%- if part contains 'id="' -%}
-        {%- capture heading_level %}{{ part | slice: 0 }}{% endcapture -%}
-        
-        {%- if heading_level == "2" or heading_level == "3" -%}
-          {%- assign heading_count = heading_count | plus: 1 -%}
+{%- for part in content_parts -%}
+  {%- if part contains 'id="' -%}
+    {%- capture heading_level_str %}{{ part | slice: 0 }}{% endcapture -%}
+    {%- assign current_level = heading_level_str | plus: 0 -%}
 
-          {%- assign id_parts = part | split: 'id="' -%}
-          {%- assign id_and_rest = id_parts[1] | split: '"' -%}
-          {%- assign heading_id = id_and_rest[0] -%}
+    {%- if current_level == 2 or current_level == 3 -%}
+      {%- assign heading_count = heading_count | plus: 1 -%}
 
-          {%- assign text_parts = part | split: '</h' -%}
-          {%- assign text_and_tags = text_parts[0] | split: '>' -%}
-          {%- assign heading_text = text_and_tags[1] | strip_html -%}
-
-          <li class="item item--toc-h{{ heading_level }}">
-            <a href="#{{ heading_id }}">{{ heading_text }}</a>
-          </li>
+      {%- comment %} --- 核心逻辑：根据层级变化关闭标签 --- {% endcomment %}
+      {%- if last_level != 0 -%}
+        {%- if current_level < last_level -%}
+          {%- comment %} 从 h3 -> h2，关闭 h3 的 li, ul, 和 h2 的 li {% endcomment %}
+          {%- assign toc_output = toc_output | append: '</li></ul></li>' -%}
+        {%- elsif current_level == last_level -%}
+          {%- comment %} 同级标题，关闭上一个 li {% endcomment %}
+          {%- assign toc_output = toc_output | append: '</li>' -%}
         {%- endif -%}
       {%- endif -%}
-    {%- endfor -%}
+
+      {%- comment %} --- 核心逻辑：根据层级变化打开标签 --- {% endcomment %}
+      {%- if current_level > last_level -%}
+        {%- comment %} 从 h2 -> h3，打开一个新的 ul {% endcomment %}
+        {%- assign toc_output = toc_output | append: '<ul class="list list--toc-nested">' -%}
+      {%- endif -%}
+      
+      {%- comment %} --- 提取标题 ID 和文本 --- {% endcomment %}
+      {%- assign id_parts = part | split: 'id="' -%}
+      {%- assign id_and_rest = id_parts[1] | split: '"' -%}
+      {%- assign heading_id = id_and_rest[0] -%}
+      {%- assign text_parts = part | split: '</h' -%}
+      {%- assign text_and_tags = text_parts[0] | split: '>' -%}
+      {%- assign heading_text = text_and_tags[1] | strip_html -%}
+
+      {%- comment %} --- 生成当前标题的 <li> 元素 --- {% endcomment %}
+      {%- capture li_item -%}<li class="item item--toc-h{{ current_level }}"><a href="#{{ heading_id }}">{{ heading_text }}</a>{%- endcapture -%}
+      {%- assign toc_output = toc_output | append: li_item -%}
+
+      {%- assign last_level = current_level -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment %} --- 循环结束后，关闭所有剩余的开放标签 --- {% endcomment %}
+{%- if last_level == 3 -%}
+  {%- assign toc_output = toc_output | append: '</li></ul></li>' -%}
+{%- elsif last_level == 2 -%}
+  {%- assign toc_output = toc_output | append: '</li>' -%}
+{%- endif -%}
+
+{%- comment %} --- 最终输出完整的 nav 结构 --- {% endcomment %}
+{%- if heading_count > 0 -%}
+<nav class="nav nav--toc">
+  <ul class="list list--toc">
+    {{ toc_output }}
   </ul>
 </nav>
-
-{% comment %}如果一个标题都没找到，则最终不输出任何内容{% endcomment %}
-{%- if heading_count == 0 -%}
-  {{ "" }}
 {%- endif -%}
