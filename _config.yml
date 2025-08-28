@@ -1,105 +1,78 @@
+---
 title: True Dhamma
+timezone: Asia/Shanghai
+collections:
+  buddhadhamma:
+    title: Buddhadhamma
+    output: true
+    permalink: "/:collection/:name.html"
+  posts:
+    title: Posts
+    output: true
+  testbook:
+    title: Testbook
+    output: true
+    permalink: "/:collection/:name.html"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    feature_image: "/uploads/top_banner_blog.jpg"
+- scope:
+    path: ''
+    type: buddhadhamma
+  values:
+    layout: doc
+    feature_image: "/uploads/top_banner_dhamma.jpg"
+    toc: true
+- scope:
+    path: ''
+    type: testbook
+  values:
+    layout: doc
 url: https://true-dhamma.com
 baseurl: ''
 description: 世间成瘾与出世间觉悟，南传上座部佛法，实修实证，亲知实见，趋向涅槃，从无明中解脱。
-timezone: Asia/Shanghai
 encoding: utf-8
 lang: zh-CN
-
-# -----------------------------------------------------------------
-# Collections & Content Settings
-# -----------------------------------------------------------------
 permalink: pretty
 excerpt_separator: "<!-- more -->"
 paginate: 20
 paginate_path: "/blog/page:num"
-
-collections:
-  posts:
-    title: Posts
-    output: true
-  
-  # --- 书籍 Collections ---
-  buddhadhamma:
-    title: Buddhadhamma
-    output: true
-    permalink: /:collection/:name.html # 修正：确保所有书籍使用 .html 后缀以支持图片相对路径
-
-  testbook:
-    title: Testbook
-    output: true
-    permalink: /:collection/:name.html # 修正：与 buddhadhamma 保持一致
-
-  uploads:
-    title: Uploads
-    output: true
-
-# -----------------------------------------------------------------
-# Default Front Matter
-# -----------------------------------------------------------------
-# 修正：所有 - scope: ... 块必须放在一个顶层的 defaults: 键下面
-defaults:
-  - scope:
-      path: ''
-      type: pages
-    values:
-      layout: page
-  - scope:
-      path: ''
-      type: posts
-    values:
-      layout: post
-      feature_image: "/uploads/top_banner_blog.jpg"
-  - scope:
-      path: ''
-      type: buddhadhamma
-    values:
-      layout: doc
-      feature_image: "/uploads/top_banner_dhamma.jpg"
-      toc: true # 注意：这里为所有 buddhadhamma 页面默认开启了 toc，你可以在具体 md 文件里用 toc: false 覆盖
-  - scope:
-      path: ''
-      type: testbook
-    values:
-      layout: doc
-      # feature_image: "/path/to/testbook_banner.jpg" # 可以为 testbook 设置不同的 banner
-
-# -----------------------------------------------------------------
-# Build Settings
-# -----------------------------------------------------------------
-# 修正：扩展 include 列表，为所有书籍的静态资源做准备
-include: 
-  - "_buddhadhamma/includes"
-  - "_testbook/includes"
-
+include:
+- _buddhadhamma/includes
+- _testbook/includes
 exclude:
-  - README.md
-  - LICENSE
-  - Gemfile
-  - Gemfile.lock
-  - ".jekyll-cache"
-  # 建议也排除 node_modules 等
-  - "node_modules" 
-
+- README.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
+- ".jekyll-cache"
+- node_modules
 plugins:
-  - jekyll-sitemap
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-  - jekyll-feed
-  - jekyll-commonmark
-  - jekyll-include-cache
-  - jemoji
-
-# -----------------------------------------------------------------
-# Site Metadata (保持不变)
-# -----------------------------------------------------------------
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
 author: 智宁居士
 email: zhining@true-dhamma.com
 logo: "/uploads/Dhamma_Wheel.svg.webp"
 css_inline: true
-
 favicons:
   '16': "/uploads/siteicon.png"
   '32': "/uploads/siteicon.png"
@@ -109,19 +82,24 @@ favicons:
   '180': "/uploads/siteicon.png"
   '512': "/uploads/siteicon.png"
   '1024': "/uploads/siteicon.png"
-
 navigation_header:
-  - {title: 首页, url: "/"}
-  - {title: 成瘾, url: "/addiction/"}
-  - {title: 文章, url: "/blog/"}
-  - {title: 巴利圣典, url: "/tipitaka/"}
-  - {title: 网盘, url: "https://download.true-dhamma.com/"}
-  - {title: 搜索&提问, url: "/search/"}
-  - {title: 关于本站, url: "/about/"}
-
+- title: 首页
+  url: "/"
+- title: 成瘾
+  url: "/addiction/"
+- title: 文章
+  url: "/blog/"
+- title: 巴利圣典
+  url: "/tipitaka/"
+- title: 网盘
+  url: https://download.true-dhamma.com/
+- title: 搜索&提问
+  url: "/search/"
+- title: 关于本站
+  url: "/about/"
 navigation_footer:
-  - {title: Created by 智宁居士, url: "mailto:zhining@gmx.com"}
-
+- title: Created by 智宁居士
+  url: mailto:zhining@gmx.com
 social_links:
   Twitter: 
   LinkedIn: 
