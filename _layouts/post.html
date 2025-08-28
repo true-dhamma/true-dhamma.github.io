@@ -25,12 +25,11 @@ layout: default
   ============================================================================
   - 定义PC端的双栏布局、sticky侧边栏，以及Tocbot的美化样式。
 {%- endcomment %}
-{% comment %} ... 文件顶部的 Liquid 逻辑保持不变 ... {% endcomment %}
 {% if has_toc %}
 <style>
-  /* --- TOCBOT INTEGRATION STYLES (ENHANCED VISUALS) --- */
+  /* --- TOCBOT INTEGRATION STYLES --- */
 
-  /* 1. Main Layout: Two columns on desktop (保持不变) */
+  /* 1. Main Layout: Two columns on desktop */
   @media screen and (min-width: 1024px) {
     .main.container {
       position: relative;
@@ -45,40 +44,31 @@ layout: default
     }
   }
 
-  /* 2. PC Sticky TOC Container (核心视觉更新) */
+  /* 2. PC Sticky TOC Container */
   .post-toc-container {
     display: none; /* Hidden on mobile by default */
   }
   @media screen and (min-width: 1024px) {
     .post-toc-container {
       display: block;
-      flex: 0 0 260px;
+      flex: 0 0 260px; /* Fixed width for the TOC column */
       position: sticky;
       top: 2rem;
       align-self: flex-start;
-      max-height: calc(100vh - 4rem);
+      max-height: calc(100vh - 4rem); /* Prevent it from being too long */
       overflow-y: auto;
-      
-      /* --- 新增样式：创建卡片/面板效果 --- */
-      background-color: #f9fafb;     /* 非常浅的灰色背景 */
-      border: 1px solid #e5e7eb;      /* 柔和的边框 */
-      border-radius: 12px;           /* 更圆润的边角 */
-      padding: 1.5rem;               /* 넉넉한 내부边距 */
-      /* --- 样式结束 --- */
     }
   }
 
-  /* 3. Tocbot Core Styles (核心视觉更新) */
+  /* 3. Tocbot Core Styles (Clean & Modern) */
   .post-toc-container h3 {
     margin-top: 0;
     margin-bottom: 1em;
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid #e5e7eb; /* 为标题添加下划线，增强分隔感 */
     font-size: 1.1em;
     font-weight: 600;
     color: #333;
   }
-  .toc {
+  .toc { /* This is the main class Tocbot uses */
     overflow-y: auto;
   }
   .toc-list {
@@ -87,45 +77,35 @@ layout: default
     list-style-type: none;
   }
   .toc-list-item {
-    margin-bottom: 4px;
+    margin-bottom: 5px;
   }
   .toc-link {
     display: block;
-    padding: 8px 12px; /* 调整内边距，使其更易点击 */
-    border-left: 3px solid transparent; /* 默认隐藏左侧高亮条 */
-    color: #555; /* 默认文字颜色 */
+    padding: 4px 10px;
+    border-left: 2px solid #EEE;
+    color: #777;
     text-decoration: none;
     font-size: 0.875em;
     line-height: 1.5;
-    border-radius: 6px; /* 为每个链接项添加圆角 */
     transition: all 0.2s ease-in-out;
   }
-
-  /* --- 新增样式：清晰的鼠标悬停效果 --- */
   .toc-link:hover {
-    color: #000;
-    background-color: #eef2f7; /* 悬停时添加背景色 */
+    color: #333;
+    border-left-color: #AAA;
   }
-  /* --- 样式结束 --- */
-
-  /* Active state styles (当前激活项的样式) */
+  /* Active state styles */
   .is-active-link {
-    color: #007bff;
+    color: #007bff; /* A nice highlight color */
     font-weight: 600;
-    background-color: #e6f2ff; /* 激活时使用不同的背景色 */
-    border-left-color: #007bff;   /* 显示左侧高亮条 */
+    border-left-color: #007bff;
+    background-color: #f0f7ff;
   }
-  /* 激活项在悬停时也可以有反馈 */
-  .is-active-link:hover {
-      background-color: #dbeaff;
-  }
-
   /* Nested list indentation */
   .toc-list .toc-list {
     padding-left: 1.25em;
   }
 
-  /* 4. Mobile TOC Container (保持不变) */
+  /* 4. Mobile TOC Container (Same as before) */
   .toc-mobile-container {
     display: block;
     margin: 2em 0;
