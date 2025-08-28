@@ -1,6 +1,6 @@
 ---
+title: Six Sense Spheres
 ---
-
 
 # 第二章：六处
 

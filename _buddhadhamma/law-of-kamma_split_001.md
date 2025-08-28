@@ -1,4 +1,5 @@
 ---
+title: Law Of Kamma_split_001
 ---
 
 ### 与来世的正确关系
