@@ -47,7 +47,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS (方案A集成版)
+  PART 2: INLINE CSS (方案A集成版) - **样式已优化**
   ============================================================================
 {%- endcomment %}
 <style>
@@ -57,7 +57,7 @@ layout: default
     .article--doc { flex: 1 1 auto; min-width: 0; }
   }
 
-  /* --- LEFT BOOK NAVIGATION (DESKTOP) --- */
+  /* --- LEFT BOOK NAVIGATION (DESKTOP) --- [优化后的样式] --- */
   .doc-nav-container { display: none; }
   @media screen and (min-width: 1200px) {
     .doc-nav-container {
@@ -65,42 +65,62 @@ layout: default
       flex: 0 0 280px;
       position: sticky; top: 2rem;
       max-height: calc(100vh - 4rem);
-      font-size: 15px;
+      /* [优化] 提升基础字号，使其更易读 */
+      font-size: 16px;
       transition: flex-basis 0.3s ease;
     }
     .doc-nav-scroll-area {
       height: 100%; overflow-y: auto;
+      /* [优化] 边框颜色变淡，整体更柔和 */
       background-color: #f8f9fa;
-      border: 1px solid #e9ecef;
+      border: 1px solid #dee2e6;
       border-radius: 8px;
       padding: 1.25em 0.5em 1.25em 1.25em;
     }
     .doc-nav-container h3 {
       padding: 0 0.75em; margin: 0 0 1em;
-      font-size: 1.3em; font-weight: 700; color: #2c3e50;
+      font-size: 1.25em; /* 调整标题大小以匹配新的基础字号 */
+      font-weight: 700;
+      color: #2c3e50;
     }
     .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
     .doc-nav-container li { position: relative; }
     .doc-nav-container a {
       display: block; text-decoration: none;
-      padding: 0.6em 0.75em;
-      margin-bottom: 4px;
+      /* [优化] 增加垂直和水平内边距，增加呼吸感 */
+      padding: 0.7em 1em;
+      /* [优化] 减小外边距，让列表更紧凑有序 */
+      margin-bottom: 2px;
       border-radius: 6px;
-      color: #495057;
-      line-height: 1.4;
-      transition: background-color 0.2s, color 0.2s;
+      color: #495057; /* 默认文字颜色 */
+      /* [优化] 增加行高，处理多级目录换行问题 */
+      line-height: 1.6;
+      font-weight: 500; /* 默认字重 */
+      transition: background-color 0.2s, color 0.2s, font-weight 0.2s;
     }
-    .doc-nav-container a:hover { background-color: #e9ecef; color: #000; }
+    /* [优化] 悬停效果改为更淡的背景色 */
+    .doc-nav-container a:hover {
+      background-color: #e9ecef;
+      color: #212529; /* 悬停时文字颜色加深 */
+    }
+    /* [优化] 激活项：去掉背景色，只改变文字颜色和字重 */
     .doc-nav-container li.active > a {
-      background-color: #3a77d8; color: #fff; font-weight: 600;
+      background-color: transparent;
+      color: #0d6efd; /* 使用一个友好的蓝色作为高亮色 */
+      font-weight: 700; /* 加粗 */
     }
+    /* [优化] 父级激活项：同样去掉背景，只加粗文字和加深颜色 */
     .doc-nav-container li.parent-active > a {
-        background-color: #e0e9f8; color: #1c3d70;
+      background-color: transparent;
+      color: #343a40; /* 使用比默认更深的颜色 */
+      font-weight: 600; /* 次级加粗 */
     }
     .doc-nav-container ul ul {
-      padding-left: 1.2em;
-      margin-top: 4px;
-      border-left: 2px solid #dee2e6;
+      /* [优化] 增加缩进，使层级更分明 */
+      padding-left: 1.5em;
+      margin-top: 6px; /* 给子菜单和父项之间一点空间 */
+      /* [优化] 层级引导线颜色变淡，减少视觉干扰 */
+      border-left: 1px solid #e0e0e0;
     }
   }
 
