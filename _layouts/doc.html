@@ -4,15 +4,11 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 1: DATA PREPARATION (Jekyll/Liquid) - (无需改动)
+  PART 1: DATA PREPARATION (Jekyll/Liquid) - 无需改动
   ============================================================================
 {%- endcomment %}
 
-{%- assign show_toc_feature = false -%}
-{%- if page.toc == true -%}
-  {%- assign show_toc_feature = true -%}
-{%- endif -%}
-
+{%- assign show_toc_feature = page.toc | default: false -%}
 {%- assign show_right_container = false -%}
 {%- if show_toc_feature == true and page.aside != true -%}
   {%- assign show_right_container = true -%}
@@ -22,39 +18,22 @@ layout: default
 {%- assign book_data = site.data.books[collection_name] -%}
 {%- assign book_title = book_data.title | default: collection_name | capitalize -%}
 {%- assign book_chapters = book_data.chapters -%}
-
 {%- assign page_title_from_data = "" -%}
-{%- for chapter in book_chapters -%}
-  {%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{%- endif -%}
-  {%- if chapter.subitems -%}
-    {%- for subitem in chapter.subitems -%}
-      {%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{%- endif -%}
-       {%- if subitem.subitems -%}
-        {%- for subsubitem in subitem.subitems -%}
-          {%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{%- endif -%}
-        {%- endfor -%}
-        {%- if page_title_from_data != "" %}{% break %}{% endif %}
-       {%- endif -%}
-    {%- endfor -%}
-    {%- if page_title_from_data != "" %}{% break %}{% endif %}
-  {%- endif -%}
-{%- endfor -%}
+{%- for chapter in book_chapters -%}{%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{%- endif -%}{%- if chapter.subitems -%}{%- for subitem in chapter.subitems -%}{%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{%- endif -%}{%- if subitem.subitems -%}{%- for subsubitem in subitem.subitems -%}{%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}
 {%- assign page_title_to_display = page_title_from_data | default: page.title | default: "Untitled" -%}
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS - (新增 .toc-title 样式)
+  PART 2: INLINE CSS - 无需改动
   ============================================================================
 {%- endcomment %}
 <style>
-  /* ... 其他样式保持不变 ... */
   .doc-nav-container, .doc-chapter-toc { display: none; }
   .doc-nav-fab { position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; background-color: #2c3e50; color: white; border-radius: 50%; border: none; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; transition: transform 0.2s ease-in-out; }
   .doc-nav-fab:hover { transform: scale(1.05); }
   .doc-nav-mobile-menu { position: fixed; top: 0; left: 0; width: 80%; max-width: 320px; height: 100%; background-color: white; z-index: 1002; transform: translateX(-100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 20px rgba(0,0,0,0.2); overflow-y: auto; }
   .doc-nav-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s; }
   .toc-middle-container { display: none; margin: 2em 0; padding: 1.2em 1.5em; border: 1px solid #e0e0e0; border-radius: 8px; background-color: #f8f9fa; }
-
   @media screen and (min-width: 1200px) {
     .doc-nav-fab, .doc-nav-mobile-menu, .doc-nav-overlay, #toc-middle-container { display: none !important; }
     .main.container--doc { display: flex; gap: 2.5em; max-width: 1420px; margin: 0 auto; align-items: flex-start; }
@@ -71,19 +50,8 @@ layout: default
   .doc-nav-container a { display: block; padding: 0.4em 0.5em; text-decoration: none; color: #666666; font-weight: normal; }
   .doc-nav-container li.active > a { color: #000; font-weight: 600; }
   .doc-nav-container ul ul { padding-left: 1em; }
-
-  /* ★ 更新: .toc-title 样式 */
-  .toc-title {
-    margin: 0 0 1em;
-    font-size: 1.1em;
-    font-weight: 600;
-    color: #333;
-  }
-  /* ★ 更新: 如果toc-middle-container内的标题需要特殊处理，可以在这里加 */
-  .toc-middle-container .toc-title {
-     margin-top: 0;
-  }
-
+  .toc-title { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
+  .toc-middle-container .toc-title { margin-top: 0; }
   .toc-list { margin: 0; padding: 0; list-style: none; }
   .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; text-decoration: none !important; }
   .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; }
@@ -91,52 +59,50 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 3: HTML STRUCTURE - (已更新)
+  PART 3: HTML STRUCTURE - (已修正)
   ============================================================================
 {%- endcomment %}
 
 {% include site-header.html %}
-
 {% capture nav_list_html %} ... 左侧导航HTML，无需改动 ... {% endcapture %}
 
 <main class="main container container--doc {% if show_right_container %}has-right-toc{% endif %}">
-  
   <aside class="doc-nav-container"> ... 左侧导航容器 ... </aside>
 
-  <article class="article article--doc content typeset js-toc-content">
+  <article class="article article--doc content typeset">
     <h1>{{ page_title_to_display }}</h1>
     
     {% if show_toc_feature %}
     <div id="toc-middle-container" class="toc-middle-container">
-      <!-- ★ 核心改动 1: 把标题加回来，并给它一个 class -->
       <h3 class="toc-title">Index</h3>
       <div class="js-toc-middle"></div>
     </div>
     {% endif %}
 
-    {{ content }}
+    <!-- ★ 核心改动 1: 将 {{content}} 包裹在一个新的div中，作为TOC扫描的目标 -->
+    <div class="content-body js-toc-content">
+      {{ content }}
+    </div>
   </article>
 
   {% if show_right_container %}
   <aside class="doc-chapter-toc">
     <div id="toc-right-container">
-       <!-- ★ 核心改动 1: 右侧的标题也加上同样的 class，保持一致性 -->
       <h3 class="toc-title">Index</h3>
       <div class="js-toc-right"></div>
     </div>
   </aside>
   {% endif %}
-
 </main>
 
-<!-- MOBILE Navigation Elements -->
-... 此部分无需改动 ...
+<!-- 其他HTML元素 -->
+...
 
 {% include site-footer.html %}
 
 {%- comment %}
   ============================================================================
-  PART 4: JAVASCRIPT LOGIC (已更新)
+  PART 4: JAVASCRIPT LOGIC (已修正)
   ============================================================================
 {%- endcomment %}
 
@@ -148,11 +114,12 @@ document.addEventListener('DOMContentLoaded', function() {
   const pageHasAside = {{ page.aside | default: false }};
   const middleTocContainer = document.getElementById('toc-middle-container');
   const rightTocContainer = document.getElementById('toc-right-container'); 
+  // ★ 核心改动 2: 将 contentArea 指向新的 .js-toc-content (即 .content-body)
   const contentArea = document.querySelector('.js-toc-content');
 
   if (!contentArea || !middleTocContainer) { return; }
 
-  function debounce(func, wait) { /* ... debounce function ... */ let timeout; return function executedFunction(...args) { const later = () => { clearTimeout(timeout); func(...args); }; clearTimeout(timeout); timeout = setTimeout(later, wait); }; }
+  function debounce(func, wait) { let timeout; return function executedFunction(...args) { const later = () => { clearTimeout(timeout); func(...args); }; clearTimeout(timeout); timeout = setTimeout(later, wait); }; }
   
   function determineHeadingSelector() {
     if (contentArea.querySelector('h2')) return 'h2, h3';
@@ -171,13 +138,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     const showMiddleToc = (window.innerWidth < DESKTOP_BREAKPOINT) || pageHasAside;
+    // ★ 核心改动 3: 移除无效的 ignoreSelector，并将 contentSelector 指向正确的目标
     const tocbotOptions = {
-      contentSelector: '.js-toc-content',
+      contentSelector: '.js-toc-content', // 这是正确的，因为它现在指向 .content-body
       headingSelector: headingSelector,
       hasInnerContainers: true,
-      scrollSmooth: true,
-      // ★ 核心改动 2: 增加 ignoreSelector 选项
-      ignoreSelector: '.toc-title'
+      scrollSmooth: true
     };
 
     if (showMiddleToc) {
