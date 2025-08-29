@@ -4,7 +4,8 @@
 <!-- ================= HTML 结构 (适配视口修复) ================= -->
 <div 
   class="tts-fab-container js-viewport-fixed-fab" 
-  data-transform-origin="bottom right" 
+  data-transform-origin="bottom right"
+  data-anchor-selector="#tts-control-btn"
   id="tts-fab-container" 
   style="display: none;">
   <button id="tts-scroll-top-btn" class="tts-button" aria-label="回到顶部" style="display: none; opacity: 0;">
@@ -16,9 +17,18 @@
   </button>
 </div>
 
-<!-- ================= CSS 样式 (无变动) ================= -->
+<!-- ================= CSS 样式 (增加一个关键的 flex 属性) ================= -->
 <style>
-  .tts-fab-container { position: fixed; bottom: 30px; right: 30px; z-index: 1000; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+  .tts-fab-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column-reverse; /* KEY CHANGE: Ensures the anchor is always at the bottom */
+    align-items: center;
+    gap: 16px;
+  }
   .tts-button { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; border: none; background-color: #ffffff; border-radius: 50%; cursor: pointer; padding: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: background-color 0.2s ease-in-out, transform 0.2s ease, opacity 0.3s ease-in-out; }
   .tts-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
   .tts-button:active { transform: scale(0.95); }
@@ -26,7 +36,7 @@
   .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
 </style>
 
-<!-- ================= JavaScript 逻辑 (包含最终修正的视口修复脚本) ================= -->
+<!-- ================= JavaScript 逻辑 (最终的、包含锚点逻辑的脚本) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- TTS Reader Logic (unchanged) ---
@@ -67,63 +77,77 @@ document.addEventListener('DOMContentLoaded', () => {
   if (SHOW_SCROLL_TO_TOP_BUTTON && scrollTopBtn) { scrollTopBtn.addEventListener('click', () => { article.scrollIntoView({ behavior: 'smooth', block: 'start' }); }); window.addEventListener('scroll', handleScroll, { passive: true }); }
   initializeReader();
 
-  // --- [FINAL CORRECTED] UNIVERSAL FAB VISUAL VIEWPORT FIX ---
-  // This script keeps all elements with 'js-viewport-fixed-fab' fixed to the visual 
-  // viewport on touch devices, solving both positioning and scaling issues during pinch-zoom.
+  // --- [FINAL CORRECTED WITH ANCHOR LOGIC] UNIVERSAL FAB VISUAL VIEWPORT FIX ---
   (() => {
     if (window.visualViewport && window.matchMedia('(pointer: coarse)').matches) {
       const fixedFabs = document.querySelectorAll('.js-viewport-fixed-fab');
+      if (fixedFabs.length === 0) return;
 
-      if (fixedFabs.length > 0) {
-        // Store initial offset values and dimensions for each FAB
-        const fabData = Array.from(fixedFabs).map(fab => {
-          const style = getComputedStyle(fab);
-          return {
-            element: fab,
-            width: fab.offsetWidth,
-            height: fab.offsetHeight,
-            bottom: parseFloat(style.bottom),
-            left: parseFloat(style.left),
-            right: parseFloat(style.right)
-          };
-        });
-
-        const applyFix = () => {
-          const { offsetLeft, offsetTop, width, height, scale } = window.visualViewport;
-          const inverseScale = 1 / scale;
-
-          fabData.forEach(data => {
-            const { element, bottom, left, right, width: elWidth, height: elHeight } = data;
-            
-            // Set transform origin and inverse scale to keep size constant
-            element.style.transformOrigin = element.dataset.transformOrigin || 'center';
-            element.style.transform = `scale(${inverseScale})`;
-
-            // Switch to top/left positioning and calculate the correct position
-            // to keep the element pinned to the visual viewport's edges.
-            element.style.bottom = 'auto';
-            element.style.right = 'auto';
-
-            const newTop = offsetTop + height - elHeight - bottom;
-            let newLeft;
-
-            if (!isNaN(left)) { // Handle left-aligned elements
-              newLeft = offsetLeft + left;
-            } else if (!isNaN(right)) { // Handle right-aligned elements
-              newLeft = offsetLeft + width - elWidth - right;
-            }
-            
-            element.style.top = `${newTop}px`;
-            element.style.left = `${newLeft}px`;
-          });
+      const fabData = Array.from(fixedFabs).map(fab => {
+        const style = getComputedStyle(fab);
+        return {
+          element: fab,
+          bottom: parseFloat(style.bottom),
+          left: parseFloat(style.left),
+          right: parseFloat(style.right),
+          anchorSelector: fab.dataset.anchorSelector || null
         };
+      });
 
-        window.visualViewport.addEventListener('resize', applyFix);
-        window.visualViewport.addEventListener('scroll', applyFix);
-        applyFix();
-      }
+      let isUpdateScheduled = false;
+
+      const applyFix = () => {
+        const { offsetLeft, offsetTop, width, height, scale } = window.visualViewport;
+        const inverseScale = 1 / scale;
+
+        fabData.forEach(data => {
+          const { element, bottom, left, right, anchorSelector } = data;
+          
+          // KEY FIX: Determine which element to measure.
+          // If an anchor is defined, measure it. Otherwise, measure the fab element itself.
+          const elementToMeasure = anchorSelector ? element.querySelector(anchorSelector) : element;
+          if (!elementToMeasure) return; // If anchor not found, skip.
+
+          const elWidth = elementToMeasure.offsetWidth;
+          const elHeight = elementToMeasure.offsetHeight;
+          if (elWidth === 0) return;
+
+          element.style.transformOrigin = element.dataset.transformOrigin || 'center';
+          element.style.transform = `scale(${inverseScale})`;
+          
+          element.style.bottom = 'auto';
+          element.style.right = 'auto';
+
+          // The positioning is now calculated based on the ANCHOR's height,
+          // which prevents the container from jumping when other children appear.
+          const newTop = offsetTop + height - elHeight - bottom;
+          let newLeft;
+
+          if (!isNaN(left)) {
+            newLeft = offsetLeft + left;
+          } else if (!isNaN(right)) {
+            // Here we use the container's width for alignment, but the anchor's height for vertical pos.
+            const containerWidth = element.offsetWidth;
+            newLeft = offsetLeft + width - containerWidth - right;
+          }
+          
+          element.style.top = `${newTop}px`;
+          element.style.left = `${newLeft}px`;
+        });
+        isUpdateScheduled = false;
+      };
+
+      const scheduleUpdate = () => {
+        if (isUpdateScheduled) return;
+        isUpdateScheduled = true;
+        requestAnimationFrame(applyFix);
+      };
+
+      window.visualViewport.addEventListener('resize', scheduleUpdate);
+      window.visualViewport.addEventListener('scroll', scheduleUpdate);
+      setTimeout(scheduleUpdate, 100);
     }
   })();
   // --- END: UNIVERSAL FAB VISUAL VIEWPORT FIX ---
 });
-</script>
+</script>```
