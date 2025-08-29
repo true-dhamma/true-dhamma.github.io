@@ -26,10 +26,11 @@
   .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
 </style>
 
-<!-- ================= JavaScript 逻辑 (包含新增的视口修复脚本) ================= -->
+<!-- ================= JavaScript 逻辑 (包含最终修正的视口修复脚本) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- TTS Reader Logic (unchanged) ---
+  // (这部分原有的 TTS 朗读逻辑保持不变)
   const SHOW_SCROLL_TO_TOP_BUTTON = true;
   const WORKER_URL = 'https://proxy.true-dhamma.com/tts-proxy';
   const PREFETCH_WINDOW_SIZE = 5;
@@ -66,30 +67,37 @@ document.addEventListener('DOMContentLoaded', () => {
   if (SHOW_SCROLL_TO_TOP_BUTTON && scrollTopBtn) { scrollTopBtn.addEventListener('click', () => { article.scrollIntoView({ behavior: 'smooth', block: 'start' }); }); window.addEventListener('scroll', handleScroll, { passive: true }); }
   initializeReader();
 
-  // --- [NEW] UNIVERSAL FAB VISUAL VIEWPORT FIX ---
+  // --- [FINAL CORRECTED] UNIVERSAL FAB VISUAL VIEWPORT FIX ---
   // This script keeps all elements with the class 'js-viewport-fixed-fab' fixed 
-  // to the visual viewport on touch devices during pinch-zoom.
-  // It is placed here because tts-reader.html is included on all relevant pages.
+  // to the visual viewport on touch devices during pinch-zoom, solving both
+  // positioning and scaling issues.
   (() => {
-    // Only run this logic on touch devices that support visualViewport.
     if (window.visualViewport && window.matchMedia('(pointer: coarse)').matches) {
       const fixedFabs = document.querySelectorAll('.js-viewport-fixed-fab');
 
       if (fixedFabs.length > 0) {
         const applyFix = () => {
-          const scale = window.visualViewport.scale;
+          const { offsetLeft, offsetTop, scale } = window.visualViewport;
           const inverseScale = 1 / scale;
 
           fixedFabs.forEach(fab => {
             const origin = fab.dataset.transformOrigin || 'center';
             fab.style.transformOrigin = origin;
-            fab.style.transform = `scale(${inverseScale})`;
+            
+            // This is the key:
+            // 1. translate(x, y) moves the FAB from its off-screen fixed position
+            //    back into the user's visible area.
+            // 2. scale() counteracts the zoom to keep the FAB's size constant.
+            fab.style.transform = `
+              translate(${offsetLeft}px, ${offsetTop}px) 
+              scale(${inverseScale})
+            `;
           });
         };
 
         window.visualViewport.addEventListener('resize', applyFix);
         window.visualViewport.addEventListener('scroll', applyFix);
-        applyFix(); // Initial call to set state
+        applyFix();
       }
     }
   })();
