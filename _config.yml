@@ -1,3 +1,4 @@
+---
 title: True Dhamma
 timezone: Asia/Shanghai
 collections:
@@ -41,7 +42,7 @@ defaults:
   values:
     layout: doc
 - scope:
-    path: ""
+    path: ''
   values:
     seo_description_max_words: 20
 url: https://true-dhamma.com
