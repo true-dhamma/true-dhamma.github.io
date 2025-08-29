@@ -8,30 +8,57 @@ layout: default
 {%- assign doc_title = doc_data.title | default: collection_name | capitalize -%}
 {%- assign doc_chapters = doc_data.chapters -%}
 {%- assign page_title_from_data = "" -%}
-{%- for chapter in doc_chapters -%}{%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{% endif -%}{%- if chapter.subitems -%}{%- for subitem in chapter.subitems -%}{%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{% endif -%}{%- if subitem.subitems -%}{%- for subsubitem in subitem.subitems -%}{%- if subsubsubitem.url == page.url -%}{%- assign page_title_from_data = subsubsubitem.title -%}{% break %}{% endif -%}{%- if subsubsubitem.subitems -%}{%- for subsubsubitem in subsubsubitem.subitems -%}{%- if subsubsubitem.url == page.url -%}{%- assign page_title_from_data = subsubsubitem.title -%}{% break %}{% endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}
+{%- for chapter in doc_chapters -%}{%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{% endif -%}{%- if chapter.subitems -%}{%- for subitem in chapter.subitems -%}{%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{% endif -%}{%- if subitem.subitems -%}{%- for subsubitem in subitem.subitems -%}{%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{% endif -%}{%- if subsubitem.subitems -%}{%- for subsubsubitem in subsubitem.subitems -%}{%- if subsubsubitem.url == page.url -%}{%- assign page_title_from_data = subsubsubitem.title -%}{% break %}{% endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}
 {%- assign page_title_to_display = page_title_from_data | default: page.title | default: "Untitled" -%}
 {%- capture nav_list_html %}
 <ul class="doc-nav-list doc-nav-list--l1">
   {%- for item_l1 in doc_chapters %}
   <li class="doc-nav-item doc-nav-item--l1 {% if page.url == item_l1.url %}active{% endif %}" data-level="1" {% if item_l1.subitems %}data-url="{{ item_l1.url | relative_url }}"{% endif %}>
-    <a href="{{ item_l1.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l1.title }}</a>
+    
+    <!-- ▼▼▼ HTML 结构修改 ▼▼▼ -->
+    <div class="doc-nav-item-content-wrapper">
+      <a href="{{ item_l1.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l1.title }}</a>
+      {%- if item_l1.subitems %}
+      <div class="doc-nav-toggle-wrapper">
+        <span class="doc-nav-toggle"></span>
+      </div>
+      {%- endif %}
+    </div>
+    <!-- ▲▲▲ HTML 结构修改 ▲▲▲ -->
+
     {%- if item_l1.subitems %}
-    <span class="doc-nav-toggle"></span>
     <ul class="doc-nav-list doc-nav-list--l2">
       {%- for item_l2 in item_l1.subitems %}
       <li class="doc-nav-item doc-nav-item--l2 {% if page.url == item_l2.url %}active{% endif %}" data-level="2" {% if item_l2.subitems %}data-url="{{ item_l2.url | relative_url }}"{% endif %}>
-        <a href="{{ item_l2.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l2.title }}</a>
+        
+        <div class="doc-nav-item-content-wrapper">
+          <a href="{{ item_l2.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l2.title }}</a>
+          {%- if item_l2.subitems %}
+          <div class="doc-nav-toggle-wrapper">
+            <span class="doc-nav-toggle"></span>
+          </div>
+          {%- endif %}
+        </div>
+
         {%- if item_l2.subitems %}
-        <span class="doc-nav-toggle"></span>
         <ul class="doc-nav-list doc-nav-list--l3">
           {%- for item_l3 in item_l2.subitems %}
           <li class="doc-nav-item doc-nav-item--l3 {% if page.url == item_l3.url %}active{% endif %}" data-level="3" {% if item_l3.subitems %}data-url="{{ item_l3.url | relative_url }}"{% endif %}>
-            <a href="{{ item_l3.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l3.title }}</a>
+
+            <div class="doc-nav-item-content-wrapper">
+              <a href="{{ item_l3.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l3.title }}</a>
+              {%- if item_l3.subitems %}
+              <div class="doc-nav-toggle-wrapper">
+                <span class="doc-nav-toggle"></span>
+              </div>
+              {%- endif %}
+            </div>
+
             {%- if item_l3.subitems %}
-            <span class="doc-nav-toggle"></span>
             <ul class="doc-nav-list doc-nav-list--l4">
               {%- for item_l4 in item_l3.subitems %}
               <li class="doc-nav-item doc-nav-item--l4 {% if page.url == item_l4.url %}active{% endif %}" data-level="4">
+                <!-- L4 没有子项，所以结构保持简单 -->
                 <a href="{{ item_l4.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l4.title }}</a>
               </li>
               {%- endfor %}
@@ -51,7 +78,7 @@ layout: default
 {%- endcapture %}
 
 <style>
-  /* --- Base Doc Layout --- */
+  /* --- Base Doc Layout (unchanged) --- */
   @media screen and (min-width: 768px) {
     .main.container--doc { display: flex; gap: 2em; max-width: 960px; margin: 0 auto; align-items: flex-start; }
     .article--doc { flex: 1 1 auto; min-width: 0; }
@@ -73,7 +100,7 @@ layout: default
     .main.container--doc .content-toc-right-wrapper { flex: 0 0 280px; }
   }
   
-  /* --- Doc Navigation System Styles (partially changed) --- */
+  /* --- Doc Navigation System Styles (MODIFIED) --- */
   body.doc-nav-open { overflow: hidden; }
   #doc-content { scroll-margin-top: 2rem; }
   .doc-nav-fab { position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; background-color: #2c3e50; color: white; border-radius: 50%; border: none; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; transition: transform 0.2s ease-in-out; }
@@ -91,50 +118,75 @@ layout: default
   .doc-nav-list { list-style: none; margin: 0; padding: 0; }
   .doc-nav-list .doc-nav-list { padding-left: 0.6em; max-height: 0; overflow: hidden; transition: max-height 0.3s ease-in-out; }
   .doc-nav-item.is-expanded > .doc-nav-list { max-height: 2000px; }
+  .doc-nav-item { position: relative; }
 
-  /* ===== MODIFICATION START (FIXED) ===== */
-  /* Using Flexbox to create a stable title row */
-  .doc-nav-item {
+  /* ▼▼▼ CSS 核心修改区域 ▼▼▼ */
+
+  /* 新增：包裹链接和图标的 flex 容器 */
+  .doc-nav-item-content-wrapper {
     display: flex;
-    flex-wrap: wrap; /* CRITICAL: Allows the sub-menu UL to wrap to a new line */
+    justify-content: space-between; /* 将内容两端对齐 */
+    align-items: center; /* 垂直居中 */
   }
 
-  /* NEW RULE: Forces the sub-menu (UL) to take up 100% width, pushing it to a new line */
-  .doc-nav-item > .doc-nav-list {
-    flex-basis: 100%;
-  }
-
-  /* The link takes up the remaining space */
+  /* 修改：让链接占据所有可用空间 */
   .doc-nav-link {
-    flex-grow: 1; 
-    min-width: 0; /* Prevents long text from breaking layout */
     display: block;
     font-size: 0.9em;
     color: #495057;
     text-decoration: none;
-    padding: 8px 10px 8px 24px; /* Adjusted right padding */
+    padding: 8px 24px;
     border-left: 3px solid transparent;
     transition: all 0.2s ease;
+    flex-grow: 1; /* 让链接占据所有可用空间 */
+    min-width: 0; /* 防止 flex item 溢出 */
+  }
+
+  /* 新增：包裹图标的容器，用于控制点击区域和布局 */
+  .doc-nav-toggle-wrapper {
+    flex-shrink: 0; /* 防止被压缩 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* 固定宽度 */
+    align-self: stretch; /* 撑满父容器的高度 */
+    cursor: pointer;
   }
   
-  /* The toggle has a fixed 1/4 width, creating a large, stable click area */
+  /* 移除 .doc-nav-toggle 的绝对定位和尺寸，现在由 wrapper 控制 */
   .doc-nav-toggle {
-    flex-shrink: 0; /* Prevent the toggle from shrinking */
-    width: 25%;
-    max-width: 60px; /* Added a max-width for very wide sidebars */
+    position: static; /* 移除绝对定位 */
+    width: auto;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
     color: #6c757d;
   }
-  /* ===== MODIFICATION END ===== */
+  
+  /* ▲▲▲ CSS 核心修改区域 ▲▲▲ */
 
-  .doc-nav-item:not(.active) .doc-nav-link:hover { background-color: #f8f9fa; color: #0056b3; border-left-color: #dee2e6; }
-  .doc-nav-item.active > .doc-nav-link { color: #0056b3; font-weight: 600; background-color: #e7f1ff; border-left-color: #0056b3; }
+  .doc-nav-item:not(.active) .doc-nav-item-content-wrapper:hover {
+    background-color: #f8f9fa;
+  }
+  .doc-nav-item:not(.active) .doc-nav-item-content-wrapper:hover .doc-nav-link {
+    color: #0056b3;
+    border-left-color: #dee2e6;
+  }
+
+  .doc-nav-item.active > .doc-nav-item-content-wrapper > .doc-nav-link {
+    color: #0056b3;
+    font-weight: 600;
+    background-color: #e7f1ff;
+    border-left-color: #0056b3;
+  }
+  /* 为 active 状态的 wrapper 添加背景色，使其高亮区域一致 */
+  .doc-nav-item.active > .doc-nav-item-content-wrapper {
+    background-color: #e7f1ff;
+  }
+
   .doc-nav-toggle::before { content: ''; width: 0; height: 0; border: solid currentColor; border-width: 0 1.5px 1.5px 0; display: inline-block; padding: 3px; transform: rotate(45deg); transition: transform 0.2s ease-in-out; }
-  .doc-nav-item.is-expanded > .doc-nav-toggle::before { transform: rotate(-135deg); margin-top: -4px; }
+  .doc-nav-item.is-expanded > .doc-nav-item-content-wrapper .doc-nav-toggle::before { transform: rotate(-135deg); margin-top: -4px; }
   
   @media screen and (min-width: 768px) { .doc-nav-fab, .doc-nav-overlay, .doc-nav-close { display: none; } .doc-nav-container { position: sticky; top: 2rem; width: auto; height: auto; transform: none; box-shadow: none; z-index: 1; max-height: calc(100vh - 4rem); display: flex; flex-direction: column; flex: 0 0 260px; } .doc-nav-header { padding: 0 0 1rem 0; border-bottom: 1px solid #e9ecef; } .doc-nav-scroll-area { padding: 1rem 0 0 0; } }
   @media screen and (min-width: 1200px) { .doc-nav-container { flex-basis: 280px; } }
@@ -181,7 +233,117 @@ layout: default
   {% endif %}
 </main>
 
-<script>/* DocNavController script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e={SCROLL_STORAGE_KEY:"docNavScrollPos",EXPAND_STORAGE_KEY:"docNavExpandedItems",body:document.body,fab:document.querySelector(".doc-nav-fab"),overlay:document.querySelector(".doc-nav-overlay"),navContainer:document.querySelector(".doc-nav-container"),closeButton:document.querySelector(".doc-nav-close"),scrollArea:document.querySelector(".doc-nav-scroll-area"),init:function(){this.navContainer&&(this.setupMobileHeight(),this.applyStoredState(),this.bindEvents())},applyStoredState:function(){const e=JSON.parse(sessionStorage.getItem(this.EXPAND_STORAGE_KEY));e?document.querySelectorAll(".doc-nav-item[data-url]").forEach(t=>{e.includes(t.dataset.url)&&t.classList.add("is-expanded")}):document.querySelectorAll(".doc-nav-item--l1[data-url]").forEach(e=>{e.classList.add("is-expanded")});const t=sessionStorage.getItem(this.SCROLL_STORAGE_KEY);t&&this.scrollArea&&(this.scrollArea.scrollTop=parseInt(t,10))},saveState:function(){if(!this.scrollArea)return;sessionStorage.setItem(this.SCROLL_STORAGE_KEY,this.scrollArea.scrollTop);const e=[];document.querySelectorAll(".doc-nav-item.is-expanded[data-url]").forEach(t=>{e.push(t.dataset.url)}),sessionStorage.setItem(this.EXPAND_STORAGE_KEY,JSON.stringify(e))},bindEvents:function(){this.fab&&this.fab.addEventListener("click",this.openNav.bind(this)),this.overlay&&this.overlay.addEventListener("click",this.closeNav.bind(this)),this.closeButton&&this.closeButton.addEventListener("click",this.closeNav.bind(this)),this.navContainer.addEventListener("click",e=>{const t=e.target.closest(".doc-nav-toggle");t&&(t.parentElement.classList.toggle("is-expanded"),this.saveState()),e.target.classList.contains("doc-nav-link")&&this.saveState()}),window.addEventListener("resize",this.debounce(this.setupMobileHeight.bind(this),150))},openNav:function(){this.body.classList.add("doc-nav-open")},closeNav:function(){this.body.classList.remove("doc-nav-open")},setupMobileHeight:function(){const e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh",`${e}px`),document.documentElement.style.setProperty("--doc-nav-dynamic-height",`${window.innerHeight}px`)},debounce:function(e,t){let o;return function(...s){const n=()=>{clearTimeout(o),e.apply(this,s)};clearTimeout(o),o=setTimeout(n,t)}}};e.init()});</script>
+<!-- ▼▼▼ Javascript 修改 ▼▼▼ -->
+<script>
+/* DocNavController script (MODIFIED) */
+document.addEventListener('DOMContentLoaded', function () {
+  const docNavController = {
+    // ... (常量定义不变)
+    SCROLL_STORAGE_KEY: 'docNavScrollPos',
+    EXPAND_STORAGE_KEY: 'docNavExpandedItems',
+    
+    // ... (元素选择器不变)
+    body: document.body,
+    fab: document.querySelector('.doc-nav-fab'),
+    overlay: document.querySelector('.doc-nav-overlay'),
+    navContainer: document.querySelector('.doc-nav-container'),
+    closeButton: document.querySelector('.doc-nav-close'),
+    scrollArea: document.querySelector('.doc-nav-scroll-area'),
+    
+    init: function () {
+      if (!this.navContainer) return;
+      this.setupMobileHeight();
+      this.applyStoredState();
+      this.bindEvents();
+    },
+    
+    applyStoredState: function () {
+      const expandedItems = JSON.parse(sessionStorage.getItem(this.EXPAND_STORAGE_KEY));
+      if (expandedItems) {
+        document.querySelectorAll('.doc-nav-item[data-url]').forEach(item => {
+          if (expandedItems.includes(item.dataset.url)) {
+            item.classList.add('is-expanded');
+          }
+        });
+      } else {
+        document.querySelectorAll('.doc-nav-item--l1[data-url]').forEach(item => {
+          item.classList.add('is-expanded');
+        });
+      }
+      
+      const scrollPos = sessionStorage.getItem(this.SCROLL_STORAGE_KEY);
+      if (scrollPos && this.scrollArea) {
+        this.scrollArea.scrollTop = parseInt(scrollPos, 10);
+      }
+    },
+    
+    saveState: function () {
+      if (!this.scrollArea) return;
+      sessionStorage.setItem(this.SCROLL_STORAGE_KEY, this.scrollArea.scrollTop);
+      
+      const expandedUrls = [];
+      document.querySelectorAll('.doc-nav-item.is-expanded[data-url]').forEach(item => {
+        expandedUrls.push(item.dataset.url);
+      });
+      sessionStorage.setItem(this.EXPAND_STORAGE_KEY, JSON.stringify(expandedUrls));
+    },
+    
+    bindEvents: function () {
+      if (this.fab) this.fab.addEventListener('click', this.openNav.bind(this));
+      if (this.overlay) this.overlay.addEventListener('click', this.closeNav.bind(this));
+      if (this.closeButton) this.closeButton.addEventListener('click', this.closeNav.bind(this));
+
+      // 修改事件委托以适应新结构
+      this.navContainer.addEventListener('click', (event) => {
+        // 寻找被点击的切换器容器
+        const toggleWrapper = event.target.closest('.doc-nav-toggle-wrapper');
+        if (toggleWrapper) {
+          toggleWrapper.closest('.doc-nav-item').classList.toggle('is-expanded');
+          this.saveState();
+        }
+
+        // 寻找被点击的链接
+        const navLink = event.target.closest('.doc-nav-link');
+        if (navLink) {
+          this.saveState();
+        }
+      });
+      
+      window.addEventListener('resize', this.debounce(this.setupMobileHeight.bind(this), 150));
+    },
+    
+    openNav: function () {
+      this.body.classList.add('doc-nav-open');
+    },
+    
+    closeNav: function () {
+      this.body.classList.remove('doc-nav-open');
+    },
+    
+    setupMobileHeight: function() {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+      document.documentElement.style.setProperty('--doc-nav-dynamic-height', `${window.innerHeight}px`);
+    },
+
+    debounce: function (func, wait) {
+      let timeout;
+      return function (...args) {
+        const later = () => {
+          clearTimeout(timeout);
+          func.apply(this, args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+      };
+    }
+  };
+  
+  docNavController.init();
+});
+</script>
+<!-- ▲▲▲ Javascript 修改 ▲▲▲ -->
+
 <script>/* Image path script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e="{{ page.collection }}";if(!e)return;const t=`/uploads/${e}/`,o=document.querySelector(".article--doc");if(!o)return;o.querySelectorAll("img").forEach(e=>{const o=e.getAttribute("src");if(o&&o.startsWith("./")){const s=o.substring(2),n=t+s;e.setAttribute("src",n)}})});</script>
 
 {% include tts-reader.html %}

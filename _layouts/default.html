@@ -14,12 +14,82 @@
       {% seo title=false %}
 
       {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-      <title>{{ collectiondata.title }} - {{ site.title }} AAA</title>
+      <title>{{ collectiondata.title }} - {{ site.title }} </title>
       <meta property="og:title" content="{{ collectiondata.title }}">
       <meta name="description" content="{{ collectiondata.description }}">
       <meta property="og:description" content="{{ collectiondata.description }}">
     {% else %}
-      {% seo %}
+
+
+
+
+
+{%- comment -%}
+  -- 智能描述逻辑 --
+  1. 优先使用页面的 `excerpt`（摘要）。
+  2. 如果 `excerpt` 不存在或为空，则使用页面的 `description`。
+  3. 如果两者都无，则回退到使用页面的 `content`（全文内容）。
+{%- endcomment -%}
+
+{%- if page.excerpt and page.excerpt != "" -%}
+  {%- assign source_for_desc = page.excerpt -%}
+{%- elsif page.description -%}
+  {%- assign source_for_desc = page.description -%}
+{%- else -%}
+  {%- assign source_for_desc = page.content -%}
+{%- endif -%}
+
+{%- comment -%}
+  -- 清理和裁剪 --
+  无论来源是什么，都进行清理（移除HTML、换行符）并裁剪到 200 字符。
+  'escape' 过滤器可以防止描述中的特殊字符（如引号）破坏HTML结构。
+{%- endcomment -%}
+{%- assign final_description = source_for_desc | strip_html | strip_newlines | truncate: 200 -%}
+
+
+{%- comment -%}
+  -- 自定义标题逻辑 --
+  格式: "页面标题 | 网站标题"，如果页面没有标题，则只显示网站标题。
+{%- endcomment -%}
+{%- if page.title -%}
+  <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+{%- else -%}
+  <title>{{ site.title | escape }}</title>
+{%- endif -%}
+
+
+{%- comment -%}
+  -- 输出我们自己生成的描述 --
+{%- endcomment -%}
+<meta name="description" content="{{ final_description | escape }}">
+<meta property="og:description" content="{{ final_description | escape }}">
+
+
+{%- comment -%}
+  -- 调用 jekyll-seo-tag 插件来处理其他所有SEO标签 --
+  我们通过 title=false 和 description=false 参数告诉它，这两项我们已经自己处理了。
+  它将继续为你生成 canonical URL, Open Graph, Twitter Cards 等其他重要标签。
+{%- endcomment -%}
+{%- seo title=false description=false -%}
+
+<!-- [ SEO 优化结束 ] -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     {% endif %}
     {% if site.fonts.preconnect_urls %}
       {% for url in site.fonts.preconnect_urls %}
