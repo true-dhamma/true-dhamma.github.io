@@ -40,23 +40,18 @@
 document.addEventListener('DOMContentLoaded', function() {
   const mainContainer = document.querySelector('.main.container');
   const middleTocContainer = document.getElementById('toc-middle-container');
-  const rightTocContainer = document.getElementById('toc-right-container'); 
+  const rightTocContainerWrapper = document.querySelector('.content-toc-right-wrapper');
   const contentArea = document.querySelector('.js-toc-content');
 
   if (!contentArea || !middleTocContainer || !mainContainer) { return; }
 
-  // --- NEW: Context-aware logic ---
   const isDocLayout = mainContainer.classList.contains('layout-doc');
   const isPostLayout = mainContainer.classList.contains('layout-post');
   
-  // Set breakpoint based on layout type
   const DESKTOP_BREAKPOINT = isDocLayout ? 1200 : 1024;
-  
-  // This logic remains dependent on front matter, which is acceptable
   const pageHasAside = {{ page.aside | default: false }};
   const forceMiddleToc = isPostLayout && pageHasAside;
 
-  // Logic to move middle TOC after a blockquote (for posts)
   if (isPostLayout) {
     const pageTitle = contentArea.querySelector('h1');
     if (pageTitle) {
@@ -77,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   function determineHeadingSelector() {
     if (contentArea.querySelector('h2')) return 'h2, h3, h4';
-    if (contentArea.querySelector('h3')) return 'h3, h4, h5';
+    if (contentArea.querySelector('h3')) return 'h3, h4, 5';
     if (contentArea.querySelector('h4')) return 'h4, h5, h6';
     return null;
   }
@@ -86,14 +81,23 @@ document.addEventListener('DOMContentLoaded', function() {
     tocbot.destroy();
     const headingSelector = determineHeadingSelector();
     
+    // Pre-check still useful to avoid running Tocbot unnecessarily
     if (!headingSelector) {
       middleTocContainer.style.display = 'none';
-      if (rightTocContainer) rightTocContainer.parentElement.style.display = 'none';
+      if (rightTocContainerWrapper) rightTocContainerWrapper.style.display = 'none';
       return;
     }
     
-    // The condition now uses the dynamic DESKTOP_BREAKPOINT
     const showMiddleToc = (window.innerWidth < DESKTOP_BREAKPOINT) || forceMiddleToc;
+    
+    // ▼▼▼ JAVASCRIPT MODIFIED ▼▼▼
+    // Logic to check for empty TOC *after* Tocbot runs
+    const checkAndHideIfEmpty = (tocSelector, containerToHide) => {
+        const tocList = document.querySelector(tocSelector);
+        if (tocList && tocList.children.length === 0) {
+            containerToHide.style.display = 'none';
+        }
+    };
     
     const tocbotOptions = {
       contentSelector: '.js-toc-content',
@@ -102,17 +106,36 @@ document.addEventListener('DOMContentLoaded', function() {
       scrollSmooth: true,
       ignoreSelector: '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6'
     };
+    
+    // ▲▲▲ JAVASCRIPT MODIFIED ▲▲▲
 
     if (showMiddleToc) {
-      if (rightTocContainer) rightTocContainer.parentElement.style.display = 'none';
+      if (rightTocContainerWrapper) rightTocContainerWrapper.style.display = 'none';
       middleTocContainer.style.display = 'block';
       
-      tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-middle', scrollSmoothOffset: -20, headingsOffset: 20 });
-    } else if (rightTocContainer) {
+      tocbot.init({ 
+          ...tocbotOptions, 
+          tocSelector: '.js-toc-middle', 
+          scrollSmoothOffset: -20, 
+          headingsOffset: 20,
+          // ▼▼▼ JAVASCRIPT MODIFIED ▼▼▼
+          afterInit: () => checkAndHideIfEmpty('.js-toc-middle', middleTocContainer)
+          // ▲▲▲ JAVASCRIPT MODIFIED ▲▲▲
+      });
+
+    } else if (rightTocContainerWrapper) {
       middleTocContainer.style.display = 'none';
-      rightTocContainer.parentElement.style.display = 'block';
+      rightTocContainerWrapper.style.display = 'block';
       
-      tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-right', scrollSmoothOffset: -80, headingsOffset: 80 });
+      tocbot.init({ 
+          ...tocbotOptions, 
+          tocSelector: '.js-toc-right', 
+          scrollSmoothOffset: -80, 
+          headingsOffset: 80,
+          // ▼▼▼ JAVASCRIPT MODIFIED ▼▼▼
+          afterInit: () => checkAndHideIfEmpty('.js-toc-right', rightTocContainerWrapper)
+          // ▲▲▲ JAVASCRIPT MODIFIED ▲▲▲
+      });
     } else {
       middleTocContainer.style.display = 'none';
     }
