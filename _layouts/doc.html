@@ -151,16 +151,14 @@ layout: default
     </div>
   </aside>
   <article id="doc-content" class="article article--doc content typeset js-toc-content">
-    <!-- The hardcoded <h1> has been removed from here to prevent duplication -->
     {% if page.toc %}
     <div id="toc-middle-container" class="toc-middle-container">
       <h3 class="toc-title">Index</h3>
       <div class="js-toc-middle"></div>
     </div>
     {% endif %}
-    <div class="content-body">
-      {{ content }}
-    </div>
+    <!-- KEY CHANGE: The {{ content }} is now a direct child of the article, and the extra div is gone. -->
+    {{ content }}
   </article>
   {% if page.toc %}
   <aside class="content-toc-right-wrapper">
