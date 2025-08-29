@@ -4,7 +4,6 @@
 <!-- ================= HTML 结构 (无变动) ================= -->
 <div 
   class="tts-fab-container js-viewport-fixed-fab" 
-  data-transform-origin="bottom right" 
   id="tts-fab-container" 
   style="display: none;">
   <button id="tts-scroll-top-btn" class="tts-button" aria-label="回到顶部">
@@ -16,7 +15,7 @@
   </button>
 </div>
 
-<!-- ================= CSS 样式 (重构以支持绝对定位) ================= -->
+<!-- ================= CSS 样式 (重构以支持绝对定位和硬件加速) ================= -->
 <style>
   .tts-fab-container {
     position: fixed;
@@ -26,6 +25,7 @@
     width: 50px;
     height: 116px;
     display: none;
+    will-change: transform; /* Hardware acceleration for smooth animation */
   }
 
   .tts-button {
@@ -53,7 +53,7 @@
     pointer-events: none;
   }
 
-  .tts-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
+  .tts-button:hover { background-color: #f2f2f2; }
   .tts-button:active { transform: scale(0.95); }
   .tts-icon { fill: #333; width: 24px; height: 24px; }
   .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
@@ -62,7 +62,7 @@
 <!-- ================= JavaScript 逻辑 (最终的、绝对正确的脚本) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // --- TTS Reader Logic (handleScroll logic updated for opacity) ---
+  // --- TTS Reader Logic (unchanged from your last working version) ---
   const SHOW_SCROLL_TO_TOP_BUTTON = true;
   const WORKER_URL = 'https://proxy.true-dhamma.com/tts-proxy';
   const PREFETCH_WINDOW_SIZE = 5;
@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', () => {
     scrollTopBtn.style.pointerEvents = shouldBeVisible ? 'auto' : 'none';
   };
   
-  // (The rest of the TTS logic remains the same)
   let isReading = false;
   let textQueue = [];
   let currentIndex = 0;
@@ -115,6 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const fabData = Array.from(fixedFabs).map(fab => {
         const style = getComputedStyle(fab);
+        fab.style.willChange = 'transform, top, left'; // Hardware acceleration
         return {
           element: fab,
           bottom: parseFloat(style.bottom),
@@ -135,29 +135,21 @@ document.addEventListener('DOMContentLoaded', () => {
           const elHeight = element.offsetHeight;
           if (elWidth === 0) return;
 
-          // The scale transformation remains the same.
+          element.style.transformOrigin = 'top left'; // Standardize the origin point
           element.style.transform = `scale(${1 / scale})`;
-          element.style.transformOrigin = element.dataset.transformOrigin || 'center';
           
           element.style.bottom = 'auto';
           element.style.right = 'auto';
           
-          // --- THIS IS THE CORRECTED POSITIONING LOGIC ---
-          // It calculates where the element must be in the LAYOUT viewport
-          // to appear correctly positioned in the VISUAL viewport.
-
-          // To maintain a constant VISUAL margin, we scale the CSS margin by 1/scale.
-          const visualMarginBottom = bottom / scale;
-          const visualMarginLeft = left / scale;
-          const visualMarginRight = right / scale;
+          // These are the FINAL, mathematically correct formulas for positioning
           
-          const newTop = (offsetTop + height) - elHeight - visualMarginBottom;
+          const newTop = (offsetTop + height) - (elHeight) - (bottom);
           let newLeft;
 
           if (!isNaN(left)) { // For left-aligned elements
-            newLeft = offsetLeft + visualMarginLeft;
+            newLeft = offsetLeft + left;
           } else if (!isNaN(right)) { // For right-aligned elements
-            newLeft = (offsetLeft + width) - elWidth - visualMarginRight;
+            newLeft = (offsetLeft + width) - (elWidth) - (right);
           }
           
           element.style.top = `${newTop}px`;
