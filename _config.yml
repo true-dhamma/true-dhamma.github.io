@@ -1,4 +1,3 @@
----
 title: True Dhamma
 timezone: Asia/Shanghai
 collections:
@@ -41,6 +40,10 @@ defaults:
     type: testbook
   values:
     layout: doc
+- scope:
+    path: ""
+  values:
+    seo_description_max_words: 20
 url: https://true-dhamma.com
 baseurl: ''
 description: 世间成瘾与出世间觉悟，南传上座部佛法，实修实证，亲知实见，趋向涅槃，从无明中解脱。

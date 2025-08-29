@@ -15,7 +15,6 @@ layout: default
   {%- for item_l1 in doc_chapters %}
   <li class="doc-nav-item doc-nav-item--l1 {% if page.url == item_l1.url %}active{% endif %}" data-level="1" {% if item_l1.subitems %}data-url="{{ item_l1.url | relative_url }}"{% endif %}>
     
-    <!-- ▼▼▼ HTML MODIFIED: Added 'has-submenu' class conditionally ▼▼▼ -->
     <div class="doc-nav-item-content-wrapper {% if item_l1.subitems %}has-submenu{% endif %}">
       <a href="{{ item_l1.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l1.title }}</a>
       {%- if item_l1.subitems %}
@@ -24,7 +23,6 @@ layout: default
       </div>
       {%- endif %}
     </div>
-    <!-- ▲▲▲ HTML MODIFIED ▲▲▲ -->
 
     {%- if item_l1.subitems %}
     <ul class="doc-nav-list doc-nav-list--l2">
@@ -109,7 +107,19 @@ layout: default
   .doc-nav-container { position: fixed; top: 0; left: 0; width: 300px; height: var(--doc-nav-dynamic-height, 100vh); background-color: #fff; box-shadow: 4px 0 15px rgba(0,0,0,0.1); transform: translateX(-100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); z-index: 1003; display: flex; flex-direction: column; }
   body.doc-nav-open .doc-nav-container { transform: translateX(0); }
   body.doc-nav-open .doc-nav-overlay { opacity: 1; visibility: visible; }
-  .doc-nav-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.5rem; border-bottom: 1px solid #e9ecef; flex-shrink: 0; }
+
+  /* ▼▼▼ CSS MODIFIED: Adjusted .doc-nav-header padding for mobile alignment ▼▼▼ */
+  .doc-nav-header { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    /* Original: padding: 1rem 1.5rem; */
+    padding: 1rem 1.5rem 1rem 15px; /* T-R-B-L. 15px aligns with link's 12px padding + 3px border */
+    border-bottom: 1px solid #e9ecef; 
+    flex-shrink: 0; 
+  }
+  /* ▲▲▲ CSS MODIFIED ▲▲▲ */
+
   .doc-nav-title { font-size: 1.2em; font-weight: 600; margin: 0; color: #343a40; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .doc-nav-close { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border: none; background: transparent; cursor: pointer; color: #6c757d; }
   .doc-nav-close svg { width: 20px; height: 20px; }
@@ -120,28 +130,20 @@ layout: default
   .doc-nav-item { position: relative; }
   .doc-nav-item-content-wrapper { display: flex; justify-content: space-between; align-items: center; }
   
-  /* ▼▼▼ CSS PADDING MODIFIED ▼▼▼ */
-
-  /* 任务1: 将所有链接的左右内边距从 24px 减少到 12px (50%) */
   .doc-nav-link {
     display: block;
     font-size: 0.9em;
     color: #495057;
     text-decoration: none;
-    padding: 8px 12px; /* 原来是 8px 24px */
+    padding: 8px 12px;
     border-left: 3px solid transparent;
     transition: all 0.2s ease;
     flex-grow: 1;
     min-width: 0;
   }
-
-  /* 任务2: 对于有子菜单的项，将其链接的右内边距从 12px 再减少到 6px (50%) */
   .has-submenu .doc-nav-link {
     padding-right: 6px;
   }
-
-  /* ▲▲▲ CSS PADDING MODIFIED ▲▲▲ */
-
   .doc-nav-toggle-wrapper { flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 40px; align-self: stretch; cursor: pointer; }
   .doc-nav-toggle { position: static; width: auto; height: auto; display: flex; align-items: center; justify-content: center; color: #6c757d; }
   .doc-nav-item:not(.active) .doc-nav-item-content-wrapper:hover { background-color: #f8f9fa; }
@@ -196,7 +198,7 @@ layout: default
   {% endif %}
 </main>
 
-<!-- JavaScripts remain unchanged from last version -->
+<!-- JavaScripts are unchanged -->
 <script>/* DocNavController script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e={SCROLL_STORAGE_KEY:"docNavScrollPos",EXPAND_STORAGE_KEY:"docNavExpandedItems",body:document.body,fab:document.querySelector(".doc-nav-fab"),overlay:document.querySelector(".doc-nav-overlay"),navContainer:document.querySelector(".doc-nav-container"),closeButton:document.querySelector(".doc-nav-close"),scrollArea:document.querySelector(".doc-nav-scroll-area"),init:function(){this.navContainer&&(this.setupMobileHeight(),this.applyStoredState(),this.bindEvents())},applyStoredState:function(){const e=JSON.parse(sessionStorage.getItem(this.EXPAND_STORAGE_KEY));e?document.querySelectorAll(".doc-nav-item[data-url]").forEach(t=>{e.includes(t.dataset.url)&&t.classList.add("is-expanded")}):document.querySelectorAll(".doc-nav-item--l1[data-url]").forEach(e=>{e.classList.add("is-expanded")});const t=sessionStorage.getItem(this.SCROLL_STORAGE_KEY);t&&this.scrollArea&&(this.scrollArea.scrollTop=parseInt(t,10))},saveState:function(){if(!this.scrollArea)return;sessionStorage.setItem(this.SCROLL_STORAGE_KEY,this.scrollArea.scrollTop);const e=[];document.querySelectorAll(".doc-nav-item.is-expanded[data-url]").forEach(t=>{e.push(t.dataset.url)}),sessionStorage.setItem(this.EXPAND_STORAGE_KEY,JSON.stringify(e))},bindEvents:function(){this.fab&&this.fab.addEventListener("click",this.openNav.bind(this)),this.overlay&&this.overlay.addEventListener("click",this.closeNav.bind(this)),this.closeButton&&this.closeButton.addEventListener("click",this.closeNav.bind(this)),this.navContainer.addEventListener("click",e=>{const t=e.target.closest(".doc-nav-toggle-wrapper");t&&(t.closest(".doc-nav-item").classList.toggle("is-expanded"),this.saveState());const o=e.target.closest(".doc-nav-link");o&&this.saveState()}),window.addEventListener("resize",this.debounce(this.setupMobileHeight.bind(this),150))},openNav:function(){this.body.classList.add("doc-nav-open")},closeNav:function(){this.body.classList.remove("doc-nav-open")},setupMobileHeight:function(){const e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh",`${e}px`),document.documentElement.style.setProperty("--doc-nav-dynamic-height",`${window.innerHeight}px`)},debounce:function(e,t){let o;return function(...s){const n=()=>{clearTimeout(o),e.apply(this,s)};clearTimeout(o),o=setTimeout(n,t)}}};e.init()});</script>
 <script>/* Image path script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e="{{ page.collection }}";if(!e)return;const t=`/uploads/${e}/`,o=document.querySelector(".article--doc");if(!o)return;o.querySelectorAll("img").forEach(e=>{const o=e.getAttribute("src");if(o&&o.startsWith("./")){const s=o.substring(2),n=t+s;e.setAttribute("src",n)}})});</script>
 

@@ -3,7 +3,7 @@
 
   <head>
     <!-- General meta -->
-    <meta charset="utf-g">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% if page.indexing == false %}
@@ -11,22 +11,13 @@
     {% endif %}
 
     {% if page.collectionpage %}
-      {% comment %} --- This block for collection pages remains unchanged --- {% endcomment %}
       {% seo title=false %}
-
       {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
       <title>{{ collectiondata.title }} - {{ site.title }} </title>
       <meta property="og:title" content="{{ collectiondata.title }}">
       <meta name="description" content="{{ collectiondata.description }}">
       <meta property="og:description" content="{{ collectiondata.description }}">
     {% else %}
-      
-      <!-- [ SEO 优化开始 ] 动态判断描述长度并选择输出方案 -->
-
-      {%- comment -%}
-        -- 步骤 1: 准备用于判断的描述源文本 --
-        优先级: 摘要 (excerpt) > 描述 (description) > 全文内容 (content)
-      {%- endcomment -%}
       {%- if page.excerpt and page.excerpt != "" -%}
         {%- assign source_for_desc = page.excerpt -%}
       {%- elsif page.description -%}
@@ -35,33 +26,12 @@
         {%- assign source_for_desc = page.content -%}
       {%- endif -%}
 
-      {%- comment -%}
-        -- 步骤 2: 清理文本并计算其真实长度 --
-      {%- endcomment -%}
       {%- assign cleaned_desc = source_for_desc | strip_html | strip_newlines -%}
       {%- assign desc_length = cleaned_desc | size -%}
 
-
-      {%- comment -%}
-        -- 步骤 3: 根据长度进行逻辑判断 --
-        如果长度小于等于 300，让 jekyll-seo-tag 插件全权处理。
-        如果长度超过 300，我们就完全接管，手动输出所有必要的 SEO 标签。
-      {%- endcomment -%}
       {%- if desc_length <= 300 -%}
-
-        {%- comment -%}
-          [方案 A: 描述长度安全]
-          直接使用插件，它会正确处理所有事情，保证输出质量。
-        {%- endcomment -%}
         {%- seo -%}
-
       {%- else -%}
-
-        {%- comment -%}
-          [方案 B: 描述过长，手动接管]
-          自己生成所有关键的 SEO 标签，并确保描述被裁剪。
-        {%- endcomment -%}
-        
         {%- assign final_title = page.title | default: site.title -%}
         {%- if page.title -%}
           <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
@@ -85,21 +55,11 @@
           <meta name="author" content="{{ site.author | escape }}">
         {% endif %}
         
-        <!-- DEBUG: Generator tag for pages with custom long description handling -->
         <meta name="generator" content="custom-long-desc">
         
         <meta name="twitter:card" content="summary">
         <meta property="twitter:title" content="{{ final_title | escape }}">
-        
-        {%- comment -%}
-          注意：手动模式下，我们无法像插件那样生成复杂的 JSON-LD 数据。
-          这是一个合理的权衡，因为避免了超长描述的核心问题。
-        {%- endcomment -%}
-
       {%- endif -%}
-
-      <!-- [ SEO 优化结束 ] -->
-    
     {% endif %}
     
     {% if site.fonts.preconnect_urls %}
