@@ -7,9 +7,13 @@ layout: default
   @media screen and (min-width: 1024px) {
     .main.container.layout-post { display: flex; gap: 2.5em; align-items: flex-start; justify-content: center; }
     .article--post { flex: 1 1 auto; min-width: 0; max-width: 800px; }
-    /* The TOC wrapper shares this flex context */
-    .content-toc-right-wrapper { flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); }
-    /* The site-aside also shares this context */
+    .content-toc-right-wrapper { 
+      flex: 0 0 260px; 
+      position: sticky; 
+      top: 2rem; 
+      max-height: calc(100vh - 4rem);
+      overflow-y: auto; /* <<< FIX: Added to enable scrolling */
+    }
     .site-aside { flex: 0 0 260px; }
   }
 </style>
