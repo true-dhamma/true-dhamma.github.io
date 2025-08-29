@@ -28,6 +28,7 @@ defaults:
   values:
     layout: post
     feature_image: "/uploads/top_banner_blog.jpg"
+    toc: true
 - scope:
     path: ''
     type: buddhadhamma
