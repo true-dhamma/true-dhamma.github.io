@@ -74,53 +74,45 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function setupTocbot() {
     tocbot.destroy();
-    const headingSelector = determineHeadingSelector();
-
     if (middleTocContainer) middleTocContainer.style.display = 'none';
     if (rightTocWrapper) rightTocWrapper.style.display = 'none';
 
+    const headingSelector = determineHeadingSelector();
     if (!headingSelector) {
-      console.log('// DEBUG: No heading selectors found. TOC will not be initialized.');
+      console.log('// DEBUG: No base heading levels (h2, h3, h4) found. Aborting.');
       return;
     }
 
+    // ▼▼▼ FINAL ROBUST LOGIC ▼▼▼
+    const ignoreSelector = '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6';
+    
+    // 1. Find all potential headings
+    const allHeadings = contentArea.querySelectorAll(headingSelector);
+
+    // 2. Filter them just like Tocbot would
+    const validHeadings = Array.from(allHeadings).filter(heading => !heading.matches(ignoreSelector));
+    
+    console.log(`// DEBUG: Found ${validHeadings.length} valid headings to create a TOC.`);
+
+    // 3. Only proceed if there are actual headings to process
+    if (validHeadings.length === 0) {
+      console.log('// DEBUG: No valid headings found. TOC will not be shown.');
+      return; // Abort, leaving the containers hidden
+    }
+    
+    console.log('// DEBUG: Valid headings exist. Proceeding with Tocbot initialization.');
+    
+    // This part now only runs if we are sure a TOC can be generated
     const showMiddleToc = (window.innerWidth < DESKTOP_BREAKPOINT) || forceMiddleToc;
 
-    // ▼▼▼ NEW: Final Logic ▼▼▼
     const tocbotOptions = {
       contentSelector: '.js-toc-content',
       headingSelector: headingSelector,
       hasInnerContainers: true,
       scrollSmooth: true,
-      ignoreSelector: '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6',
-      // The onInit callback fires after Tocbot has finished processing.
-      onInit: function() {
-        console.log('// DEBUG: Tocbot onInit callback fired.');
-        
-        let containerToCheck = null;
-        if (showMiddleToc) {
-          containerToCheck = middleTocContainer;
-        } else {
-          containerToCheck = rightTocWrapper;
-        }
-
-        if (containerToCheck) {
-          // The most robust check: does the container have ANY list items inside it?
-          const hasListItems = containerToCheck.querySelector('li') !== null;
-          console.log('// DEBUG: Checking container:', containerToCheck, 'Does it have any <li> elements?', hasListItems);
-
-          if (!hasListItems) {
-            console.log('// DEBUG: SUCCESS! No list items found. Hiding container.');
-            containerToCheck.style.display = 'none';
-          } else {
-            console.log('// DEBUG: List items found. TOC will remain visible.');
-          }
-        }
-      }
+      ignoreSelector: ignoreSelector,
     };
-    // ▲▲▲ NEW: Final Logic ▲▲▲
-
-    // Determine which container to show and initialize Tocbot
+    
     let tocTargetSelector = null;
     let containerToShow = null;
 
@@ -133,10 +125,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (tocTargetSelector && containerToShow) {
-      console.log('// DEBUG: Showing container and initializing Tocbot for selector:', tocTargetSelector);
-      containerToShow.style.display = 'block'; // Show it first
+      containerToShow.style.display = 'block';
       tocbot.init({ ...tocbotOptions, tocSelector: tocTargetSelector });
     }
+    // ▲▲▲ FINAL ROBUST LOGIC ▲▲▲
   }
 
   setupTocbot();
