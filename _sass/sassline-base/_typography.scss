@@ -34,40 +34,15 @@ a {
 // Styles for typeset text.
 .typeset {
 
-  // ★★★★★ 核心修改区域 ★★★★★
-  // Underlines for text links. (已用传统下划线替换原有的动画效果以实现全站样式统一)
+  // Underlines for text links. (已用传统下划线替换原有的动画效果)
   p a, li a {
-    /* 1. 添加传统下划线 */
     text-decoration: underline;
-
-    /* 2. [可选] 添加一些样式让下划线更好看 */
-    text-decoration-thickness: 1px;   // 控制下划线粗细
-    text-underline-offset: 3px;       // 控制下划线与文字的距离
-    // text-decoration-color: rgba(0, 0, 0, 0.5); // 如果想让下划线颜色淡一些，可以取消此行注释
-
-    /* 
-       原来的 background-image 动画效果已被移除，以下是原代码，保留注释以备查阅
-       
-        background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$linkColour 50%);
-        background-position: 0 93%;
-        background-repeat: repeat-x;
-        background-size: 100% 0.15rem;
-        text-shadow: 0.1rem 0 $backgroundColour,
-                     0.15rem 0 $backgroundColour,
-                    -0.1rem 0 $backgroundColour,
-                    -0.15rem 0 $backgroundColour;
-    */
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
 
     &:hover, &:active, &:focus {
-      /* 3. [可选] 悬停时也可以改变下划线样式 */
-      text-decoration-thickness: 2px; // 比如悬停时变粗一点
-      // text-decoration-color: $hoverColour; // 如果想让下划线颜色随文字颜色变化，可以取消此行注释
-
-      /* 
-         移除悬停时的 background-image 变化
-         
-         background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$hoverColour 50%);
-      */
+      // ★★★ 已移除悬停时下划线变粗的效果 ★★★
+      // text-decoration-thickness: 2px; 
     }
   }
 
@@ -86,64 +61,63 @@ a {
     font-style: normal;
     font-weight: map-get($headingtype, bold);
   }
-
+  
+  // ★★★★★ 核心修改区域: 增加了所有标题的行高以防止下划线重叠 ★★★★★
+  
   // Heading level 1.
   h1, .alpha {
-    @include sassline($fontsize: alpha, $font: $headingtype, $lineheight: 3, $below: 1, $breakpoint: all);
+    // 原为: $lineheight: 3
+    @include sassline($fontsize: alpha, $font: $headingtype, $lineheight: 3.5, $below: 1, $breakpoint: all);
   }
 
   // Heading level 2.
   h2, .beta {
-    @include sassline(beta, $headingtype, 3, 1, all);
+    // 原为: 3
+    @include sassline(beta, $headingtype, 3.5, 1, all);
   }
 
   // Heading level 3.
   h3, .gamma {
-    @include sassline(gamma, $headingtype, 3, 1, all);
+    // 原为: 3
+    @include sassline(gamma, $headingtype, 3.5, 1, all);
   }
 
   // Heading level 4.
   h4, .delta {
-    @include sassline(delta, $headingtype, 2, 0, all);
+    // 原为: 2
+    @include sassline(delta, $headingtype, 2.5, 0, all);
   }
 
   // Heading level 5.
   h5, .epsilon {
-    @include sassline(epsilon, $headingtype, 2, 0, all);
+    // 原为: 2
+    @include sassline(epsilon, $headingtype, 2.5, 0, all);
   }
 
   // Heading level 6.
   h6, .zeta {
-    @include sassline(zeta, $headingtype, 2, 0, all);
+    // 原为: 2
+    @include sassline(zeta, $headingtype, 2.5, 0, all);
   }
 
   // Lists.
   ul, ol {
     @include baseline(zeta, $bodytype, 2, 2, all);
-    /* Modified by Kevin - 使用padding代替margin来缩进列表，确保项目符号(圆点/数字)能正确对齐 */
     padding-left: 2rem;
 
     li {
       font-feature-settings: 'kern', 'onum', 'liga';
-      /* Modified by Kevin - 移除了li上的左外边距，因为缩进已由父元素ul/ol的padding-left控制 */
-      // margin-left: 2rem;
 
-      @include breakpoint(break-1) {
-        /* Modified by Kevin - 此规则不再需要，因为对齐逻辑已移至父元素ul/ol */
-        // margin-left: 0;
-      }
+      @include breakpoint(break-1) {}
 
       ol, ul {
         padding-top: 1rem;
         margin-bottom: 1rem;
-        /* Modified by Kevin - 嵌套列表同样使用padding-left以保持对齐一致性 */
         padding-left: 2rem;
-        // margin-left: 2rem;
       }
     }
   }
 
-  /* Modified by Kevin - 在小屏幕上移除列表缩进 */
   @include breakpoint(break-1) {
     ul, ol {
       padding-left: 0;
@@ -157,7 +131,6 @@ a {
 
     li {
       counter-increment: top-level;
-      /* Modified by Kevin - 添加相对定位，为::before伪元素的绝对定位提供可靠的上下文，确保数字角标位置正确 */
       position: relative;
 
       &:before {
@@ -305,15 +278,11 @@ a {
 
   // Quotes.
   blockquote {
-    /* Modified by Kevin - 将边框和内边距从p标签移至blockquote，以确保整个引用块的左侧竖线与文本正确对齐 */
     border-left: 0.15rem solid $linkColour;
     padding-left: 1rem;
 
     p {
-      /* Modified by Kevin - 移除了p标签上的边框和内边距，这些样式已应用到父元素blockquote */
-      // border-left: 0.15rem solid $linkColour;
       font-style: map-get($bodytype, italic);
-      // padding-left: 1rem;
 
       // Add spacing below blockquote paragraphs to align to baseline grid.
       $get-scale: map-get($modular-scale, scale-0);
@@ -339,10 +308,7 @@ a {
       }
     }
 
-    @include breakpoint(break-1) {
-      /* Modified by Kevin - 移除了此处的负外边距，以防止引用块在小屏幕上向左“凸出”，确保其与上方文本左侧对齐 */
-      // margin-left: -1rem;
-    }
+    @include breakpoint(break-1) {}
   }
 
   // Horizontal rule.

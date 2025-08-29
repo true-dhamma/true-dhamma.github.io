@@ -47,7 +47,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS - (已更新命名)
+  PART 2: INLINE CSS - (已更新颜色)
   ============================================================================
 {%- endcomment %}
 <style>
@@ -61,7 +61,6 @@ layout: default
   .doc-nav-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s; }
   .doc-nav-overlay.is-visible { opacity: 1; visibility: visible; }
   
-  /* ★ 更新: 中间TOC容器样式 */
   .toc-middle-container {
     display: none; margin: 2em 0; padding: 1.2em 1.5em; border: 1px solid #e0e0e0; border-radius: 8px; background-color: #f8f9fa;
   }
@@ -72,7 +71,6 @@ layout: default
     .main.container--doc { display: flex; gap: 2.5em; max-width: 1420px; margin: 0 auto; align-items: flex-start; }
     .doc-nav-container { display: block; flex: 0 0 280px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); }
     .article--doc { flex: 1 1 auto; min-width: 0; }
-    /* ★ 更新: has-right-toc 这个class现在由Liquid更智能地控制 */
     .main.container--doc.has-right-toc .doc-chapter-toc { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto; }
   }
 
@@ -89,35 +87,78 @@ layout: default
   .doc-nav-container li.active > a { color: #000; font-weight: 600; }
   .doc-nav-container ul ul { padding-left: 1em; }
 
-  /* ★ 更新: 通用TOC标题样式 */
   #toc-right-container h3, .toc-middle-container h3 { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
   .toc-list { margin: 0; padding: 0; list-style: none; }
   .toc-list-item { margin-bottom: 5px; }
   .toc-list .toc-list { padding-left: 1.25em; }
-  .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; text-decoration: none !important; }
-  .toc-link:hover { color: #333; border-left-color: #AAA; }
+  .toc-link {
+    display: block;
+    padding: 4px 10px;
+    border-left: 2px solid #EEE;
+    color: #555; /* ★★★★★ 核心修改: 将颜色从 #777 改为 #555 ★★★★★ */
+    font-size: 0.875em;
+    line-height: 1.5;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none !important;
+    background-image: none !important;
+  }
+  .toc-link:hover {
+    color: #333;
+    border-left-color: #AAA;
+    background-image: none !important;
+    text-decoration: none !important;
+  }
   .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; }
 </style>
 
 {%- comment %}
   ============================================================================
-  PART 3: HTML STRUCTURE - (已重构)
+  PART 3: HTML STRUCTURE - (无改动)
   ============================================================================
 {%- endcomment %}
 
 {% include site-header.html %}
 
-{%- capture nav_list_html %} ... 左侧导航HTML，无需改动 ... {% endcapture %}
+{%- capture nav_list_html %}
+<ul>
+  {%- for item_l1 in book_chapters %}
+    <li class="{% if page.url == item_l1.url %}active{% endif %}">
+      <a href="{{ item_l1.url | relative_url }}">{{ item_l1.title }}</a>
+      {%- if item_l1.subitems %}
+      <ul>
+        {%- for item_l2 in item_l1.subitems %}
+          <li class="{% if page.url == item_l2.url %}active{% endif %}">
+            <a href="{{ item_l2.url | relative_url }}">{{ item_l2.title }}</a>
+            {%- if item_l2.subitems %}
+            <ul>
+              {%- for item_l3 in item_l2.subitems %}
+                <li class="{% if page.url == item_l3.url %}active{% endif %}">
+                  <a href="{{ item_l3.url | relative_url }}">{{ item_l3.title }}</a>
+                </li>
+              {%- endfor %}
+            </ul>
+            {%- endif %}
+          </li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+    </li>
+  {%- endfor %}
+</ul>
+{%- endcapture %}
 
-<!-- ★ 更新: main的class现在由 show_right_container 变量控制 -->
 <main class="main container container--doc {% if show_right_container %}has-right-toc{% endif %}">
   
-  <aside class="doc-nav-container"> ... 左侧导航容器 ... </aside>
+  <aside class="doc-nav-container">
+    <div class="doc-nav-scroll-area">
+      <h3>{{ book_title }}</h3>
+      {{ nav_list_html }}
+    </div>
+  </aside>
 
   <article class="article article--doc content typeset js-toc-content">
     <h1>{{ page_title_to_display }}</h1>
     
-    <!-- ★ 更新: 准备中间TOC容器，预置标题和目标div -->
     {% if show_toc_feature %}
     <div id="toc-middle-container" class="toc-middle-container">
       <h3>Index</h3>
@@ -128,10 +169,8 @@ layout: default
     {{ content }}
   </article>
 
-  <!-- ★ 更新: 仅在需要显示右侧容器时才渲染此aside -->
   {% if show_right_container %}
   <aside class="doc-chapter-toc">
-    <!-- ★ 更新: 右侧TOC容器，预置标题和目标div -->
     <div id="toc-right-container">
       <h3>Index</h3>
       <div class="js-toc-right"></div>
@@ -142,31 +181,38 @@ layout: default
 </main>
 
 <!-- MOBILE Navigation Elements -->
-... 此部分无需改动 ...
+<div class="doc-nav-mobile-container">
+  <div id="doc-nav-overlay" class="doc-nav-overlay"></div>
+  <nav id="doc-nav-mobile-menu" class="doc-nav-mobile-menu">
+    <div class="doc-nav-scroll-area">
+      <h3>{{ book_title }}</h3>
+      {{ nav_list_html }}
+    </div>
+  </nav>
+  <button id="doc-nav-fab" class="doc-nav-fab" aria-label="打开目录">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+  </button>
+</div>
 
 {% include site-footer.html %}
 
 {%- comment %}
   ============================================================================
-  PART 4: JAVASCRIPT LOGIC (★ 核心重构部分)
+  PART 4: JAVASCRIPT LOGIC (无改动)
   ============================================================================
 {%- endcomment %}
 
-<!-- ★ 更新: 仅在启用了TOC功能时才加载脚本 -->
 {% if show_toc_feature %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const DESKTOP_BREAKPOINT = 1200;
-  // ★ 更新: 将 page.aside 的值传递给JS
   const pageHasAside = {{ page.aside | default: false }};
 
   const middleTocContainer = document.getElementById('toc-middle-container');
-  // ★ 更新: 右侧容器可能不存在于DOM中，所以需要安全检查
   const rightTocContainer = document.getElementById('toc-right-container'); 
   const contentArea = document.querySelector('.js-toc-content');
 
-  // 如果连内容区和中间TOC容器都没有，就退出
   if (!contentArea || !middleTocContainer) {
     return;
   }
@@ -197,13 +243,11 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
     
-    // ★ 更新: 核心显示逻辑
     const showMiddleToc = (window.innerWidth < DESKTOP_BREAKPOINT) || pageHasAside;
 
     if (showMiddleToc) {
-      // --- 显示中间TOC的逻辑 ---
-      if (rightTocContainer) rightTocContainer.style.display = 'none'; // 隐藏右侧
-      middleTocContainer.style.display = 'block'; // 显示中间
+      if (rightTocContainer) rightTocContainer.style.display = 'none';
+      middleTocContainer.style.display = 'block';
       
       tocbot.init({
         tocSelector: '.js-toc-middle',
@@ -216,9 +260,8 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 
     } else if (rightTocContainer) {
-      // --- 显示右侧TOC的逻辑 (前提是rightTocContainer存在) ---
-      middleTocContainer.style.display = 'none'; // 隐藏中间
-      rightTocContainer.style.display = 'block'; // 显示右侧 (CSS媒体查询也会做，但JS确保万无一失)
+      middleTocContainer.style.display = 'none';
+      rightTocContainer.style.display = 'block';
       
       tocbot.init({
         tocSelector: '.js-toc-right',
@@ -230,7 +273,6 @@ document.addEventListener('DOMContentLoaded', function() {
         headingsOffset: 80
       });
     } else {
-      // 既不显示中间，也没有右侧容器（例如宽屏但有aside的特殊情况），确保中间的也隐藏
       middleTocContainer.style.display = 'none';
     }
   }
@@ -241,4 +283,12 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 {% endif %}
 
-
+<!-- Mobile Navigation & Image Path Scripts (无改动) -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const fab = document.getElementById('doc-nav-fab'); const menu = document.getElementById('doc-nav-mobile-menu'); const overlay = document.getElementById('doc-nav-overlay'); if (!fab || !menu || !overlay) return; function openMenu() { menu.classList.add('is-open'); overlay.classList.add('is-visible'); document.body.style.overflow = 'hidden'; } function closeMenu() { menu.classList.remove('is-open'); overlay.classList.remove('is-visible'); document.body.style.overflow = ''; } fab.addEventListener('click', openMenu); overlay.addEventListener('click', closeMenu); menu.addEventListener('click', function(event) { if (event.target.closest('a')) { closeMenu(); } }); document.addEventListener('keydown', function(event) { if (event.key === 'Escape' && menu.classList.contains('is-open')) { closeMenu(); } });
+});
+document.addEventListener('DOMContentLoaded', function() {
+  const collectionName = '{{ page.collection }}'; if (!collectionName) { return; } const assetBasePath = `/uploads/${collectionName}/`; const contentArea = document.querySelector('.article--doc'); if (!contentArea) { return; } const images = contentArea.querySelectorAll('img'); images.forEach(img => { const originalSrc = img.getAttribute('src'); if (originalSrc && originalSrc.startsWith('./')) { const relativePath = originalSrc.substring(2); const newSrc = assetBasePath + relativePath; img.setAttribute('src', newSrc); } });
+});
+</script>
