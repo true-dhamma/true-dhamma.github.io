@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Where to render the table of contents.
       tocSelector: '.js-toc',
       // The following two options are removed to use existing HTML
-      // contentSelector: '.js-toc-content', 不需要，用toc.html生成的文内目录
+      // contentSelector: '.js-toc-content', 
       // headingSelector: 'h2, h3, h4', 不需要，用toc.html生成的文内目录
       
       // For more decorative styles.
@@ -204,6 +204,7 @@ document.addEventListener('DOMContentLoaded', function() {
       scrollSmooth: true,
       // Offset for sticky headers (if you have one)
       scrollSmoothOffset: -80,
+      headingsOffset: 80,
     });
   } else {
     // === MOBILE: Inject raw TOC HTML into a container (逻辑保持不变) ===
