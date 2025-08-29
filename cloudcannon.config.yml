@@ -5,10 +5,12 @@ paths:
   static: ''
 collections_config:
   pages:
-    path: ''
+    path: /
     name: Pages
-    icon: wysiwyg
+    icon: '123'
     disable_url: false
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -43,6 +45,8 @@ collections_config:
     name: Posts
     icon: event_available
     disable_url: false
+    description: ''
+    _enabled_editors:
     _inputs:
       categories:
         type: multiselect
