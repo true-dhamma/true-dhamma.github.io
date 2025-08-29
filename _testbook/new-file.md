@@ -3,12 +3,13 @@ title: 第九章：神通与神圣
 order: 1
 toc: true
 ---
-
 第九章：神通与神圣
 
 # 第九章：神通与神圣
 
 神通与神圣
+
+Divine Beings
 
 ## 导论
 
