@@ -72,40 +72,6 @@ document.addEventListener('DOMContentLoaded', function() {
     return null;
   }
 
-  // ▼▼▼ NEW: MutationObserver Logic ▼▼▼
-  function observeTocContainer(targetNode, containerToHide) {
-    console.log('// DEBUG: Creating observer for target:', targetNode, 'Container to hide is:', containerToHide);
-
-    const observer = new MutationObserver((mutationsList, obs) => {
-      console.log('// DEBUG: Mutation detected!');
-      for (const mutation of mutationsList) {
-        if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
-          console.log('// DEBUG: Nodes have been added.');
-          const tocList = containerToHide.querySelector('.toc-list');
-          
-          if (tocList) {
-            console.log('// DEBUG: Found .toc-list. Checking its children count: ' + tocList.children.length);
-            if (tocList.children.length === 0) {
-              console.log('// DEBUG: SUCCESS! TOC is empty. Hiding container.', containerToHide);
-              containerToHide.style.display = 'none';
-            } else {
-              console.log('// DEBUG: TOC is NOT empty. Doing nothing.');
-            }
-            // Once we've checked, we disconnect the observer.
-            console.log('// DEBUG: Disconnecting observer.');
-            obs.disconnect(); 
-            return; // Exit after handling the first valid mutation
-          }
-        }
-      }
-    });
-
-    // Start observing the target node for added child nodes
-    observer.observe(targetNode, { childList: true });
-    console.log('// DEBUG: Observer is now watching.');
-  }
-  // ▲▲▲ NEW ▲▲▲
-
   function setupTocbot() {
     tocbot.destroy();
     const headingSelector = determineHeadingSelector();
@@ -120,32 +86,56 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const showMiddleToc = (window.innerWidth < DESKTOP_BREAKPOINT) || forceMiddleToc;
 
+    // ▼▼▼ NEW: Final Logic ▼▼▼
     const tocbotOptions = {
       contentSelector: '.js-toc-content',
       headingSelector: headingSelector,
       hasInnerContainers: true,
       scrollSmooth: true,
-      ignoreSelector: '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6'
-    };
+      ignoreSelector: '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6',
+      // The onInit callback fires after Tocbot has finished processing.
+      onInit: function() {
+        console.log('// DEBUG: Tocbot onInit callback fired.');
+        
+        let containerToCheck = null;
+        if (showMiddleToc) {
+          containerToCheck = middleTocContainer;
+        } else {
+          containerToCheck = rightTocWrapper;
+        }
 
-    if (showMiddleToc) {
-      if (middleTocContainer) {
-        const tocTarget = middleTocContainer.querySelector('.js-toc-middle');
-        if (tocTarget) {
-          middleTocContainer.style.display = 'block';
-          // Set up the observer BEFORE initializing tocbot
-          observeTocContainer(tocTarget, middleTocContainer); 
-          tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-middle', scrollSmoothOffset: -20, headingsOffset: 20 });
+        if (containerToCheck) {
+          // The most robust check: does the container have ANY list items inside it?
+          const hasListItems = containerToCheck.querySelector('li') !== null;
+          console.log('// DEBUG: Checking container:', containerToCheck, 'Does it have any <li> elements?', hasListItems);
+
+          if (!hasListItems) {
+            console.log('// DEBUG: SUCCESS! No list items found. Hiding container.');
+            containerToCheck.style.display = 'none';
+          } else {
+            console.log('// DEBUG: List items found. TOC will remain visible.');
+          }
         }
       }
-    } else if (rightTocWrapper) {
-      const tocTarget = rightTocWrapper.querySelector('.js-toc-right');
-      if (tocTarget) {
-        rightTocWrapper.style.display = 'block';
-        // Set up the observer BEFORE initializing tocbot
-        observeTocContainer(tocTarget, rightTocWrapper);
-        tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-right', scrollSmoothOffset: -80, headingsOffset: 80 });
-      }
+    };
+    // ▲▲▲ NEW: Final Logic ▲▲▲
+
+    // Determine which container to show and initialize Tocbot
+    let tocTargetSelector = null;
+    let containerToShow = null;
+
+    if (showMiddleToc && middleTocContainer) {
+      tocTargetSelector = '.js-toc-middle';
+      containerToShow = middleTocContainer;
+    } else if (!showMiddleToc && rightTocWrapper) {
+      tocTargetSelector = '.js-toc-right';
+      containerToShow = rightTocWrapper;
+    }
+
+    if (tocTargetSelector && containerToShow) {
+      console.log('// DEBUG: Showing container and initializing Tocbot for selector:', tocTargetSelector);
+      containerToShow.style.display = 'block'; // Show it first
+      tocbot.init({ ...tocbotOptions, tocSelector: tocTargetSelector });
     }
   }
 
