@@ -134,7 +134,10 @@ layout: default
 
 {% include site-header.html %}
 <div class="doc-nav-overlay"></div>
-<button class="doc-nav-fab" aria-label="Open documentation navigation">
+<button 
+  class="doc-nav-fab js-viewport-fixed-fab" 
+  data-transform-origin="bottom left" 
+  aria-label="Open documentation navigation">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
 </button>
 
@@ -157,7 +160,6 @@ layout: default
       <div class="js-toc-middle"></div>
     </div>
     {% endif %}
-    <!-- KEY CHANGE: The {{ content }} is now a direct child of the article, and the extra div is gone. -->
     {{ content }}
   </article>
   {% if page.toc %}
@@ -170,7 +172,6 @@ layout: default
   {% endif %}
 </main>
 
-<!-- JavaScripts are unchanged -->
 <script>/* DocNavController script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e={SCROLL_STORAGE_KEY:"docNavScrollPos",EXPAND_STORAGE_KEY:"docNavExpandedItems",body:document.body,fab:document.querySelector(".doc-nav-fab"),overlay:document.querySelector(".doc-nav-overlay"),navContainer:document.querySelector(".doc-nav-container"),closeButton:document.querySelector(".doc-nav-close"),scrollArea:document.querySelector(".doc-nav-scroll-area"),init:function(){this.navContainer&&(this.setupMobileHeight(),this.applyStoredState(),this.bindEvents())},applyStoredState:function(){const e=JSON.parse(sessionStorage.getItem(this.EXPAND_STORAGE_KEY));e?document.querySelectorAll(".doc-nav-item[data-url]").forEach(t=>{e.includes(t.dataset.url)&&t.classList.add("is-expanded")}):document.querySelectorAll(".doc-nav-item--l1[data-url]").forEach(e=>{e.classList.add("is-expanded")});const t=sessionStorage.getItem(this.SCROLL_STORAGE_KEY);t&&this.scrollArea&&(this.scrollArea.scrollTop=parseInt(t,10))},saveState:function(){if(!this.scrollArea)return;sessionStorage.setItem(this.SCROLL_STORAGE_KEY,this.scrollArea.scrollTop);const e=[];document.querySelectorAll(".doc-nav-item.is-expanded[data-url]").forEach(t=>{e.push(t.dataset.url)}),sessionStorage.setItem(this.EXPAND_STORAGE_KEY,JSON.stringify(e))},bindEvents:function(){this.fab&&this.fab.addEventListener("click",this.openNav.bind(this)),this.overlay&&this.overlay.addEventListener("click",this.closeNav.bind(this)),this.closeButton&&this.closeButton.addEventListener("click",this.closeNav.bind(this)),this.navContainer.addEventListener("click",e=>{const t=e.target.closest(".doc-nav-toggle-wrapper");t&&(t.closest(".doc-nav-item").classList.toggle("is-expanded"),this.saveState());const o=e.target.closest(".doc-nav-link");o&&this.saveState()}),window.addEventListener("resize",this.debounce(this.setupMobileHeight.bind(this),150))},openNav:function(){this.body.classList.add("doc-nav-open")},closeNav:function(){this.body.classList.remove("doc-nav-open")},setupMobileHeight:function(){const e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh",`${e}px`),document.documentElement.style.setProperty("--doc-nav-dynamic-height",`${window.innerHeight}px`)},debounce:function(e,t){let o;return function(...s){const n=()=>{clearTimeout(o),e.apply(this,s)};clearTimeout(o),o=setTimeout(n,t)}}};e.init()});</script>
 <script>/* Image path script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e="{{ page.collection }}";if(!e)return;const t=`/uploads/${e}/`,o=document.querySelector(".article--doc");if(!o)return;o.querySelectorAll("img").forEach(e=>{const o=e.getAttribute("src");if(o&&o.startsWith("./")){const s=o.substring(2),n=t+s;e.setAttribute("src",n)}})});</script>
 
