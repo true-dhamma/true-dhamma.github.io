@@ -4,7 +4,7 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 1: DATA PREPARATION (Jekyll/Liquid) - 无需改动
+  PART 1: DATA PREPARATION (Jekyll/Liquid)
   ============================================================================
 {%- endcomment %}
 
@@ -14,37 +14,57 @@ layout: default
   {%- assign show_right_container = true -%}
 {%- endif -%}
 
+{%- comment %} --- 左侧文档导航数据 --- {% endcomment %}
 {%- assign collection_name = page.collection -%}
-{%- assign book_data = site.data.books[collection_name] -%}
-{%- assign book_title = book_data.title | default: collection_name | capitalize -%}
-{%- assign book_chapters = book_data.chapters -%}
+{%- assign doc_data = site.data.docs[collection_name] -%}
+{%- assign doc_title = doc_data.title | default: collection_name | capitalize -%}
+{%- assign doc_chapters = doc_data.chapters -%}
+
+{%- comment %} --- 从YAML数据中查找当前页面的标题 --- {% endcomment %}
 {%- assign page_title_from_data = "" -%}
-{%- for chapter in book_chapters -%}{%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{%- endif -%}{%- if chapter.subitems -%}{%- for subitem in chapter.subitems -%}{%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{%- endif -%}{%- if subitem.subitems -%}{%- for subsubitem in subitem.subitems -%}{%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}
+{%- for chapter in doc_chapters -%}
+  {%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{%- endif -%}
+  {%- if chapter.subitems -%}
+    {%- for subitem in chapter.subitems -%}
+      {%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{%- endif -%}
+       {%- if subitem.subitems -%}
+        {%- for subsubitem in subitem.subitems -%}
+          {%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{%- endif -%}
+        {%- endfor -%}
+        {%- if page_title_from_data != "" %}{% break %}{% endif %}
+       {%- endif -%}
+    {%- endfor -%}
+    {%- if page_title_from_data != "" %}{% break %}{% endif %}
+  {%- endif -%}
+{%- endfor -%}
 {%- assign page_title_to_display = page_title_from_data | default: page.title | default: "Untitled" -%}
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS - 无需改动
+  PART 2: INLINE CSS
   ============================================================================
 {%- endcomment %}
 <style>
-  .doc-nav-container, .doc-chapter-toc { display: none; }
+  .doc-nav-container, .content-toc-right-wrapper { display: none; }
   .doc-nav-fab { position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; background-color: #2c3e50; color: white; border-radius: 50%; border: none; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; transition: transform 0.2s ease-in-out; }
   .doc-nav-fab:hover { transform: scale(1.05); }
   .doc-nav-mobile-menu { position: fixed; top: 0; left: 0; width: 80%; max-width: 320px; height: 100%; background-color: white; z-index: 1002; transform: translateX(-100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 20px rgba(0,0,0,0.2); overflow-y: auto; }
   .doc-nav-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s; }
   .toc-middle-container { display: none; margin: 2em 0; padding: 1.2em 1.5em; border: 1px solid #e0e0e0; border-radius: 8px; background-color: #f8f9fa; }
+
   @media screen and (min-width: 1200px) {
     .doc-nav-fab, .doc-nav-mobile-menu, .doc-nav-overlay, #toc-middle-container { display: none !important; }
     .main.container--doc { display: flex; gap: 2.5em; max-width: 1420px; margin: 0 auto; align-items: flex-start; }
     .doc-nav-container { display: block; flex: 0 0 280px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); }
     .article--doc { flex: 1 1 auto; min-width: 0; }
-    .main.container--doc.has-right-toc .doc-chapter-toc { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto; }
+    .main.container--doc.has-right-toc .content-toc-right-wrapper { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto; }
   }
   @media screen and (min-width: 1600px) {
     .main.container--doc { max-width: 1600px; gap: 3em; }
     .doc-nav-container { flex-basis: 320px; }
   }
+  .content-toc-right-wrapper { opacity: 0.5; transition: opacity 0.1s ease-in-out; }
+  .content-toc-right-wrapper:hover { opacity: 1; }
   .doc-nav-scroll-area { height: 100%; overflow-y: auto; background-color: #f1f3f5; border: 1px solid #e0e0e0; border-radius: 8px; padding: 1em; }
   .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
   .doc-nav-container a { display: block; padding: 0.4em 0.5em; text-decoration: none; color: #666666; font-weight: normal; }
@@ -59,15 +79,48 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 3: HTML STRUCTURE - (已修正)
+  PART 3: HTML STRUCTURE
   ============================================================================
 {%- endcomment %}
 
 {% include site-header.html %}
-{% capture nav_list_html %} ... 左侧导航HTML，无需改动 ... {% endcapture %}
+
+{%- capture nav_list_html %}
+<ul>
+  {%- for item_l1 in doc_chapters %}
+    <li class="{% if page.url == item_l1.url %}active{% endif %}">
+      <a href="{{ item_l1.url | relative_url }}">{{ item_l1.title }}</a>
+      {%- if item_l1.subitems %}
+      <ul>
+        {%- for item_l2 in item_l1.subitems %}
+          <li class="{% if page.url == item_l2.url %}active{% endif %}">
+            <a href="{{ item_l2.url | relative_url }}">{{ item_l2.title }}</a>
+            {%- if item_l2.subitems %}
+            <ul>
+              {%- for item_l3 in item_l2.subitems %}
+                <li class="{% if page.url == item_l3.url %}active{% endif %}">
+                  <a href="{{ item_l3.url | relative_url }}">{{ item_l3.title }}</a>
+                </li>
+              {%- endfor %}
+            </ul>
+            {%- endif %}
+          </li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+    </li>
+  {%- endfor %}
+</ul>
+{%- endcapture %}
 
 <main class="main container container--doc {% if show_right_container %}has-right-toc{% endif %}">
-  <aside class="doc-nav-container"> ... 左侧导航容器 ... </aside>
+  
+  <aside class="doc-nav-container">
+    <div class="doc-nav-scroll-area">
+      <h3>{{ doc_title }}</h3>
+      {{ nav_list_html }}
+    </div>
+  </aside>
 
   <article class="article article--doc content typeset">
     <h1>{{ page_title_to_display }}</h1>
@@ -79,14 +132,13 @@ layout: default
     </div>
     {% endif %}
 
-    <!-- ★ 核心改动 1: 将 {{content}} 包裹在一个新的div中，作为TOC扫描的目标 -->
     <div class="content-body js-toc-content">
       {{ content }}
     </div>
   </article>
 
   {% if show_right_container %}
-  <aside class="doc-chapter-toc">
+  <aside class="content-toc-right-wrapper">
     <div id="toc-right-container">
       <h3 class="toc-title">Index</h3>
       <div class="js-toc-right"></div>
@@ -95,17 +147,29 @@ layout: default
   {% endif %}
 </main>
 
-<!-- 其他HTML元素 -->
-...
+<!-- MOBILE Navigation Elements -->
+<div class="doc-nav-mobile-container">
+  <div id="doc-nav-overlay" class="doc-nav-overlay"></div>
+  <nav id="doc-nav-mobile-menu" class="doc-nav-mobile-menu">
+    <div class="doc-nav-scroll-area">
+      <h3>{{ doc_title }}</h3>
+      {{ nav_list_html }}
+    </div>
+  </nav>
+  <button id="doc-nav-fab" class="doc-nav-fab" aria-label="打开目录">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+  </button>
+</div>
 
 {% include site-footer.html %}
 
 {%- comment %}
   ============================================================================
-  PART 4: JAVASCRIPT LOGIC (已修正)
+  PART 4: JAVASCRIPT LOGIC
   ============================================================================
 {%- endcomment %}
 
+<!-- Tocbot JS -->
 {% if show_toc_feature %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 <script>
@@ -114,7 +178,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const pageHasAside = {{ page.aside | default: false }};
   const middleTocContainer = document.getElementById('toc-middle-container');
   const rightTocContainer = document.getElementById('toc-right-container'); 
-  // ★ 核心改动 2: 将 contentArea 指向新的 .js-toc-content (即 .content-body)
   const contentArea = document.querySelector('.js-toc-content');
 
   if (!contentArea || !middleTocContainer) { return; }
@@ -138,9 +201,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     const showMiddleToc = (window.innerWidth < DESKTOP_BREAKPOINT) || pageHasAside;
-    // ★ 核心改动 3: 移除无效的 ignoreSelector，并将 contentSelector 指向正确的目标
     const tocbotOptions = {
-      contentSelector: '.js-toc-content', // 这是正确的，因为它现在指向 .content-body
+      contentSelector: '.js-toc-content',
       headingSelector: headingSelector,
       hasInnerContainers: true,
       scrollSmooth: true
@@ -178,12 +240,38 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 {% endif %}
 
-<!-- Mobile Navigation & Image Path Scripts (无改动) -->
+<!-- Mobile Navigation FAB & Menu JS -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const fab = document.getElementById('doc-nav-fab'); const menu = document.getElementById('doc-nav-mobile-menu'); const overlay = document.getElementById('doc-nav-overlay'); if (!fab || !menu || !overlay) return; function openMenu() { menu.classList.add('is-open'); overlay.classList.add('is-visible'); document.body.style.overflow = 'hidden'; } function closeMenu() { menu.classList.remove('is-open'); overlay.classList.remove('is-visible'); document.body.style.overflow = ''; } fab.addEventListener('click', openMenu); overlay.addEventListener('click', closeMenu); menu.addEventListener('click', function(event) { if (event.target.closest('a')) { closeMenu(); } }); document.addEventListener('keydown', function(event) { if (event.key === 'Escape' && menu.classList.contains('is-open')) { closeMenu(); } });
-});
-document.addEventListener('DOMContentLoaded', function() {
-  const collectionName = '{{ page.collection }}'; if (!collectionName) { return; } const assetBasePath = `/uploads/${collectionName}/`; const contentArea = document.querySelector('.article--doc'); if (!contentArea) { return; } const images = contentArea.querySelectorAll('img'); images.forEach(img => { const originalSrc = img.getAttribute('src'); if (originalSrc && originalSrc.startsWith('./')) { const relativePath = originalSrc.substring(2); const newSrc = assetBasePath + relativePath; img.setAttribute('src', newSrc); } });
+    const fab = document.getElementById('doc-nav-fab');
+    const menu = document.getElementById('doc-nav-mobile-menu');
+    const overlay = document.getElementById('doc-nav-overlay');
+    if (!fab || !menu || !overlay) return;
+    function openMenu() { menu.classList.add('is-open'); overlay.classList.add('is-visible'); document.body.style.overflow = 'hidden'; }
+    function closeMenu() { menu.classList.remove('is-open'); overlay.classList.remove('is-visible'); document.body.style.overflow = ''; }
+    fab.addEventListener('click', openMenu);
+    overlay.addEventListener('click', closeMenu);
+    menu.addEventListener('click', function(event) { if (event.target.closest('a')) { closeMenu(); } });
+    document.addEventListener('keydown', function(event) { if (event.key === 'Escape' && menu.classList.contains('is-open')) { closeMenu(); } });
 });
 </script>
+
+<!-- DYNAMIC IMAGE PATH CORRECTION SCRIPT -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const collectionName = '{{ page.collection }}';
+  if (!collectionName) { return; }
+  const assetBasePath = `/uploads/${collectionName}/`;
+  const contentArea = document.querySelector('.article--doc');
+  if (!contentArea) { return; }
+  const images = contentArea.querySelectorAll('img');
+  images.forEach(img => {
+    const originalSrc = img.getAttribute('src');
+    if (originalSrc && originalSrc.startsWith('./')) {
+      const relativePath = originalSrc.substring(2);
+      const newSrc = assetBasePath + relativePath;
+      img.setAttribute('src', newSrc);
+    }
+  });
+});
+</script>```
