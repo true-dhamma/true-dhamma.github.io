@@ -1,4 +1,5 @@
 ---
+title: Path Factors Of Virtuous Conduct
 ---
 
 # 第十七章：戒行道支

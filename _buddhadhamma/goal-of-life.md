@@ -1,4 +1,5 @@
 ---
+title: Goal Of Life
 ---
 
 # 第四篇：生命应成为怎样？

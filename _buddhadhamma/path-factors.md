@@ -1,4 +1,5 @@
 ---
+title: Path Factors
 ---
 
 # 第七篇：道支

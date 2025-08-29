@@ -1,4 +1,5 @@
 ---
+title: Nature Of Human Life
 ---
 
 # 第一篇：生命是什么？

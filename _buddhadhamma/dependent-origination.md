@@ -1,4 +1,5 @@
 ---
+title: Dependent Origination
 ---
 
 # 第四章：缘起

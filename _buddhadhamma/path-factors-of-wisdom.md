@@ -1,4 +1,5 @@
 ---
+title: Path Factors Of Wisdom
 ---
 
 # 第十六章：智慧道支

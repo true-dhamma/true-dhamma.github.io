@@ -1,4 +1,5 @@
 ---
+title: Middle Teaching
 ---
 
 # 第一部：中道法义

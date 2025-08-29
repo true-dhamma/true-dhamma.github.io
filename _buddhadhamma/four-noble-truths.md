@@ -1,4 +1,5 @@
 ---
+title: Four Noble Truths
 ---
 
 # 第十九章：四圣谛

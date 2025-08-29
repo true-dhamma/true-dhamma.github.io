@@ -1,4 +1,5 @@
 ---
+title: Virtuous Friendship
 ---
 
 # 第十三章：善知识

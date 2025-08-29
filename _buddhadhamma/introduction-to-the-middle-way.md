@@ -1,4 +1,5 @@
 ---
+title: Introduction To The Middle Way
 ---
 
 # 第十二章：中道导论

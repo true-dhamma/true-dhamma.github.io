@@ -1,4 +1,5 @@
 ---
+title: Middle Way
 ---
 
 # 第二部：中道

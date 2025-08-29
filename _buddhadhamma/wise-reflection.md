@@ -1,4 +1,5 @@
 ---
+title: Wise Reflection
 ---
 
 # 第十五章：如理作意

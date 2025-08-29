@@ -1,4 +1,5 @@
 ---
+title: Awakened Beings
 ---
 
 # 第七章：觉悟者

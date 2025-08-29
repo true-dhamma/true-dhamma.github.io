@@ -1,4 +1,5 @@
 ---
+title: P A Payutto
 ---
 
 # 巴育陀 (P. A. Payutto)

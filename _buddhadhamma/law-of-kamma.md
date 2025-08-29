@@ -1,4 +1,5 @@
 ---
+title: Law Of Kamma
 ---
 
 # 第五章：业的法则
