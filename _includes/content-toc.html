@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const pageHasAside = {{ page.aside | default: false }};
   const forceMiddleToc = isPostLayout && pageHasAside;
 
-  if (isPostLayout) {
+  if (isPostLayout && middleTocContainer) {
     const pageTitle = contentArea.querySelector('h1');
     if (pageTitle) {
       let nextEl = pageTitle.nextElementSibling;
@@ -77,17 +77,13 @@ document.addEventListener('DOMContentLoaded', function() {
     return null;
   }
 
-  // ▼▼▼ MODIFIED FUNCTION ▼▼▼
   function checkAndHideEmptyToc(tocContainer) {
     if (!tocContainer) return;
     const tocList = tocContainer.querySelector('.toc-list');
-    
-    // NEW LOGIC: Hide if the list element doesn't exist OR if it exists but is empty.
-    if (!tocList || tocList.children.length === 0) {
+    if (tocList && tocList.children.length === 0) {
       tocContainer.style.display = 'none';
     }
   }
-  // ▲▲▲ MODIFIED FUNCTION ▲▲▲
 
   function setupTocbot() {
     tocbot.destroy();
@@ -108,13 +104,19 @@ document.addEventListener('DOMContentLoaded', function() {
       hasInnerContainers: true,
       scrollSmooth: true,
       ignoreSelector: '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6',
+      // ▼▼▼ KEY CHANGE HERE ▼▼▼
       onSuccess: function() {
-        if (showMiddleToc) {
-          checkAndHideEmptyToc(middleTocContainer);
-        } else if (rightTocWrapper) {
-          checkAndHideEmptyToc(rightTocWrapper);
-        }
+        // Use setTimeout to delay the check slightly.
+        // This gives Tocbot time to update the DOM with the (empty) <ul>.
+        setTimeout(function() {
+          if (showMiddleToc) {
+            checkAndHideEmptyToc(middleTocContainer);
+          } else if (rightTocWrapper) {
+            checkAndHideEmptyToc(rightTocWrapper);
+          }
+        }, 10); // 10 milliseconds is enough
       }
+      // ▲▲▲ KEY CHANGE HERE ▲▲▲
     };
 
     if (showMiddleToc) {
