@@ -7,320 +7,224 @@ layout: default
 {%- assign doc_data = site.data.docs[collection_name] -%}
 {%- assign doc_title = doc_data.title | default: collection_name | capitalize -%}
 {%- assign doc_chapters = doc_data.chapters -%}
+
+{%- comment %} --- Page Title Logic (unchanged) --- {% endcomment %}
 {%- assign page_title_from_data = "" -%}
-{%- for chapter in doc_chapters -%}{%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{%- endif -%}{%- if chapter.subitems -%}{%- for subitem in chapter.subitems -%}{%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{%- endif -%}{%- if subitem.subitems -%}{%- for subsubitem in subitem.subitems -%}{%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{%- endif -%}{%- if subsubitem.subitems -%}{%- for subsubsubitem in subsubitem.subitems -%}{%- if subsubsubitem.url == page.url -%}{%- assign page_title_from_data = subsubsubitem.title -%}{% break %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}
+{%- for chapter in doc_chapters -%}{%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{% endif -%}{%- if chapter.subitems -%}{%- for subitem in chapter.subitems -%}{%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{% endif -%}{%- if subitem.subitems -%}{%- for subsubitem in subitem.subitems -%}{%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{% endif -%}{%- if subsubitem.subitems -%}{%- for subsubsubitem in subsubitem.subitems -%}{%- if subsubsubitem.url == page.url -%}{%- assign page_title_from_data = subsubsubitem.title -%}{% break %}{% endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}
 {%- assign page_title_to_display = page_title_from_data | default: page.title | default: "Untitled" -%}
 
+{%- comment %} --- Enhanced Nav List Generation with State-awareness attributes --- {% endcomment %}
+{%- capture nav_list_html %}
+<ul class="doc-nav-list doc-nav-list--l1">
+  {%- for item_l1 in doc_chapters %}
+  <li class="doc-nav-item doc-nav-item--l1 {% if page.url == item_l1.url %}active{% endif %}" data-level="1" {% if item_l1.subitems %}data-url="{{ item_l1.url | relative_url }}"{% endif %}>
+    <a href="{{ item_l1.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l1.title }}</a>
+    {%- if item_l1.subitems %}
+    <span class="doc-nav-toggle"></span>
+    <ul class="doc-nav-list doc-nav-list--l2">
+      {%- for item_l2 in item_l1.subitems %}
+      <li class="doc-nav-item doc-nav-item--l2 {% if page.url == item_l2.url %}active{% endif %}" data-level="2" {% if item_l2.subitems %}data-url="{{ item_l2.url | relative_url }}"{% endif %}>
+        <a href="{{ item_l2.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l2.title }}</a>
+        {%- if item_l2.subitems %}
+        <span class="doc-nav-toggle"></span>
+        <ul class="doc-nav-list doc-nav-list--l3">
+          {%- for item_l3 in item_l2.subitems %}
+          <li class="doc-nav-item doc-nav-item--l3 {% if page.url == item_l3.url %}active{% endif %}" data-level="3" {% if item_l3.subitems %}data-url="{{ item_l3.url | relative_url }}"{% endif %}>
+            <a href="{{ item_l3.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l3.title }}</a>
+            {%- if item_l3.subitems %}
+            <span class="doc-nav-toggle"></span>
+            <ul class="doc-nav-list doc-nav-list--l4">
+              {%- for item_l4 in item_l3.subitems %}
+              <li class="doc-nav-item doc-nav-item--l4 {% if page.url == item_l4.url %}active{% endif %}" data-level="4">
+                <a href="{{ item_l4.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l4.title }}</a>
+              </li>
+              {%- endfor %}
+            </ul>
+            {%- endif %}
+          </li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+</ul>
+{%- endcapture %}
+
 <style>
-/* --- Base layout styles for DOC --- */
-.main.container--doc {
-  display: flex;
-  gap: 2em;
-  max-width: 960px;
-  margin: 0 auto;
-  align-items: flex-start;
-}
-.article--doc {
-  flex: 1 1 auto;
-  min-width: 0;
-}
-
-/* --- New Doc Navigation Styles --- */
-:root {
-  --doc-nav-width-md: 260px;
-  --doc-nav-width-lg: 280px;
-  --doc-nav-width-xl: 300px;
-  --doc-nav-indent: 0.6em;
-  --doc-nav-transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-/* --- Mobile FAB --- */
-.doc-nav-fab {
-  display: flex; /* Initially visible on mobile */
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 25px;
-  left: 25px;
-  width: 50px;
-  height: 50px;
-  background-color: #2c3e50;
-  color: white;
-  border-radius: 50%;
-  border: none;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  cursor: pointer;
-  z-index: 1001;
-  transition: transform 0.2s ease;
-}
-.doc-nav-fab:hover {
-  transform: scale(1.05);
-}
-.doc-nav-fab svg {
-  width: 24px;
-  height: 24px;
-}
-
-/* --- Mobile Overlay --- */
-.doc-nav-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1002;
-  opacity: 0;
-  visibility: hidden;
-  transition: var(--doc-nav-transition);
-}
-
-/* --- Navigation Container (Mobile Drawer Style by Default) --- */
-.doc-nav-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 85%;
-  max-width: 320px;
-  height: 100vh; /* Fallback */
-  height: 100dvh; /* Better for mobile browsers with dynamic toolbars */
-  background-color: #fff;
-  z-index: 1003;
-  display: flex;
-  flex-direction: column;
-  transform: translateX(-100%);
-  transition: var(--doc-nav-transition);
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
-
-/* --- Open State for Mobile --- */
-body.doc-nav-is-open {
-  overflow: hidden; /* Lock background scroll */
-}
-body.doc-nav-is-open .doc-nav-overlay {
-  opacity: 1;
-  visibility: visible;
-}
-body.doc-nav-is-open .doc-nav-container {
-  transform: translateX(0);
-}
-
-/* --- Nav Header --- */
-.doc-nav-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.2rem;
-  border-bottom: 1px solid #e0e0e0;
-  flex-shrink: 0;
-}
-.doc-nav-header h3 {
-  margin: 0;
-  font-size: 1.1em;
-  font-weight: 600;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.doc-nav-close-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem;
-  margin: -0.5rem; /* Enlarge tap area */
-  color: #555;
-}
-.doc-nav-close-btn:hover { color: #000; }
-.doc-nav-close-btn svg { width: 20px; height: 20px; }
-
-
-/* --- Nav Scrollable Area & List --- */
-.doc-nav-scroll-area {
-  flex-grow: 1;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-  overscroll-behavior-y: contain; /* Prevent scrolling parent */
-  padding: 1rem 0;
-}
-
-.doc-nav-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.doc-nav-list .doc-nav-list {
-  padding-left: var(--doc-nav-indent);
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
-}
-
-/* --- Nav Item & Link --- */
-.doc-nav-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-right: 0.5rem; /* Space for toggle button */
-}
-
-.doc-nav-link {
-  display: block;
-  font-size: 0.9em;
-  color: #333;
-  text-decoration: none;
-  padding: 0.5em 1.2em;
-  flex-grow: 1;
-  transition: background-color 0.2s ease, color 0.2s ease;
-  border-radius: 4px;
-  margin: 1px 0;
-}
-.doc-nav-item > a:hover {
-  background-color: #f0f0f0;
-  color: #000;
-}
-.doc-nav-item.is-active > .doc-nav-link {
-  background-color: #e7f5ff;
-  color: #007bff;
-  font-weight: 600;
-}
-
-/* --- Toggle Button --- */
-.doc-nav-toggle-btn {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0.5em; /* Larger clickable area */
-  margin-left: auto;
-  flex-shrink: 0;
-  border-radius: 4px;
-  line-height: 1;
-  color: #777;
-}
-.doc-nav-toggle-btn:hover { background-color: #e0e0e0; }
-.doc-nav-toggle-btn svg {
-  width: 14px;
-  height: 14px;
-  transition: transform 0.2s ease;
-}
-/* Icon points right by default */
-.doc-nav-item.has-children.is-expanded > .doc-nav-toggle-btn svg {
-  transform: rotate(90deg); /* Icon points down when expanded */
-}
-
-/* --- Expand/Collapse Logic --- */
-.doc-nav-item.has-children.is-expanded > .doc-nav-list {
-  max-height: 1000px; /* A large enough value to show content */
-}
-
-/* --- Indentation per level --- */
-.doc-nav-item--l2 > .doc-nav-link { padding-left: calc(1.2em + var(--doc-nav-indent)); }
-.doc-nav-item--l3 > .doc-nav-link { padding-left: calc(1.2em + var(--doc-nav-indent) * 2); }
-.doc-nav-item--l4 > .doc-nav-link { padding-left: calc(1.2em + var(--doc-nav-indent) * 3); }
-
-
-/* --- Desktop Layout (min-width: 768px) --- */
-@media screen and (min-width: 768px) {
-  .doc-nav-fab, .doc-nav-overlay, .doc-nav-close-btn { display: none; }
-  body.doc-nav-is-open { overflow: auto; } /* Re-enable scroll */
-
-  .doc-nav-container {
-    display: flex;
-    flex: 0 0 var(--doc-nav-width-md);
-    position: sticky;
-    top: 2rem;
-    max-height: calc(100vh - 4rem); /* Prevent covering footer */
-    transform: none;
-    box-shadow: none;
-    border-right: 1px solid #e0e0e0;
-    transition: none;
-    width: auto;
-    background-color: transparent;
+  /* --- Base Doc Layout (unchanged) --- */
+  @media screen and (min-width: 768px) {
+    .main.container--doc { display: flex; gap: 2em; max-width: 960px; margin: 0 auto; align-items: flex-start; }
+    .article--doc { flex: 1 1 auto; min-width: 0; }
   }
-  .doc-nav-header { padding: 0 0 1rem 0; border-bottom: none; }
-  .doc-nav-header h3 { font-size: 1.3em; }
-  .doc-nav-scroll-area { padding: 0; }
-  .doc-nav-link { padding: 0.5em 0.75em; }
-  .doc-nav-item--l2 > .doc-nav-link { padding-left: calc(0.75em + var(--doc-nav-indent)); }
-  .doc-nav-item--l3 > .doc-nav-link { padding-left: calc(0.75em + var(--doc-nav-indent) * 2); }
-  .doc-nav-item--l4 > .doc-nav-link { padding-left: calc(0.75em + var(--doc-nav-indent) * 3); }
-}
+  @media screen and (min-width: 1200px) {
+    .main.container--doc { max-width: 1440px; gap: 2.5em; justify-content: center; }
+    .article--doc { flex-grow: 1; flex-basis: auto; max-width: 800px; }
+    .main.container--doc .content-toc-right-wrapper { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto; }
+  }
+  @media screen and (min-width: 1800px) {
+    .main.container--doc { max-width: 2200px; width: 90%; justify-content: space-between; }
+    .article--doc { flex: 0 0 800px; }
+    .main.container--doc .content-toc-right-wrapper { flex: 0 0 280px; }
+  }
+  
+  /* --- NEW & REFINED: Doc Navigation System Styles --- */
 
-/* 3-column */
-@media screen and (min-width: 1200px) {
-  .main.container--doc { max-width: 1440px; gap: 2.5em; justify-content: center; }
-  .doc-nav-container { flex-basis: var(--doc-nav-width-lg); }
-  .article--doc { flex-grow: 1; flex-basis: auto; max-width: 800px; }
-  .main.container--doc .content-toc-right-wrapper { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto; }
-}
+  /* Prevent background scroll when mobile nav is open */
+  body.doc-nav-open { overflow: hidden; }
 
-/* Ultra-wide */
-@media screen and (min-width: 1800px) {
-  .main.container--doc { max-width: 2200px; width: 90%; justify-content: space-between; }
-  .doc-nav-container { flex: 0 0 var(--doc-nav-width-xl); }
-  .article--doc { flex: 0 0 800px; }
-  .main.container--doc .content-toc-right-wrapper { flex: 0 0 280px; }
-}
+  /* Smooth scroll behavior and offset for sticky header when jumping to #doc-content */
+  #doc-content { scroll-margin-top: 2rem; }
+
+  /* FAB (Floating Action Button) */
+  .doc-nav-fab { 
+    position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; 
+    background-color: #2c3e50; color: white; border-radius: 50%; border: none; 
+    display: flex; justify-content: center; align-items: center; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; 
+    transition: transform 0.2s ease-in-out;
+  }
+  .doc-nav-fab:hover { transform: scale(1.1); }
+  .doc-nav-fab svg { width: 24px; height: 24px; fill: currentColor; }
+  
+  /* Mobile Nav Container & Overlay */
+  .doc-nav-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0; visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s;
+    z-index: 1002;
+  }
+  .doc-nav-container {
+    position: fixed; top: 0; left: 0;
+    width: 300px; 
+    /* Use CSS var for dynamic height, with fallback */
+    height: var(--doc-nav-dynamic-height, 100vh); 
+    background-color: #fff;
+    box-shadow: 4px 0 15px rgba(0,0,0,0.1);
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1003;
+    display: flex; flex-direction: column;
+  }
+  body.doc-nav-open .doc-nav-container { transform: translateX(0); }
+  body.doc-nav-open .doc-nav-overlay { opacity: 1; visibility: visible; }
+
+  /* Doc Nav Header (Title & Close button) */
+  .doc-nav-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e9ecef;
+    flex-shrink: 0;
+  }
+  .doc-nav-title {
+    font-size: 1.2em; font-weight: 600; margin: 0; color: #343a40;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .doc-nav-close {
+    display: flex; align-items: center; justify-content: center;
+    width: 32px; height: 32px;
+    border: none; background: transparent; cursor: pointer; color: #6c757d;
+  }
+  .doc-nav-close svg { width: 20px; height: 20px; }
+  
+  /* Doc Nav Scroll Area & List */
+  .doc-nav-scroll-area {
+    flex-grow: 1; /* Allow this area to fill remaining space */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 1rem 0;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+  .doc-nav-list { list-style: none; margin: 0; padding: 0; }
+  .doc-nav-list .doc-nav-list { 
+    padding-left: 0.6em; 
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  .doc-nav-item.is-expanded > .doc-nav-list {
+    max-height: 2000px; /* A large enough value to show content */
+  }
+
+  /* Doc Nav Item & Link */
+  .doc-nav-item { position: relative; }
+  .doc-nav-link {
+    display: block; font-size: 0.9em; color: #495057; text-decoration: none;
+    padding: 8px 24px; border-left: 3px solid transparent;
+    transition: all 0.2s ease;
+  }
+  .doc-nav-item:not(.active) .doc-nav-link:hover {
+    background-color: #f8f9fa; color: #0056b3; border-left-color: #dee2e6;
+  }
+  .doc-nav-item.active > .doc-nav-link {
+    color: #0056b3; font-weight: 600;
+    background-color: #e7f1ff; border-left-color: #0056b3;
+  }
+  
+  /* Doc Nav Toggle (Expander Icon) */
+  .doc-nav-toggle {
+    position: absolute; top: 0; right: 0; width: 40px; height: 37px;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; color: #6c757d;
+  }
+  .doc-nav-toggle::before {
+    content: ''; width: 0; height: 0; border: solid currentColor;
+    border-width: 0 1.5px 1.5px 0; display: inline-block; padding: 3px;
+    transform: rotate(45deg); transition: transform 0.2s ease-in-out;
+  }
+  .doc-nav-item.is-expanded > .doc-nav-toggle::before {
+    transform: rotate(-135deg); margin-top: -4px;
+  }
+
+  /* --- Desktop Styles --- */
+  @media screen and (min-width: 768px) {
+    .doc-nav-fab, .doc-nav-overlay, .doc-nav-close { display: none; }
+    .doc-nav-container {
+      position: sticky; top: 2rem;
+      width: auto; height: auto;
+      transform: none; box-shadow: none; z-index: 1;
+      /* Adjust 4rem if your header+footer height is different */
+      max-height: calc(100vh - 4rem); 
+      display: flex; flex-direction: column; /* Crucial for scrolling */
+      flex: 0 0 260px;
+    }
+    .doc-nav-header { padding: 0 0 1rem 0; border-bottom: 1px solid #e9ecef; }
+    .doc-nav-scroll-area { padding: 1rem 0 0 0; }
+  }
+  @media screen and (min-width: 1200px) {
+    .doc-nav-container { flex-basis: 280px; }
+  }
+  @media screen and (min-width: 1800px) {
+    .doc-nav-container { flex-basis: 300px; }
+  }
 </style>
 
 {% include site-header.html %}
 
-<main class="main container container--doc {% if page.toc %}has-right-toc{% endif %}">
+<div class="doc-nav-overlay"></div>
 
-  <aside class="doc-nav-container" id="doc-nav-container">
+<button class="doc-nav-fab" aria-label="Open documentation navigation">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+</button>
+
+<main class="main container container--doc {% if page.toc %}has-right-toc{% endif %}">
+  
+  <aside class="doc-nav-container">
     <div class="doc-nav-header">
-      <h3>{{ doc_title }}</h3>
-      <button class="doc-nav-close-btn" aria-label="Close Navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+      <h3 class="doc-nav-title">{{ doc_title }}</h3>
+      <button class="doc-nav-close" aria-label="Close documentation navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
       </button>
     </div>
-    <div class="doc-nav-scroll-area" id="doc-nav-scroll-area">
-      <ul class="doc-nav-list">
-        {% for item_l1 in doc_chapters %}
-          <li class="doc-nav-item doc-nav-item--l1 {% if item_l1.subitems %}has-children{% endif %} {% if page.url == item_l1.url %}is-active{% endif %} {% if item_l1.subitems %}is-expanded{% endif %}" data-path="{{ item_l1.url | relative_url }}">
-            <a href="{{ item_l1.url | relative_url }}#doc-content-anchor" class="doc-nav-link">{{ item_l1.title }}</a>
-            {% if item_l1.subitems %}
-              <button class="doc-nav-toggle-btn" aria-label="Toggle Submenu">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
-              </button>
-              <ul class="doc-nav-list">
-                {% for item_l2 in item_l1.subitems %}
-                  <li class="doc-nav-item doc-nav-item--l2 {% if item_l2.subitems %}has-children{% endif %} {% if page.url == item_l2.url %}is-active{% endif %} {% if item_l2.subitems %}is-expanded{% endif %}" data-path="{{ item_l2.url | relative_url }}">
-                    <a href="{{ item_l2.url | relative_url }}#doc-content-anchor" class="doc-nav-link">{{ item_l2.title }}</a>
-                    {% if item_l2.subitems %}
-                      <button class="doc-nav-toggle-btn" aria-label="Toggle Submenu">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
-                      </button>
-                      <ul class="doc-nav-list">
-                        {% for item_l3 in item_l2.subitems %}
-                          <li class="doc-nav-item doc-nav-item--l3 {% if item_l3.subitems %}has-children{% endif %} {% if page.url == item_l3.url %}is-active{% endif %}" data-path="{{ item_l3.url | relative_url }}">
-                            <a href="{{ item_l3.url | relative_url }}#doc-content-anchor" class="doc-nav-link">{{ item_l3.title }}</a>
-                            {% if item_l3.subitems %}
-                              <button class="doc-nav-toggle-btn" aria-label="Toggle Submenu">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
-                              </button>
-                              <ul class="doc-nav-list">
-                                {% for item_l4 in item_l3.subitems %}
-                                  <li class="doc-nav-item doc-nav-item--l4 {% if page.url == item_l4.url %}is-active{% endif %}" data-path="{{ item_l4.url | relative_url }}">
-                                    <a href="{{ item_l4.url | relative_url }}#doc-content-anchor" class="doc-nav-link">{{ item_l4.title }}</a>
-                                  </li>
-                                {% endfor %}
-                              </ul>
-                            {% endif %}
-                          </li>
-                        {% endfor %}
-                      </ul>
-                    {% endif %}
-                  </li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
+    <div class="doc-nav-scroll-area">
+      {{ nav_list_html }}
     </div>
   </aside>
 
-  <article id="doc-content-anchor" class="article article--doc content typeset js-toc-content">
+  <article id="doc-content" class="article article--doc content typeset js-toc-content">
     <h1>{{ page_title_to_display }}</h1>
     
     {% if page.toc %}
@@ -346,44 +250,109 @@ body.doc-nav-is-open .doc-nav-container {
 
 </main>
 
-<!-- Mobile Navigation Elements -->
-<div class="doc-nav-overlay"></div>
-<button class="doc-nav-fab" aria-label="Open Navigation">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
-</button>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // --- Image Path Fixer ---
-  const collectionName = '{{ page.collection }}';
-  if (collectionName) {
-    const assetBasePath = `/uploads/${collectionName}/`;
-    const contentArea = document.querySelector('.article--doc');
-    if (contentArea) {
-      const images = contentArea.querySelectorAll('img');
-      images.forEach(img => {
-        const originalSrc = img.getAttribute('src');
-        if (originalSrc && originalSrc.startsWith('./')) {
-          const newSrc = assetBasePath + originalSrc.substring(2);
-          img.setAttribute('src', newSrc);
+  
+  const DocNavController = {
+    // --- Configuration ---
+    SCROLL_STORAGE_KEY: 'docNavScrollPos',
+    EXPAND_STORAGE_KEY: 'docNavExpandedItems',
+
+    // --- DOM Elements ---
+    body: document.body,
+    fab: document.querySelector('.doc-nav-fab'),
+    overlay: document.querySelector('.doc-nav-overlay'),
+    navContainer: document.querySelector('.doc-nav-container'),
+    closeButton: document.querySelector('.doc-nav-close'),
+    scrollArea: document.querySelector('.doc-nav-scroll-area'),
+    
+    // --- Initialization ---
+    init: function() {
+      if (!this.navContainer) return;
+
+      this.setupMobileHeight();
+      this.applyStoredState();
+      this.bindEvents();
+    },
+
+    // --- State Management ---
+    applyStoredState: function() {
+      // 1. Restore Expanded/Collapsed state
+      const expandedItems = JSON.parse(sessionStorage.getItem(this.EXPAND_STORAGE_KEY));
+      
+      if (expandedItems) {
+        // Restore from session storage
+        document.querySelectorAll('.doc-nav-item[data-url]').forEach(item => {
+          if (expandedItems.includes(item.dataset.url)) {
+            item.classList.add('is-expanded');
+          }
+        });
+      } else {
+        // Default behavior: expand level 1 items (to show level 2)
+        document.querySelectorAll('.doc-nav-item--l1[data-url]').forEach(item => {
+          item.classList.add('is-expanded');
+        });
+      }
+
+      // 2. Restore Scroll position
+      const scrollPos = sessionStorage.getItem(this.SCROLL_STORAGE_KEY);
+      if (scrollPos && this.scrollArea) {
+        this.scrollArea.scrollTop = parseInt(scrollPos, 10);
+      }
+    },
+    
+    saveState: function() {
+      if (!this.scrollArea) return;
+      
+      // 1. Save scroll position
+      sessionStorage.setItem(this.SCROLL_STORAGE_KEY, this.scrollArea.scrollTop);
+
+      // 2. Save expanded items
+      const expandedItems = [];
+      document.querySelectorAll('.doc-nav-item.is-expanded[data-url]').forEach(item => {
+        expandedItems.push(item.dataset.url);
+      });
+      sessionStorage.setItem(this.EXPAND_STORAGE_KEY, JSON.stringify(expandedItems));
+    },
+
+    // --- Event Binding ---
+    bindEvents: function() {
+      if (this.fab) this.fab.addEventListener('click', this.openNav.bind(this));
+      if (this.overlay) this.overlay.addEventListener('click', this.closeNav.bind(this));
+      if (this.closeButton) this.closeButton.addEventListener('click', this.closeNav.bind(this));
+
+      // Use event delegation for toggles and links for efficiency
+      this.navContainer.addEventListener('click', (e) => {
+        // Handle toggle clicks
+        if (e.target.classList.contains('doc-nav-toggle')) {
+          e.target.parentElement.classList.toggle('is-expanded');
+          this.saveState(); // Save state immediately on toggle
+        }
+        // Handle link clicks to save state before navigation
+        if (e.target.classList.contains('doc-nav-link')) {
+          this.saveState();
         }
       });
-    }
-  }
+      
+      // Handle mobile viewport height changes
+      window.addEventListener('resize', this.debounce(this.setupMobileHeight.bind(this), 150));
+    },
 
-  // --- Doc Navigation Logic ---
-  const docNavModule = function() {
-    const navContainer = document.getElementById('doc-nav-container');
-    if (!navContainer) return;
+    // --- Actions ---
+    openNav: function() { this.body.classList.add('doc-nav-open'); },
+    closeNav: function() { this.body.classList.remove('doc-nav-open'); },
 
-    const fab = document.querySelector('.doc-nav-fab');
-    const overlay = document.querySelector('.doc-nav-overlay');
-    const closeBtn = document.querySelector('.doc-nav-close-btn');
-    const scrollArea = document.getElementById('doc-nav-scroll-area');
-    const storageKey = `docNavState_{{ page.collection }}`;
+    // --- Utilities ---
+    setupMobileHeight: function() {
+      // Sets a CSS variable to the actual inner height of the window.
+      // This solves issues with `100vh` on mobile browsers with dynamic address bars.
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+      // For our specific component
+      document.documentElement.style.setProperty('--doc-nav-dynamic-height', `${window.innerHeight}px`);
+    },
 
-    // Debounce utility
-    const debounce = (func, wait) => {
+    debounce: function(func, wait) {
       let timeout;
       return function executedFunction(...args) {
         const later = () => {
@@ -393,84 +362,35 @@ document.addEventListener('DOMContentLoaded', function() {
         clearTimeout(timeout);
         timeout = setTimeout(later, wait);
       };
-    };
-
-    const openNav = () => document.body.classList.add('doc-nav-is-open');
-    const closeNav = () => document.body.classList.remove('doc-nav-is-open');
-
-    const saveState = () => {
-      const expandedItems = [];
-      navContainer.querySelectorAll('.doc-nav-item.is-expanded').forEach(item => {
-        expandedItems.push(item.dataset.path);
-      });
-      const state = {
-        scrollPos: scrollArea.scrollTop,
-        expanded: expandedItems,
-      };
-      sessionStorage.setItem(storageKey, JSON.stringify(state));
-    };
-
-    const debouncedSaveState = debounce(saveState, 150);
-
-    const restoreState = () => {
-      const stateString = sessionStorage.getItem(storageKey);
-      if (!stateString) return;
-      
-      try {
-        const state = JSON.parse(stateString);
-        
-        // First, collapse all expandable items that are expanded by default
-        navContainer.querySelectorAll('.doc-nav-item.has-children').forEach(item => {
-          item.classList.remove('is-expanded');
-        });
-
-        // Then, expand items from saved state
-        if (state.expanded && state.expanded.length > 0) {
-          state.expanded.forEach(path => {
-            const item = navContainer.querySelector(`.doc-nav-item[data-path="${path}"]`);
-            if (item) item.classList.add('is-expanded');
-          });
-        }
-        
-        // Restore scroll position
-        if (state.scrollPos) {
-          scrollArea.scrollTop = state.scrollPos;
-        }
-
-      } catch (e) {
-        console.error("Failed to parse doc nav state:", e);
-        sessionStorage.removeItem(storageKey);
-      }
-    };
-
-    const handleToggle = (event) => {
-      const target = event.target.closest('.doc-nav-toggle-btn');
-      if (!target) return;
-      
-      const parentItem = target.closest('.doc-nav-item');
-      if (parentItem) {
-        parentItem.classList.toggle('is-expanded');
-        saveState(); // Save state immediately on toggle
-      }
-    };
-
-    // --- Initialize ---
-    fab.addEventListener('click', openNav);
-    overlay.addEventListener('click', closeNav);
-    closeBtn.addEventListener('click', closeNav);
-    navContainer.addEventListener('click', handleToggle);
-    scrollArea.addEventListener('scroll', debouncedSaveState);
-    window.addEventListener('beforeunload', saveState);
-
-    restoreState();
+    }
   };
 
-  docNavModule();
+  DocNavController.init();
+
 });
 </script>
 
 
+<!-- ★ 图片路径修复脚本 (unchanged) ★ -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const collectionName = '{{ page.collection }}';
+  if (!collectionName) { return; }
+  const assetBasePath = `/uploads/${collectionName}/`;
+  const contentArea = document.querySelector('.article--doc');
+  if (!contentArea) { return; }
+  const images = contentArea.querySelectorAll('img');
+  images.forEach(img => {
+    const originalSrc = img.getAttribute('src');
+    if (originalSrc && originalSrc.startsWith('./')) {
+      const relativePath = originalSrc.substring(2);
+      const newSrc = assetBasePath + relativePath;
+      img.setAttribute('src', newSrc);
+    }
+  });
+});
+</script>
+
 {% include tts-reader.html %}
 {% include content-toc.html %}
-
 {% include site-footer.html %}
