@@ -16,20 +16,18 @@
   </button>
 </div>
 
-<!-- ================= CSS 样式 (核心重构) ================= -->
+<!-- ================= CSS 样式 (重构以支持绝对定位) ================= -->
 <style>
-  /* The container is now an invisible positioning frame */
   .tts-fab-container {
     position: fixed;
     bottom: 30px;
     right: 30px;
     z-index: 1000;
-    width: 50px; /* Width of a single button */
-    height: 116px; /* Height of two buttons + gap (50 + 16 + 50) */
-    display: none; /* Initially hidden, controlled by JS */
+    width: 50px;
+    height: 116px;
+    display: none;
   }
 
-  /* Both buttons are now absolutely positioned within the container */
   .tts-button {
     position: absolute;
     right: 0;
@@ -47,16 +45,12 @@
     transition: background-color 0.2s ease-in-out, transform 0.2s ease, opacity 0.3s ease-in-out;
   }
   
-  /* The main play button is the "anchor", always at the bottom */
-  #tts-control-btn {
-    bottom: 0;
-  }
+  #tts-control-btn { bottom: 0; }
   
-  /* The scroll button is positioned above the anchor */
   #tts-scroll-top-btn {
-    bottom: 66px; /* (50px button height + 16px gap) */
-    opacity: 0; /* Initially invisible */
-    pointer-events: none; /* Initially not clickable */
+    bottom: 66px;
+    opacity: 0;
+    pointer-events: none;
   }
 
   .tts-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
@@ -65,10 +59,10 @@
   .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
 </style>
 
-<!-- ================= JavaScript 逻辑 (包含最终修正的视口修复脚本) ================= -->
+<!-- ================= JavaScript 逻辑 (最终的、绝对正确的脚本) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // --- TTS Reader Logic (handleScroll logic updated) ---
+  // --- TTS Reader Logic (handleScroll logic updated for opacity) ---
   const SHOW_SCROLL_TO_TOP_BUTTON = true;
   const WORKER_URL = 'https://proxy.true-dhamma.com/tts-proxy';
   const PREFETCH_WINDOW_SIZE = 5;
@@ -82,18 +76,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const article = document.querySelector('article');
   if (!article) return;
   
-  // --- KEY CHANGE: Optimized handleScroll logic ---
-  // This function now only toggles opacity and clickability, which is highly performant.
   const handleScroll = () => {
     if (!SHOW_SCROLL_TO_TOP_BUTTON || !scrollTopBtn) return;
     const shouldBeVisible = window.scrollY > window.innerHeight / 2;
-    if (shouldBeVisible) {
-      scrollTopBtn.style.opacity = '1';
-      scrollTopBtn.style.pointerEvents = 'auto';
-    } else {
-      scrollTopBtn.style.opacity = '0';
-      scrollTopBtn.style.pointerEvents = 'none';
-    }
+    scrollTopBtn.style.opacity = shouldBeVisible ? '1' : '0';
+    scrollTopBtn.style.pointerEvents = shouldBeVisible ? 'auto' : 'none';
   };
   
   // (The rest of the TTS logic remains the same)
@@ -120,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (SHOW_SCROLL_TO_TOP_BUTTON && scrollTopBtn) { scrollTopBtn.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); }); window.addEventListener('scroll', handleScroll, { passive: true }); }
   initializeReader();
 
-  // --- [FINAL CORRECTED WITH ANCHOR LOGIC] UNIVERSAL FAB VISUAL VIEWPORT FIX ---
+  // --- [FINAL CORRECTED] UNIVERSAL FAB VISUAL VIEWPORT FIX ---
   (() => {
     if (window.visualViewport && window.matchMedia('(pointer: coarse)').matches) {
       const fixedFabs = document.querySelectorAll('.js-viewport-fixed-fab');
@@ -140,7 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const applyFix = () => {
         const { offsetLeft, offsetTop, width, height, scale } = window.visualViewport;
-        const inverseScale = 1 / scale;
 
         fabData.forEach(data => {
           const { element, bottom, left, right } = data;
@@ -149,19 +135,29 @@ document.addEventListener('DOMContentLoaded', () => {
           const elHeight = element.offsetHeight;
           if (elWidth === 0) return;
 
+          // The scale transformation remains the same.
+          element.style.transform = `scale(${1 / scale})`;
           element.style.transformOrigin = element.dataset.transformOrigin || 'center';
-          element.style.transform = `scale(${inverseScale})`;
           
           element.style.bottom = 'auto';
           element.style.right = 'auto';
+          
+          // --- THIS IS THE CORRECTED POSITIONING LOGIC ---
+          // It calculates where the element must be in the LAYOUT viewport
+          // to appear correctly positioned in the VISUAL viewport.
 
-          const newTop = offsetTop + height - elHeight - bottom;
+          // To maintain a constant VISUAL margin, we scale the CSS margin by 1/scale.
+          const visualMarginBottom = bottom / scale;
+          const visualMarginLeft = left / scale;
+          const visualMarginRight = right / scale;
+          
+          const newTop = (offsetTop + height) - elHeight - visualMarginBottom;
           let newLeft;
 
-          if (!isNaN(left)) {
-            newLeft = offsetLeft + left;
-          } else if (!isNaN(right)) {
-            newLeft = offsetLeft + width - elWidth - right;
+          if (!isNaN(left)) { // For left-aligned elements
+            newLeft = offsetLeft + visualMarginLeft;
+          } else if (!isNaN(right)) { // For right-aligned elements
+            newLeft = (offsetLeft + width) - elWidth - visualMarginRight;
           }
           
           element.style.top = `${newTop}px`;
