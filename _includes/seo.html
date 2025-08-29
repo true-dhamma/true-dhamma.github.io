@@ -1,0 +1,168 @@
+<!-- Begin Jekyll SEO tag v2.8.0 - MODIFIED FOR AUTO-TRUNCATE -->
+{%- comment -%}
+  - A variable holding the page's title.
+  - In order of preference:
+    1. Front matter `title`
+    2. `site.title`
+{%- endcomment -%}
+{%- assign page_title = page.title | default: site.title -%}
+
+{%- comment -%}
+  - A variable holding the page's description.
+  - In order of preference:
+    1. Front matter `description`
+    2. The page's excerpt
+    3. The first 200 words of the page's content, stripped of HTML and newlines
+{%- endcomment -%}
+{%- capture page_description -%}
+  {%- if page.description -%}
+    {{ page.description }}
+  {%- elsif page.excerpt and page.excerpt != "" -%}
+    {{ page.excerpt }}
+  {%- else -%}
+    {{ page.content | strip_html | strip_newlines | truncatewords: 200 }}
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- comment -%}
+  - A variable holding the page's author.
+  - In order of preference:
+    1. Front matter `author`
+    2. Front matter `authors`
+    3. `site.author`
+    4. `site.authors`
+{%- endcomment -%}
+{%- assign page_author = page.author | default: page.authors | default: site.author | default: site.authors -%}
+
+{%- comment -%}
+  - A variable holding the page's image.
+  - In order of preference:
+    1. Front matter `image.path` (or `image`)
+    2. `site.logo`
+{%- endcomment -%}
+{%- assign page_image = page.image.path | default: page.image -%}
+{%- unless page_image -%}
+  {%- for image in page.images -%}
+    {%- unless page_image -%}
+      {%- assign page_image = image.path | default: image -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endunless -%}
+{%- assign page_image = page_image | default: site.logo -%}
+
+{%- comment -%}
+  - A variable holding the page's locale.
+  - In order of preference:
+    1. Front matter `lang`
+    2. `site.lang`
+{%- endcomment -%}
+{%- assign page_locale = page.lang | default: site.lang | default: "en_US" -%}
+
+{%- comment -%}
+  - A variable holding the page's type.
+  - In order of preference:
+    1. Front matter `type`
+    2. `article` if `page.date` exists
+    3. `website`
+{%- endcomment -%}
+{%- assign page_type = page.type | default: "website" -%}
+{%- if page.date and page_type == "website" -%}
+  {%- assign page_type = "article" -%}
+{%- endif -%}
+
+{%- if page_title -%}
+  <title>{{ page_title | smartify | strip_html | strip_newlines | escape_once }}</title>
+{%- endif -%}
+
+<meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+<meta property="og:title" content="{{ page_title | smartify | strip_html | strip_newlines | escape_once }}" />
+{%- if page_author -%}
+  <meta name="author" content="{{ page_author | default: "" | smartify | strip_html | strip_newlines | escape_once }}" />
+{%- endif -%}
+<meta property="og:locale" content="{{ page_locale | default: "" }}" />
+{%- if page_description != "" -%}
+  <meta name="description" content="{{ page_description | strip_html | strip_newlines | escape_once }}" />
+  <meta property="og:description" content="{{ page_description | strip_html | strip_newlines | escape_once }}" />
+{%- endif -%}
+<link rel="canonical" href="{{ page.url | replace: "index.html", "" | absolute_url }}" />
+<meta property="og:url" content="{{ page.url | replace: "index.html", "" | absolute_url }}" />
+<meta property="og:site_name" content="{{ site.title | smartify | strip_html | strip_newlines | escape_once }}" />
+<meta property="og:type" content="{{ page_type | default: "" }}" />
+{%- if page_image -%}
+  {%- if page.image.alt -%}
+    <meta property="og:image:alt" content="{{ page.image.alt | strip_html | strip_newlines | escape_once }}" />
+  {%- endif -%}
+  <meta property="og:image" content="{{ page_image | absolute_url }}" />
+  {%- if page.image.height -%}<meta property="og:image:height" content="{{ page.image.height }}" />{%- endif -%}
+  {%- if page.image.width -%}<meta property="og:image:width" content="{{ page.image.width }}" />{%- endif -%}
+{%- endif -%}
+{%- if page_type == "article" and page.date -%}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+  {%- if page.last_modified_at -%}
+    <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}" />
+  {%- endif -%}
+{%- endif -%}
+{%- if site.twitter.username -%}
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="{{ page_title | smartify | strip_html | strip_newlines | escape_once }}" />
+{%- endif -%}
+{%- for seo_tag in site.seo_tags -%}{%- include {{ seo_tag }} -%}{%- endfor -%}
+
+<script type="application/ld+json">
+{%- assign schema = site.data.schema | default: site.schema -%}
+{%- if schema == true or page.schema == true -%}
+  {%- include_cached jekyll-seo-tag/schema.html -%}
+{%- else -%}
+  {
+    "description": "{{ page_description | strip_html | strip_newlines | escape_once }}",
+    "headline": "{{ page_title | smartify | strip_html | strip_newlines | escape_once }}",
+    "url": "{{ page.url | replace: 'index.html', '' | absolute_url }}",
+    {%- if page_author -%}
+      "author": {
+        "@type": "Person",
+        "name": "{{ page_author | default: "" | smartify | strip_html | strip_newlines | escape_once }}"
+      },
+    {%- endif -%}
+    {%- if page_image -%}
+      "image": "{{ page_image | absolute_url }}",
+    {%- endif -%}
+    {%- if page.date -%}
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+    {%- endif -%}
+    {%- if page.last_modified_at -%}
+      "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+    {%- endif -%}
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | replace: 'index.html', '' | absolute_url }}"
+    },
+    {%- if site.title -%}
+      "publisher": {
+        "@type": "Organization",
+        {%- if site.logo -%}
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{ site.logo | absolute_url }}"
+          },
+        {%- endif -%}
+        "name": "{{ site.title | smartify | strip_html | strip_newlines | escape_once }}"
+      },
+    {%- endif -%}
+    "@type": "{{ page.type | capitalize | default: 'WebPage' }}",
+    "@context": "https://schema.org"
+  }
+{%- endif -%}
+</script>
+
+{%- if site.facebook -%}
+  {%- if site.facebook.admins -%}
+    <meta property="fb:admins" content="{{ site.facebook.admins }}" />
+  {%- endif -%}
+  {%- if site.facebook.app_id -%}
+    <meta property="fb:app_id" content="{{ site.facebook.app_id }}" />
+  {%- endif -%}
+  {%- if site.facebook.profile_id -%}
+    <meta property="fb:profile_id" content="{{ site.facebook.profile_id }}" />
+  {%- endif -%}
+{%- endif -%}
+<!-- End Jekyll SEO tag -->
