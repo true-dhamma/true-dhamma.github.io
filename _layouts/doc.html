@@ -2,30 +2,34 @@
 layout: default
 ---
 
-{%- comment %} --- Data Preparation (unchanged) --- {% endcomment %}
+{%- comment %} --- Data Preparation --- {% endcomment %}
 {%- assign collection_name = page.collection -%}
 {%- assign doc_data = site.data.docs[collection_name] -%}
 {%- assign doc_title = doc_data.title | default: collection_name | capitalize -%}
 {%- assign doc_chapters = doc_data.chapters -%}
+
+{%- comment %} --- Page Title Logic (unchanged) --- {% endcomment %}
 {%- assign page_title_from_data = "" -%}
 {%- for chapter in doc_chapters -%}{%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{% endif -%}{%- if chapter.subitems -%}{%- for subitem in chapter.subitems -%}{%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{% endif -%}{%- if subitem.subitems -%}{%- for subsubitem in subitem.subitems -%}{%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{% endif -%}{%- if subsubitem.subitems -%}{%- for subsubsubitem in subsubitem.subitems -%}{%- if subsubsubitem.url == page.url -%}{%- assign page_title_from_data = subsubsubitem.title -%}{% break %}{% endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}
 {%- assign page_title_to_display = page_title_from_data | default: page.title | default: "Untitled" -%}
+
+{%- comment %} --- Enhanced Nav List Generation with 'has-children' class --- {% endcomment %}
 {%- capture nav_list_html %}
 <ul class="doc-nav-list doc-nav-list--l1">
   {%- for item_l1 in doc_chapters %}
-  <li class="doc-nav-item doc-nav-item--l1 {% if page.url == item_l1.url %}active{% endif %}" data-level="1" {% if item_l1.subitems %}data-url="{{ item_l1.url | relative_url }}"{% endif %}>
+  <li class="doc-nav-item doc-nav-item--l1 {% if page.url == item_l1.url %}active{% endif %} {% if item_l1.subitems %}has-children{% endif %}" data-level="1" {% if item_l1.subitems %}data-url="{{ item_l1.url | relative_url }}"{% endif %}>
     <a href="{{ item_l1.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l1.title }}</a>
     {%- if item_l1.subitems %}
     <span class="doc-nav-toggle"></span>
     <ul class="doc-nav-list doc-nav-list--l2">
       {%- for item_l2 in item_l1.subitems %}
-      <li class="doc-nav-item doc-nav-item--l2 {% if page.url == item_l2.url %}active{% endif %}" data-level="2" {% if item_l2.subitems %}data-url="{{ item_l2.url | relative_url }}"{% endif %}>
+      <li class="doc-nav-item doc-nav-item--l2 {% if page.url == item_l2.url %}active{% endif %} {% if item_l2.subitems %}has-children{% endif %}" data-level="2" {% if item_l2.subitems %}data-url="{{ item_l2.url | relative_url }}"{% endif %}>
         <a href="{{ item_l2.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l2.title }}</a>
         {%- if item_l2.subitems %}
         <span class="doc-nav-toggle"></span>
         <ul class="doc-nav-list doc-nav-list--l3">
           {%- for item_l3 in item_l2.subitems %}
-          <li class="doc-nav-item doc-nav-item--l3 {% if page.url == item_l3.url %}active{% endif %}" data-level="3" {% if item_l3.subitems %}data-url="{{ item_l3.url | relative_url }}"{% endif %}>
+          <li class="doc-nav-item doc-nav-item--l3 {% if page.url == item_l3.url %}active{% endif %} {% if item_l3.subitems %}has-children{% endif %}" data-level="3" {% if item_l3.subitems %}data-url="{{ item_l3.url | relative_url }}"{% endif %}>
             <a href="{{ item_l3.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l3.title }}</a>
             {%- if item_l3.subitems %}
             <span class="doc-nav-toggle"></span>
@@ -51,7 +55,7 @@ layout: default
 {%- endcapture %}
 
 <style>
-  /* --- Base Doc Layout (with bug fix from previous step) --- */
+  /* --- Base Doc Layout --- */
   @media screen and (min-width: 768px) {
     .main.container--doc { display: flex; gap: 2em; max-width: 960px; margin: 0 auto; align-items: flex-start; }
     .article--doc { flex: 1 1 auto; min-width: 0; }
@@ -72,15 +76,7 @@ layout: default
   #doc-content { scroll-margin-top: 2rem; }
   .doc-nav-fab { position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; background-color: #2c3e50; color: white; border-radius: 50%; border: none; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; transition: transform 0.2s ease-in-out; }
   .doc-nav-fab:hover { transform: scale(1.1); }
-  
-  /* --- UPDATED SVG STYLE --- */
-  .doc-nav-fab svg {
-    width: 28px; /* Slightly larger to better fit the circle */
-    height: 28px;
-    fill: currentColor; /* Inherits 'color: white' from parent */
-    stroke: none;
-  }
-  
+  .doc-nav-fab svg { width: 28px; height: 28px; fill: currentColor; } /* Adjusted size for book icon */
   .doc-nav-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s; z-index: 1002; }
   .doc-nav-container { position: fixed; top: 0; left: 0; width: 300px; height: var(--doc-nav-dynamic-height, 100vh); background-color: #fff; box-shadow: 4px 0 15px rgba(0,0,0,0.1); transform: translateX(-100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); z-index: 1003; display: flex; flex-direction: column; }
   body.doc-nav-open .doc-nav-container { transform: translateX(0); }
@@ -93,20 +89,34 @@ layout: default
   .doc-nav-list { list-style: none; margin: 0; padding: 0; }
   .doc-nav-list .doc-nav-list { padding-left: 0.6em; max-height: 0; overflow: hidden; transition: max-height 0.3s ease-in-out; }
   .doc-nav-item.is-expanded > .doc-nav-list { max-height: 2000px; }
-  .doc-nav-item { position: relative; }
+  .doc-nav-item { position: relative; } /* Crucial for positioning the toggle */
   .doc-nav-link { display: block; font-size: 0.9em; color: #495057; text-decoration: none; padding: 8px 24px; border-left: 3px solid transparent; transition: all 0.2s ease; }
   .doc-nav-item:not(.active) .doc-nav-link:hover { background-color: #f8f9fa; color: #0056b3; border-left-color: #dee2e6; }
   .doc-nav-item.active > .doc-nav-link { color: #0056b3; font-weight: 600; background-color: #e7f1ff; border-left-color: #0056b3; }
   
-  /* EXPANDED CLICK AREA FOR TOGGLE (unchanged from previous fix) */
-  .doc-nav-toggle {
-    position: absolute; top: 0; right: 0; width: 25%; height: 100%;
-    display: flex; align-items: center; justify-content: center;
-    cursor: pointer; color: #6c757d; z-index: 2;
+  /* --- NEW: Larger Click Area Logic --- */
+  /* 1. Add padding to links that have a toggle to avoid text overlapping the click area */
+  .doc-nav-item.has-children > .doc-nav-link {
+    padding-right: 60px;
   }
-  .doc-nav-toggle::before { content: ''; display: inline-block; width: 0; height: 0; border: solid currentColor; border-width: 0 1.5px 1.5px 0; padding: 3px; transform: rotate(45deg); transition: transform 0.2s ease-in-out; }
+  /* 2. Make the toggle a large, invisible click area on the right */
+  .doc-nav-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px; /* The new, larger width */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #6c757d;
+  }
+  /* 3. The visible arrow icon itself */
+  .doc-nav-toggle::before { content: ''; width: 0; height: 0; border: solid currentColor; border-width: 0 1.5px 1.5px 0; display: inline-block; padding: 3px; transform: rotate(45deg); transition: transform 0.2s ease-in-out; }
   .doc-nav-item.is-expanded > .doc-nav-toggle::before { transform: rotate(-135deg); margin-top: -4px; }
   
+  /* --- Desktop Styles --- */
   @media screen and (min-width: 768px) { .doc-nav-fab, .doc-nav-overlay, .doc-nav-close { display: none; } .doc-nav-container { position: sticky; top: 2rem; width: auto; height: auto; transform: none; box-shadow: none; z-index: 1; max-height: calc(100vh - 4rem); display: flex; flex-direction: column; flex: 0 0 260px; } .doc-nav-header { padding: 0 0 1rem 0; border-bottom: 1px solid #e9ecef; } .doc-nav-scroll-area { padding: 1rem 0 0 0; } }
   @media screen and (min-width: 1200px) { .doc-nav-container { flex-basis: 280px; } }
   @media screen and (min-width: 1800px) { .doc-nav-container { flex-basis: 300px; } }
@@ -115,10 +125,10 @@ layout: default
 {% include site-header.html %}
 <div class="doc-nav-overlay"></div>
 
+<!-- ★★★ FAB ICON UPDATED ★★★ -->
 <button class="doc-nav-fab" aria-label="Open documentation navigation">
-  <!-- --- YOUR CUSTOM SVG ICON --- -->
-  <svg viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 27.9999 51.9062 C 41.0546 51.9062 51.9063 41.0547 51.9063 28.0000 C 51.9063 14.9219 41.0312 4.0938 27.9765 4.0938 C 14.8983 4.0938 4.0937 14.9219 4.0937 28.0000 C 4.0937 41.0547 14.9218 51.9062 27.9999 51.9062 Z M 21.9296 37.0938 C 19.5390 37.0938 17.7812 37.9375 17.0077 38.6406 C 16.7030 38.875 16.3983 39.0391 15.9062 39.0391 C 15.2968 39.0391 14.8046 38.7344 14.8046 37.8906 L 14.8046 19.7734 C 15.6483 18.0625 18.3436 16.6797 21.3202 16.6797 C 23.9687 16.6797 26.1952 17.875 27.0390 19.4922 L 27.0390 38.875 C 26.9218 38.8516 26.2890 38.4766 26.0780 38.3594 C 25.3983 37.9375 24.0858 37.0938 21.9296 37.0938 Z M 34.0468 37.0938 C 31.8905 37.0938 30.5546 37.9140 29.8983 38.3594 C 29.6640 38.5000 29.1014 38.8984 28.9374 38.9219 L 28.9374 19.4922 C 29.8046 17.875 32.0312 16.6797 34.6327 16.6797 C 37.6093 16.6797 40.3046 18.0625 41.1483 19.7734 L 41.1483 37.8906 C 41.1483 38.7344 40.6796 39.0391 40.0702 39.0391 C 39.5780 39.0391 39.2499 38.875 38.9687 38.6406 C 38.1952 37.9375 36.4140 37.0938 34.0468 37.0938 Z"/>
+  <svg viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <path d="M 21.9296 37.0938 C 19.5390 37.0938 17.7812 37.9375 17.0077 38.6406 C 16.7030 38.875 16.3983 39.0391 15.9062 39.0391 C 15.2968 39.0391 14.8046 38.7344 14.8046 37.8906 L 14.8046 19.7734 C 15.6483 18.0625 18.3436 16.6797 21.3202 16.6797 C 23.9687 16.6797 26.1952 17.875 27.0390 19.4922 L 27.0390 38.875 C 26.9218 38.8516 26.2890 38.4766 26.0780 38.3594 C 25.3983 37.9375 24.0858 37.0938 21.9296 37.0938 Z M 34.0468 37.0938 C 31.8905 37.0938 30.5546 37.9140 29.8983 38.3594 C 29.6640 38.5000 29.1014 38.8984 28.9374 38.9219 L 28.9374 19.4922 C 29.8046 17.875 32.0312 16.6797 34.6327 16.6797 C 37.6093 16.6797 40.3046 18.0625 41.1483 19.7734 L 41.1483 37.8906 C 41.1483 38.7344 40.6796 39.0391 40.0702 39.0391 C 39.5780 39.0391 39.2499 38.875 38.9687 38.6406 C 38.1952 37.9375 36.4140 37.0938 34.0468 37.0938 Z"/>
   </svg>
 </button>
 
@@ -127,7 +137,7 @@ layout: default
     <div class="doc-nav-header">
       <h3 class="doc-nav-title">{{ doc_title }}</h3>
       <button class="doc-nav-close" aria-label="Close documentation navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" fill="currentColor"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
       </button>
     </div>
     <div class="doc-nav-scroll-area">
