@@ -5,12 +5,10 @@ paths:
   static: ''
 collections_config:
   pages:
-    path: /
+    path: ''
     name: Pages
-    icon: '123'
+    icon: wysiwyg
     disable_url: false
-    description: ''
-    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -45,8 +43,6 @@ collections_config:
     name: Posts
     icon: event_available
     disable_url: false
-    description: ''
-    _enabled_editors:
     _inputs:
       categories:
         type: multiselect
@@ -80,22 +76,8 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-collection_groups:
-  - heading:
-    collections:
-commit_templates:
-  - label:
-    template_string:
-    template_path:
-    _inputs:
-    extra_data:
 _snippets_imports:
   jekyll: true
-file_config:
-  - glob:
-    _inputs:
-    _structures:
-    _select_data:
 editor:
   default_path:
 timezone: Asia/Bangkok
