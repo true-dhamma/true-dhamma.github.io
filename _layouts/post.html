@@ -2,101 +2,27 @@
 layout: default
 ---
 
-{%- comment %}
-  ============================================================================
-  PART 1: DATA PREPARATION (Jekyll/Liquid)
-  ============================================================================
-  - 逻辑简化：仅判断是否需要显示TOC功能。Tocbot将在客户端处理具体内容。
-{%- endcomment %}
-
-{%- assign show_toc_feature = false -%}
-{%- if page.aside == true and (content contains '<h2' or content contains '<h3' or content contains '<h4') -%}
-  {%- assign show_toc_feature = true -%}
-{%- endif -%}
-
-
-{%- comment %}
-  ============================================================================
-  PART 2: INLINE CSS
-  ============================================================================
-  - 复用 doc.html 的样式逻辑，但只包含内容区和右侧目录的两档布局。
-{%- endcomment %}
-{% if show_toc_feature %}
 <style>
-  /* --- 基础样式 (移动端优先) --- */
-  /* 默认隐藏桌面端右侧栏 */
-  .content-toc-right-wrapper { display: none; }
-  
-  /* 页内居中TOC容器 (默认隐藏，由JS控制) */
-  .toc-middle-container { display: none; margin: 2em 0; padding: 1.2em 1.5em; border: 1px solid #e0e0e0; border-radius: 8px; background-color: #f8f9fa; }
-
-  /* --- TOCBOT 通用样式 (与 doc.html 保持一致) --- */
-  .toc-title { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
-  .toc-middle-container .toc-title { margin-top: 0; }
-  .toc-list { margin: 0; padding: 0; list-style: none; }
-  .toc-list-item { margin-bottom: 5px; }
-  .toc-list .toc-list { padding-left: 1.25em; } 
-  .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; text-decoration: none !important; }
-  .toc-link:hover { color: #333; border-left-color: #AAA; }
-  .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; }
-
-  /* --- 响应式布局 --- */
-
-  /* 档位 1: 移动端 ( < 1024px ) - 默认单栏布局，无需媒体查询 */
-
-  /* 档位 2: 桌面端 ( >= 1024px ) - 两栏布局 */
+  /* --- Layout-specific styles for POST --- */
   @media screen and (min-width: 1024px) {
-    .main.container.has-right-toc {
-      display: flex;
-      gap: 2.5em;
-      align-items: flex-start;
-      justify-content: center; /* 确保在更宽屏幕下内容区和TOC整体居中 */
-    }
-    
-    .article--post {
-      flex: 1 1 auto;
-      min-width: 0;
-      max-width: 800px; /* 限制内容最大宽度，保证可读性 */
-    }
-    
-    .content-toc-right-wrapper {
-      display: block;
-      flex: 0 0 260px;
-      position: sticky;
-      top: 2rem;
-      max-height: calc(100vh - 4rem);
-      overflow-y: auto;
-      /* 复用doc.html的hover效果 */
-      opacity: 0.5;
-      transition: opacity 0.1s ease-in-out;
-    }
-    .content-toc-right-wrapper:hover { opacity: 1; }
+    .main.container { display: flex; gap: 2.5em; align-items: flex-start; justify-content: center; }
+    .article--post { flex: 1 1 auto; min-width: 0; max-width: 800px; }
+    /* The TOC wrapper shares this flex context */
+    .content-toc-right-wrapper { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); }
+    /* The site-aside also shares this context */
+    .site-aside { flex: 0 0 260px; }
   }
 </style>
-{% endif %}
-
 
 {% include site-header.html %}
 
-<main class="main container {% if show_toc_feature %}has-right-toc{% endif %}">
-  
-  {%- comment %}
-    ============================================================================
-    PART 3: HTML STRUCTURE
-    ============================================================================
-    - 结构与命名向 doc.html 看齐。
-    - 预置中间和右侧的TOC容器，由JS控制。
-  {%- endcomment %}
+<main class="main container {% if page.toc %}has-right-toc{% endif %}">
 
   <article class="article article--post content typeset js-toc-content">
     <h1>{{ page.title }}</h1>
     {% include post-meta.html %}
     
-    {% if show_toc_feature %}
-    <!-- 
-      中间TOC容器，预置在此。JS会根据blockquote逻辑决定是否移动它。
-      注意：不再需要 #mobile-toc-anchor
-    -->
+    {% if page.toc %}
     <div id="toc-middle-container" class="toc-middle-container">
       <h3 class="toc-title">Index</h3>
       <div class="js-toc-middle"></div>
@@ -109,8 +35,7 @@ layout: default
     {% include post-comments.html %}
   </article>
 
-  {% if show_toc_feature %}
-  <!-- 右侧TOC容器，命名和结构与 doc.html 一致 -->
+  {% if page.toc and page.aside != true %}
   <aside class="content-toc-right-wrapper">
     <div id="toc-right-container">
       <h3 class="toc-title">Index</h3>
@@ -119,109 +44,13 @@ layout: default
   </aside>
   {% endif %}
 
+  {% if page.aside == true %}
+    {% include site-aside.html %}
+  {% endif %}
+
 </main>
 
 {% include tts-reader.html %}
 {% include site-footer.html %}
 
-
-{%- comment %}
-  ============================================================================
-  PART 4: JAVASCRIPT LOGIC
-  ============================================================================
-  - 完全复用 doc.html 的动态、响应式 Tocbot 逻辑。
-  - 增加了对 post.html 特有的 blockquote 定位逻辑的处理。
-  - ★ 新增：通过 ignoreSelector 忽略 table 和 blockquote 内的标题。
-{%- endcomment %}
-{% if show_toc_feature %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const DESKTOP_BREAKPOINT = 1024; // 设置为 post 布局的断点
-  const middleTocContainer = document.getElementById('toc-middle-container');
-  const rightTocContainer = document.getElementById('toc-right-container'); 
-  const contentArea = document.querySelector('.js-toc-content');
-  const pageTitle = contentArea.querySelector('h1');
-
-  if (!contentArea || !middleTocContainer) { return; }
-
-  // 保留 post.html 的特殊逻辑：如果标题后紧跟 blockquote，则将TOC容器移动到它后面
-  if (pageTitle) {
-    // 寻找标题后的第一个元素兄弟节点
-    let nextEl = pageTitle.nextElementSibling;
-    // 跳过 post-meta.html 引入的 div
-    if (nextEl && nextEl.classList.contains('post-meta')) {
-        nextEl = nextEl.nextElementSibling;
-    }
-    // 跳过我们自己预置的TOC容器
-    if (nextEl && nextEl.id === 'toc-middle-container') {
-        nextEl = nextEl.nextElementSibling;
-    }
-    
-    if (nextEl && nextEl.tagName === 'BLOCKQUOTE') {
-      // 移动 middleTocContainer 到 blockquote 之后
-      nextEl.parentNode.insertBefore(middleTocContainer, nextEl.nextSibling);
-    }
-  }
-
-  function debounce(func, wait) { let timeout; return function executedFunction(...args) { const later = () => { clearTimeout(timeout); func(...args); }; clearTimeout(timeout); timeout = setTimeout(later, wait); }; }
-  
-  function determineHeadingSelector() {
-    // 动态判断使用哪一级标题作为TOC的根, 与doc.html一致
-    if (contentArea.querySelector('h2')) return 'h2, h3, h4';
-    if (contentArea.querySelector('h3')) return 'h3, h4, h5';
-    if (contentArea.querySelector('h4')) return 'h4, h5, h6';
-    return null;
-  }
-
-  function setupTocbot() {
-    tocbot.destroy();
-    const headingSelector = determineHeadingSelector();
-    if (!headingSelector) {
-      middleTocContainer.style.display = 'none';
-      if (rightTocContainer) rightTocContainer.style.display = 'none';
-      return;
-    }
-    
-    const showMiddleToc = window.innerWidth < DESKTOP_BREAKPOINT;
-    const tocbotOptions = {
-      contentSelector: '.js-toc-content',
-      headingSelector: headingSelector,
-      hasInnerContainers: true,
-      scrollSmooth: true,
-      // ★ 这里是修改后的核心 ★
-      // 排除TOC容器自身的标题，以及table和blockquote内的所有标题
-      ignoreSelector: '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6'
-    };
-
-    if (showMiddleToc) {
-      if (rightTocContainer) rightTocContainer.style.display = 'none';
-      middleTocContainer.style.display = 'block';
-      
-      tocbot.init({
-        ...tocbotOptions,
-        tocSelector: '.js-toc-middle',
-        scrollSmoothOffset: -20,
-        headingsOffset: 20
-      });
-
-    } else if (rightTocContainer) {
-      middleTocContainer.style.display = 'none';
-      rightTocContainer.style.display = 'block';
-      
-      tocbot.init({
-        ...tocbotOptions,
-        tocSelector: '.js-toc-right',
-        scrollSmoothOffset: -80, // 与doc.html一致
-        headingsOffset: 80,   // 与doc.html一致
-      });
-    } else {
-      middleTocContainer.style.display = 'none';
-    }
-  }
-
-  setupTocbot();
-  window.addEventListener('resize', debounce(setupTocbot, 150));
-});
-</script>
-{% endif %}
+{% include content-toc.html %}

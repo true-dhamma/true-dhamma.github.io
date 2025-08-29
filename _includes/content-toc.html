@@ -1,0 +1,115 @@
+{%- comment %}
+  ============================================================================
+  SHARED TOC LOGIC & STYLES
+  This file provides all necessary CSS and JS for the Tocbot feature.
+  It expects specific HTML containers to be present in the calling layout.
+  ============================================================================
+{%- endcomment %}
+
+{%- assign show_toc_feature = false -%}
+{%- if page.toc == true -%}
+  {%- assign show_toc_feature = true -%}
+{%- endif -%}
+
+{% if show_toc_feature %}
+<style>
+  /* --- 基础样式 (移动端优先) --- */
+  .content-toc-right-wrapper { display: none; }
+  .toc-middle-container { display: none; margin: 2em 0; padding: 1.2em 1.5em; border: 1px solid #e0e0e0; border-radius: 8px; background-color: #f8f9fa; }
+
+  /* --- TOCBOT 通用样式 --- */
+  .toc-title { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
+  .toc-middle-container .toc-title { margin-top: 0; }
+  .toc-list { margin: 0; padding: 0; list-style: none; }
+  .toc-list-item { margin-bottom: 5px; }
+  .toc-list .toc-list { padding-left: 1.25em; } 
+  .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; text-decoration: none !important; }
+  .toc-link:hover { color: #333; border-left-color: #AAA; }
+  .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; }
+
+  /* --- 右侧TOC的Hover效果 --- */
+  .content-toc-right-wrapper {
+    opacity: 0.5;
+    transition: opacity 0.1s ease-in-out;
+  }
+  .content-toc-right-wrapper:hover { opacity: 1; }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const DESKTOP_BREAKPOINT = 1024; // Common breakpoint for showing right TOC
+  const middleTocContainer = document.getElementById('toc-middle-container');
+  const rightTocContainer = document.getElementById('toc-right-container'); 
+  const contentArea = document.querySelector('.js-toc-content');
+
+  if (!contentArea || !middleTocContainer) { return; }
+
+  const isPostLayout = {{ page.collection == 'posts' | jsonify }};
+  const pageHasAside = {{ page.aside | default: false }};
+  const forceMiddleToc = isPostLayout && pageHasAside;
+
+  // Logic to move middle TOC after a blockquote (for posts)
+  const pageTitle = contentArea.querySelector('h1');
+  if (isPostLayout && pageTitle) {
+    let nextEl = pageTitle.nextElementSibling;
+    if (nextEl && nextEl.classList.contains('post-meta')) {
+      nextEl = nextEl.nextElementSibling;
+    }
+    if (nextEl && nextEl.id === 'toc-middle-container') {
+      nextEl = nextEl.nextElementSibling;
+    }
+    if (nextEl && nextEl.tagName === 'BLOCKQUOTE') {
+      nextEl.parentNode.insertBefore(middleTocContainer, nextEl.nextSibling);
+    }
+  }
+
+  function debounce(func, wait) { let timeout; return function executedFunction(...args) { const later = () => { clearTimeout(timeout); func(...args); }; clearTimeout(timeout); timeout = setTimeout(later, wait); }; }
+  
+  function determineHeadingSelector() {
+    if (contentArea.querySelector('h2')) return 'h2, h3, h4';
+    if (contentArea.querySelector('h3')) return 'h3, h4, h5';
+    if (contentArea.querySelector('h4')) return 'h4, h5, h6';
+    return null;
+  }
+
+  function setupTocbot() {
+    tocbot.destroy();
+    const headingSelector = determineHeadingSelector();
+    
+    // JS-based check: if no headings are found, hide everything and stop.
+    if (!headingSelector) {
+      middleTocContainer.style.display = 'none';
+      if (rightTocContainer) rightTocContainer.parentElement.style.display = 'none';
+      return;
+    }
+    
+    const showMiddleToc = (window.innerWidth < DESKTOP_BREAKPOINT) || forceMiddleToc;
+    const tocbotOptions = {
+      contentSelector: '.js-toc-content',
+      headingSelector: headingSelector,
+      hasInnerContainers: true,
+      scrollSmooth: true,
+      ignoreSelector: '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6'
+    };
+
+    if (showMiddleToc) {
+      if (rightTocContainer) rightTocContainer.parentElement.style.display = 'none';
+      middleTocContainer.style.display = 'block';
+      
+      tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-middle', scrollSmoothOffset: -20, headingsOffset: 20 });
+    } else if (rightTocContainer) {
+      middleTocContainer.style.display = 'none';
+      rightTocContainer.parentElement.style.display = 'block';
+      
+      tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-right', scrollSmoothOffset: -80, headingsOffset: 80 });
+    } else {
+      middleTocContainer.style.display = 'none';
+    }
+  }
+
+  setupTocbot();
+  window.addEventListener('resize', debounce(setupTocbot, 150));
+});
+</script>
+{% endif %}
