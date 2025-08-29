@@ -1,58 +1,128 @@
 <div class="form  form--search">
-  <form id="contact-form" action="">
+  <form id="contact-form" action="" onsubmit="return false;">
     <label class="label" for="search">Search term:</label>
-    <input class="input" id="search" type="search" name="search" placeholder="e.g. About us" autocomplete="off" />
+    <input class="input" id="search" type="search" name="search" placeholder="例如: 禅定" autocomplete="off" />
 
     <ul class="list  list--results" id="list">
-        <!-- results go here -->
-    </ul>
+        </ul>
   </form>
 </div>
+
+<style>
+  .item--result mark {
+    background-color: #fcf8e3; /* 淡黄色背景 */
+    padding: 0 3px;          /* 左右留一点空隙 */
+    border-radius: 3px;      /* 圆角 */
+    color: #8a6d3b;          /* 深黄色字体 */
+    font-weight: bold;       /* 字体加粗 */
+  }
+</style>
 
 <script type="text/javascript" src="{{ "/assets/scripts/fetch.js" | relative_url }}"></script>
 <script type="text/javascript">
   const endpoint = '{{ "/assets/search.json" | relative_url }}';
-
   const pages = [];
 
   fetch(endpoint)
     .then(blob => blob.json())
     .then(data => pages.push(...data))
+    .catch(err => console.error('Error fetching search.json:', err));
 
+  // --- 新增: Debounce (防抖) 函数 ---
+  // 作用: 延迟执行一个函数，直到用户停止操作一段时间后。
+  function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+      const context = this;
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(context, args), wait);
+    };
+  }
+
+  // 查找匹配项的函数 (保持不变)
   function findResults(termToMatch, pages) {
+    // 忽略空的搜索词
+    if (!termToMatch.trim()) {
+        return [];
+    }
     return pages.filter(item => {
       const regex = new RegExp(termToMatch, 'gi');
-      return item.title.match(regex) || item.content.match(regex);
+      // 确保 item.title 和 item.content 存在
+      const titleMatch = item.title && item.title.match(regex);
+      const contentMatch = item.content && item.content.match(regex);
+      return titleMatch || contentMatch;
     });
   }
 
+  // 显示结果的函数 (已集成上下文摘要和高亮功能)
   function displayResults() {
-    const resultsArray = findResults(this.value, pages);
-    const html = resultsArray.map(item => {
-      return `
-        <li class="item  item--result">
-          <article class="article  typeset">
-            <h4><a href="${item.url}">${item.title}</a></h4>
-            <p>${item.excerpt}</p>
-          </article>
-        </li>`;
-    }).join('');
-    if ((resultsArray.length == 0) || (this.value == '')) {
-      resultsList.innerHTML = `<p>Sorry, nothing was found</p>`;
-    } else {
+    const searchTerm = this.value;
+    const resultsArray = findResults(searchTerm, pages);
+    
+    if (resultsArray.length > 0) {
+      const html = resultsArray.map(item => {
+        let snippet = '';
+        const regex = new RegExp(searchTerm, 'gi');
+
+        // 优先使用文章自带的摘要
+        if (item.excerpt && item.excerpt.length > 0) {
+          snippet = item.excerpt;
+        } 
+        // 如果没有摘要，则在正文中创建片段
+        else if (item.content) {
+          const match = item.content.match(regex);
+          
+          if (match) {
+            const keywordIndex = item.content.indexOf(match[0]);
+            const snippetRadius = 50;
+
+            const startIndex = Math.max(0, keywordIndex - snippetRadius);
+            const endIndex = Math.min(item.content.length, keywordIndex + match[0].length + snippetRadius);
+            
+            snippet = item.content.substring(startIndex, endIndex);
+
+            if (startIndex > 0) snippet = '...' + snippet;
+            if (endIndex < item.content.length) snippet = snippet + '...';
+          } else {
+            // 匹配发生在标题中，但正文中没有。此时截取正文前100个字符。
+            snippet = item.content.substring(0, 100) + '...';
+          }
+        }
+
+        // 使用 <mark> 标签高亮摘要或片段中的所有关键字
+        const highlightedSnippet = snippet.replace(regex, `<mark>$&</mark>`);
+        // 同时高亮标题中的关键字
+        const highlightedTitle = item.title.replace(regex, `<mark>$&</mark>`);
+
+        return `
+          <li class="item  item--result">
+            <article class="article  typeset">
+              <h4><a href="${item.url}">${highlightedTitle}</a></h4>
+              <p>${highlightedSnippet}</p>
+            </article>
+          </li>`;
+      }).join('');
       resultsList.innerHTML = html;
+    } else if (searchTerm.length > 0) {
+      resultsList.innerHTML = `<p>抱歉，没有找到相关内容。</p>`;
+    } else {
+      resultsList.innerHTML = ''; // 输入框为空时，清空列表
     }
   }
 
   const field = document.querySelector('#search');
   const resultsList = document.querySelector('#list');
 
-  field.addEventListener('keyup', displayResults);
+  // --- 关键改动: 使用 debounce 函数包裹 displayResults ---
+  // 用户停止输入 500ms 后再执行搜索
+  field.addEventListener('keyup', debounce(displayResults, 500));
 
+  // 阻止在搜索框中按 Enter 键时提交表单 (保持不变)
   field.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
       event.preventDefault();
     }
   });
+
 </script>
 <noscript>Please enable JavaScript to use the search form.</noscript>
