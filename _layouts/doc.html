@@ -16,6 +16,9 @@ layout: default
   /* --- Layout-specific styles for DOC --- */
   .doc-nav-container { display: none; }
   .doc-nav-fab { position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; background-color: #2c3e50; color: white; border-radius: 50%; border: none; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; }
+
+  /* ★ 新增：调整左侧导航字号 ★ */
+  .doc-nav-container a { font-size: 14px; }
   
   /* 2-column */
   @media screen and (min-width: 768px) {
@@ -77,8 +80,26 @@ layout: default
 
 </main>
 
-<!-- Mobile Nav etc. -->
-{% include tts-reader.html %}
 {% include site-footer.html %}
+
+<!-- ★ 新增：恢复图片路径修复脚本 ★ -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const collectionName = '{{ page.collection }}';
+  if (!collectionName) { return; }
+  const assetBasePath = `/uploads/${collectionName}/`;
+  const contentArea = document.querySelector('.article--doc');
+  if (!contentArea) { return; }
+  const images = contentArea.querySelectorAll('img');
+  images.forEach(img => {
+    const originalSrc = img.getAttribute('src');
+    if (originalSrc && originalSrc.startsWith('./')) {
+      const relativePath = originalSrc.substring(2);
+      const newSrc = assetBasePath + relativePath;
+      img.setAttribute('src', newSrc);
+    }
+  });
+});
+</script>
 
 {% include content-toc.html %}
