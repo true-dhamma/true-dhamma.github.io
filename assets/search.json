@@ -2,6 +2,7 @@
 layout: 
 sitemap: false
 ---
+
 {% capture json %}
 [
   {% assign collections = site.collections | where_exp:'collection','collection.output != false' %}
