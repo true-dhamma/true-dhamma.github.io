@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% include site-header.html %}
-
 {%- comment %} --- Data Preparation (unchanged) --- {% endcomment %}
 {%- assign collection_name = page.collection -%}
 {%- assign doc_data = site.data.docs[collection_name] -%}
@@ -126,6 +124,7 @@ layout: default
   @media screen and (min-width: 1800px) { .doc-nav-container { flex-basis: 300px; } }
 </style>
 
+{% include site-header.html %}
 <div class="doc-nav-overlay"></div>
 <button class="doc-nav-fab" aria-label="Open documentation navigation">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
