@@ -45,23 +45,42 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (!contentArea || (!middleTocContainer && !rightTocWrapper)) { return; }
 
-  const isDocLayout = mainContainer.classList.contains('layout-doc');
-  const isPostLayout = mainContainer.classList.contains('layout-post');
+  // ▼▼▼ NEW: Universal TOC Placement Logic ▼▼▼
+  // This logic runs once to position the middle-TOC container correctly.
+  if (middleTocContainer) {
+    let insertionPoint = null;
+    // Iterate through the direct children of the content area to find the insertion point.
+    for (const child of contentArea.children) {
+      // Ignore the TOC container itself if it's already at the top
+      if (child.id === 'toc-middle-container') continue;
 
-  const DESKTOP_BREAKPOINT = isDocLayout ? 1200 : 1024;
-  const pageHasAside = {{ page.aside | default: false }};
-  const forceMiddleToc = isPostLayout && pageHasAside;
+      const tagName = child.tagName;
+      if (['H1', 'H2', 'H3'].includes(tagName)) {
+        insertionPoint = child; // Keep updating to the last sequential heading
+      } else if (tagName === 'BLOCKQUOTE') {
+        insertionPoint = child; // A blockquote is a definitive insertion point
+        break; // Stop looking
+      } else {
+        // If we encounter any other element (like a <p>), the header section is over.
+        break; 
+      }
+    }
 
-  // ... (unchanged logic for post layout) ...
-  if (isPostLayout && middleTocContainer) {
-    const pageTitle = contentArea.querySelector('h1');
-    if (pageTitle) {
-      let nextEl = pageTitle.nextElementSibling;
-      if (nextEl && nextEl.classList.contains('post-meta')) { nextEl = nextEl.nextElementSibling; }
-      if (nextEl && nextEl.id === 'toc-middle-container') { nextEl = nextEl.nextElementSibling; }
-      if (nextEl && nextEl.tagName === 'BLOCKQUOTE') { nextEl.parentNode.insertBefore(middleTocContainer, nextEl.nextSibling); }
+    // Now, insert the TOC container at the determined position.
+    if (insertionPoint) {
+      // Insert after the found element (last heading or blockquote)
+      insertionPoint.parentNode.insertBefore(middleTocContainer, insertionPoint.nextSibling);
+    } else {
+      // If no suitable point was found (e.g., content starts with a <p>), put TOC at the very top.
+      contentArea.prepend(middleTocContainer);
     }
   }
+  // ▲▲▲ END: Universal TOC Placement Logic ▲▲▲
+
+  const isDocLayout = mainContainer.classList.contains('layout-doc');
+  const DESKTOP_BREAKPOINT = isDocLayout ? 1200 : 1024;
+  const pageHasAside = {{ page.aside | default: false }};
+  const forceMiddleToc = isDocLayout ? false : pageHasAside; // Simplified logic
 
   function debounce(func, wait) { let timeout; return function executedFunction(...args) { const later = () => { clearTimeout(timeout); func(...args); }; clearTimeout(timeout); timeout = setTimeout(later, wait); }; }
 
@@ -78,31 +97,23 @@ document.addEventListener('DOMContentLoaded', function() {
     if (rightTocWrapper) rightTocWrapper.style.display = 'none';
 
     const headingSelector = determineHeadingSelector();
-    if (!headingSelector) {
-      console.log('// DEBUG: No base heading levels (h2, h3, h4) found. Aborting.');
-      return;
-    }
+    if (!headingSelector) { return; }
 
-    // ▼▼▼ FINAL ROBUST LOGIC ▼▼▼
     const ignoreSelector = '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6';
-    
-    // 1. Find all potential headings
     const allHeadings = contentArea.querySelectorAll(headingSelector);
 
-    // 2. Filter them just like Tocbot would
-    const validHeadings = Array.from(allHeadings).filter(heading => !heading.matches(ignoreSelector));
-    
-    console.log(`// DEBUG: Found ${validHeadings.length} valid headings to create a TOC.`);
+    let hasValidHeadings = false;
+    for (const heading of allHeadings) {
+      if (!heading.matches(ignoreSelector)) {
+        hasValidHeadings = true;
+        break;
+      }
+    }
 
-    // 3. Only proceed if there are actual headings to process
-    if (validHeadings.length === 0) {
-      console.log('// DEBUG: No valid headings found. TOC will not be shown.');
-      return; // Abort, leaving the containers hidden
+    if (!hasValidHeadings) {
+      return;
     }
     
-    console.log('// DEBUG: Valid headings exist. Proceeding with Tocbot initialization.');
-    
-    // This part now only runs if we are sure a TOC can be generated
     const showMiddleToc = (window.innerWidth < DESKTOP_BREAKPOINT) || forceMiddleToc;
 
     const tocbotOptions = {
@@ -128,11 +139,10 @@ document.addEventListener('DOMContentLoaded', function() {
       containerToShow.style.display = 'block';
       tocbot.init({ ...tocbotOptions, tocSelector: tocTargetSelector });
     }
-    // ▲▲▲ FINAL ROBUST LOGIC ▲▲▲
   }
 
   setupTocbot();
   window.addEventListener('resize', debounce(setupTocbot, 150));
 });
 </script>
-{% endif %}
+{% endif %}```
