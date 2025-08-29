@@ -73,6 +73,9 @@ layout: default
   .toc-title { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
   .toc-middle-container .toc-title { margin-top: 0; }
   .toc-list { margin: 0; padding: 0; list-style: none; }
+  /* ★ 修正: 重新加入以下两条被意外删除的规则 */
+  .toc-list-item { margin-bottom: 5px; }
+  .toc-list .toc-list { padding-left: 1.25em; }
   .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; text-decoration: none !important; }
   .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; }
 </style>
@@ -274,4 +277,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-</script>```
+</script>
