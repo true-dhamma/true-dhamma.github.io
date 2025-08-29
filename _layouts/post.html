@@ -131,6 +131,7 @@ layout: default
   ============================================================================
   - 完全复用 doc.html 的动态、响应式 Tocbot 逻辑。
   - 增加了对 post.html 特有的 blockquote 定位逻辑的处理。
+  - ★ 新增：通过 ignoreSelector 忽略 table 和 blockquote 内的标题。
 {%- endcomment %}
 {% if show_toc_feature %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
@@ -188,8 +189,9 @@ document.addEventListener('DOMContentLoaded', function() {
       headingSelector: headingSelector,
       hasInnerContainers: true,
       scrollSmooth: true,
-      // 排除TOC容器自身的标题
-      ignoreSelector: '.toc-title'
+      // ★ 这里是修改后的核心 ★
+      // 排除TOC容器自身的标题，以及table和blockquote内的所有标题
+      ignoreSelector: '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6'
     };
 
     if (showMiddleToc) {
