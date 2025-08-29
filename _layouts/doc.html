@@ -2,18 +2,14 @@
 layout: default
 ---
 
-{%- comment %} --- Data Preparation --- {% endcomment %}
+{%- comment %} --- Data Preparation (unchanged) --- {% endcomment %}
 {%- assign collection_name = page.collection -%}
 {%- assign doc_data = site.data.docs[collection_name] -%}
 {%- assign doc_title = doc_data.title | default: collection_name | capitalize -%}
 {%- assign doc_chapters = doc_data.chapters -%}
-
-{%- comment %} --- Page Title Logic (unchanged) --- {% endcomment %}
 {%- assign page_title_from_data = "" -%}
 {%- for chapter in doc_chapters -%}{%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{% endif -%}{%- if chapter.subitems -%}{%- for subitem in chapter.subitems -%}{%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{% endif -%}{%- if subitem.subitems -%}{%- for subsubitem in subitem.subitems -%}{%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{% endif -%}{%- if subsubitem.subitems -%}{%- for subsubsubitem in subsubitem.subitems -%}{%- if subsubsubitem.url == page.url -%}{%- assign page_title_from_data = subsubsubitem.title -%}{% break %}{% endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}
 {%- assign page_title_to_display = page_title_from_data | default: page.title | default: "Untitled" -%}
-
-{%- comment %} --- Enhanced Nav List Generation with State-awareness attributes --- {% endcomment %}
 {%- capture nav_list_html %}
 <ul class="doc-nav-list doc-nav-list--l1">
   {%- for item_l1 in doc_chapters %}
@@ -63,7 +59,8 @@ layout: default
   @media screen and (min-width: 1200px) {
     .main.container--doc { max-width: 1440px; gap: 2.5em; justify-content: center; }
     .article--doc { flex-grow: 1; flex-basis: auto; max-width: 800px; }
-    .main.container--doc .content-toc-right-wrapper { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto; }
+    /* The right TOC is only displayed via JS, but its structure is defined here */
+    .main.container--doc .content-toc-right-wrapper { flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); }
   }
   @media screen and (min-width: 1800px) {
     .main.container--doc { max-width: 2200px; width: 90%; justify-content: space-between; }
@@ -71,147 +68,43 @@ layout: default
     .main.container--doc .content-toc-right-wrapper { flex: 0 0 280px; }
   }
   
-  /* --- NEW & REFINED: Doc Navigation System Styles --- */
-
-  /* Prevent background scroll when mobile nav is open */
+  /* --- Doc Navigation System Styles (unchanged) --- */
   body.doc-nav-open { overflow: hidden; }
-
-  /* Smooth scroll behavior and offset for sticky header when jumping to #doc-content */
   #doc-content { scroll-margin-top: 2rem; }
-
-  /* FAB (Floating Action Button) */
-  .doc-nav-fab { 
-    position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; 
-    background-color: #2c3e50; color: white; border-radius: 50%; border: none; 
-    display: flex; justify-content: center; align-items: center; 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; 
-    transition: transform 0.2s ease-in-out;
-  }
+  .doc-nav-fab { position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; background-color: #2c3e50; color: white; border-radius: 50%; border: none; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; transition: transform 0.2s ease-in-out; }
   .doc-nav-fab:hover { transform: scale(1.1); }
   .doc-nav-fab svg { width: 24px; height: 24px; fill: currentColor; }
-  
-  /* Mobile Nav Container & Overlay */
-  .doc-nav-overlay {
-    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background-color: rgba(0,0,0,0.5);
-    opacity: 0; visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s;
-    z-index: 1002;
-  }
-  .doc-nav-container {
-    position: fixed; top: 0; left: 0;
-    width: 300px; 
-    /* Use CSS var for dynamic height, with fallback */
-    height: var(--doc-nav-dynamic-height, 100vh); 
-    background-color: #fff;
-    box-shadow: 4px 0 15px rgba(0,0,0,0.1);
-    transform: translateX(-100%);
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    z-index: 1003;
-    display: flex; flex-direction: column;
-  }
+  .doc-nav-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s; z-index: 1002; }
+  .doc-nav-container { position: fixed; top: 0; left: 0; width: 300px; height: var(--doc-nav-dynamic-height, 100vh); background-color: #fff; box-shadow: 4px 0 15px rgba(0,0,0,0.1); transform: translateX(-100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); z-index: 1003; display: flex; flex-direction: column; }
   body.doc-nav-open .doc-nav-container { transform: translateX(0); }
   body.doc-nav-open .doc-nav-overlay { opacity: 1; visibility: visible; }
-
-  /* Doc Nav Header (Title & Close button) */
-  .doc-nav-header {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 1rem 1.5rem;
-    border-bottom: 1px solid #e9ecef;
-    flex-shrink: 0;
-  }
-  .doc-nav-title {
-    font-size: 1.2em; font-weight: 600; margin: 0; color: #343a40;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  }
-  .doc-nav-close {
-    display: flex; align-items: center; justify-content: center;
-    width: 32px; height: 32px;
-    border: none; background: transparent; cursor: pointer; color: #6c757d;
-  }
+  .doc-nav-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.5rem; border-bottom: 1px solid #e9ecef; flex-shrink: 0; }
+  .doc-nav-title { font-size: 1.2em; font-weight: 600; margin: 0; color: #343a40; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .doc-nav-close { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border: none; background: transparent; cursor: pointer; color: #6c757d; }
   .doc-nav-close svg { width: 20px; height: 20px; }
-  
-  /* Doc Nav Scroll Area & List */
-  .doc-nav-scroll-area {
-    flex-grow: 1; /* Allow this area to fill remaining space */
-    overflow-y: auto; /* Enable vertical scrolling */
-    padding: 1rem 0;
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-  }
+  .doc-nav-scroll-area { flex-grow: 1; overflow-y: auto; padding: 1rem 0; -webkit-overflow-scrolling: touch; }
   .doc-nav-list { list-style: none; margin: 0; padding: 0; }
-  .doc-nav-list .doc-nav-list { 
-    padding-left: 0.6em; 
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
-  }
-  .doc-nav-item.is-expanded > .doc-nav-list {
-    max-height: 2000px; /* A large enough value to show content */
-  }
-
-  /* Doc Nav Item & Link */
+  .doc-nav-list .doc-nav-list { padding-left: 0.6em; max-height: 0; overflow: hidden; transition: max-height 0.3s ease-in-out; }
+  .doc-nav-item.is-expanded > .doc-nav-list { max-height: 2000px; }
   .doc-nav-item { position: relative; }
-  .doc-nav-link {
-    display: block; font-size: 0.9em; color: #495057; text-decoration: none;
-    padding: 8px 24px; border-left: 3px solid transparent;
-    transition: all 0.2s ease;
-  }
-  .doc-nav-item:not(.active) .doc-nav-link:hover {
-    background-color: #f8f9fa; color: #0056b3; border-left-color: #dee2e6;
-  }
-  .doc-nav-item.active > .doc-nav-link {
-    color: #0056b3; font-weight: 600;
-    background-color: #e7f1ff; border-left-color: #0056b3;
-  }
-  
-  /* Doc Nav Toggle (Expander Icon) */
-  .doc-nav-toggle {
-    position: absolute; top: 0; right: 0; width: 40px; height: 37px;
-    display: flex; align-items: center; justify-content: center;
-    cursor: pointer; color: #6c757d;
-  }
-  .doc-nav-toggle::before {
-    content: ''; width: 0; height: 0; border: solid currentColor;
-    border-width: 0 1.5px 1.5px 0; display: inline-block; padding: 3px;
-    transform: rotate(45deg); transition: transform 0.2s ease-in-out;
-  }
-  .doc-nav-item.is-expanded > .doc-nav-toggle::before {
-    transform: rotate(-135deg); margin-top: -4px;
-  }
-
-  /* --- Desktop Styles --- */
-  @media screen and (min-width: 768px) {
-    .doc-nav-fab, .doc-nav-overlay, .doc-nav-close { display: none; }
-    .doc-nav-container {
-      position: sticky; top: 2rem;
-      width: auto; height: auto;
-      transform: none; box-shadow: none; z-index: 1;
-      /* Adjust 4rem if your header+footer height is different */
-      max-height: calc(100vh - 4rem); 
-      display: flex; flex-direction: column; /* Crucial for scrolling */
-      flex: 0 0 260px;
-    }
-    .doc-nav-header { padding: 0 0 1rem 0; border-bottom: 1px solid #e9ecef; }
-    .doc-nav-scroll-area { padding: 1rem 0 0 0; }
-  }
-  @media screen and (min-width: 1200px) {
-    .doc-nav-container { flex-basis: 280px; }
-  }
-  @media screen and (min-width: 1800px) {
-    .doc-nav-container { flex-basis: 300px; }
-  }
+  .doc-nav-link { display: block; font-size: 0.9em; color: #495057; text-decoration: none; padding: 8px 24px; border-left: 3px solid transparent; transition: all 0.2s ease; }
+  .doc-nav-item:not(.active) .doc-nav-link:hover { background-color: #f8f9fa; color: #0056b3; border-left-color: #dee2e6; }
+  .doc-nav-item.active > .doc-nav-link { color: #0056b3; font-weight: 600; background-color: #e7f1ff; border-left-color: #0056b3; }
+  .doc-nav-toggle { position: absolute; top: 0; right: 0; width: 40px; height: 37px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #6c757d; }
+  .doc-nav-toggle::before { content: ''; width: 0; height: 0; border: solid currentColor; border-width: 0 1.5px 1.5px 0; display: inline-block; padding: 3px; transform: rotate(45deg); transition: transform 0.2s ease-in-out; }
+  .doc-nav-item.is-expanded > .doc-nav-toggle::before { transform: rotate(-135deg); margin-top: -4px; }
+  @media screen and (min-width: 768px) { .doc-nav-fab, .doc-nav-overlay, .doc-nav-close { display: none; } .doc-nav-container { position: sticky; top: 2rem; width: auto; height: auto; transform: none; box-shadow: none; z-index: 1; max-height: calc(100vh - 4rem); display: flex; flex-direction: column; flex: 0 0 260px; } .doc-nav-header { padding: 0 0 1rem 0; border-bottom: 1px solid #e9ecef; } .doc-nav-scroll-area { padding: 1rem 0 0 0; } }
+  @media screen and (min-width: 1200px) { .doc-nav-container { flex-basis: 280px; } }
+  @media screen and (min-width: 1800px) { .doc-nav-container { flex-basis: 300px; } }
 </style>
 
 {% include site-header.html %}
-
 <div class="doc-nav-overlay"></div>
-
 <button class="doc-nav-fab" aria-label="Open documentation navigation">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
 </button>
 
-<main class="main container container--doc {% if page.toc %}has-right-toc{% endif %}">
-  
+<main class="main container container--doc layout-doc {% if page.toc %}has-right-toc{% endif %}">
   <aside class="doc-nav-container">
     <div class="doc-nav-header">
       <h3 class="doc-nav-title">{{ doc_title }}</h3>
@@ -223,22 +116,18 @@ layout: default
       {{ nav_list_html }}
     </div>
   </aside>
-
   <article id="doc-content" class="article article--doc content typeset js-toc-content">
     <h1>{{ page_title_to_display }}</h1>
-    
     {% if page.toc %}
     <div id="toc-middle-container" class="toc-middle-container">
       <h3 class="toc-title">Index</h3>
       <div class="js-toc-middle"></div>
     </div>
     {% endif %}
-
     <div class="content-body">
       {{ content }}
     </div>
   </article>
-
   {% if page.toc %}
   <aside class="content-toc-right-wrapper">
     <div id="toc-right-container">
@@ -247,148 +136,15 @@ layout: default
     </div>
   </aside>
   {% endif %}
-
 </main>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  
-  const DocNavController = {
-    // --- Configuration ---
-    SCROLL_STORAGE_KEY: 'docNavScrollPos',
-    EXPAND_STORAGE_KEY: 'docNavExpandedItems',
-
-    // --- DOM Elements ---
-    body: document.body,
-    fab: document.querySelector('.doc-nav-fab'),
-    overlay: document.querySelector('.doc-nav-overlay'),
-    navContainer: document.querySelector('.doc-nav-container'),
-    closeButton: document.querySelector('.doc-nav-close'),
-    scrollArea: document.querySelector('.doc-nav-scroll-area'),
-    
-    // --- Initialization ---
-    init: function() {
-      if (!this.navContainer) return;
-
-      this.setupMobileHeight();
-      this.applyStoredState();
-      this.bindEvents();
-    },
-
-    // --- State Management ---
-    applyStoredState: function() {
-      // 1. Restore Expanded/Collapsed state
-      const expandedItems = JSON.parse(sessionStorage.getItem(this.EXPAND_STORAGE_KEY));
-      
-      if (expandedItems) {
-        // Restore from session storage
-        document.querySelectorAll('.doc-nav-item[data-url]').forEach(item => {
-          if (expandedItems.includes(item.dataset.url)) {
-            item.classList.add('is-expanded');
-          }
-        });
-      } else {
-        // Default behavior: expand level 1 items (to show level 2)
-        document.querySelectorAll('.doc-nav-item--l1[data-url]').forEach(item => {
-          item.classList.add('is-expanded');
-        });
-      }
-
-      // 2. Restore Scroll position
-      const scrollPos = sessionStorage.getItem(this.SCROLL_STORAGE_KEY);
-      if (scrollPos && this.scrollArea) {
-        this.scrollArea.scrollTop = parseInt(scrollPos, 10);
-      }
-    },
-    
-    saveState: function() {
-      if (!this.scrollArea) return;
-      
-      // 1. Save scroll position
-      sessionStorage.setItem(this.SCROLL_STORAGE_KEY, this.scrollArea.scrollTop);
-
-      // 2. Save expanded items
-      const expandedItems = [];
-      document.querySelectorAll('.doc-nav-item.is-expanded[data-url]').forEach(item => {
-        expandedItems.push(item.dataset.url);
-      });
-      sessionStorage.setItem(this.EXPAND_STORAGE_KEY, JSON.stringify(expandedItems));
-    },
-
-    // --- Event Binding ---
-    bindEvents: function() {
-      if (this.fab) this.fab.addEventListener('click', this.openNav.bind(this));
-      if (this.overlay) this.overlay.addEventListener('click', this.closeNav.bind(this));
-      if (this.closeButton) this.closeButton.addEventListener('click', this.closeNav.bind(this));
-
-      // Use event delegation for toggles and links for efficiency
-      this.navContainer.addEventListener('click', (e) => {
-        // Handle toggle clicks
-        if (e.target.classList.contains('doc-nav-toggle')) {
-          e.target.parentElement.classList.toggle('is-expanded');
-          this.saveState(); // Save state immediately on toggle
-        }
-        // Handle link clicks to save state before navigation
-        if (e.target.classList.contains('doc-nav-link')) {
-          this.saveState();
-        }
-      });
-      
-      // Handle mobile viewport height changes
-      window.addEventListener('resize', this.debounce(this.setupMobileHeight.bind(this), 150));
-    },
-
-    // --- Actions ---
-    openNav: function() { this.body.classList.add('doc-nav-open'); },
-    closeNav: function() { this.body.classList.remove('doc-nav-open'); },
-
-    // --- Utilities ---
-    setupMobileHeight: function() {
-      // Sets a CSS variable to the actual inner height of the window.
-      // This solves issues with `100vh` on mobile browsers with dynamic address bars.
-      const vh = window.innerHeight * 0.01;
-      document.documentElement.style.setProperty('--vh', `${vh}px`);
-      // For our specific component
-      document.documentElement.style.setProperty('--doc-nav-dynamic-height', `${window.innerHeight}px`);
-    },
-
-    debounce: function(func, wait) {
-      let timeout;
-      return function executedFunction(...args) {
-        const later = () => {
-          clearTimeout(timeout);
-          func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-      };
-    }
-  };
-
-  DocNavController.init();
-
-});
+// DocNavController script remains unchanged
+document.addEventListener('DOMContentLoaded',function(){const e={SCROLL_STORAGE_KEY:"docNavScrollPos",EXPAND_STORAGE_KEY:"docNavExpandedItems",body:document.body,fab:document.querySelector(".doc-nav-fab"),overlay:document.querySelector(".doc-nav-overlay"),navContainer:document.querySelector(".doc-nav-container"),closeButton:document.querySelector(".doc-nav-close"),scrollArea:document.querySelector(".doc-nav-scroll-area"),init:function(){this.navContainer&&(this.setupMobileHeight(),this.applyStoredState(),this.bindEvents())},applyStoredState:function(){const e=JSON.parse(sessionStorage.getItem(this.EXPAND_STORAGE_KEY));e?document.querySelectorAll(".doc-nav-item[data-url]").forEach(t=>{e.includes(t.dataset.url)&&t.classList.add("is-expanded")}):document.querySelectorAll(".doc-nav-item--l1[data-url]").forEach(e=>{e.classList.add("is-expanded")});const t=sessionStorage.getItem(this.SCROLL_STORAGE_KEY);t&&this.scrollArea&&(this.scrollArea.scrollTop=parseInt(t,10))},saveState:function(){if(!this.scrollArea)return;sessionStorage.setItem(this.SCROLL_STORAGE_KEY,this.scrollArea.scrollTop);const e=[];document.querySelectorAll(".doc-nav-item.is-expanded[data-url]").forEach(t=>{e.push(t.dataset.url)}),sessionStorage.setItem(this.EXPAND_STORAGE_KEY,JSON.stringify(e))},bindEvents:function(){this.fab&&this.fab.addEventListener("click",this.openNav.bind(this)),this.overlay&&this.overlay.addEventListener("click",this.closeNav.bind(this)),this.closeButton&&this.closeButton.addEventListener("click",this.closeNav.bind(this)),this.navContainer.addEventListener("click",e=>{e.target.classList.contains("doc-nav-toggle")&&(e.target.parentElement.classList.toggle("is-expanded"),this.saveState()),e.target.classList.contains("doc-nav-link")&&this.saveState()}),window.addEventListener("resize",this.debounce(this.setupMobileHeight.bind(this),150))},openNav:function(){this.body.classList.add("doc-nav-open")},closeNav:function(){this.body.classList.remove("doc-nav-open")},setupMobileHeight:function(){const e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh",`${e}px`),document.documentElement.style.setProperty("--doc-nav-dynamic-height",`${window.innerHeight}px`)},debounce:function(e,t){let o;return function(...s){const n=()=>{clearTimeout(o),e.apply(this,s)};clearTimeout(o),o=setTimeout(n,t)}}};e.init()});
 </script>
-
-
-<!-- ★ 图片路径修复脚本 (unchanged) ★ -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const collectionName = '{{ page.collection }}';
-  if (!collectionName) { return; }
-  const assetBasePath = `/uploads/${collectionName}/`;
-  const contentArea = document.querySelector('.article--doc');
-  if (!contentArea) { return; }
-  const images = contentArea.querySelectorAll('img');
-  images.forEach(img => {
-    const originalSrc = img.getAttribute('src');
-    if (originalSrc && originalSrc.startsWith('./')) {
-      const relativePath = originalSrc.substring(2);
-      const newSrc = assetBasePath + relativePath;
-      img.setAttribute('src', newSrc);
-    }
-  });
-});
+// Image path script remains unchanged
+document.addEventListener('DOMContentLoaded',function(){const e="{{ page.collection }}";if(!e)return;const t=`/uploads/${e}/`,o=document.querySelector(".article--doc");if(!o)return;o.querySelectorAll("img").forEach(e=>{const o=e.getAttribute("src");if(o&&o.startsWith("./")){const s=o.substring(2),n=t+s;e.setAttribute("src",n)}})});
 </script>
 
 {% include tts-reader.html %}

@@ -1,6 +1,4 @@
----
-title: Anumodana
----
+随喜
 
 # 随喜
 

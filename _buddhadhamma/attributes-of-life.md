@@ -1,7 +1,3 @@
----
-title: Attributes Of Life
----
-
 第二篇：生命的怎样的？
 
 # 第二篇：生命的怎样的？

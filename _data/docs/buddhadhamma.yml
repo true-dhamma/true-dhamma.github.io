@@ -5,6 +5,10 @@ chapters:
     url: /buddhadhamma/abbreviations.html
   - title: 阿姜·查雅萨罗前言
     url: /buddhadhamma/foreword-by-ajahn-jayasaro.html
+  - title: 佛法基金会主席前言
+    url: /buddhadhamma/foreword-by-khun-yongyuth.html
+  - title: 译者前言
+    url: /buddhadhamma/foreword-by-translator.html
   - title: 导论
     url: /buddhadhamma/introduction.html
 
@@ -29,54 +33,66 @@ chapters:
     url: /buddhadhamma/process-of-life.html
     subitems:
       - title: 第四章：缘起
-        url: /buddhadhamma/dependent-origination_split_000.html
+        url: /buddhadhamma/dependent-origination.html
       - title: 第五章：业的法则
-        url: /buddhadhamma/law-of-kamma_split_000.html
-  - title: 第一部：中道法义
-    url: /buddhadhamma/middle-teaching.html
+        url: /buddhadhamma/law-of-kamma.html
 
-  - title: 第一篇：生命是什么？
-    url: /buddhadhamma/nature-of-human-life.html
+  - title: 第四篇：生命应成为怎样？
+    url: /buddhadhamma/goal-of-life.html
     subitems:
-      - title: 第一章：五蕴
-        url: /buddhadhamma/five-aggregates.html
-      - title: 第二章：六处
-        url: /buddhadhamma/six-sense-spheres.html
+      - title: 第六章：涅槃：至上寂静
+        url: /buddhadhamma/nibbana-supreme-peace.html
+      - title: 第七章：觉悟者
+        url: /buddhadhamma/awakened-beings.html
+      - title: 第八章：止与观
+        url: /buddhadhamma/calm-and-insight.html
 
-  - title: 第二篇：生命的怎样的？
-    url: /buddhadhamma/attributes-of-life.html
+  - title: 第五篇：生命应如何存在？
+    url: /buddhadhamma/a-noble-life.html
     subitems:
-      - title: 第三章：三法印
-        url: /buddhadhamma/three-characteristics.html
+      - title: 第九章：神通与神圣
+        url: /buddhadhamma/the-supernatural-and-the-divine.html
+      - title: 第十章：佛陀关于欲望的教导
+        url: /buddhadhamma/the-buddhist-teachings-on-desire.html
+      - title: 第十一章：安乐
+        url: /buddhadhamma/happiness.html
 
-  - title: 第三篇：生命如何运作？
-    url: /buddhadhamma/process-of-life.html
-    subitems:
-      - title: 第四章：缘起
-        url: /buddhadhamma/dependent-origination_split_000.html
-      - title: 第五章：业的法则
-        url: /buddhadhamma/law-of-kamma_split_000.html
-  - title: 第一部：中道法义
-    url: /buddhadhamma/middle-teaching.html
+  - title: 第二部：中道
+    url: /buddhadhamma/middle-way.html
 
-  - title: 第一篇：生命是什么？
-    url: /buddhadhamma/nature-of-human-life.html
+  - title: 第六篇：美好的生命是怎样的？
+    url: /buddhadhamma/a-worthy-life.html
     subitems:
-      - title: 第一章：五蕴
-        url: /buddhadhamma/five-aggregates.html
-      - title: 第二章：六处
-        url: /buddhadhamma/six-sense-spheres.html
+      - title: 第十二章：中道导论
+        url: /buddhadhamma/introduction-to-the-middle-way.html
+      - title: 第十三章：善知识
+        url: /buddhadhamma/virtuous-friendship.html
+      - title: 第十四章：信心
+        url: /buddhadhamma/faith-and-confidence.html
+      - title: 第十五章：如理作意
+        url: /buddhadhamma/wise-reflection.html
 
-  - title: 第二篇：生命的怎样的？
-    url: /buddhadhamma/attributes-of-life.html
+  - title: 第七篇：道支
+    url: /buddhadhamma/path-factors.html
     subitems:
-      - title: 第三章：三法印
-        url: /buddhadhamma/three-characteristics.html
+      - title: 第十六章：智慧道支
+        url: /buddhadhamma/path-factors-of-wisdom.html
+      - title: 第十七章：戒行道支
+        url: /buddhadhamma/path-factors-of-virtuous-conduct.html
+      - title: 第十八章：禅定道支
+        url: /buddhadhamma/path-factors-of-concentration.html
+      - title: 第十九章：四圣谛
+        url: /buddhadhamma/four-noble-truths.html
 
-  - title: 第三篇：生命如何运作？
-    url: /buddhadhamma/process-of-life.html
-    subitems:
-      - title: 第四章：缘起
-        url: /buddhadhamma/dependent-origination_split_000.html
-      - title: 第五章：业的法则
-        url: /buddhadhamma/law-of-kamma_split_000.html
+  - title: 附录：心（Citta）、识（Viññāṇa）、意（Mano）
+    url: /buddhadhamma/appendix-citta-vinnana-mano.html
+  - title: 作者后记
+    url: /buddhadhamma/authors-postscript.html
+  - title: 参考书目
+    url: /buddhadhamma/bibliography.html
+  - title: 巴育陀 (P. A. Payutto)
+    url: /buddhadhamma/p-a-payutto.html
+  - title: 佛法基金会主席
+    url: /buddhadhamma/president-of-the-buddhadhamma-foundation.html
+  - title: 版权
+    url: /buddhadhamma/copyright.html

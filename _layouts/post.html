@@ -5,10 +5,10 @@ layout: default
 <style>
   /* --- Layout-specific styles for POST --- */
   @media screen and (min-width: 1024px) {
-    .main.container { display: flex; gap: 2.5em; align-items: flex-start; justify-content: center; }
+    .main.container.layout-post { display: flex; gap: 2.5em; align-items: flex-start; justify-content: center; }
     .article--post { flex: 1 1 auto; min-width: 0; max-width: 800px; }
     /* The TOC wrapper shares this flex context */
-    .content-toc-right-wrapper { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); }
+    .content-toc-right-wrapper { flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); }
     /* The site-aside also shares this context */
     .site-aside { flex: 0 0 260px; }
   }
@@ -16,7 +16,7 @@ layout: default
 
 {% include site-header.html %}
 
-<main class="main container {% if page.toc %}has-right-toc{% endif %}">
+<main class="main container layout-post {% if page.toc %}has-right-toc{% endif %}">
 
   <article class="article article--post content typeset js-toc-content">
     <h1>{{ page.title }}</h1>

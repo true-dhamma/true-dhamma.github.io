@@ -1,7 +1,3 @@
----
-title: Bibliography
----
-
 参考书目
 
 # 参考书目

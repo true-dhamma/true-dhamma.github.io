@@ -1,6 +1,4 @@
----
-title: Abbreviations
----
+缩写
 
 # 缩写
 

@@ -38,29 +38,38 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const DESKTOP_BREAKPOINT = 1024; // Common breakpoint for showing right TOC
+  const mainContainer = document.querySelector('.main.container');
   const middleTocContainer = document.getElementById('toc-middle-container');
   const rightTocContainer = document.getElementById('toc-right-container'); 
   const contentArea = document.querySelector('.js-toc-content');
 
-  if (!contentArea || !middleTocContainer) { return; }
+  if (!contentArea || !middleTocContainer || !mainContainer) { return; }
 
-  const isPostLayout = {{ page.collection == 'posts' | jsonify }};
+  // --- NEW: Context-aware logic ---
+  const isDocLayout = mainContainer.classList.contains('layout-doc');
+  const isPostLayout = mainContainer.classList.contains('layout-post');
+  
+  // Set breakpoint based on layout type
+  const DESKTOP_BREAKPOINT = isDocLayout ? 1200 : 1024;
+  
+  // This logic remains dependent on front matter, which is acceptable
   const pageHasAside = {{ page.aside | default: false }};
   const forceMiddleToc = isPostLayout && pageHasAside;
 
   // Logic to move middle TOC after a blockquote (for posts)
-  const pageTitle = contentArea.querySelector('h1');
-  if (isPostLayout && pageTitle) {
-    let nextEl = pageTitle.nextElementSibling;
-    if (nextEl && nextEl.classList.contains('post-meta')) {
-      nextEl = nextEl.nextElementSibling;
-    }
-    if (nextEl && nextEl.id === 'toc-middle-container') {
-      nextEl = nextEl.nextElementSibling;
-    }
-    if (nextEl && nextEl.tagName === 'BLOCKQUOTE') {
-      nextEl.parentNode.insertBefore(middleTocContainer, nextEl.nextSibling);
+  if (isPostLayout) {
+    const pageTitle = contentArea.querySelector('h1');
+    if (pageTitle) {
+      let nextEl = pageTitle.nextElementSibling;
+      if (nextEl && nextEl.classList.contains('post-meta')) {
+        nextEl = nextEl.nextElementSibling;
+      }
+      if (nextEl && nextEl.id === 'toc-middle-container') {
+        nextEl = nextEl.nextElementSibling;
+      }
+      if (nextEl && nextEl.tagName === 'BLOCKQUOTE') {
+        nextEl.parentNode.insertBefore(middleTocContainer, nextEl.nextSibling);
+      }
     }
   }
 
@@ -77,14 +86,15 @@ document.addEventListener('DOMContentLoaded', function() {
     tocbot.destroy();
     const headingSelector = determineHeadingSelector();
     
-    // JS-based check: if no headings are found, hide everything and stop.
     if (!headingSelector) {
       middleTocContainer.style.display = 'none';
       if (rightTocContainer) rightTocContainer.parentElement.style.display = 'none';
       return;
     }
     
+    // The condition now uses the dynamic DESKTOP_BREAKPOINT
     const showMiddleToc = (window.innerWidth < DESKTOP_BREAKPOINT) || forceMiddleToc;
+    
     const tocbotOptions = {
       contentSelector: '.js-toc-content',
       headingSelector: headingSelector,
