@@ -40,10 +40,9 @@
 document.addEventListener('DOMContentLoaded', function() {
   const mainContainer = document.querySelector('.main.container');
   const middleTocContainer = document.getElementById('toc-middle-container');
-  const rightTocWrapper = document.querySelector('.content-toc-right-wrapper'); // MODIFIED: Select the wrapper
+  const rightTocWrapper = document.querySelector('.content-toc-right-wrapper');
   const contentArea = document.querySelector('.js-toc-content');
 
-  // MODIFIED: Simplified the initial check
   if (!contentArea || (!middleTocContainer && !rightTocWrapper)) { return; }
 
   const isDocLayout = mainContainer.classList.contains('layout-doc');
@@ -73,36 +72,32 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function determineHeadingSelector() {
     if (contentArea.querySelector('h2')) return 'h2, h3, h4';
-    if (contentArea.querySelector('h3')) return 'h3, h4, 5';
+    if (contentArea.querySelector('h3')) return 'h3, h4, h5';
     if (contentArea.querySelector('h4')) return 'h4, h5, h6';
     return null;
   }
 
-  // ▼▼▼ NEW: Function to check and hide empty TOC ▼▼▼
+  // ▼▼▼ MODIFIED FUNCTION ▼▼▼
   function checkAndHideEmptyToc(tocContainer) {
-    // tocContainer is the element like 'toc-middle-container' or 'content-toc-right-wrapper'
     if (!tocContainer) return;
-    
-    // Find the generated list inside the container
     const tocList = tocContainer.querySelector('.toc-list');
     
-    // If the list exists but has no list items, it's empty.
-    if (tocList && tocList.children.length === 0) {
+    // NEW LOGIC: Hide if the list element doesn't exist OR if it exists but is empty.
+    if (!tocList || tocList.children.length === 0) {
       tocContainer.style.display = 'none';
     }
   }
-  // ▲▲▲ NEW ▲▲▲
+  // ▲▲▲ MODIFIED FUNCTION ▲▲▲
 
   function setupTocbot() {
     tocbot.destroy();
     const headingSelector = determineHeadingSelector();
 
-    // Ensure containers are hidden by default before checking
     if (middleTocContainer) middleTocContainer.style.display = 'none';
     if (rightTocWrapper) rightTocWrapper.style.display = 'none';
 
     if (!headingSelector) {
-      return; // No headings found, do nothing. Containers are already hidden.
+      return;
     }
 
     const showMiddleToc = (window.innerWidth < DESKTOP_BREAKPOINT) || forceMiddleToc;
@@ -113,7 +108,6 @@ document.addEventListener('DOMContentLoaded', function() {
       hasInnerContainers: true,
       scrollSmooth: true,
       ignoreSelector: '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6',
-      // ▼▼▼ NEW: Add the onSuccess callback ▼▼▼
       onSuccess: function() {
         if (showMiddleToc) {
           checkAndHideEmptyToc(middleTocContainer);
@@ -121,16 +115,15 @@ document.addEventListener('DOMContentLoaded', function() {
           checkAndHideEmptyToc(rightTocWrapper);
         }
       }
-      // ▲▲▲ NEW ▲▲▲
     };
 
     if (showMiddleToc) {
       if (middleTocContainer) {
-        middleTocContainer.style.display = 'block'; // Show it first
+        middleTocContainer.style.display = 'block';
         tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-middle', scrollSmoothOffset: -20, headingsOffset: 20 });
       }
     } else if (rightTocWrapper) {
-      rightTocWrapper.style.display = 'block'; // Show it first
+      rightTocWrapper.style.display = 'block';
       tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-right', scrollSmoothOffset: -80, headingsOffset: 80 });
     }
   }
