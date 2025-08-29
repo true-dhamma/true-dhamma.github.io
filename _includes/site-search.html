@@ -28,7 +28,7 @@
     .then(data => pages.push(...data))
     .catch(err => console.error('Error fetching search.json:', err));
 
-  // --- 新增: Debounce (防抖) 函数 ---
+  // --- Debounce (防抖) 函数 ---
   // 作用: 延迟执行一个函数，直到用户停止操作一段时间后。
   function debounce(func, wait) {
     let timeout;
@@ -39,59 +39,59 @@
     };
   }
 
-  // 查找匹配项的函数 (保持不变)
+  // 查找匹配项的函数
   function findResults(termToMatch, pages) {
-    // 忽略空的搜索词
     if (!termToMatch.trim()) {
         return [];
     }
     return pages.filter(item => {
       const regex = new RegExp(termToMatch, 'gi');
-      // 确保 item.title 和 item.content 存在
       const titleMatch = item.title && item.title.match(regex);
       const contentMatch = item.content && item.content.match(regex);
       return titleMatch || contentMatch;
     });
   }
 
-  // 显示结果的函数 (已集成上下文摘要和高亮功能)
+  // --- 显示结果的函数 (最终修正版) ---
+  // 解决了长摘要不会被裁剪的问题
   function displayResults() {
     const searchTerm = this.value;
     const resultsArray = findResults(searchTerm, pages);
     
     if (resultsArray.length > 0) {
       const html = resultsArray.map(item => {
-        let snippet = '';
         const regex = new RegExp(searchTerm, 'gi');
+        let finalSnippet = '';
+        
+        // 步骤1: 统一内容来源。优先使用 excerpt，如果没有则使用 content。
+        const rawContent = (item.excerpt && item.excerpt.length > 0) ? item.excerpt : item.content;
 
-        // 优先使用文章自带的摘要
-        if (item.excerpt && item.excerpt.length > 0) {
-          snippet = item.excerpt;
-        } 
-        // 如果没有摘要，则在正文中创建片段
-        else if (item.content) {
-          const match = item.content.match(regex);
-          
+        // 步骤2: 对 rawContent 进行统一的裁剪和片段生成处理。
+        if (rawContent) {
+          // 使用 regex.exec() 来获取第一个匹配项及其位置，这比 match() 更健壮。
+          const match = regex.exec(rawContent);
+
           if (match) {
-            const keywordIndex = item.content.indexOf(match[0]);
-            const snippetRadius = 50;
+            // 如果找到了关键字，生成上下文片段
+            const keywordIndex = match.index;
+            const snippetRadius = 50; // 片段半径
 
             const startIndex = Math.max(0, keywordIndex - snippetRadius);
-            const endIndex = Math.min(item.content.length, keywordIndex + match[0].length + snippetRadius);
+            const endIndex = Math.min(rawContent.length, keywordIndex + match[0].length + snippetRadius);
             
-            snippet = item.content.substring(startIndex, endIndex);
+            finalSnippet = rawContent.substring(startIndex, endIndex);
 
-            if (startIndex > 0) snippet = '...' + snippet;
-            if (endIndex < item.content.length) snippet = snippet + '...';
+            if (startIndex > 0) finalSnippet = '...' + finalSnippet;
+            if (endIndex < rawContent.length) finalSnippet = finalSnippet + '...';
+
           } else {
-            // 匹配发生在标题中，但正文中没有。此时截取正文前100个字符。
-            snippet = item.content.substring(0, 100) + '...';
+            // 如果内容中没有关键字（可能只在标题中匹配），则从头截取100个字符
+            finalSnippet = rawContent.substring(0, 100) + '...';
           }
         }
 
-        // 使用 <mark> 标签高亮摘要或片段中的所有关键字
-        const highlightedSnippet = snippet.replace(regex, `<mark>$&</mark>`);
-        // 同时高亮标题中的关键字
+        // 步骤3: 对最终生成的片段和标题进行高亮处理
+        const highlightedSnippet = finalSnippet.replace(regex, `<mark>$&</mark>`);
         const highlightedTitle = item.title.replace(regex, `<mark>$&</mark>`);
 
         return `
@@ -103,6 +103,7 @@
           </li>`;
       }).join('');
       resultsList.innerHTML = html;
+
     } else if (searchTerm.length > 0) {
       resultsList.innerHTML = `<p>抱歉，没有找到相关内容。</p>`;
     } else {
@@ -113,11 +114,11 @@
   const field = document.querySelector('#search');
   const resultsList = document.querySelector('#list');
 
-  // --- 关键改动: 使用 debounce 函数包裹 displayResults ---
+  // --- 关键: 使用 debounce 函数包裹 displayResults ---
   // 用户停止输入 500ms 后再执行搜索
   field.addEventListener('keyup', debounce(displayResults, 500));
 
-  // 阻止在搜索框中按 Enter 键时提交表单 (保持不变)
+  // 阻止在搜索框中按 Enter 键时提交表单
   field.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
       event.preventDefault();

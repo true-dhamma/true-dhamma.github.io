@@ -2,31 +2,50 @@
 layout: 
 sitemap: false
 ---
-
 {% capture json %}
 [
   {% assign collections = site.collections | where_exp:'collection','collection.output != false' %}
   {% for collection in collections %}
     {% assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' %}
     {% for doc in docs %}
+      {% comment %} --- 步骤1: 确定用于生成摘要的源内容 --- {% endcomment %}
+      {% if doc.excerpt and doc.excerpt != empty %}
+        {% assign source_for_excerpt = doc.excerpt %}
+      {% else %}
+        {% assign source_for_excerpt = doc.content %}
+      {% endif %}
+      
+      {% comment %} --- 步骤2: 对源内容进行统一处理和裁剪 --- {% endcomment %}
+      {% assign final_excerpt = source_for_excerpt | markdownify | strip_html | truncate: 160 %}
+
       {
         "title": {{ doc.title | jsonify }},
-        "excerpt": {{ doc.excerpt | markdownify | strip_html | jsonify }},
+        "excerpt": {{ final_excerpt | jsonify }},
         "content": {{ doc.content | markdownify | strip_html | jsonify }},
         "url": {{ site.baseurl | append: doc.url | jsonify }}
       },
     {% endfor %}
   {% endfor %}
+
   {% assign pages = site.html_pages | where_exp:'doc','doc.sitemap != false' | where_exp:'doc','doc.title != null' %}
   {% for page in pages %}
-  {
-    "title": {{ page.title | jsonify }},
-    "excerpt": {{ page.excerpt | markdownify | strip_html | jsonify }},
-    "content": {{ page.content | markdownify | strip_html | jsonify }},
-    "url": {{ site.baseurl | append: page.url | jsonify }}
-  }{% unless forloop.last %},{% endunless %}
+    {% comment %} --- 步骤1: 确定用于生成摘要的源内容 (for pages) --- {% endcomment %}
+    {% if page.excerpt and page.excerpt != empty %}
+      {% assign source_for_excerpt = page.excerpt %}
+    {% else %}
+      {% assign source_for_excerpt = page.content %}
+    {% endif %}
+
+    {% comment %} --- 步骤2: 对源内容进行统一处理和裁剪 (for pages) --- {% endcomment %}
+    {% assign final_excerpt = source_for_excerpt | markdownify | strip_html | truncate: 160 %}
+
+    {
+      "title": {{ page.title | jsonify }},
+      "excerpt": {{ final_excerpt | jsonify }},
+      "content": {{ page.content | markdownify | strip_html | jsonify }},
+      "url": {{ site.baseurl | append: page.url | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
 {% endcapture %}
-
 {{ json | lstrip }}
