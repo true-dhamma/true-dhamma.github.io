@@ -52,19 +52,14 @@ document.addEventListener('DOMContentLoaded', function() {
   const pageHasAside = {{ page.aside | default: false }};
   const forceMiddleToc = isPostLayout && pageHasAside;
 
+  // ... (unchanged logic for post layout) ...
   if (isPostLayout && middleTocContainer) {
     const pageTitle = contentArea.querySelector('h1');
     if (pageTitle) {
       let nextEl = pageTitle.nextElementSibling;
-      if (nextEl && nextEl.classList.contains('post-meta')) {
-        nextEl = nextEl.nextElementSibling;
-      }
-      if (nextEl && nextEl.id === 'toc-middle-container') {
-        nextEl = nextEl.nextElementSibling;
-      }
-      if (nextEl && nextEl.tagName === 'BLOCKQUOTE') {
-        nextEl.parentNode.insertBefore(middleTocContainer, nextEl.nextSibling);
-      }
+      if (nextEl && nextEl.classList.contains('post-meta')) { nextEl = nextEl.nextElementSibling; }
+      if (nextEl && nextEl.id === 'toc-middle-container') { nextEl = nextEl.nextElementSibling; }
+      if (nextEl && nextEl.tagName === 'BLOCKQUOTE') { nextEl.parentNode.insertBefore(middleTocContainer, nextEl.nextSibling); }
     }
   }
 
@@ -77,13 +72,39 @@ document.addEventListener('DOMContentLoaded', function() {
     return null;
   }
 
-  function checkAndHideEmptyToc(tocContainer) {
-    if (!tocContainer) return;
-    const tocList = tocContainer.querySelector('.toc-list');
-    if (tocList && tocList.children.length === 0) {
-      tocContainer.style.display = 'none';
-    }
+  // ▼▼▼ NEW: MutationObserver Logic ▼▼▼
+  function observeTocContainer(targetNode, containerToHide) {
+    console.log('// DEBUG: Creating observer for target:', targetNode, 'Container to hide is:', containerToHide);
+
+    const observer = new MutationObserver((mutationsList, obs) => {
+      console.log('// DEBUG: Mutation detected!');
+      for (const mutation of mutationsList) {
+        if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+          console.log('// DEBUG: Nodes have been added.');
+          const tocList = containerToHide.querySelector('.toc-list');
+          
+          if (tocList) {
+            console.log('// DEBUG: Found .toc-list. Checking its children count: ' + tocList.children.length);
+            if (tocList.children.length === 0) {
+              console.log('// DEBUG: SUCCESS! TOC is empty. Hiding container.', containerToHide);
+              containerToHide.style.display = 'none';
+            } else {
+              console.log('// DEBUG: TOC is NOT empty. Doing nothing.');
+            }
+            // Once we've checked, we disconnect the observer.
+            console.log('// DEBUG: Disconnecting observer.');
+            obs.disconnect(); 
+            return; // Exit after handling the first valid mutation
+          }
+        }
+      }
+    });
+
+    // Start observing the target node for added child nodes
+    observer.observe(targetNode, { childList: true });
+    console.log('// DEBUG: Observer is now watching.');
   }
+  // ▲▲▲ NEW ▲▲▲
 
   function setupTocbot() {
     tocbot.destroy();
@@ -93,6 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (rightTocWrapper) rightTocWrapper.style.display = 'none';
 
     if (!headingSelector) {
+      console.log('// DEBUG: No heading selectors found. TOC will not be initialized.');
       return;
     }
 
@@ -103,30 +125,27 @@ document.addEventListener('DOMContentLoaded', function() {
       headingSelector: headingSelector,
       hasInnerContainers: true,
       scrollSmooth: true,
-      ignoreSelector: '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6',
-      // ▼▼▼ KEY CHANGE HERE ▼▼▼
-      onSuccess: function() {
-        // Use setTimeout to delay the check slightly.
-        // This gives Tocbot time to update the DOM with the (empty) <ul>.
-        setTimeout(function() {
-          if (showMiddleToc) {
-            checkAndHideEmptyToc(middleTocContainer);
-          } else if (rightTocWrapper) {
-            checkAndHideEmptyToc(rightTocWrapper);
-          }
-        }, 10); // 10 milliseconds is enough
-      }
-      // ▲▲▲ KEY CHANGE HERE ▲▲▲
+      ignoreSelector: '.toc-title, table h1, table h2, table h3, table h4, table h5, table h6, blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5, blockquote h6'
     };
 
     if (showMiddleToc) {
       if (middleTocContainer) {
-        middleTocContainer.style.display = 'block';
-        tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-middle', scrollSmoothOffset: -20, headingsOffset: 20 });
+        const tocTarget = middleTocContainer.querySelector('.js-toc-middle');
+        if (tocTarget) {
+          middleTocContainer.style.display = 'block';
+          // Set up the observer BEFORE initializing tocbot
+          observeTocContainer(tocTarget, middleTocContainer); 
+          tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-middle', scrollSmoothOffset: -20, headingsOffset: 20 });
+        }
       }
     } else if (rightTocWrapper) {
-      rightTocWrapper.style.display = 'block';
-      tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-right', scrollSmoothOffset: -80, headingsOffset: 80 });
+      const tocTarget = rightTocWrapper.querySelector('.js-toc-right');
+      if (tocTarget) {
+        rightTocWrapper.style.display = 'block';
+        // Set up the observer BEFORE initializing tocbot
+        observeTocContainer(tocTarget, rightTocWrapper);
+        tocbot.init({ ...tocbotOptions, tocSelector: '.js-toc-right', scrollSmoothOffset: -80, headingsOffset: 80 });
+      }
     }
   }
 
