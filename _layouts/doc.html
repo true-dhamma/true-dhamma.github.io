@@ -64,7 +64,7 @@ layout: default
       position: sticky; 
       top: 2rem; 
       max-height: calc(100vh - 4rem);
-      overflow-y: auto; /* <<< FIX: Added to enable scrolling for right TOC */
+      overflow-y: auto;
     }
   }
   @media screen and (min-width: 1800px) {
@@ -92,15 +92,22 @@ layout: default
   .doc-nav-list .doc-nav-list { padding-left: 0.6em; max-height: 0; overflow: hidden; transition: max-height 0.3s ease-in-out; }
   .doc-nav-item.is-expanded > .doc-nav-list { max-height: 2000px; }
 
-  /* ===== MODIFICATION START ===== */
-  /* Using Flexbox to stabilize icon and expand click area */
+  /* ===== MODIFICATION START (FIXED) ===== */
+  /* Using Flexbox to create a stable title row */
   .doc-nav-item {
     display: flex;
-    align-items: stretch; /* Make link and toggle equal height */
+    flex-wrap: wrap; /* CRITICAL: Allows the sub-menu UL to wrap to a new line */
   }
+
+  /* NEW RULE: Forces the sub-menu (UL) to take up 100% width, pushing it to a new line */
+  .doc-nav-item > .doc-nav-list {
+    flex-basis: 100%;
+  }
+
+  /* The link takes up the remaining space */
   .doc-nav-link {
-    flex-grow: 1; /* Allow link to take up available space */
-    min-width: 0; /* Prevent long text from breaking layout */
+    flex-grow: 1; 
+    min-width: 0; /* Prevents long text from breaking layout */
     display: block;
     font-size: 0.9em;
     color: #495057;
@@ -109,10 +116,13 @@ layout: default
     border-left: 3px solid transparent;
     transition: all 0.2s ease;
   }
+  
+  /* The toggle has a fixed 1/4 width, creating a large, stable click area */
   .doc-nav-toggle {
-    flex-shrink: 0; /* Prevent the toggle area from shrinking */
-    width: 25%; /* Use 1/4 of the row for the click area */
-    height: auto; /* Let flexbox control the height */
+    flex-shrink: 0; /* Prevent the toggle from shrinking */
+    width: 25%;
+    max-width: 60px; /* Added a max-width for very wide sidebars */
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,7 +181,7 @@ layout: default
   {% endif %}
 </main>
 
-<script>/* DocNavController script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e={SCROLL_STORAGE_KEY:"docNavScrollPos",EXPAND_STORAGE_KEY:"docNavExpandedItems",body:document.body,fab:document.querySelector(".doc-nav-fab"),overlay:document.querySelector(".doc-nav-overlay"),navContainer:document.querySelector(".doc-nav-container"),closeButton:document.querySelector(".doc-nav-close"),scrollArea:document.querySelector(".doc-nav-scroll-area"),init:function(){this.navContainer&&(this.setupMobileHeight(),this.applyStoredState(),this.bindEvents())},applyStoredState:function(){const e=JSON.parse(sessionStorage.getItem(this.EXPAND_STORAGE_KEY));e?document.querySelectorAll(".doc-nav-item[data-url]").forEach(t=>{e.includes(t.dataset.url)&&t.classList.add("is-expanded")}):document.querySelectorAll(".doc-nav-item--l1[data-url]").forEach(e=>{e.classList.add("is-expanded")});const t=sessionStorage.getItem(this.SCROLL_STORAGE_KEY);t&&this.scrollArea&&(this.scrollArea.scrollTop=parseInt(t,10))},saveState:function(){if(!this.scrollArea)return;sessionStorage.setItem(this.SCROLL_STORAGE_KEY,this.scrollArea.scrollTop);const e=[];document.querySelectorAll(".doc-nav-item.is-expanded[data-url]").forEach(t=>{e.push(t.dataset.url)}),sessionStorage.setItem(this.EXPAND_STORAGE_KEY,JSON.stringify(e))},bindEvents:function(){this.fab&&this.fab.addEventListener("click",this.openNav.bind(this)),this.overlay&&this.overlay.addEventListener("click",this.closeNav.bind(this)),this.closeButton&&this.closeButton.addEventListener("click",this.closeNav.bind(this)),this.navContainer.addEventListener("click",e=>{e.target.classList.contains("doc-nav-toggle")&&(e.target.parentElement.classList.toggle("is-expanded"),this.saveState()),e.target.classList.contains("doc-nav-link")&&this.saveState()}),window.addEventListener("resize",this.debounce(this.setupMobileHeight.bind(this),150))},openNav:function(){this.body.classList.add("doc-nav-open")},closeNav:function(){this.body.classList.remove("doc-nav-open")},setupMobileHeight:function(){const e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh",`${e}px`),document.documentElement.style.setProperty("--doc-nav-dynamic-height",`${window.innerHeight}px`)},debounce:function(e,t){let o;return function(...s){const n=()=>{clearTimeout(o),e.apply(this,s)};clearTimeout(o),o=setTimeout(n,t)}}};e.init()});</script>
+<script>/* DocNavController script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e={SCROLL_STORAGE_KEY:"docNavScrollPos",EXPAND_STORAGE_KEY:"docNavExpandedItems",body:document.body,fab:document.querySelector(".doc-nav-fab"),overlay:document.querySelector(".doc-nav-overlay"),navContainer:document.querySelector(".doc-nav-container"),closeButton:document.querySelector(".doc-nav-close"),scrollArea:document.querySelector(".doc-nav-scroll-area"),init:function(){this.navContainer&&(this.setupMobileHeight(),this.applyStoredState(),this.bindEvents())},applyStoredState:function(){const e=JSON.parse(sessionStorage.getItem(this.EXPAND_STORAGE_KEY));e?document.querySelectorAll(".doc-nav-item[data-url]").forEach(t=>{e.includes(t.dataset.url)&&t.classList.add("is-expanded")}):document.querySelectorAll(".doc-nav-item--l1[data-url]").forEach(e=>{e.classList.add("is-expanded")});const t=sessionStorage.getItem(this.SCROLL_STORAGE_KEY);t&&this.scrollArea&&(this.scrollArea.scrollTop=parseInt(t,10))},saveState:function(){if(!this.scrollArea)return;sessionStorage.setItem(this.SCROLL_STORAGE_KEY,this.scrollArea.scrollTop);const e=[];document.querySelectorAll(".doc-nav-item.is-expanded[data-url]").forEach(t=>{e.push(t.dataset.url)}),sessionStorage.setItem(this.EXPAND_STORAGE_KEY,JSON.stringify(e))},bindEvents:function(){this.fab&&this.fab.addEventListener("click",this.openNav.bind(this)),this.overlay&&this.overlay.addEventListener("click",this.closeNav.bind(this)),this.closeButton&&this.closeButton.addEventListener("click",this.closeNav.bind(this)),this.navContainer.addEventListener("click",e=>{const t=e.target.closest(".doc-nav-toggle");t&&(t.parentElement.classList.toggle("is-expanded"),this.saveState()),e.target.classList.contains("doc-nav-link")&&this.saveState()}),window.addEventListener("resize",this.debounce(this.setupMobileHeight.bind(this),150))},openNav:function(){this.body.classList.add("doc-nav-open")},closeNav:function(){this.body.classList.remove("doc-nav-open")},setupMobileHeight:function(){const e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh",`${e}px`),document.documentElement.style.setProperty("--doc-nav-dynamic-height",`${window.innerHeight}px`)},debounce:function(e,t){let o;return function(...s){const n=()=>{clearTimeout(o),e.apply(this,s)};clearTimeout(o),o=setTimeout(n,t)}}};e.init()});</script>
 <script>/* Image path script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e="{{ page.collection }}";if(!e)return;const t=`/uploads/${e}/`,o=document.querySelector(".article--doc");if(!o)return;o.querySelectorAll("img").forEach(e=>{const o=e.getAttribute("src");if(o&&o.startsWith("./")){const s=o.substring(2),n=t+s;e.setAttribute("src",n)}})});</script>
 
 {% include tts-reader.html %}
