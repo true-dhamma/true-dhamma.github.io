@@ -35,15 +35,11 @@ a {
 .typeset {
 
   // Underlines for text links. (已用传统下划线替换原有的动画效果)
-  p a, li a {
+  p a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
 
-    &:hover, &:active, &:focus {
-      // ★★★ 已移除悬停时下划线变粗的效果 ★★★
-      // text-decoration-thickness: 2px; 
-    }
   }
 
   // Paragraphs. OpenType ligatures and oldstyle figures enabled if available.
