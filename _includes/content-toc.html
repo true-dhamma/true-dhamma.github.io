@@ -45,36 +45,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (!contentArea || (!middleTocContainer && !rightTocWrapper)) { return; }
 
-  // ▼▼▼ KEY CHANGE: Restored and improved universal TOC placement logic ▼▼▼
+  // ▼▼▼ FINAL ROBUST Universal TOC Placement Logic ▼▼▼
   if (middleTocContainer) {
-    let insertionPoint = null;
-    // Find the first element in the content area that is NOT the TOC itself
-    let firstContentElement = contentArea.querySelector(':scope > *:not(#toc-middle-container)');
+    let lastHeaderElement = null;
+    const headerSelectors = 'h1, h2, h3, .post-meta, blockquote';
 
-    if (firstContentElement) {
-      let currentEl = firstContentElement;
-      while (currentEl) {
-        const tagName = currentEl.tagName;
-        const isHeaderTag = ['H1', 'H2', 'H3'].includes(tagName);
-        const isMetaClass = currentEl.classList.contains('post-meta');
-        
-        if (isHeaderTag || isMetaClass) {
-          insertionPoint = currentEl; // This is part of the header zone
-        } else if (tagName === 'BLOCKQUOTE') {
-          insertionPoint = currentEl; // A blockquote is the preferred insertion point
-          break; // Stop after the blockquote
-        } else {
-          break; // The header zone has ended
-        }
-        currentEl = currentEl.nextElementSibling;
+    // Iterate through the direct children of the content area to find the end of the header zone
+    for (const child of contentArea.children) {
+      // Skip the TOC element itself in this check
+      if (child.id === 'toc-middle-container') {
+        continue;
+      }
+      
+      // If the element is part of our defined "header zone"
+      if (child.matches(headerSelectors)) {
+        lastHeaderElement = child; // Mark it as the last known header element
+      } else {
+        // As soon as we find an element that is NOT a header element, the zone ends.
+        break;
       }
     }
 
-    if (insertionPoint) {
-      // Insert the TOC after the last identified element of the header zone
-      insertionPoint.parentNode.insertBefore(middleTocContainer, insertionPoint.nextSibling);
+    // Now, move the TOC container to the correct position
+    if (lastHeaderElement) {
+      // Insert the TOC after the last found header element
+      lastHeaderElement.parentNode.insertBefore(middleTocContainer, lastHeaderElement.nextSibling);
     } else {
-      // Fallback: If no suitable insertion point is found, place it at the top of the content area.
+      // Fallback: If no header elements were found at all, place TOC at the very top.
       contentArea.prepend(middleTocContainer);
     }
   }
