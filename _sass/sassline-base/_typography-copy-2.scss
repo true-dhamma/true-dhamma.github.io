@@ -34,40 +34,19 @@ a {
 // Styles for typeset text.
 .typeset {
 
-  // ★★★★★ 核心修改区域 ★★★★★
-  // Underlines for text links. (已用传统下划线替换原有的动画效果以实现全站样式统一)
+  // Nice underlines for text links.
   p a, li a {
-    /* 1. 添加传统下划线 */
-    text-decoration: underline;
-
-    /* 2. [可选] 添加一些样式让下划线更好看 */
-    text-decoration-thickness: 1px;   // 控制下划线粗细
-    text-underline-offset: 3px;       // 控制下划线与文字的距离
-    // text-decoration-color: rgba(0, 0, 0, 0.5); // 如果想让下划线颜色淡一些，可以取消此行注释
-
-    /* 
-       原来的 background-image 动画效果已被移除，以下是原代码，保留注释以备查阅
-       
-        background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$linkColour 50%);
-        background-position: 0 93%;
-        background-repeat: repeat-x;
-        background-size: 100% 0.15rem;
-        text-shadow: 0.1rem 0 $backgroundColour,
-                     0.15rem 0 $backgroundColour,
-                    -0.1rem 0 $backgroundColour,
-                    -0.15rem 0 $backgroundColour;
-    */
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$linkColour 50%);
+    background-position: 0 93%;
+    background-repeat: repeat-x;
+    background-size: 100% 0.15rem;
+    text-shadow: 0.1rem 0 $backgroundColour,
+                 0.15rem 0 $backgroundColour,
+                -0.1rem 0 $backgroundColour,
+                -0.15rem 0 $backgroundColour;
 
     &:hover, &:active, &:focus {
-      /* 3. [可选] 悬停时也可以改变下划线样式 */
-      text-decoration-thickness: 2px; // 比如悬停时变粗一点
-      // text-decoration-color: $hoverColour; // 如果想让下划线颜色随文字颜色变化，可以取消此行注释
-
-      /* 
-         移除悬停时的 background-image 变化
-         
-         background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$hoverColour 50%);
-      */
+      background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$hoverColour 50%);
     }
   }
 
