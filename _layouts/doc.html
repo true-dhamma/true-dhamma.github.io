@@ -41,31 +41,32 @@ layout: default
 
 {%- comment %}
   ============================================================================
-  PART 2: INLINE CSS
+  PART 2: INLINE CSS (Flexbox 4-Tier Responsive Layout)
   ============================================================================
 {%- endcomment %}
 <style>
+  /* ==========================================================================
+     通用基础样式 & 移动端样式
+     ========================================================================== */
+  
+  /* 默认隐藏桌面端侧边栏 */
   .doc-nav-container, .content-toc-right-wrapper { display: none; }
+  
+  /* 移动端导航悬浮按钮 (FAB) */
   .doc-nav-fab { position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; background-color: #2c3e50; color: white; border-radius: 50%; border: none; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; transition: transform 0.2s ease-in-out; }
   .doc-nav-fab:hover { transform: scale(1.05); }
   .doc-nav-mobile-menu { position: fixed; top: 0; left: 0; width: 80%; max-width: 320px; height: 100%; background-color: white; z-index: 1002; transform: translateX(-100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 20px rgba(0,0,0,0.2); overflow-y: auto; }
+  .doc-nav-mobile-menu.is-open { transform: translateX(0); }
   .doc-nav-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s; }
+  .doc-nav-overlay.is-visible { opacity: 1; visibility: visible; }
+  
+  /* 页内居中TOC容器 (默认隐藏，由JS控制) */
   .toc-middle-container { display: none; margin: 2em 0; padding: 1.2em 1.5em; border: 1px solid #e0e0e0; border-radius: 8px; background-color: #f8f9fa; }
 
-  @media screen and (min-width: 1200px) {
-    .doc-nav-fab, .doc-nav-mobile-menu, .doc-nav-overlay, #toc-middle-container { display: none !important; }
-    .main.container--doc { display: flex; gap: 2.5em; max-width: 1420px; margin: 0 auto; align-items: flex-start; }
-    .doc-nav-container { display: block; flex: 0 0 280px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); }
-    .article--doc { flex: 1 1 auto; min-width: 0; }
-    .main.container--doc.has-right-toc .content-toc-right-wrapper { display: block; flex: 0 0 260px; position: sticky; top: 2rem; max-height: calc(100vh - 4rem); overflow-y: auto; }
-  }
-  @media screen and (min-width: 1600px) {
-    .main.container--doc { max-width: 1600px; gap: 3em; }
-    .doc-nav-container { flex-basis: 320px; }
-  }
+  /* 侧边栏和TOC通用样式 */
+  .doc-nav-scroll-area { height: 100%; overflow-y: auto; background-color: #f1f3f5; border: 1px solid #e0e0e0; border-radius: 8px; padding: 1em; }
   .content-toc-right-wrapper { opacity: 0.5; transition: opacity 0.1s ease-in-out; }
   .content-toc-right-wrapper:hover { opacity: 1; }
-  .doc-nav-scroll-area { height: 100%; overflow-y: auto; background-color: #f1f3f5; border: 1px solid #e0e0e0; border-radius: 8px; padding: 1em; }
   .doc-nav-container ul { list-style: none; padding: 0; margin: 0; }
   .doc-nav-container a { display: block; padding: 0.4em 0.5em; text-decoration: none; color: #666666; font-weight: normal; }
   .doc-nav-container li.active > a { color: #000; font-weight: 600; }
@@ -73,16 +74,115 @@ layout: default
   .toc-title { margin: 0 0 1em; font-size: 1.1em; font-weight: 600; color: #333; }
   .toc-middle-container .toc-title { margin-top: 0; }
   
-  /* ★ 恢复: 以下是恢复和完善的TOC样式规则 */
   .toc-list { margin: 0; padding: 0; list-style: none; }
   .toc-list-item { margin-bottom: 5px; }
-  /* (恢复) 多级缩进规则 */
   .toc-list .toc-list { padding-left: 1.25em; } 
   .toc-link { display: block; padding: 4px 10px; border-left: 2px solid #EEE; color: #777; font-size: 0.875em; line-height: 1.5; transition: all 0.2s ease-in-out; text-decoration: none !important; }
-  /* (恢复) 悬停效果规则 */
   .toc-link:hover { color: #333; border-left-color: #AAA; }
   .is-active-link { color: #007bff; font-weight: 600; border-left-color: #007bff; background-color: #f0f7ff; }
+  
+  /* ==========================================================================
+     档位 1: 移动端 ( < 768px )
+     - 只有中间内容区域
+     - 左侧导航通过悬浮按钮 (FAB) 唤出
+     - TOC (如果存在) 在文章内部显示
+     - 这是默认样式，无需媒体查询
+     ========================================================================== */
+  
+  /* ==========================================================================
+     档位 2: 平板 & 小尺寸桌面 ( 768px - 1199px )
+     - 左侧导航栏 + 中间内容区
+     - 右侧TOC不显示, 依然在文章内部
+     ========================================================================== */
+  @media screen and (min-width: 768px) {
+    /* 隐藏移动端导航控件 */
+    .doc-nav-mobile-container { display: none; }
 
+    /* 主容器启用Flexbox */
+    .main.container--doc {
+      display: flex;
+      gap: 2em;
+      max-width: 960px; /* 为两栏布局设置一个合适的最大宽度 */
+      margin: 0 auto;
+      align-items: flex-start;
+    }
+    
+    /* 左侧导航栏 */
+    .doc-nav-container {
+      display: block;
+      flex: 0 0 260px; /* 不拉伸，不压缩，固定宽度260px */
+      position: sticky;
+      top: 2rem;
+      max-height: calc(100vh - 4rem);
+    }
+    
+    /* 中间文章区 */
+    .article--doc {
+      flex: 1 1 auto; /* 占据剩余所有空间 */
+      min-width: 0; /* 防止内容溢出 */
+    }
+  }
+
+  /* ==========================================================================
+     档位 3: 标准桌面 ( 1200px - 1799px )
+     - 经典三栏布局: 左导航 + 中内容 + 右TOC
+     - 内容区有最大宽度限制，保证可读性
+     - 三个部分整体居中
+     ========================================================================== */
+  @media screen and (min-width: 1200px) {
+    .main.container--doc {
+      max-width: 1440px;
+      gap: 2.5em;
+      justify-content: center; /* 让三栏整体在容器内居中 */
+    }
+
+    .doc-nav-container {
+      flex-basis: 280px; /* 左栏加宽一点 */
+    }
+
+    .article--doc {
+      flex-grow: 1; /* 允许它在需要时增长 */
+      flex-basis: auto;
+      max-width: 800px; /* 核心！限制内容最大宽度，提升阅读体验 */
+    }
+    
+    /* 右侧TOC栏出现 */
+    .main.container--doc.has-right-toc .content-toc-right-wrapper {
+      display: block;
+      flex: 0 0 260px; /* 不拉伸，不压缩，固定宽度260px */
+      position: sticky;
+      top: 2rem;
+      max-height: calc(100vh - 4rem);
+      overflow-y: auto;
+    }
+  }
+
+  /* ==========================================================================
+     档位 4: 超宽屏 ( >= 1800px )
+     - 三个部分的宽度不再增加
+     - 容器变宽，通过 `justify-content` 将多余空间分配为栏目间距
+     - 实现三栏距离被“推开”的效果
+     ========================================================================== */
+  @media screen and (min-width: 1800px) {
+    .main.container--doc {
+      max-width: 2200px; /* 容器可以变得更宽 */
+      width: 90%; /* 使用百分比让它适应不同大小的超宽屏 */
+      justify-content: space-between; /* 核心！将空白空间置于项目之间 */
+    }
+
+    /* 在超宽屏下，三栏的宽度由flex-basis固定，且不再增长 */
+    .doc-nav-container {
+      flex: 0 0 300px;
+    }
+
+    .article--doc {
+      flex: 0 0 800px; /* 固定为最佳阅读宽度，不再增长 */
+    }
+
+    .main.container--doc.has-right-toc .content-toc-right-wrapper {
+      flex: 0 0 280px;
+    }
+  }
 </style>
 
 {%- comment %}
@@ -182,7 +282,7 @@ layout: default
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.18/tocbot.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const DESKTOP_BREAKPOINT = 1200;
+  const DESKTOP_BREAKPOINT = 1200; // 这个断点与CSS档位3(1200px)完美匹配，无需修改
   const pageHasAside = {{ page.aside | default: false }};
   const middleTocContainer = document.getElementById('toc-middle-container');
   const rightTocContainer = document.getElementById('toc-right-container'); 
