@@ -68,30 +68,53 @@ document.addEventListener('DOMContentLoaded', () => {
   initializeReader();
 
   // --- [FINAL CORRECTED] UNIVERSAL FAB VISUAL VIEWPORT FIX ---
-  // This script keeps all elements with the class 'js-viewport-fixed-fab' fixed 
-  // to the visual viewport on touch devices during pinch-zoom, solving both
-  // positioning and scaling issues.
+  // This script keeps all elements with 'js-viewport-fixed-fab' fixed to the visual 
+  // viewport on touch devices, solving both positioning and scaling issues during pinch-zoom.
   (() => {
     if (window.visualViewport && window.matchMedia('(pointer: coarse)').matches) {
       const fixedFabs = document.querySelectorAll('.js-viewport-fixed-fab');
 
       if (fixedFabs.length > 0) {
+        // Store initial offset values and dimensions for each FAB
+        const fabData = Array.from(fixedFabs).map(fab => {
+          const style = getComputedStyle(fab);
+          return {
+            element: fab,
+            width: fab.offsetWidth,
+            height: fab.offsetHeight,
+            bottom: parseFloat(style.bottom),
+            left: parseFloat(style.left),
+            right: parseFloat(style.right)
+          };
+        });
+
         const applyFix = () => {
-          const { offsetLeft, offsetTop, scale } = window.visualViewport;
+          const { offsetLeft, offsetTop, width, height, scale } = window.visualViewport;
           const inverseScale = 1 / scale;
 
-          fixedFabs.forEach(fab => {
-            const origin = fab.dataset.transformOrigin || 'center';
-            fab.style.transformOrigin = origin;
+          fabData.forEach(data => {
+            const { element, bottom, left, right, width: elWidth, height: elHeight } = data;
             
-            // This is the key:
-            // 1. translate(x, y) moves the FAB from its off-screen fixed position
-            //    back into the user's visible area.
-            // 2. scale() counteracts the zoom to keep the FAB's size constant.
-            fab.style.transform = `
-              translate(${offsetLeft}px, ${offsetTop}px) 
-              scale(${inverseScale})
-            `;
+            // Set transform origin and inverse scale to keep size constant
+            element.style.transformOrigin = element.dataset.transformOrigin || 'center';
+            element.style.transform = `scale(${inverseScale})`;
+
+            // Switch to top/left positioning and calculate the correct position
+            // to keep the element pinned to the visual viewport's edges.
+            element.style.bottom = 'auto';
+            element.style.right = 'auto';
+
+            const newTop = offsetTop + height - elHeight - bottom;
+            let newLeft;
+
+            if (!isNaN(left)) { // Handle left-aligned elements
+              newLeft = offsetLeft + left;
+            } else if (!isNaN(right)) { // Handle right-aligned elements
+              newLeft = offsetLeft + width - elWidth - right;
+            }
+            
+            element.style.top = `${newTop}px`;
+            element.style.left = `${newLeft}px`;
           });
         };
 
