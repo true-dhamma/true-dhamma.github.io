@@ -9,7 +9,7 @@ layout: default
 </style>
 
 {% include site-header.html %}
-<div class="doc-nav-overlay"></div>
+<div class.doc-nav-overlay></div>
 <button class="doc-nav-fab" aria-label="Open documentation navigation">
   <!-- ... SVG ... -->
 </button>
@@ -18,41 +18,47 @@ layout: default
   <!-- ... main 标签内的所有内容保持不变 ... -->
 </main>
 
-<!-- JavaScripts section with Dual-Insurance implementation -->
+<!-- JavaScripts section with Double Insurance Logic -->
 <script>
-/***********************************************************************
- * --- MODIFICATION: Dual-Insurance Scroll Restoration ---
- *
- * The DocNavController object is now defined in the parent scope so that
- * both 'DOMContentLoaded' and 'load' event listeners can access it.
- ***********************************************************************/
-
+// Define the controller object in a scope accessible to multiple event listeners.
 const DocNavController = {
   SCROLL_STORAGE_KEY: 'docNavScrollPos',
   EXPAND_STORAGE_KEY: 'docNavExpandedItems',
-  body: document.body,
-  fab: document.querySelector('.doc-nav-fab'),
-  overlay: document.querySelector('.doc-nav-overlay'),
-  navContainer: document.querySelector('.doc-nav-container'),
-  closeButton: document.querySelector('.doc-nav-close'),
-  scrollArea: document.querySelector('.doc-nav-scroll-area'),
+  
+  // We will initialize these DOM elements later
+  body: null,
+  fab: null,
+  overlay: null,
+  navContainer: null,
+  closeButton: null,
+  scrollArea: null,
 
+  // The main init function now only assigns DOM elements
   init: function() {
-    if (!this.navContainer) return;
+    this.body = document.body;
+    this.fab = document.querySelector('.doc-nav-fab');
+    this.overlay = document.querySelector('.doc-nav-overlay');
+    this.navContainer = document.querySelector('.doc-nav-container');
+    this.closeButton = document.querySelector('.doc-nav-close');
+    this.scrollArea = document.querySelector('.doc-nav-scroll-area');
+
+    if (!this.navContainer) return false;
+    
+    // Initial setup that can run early
     this.setupMobileHeight();
-    // The first, optimistic attempt to apply state happens here.
-    this.applyStoredState(); 
     this.bindEvents();
+    return true;
   },
 
+  // This function is now standalone, so it can be called multiple times
   applyStoredState: function() {
-    // This function can now be safely called multiple times.
+    if (!this.scrollArea) return; // Guard clause
+
+    // Restore expanded/collapsed state (this is safe to run early)
     const expandedItems = JSON.parse(sessionStorage.getItem(this.EXPAND_STORAGE_KEY));
     if (expandedItems) {
       document.querySelectorAll('.doc-nav-item[data-url]').forEach(item => {
-        if (expandedItems.includes(item.dataset.url)) {
-          item.classList.add('is-expanded');
-        }
+        item.classList.toggle('is-expanded', expandedItems.includes(item.dataset.url));
       });
     } else {
       document.querySelectorAll('.doc-nav-item--l1[data-url]').forEach(item => {
@@ -60,8 +66,9 @@ const DocNavController = {
       });
     }
     
+    // Restore scroll position (this is the critical part)
     const scrollPos = sessionStorage.getItem(this.SCROLL_STORAGE_KEY);
-    if (scrollPos && this.scrollArea) {
+    if (scrollPos) {
       this.scrollArea.scrollTop = parseInt(scrollPos, 10);
     }
   },
@@ -113,35 +120,44 @@ const DocNavController = {
   debounce: function(func, delay) {
     let timeout;
     return function(...args) {
-      const later = () => {
-        clearTimeout(timeout);
-        func.apply(this, args);
-      };
+      const later = () => { clearTimeout(timeout); func.apply(this, args); };
       clearTimeout(timeout);
       timeout = setTimeout(later, delay);
     };
   }
 };
 
+
 /***********************************************************************
- * --- MODIFICATION: Implementing the Dual-Insurance Listeners ---
+ * --- DOUBLE INSURANCE IMPLEMENTATION ---
  ***********************************************************************/
 
-// 1. First Insurance: The fast, optimistic attempt.
-// We initialize the entire controller here, which includes the first
-// call to applyStoredState().
-document.addEventListener('DOMContentLoaded', () => {
-  DocNavController.init();
-});
+// Initialize the controller and bind events as soon as the DOM is ready.
+const isControllerInitialized = DocNavController.init();
 
-// 2. Second Insurance: The guaranteed, corrective attempt.
-// We only call applyStoredState() again. This will correct any errors
-// from the first attempt that occurred due to slow-loading resources.
-window.addEventListener('load', () => {
-  DocNavController.applyStoredState();
-});
+if (isControllerInitialized) {
+  // --- ATTEMPT 1: The Fast Attempt ---
+  // On DOMContentLoaded, we try to restore state immediately.
+  // Using setTimeout queues this task to run after the browser's current painting cycle,
+  // giving it a better chance of success on a fast connection.
+  document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      console.log('Attempt 1: Restoring state on DOMContentLoaded (quick attempt)');
+      DocNavController.applyStoredState();
+    }, 0);
+  });
 
+  // --- ATTEMPT 2: The Guaranteed Correction ---
+  // On 'load', we run the state restoration again. This happens after all
+  // assets like CSS and images are loaded, guaranteeing the layout is stable.
+  // This will correct any misplacement from the first attempt.
+  window.addEventListener('load', () => {
+    console.log('Attempt 2: Restoring state on load (guaranteed correction)');
+    DocNavController.applyStoredState();
+  });
+}
 </script>
+
 <script>/* Image path script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e="{{ page.collection }}";if(!e)return;const t=`/uploads/${e}/`,o=document.querySelector(".article--doc");if(!o)return;o.querySelectorAll("img").forEach(e=>{const o=e.getAttribute("src");if(o&&o.startsWith("./")){const s=o.substring(2),n=t+s;e.setAttribute("src",n)}})});</script>
 
 {% include tts-reader.html %}
