@@ -71,6 +71,40 @@
     </div>
     <!-- G-Translate 翻译浮动条控制逻辑 结束 -->
 
+<!-- ===================================================================== -->
+<!-- Darkmode.js Initialization Script -->
+<!-- ===================================================================== -->
+
+<!-- 1. Load the LOCAL JavaScript file we downloaded -->
+<script src="/assets/darkmode-js.min.js"></script>
+
+<!-- 2. Configure and activate the library -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  
+    const options = {
+      time: '0.5s',
+      mixColor: '#fff', 
+      backgroundColor: '#fff',
+      saveInCookies: true,
+      label: '🌓',
+      autoMatchOsTheme: true
+    };
+
+    const darkmode = new Darkmode(options);
+    darkmode.showWidget();
+
+    // Move the widget to our placeholder in the header
+    const widget = document.querySelector('.darkmode-widget');
+    const placeholder = document.getElementById('darkmode-placeholder');
+
+    if (widget && placeholder) {
+      placeholder.appendChild(widget);
+    }
+  });
+</script>
+
+
     {% include nav-footer.html %}
   </div>
 </footer>
