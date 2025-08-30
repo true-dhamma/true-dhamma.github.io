@@ -1,5 +1,6 @@
 ---
 title: Foreword By Khun Yongyuth
+toc: false
 ---
 
 # 佛法基金会主席前言
