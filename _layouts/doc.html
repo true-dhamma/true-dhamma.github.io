@@ -10,14 +10,7 @@ layout: default
 {%- assign page_title_from_data = "" -%}
 {%- for chapter in doc_chapters -%}{%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{% endif -%}{%- if chapter.subitems -%}{%- for subitem in chapter.subitems -%}{%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{% endif -%}{%- if subitem.subitems -%}{%- for subsubitem in subitem.subitems -%}{%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{% endif -%}{%- if subsubitem.subitems -%}{%- for subsubsubitem in subsubitem.subitems -%}{%- if subsubsubitem.url == page.url -%}{%- assign page_title_from_data = subsubsubitem.title -%}{% break %}{% endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}
 {%- assign page_title_to_display = page_title_from_data | default: page.title | default: "Untitled" -%}
-{%- assign content_has_headings = false -%}
-{%- if content contains "<h2" or content contains "<h3" or content contains "<h4" -%}
-  {%- assign content_has_headings = true -%}
-{%- endif -%}
-{%- assign show_toc = false -%}
-{%- if page.toc and content_has_headings -%}
-  {%- assign show_toc = true -%}
-{%- endif -%}
+
 {%- capture nav_list_html %}
 <ul class="doc-nav-list doc-nav-list--l1">
   {%- for item_l1 in doc_chapters %}
@@ -83,51 +76,37 @@ layout: default
 {%- endcapture %}
 
 <style>
+  /***********************************************************************
+   * --- MODIFICATION: CSS has been greatly simplified ---
+   * All rules related to `.placeholder-toc` have been removed.
+   * The layout is now simpler and more robust.
+   ***********************************************************************/
+
   /* --- Base Doc Layout (unchanged) --- */
-  @media screen and (min-width: 768px) { .main.container--doc { display: flex; gap: 2em; max-width: 960px; margin: 0 auto; align-items: flex-start; } .article--doc { flex: 1 1 auto; min-width: 0; } }
+  @media screen and (min-width: 768px) {
+    .main.container--doc { display: flex; gap: 2em; max-width: 960px; margin: 0 auto; align-items: flex-start; }
+    .article--doc { flex: 1 1 auto; min-width: 0; }
+  }
   
   @media screen and (min-width: 1200px) {
     .main.container--doc { max-width: 1440px; gap: 2.5em; justify-content: center; }
     .article--doc { flex-grow: 1; flex-basis: auto; max-width: 800px; }
-    .main.container--doc .content-toc-right-wrapper { 
+    /* This rule now applies to the right aside, which is always present in the HTML if page.toc=true */
+    /* The JS from content-toc.html will control its `display` property */
+    .content-toc-right-wrapper { 
       flex: 0 0 260px; 
       position: sticky; 
       top: 2rem; 
       max-height: calc(100vh - 4rem);
       overflow-y: auto;
     }
-
-    /***********************************************************************
-     * --- MODIFICATION STARTS HERE ---
-     *
-     * 我们在这里为占位符添加规则，让它在 1200px 断点就生效，
-     * 并且宽度与真实的TOC (260px) 保持一致。
-     * 这样无论页面有无目录，在大于1200px的屏幕上都会保持稳定的三栏结构。
-     *
-     ***********************************************************************/
-    .main.container--doc:not(.has-right-toc) .placeholder-toc {
-      display: block;
-      flex: 0 0 260px;
-    }
-    /***********************************************************************
-     * --- MODIFICATION ENDS HERE ---
-     ***********************************************************************/
-  }
-
-  /* 默认隐藏占位符。这条规则现在主要服务于小于1200px的屏幕。*/
-  .placeholder-toc { 
-    display: none; 
   }
 
   @media screen and (min-width: 1800px) {
     .main.container--doc { max-width: 2200px; width: 90%; justify-content: space-between; }
     .article--doc { flex: 0 0 800px; }
-    .main.container--doc .content-toc-right-wrapper { flex: 0 0 280px; }
-    
-    /* 这条规则依然需要，因为它将占位符的宽度从260px调整为280px，与超宽屏下的真实TOC宽度保持一致 */
-    .main.container--doc:not(.has-right-toc) .placeholder-toc {
-      flex: 0 0 280px;
-    }
+    /* We just need to adjust the width for the ultra-wide screen */
+    .content-toc-right-wrapper { flex: 0 0 280px; }
   }
   
   /* --- Doc Navigation System Styles (unchanged) --- */
@@ -143,7 +122,8 @@ layout: default
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
 </button>
 
-<main class="main container container--doc layout-doc {% if show_toc %}has-right-toc{% endif %}">
+<!-- MODIFICATION: Removed complex class logic from main tag -->
+<main class="main container container--doc layout-doc">
   <aside class="doc-nav-container">
     <div class="doc-nav-header">
       <h3 class="doc-nav-title">{{ doc_title }}</h3>
@@ -155,28 +135,31 @@ layout: default
       {{ nav_list_html }}
     </div>
   </aside>
+
   <article id="doc-content" class="article article--doc content typeset js-toc-content">
-    {% if show_toc %}
+    {%- if page.toc -%}
+    <!-- MODIFICATION: Middle TOC container is now always generated if page.toc is true -->
     <div id="toc-middle-container" class="toc-middle-container">
       <h3 class="toc-title">Index</h3>
       <div class="js-toc-middle"></div>
     </div>
-    {% endif %}
+    {%- endif -%}
     {{ content }}
   </article>
-  {% if show_toc %}
+
+  {%- if page.toc -%}
+  <!-- MODIFICATION: Right TOC wrapper is now always generated if page.toc is true -->
+  <!-- The placeholder logic is completely gone. -->
   <aside class="content-toc-right-wrapper">
     <div id="toc-right-container">
       <h3 class="toc-title">Index</h3>
       <div class="js-toc-right"></div>
     </div>
   </aside>
-  {% else %}
-  <aside class="placeholder-toc" aria-hidden="true"></aside>
-  {% endif %}
+  {%- endif -%}
 </main>
 
-<!-- JavaScripts section with Dual-Insurance scroll restoration (unchanged) -->
+<!-- JavaScripts section is unchanged -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   let isScrollPositionRestored = false;
