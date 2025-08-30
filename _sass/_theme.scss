@@ -41,7 +41,7 @@ body.darkmode--activated {
 }
 
 /* -----------------------------------------
-// Dark Mode Widget Styling
+// Dark Mode Widget Styling (REVISED & STRENGTHENED)
 ----------------------------------------- */
 
 #darkmode-placeholder {
@@ -51,26 +51,28 @@ body.darkmode--activated {
 }
 
 div.darkmode-widget {
-  // CRITICAL: Override the library's fixed positioning
+  // CRITICAL: Force override the library's fixed positioning
   position: static !important; 
   display: inline-flex;
   vertical-align: middle;
   margin-left: .4rem;
-
-  .darkmode-layer { display: none; }
   
-  // Style the button per your request
+  // NEW & CRITICAL: Force hide the color-inverting layer
+  // This disables the "simple color inversion" and allows our CSS variables to work.
+  .darkmode-layer {
+    display: none !important;
+  }
+  
   .darkmode-toggle {
     background: transparent !important;
     border: 1px solid transparent;
-    width: 40px;  // Button container width
-    height: 40px; // Button container height
+    width: 40px;
+    height: 40px;
     padding: 0;
-    border-radius: 6px; // Slightly rounded corners for the square 方形
-    font-size: 22px; // Controls the Emoji icon size
+    border-radius: 6px;
+    font-size: 22px;
     transition: background-color 0.2s ease;
     cursor: pointer;
-    // Use flexbox to perfectly center the icon
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,9 +83,10 @@ div.darkmode-widget {
   }
 }
 
-// ============================================================================
+// =============================================================================
 // 2. YOUR THEME, MODIFIED TO USE CSS VARIABLES FOR DYNAMIC COLORS
-// ============================================================================
+// (This part remains the same as the previous version)
+// =============================================================================
 
 // Structural elements
 body {
@@ -120,7 +123,7 @@ body {
 
 .header .nav {
   display: flex;
-  flex-direction: row; // Changed for better alignment with placeholder
+  flex-direction: row;
   align-items: center;
   justify-content: flex-end;
   overflow: hidden;
