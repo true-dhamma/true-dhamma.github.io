@@ -91,10 +91,26 @@ layout: default
       overflow-y: auto;
     }
   }
+
+  /* --- MODIFICATION STARTS HERE --- */
+  .placeholder-toc {
+    display: none; /* Hide the placeholder by default */
+  }
+  /* --- MODIFICATION ENDS HERE --- */
+
   @media screen and (min-width: 1800px) {
     .main.container--doc { max-width: 2200px; width: 90%; justify-content: space-between; }
     .article--doc { flex: 0 0 800px; }
     .main.container--doc .content-toc-right-wrapper { flex: 0 0 280px; }
+    
+    /* --- MODIFICATION STARTS HERE --- */
+    /* When in ultra-wide screen AND it's a two-column layout, show the placeholder */
+    .main.container--doc:not(.has-right-toc) .placeholder-toc {
+      display: block;
+      flex: 0 0 280px; /* Match the width of the real TOC */
+      content: ''; /* Ensure it takes up space */
+    }
+    /* --- MODIFICATION ENDS HERE --- */
   }
   
   /* --- Doc Navigation System Styles (unchanged) --- */
@@ -167,6 +183,11 @@ layout: default
       <div class="js-toc-right"></div>
     </div>
   </aside>
+  {% else %}
+  <!-- --- MODIFICATION STARTS HERE --- -->
+  <!-- This is the placeholder for the right TOC when it doesn't exist. -->
+  <aside class="placeholder-toc" aria-hidden="true"></aside>
+  <!-- --- MODIFICATION ENDS HERE --- -->
   {% endif %}
 </main>
 
