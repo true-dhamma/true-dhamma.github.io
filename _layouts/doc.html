@@ -76,7 +76,7 @@ layout: default
 {%- endcapture %}
 
 <style>
-  /* --- Base Doc Layout (unchanged) --- */
+  /* --- Base Doc Layout --- */
   @media screen and (min-width: 768px) {
     .main.container--doc { display: flex; gap: 2em; max-width: 960px; margin: 0 auto; align-items: flex-start; }
     .article--doc { flex: 1 1 auto; min-width: 0; }
@@ -85,7 +85,10 @@ layout: default
   @media screen and (min-width: 1200px) {
     .main.container--doc { max-width: 1440px; gap: 2.5em; justify-content: center; }
     .article--doc { flex-grow: 1; flex-basis: auto; max-width: 800px; }
+    
     .content-toc-right-wrapper { 
+      /* MODIFICATION: This rule now forces the right aside to be visible on wide screens */
+      display: block !important; 
       flex: 0 0 260px; 
       position: sticky; 
       top: 2rem; 
@@ -97,20 +100,17 @@ layout: default
   @media screen and (min-width: 1800px) {
     .main.container--doc { max-width: 2200px; width: 90%; justify-content: space-between; }
     .article--doc { flex: 0 0 800px; }
-    .content-toc-right-wrapper { 
-      flex-basis: 280px; 
-      
-      /***********************************************************************
-       * --- MODIFICATION STARTS HERE ---
-       *
-       * 这条规则是本次修改的核心。
-       * 它强制在超宽屏幕下，右侧的TOC容器始终可见并占据布局空间。
-       * 这可以防止页面加载时因JS延迟执行而导致的布局跳动。
-       * `!important` 确保此规则能覆盖来自 content-toc.html 的 `display: none` 样式。
-       *
-       ***********************************************************************/
-      display: block !important;
-    }
+    .content-toc-right-wrapper { flex: 0 0 280px; }
+  }
+
+  /***********************************************************************
+   * --- NEW CSS RULE ---
+   * This elegant rule hides the "Index" title if the TOC is just a placeholder.
+   * It says: "Find the container that HAS an empty .js-toc-right element inside,
+   * and then hide the .toc-title within that container."
+   ***********************************************************************/
+  #toc-right-container:has(> .js-toc-right:empty) .toc-title {
+    display: none;
   }
   
   /* --- Doc Navigation System Styles (unchanged) --- */
@@ -141,6 +141,7 @@ layout: default
 
   <article id="doc-content" class="article article--doc content typeset js-toc-content">
     {%- if page.toc -%}
+    <!-- This middle TOC is only generated for pages that opt-in to the TOC feature -->
     <div id="toc-middle-container" class="toc-middle-container">
       <h3 class="toc-title">Index</h3>
       <div class="js-toc-middle"></div>
@@ -149,14 +150,18 @@ layout: default
     {{ content }}
   </article>
 
-  {%- if page.toc -%}
+  <!--
+    MODIFICATION: The right aside is now ALWAYS generated.
+    This ensures a stable three-column structure on wide screens, preventing layout shifts.
+    Its visibility and content are controlled by CSS and the script from `content-toc.html`.
+  -->
   <aside class="content-toc-right-wrapper">
     <div id="toc-right-container">
       <h3 class="toc-title">Index</h3>
       <div class="js-toc-right"></div>
     </div>
   </aside>
-  {%- endif -%}
+
 </main>
 
 <!-- JavaScripts section is unchanged -->
@@ -181,6 +186,10 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 <script>/* Image path script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e="{{ page.collection }}";if(!e)return;const t=`/uploads/${e}/`,o=document.querySelector(".article--doc");if(!o)return;o.querySelectorAll("img").forEach(e=>{const o=e.getAttribute("src");if(o&&o.startsWith("./")){const s=o.substring(2),n=t+s;e.setAttribute("src",n)}})});</script>
 
+<!-- MODIFICATION: This is now the master switch for all TOC-related functionality -->
+{%- if page.toc -%}
+  {% include content-toc.html %}
+{%- endif -%}
+
 {% include tts-reader.html %}
-{% include content-toc.html %}
 {% include site-footer.html %}
