@@ -1,4 +1,4 @@
-<!-- 暗色模式功能代码开始 (V2 - 提升文本亮度) -->
+<!-- 暗色模式功能代码开始 (V3 - 提升文本对比度) -->
 <script>
 (function() {
   // --- 常量和变量定义 ---
@@ -29,6 +29,8 @@
       /* 防止定位不一致 */
       .nightowl-light body {
         filter: invert(0%);
+        /* 确保切换回亮色模式时过渡平滑 */
+        transition: filter 0.3s ease;
       }
       
       .nightowl-dark {
@@ -38,6 +40,7 @@
 
       .nightowl-dark body {
         filter: invert(100%) hue-rotate(180deg);
+        transition: filter 0.3s ease;
       }
 
       /* 不反转媒体元素 (图片, 视频等) */
@@ -60,7 +63,7 @@
         color: #666;
       }
 
-      /* --- 新增：提升暗色模式下文本和标题的亮度 --- */
+      /* --- 新增：提升暗色模式下文本和标题的对比度 --- */
       .nightowl-dark h1,
       .nightowl-dark h2,
       .nightowl-dark h3,
@@ -70,9 +73,12 @@
       .nightowl-dark p,
       .nightowl-dark a,
       .nightowl-dark li,
+      .nightowl-dark span,
       .nightowl-dark strong,
-      .nightowl-dark b {
-        filter: brightness(1.2);
+      .nightowl-dark b,
+      .nightowl-dark td,
+      .nightowl-dark th {
+        filter: contrast(1.2);
       }
     `;
     document.head.appendChild(styleElement);
