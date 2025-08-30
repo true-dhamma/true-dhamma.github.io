@@ -1,56 +1,167 @@
-<!-- ========== 方案三：Nightowl (手动实现) ========== -->
+<!-- NightOwl Dark Mode - Custom Implementation -->
+<script>
+// --- 原始 NightOwl.js 核心代码 (已修改) ---
 
-<!-- CSS样式：用于颜色反转和效果优化 -->
-<style>
-  /* 当body标签含有 nightowl-dark 类时，激活暗黑模式 */
-  body.nightowl-dark {
-    filter: invert(1) hue-rotate(180deg);
-  }
+const r = "nightowl-color-scheme", i = "light", o = "dark";
+let n = null, t = i;
 
-  /* 修正图片和视频的反转问题 */
-  body.nightowl-dark img,
-  body.nightowl-dark video,
-  body.nightowl-dark iframe {
-    filter: invert(1) hue-rotate(180deg);
-  }
-</style>
+// 尝试访问 localStorage
+try {
+  n = localStorage;
+} catch {
+  // 如果失败 (例如，在隐私模式下)，则 n 保持为 null
+}
 
-<!-- 引入Nightowl库 -->
-<script src="https://cdn.jsdelivr.net/npm/@bufferhead/nightowl@0.0.12/dist/nightowl.js" type="module"></script>
-
-<!-- 自定义逻辑以适配您的需求 -->
-<script type="module">
-  // 导入库的创建函数
-  import { createNightowl } from 'https://cdn.jsdelivr.net/npm/@bufferhead/nightowl@0.0.12/dist/nightowl.js';
-
-  // 初始化Nightowl，但不要让它创建自己的按钮
-  createNightowl({
-    toggleButtonMode: 'none' // 假设有此选项或通过不调用某个方法来避免
-  });
-  
-  // 获取您的开关元素和body元素
-  const switchButton = document.getElementById('darkmode-switch');
-  const body = document.body;
-
-  // 页面加载时，检查sessionStorage
-  // 以恢复用户在当前会话中的选择
-  if (sessionStorage.getItem('theme') === 'dark') {
-    body.classList.add('nightowl-dark');
-  }
-  
-  // 为您的开关添加点击事件
-  switchButton.addEventListener('click', function(event) {
-    // 阻止<a>标签的默认跳转行为
-    event.preventDefault(); 
-    
-    // 手动切换 'nightowl-dark' 类
-    body.classList.toggle('nightowl-dark');
-    
-    // 根据当前状态更新sessionStorage
-    if (body.classList.contains('nightowl-dark')) {
-      sessionStorage.setItem('theme', 'dark');
-    } else {
-      sessionStorage.setItem('theme', 'light');
+/**
+ * 创建并注入暗色模式所需的 CSS 样式
+ * 【修改点】: 调整了 filter 属性，移除了 hue-rotate(180deg)
+ */
+function a() {
+  const e = document.createElement("style");
+  e.innerHTML = `
+    /* 防止定位不一致 */
+    .nightowl-light body {
+        filter: invert(0%);
+        /* 为平滑过渡添加动画效果 */
+        transition: background-color 0.3s ease, color 0.3s ease;
     }
-  });
+    
+    .nightowl-dark {
+        /* Firefox 的后备方案 */
+        background-color: #111;
+    }
+
+    /* 
+     * 【重要修改】
+     * 移除了 hue-rotate(180deg) 来让反色后的文字更亮、更白，而不是偏黄或偏青。
+     */
+    .nightowl-dark body {
+        filter: invert(100%);
+        /* 为平滑过渡添加动画效果 */
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* 
+     * 【重要修改】
+     * 同样，在恢复图片、视频等媒体元素时，也只反转颜色，不旋转色相。
+     */
+    .nightowl-dark img, .nightowl-dark video, .nightowl-dark iframe, .nightowl-dark .nightowl-daylight {
+        filter: invert(100%);
+    }
+
+    /* 提高图标的对比度 (可根据需要调整) */
+    .nightowl-dark .icon {
+        filter: invert(15%);
+    }
+
+    /* 重新启用代码块的背景色 */
+     .nightowl-dark pre {
+        filter: invert(6%);
+    }
+
+    /* 提高列表项标记的对比度 */
+    .nightowl-dark li::marker {
+        color: #999;
+    }
+    `;
+  document.head.appendChild(e);
+}
+
+// 切换到暗色模式
+function h() {
+  t = o;
+  const e = document.querySelector("html");
+  e && (e.classList.remove("nightowl-light"), e.classList.add("nightowl-dark"));
+}
+
+// 切换到亮色模式
+function g() {
+  t = i;
+  const e = document.querySelector("html");
+  e && (e.classList.remove("nightowl-dark"), e.classList.add("nightowl-light"));
+}
+
+// 核心切换函数 (逻辑上的)
+function w() {
+  t = t === o ? i : o;
+  s(); // 应用更改
+}
+
+// 应用当前模式的函数 (视觉上的)
+function s() {
+  t === o ? h() : g();
+}
+
+// 【已废弃】原始代码中更新悬浮按钮图标的函数，我们不再需要它。
+// function c() { ... }
+
+// 【已废弃】原始代码中创建悬浮按钮的函数。我们不再调用它。
+// function m() { ... }
+
+// 从 localStorage 读取存储的模式
+function u() {
+  let e = null;
+  try {
+    n && (e = n.getItem(r));
+  } catch {}
+  
+  if (e && [o, i].includes(e)) {
+    // 如果 localStorage 中有有效设置，则使用它
+    t = e;
+  } else if (y()) {
+    // 否则，如果系统偏好是暗色，则默认使用暗色
+    t = o;
+  }
+}
+
+// 初始化函数：读取状态并应用
+function f() {
+  u(), s();
+}
+
+// 将当前模式保存到 localStorage
+function k() {
+  if (t !== null) {
+    try {
+      n && n.setItem(r, t);
+    } catch {}
+  }
+}
+
+// 检查系统是否偏好暗色模式
+function y() {
+  return window.matchMedia && (window.matchMedia("(prefers-color-scheme: dark)").matches || window.matchMedia("(prefers-color-scheme:dark)").matches);
+}
+
+
+// --- 页面加载与自定义开关绑定 ---
+
+// 当整个页面加载完毕后执行
+window.addEventListener("load", () => {
+  // 1. 注入 CSS 样式
+  a();
+  
+  // 2. 从 localStorage 或系统偏好加载并应用当前主题
+  f();
+  
+  // 3. 【重要修改】我们不再调用 m() 函数，这样就不会创建悬浮按钮了。
+  
+  // 4. 【新增逻辑】绑定您自己的开关
+  const customDarkModeSwitch = document.getElementById("darkmode-switch");
+  
+  if (customDarkModeSwitch) {
+    customDarkModeSwitch.addEventListener("click", (event) => {
+      // 阻止 <a> 标签的默认跳转行为
+      event.preventDefault();
+      
+      // 调用核心切换函数
+      w();
+      
+      // 将新的选择保存到 localStorage
+      k();
+    });
+  } else {
+    console.warn('NightOwl: Dark mode switch with id "darkmode-switch" not found.');
+  }
+});
 </script>
