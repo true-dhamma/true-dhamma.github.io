@@ -1,16 +1,16 @@
 ---
 title: 你的生存本能正在杀死你
-date: 2025-08-09 21:13:00 +08:00
+date: 2025-08-09T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
-excerpt: 我们为适应远古环境而生的生存本能，在现代社会被过度激活，将日常不适夸大为生存危机，导致焦虑、失眠等恶性循环。本书旨在通过规律作息、训练“双重感知”等方法，帮助我们管理失控的本能，重获身心健康与内心平静。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
-aside: true
+  - 成瘾
+excerpt: >-
+  我们为适应远古环境而生的生存本能，在现代社会被过度激活，将日常不适夸大为生存危机，导致焦虑、失眠等恶性循环。本书旨在通过规律作息、训练“双重感知”等方法，帮助我们管理失控的本能，重获身心健康与内心平静。
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
+aside: false
 ---
-
 > ##### Your Survival Instinct Is Killing You - Marc Schoen
 >
 > ##### 你的生存本能正在杀死你 - 马克·舍恩 - 摘要
@@ -22,20 +22,6 @@ aside: true
 {% include video.html url="https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/%E8%A7%86%E9%A2%91/%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0.mp4" %}
 
 原始视频：[https://www.youtube.com/watch?v=1IYXShWsQZs](https://www.youtube.com/watch?v=1IYXShWsQZs)
-
-## 目录
-
-* [引言：为何现代生活让我们焦虑不安？](#引言为何现代生活让我们焦虑不安)
-* [第一部分：生存本能是如何伤害我们的？](#第一部分生存本能是如何伤害我们的)
-  * [阶段一：外部因素引发身心不适](#阶段一外部因素引发身心不适)
-  * [阶段二：不适感激活生存本能](#阶段二不适感激活生存本能)
-  * [阶段三：用坏习惯逃避，陷入恶性循环](#阶段三用坏习惯逃避陷入恶性循环)
-* [第二部分：如何摆脱生存本能的束缚？](#第二部分如何摆脱生存本能的束缚)
-  * [方法一：规律作息，培养专注力](#方法一规律作息培养专注力)
-  * [方法二：扩展心理舒适区，训练“双重感知”](#方法二扩展心理舒适区训练双重感知)
-* [结语](#结语)
-
----
 
 ## 引言：为何现代生活让我们焦虑不安？
 
@@ -139,4 +125,4 @@ aside: true
 
 ---
 
-<table><tbody><tr><td><img alt="Your Survival Instinct Is Killing You" width="120" src="/uploads/cover-survival-instinct.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Your+Survival+Instinct+Is+Killing+You" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Your+Survival+Instinct+Is+Killing+You" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Your%20Survival%20Instinct%20Is%20Killing%20You" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="Your Survival Instinct Is Killing You" width="120" src="/uploads/cover-survival-instinct.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Your+Survival+Instinct+Is+Killing+You" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Your+Survival+Instinct+Is+Killing+You" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Your%20Survival%20Instinct%20Is%20Killing%20You" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>

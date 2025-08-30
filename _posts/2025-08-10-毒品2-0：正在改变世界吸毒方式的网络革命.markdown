@@ -1,38 +1,22 @@
 ---
 title: 毒品2.0：正在改变世界吸毒方式的网络革命
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 网络将审查行为视为系统损坏，并自动绕开它。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
-aside: true
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
+aside: false
 ---
-
 > ##### Drugs 2.0: The Web Revolution That’s Changing How the World Gets High - Mike Power
 >
 > ##### 毒品2.0：正在改变世界吸毒方式的网络革命 - 迈克·鲍尔 - 摘要
 >
 > 这是一场化学、技术与法律之间永无休止的猫鼠游戏，网络正在彻底颠覆全球毒品的制造、交易和消费方式。
 
-* [前言](#前言)
-* [序言：当代化学文化](#序言当代化学文化)
-* [第一章：从植物到化学品](#第一章从植物到化学品)
-* [第二章：工具制造者舒尔金的巨大狂喜](#第二章工具制造者舒尔金的巨大狂喜)
-* [第三章：在线毒品文化的诞生](#第三章在线毒品文化的诞生)
-* [第四章：“研究性化学品”场景的兴衰](#第四章研究性化学品场景的兴衰)
-* [第五章：暴风雨前的宁静与一场奇特的干旱](#第五章暴风雨前的宁静与一场奇特的干旱)
-* [第六章：甲氧麻黄酮的疯狂：地下文化冲击商业街](#第六章甲氧麻黄酮的疯狂地下文化冲击商业街)
-* [第七章：“汪汪”是新的“喵喵”](#第七章汪汪是新的喵喵)
-* [第八章：盐味僵尸与化学恐慌](#第八章盐味僵尸与化学恐慌)
-* [第九章：你的快克在邮寄途中](#第九章你的快克在邮寄途中)
-* [第十章：数字时代的禁令](#第十章数字时代的禁令)
-* [第十一章：路的尽头？](#第十一章路的尽头)
-* [尾声](#尾声)
-
----
+##
 
 ## 前言
 
@@ -451,4 +435,4 @@ PMK-缩水甘油酯至今在许多地方仍然合法。只要它存在，高质�
 
 ---
 
-<table><tbody><tr><td><img alt="Drugs 2.0" width="120" src="/uploads/cover-drugs-2-0.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Drugs%202.0" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=Drugs%202.0" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=Drugs%202.0" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Drugs%202.0" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Drugs+2.0" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Drugs+2.0" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Drugs%202.0" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="Drugs 2.0" width="120" src="/uploads/cover-drugs-2-0.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Drugs%202.0" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=Drugs%202.0" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=Drugs%202.0" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Drugs%202.0" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Drugs+2.0" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Drugs+2.0" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Drugs%202.0" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>

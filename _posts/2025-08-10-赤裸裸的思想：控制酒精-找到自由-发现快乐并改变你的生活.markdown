@@ -1,52 +1,22 @@
 ---
 title: 赤裸裸的思想：控制酒精、找到自由、发现快乐并改变你的生活
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 当你看清酒精的真相，曾经对“再也不能喝酒”的恐惧，会被“再也无需喝酒”的兴奋所取代。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
-aside: true
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
+aside: false
 ---
-
 > ##### This Naked Mind: Control Alcohol, Find Freedom, Discover Happiness & Change Your Life - Annie Grace - 摘要
 >
 > ##### 赤裸裸的思想：控制酒精、找到自由、发现快乐并改变你的生活 - 安妮·格雷斯
 >
 > 通过揭示酒精的真相和我们大脑的运作方式，这本书将彻底改变你对饮酒的看法，让你毫不费力、充满喜悦地重获控制权。
 
-### 目录
-
-* [前言](#前言)
-* [引言](#引言)
-* [第一章：赤裸裸的思想：它是如何运作的，以及为何有效](#第一章赤裸裸的思想它是如何运作的以及为何有效)
-* [第二章：问题在饮酒者还是酒？（上）](#第二章问题在饮酒者还是酒上)
-* [第三章：问题在饮酒者还是酒？（下）](#第三章问题在饮酒者还是酒下)
-* [第四章：思维转折点：饮酒是一种习惯吗？](#第四章思维转折点饮酒是一种习惯吗)
-* [第五章：你：纯粹的裸体](#第五章你纯粹的裸体)
-* [第六章：思维转折点：我们真的是为了味道而喝酒吗？](#第六章思维转折点我们真的是为了味道而喝酒吗)
-* [第七章：你：被污染了](#第七章你被污染了)
-* [第八章：思维转折点：酒精是液体勇气吗？](#第八章思维转折点酒精是液体勇气吗)
-* [第九章：哦该死！我们被困住了](#第九章哦该死我们被困住了)
-* [第十章：思维转折点：喝酒能帮我放开并有更好的性生活吗？](#第十章思维转折点喝酒能帮我放开并有更好的性生活吗)
-* [第十一章：寻求清醒之路](#第十一章寻求清醒之路)
-* [第十二章：思维转折点：我喝酒是为了缓解压力和焦虑](#第十二章思维转折点我喝酒是为了缓解压力和焦虑)
-* [第十三章：自发戒酒之谜](#第十三章自发戒酒之谜)
-* [第十四章：思维转折点：我享受饮酒；它让我快乐](#第十四章思维转折点我享受饮酒它让我快乐)
-* [第十五章：定义成瘾（上）](#第十五章定义成瘾上)
-* [第十六章：思维转折点：酒精对社交生活至关重要吗？](#第十六章思维转折点酒精对社交生活至关重要吗)
-* [第十七章：定义成瘾（下）](#第十七章定义成瘾下)
-* [第十八章：思维转折点：这是文化。我需要喝酒来融入](#第十八章思维转折点这是文化我需要喝酒来融入)
-* [第十九章：沉沦：为何有些人沉沦得更快？](#第十九章沉沦为何有些人沉沦得更快)
-* [第二十章：在我们的社会中过一种赤裸的生活](#第二十章在我们的社会中过一种赤裸的生活)
-* [第二十一章：赤裸裸的思想](#第二十一章赤裸裸的思想)
-* [第二十二章：快乐轻松地少喝的秘诀](#第二十二章快乐轻松地少喝的秘诀)
-* [第二十三章：旅程：“复发”](#第二十三章旅程复发)
-* [第二十四章：将爱传递下去](#第二十四章将爱传递下去)
-
----
+&nbsp;
 
 ### 前言
 
@@ -792,4 +762,4 @@ moderate drinker（适度饮酒者）和alcoholic（酒鬼）之间的区别，�
 
 ---
 
-<table><tbody><tr><td><img alt="This Naked Mind" width="120" src="/uploads/cover-this-naked-mind.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=This%20Naked%20Mind" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=This%20Naked%20Mind" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=This%20Naked%20Mind" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=This%20Naked%20Mind" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=This+Naked+Mind" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=This+Naked+Mind" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=This%20Naked%20Mind" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="This Naked Mind" width="120" src="/uploads/cover-this-naked-mind.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=This%20Naked%20Mind" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=This%20Naked%20Mind" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=This%20Naked%20Mind" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=This%20Naked%20Mind" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=This+Naked+Mind" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=This+Naked+Mind" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=This%20Naked%20Mind" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>

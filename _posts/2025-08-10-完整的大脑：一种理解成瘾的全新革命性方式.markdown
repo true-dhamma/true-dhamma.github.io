@@ -1,48 +1,22 @@
 ---
 title: 完整的大脑：一种理解成瘾的全新革命性方式
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
-- 慈悲喜舍
+  - 心理学
+  - 慈悲喜舍
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 成瘾者的大脑并未“损坏”，它只是经历了一条不同的发育路径。就像多动症或自闭症一样，这是一种“布线差异”，而不一定是组织的破坏。
-feature_image: "/uploads/top_banner_addiction.jpg"
-aside: true
+feature_image: /uploads/top_banner_addiction.jpg
+aside: false
 ---
-
 > ##### Unbroken Brain: A Revolutionary New Way of Understanding Addiction - Maia Szalavitz
 >
 > ##### 完整的大脑：一种理解成瘾的全新革命性方式 - 玛雅·萨拉维茨 - 摘要
 >
 > 本书颠覆了对成瘾的传统看法，提出它既非道德沦丧，也非大脑疾病，而是一种与学习和发展密切相关的障碍。
 
-### 目录
-
-* [作者手记](#作者手记)
-* [引言](#引言)
-* [第一章：针尖](#第一章针尖)
-* [第二章：成瘾简史](#第二章成瘾简史)
-* [第三章：成瘾的本质](#第三章成瘾的本质)
-* [第四章：强烈的世界](#第四章强烈的世界)
-* [第五章：成瘾型人格的神话](#第五章成瘾型人格的神话)
-* [第六章：标签](#第六章标签)
-* [第七章：地狱般的初中](#第七章地狱般的初中)
-* [第八章：迷幻的夜幕](#第八章迷幻的夜幕)
-* [第九章：关于毒品与多巴胺](#第九章关于毒品与多巴胺)
-* [第十章：心态与场景](#第十章心态与场景)
-* [第十一章：爱与成瘾](#第十一章爱与成瘾)
-* [第十二章：风险游戏](#第十二章风险游戏)
-* [第十三章：被捕](#第十三章被捕)
-* [第十四章：触底之困](#第十四章触底之困)
-* [第十五章：反社会行为](#第十五章反社会行为)
-* [第十六章：十二步法的难题](#第十六章十二步法的难题)
-* [第十七章：减少伤害](#第十七章减少伤害)
-* [第十八章：新西兰模式](#第十八章新西兰模式)
-* [第十九章：教授康复](#第十九章教授康复)
-* [第二十章：神经多样性与成瘾的未来](#第二十章神经多样性与成瘾的未来)
-
----
+###
 
 ### 作者手记
 
@@ -700,4 +674,4 @@ LEAD的成功，以及**葡萄牙**在2001年将所有个人持有毒品非刑�
 
 ---
 
-<table><tbody><tr><td><img alt="Unbroken Brain" width="120" src="/uploads/cover-unbroken-brain.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Unbroken%20Brain" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=Unbroken%20Brain" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=Unbroken%20Brain" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Unbroken%20Brain" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Unbroken+Brain" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Unbroken+Brain" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Unbroken%20Brain" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="Unbroken Brain" width="120" src="/uploads/cover-unbroken-brain.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Unbroken%20Brain" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=Unbroken%20Brain" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=Unbroken%20Brain" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Unbroken%20Brain" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Unbroken+Brain" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Unbroken+Brain" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Unbroken%20Brain" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>

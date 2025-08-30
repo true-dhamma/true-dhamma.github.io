@@ -1,5 +1,5 @@
 <!-- tts-fab-reader.html -->
-<!-- 版本 8.1: 最终修复版 - 解决所有常量赋值错误，实现丝滑定位 -->
+<!-- 版本 7.4: 最终修复版，解决常量赋值错误，并实现布局稳定的性能优化 -->
 
 <!-- ================= HTML 结构 (无变动) ================= -->
 <div class="tts-fab-container" id="tts-fab-container" style="display: none;">
@@ -12,19 +12,9 @@
   </button>
 </div>
 
-<!-- ================= CSS 样式 (已优化) ================= -->
+<!-- ================= CSS 样式 (已采纳方案一) ================= -->
 <style>
-  .tts-fab-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    will-change: transform;
-  }
+  .tts-fab-container { position: fixed; bottom: 30px; right: 30px; z-index: 1000; display: flex; flex-direction: column; align-items: center; gap: 16px; }
   .tts-button { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; border: none; background-color: #ffffff; border-radius: 50%; cursor: pointer; padding: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: background-color 0.2s ease-in-out, transform 0.2s ease; }
   .tts-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
   .tts-button:active { transform: scale(0.95); }
@@ -44,7 +34,7 @@
   }
 </style>
 
-<!-- ================= JavaScript 逻辑 (最终优化) ================= -->
+<!-- ================= JavaScript 逻辑 (已修复并优化) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   // --- 配置 ---
@@ -72,50 +62,46 @@ document.addEventListener('DOMContentLoaded', () => {
   const audioPlayer = new Audio();
   let fetchController;
 
-  // --- 触屏设备缩放与定位优化 ---
+  // --- 触屏设备缩放优化逻辑 ---
   const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-  let targetFabX = 0, targetFabY = 0;
-  let currentFabX = 0, currentFabY = 0;
-  let currentScale = 1;
-  let isAnimating = false;
-  const smoothingFactor = 0.2;
+  let isUpdateScheduled = false;
 
-  function animationLoop() {
-    const scale = window.visualViewport ? window.visualViewport.scale : 1;
-    const deltaX = targetFabX - currentFabX;
-    const deltaY = targetFabY - currentFabY;
-    const deltaScale = scale - currentScale;
-
-    if (Math.abs(deltaX) < 0.1 && Math.abs(deltaY) < 0.1 && Math.abs(deltaScale) < 0.01) {
-      isAnimating = false;
-      return;
-    }
-
-    currentFabX += deltaX * smoothingFactor;
-    currentFabY += deltaY * smoothingFactor;
-    currentScale += deltaScale * smoothingFactor;
-
-    const scaleTransform = `scale(${1 / currentScale})`;
-    const translateTransform = `translate3d(${currentFabX}px, ${currentFabY}px, 0)`;
-    container.style.transform = `${translateTransform} ${scaleTransform}`;
-    
-    requestAnimationFrame(animationLoop);
-  }
-
-  function updateTargetPosition() {
+  const updateFabPosition = () => {
     if (!isTouchDevice || !window.visualViewport) return;
-    
     const vv = window.visualViewport;
     const cssBottom = 30;
     const cssRight = 30;
-
-    targetFabX = vv.offsetLeft + vv.width - container.offsetWidth - cssRight;
-    targetFabY = vv.offsetTop + vv.height - container.offsetHeight - cssBottom;
-
-    if (!isAnimating) {
-      isAnimating = true;
-      requestAnimationFrame(animationLoop);
+    if (vv.scale > 1) {
+      const newTop = vv.offsetTop + vv.height - container.offsetHeight - (cssBottom / vv.scale);
+      const newLeft = vv.offsetLeft + vv.width - container.offsetWidth - (cssRight / vv.scale);
+      container.style.top = `${newTop}px`;
+      container.style.left = `${newLeft}px`;
+      container.style.transform = `scale(${1 / vv.scale})`;
+      container.style.transformOrigin = 'bottom right';
+      container.style.bottom = 'auto';
+      container.style.right = 'auto';
+    } else {
+      container.style.transform = '';
+      container.style.transformOrigin = '';
+      container.style.top = '';
+      container.style.left = '';
+      container.style.bottom = '';
+      container.style.right = '';
     }
+  };
+  
+  const scheduleFabUpdate = () => {
+    if (!isTouchDevice || isUpdateScheduled) return;
+    isUpdateScheduled = true;
+    requestAnimationFrame(() => {
+      updateFabPosition();
+      isUpdateScheduled = false;
+    });
+  };
+
+  if (isTouchDevice && window.visualViewport) {
+    window.visualViewport.addEventListener('resize', scheduleFabUpdate);
+    window.visualViewport.addEventListener('scroll', scheduleFabUpdate);
   }
   
   // --- UI 与交互函数 ---
@@ -155,40 +141,106 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       scrollTopBtn.classList.remove('visible');
     }
-    setTimeout(updateTargetPosition, 50);
   };
 
   // --- 核心朗读功能函数 ---
-  const findStartingIndex = () => { return new Promise(resolve => { const elements = textQueue.map(item => item.element); const observer = new IntersectionObserver(entries => { let firstVisibleElement = null; let minTop = Infinity; entries.forEach(entry => { if (entry.isIntersecting) { const top = entry.boundingClientRect.top; if (top < minTop) { minTop = top; firstVisibleElement = entry.target; } } }); observer.disconnect(); const foundIndex = firstVisibleElement ? elements.findIndex(el => el === firstVisibleElement) : -1; resolve(foundIndex > -1 ? foundIndex : 0); }, { threshold: 0.01 }); elements.forEach(el => observer.observe(el)); }); };
-  const fetchAndCacheAudio = async (index, signal) => { const item = textQueue[index]; if (!item || item.blobUrl || item.isFetching) return true; item.isFetching = true; let success = false; for (let i = 0; i < MAX_RETRIES; i++) { if (!isReading || signal.aborted) { item.isFetching = false; return false; } try { const response = await fetch(WORKER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: item.text }), signal: signal }); if (!response.ok) throw new Error(`Request failed with status ${response.status}`); const audioBlob = await response.blob(); item.blobUrl = URL.createObjectURL(audioBlob); success = true; break; } catch (error) { if (error.name === 'AbortError') { break; } console.warn(`Failed to fetch index ${index} (Attempt ${i + 1}/${MAX_RETRIES}):`, error.message); if (i < MAX_RETRIES - 1) { await new Promise(resolve => setTimeout(resolve, RETRY_DELAY)); } } } item.isFetching = false; return success; };
-  const managePrefetchWindow = () => { const start = currentIndex + 1; const end = Math.min(currentIndex + PREFETCH_WINDOW_SIZE + 1, textQueue.length); for (let i = start; i < end; i++) { fetchAndCacheAudio(i, fetchController.signal); } };
-  const playCurrentAndPrefetchNext = async () => { if (currentIndex >= textQueue.length || !isReading) { if (isReading) stopReading(); return; } const previousItem = textQueue[currentIndex - 1]; if (previousItem && previousItem.blobUrl) { URL.revokeObjectURL(previousItem.blobUrl); previousItem.blobUrl = null; } const currentItem = textQueue[currentIndex]; highlightElement(currentItem.element); const success = await fetchAndCacheAudio(currentIndex, fetchController.signal); if (!isReading || !success) { if (isReading) stopReading(); return; } audioPlayer.src = currentItem.blobUrl; audioPlayer.play().catch(err => { console.error("Audio playback failed:", err); if (isReading) stopReading(); }); managePrefetchWindow(); };
+  const findStartingIndex = () => {
+    return new Promise(resolve => {
+      const elements = textQueue.map(item => item.element);
+      const observer = new IntersectionObserver(entries => {
+        let firstVisibleElement = null; let minTop = Infinity;
+        entries.forEach(entry => { if (entry.isIntersecting) { const top = entry.boundingClientRect.top; if (top < minTop) { minTop = top; firstVisibleElement = entry.target; } } });
+        observer.disconnect();
+        const foundIndex = firstVisibleElement ? elements.findIndex(el => el === firstVisibleElement) : -1;
+        resolve(foundIndex > -1 ? foundIndex : 0);
+      }, { threshold: 0.01 });
+      elements.forEach(el => observer.observe(el));
+    });
+  };
+
+  const fetchAndCacheAudio = async (index, signal) => {
+    const item = textQueue[index];
+    if (!item || item.blobUrl || item.isFetching) return true;
+    item.isFetching = true;
+    let success = false;
+    for (let i = 0; i < MAX_RETRIES; i++) {
+      if (!isReading || signal.aborted) { item.isFetching = false; return false; }
+      try {
+        const response = await fetch(WORKER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: item.text }), signal: signal });
+        if (!response.ok) throw new Error(`Request failed with status ${response.status}`);
+        const audioBlob = await response.blob();
+        item.blobUrl = URL.createObjectURL(audioBlob);
+        success = true;
+        break;
+      } catch (error) {
+        if (error.name === 'AbortError') { break; }
+        console.warn(`Failed to fetch index ${index} (Attempt ${i + 1}/${MAX_RETRIES}):`, error.message);
+        if (i < MAX_RETRIES - 1) { await new Promise(resolve => setTimeout(resolve, RETRY_DELAY)); }
+      }
+    }
+    item.isFetching = false;
+    return success;
+  };
+
+  const managePrefetchWindow = () => {
+    const start = currentIndex + 1;
+    const end = Math.min(currentIndex + PREFETCH_WINDOW_SIZE + 1, textQueue.length);
+    for (let i = start; i < end; i++) { fetchAndCacheAudio(i, fetchController.signal); }
+  };
+  
+  const playCurrentAndPrefetchNext = async () => {
+    if (currentIndex >= textQueue.length || !isReading) { if (isReading) stopReading(); return; }
+    const previousItem = textQueue[currentIndex - 1];
+    if (previousItem && previousItem.blobUrl) { URL.revokeObjectURL(previousItem.blobUrl); previousItem.blobUrl = null; }
+    const currentItem = textQueue[currentIndex];
+    highlightElement(currentItem.element);
+    const success = await fetchAndCacheAudio(currentIndex, fetchController.signal);
+    if (!isReading || !success) { if (isReading) stopReading(); return; }
+    audioPlayer.src = currentItem.blobUrl;
+    audioPlayer.play().catch(err => { console.error("Audio playback failed:", err); if (isReading) stopReading(); });
+    managePrefetchWindow();
+  };
 
   // --- 控制函数 ---
-  const startReading = async () => { if (isReading) return; isReading = true; fetchController = new AbortController(); updateUI(); currentIndex = await findStartingIndex(); if (!isReading) { stopReading(); return; } playCurrentAndPrefetchNext(); };
-  const stopReading = () => { if (!isReading && !fetchController) return; isReading = false; if (fetchController) { fetchController.abort(); fetchController = null; } audioPlayer.pause(); audioPlayer.src = ''; textQueue.forEach(item => { if (item.blobUrl) URL.revokeObjectURL(item.blobUrl); item.blobUrl = null; item.isFetching = false; }); currentIndex = 0; clearHighlight(); updateUI(); };
+  const startReading = async () => {
+    if (isReading) return;
+    isReading = true;
+    fetchController = new AbortController();
+    updateUI();
+    currentIndex = await findStartingIndex();
+    if (!isReading) { stopReading(); return; }
+    playCurrentAndPrefetchNext();
+  };
+
+  const stopReading = () => {
+    if (!isReading && !fetchController) return;
+    isReading = false;
+    if (fetchController) { fetchController.abort(); fetchController = null; }
+    audioPlayer.pause();
+    audioPlayer.src = '';
+    textQueue.forEach(item => { if (item.blobUrl) URL.revokeObjectURL(item.blobUrl); item.blobUrl = null; item.isFetching = false; });
+    currentIndex = 0;
+    clearHighlight();
+    updateUI();
+  };
 
   // --- 初始化与事件监听 ---
   const initializeReader = () => {
     const selector = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption';
     const allPotentialElements = Array.from(article.querySelectorAll(selector));
     const elementSet = new Set(allPotentialElements);
-    const topLevelElements = allPotentialElements.filter(el => { let parent = el.parentElement; while (parent && parent !== article) { if (elementSet.has(parent)) { return false; } parent = parent.parentElement; } return true; });
-    topLevelElements.forEach(el => { const text = el.innerText.trim(); if (text) { textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false }); } });
+    const topLevelElements = allPotentialElements.filter(el => {
+      let parent = el.parentElement;
+      while (parent && parent !== article) { if (elementSet.has(parent)) { return false; } parent = parent.parentElement; }
+      return true;
+    });
+    topLevelElements.forEach(el => {
+      const text = el.innerText.trim();
+      if (text) { textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false }); }
+    });
     if (textQueue.length > 0) {
       container.style.display = 'flex';
       handleScroll();
-      if (isTouchDevice && window.visualViewport) {
-        setTimeout(() => {
-            const vv = window.visualViewport;
-            const cssBottom = 30; const cssRight = 30;
-            currentFabX = targetFabX = vv.offsetLeft + vv.width - container.offsetWidth - cssRight;
-            currentFabY = targetFabY = vv.offsetTop + vv.height - container.offsetHeight - cssBottom;
-            updateTargetPosition();
-        }, 100);
-        window.visualViewport.addEventListener('resize', updateTargetPosition);
-        window.visualViewport.addEventListener('scroll', updateTargetPosition);
-      }
     }
   };
 

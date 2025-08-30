@@ -1,54 +1,28 @@
 ---
 title: EasyWay从手机成瘾中解放出来
-date: 2025-08-09 21:13:00 +08:00
+date: 2025-08-09T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 本书运用著名的“轻松法”原理，助你摆脱数字成瘾。其核心是改变思维而非依赖意志力，通过揭示数字垃圾的成瘾真相，消除其带来快乐的幻觉，从而轻松重获自由。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
-aside: true
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
+aside: false
 ---
-
 > ##### Smart Phone Dumb Phone - Allen Carr - John Dicey
 >
 > ##### 从手机成瘾中解放出来 - 艾伦·卡尔 与 约翰·迪西 - 摘要
 >
 > 本书旨在运用艾伦·卡尔（Allen Carr）享誉全球的“轻松戒烟法”（Easyway）的原理，帮助读者摆脱数字成瘾，包括对智能手机、社交媒体和在线游戏的过度依赖。作者约翰·迪西（John Dicey）作为艾伦·卡尔中心的全球首席执行官和高级治疗师，结合自身成功戒烟的经历，将这一方法的精髓应用于解决数字成瘾这一现代社会日益严重的问题。
-> 
+>
 > 本书的核心观点是，摆脱数字成瘾的关键不在于意志力，而在于**改变你的思维方式**。它引导读者认识到，所谓的“数字垃圾”（Junk Apps）——那些让人上瘾但无益的应用和内容——并不能带来真正的快乐或慰藉，反而会制造空虚和焦虑。通过揭示科技公司精心设计的、利用人类心理弱点使人上瘾的“陷阱”，本书帮助读者消除对数字设备的错误认知和依赖心理。
-> 
+>
 > 书中将数字成瘾与尼古丁、可卡因等物质成瘾进行类比，指出它们在影响大脑、形成依赖方面具有惊人的相似性。作者提出了“小怪兽”（生理上的戒断反应）和“大怪兽”（心理上的依赖和被洗脑的观念）这两个概念，来解释成瘾的运作机制。戒除的关键在于“杀死大怪兽”——即彻底戳破“数字垃圾能带来愉悦”的幻觉。一旦这种幻觉被打破，戒除的欲望就会自然消失，整个过程将变得轻松、无痛且永久。
-> 
+>
 > 本书并非要读者完全弃用科技，而是要区分“有用”的工具和“有害”的垃圾，学会明智地、有意识地使用数字设备，而不是被其奴役。书中提供了一系列循序渐진的指示和实用的步骤，例如：识别并清理“数字垃圾”应用、关闭不必要的推送通知、设定“快乐时光”（Happy Hour）远离屏幕、重新发现现实生活中的乐趣等，最终帮助读者重新掌控自己的生活，享受没有数字成瘾的自由和快乐。
 
-## 目录
-
-* [关于艾伦·卡尔](#关于艾伦卡尔)
-* [引言](#引言)
-* [第一章：关键](#第一章关键)
-* [第二章：数字技术的好处](#第二章数字技术的好处)
-* [第三章：问题所在](#第三章问题所在)
-* [第四章：笼中之鼠](#第四章笼中之鼠)
-* [第五章：迈向自由的第一步](#第五章迈向自由的第一步)
-* [第六章：陷阱](#第六章陷阱)
-* [第七章：认清骗局](#第七章认清骗局)
-* [第八章：恐惧](#第八章恐惧)
-* [第九章：意志力](#第九章意志力)
-* [第十章：成瘾型人格理论](#第十章成瘾型人格理论)
-* [第十一章：如何上瘾](#第十一章如何上瘾)
-* [第十二章：关注你的数字时间](#第十二章关注你的数字时间)
-* [第十三章：数字困境](#第十三章数字困境)
-* [第十四章：行动时刻](#第十四章行动时刻)
-* [第十五章：你无所畏惧](#第十五章你无所畏惧)
-* [第十六章：准备戒除](#第十六章准备戒除)
-* [第十七章：逃离！](#第十七章逃离)
-* [第十八章：享受没有数字成瘾的生活](#第十八章享受没有数字成瘾的生活)
-* [第十九章：有用的提醒](#第十九章有用的提醒)
-* [最终指令](#最终指令)
-
----
+&nbsp;
 
 ## 关于艾伦·卡尔
 
@@ -665,4 +639,4 @@ aside: true
 
 ---
 
-<table><tbody><tr><td><img alt="Smart Phone Dumb Phone" width="120" src="/uploads/cover-smart-phone-dumb.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Smart%20Phone%20Dumb%20Phone" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=Smart%20Phone%20Dumb%20Phone" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=Smart%20Phone%20Dumb%20Phone" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Smart%20Phone%20Dumb%20Phone" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Smart+Phone+Dumb+Phone" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Smart+Phone+Dumb+Phone" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Smart%20Phone%20Dumb%20Phone" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="Smart Phone Dumb Phone" width="120" src="/uploads/cover-smart-phone-dumb.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=Smart%20Phone%20Dumb%20Phone" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=Smart%20Phone%20Dumb%20Phone" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=Smart%20Phone%20Dumb%20Phone" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=Smart%20Phone%20Dumb%20Phone" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Smart+Phone+Dumb+Phone" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Smart+Phone+Dumb+Phone" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Smart%20Phone%20Dumb%20Phone" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>

@@ -1,30 +1,22 @@
 ---
 title: 阿姜摩诃布瓦尊者：阿罗汉向·阿罗汉果
-date: 2025-08-17 10:10:00 +08:00
+date: 2025-08-17T10:10:00+08:00
 categories:
-- 高僧大德
-- 南传上座部佛法
-- 精选
+  - 高僧大德
+  - 南传上座部佛法
+  - 精选
 excerpt: 阿姜摩诃布瓦尊者毫无保留的实修指导与心路历程。
-feature_text: 
-feature_image: "/uploads/top_banner_sangha.jpg"
-aside: true
+feature_text:
+feature_image: /uploads/top_banner_sangha.jpg
+aside: false
 ---
-
 > ##### Arahattamagga Arahattaphala - The Path to Arahantship - Venerable Ācariya Mahā Boowa Ñāṇasampanno
 >
 > ##### 阿姜摩诃布瓦尊者：阿罗汉向·阿罗汉果——趋向阿罗汉之道 - 摘要
 >
 > 心本身才是真正的罪魁祸首。外在的因缘并未真正造成我们的苦，是心创造出来罢了。
 
-### 目录
-
-* [阿罗汉向：灭苦正道](#阿罗汉向灭苦正道)
-* [阿罗汉果：在法的震撼中流泪](#阿罗汉果在法的震撼中流泪)
-* [阿罗汉证：阿罗汉怎么会流泪？](#阿罗汉证阿罗汉怎么会流泪)
-* [附录：心——意识知道的根本特性](#附录心意识知道的根本特性)
-
----
+&nbsp;
 
 ### 阿罗汉向：灭苦正道
 

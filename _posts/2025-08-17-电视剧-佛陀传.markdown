@@ -7,6 +7,7 @@ categories:
 excerpt: 电视剧《佛陀》国语版全集在线观看，生动再现了佛陀的成长历程与慈悲智慧，将深刻的哲理融入剧情，许多对白都能启发人心，成为生命的智慧指南。
 feature_text: 
 feature_image: "/uploads/top_banner_tv_buddha.jpg"
+toc: false
 ---
 
 > 印度电视剧《佛陀》全集在线观看。本剧生动再现了佛陀的成长历程与慈悲智慧，将深刻的哲理融入剧情，许多对白都能启发人心，成为生命的智慧指南。

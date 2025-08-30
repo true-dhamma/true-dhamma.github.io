@@ -1,29 +1,21 @@
 ---
 title: 我们真正的家
-date: 2025-08-17 10:10:00 +08:00
+date: 2025-08-17T10:10:00+08:00
 categories:
-- 生老病死
-- 南传上座部佛法
+  - 生老病死
+  - 南传上座部佛法
 excerpt: 一位伟大的禅师教导我们如何用智慧与平静，来面对衰老、病痛与死亡的终极真相。
-feature_text: 
-feature_image: "/uploads/top_banner_dhamma.jpg"
-aside: true
+feature_text:
+feature_image: /uploads/top_banner_dhamma.jpg
+aside: false
 ---
-
 > ##### Our Real Home - Ajahn Chah Subhaddo
 >
 > ##### 我们真正的家 - 阿姜查尊者
 >
 > 我们真正的家是内心的平静。外在的家，虽然美好，但并不安宁——它终究不是我们真正的家，只是世间的一部分。
 
-### 目录
-
-* [阿姜查尊者简介](#阿姜查尊者简介)
-* [译者记](#译者记)
-* [编者记](#编者记)
-* [我们真正的家](#我们真正的家)
-
----
+&nbsp;
 
 ### 阿姜查尊者简介
 

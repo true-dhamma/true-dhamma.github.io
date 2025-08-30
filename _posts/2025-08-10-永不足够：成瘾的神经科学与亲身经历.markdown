@@ -1,39 +1,23 @@
 ---
 title: 永不足够：成瘾的神经科学与亲身经历
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
-- 精选
+  - 心理学
+  - 精选
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 大脑对药物的反应，永远是促成与药物效果相反的状态。所有快感的背后，都有一张必须偿还的账单。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
-aside: true
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
+aside: false
 ---
-
 > ##### Never Enough: The Neuroscience and Experience of Addiction - Judith Grisel
 >
 > ##### 永不足够：成瘾的神经科学与亲身经历 - 朱迪斯·格里塞尔 - 摘要
 >
 > 一位曾经的瘾君子、如今的神经科学家，为你揭示大脑如何将寻求快乐的本能，一步步扭曲为无法摆脱的痛苦枷锁。
 
-### 目录
-
-* [引言](#引言)
-* [第一章：大脑的食粮](#第一章大脑的食粮)
-* [第二章：适应](#第二章适应)
-* [第三章：一个显著的例子：THC](#第三章一个显著的例子thc)
-* [第四章：编织梦境：阿片类药物](#第四章编织梦境阿片类药物)
-* [第五章：大锤：酒精](#第五章大锤酒精)
-* [第六章：镇静剂：安眠药](#第六章镇静剂安眠药)
-* [第七章：提神剂：兴奋剂](#第七章提神剂兴奋剂)
-* [第八章：此刻看得更清：致幻剂](#第八章此刻看得更清致幻剂)
-* [第九章：有志者事竟成：其他被滥用的药物](#第九章有志者事竟成其他被滥用的药物)
-* [第十章：为什么是我？](#第十章为什么是我)
-* [第十一章：解决成瘾问题](#第十一章解决成瘾问题)
-
----
+&nbsp;
 
 ## 引言
 
@@ -304,7 +288,33 @@ aside: true
 
 阿片类药物的戒断症状与药物的急性效果**完全相反**：
 
-<table><thead><tr><td><p><th style="text-align: left">阿片类药物效果</th>       <th style="text-align: left">戒断症状</th>     </p></td></tr></thead><tbody><tr><td><p><td style="text-align: left">镇痛</td>       <td style="text-align: left">疼痛</td>     </p></td></tr><tr><td><p><td style="text-align: left">呼吸抑制</td>       <td style="text-align: left">喘息、打哈欠</td>     </p></td></tr><tr><td><p><td style="text-align: left">欣快</td>       <td style="text-align: left">烦躁、抑郁</td>     </p></td></tr><tr><td><p><td style="text-align: left">放松、嗜睡</td>       <td style="text-align: left">躁动、失眠</td>     </p></td></tr><tr><td><p><td style="text-align: left">镇静</td>       <td style="text-align: left">恐惧、敌意</td>     </p></td></tr><tr><td><p><td style="text-align: left">血压降低</td>       <td style="text-align: left">血压升高</td>     </p></td></tr><tr><td><p><td style="text-align: left">便秘</td>       <td style="text-align: left">腹泻</td>     </p></td></tr><tr><td><p><td style="text-align: left">瞳孔收缩</td>       <td style="text-align: left">瞳孔放大</td>     </p></td></tr><tr><td><p><td style="text-align: left">体温降低</td>       <td style="text-align: left">体温升高</td>     </p></td></tr><tr><td><p><td style="text-align: left">分泌物减少</td>       <td style="text-align: left">流泪、流鼻涕</td>     </p></td></tr><tr><td><p><td style="text-align: left">性欲减退</td>       <td style="text-align: left">自发性高潮</td>     </p></td></tr><tr><td><p><td style="text-align: left">皮肤潮红温暖</td>       <td style="text-align: left">寒战、鸡皮疙瘩</td>     </p></td></tr></tbody></table>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<table><thead><tr><td><p></p></td><td><p><th style="text-align: left">阿片类药物效果</th><th style="text-align: left">戒断症状</th></p></td></tr></thead><tbody><tr><td><p></p></td><td><p><td style="text-align: left">镇痛</td><td style="text-align: left">疼痛</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">呼吸抑制</td><td style="text-align: left">喘息、打哈欠</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">欣快</td><td style="text-align: left">烦躁、抑郁</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">放松、嗜睡</td><td style="text-align: left">躁动、失眠</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">镇静</td><td style="text-align: left">恐惧、敌意</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">血压降低</td><td style="text-align: left">血压升高</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">便秘</td><td style="text-align: left">腹泻</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">瞳孔收缩</td><td style="text-align: left">瞳孔放大</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">体温降低</td><td style="text-align: left">体温升高</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">分泌物减少</td><td style="text-align: left">流泪、流鼻涕</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">性欲减退</td><td style="text-align: left">自发性高潮</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">皮肤潮红温暖</td><td style="text-align: left">寒战、鸡皮疙瘩</td></p></td></tr></tbody></table>
 
 ### 偿还代价
 

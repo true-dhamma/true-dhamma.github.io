@@ -1,4 +1,3 @@
----
 title: True Dhamma
 timezone: Asia/Shanghai
 collections:
@@ -29,6 +28,7 @@ defaults:
     layout: post
     feature_image: "/uploads/top_banner_blog.jpg"
     toc: true
+    aside: false
 - scope:
     path: ''
     type: buddhadhamma

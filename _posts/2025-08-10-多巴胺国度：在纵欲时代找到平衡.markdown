@@ -1,48 +1,26 @@
 ---
 title: 多巴胺国度：在纵欲时代找到平衡
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
-- 精选
+  - 心理学
+  - 精选
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 在这个充满诱惑的时代，一位精神病学家揭示了快乐与痛苦的惊人联系，并为我们如何在过度沉溺中恢复平衡提供了实用指南。
-feature_image: "/uploads/top_banner_addiction.jpg"
-aside: true
+feature_image: /uploads/top_banner_addiction.jpg
+aside: false
 ---
-
 > ##### Dopamine Nation: Finding Balance in the Age of Indulgence - Anna Lembke
 >
 > ##### 多巴胺国度：在纵欲时代找到平衡 - 安娜·莱姆克 - 摘要
 >
 > 在这个充满诱惑的时代，一位精神病学家揭示了快乐与痛苦的惊人联系，并为我们如何在过度沉溺中恢复平衡提供了实用指南。
 
----
+&nbsp;
 
 {% include video.html url="https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/%E8%A7%86%E9%A2%91/How_to_Find_Balance_in_the_Age_of_Indulgence-Dr.%20Anna_Lembke.mp4" %}
 
 原始视频：[https://www.youtube.com/watch?v=aEfkx3DsXjs](https://www.youtube.com/watch?v=aEfkx3DsXjs){: target="_blank" rel="noopener"}
-
----
-
-### 目录
-
-* [引言：我们面临的问题](#引言我们面临的问题)
-* [第一部分：追求快乐](#第一部分追求快乐)
-  * [第一章：我们的自慰机器](#第一章我们的自慰机器)
-  * [第二章：逃离痛苦](#第二章逃离痛苦)
-  * [第三章：快乐与痛苦的平衡](#第三章快乐与痛苦的平衡)
-* [第二部分：自我约束](#第二部分自我约束)
-  * [第四章：多巴胺斋戒](#第四章多巴胺斋戒)
-  * [第五章：空间、时间和意义](#第五章空间时间和意义)
-  * [第六章：失衡的天平？](#第六章失衡的天平)
-* [第三部分：追求痛苦](#第三部分追求痛苦)
-  * [第七章：按压痛苦那一端](#第七章按压痛苦那一端)
-  * [第八章：彻底的诚实](#第八章彻底的诚实)
-  * [第九章：有益的羞耻](#第九章有益的羞耻)
-* [结论：天平的启示](#结论天平的启示)
-
----
 
 ### 引言：我们面临的问题
 

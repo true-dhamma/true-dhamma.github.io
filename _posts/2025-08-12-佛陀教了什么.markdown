@@ -1,34 +1,21 @@
 ---
 title: 佛陀教了什么
-date: 2025-08-12 10:10:00 +08:00
+date: 2025-08-12T10:10:00+08:00
 categories:
-- 巴利圣典
-- 西方世界的佛法
+  - 巴利圣典
+  - 西方世界的佛法
 excerpt: 拨开宗教的迷雾，直探佛陀教义的理性核心，一部为现代人撰写的佛学入门经典。
-feature_text: 
-feature_image: "/uploads/top_banner_tipitaka.jpg"
-aside: true
+feature_text:
+feature_image: /uploads/top_banner_tipitaka.jpg
+aside: false
 ---
-
 > ##### What the Buddha Taught - Walpola Rahula
 >
 > ##### 佛陀教了什么 - 罗睺罗·化普乐
 >
 > 西方世界的佛法：拨开宗教的迷雾，直探佛陀教义的理性核心，一部为现代人撰写的佛学入门经典。
 
-### 目录
-
-* [佛陀简介](#佛陀简介)
-* [第一章 佛教的心态](#第一章-佛教的心态)
-* [第二章 第一圣谛：苦谛（Dukkha）](#第二章-第一圣谛苦谛dukkha)
-* [第三章 第二圣谛：集谛（Samudaya），苦之生起](#第三章-第二圣谛集谛samudaya苦之生起)
-* [第四章 第三圣谛：灭谛（Nirodha），苦之止息](#第四章-第三圣谛灭谛nirodha苦之止息)
-* [第五章 第四圣谛：道谛（Magga），灭苦之道](#第五章-第四圣谛道谛magga灭苦之道)
-* [第六章 无我之教义：无我（Anatta）](#第六章-无我之教义无我anatta)
-* [第七章 “禅修”或心智的培育：修行（Bhāvanā）](#第七章-禅修或心智的培育修行bhāvanā)
-* [第八章 佛陀的教诲与今日世界](#第八章-佛陀的教诲与今日世界)
-
----
+&nbsp;
 
 ### 佛陀简介
 

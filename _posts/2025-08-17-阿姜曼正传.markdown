@@ -1,22 +1,22 @@
 ---
 title: 阿姜曼正传
-date: 2025-08-17 11:10:00 +08:00
+date: 2025-08-17T11:10:00+08:00
 categories:
-- 高僧大德
-- 南传上座部佛法
-- 精选
+  - 高僧大德
+  - 南传上座部佛法
+  - 精选
 excerpt: 探索一位现代阿罗汉的非凡人生，他的苦行与教导，为无数众生点亮了通往解脱的明灯。
-feature_text: 
-feature_image: "/uploads/top_banner_sangha.jpg"
-aside: 
+feature_text:
+feature_image: /uploads/top_banner_sangha.jpg
+aside:
 ---
-
 > ##### Ācariya Mun Bhūridatta Thera - Ācariya Mahā Boowa
 >
 > ##### 阿姜曼正传 - 阿姜摩诃布瓦尊者 - 摘要
 >
 > 人类的心灵价值若先毁灭，世界才会跟着毁灭。当心灵价值堕落，人类所作的一切都将是摧毁世界与正法。
 
+&nbsp;
 
 ### 中译者序
 

@@ -1,44 +1,22 @@
 ---
 title: 欲罢不能：刷屏时代如何摆脱行为上瘾
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
+  - 心理学
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 上瘾体验有六大要素，如不可预知的反馈和未完成的紧张感，并提供了实用的策略，帮助我们在刷屏时代重获生活掌控权。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
-aside: true
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
+aside: false
 ---
-
 > ##### Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked - Adam Alter
 >
 > ##### 欲罢不能：刷屏时代如何摆脱行为上瘾 - 亚当·奥尔特 - 摘要
 >
 > 这本书剖析了技术如何精心设计，利用心理弱点让我们行为上瘾，并提供了实用的策略，帮助我们在刷屏时代重获生活掌控权。
 
-### 目录
-
-* [楔子　令人上瘾的时代](#楔子令人上瘾的时代)
-* [第一部分　行为上瘾是什么](#第一部分行为上瘾是什么)
-  * [第1章　行为上瘾的兴起](#第1章行为上瘾的兴起)
-  * [第2章　我们所有人的心瘾](#第2章我们所有人的心瘾)
-  * [第3章　行为上瘾的生物学机制](#第3章行为上瘾的生物学机制)
-* [第二部分　上瘾体验是如何设计出来的](#第二部分上瘾体验是如何设计出来的)
-  * [第4章　诱人的目标](#第4章诱人的目标)
-  * [第5章　不可抗拒的积极反馈](#第5章不可抗拒的积极反馈)
-  * [第6章　毫不费力的进步](#第6章毫不费力的进步)
-  * [第7章　逐渐升级的挑战](#第7章逐渐升级的挑战)
-  * [第8章　未完成的紧张感](#第8章未完成的紧张感)
-  * [第9章　令人痴迷的社会互动](#第9章令人痴迷的社会互动)
-* [第三部分　如何远离行为上瘾](#第三部分如何远离行为上瘾)
-  * [第10章　让孩子远离行为上瘾](#第10章让孩子远离行为上瘾)
-  * [第11章　改变习惯和行为构建](#第11章改变习惯和行为构建)
-* [第四部分　用行为上瘾做好事](#第四部分用行为上瘾做好事)
-  * [第12章　游戏化](#第12章游戏化)
-* [尾声　不上瘾，我们能做到](#尾声不上瘾我们能做到)
-
----
+&nbsp;
 
 ## 楔子　令人上瘾的时代
 
@@ -280,4 +258,4 @@ Instagram之所以能击败功能相似的Hipstamatic，关键在于它内置了
 
 ---
 
-<table><tbody><tr><td><img alt="Irresistible" width="120" src="/uploads/cover-irresistible.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E6%AC%B2%E7%BD%A2%E4%B8%8D%E8%83%BD" target="_blank">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E6%AC%B2%E7%BD%A2%E4%B8%8D%E8%83%BD" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=%E6%AC%B2%E7%BD%A2%E4%B8%8D%E8%83%BD" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E6%AC%B2%E7%BD%A2%E4%B8%8D%E8%83%BD" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Irresistible" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Irresistible" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Irresistible" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="Irresistible" width="120" src="/uploads/cover-irresistible.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E6%AC%B2%E7%BD%A2%E4%B8%8D%E8%83%BD" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=%E6%AC%B2%E7%BD%A2%E4%B8%8D%E8%83%BD" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=%E6%AC%B2%E7%BD%A2%E4%B8%8D%E8%83%BD" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E6%AC%B2%E7%BD%A2%E4%B8%8D%E8%83%BD" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Irresistible" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Irresistible" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Irresistible" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>

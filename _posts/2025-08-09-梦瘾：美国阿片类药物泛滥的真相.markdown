@@ -1,22 +1,23 @@
 ---
 title: 梦瘾：美国阿片类药物泛滥的真相
-date: 2025-08-09 21:13:00 +08:00
+date: 2025-08-09T21:13:00+08:00
 categories:
-- 心理学
-- 精选
+  - 心理学
+  - 精选
 tags:
-- 成瘾
+  - 成瘾
 excerpt: 本书揭示美国阿片危机的两条主线：制药公司营销的止痛药制造了成瘾潮，而墨西哥贩毒网络则送来廉价海洛因。二者的致命交汇在美国引发了一场毁灭性的成瘾灾难。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
-aside: true
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
+aside: false
 ---
-
-> ##### Dreamland: The True Tale of America's Opiate Epidemic - Sam Quinones
+> ##### Dreamland: The True Tale of America’s Opiate Epidemic - Sam Quinones
 >
 > ##### **梦瘾：美国阿片类药物泛滥的真相 -** 山姆·昆诺斯 **\- 摘要**
 >
 > 本书揭示美国阿片危机的两条主线：制药公司营销的止痛药制造了成瘾潮，而墨西哥贩毒网络则送来廉价海洛因。二者的致命交汇在美国引发了一场毁灭性的成瘾灾难。
+
+&nbsp;
 
 ### 本书中大事件时间表
 
@@ -37,78 +38,7 @@ aside: true
 * **2008年**：在美国，药物过量（尤其是阿片类药物）首次超过车祸，成为意外死亡的主要原因。
 * **2014年**：演员菲利普·西摩·霍夫曼因过量使用阿片类药物去世，使这场危机及从止痛药转向海洛因的现象引起全国广泛关注。
 
-## 目录
-
-* [前言](#前言)
-* [导言](#导言)
-* [第一部分](#第一部分)
-  * [1．恩里克](#1恩里克)
-  * [2．吉克医生的信](#2吉克医生的信)
-  * [3．都是老乡](#3都是老乡)
-  * [4．阿巴拉契亚的李伯拉斯](#4阿巴拉契亚的李伯拉斯)
-  * [5．广告人](#5广告人)
-  * [6．恩里克发迹](#6恩里克发迹)
-  * [7．分子](#7分子)
-  * [8．像送批萨一样送货](#8像送批萨一样送货)
-  * [9．恩里克只能靠自己](#9恩里克只能靠自己)
-  * [10．罂粟](#10罂粟)
-  * [11．比种甘蔗容易](#11比种甘蔗容易)
-  * [12．打个电话就来了](#12打个电话就来了)
-  * [13．漂泊的恩里克](#13漂泊的恩里克)
-  * [14．寻找圣杯](#14寻找圣杯)
-  * [15．疼痛难忍](#15疼痛难忍)
-  * [16．疼痛与职业摔跤手](#16疼痛与职业摔跤手)
-  * [17．神秘人](#17神秘人)
-  * [18．一场革命](#18一场革命)
-  * [19．都是为了501型牛仔裤](#19都是为了501型牛仔裤)
-  * [20．里程碑式的研究](#20里程碑式的研究)
-  * [21．恩里克的救赎](#21恩里克的救赎)
-  * [22．我们意识到这是公司](#22我们意识到这是公司)
-  * [23．普渡制药](#23普渡制药)
-  * [24．神秘人与纳亚里特州](#24神秘人与纳亚里特州)
-  * [25．和奥施康定一起摇摆](#25和奥施康定一起摇摆)
-  * [26．神秘人回家](#26神秘人回家)
-  * [27．奥施康定是什么？](#27奥施康定是什么)
-  * [28．偏僻之地的贩毒家族](#28偏僻之地的贩毒家族)
-  * [29．李伯拉斯开路](#29李伯拉斯开路)
-  * [30．神秘人在腹地](#30神秘人在腹地)
-  * [31．尸体是案子的关键](#31尸体是案子的关键)
-  * [32．恩里克当老板](#32恩里克当老板)
-  * [33．海洛因就像汉堡](#33海洛因就像汉堡)
-  * [34．“焦油坑行动”](#34焦油坑行动)
-* [第二部分](#第二部分)
-  * [35．两千年前的问题](#35两千年前的问题)
-  * [36．碰撞：零地带](#36碰撞零地带)
-  * [37．煤矿里的金丝雀](#37煤矿里的金丝雀)
-  * [38．一个月50、100个病例](#38一个月50100个病例)
-  * [39．“梦之地”的瘾君子王国](#39梦之地的瘾君子王国)
-  * [40．刑事诉讼](#40刑事诉讼)
-  * [41．“接管奥施康定地带”](#41接管奥施康定地带)
-  * [42．最后的便利](#42最后的便利)
-  * [43．山雨欲来](#43山雨欲来)
-  * [44．五旬节派的虔信，疯狂的抓痕](#44五旬节派的虔信疯狂的抓痕)
-  * [45．“我们带起了这波流行”](#45我们带起了这波流行)
-  * [46．药物过量致死比车祸更甚](#46药物过量致死比车祸更甚)
-  * [47．一位职业摔跤手的遗产](#47一位职业摔跤手的遗产)
-  * [48．成为海洛因贩子的大好时机](#48成为海洛因贩子的大好时机)
-  * [49．刑事案件](#49刑事案件)
-* [第三部分](#第三部分)
-  * [50．“现在轮到你邻居的孩子了”](#50现在轮到你邻居的孩子了)
-  * [51．就像烟草公司的高管](#51就像烟草公司的高管)
-  * [52．没有疤面人，没有大头目](#52没有疤面人没有大头目)
-  * [53．父母的摧心之痛](#53父母的摧心之痛)
-* [第四部分](#第四部分)
-  * [54．美国](#54美国)
-  * [55．你就是你的药](#55你就是你的药)
-  * [56．毒品界的互联网](#56毒品界的互联网)
-  * [57．没人能凭一己之力做到](#57没人能凭一己之力做到)
-* [第五部分](#第五部分)
-  * [58．瓦砾中成长](#58瓦砾中成长)
-* [后记](#后记)
-* [致谢](#致谢)
-* [关于消息来源的说明](#关于消息来源的说明)
-
----
+&nbsp;
 
 ## 前言
 
@@ -621,4 +551,4 @@ aside: true
 
 ---
 
-<table><tbody><tr><td><img alt="Dreamland" width="120" src="/uploads/cover-dreamland.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E6%A2%A6%E7%98%BE" target="_blank">[当当]</a> <a href="httpshttps://search.jd.com/Search?keyword=%E6%A2%A6%E7%98%BE" target="_blank">[京东]</a> <a href="https://s.taobao.com/search?q=%E6%A2%A6%E7%98%BE" target="_blank">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E6%A2%A6%E7%98%BE" target="_blank">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Dreamland" target="_blank">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Dreamland" target="_blank">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Dreamland" target="_blank">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="Dreamland" width="120" src="/uploads/cover-dreamland.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=%E6%A2%A6%E7%98%BE" target="_blank" rel="noopener">[当当]</a> <a href="httpshttps://search.jd.com/Search?keyword=%E6%A2%A6%E7%98%BE" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=%E6%A2%A6%E7%98%BE" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=%E6%A2%A6%E7%98%BE" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=Dreamland" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=Dreamland" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=Dreamland" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>

@@ -9,6 +9,7 @@ excerpt: 一种轻松实现理想体重的方法，让你理解自然的饮食�
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: true
+toc: false
 ---
 
 > ##### Allen Carr's No More Diets - Allen Carr
