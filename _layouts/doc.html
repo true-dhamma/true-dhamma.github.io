@@ -76,12 +76,6 @@ layout: default
 {%- endcapture %}
 
 <style>
-  /***********************************************************************
-   * --- MODIFICATION: CSS has been greatly simplified ---
-   * All rules related to `.placeholder-toc` have been removed.
-   * The layout is now simpler and more robust.
-   ***********************************************************************/
-
   /* --- Base Doc Layout (unchanged) --- */
   @media screen and (min-width: 768px) {
     .main.container--doc { display: flex; gap: 2em; max-width: 960px; margin: 0 auto; align-items: flex-start; }
@@ -91,8 +85,6 @@ layout: default
   @media screen and (min-width: 1200px) {
     .main.container--doc { max-width: 1440px; gap: 2.5em; justify-content: center; }
     .article--doc { flex-grow: 1; flex-basis: auto; max-width: 800px; }
-    /* This rule now applies to the right aside, which is always present in the HTML if page.toc=true */
-    /* The JS from content-toc.html will control its `display` property */
     .content-toc-right-wrapper { 
       flex: 0 0 260px; 
       position: sticky; 
@@ -105,8 +97,20 @@ layout: default
   @media screen and (min-width: 1800px) {
     .main.container--doc { max-width: 2200px; width: 90%; justify-content: space-between; }
     .article--doc { flex: 0 0 800px; }
-    /* We just need to adjust the width for the ultra-wide screen */
-    .content-toc-right-wrapper { flex: 0 0 280px; }
+    .content-toc-right-wrapper { 
+      flex-basis: 280px; 
+      
+      /***********************************************************************
+       * --- MODIFICATION STARTS HERE ---
+       *
+       * 这条规则是本次修改的核心。
+       * 它强制在超宽屏幕下，右侧的TOC容器始终可见并占据布局空间。
+       * 这可以防止页面加载时因JS延迟执行而导致的布局跳动。
+       * `!important` 确保此规则能覆盖来自 content-toc.html 的 `display: none` 样式。
+       *
+       ***********************************************************************/
+      display: block !important;
+    }
   }
   
   /* --- Doc Navigation System Styles (unchanged) --- */
@@ -122,7 +126,6 @@ layout: default
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
 </button>
 
-<!-- MODIFICATION: Removed complex class logic from main tag -->
 <main class="main container container--doc layout-doc">
   <aside class="doc-nav-container">
     <div class="doc-nav-header">
@@ -138,7 +141,6 @@ layout: default
 
   <article id="doc-content" class="article article--doc content typeset js-toc-content">
     {%- if page.toc -%}
-    <!-- MODIFICATION: Middle TOC container is now always generated if page.toc is true -->
     <div id="toc-middle-container" class="toc-middle-container">
       <h3 class="toc-title">Index</h3>
       <div class="js-toc-middle"></div>
@@ -148,8 +150,6 @@ layout: default
   </article>
 
   {%- if page.toc -%}
-  <!-- MODIFICATION: Right TOC wrapper is now always generated if page.toc is true -->
-  <!-- The placeholder logic is completely gone. -->
   <aside class="content-toc-right-wrapper">
     <div id="toc-right-container">
       <h3 class="toc-title">Index</h3>
