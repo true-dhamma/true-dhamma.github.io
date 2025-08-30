@@ -3,7 +3,7 @@ title: True Dhamma
 timezone: Asia/Shanghai
 collections:
   buddhadhamma:
-    title: Buddhadhamma
+    title: Buddhadhamma (P.A.Payutto)
     output: true
     permalink: "/:collection/:name.html"
   posts:
