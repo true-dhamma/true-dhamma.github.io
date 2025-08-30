@@ -14,13 +14,15 @@
       </li>
     {% endfor %}
 
-    <!-- 添加 Language 开关 -->
+    <!-- 添加 Language和暗黑模式 开关 -->
     <li class="item  item--nav">
       <a href="#" onclick="window.toggleGTranslateVisibility(); return false;" title="Language">
         {% include icon.html id="language" width="22" height="22" title="Language" %}
       </a>
+      &nbsp; 
+      <div id="darkmode-placeholder"></div>
     </li>
-    <!-- Language 开关结束 -->
+    <!-- Language和暗黑模式 开关结束 -->
 
   </ul>
   <button class="button  button--nav" aria-label="Menu toggle">
@@ -61,3 +63,4 @@
     collapseNav()
   })
 </script>
+

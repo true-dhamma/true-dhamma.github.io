@@ -174,8 +174,7 @@ body {
 
 // Lists
 .list {
-  list-style: none;  // 注释掉这行
-  // list-style-position: inside; // 将圆点放在文本块内部
+  list-style: none;
   &--nav {
     overflow: hidden;
     margin-bottom: var(--listHeight, 0);
@@ -445,6 +444,23 @@ pre code {
       margin: 0;
     }
   }
+
+  // Modified by Kevin - Start
+  // 解决了列表项符号（如小圆点）、换行对齐以及块引用（blockquote）的样式问题
+  ul, ol {
+    // 使用 padding-left 来为列表标记（如圆点）创建空间。
+    // list-style-position 的默认值 'outside' 会将标记放置在此内边距区域中。
+    // 这样，当列表项的文本换行时，后续行会与第一行文本的起始位置对齐，从而形成“悬挂缩进”效果。
+    padding-left: 1.5rem; // Modified by Kevin
+  }
+
+  blockquote {
+    margin-left: 0; // 移除默认的左外边距，使块引用的边界与文本对齐
+    padding-left: 1rem; // 在左侧边框和文本之间添加一些空间
+    border-left: 4px solid #e0e0e0; // 添加装饰性的左侧竖线。颜色可根据主题调整。
+  }
+  // Modified by Kevin - End
+
   .nav a {
     padding-left: 0;
     padding-right: 0;

@@ -123,7 +123,11 @@ layout: default
       <div class="js-toc-middle"></div>
     </div>
     {%- endif -%}
+    
     {{ content }}
+
+    {% include nav-share.html %}
+
   </article>
 
   <aside class="content-toc-right-wrapper">
