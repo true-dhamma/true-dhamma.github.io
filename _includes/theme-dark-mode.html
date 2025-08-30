@@ -47,6 +47,13 @@
         opacity: 0.8;
       }
       
+      /* 【新增代码】全屏视频特殊处理：移除恢复滤镜，避免被单独反转 */
+      .nightowl-dark video:fullscreen,
+      .nightowl-dark video:-webkit-full-screen { /* 兼容旧版Chrome/Safari */
+        filter: none;
+        opacity: 1;
+      }
+      
       /* 还原.feature区：抵消body滤镜，恢复原色并调暗 */
       .nightowl-dark .feature {
         filter: invert(100%) hue-rotate(180deg);
