@@ -1,13 +1,23 @@
-<!-- 暗色模式功能代码开始 (v2) -->
+<!-- 暗色模式功能代码开始 (v2) - 放在 </body> 前 -->
 <script>
 (function() {
+  /*
+    重要提示：
+    为防止加载页面时出现“白屏闪烁”，请将以下<script>代码块
+    作为一个独立的<script>标签，放置在网站site-header.html内。
+
+    <!-- 防止暗色模式闪烁脚本开始 (请放置在<head>标签内) -->
+    <script>(function(){const s="nightowl-color-scheme",t="dark";try{const e=localStorage.getItem(s);e===t&&document.documentElement.classList.add("nightowl-dark")}catch(e){}})();<\/script>
+    <!-- 防止暗色模式闪烁脚本结束 -->
+  */
+
   // --- 常量和变量定义 ---
   const STORAGE_KEY = "nightowl-color-scheme";
   const LIGHT_THEME = "light";
   const DARK_THEME = "dark";
   
   let localStorageAvailable = false;
-  let currentTheme = LIGHT_THEME; // 默认主题
+  let currentTheme;
 
   // 尝试访问 localStorage
   try {
@@ -47,7 +57,7 @@
         opacity: 0.8;
       }
       
-      /* 【新增代码】全屏视频特殊处理：移除恢复滤镜，避免被单独反转 */
+      /* 全屏视频特殊处理：移除恢复滤镜，避免被单独反转 */
       .nightowl-dark video:fullscreen,
       .nightowl-dark video:-webkit-full-screen { /* 兼容旧版Chrome/Safari */
         filter: none;
@@ -87,62 +97,36 @@
    * 2. 应用暗色模式
    */
   function setDarkTheme() {
-    currentTheme = DARK_THEME;
-    const html = document.querySelector("html");
-    if (html) {
-      html.classList.remove("nightowl-light");
-      html.classList.add("nightowl-dark");
-    }
+    const html = document.documentElement;
+    html.classList.remove("nightowl-light");
+    html.classList.add("nightowl-dark");
   }
 
   /**
    * 3. 应用亮色模式
    */
   function setLightTheme() {
-    currentTheme = LIGHT_THEME;
-    const html = document.querySelector("html");
-    if (html) {
-      html.classList.remove("nightowl-dark");
-      html.classList.add("nightowl-light");
-    }
-  }
-  
-  /**
-   * 4. 根据当前主题状态应用样式
-   */
-  function applyTheme() {
-    if (currentTheme === DARK_THEME) {
-      setDarkTheme();
-    } else {
-      setLightTheme();
-    }
+    const html = document.documentElement;
+    html.classList.remove("nightowl-dark");
+    html.classList.add("nightowl-light");
   }
   
   /**
    * 5. 切换主题
    */
   function toggleTheme() {
-    currentTheme = (currentTheme === DARK_THEME) ? LIGHT_THEME : DARK_THEME;
-    applyTheme();
+    const isDark = document.documentElement.classList.contains('nightowl-dark');
+    currentTheme = isDark ? LIGHT_THEME : DARK_THEME;
+
+    if (currentTheme === DARK_THEME) {
+      setDarkTheme();
+    } else {
+      setLightTheme();
+    }
+    
     saveThemeState();
   }
 
-  /**
-   * 6. 从本地存储中读取主题偏好
-   */
-  function loadInitialTheme() {
-    if (!localStorageAvailable) return;
-    
-    try {
-      const savedTheme = localStorage.getItem(STORAGE_KEY);
-      if (savedTheme && [DARK_THEME, LIGHT_THEME].includes(savedTheme)) {
-        currentTheme = savedTheme;
-      }
-    } catch (e) {
-      console.error("Failed to read theme from localStorage.", e);
-    }
-  }
-  
   /**
    * 7. 保存当前主题状态到本地存储
    */
@@ -162,12 +146,8 @@
 
   // 页面加载完成后执行
   document.addEventListener("DOMContentLoaded", () => {
-    // 注入样式
+    // 只需注入样式和绑定事件，初始主题已由<head>脚本设置
     addNightOwlStyles();
-    
-    // 加载用户偏好并应用主题
-    loadInitialTheme();
-    applyTheme();
     
     // 为主题切换开关绑定点击事件
     const darkModeSwitcher = document.getElementById("darkmode-switch");
