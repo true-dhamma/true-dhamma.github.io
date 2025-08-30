@@ -83,7 +83,7 @@ layout: default
 {%- endcapture %}
 
 <style>
-  /* --- All CSS is unchanged --- */
+  /* --- Base Doc Layout (unchanged) --- */
   @media screen and (min-width: 768px) {
     .main.container--doc { display: flex; gap: 2em; max-width: 960px; margin: 0 auto; align-items: flex-start; }
     .article--doc { flex: 1 1 auto; min-width: 0; }
@@ -99,19 +99,31 @@ layout: default
       overflow-y: auto;
     }
   }
+
+  /* --- MODIFICATION STARTS HERE --- */
+  /* 新逻辑: 默认显示占位符，并为其设置好在超宽屏下应有的样式 */
   .placeholder-toc {
-    display: none;
+    display: block;
+    flex: 0 0 280px;
   }
+  
+  /* 新逻辑: 当屏幕宽度小于1800px时，隐藏占位符 */
+  @media screen and (max-width: 1799.98px) {
+    .placeholder-toc {
+      display: none;
+    }
+  }
+  /* --- MODIFICATION ENDS HERE --- */
+
   @media screen and (min-width: 1800px) {
     .main.container--doc { max-width: 2200px; width: 90%; justify-content: space-between; }
     .article--doc { flex: 0 0 800px; }
     .main.container--doc .content-toc-right-wrapper { flex: 0 0 280px; }
-    .main.container--doc:not(.has-right-toc) .placeholder-toc {
-      display: block;
-      flex: 0 0 280px;
-      content: '';
-    }
+    
+    /* 之前的 .placeholder-toc 显示规则已被移除，因为现在是默认显示 */
   }
+  
+  /* --- Doc Navigation System Styles (unchanged) --- */
   body.doc-nav-open { overflow: hidden; }
   #doc-content { scroll-margin-top: 2rem; }
   .doc-nav-fab { position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; background-color: #2c3e50; color: white; border-radius: 50%; border: none; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; transition: transform 0.2s ease-in-out; }
