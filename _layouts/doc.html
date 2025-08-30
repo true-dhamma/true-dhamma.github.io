@@ -11,36 +11,6 @@ layout: default
 {%- for chapter in doc_chapters -%}{%- if chapter.url == page.url -%}{%- assign page_title_from_data = chapter.title -%}{% break %}{% endif -%}{%- if chapter.subitems -%}{%- for subitem in chapter.subitems -%}{%- if subitem.url == page.url -%}{%- assign page_title_from_data = subitem.title -%}{% break %}{% endif -%}{%- if subitem.subitems -%}{%- for subsubitem in subitem.subitems -%}{%- if subsubitem.url == page.url -%}{%- assign page_title_from_data = subsubitem.title -%}{% break %}{% endif -%}{%- if subsubitem.subitems -%}{%- for subsubsubitem in subsubitem.subitems -%}{%- if subsubsubitem.url == page.url -%}{%- assign page_title_from_data = subsubsubitem.title -%}{% break %}{% endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}{%- if page_title_from_data != "" %}{% break %}{% endif %}{%- endif -%}{%- endfor -%}
 {%- assign page_title_to_display = page_title_from_data | default: page.title | default: "Untitled" -%}
 
-{%- comment %}
-  ============================================================================
-  --- NEW: Prefetching Logic for Instant Navigation ---
-  This block injects prefetch links into the page's <head>.
-  It uses the same looping logic as the navigation menu to gather all URLs
-  from the current "book" and tells the browser to fetch them in the background.
-  ============================================================================
-{%- endcomment %}
-{%- content_for head -%}
-  {%- for item_l1 in doc_chapters -%}
-    <link rel="prefetch" href="{{ item_l1.url | relative_url }}" as="document">
-    {%- if item_l1.subitems -%}
-      {%- for item_l2 in item_l1.subitems -%}
-        <link rel="prefetch" href="{{ item_l2.url | relative_url }}" as="document">
-        {%- if item_l2.subitems -%}
-          {%- for item_l3 in item_l2.subitems -%}
-            <link rel="prefetch" href="{{ item_l3.url | relative_url }}" as="document">
-            {%- if item_l3.subitems -%}
-              {%- for item_l4 in item_l3.subitems -%}
-                <link rel="prefetch" href="{{ item_l4.url | relative_url }}" as="document">
-              {%- endfor -%}
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-  {%- endfor -%}
-{%- endcontent_for -%}
-
-
 {%- capture nav_list_html %}
 <ul class="doc-nav-list doc-nav-list--l1">
   {%- for item_l1 in doc_chapters %}
@@ -165,7 +135,7 @@ layout: default
 
 </main>
 
-<!-- JavaScripts section is unchanged -->
+<!-- JavaScripts section -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   document.body.classList.add('is-loading');
@@ -207,4 +177,60 @@ document.addEventListener('DOMContentLoaded', function() {
 {%- endif -%}
 
 {% include tts-reader.html %}
+
+{%- comment %}
+  ============================================================================
+  --- NEW: Prefetch Injection Script ---
+  This script dynamically injects prefetch links into the <head> to speed up
+  navigation within the current "book".
+  ============================================================================
+{%- endcomment %}
+{%- capture all_urls -%}
+  {%- for item_l1 in doc_chapters -%}
+    {{ item_l1.url | relative_url }}|||
+    {%- if item_l1.subitems -%}
+      {%- for item_l2 in item_l1.subitems -%}
+        {{ item_l2.url | relative_url }}|||
+        {%- if item_l2.subitems -%}
+          {%- for item_l3 in item_l2.subitems -%}
+            {{ item_l3.url | relative_url }}|||
+            {%- if item_l3.subitems -%}
+              {%- for item_l4 in item_l3.subitems -%}
+                {{ item_l4.url | relative_url }}|||
+              {%- endfor -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- assign prefetch_urls = all_urls | split: "|||" | uniq -%}
+
+<script>
+  (function() {
+    const urlsToPrefetch = {{ prefetch_urls | jsonify }};
+    const currentPagePath = window.location.pathname.replace(/\/$/, ""); // Normalize path
+    const head = document.head;
+
+    if (!urlsToPrefetch || urlsToPrefetch.length === 0) {
+      return;
+    }
+
+    urlsToPrefetch.forEach(url => {
+      if (!url) return; // Skip empty entries
+      const normalizedUrl = url.replace(/\/$/, ""); // Normalize URL for comparison
+
+      // Do not prefetch the current page
+      if (normalizedUrl !== currentPagePath) {
+        const link = document.createElement('link');
+        link.rel = 'prefetch';
+        link.href = url;
+        link.as = 'document';
+        head.appendChild(link);
+      }
+    });
+  })();
+</script>
+
 {% include site-footer.html %}
