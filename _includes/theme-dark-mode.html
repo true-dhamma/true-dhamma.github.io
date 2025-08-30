@@ -1,4 +1,4 @@
-<!-- 暗色模式功能代码开始 (v3 - 动态背景图修复版) -->
+<!-- 暗色模式功能代码开始 (v2) -->
 <script>
 (function() {
   // --- 常量和变量定义 ---
@@ -21,78 +21,56 @@
   // --- 核心功能函数 ---
 
   /**
-   * 1. 注入实现暗色模式所需要的 CSS 样式
+   * 1. 注入暗色模式所需的CSS样式
    */
   function addNightOwlStyles() {
     const styleElement = document.createElement("style");
     styleElement.innerHTML = `
-      /* 防止定位不一致 */
+      /* 亮色模式：无滤镜 */
       .nightowl-light body {
         filter: invert(0%);
       }
       
+      /* 暗色模式：备用深色背景 */
       .nightowl-dark {
-        /* Firefox 的后备方案 */
         background-color: #111;
       }
 
-      /* 核心反色逻辑，维持不变 */
+      /* 暗色模式：核心反色滤镜 (应用到整个页面) */
       .nightowl-dark body {
         filter: invert(100%) hue-rotate(180deg);
       }
 
-      /* --- 媒体元素规则 (您的原版) --- */
+      /* 还原图片/视频：抵消body滤镜，恢复原色并调暗 */
       .nightowl-dark img, .nightowl-dark video, .nightowl-dark iframe, .nightowl-dark .nightowl-daylight {
         filter: invert(100%) hue-rotate(180deg) contrast(1.1) saturate(1.2);
         opacity: 0.8;
       }
       
-      /* --- 文本元素规则 (您的原版) --- */
+      /* 还原.feature区：抵消body滤镜，恢复原色并调暗 */
+      .nightowl-dark .feature {
+        filter: invert(100%) hue-rotate(180deg);
+        opacity: 0.8;
+      }
+      
+      /* 调整全局文本：降低亮度以适应暗色背景 */
       .nightowl-dark h1, .nightowl-dark h2, .nightowl-dark h3, .nightowl-dark h4, .nightowl-dark h5, .nightowl-dark h6, .nightowl-dark p, .nightowl-dark strong, .nightowl-dark a, .nightowl-dark li, .nightowl-dark span, .nightowl-dark b, .nightowl-dark td, .nightowl-dark th {
         filter: brightness(0.6);
       }
 
-      /* --- 图标规则 (您的原版) --- */
+      /* 还原图标：抵消body滤镜 */
       .nightowl-dark .icon {
         filter: invert(100%) hue-rotate(180deg);
       }
 
-      /* --- 代码块规则 (您的原版) --- */
+      /* 代码块微调：轻微反色以突出背景 */
       .nightowl-dark pre {
         filter: invert(6%);
       }
 
-      /* --- 列表标记规则 (您的原版) --- */
+      /* 列表项标记颜色 */
       .nightowl-dark li::marker {
         color: #666;
-      }
-
-      /* --- 【新增】专门处理 .feature 动态背景图的CSS --- */
-      .nightowl-dark .feature {
-        position: relative;
-        isolation: isolate;
-        /* JS 会在暗色模式下移除元素自身的背景图 */
-      }
-      
-      .nightowl-dark .feature::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        
-        /* 关键：使用CSS变量从JS动态接收背景图URL */
-        background-image: var(--feature-bg-image);
-        
-        /* 尽量保持原有的背景图样式 */
-        background-size: cover;
-        background-position: center;
-        
-        /* 在这个独立的伪元素上恢复颜色并应用透明度 */
-        filter: invert(100%) hue-rotate(180deg);
-        opacity: 0.8;
       }
     `;
     document.head.appendChild(styleElement);
@@ -108,17 +86,6 @@
       html.classList.remove("nightowl-light");
       html.classList.add("nightowl-dark");
     }
-
-    // 【新增】处理所有 .feature 元素的背景图
-    document.querySelectorAll('.feature').forEach(el => {
-      // 检查元素是否有内联的 background-image 样式
-      if (el.style.backgroundImage) {
-        // 将背景图URL存入CSS变量，供 ::before 伪元素使用
-        el.style.setProperty('--feature-bg-image', el.style.backgroundImage);
-        // 移除元素自身的背景图，防止冲突
-        el.style.backgroundImage = 'none';
-      }
-    });
   }
 
   /**
@@ -131,17 +98,6 @@
       html.classList.remove("nightowl-dark");
       html.classList.add("nightowl-light");
     }
-
-    // 【新增】恢复所有 .feature 元素的背景图
-    document.querySelectorAll('.feature').forEach(el => {
-      const originalBg = el.style.getPropertyValue('--feature-bg-image');
-      if (originalBg) {
-        // 将之前保存的背景图URL恢复到元素自身
-        el.style.backgroundImage = originalBg;
-        // 移除CSS变量
-        el.style.removeProperty('--feature-bg-image');
-      }
-    });
   }
   
   /**
@@ -165,7 +121,7 @@
   }
 
   /**
-   * 6. 从 localStorage 读取已保存的主题偏好
+   * 6. 从本地存储中读取主题偏好
    */
   function loadInitialTheme() {
     if (!localStorageAvailable) return;
@@ -181,7 +137,7 @@
   }
   
   /**
-   * 7. 将当前主题状态保存到 localStorage
+   * 7. 保存当前主题状态到本地存储
    */
   function saveThemeState() {
     if (!localStorageAvailable) return;
@@ -197,22 +153,27 @@
 
   // --- 初始化和事件绑定 ---
 
+  // 页面加载完成后执行
   document.addEventListener("DOMContentLoaded", () => {
+    // 注入样式
     addNightOwlStyles();
+    
+    // 加载用户偏好并应用主题
     loadInitialTheme();
     applyTheme();
     
+    // 为主题切换开关绑定点击事件
     const darkModeSwitcher = document.getElementById("darkmode-switch");
     if (darkModeSwitcher) {
       darkModeSwitcher.addEventListener("click", (event) => {
-        event.preventDefault();
+        event.preventDefault(); // 阻止链接默认跳转
         toggleTheme();
       });
     } else {
-      console.warn("Dark mode switch with id 'darkmode-switch' not found.");
+      console.warn("未找到ID为 'darkmode-switch' 的暗色模式开关。");
     }
   });
 
 })();
 </script>
-<!-- 暗色模式功能代码结束 (v3 - 动态背景图修复版) -->
+<!-- 暗色模式功能代码结束 (v2) -->
