@@ -1,54 +1,56 @@
-<!-- ========== 方案一：Darkify.js ========== -->
+<!-- ========== 方案三：Nightowl (手动实现) ========== -->
 
 <!-- CSS样式：用于颜色反转和效果优化 -->
 <style>
-  /* 当html标签含有 data-darkmode="true" 属性时，激活暗黑模式 */
-  html[data-darkmode="true"] {
-    /* 
-      关键步骤：
-      1. invert(1): 将所有颜色反转 (黑变白，白变黑)。
-      2. hue-rotate(180deg): 色相旋转180度。这一步是为了修正invert(1)带来的副作用，
-         比如纯白会变成淡黄色，通过色相旋转可以将其修正回纯白色，让文字更亮更白。
-    */
+  /* 当body标签含有 nightowl-dark 类时，激活暗黑模式 */
+  body.nightowl-dark {
     filter: invert(1) hue-rotate(180deg);
   }
 
-  /* 
-    修正图片和视频：
-    由于我们对整个页面进行了反色处理，图片、视频等多媒体元素也会被反转，颜色会失真。
-    我们需要对它们进行一次“反反转”来恢复其原始颜色。
-  */
-  html[data-darkmode="true"] img,
-  html[data-darkmode="true"] video,
-  html[data-darkmode="true"] iframe {
+  /* 修正图片和视频的反转问题 */
+  body.nightowl-dark img,
+  body.nightowl-dark video,
+  body.nightowl-dark iframe {
     filter: invert(1) hue-rotate(180deg);
   }
 </style>
 
-<!-- 引入Darkify.js库 -->
-<script src="https://cdn.jsdelivr.net/npm/darkify-js@1.1.5/dist/darkify.min.js"></script>
+<!-- 引入Nightowl库 -->
+<script src="https://cdn.jsdelivr.net/npm/@bufferhead/nightowl@0.0.12/dist/nightowl.js" type="module"></script>
 
-<!-- 初始化并绑定到您的开关 -->
+<!-- 自定义逻辑以适配您的需求 -->
 <script type="module">
-  // 导入Darkify
-  import Darkify from 'https://cdn.jsdelivr.net/npm/darkify-js@1.1.5/dist/darkify-js.esm.min.js';
-  
-  // 初始化Darkify实例
-  const darkify = new Darkify({
-    // 关键配置：将存储方式从默认的localStorage改为sessionStorage
-    // 这样用户的选择只在当前会话中有效
-    useSessionStorage: true,
-    useLocalStorage: false
-  });
+  // 导入库的创建函数
+  import { createNightowl } from 'https://cdn.jsdelivr.net/npm/@bufferhead/nightowl@0.0.12/dist/nightowl.js';
 
-  // 获取您的开关元素
-  const switchButton = document.getElementById('darkmode-switch');
+  // 初始化Nightowl，但不要让它创建自己的按钮
+  createNightowl({
+    toggleButtonMode: 'none' // 假设有此选项或通过不调用某个方法来避免
+  });
   
-  // 为开关添加点击事件
+  // 获取您的开关元素和body元素
+  const switchButton = document.getElementById('darkmode-switch');
+  const body = document.body;
+
+  // 页面加载时，检查sessionStorage
+  // 以恢复用户在当前会话中的选择
+  if (sessionStorage.getItem('theme') === 'dark') {
+    body.classList.add('nightowl-dark');
+  }
+  
+  // 为您的开关添加点击事件
   switchButton.addEventListener('click', function(event) {
     // 阻止<a>标签的默认跳转行为
     event.preventDefault(); 
-    // 调用库的切换方法
-    darkify.toggle();
+    
+    // 手动切换 'nightowl-dark' 类
+    body.classList.toggle('nightowl-dark');
+    
+    // 根据当前状态更新sessionStorage
+    if (body.classList.contains('nightowl-dark')) {
+      sessionStorage.setItem('theme', 'dark');
+    } else {
+      sessionStorage.setItem('theme', 'light');
+    }
   });
 </script>
