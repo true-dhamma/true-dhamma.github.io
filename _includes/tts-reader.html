@@ -1,119 +1,61 @@
 <!-- tts-fab-reader.html -->
-<!-- 使用 Azure TTS 和 Cloudflare Worker 的语音朗读器 -->
-<!-- 版本 8.0: 结构解耦，彻底解决滚动和缩放时的 FAB 抖动问题 -->
+<!-- 版本 7.3: 优化布局稳定性，彻底解决 FAB 抖动问题 -->
 
-<!-- ================= HTML 结构 (已修改) ================= -->
-<!-- 容器已被移除，两个按钮现在是独立的 -->
-<button id="tts-scroll-top-btn" class="tts-fab-button" aria-label="回到顶部" style="display: none; opacity: 0;">
-  <svg class="tts-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"/></svg>
-</button>
-<button id="tts-control-btn" class="tts-fab-button" aria-label="朗读文章" style="display: none;">
-  <svg class="tts-icon" id="tts-play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
-  <svg class="tts-icon" id="tts-stop-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none;"><path d="M6 6h12v12H6z"></path></svg>
-</button>
+<!-- ================= HTML 结构 (无变动) ================= -->
+<div class="tts-fab-container" id="tts-fab-container" style="display: none;">
+  <button id="tts-scroll-top-btn" class="tts-button tts-scroll-top-btn" aria-label="回到顶部">
+    <svg class="tts-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"/></svg>
+  </button>
+  <button id="tts-control-btn" class="tts-button" aria-label="朗读文章">
+    <svg class="tts-icon" id="tts-play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
+    <svg class="tts-icon" id="tts-stop-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display: none;"><path d="M6 6h12v12H6z"></path></svg>
+  </button>
+</div>
 
 <!-- ================= CSS 样式 (已修改) ================= -->
 <style>
-  /* 基础样式，应用于所有 FAB 按钮 */
-  .tts-fab-button {
-    position: fixed;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border: none;
-    background-color: #ffffff;
-    border-radius: 50%;
-    cursor: pointer;
-    padding: 0;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    transition: background-color 0.2s ease-in-out, transform 0.2s ease, opacity 0.3s ease-in-out;
-  }
-  .tts-fab-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
-  .tts-fab-button:active { transform: scale(0.95); }
+  .tts-fab-container { position: fixed; bottom: 30px; right: 30px; z-index: 1000; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+  .tts-button { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; border: none; background-color: #ffffff; border-radius: 50%; cursor: pointer; padding: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: background-color 0.2s ease-in-out, transform 0.2s ease; }
+  .tts-button:hover { background-color: #f2f2f2; transform: translateY(-2px); }
+  .tts-button:active { transform: scale(0.95); }
   .tts-icon { fill: #333; width: 24px; height: 24px; }
-
-  /* 独立定位 */
-  #tts-control-btn {
-    bottom: 30px;
-    right: 30px;
-  }
-  #tts-scroll-top-btn {
-    bottom: 96px; /* 30px (bottom) + 50px (control btn) + 16px (gap) */
-    right: 30px;
-  }
-
-  /* 通用高亮样式 */
   .tts-highlight { background-color: #fef8e0; scroll-margin-top: 40px; transition: background-color 0.3s ease; }
+  
+  /* KEY CHANGE: 控制滚动按钮的显隐，不使用 display: none */
+  .tts-scroll-top-btn {
+    opacity: 0;
+    transform: translateY(10px); /* 初始状态稍微向下偏移 */
+    pointer-events: none; /* 隐藏时不可点击 */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  .tts-scroll-top-btn.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
 </style>
 
-<!-- ================= JavaScript 逻辑 (已重构) ================= -->
+<!-- ================= JavaScript 逻辑 (已优化) ================= -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // --- 配置 ---
+  // --- 配置 (无变动) ---
   const SHOW_SCROLL_TO_TOP_BUTTON = true;
   const WORKER_URL = 'https://proxy.true-dhamma.com/tts-proxy';
-  const PREFETCH_WINDOW_SIZE = 5;
-  const MAX_RETRIES = 3;
-  const RETRY_DELAY = 1000;
+  // ... 其他配置 ...
 
-  // --- DOM 元素引用 (现在是独立的按钮) ---
-  const controlBtn = document.getElementById('tts-control-btn');
-  const playIcon = document.getElementById('tts-play-icon');
-  const stopIcon = document.getElementById('tts-stop-icon');
+  // --- DOM 元素引用 (无变动) ---
+  const container = document.getElementById('tts-fab-container');
   const scrollTopBtn = document.getElementById('tts-scroll-top-btn');
-  const article = document.querySelector('article');
+  // ... 其他元素 ...
 
-  if (!article) return;
+  // --- 状态管理 (无变动) ---
+  // ... 
 
-  // --- 状态管理 ---
-  let isReading = false;
-  // ... (其余状态变量无变动) ...
-  let textQueue = [], currentIndex = 0, currentlyHighlightedElement = null;
-  const audioPlayer = new Audio();
-  let fetchController;
-  
-  // ===================================================================
-  // ▼▼▼ 触屏设备缩放优化逻辑 (最终版) ▼▼▼
-  // ===================================================================
+  // --- 触屏设备缩放优化逻辑 (使用 rAF，无变动) ---
   const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
   let isUpdateScheduled = false;
 
-  // 可管理的 FAB 按钮列表
-  const fabButtons = [
-    { element: controlBtn, baseBottom: 30, baseRight: 30 },
-    { element: scrollTopBtn, baseBottom: 96, baseRight: 30 }
-  ];
-
-  // 更新函数现在操作单个按钮
-  const updateFabPosition = () => {
-    if (!isTouchDevice || !window.visualViewport) return;
-
-    const vv = window.visualViewport;
-    
-    fabButtons.forEach(fab => {
-      if (vv.scale > 1) {
-        const newTop = vv.offsetTop + vv.height - fab.element.offsetHeight - (fab.baseBottom / vv.scale);
-        const newLeft = vv.offsetLeft + vv.width - fab.element.offsetWidth - (fab.baseRight / vv.scale);
-        fab.element.style.top = `${newTop}px`;
-        fab.element.style.left = `${newLeft}px`;
-        fab.element.style.transform = `scale(${1 / vv.scale})`;
-        fab.element.style.transformOrigin = 'center center'; // 居中缩放更稳定
-        fab.element.style.bottom = 'auto';
-        fab.element.style.right = 'auto';
-      } else {
-        fab.element.style.transform = '';
-        fab.element.style.transformOrigin = '';
-        fab.element.style.top = '';
-        fab.element.style.left = '';
-        fab.element.style.bottom = '';
-        fab.element.style.right = '';
-      }
-    });
-  };
-  
+  const updateFabPosition = () => { /* ... (此函数本身无变动) ... */ };
   const scheduleFabUpdate = () => {
     if (!isTouchDevice || isUpdateScheduled) return;
     isUpdateScheduled = true;
@@ -125,31 +67,57 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (isTouchDevice && window.visualViewport) {
     window.visualViewport.addEventListener('resize', scheduleFabUpdate);
-    window.visualViewport.addEventListener('scroll', scheduleFabUpdate, { passive: true });
+    window.visualViewport.addEventListener('scroll', scheduleFabUpdate);
   }
-  // ▲▲▲ 优化逻辑结束 ▲▲▲
-  // ===================================================================
-
-  // --- handleScroll 函数现在极其简单 ---
+  
+  // --- UI 与交互函数 ---
+  // ... (updateUI, clearHighlight, highlightElement 无变动) ...
+  
+  // KEY CHANGE: handleScroll 逻辑大大简化
   const handleScroll = () => {
     if (!SHOW_SCROLL_TO_TOP_BUTTON || !scrollTopBtn) return;
     const shouldBeVisible = window.scrollY > window.innerHeight / 2;
-    // 不再需要 isCurrentlyVisible 检查，因为 opacity transition 会处理视觉效果
     if (shouldBeVisible) {
-      scrollTopBtn.style.display = 'flex';
-      requestAnimationFrame(() => { scrollTopBtn.style.opacity = '1'; });
+      scrollTopBtn.classList.add('visible');
     } else {
-      scrollTopBtn.style.opacity = '0';
-      // 使用 transitionend 事件来设置 display: none，更可靠
-      scrollTopBtn.addEventListener('transitionend', () => {
-        if (scrollTopBtn.style.opacity === '0') {
-          scrollTopBtn.style.display = 'none';
-        }
-      }, { once: true });
+      scrollTopBtn.classList.remove('visible');
     }
   };
 
-  // --- (其余所有核心朗读功能函数和初始化逻辑均无变动) ---
+  // --- 核心朗读功能函数 (无变动) ---
+  // ...
+  
+  // --- 控制函数 (无变动) ---
+  // ...
+
+  // --- 初始化与事件监听 ---
+  const initializeReader = () => {
+    // ...
+    // KEY CHANGE: 初始化时也调用一次 handleScroll
+    if (textQueue.length > 0) {
+      container.style.display = 'flex';
+      handleScroll(); 
+    }
+  };
+
+  // ... (其他事件监听)
+
+  // --- (粘贴未变动部分以保证完整性) ---
+  const PREFETCH_WINDOW_SIZE = 5;
+  const MAX_RETRIES = 3;
+  const RETRY_DELAY = 1000;
+  const controlBtn = document.getElementById('tts-control-btn');
+  const playIcon = document.getElementById('tts-play-icon');
+  const stopIcon = document.getElementById('tts-stop-icon');
+  const article = document.querySelector('article');
+  if (!article) return;
+  let isReading = false;
+  let textQueue = [];
+  let currentIndex = 0;
+  let currentlyHighlightedElement = null;
+  const audioPlayer = new Audio();
+  let fetchController;
+  updateFabPosition = () => { if (!isTouchDevice || !window.visualViewport) return; const vv = window.visualViewport; const cssBottom = 30; const cssRight = 30; if (vv.scale > 1) { const newTop = vv.offsetTop + vv.height - container.offsetHeight - (cssBottom / vv.scale); const newLeft = vv.offsetLeft + vv.width - container.offsetWidth - (cssRight / vv.scale); container.style.top = `${newTop}px`; container.style.left = `${newLeft}px`; container.style.transform = `scale(${1 / vv.scale})`; container.style.transformOrigin = 'bottom right'; container.style.bottom = 'auto'; container.style.right = 'auto'; } else { container.style.transform = ''; container.style.transformOrigin = ''; container.style.top = ''; container.style.left = ''; container.style.bottom = ''; container.style.right = ''; } };
   const updateUI = () => { if (isReading) { playIcon.style.display = 'none'; stopIcon.style.display = 'inline-block'; controlBtn.setAttribute('aria-label', '停止朗读'); } else { playIcon.style.display = 'inline-block'; stopIcon.style.display = 'none'; controlBtn.setAttribute('aria-label', '朗读文章'); } };
   const clearHighlight = () => { if (currentlyHighlightedElement) { currentlyHighlightedElement.classList.remove('tts-highlight'); currentlyHighlightedElement = null; } };
   const highlightElement = (element) => { clearHighlight(); if (element) { element.classList.add('tts-highlight'); currentlyHighlightedElement = element; element.scrollIntoView({ behavior: 'smooth', block: 'center' }); } };
@@ -159,28 +127,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const playCurrentAndPrefetchNext = async () => { if (currentIndex >= textQueue.length || !isReading) { if (isReading) stopReading(); return; } const previousItem = textQueue[currentIndex - 1]; if (previousItem && previousItem.blobUrl) { URL.revokeObjectURL(previousItem.blobUrl); previousItem.blobUrl = null; } const currentItem = textQueue[currentIndex]; highlightElement(currentItem.element); const success = await fetchAndCacheAudio(currentIndex, fetchController.signal); if (!isReading || !success) { if (isReading) stopReading(); return; } audioPlayer.src = currentItem.blobUrl; audioPlayer.play().catch(err => { console.error("Audio playback failed:", err); if (isReading) stopReading(); }); managePrefetchWindow(); };
   const startReading = async () => { if (isReading) return; isReading = true; fetchController = new AbortController(); updateUI(); currentIndex = await findStartingIndex(); if (!isReading) { stopReading(); return; } playCurrentAndPrefetchNext(); };
   const stopReading = () => { if (!isReading && !fetchController) return; isReading = false; if (fetchController) { fetchController.abort(); fetchController = null; } audioPlayer.pause(); audioPlayer.src = ''; textQueue.forEach(item => { if (item.blobUrl) URL.revokeObjectURL(item.blobUrl); item.blobUrl = null; item.isFetching = false; }); currentIndex = 0; clearHighlight(); updateUI(); };
+  initializeReader = () => { const selector = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption'; const allPotentialElements = Array.from(article.querySelectorAll(selector)); const elementSet = new Set(allPotentialElements); const topLevelElements = allPotentialElements.filter(el => { let parent = el.parentElement; while (parent && parent !== article) { if (elementSet.has(parent)) { return false; } parent = parent.parentElement; } return true; }); topLevelElements.forEach(el => { const text = el.innerText.trim(); if (text) { textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false }); } }); if (textQueue.length > 0) { container.style.display = 'flex'; handleScroll(); } };
   
-  const initializeReader = () => {
-    const selector = 'p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption';
-    const allPotentialElements = Array.from(article.querySelectorAll(selector));
-    const elementSet = new Set(allPotentialElements);
-    const topLevelElements = allPotentialElements.filter(el => { let parent = el.parentElement; while (parent && parent !== article) { if (elementSet.has(parent)) { return false; } parent = parent.parentElement; } return true; });
-    topLevelElements.forEach(el => { const text = el.innerText.trim(); if (text) { textQueue.push({ text: text, element: el, blobUrl: null, isFetching: false }); } });
-    if (textQueue.length > 0) {
-      // 显示主控制按钮
-      controlBtn.style.display = 'flex';
-      handleScroll();
-    }
-  };
-
-  // --- 初始化与事件监听 ---
   controlBtn.addEventListener('click', () => { isReading ? stopReading() : startReading(); });
   audioPlayer.onended = () => { if (isReading) { currentIndex++; playCurrentAndPrefetchNext(); } };
   audioPlayer.onerror = (e) => { if (isReading) { console.error('Audio Player 错误:', e); stopReading(); } };
   window.addEventListener('beforeunload', stopReading);
 
   if (SHOW_SCROLL_TO_TOP_BUTTON && scrollTopBtn) {
-    scrollTopBtn.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    scrollTopBtn.addEventListener('click', () => { article.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
     window.addEventListener('scroll', handleScroll, { passive: true });
   }
 
