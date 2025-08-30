@@ -1,13 +1,14 @@
 ---
 title: 佛陀的智慧：亲口宣说的核心教诲
-date: 2025-08-12T10:10:00+08:00
+date: 2025-08-12 10:10:00 +08:00
 categories:
-  - 西方世界的佛法
+- 西方世界的佛法
 excerpt: 聆听佛陀亲口宣说的核心教诲，在烦恼与迷惘中，找到通往自由与觉醒的澄明之道。
-feature_text:
-feature_image: /uploads/top_banner_tv_buddha.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_tv_buddha.jpg"
 aside: false
 ---
+
 > ##### The Wisdom of the Buddha: Heart Teachings in His Own Words - Anne Bancroft
 >
 > ##### 佛陀的智慧：亲口宣说的核心教诲 - 安妮·班克罗夫特 - 摘要

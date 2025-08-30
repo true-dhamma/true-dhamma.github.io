@@ -1,15 +1,16 @@
 ---
 title: EasyWay轻松戒电子烟
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 戒断的唯一障碍是对未知的恐惧。你并非在放弃任何东西，而是在摆脱一个致命的敌人，重获身心的自由与快乐。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### Allen Carr’s Easy Way to Quit Vaping - Allen Carr, John Dicey
 >
 > ##### 亚伦·卡尔的轻松戒电子烟 - 亚伦·卡尔, 约翰·戴西 - 摘要

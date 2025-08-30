@@ -1,15 +1,16 @@
 ---
 title: 成瘾康复技能手册：CBT、正念与动机访谈练习
-date: 2025-08-10T10:10:00+08:00
+date: 2025-08-10 10:10:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 这本书教你如何运用认知行为疗法、正念和动机性访谈等科学方法，重新训练你的大脑，从而掌控并战胜成瘾。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### The Addiction Recovery Skills Workbook: Changing Addictive Behaviors Using CBT, Mindfulness, and Motivational Interviewing Techniques - Suzette Glasner-Edwards
 >
 > ##### 成瘾康复技能手册：CBT、正念与动机访谈练习 - 苏泽特·格拉斯纳-爱德华兹 - 摘要

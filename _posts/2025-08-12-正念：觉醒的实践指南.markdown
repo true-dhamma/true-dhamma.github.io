@@ -1,14 +1,15 @@
 ---
 title: 正念：觉醒的实践指南
-date: 2025-08-12T10:10:00+08:00
+date: 2025-08-12 10:10:00 +08:00
 categories:
-  - 正念
-  - 西方世界的佛法
+- 正念
+- 西方世界的佛法
 excerpt: 这是一条净化心灵、克服忧悲、实现涅槃的直接道路——一部深入解析佛陀正念教诲的终极指南。
-feature_text:
-feature_image: /uploads/top_banner_mindfulness.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_mindfulness.jpg"
 aside: false
 ---
+
 > ##### Mindfulness: a practical guide to awakening - Joseph Goldstein
 >
 > ##### 正念：觉醒的实践指南 - 约瑟夫·戈德斯坦 - 摘要

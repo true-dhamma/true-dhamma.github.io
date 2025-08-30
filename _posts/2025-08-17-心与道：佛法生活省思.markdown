@@ -1,14 +1,15 @@
 ---
 title: 心与道：佛法生活省思
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 南传上座部佛法
-  - 西方世界的佛法
+- 南传上座部佛法
+- 西方世界的佛法
 excerpt: 痛苦是觉醒的体验。当我们受苦时，我们才开始提问、探寻、试图找出答案——这是一条引领我们穿越生活起伏，直抵内心宁静与自由的智慧之道。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### The Mind and the Way - Ajahn Sumedho
 >
 > ##### 心与道：佛法生活省思 - 阿姜苏美多 - 摘要

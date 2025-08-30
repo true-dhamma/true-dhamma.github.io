@@ -1,13 +1,14 @@
 ---
 title: 在家居士的生活指南
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 南传上座部佛法
+- 南传上座部佛法
 excerpt: 一部为在家居士量身打造的指南，阐释如何运用佛法智慧，在世俗生活中获得幸福、美德与安宁。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### Buddhism: A Layman’s Guide to Life - P.A. Payutto
 >
 > ##### 在家居士的生活指南 - 巴育陀尊者 - 摘要

@@ -1,15 +1,16 @@
 ---
 title: 买还是不买：我们为何过度购物以及如何停止
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 这本书提供了一张从过度购物到实现全面康复和生活平衡的路线图，帮助你重新掌控自己的生活。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### To Buy or Not to Buy: Why We Overshop and How to Stop - April Lane Benson, PhD
 >
 > ##### 买还是不买：我们为何过度购物以及如何停止 - 阿普里尔·莱恩·本森 - 摘要

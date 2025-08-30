@@ -1,15 +1,16 @@
 ---
 title: 阿姜摩诃布瓦尊者：阿罗汉向·阿罗汉果
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 高僧大德
-  - 南传上座部佛法
-  - 精选
+- 高僧大德
+- 南传上座部佛法
+- 精选
 excerpt: 阿姜摩诃布瓦尊者毫无保留的实修指导与心路历程。
-feature_text:
-feature_image: /uploads/top_banner_sangha.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_sangha.jpg"
 aside: false
 ---
+
 > ##### Arahattamagga Arahattaphala - The Path to Arahantship - Venerable Ācariya Mahā Boowa Ñāṇasampanno
 >
 > ##### 阿姜摩诃布瓦尊者：阿罗汉向·阿罗汉果——趋向阿罗汉之道 - 摘要

@@ -1,16 +1,17 @@
 ---
 title: 成人ADHD的正念处方：增强注意力、管理情绪和实现目标的八步计划
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 心理学
-  - 正念
+- 心理学
+- 正念
 tags:
-  - ADHD
+- ADHD
 excerpt: 正念练习让我们在冲动和回应之间创造一个空间，这个空间赋予我们选择的力量，从而带来成长和自由。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### The Mindfulness Prescription for Adult ADHD: An 8-Step Program for Strengthening Attention, Managing Emotions, and Achieving Your Goals - Lidia Zylowska
 >
 > ##### 成人ADHD的正念处方：增强注意力、管理情绪和实现目标的八步计划 - 莉迪亚·齐洛夫斯卡 - 摘要

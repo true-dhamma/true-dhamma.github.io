@@ -1,13 +1,14 @@
 ---
 title: 心之镜
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 南传上座部佛法
+- 南传上座部佛法
 excerpt: 这是一面映照修行之路的法镜，帮助我们看清从布施、持戒到发展定慧，直至最终解脱轮回痛苦的完整道路。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: true
 ---
+
 > ##### แว่นดวงใจ - ท่านอาจารย์พระมหาบัว ญาณสัมปันโน
 >
 > ##### 心之镜 - 阿姜摩诃布瓦尊者 - 摘要

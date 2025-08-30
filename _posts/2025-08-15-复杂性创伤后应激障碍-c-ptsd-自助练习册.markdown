@@ -1,15 +1,16 @@
 ---
 title: 复杂性创伤后应激障碍(C-PTSD)自助练习册
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - PTSD
+- PTSD
 excerpt: 这本书提供了一条清晰的、基于身心联系的康复之路，帮助那些因童年创伤而挣扎的人们重新获得情绪控制，走向完整。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### The Complex PTSD Workbook: A Mind-Body Approach to Regaining Emotional Control and Becoming Whole - Arielle Schwartz
 >
 > ##### 复杂性创伤后应激障碍(C-PTSD)自助练习册 - 阿里尔·施瓦茨 - 摘要

@@ -1,17 +1,18 @@
 ---
 title: 成瘾之心：从香烟、智能手机到爱情，我们为何会沉迷，又该如何戒断
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 心理学
-  - 正念
-  - 精选
+- 心理学
+- 正念
+- 精选
 tags:
-  - 成瘾
+- 成瘾
 excerpt: 我们真正需要的，不是强迫自己，而是对自己当下的体验，变得真正地、深深地好奇。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### The Craving Mind: From Cigarettes to Smartphones to Love - Why We Get Hooked and How We Can Break Bad Habits - Judson Brewer
 >
 > ##### 成瘾之心：从香烟、智能手机到爱情，我们为何会沉迷，又该如何戒断 - 贾德森·布鲁尔 - 摘要

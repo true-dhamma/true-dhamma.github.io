@@ -1,14 +1,15 @@
 ---
 title: 不完美的礼物
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 心理学
-  - 慈悲喜舍
+- 心理学
+- 慈悲喜舍
 excerpt: 拥抱我们的故事，并在此过程中爱自己，是我们一生中能做的最勇敢的事。
-feature_text:
-feature_image: /uploads/top_banner_metta.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_metta.jpg"
 aside: false
 ---
+
 > ##### The Gifts of Imperfection - Brené Brown, Ph.D., L.M.S.W.
 >
 > ##### 不完美的礼物 - 布琳·布朗 - 摘要

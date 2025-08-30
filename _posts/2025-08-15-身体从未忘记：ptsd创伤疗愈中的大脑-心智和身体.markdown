@@ -1,15 +1,16 @@
 ---
 title: 身体从未忘记：PTSD创伤疗愈中的大脑、心智和身体
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 心理学
+- 心理学
 tags:
-  - PTSD
+- PTSD
 excerpt: 身体从未忘记，因为创伤的印记深植于生理与情绪。只有重新连接身心，才能寻回自我，重获新生。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma - Bessel van der Kolk
 >
 > ##### 身体从未忘记：PTSD创伤疗愈中的大脑、心智和身体 - 巴塞尔·范德考克 - 摘要
