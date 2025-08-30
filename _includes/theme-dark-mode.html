@@ -1,4 +1,4 @@
-<!-- 暗色模式功能代码开始 (更新版) -->
+<!-- 暗色模式功能代码开始 (v2) -->
 <script>
 (function() {
   // --- 常量和变量定义 ---
@@ -22,6 +22,7 @@
 
   /**
    * 1. 注入实现暗色模式所需要的 CSS 样式
+   * 这是 nightowl.js 的核心反色逻辑，并根据您的要求进行了定制。
    */
   function addNightOwlStyles() {
     const styleElement = document.createElement("style");
@@ -36,31 +37,35 @@
         background-color: #111;
       }
 
-      /* [修改点 1] 在滤镜链中增加了 brightness(60%) 来降低整体亮度 */
+      /* 核心反色逻辑，维持不变 */
       .nightowl-dark body {
-        filter: invert(100%) hue-rotate(180deg) brightness(60%);
+        filter: invert(100%) hue-rotate(180deg);
       }
 
-      /* 
-       * [修改点 2] 媒体元素先通过滤镜恢复正常显示，再应用不透明度
-       * 这实现了“不反色，仅降低不透明度”的视觉效果
-      */
+      /* --- 修改点 1 --- */
+      /* 不反转媒体元素，保持原色，并增加0.2的不透明度 */
       .nightowl-dark img, .nightowl-dark video, .nightowl-dark iframe, .nightowl-dark .nightowl-daylight {
         filter: invert(100%) hue-rotate(180deg);
         opacity: 0.8;
       }
-
-      /* 改善图标的对比度 */
-      .nightowl-dark .icon {
-        filter: invert(15%) hue-rotate(180deg);
+      
+      /* --- 新增点 2 --- */
+      /* 为指定的文本元素增加对比度，使其在暗色模式下更清晰 */
+      .nightowl-dark h1, .nightowl-dark h2, .nightowl-dark h3, .nightowl-dark h4, .nightowl-dark h5, .nightowl-dark h6, .nightowl-dark p, .nightowl-dark a, .nightowl-dark li, .nightowl-dark span, .nightowl-dark strong, .nightowl-dark b, .nightowl-dark td, .nightowl-dark th {
+        filter: contrast(1.8);
       }
 
-      /* 重新启用代码块的背景 */
+      /* 改善图标的对比度 (保留) */
+      .nightowl-dark .icon {
+        filter: invert(100%) hue-rotate(180deg);
+      }
+
+      /* 重新启用代码块的背景 (保留) */
       .nightowl-dark pre {
         filter: invert(6%);
       }
 
-      /* 改善列表项标记的对比度 */
+      /* 改善列表项标记的对比度 (保留) */
       .nightowl-dark li::marker {
         color: #666;
       }
@@ -168,4 +173,4 @@
 
 })();
 </script>
-<!-- 暗色模式功能代码结束 -->
+<!-- 暗色模式功能代码结束 (v2) -->
