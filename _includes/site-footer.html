@@ -103,7 +103,99 @@
     }
   });
 </script>
+<!-- ===================================================================== -->
+<!--  FINAL Dark Mode CSS - High Priority Override -->
+<!-- ===================================================================== -->
+<style>
+  /* 1. Define Color Variables for Both Modes */
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #34495e;
+    --heading-color: #2c3e50;
+    --link-color: #3A77D8;
+    --link-hover-color: #2e60ad;
+    --feature-bg-color: #f4f6f8;
+    --code-bg-color: #fafafa;
+    --footer-bg-color: #2c3e50;
+    --footer-text-color: #a8adac;
+    --footer-link-hover-color: #ffffff;
+    --blockquote-border-color: #e0e0e0;
+    --button-text-color: #ffffff;
+    --accent-color: #3A77D8;
+  }
 
+  body.darkmode--activated {
+    --bg-color: #1a202c;
+    --text-color: #a0aec0;
+    --heading-color: #e2e8f0;
+    --link-color: #63b3ed;
+    --link-hover-color: #90cdf4;
+    --feature-bg-color: #2d3748;
+    --code-bg-color: #2d3748;
+    --footer-bg-color: #171923;
+    --footer-text-color: #718096;
+    --footer-link-hover-color: #e2e8f0;
+    --blockquote-border-color: #4a5568;
+    --button-text-color: #1a202c;
+    --accent-color: #63b3ed;
+  }
+
+  /* 2. Force Apply Variables to Elements using !important */
+  /* This ensures these rules win against your compiled CSS */
+  body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  h1, h2, h3, h4, h5, h6 { color: var(--heading-color) !important; }
+  a { color: var(--link-color) !important; }
+  a:hover { color: var(--link-hover-color) !important; }
+  .feature { background: var(--feature-bg-color) !important; }
+  .footer { background: var(--footer-bg-color) !important; color: var(--footer-text-color) !important; }
+  .footer a { color: var(--footer-text-color) !important; }
+  .footer a:hover { color: var(--footer-link-hover-color) !important; }
+  code, pre { background-color: var(--code-bg-color) !important; color: var(--heading-color) !important; }
+  blockquote { border-left-color: var(--blockquote-border-color) !important; }
+  input[type="submit"], button, .button { background: var(--accent-color) !important; color: var(--button-text-color) !important; }
+
+  /* 3. Force Style and Position the Widget */
+  #darkmode-placeholder {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div.darkmode-widget {
+    position: static !important;
+    display: inline-flex !important;
+    vertical-align: middle !important;
+    margin-left: .4rem !important;
+  }
+  /* CRITICAL: This hides the color-inverting layer, fixing the color issue */
+  div.darkmode-widget .darkmode-layer {
+    display: none !important;
+  }
+  div.darkmode-widget .darkmode-toggle {
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important;
+    border-radius: 6px !important;
+    font-size: 22px !important;
+    transition: background-color 0.2s ease !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  div.darkmode-widget .darkmode-toggle:hover {
+    background-color: var(--feature-bg-color) !important;
+  }
+  body.darkmode--activated img {
+    filter: brightness(.85) contrast(1.05);
+  }
+</style>
+<!-- ===================================================================== -->
 
     {% include nav-footer.html %}
   </div>
