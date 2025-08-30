@@ -2,7 +2,12 @@
 layout: default
 ---
 
-{%- comment %} --- Data Preparation (unchanged) --- {% endcomment %}
+{%- comment %}
+  --- BLOCK 1: ADVANCED DATA PREPARATION ---
+  This section prepares all necessary data, including the new logic for 'show_toc'
+  which determines if a Table of Contents should be rendered based on both
+  frontmatter settings and actual page content.
+{% endcomment -%}
 {%- assign collection_name = page.collection -%}
 {%- assign doc_data = site.data.docs[collection_name] -%}
 {%- assign doc_title = doc_data.title | default: collection_name | capitalize -%}
@@ -18,11 +23,12 @@ layout: default
 {%- if page.toc and content_has_headings -%}
   {%- assign show_toc = true -%}
 {%- endif -%}
+
+{%- comment %} --- Capture Navigation HTML for re-use --- {% endcomment -%}
 {%- capture nav_list_html %}
 <ul class="doc-nav-list doc-nav-list--l1">
   {%- for item_l1 in doc_chapters %}
   <li class="doc-nav-item doc-nav-item--l1 {% if page.url == item_l1.url %}active{% endif %}" data-level="1" {% if item_l1.subitems %}data-url="{{ item_l1.url | relative_url }}"{% endif %}>
-    
     <div class="doc-nav-item-content-wrapper {% if item_l1.subitems %}has-submenu{% endif %}">
       <a href="{{ item_l1.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l1.title }}</a>
       {%- if item_l1.subitems %}
@@ -31,12 +37,10 @@ layout: default
       </div>
       {%- endif %}
     </div>
-
     {%- if item_l1.subitems %}
     <ul class="doc-nav-list doc-nav-list--l2">
       {%- for item_l2 in item_l1.subitems %}
       <li class="doc-nav-item doc-nav-item--l2 {% if page.url == item_l2.url %}active{% endif %}" data-level="2" {% if item_l2.subitems %}data-url="{{ item_l2.url | relative_url }}"{% endif %}>
-        
         <div class="doc-nav-item-content-wrapper {% if item_l2.subitems %}has-submenu{% endif %}">
           <a href="{{ item_l2.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l2.title }}</a>
           {%- if item_l2.subitems %}
@@ -45,12 +49,10 @@ layout: default
           </div>
           {%- endif %}
         </div>
-
         {%- if item_l2.subitems %}
         <ul class="doc-nav-list doc-nav-list--l3">
           {%- for item_l3 in item_l2.subitems %}
           <li class="doc-nav-item doc-nav-item--l3 {% if page.url == item_l3.url %}active{% endif %}" data-level="3" {% if item_l3.subitems %}data-url="{{ item_l3.url | relative_url }}"{% endif %}>
-
             <div class="doc-nav-item-content-wrapper {% if item_l3.subitems %}has-submenu{% endif %}">
               <a href="{{ item_l3.url | relative_url }}#doc-content" class="doc-nav-link">{{ item_l3.title }}</a>
               {%- if item_l3.subitems %}
@@ -59,7 +61,6 @@ layout: default
               </div>
               {%- endif %}
             </div>
-
             {%- if item_l3.subitems %}
             <ul class="doc-nav-list doc-nav-list--l4">
               {%- for item_l4 in item_l3.subitems %}
@@ -83,7 +84,8 @@ layout: default
 {%- endcapture %}
 
 <style>
-  /* --- Base Doc Layout (unchanged) --- */
+  /* --- BLOCK 2: RESPONSIVE & ADAPTIVE STYLES --- */
+  /* --- Base Doc Layout --- */
   @media screen and (min-width: 768px) {
     .main.container--doc { display: flex; gap: 2em; max-width: 960px; margin: 0 auto; align-items: flex-start; }
     .article--doc { flex: 1 1 auto; min-width: 0; }
@@ -100,30 +102,25 @@ layout: default
     }
   }
 
-  /* --- MODIFICATION STARTS HERE --- */
-  /* 新逻辑: 默认显示占位符，并为其设置好在超宽屏下应有的样式 */
+  /* Placeholder logic: Default hide */
   .placeholder-toc {
-    display: block;
-    flex: 0 0 280px;
+    display: none;
   }
-  
-  /* 新逻辑: 当屏幕宽度小于1800px时，隐藏占位符 */
-  @media screen and (max-width: 1799.98px) {
-    .placeholder-toc {
-      display: none;
-    }
-  }
-  /* --- MODIFICATION ENDS HERE --- */
 
   @media screen and (min-width: 1800px) {
     .main.container--doc { max-width: 2200px; width: 90%; justify-content: space-between; }
     .article--doc { flex: 0 0 800px; }
     .main.container--doc .content-toc-right-wrapper { flex: 0 0 280px; }
     
-    /* 之前的 .placeholder-toc 显示规则已被移除，因为现在是默认显示 */
+    /* Placeholder logic: Show on ultra-wide screens when there's no real TOC */
+    .main.container--doc:not(.has-right-toc) .placeholder-toc {
+      display: block;
+      flex: 0 0 280px;
+      content: '';
+    }
   }
   
-  /* --- Doc Navigation System Styles (unchanged) --- */
+  /* --- Doc Navigation System Styles --- */
   body.doc-nav-open { overflow: hidden; }
   #doc-content { scroll-margin-top: 2rem; }
   .doc-nav-fab { position: fixed; bottom: 30px; left: 30px; width: 56px; height: 56px; background-color: #2c3e50; color: white; border-radius: 50%; border: none; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 1001; transition: transform 0.2s ease-in-out; }
@@ -197,9 +194,10 @@ layout: default
   {% endif %}
 </main>
 
-<!-- JavaScripts section with modifications -->
+<!-- --- BLOCK 3: ENHANCED JAVASCRIPTS --- -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+// Use 'load' event to ensure layout is stable before restoring scroll position
+window.addEventListener('load', function() {
   const DocNavController = {
     SCROLL_STORAGE_KEY: 'docNavScrollPos',
     EXPAND_STORAGE_KEY: 'docNavExpandedItems',
@@ -252,38 +250,22 @@ document.addEventListener('DOMContentLoaded', function() {
       if (this.closeButton) this.closeButton.addEventListener('click', this.closeNav.bind(this));
 
       this.navContainer.addEventListener('click', e => {
-        // Handle toggle button clicks
+        // Handle toggle clicks
         const toggle = e.target.closest('.doc-nav-toggle-wrapper');
         if (toggle) {
           toggle.closest('.doc-nav-item').classList.toggle('is-expanded');
           this.saveState();
         }
 
-        // Handle link clicks
+        // Handle link clicks with auto-expand functionality
         const link = e.target.closest('.doc-nav-link');
-
-        /***********************************************************************
-         * --- MODIFICATION STARTS HERE ---
-         * We are replacing the simple `link && this.saveState()` with a more
-         * intelligent block of code.
-         ***********************************************************************/
         if (link) {
           const parentItem = link.closest('.doc-nav-item');
-          
-          // Check if the parent item has a submenu (by looking for a child nav list)
-          // AND if it is currently collapsed (does not have 'is-expanded' class).
           if (parentItem && parentItem.querySelector('.doc-nav-list') && !parentItem.classList.contains('is-expanded')) {
-            // If so, expand it programmatically.
             parentItem.classList.add('is-expanded');
           }
-          
-          // Now, save the state, which will include the new expansion state we just set.
-          // The browser will then proceed with the default action of following the link.
           this.saveState();
         }
-        /***********************************************************************
-         * --- MODIFICATION ENDS HERE ---
-         ***********************************************************************/
       });
 
       window.addEventListener('resize', this.debounce(this.setupMobileHeight.bind(this), 150));
