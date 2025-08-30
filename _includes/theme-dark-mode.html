@@ -1,4 +1,4 @@
-<!-- 暗色模式功能代码开始 (v2) -->
+<!-- 暗色模式功能代码开始 (v3 - 动态背景图修复版) -->
 <script>
 (function() {
   // --- 常量和变量定义 ---
@@ -22,7 +22,6 @@
 
   /**
    * 1. 注入实现暗色模式所需要的 CSS 样式
-   * 这是 nightowl.js 的核心反色逻辑，并根据您的要求进行了定制。
    */
   function addNightOwlStyles() {
     const styleElement = document.createElement("style");
@@ -42,32 +41,58 @@
         filter: invert(100%) hue-rotate(180deg);
       }
 
-      /* --- 修改点 1 --- */
-      /* 不反转媒体元素，保持原色，并增加0.2的不透明度 */
+      /* --- 媒体元素规则 (您的原版) --- */
       .nightowl-dark img, .nightowl-dark video, .nightowl-dark iframe, .nightowl-dark .nightowl-daylight {
-        filter: invert(100%) hue-rotate(180deg);
+        filter: invert(100%) hue-rotate(180deg) contrast(1.1) saturate(1.2);
         opacity: 0.8;
       }
       
-      /* --- 新增点 2 --- */
-      /* 为指定的文本元素增加对比度，使其在暗色模式下更清晰 */
-      .nightowl-dark h1, .nightowl-dark h2, .nightowl-dark h3, .nightowl-dark h4, .nightowl-dark h5, .nightowl-dark h6, .nightowl-dark p, .nightowl-dark a, .nightowl-dark li, .nightowl-dark span, .nightowl-dark strong, .nightowl-dark b, .nightowl-dark td, .nightowl-dark th {
-        filter: contrast(1.8);
+      /* --- 文本元素规则 (您的原版) --- */
+      .nightowl-dark h1, .nightowl-dark h2, .nightowl-dark h3, .nightowl-dark h4, .nightowl-dark h5, .nightowl-dark h6, .nightowl-dark p, .nightowl-dark strong, .nightowl-dark a, .nightowl-dark li, .nightowl-dark span, .nightowl-dark b, .nightowl-dark td, .nightowl-dark th {
+        filter: brightness(0.6);
       }
 
-      /* 改善图标的对比度 (保留) */
+      /* --- 图标规则 (您的原版) --- */
       .nightowl-dark .icon {
         filter: invert(100%) hue-rotate(180deg);
       }
 
-      /* 重新启用代码块的背景 (保留) */
+      /* --- 代码块规则 (您的原版) --- */
       .nightowl-dark pre {
         filter: invert(6%);
       }
 
-      /* 改善列表项标记的对比度 (保留) */
+      /* --- 列表标记规则 (您的原版) --- */
       .nightowl-dark li::marker {
         color: #666;
+      }
+
+      /* --- 【新增】专门处理 .feature 动态背景图的CSS --- */
+      .nightowl-dark .feature {
+        position: relative;
+        isolation: isolate;
+        /* JS 会在暗色模式下移除元素自身的背景图 */
+      }
+      
+      .nightowl-dark .feature::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        
+        /* 关键：使用CSS变量从JS动态接收背景图URL */
+        background-image: var(--feature-bg-image);
+        
+        /* 尽量保持原有的背景图样式 */
+        background-size: cover;
+        background-position: center;
+        
+        /* 在这个独立的伪元素上恢复颜色并应用透明度 */
+        filter: invert(100%) hue-rotate(180deg);
+        opacity: 0.8;
       }
     `;
     document.head.appendChild(styleElement);
@@ -83,6 +108,17 @@
       html.classList.remove("nightowl-light");
       html.classList.add("nightowl-dark");
     }
+
+    // 【新增】处理所有 .feature 元素的背景图
+    document.querySelectorAll('.feature').forEach(el => {
+      // 检查元素是否有内联的 background-image 样式
+      if (el.style.backgroundImage) {
+        // 将背景图URL存入CSS变量，供 ::before 伪元素使用
+        el.style.setProperty('--feature-bg-image', el.style.backgroundImage);
+        // 移除元素自身的背景图，防止冲突
+        el.style.backgroundImage = 'none';
+      }
+    });
   }
 
   /**
@@ -95,6 +131,17 @@
       html.classList.remove("nightowl-dark");
       html.classList.add("nightowl-light");
     }
+
+    // 【新增】恢复所有 .feature 元素的背景图
+    document.querySelectorAll('.feature').forEach(el => {
+      const originalBg = el.style.getPropertyValue('--feature-bg-image');
+      if (originalBg) {
+        // 将之前保存的背景图URL恢复到元素自身
+        el.style.backgroundImage = originalBg;
+        // 移除CSS变量
+        el.style.removeProperty('--feature-bg-image');
+      }
+    });
   }
   
   /**
@@ -150,20 +197,15 @@
 
   // --- 初始化和事件绑定 ---
 
-  // 当 DOM 加载完成后执行
   document.addEventListener("DOMContentLoaded", () => {
-    // 注入样式
     addNightOwlStyles();
-    
-    // 加载用户偏好并应用主题
     loadInitialTheme();
     applyTheme();
     
-    // 找到你的开关并绑定点击事件
     const darkModeSwitcher = document.getElementById("darkmode-switch");
     if (darkModeSwitcher) {
       darkModeSwitcher.addEventListener("click", (event) => {
-        event.preventDefault(); // 阻止 a 标签的默认跳转行为
+        event.preventDefault();
         toggleTheme();
       });
     } else {
@@ -173,4 +215,4 @@
 
 })();
 </script>
-<!-- 暗色模式功能代码结束 (v2) -->
+<!-- 暗色模式功能代码结束 (v3 - 动态背景图修复版) -->
