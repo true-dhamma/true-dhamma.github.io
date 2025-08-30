@@ -1,38 +1,54 @@
-<!-- ========== 方案二：drkmd.js ========== -->
+<!-- ========== 方案一：Darkify.js ========== -->
 
 <!-- CSS样式：用于颜色反转和效果优化 -->
 <style>
-  /* 当body标签含有 theme-dark 类时，激活暗黑模式 */
-  body.theme-dark {
+  /* 当html标签含有 data-darkmode="true" 属性时，激活暗黑模式 */
+  html[data-darkmode="true"] {
+    /* 
+      关键步骤：
+      1. invert(1): 将所有颜色反转 (黑变白，白变黑)。
+      2. hue-rotate(180deg): 色相旋转180度。这一步是为了修正invert(1)带来的副作用，
+         比如纯白会变成淡黄色，通过色相旋转可以将其修正回纯白色，让文字更亮更白。
+    */
     filter: invert(1) hue-rotate(180deg);
   }
 
-  /* 修正图片和视频的反转问题 */
-  body.theme-dark img,
-  body.theme-dark video,
-  body.theme-dark iframe {
+  /* 
+    修正图片和视频：
+    由于我们对整个页面进行了反色处理，图片、视频等多媒体元素也会被反转，颜色会失真。
+    我们需要对它们进行一次“反反转”来恢复其原始颜色。
+  */
+  html[data-darkmode="true"] img,
+  html[data-darkmode="true"] video,
+  html[data-darkmode="true"] iframe {
     filter: invert(1) hue-rotate(180deg);
   }
 </style>
 
-<!-- 引入drkmd.js库 -->
-<script src="https://cdn.jsdelivr.net/npm/drkmd-js/dist/drkmd-js.min.js"></script>
+<!-- 引入Darkify.js库 -->
+<script src="https://cdn.jsdelivr.net/npm/darkify-js@1.1.5/dist/darkify-js.esm.min.js" type="module"></script>
 
 <!-- 初始化并绑定到您的开关 -->
-<script>
-  // 初始化drkmd.js实例
-  // 注意：这个库默认不显示它自己的按钮，所以attach()方法可以安全调用
-  const drkmd = new Darkmode();
-  drkmd.attach();
+<script type="module">
+  // 导入Darkify
+  import Darkify from 'https://cdn.jsdelivr.net/npm/darkify-js@1.1.5/dist/darkify-js.esm.min.js';
   
+  // 初始化Darkify实例
+  const darkify = new Darkify({
+    // 关键配置：将存储方式从默认的localStorage改为sessionStorage
+    // 这样用户的选择只在当前会话中有效
+    useSessionStorage: true,
+    useLocalStorage: false
+  });
+
   // 获取您的开关元素
   const switchButton = document.getElementById('darkmode-switch');
   
   // 为开关添加点击事件
   switchButton.addEventListener('click', function(event) {
     // 阻止<a>标签的默认跳转行为
-    event.preventDefault();
+    event.preventDefault(); 
     // 调用库的切换方法
-    drkmd.toggle();
+    darkify.toggle();
   });
 </script>
