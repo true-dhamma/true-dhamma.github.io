@@ -1,10 +1,10 @@
 ---
-layout: doc
 title: 佛法 Buddhadhamma 中文版
+permalink: "/buddhadhamma/"
+layout: doc
 feature_text: 
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_image: "/uploads/top_banner_dhamma.jpg"
 excerpt: 
-permalink: /buddhadhamma/
 ---
 
 # 佛法 Buddhadhamma 中文版
