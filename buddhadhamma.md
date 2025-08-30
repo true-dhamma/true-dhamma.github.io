@@ -5,6 +5,7 @@ layout: doc
 feature_text: 
 feature_image: "/uploads/top_banner_dhamma.jpg"
 excerpt: 
+collection: buddhadhamma
 ---
 
 # 佛法 Buddhadhamma 中文版
