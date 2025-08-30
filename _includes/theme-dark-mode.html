@@ -1,167 +1,167 @@
-<!-- NightOwl Dark Mode - Custom Implementation -->
+<!-- 暗色模式功能代码开始 -->
 <script>
-// --- 原始 NightOwl.js 核心代码 (已修改) ---
+(function() {
+  // --- 常量和变量定义 ---
+  const STORAGE_KEY = "nightowl-color-scheme";
+  const LIGHT_THEME = "light";
+  const DARK_THEME = "dark";
+  
+  let localStorageAvailable = false;
+  let currentTheme = LIGHT_THEME; // 默认主题
 
-const r = "nightowl-color-scheme", i = "light", o = "dark";
-let n = null, t = i;
-
-// 尝试访问 localStorage
-try {
-  n = localStorage;
-} catch {
-  // 如果失败 (例如，在隐私模式下)，则 n 保持为 null
-}
-
-/**
- * 创建并注入暗色模式所需的 CSS 样式
- * 【修改点】: 调整了 filter 属性，移除了 hue-rotate(180deg)
- */
-function a() {
-  const e = document.createElement("style");
-  e.innerHTML = `
-    /* 防止定位不一致 */
-    .nightowl-light body {
-        filter: invert(0%);
-        /* 为平滑过渡添加动画效果 */
-        transition: background-color 0.3s ease, color 0.3s ease;
+  // 尝试访问 localStorage
+  try {
+    if (localStorage) {
+      localStorageAvailable = true;
     }
-    
-    .nightowl-dark {
+  } catch (e) {
+    console.warn("localStorage is not available.");
+  }
+
+  // --- 核心功能函数 ---
+
+  /**
+   * 1. 注入实现暗色模式所需要的 CSS 样式
+   * 这是 nightowl.js 的核心反色逻辑，保持不变。
+   */
+  function addNightOwlStyles() {
+    const styleElement = document.createElement("style");
+    styleElement.innerHTML = `
+      /* 防止定位不一致 */
+      .nightowl-light body {
+        filter: invert(0%);
+      }
+      
+      .nightowl-dark {
         /* Firefox 的后备方案 */
         background-color: #111;
-    }
+      }
 
-    /* 
-     * 【重要修改】
-     * 移除了 hue-rotate(180deg) 来让反色后的文字更亮、更白，而不是偏黄或偏青。
-     */
-    .nightowl-dark body {
-        filter: invert(100%);
-        /* 为平滑过渡添加动画效果 */
-        transition: background-color 0.3s ease, color 0.3s ease;
-    }
+      .nightowl-dark body {
+        filter: invert(100%) hue-rotate(180deg);
+      }
 
-    /* 
-     * 【重要修改】
-     * 同样，在恢复图片、视频等媒体元素时，也只反转颜色，不旋转色相。
-     */
-    .nightowl-dark img, .nightowl-dark video, .nightowl-dark iframe, .nightowl-dark .nightowl-daylight {
-        filter: invert(100%);
-    }
+      /* 不反转媒体元素 (图片, 视频等) */
+      .nightowl-dark img, .nightowl-dark video, .nightowl-dark iframe, .nightowl-dark .nightowl-daylight {
+        filter: invert(100%) hue-rotate(180deg);
+      }
 
-    /* 提高图标的对比度 (可根据需要调整) */
-    .nightowl-dark .icon {
-        filter: invert(15%);
-    }
+      /* 改善图标的对比度 */
+      .nightowl-dark .icon {
+        filter: invert(15%) hue-rotate(180deg);
+      }
 
-    /* 重新启用代码块的背景色 */
-     .nightowl-dark pre {
+      /* 重新启用代码块的背景 */
+      .nightowl-dark pre {
         filter: invert(6%);
-    }
+      }
 
-    /* 提高列表项标记的对比度 */
-    .nightowl-dark li::marker {
-        color: #999;
-    }
+      /* 改善列表项标记的对比度 */
+      .nightowl-dark li::marker {
+        color: #666;
+      }
     `;
-  document.head.appendChild(e);
-}
-
-// 切换到暗色模式
-function h() {
-  t = o;
-  const e = document.querySelector("html");
-  e && (e.classList.remove("nightowl-light"), e.classList.add("nightowl-dark"));
-}
-
-// 切换到亮色模式
-function g() {
-  t = i;
-  const e = document.querySelector("html");
-  e && (e.classList.remove("nightowl-dark"), e.classList.add("nightowl-light"));
-}
-
-// 核心切换函数 (逻辑上的)
-function w() {
-  t = t === o ? i : o;
-  s(); // 应用更改
-}
-
-// 应用当前模式的函数 (视觉上的)
-function s() {
-  t === o ? h() : g();
-}
-
-// 【已废弃】原始代码中更新悬浮按钮图标的函数，我们不再需要它。
-// function c() { ... }
-
-// 【已废弃】原始代码中创建悬浮按钮的函数。我们不再调用它。
-// function m() { ... }
-
-// 从 localStorage 读取存储的模式
-function u() {
-  let e = null;
-  try {
-    n && (e = n.getItem(r));
-  } catch {}
-  
-  if (e && [o, i].includes(e)) {
-    // 如果 localStorage 中有有效设置，则使用它
-    t = e;
-  } else if (y()) {
-    // 否则，如果系统偏好是暗色，则默认使用暗色
-    t = o;
+    document.head.appendChild(styleElement);
   }
-}
 
-// 初始化函数：读取状态并应用
-function f() {
-  u(), s();
-}
+  /**
+   * 2. 应用暗色模式
+   */
+  function setDarkTheme() {
+    currentTheme = DARK_THEME;
+    const html = document.querySelector("html");
+    if (html) {
+      html.classList.remove("nightowl-light");
+      html.classList.add("nightowl-dark");
+    }
+  }
 
-// 将当前模式保存到 localStorage
-function k() {
-  if (t !== null) {
+  /**
+   * 3. 应用亮色模式
+   */
+  function setLightTheme() {
+    currentTheme = LIGHT_THEME;
+    const html = document.querySelector("html");
+    if (html) {
+      html.classList.remove("nightowl-dark");
+      html.classList.add("nightowl-light");
+    }
+  }
+  
+  /**
+   * 4. 根据当前主题状态应用样式
+   */
+  function applyTheme() {
+    if (currentTheme === DARK_THEME) {
+      setDarkTheme();
+    } else {
+      setLightTheme();
+    }
+  }
+  
+  /**
+   * 5. 切换主题
+   */
+  function toggleTheme() {
+    currentTheme = (currentTheme === DARK_THEME) ? LIGHT_THEME : DARK_THEME;
+    applyTheme();
+    saveThemeState();
+  }
+
+  /**
+   * 6. 从 localStorage 读取已保存的主题偏好
+   */
+  function loadInitialTheme() {
+    if (!localStorageAvailable) return;
+    
     try {
-      n && n.setItem(r, t);
-    } catch {}
+      const savedTheme = localStorage.getItem(STORAGE_KEY);
+      if (savedTheme && [DARK_THEME, LIGHT_THEME].includes(savedTheme)) {
+        currentTheme = savedTheme;
+      }
+    } catch (e) {
+      console.error("Failed to read theme from localStorage.", e);
+    }
   }
-}
-
-// 检查系统是否偏好暗色模式
-function y() {
-  return window.matchMedia && (window.matchMedia("(prefers-color-scheme: dark)").matches || window.matchMedia("(prefers-color-scheme:dark)").matches);
-}
-
-
-// --- 页面加载与自定义开关绑定 ---
-
-// 当整个页面加载完毕后执行
-window.addEventListener("load", () => {
-  // 1. 注入 CSS 样式
-  a();
   
-  // 2. 从 localStorage 或系统偏好加载并应用当前主题
-  f();
-  
-  // 3. 【重要修改】我们不再调用 m() 函数，这样就不会创建悬浮按钮了。
-  
-  // 4. 【新增逻辑】绑定您自己的开关
-  const customDarkModeSwitch = document.getElementById("darkmode-switch");
-  
-  if (customDarkModeSwitch) {
-    customDarkModeSwitch.addEventListener("click", (event) => {
-      // 阻止 <a> 标签的默认跳转行为
-      event.preventDefault();
-      
-      // 调用核心切换函数
-      w();
-      
-      // 将新的选择保存到 localStorage
-      k();
-    });
-  } else {
-    console.warn('NightOwl: Dark mode switch with id "darkmode-switch" not found.');
+  /**
+   * 7. 将当前主题状态保存到 localStorage
+   */
+  function saveThemeState() {
+    if (!localStorageAvailable) return;
+
+    if (currentTheme !== null) {
+      try {
+        localStorage.setItem(STORAGE_KEY, currentTheme);
+      } catch (e) {
+        console.error("Failed to save theme to localStorage.", e);
+      }
+    }
   }
-});
+
+  // --- 初始化和事件绑定 ---
+
+  // 当 DOM 加载完成后执行
+  document.addEventListener("DOMContentLoaded", () => {
+    // 注入样式
+    addNightOwlStyles();
+    
+    // 加载用户偏好并应用主题
+    loadInitialTheme();
+    applyTheme();
+    
+    // 找到你的开关并绑定点击事件
+    const darkModeSwitcher = document.getElementById("darkmode-switch");
+    if (darkModeSwitcher) {
+      darkModeSwitcher.addEventListener("click", (event) => {
+        event.preventDefault(); // 阻止 a 标签的默认跳转行为
+        toggleTheme();
+      });
+    } else {
+      console.warn("Dark mode switch with id 'darkmode-switch' not found.");
+    }
+  });
+
+})();
 </script>
+<!-- 暗色模式功能代码结束 -->
