@@ -1,4 +1,4 @@
-<!-- 暗色模式功能代码开始 (V3 - 提升文本对比度) -->
+<!-- 暗色模式功能代码开始 (更新版) -->
 <script>
 (function() {
   // --- 常量和变量定义 ---
@@ -29,8 +29,6 @@
       /* 防止定位不一致 */
       .nightowl-light body {
         filter: invert(0%);
-        /* 确保切换回亮色模式时过渡平滑 */
-        transition: filter 0.3s ease;
       }
       
       .nightowl-dark {
@@ -38,14 +36,18 @@
         background-color: #111;
       }
 
+      /* [修改点 1] 在滤镜链中增加了 brightness(60%) 来降低整体亮度 */
       .nightowl-dark body {
-        filter: invert(100%) hue-rotate(180deg);
-        transition: filter 0.3s ease;
+        filter: invert(100%) hue-rotate(180deg) brightness(60%);
       }
 
-      /* 不反转媒体元素 (图片, 视频等) */
+      /* 
+       * [修改点 2] 媒体元素先通过滤镜恢复正常显示，再应用不透明度
+       * 这实现了“不反色，仅降低不透明度”的视觉效果
+      */
       .nightowl-dark img, .nightowl-dark video, .nightowl-dark iframe, .nightowl-dark .nightowl-daylight {
         filter: invert(100%) hue-rotate(180deg);
+        opacity: 0.8;
       }
 
       /* 改善图标的对比度 */
@@ -61,24 +63,6 @@
       /* 改善列表项标记的对比度 */
       .nightowl-dark li::marker {
         color: #666;
-      }
-
-      /* --- 新增：提升暗色模式下文本和标题的对比度 --- */
-      .nightowl-dark h1,
-      .nightowl-dark h2,
-      .nightowl-dark h3,
-      .nightowl-dark h4,
-      .nightowl-dark h5,
-      .nightowl-dark h6,
-      .nightowl-dark p,
-      .nightowl-dark a,
-      .nightowl-dark li,
-      .nightowl-dark span,
-      .nightowl-dark strong,
-      .nightowl-dark b,
-      .nightowl-dark td,
-      .nightowl-dark th {
-        filter: contrast(1.2);
       }
     `;
     document.head.appendChild(styleElement);
