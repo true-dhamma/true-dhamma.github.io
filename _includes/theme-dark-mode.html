@@ -1,55 +1,38 @@
-<!-- ========== Darkify 方案开始 ========== -->
-<style>
-/* 当 Darkify 激活时，它会给 <body> 标签添加 darkify-dark 类 */
-body.darkify-dark {
-  /* 同样使用 filter: invert(1) 和 hue-rotate(180deg) 来优化颜色 */
-  -webkit-filter: invert(1) hue-rotate(180deg);
-  filter: invert(1) hue-rotate(180deg);
-  
-  /* Darkify 可能不会反转背景色，我们手动指定一下 */
-  background-color: #fff;
-}
+<!-- ========== 方案二：drkmd.js ========== -->
 
-/* 恢复图片、视频等媒体元素的正常显示 */
-body.darkify-dark img,
-body.darkify-dark video,
-body.darkify-dark iframe {
-  -webkit-filter: invert(1) hue-rotate(180deg);
-  filter: invert(1) hue-rotate(180deg);
-}
+<!-- CSS样式：用于颜色反转和效果优化 -->
+<style>
+  /* 当body标签含有 theme-dark 类时，激活暗黑模式 */
+  body.theme-dark {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  /* 修正图片和视频的反转问题 */
+  body.theme-dark img,
+  body.theme-dark video,
+  body.theme-dark iframe {
+    filter: invert(1) hue-rotate(180deg);
+  }
 </style>
 
-<script src="https://cdn.jsdelivr.net/npm/darkify-js@1.0/dist/darkify.min.js"></script>
+<!-- 引入drkmd.js库 -->
+<script src="https://cdn.jsdelivr.net/npm/drkmd-js/dist/drkmd-js.min.js"></script>
+
+<!-- 初始化并绑定到您的开关 -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+  // 初始化drkmd.js实例
+  // 注意：这个库默认不显示它自己的按钮，所以attach()方法可以安全调用
+  const drkmd = new Darkmode();
+  drkmd.attach();
+  
+  // 获取您的开关元素
   const switchButton = document.getElementById('darkmode-switch');
-  const storageKey = 'darkify-theme-session';
-
-  // 初始化 Darkify，关闭其自带的 localStorage 存储和自动检测
-  const darkify = new Darkify({
-    auto: false, 
-    useLocalStorage: false 
+  
+  // 为开关添加点击事件
+  switchButton.addEventListener('click', function(event) {
+    // 阻止<a>标签的默认跳转行为
+    event.preventDefault();
+    // 调用库的切换方法
+    drkmd.toggle();
   });
-
-  // 页面加载时：检查 sessionStorage 并应用主题
-  if (sessionStorage.getItem(storageKey) === 'dark') {
-    darkify.toggle();
-  }
-
-  // 为您的开关 <a> 标签绑定点击事件
-  if (switchButton) {
-    switchButton.addEventListener('click', function(event) {
-      event.preventDefault(); // 阻止 a 标签的默认跳转行为
-      darkify.toggle();
-
-      // 在 sessionStorage 中记录状态
-      if (document.body.classList.contains('darkify-dark')) {
-        sessionStorage.setItem(storageKey, 'dark');
-      } else {
-        sessionStorage.removeItem(storageKey);
-      }
-    });
-  }
-});
 </script>
-<!-- ========== Darkify 方案结束 ========== -->
