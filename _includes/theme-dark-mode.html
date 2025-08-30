@@ -56,7 +56,16 @@
     
     // (1) 定义 darkmode.js 的初始化参数
     const options = {
-      saveInCookies: true,       // 保存用户选择到 cookie
+  bottom: '64px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  label: '🌓', // default: ''
+    saveInCookies: true,       // 保存用户选择到 cookie
       autoMatchOsTheme: false,   // 不自动匹配操作系统主题
       label: '🌓' // 这个标签虽然不会显示，但库内部可能需要
     };
