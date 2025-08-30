@@ -1,66 +1,55 @@
-<!-- 方案二：Nightowl -->
+<!-- ========== Darkify 方案开始 ========== -->
 <style>
-    #nightowl-toggle-btn {
-        width: 22px;
-        height: 22px;
-        padding: 2px;
-        border-radius: 6px;
-        border: 1px solid #ccc;
-        background-color: #f0f0f0;
-        cursor: pointer;
-        box-sizing: border-box;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    #nightowl-toggle-btn:hover {
-        background-color: #e0e0e0;
-    }
-    #nightowl-toggle-btn svg {
-        width: 100%;
-        height: 100%;
-    }
-    .nightowl-moon-icon { display: none; }
-    .nightowl-sun-icon { display: block; }
-    
-    /* 当暗黑模式激活时 (Nightowl 会给 html 添加 .dark 类) */
-    html.dark #nightowl-toggle-btn {
-        background-color: #333;
-        border-color: #555;
-    }
-    html.dark .nightowl-moon-icon { display: block; }
-    html.dark .nightowl-sun-icon { display: none; }
+/* 当 Darkify 激活时，它会给 <body> 标签添加 darkify-dark 类 */
+body.darkify-dark {
+  /* 同样使用 filter: invert(1) 和 hue-rotate(180deg) 来优化颜色 */
+  -webkit-filter: invert(1) hue-rotate(180deg);
+  filter: invert(1) hue-rotate(180deg);
+  
+  /* Darkify 可能不会反转背景色，我们手动指定一下 */
+  background-color: #fff;
+}
+
+/* 恢复图片、视频等媒体元素的正常显示 */
+body.darkify-dark img,
+body.darkify-dark video,
+body.darkify-dark iframe {
+  -webkit-filter: invert(1) hue-rotate(180deg);
+  filter: invert(1) hue-rotate(180deg);
+}
 </style>
 
-<!-- 1. 在 placeholder 中创建我们的按钮HTML -->
+<script src="https://cdn.jsdelivr.net/npm/darkify-js@1.0/dist/darkify.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const placeholder = document.getElementById('darkmode-placeholder');
-    if (placeholder) {
-        placeholder.innerHTML = `
-            <button id="nightowl-toggle-btn" title="切换模式">
-                <svg class="nightowl-sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-                <svg class="nightowl-moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-            </button>
-        `;
-    }
+  const switchButton = document.getElementById('darkmode-switch');
+  const storageKey = 'darkify-theme-session';
+
+  // 初始化 Darkify，关闭其自带的 localStorage 存储和自动检测
+  const darkify = new Darkify({
+    auto: false, 
+    useLocalStorage: false 
+  });
+
+  // 页面加载时：检查 sessionStorage 并应用主题
+  if (sessionStorage.getItem(storageKey) === 'dark') {
+    darkify.toggle();
+  }
+
+  // 为您的开关 <a> 标签绑定点击事件
+  if (switchButton) {
+    switchButton.addEventListener('click', function(event) {
+      event.preventDefault(); // 阻止 a 标签的默认跳转行为
+      darkify.toggle();
+
+      // 在 sessionStorage 中记录状态
+      if (document.body.classList.contains('darkify-dark')) {
+        sessionStorage.setItem(storageKey, 'dark');
+      } else {
+        sessionStorage.removeItem(storageKey);
+      }
+    });
+  }
 });
 </script>
-
-<!-- 2. 引入 Nightowl 的 CDN -->
-<script src="https://cdn.jsdelivr.net/npm/nightowl/dist/nightowl.js"></script>
-
-<!-- 3. 初始化并绑定事件 -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // 初始化 Nightowl
-        Nightowl.enable();
-
-        const toggleButton = document.getElementById('nightowl-toggle-btn');
-        if (toggleButton) {
-            toggleButton.addEventListener('click', () => {
-                Nightowl.toggle();
-            });
-        }
-    });
-</script>
+<!-- ========== Darkify 方案结束 ========== -->
