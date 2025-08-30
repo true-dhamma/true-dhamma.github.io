@@ -1,107 +1,66 @@
-<!-- HTML, CSS 和 JavaScript 代码 -->
-
-<!-- 1. 必要的 CSS 样式 -->
+<!-- 方案二：Nightowl -->
 <style>
-  /* 强制隐藏 darkmode.js 库自带的浮动按钮 */
-  .darkmode-toggle {
-    display: none !important;
-  }
-
-  /* 自定义切换按钮的容器样式 */
-  #custom-darkmode-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 22px;
-    height: 22px;
-    padding: 0;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    /* 让SVG图标颜色继承当前文本颜色，以便更好地适应您的主题 */
-    color: inherit; 
-  }
-
-  #custom-darkmode-toggle svg {
-    width: 100%;
-    height: 100%;
-    fill: currentColor; /* 使用 currentColor 继承父元素的 color 属性 */
-  }
-
-  /* 默认状态下（亮色模式），显示太阳，隐藏月亮 */
-  .sun-icon {
-    display: block;
-  }
-  .moon-icon {
-    display: none;
-  }
-
-  /* 当 body 有 .darkmode--activated 类时（暗色模式），隐藏太阳，显示月亮 */
-  .darkmode--activated .sun-icon {
-    display: none;
-  }
-  .darkmode--activated .moon-icon {
-    display: block;
-  }
+    #nightowl-toggle-btn {
+        width: 22px;
+        height: 22px;
+        padding: 2px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        background-color: #f0f0f0;
+        cursor: pointer;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #nightowl-toggle-btn:hover {
+        background-color: #e0e0e0;
+    }
+    #nightowl-toggle-btn svg {
+        width: 100%;
+        height: 100%;
+    }
+    .nightowl-moon-icon { display: none; }
+    .nightowl-sun-icon { display: block; }
+    
+    /* 当暗黑模式激活时 (Nightowl 会给 html 添加 .dark 类) */
+    html.dark #nightowl-toggle-btn {
+        background-color: #333;
+        border-color: #555;
+    }
+    html.dark .nightowl-moon-icon { display: block; }
+    html.dark .nightowl-sun-icon { display: none; }
 </style>
 
-<!-- 2. 引入 darkmode.min.js 库 -->
-<!-- 请确保这里的路径是正确的 -->
-<script src="/assets/darkmode-js.min.js"></script>
-
-<!-- 3. 初始化和控制逻辑 -->
+<!-- 1. 在 placeholder 中创建我们的按钮HTML -->
 <script>
-  // 等待文档完全加载
-  document.addEventListener('DOMContentLoaded', function () {
-    
-    // (1) 定义 darkmode.js 的初始化参数
-    const options = {
-  bottom: '64px', // default: '32px'
-  right: 'unset', // default: '32px'
-  left: '32px', // default: 'unset'
-  time: '0.5s', // default: '0.3s'
-  mixColor: '#fff', // default: '#fff'
-  backgroundColor: '#fff',  // default: '#fff'
-  buttonColorDark: '#100f2c',  // default: '#100f2c'
-  buttonColorLight: '#fff', // default: '#fff'
-  label: '🌓', // default: ''
-    saveInCookies: true,       // 保存用户选择到 cookie
-      autoMatchOsTheme: false,   // 不自动匹配操作系统主题
-      label: '🌓' // 这个标签虽然不会显示，但库内部可能需要
-    };
-
-    // (2) 初始化 darkmode 实例
-    const darkmode = new Darkmode(options);
-
-    // 注意：我们 **不** 调用 darkmode.showWidget()，因为我们不想显示默认的浮动按钮。
-    // 我们将手动控制切换功能。
-
-    // (3) 获取您在 header 中设置的占位符元素
+document.addEventListener('DOMContentLoaded', function() {
     const placeholder = document.getElementById('darkmode-placeholder');
-
     if (placeholder) {
-      // (4) 创建并注入我们的自定义 SVG 按钮
-      const toggleButtonHTML = `
-        <button id="custom-darkmode-toggle" aria-label="Toggle dark mode">
-          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="22px" height="22px">
-            <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM12 15c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM12 20c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM1 11h2v2H1zM21 11h2v2h-2zM11 1v2h2V1zM11 21v2h2v-2zM4.22 4.22l1.42 1.42 1.41-1.41L5.63 2.81zM18.36 18.36l-1.42-1.42-1.41 1.41 1.41 1.42zM2.81 18.36l1.41-1.41 1.42 1.42L4.22 19.78zM19.78 4.22l-1.41 1.42-1.42-1.42 1.42-1.41z"/>
-          </svg>
-          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="22px" height="22px">
-            <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.62-.11 2.36-.31-3.12-.99-5.36-3.95-5.36-7.44 0-4.24 3.42-7.66 7.66-7.66.39 0 .78.04 1.15.11C16.88 3.63 14.54 3 12 3z"/>
-          </svg>
-        </button>
-      `;
-      placeholder.innerHTML = toggleButtonHTML;
-
-      // (5) 为我们新创建的按钮添加点击事件监听器
-      const toggleButton = document.getElementById('custom-darkmode-toggle');
-      if (toggleButton) {
-        toggleButton.addEventListener('click', function() {
-          darkmode.toggle(); // 调用库的切换方法
-        });
-      }
-    } else {
-      console.warn('Darkmode placeholder with ID "darkmode-placeholder" was not found.');
+        placeholder.innerHTML = `
+            <button id="nightowl-toggle-btn" title="切换模式">
+                <svg class="nightowl-sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                <svg class="nightowl-moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </button>
+        `;
     }
-  });
+});
+</script>
+
+<!-- 2. 引入 Nightowl 的 CDN -->
+<script src="https://cdn.jsdelivr.net/npm/nightowl/dist/nightowl.js"></script>
+
+<!-- 3. 初始化并绑定事件 -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // 初始化 Nightowl
+        Nightowl.enable();
+
+        const toggleButton = document.getElementById('nightowl-toggle-btn');
+        if (toggleButton) {
+            toggleButton.addEventListener('click', () => {
+                Nightowl.toggle();
+            });
+        }
+    });
 </script>
