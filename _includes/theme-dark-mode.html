@@ -1,13 +1,14 @@
+<!-- 暗色模式功能代码开始 (v2) - 放在 </body> 前 -->
 <script>
 (function() {
   /*
     重要提示：
     为防止加载页面时出现“白屏闪烁”，请将以下<script>代码块
-    作为一个独立的<script>标签，放置在网站site-header.html内。
+    作为一个独立的<script>标签，放置在网站每个页面的<head>标签内。
 
     <!-- 防止暗色模式闪烁脚本开始 (请放置在<head>标签内) -->
     <script>(function(){const s="nightowl-color-scheme",t="dark";try{const e=localStorage.getItem(s);e===t&&document.documentElement.classList.add("nightowl-dark")}catch(e){}})();<\/script>
-    <!-- 防止暗色模式闪烁脚本结束 -->
+    <!-- 防止暗色模式闪นอก结束 -->
   */
 
   // --- 常量和变量定义 ---
@@ -47,25 +48,25 @@
 
       /* 暗色模式：核心反色滤镜 (应用到整个页面) */
       .nightowl-dark body {
-        filter: invert(100%) hue-rotate(20deg); /* <<< 已更新为 20deg */
+        filter: invert(100%) hue-rotate(20deg); /* <-- 已修改 */
       }
 
       /* 还原图片/视频：抵消body滤镜，恢复原色并调暗 */
       .nightowl-dark img, .nightowl-dark video, .nightowl-dark iframe, .nightowl-dark .nightowl-daylight {
-        filter: invert(100%) hue-rotate(20deg) contrast(1.1) saturate(1.2); /* <<< 已同步更新为 20deg */
+        filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.2); /* <-- 已修改 (360-20=340) */
         opacity: 0.8;
       }
       
       /* 全屏视频特殊处理：移除恢复滤镜，避免被单独反转 */
       .nightowl-dark video:fullscreen,
-      .nightowl-dark video:-webkit-full-screen { /* 兼容旧版Chrome/Safari */
+      .nightowl-dark video:-webkit-full-screen {
         filter: none;
         opacity: 1;
       }
       
       /* 还原.feature区：抵消body滤镜，恢复原色并调暗 */
       .nightowl-dark .feature {
-        filter: invert(100%) hue-rotate(20deg); /* <<< 已同步更新为 20deg */
+        filter: invert(100%) hue-rotate(340deg); /* <-- 已修改 (360-20=340) */
         opacity: 0.8;
       }
       
@@ -76,7 +77,7 @@
 
       /* 还原图标：抵消body滤镜 */
       .nightowl-dark .icon {
-        filter: invert(100%) hue-rotate(20deg); /* <<< 已同步更新为 20deg */
+        filter: invert(100%) hue-rotate(340deg); /* <-- 已修改 (360-20=340) */
       }
 
       /* 代码块微调：轻微反色以突出背景 */
@@ -162,3 +163,4 @@
 
 })();
 </script>
+<!-- 暗色模式功能代码结束 (v2) -->
