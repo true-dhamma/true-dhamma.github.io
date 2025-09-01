@@ -1,4 +1,3 @@
----
 title: True Dhamma
 timezone: Asia/Shanghai
 collections:
@@ -109,3 +108,6 @@ social_links:
   GitHub: 
   link: https://true-dhamma.github.io
   RSS: "/feed.xml"
+sharing_links:
+  Email: true
+  universalshare: true
