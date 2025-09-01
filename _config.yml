@@ -111,4 +111,5 @@ social_links:
   RSS: "/feed.xml"
 sharing_links:
   Email: true
-  universalshare: true
+  universalshare: "#07C160
+"
