@@ -4,6 +4,10 @@
       <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small>
     </div>
 
+    {% include nav-footer.html %}
+  </div>
+</footer>
+
     <!-- G-Translate 翻译浮动条控制逻辑 -->
     <div id="gtranslate-block-container">
       <div class="gtranslate_wrapper"></div>
@@ -15,7 +19,7 @@
           "languages": ["zh-CN", "zh-TW", "th", "en"],
           "wrapper_selector": ".gtranslate_wrapper"
         };
-
+        
         // 动态创建并加载 G-Translate 脚本。
         // 由于我们将始终控制其可见性，所以脚本本身需要加载。
         const gTranslateScript = document.createElement('script');
@@ -72,7 +76,3 @@
     <!-- G-Translate 翻译浮动条控制逻辑 结束 -->
 
     {% include theme-dark-mode.html %}
-
-    {% include nav-footer.html %}
-  </div>
-</footer>

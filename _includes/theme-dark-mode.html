@@ -51,8 +51,8 @@
       }
 
       /* 还原图片/视频：抵消body滤镜，恢复原色并调暗 */
-      .nightowl-dark img, .nightowl-dark video, .nightowl-dark iframe, .nightowl-dark .nightowl-daylight {
-        filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.2); /* <-- 已修改 (360-20=340) */
+      .nightowl-dark .feature, .nightowl-dark img, .nightowl-dark video, .nightowl-dark iframe, .nightowl-dark .nightowl-daylight {
+        filter: invert(100%) hue-rotate(340deg) contrast(1) saturate(1) brightness(1); /* <-- 已修改 (360-20=340) */
         opacity: 0.8;
       }
       
@@ -63,14 +63,8 @@
         opacity: 1;
       }
       
-      /* 还原.feature区：抵消body滤镜，恢复原色并调暗 */
-      .nightowl-dark .feature {
-        filter: invert(100%) hue-rotate(340deg); /* <-- 已修改 (360-20=340) */
-        opacity: 0.8;
-      }
-      
       /* 调整全局文本：降低亮度以适应暗色背景 */
-      .nightowl-dark h1, .nightowl-dark h2, .nightowl-dark h3, .nightowl-dark h4, .nightowl-dark h5, .nightowl-dark h6, .nightowl-dark p, .nightowl-dark strong, .nightowl-dark a, .nightowl-dark li, .nightowl-dark span, .nightowl-dark b, .nightowl-dark td, .nightowl-dark th {
+      .nightowl-dark h1, .nightowl-dark h2, .nightowl-dark h3, .nightowl-dark h4, .nightowl-dark h5, .nightowl-dark h6, .nightowl-dark p, .nightowl-dark strong, .nightowl-dark a, .nightowl-dark li, .nightowl-dark span, .nightowl-dark b {
         filter: brightness(0.6);
       }
 
@@ -162,4 +156,3 @@
 
 })();
 </script>
-<!-- 暗色模式功能代码结束 (v2) -->
