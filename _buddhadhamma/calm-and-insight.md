@@ -639,12 +639,13 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 
 \[7\] Vin. II. 184-5；J. IV. 200。
 
-\[8\] S. I. 120-21。
+\[8\] S. I. 120-21。qqq<a href="javascript:history.back()"> ↩ </a>
 
-\[9\] 例如：Vism. 689；J. II. 274；SnA. I. 70；\[1/87\]。DDD
+\[9\] 例如：Vism. 689；J. II. 274；SnA. I. 70；\[1/87\]。DDD <a href="javascript:history.back()">点这里返回上一页 ↩</a>
 {: #fn-fn9}
 
-\[10\] MA. IV 165。FFF{: #fn-fn10}
+\[10\] MA. IV 165。FFF{: #fn-fn10} EEE
+<a href="javascript:history.back()">点这里返回上一页 ↩</a>
 
 \[11\] M. I. 164-6, 240。
 
