@@ -1,118 +1,34 @@
-{% comment %}
-================================================================================
-修改说明 (v2 - 简洁版):
-1.  HTML: 移除了用于移动端点击的 <span class="submenu-toggle"> 箭头图标，简化结构。
-2.  CSS:
-    -   PC端: 强制为导航列表设置 `overflow: visible`，解决了悬停菜单被遮挡的问题。
-    -   移动端: 默认就让 `.submenu` 直接显示 (`display: block`)，并取消了绝对定位和
-        下拉框样式，只保留了左侧缩进，使其外观干净整洁。
-3.  JavaScript: 彻底移除了所有关于二级菜单的点击处理逻辑 (`handleSubmenu` 函数)，
-    只保留了模板原有的主菜单抽屉功能，代码更精简。
-================================================================================
-{% endcomment %}
-
-<!-- 简洁版二级菜单CSS -->
-<style>
-  /* --- 基础样式 --- */
-  .item--has-submenu {
-    position: relative;
-  }
-  .submenu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  /* --- PC端样式 (屏幕宽度 > 639px) --- */
-  @media (min-width: 640px) {
-    /* 关键修复：允许下拉菜单溢出容器显示 */
-    .nav--header .list--nav {
-      overflow: visible;
-    }
-    
-    .submenu {
-      display: none; /* PC端默认隐藏 */
-      position: absolute;
-      top: 100%;
-      left: 0;
-      min-width: 200px;
-      z-index: 1000;
-      background-color: var(--background, #fff);
-      border: 1px solid var(--border, #eee);
-      border-radius: 4px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-
-    .item--has-submenu:hover > .submenu {
-      display: block; /* 悬停时显示 */
-    }
-
-    .submenu .item--nav a {
-      display: block;
-      padding: 10px 15px;
-      white-space: nowrap;
-    }
-    
-    .submenu .item--nav a:hover {
-      background-color: var(--primary-light, #f0f0f0);
-    }
-  }
-
-  /* --- 移动端样式 (屏幕宽度 < 640px) --- */
-  @media (max-width: 639px) {
-    .submenu {
-      display: block; /* 移动端直接显示 */
-      width: 100%;
-    }
-    
-    .submenu .item--nav a {
-      padding-left: 30px; /* 为二级菜单项添加缩进 */
-    }
-  }
-</style>
-
 {% if site.navigation_header %}
 <nav class="nav  nav--header">
   <ul class="list  list--nav">
     {% for item in site.navigation_header %}
+
       {% if item.url contains '://' %}
         {% assign url = item.url %}
       {% else %}
         {% assign url = item.url | relative_url %}
       {% endif %}
 
-      <li class="item  item--nav{% if item.url == page.url %} item--current{% endif %}{% if item.sublinks %} item--has-submenu{% endif %}">
+      <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
         <a href="{{ url }}">{{ item.title }}</a>
-        
-        {% if item.sublinks %}
-          <!-- 二级菜单 (HTML结构简化) -->
-          <ul class="submenu">
-            {% for subitem in item.sublinks %}
-              {% if subitem.url contains '://' %}
-                {% assign sub_url = subitem.url %}
-              {% else %}
-                {% assign sub_url = subitem.url | relative_url %}
-              {% endif %}
-              <li class="item item--nav">
-                <a href="{{ sub_url }}">{{ subitem.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
       </li>
     {% endfor %}
 
-    <!-- Language & Dark Mode 开关 -->
+    <!-- Language 开关 -->
     <li class="item  item--nav">
       <a href="#" onclick="window.toggleGTranslateVisibility(); return false;" title="Language">
         {% include icon.html id="language" width="22" height="22" title="Language" %}
       </a>
     </li>
+    <!-- Language 开关结束 -->
+
+    <!-- 暗黑模式 开关 -->
     <li class="item  item--nav">
       <a href="#" id="darkmode-switch" title="Dark Mode">
         {% include icon.html id="dark-mode" width="22" height="22" title="Dark Mode" %}
       </a>
     </li> 
+    <!-- 暗黑模式 开关结束 -->
     
   </ul>
   <button class="button  button--nav" aria-label="Menu toggle">
@@ -123,30 +39,33 @@
   {% include nav-default.html %}
 {% endif %}
 
-<!-- 模板原生JS (已移除二级菜单处理逻辑) -->
 <script type="text/javascript">
-  const navList = document.querySelector('.header .list--nav');
-  const button  = document.querySelector('.header .button--nav');
+  // Get list and button
+  const navList = document.querySelector('.header .list--nav')
+  const button  = document.querySelector('.header .button--nav')
 
+  // Hide nav and apply toggle
   const collapseNav = () => {
     if (document.body.clientWidth < 640) {
-      navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`);
+      navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
     } else {
-      navList.removeAttribute('style');
+      navList.removeAttribute('style')
     }
 
     button.onclick = () => {
-      navList.style.setProperty('transition', `margin .1s`);
+      navList.style.setProperty('transition', `margin .1s`)
       if (navList.style.getPropertyValue('--listHeight')) {
-        navList.style.removeProperty('--listHeight');
+        navList.style.removeProperty('--listHeight')
       } else {
-        navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`);
+        navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
       }
     }
-  };
+  }
 
-  collapseNav();
+  collapseNav()
+
+  // Check on resize if to collapse nav
   window.addEventListener('resize', () => {
-    collapseNav();
-  });
+    collapseNav()
+  })
 </script>
