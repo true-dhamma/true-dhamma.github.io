@@ -1,10 +1,10 @@
 ---
-title: President Of The Buddhadhamma Foundation
+title: 佛法基金会主席
 ---
 
 # 佛法基金会主席
 
-[![image](./includes/images/illustrations/reclining-buddha-trade.jpg)](https://buddhadhamma.github.io/includes/images/illustrations/reclining-buddha-trade.pdf)
+![image](./includes/images/illustrations/reclining-buddha-trade.jpg)
 
 姓名：Yongyut Thanapura
 

@@ -11,10 +11,8 @@ chapters:
     url: /buddhadhamma/foreword-by-translator.html
   - title: 导论
     url: /buddhadhamma/introduction.html
-
   - title: 第一部：中道法义
     url: /buddhadhamma/middle-teaching.html
-
   - title: 第一篇：生命是什么？
     url: /buddhadhamma/nature-of-human-life.html
     subitems:
@@ -22,13 +20,11 @@ chapters:
         url: /buddhadhamma/five-aggregates.html
       - title: 第二章：六处
         url: /buddhadhamma/six-sense-spheres.html
-
-  - title: 第二篇：生命的怎样的？
+  - title: 第二篇：生命是怎样的？
     url: /buddhadhamma/attributes-of-life.html
     subitems:
       - title: 第三章：三法印
         url: /buddhadhamma/three-characteristics.html
-
   - title: 第三篇：生命如何运作？
     url: /buddhadhamma/process-of-life.html
     subitems:
@@ -36,7 +32,6 @@ chapters:
         url: /buddhadhamma/dependent-origination.html
       - title: 第五章：业的法则
         url: /buddhadhamma/law-of-kamma.html
-
   - title: 第四篇：生命应成为怎样？
     url: /buddhadhamma/goal-of-life.html
     subitems:
@@ -46,32 +41,28 @@ chapters:
         url: /buddhadhamma/awakened-beings.html
       - title: 第八章：止与观
         url: /buddhadhamma/calm-and-insight.html
-
   - title: 第五篇：生命应如何存在？
     url: /buddhadhamma/a-noble-life.html
     subitems:
-      - title: 第九章：神通与神圣
+      - title: 第九章：神通与天人
         url: /buddhadhamma/the-supernatural-and-the-divine.html
       - title: 第十章：佛陀关于欲望的教导
         url: /buddhadhamma/the-buddhist-teachings-on-desire.html
       - title: 第十一章：安乐
         url: /buddhadhamma/happiness.html
-
   - title: 第二部：中道
     url: /buddhadhamma/middle-way.html
-
   - title: 第六篇：美好的生命是怎样的？
     url: /buddhadhamma/a-worthy-life.html
     subitems:
       - title: 第十二章：中道导论
         url: /buddhadhamma/introduction-to-the-middle-way.html
-      - title: 第十三章：善知识
+      - title: 第十三章：善友
         url: /buddhadhamma/virtuous-friendship.html
       - title: 第十四章：信心
         url: /buddhadhamma/faith-and-confidence.html
       - title: 第十五章：如理作意
         url: /buddhadhamma/wise-reflection.html
-
   - title: 第七篇：道支
     url: /buddhadhamma/path-factors.html
     subitems:
@@ -83,7 +74,6 @@ chapters:
         url: /buddhadhamma/path-factors-of-concentration.html
       - title: 第十九章：四圣谛
         url: /buddhadhamma/four-noble-truths.html
-
   - title: 附录：心（Citta）、识（Viññāṇa）、意（Mano）
     url: /buddhadhamma/appendix-citta-vinnana-mano.html
   - title: 作者后记

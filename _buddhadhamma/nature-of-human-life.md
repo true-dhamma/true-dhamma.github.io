@@ -1,5 +1,5 @@
 ---
-title: Nature Of Human Life
+title: 第一篇：生命是什么？
 ---
 
 # 第一篇：生命是什么？

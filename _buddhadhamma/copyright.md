@@ -1,5 +1,5 @@
 ---
-title: Copyright
+title: 版权
 ---
 
 # 版权
@@ -16,13 +16,17 @@ title: Copyright
 
 第四版
 
-译者：罗宾·菲利普·摩尔 (Robin Philip Moore)
+英文译者：罗宾·菲利普·摩尔 (Robin Philip Moore)
+
+中文译者：智宁居士
 
 编辑：科维洛比丘 (Bhikkhu Kovilo)，排版：甘比罗比丘 (Bhikkhu Gambhīro)
 
 请在以下地址下载此书的PDF、EPUB和MOBI格式：
 
-buddhadhamma.github.io
+英文版：buddhadhamma.github.io
+
+中文版：true-dhamma.com
 
 分发和商业权利由佛法基金会保留。如果您希望在您的网站上分发此书，请向佛法基金会发送您的请求。
 

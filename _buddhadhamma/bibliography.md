@@ -1,16 +1,16 @@
 ---
-title: Bibliography
+title: 参考书目
 ---
 
 # 参考书目
 
-[![image](./includes/images/illustrations/wat-chai-trade.jpg)](https://buddhadhamma.github.io/includes/images/illustrations/wat-chai-trade.pdf)
+![image](./includes/images/illustrations/wat-chai-trade.jpg)
 
-本参考文献列表主要旨在为希望获取经典和后经典文本及其现有英文译本的读者提供资源。尽管重点放在《佛法》中引用的文本，但其中一些并未被引用。此外，英文译本列表并非详尽无遗。[\[1\]](#fn-fn1)
+本参考文献列表主要旨在为希望获取经典和后经典文本及其现有英文译本的读者提供资源。尽管重点放在《佛法》中引用的文本，但其中一些并未被引用。此外，英文译本列表并非详尽无遗。[\[1\]](#fn-fn1){:id="fr-fn1"}
 
-### 巴利语圣典
+### 巴利圣典
 
-巴利语三藏的泰文版共计45卷 = 21,926页（律藏，3,351页；经藏，12,077页；阿毗达磨藏，6,498页）。[\[2\]](#fn-fn2)
+《巴利圣典》的泰文版共计45卷 = 21,926页（律藏，3,351页；经藏，12,077页；阿毗达磨藏，6,498页）。[\[2\]](#fn-fn2){:id="fr-fn2"}
 
 #### 律藏
 
@@ -30,17 +30,17 @@ title: Bibliography
     
 *   《法句经》
     
-    *   《法句经：巴利文本和译文附简短故事和注释》（The Dhammapada: Pali Text and Translation with Stories in Brief and Notes），Narada Thera 译，印度佛教传教士协会，1978；可从 Pariyatti Books 获得。
+    *   《法句经：巴利文本和译文附简短故事和义注》（The Dhammapada: Pali Text and Translation with Stories in Brief and Notes），Narada Thera 译，印度佛教传教士协会，1978；可从 Pariyatti Books 获得。
     
     *   《法句经：佛陀的智慧之路》（The Dhammapada: The Buddha’s Path of Wisdom），Acharya Buddharakkhita 译，康提：佛教出版社，1996。
     
-    *   《法句经：附巴利文本的新英文译本，以及评注对偈颂的首次英文解释，附从僧伽罗语来源翻译的注释和批判性文本评论》（The Dhammapada: A New English Translation with the Pali Text and the First English Translation of the Commentary’s Explanation of the Verses With Notes Translated from the Sinhala Sources and Critical Textual Comments），John Ross Carter 和 Mahinda Palihawardana 译（牛津：牛津大学出版社，1987）。
+    *   《法句经：附巴利文本的新英文译本，以及评注对偈颂的首次英文解释，附从僧伽罗语来源翻译的义注和批判性文本评论》（The Dhammapada: A New English Translation with the Pali Text and the First English Translation of the Commentary’s Explanation of the Verses With Notes Translated from the Sinhala Sources and Critical Textual Comments），John Ross Carter 和 Mahinda Palihawardana 译（牛津：牛津大学出版社，1987）。
     
     *   《法句经沉思录》（A Dhammapada for Contemplation），Ajahn Munindo 演绎（River Publications，2000）。
     
 *   《自说经》
     
-    *   《自说经：偈颂之提升》（Udāna: Verses of Uplift）（收录于《巴利圣典小部集》，第二部分），F.L. Woodward 译（牛津：巴利圣典协会）。
+    *   《自说经：偈颂之提升》（Udāna: Verses of Uplift）（收录于《《巴利圣典》小部集》，第二部分），F.L. Woodward 译（牛津：巴利圣典协会）。
     
     *   《自说经》（Udāna），P. Masefield 译，1994，与《如是语经》（Itivuttaka）一同出版（牛津：巴利圣典协会 2013）。
     
@@ -112,7 +112,7 @@ title: Bibliography
     *   《条件关系指南》（A Guide to Conditional Relations），U Narada尊者 从巴利语翻译（牛津：巴利圣典协会，1978）。
     
 
-### 前注释文本
+### 前期义注文本
 
 在一些佛教国家，例如缅甸，以下文本被纳入三藏：
 
@@ -127,9 +127,9 @@ title: Bibliography
     *   《弥兰陀王之辩》（The Debate of King Milinda），Bhikkhu Pesala 编辑，节略版，Antony Rowe Ltd.，1990。
     
 
-### 注释、复注及其他非经典文本
+### 义注、复注及其他非经藏文本
 
-存在大量的注释、复注及其他后经典文本。此处仅列出有限的文本选择，特别是本书中引用的那些。这些文本中的大部分尚未被翻译成英文，并以贝叶手稿形式保存。后经典时期（这些文本从僧伽罗语重新翻译成巴利语的“翻译时代”）被认为始于觉音阿阇梨尊者，略早于公元1000年（公元457年）。[\[3\]](#fn-fn3)
+存在大量的义注、复注及其他后经典文本。此处仅列出有限的文本选择，特别是本书中引用的那些。这些文本中的大部分尚未被翻译成英文，并以贝叶手稿形式保存。后经典时期（这些文本从僧伽罗语重新翻译成巴利语的“翻译时代”）被认为始于觉音阿阇梨尊者，略早于公元1000年（公元457年）。[\[3\]](#fn-fn3){:id="fr-fn3"}
 
 #### 杰出经文及相关文本
 
@@ -140,7 +140,7 @@ title: Bibliography
 
 #### 律藏
 
-*   注释标题：《善见律毗婆沙》（Samantapāsādikā Vinayaṭṭhagathā）（由觉音阿阇梨尊者撰写）。《戒律之始》（The Inception of Discipline）（仅限巴希拉尼达那 Bāhiranidāna），N.A. Jayawickrama 译（牛津：巴利圣典协会，1962, 1986, 2010）。
+*   义注标题：《善见律毗婆沙》（Samantapāsādikā Vinayaṭṭhagathā）（由觉音阿阇梨尊者撰写）。《戒律之始》（The Inception of Discipline）（仅限巴希拉尼达那 Bāhiranidāna），N.A. Jayawickrama 译（牛津：巴利圣典协会，1962, 1986, 2010）。
     
 *   复注标题：《精义律疏》（Sāratthadīpanī Vinayaṭīkā）（由斯里兰卡舍利弗长老撰写）。
     
@@ -153,68 +153,68 @@ title: Bibliography
 
 #### 经藏
 
-*   《长部》（Dīgha-nikāya）：注释标题：《吉祥悦意》（Sumaṇgalavilāsinī Dīghanikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《佛陀的最后日子：觉音对<大般涅槃经>的注释》（The Buddha’s Last Days: Buddhaghosa’s Commentary on the Mahāparinibbāna Sutta (Mahāparinibbāna-sutta only)），Yang-Gyu An 译（牛津：巴利圣典协会，2003）。
+*   《长部》（Dīgha-nikāya）：义注标题：《吉祥悦意》（Sumaṇgalavilāsinī Dīghanikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《佛陀的最后日子：觉音对“大般涅槃经”的义注》（The Buddha’s Last Days: Buddhaghosa’s Commentary on the Mahāparinibbāna Sutta (Mahāparinibbāna-sutta only)），Yang-Gyu An 译（牛津：巴利圣典协会，2003）。
     
-*   《中部》（Majjhima-nikāya）：注释标题：《破除障碍》（Papañcasūdanī Majjhimanikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。英文译本：未知。
+*   《中部》（Majjhima-nikāya）：义注标题：《破除障碍》（Papañcasūdanī Majjhimanikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。英文译本：未知。
     
-*   《相应部》（Saṁyutta-nikāya）：注释标题：《显露精义》（Sāratthapakāsinī Saṁyutta-nikāyaṭṭhakathā）[\[4\]](#fn-fn4)（由觉音阿阇梨尊者撰写）。英文译本：未知。
+*   《相应部》（Saṁyutta-nikāya）：义注标题：《显露精义》（Sāratthapakāsinī Saṁyutta-nikāyaṭṭhakathā）[\[4\]](#fn-fn4){:id="fr-fn4"}（由觉音阿阇梨尊者撰写）。英文译本：未知。
     
-*   《增支部》（Aṅguttara-nikāya）：注释标题：《满足希望》（Manorathapūraṇī Aṅguttaranikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。英文译本：未知。
+*   《增支部》（Aṅguttara-nikāya）：义注标题：《满足希望》（Manorathapūraṇī Aṅguttaranikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。英文译本：未知。
     
-*   《小诵》（Khuddakapāṭha）：注释标题：《胜义之光》（Paramatthajotikā Khuddakapāṭhavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《小读本与究竟义的阐释者》（The Minor Readings and The Illustrator of Ultimate Meaning），Ñāṇamoli尊者 译（牛津：巴利圣典协会，1960, 1991, 2015）。
+*   《小诵》（Khuddakapāṭha）：义注标题：《胜义之光》（Paramatthajotikā Khuddakapāṭhavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《小读本与究竟义的阐释者》（The Minor Readings and The Illustrator of Ultimate Meaning），Ñāṇamoli尊者 译（牛津：巴利圣典协会，1960, 1991, 2015）。
     
-*   《法句经》（Dhammapada）：注释标题：《法句经注释》（Dhammapada-aṭṭhakathā）（由觉音阿阇梨尊者撰写；从僧伽罗语翻译）。《佛教传说》（Buddhist Legends），E.W. Burlingame 译（牛津：巴利圣典协会，1921，1990年重印为3卷，1995）。
+*   《法句经》（Dhammapada）：义注标题：《法句经义注》（Dhammapada-aṭṭhakathā）（由觉音阿阇梨尊者撰写；从僧伽罗语翻译）。《佛教传说》（Buddhist Legends），E.W. Burlingame 译（牛津：巴利圣典协会，1921，1990年重印为3卷，1995）。
     
-*   《自说经》（Udāna）：注释标题：《胜义显露》（Paramatthadīpanī Udānavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《自说经注释》（Udāna Commentary），P. Masefield 译，2卷（牛津：巴利圣典协会，1994, 1995）。
+*   《自说经》（Udāna）：义注标题：《胜义显露》（Paramatthadīpanī Udānavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《自说经义注》（Udāna Commentary），P. Masefield 译，2卷（牛津：巴利圣典协会，1994, 1995）。
     
-*   《如是语经》（Itivuttaka）：注释标题：《胜义显露》（Paramatthadīpanī Itivuttakavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《如是语经注释》（The Commentary on the Itivuttaka），Peter Masefield 译，2卷（牛津：巴利圣典协会，2008 - 2009）。
+*   《如是语经》（Itivuttaka）：义注标题：《胜义显露》（Paramatthadīpanī Itivuttakavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《如是语经义注》（The Commentary on the Itivuttaka），Peter Masefield 译，2卷（牛津：巴利圣典协会，2008 - 2009）。
     
-*   《经集》（Suttanipāta）：注释标题：《胜义之光》（Paramatthajotikā Suttanipātavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。英文译本：未知。
+*   《经集》（Suttanipāta）：义注标题：《胜义之光》（Paramatthajotikā Suttanipātavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。英文译本：未知。
     
-*   《天宫事》（Vimānavatthu）：注释标题：《胜义显露》（Paramatthadīpanī Vimānavatthuvaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《天宫故事》（Vimāna Stories），P. Masefield 译（牛津：巴利圣典协会，1989，2015年重印）。
+*   《天宫事》（Vimānavatthu）：义注标题：《胜义显露》（Paramatthadīpanī Vimānavatthuvaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《天宫故事》（Vimāna Stories），P. Masefield 译（牛津：巴利圣典协会，1989，2015年重印）。
     
-*   《饿鬼事》（Petavatthu）：注释标题：《胜义显露》（Paramatthadīpanī Petavatthuvaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《饿鬼故事》（Peta Stories），U Ba Kyaw 和 P. Masefield 译（牛津：巴利圣典协会，1980）。
+*   《饿鬼事》（Petavatthu）：义注标题：《胜义显露》（Paramatthadīpanī Petavatthuvaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《饿鬼故事》（Peta Stories），U Ba Kyaw 和 P. Masefield 译（牛津：巴利圣典协会，1980）。
     
-*   《长老偈》（Theragāthā）：注释标题：《胜义显露》（Paramatthadīpanī Theragāthā-atthavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。英文译本：未知。
+*   《长老偈》（Theragāthā）：义注标题：《胜义显露》（Paramatthadīpanī Theragāthā-atthavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。英文译本：未知。
     
-*   《长老尼偈》（Therīgāthā）：注释标题：《胜义显露》（Paramatthadīpanī Therīgāthā-atthavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《长老尼偈注释》（The Commentary on the Verses of the Therīs），William Pruitt 译（牛津：巴利圣典协会，1998）。
+*   《长老尼偈》（Therīgāthā）：义注标题：《胜义显露》（Paramatthadīpanī Therīgāthā-atthavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《长老尼偈义注》（The Commentary on the Verses of the Therīs），William Pruitt 译（牛津：巴利圣典协会，1998）。
     
-*   《本生经》（Jātaka）：注释标题：《本生经注释》（Jātaka-aṭṭhakathā）（由觉音阿阇梨尊者撰写；从僧伽罗语翻译）。《本生经或佛陀前生故事》（The Jataka or Stories of the Buddha’s Former Births），各种译者，E.B. Cowell 编辑（牛津：巴利圣典协会，E.B. Cowell 编辑，6卷 1895-1907，以及索引 1913，全部于1990年重印，现为3卷）。
+*   《本生经》（Jātaka）：义注标题：《本生经义注》（Jātaka-aṭṭhakathā）（由觉音阿阇梨尊者撰写；从僧伽罗语翻译）。《本生经或佛陀前生故事》（The Jataka or Stories of the Buddha’s Former Births），各种译者，E.B. Cowell 编辑（牛津：巴利圣典协会，E.B. Cowell 编辑，6卷 1895-1907，以及索引 1913，全部于1990年重印，现为3卷）。
     
-*   《义释》（Niddesa）：注释标题：《正法光明》（Saddhammapajjotikā Niddesavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由斯里兰卡优婆斯那长老撰写）。英文译本：未知。
+*   《义释》（Niddesa）：义注标题：《正法光明》（Saddhammapajjotikā Niddesavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由斯里兰卡优婆斯那长老撰写）。英文译本：未知。
     
-*   《无碍解道》（Paṭisambhidāmagga）：注释标题：《正法显明》（Saddhammappakāsinī Paṭisambhidāmaggavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由斯里兰卡摩诃那摩长老撰写）。英文译本：未知。
+*   《无碍解道》（Paṭisambhidāmagga）：义注标题：《正法显明》（Saddhammappakāsinī Paṭisambhidāmaggavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由斯里兰卡摩诃那摩长老撰写）。英文译本：未知。
     
-*   《譬喻》（Apadāna）：注释标题：《清净人悦意》（Visuddhajanavilāsinī Apadānavaṇṇanā, Khuddakanikāyaṭṭhakathā）（作者未知）。英文译本：未知。
+*   《譬喻》（Apadāna）：义注标题：《清净人悦意》（Visuddhajanavilāsinī Apadānavaṇṇanā, Khuddakanikāyaṭṭhakathā）（作者未知）。英文译本：未知。
     
-*   《佛史》（Buddhavaṁsa）：注释标题：《甜蜜义显明》（Madhuratthavilāsinī Buddhavaṁsavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由拘罗国佛陀达多长老撰写）。《甜美义之阐释者》（The Clarifier of the Sweet Meaning），I.B. Horner 译（牛津：巴利圣典协会，1978）。
+*   《佛史》（Buddhavaṁsa）：义注标题：《甜蜜义显明》（Madhuratthavilāsinī Buddhavaṁsavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由拘罗国佛陀达多长老撰写）。《甜美义之阐释者》（The Clarifier of the Sweet Meaning），I.B. Horner 译（牛津：巴利圣典协会，1978）。
     
-*   《行藏》（Cariyāpiṭaka）：注释标题：《胜义显露》（Paramatthadīpanī Cariyāpiṭakavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。英文译本：未知。
+*   《行藏》（Cariyāpiṭaka）：义注标题：《胜义显露》（Paramatthadīpanī Cariyāpiṭakavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。英文译本：未知。
     
 *   《吉祥义灯》（Maṅgalatthadīpanī Maṅgalasuttavaṇṇanā）（由清迈西里摩诃那伽陀长老于约公元2000年，即公元1487年撰写）。
     
 
 #### 阿毗达磨藏
 
-*   《法集论》（Dhammasaṅgaṇī）：注释标题：《显义》（Atthasālinī Dhammasaṅgaṇīvaṇṇanā, Abhidhammaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《解释者》（The Expositor），Pe Maung Tin 译（牛津：巴利圣典协会，2卷，1920, 1921，1976年重印为1卷）。
+*   《法集论》（Dhammasaṅgaṇī）：义注标题：《显义》（Atthasālinī Dhammasaṅgaṇīvaṇṇanā, Abhidhammaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《解释者》（The Expositor），Pe Maung Tin 译（牛津：巴利圣典协会，2卷，1920, 1921，1976年重印为1卷）。
     
-*   《分别论》（Vibhaṅga）：注释标题：《破除痴迷》（Sammohavinodanī Vibhaṅgavaṇṇanā, Abhidhammaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《迷误消除者》（Dispeller of Delusion），Bhikkhu Ñāṇamoli 译，L.S. Cousins, Nyanaponika Mahāthera 和 C.M.M. Shaw 修订（牛津：巴利圣典协会，2卷，1987, 1991）。
+*   《分别论》（Vibhaṅga）：义注标题：《破除痴迷》（Sammohavinodanī Vibhaṅgavaṇṇanā, Abhidhammaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《迷误消除者》（Dispeller of Delusion），Bhikkhu Ñāṇamoli 译，L.S. Cousins, Nyanaponika Mahāthera 和 C.M.M. Shaw 修订（牛津：巴利圣典协会，2卷，1987, 1991）。
     
-*   《界论》（Dhātukathā）：注释标题：《胜义显露》（Paramatthadīpanī Dhātukathādipañcapakaraṇa-aṭṭhakathā）[\[5\]](#fn-fn5)（由觉音阿阇梨尊者撰写）。英文译本：未知。
+*   《界论》（Dhātukathā）：义注标题：《胜义显露》（Paramatthadīpanī Dhātukathādipañcapakaraṇa-aṭṭhakathā）[\[5\]](#fn-fn5){:id="fr-fn5"}（由觉音阿阇梨尊者撰写）。英文译本：未知。
     
-*   《人施设论》（Puggalapaññatti）：注释标题：《五部论注释之<人施设论>解释》（Pañcapakaraṇa-aṭṭhakathā Puggalapaññattivaṇṇanā）。《人类类型之指定》（A Designation of Human Types），B.C. Law 从巴利语翻译（牛津：巴利圣典协会，1922）。
+*   《人施设论》（Puggalapaññatti）：义注标题：《五部论义注之<人施设论>解释》（Pañcapakaraṇa-aṭṭhakathā Puggalapaññattivaṇṇanā）。《人类类型之指定》（A Designation of Human Types），B.C. Law 从巴利语翻译（牛津：巴利圣典协会，1922）。
     
-*   《论事》（Kathāvatthu）：注释标题：《五部论注释之<论事>解释》（Pañcapakaraṇa-aṭṭhakathā Kathāvatthuvaṇṇanā）。《辩论注释》（The Debates Commentary），B.C. Law 译（牛津：巴利圣典协会，1940, 1989）。
+*   《论事》（Kathāvatthu）：义注标题：《五部论义注之<论事>解释》（Pañcapakaraṇa-aṭṭhakathā Kathāvatthuvaṇṇanā）。《辩论义注》（The Debates Commentary），B.C. Law 译（牛津：巴利圣典协会，1940, 1989）。
     
-*   《双论》（Yamaka）：注释标题：《五部论注释之<双论>解释》（Pañcapakaraṇa-aṭṭhakathā Yamakavaṇṇanā）。英文译本：未知。
+*   《双论》（Yamaka）：义注标题：《五部论义注之<双论>解释》（Pañcapakaraṇa-aṭṭhakathā Yamakavaṇṇanā）。英文译本：未知。
     
-*   《发趣论》（Paṭṭhāna）：注释标题：《五部论注释之<发趣论>解释》（Pañcapakaraṇa-aṭṭhakathā Paṭṭhānavaṇṇanā）。英文译本：未知。
+*   《发趣论》（Paṭṭhāna）：义注标题：《五部论义注之<发趣论>解释》（Pañcapakaraṇa-aṭṭhakathā Paṭṭhānavaṇṇanā）。英文译本：未知。
     
 *   《阿毗达磨义广释》（Abhidhammatthasaṅgaha）（由斯里兰卡阿努律陀长老撰写）。《阿毗达磨主题提纲与阿毗达磨主题阐释》（The Summary of the Topics of Abhidhamma and Exposition of the Topics of Abhidhamma），R. P. Wijeratne 和 Rupert Gethin 译（牛津：巴利圣典协会，2002）。
     
 *   《阿毗达磨义广释复注》（Abhidhammatthavibhāvinī Abhidhammatthasaṅgahaṭīkā）（由斯里兰卡苏曼迦罗阿阇梨撰写）。《阿毗达磨主题提纲与阿毗达磨主题阐释》（The Summary of the Topics of Abhidhamma and Exposition of the Topics of Abhidhamma），R. P. Wijeratne 和 Rupert Gethin 译（牛津：巴利圣典协会，2002）。
     
-*   《五部注释》（Pañcikā Abhidhammatthavibhāvinīatthayojanā）（由清迈那伽陀尊者撰写）。
+*   《五部义注》（Pañcikā Abhidhammatthavibhāvinīatthayojanā）（由清迈那伽陀尊者撰写）。
     
 *   《法集论根本复注》（Dhammasaṅgaṇī Mūlaṭīkā）（由印度阿难陀阿阇梨撰写）。
     
@@ -227,12 +227,17 @@ title: Bibliography
 
 注意：在一些引用缅甸文或罗马字母文本的脚注中，括号内有说明这些文本尚未被翻译成泰文。这些脚注来自1982年修订和扩充版《佛法》的第一版。此后，其中一些文本已被翻译成泰文，但我尚未相应地编辑脚注。
 
-\[1\] 希望看到类似编排的英文参考文献的读者，可查阅《佛教学生手册》（A Buddhist Students’ Manual）（Christmas Humphreys 编辑，伦敦，佛教协会，1956），第228-40页。\[译者注：此段落由译者撰写。\]
+\[1\] 希望看到类似编排的英文参考文献的读者，可查阅《佛教学生手册》（A Buddhist Students’ Manual）（Christmas Humphreys 编辑，伦敦，佛教协会，1956），第228-40页。\[译者注：此段落由译者撰写。\][&nbsp;↩&nbsp;](#fr-fn1)
+{: id="fn-fn1"}
 
-\[2\] 译者注：巴利三藏的主要泰文版是暹罗王国三藏（Syāmraṭṭhassa Tepiṭakaṁ），曼谷，摩诃马哈古佛教大学，1925-1930年（首次由Panich Supaphon印刷厂印刷；第二次印刷始于1955年，摩诃马哈古佛教大学出版社）。上述暹罗王国巴利三藏的泰文译本被称为《皇家三藏》，由宗教事务部于1971年出版（第二次印刷）。在上述暹罗王国巴利三藏之后的是《摩诃朱拉隆功三藏》（Mahācuḷā Tepiṭakaṁ），由摩诃朱拉隆功大学出版，该大学也有自己的泰文译本（摩诃朱拉隆功三藏）。
+\[2\] 译者注：《巴利圣典》的主要泰文版是暹罗王国三藏（Syāmraṭṭhassa Tepiṭakaṁ），曼谷，摩诃马哈古佛教大学，1925-1930年（首次由Panich Supaphon印刷厂印刷；第二次印刷始于1955年，摩诃马哈古佛教大学出版社）。上述暹罗王国《巴利圣典》的泰文译本被称为《皇家三藏》，由宗教事务部于1971年出版（第二次印刷）。在上述暹罗王国《巴利圣典》之后的是《摩诃朱拉隆功三藏》（Mahācuḷā Tepiṭakaṁ），由摩诃朱拉隆功大学出版，该大学也有自己的泰文译本（摩诃朱拉隆功三藏）。[&nbsp;↩&nbsp;](#fr-fn2)
+{: id="fn-fn2"}
 
-\[3\] 注释在斯里兰卡存在已久，远早于此日期。觉音阿阇梨尊者只是将它们从僧伽罗语翻译回巴利语。
+\[3\] 义注在斯里兰卡存在已久，远早于此日期。觉音阿阇梨尊者只是将它们从僧伽罗语翻译回巴利语。[&nbsp;↩&nbsp;](#fr-fn3)
+{: id="fn-fn3"}
 
-\[4\] 译者注：PTS拼写：Sāratthappakāsinī。
+\[4\] 译者注：PTS拼写：Sāratthappakāsinī。[&nbsp;↩&nbsp;](#fr-fn4)
+{: id="fn-fn4"}
 
-\[5\] 译者注：PTS拼写：Pañcappakaraṇa-aṭṭhakathā。
+\[5\] 译者注：PTS拼写：Pañcappakaraṇa-aṭṭhakathā。[&nbsp;↩&nbsp;](#fr-fn5)
+{: id="fn-fn5"}

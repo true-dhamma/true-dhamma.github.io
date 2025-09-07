@@ -1,5 +1,5 @@
 ---
-title: Abbreviations
+title: 缩写
 ---
 
 # 缩写
@@ -274,4 +274,4 @@ YamA.
 
 《双对论义注》（Yamaka Aṭṭhakathā）(Paramatthadīpanī)
 
-[![image](./includes/images/illustrations/lotus-flowers.jpg)](https://buddhadhamma.github.io/includes/images/illustrations/lotus-flowers.pdf)
+![image](./includes/images/illustrations/lotus-flowers.jpg)

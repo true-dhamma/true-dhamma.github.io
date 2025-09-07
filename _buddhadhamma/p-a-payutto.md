@@ -1,5 +1,5 @@
 ---
-title: P A Payutto
+title: 巴育陀 (P. A. Payutto)
 ---
 
 # 巴育陀 (P. A. Payutto)
@@ -13,7 +13,7 @@ title: P A Payutto
 
 ### 初等教育
 
-1945-1947年：在ชัยศรีประชาราษฎร์学校接受小学教育。
+1945-1947年：在Chai Sri Pracharat学校接受小学教育。
 
 1948-1950年：在Wat Prathoomkongkha中学接受中学教育（他获得教育部颁发的学术奖学金）。
 
@@ -21,7 +21,7 @@ title: P A Payutto
 
 1951年（5月10日）：在是巴詹县Wat Ban Krang出家，由帕古·美提达玛沙恩（Phra Kru Medhi-Dhammasarn）担任戒师。
 
-1952年：居住在素攀武里府首府县的Wat Prasat Thong。从事正规佛法（pariyatti-dhamma）学习并修习毗婆舍那（vipassanā）禅修。他的禅修老师敦促他住在毗婆舍那中心，但他父亲未予同意。
+1952年：居住在素攀武里府首府县的Wat Prasat Thong。从事教理（pariyatti-dhamma）的学习并修习毗婆舍那（vipassanā）禅修。他的禅修老师敦促他住在毗婆舍那中心，但他父亲未予同意。
 
 1953年：前往曼谷的Wat Phra Phiren居住。
 
@@ -33,7 +33,7 @@ title: P A Payutto
 
 1963年：获得“Piset Mathayom”（特殊中学教师证书）。
 
-高等受戒：1961年7月24日，在玉佛寺（Wat Phra Si Ratana Satsadaram）作为皇家受戒候选人（nak luang）受具足戒，受皇家资助。
+受具足戒：1961年7月24日，在玉佛寺（Wat Phra Si Ratana Satsadaram）作为皇家受戒候选人（nak luang）受具足戒，受皇家资助。
 
 ### 法号
 
@@ -47,7 +47,7 @@ title: P A Payutto
 
 2004年：‘副僧伽领袖’级别法号：Phra Brahmagunabhorn
 
-2016年：‘僧伽领袖’级别法号：Somdet Phra Buddhaghosacariya[\[1\]](#fn-fn1)
+2016年：‘僧伽领袖’级别法号：Somdet Phra Buddhaghosacariya[\[1\]](#fn-fn1){:id="fr-fn1"}
 
 ### 弘法活动
 
@@ -99,7 +99,7 @@ title: P A Payutto
 
 1994年：联合国教科文组织和平教育奖
 
-[![image](./includes/images/illustrations/receiving-unesco-prize.jpg)](https://buddhadhamma.github.io/includes/images/illustrations/receiving-unesco-prize.jpg)
+![image](./includes/images/illustrations/receiving-unesco-prize.jpg)
 
 1994年，他在巴黎获得联合国教科文组织和平教育奖。
 
@@ -165,7 +165,7 @@ title: P A Payutto
 
 *   陪伴新受戒比丘学习佛法（20部分）
     
-*   从心理学到心理发展
+*   从心理学到心的培育
     
 *   与沙弥的对话，引导至佛法智慧
     
@@ -173,7 +173,7 @@ title: P A Payutto
     
 *   每天都至关重要；互相鼓励修习佛法
     
-*   通过开发智慧，无需寻找普世伦理
+*   通过培育智慧，无需寻找普世伦理
     
 *   达到此阶段，便开始触及佛教的核心
     
@@ -193,11 +193,11 @@ title: P A Payutto
     
 *   真理的居所：高尚女士Poonsuk Banomyong
     
-*   在家居士故事1-2
+*   居士故事1-2
     
 *   佛教智慧训练（1-8）
     
-*   佛法与灵性训练
+*   佛法与修行
     
 *   通过礼敬平息梵天
     
@@ -225,7 +225,7 @@ title: P A Payutto
     
 *   佛教作为科学的基础
     
-*   发展幸福
+*   培育安乐
     
 *   佛教徒指南
     
@@ -251,8 +251,9 @@ title: P A Payutto
 *   引发真理的回忆 -- 2010年
     
 
-此外，自1987年起，巴育陀尊者（Ven. P. A. Payutto）受玛希隆大学邀请，担任国际多脚本巴利三藏计算机版（BUDSIR for Windows）的顾问；该项目现已完成，是世界上首个此类计算机程序。
+此外，自1987年起，巴育陀尊者（Ven. P. A. Payutto）受玛希隆大学邀请，担任国际多脚本《巴利圣典》计算机版（BUDSIR for Windows）的顾问；该项目现已完成，是世界上首个此类计算机程序。
 
 附注：尽管许多大学和机构曾邀请尊贵的作者接受荣誉博士学位、勋章和奖项，但由于健康不佳和居住在偏远省份，自2004年起（即从获得世界佛教大学授予的“最杰出学者”荣誉开始），巴育陀尊者（Ven. P. A. Payutto）已请求免于亲自出席相关荣誉典礼。相反，他向所有相关人员表达了对他们的善意、赞赏和对知识追求的支持的感谢。
 
-\[1\] 全称：Somdet Phra Buddhaghosacariya Ñāṇa-adulyasundaranāyaka Pāvacanatilaka Varānusāsana Arayangkoon Vilāsanāmānukkama Gambhīrañāṇa-uttamavisiṭṭha Tipiṭaka-paṇḍita Mahāgaṇissara Bowonsaṅghārāma Gāmavāsī Araññavāsī。（译者注：这是我自己的音译；泰语发音与此大相径庭，因为泰语经常使用梵语词汇，并经常缩写巴利语和梵语词。请注意，将泰语法号พุทธโฆษาจารย์音译成罗马字母有多种方式，包括：Buddhaghosacariya, Buddhaghosacharya, 和 Phutthakosajarn。引述Somseen博士在其近期译作《头陀行》（Dhutanga...）中的话：“表面上，这个特定的僧侣头衔的名称是模仿觉音长老……这位公元五世纪的印度佛教僧侣是上座部佛教最伟大的注释家和学者。”）
+\[1\] 全称：Somdet Phra Buddhaghosacariya Ñāṇa-adulyasundaranāyaka Pāvacanatilaka Varānusāsana Arayangkoon Vilāsanāmānukkama Gambhīrañāṇa-uttamavisiṭṭha Tipiṭaka-paṇḍita Mahāgaṇissara Bowonsaṅghārāma Gāmavāsī Araññavāsī。（译者注：这是我自己的音译；泰语发音与此大相径庭，因为泰语经常使用梵语词汇，并经常缩写巴利语和梵语词。请注意，将泰语法号พุทธโฆษาจารย์音译成罗马字母有多种方式，包括：Buddhaghosacariya, Buddhaghosacharya, 和 Phutthakosajarn。引述Somseen博士在其近期译作《头陀行》（Dhutanga...）中的话：“表面上，这个特定的僧侣头衔的名称是模仿觉音长老……这位公元五世纪的印度佛教僧侣是上座部佛教最伟大的义注师和学者。”）[&nbsp;↩&nbsp;](#fr-fn1)
+{: id="fn-fn1"}
