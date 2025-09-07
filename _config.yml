@@ -1,3 +1,4 @@
+---
 title: True Dhamma
 timezone: Asia/Shanghai
 collections:
@@ -5,15 +6,15 @@ collections:
     title: Buddhadhamma (P.A.Payutto)
     output: true
     permalink: "/:collection/:name.html"
-  posts:
-    title: 文章
-    output: true
   testbook:
     title: Testbook
     output: true
     permalink: "/:collection/:name.html"
   uploads:
     title: Uploads
+    output: true
+  posts:
+    title: 文章
     output: true
 defaults:
 - scope:
@@ -92,12 +93,12 @@ navigation_header:
 - title: 文章
   url: "/blog/"
 - title: 书籍
-  url: /buddhadhamma/ # 这是父级菜单的链接
+  url: "/buddhadhamma/"
   sublinks:
-    - title: "《佛法》Buddhadhamma 中文版"
-      url: /buddhadhamma/
-    - title: "《世间成瘾与世间解脱》"
-      url: /buddhadhamma/
+  - title: "《佛法》Buddhadhamma 中文版"
+    url: "/buddhadhamma/"
+  - title: "《世间成瘾与世间解脱》"
+    url: "/buddhadhamma/"
 - title: 巴利圣典
   url: "/tipitaka/"
 - title: 网盘
