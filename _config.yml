@@ -1,4 +1,3 @@
----
 title: True Dhamma
 timezone: Asia/Shanghai
 collections:
@@ -7,7 +6,7 @@ collections:
     output: true
     permalink: "/:collection/:name.html"
   posts:
-    title: Posts
+    title: 文章
     output: true
   testbook:
     title: Testbook
@@ -92,6 +91,13 @@ navigation_header:
   url: "/addiction/"
 - title: 文章
   url: "/blog/"
+- title: 书籍
+  url: /buddhadhamma/ # 这是父级菜单的链接
+  sublinks:
+    - title: "《佛法》Buddhadhamma 中文版"
+      url: /buddhadhamma/
+    - title: "《世间成瘾与世间解脱》"
+      url: /buddhadhamma/
 - title: 巴利圣典
   url: "/tipitaka/"
 - title: 网盘

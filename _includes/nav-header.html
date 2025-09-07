@@ -1,3 +1,114 @@
+{% comment %}
+================================================================================
+修改说明:
+1.  HTML: 增加了对 `item.sublinks` 的判断。如果存在，则添加 `item--has-submenu` 类，
+    并生成一个包含子菜单的 `<ul>` (class="submenu")。同时为移动端添加了一个下拉按钮
+    `submenu-toggle`。
+2.  CSS: 在 `<style>` 标签中添加了二级菜单的样式。
+    -   PC端: 默认隐藏，鼠标悬停 (`:hover`) 时显示。
+    -   移动端: 点击箭头图标展开/折叠。
+3.  JavaScript: 在原有脚本基础上，增加了处理二级菜单点击事件的逻辑，使其只在
+    移动端视图下生效。
+================================================================================
+{% endcomment %}
+
+<!-- 添加CSS样式 -->
+<style>
+  /* --- 二级菜单基础样式 --- */
+  .item--has-submenu {
+    position: relative;
+  }
+
+  .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* 默认隐藏 */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    min-width: 180px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .submenu .item--nav {
+    width: 100%;
+  }
+
+  .submenu .item--nav a {
+    display: block;
+    padding: 10px 15px;
+    white-space: nowrap;
+  }
+
+  .submenu .item--nav a:hover {
+    background-color: var(--primary-light);
+  }
+
+  /* --- PC端样式 (屏幕宽度 > 639px) --- */
+  @media (min-width: 640px) {
+    /* 鼠标悬停显示二级菜单 */
+    .item--has-submenu:hover > .submenu {
+      display: block;
+    }
+    .submenu-toggle {
+      display: none; /* PC端隐藏箭头 */
+    }
+  }
+
+  /* --- 移动端样式 (屏幕宽度 < 640px) --- */
+  @media (max-width: 639px) {
+    .item--has-submenu {
+      display: flex;
+      flex-wrap: wrap; /* 允许子菜单换行 */
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .item--has-submenu > a {
+      flex-grow: 1; /* 主链接占据剩余空间 */
+    }
+    
+    .submenu-toggle {
+      display: inline-block;
+      cursor: pointer;
+      padding: 10px;
+      margin-right: 15px;
+    }
+    
+    .submenu-toggle svg {
+      width: 12px;
+      height: 12px;
+      fill: currentColor;
+      transition: transform 0.2s ease-in-out;
+    }
+    
+    .submenu-toggle.open svg {
+        transform: rotate(90deg);
+    }
+
+    .submenu {
+      position: static; /* 在移动端，子菜单不是绝对定位 */
+      width: 100%;
+      box-shadow: none;
+      border: none;
+      border-top: 1px solid var(--border);
+      background-color: transparent;
+      padding-left: 20px; /* 子菜单缩进 */
+    }
+    
+    /* JavaScript会切换这个类来控制显示 */
+    .submenu.open {
+      display: block;
+    }
+  }
+</style>
+
+
 {% if site.navigation_header %}
 <nav class="nav  nav--header">
   <ul class="list  list--nav">
@@ -9,24 +120,47 @@
         {% assign url = item.url | relative_url %}
       {% endif %}
 
-      <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
+      <li class="item  item--nav{% if item.url == page.url %} item--current{% endif %}{% if item.sublinks %} item--has-submenu{% endif %}">
         <a href="{{ url }}">{{ item.title }}</a>
+        
+        {% if item.sublinks %}
+          <!-- 移动端二级菜单触发按钮 -->
+          <span class="submenu-toggle" aria-label="Toggle submenu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/></svg>
+          </span>
+
+          <!-- 二级菜单 -->
+          <ul class="submenu">
+            {% for subitem in item.sublinks %}
+              {% if subitem.url contains '://' %}
+                {% assign sub_url = subitem.url %}
+              {% else %}
+                {% assign sub_url = subitem.url | relative_url %}
+              {% endif %}
+              <li class="item item--nav">
+                <a href="{{ sub_url }}">{{ subitem.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
       </li>
     {% endfor %}
 
-    <!-- 添加 Language和暗黑模式 开关 -->
+    <!-- Language 开关 -->
     <li class="item  item--nav">
       <a href="#" onclick="window.toggleGTranslateVisibility(); return false;" title="Language">
         {% include icon.html id="language" width="22" height="22" title="Language" %}
       </a>
     </li>
-    <!-- Language和暗黑模式 开关结束 -->
+    <!-- Language 开关结束 -->
 
+    <!-- 暗黑模式 开关 -->
     <li class="item  item--nav">
       <a href="#" id="darkmode-switch" title="Dark Mode">
         {% include icon.html id="dark-mode" width="22" height="22" title="Dark Mode" %}
       </a>
     </li> 
+    <!-- 暗黑模式 开关结束 -->
     
   </ul>
   <button class="button  button--nav" aria-label="Menu toggle">
@@ -39,31 +173,57 @@
 
 <script type="text/javascript">
   // Get list and button
-  const navList = document.querySelector('.header .list--nav')
-  const button  = document.querySelector('.header .button--nav')
+  const navList = document.querySelector('.header .list--nav');
+  const button  = document.querySelector('.header .button--nav');
+
+  // --- 新增: 二级菜单处理逻辑 ---
+  const handleSubmenu = () => {
+    const submenuToggles = document.querySelectorAll('.submenu-toggle');
+
+    submenuToggles.forEach(toggle => {
+      toggle.onclick = (event) => {
+        event.preventDefault(); // 阻止事件冒泡
+
+        // 只在移动端视图下执行
+        if (document.body.clientWidth < 640) {
+          const submenu = toggle.nextElementSibling;
+          if (submenu && submenu.classList.contains('submenu')) {
+            toggle.classList.toggle('open');
+            submenu.classList.toggle('open');
+          }
+        }
+      };
+    });
+  };
 
   // Hide nav and apply toggle
   const collapseNav = () => {
     if (document.body.clientWidth < 640) {
-      navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
+      navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`);
     } else {
-      navList.removeAttribute('style')
+      navList.removeAttribute('style');
+      // PC端移除所有打开的二级菜单状态
+      document.querySelectorAll('.submenu.open, .submenu-toggle.open').forEach(el => {
+        el.classList.remove('open');
+      });
     }
 
     button.onclick = () => {
-      navList.style.setProperty('transition', `margin .1s`)
+      navList.style.setProperty('transition', `margin .1s`);
       if (navList.style.getPropertyValue('--listHeight')) {
-        navList.style.removeProperty('--listHeight')
+        navList.style.removeProperty('--listHeight');
       } else {
-        navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
+        navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`);
       }
     }
-  }
+  };
 
-  collapseNav()
+  // 初始化
+  collapseNav();
+  handleSubmenu();
 
   // Check on resize if to collapse nav
   window.addEventListener('resize', () => {
-    collapseNav()
-  })
+    collapseNav();
+  });
 </script>
