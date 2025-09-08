@@ -26,7 +26,7 @@
   const pages = [];
   const searchDataKey = 'search_json_data';
   const timestampKey = 'search_json_timestamp';
-  const cacheDuration = 10000;
+  const cacheDuration = CACHE_DURATION_IN_DAYS * 24 * 60 * 60 * 1000;
 
   function fetchAndCacheData() {
     console.log('Fetching new search data from server...');
