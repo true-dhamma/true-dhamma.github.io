@@ -103,20 +103,32 @@
       const html = resultsArray.map(item => {
         const regex = new RegExp(searchTerm, 'gi');
         let finalSnippet = '';
-        const rawContent = (item.excerpt && item.excerpt.length > 0) ? item.excerpt : item.content;
+        let sourceForSnippet = '';
 
-        if (rawContent) {
-          const match = regex.exec(rawContent);
-          if (match) {
-            const keywordIndex = match.index;
-            const snippetRadius = 50;
+        const contentMatch = item.content && item.content.match(regex);
+        const excerptMatch = item.excerpt && item.excerpt.match(regex);
+
+        if (contentMatch) {
+          sourceForSnippet = item.content;
+        } else if (excerptMatch) {
+          sourceForSnippet = item.excerpt;
+        } else {
+          sourceForSnippet = (item.excerpt && item.excerpt.length > 0) ? item.excerpt : item.content;
+        }
+        
+        if (sourceForSnippet) {
+          const matchInSource = new RegExp(searchTerm, 'gi').exec(sourceForSnippet);
+
+          if (matchInSource) {
+            const keywordIndex = matchInSource.index;
+            const snippetRadius = 70;
             const startIndex = Math.max(0, keywordIndex - snippetRadius);
-            const endIndex = Math.min(rawContent.length, keywordIndex + match[0].length + snippetRadius);
-            finalSnippet = rawContent.substring(startIndex, endIndex);
+            const endIndex = Math.min(sourceForSnippet.length, keywordIndex + matchInSource[0].length + snippetRadius);
+            finalSnippet = sourceForSnippet.substring(startIndex, endIndex);
             if (startIndex > 0) finalSnippet = '...' + finalSnippet;
-            if (endIndex < rawContent.length) finalSnippet = finalSnippet + '...';
+            if (endIndex < sourceForSnippet.length) finalSnippet = finalSnippet + '...';
           } else {
-            finalSnippet = rawContent.substring(0, 100) + '...';
+            finalSnippet = sourceForSnippet.substring(0, 150) + '...';
           }
         }
 
@@ -150,6 +162,5 @@
       event.preventDefault();
     }
   });
-
 </script>
 <noscript>Please enable JavaScript to use the search form.</noscript>
