@@ -4,76 +4,32 @@
     <input class="input" id="search" type="search" name="search" placeholder="例如: 禅定" autocomplete="off" />
 
     <ul class="list  list--results" id="list">
-    </ul>
+        </ul>
   </form>
 </div>
 
 <style>
   .item--result mark {
-    background-color: #fcf8e3;
-    padding: 0 3px;
-    border-radius: 3px;
-    color: #8a6d3b;
-    font-weight: bold;
+    background-color: #fcf8e3; /* 淡黄色背景 */
+    padding: 0 3px;          /* 左右留一点空隙 */
+    border-radius: 3px;      /* 圆角 */
+    color: #8a6d3b;          /* 深黄色字体 */
+    font-weight: bold;       /* 字体加粗 */
   }
 </style>
 
 <script type="text/javascript" src="{{ "/assets/scripts/fetch.js" | relative_url }}"></script>
 <script type="text/javascript">
-  const CACHE_DURATION_IN_DAYS = 15;
-
   const endpoint = '{{ "/assets/search.json" | relative_url }}';
   const pages = [];
-  const searchDataKey = 'search_json_data';
-  const timestampKey = 'search_json_timestamp';
-  const cacheDuration = 10000;
 
-  function fetchAndCacheData() {
-    console.log('Fetching new search data from server...');
-    fetch(endpoint)
-      .then(blob => {
-        if (!blob.ok) {
-          throw new Error(`HTTP error! status: ${blob.status}`);
-        }
-        return blob.json();
-      })
-      .then(data => {
-        pages.push(...data);
-        try {
-          localStorage.setItem(searchDataKey, JSON.stringify(data));
-          localStorage.setItem(timestampKey, new Date().getTime().toString());
-          console.log('Search data fetched and cached successfully.');
-        } catch (e) {
-          console.error('Error saving search cache:', e);
-        }
-      })
-      .catch(err => console.error('Error fetching or processing search.json:', err));
-  }
+  fetch(endpoint)
+    .then(blob => blob.json())
+    .then(data => pages.push(...data))
+    .catch(err => console.error('Error fetching search.json:', err));
 
-  function loadDataFromCache() {
-    try {
-      const cachedData = localStorage.getItem(searchDataKey);
-      const cachedTimestamp = localStorage.getItem(timestampKey);
-      const now = new Date().getTime();
-
-      if (cachedData && cachedTimestamp && (now - parseInt(cachedTimestamp, 10) < cacheDuration)) {
-        const data = JSON.parse(cachedData);
-        pages.push(...data);
-        console.log('Successfully loaded search data from cache.');
-      } else {
-        if (cachedData) {
-            console.log('Search cache expired.');
-        }
-        fetchAndCacheData();
-      }
-    } catch (e) {
-      console.error('Failed to load data from cache. Falling back to network.', e);
-      fetchAndCacheData();
-    }
-  }
-
-  loadDataFromCache();
-
+  // --- Debounce (防抖) 函数 ---
+  // 作用: 延迟执行一个函数，直到用户停止操作一段时间后。
   function debounce(func, wait) {
     let timeout;
     return function(...args) {
@@ -83,9 +39,10 @@
     };
   }
 
+  // 查找匹配项的函数
   function findResults(termToMatch, pages) {
     if (!termToMatch.trim()) {
-      return [];
+        return [];
     }
     return pages.filter(item => {
       const regex = new RegExp(termToMatch, 'gi');
@@ -95,31 +52,45 @@
     });
   }
 
+  // --- 显示结果的函数 (最终修正版) ---
+  // 解决了长摘要不会被裁剪的问题
   function displayResults() {
     const searchTerm = this.value;
     const resultsArray = findResults(searchTerm, pages);
-
+    
     if (resultsArray.length > 0) {
       const html = resultsArray.map(item => {
         const regex = new RegExp(searchTerm, 'gi');
         let finalSnippet = '';
+        
+        // 步骤1: 统一内容来源。优先使用 excerpt，如果没有则使用 content。
         const rawContent = (item.excerpt && item.excerpt.length > 0) ? item.excerpt : item.content;
 
+        // 步骤2: 对 rawContent 进行统一的裁剪和片段生成处理。
         if (rawContent) {
+          // 使用 regex.exec() 来获取第一个匹配项及其位置，这比 match() 更健壮。
           const match = regex.exec(rawContent);
+
           if (match) {
+            // 如果找到了关键字，生成上下文片段
             const keywordIndex = match.index;
-            const snippetRadius = 50;
+            const snippetRadius = 50; // 片段半径
+
             const startIndex = Math.max(0, keywordIndex - snippetRadius);
             const endIndex = Math.min(rawContent.length, keywordIndex + match[0].length + snippetRadius);
+            
             finalSnippet = rawContent.substring(startIndex, endIndex);
+
             if (startIndex > 0) finalSnippet = '...' + finalSnippet;
             if (endIndex < rawContent.length) finalSnippet = finalSnippet + '...';
+
           } else {
+            // 如果内容中没有关键字（可能只在标题中匹配），则从头截取100个字符
             finalSnippet = rawContent.substring(0, 100) + '...';
           }
         }
 
+        // 步骤3: 对最终生成的片段和标题进行高亮处理
         const highlightedSnippet = finalSnippet.replace(regex, `<mark>$&</mark>`);
         const highlightedTitle = item.title.replace(regex, `<mark>$&</mark>`);
 
@@ -136,15 +107,18 @@
     } else if (searchTerm.length > 0) {
       resultsList.innerHTML = `<p>抱歉，没有找到相关内容。</p>`;
     } else {
-      resultsList.innerHTML = '';
+      resultsList.innerHTML = ''; // 输入框为空时，清空列表
     }
   }
 
   const field = document.querySelector('#search');
   const resultsList = document.querySelector('#list');
 
+  // --- 关键: 使用 debounce 函数包裹 displayResults ---
+  // 用户停止输入 500ms 后再执行搜索
   field.addEventListener('keyup', debounce(displayResults, 500));
 
+  // 阻止在搜索框中按 Enter 键时提交表单
   field.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
       event.preventDefault();
