@@ -12,11 +12,13 @@ title: 附录：心（Citta）、识（Viññāṇa）、意（Mano）
 
 citta的定义与mano的定义密切相关，如下段经文所示：
 
-> mano一词指代 citta、mano、mānasa、hadaya、paṇḍara、mana、manāyatana、manindriya、viññāṇa、viññāṇa-khandha 和由触所生的 manoviññāṇa-dhātu。这就是所谓的“意”（mano）。Manoti yaṁ cittaṁ mano mānasaṁ hadayaṁ paṇḍaraṁ mano manāyatanaṁ manindriyaṁ viññāṇaṁ viññāṇakhandho tajjā manoviññāṇadhātu ayaṁ vuccati mano.[\[2\]](#fn-fn2){:id="fr-fn2"} 《大义释》3。
+> mano一词指代 citta、mano、mānasa、hadaya、paṇḍara、mana、manāyatana、manindriya、viññāṇa、viññāṇa-khandha 和由触所生的 manoviññāṇa-dhātu。这就是所谓的“意”（mano）。Manoti yaṁ cittaṁ mano mānasaṁ hadayaṁ paṇḍaraṁ mano manāyatanaṁ manindriyaṁ viññāṇaṁ viññāṇakhandho tajjā manoviññāṇadhātu ayaṁ vuccati mano.[\[2\]](#fn-fn2){:id="fr-fn2"}  
+> Nd1. 3
 
 然而，在义注中，citta通常定义如下：
 
-> citta一词的定义是：之所以称为“citta”，是因为它反映，意思是它完全觉知所缘。Cittanti ārammaṇaṁ cintetīti cittaṁ vijānātīti attho. 例如：《法集论义注》63。
+> citta一词的定义是：之所以称为“citta”，是因为它反映，意思是它完全觉知所缘。Cittanti ārammaṇaṁ cintetīti cittaṁ vijānātīti attho.  
+> 例如：DhsA. 63
 
 请注意，“完全觉知”（vijānāti）一词是viññāṇa的动词形式。
 
@@ -54,7 +56,9 @@ citta一词在经典中经常使用。它是一个常见的日常用语，既可
 
 让我们来考察佛陀提到的十八种界（dhātu）：
 
-> 阿难，有此十八种界：眼界（cakkhu-dhātu）、色界（rūpa-dhātu）、眼识界（cakkhuviññāṇa-dhātu）、耳界（sota-dhātu）、声界（sadda-dhātu）、耳识界（sotaviññāṇa-dhātu）、鼻界（ghāna-dhātu）、香界（gandha-dhātu）、鼻识界（ghānaviññāṇa-dhātu）、舌界（jivhā-dhātu）、味界（rasa-dhātu）、舌识界（jivhāviññāṇadhātu）、身界（kāya-dhātu）、触界（phoṭṭhabba-dhātu）、身识界（kāyaviññāṇa-dhātu）、意界（mano-dhātu）、法界（dhamma-dhātu）、意识界（manoviññāṇa-dhātu）。由于了知和看见这十八种界，比丘便可被称为善巧于界。Aṭṭhārasa kho imā ānanda dhātuyo cakkhudhātu rūpadhātu cakkhuviññāṇadhātu sotadhātu saddadhātu sotaviññāṇadhātu ghānadhātu gandhadhātu ghānaviññāṇa-dhātu jivhādhātu rasadhātu jivhāviññāṇadhātu kāyadhātu phoṭṭhabba-dhātu kāyaviññāṇadhātu manodhātu dhammadhātu manoviññāṇadhātu imā kho ānanda aṭṭhārasa dhātuyo yato jānāti passati ettāvatāpi kho ānanda dhātukusalo bhikkhūti alaṁ vacanāyāti. 《中部》卷三，62。
+> 阿难，有此十八种界：眼界（cakkhu-dhātu）、色界（rūpa-dhātu）、眼识界（cakkhuviññāṇa-dhātu）、耳界（sota-dhātu）、声界（sadda-dhātu）、耳识界（sotaviññāṇa-dhātu）、鼻界（ghāna-dhātu）、香界（gandha-dhātu）、鼻识界（ghānaviññāṇa-dhātu）、舌界（jivhā-dhātu）、味界（rasa-dhātu）、舌识界（jivhāviññāṇadhātu）、身界（kāya-dhātu）、触界（phoṭṭhabba-dhātu）、身识界（kāyaviññāṇa-dhātu）、意界（mano-dhātu）、法界（dhamma-dhātu）、意识界（manoviññāṇa-dhātu）。由于了知和看见这十八种界，比丘便可被称为善巧于界。  
+> Aṭṭhārasa kho imā ānanda dhātuyo cakkhudhātu rūpadhātu cakkhuviññāṇadhātu sotadhātu saddadhātu sotaviññāṇadhātu ghānadhātu gandhadhātu ghānaviññāṇa-dhātu jivhādhātu rasadhātu jivhāviññāṇadhātu kāyadhātu phoṭṭhabba-dhātu kāyaviññāṇadhātu manodhātu dhammadhātu manoviññāṇadhātu imā kho ānanda aṭṭhārasa dhātuyo yato jānāti passati ettāvatāpi kho ānanda dhātukusalo bhikkhūti alaṁ vacanāyāti.  
+> M. III. 62
 
 涅槃，或被称为涅槃的自然状态（sabhāva），属于法界（dhamma-dhātu）的范畴，也就是意识（mano-viññāṇa）所专注的所缘：通过意识所知的事物。这就是 viññāṇa-dhātu 和 nibbāna-dhātu 这两个术语的全部含义。
 

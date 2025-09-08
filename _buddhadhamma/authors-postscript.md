@@ -123,7 +123,13 @@ title: 作者后记
 > So ahaṁ vicarissāmi  
 > gāmā gāmaṁ purā puraṁ  
 > Namassamāno sambuddho  
-> dhammassa ca sudhammataṁ “我将亲自从村到村，从城到城，不知疲倦地礼敬佛陀与殊胜的法。”[\[4\]](#fn-fn4){:id="fr-fn4"} S. I. 215; Sn. 33, 31; Ap. 48, 376; cf.: D. II. 208, 221, 227. Passa dhammasudhammataṁ “来吧，见证法的殊胜，”或“来吧，看啊！法（Dhamma）是真正卓越的教导。” Thag. verses 24, 220, 270, 286, 302, 319, 410, 1039。
+> dhammassa ca sudhammataṁ  
+> “我将亲自从村到村，从城到城，不知疲倦地礼敬佛陀与殊胜的法。”[\[4\]](#fn-fn4){:id="fr-fn4"}  
+> S. I. 215; Sn. 33, 31; Ap. 48, 376; cf.: D. II. 208, 221, 227
+> 
+> Passa dhammasudhammataṁ  
+> “来吧，见证法的殊胜，”或“来吧，看啊！法（Dhamma）是真正卓越的教导。”  
+> Thag. verses 24, 220, 270, 286, 302, 319, 410, 1039
 
 这种热情和启发是撰写本书的重要催化剂。作为佛法学子撰写本书，写作行为促进了我个人的学习。因此，我很乐意回应建议和异议，并在得知错误时本着相互的善意和对法（Dhamma）的共同热爱进行修改，以使本书得以完成。
 
