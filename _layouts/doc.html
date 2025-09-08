@@ -82,7 +82,7 @@ layout: default
 
   /* --- Base Doc Layout --- */
   @media screen and (min-width: 768px) { .main.container--doc { display: flex; gap: 2em; max-width: 960px; margin: 0 auto; align-items: flex-start; } .article--doc { flex: 1 1 auto; min-width: 0; } }
-  @media screen and (min-width: 1200px) { .main.container--doc { max-width: 1440px; gap: 2.5em; justify-content: center; } .article--doc { flex-grow: 1; flex-basis: auto; max-width: 800px; } .content-toc-right-wrapper { display: block !important; flex: 0 0 260px; position: sticky; top: 0rem; max-height: calc(100vh - 4rem); overflow-y: auto; } }
+  @media screen and (min-width: 1200px) { .main.container--doc { max-width: 1440px; gap: 2.5em; justify-content: center; } .article--doc { flex-grow: 1; flex-basis: auto; max-width: 800px; } .content-toc-right-wrapper { display: block; flex: 0 0 260px; position: sticky; top: 0rem; max-height: calc(100vh - 4rem); overflow-y: auto; } }
   @media screen and (min-width: 1800px) { .main.container--doc { max-width: 2200px; width: 90%; justify-content: space-between; } .article--doc { flex: 0 0 800px; } .content-toc-right-wrapper { flex: 0 0 280px; } }
   #toc-right-container:has(> .js-toc-right:empty) .doc-nav-title { display: none; }
   
@@ -128,6 +128,7 @@ layout: default
 
     {% include nav-share.html %}
     {% include post-comments.html %}
+    <p>&nbsp;</p>
   </article>
 
   <aside class="content-toc-right-wrapper">
