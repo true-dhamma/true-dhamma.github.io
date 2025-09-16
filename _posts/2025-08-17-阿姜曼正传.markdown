@@ -9,6 +9,7 @@ excerpt: 探索一位现代阿罗汉的非凡人生，他的苦行与教导，�
 feature_text: 
 feature_image: "/uploads/top_banner_sangha.jpg"
 aside: 
+redirect_from: "/高僧大德/南传上座部佛法/精选/2025/08/17/阿姜曼正传/"
 ---
 
 > ##### Ācariya Mun Bhūridatta Thera - Ācariya Mahā Boowa
