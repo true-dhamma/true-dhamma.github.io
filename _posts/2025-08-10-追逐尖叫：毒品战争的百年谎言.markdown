@@ -1,6 +1,4 @@
 ---
-redirect_from:
-  - /心理学/慈悲喜舍/精选/2025/08/10/追逐尖叫-毒品战争的百年谎言/
 title: 追逐尖叫：毒品战争的百年谎言
 date: 2025-08-10 21:13:00 +08:00
 categories:
@@ -9,6 +7,8 @@ categories:
 - 精选
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/慈悲喜舍/精选/2025/08/10/追逐尖叫-毒品战争的百年谎言/"
 excerpt: 成瘾的对立面不是清醒，而是连接。我们一直在对成瘾者唱着战歌，但其实，我们早就应该为他们唱响情歌。
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false

@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/2025/08/10/抑郁是因为我想太多吗-元认知疗法自助手册/
 title: 抑郁是因为我想太多吗：元认知疗法自助手册
 date: 2025-08-10 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/2025/08/10/抑郁是因为我想太多吗-元认知疗法自助手册/"
 excerpt: 通过学习识别“触发性想法”，并运用“推迟反刍”、“注意力训练”和“分离注意”等核心技巧，打破“想太多”的恶性循环，从抑郁中解脱出来。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

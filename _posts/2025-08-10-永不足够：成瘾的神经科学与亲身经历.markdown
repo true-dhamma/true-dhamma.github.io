@@ -1,6 +1,4 @@
 ---
-redirect_from:
-  - /心理学/精选/2025/08/10/永不足够-成瘾的神经科学与亲身经历/
 title: 永不足够：成瘾的神经科学与亲身经历
 date: 2025-08-10 21:13:00 +08:00
 categories:
@@ -8,6 +6,8 @@ categories:
 - 精选
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/精选/2025/08/10/永不足够-成瘾的神经科学与亲身经历/"
 excerpt: 大脑对药物的反应，永远是促成与药物效果相反的状态。所有快感的背后，都有一张必须偿还的账单。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

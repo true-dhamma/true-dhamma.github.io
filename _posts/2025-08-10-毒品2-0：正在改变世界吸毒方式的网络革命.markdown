@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/2025/08/10/毒品2-0-正在改变世界吸毒方式的网络革命/
 title: 毒品2.0：正在改变世界吸毒方式的网络革命
 date: 2025-08-10 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/2025/08/10/毒品2-0-正在改变世界吸毒方式的网络革命/"
 excerpt: 网络将审查行为视为系统损坏，并自动绕开它。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

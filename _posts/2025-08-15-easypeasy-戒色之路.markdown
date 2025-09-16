@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/2025/08/15/easypeasy-戒色之路/
 title: EasyPeasy戒色之路
 date: 2025-08-15 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/2025/08/15/easypeasy-戒色之路/"
 excerpt: 一本帮你彻底戒断色情内容（或类似数字成瘾）的指南，让你轻松摆脱束缚，重获自由。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

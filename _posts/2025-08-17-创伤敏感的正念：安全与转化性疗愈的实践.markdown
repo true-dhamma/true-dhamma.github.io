@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/正念/慈悲喜舍/2025/08/17/创伤敏感的正念-安全与转化性疗愈的实践/
 title: 创伤敏感的正念：安全与转化性疗愈的实践
 date: 2025-08-17 11:10:00 +08:00
 categories:
 - 心理学
 - 正念
 - 慈悲喜舍
+redirect_from:
+- "/心理学/正念/慈悲喜舍/2025/08/17/创伤敏感的正念-安全与转化性疗愈的实践/"
 excerpt: 创伤幸存者无法独自康复。疗愈只能在关系中发生，它无法在孤立中实现。
 feature_text: 
 feature_image: "/uploads/top_banner_mindfulness.jpg"

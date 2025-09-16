@@ -1,11 +1,11 @@
 ---
-redirect_from:
-  - /高僧大德/南传上座部佛法/2025/08/17/隆普敦尊者-法语微言/
 title: 隆普敦尊者：法语微言
 date: 2025-08-17 10:10:00 +08:00
 categories:
 - 高僧大德
 - 南传上座部佛法
+redirect_from:
+- "/高僧大德/南传上座部佛法/2025/08/17/隆普敦尊者-法语微言/"
 excerpt: 隆普敦尊者以简洁而犀利的开示，揭示佛法真谛，引导众生超越世间烦恼，走向内心解脱。
 feature_text: 
 feature_image: "/uploads/top_banner_sangha.jpg"

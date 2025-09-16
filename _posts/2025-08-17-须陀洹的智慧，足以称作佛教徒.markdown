@@ -1,11 +1,11 @@
 ---
-redirect_from:
-  - /南传上座部佛法/精选/2025/08/17/须陀洹的智慧，足以称作佛教徒/
 title: 须陀洹的智慧，足以称作佛教徒
 date: 2025-08-17 10:10:00 +08:00
 categories:
 - 南传上座部佛法
 - 精选
+redirect_from:
+- "/南传上座部佛法/精选/2025/08/17/须陀洹的智慧，足以称作佛教徒/"
 excerpt: 本书深入浅出地阐述了达到初果须陀洹（预流果）的智慧境界与生活实践
 feature_text: 
 feature_image: "/uploads/top_banner_dhamma.jpg"

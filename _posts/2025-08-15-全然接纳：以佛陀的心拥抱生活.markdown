@@ -1,6 +1,4 @@
 ---
-redirect_from:
-  - /心理学/慈悲喜舍/正念/西方世界的佛法/2025/08/15/全然接纳-以佛陀的心拥抱生活/
 title: 全然接纳：以佛陀的心拥抱生活
 date: 2025-08-15 21:13:00 +08:00
 categories:
@@ -8,6 +6,8 @@ categories:
 - 慈悲喜舍
 - 正念
 - 西方世界的佛法
+redirect_from:
+- "/心理学/慈悲喜舍/正念/西方世界的佛法/2025/08/15/全然接纳-以佛陀的心拥抱生活/"
 excerpt: 痛苦是不可避免的，但苦难却是可以选择的。全然接纳的瞬间，就是真正自由的瞬间。
 feature_text: 
 feature_image: "/uploads/top_banner_metta.jpg"

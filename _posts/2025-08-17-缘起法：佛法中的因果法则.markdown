@@ -1,10 +1,10 @@
 ---
-redirect_from:
-  - /南传上座部佛法/2025/08/17/缘起法-佛法中的因果法则/
 title: 缘起法：佛法中的因果法则
 date: 2025-08-17 10:10:00 +08:00
 categories:
 - 南传上座部佛法
+redirect_from:
+- "/南传上座部佛法/2025/08/17/缘起法-佛法中的因果法则/"
 excerpt: 深入揭示佛陀的核心教法——缘起法则，阐明痛苦如何产生，以及如何通过智慧斩断其根源，走向真正的自由。
 feature_text: 
 feature_image: "/uploads/top_banner_dhamma.jpg"

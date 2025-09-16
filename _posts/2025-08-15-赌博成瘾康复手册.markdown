@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/2025/08/15/赌博成瘾康复手册/
 title: 赌博成瘾康复手册
 date: 2025-08-15 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/2025/08/15/赌博成瘾康复手册/"
 excerpt: 一位前赌徒分享他用以战胜赌瘾、重获新生的五步实用行动计划。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

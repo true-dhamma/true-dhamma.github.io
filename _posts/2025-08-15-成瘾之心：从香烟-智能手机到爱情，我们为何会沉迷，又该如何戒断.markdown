@@ -1,6 +1,4 @@
 ---
-redirect_from:
-  - /心理学/正念/精选/2025/08/15/成瘾之心-从香烟-智能手机到爱情，我们为何会沉迷，又该如何戒断/
 title: 成瘾之心：从香烟、智能手机到爱情，我们为何会沉迷，又该如何戒断
 date: 2025-08-15 21:13:00 +08:00
 categories:
@@ -9,6 +7,8 @@ categories:
 - 精选
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/正念/精选/2025/08/15/成瘾之心-从香烟-智能手机到爱情，我们为何会沉迷，又该如何戒断/"
 excerpt: 我们真正需要的，不是强迫自己，而是对自己当下的体验，变得真正地、深深地好奇。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/2025/08/10/easyway轻松戒掉可卡因/
 title: EasyWay轻松戒掉可卡因
 date: 2025-08-10 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/2025/08/10/easyway轻松戒掉可卡因/"
 excerpt: 你不是在“放弃”任何东西，你是在摆脱一种疾病。戒断的秘诀在于：彻底明白可卡因的骗局，从而消除吸食的欲望，让自由变得轻而易举。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"
