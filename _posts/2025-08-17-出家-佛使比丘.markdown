@@ -1,10 +1,10 @@
 ---
+redirect_from:
+  - /南传上座部佛法/2025/08/17/出家-佛使比丘/
 title: 出家-佛使比丘
 date: 2025-08-17 11:10:00 +08:00
 categories:
 - 南传上座部佛法
-redirect_from:
-- "/南传上座部佛法/2025/08/17/出家-佛使比丘/"
 excerpt: 佛使比丘深入剖析出家的真正含义，为修行者指明从世俗走向寂静解脱的实践之道。
 feature_text: 
 feature_image: "/uploads/top_banner_sangha.jpg"

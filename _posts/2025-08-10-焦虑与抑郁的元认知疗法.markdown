@@ -1,12 +1,12 @@
 ---
+redirect_from:
+  - /心理学/2025/08/10/焦虑与抑郁的元认知疗法/
 title: 焦虑与抑郁的元认知疗法
 date: 2025-08-10 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
-redirect_from:
-- "/心理学/2025/08/10/焦虑与抑郁的元认知疗法/"
 excerpt: 持续的情绪困扰源于一种被称为“认知注意综合症”(CAS)的思维模式。通过改变对思维本身的信念和反应方式，我们可以打破焦虑与抑郁的循环。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

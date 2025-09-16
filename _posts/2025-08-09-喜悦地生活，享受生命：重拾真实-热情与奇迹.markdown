@@ -1,10 +1,10 @@
 ---
+redirect_from:
+  - /心理学/2025/08/09/喜悦地生活，享受生命-重拾真实-热情与奇迹/
 title: 喜悦地生活，享受生命：重拾真实、热情与奇迹
 date: 2025-08-09 21:13:00 +08:00
 categories:
 - 心理学
-redirect_from:
-- "/心理学/2025/08/09/喜悦地生活，享受生命：重拾真实-热情与奇迹/"
 excerpt: 点燃生命激情，需要勇气超越恐惧；培养内在空间，则带来觉知与平静。本书指引我们将二者结合，以真实和爱取代旧有模式，活出深刻的喜悦。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.png"

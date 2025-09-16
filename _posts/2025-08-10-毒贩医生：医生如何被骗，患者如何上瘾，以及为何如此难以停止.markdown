@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /心理学/精选/2025/08/10/毒贩医生-医生如何被骗，患者如何上瘾，以及为何如此难以停止/
 title: 毒贩医生：医生如何被骗，患者如何上瘾，以及为何如此难以停止
 date: 2025-08-10 21:13:00 +08:00
 categories:
@@ -6,8 +8,6 @@ categories:
 - 精选
 tags:
 - 成瘾
-redirect_from:
-- "/心理学/精选/2025/08/10/毒贩医生：医生如何被骗，患者如何上瘾，以及为何如此难以停止/"
 excerpt: 我们陷入了一个疯狂的系统：即使清楚地知道这些药物正在伤害病人，我们却无法拒绝给他们开出更多的药片。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

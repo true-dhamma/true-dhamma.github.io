@@ -1,11 +1,11 @@
 ---
+redirect_from:
+  - /心理学/慈悲喜舍/2025/08/15/不完美的礼物/
 title: 不完美的礼物
 date: 2025-08-15 21:13:00 +08:00
 categories:
 - 心理学
 - 慈悲喜舍
-redirect_from:
-- "/心理学/慈悲喜舍/2025/08/15/不完美的礼物/"
 excerpt: 拥抱我们的故事，并在此过程中爱自己，是我们一生中能做的最勇敢的事。
 feature_text: 
 feature_image: "/uploads/top_banner_metta.jpg"

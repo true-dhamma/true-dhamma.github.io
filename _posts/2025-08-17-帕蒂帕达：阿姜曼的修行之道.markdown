@@ -1,12 +1,12 @@
 ---
+redirect_from:
+  - /高僧大德/南传上座部佛法/精选/2025/08/17/帕蒂帕达-阿姜曼的修行之道/
 title: 帕蒂帕达：阿姜曼的修行之道
 date: 2025-08-17 10:10:00 +08:00
 categories:
 - 高僧大德
 - 南传上座部佛法
 - 精选
-redirect_from:
-- "/高僧大德/南传上座部佛法/精选/2025/08/17/帕蒂帕达：阿姜曼的修行之道/"
 excerpt: 这是一条踏在荆棘之上、与猛虎为伴的修行路，直指内心最深处的无明，最终证得永恒的寂静与自由。
 feature_text: 
 feature_image: "/uploads/top_banner_sangha.jpg"

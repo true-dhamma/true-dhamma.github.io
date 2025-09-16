@@ -1,11 +1,11 @@
 ---
+redirect_from:
+  - /正念/西方世界的佛法/2025/08/12/佛法冥想的核心/
 title: "  佛法冥想的核心"
 date: 2025-08-12 10:10:00 +08:00
 categories:
 - 正念
 - 西方世界的佛法
-redirect_from:
-- "/正念/西方世界的佛法/2025/08/12/佛法冥想的核心/"
 excerpt: 心为万物之先导。若了知心，则了知万物。若心被调伏，则万物皆被调伏。
 feature_text: 
 feature_image: "/uploads/top_banner_mindfulness.jpg"

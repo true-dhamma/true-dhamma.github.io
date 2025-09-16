@@ -1,12 +1,12 @@
 ---
+redirect_from:
+  - /心理学/2025/08/16/浅薄-互联网如何影响我们的大脑/
 title: 浅薄：互联网如何影响我们的大脑
 date: 2025-08-16 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
-redirect_from:
-- "/心理学/2025/08/16/浅薄：互联网如何影响我们的大脑/"
 excerpt: 互联网正在重塑我们的大脑，从深度阅读者变为信息冲浪者，我们的思维方式正变得更浅薄、更分散。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

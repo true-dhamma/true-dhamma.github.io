@@ -1,11 +1,11 @@
 ---
+redirect_from:
+  - /南传上座部佛法/心理学/2025/08/17/从心理学到佛法修行/
 title: 从心理学到佛法修行
 date: 2025-08-17 11:10:00 +08:00
 categories:
 - 南传上座部佛法
 - 心理学
-redirect_from:
-- "/南传上座部佛法/心理学/2025/08/17/从心理学到佛法修行/"
 excerpt: 真正的充实并非源于外部索取，而是源于内在的智慧与空性洞察，让心从烦恼中解脱，从而独处亦乐，与众亦乐。
 feature_text: 
 feature_image: "/uploads/top_banner_dhamma.jpg"

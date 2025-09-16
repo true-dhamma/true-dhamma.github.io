@@ -1,11 +1,11 @@
 ---
+redirect_from:
+  - /巴利圣典/西方世界的佛法/2025/08/12/佛陀教了什么/
 title: 佛陀教了什么
 date: 2025-08-12 10:10:00 +08:00
 categories:
 - 巴利圣典
 - 西方世界的佛法
-redirect_from:
-- "/巴利圣典/西方世界的佛法/2025/08/12/佛陀教了什么/"
 excerpt: 拨开宗教的迷雾，直探佛陀教义的理性核心，一部为现代人撰写的佛学入门经典。
 feature_text: 
 feature_image: "/uploads/top_banner_tipitaka.jpg"

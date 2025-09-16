@@ -1,12 +1,12 @@
 ---
+redirect_from:
+  - /心理学/2025/08/10/easyway轻松戒大麻/
 title: EasyWay轻松戒大麻
 date: 2025-08-10 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
-redirect_from:
-- "/心理学/2025/08/10/easyway轻松戒大麻/"
 excerpt: 你不是在“放弃”任何东西，你只是在摆脱一种疾病。你什么都没有失去，反而重新赢回了你的生活、健康和自由。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

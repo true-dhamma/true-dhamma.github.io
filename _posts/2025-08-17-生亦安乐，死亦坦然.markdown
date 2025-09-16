@@ -1,11 +1,11 @@
 ---
+redirect_from:
+  - /生老病死/南传上座部佛法/2025/08/17/生亦安乐，死亦坦然/
 title: 生亦安乐，死亦坦然
 date: 2025-08-17 10:10:00 +08:00
 categories:
 - 生老病死
 - 南传上座部佛法
-redirect_from:
-- "/生老病死/南传上座部佛法/2025/08/17/生亦安乐，死亦坦然/"
 excerpt: 本书教你如何运用佛法智慧，坦然面对生老病死，让活着和死去都成为一种安乐。
 feature_text: 
 feature_image: "/uploads/top_banner_dhamma.jpg"

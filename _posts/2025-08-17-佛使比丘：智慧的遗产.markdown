@@ -1,11 +1,11 @@
 ---
+redirect_from:
+  - /高僧大德/南传上座部佛法/2025/08/17/佛使比丘-智慧的遗产/
 title: 佛使比丘：智慧的遗产
 date: 2025-08-17 10:10:00 +08:00
 categories:
 - 高僧大德
 - 南传上座部佛法
-redirect_from:
-- "/高僧大德/南传上座部佛法/2025/08/17/佛使比丘：智慧的遗产/"
 excerpt: 佛使比丘以189则精炼法语，揭示如何在日常生活中熄灭苦恼，体证涅槃的清凉——这是一份献给所有寻求解脱者的智慧遗产。
 feature_text: 
 feature_image: "/uploads/top_banner_sangha.jpg"

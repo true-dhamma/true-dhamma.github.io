@@ -1,12 +1,12 @@
 ---
+redirect_from:
+  - /心理学/2025/08/16/数字极简主义/
 title: 数字极简主义
 date: 2025-08-16 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
-redirect_from:
-- "/心理学/2025/08/16/数字极简主义/"
 excerpt: 在一个充斥着数字噪音的世界里，本书教你如何有目的地使用科技，重新掌控自己的时间、注意力与生活。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

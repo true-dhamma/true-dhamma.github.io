@@ -1,12 +1,12 @@
 ---
+redirect_from:
+  - /心理学/2025/08/16/如何与你的手机分手/
 title: 如何与你的手机分手
 date: 2025-08-16 22:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
-redirect_from:
-- "/心理学/2025/08/16/如何与你的手机分手/"
 excerpt: 你的生活，取决于你关注什么。一份为期30天的实用指南，帮助你摆脱手机成瘾，重新掌控自己的注意力和生活。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

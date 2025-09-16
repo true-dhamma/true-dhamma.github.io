@@ -1,11 +1,11 @@
 ---
+redirect_from:
+  - /巴利圣典/西方世界的佛法/2025/08/12/觉醒之翼-来自巴利经典的选集/
 title: 觉醒之翼：来自巴利经典的选集
 date: 2025-08-12 10:10:00 +08:00
 categories:
 - 巴利圣典
 - 西方世界的佛法
-redirect_from:
-- "/巴利圣典/西方世界的佛法/2025/08/12/觉醒之翼：来自巴利经典的选集/"
 excerpt: 佛陀亲自阐述的觉醒之道，深入解析了通往彻底解脱的三十七项核心修行要素。
 feature_text: 
 feature_image: "/uploads/top_banner_tipitaka.jpg"

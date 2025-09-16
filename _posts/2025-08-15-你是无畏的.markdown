@@ -1,11 +1,11 @@
 ---
+redirect_from:
+  - /心理学/慈悲喜舍/2025/08/15/你是无畏的/
 title: 你是无畏的
 date: 2025-08-15 21:13:00 +08:00
 categories:
 - 心理学
 - 慈悲喜舍
-redirect_from:
-- "/心理学/慈悲喜舍/2025/08/15/你是无畏的/"
 excerpt: 你的人生取决于你的决定。如果你想过一种你从未有过的生活，就必须去做一些你从未做过的事。
 feature_text: 
 feature_image: "/uploads/top_banner_metta.jpg"

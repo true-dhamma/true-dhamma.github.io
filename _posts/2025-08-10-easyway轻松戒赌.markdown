@@ -1,12 +1,12 @@
 ---
+redirect_from:
+  - /心理学/2025/08/10/easyway轻松戒赌/
 title: EasyWay轻松戒赌
 date: 2025-08-10 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
-redirect_from:
-- "/心理学/2025/08/10/easyway轻松戒赌/"
 excerpt: 一本革命性的指南，帮助你轻松永久戒除赌瘾，重获自由与快乐，无需意志力或牺牲感。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"
