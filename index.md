@@ -3,9 +3,10 @@ title: 南传上座部佛法 (Theravada) 中文资源
 feature_text: |
   ## True Dhamma
   为 **渴望** 或 **正在** 真切 **实践佛陀教法** 的 **华人** 而设立
-feature_image: /uploads/top_banner_home.jpg
+feature_image: "/uploads/top_banner_home.jpg"
 excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 ---
+
 提供南传上座部佛法（Theravada Buddhism）、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 
 <table style="width:100%; border: none;">

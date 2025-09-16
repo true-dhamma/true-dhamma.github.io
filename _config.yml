@@ -48,7 +48,8 @@ defaults:
     seo_description_max_words: 20
 url: https://true-dhamma.github.io
 baseurl: ''
-description: 世间成瘾与出世间觉悟, 南传上座部佛法, 实修实证, 亲知实见, 趋向涅槃, 从无明中解脱 - Theravada, Buddhadhamma, Meditation
+description: 世间成瘾与出世间觉悟, 南传上座部佛法, 实修实证, 亲知实见, 趋向涅槃, 从无明中解脱 - Theravada, Buddhadhamma,
+  Meditation
 encoding: utf-8
 lang: zh-CN
 permalink: "/:categories/:title/"
