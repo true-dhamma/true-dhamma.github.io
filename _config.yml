@@ -16,6 +16,7 @@ collections:
   posts:
     title: 文章
     output: true
+    permalink: /blog/:categories/:title/
 defaults:
 - scope:
     path: ''
