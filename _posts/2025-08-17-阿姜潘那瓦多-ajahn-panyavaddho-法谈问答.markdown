@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /南传上座部佛法/西方世界的佛法/2025/08/17/阿姜潘那瓦多-ajahn-panyavaddho-法谈问答/
 title: 阿姜潘那瓦多(Ajahn Panyavaddho)法谈问答
 date: 2025-08-17 10:10:00 +08:00
 categories:

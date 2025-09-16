@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /心理学/2025/08/09/理性康复-rational-recovery/
 title: 理性康复(Rational Recovery)
 date: 2025-08-09 21:13:00 +08:00
 categories:

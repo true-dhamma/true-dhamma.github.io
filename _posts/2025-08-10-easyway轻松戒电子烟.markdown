@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /心理学/2025/08/10/easyway轻松戒电子烟/
 title: EasyWay轻松戒电子烟
 date: 2025-08-10 21:13:00 +08:00
 categories:

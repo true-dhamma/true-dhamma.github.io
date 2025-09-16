@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /心理学/2025/08/09/从手机成瘾中解放出来/
 title: EasyWay从手机成瘾中解放出来
 date: 2025-08-09 21:13:00 +08:00
 categories:

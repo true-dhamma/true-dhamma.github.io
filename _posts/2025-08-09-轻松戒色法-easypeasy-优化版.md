@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /心理学/2025/08/09/轻松戒色法-easypeasy-优化版/
 title: 轻松戒色法(EasyPeasy优化版)
 date: 2025-08-09 21:13:00 +08:00
 categories:

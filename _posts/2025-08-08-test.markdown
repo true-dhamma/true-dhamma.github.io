@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /世间成瘾/2025/08/08/test/
 title: test
 date: 2025-08-08 23:15:00 +08:00
 categories:

@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /心理学/2025/08/15/easypeasy-戒色之路/
 title: EasyPeasy戒色之路
 date: 2025-08-15 21:13:00 +08:00
 categories:
