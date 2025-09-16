@@ -1,13 +1,14 @@
 ---
 title: 沉思录
-date: 2025-09-15T00:15:00+07:00
+date: 2025-09-15 01:15:00 +08:00
 categories:
-  - 慈悲喜舍
+- 慈悲喜舍
 excerpt: 一位罗马皇帝写给自己的心灵对话，教你如何在混乱的世界中保持内心的秩序与安宁。
-feature_text:
-feature_image: /uploads/top_banner_metta.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_metta.jpg"
 aside: true
 ---
+
 > ##### Meditations - Marcus Aurelius
 >
 > ##### 沉思录 - 马可·奥勒留
