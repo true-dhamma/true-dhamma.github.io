@@ -1,10 +1,10 @@
 ---
-redirect_from:
-  - /心理学/2025/08/16/深度工作-浅薄时代个人成功的关键能力/
 title: 深度工作：浅薄时代个人成功的关键能力
 date: 2025-08-16 21:13:00 +08:00
 categories:
 - 心理学
+redirect_from:
+- "/心理学/2025/08/16/深度工作-浅薄时代个人成功的关键能力/"
 excerpt: 在这个日益浮躁的世界里，深度工作的能力是你脱颖而出的超级力量。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

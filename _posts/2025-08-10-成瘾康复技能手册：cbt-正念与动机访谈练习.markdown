@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/2025/08/10/成瘾康复技能手册：cbt-正念与动机访谈练习/
 title: 成瘾康复技能手册：CBT、正念与动机访谈练习
 date: 2025-08-10 10:10:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/2025/08/10/成瘾康复技能手册：cbt-正念与动机访谈练习/"
 excerpt: 这本书教你如何运用认知行为疗法、正念和动机性访谈等科学方法，重新训练你的大脑，从而掌控并战胜成瘾。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

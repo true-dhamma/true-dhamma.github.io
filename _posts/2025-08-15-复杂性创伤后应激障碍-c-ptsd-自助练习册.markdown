@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/2025/08/15/复杂性创伤后应激障碍-c-ptsd-自助练习册/
 title: 复杂性创伤后应激障碍(C-PTSD)自助练习册
 date: 2025-08-15 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - PTSD
+redirect_from:
+- "/心理学/2025/08/15/复杂性创伤后应激障碍-c-ptsd-自助练习册/"
 excerpt: 这本书提供了一条清晰的、基于身心联系的康复之路，帮助那些因童年创伤而挣扎的人们重新获得情绪控制，走向完整。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

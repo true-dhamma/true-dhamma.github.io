@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/2025/08/10/easyway轻松戒重法/
 title: EasyWay轻松戒重法
 date: 2025-08-10 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/2025/08/10/easyway轻松戒重法/"
 excerpt: 一种轻松实现理想体重的方法，让你理解自然的饮食习惯，摆脱社会对食物的洗脑。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/2025/08/15/买还是不买：我们为何过度购物以及如何停止/
 title: 买还是不买：我们为何过度购物以及如何停止
 date: 2025-08-15 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/2025/08/15/买还是不买：我们为何过度购物以及如何停止/"
 excerpt: 这本书提供了一张从过度购物到实现全面康复和生活平衡的路线图，帮助你重新掌控自己的生活。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

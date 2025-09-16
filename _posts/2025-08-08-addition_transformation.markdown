@@ -1,6 +1,4 @@
 ---
-redirect_from:
-  - /世间成瘾/2025/08/08/addition_transformation/
 title: 成瘾的迁移
 date: 2025-08-08 23:15:00 +08:00
 categories:
@@ -8,6 +6,8 @@ categories:
 tags:
 - 成瘾
 - 迁移
+redirect_from:
+- "/世间成瘾/2025/08/08/addition_transformation/"
 ---
 
 成瘾的迁移成瘾的迁移成瘾的迁移成瘾的迁移成瘾的迁移

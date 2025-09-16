@@ -1,10 +1,10 @@
 ---
-redirect_from:
-  - /南传上座部佛法/2025/08/17/在家居士的生活指南/
 title: 在家居士的生活指南
 date: 2025-08-17 10:10:00 +08:00
 categories:
 - 南传上座部佛法
+redirect_from:
+- "/南传上座部佛法/2025/08/17/在家居士的生活指南/"
 excerpt: 一部为在家居士量身打造的指南，阐释如何运用佛法智慧，在世俗生活中获得幸福、美德与安宁。
 feature_text: 
 feature_image: "/uploads/top_banner_dhamma.jpg"

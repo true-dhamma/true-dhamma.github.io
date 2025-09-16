@@ -1,6 +1,4 @@
 ---
-redirect_from:
-  - /心理学/精选/2025/08/16/轻松戒断游戏成瘾/
 title: 轻松戒断游戏成瘾
 date: 2025-08-16 11:10:00 +08:00
 categories:
@@ -8,6 +6,8 @@ categories:
 - 精选
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/精选/2025/08/16/轻松戒断游戏成瘾/"
 excerpt: 你没有放弃任何东西。你正在摆脱一个让你生活痛苦不堪的致命敌人。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

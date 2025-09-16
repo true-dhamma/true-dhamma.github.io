@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/2025/08/10/赤裸裸的思想：控制酒精-找到自由-发现快乐并改变你的生活/
 title: 赤裸裸的思想：控制酒精、找到自由、发现快乐并改变你的生活
 date: 2025-08-10 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/2025/08/10/赤裸裸的思想：控制酒精-找到自由-发现快乐并改变你的生活/"
 excerpt: 当你看清酒精的真相，曾经对“再也不能喝酒”的恐惧，会被“再也无需喝酒”的兴奋所取代。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

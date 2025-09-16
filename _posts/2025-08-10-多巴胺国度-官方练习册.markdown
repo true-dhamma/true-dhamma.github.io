@@ -1,6 +1,4 @@
 ---
-redirect_from:
-  - /心理学/正念/2025/08/10/多巴胺国度-官方练习册/
 title: 多巴胺国度-官方练习册：在放纵时代找到平衡
 date: 2025-08-10 21:13:00 +08:00
 categories:
@@ -8,6 +6,8 @@ categories:
 - 正念
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/正念/2025/08/10/多巴胺国度-官方练习册/"
 excerpt: 对快乐的不懈追求会导致无法体验任何快乐。相反，通过戒除，甚至有意拥抱痛苦，我们才能重置奖励回路，重新获得感受快乐的能力。
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"

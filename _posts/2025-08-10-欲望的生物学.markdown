@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /心理学/2025/08/10/欲望的生物学/
 title: 欲望的生物学：为什么成瘾不是一种病
 date: 2025-08-10 21:13:00 +08:00
 categories:
 - 心理学
 tags:
 - 成瘾
+redirect_from:
+- "/心理学/2025/08/10/欲望的生物学/"
 excerpt: 成瘾源于那些将爱人与彼此、孩子与父母联结在一起的同样情感。
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false

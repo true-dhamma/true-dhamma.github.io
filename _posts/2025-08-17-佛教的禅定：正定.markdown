@@ -1,11 +1,11 @@
 ---
-redirect_from:
-  - /南传上座部佛法/正定/2025/08/17/佛教的禅定：正定/
 title: 佛教的禅定：正定
 date: 2025-08-17 10:10:00 +08:00
 categories:
 - 南传上座部佛法
 - 正定
+redirect_from:
+- "/南传上座部佛法/正定/2025/08/17/佛教的禅定：正定/"
 excerpt: 深入剖析佛教禅定的核心，引导你从心灵的宁静走向终极的智慧与解脱。
 feature_text: 
 feature_image: "/uploads/top_banner_dhamma.jpg"

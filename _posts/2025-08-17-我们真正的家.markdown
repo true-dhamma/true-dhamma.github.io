@@ -1,11 +1,11 @@
 ---
-redirect_from:
-  - /生老病死/南传上座部佛法/2025/08/17/我们真正的家/
 title: 我们真正的家
 date: 2025-08-17 10:10:00 +08:00
 categories:
 - 生老病死
 - 南传上座部佛法
+redirect_from:
+- "/生老病死/南传上座部佛法/2025/08/17/我们真正的家/"
 excerpt: 一位伟大的禅师教导我们如何用智慧与平静，来面对衰老、病痛与死亡的终极真相。
 feature_text: 
 feature_image: "/uploads/top_banner_dhamma.jpg"

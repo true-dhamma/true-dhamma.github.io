@@ -1,12 +1,12 @@
 ---
-redirect_from:
-  - /高僧大德/南传上座部佛法/精选/2025/08/17/阿罗汉向-阿罗汉果-阿姜摩诃布瓦尊者/
 title: 阿姜摩诃布瓦尊者：阿罗汉向·阿罗汉果
 date: 2025-08-17 10:10:00 +08:00
 categories:
 - 高僧大德
 - 南传上座部佛法
 - 精选
+redirect_from:
+- "/高僧大德/南传上座部佛法/精选/2025/08/17/阿罗汉向-阿罗汉果-阿姜摩诃布瓦尊者/"
 excerpt: 阿姜摩诃布瓦尊者毫无保留的实修指导与心路历程。
 feature_text: 
 feature_image: "/uploads/top_banner_sangha.jpg"

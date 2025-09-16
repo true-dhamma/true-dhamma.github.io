@@ -1,11 +1,11 @@
 ---
-redirect_from:
-  - /南传上座部佛法/精选/2025/08/17/电视剧-佛陀传/
 title: 电视剧《佛陀》
 date: 2025-08-17 00:15:00 +08:00
 categories:
 - 南传上座部佛法
 - 精选
+redirect_from:
+- "/南传上座部佛法/精选/2025/08/17/电视剧-佛陀传/"
 excerpt: 电视剧《佛陀》国语版全集在线观看，生动再现了佛陀的成长历程与慈悲智慧，将深刻的哲理融入剧情，许多对白都能启发人心，成为生命的智慧指南。
 feature_text: 
 feature_image: "/uploads/top_banner_tv_buddha.jpg"
