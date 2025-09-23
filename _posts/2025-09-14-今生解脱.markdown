@@ -1,21 +1,20 @@
 ---
 title: 今生解脱
-date: 2025-09-14 02:15:00 +08:00
+date: 2025-09-14T02:15:00+08:00
 categories:
-- 南传上座部佛法
+  - 南传上座部佛法
 excerpt: 一天勤勉的禅修生活，远胜过百年的懈怠。愿一切行者精进、精勤，能于“今生解脱”！
-feature_text: 
-feature_image: "/uploads/top_banner_metta.jpg"
+feature_text:
+feature_image: /uploads/top_banner_dhamma.jpg
 aside: false
 ---
-
 > ##### In This Very Life: The Liberation Teachings of the Buddha - Sayadaw U Pandita
 >
 > ##### 今生解脱 - 班迪达尊者
 >
 > 一天勤勉的禅修生活，远胜过百年的懈怠。愿一切行者精进、精勤，能于“今生解脱”！
 
-###
+&nbsp;
 
 ### 中译序
 
@@ -177,7 +176,11 @@ aside: false
 
 #### 出现什么，如何注意到它，又发生什么事？
 
-对一切所缘，请以三个阶段来报告自己的经验： 1.  **确认出现了什么**。例如：“腹部膨胀了。” 2.  **你如何注意到它**。例如：“我注意到‘膨胀’。” 3.  **当你注意到时，发生了什么事**。例如：“注意到‘膨胀’时，我体验到……的感觉。”
+对一切所缘，请以三个阶段来报告自己的经验：
+
+1. **确认出现了什么**。例如：“腹部膨胀了。”
+2. **你如何注意到它**。例如：“我注意到‘膨胀’。”
+3. **当你注意到时，发生了什么事**。例如：“注意到‘膨胀’时，我体验到……的感觉。”
 
 这种报告方式，本身就是对如何运用觉知的指引。因此，小参不仅是接受指导的机会，也能激励禅修者更清晰地专注于自己的经验。
 
@@ -323,7 +326,11 @@ aside: false
 
 除非你经历各个层次的观智，最后体证涅槃，才会了解真正的快乐。以涅槃作为修习的终极目标，你应该试着保持高度的精进，不停滞或放弃，在达到最终目标之前绝不退却。
 
-你需要运用一系列精进的层级： \*   **发勤精进**：建立禅修的基础。 \*   **出离精进**：坚毅地克服障碍。 \*   **勇猛精进**：在修行顺利时，持续前进，不自满。
+你需要运用一系列精进的层级：
+
+* **发勤精进**：建立禅修的基础。
+* **出离精进**：坚毅地克服障碍。
+* **勇猛精进**：在修行顺利时，持续前进，不自满。
 
 如此继续修习，利用上述这九种心的特质，则**五根**——信、精进、念、定与慧——必能增長茁壯，最後會接管你的心，引領你至解脫。
 
@@ -359,7 +366,16 @@ aside: false
 
 #### 保持清醒的八种方法
 
-佛陀教导了克服昏沉睡眠的八种善巧方法： 1.  **改变自己的态度**：下定决心坐到昏沉睡眠消失。 2.  **反思经文**：深思已默记在心能激励自己的经文。 3.  **大声念诵经文**。 4.  **刺激身体**：拉拉耳朵或摩擦手脚。 5.  **起身洗脸**。 6.  **注视光明的所缘**，如月亮或灯泡。 7.  **正念轻快地行禅**。 8.  **优雅地投降**，即就寝。
+佛陀教导了克服昏沉睡眠的八种善巧方法：
+
+1. **改变自己的态度**：下定决心坐到昏沉睡眠消失。
+2. **反思经文**：深思已默记在心能激励自己的经文。
+3. **大声念诵经文**。
+4. **刺激身体**：拉拉耳朵或摩擦手脚。
+5. **起身洗脸**。
+6. **注视光明的所缘**，如月亮或灯泡。
+7. **正念轻快地行禅**。
+8. **优雅地投降**，即就寝。
 
 ### 第六魔军：怖畏
 
@@ -399,7 +415,11 @@ aside: false
 
 #### 三种烦恼
 
-烦恼有三种：**违犯、缠缚与随眠**。 \*   **违犯烦恼**：通过不道德的言行表现出来。 \*   **缠缚烦恼**：在内心中生起的欲望和恶意。 \*   **随眠烦恼**：潜伏的、未显现的烦恼。
+烦恼有三种：**违犯、缠缚与随眠**。
+
+* **违犯烦恼**：通过不道德的言行表现出来。
+* **缠缚烦恼**：在内心中生起的欲望和恶意。
+* **随眠烦恼**：潜伏的、未显现的烦恼。
 
 通过修习**戒、定、慧**，可以克服这三种烦恼。“戒”对治违犯烦恼；“定”镇伏缠缚烦恼；“慧”根除随眠烦恼。
 
@@ -640,7 +660,31 @@ aside: false
 
 五种使心偏离所缘的特殊方式称为“**五盖**”。它们是禅修的主要障碍。初禅的五禅支能分别对治五盖：
 
-<table><thead><tr><td><p><th style="text-align: left">禅支</th>       <th style="text-align: left">对治</th>     </p></td></tr></thead><tbody><tr><td><p><td style="text-align: left"><strong>寻</strong></td>       <td style="text-align: left">昏沉睡眠</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>伺</strong></td>       <td style="text-align: left">疑</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>喜</strong></td>       <td style="text-align: left">瞋恚</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>乐</strong></td>       <td style="text-align: left">掉举恶作</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>定</strong></td>       <td style="text-align: left">贪欲</td>     </p></td></tr></tbody></table>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<table><thead><tr><td><p></p></td><td><p></p></td><td><p><th style="text-align: left">禅支</th><th style="text-align: left">对治</th></p></td></tr></thead><tbody><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left"><strong>寻</strong></td><td style="text-align: left">昏沉睡眠</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left"><strong>伺</strong></td><td style="text-align: left">疑</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left"><strong>喜</strong></td><td style="text-align: left">瞋恚</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left"><strong>乐</strong></td><td style="text-align: left">掉举恶作</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left"><strong>定</strong></td><td style="text-align: left">贪欲</td></p></td></tr></tbody></table>
 
 ### 理解这世界的本质
 
@@ -725,7 +769,9 @@ aside: false
 
 ### 五盖与其对治法
 
-<table><thead><tr><td><p><th style="text-align: left">禅支</th>       <th style="text-align: left">对治的五盖</th>     </p></td></tr></thead><tbody><tr><td><p><td style="text-align: left">寻 (vitakka)</td>       <td style="text-align: left">昏沉睡眠 (thīna middha)</td>     </p></td></tr><tr><td><p><td style="text-align: left">伺 (vicāra)</td>       <td style="text-align: left">疑 (vicikicchā)</td>     </p></td></tr><tr><td><p><td style="text-align: left">喜 (pīti)</td>       <td style="text-align: left">瞋恚 (vyāpāda)</td>     </p></td></tr><tr><td><p><td style="text-align: left">乐 (sukha)</td>       <td style="text-align: left">掉举恶作 (uddhacca kukkucca)</td>     </p></td></tr><tr><td><p><td style="text-align: left">心一境性 (ekaggatā)</td>       <td style="text-align: left">贪欲 (kāmacchanda)</td>     </p></td></tr></tbody></table>
+&nbsp;
+
+<table><thead><tr><td><p></p></td><td><p></p></td><td><p><th style="text-align: left">禅支</th><th style="text-align: left">对治的五盖</th></p></td></tr></thead><tbody><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">寻 (vitakka)</td><td style="text-align: left">昏沉睡眠 (thīna middha)</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">伺 (vicāra)</td><td style="text-align: left">疑 (vicikicchā)</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">喜 (pīti)</td><td style="text-align: left">瞋恚 (vyāpāda)</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">乐 (sukha)</td><td style="text-align: left">掉举恶作 (uddhacca kukkucca)</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">心一境性 (ekaggatā)</td><td style="text-align: left">贪欲 (kāmacchanda)</td></p></td></tr></tbody></table>
 
 ### 观智的进展
 
