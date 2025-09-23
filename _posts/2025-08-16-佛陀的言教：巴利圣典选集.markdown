@@ -1,20 +1,18 @@
 ---
 title: 佛陀的言教：巴利圣典选集
-date: 2025-08-16 10:10:00 +08:00
+date: 2025-08-16T10:10:00+08:00
 categories:
-- 巴利圣典
-- 西方世界的佛法
-- 精选
-tags:
-- 英语世界的佛法
+  - 巴利圣典
+  - 西方世界的佛法
+  - 精选
+tags: []
 redirect_from:
-- "/巴利圣典/西方世界的佛法/精选/2025/08/16/佛陀的言教-巴利圣典选集/"
+  - /巴利圣典/西方世界的佛法/精选/2025/08/16/佛陀的言教-巴利圣典选集/
 excerpt: 已调伏者中，他是调御之最；已寂静者中，他是寂静之圣；已解脱者中，他是解脱之首；已度脱者中，他是度脱之尊。
-feature_text: 
-feature_image: "/uploads/top_banner_tipitaka.jpg"
+feature_text:
+feature_image: /uploads/top_banner_tipitaka.jpg
 aside: false
 ---
-
 > ##### In the Buddha’s Words: An Anthology of Discourses from the Pali Canon - Bhikkhu Bodhi
 >
 > ##### 佛陀的言教：巴利圣典选集 - 菩提比丘 - 摘要
@@ -1209,4 +1207,4 @@ aside: false
 
 ---
 
-<table><tbody><tr><td><img alt="佛陀的言教" width="120" src="/uploads/cover-in-buddhas-words.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=佛陀的言教" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=佛陀的言教" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=佛陀的言教" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=佛陀的言教" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=In the Buddha's Words" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=In the Buddha's Words" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=In the Buddha's Words" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="佛陀的言教" width="120" src="/uploads/cover-in-buddhas-words.webp" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文。繁体中文译本下载：</h5><p><a href="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E8%8F%A9%E6%8F%90%E6%AF%94%E4%B8%98/%E3%80%8A%E4%BD%9B%E9%99%80%E7%9A%84%E8%AF%9D%E8%AF%AD(In%20The%20Buddha%E2%80%99s%20Words)%E3%80%8B_%E8%8F%A9%E6%8F%90%E6%AF%94%E4%B8%98%E5%8E%9F%E8%91%97.pdf" target="_blank" rel="noopener">[True-Dhamma网盘]</a></p><h5>如感兴趣请购买正版书籍：</h5><p><a href="http://search.dangdang.com/?key=佛陀的言教" target="_blank" rel="noopener">[当当]</a> <a href="https://search.jd.com/Search?keyword=佛陀的言教" target="_blank" rel="noopener">[京东]</a> <a href="https://s.taobao.com/search?q=佛陀的言教" target="_blank" rel="noopener">[淘宝]</a> <a href="https://search.kongfz.com/product_result/?key=佛陀的言教" target="_blank" rel="noopener">[孔夫子]</a><br /><a href="https://www.amazon.com/s?k=In the Buddha's Words" target="_blank" rel="noopener">[Amazon]</a> <a href="https://books.apple.com/us/search?term=In the Buddha's Words" target="_blank" rel="noopener">[AppleBook]</a> <a href="https://www.betterworldbooks.com/search/results?q=In the Buddha's Words" target="_blank" rel="noopener">[BetterWorldBooks]</a></p></td></tr></tbody></table>
