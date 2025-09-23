@@ -1,13 +1,14 @@
 ---
 title: 佛法经济学
-date: 2025-09-13T01:15:00+07:00
+date: 2025-09-13 02:15:00 +08:00
 categories:
-  - 慈悲喜舍
+- 慈悲喜舍
 excerpt: 一种以中道为核心的经济学，旨在提升生命品质，而非无尽地满足欲望。
-feature_text:
-feature_image: /uploads/top_banner_metta.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_metta.jpg"
 aside: false
 ---
+
 > ##### Buddhist Economics - P. A. Payutto
 >
 > ##### 佛法经济学 - 巴育陀尊者 - 摘要
