@@ -1,5 +1,5 @@
 ---
-title: 第六章：涅槃：至上寂静
+title: "第六章：涅槃：至上寂静 | 佛法 | Buddhadhamma
 ---
 
 # 第六章：涅槃：至上寂静
@@ -1175,7 +1175,7 @@ Anupādā-parinibbāna 是一个重要的指代涅槃的术语；它总是独立
   
 Adhigacchati，例如：散文中：M. I. 173；偈颂中，S. I. 22；S. II. 279；A. I. 163；A. III. 214；It. 104；Thag. 偈颂 1165；Vv. 偈颂 841；Thīg. 偈颂 113。  
   
-Patta 在偈颂中，例如：D. III. 272；M. I. 227；S. I. 189, 214；Dh. 偈颂 134；Sn. 33, 79；Thag. 偈颂 1230；Thīg. 偈颂 21, 45, 477。 
+Patta 在偈颂中，例如：D. III. 272；M. I. 227；S. I. 189, 214；Dh. 偈颂 134；Sn. 33, 79；Thag. 偈颂 1230；Thīg. 偈颂 21, 45, 477。  
 
 \[117\] 见于Maṅgal.2, Rathavinītasuttavaṇṇanā, Sattavisuddhipañhavaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn117)
 {: id="fn-fn117"}

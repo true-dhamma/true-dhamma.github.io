@@ -1,5 +1,5 @@
 ---
-title: 第十三章：善友
+title: "第十三章：善友 | 佛法 | Buddhadhamma
 ---
 
 # 第十三章：善友

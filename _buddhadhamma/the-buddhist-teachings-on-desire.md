@@ -1,5 +1,5 @@
 ---
-title: 第十章：佛陀关于欲望的教导
+title: "第十章：佛陀关于欲望的教导 | 佛法 | Buddhadhamma
 ---
 
 # 第十章：佛陀关于欲望的教导
@@ -956,7 +956,7 @@ C. 当善法欲以渴爱为条件时，即使对于一个善意的人来说，�
 
 ### 渴爱与善法欲总结
 
-渴爱（taṇhā）和善法欲（chanda）之间的一些重要区别显示在“渴爱与善法欲”表中。
+渴爱（taṇhā）和善法欲（chanda）之间的一些重要区别显示在“‘渴爱’与‘善法欲’的法义解析”表中。
 
 ![image](includes/images/diagrams/craving-and-wholesome-desire.jpg)
 
@@ -1049,57 +1049,57 @@ C. 当善法欲以渴爱为条件时，即使对于一个善意的人来说，�
 
 荷叶上的莲花蕾
 
-\[\[1\]\] 参见：Nd1A. I. 17, 62；PsA. I. 117-19；DhsA. 370；VismṬ.：Pathavīkasiṇaniddesavaṇṇanā, Paṭhamajjhānakathāvanṇṇanā；VismṬ.：Paññābhūminiddesavaṇṇanā, Taṇhāpaccayā-upādānapadavitthārakathāvaṇṇanā。这三个术语——taṇhā-chanda、kattukamyatā-chanda 和 kusaladhamma-chanda——在义注段落中最常用于区分不同语境下的特定形式的欲望。在《巴利圣典》中，单一的chanda一词用于不同语境，需要自己区分欲望的具体形式。 
+\[\[1\]\] 参见：Nd1A. I. 17, 62；PsA. I. 117-19；DhsA. 370；VismṬ.：Pathavīkasiṇaniddesavaṇṇanā, Paṭhamajjhānakathāvanṇṇanā；VismṬ.：Paññābhūminiddesavaṇṇanā, Taṇhāpaccayā-upādānapadavitthārakathāvaṇṇanā。这三个术语——taṇhā-chanda、kattukamyatā-chanda 和 kusaladhamma-chanda——在义注段落中最常用于区分不同语境下的特定形式的欲望。在《巴利圣典》中，单一的chanda一词用于不同语境，需要自己区分欲望的具体形式。  
 
-\[\[2\]\] 例如：MA. IV. 94；SA. I. 62；SA II. 280, 307；SA. III. 258。 
+\[\[2\]\] 例如：MA. IV. 94；SA. I. 62；SA II. 280, 307；SA. III. 258。  
 
-\[\[3\]\] 除了这些术语，taṇhā 还有许多其他同义词，例如：anunaya、nandi、icchā、māyā、paṇidhi、sineha、āsā 和 abhijjhā；参见：Dhs. 189-90, 201；Vbh. 145。 
+\[\[3\]\] 除了这些术语，taṇhā 还有许多其他同义词，例如：anunaya、nandi、icchā、māyā、paṇidhi、sineha、āsā 和 abhijjhā；参见：Dhs. 189-90, 201；Vbh. 145。  
 
-\[\[4\]\] Kāma-chanda 也可以翻译为“感官享乐”或“淫欲”。 
+\[\[4\]\] Kāma-chanda 也可以翻译为“感官享乐”或“淫欲”。  
 
-\[\[5\]\] Thig. 偈颂 14。此处的 Bhava-chanda 等同于 bhava-taṇhā；与 kāma-chanda 和 kāma-taṇhā 的术语进行比较。 
+\[\[5\]\] Thig. 偈颂 14。此处的 Bhava-chanda 等同于 bhava-taṇhā；与 kāma-chanda 和 kāma-taṇhā 的术语进行比较。  
 
-\[\[6\]\] Thag. 偈颂 1105。 
+\[\[6\]\] Thag. 偈颂 1105。  
 
-\[\[7\]\] M. I. 500；Sn. 35。 
+\[\[7\]\] M. I. 500；Sn. 35。  
 
-\[\[8\]\] Sn. 164。 
+\[\[8\]\] Sn. 164。  
 
-\[\[9\]\] S. III. 77-8。 
+\[\[9\]\] S. III. 77-8。  
 
-\[\[10\]\] S. IV. 195；cf.：S. I. 186-7；Thag. 1216。 
+\[\[10\]\] S. IV. 195；cf.：S. I. 186-7；Thag. 1216。  
 
-\[\[11\]\] 例如：S. II. 144-9。与 rūpa-taṇhā、sadda-taṇhā ... dhamma-taṇhā 等术语进行比较，这些术语经常出现在经典中，例如：S. II. 3。另请注意，这里的 dhamma-chanda 指的是对法所缘（念头）的欲望，与上述第三种欲望（kusaladhamma-chanda）中的 dhamma-chanda 不同。 
+\[\[11\]\] 例如：S. II. 144-9。与 rūpa-taṇhā、sadda-taṇhā ... dhamma-taṇhā 等术语进行比较，这些术语经常出现在经典中，例如：S. II. 3。另请注意，这里的 dhamma-chanda 指的是对法所缘（念头）的欲望，与上述第三种欲望（kusaladhamma-chanda）中的 dhamma-chanda 不同。  
 
-\[\[12\]\] S. I. 197。 
+\[\[12\]\] S. I. 197。  
 
-\[\[13\]\] S. IV. 327-30。在此经中，chanda 与 rāga 和 pema（“爱”）等术语一同出现。 
+\[\[13\]\] S. IV. 327-30。在此经中，chanda 与 rāga 和 pema（“爱”）等术语一同出现。  
 
-\[\[14\]\] S. III. 76-8。 
+\[\[14\]\] S. III. 76-8。  
 
-\[\[15\]\] Vin. I. 11；S. V. 422。 
+\[\[15\]\] Vin. I. 11；S. V. 422。  
 
-\[\[16\]\] Vism. 462-3, 466；Comp.：Cetasikaparicchedo, Aññasamānacetasikaṁ；CompṬ.：Cetasikaparicchedavaṇṇanā, Aññasamānacetasikavaṇṇanā。义注根据欲望的品质、“味道”（rasa）、相貌（paccupaṭṭhāna）和近因（padaṭṭhāna）来解释心境，但我在这里不会详述。感兴趣的读者可以仔细查阅这些参考资料。 
+\[\[16\]\] Vism. 462-3, 466；Comp.：Cetasikaparicchedo, Aññasamānacetasikaṁ；CompṬ.：Cetasikaparicchedavaṇṇanā, Aññasamānacetasikavaṇṇanā。义注根据欲望的品质、“味道”（rasa）、相貌（paccupaṭṭhāna）和近因（padaṭṭhāna）来解释心境，但我在这里不会详述。感兴趣的读者可以仔细查阅这些参考资料。  
 
-\[\[17\]\] 四神足（The Four Paths to Success）经常出现在经典中，例如：D. III. 221-2；Vbh. 216；S. V. 254-93 全篇；Vbh. 216-26；并参见：PañcA. 107 的解释。 
+\[\[17\]\] 四神足（The Four Paths to Success）经常出现在经典中，例如：D. III. 221-2；Vbh. 216；S. V. 254-93 全篇；Vbh. 216-26；并参见：PañcA. 107 的解释。  
 
-\[\[18\]\] 例如：A. II. 15-16, 74；S. V. 244-8；Vbh. 208-215。 
+\[\[18\]\] 例如：A. II. 15-16, 74；S. V. 244-8；Vbh. 208-215。  
 
-\[\[19\]\] 例如：在佛陀对正精进的解释中——Sn. 196；S. V. 440-41；A. I. 174-5；A. II. 93-4, 195；A. III. 306-307；DhA. III. 9。 
+\[\[19\]\] 例如：在佛陀对正精进的解释中——Sn. 196；S. V. 440-41；A. I. 174-5；A. II. 93-4, 195；A. III. 306-307；DhA. III. 9。  
 
-\[\[20\]\] 关于将 chanda 解释为 kattukamyatā-chanda，参见例如：MA. III. 426（对 M. II. 174 的解释）；AA. III. 352（对：A. III. 306-307；A. IV. 320 的解释）；AA. III. 412（对 A. III. 431-2 的解释）。关于也将 chanda 分类为 kusala-chanda 或 dhamma-chanda 的解释，参见例如：DA. III. 1006（对 D. III. 221 的解释）；MA. III. 243（对 M. II. 11 的解释）；AA. II. 43（对 A. I. 38-9 的解释）；MA. III. 193（对 M. I. 480 的解释）；AA. II. 346（对 A. I. 229 的解释）；SA. III. 133（对 S. V. 30 的解释）；VinṬ.：Tatiyapārājikaṁ, Ānāpānassatisamādhikathāvaṇṇanā；VbhA. 290（对 Vbh. 211 的解释）。这些义注还提供了 chanda 的进一步分类，例如 taṇhā-chanda、diṭṭhi-chanda、viriya-chanda 和 dhamma-chanda，但我在此不赘述此主题。 
+\[\[20\]\] 关于将 chanda 解释为 kattukamyatā-chanda，参见例如：MA. III. 426（对 M. II. 174 的解释）；AA. III. 352（对：A. III. 306-307；A. IV. 320 的解释）；AA. III. 412（对 A. III. 431-2 的解释）。关于也将 chanda 分类为 kusala-chanda 或 dhamma-chanda 的解释，参见例如：DA. III. 1006（对 D. III. 221 的解释）；MA. III. 243（对 M. II. 11 的解释）；AA. II. 43（对 A. I. 38-9 的解释）；MA. III. 193（对 M. I. 480 的解释）；AA. II. 346（对 A. I. 229 的解释）；SA. III. 133（对 S. V. 30 的解释）；VinṬ.：Tatiyapārājikaṁ, Ānāpānassatisamādhikathāvaṇṇanā；VbhA. 290（对 Vbh. 211 的解释）。这些义注还提供了 chanda 的进一步分类，例如 taṇhā-chanda、diṭṭhi-chanda、viriya-chanda 和 dhamma-chanda，但我在此不赘述此主题。  
 
-\[\[21\]\] 即，一个人很难遇到所有这六件事。一个人能遇到这些事情被认为是一个极其宝贵的机会，因为这样的人具备了一整套有助于佛法修习或在圣者之法（ariya-dhamma）中进步的因素；参见：A. III. 440。 
+\[\[21\]\] 即，一个人很难遇到所有这六件事。一个人能遇到这些事情被认为是一个极其宝贵的机会，因为这样的人具备了一整套有助于佛法修习或在圣者之法（ariya-dhamma）中进步的因素；参见：A. III. 440。  
 
-\[\[22\]\] A. III. 431-32。 
+\[\[22\]\] A. III. 431-32。  
 
-\[\[23\]\] A. I. 229；A. IV. 15 
+\[\[23\]\] A. I. 229；A. IV. 15  
 
-\[\[24\]\] Ps. II. 24-5。 
+\[\[24\]\] Ps. II. 24-5。  
 
-\[\[25\]\] 同上。 
+\[\[25\]\] 同上。  
 
-\[\[26\]\] Dh. 偈颂 218（DhA. III. 289 指出这指的是 kattukamyatā-chanda）。 
+\[\[26\]\] Dh. 偈颂 218（DhA. III. 289 指出这指的是 kattukamyatā-chanda）。  
 
 \[27\] 另见：“对法的一切方面的意欲”（Thag. verse 305），“对法偈的喜爱”（S. I. 202），以及“渴望证得阿罗汉果的意欲”（S. V. 273）。经典中有些段落指出 chanda 是四道（magga）和四果（phala）当下存在的品质，并且 chanda 是道，是现观（abhisamaya），是离染（virāga），也是解脱（vimutti）。参见：Ps. I. 74-6；Ps. II. 87, 143, 145-6, 216-17。[&nbsp;↩&nbsp;](#fr-fn27)
 {: id="fn-fn27"}

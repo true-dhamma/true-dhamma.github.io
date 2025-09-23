@@ -1,5 +1,5 @@
 ---
-title: 附录：心（Citta）、识（Viññāṇa）、意（Mano）
+title: "附录：心（Citta）、识（Viññāṇa）、意（Mano） | 佛法 | Buddhadhamma
 ---
 
 # 附录：心（Citta）、识（Viññāṇa）、意（Mano）

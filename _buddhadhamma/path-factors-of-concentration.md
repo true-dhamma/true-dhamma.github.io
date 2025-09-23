@@ -1,5 +1,5 @@
 ---
-title: 第十八章：禅定道支
+title: "第十八章：禅定道支 | 佛法 | Buddhadhamma
 ---
 
 # 第十八章：禅定道支
@@ -2317,6 +2317,8 @@ B. 随念（anubandhanā）：当注意力安住在呼吸上时，停止数息�
 \[170\]  
 S. V. 317[&nbsp;↩&nbsp;](#fr-fn170)
 {: id="fn-fn170"}
+
+ 
 
 \[171\] 译者注：想受灭（saññāvedayita-nirodha）= 灭尽定（nirodha-samāpatti）。见上文说明禅定成就限度的图表。请注意，根据义注师的说法，入出息念（ānāpānasati）不能直接导致无色界禅那，因为他们声称无色界禅那依赖于遍处禅（kasiṇa meditation）（例如：Vism. 324-5）。[&nbsp;↩&nbsp;](#fr-fn171)
 {: id="fn-fn171"}

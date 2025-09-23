@@ -1,5 +1,5 @@
 ---
-title: 第四章：缘起
+title: "第四章：缘起 | 佛法 | Buddhadhamma
 ---
 
 # 第四章：缘起
@@ -18,7 +18,8 @@ paṭiccasamuppāda一词的基本定义包括“缘起”、“依缘共起”�
 
 > 此有故彼有，  
 > 此生故彼生。此无故彼无，  
-> 此灭故彼灭。Imasmiṁ sati idaṁ hoti,  
+> 此灭故彼灭。  
+> Imasmiṁ sati idaṁ hoti,  
 > imassuppādā idaṁ uppajjati. Imasmiṁ asati idaṁ na hoti,  
 > imasmiṁ nirodhā idaṁ nirujjhati.[\[1\]](#fn-fn1){:id="fr-fn1"}  
 > S. II. 28, 65
@@ -26,31 +27,56 @@ paṭiccasamuppāda一词的基本定义包括“缘起”、“依缘共起”�
 ### 详说
 
 > 无明缘行，  
-> avijjāpaccayā saṅkhārā 行缘识，  
-> saṅkhārapaccayā viññāṇaṁ 识缘名色，[\[2\]](#fn-fn2){:id="fr-fn2"}  
-> viññāṇapaccayā nāma-rūpaṁ 名色缘六处，  
-> nāmarūpapaccayā saḷāyatanaṁ 六处缘触，  
-> saḷāyatanapaccayā phasso 触缘受，  
-> phassapaccayā vedanā 受缘爱，  
-> vedanāpaccayā taṇhā 爱缘取。  
-> taṇhāpaccayā upādānaṁ 取缘有，  
-> upādānapaccayā bhavo 有缘生，  
-> bhavapaccayā jāti 生缘老死。  
-> jātipaccayā jarā-maraṇaṁ 愁、悲、苦、忧、恼因此而生。  
-> soka-parideva-dukkha-domanassupāyāsā sambhavanti 如此，这是整个苦蕴的生起。  
-> evametassa kevalassa dukkhakkhandhassa samudayo hoti 无明灭故行灭，  
-> avijjāya tveva asesavirāganirodhā saṅkhāranirodho 行灭故识灭，  
-> saṅkhāranirodhā viññāṇanirodho 识灭故名色灭，  
-> viññāṇanirodhā nāmarūpanirodho 名色灭故六处灭，  
-> nāmarūpanirodhā saḷāyatananirodho 六处灭故触灭，  
-> saḷāyatananirodhā phassanirodho 触灭故受灭，  
-> phassanirodhā vedanānirodho 受灭故爱灭，  
-> vedanāpaccayā taṇhānirodho 爱灭故取灭，  
-> taṇhānirodhā upādānanirodho 取灭故有灭，  
-> upādānanirodhā bhavanirodho 有灭故生灭，  
-> bhavanirodhā jātinirodho 生灭故老死（灭）。  
-> jātinirodhā jarāmaraṇaṁ 愁、悲、苦、忧、恼因此而灭。  
-> soka-parideva-dukkha-domanassupāyāsā nirujjhanti 如此，这是整个苦蕴的还灭。  
+> avijjāpaccayā saṅkhārā  
+> 行缘识，  
+> saṅkhārapaccayā viññāṇaṁ  
+> 识缘名色，[\[2\]](#fn-fn2){:id="fr-fn2"}  
+> viññāṇapaccayā nāma-rūpaṁ  
+> 名色缘六处，  
+> nāmarūpapaccayā saḷāyatanaṁ  
+> 六处缘触，  
+> saḷāyatanapaccayā phasso  
+> 触缘受，  
+> phassapaccayā vedanā  
+> 受缘爱，  
+> vedanāpaccayā taṇhā  
+> 爱缘取。  
+> taṇhāpaccayā upādānaṁ  
+> 取缘有，  
+> upādānapaccayā bhavo  
+> 有缘生，  
+> bhavapaccayā jāti  
+> 生缘老死。  
+> jātipaccayā jarā-maraṇaṁ  
+> 愁、悲、苦、忧、恼因此而生。  
+> soka-parideva-dukkha-domanassupāyāsā sambhavanti  
+> 如此，这是整个苦蕴的生起。  
+> evametassa kevalassa dukkhakkhandhassa samudayo hoti  
+> 无明灭故行灭，  
+> avijjāya tveva asesavirāganirodhā saṅkhāranirodho  
+> 行灭故识灭，  
+> saṅkhāranirodhā viññāṇanirodho  
+> 识灭故名色灭，  
+> viññāṇanirodhā nāmarūpanirodho  
+> 名色灭故六处灭，  
+> nāmarūpanirodhā saḷāyatananirodho  
+> 六处灭故触灭，  
+> saḷāyatananirodhā phassanirodho  
+> 触灭故受灭，  
+> phassanirodhā vedanānirodho  
+> 受灭故爱灭，  
+> vedanāpaccayā taṇhānirodho  
+> 爱灭故取灭，  
+> taṇhānirodhā upādānanirodho  
+> 取灭故有灭，  
+> upādānanirodhā bhavanirodho  
+> 有灭故生灭，  
+> bhavanirodhā jātinirodho  
+> 生灭故老死灭。  
+> jātinirodhā jarāmaraṇaṁ  
+> 愁、悲、苦、忧、恼因此而灭。  
+> soka-parideva-dukkha-domanassupāyāsā nirujjhanti  
+> 如此，这是整个苦蕴的还灭。  
 > evametassa kevalassa dukkhakkhandhassa nirodho hoti  
 > Vin. I. 1-2; S. II. 1-2, 65
 
@@ -59,12 +85,14 @@ paṭiccasamuppāda一词的基本定义包括“缘起”、“依缘共起”�
 详说的结语表明缘起涉及苦的生起与还灭。大多数经典中提及缘起的地方都以这些语句结尾。然而，也有一些段落以“世间”的生起和灭作结：
 
 > 诸比丘，此是世间的集起；  
-> 诸比丘，此是世间的还灭。Ayaṁ kho bhikkhave lokassa samudayo;  
+> 诸比丘，此是世间的还灭。  
+> Ayaṁ kho bhikkhave lokassa samudayo;  
 > ayaṁ kho bhikkhave lokassa atthaṅgamo.  
 > S. II. 73
 > 
 > 如是世间集，  
-> 如是世间灭。 Evamayaṁ loko samudayati;  
+> 如是世间灭。  
+> Evamayaṁ loko samudayati;  
 > evamayaṁ loko nirujjhati.  
 > S. II. 78
 
@@ -72,7 +100,8 @@ paṭiccasamuppāda一词的基本定义包括“缘起”、“依缘共起”�
 
 缘起的详说包含十二个缘起支，它们是一个相互关联的循环的一部分，没有开始也没有结束。没有“第一因”（mūla-kāraṇa）。为了方便起见，佛陀选择了无明（avijjā）作为最适合放在列表开头的缘起支，但这并非暗示无明是第一因。偶尔，为了防止将无明误解为“第一因”，他会插入以下陈述：
 
-> 漏之生起，无明随之生起；诸漏灭，则无明灭。Āsava samudayā avijjā samudayo, āsava nirodhā avijjā nirodho.  
+> 漏之生起，无明随之生起；诸漏灭，则无明灭。  
+> Āsava samudayā avijjā samudayo, āsava nirodhā avijjā nirodho.  
 > M. I. 55
 
 十二缘起支，始于无明，终于老死，如下所示：
@@ -1658,8 +1687,8 @@ paṭiccasamuppāda这个词在《巴利圣典》、义注和复注中频繁出�
     
 12.  老死 (Jarāmaraṇa)：就“自我”占据此存在状态而言，遭遇衰落、不稳定、损失和消逝。
     
-    忧、悲、苦、恼、绝望 (Soka-parideva-dukkha-domanassa-upāyāsa)：各种形式的苦，例如悲伤、哀恸、哭泣、悼念、痛苦、自怜、绝望和沮丧，所有这些都像在心中溃烂的毒素，一旦外露便会产生更多问题。
-    
+
+忧、悲、苦、恼、绝望 (Soka-parideva-dukkha-domanassa-upāyāsa)：各种形式的苦，例如悲伤、哀恸、哭泣、悼念、痛苦、自怜、绝望和沮丧，所有这些都像在心中溃烂的毒素，一旦外露便会产生更多问题。
 
 ## 附录八：有爱与无有爱
 

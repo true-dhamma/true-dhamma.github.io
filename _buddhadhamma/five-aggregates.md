@@ -1,5 +1,5 @@
 ---
-title: 第一章：五蕴
+title: "第一章：五蕴 | 佛法 | Buddhadhamma
 ---
 
 # 第一章：五蕴
