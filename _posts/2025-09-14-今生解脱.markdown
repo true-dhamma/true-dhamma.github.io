@@ -1,13 +1,14 @@
 ---
 title: 今生解脱
-date: 2025-09-14T01:15:00+07:00
+date: 2025-09-14 02:15:00 +08:00
 categories:
-  - 南传上座部佛法
+- 南传上座部佛法
 excerpt: 一天勤勉的禅修生活，远胜过百年的懈怠。愿一切行者精进、精勤，能于“今生解脱”！
-feature_text:
-feature_image: /uploads/top_banner_metta.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_metta.jpg"
 aside: false
 ---
+
 > ##### In This Very Life: The Liberation Teachings of the Buddha - Sayadaw U Pandita
 >
 > ##### 今生解脱 - 班迪达尊者
