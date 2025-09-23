@@ -1,14 +1,15 @@
 ---
 title: 念住的视角 -《四念住》续篇
-date: 2025-09-13T01:15:00+07:00
+date: 2025-09-13 02:15:00 +08:00
 categories:
-  - 正念
-  - 西方世界的佛法
+- 正念
+- 西方世界的佛法
 excerpt: 通过比较巴利语和汉传文献中的念住教法，本书为修行者揭示了佛陀解脱之道的深刻与共通之处。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### Perspectives on Satipatthana - Analayo
 >
 > ##### 念住的视角 -《四念住》续篇 - 无着比丘（Anālayo）

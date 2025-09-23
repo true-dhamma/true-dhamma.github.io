@@ -1,15 +1,16 @@
 ---
 title: 被点亮的心：走向深度正念的完整禅修指南
-date: 2025-09-22T02:15:00+08:00
+date: 2025-09-22 02:15:00 +08:00
 categories:
-  - 正念
-  - 正定
-  - 西方世界的佛法
+- 正念
+- 正定
+- 西方世界的佛法
 excerpt: 融合佛法智慧与现代西方脑科学，走向深度正念的完整禅修指南
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### The Mind Illuminated: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science - Culadasa (John Yates, PhD)
 >
 > ##### 被点亮的心：走向深度正念的完整禅修指南 - 库拉达萨 (约翰·耶茨博士)
