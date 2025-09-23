@@ -1,14 +1,15 @@
 ---
 title: 早期佛教禅修中的慈悲与空性
-date: 2025-09-14T01:15:00+07:00
+date: 2025-09-14 02:15:00 +08:00
 categories:
-  - 慈悲喜舍
-  - 西方世界的佛法
+- 慈悲喜舍
+- 西方世界的佛法
 excerpt: 本书深入早期佛教经典，揭示了慈悲的修习与空性的洞见并非大乘佛教独有，而是解脱道上相辅相成、不可或缺的两翼。
-feature_text:
-feature_image: /uploads/top_banner_metta.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_metta.jpg"
 aside: false
 ---
+
 > ##### Compassion and Emptiness in Early Buddhist Meditation - Anālayo
 >
 > ##### 早期佛教禅修中的慈悲与空性 - 无着比丘（Anālayo）

@@ -1,14 +1,15 @@
 ---
 title: 早期佛教的再生观与当代研究
-date: 2025-09-14T01:15:00+07:00
+date: 2025-09-14 02:15:00 +08:00
 categories:
-  - 生老病死
-  - 西方世界的佛法
+- 生老病死
+- 西方世界的佛法
 excerpt: 一位兼具学者与僧侣身份的作者，深入剖析了早期佛教的再生教义，并严谨审视了支持再生的当代研究与案例。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### Rebirth in Early Buddhism and Current Research - Bhikkhu Anālayo
 >
 > ##### 早期佛教的再生观与当代研究 - 无着比丘（Anālayo）
