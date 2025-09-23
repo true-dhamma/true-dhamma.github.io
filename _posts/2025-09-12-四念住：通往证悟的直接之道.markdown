@@ -1,14 +1,15 @@
 ---
 title: 四念住：通往证悟的直接之道
-date: 2025-09-12T02:15:00+08:00
+date: 2025-09-12 02:15:00 +08:00
 categories:
-  - 正念
-  - 西方世界的佛法
+- 正念
+- 西方世界的佛法
 excerpt: 本书深入剖析佛陀关于禅修的核心教导《念住经》，融合学术严谨性与实修指导，为现代修行者清晰地揭示了通往解脱的直接之道。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### Satipaṭṭhāna: The Direct Path to Realization - Bhikkhu Anālayo
 >
 > ##### 四念住：通往证悟的直接之道 - 无着比丘（Anālayo）

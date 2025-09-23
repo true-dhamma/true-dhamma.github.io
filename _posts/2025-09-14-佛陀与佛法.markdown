@@ -1,14 +1,15 @@
 ---
 title: 佛陀与佛法
-date: 2025-09-14T01:15:00+07:00
+date: 2025-09-14 02:15:00 +08:00
 categories:
-  - 南传上座部佛法
-  - 精选
+- 南传上座部佛法
+- 精选
 excerpt: 本书系统地介绍了佛陀的生平与南传上座部佛法的核心教义，是探索佛法智慧的权威入门读物。
-feature_text:
-feature_image: /uploads/top_banner_buddha.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_buddha.jpg"
 aside: false
 ---
+
 > ##### The Buddha and His Teachings - Ven. Narada Mahathera
 >
 > ##### 佛陀与佛法 - 那烂陀长老
