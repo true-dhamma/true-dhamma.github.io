@@ -1,5 +1,5 @@
 ---
-title: "第一篇：生命是什么？ | 佛法 | Buddhadhamma
+title: Nature Of Human Life
 ---
 
 # 第一篇：生命是什么？

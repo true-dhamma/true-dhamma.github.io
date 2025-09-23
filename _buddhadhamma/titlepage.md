@@ -1,5 +1,5 @@
 ---
-title: "佛法 中文版 | 佛法 | Buddhadhamma
+title: Titlepage
 ---
 
 佛法 中文版

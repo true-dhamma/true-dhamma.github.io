@@ -1,5 +1,5 @@
 ---
-title: "作者后记 | 佛法 | Buddhadhamma
+title: Authors Postscript
 ---
 
 # 作者后记

@@ -1,5 +1,5 @@
 ---
-title: "佛法基金会主席 | 佛法 | Buddhadhamma
+title: President Of The Buddhadhamma Foundation
 ---
 
 # 佛法基金会主席

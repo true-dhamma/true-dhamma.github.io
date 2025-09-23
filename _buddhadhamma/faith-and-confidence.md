@@ -1,5 +1,5 @@
 ---
-title: "第十四章：信心 | 佛法 | Buddhadhamma
+title: Faith And Confidence
 ---
 
 # 第十四章：信心

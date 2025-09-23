@@ -1,5 +1,5 @@
 ---
-title: "缩写 | 佛法 | Buddhadhamma
+title: Abbreviations
 ---
 
 # 缩写

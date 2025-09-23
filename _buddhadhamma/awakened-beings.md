@@ -1,5 +1,5 @@
 ---
-title: "第七章：觉悟者 | 佛法 | Buddhadhamma
+title: Awakened Beings
 ---
 
 # 第七章：觉悟者

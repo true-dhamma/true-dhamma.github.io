@@ -1,5 +1,5 @@
 ---
-title: "第四章：缘起 | 佛法 | Buddhadhamma
+title: Dependent Origination
 ---
 
 # 第四章：缘起

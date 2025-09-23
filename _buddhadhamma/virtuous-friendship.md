@@ -1,5 +1,5 @@
 ---
-title: "第十三章：善友 | 佛法 | Buddhadhamma
+title: Virtuous Friendship
 ---
 
 # 第十三章：善友

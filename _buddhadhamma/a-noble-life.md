@@ -1,5 +1,5 @@
 ---
-title: "第五篇：生命应如何存在？ | 佛法 | Buddhadhamma
+title: A Noble Life
 ---
 
 # 第五篇：生命应如何存在？

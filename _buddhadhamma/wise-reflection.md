@@ -1,5 +1,5 @@
 ---
-title: "第十五章：如理作意 | 佛法 | Buddhadhamma
+title: Wise Reflection
 ---
 
 # 第十五章：如理作意

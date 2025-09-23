@@ -1,5 +1,5 @@
 ---
-title: "第七篇：道支 | 佛法 | Buddhadhamma
+title: Path Factors
 ---
 
 # 第七篇：道支

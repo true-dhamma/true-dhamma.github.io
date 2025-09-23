@@ -1,5 +1,5 @@
 ---
-title: "第六章：涅槃：至上寂静 | 佛法 | Buddhadhamma
+title: Nibbana Supreme Peace
 ---
 
 # 第六章：涅槃：至上寂静

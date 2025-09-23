@@ -1,5 +1,5 @@
 ---
-title: "随喜 | 佛法 | Buddhadhamma
+title: Anumodana
 ---
 
 # 随喜

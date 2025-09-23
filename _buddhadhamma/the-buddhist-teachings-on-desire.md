@@ -1,5 +1,5 @@
 ---
-title: "第十章：佛陀关于欲望的教导 | 佛法 | Buddhadhamma
+title: The Buddhist Teachings On Desire
 ---
 
 # 第十章：佛陀关于欲望的教导

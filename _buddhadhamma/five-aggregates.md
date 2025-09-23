@@ -1,5 +1,5 @@
 ---
-title: "第一章：五蕴 | 佛法 | Buddhadhamma
+title: Five Aggregates
 ---
 
 # 第一章：五蕴

@@ -1,5 +1,5 @@
 ---
-title: "佛法基金会主席前言 | 佛法 | Buddhadhamma
+title: Foreword By Khun Yongyuth
 ---
 
 # 佛法基金会主席前言

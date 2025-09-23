@@ -1,5 +1,5 @@
 ---
-title: "第十九章：四圣谛 | 佛法 | Buddhadhamma
+title: Four Noble Truths
 ---
 
 # 第十九章：四圣谛

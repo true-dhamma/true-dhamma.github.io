@@ -1,5 +1,5 @@
 ---
-title: "版权 | 佛法 | Buddhadhamma
+title: Copyright
 ---
 
 # 版权

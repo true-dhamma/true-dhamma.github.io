@@ -1,5 +1,5 @@
 ---
-title: "第一部：中道法义 | 佛法 | Buddhadhamma
+title: Middle Teaching
 ---
 
 # 第一部：中道法义

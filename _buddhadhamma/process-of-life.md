@@ -1,5 +1,5 @@
 ---
-title: "第三篇：生命如何运作？ | 佛法 | Buddhadhamma
+title: Process Of Life
 ---
 
 # 第三篇：生命如何运作？

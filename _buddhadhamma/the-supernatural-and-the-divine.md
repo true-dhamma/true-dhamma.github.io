@@ -1,5 +1,5 @@
 ---
-title: "第九章：神通与天人 | 佛法 | Buddhadhamma
+title: The Supernatural And The Divine
 ---
 
 # 第九章：神通与天人

@@ -1,5 +1,5 @@
 ---
-title: "第八章：止与观 | 佛法 | Buddhadhamma
+title: Calm And Insight
 ---
 
 # 第八章：止与观

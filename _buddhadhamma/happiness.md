@@ -1,5 +1,5 @@
 ---
-title: "第十一章：安乐 | 佛法 | Buddhadhamma
+title: Happiness
 ---
 
 # 第十一章：安乐

@@ -1,5 +1,5 @@
 ---
-title: "第二篇：生命是怎样的？ | 佛法 | Buddhadhamma
+title: Attributes Of Life
 ---
 
 # 第二篇：生命是怎样的？

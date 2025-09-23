@@ -1,5 +1,5 @@
 ---
-title: "第三章：三法印 | 佛法 | Buddhadhamma
+title: Three Characteristics
 ---
 
 # 第三章：三法印
