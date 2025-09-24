@@ -1,5 +1,5 @@
 ---
-title: Middle Way
+title: "第二部：中道 | 佛法 | Buddhadhamma"
 ---
 
 # 第二部：中道

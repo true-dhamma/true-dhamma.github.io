@@ -1,5 +1,5 @@
 ---
-title: Goal Of Life
+title: "第四篇：生命应成为怎样？ | 佛法 | Buddhadhamma"
 ---
 
 # 第四篇：生命应成为怎样？

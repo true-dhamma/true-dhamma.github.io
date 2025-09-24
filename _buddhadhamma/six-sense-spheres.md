@@ -1,5 +1,5 @@
 ---
-title: Six Sense Spheres
+title: "第二章：六处 | 佛法 | Buddhadhamma"
 ---
 
 # 第二章：六处

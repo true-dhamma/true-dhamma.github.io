@@ -1,5 +1,5 @@
 ---
-title: Foreword By Ajahn Jayasaro
+title: "阿姜·查雅萨罗前言 | 佛法 | Buddhadhamma"
 ---
 
 # 阿姜·查雅萨罗前言

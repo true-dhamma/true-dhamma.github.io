@@ -1,5 +1,5 @@
 ---
-title: Path Factors Of Concentration
+title: "第十八章：禅定道支 | 佛法 | Buddhadhamma"
 ---
 
 # 第十八章：禅定道支

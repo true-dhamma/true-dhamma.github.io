@@ -1,5 +1,5 @@
 ---
-title: Path Factors Of Wisdom
+title: "第十六章：智慧道支 | 佛法 | Buddhadhamma"
 ---
 
 # 第十六章：智慧道支

@@ -1,5 +1,5 @@
 ---
-title: Introduction To The Middle Way
+title: "第十二章：中道导论 | 佛法 | Buddhadhamma"
 ---
 
 # 第十二章：中道导论

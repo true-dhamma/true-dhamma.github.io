@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: "导论 | 佛法 | Buddhadhamma"
 ---
 
 # 导论

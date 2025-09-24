@@ -1,5 +1,5 @@
 ---
-title: Foreword By Translator
+title: "译者前言 | 佛法 | Buddhadhamma"
 ---
 
 # 译者前言

@@ -1,5 +1,5 @@
 ---
-title: Law Of Kamma
+title: "第五章：业的法则 | 佛法 | Buddhadhamma"
 ---
 
 # 第五章：业的法则
