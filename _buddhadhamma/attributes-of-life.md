@@ -1,5 +1,5 @@
 ---
-title: "第二篇：生命是怎样的？ | 佛法 | Buddhadhamma"
+title: 第二篇：生命是怎样的？ | 佛法 | Buddhadhamma
 ---
 
 # 第二篇：生命是怎样的？
