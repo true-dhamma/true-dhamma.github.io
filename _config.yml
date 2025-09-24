@@ -6,6 +6,10 @@ collections:
     title: Buddhadhamma (P.A.Payutto)
     output: true
     permalink: "/:collection/:name.html"
+  buddhawords:
+    title: In the Buddha's Words
+    output: true
+    permalink: "/:collection/:name.html"
   testbook:
     title: Testbook
     output: true
@@ -36,6 +40,13 @@ defaults:
   values:
     layout: doc
     feature_image: "/uploads/top_banner_p.a.payutto.jpg"
+    toc: true
+- scope:
+    path: ''
+    type: buddhawords
+  values:
+    layout: doc
+    feature_image: "/uploads/top_banner_buddha.jpg"
     toc: true
 - scope:
     path: ''
@@ -95,6 +106,8 @@ navigation_header:
   url: "/blog/"
 - title: 佛法
   url: "/buddhadhamma/"
+- title: 佛语
+  url: "/buddhawords/"
 - title: 巴利圣典
   url: "/tipitaka/"
 - title: 网盘
