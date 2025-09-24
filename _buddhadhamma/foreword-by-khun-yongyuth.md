@@ -1,5 +1,5 @@
 ---
-title: "佛法基金会主席前言 | 佛法 | Buddhadhamma"
+title: 佛法基金会主席前言 | 佛法 | Buddhadhamma
 ---
 
 # 佛法基金会主席前言

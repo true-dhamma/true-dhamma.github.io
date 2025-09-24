@@ -1,5 +1,5 @@
 ---
-title: "译者前言 | 佛法 | Buddhadhamma"
+title: 译者前言 | 佛法 | Buddhadhamma
 ---
 
 # 译者前言

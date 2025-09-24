@@ -1,5 +1,5 @@
 ---
-title: "参考书目 | 佛法 | Buddhadhamma"
+title: 参考书目 | 佛法 | Buddhadhamma
 ---
 
 # 参考书目

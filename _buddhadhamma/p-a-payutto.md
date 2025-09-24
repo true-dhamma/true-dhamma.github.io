@@ -1,5 +1,5 @@
 ---
-title: "巴育陀 (P. A. Payutto) | 佛法 | Buddhadhamma"
+title: 巴育陀 (P. A. Payutto) | 佛法 | Buddhadhamma
 ---
 
 # 巴育陀 (P. A. Payutto)

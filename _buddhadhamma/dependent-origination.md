@@ -1,5 +1,5 @@
 ---
-title: "第四章：缘起 | 佛法 | Buddhadhamma"
+title: 第四章：缘起 | 佛法 | Buddhadhamma
 ---
 
 # 第四章：缘起

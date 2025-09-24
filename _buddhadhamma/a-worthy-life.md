@@ -1,5 +1,5 @@
 ---
-title: "第六篇：美好的生命是怎样的？ | 佛法 | Buddhadhamma"
+title: 第六篇：美好的生命是怎样的？ | 佛法 | Buddhadhamma
 ---
 
 # 第六篇：美好的生命是怎样的？

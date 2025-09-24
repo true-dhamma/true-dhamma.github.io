@@ -1,5 +1,5 @@
 ---
-title: "第五章：业的法则 | 佛法 | Buddhadhamma"
+title: 第五章：业的法则 | 佛法 | Buddhadhamma
 ---
 
 # 第五章：业的法则

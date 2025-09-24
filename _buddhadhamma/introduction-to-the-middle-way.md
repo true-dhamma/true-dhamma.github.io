@@ -1,5 +1,5 @@
 ---
-title: "第十二章：中道导论 | 佛法 | Buddhadhamma"
+title: 第十二章：中道导论 | 佛法 | Buddhadhamma
 ---
 
 # 第十二章：中道导论

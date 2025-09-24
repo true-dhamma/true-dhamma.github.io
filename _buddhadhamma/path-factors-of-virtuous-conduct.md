@@ -1,5 +1,5 @@
 ---
-title: "第十七章：戒行道支 | 佛法 | Buddhadhamma"
+title: 第十七章：戒行道支 | 佛法 | Buddhadhamma
 ---
 
 # 第十七章：戒行道支
