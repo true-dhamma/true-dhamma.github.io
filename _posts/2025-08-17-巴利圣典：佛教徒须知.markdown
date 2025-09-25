@@ -1,18 +1,19 @@
 ---
 title: 巴利圣典：佛教徒须知
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 巴育陀尊者
-  - 巴利圣典
-  - 南传上座部佛法
+- 巴育陀尊者
+- 巴利圣典
+- 南传上座部佛法
 redirect_from:
-  - /巴利圣典/南传上座部佛法/2025/08/17/巴利圣典-佛教徒须知/
-  - /巴利圣典/南传上座部佛法/巴利圣典-佛教徒须知/
+- "/巴利圣典/南传上座部佛法/2025/08/17/巴利圣典-佛教徒须知/"
+- "/巴利圣典/南传上座部佛法/巴利圣典-佛教徒须知/"
 excerpt: 只要《巴利圣典》还在，原始、纯正的佛教就依然存在，佛法的光明就能继续照耀世界。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### The Tipitaka: What a Buddhist Should Know - P.A.Payutto
 >
 > ##### 巴利圣典：佛教徒须知 - 巴育陀尊者 - 摘要

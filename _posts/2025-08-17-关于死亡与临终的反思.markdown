@@ -1,17 +1,18 @@
 ---
 title: 关于死亡与临终的反思
-date: 2025-08-17T11:10:00+08:00
+date: 2025-08-17 11:10:00 +08:00
 categories:
-  - 巴育陀尊者
-  - 生老病死
-  - 南传上座部佛法
+- 巴育陀尊者
+- 生老病死
+- 南传上座部佛法
 redirect_from:
-  - /生老病死/南传上座部佛法/2025/08/17/关于死亡与临终的反思/
-  - /生老病死/南传上座部佛法/关于死亡与临终的反思/
+- "/生老病死/南传上座部佛法/2025/08/17/关于死亡与临终的反思/"
+- "/生老病死/南传上座部佛法/关于死亡与临终的反思/"
 excerpt: 这本书教导我们如何将对死亡的恐惧转化为修行的动力，以智慧和慈悲面对生命的终点。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 ---
+
 > ##### Reflections on Death and Dying - P.A.Payutto
 >
 > ##### 关于死亡与临终的反思 - **巴育陀**尊者 - 摘要

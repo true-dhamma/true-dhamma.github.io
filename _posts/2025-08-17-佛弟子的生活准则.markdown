@@ -1,17 +1,18 @@
 ---
 title: 佛弟子的生活准则
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 巴育陀尊者
-  - 南传上座部佛法
+- 巴育陀尊者
+- 南传上座部佛法
 redirect_from:
-  - /南传上座部佛法/2025/08/17/佛弟子的生活准则/
-  - /南传上座部佛法/佛弟子的生活准则/
+- "/南传上座部佛法/2025/08/17/佛弟子的生活准则/"
+- "/南传上座部佛法/佛弟子的生活准则/"
 excerpt: 一部源自南传上座部佛教智慧的实用指南，助您构建和谐、成功且富有意义的人生。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### A Constitution for Living - Phra Brahmagunabhorn (P.A.Payutto)
 >
 > ##### 佛弟子的生活准则 - 巴育陀尊者 - 摘要
