@@ -1,24 +1,25 @@
 ---
 title: 须陀洹的智慧，足以称作佛教徒
-date: 2025-08-17 10:10:00 +08:00
+date: 2025-08-17T10:10:00+08:00
 categories:
-- 南传上座部佛法
-- 精选
+  - 巴育陀尊者
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- "/南传上座部佛法/精选/2025/08/17/须陀洹的智慧，足以称作佛教徒/"
+  - /南传上座部佛法/精选/2025/08/17/须陀洹的智慧，足以称作佛教徒/
+  - /南传上座部佛法/精选/须陀洹的智慧-足以称作佛教徒/
 excerpt: 本书深入浅出地阐述了达到初果须陀洹（预流果）的智慧境界与生活实践
-feature_text: 
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_text:
+feature_image: /uploads/top_banner_dhamma.jpg
 aside: false
 ---
-
 > ##### Developing Wisdom Just This Much Is Enough to Be Called a Buddhist - P.A.Payutto
 >
 > ##### 须陀洹的智慧，足以称作佛教徒  - 巴育陀尊者 - 摘要
 >
 > 本书深入浅出地阐述了达到初果须陀洹（预流果）的智慧境界与生活实践。仅此智慧，足以看透世间与生命之缘起实相，放下执着，以不放逸之心，精进修习信、戒、闻、施、慧，断除烦恼，活出自在安乐的圣者人生，最终迈向究竟的涅槃。
 
-###
+&nbsp;
 
 ### 仅此智慧，足以称作佛教徒
 

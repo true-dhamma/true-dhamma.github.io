@@ -1,14 +1,14 @@
 ---
 title: 佛法经济学
-date: 2025-09-13 02:15:00 +08:00
+date: 2025-09-13T02:15:00+08:00
 categories:
-- 慈悲喜舍
+  - 巴育陀尊者
+  - 慈悲喜舍
 excerpt: 一种以中道为核心的经济学，旨在提升生命品质，而非无尽地满足欲望。
-feature_text: 
-feature_image: "/uploads/top_banner_metta.jpg"
+feature_text:
+feature_image: /uploads/top_banner_metta.jpg
 aside: false
 ---
-
 > ##### Buddhist Economics - P. A. Payutto
 >
 > ##### 佛法经济学 - 巴育陀尊者 - 摘要
@@ -1066,7 +1066,17 @@ Schumacher 说，有“正命”，就必然有“佛法经济学”。
 
 举个小例子，比如在工作中，当我们通过培养对工作的**善法欲**来发展需求，或将“想得”的贪婪转变为“想做”的善法欲时，工作的意义和对工作的态度都会改变：
 
-<table><thead><tr><td><p></p></td><td><p><th style="text-align: left">“想得”（贪）</th>       <th style="text-align: left">“想做”（善法欲）</th>     </p></td></tr></thead><tbody><tr><td><p></p></td><td><p><td style="text-align: left">• 工作是获得所欲之物的<strong>条件</strong></td>       <td style="text-align: left">• 工作是<strong>实现所欲结果</strong>的过程</td>     </p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">• 在痛苦无奈中工作，等待下班找乐子</td>       <td style="text-align: left">• <strong>工作本身就是快乐</strong>，乐在其中</td>     </p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">• 在痛苦中工作，为了赚钱买快乐（间接方式）</td>       <td style="text-align: left">• 工作是快乐，赚到钱更添快乐（直接方式）</td>     </p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">• 工作是利益体系中的一种交换</td>       <td style="text-align: left">• 工作是为了生活和社会的创造与问题解决</td>     </p></td></tr></tbody></table>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<table><thead><tr><td><p></p></td><td><p></p></td><th style="text-align: left">“想得”（贪）</th>       <th style="text-align: left">“想做”（善法欲）</th>     </tr></thead><tbody><tr><td><p></p></td><td><p></p></td><td style="text-align: left">• 工作是获得所欲之物的<strong>条件</strong></td>       <td style="text-align: left">• 工作是<strong>实现所欲结果</strong>的过程</td>     </tr><tr><td><p></p></td><td><p></p></td><td style="text-align: left">• 在痛苦无奈中工作，等待下班找乐子</td>       <td style="text-align: left">• <strong>工作本身就是快乐</strong>，乐在其中</td>     </tr><tr><td><p></p></td><td><p></p></td><td style="text-align: left">• 在痛苦中工作，为了赚钱买快乐（间接方式）</td>       <td style="text-align: left">• 工作是快乐，赚到钱更添快乐（直接方式）</td>     </tr><tr><td><p></p></td><td><p></p></td><td style="text-align: left">• 工作是利益体系中的一种交换</td>       <td style="text-align: left">• 工作是为了生活和社会的创造与问题解决</td>     </tr></tbody></table>
 
 这一点我先作为一般原则提出，暂不深入细节。
 
