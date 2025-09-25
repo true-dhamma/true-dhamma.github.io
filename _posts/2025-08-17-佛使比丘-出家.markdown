@@ -1,23 +1,24 @@
 ---
-title: 出家-佛使比丘
-date: 2025-08-17 11:10:00 +08:00
+title: 佛使比丘：出家
+date: 2025-08-17T11:10:00+08:00
 categories:
-- 南传上座部佛法
+  - 佛使比丘尊者
+  - 南传上座部佛法
 redirect_from:
-- "/南传上座部佛法/2025/08/17/出家-佛使比丘/"
+  - /南传上座部佛法/2025/08/17/出家-佛使比丘/
+  - /南传上座部佛法/出家-佛使比丘/
 excerpt: 佛使比丘深入剖析出家的真正含义，为修行者指明从世俗走向寂静解脱的实践之道。
-feature_text: 
-feature_image: "/uploads/top_banner_sangha.jpg"
+feature_text:
+feature_image: /uploads/top_banner_sangha.jpg
 aside: false
 ---
-
 > ##### Ordination - Buddhadāsa Bhikkhu
 >
 > ##### 出家 - 佛使比丘 - 摘要
 >
 > 出家，就是放下及舍离一切跟俗人有关的事物，而在圣人的世界里重生。带着这样的心，认真用心地修行，带着一个全新的心，全新的身体。
 
-###
+&nbsp;
 
 ### 译序
 
