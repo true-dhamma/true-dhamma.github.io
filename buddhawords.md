@@ -1,5 +1,6 @@
 ---
-title: "佛陀的言教：巴利圣典选集 | In the Buddha’s Words: An Anthology of Discourses from the Pali Canon 中文版"
+title: '佛陀的言教：巴利圣典选集 | In the Buddha’s Words: An Anthology of Discourses from the
+  Pali Canon 中文版'
 permalink: "/buddhwwords/"
 layout: doc
 feature_text: |-
