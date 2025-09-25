@@ -1,17 +1,18 @@
 ---
 title: 三法印
-date: 2025-08-17T10:10:00+08:00
+date: 2025-08-17 10:10:00 +08:00
 categories:
-  - 巴育陀尊者
-  - 南传上座部佛法
+- 巴育陀尊者
+- 南传上座部佛法
 redirect_from:
-  - /南传上座部佛法/2025/08/17/三法印/
-  - /南传上座部佛法/三法印/
+- "/南传上座部佛法/2025/08/17/三法印/"
+- "/南传上座部佛法/三法印/"
 excerpt: 洞察世间万物“无常、苦、无我”的三个根本实相，从而放下执着，获得心灵的究竟自由与解脱。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### ไตรลักษณ์ - สมเด็จพระพุทธโฆษาจารย์ (ป. อ. ปยุตฺโต)
 >
 > ##### 三法印 - 巴育陀尊者 - 摘要
