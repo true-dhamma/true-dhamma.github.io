@@ -1,5 +1,5 @@
 ---
-title: "佛陀的言教：巴利圣典选集"
+title: 佛陀的言教：巴利圣典选集
 permalink: "/buddhawords/"
 layout: doc
 feature_text: 
