@@ -175,7 +175,54 @@ document.addEventListener('DOMContentLoaded', function() {
   DocNavController.init();
 });
 </script>
-<script>/* Image path script (unchanged) */ document.addEventListener('DOMContentLoaded',function(){const e="{{ page.collection }}";if(!e)return;const t=`/uploads/${e}/`,o=document.querySelector(".article--doc");if(!o)return;o.querySelectorAll("img").forEach(e=>{const o=e.getAttribute("src");if(o&&o.startsWith("./")){const s=o.substring(2),n=t+s;e.setAttribute("src",n)}})});</script>
+
+
+
+<script>
+  // --- 脚本1: 修复相对路径 (您原有的逻辑) ---
+  document.addEventListener('DOMContentLoaded', function() {
+    const collectionName = "{{ page.collection }}";
+    if (!collectionName) return;
+
+    const basePath = `/uploads/${collectionName}/`;
+    const article = document.querySelector(".article--doc");
+    if (!article) return;
+
+    article.querySelectorAll("img[src^='./']").forEach(img => {
+      const originalSrc = img.getAttribute("src");
+      const fileName = originalSrc.substring(2);
+      img.src = basePath + fileName;
+    });
+  });
+
+  // --- 脚本2: 捕获并处理所有图片404错误 (新的错误处理逻辑) ---
+  document.addEventListener('error', function (event) {
+    // 1. 确认错误来源是图片标签
+    if (event.target.tagName.toLowerCase() !== 'img') {
+      return;
+    }
+    
+    const image = event.target;
+
+    // 2. 关键：移除onerror处理器，防止因备用图片也404而导致的无限循环
+    image.onerror = null;
+
+    // 3. 使用Jekyll的Liquid变量直接获取collection名称
+    const collectionName = "{{ page.collection }}";
+
+    // 4. 判断当前页面是否属于一个collection
+    if (collectionName) {
+      // 如果是，则将图片重定向到对应collection下的一个通用占位图
+      // 假设这个占位图名为 "placeholder.jpg"
+      image.src = `/uploads/${collectionName}/placeholder.jpg`;
+    } else {
+      // 如果不是（例如：普通页面或首页），则使用一个全局的默认占位图
+      image.src = '/uploads/default-placeholder.jpg';
+    }
+  }, true); // 'true' 表示在捕获阶段处理事件，能更早地捕获错误
+</script>
+
+
 
 {%- if page.toc -%}
   {% include content-toc.html %}
