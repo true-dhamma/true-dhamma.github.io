@@ -81,13 +81,13 @@ excerpt: Search for a page or post's content
 .message-content ul, .message-content ol { margin-top: 1em; margin-bottom: 1em; padding-left: 40px; }
 .message-content li { display: list-item; margin-bottom: 0.5em; }
 .message-content sup a {
-  font-size: 0.75em;      /* 字体缩小为正常大小的 75% */
-  vertical-align: super;  /* 确保上标对齐 */
-  text-decoration: none;  /* 去掉下划线，让它更像一个引用标记 */
-  padding: 0 2px;         /* 稍微增加一点内边距，避免拥挤 */
-  border: 1px solid #e0e0e0; /* 可选：增加一个浅色边框 */
-  border-radius: 4px;     /* 可选：边框圆角 */
-  background-color: #f4f6f8; /* 可选：增加一个浅色背景 */
+  font-size: 0.75em;
+  vertical-align: super;
+  text-decoration: none;
+  padding: 0 2px;
+}
+.message-content sup a:hover {
+  text-decoration: underline;
 }
 /* Input Area */
 .chat-input-area { display: flex; align-items: flex-end; padding: 12px 15px; border-top: 1px solid #e0e0e0; background: #fff; flex-shrink: 0; gap: 10px; }
@@ -110,7 +110,6 @@ excerpt: Search for a page or post's content
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     // --- Configuration ---
-    // CORRECTED URL
     const WORKER_URL = 'https://proxy.true-dhamma.com/kb-chat';
     const MAX_HISTORY_TURNS = 5;
 
@@ -130,7 +129,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const renderer = new marked.Renderer();
     renderer.link = (href, title, text) => `<a href="${href}" title="${title || ''}" target="_blank" rel="noopener noreferrer">${text}</a>`;
     marked.setOptions({ renderer: renderer, gfm: true, breaks: true });
-    const sanitize = DOMPurify.sanitize;
+    // IMPORTANT: Allow <sup> tags for footnote rendering
+    const sanitize = (dirty) => DOMPurify.sanitize(dirty, { ADD_TAGS: ["sup"] });
     const openChat = () => { document.body.style.overflow = 'hidden'; chatOverlay.classList.remove('hidden'); setTimeout(() => chatInput.focus(), 300); };
     const closeChat = () => { stopFetchingAndTyping(); chatOverlay.classList.add('hidden'); setTimeout(() => { document.body.style.overflow = ''; }, 300); };
     const startNewChat = () => { stopFetchingAndTyping(); chatHistory = []; chatMessages.innerHTML = `<div class="message bot-message"><div class="message-content">您好，新的对话已经开始。请问有什么可以帮助您？</div></div>`; chatInput.focus(); };
@@ -146,15 +146,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const typeMessage = (messageElement, fullMarkdown, delay = 15) => {
         return new Promise((resolve) => {
             if (typingInterval) clearInterval(typingInterval);
-            let currentMarkdown = '', charIndex = 0;
+            let currentContent = '';
+            let i = 0;
+            const PARSE_INTERVAL = 5; // Parse every 5 characters for better performance
+            
             typingInterval = setInterval(() => {
-                if (charIndex < fullMarkdown.length) {
-                    currentMarkdown += fullMarkdown[charIndex++];
-                    messageElement.innerHTML = sanitize(marked.parse(currentMarkdown));
-                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                if (i < fullMarkdown.length) {
+                    currentContent += fullMarkdown.substring(i, i + 1);
+                    i += 1;
+                    // Only re-parse and sanitize periodically to avoid performance issues
+                    if (i % PARSE_INTERVAL === 0 || i === fullMarkdown.length) {
+                         // We are now injecting HTML directly, so we need to sanitize it
+                        messageElement.innerHTML = sanitize(marked.parse(currentContent));
+                        chatMessages.scrollTop = chatMessages.scrollHeight;
+                    }
                 } else {
                     clearInterval(typingInterval);
                     typingInterval = null;
+                    // Final parse to ensure everything is correct
+                    messageElement.innerHTML = sanitize(marked.parse(fullMarkdown));
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
                     resolve();
                 }
             }, delay);
@@ -162,7 +173,6 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     const stopFetchingAndTyping = () => { if (fetchController) fetchController.abort(); if (typingInterval) clearInterval(typingInterval); setButtonState('idle'); };
 
-    // --- sendMessage function with link rendering fix ---
     const sendMessage = async () => {
         const query = chatInput.value.trim();
         if (!query) return;
@@ -200,24 +210,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const data = await response.json();
             
-            const sourceSeparator = "\n\n**相关内容出自：**";
-            let mainAnswer = data.answer;
-            let sourcePart = "";
-
-            const separatorIndex = data.answer.indexOf(sourceSeparator);
-            if (separatorIndex !== -1) {
-                mainAnswer = data.answer.substring(0, separatorIndex);
-                sourcePart = data.answer.substring(separatorIndex);
-            }
-
-            await typeMessage(botMessageContent, mainAnswer);
-
-            if (sourcePart) {
-                const existingHTML = botMessageContent.innerHTML;
-                const sourceHTML = sanitize(marked.parse(sourcePart));
-                botMessageContent.innerHTML = existingHTML + sourceHTML;
-                chatMessages.scrollTop = chatMessages.scrollHeight;
-            }
+            // The logic for splitting main answer and sources is now simpler
+            // because the worker provides the full, formatted markdown.
+            await typeMessage(botMessageContent, data.answer);
 
             chatHistory.push({ role: 'user', parts: [{ text: query }] });
             chatHistory.push({ role: 'model', parts: [{ text: data.answer }] });
