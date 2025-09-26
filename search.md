@@ -80,6 +80,15 @@ excerpt: Search for a page or post's content
 .message-content p { margin: 0.5em 0; padding: 0; } .message-content a { color: #3a77d8; text-decoration: underline; cursor: pointer; }
 .message-content ul, .message-content ol { margin-top: 1em; margin-bottom: 1em; padding-left: 40px; }
 .message-content li { display: list-item; margin-bottom: 0.5em; }
+.message-content sup a {
+  font-size: 0.75em;      /* 字体缩小为正常大小的 75% */
+  vertical-align: super;  /* 确保上标对齐 */
+  text-decoration: none;  /* 去掉下划线，让它更像一个引用标记 */
+  padding: 0 2px;         /* 稍微增加一点内边距，避免拥挤 */
+  border: 1px solid #e0e0e0; /* 可选：增加一个浅色边框 */
+  border-radius: 4px;     /* 可选：边框圆角 */
+  background-color: #f4f6f8; /* 可选：增加一个浅色背景 */
+}
 /* Input Area */
 .chat-input-area { display: flex; align-items: flex-end; padding: 12px 15px; border-top: 1px solid #e0e0e0; background: #fff; flex-shrink: 0; gap: 10px; }
 .chat-input-area textarea { flex-grow: 1; border: 1px solid #ccc; border-radius: 22px; padding: 8px 18px; resize: none; max-height: 120px; outline: none; transition: border-color 0.2s ease; -webkit-appearance: none; font-size: 18px; }
