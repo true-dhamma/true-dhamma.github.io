@@ -81,11 +81,17 @@ excerpt: Search for a page or post's content
 .message-content p { margin: 0.5em 0; padding: 0; } .message-content a { color: #3a77d8; text-decoration: underline; cursor: pointer; }
 .message-content ul, .message-content ol { margin-top: 1em; margin-bottom: 1em; padding-left: 40px; }
 .message-content li { display: list-item; margin-bottom: 0.5em; }
+.message-content sup {
+  font-size: 0.8em;         /* 稍微调整字体大小 */
+  position: relative;       /* 开启相对定位 */
+  top: -0.4em;              /* 将其向上移动，而不影响行高 */
+  line-height: 0;           /* 防止 sup 元素撑开行高 */
+  vertical-align: baseline; /* 重置垂直对齐 */
+}
+/* [修改] 调整 sup 内 a 链接的样式 */
 .message-content sup a {
-  font-size: 0.75em;
-  vertical-align: super;
-  text-decoration: none;
-  padding: 0 2px;
+  text-decoration: none;    /* 去掉下划线 */
+  padding: 0 2px;           /* 保持内边距 */
 }
 /* Input Area */
 .chat-input-area { display: flex; align-items: flex-end; padding: 12px 15px; border-top: 1px solid #e0e0e0; background: #fff; flex-shrink: 0; gap: 10px; }
