@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const data = await response.json();
             
-            const sourceSeparator = "\n\n\n**相关内容出自：**";
+            const sourceSeparator = "\n\n**相关内容出自：**";
             let mainAnswer = data.answer;
             let sourcePart = "";
 
