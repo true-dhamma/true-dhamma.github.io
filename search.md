@@ -7,10 +7,11 @@ excerpt: Search for a page or post's content
 
 <!-- 
   =============================================================
-  Modern Chatbot UI v4.7.1 (CORS Bugfix)
+  Modern Chatbot UI v5.0.0 (Frontend Footnote Rendering)
   Author: Gemini Assistant & User
-  Updates: 1. Corrected the WORKER_URL constant to include the proper
-              /kb-chat path, fixing the critical CORS preflight error.
+  Updates: 1. Refactored JS to handle footnote rendering on the client-side
+              for a smoother typing animation. The worker now sends raw
+              markdown with a separate 'sources' array.
   =============================================================
 -->
 
@@ -81,10 +82,10 @@ excerpt: Search for a page or post's content
 .message-content ul, .message-content ol { margin-top: 1em; margin-bottom: 1em; padding-left: 40px; }
 .message-content li { display: list-item; margin-bottom: 0.5em; }
 .message-content sup a {
-  font-size: 0.75em;      /* 字体缩小为正常大小的 75% */
-  vertical-align: super;  /* 确保上标对齐 */
-  text-decoration: none;  /* 去掉下划线，让它更像一个引用标记 */
-  padding: 0 2px;         /* 稍微增加一点内边距，避免拥挤 */
+  font-size: 0.75em;
+  vertical-align: super;
+  text-decoration: none;
+  padding: 0 2px;
 }
 /* Input Area */
 .chat-input-area { display: flex; align-items: flex-end; padding: 12px 15px; border-top: 1px solid #e0e0e0; background: #fff; flex-shrink: 0; gap: 10px; }
@@ -107,7 +108,6 @@ excerpt: Search for a page or post's content
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     // --- Configuration ---
-    // CORRECTED URL
     const WORKER_URL = 'https://proxy.true-dhamma.com/kb-chat';
     const MAX_HISTORY_TURNS = 5;
 
@@ -159,7 +159,6 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     const stopFetchingAndTyping = () => { if (fetchController) fetchController.abort(); if (typingInterval) clearInterval(typingInterval); setButtonState('idle'); };
 
-    // --- sendMessage function with link rendering fix ---
     const sendMessage = async () => {
         const query = chatInput.value.trim();
         if (!query) return;
@@ -195,6 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (!response.ok) throw new Error(`API 请求失败: ${response.statusText}`);
 
+            // [MODIFIED] Response now contains 'answer' and 'sources'
             const data = await response.json();
             
             const sourceSeparator = "\n\n**相关内容出自：**";
@@ -207,17 +207,34 @@ document.addEventListener('DOMContentLoaded', () => {
                 sourcePart = data.answer.substring(separatorIndex);
             }
 
+            // 1. Type out the main answer (which now contains `[^1]` markers)
             await typeMessage(botMessageContent, mainAnswer);
 
+            // 2. [NEW] After typing, render the footnotes
+            if (data.sources && data.sources.length > 0) {
+                const sourceUrlMap = new Map(data.sources.map(s => [s.index.toString(), s.url]));
+                let finalHtml = botMessageContent.innerHTML;
+
+                finalHtml = finalHtml.replace(/\[\^(\d+)\]/g, (match, citationIndex) => {
+                    const url = sourceUrlMap.get(citationIndex);
+                    if (url) {
+                        return `<sup><a href="${url}" target="_blank" rel="noopener noreferrer">[${citationIndex}]</a></sup>`;
+                    }
+                    return `<sup>[${citationIndex}]</sup>`; // Fallback if URL not found
+                });
+                botMessageContent.innerHTML = finalHtml; // Update content with rendered links
+            }
+
+            // 3. Append the source list at the end
             if (sourcePart) {
-                const existingHTML = botMessageContent.innerHTML;
                 const sourceHTML = sanitize(marked.parse(sourcePart));
-                botMessageContent.innerHTML = existingHTML + sourceHTML;
+                botMessageContent.innerHTML += sourceHTML; // Use += to append
                 chatMessages.scrollTop = chatMessages.scrollHeight;
             }
 
+            // Save clean answer to history
             chatHistory.push({ role: 'user', parts: [{ text: query }] });
-            chatHistory.push({ role: 'model', parts: [{ text: mainAnswer }] }); // 只将纯净的回答存入历史
+            chatHistory.push({ role: 'model', parts: [{ text: mainAnswer }] });
 
         } catch (error) {
             if (error.name === 'AbortError') {
