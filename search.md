@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const data = await response.json();
             
-            const sourceSeparator = "\n\n**相关内容出自：**";
+            const sourceSeparator = "\n\n\n**相关内容出自：**";
             let mainAnswer = data.answer;
             let sourcePart = "";
 
@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             chatHistory.push({ role: 'user', parts: [{ text: query }] });
-            chatHistory.push({ role: 'model', parts: [{ text: data.answer }] });
+            chatHistory.push({ role: 'model', parts: [{ text: mainAnswer }] }); // 只将纯净的回答存入历史
 
         } catch (error) {
             if (error.name === 'AbortError') {
