@@ -39,14 +39,17 @@ defaults:
     type: buddhadhamma
   values:
     layout: doc
-    feature_image: "/uploads/top_banner_p.a.payutto.jpg"
+    feature_image: "/uploads/top_banner_book.jpg"
+    feature_text: |-
+      ## 佛法：自然法则及对生命的利益
+      Buddhadhamma\: The Laws of Nature and Their Benefits to Life
     toc: true
 - scope:
     path: ''
     type: buddhawords
   values:
     layout: doc
-    feature_image: "/uploads/top_banner_tipitaka.jpg"
+    feature_image: "/uploads/top_banner_book.jpg"
     feature_text: |-
       ## 佛陀的言教：巴利圣典选集
       In the Buddha\'s Words\: An Anthology of Discourses from the Pali Canon
