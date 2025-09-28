@@ -1,14 +1,15 @@
 ---
 title: 空空清净
-date: 2025-09-20T20:20:00+07:00
+date: 2025-09-20 21:20:00 +08:00
 categories:
-  - 隆塔纳荣萨尊者
-  - 南传上座部佛法
+- 隆塔纳荣萨尊者
+- 南传上座部佛法
 excerpt: 本书不仅阐述了从布施、持戒到禅修的基础，更直指核心：真正的解脱，始于放下那份“想要解脱”的最终欲望。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### 空空清净 - 隆塔纳荣萨尊者 - 智宁居士译
 >
 > 世间归世间，法归法。……当不执着于世间与法，或不执着于“所知”与“能知”时，便无痛苦。这被称为“涅槃”。
