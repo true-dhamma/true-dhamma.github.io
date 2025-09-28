@@ -1,20 +1,19 @@
 ---
 title: 训练自心，从苦中解脱
-date: 2025-09-20 21:20:00 +08:00
+date: 2025-09-20T20:20:00+07:00
 categories:
-- 隆塔纳荣萨尊者
-- 南传上座部佛法
+  - 隆塔纳荣萨尊者
+  - 南传上座部佛法
 excerpt: 无论你是倾向于深度禅定，还是偏好在生活中直接观心，都能在本书中找到适合自己的法门。
-feature_text: 
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_text:
+feature_image: /uploads/top_banner_dhamma.jpg
 aside: false
 ---
-
 > ##### 训练自心，从苦中解脱 - 隆塔纳荣萨尊者 - 智宁居士译
 >
 > 停止寻觅真理，才能发现真理。因为真理本身，是不挣扎的。
 
----
+&nbsp;
 
 ### 第一次前言
 
@@ -32,7 +31,7 @@ aside: false
 
 我所写的，是自己近三十年来精进修行的经验之谈。能有今天的修行成果，全赖于各位恩师的一路指点与教诲。
 
-如果此书尚有些许益处，我愿将此功德回向给所有恩师。本书的完成，亦得益于许多人的热心帮助，从誊写我的手稿、协助校对，到捐资印刷，以作法D 布施。愿佛、法、僧三宝、道与果、涅槃以及各位所做的一切善业功德，连同各位所有的善心帮助，尤其是为印刷此书所做的布施——此乃超越一切布施之举——能够庇佑各位及家人身心安乐，远离一切苦、忧、病、患与不祥。并愿各位的念、定、慧增长，在世间法与出世间法上日益精进，直至最终共证涅槃。
+如果此书尚有些许益处，我愿将此功德回向给所有恩师。本书的完成，亦得益于许多人的热心帮助，从誊写我的手稿、协助校对，到捐资印刷，以作法布施。愿佛、法、僧三宝、道与果、涅槃以及各位所做的一切善业功德，连同各位所有的善心帮助，尤其是为印刷此书所做的布施——此乃超越一切布施之举——能够庇佑各位及家人身心安乐，远离一切苦、忧、病、患与不祥。并愿各位的念、定、慧增长，在世间法与出世间法上日益精进，直至最终共证涅槃。
 
 *那荣萨·尼亚玛纳*
 
@@ -258,11 +257,39 @@ aside: false
 
 ### 五蕴与胜义法的对比
 
-<table><thead><tr><td><p><th style="text-align: left">五蕴（Khandha-pañca）</th>       <th style="text-align: left">胜义法（Paramattha-dhamma）</th>     </p></td></tr></thead><tbody><tr><td><p><td style="text-align: left">色（Rūpa）</td>       <td style="text-align: left">= 色法（Rūpa）</td>     </p></td></tr><tr><td><p><td style="text-align: left">受（Vedanā）</td>       <td style="text-align: left">&nbsp;</td>     </p></td></tr><tr><td><p><td style="text-align: left">想（Saññā）</td>       <td style="text-align: left">= 心所法（Cetasika）</td>     </p></td></tr><tr><td><p><td style="text-align: left">行（Saṅkhāra）</td>       <td style="text-align: left">&nbsp;</td>     </p></td></tr><tr><td><p><td style="text-align: left">识（Viññāṇa）</td>       <td style="text-align: left">= 心法（Citta）</td>     </p></td></tr><tr><td><p><td style="text-align: left">&nbsp;</td>       <td style="text-align: left">= 涅槃（Nibbāna）（非蕴，是“蕴解脱”，即离苦）</td>     </p></td></tr></tbody></table>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<table><thead><tr><td><p></p></td><td><p><th style="text-align: left">五蕴（Khandha-pañca）</th><th style="text-align: left">胜义法（Paramattha-dhamma）</th></p></td></tr></thead><tbody><tr><td><p></p></td><td><p><td style="text-align: left">色（Rūpa）</td><td style="text-align: left">= 色法（Rūpa）</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">受（Vedanā）</td><td style="text-align: left">&nbsp;</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">想（Saññā）</td><td style="text-align: left">= 心所法（Cetasika）</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">行（Saṅkhāra）</td><td style="text-align: left">&nbsp;</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">识（Viññāṇa）</td><td style="text-align: left">= 心法（Citta）</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">&nbsp;</td><td style="text-align: left">= 涅槃（Nibbāna）（非蕴，是“蕴解脱”，即离苦）</td></p></td></tr></tbody></table>
 
 ### 五蕴、胜义法、内处与外处
 
-<table><thead><tr><td><p><th style="text-align: left">外处（Bāhirāyatana）</th>       <th style="text-align: center">+</th>       <th style="text-align: left">内处（Ajjhattikāyatana）</th>       <th style="text-align: center">+</th>       <th style="text-align: left">识（Viññāṇa）</th>       <th style="text-align: center">=</th>       <th style="text-align: left">心之了知</th>     </p></td></tr></thead><tbody><tr><td><p><td style="text-align: left">色尘（Rūpa）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">眼根（Cakkhu-pasāda）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">眼识（Cakkhu-viññāṇa）</td>       <td style="text-align: center">=</td>       <td style="text-align: left">了知色</td>     </p></td></tr><tr><td><p><td style="text-align: left">声尘（Sadda）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">耳根（Sota-pasāda）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">耳识（Sota-viññāṇa）</td>       <td style="text-align: center">=</td>       <td style="text-align: left">了知声</td>     </p></td></tr><tr><td><p><td style="text-align: left">香尘（Gandha）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">鼻根（Ghāna-pasāda）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">鼻识（Ghāna-viññāṇa）</td>       <td style="text-align: center">=</td>       <td style="text-align: left">了知香</td>     </p></td></tr><tr><td><p><td style="text-align: left">味尘（Rasa）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">舌根（Jivhā-pasāda）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">舌识（Jivhā-viññāṇa）</td>       <td style="text-align: center">=</td>       <td style="text-align: left">了知味</td>     </p></td></tr><tr><td><p><td style="text-align: left">触尘（Phoṭṭhabba）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">身根（Kāya-pasāda）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">身识（Kāya-viññāṇa）</td>       <td style="text-align: center">=</td>       <td style="text-align: left">了知触</td>     </p></td></tr><tr><td><p><td style="text-align: left">法尘（Dhammārammaṇa）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">意根（Manas）</td>       <td style="text-align: center">+</td>       <td style="text-align: left">意识（Mano-viññāṇa）</td>       <td style="text-align: center">=</td>       <td style="text-align: left">了知所思之事</td>     </p></td></tr></tbody></table>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<table><thead><tr><td><p></p></td><td><p><th style="text-align: left">外处（Bāhirāyatana）</th><th style="text-align: center">+</th><th style="text-align: left">内处（Ajjhattikāyatana）</th><th style="text-align: center">+</th><th style="text-align: left">识（Viññāṇa）</th><th style="text-align: center">=</th><th style="text-align: left">心之了知</th></p></td></tr></thead><tbody><tr><td><p></p></td><td><p><td style="text-align: left">色尘（Rūpa）</td><td style="text-align: center">+</td><td style="text-align: left">眼根（Cakkhu-pasāda）</td><td style="text-align: center">+</td><td style="text-align: left">眼识（Cakkhu-viññāṇa）</td><td style="text-align: center">=</td><td style="text-align: left">了知色</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">声尘（Sadda）</td><td style="text-align: center">+</td><td style="text-align: left">耳根（Sota-pasāda）</td><td style="text-align: center">+</td><td style="text-align: left">耳识（Sota-viññāṇa）</td><td style="text-align: center">=</td><td style="text-align: left">了知声</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">香尘（Gandha）</td><td style="text-align: center">+</td><td style="text-align: left">鼻根（Ghāna-pasāda）</td><td style="text-align: center">+</td><td style="text-align: left">鼻识（Ghāna-viññāṇa）</td><td style="text-align: center">=</td><td style="text-align: left">了知香</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">味尘（Rasa）</td><td style="text-align: center">+</td><td style="text-align: left">舌根（Jivhā-pasāda）</td><td style="text-align: center">+</td><td style="text-align: left">舌识（Jivhā-viññāṇa）</td><td style="text-align: center">=</td><td style="text-align: left">了知味</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">触尘（Phoṭṭhabba）</td><td style="text-align: center">+</td><td style="text-align: left">身根（Kāya-pasāda）</td><td style="text-align: center">+</td><td style="text-align: left">身识（Kāya-viññāṇa）</td><td style="text-align: center">=</td><td style="text-align: left">了知触</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">法尘（Dhammārammaṇa）</td><td style="text-align: center">+</td><td style="text-align: left">意根（Manas）</td><td style="text-align: center">+</td><td style="text-align: left">意识（Mano-viññāṇa）</td><td style="text-align: center">=</td><td style="text-align: left">了知所思之事</td></p></td></tr></tbody></table>
 
 每一次心或识生起以“**了知**”或“**思惟**”时，必然有**心所**（Cetasika），即**受、想、行**，与心或识**同时生起、同时灭去**。
 
