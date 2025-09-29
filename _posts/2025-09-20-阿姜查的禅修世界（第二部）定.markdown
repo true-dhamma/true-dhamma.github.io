@@ -1,15 +1,16 @@
 ---
 title: 阿姜查的禅修世界（第二部）定
-date: 2025-09-20T20:20:00+07:00
+date: 2025-09-20 21:20:00 +08:00
 categories:
-  - 阿姜查尊者
-  - 南传上座部佛法
-  - 精选
+- 阿姜查尊者
+- 南传上座部佛法
+- 精选
 excerpt: 阿姜查尊者以其质朴直接的语言，引导修行者穿越心的迷雾，在日常的动静之中，亲证实相，培育出稳定不动摇的正定。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### The World of Ajahn Chah’s Meditation (Part 2): Samādhi - Ajahn Chah
 >
 > ##### 阿姜查的禅修世界（第二部） 定 - 阿姜查尊者
