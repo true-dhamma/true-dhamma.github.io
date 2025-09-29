@@ -1,15 +1,16 @@
 ---
 title: 这个世界的真相
-date: 2025-09-20T20:20:00+07:00
+date: 2025-09-20 21:20:00 +08:00
 categories:
-  - 阿姜查尊者
-  - 南传上座部佛法
-  - 精选
-excerpt:
+- 阿姜查尊者
+- 南传上座部佛法
+- 精选
+excerpt: 
 feature_text: 森林派大师阿姜查以质朴直接的语言，教导我们如何在日常生活中观察自心，洞见生命的实相，走向真正的平静与自由。
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### 这个世界的真相 - 阿姜查
 >
 > 真正的皈依处是这颗心，心是我们真正的归宿。除了观察自己的心，你还能到哪里去修行呢？当这颗心平静时，你便微笑了。
