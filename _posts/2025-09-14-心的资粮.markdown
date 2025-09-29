@@ -1,19 +1,18 @@
 ---
-title: 心的资粮
-date: 2025-09-14 02:15:00 +08:00
+title: 心的资粮：阿姜查教导合集
+date: 2025-09-14T02:15:00+08:00
 categories:
-- 阿姜查尊者
-- 南传上座部佛法
-- 精选
+  - 阿姜查尊者
+  - 南传上座部佛法
+  - 精选
 excerpt: 阿姜查用最质朴的语言和生活中的譬喻，直指苦的根源与灭苦之道，帮助我们培育一颗觉醒、清净、安稳的心。
-feature_text: 
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_text:
+feature_image: /uploads/top_banner_dhamma.jpg
 aside: false
 ---
-
-> ##### Food for the Heart - Ajahn Chah
+> ##### Food for the Heart: **The Collected Teachings of Ajahn Chah** - Ajahn Chah
 >
-> ##### 心的资粮 - 阿姜查
+> ##### 心的资粮：阿姜查教导合集 - 阿姜查尊者
 >
 > 一切皆不确定，莫执着。若你能看清这点，你将放下一切，不再有任何负担。这就是修行的终点，苦不再生起之处。
 
@@ -659,7 +658,7 @@ aside: false
 
 ---
 
-#### 第 ২৬ 章 内在的中道
+#### 第二十六章 内在的中道
 
 佛法的教导在于**断恶修善**。当恶已断，善已立，我们则需**放下善恶二者**。中道，是超越这两者的道路。
 
@@ -787,7 +786,7 @@ aside: false
 
 ---
 
-#### 第三十十一章 我们真正的家
+#### 第三十一章 我们真正的家
 
 *这篇开示是对一位年迈临终的女居士及其家人的教导。*
 

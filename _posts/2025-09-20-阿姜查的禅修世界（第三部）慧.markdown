@@ -1,19 +1,18 @@
 ---
 title: 阿姜查的禅修世界（第三部）慧
-date: 2025-09-20 21:20:00 +08:00
+date: 2025-09-20T20:20:00+07:00
 categories:
-- 阿姜查尊者
-- 南传上座部佛法
-- 精选
+  - 阿姜查尊者
+  - 南传上座部佛法
+  - 精选
 excerpt: 透过泰国森林禅师阿姜查质朴而深刻的教导，学习直接洞察事物的实相，从而超越苦乐，获得真正的内在平静。
-feature_text: 
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_text:
+feature_image: /uploads/top_banner_dhamma.jpg
 aside: false
 ---
-
 > ##### The World of Ajahn Chah’s Meditation (Part 3): Wisdom - Ajahn Chah
 >
-> ##### 阿姜查的禅修世界（第三部）：慧 - 阿姜查
+> ##### 阿姜查的禅修世界（第三部）：慧 - 阿姜查尊者
 >
 > 修行是为了舍弃，而不是为了获得。只要你想觉悟，就永远无法觉悟。凡有所得，皆是苦因，因此我们应「无所求而修行」。
 
