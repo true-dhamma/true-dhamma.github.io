@@ -1,14 +1,13 @@
 ---
 title: 欲望的香气：探索我们神秘的嗅觉
-date: 2025-10-01 21:20:00 +08:00
+date: 2025-10-01T00:20:00+07:00
 categories:
-- 心理学
+  - 心理学
 excerpt: 这是一场探索嗅觉的奇妙旅程，揭示了无形的香气如何深刻地塑造我们的记忆、情绪、欲望乃至整个生命体验。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: false
 ---
-
 > ##### The Scent of Desire: Discovering Our Enigmatic Sense of Smell - Rachel Herz
 >
 > ##### 欲望的香气：探索我们神秘的嗅觉 - 瑞秋·赫兹 - 摘要
