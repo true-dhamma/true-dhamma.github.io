@@ -1,13 +1,14 @@
 ---
 title: 上瘾五百年：烟、酒、咖啡和鸦片的历史
-date: 2025-10-01T00:20:00+07:00
+date: 2025-10-01 01:20:00 +08:00
 categories:
-  - 心理学
+- 心理学
 excerpt: 成瘾物质不仅改变了数十亿人的日常生活，也让商界与皇室的权贵阶级赚取了超乎想象的暴利与权力。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### Forces of Habit: Drugs and the Making of the Modern World - David T. Courtwright
 >
 > ##### 上瘾五百年：烟、酒、咖啡和鸦片的历史 - 戴维·考特莱特 - 摘要

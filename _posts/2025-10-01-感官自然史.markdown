@@ -1,13 +1,14 @@
 ---
 title: 感官自然史
-date: 2025-10-01T00:20:00+07:00
+date: 2025-10-01 01:20:00 +08:00
 categories:
-  - 心理学
+- 心理学
 excerpt: 感官不仅让我们理解生命，更将现实拆解重组为有意义的图景。我们活在感官的引领下，这是我们身为凡夫的关键特质。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### A Natural History of the Senses - Diane Ackerman
 >
 > ##### 感官自然史 - 黛安·阿克曼 - 摘要
