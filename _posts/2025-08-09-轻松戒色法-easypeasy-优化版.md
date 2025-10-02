@@ -1,18 +1,19 @@
 ---
 title: 轻松戒色法(EasyPeasy优化版)
-date: 2025-08-09 21:13:00 +08:00
+date: 2025-08-09T21:13:00+08:00
 categories:
-- 心理学
-tags:
-- 成瘾
+  - 成瘾与戒断
+tags: []
 redirect_from:
-- "/心理学/2025/08/09/戒除色情成瘾之书-easypeasy-way优化版/"
-excerpt: 本书介绍无需意志力的“信念方法”戒除色情成瘾。核心是揭示其益处为幻觉，通过改变信念战胜“心瘾”。此法能帮助使用者轻松永久地戒 色，无戒断痛苦或被剥夺感，从而重获自由与自信。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+  - /心理学/2025/08/09/戒除色情成瘾之书-easypeasy-way优化版/
+  - /心理学/轻松戒色法-easypeasy-优化版/
+excerpt: >-
+  本书介绍无需意志力的“信念方法”戒除色情成瘾。核心是揭示其益处为幻觉，通过改变信念战胜“心瘾”。此法能帮助使用者轻松永久地戒
+  色，无戒断痛苦或被剥夺感，从而重获自由与自信。
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: false
 ---
-
 > **轻松戒色法(EasyPeasy优化版) - 无需意志力** **没有戒断痛苦** **没有被剥夺感**
 >
 > 本书是对一位匿名作者最初在 Google Sites 上编写的EasyPeasy戒色指南的结构化重写，该指南使用亚伦·卡尔的方法来戒除色情成瘾。本书经过大幅修改和缩减，旨在更有效、更少跑题，并且内容更完整。

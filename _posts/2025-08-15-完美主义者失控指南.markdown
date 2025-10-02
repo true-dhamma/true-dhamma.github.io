@@ -1,24 +1,23 @@
 ---
 title: 完美主义者失控指南
-date: 2025-08-15 21:13:00 +08:00
+date: 2025-08-15T21:13:00+08:00
 categories:
-- 心理学
-- 慈悲喜舍
+  - 心理学
+  - 慈悲喜舍
 redirect_from:
-- "/心理学/慈悲喜舍/2025/08/15/完美主义者失控指南/"
+  - /心理学/慈悲喜舍/2025/08/15/完美主义者失控指南/
 excerpt: 完美主义是你的超能力，而非你的缺陷，学会驾驭它，活出你真正渴望的人生。
-feature_text: 
-feature_image: "/uploads/top_banner_metta.jpg"
+feature_text:
+feature_image: /uploads/top_banner_metta.jpg
 aside: false
 ---
-
 > ##### The Perfectionist’s Guide to Losing Control - Katherine Morgan Schafler
 >
 > ##### 完美主义者失控指南 - 凯瑟琳·摩根·沙夫勒
 >
 > 这不是一本教你摆脱完美主义的书，而是一本教你如何拥抱它，将它从枷锁变为力量，助你活出真我、掌控人生的指南。
 
-###
+&nbsp;
 
 ### 引言：完美主义是一种力量
 

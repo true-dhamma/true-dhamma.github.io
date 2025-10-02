@@ -1,19 +1,19 @@
 ---
 title: 困在办公桌前：为工作狂、他们的伴侣和孩子以及临床医生提供的指南
-date: 2025-08-15 21:13:00 +08:00
+date: 2025-08-15T21:13:00+07:00
 categories:
-- 心理学
-- 正念
-tags:
-- 成瘾
+  - 成瘾与戒断
+  - 心理学
+  - 正念
+tags: []
 redirect_from:
-- "/心理学/正念/2025/08/15/困在办公桌前-为工作狂-他们的伴侣和孩子以及临床医生提供的指南/"
+  - /心理学/正念/2025/08/15/困在办公桌前-为工作狂-他们的伴侣和孩子以及临床医生提供的指南/
+  - /心理学/正念/困在办公桌前-为工作狂-他们的伴侣和孩子以及临床医生提供的指南/
 excerpt: 这本书揭示了“工作狂”这种被社会赞美却极具破坏性的成瘾行为，并为工作狂及其家人提供了走向平衡与康复的实用指南。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: false
 ---
-
 > ##### Chained to the Desk: A Guidebook for Workaholics, Their Partners and Children, and the Clinicians Who Treat Them - Bryan E. Robinson, PhD
 >
 > ##### 困在办公桌前：为工作狂、他们的伴侣和孩子以及临床医生提供的指南 - 布莱恩·E·罗宾逊 - 摘要

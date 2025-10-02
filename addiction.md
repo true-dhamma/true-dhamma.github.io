@@ -39,6 +39,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E7%90%86%E6%80%A7%E5%BA%B7%E5%A4%8D-rational-recovery/" style="text-decoration: none; font-size: 0.85em;">理性康复(Rational Recovery)</a><br />
           <a href="/心理学/2025/08/10/赤裸裸的思想-控制酒精-找到自由-发现快乐并改变你的生活/" style="text-decoration: none; font-size: 0.85em;">赤裸裸的思想：控制酒精，找到自由</a><br />
+          <a href="/成瘾与戒断/心理学/酒精实验-一项为期30天的无酒精挑战/" style="text-decoration: none; font-size: 0.85em;">一项为期30天的无酒精挑战</a>
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%85%92%E6%B3%95/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒酒法</a>
         </p>
       </td>
@@ -106,6 +107,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
           <img src="/uploads/addiction_sugar.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
+          <a href="/成瘾与戒断/吃糖的理由-上瘾-疾病与糖的故事/" style="text-decoration: none; font-size: 0.85em;">吃糖的理由</a><br />
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E7%B3%96/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒糖</a><br />
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/10/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%9D%8F%E7%B3%96/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒掉坏糖</a>
         </p>

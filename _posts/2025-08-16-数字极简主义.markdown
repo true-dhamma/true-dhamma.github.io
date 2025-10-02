@@ -1,18 +1,18 @@
 ---
 title: 数字极简主义
-date: 2025-08-16 21:13:00 +08:00
+date: 2025-08-16T21:13:00+08:00
 categories:
-- 心理学
-tags:
-- 成瘾
+  - 成瘾与戒断
+  - 心理学
+tags: []
 redirect_from:
-- "/心理学/2025/08/16/数字极简主义/"
+  - /心理学/2025/08/16/数字极简主义/
+  - /心理学/数字极简主义/
 excerpt: 在一个充斥着数字噪音的世界里，本书教你如何有目的地使用科技，重新掌控自己的时间、注意力与生活。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: false
 ---
-
 > ##### Digital Minimalism - Cal Newport
 >
 > ##### 数字极简主义 - 卡尔·纽波特 - 摘要
