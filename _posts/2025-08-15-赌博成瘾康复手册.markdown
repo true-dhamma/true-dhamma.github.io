@@ -1,17 +1,17 @@
 ---
 title: 赌博成瘾康复手册
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 成瘾与戒断
-tags: []
+- 成瘾与戒断
 redirect_from:
-  - /心理学/2025/08/15/赌博成瘾康复手册/
-  - /心理学/赌博成瘾康复手册/
+- "/心理学/2025/08/15/赌博成瘾康复手册/"
+- "/心理学/赌博成瘾康复手册/"
 excerpt: 一位前赌徒分享他用以战胜赌瘾、重获新生的五步实用行动计划。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### The Gambling Addiction Recovery Workbook - C.W. V. Straaten
 >
 > ##### 赌博成瘾康复手册 - C.W. V. 施特拉滕 - 摘要

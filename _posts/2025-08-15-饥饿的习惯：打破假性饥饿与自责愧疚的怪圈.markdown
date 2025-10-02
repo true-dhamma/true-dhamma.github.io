@@ -1,18 +1,18 @@
 ---
 title: 饥饿的习惯：打破假性饥饿与自责愧疚的怪圈
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 成瘾与戒断
-  - 心理学
-tags: []
+- 成瘾与戒断
+- 心理学
 redirect_from:
-  - /心理学/2025/08/15/饥饿的习惯-打破假性饥饿与自责愧疚的怪圈/
-  - /心理学/饥饿的习惯-打破假性饥饿与自责愧疚的怪圈/
+- "/心理学/2025/08/15/饥饿的习惯-打破假性饥饿与自责愧疚的怪圈/"
+- "/心理学/饥饿的习惯-打破假性饥饿与自责愧疚的怪圈/"
 excerpt: 揭示你在不饿时进食的科学原理，并通过一个21天的计划重塑你的大脑，摆脱饮食恶习，重新掌控你的生活。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### The Hunger Habit: Why We Eat When We’re Not Hungry and How to Stop - Judson Brewer
 >
 > ##### 饥饿的习惯：打破假性饥饿与自责愧疚的怪圈 - 贾德森·布鲁尔 - 摘要
