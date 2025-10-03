@@ -19,7 +19,8 @@ feature_image: "/uploads/top_banner_addiction.jpg"
           <img src="/uploads/addiction_smoking.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E7%83%9F%E6%B3%95/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒烟法</a>
+          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E7%83%9F%E6%B3%95/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒烟法</a><br />
+          <a href="/智宁居士/成瘾与戒断/精选/最后一支雪茄-告别心理依赖-回归当下的平静/" style="text-decoration: none; font-size: 0.85em;">最后一支雪茄：告别心理依赖，回归当下的平静</a>
         </p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px; width: 33.33%;">
