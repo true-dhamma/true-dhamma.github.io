@@ -1,20 +1,19 @@
 ---
 title: 'Beyond Nicotine: The Real Truth Behind Cigar Addiction & Quitting'
-date: 2025-08-15T22:13:00+08:00
+date: 2025-08-15 22:13:00 +08:00
 categories:
-  - 智宁居士
-  - 成瘾与戒断
+- 智宁居士
+- 成瘾与戒断
 redirect_from:
-  - >-
-    /the-last-cigar-letting-go-of-psychological-dependence-and-returning-to-the-calm-of-the-present-moment/
-  - /beyond-nicotine-the-real-truth-behind-cigar-addiction-quitting/
-excerpt: >-
-  Perhaps one of the few in-depth articles on the entire internet specifically
+- "/the-last-cigar-letting-go-of-psychological-dependence-and-returning-to-the-calm-of-the-present-moment/"
+- "/beyond-nicotine-the-real-truth-behind-cigar-addiction-quitting/"
+excerpt: Perhaps one of the few in-depth articles on the entire internet specifically
   targeting cigar addiction.
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### **Beyond Nicotine: The Real Truth Behind Cigar Addiction & Quitting** - Zhining
 >
 > When you see the truth of cigar addiction, the fear of “never being able to enjoy that time again” is replaced by the excitement of “never having to be bound by it again.” This isn’t a manual on how to fight, but a map to guide you out of the labyrinth.
