@@ -5,7 +5,8 @@ categories:
   - 智宁居士
   - 成瘾与戒断
 redirect_from:
-  -
+  - >-
+    /the-last-cigar-letting-go-of-psychological-dependence-and-returning-to-the-calm-of-the-present-moment/
 excerpt: >-
   Perhaps one of the few in-depth articles on the entire internet specifically
   targeting cigar addiction.
