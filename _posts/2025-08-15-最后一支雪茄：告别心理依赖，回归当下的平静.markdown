@@ -1,17 +1,18 @@
 ---
 title: 最后一支雪茄：告别心理依赖，回归当下的平静
-date: 2025-08-15T22:13:00+08:00
+date: 2025-08-15 22:13:00 +08:00
 categories:
-  - 智宁居士
-  - 成瘾与戒断
-  - 精选
+- 智宁居士
+- 成瘾与戒断
+- 精选
 redirect_from:
-  -
+- 
 excerpt: 可能是全球互联网为数不多的专门针对雪茄成瘾的深度文章。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### **The Last Cigar - Letting Go of Psychological Dependence and Returning to the Calm of the Present Moment - Zhining**
 >
 > ##### 最后一支雪茄：告别心理依赖，回归当下的平静 - 智宁居士
