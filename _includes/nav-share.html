@@ -36,157 +36,128 @@
     {% endif %}
   {% endfor %}
 
-  <!-- 引入 SparkMD5 库，用于同步计算哈希 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/spark-md5/3.0.2/spark-md5.min.js"></script>
+  <!-- 引入 SparkMD5 库 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/spark-md5/3.0.2/spark-md5.min.js" integrity="sha512-ALiU89iLIm6O3i5N7M3PEiSPayMlgJ5frjJdndA5f39obgS1wwB2C1NxF5qu5r2O3Tz+G3Kzgn9fB2wFmdvH4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   
   <script>
     const SHORTENER_SERVICE_DOMAIN = 'https://url.true-dhamma.com';
 
     /**
-     *  使用 SparkMD5 同步地从一个URL生成一个6位的短代码。
-     *  此算法必须与Cloudflare Worker中的算法完全一致。
-     *  @param {string} url - 原始长链接
-     *  @returns {string} - 返回6位的短代码
+     * 处理点击“拷贝链接”按钮的最终可靠流程
+     * 1. 等待服务器确认链接创建成功
+     * 2. 然后尝试复制，优雅处理iOS上的失败情况
      */
-    function generateShortCodeFromUrl(url) {
-      // 1. 使用MD5计算哈希值 (同步操作)
-      const hash = SparkMD5.hash(url);
-      
-      // 2. 将哈希值转换为一个数字 (取前8位十六进制，转为10进制整数)
-      const num = parseInt(hash.substring(0, 8), 16);
-      
-      // 3. 使用Base36编码 (0-9, a-z) 将数字转换为更短的字符串
-      //    这样分布更均匀，且能表示更大的数
-      const base36 = num.toString(36);
-      
-      // 4. 取前6位，并转换为大写，如果不足6位则用'A'填充
-      return base36.substring(0, 6).toUpperCase().padStart(6, 'A');
-    }
-
-    /**
-     *  处理点击“拷贝链接”按钮的最终解决方案
-     */
-    function handleCopyShortUrl(originalUrl, buttonElement) {
+    async function handleCopyShortUrl(originalUrl, buttonElement) {
       const originalText = buttonElement.innerHTML;
-      buttonElement.innerHTML = '正在处理...';
+      buttonElement.innerHTML = '正在生成...';
       buttonElement.disabled = true;
 
-      // --- 核心逻辑：完全同步执行 ---
       try {
-        // 1. 同步计算出短链代码和完整的短链接
-        const shortCode = generateShortCodeFromUrl(originalUrl);
-        const shortUrl = `${SHORTENER_SERVICE_DOMAIN}/${shortCode}`;
+        // 步骤1: 请求Worker创建链接，并等待其返回成功信息
+        const response = await fetch(`${SHORTENER_SERVICE_DOMAIN}/?create=` + encodeURIComponent(originalUrl));
+        
+        if (!response.ok) {
+          // 如果网络或服务器层面出错
+          throw new Error('服务器创建链接失败，状态码: ' + response.status);
+        }
 
-        // 2. 立即将预测的短链接复制到剪贴板
-        // copyToClipboard 内部会尝试新的API，如果失败会同步回退到旧的API
-        copyToClipboard(shortUrl, '短链接已复制！', () => {
-          // 成功回调
-          buttonElement.innerHTML = '已复制！';
-        }, () => {
-          // 失败回调
-          alert('无法自动复制，请手动选择复制：' + shortUrl);
-          buttonElement.innerHTML = '复制失败';
-        });
+        const data = await response.json();
+        const shortUrl = data.shortUrl;
+
+        if (!shortUrl) {
+          throw new Error('服务器返回的数据格式不正确。');
+        }
+
+        // 步骤2: 链接已确认存在，现在尝试复制到剪贴板
+        await copyToClipboard(shortUrl, '短链接已复制！');
+        buttonElement.innerHTML = '已复制！';
 
       } catch (error) {
-        console.error('Error predicting or copying short link:', error);
-        alert('处理失败，已为您复制原始链接。');
-        copyToClipboard(originalUrl, '原始链接已复制。', () => {
-           buttonElement.innerHTML = '已复制！';
-        }, () => {
-           buttonElement.innerHTML = '复制失败';
-        });
-      }
-      // --- 同步逻辑结束 ---
+        console.error('创建或复制短链接时出错:', error);
+        alert('操作失败，已为您复制原始链接。');
+        // 终极回退：复制原始长链接
+        await copyToClipboard(originalUrl, '原始链接已复制。');
+        buttonElement.innerHTML = '复制失败';
 
-      // 3. 在后台默默地请求worker创建链接 (fire-and-forget)
-      //    这个异步操作在所有复制逻辑完成后执行，不会影响复制成功率
-      fetch(`${SHORTENER_SERVICE_DOMAIN}/?create=` + encodeURIComponent(originalUrl))
-        .then(response => {
-          if (!response.ok) console.error('Short link creation in background failed.');
-        })
-        .catch(error => console.error('Error creating short link in background:', error));
-      
-      // 恢复按钮状态
-      setTimeout(() => {
-        buttonElement.innerHTML = originalText;
-        buttonElement.disabled = false;
-      }, 2000);
+      } finally {
+        // 步骤3: 无论成功与否，2秒后恢复按钮状态
+        setTimeout(() => {
+          buttonElement.innerHTML = originalText;
+          buttonElement.disabled = false;
+        }, 2000);
+      }
     }
     
     /**
-     * 将文本复制到剪贴板 (重构以适应同步回调)
+     * 将文本复制到剪贴板，返回一个Promise
      */
-    function copyToClipboard(text, successMessage, successCallback, errorCallback) {
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(text).then(() => {
-          alert(successMessage);
-          if (successCallback) successCallback();
-        }).catch(err => {
-          // 如果新API失败 (在iOS上很可能)，立即同步尝试旧方法
-          fallbackCopyTextToClipboard(text, successMessage, successCallback, errorCallback);
+    function copyToClipboard(text, successMessage) {
+        return new Promise((resolve, reject) => {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(() => {
+                    alert(successMessage);
+                    resolve();
+                }).catch(err => {
+                    // 新API失败，立即尝试旧方法
+                    fallbackCopy(text, successMessage, resolve, reject);
+                });
+            } else {
+                fallbackCopy(text, successMessage, resolve, reject);
+            }
         });
-      } else {
-        fallbackCopyTextToClipboard(text, successMessage, successCallback, errorCallback);
-      }
     }
 
     /**
-     * 兼容旧版浏览器的剪贴板复制方法 (同步执行)
+     * 兼容旧版浏览器的剪贴板复制方法
      */
-    function fallbackCopyTextToClipboard(text, successMessage, successCallback, errorCallback) {
-      const textArea = document.createElement("textarea");
-      textArea.value = text;
-      // --- 关键样式，确保在iOS上能被选中 ---
-      textArea.style.position = "fixed";
-      textArea.style.top = "-9999px";
-      textArea.style.left = "-9999px";
+    function fallbackCopy(text, successMessage, resolve, reject) {
+        const textArea = document.createElement("textarea");
+        textArea.value = text;
+        textArea.style.position = "fixed";
+        textArea.style.top = "-9999px";
+        textArea.style.left = "-9999px";
+        document.body.appendChild(textArea);
+        
+        if (navigator.userAgent.match(/ipad|iphone/i)) {
+            textArea.contentEditable = true;
+            textArea.readOnly = true;
+            const range = document.createRange();
+            range.selectNodeContents(textArea);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            textArea.setSelectionRange(0, 999999);
+        } else {
+            textArea.select();
+        }
 
-      document.body.appendChild(textArea);
-      
-      // --- 关键操作，确保在iOS上选中成功 ---
-      if (navigator.userAgent.match(/ipad|iphone/i)) {
-          textArea.contentEditable = true;
-          textArea.readOnly = true;
-          const range = document.createRange();
-          range.selectNodeContents(textArea);
-          const selection = window.getSelection();
-          selection.removeAllRanges();
-          selection.addRange(range);
-          textArea.setSelectionRange(0, 999999);
-      } else {
-          textArea.select();
-      }
-
-      let success = false;
-      try {
-        success = document.execCommand('copy');
-      } catch (err) {
-        success = false;
-      }
-
-      document.body.removeChild(textArea);
-
-      if (success) {
-        alert(successMessage);
-        if (successCallback) successCallback();
-      } else {
-        if (errorCallback) errorCallback();
-      }
+        try {
+            if (document.execCommand('copy')) {
+                alert(successMessage);
+                resolve();
+            } else {
+                // 这是iOS上最可能发生的情况
+                alert('无法自动复制，请手动复制：\n' + text);
+                reject(new Error('document.execCommand failed'));
+            }
+        } catch (err) {
+            alert('复制时发生错误，请手动复制：\n' + text);
+            reject(err);
+        } finally {
+            document.body.removeChild(textArea);
+        }
     }
 
     /**
-     * 处理通用的“分享”按钮逻辑
+     * 处理通用的“分享”按钮逻辑 (保持不变)
      */
     function handlePageShare() {
       const pageUrl = window.location.href;
       const pageTitle = document.title;
-
       if (navigator.share) {
         navigator.share({ title: pageTitle, url: pageUrl }).catch(error => {
           if (error.name !== 'AbortError') {
-             alert('分享失败，链接已复制到剪贴板。');
-             copyToClipboard(pageUrl, '链接已复制！');
+             copyToClipboard(pageUrl, '链接已复制到剪贴板！');
           }
         });
       } else {
