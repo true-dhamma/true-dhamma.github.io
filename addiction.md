@@ -62,7 +62,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
           <img src="/uploads/addiction_porn.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
-          <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E8%BD%BB%E6%9D%BE%E6%88%92%E8%89%B2%E6%B3%95-easypeasy-%E4%BC%98%E5%8C%96%E7%89%88/" style="text-decoration: none; font-size: 0.85em;">轻松戒色法(EasyPeasy优化版)</a><br />
+          <a href="/成瘾与戒断/轻松戒色法-easypeasy-优化版/" style="text-decoration: none; font-size: 0.85em;">轻松戒色法(EasyPeasy优化版)</a><br />
            <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/15/easypeasy-%E6%88%92%E8%89%B2%E4%B9%8B%E8%B7%AF/" style="text-decoration: none; font-size: 0.85em;">EasyPeasy戒色之路</a>
         </p>
       </td>
