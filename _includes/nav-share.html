@@ -37,57 +37,72 @@
   {% endfor %}
 
   <script>
-    const SHORTENER_SERVICE_URL = 'https://url.true-dhamma.com/?create=';
+    const SHORTENER_SERVICE_URL = 'https://url.true-dhamma.com/'; // 注意：去掉了末尾的 ?create=
 
     /**
-     *  处理点击“拷贝链接”按钮的逻辑
-     *  它会调用短链服务，获取短链，然后复制到剪贴板
-     *  优化了对移动端浏览器（如Safari）的兼容性
+     *  确定性地从一个URL生成一个6位的短代码。
+     *  此算法必须与Cloudflare Worker中的算法完全一致。
+     *  @param {string} url - 原始长链接
+     *  @returns {Promise<string>} - 返回一个Promise，解析为6位的短代码
+     */
+    async function generateShortCodeFromUrl(url) {
+      const encoder = new TextEncoder();
+      const data = encoder.encode(url);
+      // 使用SHA-1哈希算法，它足够快且能提供良好的分布性
+      const hashBuffer = await crypto.subtle.digest('SHA-1', data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+
+      // 使用哈希的前4个字节（32位）来生成代码，这足以提供足够的随机性
+      const num = (hashArray[0] << 24) | (hashArray[1] << 16) | (hashArray[2] << 8) | hashArray[3];
+      
+      const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+      const base = chars.length; // 36
+      let code = '';
+      let tempNum = Math.abs(num);
+
+      for (let i = 0; i < 6; i++) {
+        code = chars[tempNum % base] + code;
+        tempNum = Math.floor(tempNum / base);
+      }
+      
+      return code.padStart(6, 'A'); // 确保总是6位长
+    }
+
+    /**
+     *  处理点击“拷贝链接”按钮的新逻辑
+     *  1. 本地预测短链接
+     *  2. 立即尝试复制到剪贴板 (同步操作)
+     *  3. 异步在后台请求Worker创建该链接 (fire-and-forget)
      */
     async function handleCopyShortUrl(originalUrl, buttonElement) {
       const originalText = buttonElement.innerHTML;
-      buttonElement.innerHTML = '正在生成...';
+      buttonElement.innerHTML = '正在处理...';
       buttonElement.disabled = true;
 
-      // 创建一个Promise，用于获取短链接文本
-      const shortUrlPromise = fetch(SHORTENER_SERVICE_URL + encodeURIComponent(originalUrl))
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('Failed to create short link from network.');
-          }
-          return response.text();
-        })
-        .then(htmlText => {
-          const parser = new DOMParser();
-          const doc = parser.parseFromString(htmlText, 'text/html');
-          const shortUrl = doc.getElementById('shortlink')?.href;
-          if (shortUrl) {
-            return shortUrl;
-          }
-          throw new Error('Could not find short link in response.');
-        });
-
       try {
-        // 优先使用现代剪贴板API，以解决移动端异步复制问题
-        if (window.ClipboardItem && navigator.clipboard.write) {
-          const blobPromise = shortUrlPromise.then(text => new Blob([text], { type: 'text/plain' }));
-          const clipboardItem = new ClipboardItem({ 'text/plain': blobPromise });
-          await navigator.clipboard.write([clipboardItem]);
-        } else {
-          // 对于不支持的浏览器，回退到旧方法
-          // 注意：这在移动端Safari上可能仍然会因为异步问题而失败
-          const shortUrl = await shortUrlPromise;
-          await copyToClipboard(shortUrl, '短链接已复制到剪贴板！');
-        }
-        
+        // 1. 本地计算出短链代码和完整的短链接
+        const shortCode = await generateShortCodeFromUrl(originalUrl);
+        const shortUrl = SHORTENER_SERVICE_URL + shortCode;
+
+        // 2. 立即将预测的短链接复制到剪贴板
+        await copyToClipboard(shortUrl, '短链接已复制！');
         buttonElement.innerHTML = '已复制！';
 
-      } catch (error) {
-        console.error('Error creating or copying short link:', error);
-        alert('无法自动复制短链接，已为您复制原始链接。');
-        await copyToClipboard(originalUrl, '原始链接已复制到剪贴板。'); // 备用方案：复制原始链接
-        buttonElement.innerHTML = '复制失败';
+        // 3. 在后台默默地请求worker创建链接，确保它真实有效。
+        //    我们不需要等待这个请求的结果，所以不使用await。
+        fetch(SHORTENER_SERVICE_URL + '?create=' + encodeURIComponent(originalUrl))
+          .then(response => {
+            if (!response.ok) console.error('Short link creation in background failed.');
+            else console.log('Short link created/verified in background.');
+          })
+          .catch(error => console.error('Error creating short link in background:', error));
 
+      } catch (error) {
+        console.error('Error predicting or copying short link:', error);
+        // 如果本地计算或复制的任何环节出错，则回退到复制原始链接
+        alert('无法生成短链接，已为您复制原始链接。');
+        await copyToClipboard(originalUrl, '原始链接已复制。');
+        buttonElement.innerHTML = '复制失败';
       } finally {
         // 2秒后恢复按钮原始状态
         setTimeout(() => {
@@ -96,6 +111,8 @@
         }, 2000);
       }
     }
+    
+    // --- 以下的辅助函数保持不变 ---
 
     /**
      * 处理通用的“分享”按钮逻辑
@@ -119,15 +136,14 @@
      * 将文本复制到剪贴板（优先使用新API）
      */
     async function copyToClipboard(text, successMessage = 'URL已复制到剪贴板，请自行分享。') {
-      try {
-        if (navigator.clipboard && navigator.clipboard.writeText) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        try {
           await navigator.clipboard.writeText(text);
           alert(successMessage);
-        } else {
+        } catch (err) {
           fallbackCopyTextToClipboard(text, successMessage);
         }
-      } catch (err) {
-        console.error('Clipboard write failed:', err);
+      } else {
         fallbackCopyTextToClipboard(text, successMessage);
       }
     }
@@ -148,21 +164,17 @@
       textArea.focus();
       textArea.select();
 
-      let copied = false;
       try {
-        copied = document.execCommand('copy');
+        if (document.execCommand('copy')) {
+          alert(successMessage);
+        } else {
+          alert('无法复制，请手动选择复制：' + text);
+        }
       } catch (err) {
-        console.error('Fallback copy failed:', err);
+        alert('无法复制，请手动选择复制：' + text);
       }
-      
-      document.body.removeChild(textArea);
 
-      if (copied) {
-        alert(successMessage);
-      } else {
-        // 提供一个更明确的失败提示
-        alert('自动复制失败，请手动复制：' + text);
-      }
+      document.body.removeChild(textArea);
     }
   </script>
 </div>
