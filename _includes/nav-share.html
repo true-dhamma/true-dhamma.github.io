@@ -36,15 +36,14 @@
     {% endif %}
   {% endfor %}
 
-  <!-- 引入 SparkMD5 库，并使用正确的 integrity 哈希 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/spark-md5/3.0.2/spark-md5.min.js"></script>
+  <!-- 引入 SparkMD5 库，去掉 integrity 检查 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/spark-md5/3.0.2/spark-md5.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   
   <script>
     const SHORTENER_SERVICE_DOMAIN = 'https://url.true-dhamma.com';
 
     /**
      *  使用 SparkMD5 同步地从一个URL生成一个6位的短代码。
-     *  此算法必须与Cloudflare Worker中的算法完全一致。
      */
     function generateShortCodeFromUrl(url) {
       const hash = SparkMD5.hash(url);
@@ -66,7 +65,6 @@
       const shortUrl = `${SHORTENER_SERVICE_DOMAIN}/${shortCode}`;
 
       // 步骤 2: 立即尝试将这个本地计算出的链接复制到剪贴板
-      // 这个操作必须在用户点击事件的同步堆栈中执行，以兼容iOS
       const copyPromise = copyToClipboard(shortUrl);
       
       try {
@@ -88,8 +86,8 @@
         // 如果任何一个环节失败 (复制或创建)
         console.error('处理短链接时出错:', error);
 
-        // 检查是不是复制失败 (特别是iOS上的手动复制提示)
         if (error.isCopyError) {
+          // 如果是复制操作失败 (常见于iOS)，弹出手动复制提示
           alert('无法自动复制，请手动复制：\n' + shortUrl);
         } else {
           // 如果是其他错误 (如网络问题)，则提示通用失败信息
@@ -108,8 +106,7 @@
     }
     
     /**
-     * 将文本复制到剪贴板。
-     * 它现在不直接alert，而是返回一个Promise来表示成功或失败。
+     * 将文本复制到剪贴板。返回一个Promise来表示成功或失败。
      */
     function copyToClipboard(text) {
         return new Promise((resolve, reject) => {
