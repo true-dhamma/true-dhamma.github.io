@@ -36,83 +36,144 @@
     {% endif %}
   {% endfor %}
 
+  <!-- 引入 SparkMD5 库，用于同步计算哈希 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/spark-md5/3.0.2/spark-md5.min.js"></script>
+  
   <script>
-    const SHORTENER_SERVICE_URL = 'https://url.true-dhamma.com/'; // 注意：去掉了末尾的 ?create=
+    const SHORTENER_SERVICE_DOMAIN = 'https://url.true-dhamma.com';
 
     /**
-     *  确定性地从一个URL生成一个6位的短代码。
+     *  使用 SparkMD5 同步地从一个URL生成一个6位的短代码。
      *  此算法必须与Cloudflare Worker中的算法完全一致。
      *  @param {string} url - 原始长链接
-     *  @returns {Promise<string>} - 返回一个Promise，解析为6位的短代码
+     *  @returns {string} - 返回6位的短代码
      */
-    async function generateShortCodeFromUrl(url) {
-      const encoder = new TextEncoder();
-      const data = encoder.encode(url);
-      // 使用SHA-1哈希算法，它足够快且能提供良好的分布性
-      const hashBuffer = await crypto.subtle.digest('SHA-1', data);
-      const hashArray = Array.from(new Uint8Array(hashBuffer));
-
-      // 使用哈希的前4个字节（32位）来生成代码，这足以提供足够的随机性
-      const num = (hashArray[0] << 24) | (hashArray[1] << 16) | (hashArray[2] << 8) | hashArray[3];
+    function generateShortCodeFromUrl(url) {
+      // 1. 使用MD5计算哈希值 (同步操作)
+      const hash = SparkMD5.hash(url);
       
-      const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-      const base = chars.length; // 36
-      let code = '';
-      let tempNum = Math.abs(num);
-
-      for (let i = 0; i < 6; i++) {
-        code = chars[tempNum % base] + code;
-        tempNum = Math.floor(tempNum / base);
-      }
+      // 2. 将哈希值转换为一个数字 (取前8位十六进制，转为10进制整数)
+      const num = parseInt(hash.substring(0, 8), 16);
       
-      return code.padStart(6, 'A'); // 确保总是6位长
+      // 3. 使用Base36编码 (0-9, a-z) 将数字转换为更短的字符串
+      //    这样分布更均匀，且能表示更大的数
+      const base36 = num.toString(36);
+      
+      // 4. 取前6位，并转换为大写，如果不足6位则用'A'填充
+      return base36.substring(0, 6).toUpperCase().padStart(6, 'A');
     }
 
     /**
-     *  处理点击“拷贝链接”按钮的新逻辑
-     *  1. 本地预测短链接
-     *  2. 立即尝试复制到剪贴板 (同步操作)
-     *  3. 异步在后台请求Worker创建该链接 (fire-and-forget)
+     *  处理点击“拷贝链接”按钮的最终解决方案
      */
-    async function handleCopyShortUrl(originalUrl, buttonElement) {
+    function handleCopyShortUrl(originalUrl, buttonElement) {
       const originalText = buttonElement.innerHTML;
       buttonElement.innerHTML = '正在处理...';
       buttonElement.disabled = true;
 
+      // --- 核心逻辑：完全同步执行 ---
       try {
-        // 1. 本地计算出短链代码和完整的短链接
-        const shortCode = await generateShortCodeFromUrl(originalUrl);
-        const shortUrl = SHORTENER_SERVICE_URL + shortCode;
+        // 1. 同步计算出短链代码和完整的短链接
+        const shortCode = generateShortCodeFromUrl(originalUrl);
+        const shortUrl = `${SHORTENER_SERVICE_DOMAIN}/${shortCode}`;
 
         // 2. 立即将预测的短链接复制到剪贴板
-        await copyToClipboard(shortUrl, '短链接已复制！');
-        buttonElement.innerHTML = '已复制！';
-
-        // 3. 在后台默默地请求worker创建链接，确保它真实有效。
-        //    我们不需要等待这个请求的结果，所以不使用await。
-        fetch(SHORTENER_SERVICE_URL + '?create=' + encodeURIComponent(originalUrl))
-          .then(response => {
-            if (!response.ok) console.error('Short link creation in background failed.');
-            else console.log('Short link created/verified in background.');
-          })
-          .catch(error => console.error('Error creating short link in background:', error));
+        // copyToClipboard 内部会尝试新的API，如果失败会同步回退到旧的API
+        copyToClipboard(shortUrl, '短链接已复制！', () => {
+          // 成功回调
+          buttonElement.innerHTML = '已复制！';
+        }, () => {
+          // 失败回调
+          alert('无法自动复制，请手动选择复制：' + shortUrl);
+          buttonElement.innerHTML = '复制失败';
+        });
 
       } catch (error) {
         console.error('Error predicting or copying short link:', error);
-        // 如果本地计算或复制的任何环节出错，则回退到复制原始链接
-        alert('无法生成短链接，已为您复制原始链接。');
-        await copyToClipboard(originalUrl, '原始链接已复制。');
-        buttonElement.innerHTML = '复制失败';
-      } finally {
-        // 2秒后恢复按钮原始状态
-        setTimeout(() => {
-          buttonElement.innerHTML = originalText;
-          buttonElement.disabled = false;
-        }, 2000);
+        alert('处理失败，已为您复制原始链接。');
+        copyToClipboard(originalUrl, '原始链接已复制。', () => {
+           buttonElement.innerHTML = '已复制！';
+        }, () => {
+           buttonElement.innerHTML = '复制失败';
+        });
       }
+      // --- 同步逻辑结束 ---
+
+      // 3. 在后台默默地请求worker创建链接 (fire-and-forget)
+      //    这个异步操作在所有复制逻辑完成后执行，不会影响复制成功率
+      fetch(`${SHORTENER_SERVICE_DOMAIN}/?create=` + encodeURIComponent(originalUrl))
+        .then(response => {
+          if (!response.ok) console.error('Short link creation in background failed.');
+        })
+        .catch(error => console.error('Error creating short link in background:', error));
+      
+      // 恢复按钮状态
+      setTimeout(() => {
+        buttonElement.innerHTML = originalText;
+        buttonElement.disabled = false;
+      }, 2000);
     }
     
-    // --- 以下的辅助函数保持不变 ---
+    /**
+     * 将文本复制到剪贴板 (重构以适应同步回调)
+     */
+    function copyToClipboard(text, successMessage, successCallback, errorCallback) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          alert(successMessage);
+          if (successCallback) successCallback();
+        }).catch(err => {
+          // 如果新API失败 (在iOS上很可能)，立即同步尝试旧方法
+          fallbackCopyTextToClipboard(text, successMessage, successCallback, errorCallback);
+        });
+      } else {
+        fallbackCopyTextToClipboard(text, successMessage, successCallback, errorCallback);
+      }
+    }
+
+    /**
+     * 兼容旧版浏览器的剪贴板复制方法 (同步执行)
+     */
+    function fallbackCopyTextToClipboard(text, successMessage, successCallback, errorCallback) {
+      const textArea = document.createElement("textarea");
+      textArea.value = text;
+      // --- 关键样式，确保在iOS上能被选中 ---
+      textArea.style.position = "fixed";
+      textArea.style.top = "-9999px";
+      textArea.style.left = "-9999px";
+
+      document.body.appendChild(textArea);
+      
+      // --- 关键操作，确保在iOS上选中成功 ---
+      if (navigator.userAgent.match(/ipad|iphone/i)) {
+          textArea.contentEditable = true;
+          textArea.readOnly = true;
+          const range = document.createRange();
+          range.selectNodeContents(textArea);
+          const selection = window.getSelection();
+          selection.removeAllRanges();
+          selection.addRange(range);
+          textArea.setSelectionRange(0, 999999);
+      } else {
+          textArea.select();
+      }
+
+      let success = false;
+      try {
+        success = document.execCommand('copy');
+      } catch (err) {
+        success = false;
+      }
+
+      document.body.removeChild(textArea);
+
+      if (success) {
+        alert(successMessage);
+        if (successCallback) successCallback();
+      } else {
+        if (errorCallback) errorCallback();
+      }
+    }
 
     /**
      * 处理通用的“分享”按钮逻辑
@@ -124,57 +185,13 @@
       if (navigator.share) {
         navigator.share({ title: pageTitle, url: pageUrl }).catch(error => {
           if (error.name !== 'AbortError') {
-            copyToClipboard(pageUrl);
+             alert('分享失败，链接已复制到剪贴板。');
+             copyToClipboard(pageUrl, '链接已复制！');
           }
         });
       } else {
-        copyToClipboard(pageUrl);
+        copyToClipboard(pageUrl, '链接已复制到剪贴板！');
       }
-    }
-
-    /**
-     * 将文本复制到剪贴板（优先使用新API）
-     */
-    async function copyToClipboard(text, successMessage = 'URL已复制到剪贴板，请自行分享。') {
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        try {
-          await navigator.clipboard.writeText(text);
-          alert(successMessage);
-        } catch (err) {
-          fallbackCopyTextToClipboard(text, successMessage);
-        }
-      } else {
-        fallbackCopyTextToClipboard(text, successMessage);
-      }
-    }
-
-    /**
-     * 兼容旧版浏览器的剪贴板复制方法
-     */
-    function fallbackCopyTextToClipboard(text, successMessage) {
-      const textArea = document.createElement("textarea");
-      textArea.value = text;
-      textArea.style.top = "0";
-      textArea.style.left = "0";
-      textArea.style.position = "fixed";
-      textArea.style.opacity = "0";
-      textArea.style.pointerEvents = "none";
-
-      document.body.appendChild(textArea);
-      textArea.focus();
-      textArea.select();
-
-      try {
-        if (document.execCommand('copy')) {
-          alert(successMessage);
-        } else {
-          alert('无法复制，请手动选择复制：' + text);
-        }
-      } catch (err) {
-        alert('无法复制，请手动选择复制：' + text);
-      }
-
-      document.body.removeChild(textArea);
     }
   </script>
 </div>
