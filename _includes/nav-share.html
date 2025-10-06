@@ -4,27 +4,32 @@
     {% if network[1] != blank %}
       {% assign name = network[0] %}
       {% assign id = network[0] | downcase | remove: " " %}
-      {% assign url = site.url | append: site.baseurl | append: page.url %}
+      {% assign original_page_url = site.url | append: site.baseurl | append: page.url %}
       {% assign color = network[1] %}
 
       {% capture share_link %}
-        {%- if id contains "twitter" %}https://twitter.com/intent/tweet/?url={{ url }}&text={{ page.title | uri_escape }}{% if site.twitter.username %}&via={{ site.twitter.username }}{% endif %}{% endif -%}
-        {%- if id contains "facebook" %}https://facebook.com/sharer/sharer.php?u={{ url }}{% endif -%}
-        {%- if id contains "pinterest" %}https://pinterest.com/pin/create/button/?url={{ url }}&description={{ page.title }}&media={{ page.image }}{% endif -%}
-        {%- if id contains "linkedin" %}https://www.linkedin.com/shareArticle?url={{ url }}&title={{ page.title }}&source={{ site.title }}&mini=true{% endif -%}
-        {%- if id contains "tumblr" %}https://tumblr.com/widgets/share/tool?canonicalUrl={{ url }}&tags={{ page.category }}&caption={{ page.title }}{% endif -%}
-        {%- if id contains "reddit" %}https://reddit.com/submit?url={{ url }}&title={{ page.title }}&resubmit=true{% endif -%}
-        {%- if id contains "hackernews" %}https://news.ycombinator.com/submitlink?u={{ url }}&t={{ page.title }}{% endif -%}
-        {%- if id contains "designernews" %}https://www.designernews.co/submit?url={{ url }}&title={{ page.title }}{% endif -%}
-        {%- if id contains "email" %}mailto:?subject={{ page.title }}&body={{ url | prepend: "Hey, check out this: "}}{% endif -%}
+        {%- if id contains "twitter" %}https://twitter.com/intent/tweet/?url={{ original_page_url }}&text={{ page.title | uri_escape }}{% if site.twitter.username %}&via={{ site.twitter.username }}{% endif %}{% endif -%}
+        {%- if id contains "facebook" %}https://facebook.com/sharer/sharer.php?u={{ original_page_url }}{% endif -%}
+        {%- if id contains "pinterest" %}https://pinterest.com/pin/create/button/?url={{ original_page_url }}&description={{ page.title }}&media={{ page.image }}{% endif -%}
+        {%- if id contains "linkedin" %}https://www.linkedin.com/shareArticle?url={{ original_page_url }}&title={{ page.title }}&source={{ site.title }}&mini=true{% endif -%}
+        {%- if id contains "tumblr" %}https://tumblr.com/widgets/share/tool?canonicalUrl={{ original_page_url }}&tags={{ page.category }}&caption={{ page.title }}{% endif -%}
+        {%- if id contains "reddit" %}https://reddit.com/submit?url={{ original_page_url }}&title={{ page.title }}&resubmit=true{% endif -%}
+        {%- if id contains "hackernews" %}https://news.ycombinator.com/submitlink?u={{ original_page_url }}&t={{ page.title }}{% endif -%}
+        {%- if id contains "designernews" %}https://www.designernews.co/submit?url={{ original_page_url }}&title={{ page.title }}{% endif -%}
+        {%- if id contains "email" %}mailto:?subject={{ page.title }}&body={{ original_page_url | prepend: "Hey, check out this: "}}{% endif -%}
         {%- if id contains "universalshare" %}javascript:handlePageShare(){% endif -%}
+        {%- if id contains "url" %}javascript:handleCopyShortUrl('{{ original_page_url }}', this){% endif -%}
       {% endcapture %}
 
       {% assign button_text = name %}
       {% assign button_icon = id %}
+      
       {% if id == "universalshare" %}
         {% assign button_text = "Share" %}
-        {% assign button_icon = "link" %}
+        {% assign button_icon = "share" %}
+      {% elsif id == "url" %}
+        {% assign button_text = "Copy Link" %}
+        {% assign button_icon = "url" %}
       {% endif %}
 
       {% include button.html text=button_text icon=button_icon link=share_link color=color %}
@@ -32,18 +37,60 @@
   {% endfor %}
 
   <script>
+    const SHORTENER_SERVICE_URL = 'https://url.true-dhamma.com/?create=';
+
+    /**
+     *  处理点击“拷贝链接”按钮的逻辑
+     *  它会调用短链服务，获取短链，然后复制到剪贴板
+     */
+    async function handleCopyShortUrl(originalUrl, buttonElement) {
+      const originalText = buttonElement.innerHTML;
+      buttonElement.innerHTML = '正在生成...';
+      buttonElement.disabled = true;
+
+      try {
+        const response = await fetch(SHORTENER_SERVICE_URL + encodeURIComponent(originalUrl));
+        if (!response.ok) {
+          throw new Error('Failed to create short link.');
+        }
+        
+        const htmlText = await response.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlText, 'text/html');
+        const shortUrl = doc.getElementById('shortlink')?.href;
+
+        if (shortUrl) {
+          await copyToClipboard(shortUrl, '短链接已复制到剪贴板！');
+          buttonElement.innerHTML = '已复制！';
+        } else {
+          throw new Error('Could not find short link in response.');
+        }
+
+      } catch (error) {
+        console.error('Error creating or copying short link:', error);
+        alert('无法生成短链接，已为您复制原始链接。');
+        await copyToClipboard(originalUrl, '原始链接已复制到剪贴板。');
+        buttonElement.innerHTML = '复制失败';
+      } finally {
+        // 2秒后恢复按钮原始状态
+        setTimeout(() => {
+          buttonElement.innerHTML = originalText;
+          buttonElement.disabled = false;
+        }, 2000);
+      }
+    }
+
+    /**
+     * 处理通用的“分享”按钮逻辑
+     */
     function handlePageShare() {
       const pageUrl = window.location.href;
       const pageTitle = document.title;
 
       if (navigator.share) {
-        navigator.share({
-          title: pageTitle,
-          url: pageUrl
-        }).then(() => {
-        }).catch((error) => {
-          if (error.name === 'AbortError') {
-          } else {
+        navigator.share({ title: pageTitle, url: pageUrl }).catch(error => {
+          // 如果用户取消分享，则不执行任何操作
+          if (error.name !== 'AbortError') {
             copyToClipboard(pageUrl);
           }
         });
@@ -52,19 +99,26 @@
       }
     }
 
-    function copyToClipboard(text) {
+    /**
+     * 将文本复制到剪贴板（优先使用新API）
+     */
+    async function copyToClipboard(text, successMessage = 'URL已复制到剪贴板，请自行分享。') {
       if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(text).then(() => {
-          alert('URL已复制到剪贴板，请自行分享。');
-        }).catch(err => {
-          fallbackCopyTextToClipboard(text);
-        });
+        try {
+          await navigator.clipboard.writeText(text);
+          alert(successMessage);
+        } catch (err) {
+          fallbackCopyTextToClipboard(text, successMessage);
+        }
       } else {
-        fallbackCopyTextToClipboard(text);
+        fallbackCopyTextToClipboard(text, successMessage);
       }
     }
 
-    function fallbackCopyTextToClipboard(text) {
+    /**
+     * 兼容旧版浏览器的剪贴板复制方法
+     */
+    function fallbackCopyTextToClipboard(text, successMessage) {
       const textArea = document.createElement("textarea");
       textArea.value = text;
       textArea.style.top = "0";
@@ -78,14 +132,13 @@
       textArea.select();
 
       try {
-        const successful = document.execCommand('copy');
-        if (successful) {
-          alert('URL已复制到剪贴板，请自行分享。');
+        if (document.execCommand('copy')) {
+          alert(successMessage);
         } else {
-          alert('无法复制URL，请手动复制：' + text);
+          alert('无法复制，请手动选择复制：' + text);
         }
       } catch (err) {
-        alert('无法复制URL，请手动复制：' + text);
+        alert('无法复制，请手动选择复制：' + text);
       }
 
       document.body.removeChild(textArea);
