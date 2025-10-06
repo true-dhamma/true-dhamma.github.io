@@ -28,8 +28,8 @@
         {% assign button_text = "Share" %}
         {% assign button_icon = "share" %}
       {% elsif id == "url" %}
-        {% assign button_text = "ShortURL" %}
-        {% assign button_icon = "url" %}
+        {% assign button_text = "Copy Link" %}
+        {% assign button_icon = "link" %}
       {% endif %}
 
       {% include button.html text=button_text icon=button_icon link=share_link color=color %}
