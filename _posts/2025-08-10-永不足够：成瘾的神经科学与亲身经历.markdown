@@ -1,19 +1,18 @@
 ---
 title: 永不足够：成瘾的神经科学与亲身经历
-date: 2025-08-10 21:13:00 +08:00
+date: 2025-08-10T21:13:00+08:00
 categories:
-- 心理学
-- 精选
-tags:
-- 成瘾
+  - 成瘾与戒断
+  - 心理学
+  - 精选
+tags: []
 redirect_from:
-- "/心理学/精选/2025/08/10/永不足够-成瘾的神经科学与亲身经历/"
+  - /心理学/精选/2025/08/10/永不足够-成瘾的神经科学与亲身经历/
 excerpt: 大脑对药物的反应，永远是促成与药物效果相反的状态。所有快感的背后，都有一张必须偿还的账单。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: false
 ---
-
 > ##### Never Enough: The Neuroscience and Experience of Addiction - Judith Grisel
 >
 > ##### 永不足够：成瘾的神经科学与亲身经历 - 朱迪斯·格里塞尔 - 摘要
@@ -84,7 +83,7 @@ aside: false
 
 ---
 
-## 第一章：大脑的食粮
+## 第一章 大脑的食粮
 
 > 大自然所言，智慧亦如是。——尤维纳利斯（罗马诗人）
 
@@ -110,7 +109,10 @@ aside: false
 
 除了这条“感觉良好”的回路，还有另一条多巴胺回路——**黑质纹状体通路**，它负责将“想要”转化为“行动”。当我们预感到好事要发生时，这条回路会促使我们采取行动去获取它。帕金森病就是因为这条通路中的多巴胺神经元受损，导致患者难以将意图转化为行动。
 
-天然的奖赏，如食物和性，也能刺激这些多巴胺通路，但其效果远不及滥用药物。药物之所以如此强大，原因有二： 1.  **剂量可控**：我们可以通过注射等方式，让大脑瞬间被远超自然水平的化学物质淹没。 2.  **时间可控**：药物吸收迅速，几乎可以即时改变神经递质水平，就像打开泛光灯一样，而非像黎明一样缓缓到来。用药的频率和规律性也远超自然奖赏。
+天然的奖赏，如食物和性，也能刺激这些多巴胺通路，但其效果远不及滥用药物。药物之所以如此强大，原因有二：
+
+1. **剂量可控**：我们可以通过注射等方式，让大脑瞬间被远超自然水平的化学物质淹没。
+2. **时间可控**：药物吸收迅速，几乎可以即时改变神经递质水平，就像打开泛光灯一样，而非像黎明一样缓缓到来。用药的频率和规律性也远超自然奖赏。
 
 **总的来说，剂量越可预测、越频繁，药物的成瘾性就越强。**
 
@@ -134,7 +136,7 @@ aside: false
 
 ---
 
-## 第二章：适应
+## 第二章 适应
 
 > 大脑的主要活动就是改变自身。——马文·明斯基
 
@@ -196,7 +198,7 @@ aside: false
 
 ---
 
-## 第三章：一个显著的例子：THC
+## 第三章 一个显著的例子：THC
 
 > 如果一年到头都是假期，玩乐也会像工作一样乏味。——莎士比亚
 
@@ -240,7 +242,7 @@ aside: false
 
 ---
 
-## 第四章：编织梦境：阿片类药物
+## 第四章 编织梦境：阿片类药物
 
 > 如果你认为毒品是为了寻求刺激和快感，那你就大错特错了。……它能让你什么都做不了。——比莉·荷莉戴
 
@@ -291,33 +293,7 @@ aside: false
 
 阿片类药物的戒断症状与药物的急性效果**完全相反**：
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-<table><thead><tr><td><p></p></td><td><p><th style="text-align: left">阿片类药物效果</th><th style="text-align: left">戒断症状</th></p></td></tr></thead><tbody><tr><td><p></p></td><td><p><td style="text-align: left">镇痛</td><td style="text-align: left">疼痛</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">呼吸抑制</td><td style="text-align: left">喘息、打哈欠</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">欣快</td><td style="text-align: left">烦躁、抑郁</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">放松、嗜睡</td><td style="text-align: left">躁动、失眠</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">镇静</td><td style="text-align: left">恐惧、敌意</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">血压降低</td><td style="text-align: left">血压升高</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">便秘</td><td style="text-align: left">腹泻</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">瞳孔收缩</td><td style="text-align: left">瞳孔放大</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">体温降低</td><td style="text-align: left">体温升高</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">分泌物减少</td><td style="text-align: left">流泪、流鼻涕</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">性欲减退</td><td style="text-align: left">自发性高潮</td></p></td></tr><tr><td><p></p></td><td><p><td style="text-align: left">皮肤潮红温暖</td><td style="text-align: left">寒战、鸡皮疙瘩</td></p></td></tr></tbody></table>
+<table><thead><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><th style="text-align: left">阿片类药物效果</th><th style="text-align: left">戒断症状</th></p></td></tr></thead><tbody><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">镇痛</td><td style="text-align: left">疼痛</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">呼吸抑制</td><td style="text-align: left">喘息、打哈欠</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">欣快</td><td style="text-align: left">烦躁、抑郁</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">放松、嗜睡</td><td style="text-align: left">躁动、失眠</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">镇静</td><td style="text-align: left">恐惧、敌意</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">血压降低</td><td style="text-align: left">血压升高</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">便秘</td><td style="text-align: left">腹泻</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">瞳孔收缩</td><td style="text-align: left">瞳孔放大</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">体温降低</td><td style="text-align: left">体温升高</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">分泌物减少</td><td style="text-align: left">流泪、流鼻涕</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">性欲减退</td><td style="text-align: left">自发性高潮</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">皮肤潮红温暖</td><td style="text-align: left">寒战、鸡皮疙瘩</td></p></td></tr></tbody></table>
 
 ### 偿还代价
 
@@ -333,7 +309,7 @@ aside: false
 
 ---
 
-## 第五章：大锤：酒精
+## 第五章 大锤：酒精
 
 > 他们来到这个宇宙时是空虚的，离开时也是空虚的。此刻你沉醉其中，但当酒意消退，你也许会转身站立。——《多马福音》
 
@@ -394,7 +370,7 @@ aside: false
 
 ---
 
-## 第六章：镇静剂：安眠药
+## 第六章 镇静剂：安眠药
 
 > 虽然她并非真的生病，但有颗黄色小药丸。——滚石乐队, “母亲的小帮手”
 
@@ -446,7 +422,7 @@ aside: false
 
 ---
 
-## 第七章：提神剂：兴奋剂
+## 第七章 提神剂：兴奋剂
 
 > 可卡因没有幸福的结局。你要么死，要么进监狱，要么就是用完了。——萨姆·金尼森
 
@@ -479,7 +455,10 @@ aside: false
 
 尼古丁通过香烟中的焦油颗粒进入肺部，约7秒钟即可到达大脑。它的作用机制是**激活乙酰胆碱受体（nAChR）**，这种受体遍布大脑，影响着认知、情绪、动机等多种过程。
 
-尼古丁的成瘾性与其双重作用有关： 1.  **兴奋**：尼古丁激活nAChR，产生短暂的兴奋感。 2.  **放松**：受体被激活后会迅速进入**“脱敏”**状态，这反而带来了放松和镇静的感觉。
+尼古丁的成瘾性与其双重作用有关：
+
+1. **兴奋**：尼古丁激活nAChR，产生短暂的兴奋感。
+2. **放松**：受体被激活后会迅速进入**“脱敏”**状态，这反而带来了放松和镇静的感觉。
 
 大脑对尼古丁的适应方式很独特。由于受体长期处于脱敏状态，大脑的代偿反应是**“上调”**受体数量，即制造更多的nAChR。这意味着，在没有尼古丁时，大脑中这些额外且敏感的受体会使整个神经系统处于一种不平衡状态，导致强烈的戒断症状，如烦躁、焦虑和注意力不集中。
 
@@ -511,7 +490,7 @@ MDMA能显著增强幸福感、社交欲和亲近感，因此被称为“派对�
 
 ---
 
-## 第八章：此刻看得更清：致幻剂
+## 第八章 此刻看得更清：致幻剂
 
 > 紫色的烟雾弥漫在我的脑海，最近事物似乎不再一样。——吉米·亨德里克斯
 
@@ -519,7 +498,10 @@ MDMA能显著增强幸福感、社交欲和亲近感，因此被称为“派对�
 
 **致幻剂（Psychedelics）**是一类独特的药物，包括**LSD（麦角酸二乙酰胺）、裸盖菇素（psilocybin，来自“神奇蘑菇”）、麦司卡林（mescaline，来自仙人掌）和DMT**。本章将它们与MDMA、K他命等其他能产生幻觉的物质区分开，因为它们有一个共同且独特的作用机制：**激活血清素2A（5-HT2A）受体**。
 
-一个惊人的事实是：**大多数研究滥用药物的科学家认为，这类致幻剂并不具有成瘾性**。原因有二： 1.  **不激活奖赏回路**：它们不会导致伏隔核中多巴胺的释放，因此动物在实验中不会主动寻求服用。 2.  **快速且完全的耐受性**：使用一次后，大脑会迅速产生极强的耐受性，连续使用几乎毫无效果。这从根本上杜绝了强迫性、规律性使用的可能。
+一个惊人的事实是：**大多数研究滥用药物的科学家认为，这类致幻剂并不具有成瘾性**。原因有二：
+
+1. **不激活奖赏回路**：它们不会导致伏隔核中多巴胺的释放，因此动物在实验中不会主动寻求服用。
+2. **快速且完全的耐受性**：使用一次后，大脑会迅速产生极强的耐受性，连续使用几乎毫无效果。这从根本上杜绝了强迫性、规律性使用的可能。
 
 这类药物的历史悠久。天然的致幻剂在土著文化中被用于宗教仪式已有数千年。LSD则是1943年由瑞士化学家**阿尔伯特·霍夫曼（Albert Hofmann）**意外发现的。他将LSD视为“灵魂的药物”，认为它有潜力帮助人们体验到更深层次的现实。霍夫曼认为，LSD在毒品文化中的滥用，是对一种神圣物质的“亵渎”，导致了其坏名声。
 
@@ -558,7 +540,7 @@ MDMA能显著增强幸福感、社交欲和亲近感，因此被称为“派对�
 
 ---
 
-## 第九章：有志者事竟成：其他被滥用的药物
+## 第九章 有志者事竟成：其他被滥用的药物
 
 > 我摄入化学废物，部分原因是为了缩短自己……我想要变得更少，所以我服用了更多——就这么简单。——凯莉·费雪
 
@@ -624,7 +606,7 @@ GHB在俱乐部文化中流行，因为它能产生类似酒精的欣快和放�
 
 ---
 
-## 第十章：为什么是我？
+## 第十章 为什么是我？
 
 > 每当我吸入一口新鲜空气，我就像一条离开水的鱼。——《匿名戒毒会》
 
@@ -686,7 +668,7 @@ GHB在俱乐部文化中流行，因为它能产生类似酒精的欣快和放�
 
 ---
 
-## 第十一章：解决成瘾问题
+## 第十一章 解决成瘾问题
 
 > 不要哭泣，不要愤怒。去理解。——斯宾诺莎
 
@@ -753,7 +735,7 @@ GHB在俱乐部文化中流行，因为它能产生类似酒精的欣快和放�
 
 神经科学揭示了成瘾的生物学关联，但它也告诉我们，我们的大脑远比我们想象的更受外部世界的影响。而在所有影响中，最直接、最强大的，就是我们彼此之间的连接。
 
-认识到这一点，我们或许应该停止将成瘾问题仅仅视为某个“病人”头脑里的问题。 disordered use comes from, thrives in, and creates alienation. 它源于、滋生于并最终创造了疏离。这意味着，建立高墙将我们与情感、与邻居隔离开来，只会让事情变得更糟。
+认识到这一点，我们或许应该停止将成瘾问题仅仅视为某个“病人”头脑里的问题。失常的使用源于、滋生于并最终创造了疏离。这意味着，建立高墙将我们与情感、与邻居隔离开来，只会让事情变得更糟。
 
 因为可能是我们中的任何一个，因为就是我们中的许多人，所以我们必须首先承认问题的存在，然后伸出援手，用我们的思想、心灵和行动去连接彼此。我们都在同一艘救生船上，背弃他人既不人道也不明智。我们真的都在一起。
 
