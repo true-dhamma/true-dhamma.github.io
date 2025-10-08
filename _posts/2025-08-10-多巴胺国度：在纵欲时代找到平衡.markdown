@@ -1,19 +1,20 @@
 ---
 title: 多巴胺国度：在纵欲时代找到平衡
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 成瘾与戒断
-  - 心理学
-  - 精选
+- 成瘾与戒断
+- 心理学
+- 精选
 tags:
-  - 成瘾
+- 成瘾
 redirect_from:
-  - /心理学/精选/2025/08/10/多巴胺国度-在纵欲时代找到平衡/
-  - /心理学/精选/多巴胺国度-在纵欲时代找到平衡/
+- "/心理学/精选/2025/08/10/多巴胺国度-在纵欲时代找到平衡/"
+- "/心理学/精选/多巴胺国度-在纵欲时代找到平衡/"
 excerpt: 在这个充满诱惑的时代，一位精神病学家揭示了快乐与痛苦的惊人联系，并为我们如何在过度沉溺中恢复平衡提供了实用指南。
-feature_image: /uploads/top_banner_addiction.jpg
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### Dopamine Nation: Finding Balance in the Age of Indulgence - Anna Lembke
 >
 > ##### 多巴胺国度：在纵欲时代找到平衡 - 安娜·莱姆克 - 摘要
