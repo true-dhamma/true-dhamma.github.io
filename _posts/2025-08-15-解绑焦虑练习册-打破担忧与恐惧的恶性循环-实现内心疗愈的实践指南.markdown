@@ -1,17 +1,18 @@
 ---
 title: 解绑焦虑练习册：打破担忧与恐惧的恶性循环，实现内心疗愈的实践指南
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 成瘾与戒断
-  - 心理学
-  - 正念
+- 成瘾与戒断
+- 心理学
+- 正念
 redirect_from:
-  -
+- 
 excerpt: 这不仅仅是一本书，而是一份实操指南，它将科学地引导你勘绘、理解并最终摆脱焦虑的习惯回路。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### The Unwinding Anxiety Workbook: **Practical Exercises to Break the Cycles of Worry and Fear to Heal Your Mind** - Judson Brewer
 >
 > ##### 解绑焦虑练习册：打破担忧与恐惧的恶性循环，实现内心疗愈的实践指南  - 贾德森·布鲁尔 - 摘要
