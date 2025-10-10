@@ -140,7 +140,7 @@ feature_image: "/uploads/top_banner_addiction.jpg"
           <img src="/uploads/addiction_worrying.svg" style="width: 60px; height: 60px; display: block; margin: 5px auto 10px auto;" />
         </div>
         <p style="margin-top: 0; margin-bottom: 30px; text-align: center; line-height: 1.2rem;">
-          <a href="/%E6%88%90%E7%98%BE%E4%B8%8E%E6%88%92%E6%96%AD/%E5%BF%83%E7%90%86%E5%AD%A6/%E6%AD%A3%E5%BF%B5/%E7%B2%BE%E9%80%89/%E8%A7%A3%E7%BB%91%E7%84%A6%E8%99%91-%E9%87%8A%E6%94%BE%E5%A4%A9%E6%80%A7%E4%B8%AD%E7%9A%84%E5%A5%BD%E5%A5%87%E5%BF%83-%E7%96%97%E6%84%88%E7%84%A6%E8%99%91%E7%9A%84%E5%85%A8%E6%96%B0%E7%A7%91%E5%AD%A6/#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%84%A6%E8%99%91%E5%A6%82%E7%97%85%E6%AF%92%E8%88%AC%E4%BC%A0%E6%92%AD/" style="text-decoration: none; font-size: 0.85em;">解绑焦虑：释放天性中的好奇心</a><br />
+          <a href="/%E6%88%90%E7%98%BE%E4%B8%8E%E6%88%92%E6%96%AD/%E5%BF%83%E7%90%86%E5%AD%A6/%E6%AD%A3%E5%BF%B5/%E7%B2%BE%E9%80%89/%E8%A7%A3%E7%BB%91%E7%84%A6%E8%99%91-%E9%87%8A%E6%94%BE%E5%A4%A9%E6%80%A7%E4%B8%AD%E7%9A%84%E5%A5%BD%E5%A5%87%E5%BF%83-%E7%96%97%E6%84%88%E7%84%A6%E8%99%91%E7%9A%84%E5%85%A8%E6%96%B0%E7%A7%91%E5%AD%A6/" style="text-decoration: none; font-size: 0.85em;">解绑焦虑：释放天性中的好奇心</a><br />
           <a href="/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/easyway%E8%BD%BB%E6%9D%BE%E6%88%92%E9%99%A4%E5%BF%A7%E8%99%91/" style="text-decoration: none; font-size: 0.85em;">EasyWay轻松戒除忧虑</a>
         </p>
       </td>
