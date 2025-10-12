@@ -1,5 +1,5 @@
 ---
-title: "“佛法：自然法则及其对生命的利益"
+title: "佛法：自然法则及其对生命的利益"
 permalink: "/buddhadhamma/"
 layout: doc
 feature_text: 
