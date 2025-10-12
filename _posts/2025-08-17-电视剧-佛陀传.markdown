@@ -76,7 +76,6 @@ toc: false
   <a href="#" class="episode-link" data-episode="53">[53]</a>
   <a href="#" class="episode-link" data-episode="54">[54]</a>
 </div>
-
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const episodeLinks = document.querySelectorAll('.episode-link');
@@ -101,21 +100,12 @@ toc: false
     });
   });
 </script>
-
-&nbsp;
-
-&nbsp;
-
 <style>
 .episode-links a {
   margin: 0 5px;
   text-decoration: none;
 }
 </style>
-
-&nbsp;
-
-&nbsp;
 
 下载地址：[\[True-Dhamma网盘\]](https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/){: target="_blank" rel="noopener"}
 
