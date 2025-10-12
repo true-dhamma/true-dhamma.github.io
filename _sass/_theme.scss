@@ -135,9 +135,22 @@ body {
   @include flex(0, 0, auto);
 }
 
+// .content {
+//  @include breakpoint(break-1) {
+//    width: 62%;
+//  }
+// }
+
 .content {
   @include breakpoint(break-1) {
+    // 默认宽度，适用于有侧边栏的情况
     width: 62%;
+
+    // 新增规则：当.content是其父元素(.main)的唯一子元素时
+    // (即没有aside存在时)，宽度设为100%
+    &:only-child {
+      width: 100%;
+    }
   }
 }
 
