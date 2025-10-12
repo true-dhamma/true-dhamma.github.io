@@ -110,10 +110,8 @@ navigation_header:
   url: "/addiction/"
 - title: 文章
   url: "/blog/"
-- title: 佛法
-  url: "/buddhadhamma/"
-- title: 佛语
-  url: "/buddhawords/"
+- title: 书籍
+  url: "/book/"
 - title: 巴利圣典
   url: "/tipitaka/"
 - title: 网盘
