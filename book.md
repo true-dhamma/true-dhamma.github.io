@@ -3,11 +3,11 @@ title: 书籍
 date: 2025-08-09 01:00:00 +08:00
 categories:
 - 南传上座部佛法
-excerpt: "《巴利圣典》（Pāḷi Tipiṭaka）被全球公认为现存最古老、最完整的早期佛教经典，其使用的巴利语是与佛陀本人所用方言最接近的语言。这意味着它最大限度地保留了佛陀教诲的原始风貌和精确内涵。其内容源自佛陀入灭后，由大迦叶尊者等五百位亲传弟子首次结集确认，传承谱系清晰、严谨可靠。阅读《巴利圣典》，就是最直接地聆听佛陀的声音。"
+excerpt: ""
 feature_text: |-
-  ## Pāḷi Tipiṭaka
-  遵循佛陀原始的教导
-feature_image: "/uploads/top_banner_tipitaka.jpg"
+  ## 书籍
+  提供全网唯一的原创书籍以及中文佛法书籍翻译
+feature_image: "/uploads/top_banner_book.jpg"
 ---
 
 <div style="display:flex;flex-direction:column;align-items:center;padding:2rem 1rem;background-color:#ffffff;">
