@@ -1,14 +1,15 @@
 ---
 title: 狂喜之后：心如何在修行中增长智慧
-date: 2025-10-17T01:20:00+07:00
+date: 2025-10-17 02:20:00 +08:00
 categories:
-  - 西方世界的佛法
-  - 心理学
+- 西方世界的佛法
+- 心理学
 excerpt: '证悟并非终点，而是智慧在琐碎生活中不断成熟的开始。 '
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### After the Ecstasy, the Laundry: How the Heart Grows Wise on the Spiritual Path - Jack Kornfield
 >
 > ##### 狂喜之后：心如何在修行中增长智慧 - 杰克·康菲尔德 - 摘要
