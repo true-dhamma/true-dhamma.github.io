@@ -1,16 +1,17 @@
 ---
 title: 提纲摘要：世间成瘾与世间解脱
-date: 2025-10-17T01:20:00+07:00
+date: 2025-10-17 02:20:00 +08:00
 categories:
-  - 智宁居士
-  - 南传上座部佛法
-  - 成瘾与戒断
-  - 精选
+- 智宁居士
+- 南传上座部佛法
+- 成瘾与戒断
+- 精选
 excerpt: 从戒烟、刷手机的困境出发，揭示一切烦恼的成瘾本质，为你铺就一条将痛苦转化为智慧的现代解脱之路。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### **Addicted to the World: The Buddhist Path to Freedom** - Upasaka Zhining
 >
 > ##### 提纲摘要：世间成瘾与世间解脱 - 智宁居士
