@@ -1,19 +1,18 @@
 ---
 title: 佛陀的言教：巴利圣典选集
-date: 2025-08-16 10:10:00 +08:00
+date: 2025-08-16T10:10:00+08:00
 categories:
-- 巴利圣典
-- 西方世界的佛法
-- 精选
+  - 巴利圣典
+  - 西方世界的佛法
+  - 精选
 redirect_from:
-- "/巴利圣典/西方世界的佛法/精选/2025/08/16/佛陀的言教-巴利圣典选集/"
-- "/book-intro/in-the-buddhas-words/"
+  - /巴利圣典/西方世界的佛法/精选/2025/08/16/佛陀的言教-巴利圣典选集/
+  - /book-intro/buddhawords/
 excerpt: 已调伏者中，他是调御之最；已寂静者中，他是寂静之圣；已解脱者中，他是解脱之首；已度脱者中，他是度脱之尊。
-feature_text: 
-feature_image: "/uploads/top_banner_tipitaka.jpg"
+feature_text:
+feature_image: /uploads/top_banner_tipitaka.jpg
 aside: false
 ---
-
 > ##### In the Buddha’s Words: An Anthology of Discourses from the Pali Canon - Bhikkhu Bodhi
 >
 > ##### 佛陀的言教：巴利圣典选集 - 菩提比丘 - 摘要
