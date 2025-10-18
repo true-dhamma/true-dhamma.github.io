@@ -1,19 +1,19 @@
 ---
 title: 巴育陀尊者巨著：佛法
-date: 2025-08-17 10:10:00 +08:00
+date: 2025-08-17T10:10:00+08:00
 categories:
-- 巴育陀尊者
-- 南传上座部佛法
-- 精选
+  - 巴育陀尊者
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- "/南传上座部佛法/精选/2025/08/17/巴育陀尊者巨著-佛法/"
-- "/南传上座部佛法/精选/巴育陀尊者巨著-佛法/"
+  - /南传上座部佛法/精选/2025/08/17/巴育陀尊者巨著-佛法/
+  - /南传上座部佛法/精选/巴育陀尊者巨著-佛法/
+  - /book-intro/buddhadhamma/
 excerpt: 本书是巴育陀尊者40年心血撰写的鸿篇巨著，系统地阐述了佛教的核心教义，揭示了从自然法则的普遍真理到实现内心自由与究竟幸福的完整实践道路。
-feature_text: 
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_text:
+feature_image: /uploads/top_banner_dhamma.jpg
 aside: false
 ---
-
 > ##### Buddhadhamma - P.A.Payutto
 >
 > ##### 佛法：自然的法则与对生命的利益 - 巴育陀尊者 - 摘要
