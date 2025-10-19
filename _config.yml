@@ -73,6 +73,7 @@ permalink: "/:categories/:title/"
 excerpt_separator: "<!-- more -->"
 paginate: 20
 paginate_path: "/blog/page:num"
+discuss: true
 exclude:
 - README.md
 - LICENSE
