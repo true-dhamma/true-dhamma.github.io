@@ -1,4 +1,4 @@
-{% if site.discuss and page.comments != false  %}
+{% if site.livere and page.comments != false  %}
 <br>
 <div id="lv-container" data-id="city" data-uid="MTAyMC82MDk2NS8zNzQzNQ==">
 <script type="text/javascript">
@@ -17,6 +17,20 @@
 </script>
 <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
 </div>
+{% endif %}
+
+{% if site.twikoo and page.comments != false  %}
+<br>
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.30/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://twikoo.true-dhamma.com',
+  el: '#tcomment',
+  path: window.location.pathname,
+  lang: 'zh-CN',
+});
+</script>
 {% endif %}
 
 
