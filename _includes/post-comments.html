@@ -9,7 +9,7 @@
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="3695e17f-71e3-49bd-ad6f-4594bc6f8f9c"
-  data-page-id="{{ page.url }}"
+  data-page-id="{{ page.url | sha256 }}"
   data-page-url="{{ page.url | absolute_url }}"
   data-page-title="{{ page.title | escape }}"
 ></div>
