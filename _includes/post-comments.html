@@ -1,17 +1,20 @@
-{% if site.disqus and page.comments != false  %}
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = "{{ site.url }}{{ site.baseurl }}{{ page.url }}";
-      this.page.identifier = "{{ site.baseurl }}{{ page.url }}";
-    };
-
-    (function() {
-      var d = document, s = d.createElement('script');
-      s.src = '//{{ site.disqus }}.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% if page.comments != false  %}
+<style>
+  #cusdis_thread iframe {
+    height: auto !important;
+    min-height: 250px;
+    max-height: none !important;
+  }
+</style>
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="3695e17f-71e3-49bd-ad6f-4594bc6f8f9c"
+  data-page-id="{{ page.url }}"
+  data-page-url="{{ page.url | absolute_url }}"
+  data-page-title="{{ page.title | escape }}"
+></div>
+<script defer src="https://cusdis.com/js/cusdis.es.js"></script>
 {% endif %}
+
+
+

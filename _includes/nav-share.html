@@ -171,17 +171,3 @@
     }
   </script>
 </div>
-
-{%- if page.id -%}
-<!--Every article has a id, but special pages don't unless you set manually.
-This prevents Cusdis from appear everywhere-->
-<br /><br />
-<div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="3695e17f-71e3-49bd-ad6f-4594bc6f8f9c"
-  data-page-id="{{ page.id }}"
-  data-page-url="{{ site.url }}{{ page.baseurl }}{{ page.url }}"
-  data-page-title="{{ page.title }}"
-></div>
-<script defer src="https://cusdis.com/js/cusdis.es.js"></script>
-{%- endif -%}
