@@ -28,6 +28,18 @@
 <br>
 
 <br>
+<style>
+#tcomment {
+  all: initial;
+}
+#tcomment * {
+  all: revert; /* 让Twikoo内部元素可以相互继承，但不受外部影响 */
+}
+#tcomment {
+  display: block;
+}
+</style>
+
 <div id="tcomment"></div>
 <script src="https://cdn.staticfile.org/twikoo/1.6.40/twikoo.min.js"></script>
 <script>
@@ -40,29 +52,28 @@ twikoo.init({
 </script>
 
 <style>
-/* 颜色 */
-#tcomment,
-#tcomment * {
-  all: revert;
-  box-sizing: border-box; /* box-sizing 是个例外，最好手动统一一下，防止布局混乱 */
-}
-
+/* 颜色 (已移除亮暗模式，统一为一套基础颜色) */
 :root {
-  --twikoo-theme-op: #a78bfa23;
+  --twikoo-theme: #4f46e5; /* 一个主题色示例 */
+  --twikoo-theme-op: #4f46e523;
   --twikoo-white: #fff;
   --twikoo-main: var(--twikoo-theme);
-  --twikoo-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
-  --twikoo-shadow-border: 0 8px 16px -4px #2c2d300c;
-  --twikoo-theme: #a78bfa;
   --twikoo-green: #57bd6a;
   --twikoo-fontcolor: #363636;
   --twikoo-background: #f7f9fe;
   --twikoo-maskbg: rgba(255, 255, 255, 0.6);
-  --twikoo-lighttext: var(--twikoo-main);
+  --twikoo-lighttext: var(--twikoo-theme);
   --twikoo-secondtext: rgba(60, 60, 67, 0.6);
   --twikoo-secondbg: #edf0f7;
   --twikoo-card-bg: #fff;
-  --twikoo-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --twikoo-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+  --twikoo-shadow-border: 0 8px 16px -4px #2c2d300c;
+  /* 简化边框设定，不再区分颜色 */
+  --style-border: 1px solid #e0e0e0;
+  --style-border-hover: 1px solid var(--twikoo-main);
+  --style-border-dashed: 1px dashed #e0e0e0;
+  --style-border-avatar: 4px solid var(--twikoo-background);
+  --style-border-always: 1px solid #e0e0e0;
 }
 
 .OwO .OwO-body {
@@ -87,8 +98,8 @@ twikoo.init({
   position: fixed;
   align-items: center;
   background-color: rgb(255, 255, 255);
-  border: 1px solid;
-  border-radius: 0;
+  border: 1px #aaa solid;
+  border-radius: 0; /* 去除圆角 */
   z-index: 9999;
   display: none;
   transform: translate(0, -112%);
@@ -105,9 +116,9 @@ twikoo.init({
   padding: 0.75em;
   text-align: center;
   transition: all 0.5s;
-  border: 1px solid;
+  border: var(--style-border);
   box-shadow: 0 8px 16px -4px #2c2d300c;
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
   letter-spacing: 5px;
   background-color: var(--twikoo-card-bg);
 }
@@ -116,8 +127,8 @@ twikoo.init({
   overflow: visible !important;
 }
 #twikoo .tk-comments .OwO .OwO-body {
-  border: 2px solid !important;
-  border-radius: 0 !important;
+  border: var(--style-border-always) !important;
+  border-radius: 0 !important; /* 去除圆角 */
   overflow: hidden;
   background-color: var(--twikoo-maskbg) !important;
   backdrop-filter: saturate(180%) blur(10px);
@@ -133,7 +144,7 @@ twikoo.init({
   .tk-comments
   button.el-button.tk-cancel.el-button--default.el-button--small {
   background: var(--twikoo-secondbg);
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
   color: var(--twikoo-fontcolor);
 }
 #twikoo
@@ -157,31 +168,39 @@ twikoo.init({
 #twikoo .tk-comments .el-button--primary.is-disabled:hover {
   opacity: 0.2;
 }
+
+/* 统一昵称、邮箱、网址、发送按钮高度，并调整布局 */
+#twikoo .tk-comments .tk-meta-input .el-input--small .el-input__inner,
 #twikoo .tk-comments .el-button--primary {
+    height: 38px;
+    box-sizing: border-box;
+}
+
+#twikoo .tk-comments .el-button--primary {
+  border-color: var(--twikoo-fontcolor);
   color: var(--twikoo-card-bg);
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
   box-shadow: var(--twikoo-shadow-black);
   transition: 0.3s;
-  width: 6.25rem;
+  width: 90px; /* 调整宽度 */
   position: absolute;
-  top: -43px;
+  top: -42px;
   right: 0;
-  margin-left: 0.5rem !important;
-  height: 32px;
+  margin-left: 0 !important; /* 降低间距 */
 }
 #twikoo .tk-comments .tk-input .el-textarea__inner {
   min-height: 130px !important;
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
   display: block;
   resize: vertical;
-  padding: 16px 16px 40px 16px;
+  padding: 16px 16px 16px 45px; /* 调整内边距，为笑脸图标留出空间 */
   line-height: 1.5;
   box-sizing: border-box;
   width: 100%;
   font-size: inherit;
   color: var(--twikoo-fontcolor);
   background-color: var(--twikoo-secondbg);
-  border: 2px solid;
+  border: var(--style-border-always);
   transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -203,11 +222,11 @@ twikoo.init({
 }
 #twikoo .tk-comments .el-input-group--prepend .el-input__inner,
 #twikoo .tk-comments .el-input-group__append {
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
 }
 #twikoo .tk-comments .el-input--small .el-input__inner {
   padding: 8px;
-  padding-left: 16px;
+  padding-left: 8px; /* 降低间距 */
 }
 #twikoo .tk-comments .el-input-group--prepend .el-input__inner,
 #twikoo .tk-comments .el-input-group__append {
@@ -216,21 +235,26 @@ twikoo.init({
 #twikoo .tk-comments .tk-meta-input {
   position: relative;
   margin-top: 8px;
-  width: calc(100% - 6.875rem);
+  width: calc(100% - 100px); /* 增加输入框宽度 */
 }
 #twikoo
   .tk-comments
   .tk-meta-input
   .el-input.el-input--small.el-input-group.el-input-group--prepend {
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
   background: var(--twikoo-secondbg);
-  border: 2px solid;
+  border: var(--style-border-always);
 }
 #twikoo .tk-comments .tk-meta-input .el-input .el-input-group__prepend {
   user-select: none;
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
 }
-
+#twikoo
+  .tk-comments
+  .tk-meta-input
+  .el-input--small.el-input-group.el-input-group--prepend:focus-within {
+  border: var(--style-border-hover);
+}
 #twikoo .tk-comments .tk-row .tk-avatar {
   display: none;
 }
@@ -248,13 +272,13 @@ twikoo.init({
 }
 #twikoo .tk-comments .el-button {
   background-color: var(--twikoo-fontcolor);
-  border: none;
+  border: 0 solid var(--twikoo-main);
   color: var(--twikoo-background);
 }
 #twikoo .tk-comments .tk-tag-green {
   background-color: var(--twikoo-main);
   border: none;
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
   color: var(--twikoo-white);
 }
 #twikoo .tk-comments .tk-action-icon {
@@ -277,7 +301,7 @@ twikoo.init({
 #twikoo .tk-comments .tk-expand:hover {
   color: #fff;
   background-color: var(--twikoo-main);
-  border: none;
+  border: var(--style-border-none);
 }
 
 #twikoo .tk-comments .tk-content p {
@@ -304,13 +328,13 @@ twikoo.init({
   padding: 1em;
   margin: 0.5em 0;
   overflow: auto;
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
 }
 
 @media screen and (max-width: 768px) {
   #twikoo .tk-comments-container .tk-comment {
     padding: 1rem;
-    border: 2px solid;
+    border: var(--style-border-always);
     box-shadow: var(--twikoo-shadow-border);
     background: var(--twikoo-card-bg);
   }
@@ -320,7 +344,7 @@ twikoo.init({
 }
 
 #twikoo .tk-avatar {
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
 }
 #twikoo .tk-avatar .tk-avatar-img {
   height: 2.5rem !important;
@@ -333,8 +357,8 @@ twikoo.init({
   max-height: none !important;
 }
 #twikoo .tk-replies .tk-comment {
-  border-top: 1px dashed;
-  border-radius: 0;
+  border-top: var(--style-border-dashed);
+  border-radius: 0; /* 去除圆角 */
   padding: 1rem 0px 0px;
   margin-top: 0;
   transition: all 0.3s ease 0s;
@@ -354,7 +378,7 @@ twikoo.init({
 .vwrap {
   box-shadow: 2px 2px 5px #bbb;
   background: rgba(255, 255, 255, 0.3);
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
   padding: 30px;
   margin: 30px 0px 30px 0px;
 }
@@ -363,16 +387,16 @@ twikoo.init({
 .vcard {
   box-shadow: 2px 2px 5px #bbb;
   background: rgba(255, 255, 255, 0.3);
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
   padding: 30px;
   margin: 30px 0px 0px 0px;
 }
 
 #twikoo .tk-extra {
   background: var(--twikoo-card-bg);
-  border: 2px solid;
+  border: var(--style-border-always);
   padding: 4px 8px;
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
   margin-right: 4px;
   color: var(--twikoo-secondtext);
   margin-top: 6px;
@@ -389,7 +413,7 @@ twikoo.init({
 }
 .tk-content span a:not([data-fancybox="gallery"]) {
   font-weight: 500;
-  border-bottom: solid 2px;
+  border-bottom: solid 2px var(--twikoo-lighttext);
   color: var(--twikoo-fontcolor);
   padding: 0 0.2em;
   text-decoration: none;
@@ -397,7 +421,7 @@ twikoo.init({
 .tk-content span a:not([data-fancybox="gallery"]):hover {
   color: var(--twikoo-white);
   background-color: var(--twikoo-theme);
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
 }
 .tk-main .tk-content span > a {
   border-bottom: none;
@@ -437,18 +461,18 @@ twikoo.init({
   margin-top: 0 !important;
   margin-bottom: 1rem !important;
   transition: 0.3s;
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
   padding: 0;
   padding-top: 1rem;
   border: none;
-  border-top: 1px dashed;
+  border-top: var(--style-border-dashed);
 }
 
 #post-comment .comment-tips {
   background-color: rgba(103, 194, 58, 0.13);
-  border: 2px solid;
+  border: var(--style-border-always);
   color: var(--twikoo-green);
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
   padding: 8px 12px;
   margin-top: 0.5rem;
   display: none;
@@ -463,7 +487,8 @@ twikoo.init({
   background: var(--twikoo-card-bg);
   padding: 1rem;
   padding-bottom: 1rem;
-  border: 1px solid;
+  border: var(--style-border);
+  border-top: var(--style-border);
   box-shadow: var(--twikoo-shadow-border);
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -482,18 +507,26 @@ twikoo.init({
   max-height: 500px;
 }
 
+/* 将笑脸表情定位到输入框内部左下角 */
+#twikoo .tk-input {
+    position: relative; /* 设置为相对定位，作为子元素的定位参考 */
+}
 .tk-comments .tk-row-actions-start {
   position: absolute;
-  top: -84px;
-  left: 17px;
+  top: auto; /* 重置top */
+  left: 10px;
+  bottom: 10px;
+  z-index: 2; /* 确保在输入框上层 */
 }
+
 
 @media screen and (max-width: 768px) {
   .OwO .OwO-body {
     min-width: 260px;
   }
   .tk-comments .tk-row-actions-start {
-    top: -176px;
+    top: auto; /* 在移动端同样应用新定位 */
+    bottom: 10px;
   }
   #twikoo .tk-comments .tk-submit .el-button--primary {
     height: 122px;
@@ -515,14 +548,11 @@ twikoo.init({
   .tk-comments button.el-button.tk-cancel {
     width: 100%;
   }
-  .tk-comments .tk-row-actions-start {
-    position: absolute;
-  }
 }
 
 .OwO .OwO-body .OwO-items .OwO-item:hover {
   box-shadow: var(--twikoo-shadow-lightblack) !important;
-  border-radius: 0;
+  border-radius: 0; /* 去除圆角 */
 }
 </style>
   
