@@ -967,5 +967,78 @@ to {
   transition: .3s;
 }
 
+/* ========== CUSTOMIZATIONS START ========== */
+
+/* 1. 所有圆角改成方角 */
+.tk-avatar,
+.tk-preview-container,
+.tk-tag-green,
+.tk-tag-yellow,
+.tk-tag-blue,
+.tk-tag-red,
+.twikoo div.code-toolbar,
+.twikoo div.code-toolbar>.toolbar>.toolbar-item>a,
+.twikoo div.code-toolbar>.toolbar>.toolbar-item>button,
+.twikoo div.code-toolbar>.toolbar>.toolbar-item>span,
+.tk-admin-comment-filter-type,
+.el-button,
+.el-button.is-round,
+.el-button.is-circle,
+.el-textarea__inner,
+.el-input__inner,
+.el-input-group__append,
+.el-input-group__prepend,
+.OwO .OwO-body,
+.OwO .OwO-body .OwO-items .OwO-item,
+.OwO .OwO-body .OwO-bar,
+.OwO .OwO-body .OwO-bar .OwO-packages li:nth-child(1) {
+    border-radius: 0 !important;
+}
+
+/* 2. 去掉底部powered by */
+.tk-footer {
+    display: none;
+}
+
+/* 3. 去掉预览按钮和M图标 (假设预览按钮是M图标的下一个兄弟元素) */
+.tk-submit-action-icon.__markdown,
+.tk-submit-action-icon.__markdown + .tk-submit-action-icon {
+    display: none;
+}
+.tk-preview-container {
+    display: none !important;
+}
+
+/* 4. 将smilies按钮上移 */
+/* 假设表情按钮是第一个图标 */
+.tk-row-actions-start .tk-submit-action-icon:first-child {
+    position: relative;
+    top: -40px;
+}
+
+/* 5. 调整输入框和发送按钮布局 */
+.tk-submit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.tk-submit .tk-input {
+    order: 1;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.tk-submit .tk-meta-input {
+    order: 2;
+    flex-grow: 1; /* 占据剩余空间 */
+    margin-bottom: 0;
+}
+.tk-submit .tk-row.actions {
+    order: 3;
+    flex-grow: 0;
+    margin: 0 0 0 0.5rem; /* 重置外边距并在左侧添加一点空间 */
+    align-self: center; /* 垂直居中对齐 */
+}
+/* ========== CUSTOMIZATIONS END ========== */
+
 </style>
 {% endif %}
