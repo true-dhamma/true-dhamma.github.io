@@ -14,10 +14,10 @@ $captionColour: #a8adac !default;
 $white: #ffffff !default;
 
 $headingtype: (
-  // 标题和正文统一使用衬线体系，营造经典、沉稳的风格。
-  // Palatino (Mac) 和 Georgia (Win) 是非常经典的衬线字体。
-  // 中文搭配宋体(Songti SC, SimSun)和仿宋(FangSong)，保持风格一致。
-  font-family: '"Palatino", "Apple Garamond", Georgia, "Songti SC", "SimSun", "FangSong", serif',
+  // 英文保留经典的衬线字体 Palatino 和 Georgia，营造沉稳风格。
+  // 中文部分采用无衬线黑体体系，追求现代、清晰、优美的跨平台显示效果。
+  // 优先使用苹果平台的苹方字体，Windows平台的回退到微软雅黑，确保主流系统下的观感。
+  font-family: '"Palatino", "Apple Garamond", Georgia, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif',
   regular: 400,
   // 标题使用粗体来与正文区分
   bold: 700,
@@ -25,8 +25,8 @@ $headingtype: (
 ) !default;
 
 $bodytype: (
-  // 正文使用与标题相同的字体族，但字重为常规。
-  font-family: '"Palatino", "Apple Garamond", Georgia, "Songti SC", "SimSun", "FangSong", serif',
+  // 正文使用与标题相同的字体族，确保风格统一。
+  font-family: '"Palatino", "Apple Garamond", Georgia, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif',
   regular: 400,
   bold: 700,
   italic: italic,
@@ -34,7 +34,7 @@ $bodytype: (
 ) !default;
 
 $monospacetype: (
-  // 等宽：保持功能性优先，这是代码字体的最佳实践组合。
+  // 等宽字体：保持功能性优先，这是代码字体的最佳实践组合。
   font-family: '"SF Mono", "Fira Code", Menlo, Monaco, Consolas, "Courier New", monospace',
   regular: 400,
   cap-height: 0.68
