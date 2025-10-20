@@ -37,62 +37,163 @@ twikoo.init({
 });
 </script>
 <style>
-/* --- Twikoo Custom CSS Start --- */
-
-/* 1. 昵称、邮箱等和输入框高度一致 */
-.tk-meta-input .tk-row {
-  display: flex;
-  align-items: center; /* 垂直居中对齐 */
+/* --- 全局样式：去除圆角 --- */
+/* 使用 !important 强制覆盖默认样式，确保所有元素的边框都为直角 */
+.tk-comment, .tk-comment *, .tk-preview-container {
+    border-radius: 0 !important;
 }
-.tk-meta-input .tk-col {
-  line-height: normal; /* 移除可能影响高度的行高 */
+
+/* --- 布局重排：留言框在上，用户信息和发送按钮在下 --- */
+.tk-form {
+    display: flex;
+    flex-direction: column; /* 将表单主容器设为纵向 flex 布局 */
+}
+
+/* 1. 将留言框（tk-textarea-wrap）的顺序设置为第1位 */
+.tk-textarea-wrap {
+    order: 1;
+}
+
+/* 2. 将用户信息输入区（tk-meta）的顺序设置为第2位 */
+.tk-meta {
+    order: 2;
+    display: flex; /* 让内部的昵称、邮箱、网址在同一行显示 */
+    flex-wrap: wrap; /* 在移动端屏幕不够时可以换行 */
+    gap: 10px; /* 增加输入框之间的间距 */
+}
+.tk-meta .tk-meta-input {
+    flex-grow: 1; /* 让每个输入框都尽可能填满空间 */
+}
+
+
+/* 3. 将操作按钮行（tk-row）的顺序设置为第3位 */
+.tk-row {
+    order: 3;
+}
+
+/* 4. 将用户信息输入框和发送按钮合并到一行 */
+/* 再次选择 .tk-form，但这次是为了整合下面的 meta 和 row */
+.tk-form {
+    position: relative; /* 准备为发送按钮的移动做准备 */
+}
+.tk-submit-btn-container {
+    display: contents; /* 这是一个技巧，让容器“消失”，其内容（按钮）可以被外部的flex/grid布局直接控制 */
+}
+/* 将用户信息和操作按钮的父容器变成 flex 布局 */
+.tk-form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* 调整主要区域之间的间距 */
+}
+/* 创建一个新的容器概念，用于放置 meta 和 actions */
+.tk-meta, .tk-row.tk-actions {
+    width: 100%;
+}
+.tk-form-body-bottom {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start; /* 顶部对齐 */
+}
+.tk-form-body-bottom .tk-meta {
+    flex-grow: 1; /* meta部分占据大部分空间 */
+}
+.tk-form-body-bottom .tk-row.tk-actions {
+    flex-shrink: 0; /* 发送按钮不收缩 */
+}
+/* 由于无法直接修改HTML，我们用JS来包裹这两个元素。但如果只用CSS，我们必须用更巧妙的方法 */
+/* 让我们用另一种更纯粹的CSS Grid方法，这更干净 */
+.tk-form-body {
+    display: grid; /* 使用 Grid 布局 */
+    grid-template-areas:
+        "textarea textarea"
+        "meta     submit"; /* 定义一个两行两列的网格 */
+    grid-template-columns: 1fr auto; /* 第一列自动填充，第二列根据内容（按钮）宽度自适应 */
+    gap: 10px;
+}
+.tk-textarea-wrap { grid-area: textarea; }
+.tk-meta          { grid-area: meta; }
+.tk-row.tk-actions{ grid-area: submit; }
+
+/* --- 元素样式调整与移除 --- */
+
+/* 1. 隐藏不需要的按钮：预览、Markdown指南(M) */
+.tk-preview-btn,
+.tk-markdown-guide {
+    display: none !important;
+}
+
+/* 2. 移除右下角的 "Powered by" */
+.tk-power {
+    display: none !important;
+}
+
+/* 3. 修复昵称、邮箱等输入框和标签的高度不一致问题 */
+.tk-meta-input {
+    display: flex;
+    align-items: center; /* 核心：让内部的 label 和 input 垂直居中 */
 }
 .tk-meta-input .tk-input {
-  height: 100%; /* 使输入框 wrapper 占满全部高度 */
+    height: 38px; /* 可以根据你的网站风格统一高度 */
+    flex-grow: 1;
 }
-.tk-meta-input .tk-input input {
-  height: 38px; /* 定义一个统一的显式高度，可根据您的网站进行微调 */
-  box-sizing: border-box; /* 确保 padding 和 border 不会增加额外高度 */
-}
-
-/* 2. 所有边框不应当用圆角 */
-#tcomment .tk-input,
-#tcomment .tk-input input,
-#tcomment .tk-input textarea,
-#tcomment .tk-btn,
-#tcomment .tk-panel,
-#tcomment .tk-comments .tk-comment,
-#tcomment .tk-owo-body,
-#tcomment .tk-comment-actions .tk-btn {
-  border-radius: 0 !important;
+.tk-meta-input label {
+    flex-shrink: 0; /* 防止标签文字被压缩 */
+    margin-right: 5px; /* 标签和输入框之间加点间距 */
+    background: #f2f2f2; /* 根据你的网站风格调整背景色 */
+    padding: 0 10px;
+    height: 38px;
+    line-height: 38px; /* 让文字在标签内垂直居中 */
+    border: 1px solid #e3e3e3;
+    border-right: none;
 }
 
-/* 3. 去掉预览按钮、M按钮和链接 */
-/* 隐藏预览按钮 */
-.tk-comment-form .tk-preview-btn {
-  display: none;
-}
-/* 隐藏 M 按钮和相关链接 (它们在左侧容器) */
-.tk-comment-form .tk-actions .tk-col.tk-left {
-  display: none;
+
+/* --- 图标位置调整 --- */
+
+/* 1. 将留言框的父容器设置为相对定位，作为图标定位的基准 */
+.tk-textarea-wrap {
+    position: relative;
 }
 
-/* 4. 评论内容区所有字号都缩小20% */
-.tk-comments-wrap {
-  font-size: 80%;
+/* 2. 将图标容器（tk-extras）设置为绝对定位，并放在左下角 */
+.tk-extras {
+    position: absolute;
+    bottom: 8px; /* 距离底部的距离 */
+    left: 8px; /* 距离左侧的距离 */
+    z-index: 10; /* 确保图标在输入文字的上方 */
 }
 
-/* 5. 输入框中输入文字的大小也缩小20% */
-.tk-comment-form .tk-input textarea {
-  font-size: 80%;
+
+/* --- 字号调整 --- */
+
+/* 1. 评论区（从“3条评论”那一行开始）所有字号缩小20% */
+.tk-comments-container,
+.tk-comments-count,
+.tk-comment,
+.tk-comment .tk-content,
+.tk-comment .tk-nick,
+.tk-comment .tk-meta-item,
+.tk-comment .tk-content p /* 确保评论内容段落也应用此规则 */
+{
+    font-size: 80%;
 }
 
-/* 6. 去除右下角的powered by */
-.tk-footer {
-  display: none !important;
+/* 2. 留言输入框中输入文字的大小也缩小20% */
+.tk-textarea {
+    font-size: 80%;
+    padding-bottom: 30px; /* 为左下角的图标留出空间，防止文字被遮挡 */
 }
 
-/* --- Twikoo Custom CSS End --- */
+/* --- 细节微调 --- */
+/* 发送按钮现在和用户信息在同一行，可能需要调整一下垂直对齐 */
+.tk-row.tk-actions {
+    display: flex;
+    align-items: flex-start; /* 与输入框顶部对齐 */
+    padding-top: 0; /* 移除可能存在的顶部内边距 */
+}
+.tk-submit-btn {
+    height: 38px; /* 让发送按钮和输入框等高 */
+}
+
 </style>
-
 {% endif %}
