@@ -246,6 +246,7 @@ to {
 }
 .tk-extra-text {
   line-height: 1;
+  Padding-left: 5px
 }
 .tk-tag {
   display: inline-block;
