@@ -1,39 +1,14 @@
-{% if site.livere and page.comments != false  %}
-<br>
-<div id="lv-container" data-id="city" data-uid="MTAyMC82MDk2NS8zNzQzNQ==">
-<script type="text/javascript">
-   var refer = window.location.pathname; // 将 refer 设置为当前页面的相对路径
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-</script>
-<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-</div>
-
-<br><br>
-<livere-comment client-id="Zu3RKqH1WP9NkyJ2VIjM"></livere-comment>
-<script type="module" src="https://www.livere.org/livere-widget.js"></script>
-
-{% endif %}
-
-{% if site.twikoo and page.comments != false  %}
+{% if site.twikoo and page.comments != false %}
 <br>
 
 <br>
 <style>
+/* 强制Twikoo评论区样式隔离，避免被页面全局CSS影响 */
 #tcomment {
   all: initial;
 }
 #tcomment * {
-  all: revert; /* 让Twikoo内部元素可以相互继承，但不受外部影响 */
+  all: revert;
 }
 #tcomment {
   display: block;
@@ -53,6 +28,23 @@ twikoo.init({
 
 <style>
 /* ========================twikoo美化====================== */
+
+/* [新增] 解决昵称、邮箱等输入框标签与输入框高度不一致的问题 */
+#twikoo .tk-meta-input .el-input-group__prepend,
+#twikoo .tk-meta-input .el-input__inner {
+    height: 32px; /* 与发送按钮高度统一 */
+    line-height: 32px; /* 确保文字垂直居中 */
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box; /* 统一盒模型，避免边框和内边距影响高度 */
+}
+
+/* [新增] 彻底隐藏预览按钮和Markdown提示图标 */
+#twikoo .tk-preview,
+#twikoo .tk-submit-action-icon.__markdown {
+    display: none !important;
+}
+
 /* 隐藏评论者头像 */
 #twikoo .tk-comments .tk-submit .tk-avatar.tk-has-avatar {
     display: none;
@@ -99,7 +91,7 @@ twikoo.init({
     height: auto;
 }
 
-/* 宽度太窄的时候去掉预览按钮 */
+/* 宽度太窄的时候去掉预览按钮 (此条规则可被上面的新规则覆盖，也可保留) */
 @media screen and (max-width:420px) {
     .tk-main .tk-submit .tk-row.actions button.el-button.tk-preview.el-button--default.el-button--small{
         display: none;
@@ -132,115 +124,88 @@ twikoo.init({
 /* 评论区评论大框 */
 .twikoo .tk-comments-container>.tk-comment,
 .twikoo .tk-comments .tk-submit {
-  /* 内边距 */
   padding: 20px;
   margin-top: 0px;
   margin-bottom: 20px;
-  /* 圆角 */
   border-radius: var(--liushen-radius);
-  /* 背景颜色 */
   background: var(--liushen-card-bg);
-  /* 变动动画时长 */
   transition: .3s;
 }
 
 /* 浅色模式评论区评论大框 */
-[data-theme=light] 
+[data-theme=light]
 .twikoo .tk-comments-container>.tk-comment,
 .twikoo .tk-comments .tk-submit {
-  /* 阴影 */
   box-shadow: var(--card-box-shadow);
 }
 
 /* 浅色模式评论区评论大框阴影悬浮加深 */
-[data-theme=light] 
+[data-theme=light]
 .twikoo .tk-comments-container>.tk-comment:hover,
 .twikoo .tk-comments .tk-submit:hover {
-  /* 阴影（浅色模式突出层次感） */
   box-shadow: var(--card-hover-box-shadow);
 }
 
 /* 黑暗模式评论区评论大框 */
-[data-theme=dark] 
+[data-theme=dark]
 .twikoo .tk-comments-container>.tk-comment,
 .twikoo .tk-comments .tk-submit {
-  /* 边框样式 */
   border-style: solid;
-  /* 边框宽度 */
   border-width: var(--liushen-card-border-width);
-  /* 边框颜色 */
   border-color: var(--liushen-card-border);
 }
 
 /* 设备信息 */
 .twikoo .tk-extra {
-  /* 圆角 */
   border-radius: var(--liushen-radius);
-  /* 背景颜色 */
   background: var(--liushen-card-bg);
-  /* 内边距 */
   padding: 0.4rem;
-  /* 底边距 */
   margin-bottom: 1rem;
-  /* 变动动画时长 */
   transition: .3s;
 }
 
 /* 浅色模式设备信息 */
 [data-theme=light] .twikoo .tk-extra {
-  /* 阴影 */
   box-shadow: var(--card-box-shadow);
 }
 
 /* 浅色模式设备信息阴影悬浮加深 */
 [data-theme=light] .twikoo .tk-extra:hover {
-  /* 阴影 */
   box-shadow: var(--card-hover-box-shadow);
 }
 
 /* 黑暗模式设备信息 */
 [data-theme=dark] .twikoo .tk-extra {
-  /* 边框样式 */
   border-style: solid;
-  /* 边框宽度 */
   border-width: var(--liushen-card-border-width);
-  /* 边框颜色 */
   border-color: var(--liushen-card-border);
 }
 
 /* 加载更多按钮 */
 .twikoo .tk-expand {
-  /* 圆角 */
   border-radius: var(--liushen-radius);
 }
 
 /* 浅色模式加载更多按钮 */
 [data-theme=light] .twikoo .tk-expand {
-  /* 阴影 */
   box-shadow: var(--card-box-shadow);
 }
 
 /* 浅色模式加载更多按钮（鼠标悬浮时） */
 [data-theme=light] .twikoo .tk-expand:hover {
-  /* 阴影 */
   box-shadow: var(--card-hover-box-shadow);
-  /* 背景颜色 */
   background-color: var(--btn-bg);
 }
 
 /* 黑暗模式加载更多按钮（鼠标悬浮时） */
 [data-theme=dark] .twikoo .tk-expand:hover {
-  /* 背景颜色 */
   background-color: var(--liushen-blue);
 }
 
 /* 黑暗模式加载更多按钮 */
 [data-theme=dark] .twikoo .tk-expand {
-  /* 边框样式 */
   border-style: solid;
-  /* 边框宽度 */
   border-width: var(--liushen-card-border-width);
-  /* 边框颜色 */
   border-color: var(--liushen-card-border);
 }
 
@@ -256,11 +221,6 @@ twikoo.init({
     border-radius: 12px !important;
 }
 
-/* 由于twikoo内部函数不宜修改，为了合适，去掉弹窗中的刷新按钮，该部分不需要，这是为了适配右键回复弹窗的内容的
-#popup #twikoo .tk-comments .tk-comments-container .tk-comments-title > span:nth-child(2) > span:nth-child(1) {
-	display: none;
-} */
-
 /* ========================twikoo美化====================== */
-
+</style>
 {% endif %}
