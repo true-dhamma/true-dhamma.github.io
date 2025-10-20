@@ -76,55 +76,94 @@ twikoo.init({
   margin-bottom: 25px;
 }
 
-/* --- 最终解决方案：重置并强制修正输入框样式 --- */
 
-/* 1. 修正最外层容器：强制移除内部padding，防止子元素内缩 */
+/* --- 体系化重构：输入框与发送按钮布局 --- */
+
+/* 1. 将包含输入框和按钮的父容器定义为Flexbox */
+/* 此选择器旨在选中那一行，可能需要根据您的实际HTML微调 */
+#twikoo .tk-submit > .tk-row:not([class*="actions"]) {
+  display: flex !important;
+  align-items: stretch !important; /* 关键：让所有子项等高 */
+  gap: 8px !important; /* 项目之间的间距 */
+  margin-top: 8px !important;
+}
+
+/* 2. 定义包裹三个输入框的容器，让它占据大部分空间 */
+/* 假设这个容器是 .tk-row 的第一个子元素 */
+#twikoo .tk-submit > .tk-row:not([class*="actions"]) > div:first-child {
+  flex-grow: 1 !important; /* 占据所有剩余空间 */
+  display: flex !important;
+  gap: 8px !important; /* 三个输入框之间的间距 */
+}
+
+/* 3. 设置每个输入框平分空间 */
+#twikoo .tk-submit .tk-meta-input {
+  flex: 1 !important; /* 平分父容器空间 */
+  width: auto !important; /* 覆盖旧的 calc() 宽度 */
+  margin-top: 0 !important; /* 在Flex布局中不再需要 */
+  position: static !important;
+}
+
+/* 4. 重置发送按钮样式，使其成为Flex项目 */
+#twikoo .tk-submit .el-button--primary {
+  position: static !important; /* 关键：移出绝对定位流 */
+  top: auto !important;
+  right: auto !important;
+  margin: 0 !important; /* 重置外边距 */
+  height: auto !important; /* 关键：让 align-items: stretch 控制高度 */
+  width: 6.25rem !important; /* 保留期望的宽度 */
+  border-radius: 0;
+  box-shadow: var(--twikoo-shadow-black);
+  color: var(--twikoo-card-bg);
+}
+
+/* 5. 再次修正输入框最外层容器 */
 #twikoo .tk-comments .tk-meta-input .el-input.el-input--small.el-input-group.el-input-group--prepend {
+  height: 100% !important; /* 高度由父容器的 stretch 决定 */
+  display: flex !important;
+  box-sizing: border-box !important;
+  padding: 0 !important; /* 强制移除容器内边距，解决白边问题 */
+  border: 2px solid #e0e0e0;
   border-radius: 0;
   background: var(--twikoo-secondbg);
-  border: 2px solid #e0e0e0; 
-  height: 32px;
-  display: flex;
-  align-items: center; 
-  box-sizing: border-box !important;
-  padding: 0 !important; /* 关键：强制移除容器的内边距 */
 }
 
-/* 2. 修正“昵称”等标签：强制重置内外边距，并重新设定padding */
+/* 6. 再次修正“昵称”等标签 */
 #twikoo .tk-comments .tk-meta-input .el-input .el-input-group__prepend {
-  user-select: none;
-  font-weight: 700;
   background-color: var(--twikoo-card-bg);
   color: #555;
+  height: 100%;
   display: flex;
   align-items: center;
-  height: 100%;
   border: none !important;
-  margin: 0 !important; /* 关键：强制重置外边距 */
-  padding: 0 1em !important; /* 关键：强制设定我们期望的左右内边距 */
+  margin: 0 !important;
+  padding: 0 12px !important; /* 使用更精确的 padding */
+  font-weight: 700;
+  user-select: none;
+  flex-shrink: 0; /* 防止标签被压缩 */
 }
 
-/* 3. 修正核心输入框<input>：通过line-height实现完美的垂直居中 */
+/* 7. 再次修正核心输入框 <input> */
 #twikoo .tk-comments .tk-meta-input .el-input--small .el-input__inner {
   height: 100% !important;
   border: none !important;
   background: transparent !important;
   color: #363636 !important;
   box-sizing: border-box !important;
-  margin: 0 !important; /* 关键：强制重置外边距 */
-  padding: 0 12px !important; /* 关键：强制设定我们期望的左右内边距 */
-  /* 关键：容器高度32px，上下边框各2px，内部可用高度为28px。设置等高的行高来实现垂直居中。*/
-  line-height: 28px !important;
+  margin: 0 !important;
+  padding: 0 12px !important;
+  line-height: normal !important; /* Flexbox已处理垂直对齐，无需固定行高 */
 }
-/* --- 修改结束 --- */
 
+/* 8. 处理获得焦点时的蓝色边框 */
+#twikoo .tk-comments .tk-meta-input .el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within {
+  border-color: #a78bfa !important; /* 使用主题色 */
+}
 
-.OwO .OwO-body {
-  min-width: 31.25rem;
-}
-.twikoo svg {
-  color: var(--twikoo-fontcolor);
-}
+/* --- 以下为原始的其他样式 --- */
+
+.OwO .OwO-body { min-width: 31.25rem; }
+.twikoo svg { color: var(--twikoo-fontcolor); }
 @keyframes owoIn {
   0% { transform: translate(0, -95%); opacity: 0; }
   100% { transform: translate(0, -112%); opacity: 1; }
@@ -162,24 +201,17 @@ twikoo.init({
 #twikoo .tk-comments .el-button--primary.is-disabled:active,
 #twikoo .tk-comments .el-button--primary.is-disabled:focus,
 #twikoo .tk-comments .el-button--primary.is-disabled:hover { opacity: 0.2; }
-#twikoo .tk-comments .el-button--primary {
-  color: var(--twikoo-card-bg); border-radius: 0; box-shadow: var(--twikoo-shadow-black);
-  transition: 0.3s; width: 6.25rem; position: absolute; top: -43px; right: 0;
-  margin-left: 0.5rem !important; height: 32px;
-}
 #twikoo .tk-comments .tk-input .el-textarea__inner {
   min-height: 130px !important; border-radius: 0; display: block; resize: vertical;
   padding: 16px 16px 40px 16px; line-height: 1.5; box-sizing: border-box; width: 100%;
-  font-size: inherit; color: var(--twikoo-fontcolor); background-color: var(--twikoo-secondbg);
-  border: 2px solid; transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-size: inherit; color: #363636; background-color: var(--twikoo-secondbg);
+  border: 2px solid #e0e0e0; transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+#twikoo .tk-comments .tk-input .el-textarea__inner:focus { border-color: #a78bfa !important; }
 #twikoo .tk-comments .el-input-group__append,
-#twikoo .tk-comments .el-input-group__prepend { border: none; border-radius: 0; }
+#twikoo .tk-comments .el-input-group__prepend { border-radius: 0; }
 #twikoo .tk-comments .el-input-group--prepend .el-input__inner,
 #twikoo .tk-comments .el-input-group__append { border-left-width: 0 !important; border-radius: 0; }
-#twikoo .tk-comments .tk-meta-input {
-  position: relative; margin-top: 8px; width: calc(100% - 6.875rem);
-}
 #twikoo .tk-comments .tk-row .tk-avatar { display: none; }
 #twikoo .tk-comments .tk-row .tk-col { flex-direction: column-reverse; }
 #twikoo .tk-comments .tk-row.actions {
@@ -279,7 +311,6 @@ twikoo.init({
 @media screen and (max-width: 768px) {
   .OwO .OwO-body { min-width: 260px; }
   .tk-comments .tk-row-actions-start { top: -176px; }
-  #twikoo .tk-comments .tk-submit .el-button--primary { height: 122px; top: -126px; }
   #twikoo .el-textarea__inner {
     background: var(--twikoo-card-bg) !important; overflow: hidden; resize: none !important;
   }
