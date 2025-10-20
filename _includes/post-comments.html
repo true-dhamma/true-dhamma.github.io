@@ -41,9 +41,12 @@ twikoo.init({
 
 <style>
 /* 颜色 */
-:where(#tcomment *) {
-  all: initial;
+#tcomment,
+#tcomment * {
+  all: revert;
+  box-sizing: border-box; /* box-sizing 是个例外，最好手动统一一下，防止布局混乱 */
 }
+
 :root {
   --twikoo-theme-op: #a78bfa23;
   --twikoo-white: #fff;
