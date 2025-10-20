@@ -26,6 +26,8 @@
 
 {% if site.twikoo and page.comments != false  %}
 <br>
+
+
 <div id="tcomment"></div>
 <script src="https://cdn.staticfile.org/twikoo/1.6.40/twikoo.min.js"></script>
 <script>
@@ -37,40 +39,59 @@ twikoo.init({
 });
 </script>
 <style>
-/* 1. 解决昵称、邮箱等标签与输入框高度不一致的问题 */
-.tk-meta-input .tk-col {
-  display: flex;
-  align-items: center; /* 垂直居中对齐 */
+/**
+ * Twikoo 评论插件自定义样式
+ */
+
+/* 需求 1: 使昵称、邮箱等标签和输入框高度一致 */
+#tcomment .tk-meta-input .el-input-group {
+    display: flex; /* 使用 Flexbox 布局来对齐内部元素 */
+    align-items: center; /* 垂直居中对齐 */
+}
+#tcomment .tk-meta-input .el-input-group__prepend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px; /* 自定义一个统一的高度，可根据你的网站风格调整 */
+    box-sizing: border-box; /* 统一盒子模型 */
+}
+#tcomment .tk-meta-input .el-input__inner {
+    height: 36px; /* 与标签高度保持一致 */
+    line-height: 36px; /* 确保文字垂直居中 */
+    box-sizing: border-box;
 }
 
-/* 2. 全局去除圆角，适配您的直角网站风格 */
-#tcomment * {
-  border-radius: 0 !important;
+/* 需求 2: 所有边框不应当用圆角 */
+#tcomment .el-input__inner,
+#tcomment .el-textarea__inner,
+#tcomment .el-button,
+#tcomment .tk-submit,
+#tcomment .tk-comments-container,
+#tcomment .el-input-group__prepend,
+#tcomment .el-input-group__append,
+#tcomment .tk-preview-container {
+    border-radius: 0 !important; /* 强制移除圆角 */
 }
 
-/* 3. 隐藏不需要的功能按钮 */
-/* 隐藏表情和图片按钮 */
-#tcomment .tk-extras {
-  display: none !important;
-}
-/* 隐藏 Markdown 提示(M按钮)和预览按钮 */
-#tcomment .tk-actions .tk-action {
-  display: none !important;
+/* 需求 3: 去掉预览按钮和 Markdown 提示按钮 */
+#tcomment .tk-preview,
+#tcomment .tk-submit-action-icon.__markdown {
+    display: none !important; /* 隐藏这两个按钮 */
 }
 
-/* 4. 调整指定区域的字号 */
-/* 将评论列表区域的所有字号缩小20% */
+/* 需求 4: 从“3条评论”那一行开始，所有字号都缩小20% */
 #tcomment .tk-comments-container {
-  font-size: 80%;
-}
-/* 将主评论框中输入文字的字号缩小20% */
-#tcomment .tk-textarea {
-  font-size: 80%;
+    font-size: 80%; /* 将父容器字号设为原先的80% */
 }
 
-/* 5. 去除右下角的 "Powered by Twikoo" */
+/* 需求 5: 输入框中输入文字的大小也缩小20% */
+#tcomment .tk-submit .el-textarea__inner {
+    font-size: 80%;
+}
+
+/* 需求 6: 去除右下角的 "Powered by Twikoo" */
 #tcomment .tk-footer {
-  display: none !important;
+    display: none !important; /* 隐藏页脚 */
 }
 </style>
 {% endif %}
