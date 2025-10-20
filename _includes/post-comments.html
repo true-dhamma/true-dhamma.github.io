@@ -2,19 +2,6 @@
 <br>
 
 <br>
-<style>
-/* 强制Twikoo评论区样式隔离，避免被页面全局CSS影响 */
-#tcomment {
-  all: initial;
-}
-#tcomment * {
-  all: revert;
-}
-#tcomment {
-  display: block;
-}
-</style>
-
 <div id="tcomment"></div>
 <script src="https://cdn.staticfile.org/twikoo/1.6.40/twikoo.nocss.js"></script>
 <script>
@@ -27,6 +14,60 @@ twikoo.init({
 </script>
 
 <style>
+/* 强制Twikoo评论区样式隔离，避免被页面全局CSS影响 */
+#tcomment {
+  all: initial;
+}
+#tcomment * {
+  all: revert;
+}
+#tcomment {
+  display: block;
+}
+
+/* ====== CSS 重构开始 ====== */
+
+/* 1. 确保 .el-input 容器使用 Flexbox 布局 */
+.tk-meta-input .el-input {
+  display: flex;
+  align-items: center; /* 垂直居中对齐 prepend 文字和 input 输入框 */
+}
+
+/* 2. 统一 prepend 标签和 input 输入框的高度与样式 */
+.tk-meta-input .el-input-group__prepend,
+.tk-meta-input .el-input__inner {
+  height: 40px; /* 您可以根据需要调整这个统一的高度值 */
+  line-height: 40px;
+  box-sizing: border-box; /* 确保 padding 和 border 不会影响最终高度 */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* 3. 修正 prepend 文本的内边距 */
+.tk-meta-input .el-input .el-input-group__prepend {
+  padding: 0 1rem;
+}
+
+/* 4. 修正 input 输入框的内边距和行高 */
+.tk-meta-input .el-input__inner {
+  padding: 0 15px;
+  line-height: 40px; /* 确保与 height 一致 */
+}
+
+/* 5. 确保移动端样式继承正确 */
+@media screen and (max-width: 767px) {
+  .tk-meta-input {
+    flex-direction: column;
+  }
+  .tk-meta-input .el-input {
+    width: 100%; /* 在移动端，让输入框宽度自适应 */
+  }
+  .tk-meta-input .el-input + .el-input {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
+
 /*!
  * Twikoo v1.6.40
  * (c) 2020-2024 iMaeGoo
@@ -75,25 +116,12 @@ twikoo.init({
 .tk-meta-input .el-input + .el-input {
   margin-left: 0.5rem;
 }
-.tk-meta-input .el-input .el-input-group__prepend {
-  padding: 0 1rem;
-}
+/* .tk-meta-input .el-input .el-input-group__prepend 已在上方重构 */
 .tk-meta-input .el-input input:invalid {
   border: 1px solid #f56c6c;
   box-shadow: none;
 }
-@media screen and (max-width: 767px) {
-.tk-meta-input {
-    flex-direction: column;
-}
-.tk-meta-input .el-input {
-    width: auto;
-}
-.tk-meta-input .el-input + .el-input {
-    margin-left: 0;
-    margin-top: 0.5rem;
-}
-}
+/* @media screen and (max-width: 767px) 已在上方重构 */
 
 
 .tk-submit {
@@ -871,116 +899,5 @@ to {
   color: #ffffff;
   background-color: #4a4a4a;
 }
-
-.OwO .OwO-body .OwO-items {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  display: none;
-  padding: 10px;
-  padding-right: 0;
-  margin: 0;
-  overflow: auto;
-  font-size: 0;
-}
-
-.OwO .OwO-body .OwO-items .OwO-item {
-  list-style-type: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  display: inline-block;
-  font-size: 12px;
-  line-height: 14px;
-  cursor: pointer;
-  -webkit-transition: .3s;
-  transition: .3s;
-  text-align: center;
-}
-
-.OwO .OwO-body .OwO-items .OwO-item:hover {
-  background-color: rgba(144,147,153,0.13);
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
-}
-
-.OwO .OwO-body .OwO-items-emoji .OwO-item {
-  font-size: 20px;
-  line-height: 19px;
-}
-
-.OwO .OwO-body .OwO-items-image .OwO-item {
-  width: 14%;
-  box-sizing: border-box;
-}
-
-@media screen and (max-width: 600px) {
-  #twikoo .OwO-items > .OwO-item {
-    width: 16%;
-  }
-}
-
-@media screen and (max-width: 460px) {
-  #twikoo .OwO-items > .OwO-item {
-    width: 20%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #twikoo .OwO-items > .OwO-item {
-    width: 25%;
-  }
-}
-
-@media screen and (max-width: 330px) {
-  #twikoo .OwO-items > .OwO-item {
-    width: 33%;
-  }
-}
-
-
-.OwO .OwO-body .OwO-items-image .OwO-item img {
-  max-width: 100%;
-}
-
-.OwO .OwO-body .OwO-items-show {
-  display: block;
-}
-
-.OwO .OwO-body .OwO-bar {
-  width: 100%;
-  border-top: 1px solid rgba(144,147,153,0.31);
-  border-radius: 0 0 4px 4px;
-}
-
-.OwO .OwO-body .OwO-bar .OwO-packages {
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-}
-
-.OwO .OwO-body .OwO-bar .OwO-packages li {
-  list-style-type: none;
-  display: inline-block;
-  line-height: 30px;
-  font-size: 14px;
-  padding: 0 10px;
-  cursor: pointer;
-  margin-right: 3px;
-}
-
-.OwO .OwO-body .OwO-bar .OwO-packages li:nth-child(1) {
-  border-radius: 0 0 0 3px;
-}
-
-.OwO .OwO-body .OwO-bar .OwO-packages li:hover {
-  background-color: rgba(144,147,153,0.13);
-}
-
-.OwO .OwO-body .OwO-bar .OwO-packages .OwO-package-active {
-  background-color: rgba(144,147,153,0.13);
-  -webkit-transition: .3s;
-  transition: .3s;
-}
-
 </style>
 {% endif %}
