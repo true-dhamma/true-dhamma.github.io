@@ -959,7 +959,13 @@ to {
   transition: .3s;
 }
 `;
+ const styleElement = document.createElement('style');
+
+  styleElement.innerHTML = customCss;
+  document.head.appendChild(styleElement);
+
 })();
+
 
 
 
