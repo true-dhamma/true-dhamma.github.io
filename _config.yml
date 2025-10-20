@@ -73,7 +73,7 @@ permalink: "/:categories/:title/"
 excerpt_separator: "<!-- more -->"
 paginate: 20
 paginate_path: "/blog/page:num"
-livere: true
+livere: false
 twikoo: true
 exclude:
 - README.md
