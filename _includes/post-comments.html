@@ -2,6 +2,19 @@
 <br>
 
 <br>
+<style>
+/* 强制Twikoo评论区样式隔离，避免被页面全局CSS影响 */
+#tcomment {
+  all: initial;
+}
+#tcomment * {
+  all: revert;
+}
+#tcomment {
+  display: block;
+}
+</style>
+
 <div id="tcomment"></div>
 <script src="https://cdn.staticfile.org/twikoo/1.6.40/twikoo.nocss.js"></script>
 <script>
@@ -14,46 +27,11 @@ twikoo.init({
 </script>
 
 <style>
-/* 强制Twikoo评论区样式隔离，避免被页面全局CSS影响 */
-#tcomment {
-  all: initial;
-}
-#tcomment * {
-  all: revert;
-  box-sizing: border-box; /* 统一盒模型，是解决布局问题的基础 */
-}
-#tcomment {
-  display: block;
-}
-
-/* ====== 最终布局修正 ====== */
-
-/* 1. 默认桌面端：设置为 flex 横向布局 */
-#tcomment .tk-meta-input {
-  display: flex;
-  flex-direction: row; /* 关键：确保桌面端是横向排列 */
-  gap: 0.75rem;       /* 设置元素之间的间距 */
-  width: 100%;
-  margin-bottom: 0.5rem;
-}
-
-/* 2. 让每个输入项平分宽度 */
-#tcomment .tk-meta-input .tk-col {
-  flex: 1;
-  min-width: 0; /* 防止 flex 布局中的子元素被过度压缩 */
-}
-
-/* 3. 移动端响应式：当屏幕宽度小于 768px 时，变为竖向排列 */
-@media screen and (max-width: 640px) {
-  #tcomment .tk-meta-input {
-    flex-direction: column; /* 关键：在移动端变为竖向排列 */
-  }
-}
-
-
 /*!
- * Twikoo v1.6.40 (剩余部分为原始样式)
- * ... 
+ * Twikoo v1.6.40
+ * (c) 2020-2024 iMaeGoo
+ * Released under the MIT License.
+ * Last Update: 11/17/2024, 2:31:23 AM
  */
 
 .tk-avatar {
@@ -85,10 +63,38 @@ twikoo.init({
   height: 1.6rem;
 }
 
+
+.tk-meta-input {
+  display: flex;
+}
+.tk-meta-input .el-input {
+  width: auto;
+  width: calc((100% - 1rem) / 3); /* Fix Safari */
+  flex: 1;
+}
+.tk-meta-input .el-input + .el-input {
+  margin-left: 0.5rem;
+}
+.tk-meta-input .el-input .el-input-group__prepend {
+  padding: 0 1rem;
+}
 .tk-meta-input .el-input input:invalid {
   border: 1px solid #f56c6c;
   box-shadow: none;
 }
+@media screen and (max-width: 767px) {
+.tk-meta-input {
+    flex-direction: column;
+}
+.tk-meta-input .el-input {
+    width: auto;
+}
+.tk-meta-input .el-input + .el-input {
+    margin-left: 0;
+    margin-top: 0.5rem;
+}
+}
+
 
 .tk-submit {
   display: flex;
@@ -102,6 +108,9 @@ twikoo.init({
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+.tk-meta-input {
+  margin-bottom: 0.5rem;
 }
 .tk-row.actions {
   position: relative;
