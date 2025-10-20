@@ -61,10 +61,8 @@ twikoo.init({
   --twikoo-shadow-border: 0 8px 16px -4px #2c2d300c;
   --twikoo-theme: #a78bfa;
   --twikoo-green: #57bd6a;
-  /* --- 修改开始 问题1 --- */
-  /* 将原先的 #363636 调整为较浅的灰色，以改变边框、图标和部分文字的颜色 */
+  /* 问题1：将边框、图标等颜色调整为较浅的灰色 */
   --twikoo-fontcolor: #888888;
-  /* --- 修改结束 问题1 --- */
   --twikoo-background: #f7f9fe;
   --twikoo-maskbg: rgba(255, 255, 255, 0.6);
   --twikoo-lighttext: var(--twikoo-theme);
@@ -74,12 +72,10 @@ twikoo.init({
   --twikoo-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
 }
 
-/* --- 修改开始 问题3 --- */
-/* 为整个评论提交区域增加下外边距，拉开与下方“x条评论”标题的距离 */
+/* 问题3：为整个评论提交区域增加下外边距 */
 #twikoo .tk-submit {
   margin-bottom: 25px;
 }
-/* --- 修改结束 问题3 --- */
 
 .OwO .OwO-body {
   min-width: 31.25rem;
@@ -201,60 +197,69 @@ twikoo.init({
   transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#twikoo .tk-comments .el-input__inner {
-  background: var(--twikoo-secondbg) !important;
-  border: none !important;
-  color: var(--twikoo-fontcolor) !important;
-  padding-left: 8px;
-}
-#twikoo .tk-comments .el-input__inner:focus {
-  border: none;
-}
 #twikoo .tk-comments .el-input-group__append,
 #twikoo .tk-comments .el-input-group__prepend {
-  background-color: var(--twikoo-card-bg);
-  color: var(--twikoo-fontcolor);
   border: none;
-  font-weight: 700;
-}
-#twikoo .tk-comments .el-input-group--prepend .el-input__inner,
-#twikoo .tk-comments .el-input-group__append {
   border-radius: 0;
 }
-#twikoo .tk-comments .el-input--small .el-input__inner {
-  padding: 8px;
-  padding-left: 16px;
-}
+
 #twikoo .tk-comments .el-input-group--prepend .el-input__inner,
 #twikoo .tk-comments .el-input-group__append {
   border-left-width: 0 !important;
+  border-radius: 0;
 }
+
 #twikoo .tk-comments .tk-meta-input {
   position: relative;
   margin-top: 8px;
   width: calc(100% - 6.875rem);
 }
 
-/* --- 修改开始 问题2 --- */
-#twikoo
-  .tk-comments
-  .tk-meta-input
-  .el-input.el-input--small.el-input-group.el-input-group--prepend {
+/* --- 问题2：体系化解决输入框对齐问题 --- */
+
+/* 这是每个输入框（昵称、邮箱、网址）的最外层容器 */
+#twikoo .tk-comments .tk-meta-input .el-input.el-input--small.el-input-group.el-input-group--prepend {
   border-radius: 0;
   background: var(--twikoo-secondbg);
-  border: 2px solid;
-  /* 1. 设置与“发送”按钮相同的高度 */
+  /* 明确指定边框颜色，避免继承不确定的颜色 */
+  border: 2px solid #e0e0e0; 
+  /* 1. 设定与“发送”按钮一致的固定高度 */
   height: 32px;
-  /* 2. 使用flex布局让内部元素（如“昵称”和输入框）垂直居中 */
+  /* 2. 声明为 Flex 容器 */
   display: flex;
-  align-items: center;
+  /* 3. 让所有子元素（“昵称”标签和输入框）在垂直方向上居中 */
+  align-items: center; 
+  box-sizing: border-box;
 }
-/* --- 修改结束 问题2 --- */
 
+/* 这是“昵称”、“邮箱”等文字标签 */
 #twikoo .tk-comments .tk-meta-input .el-input .el-input-group__prepend {
   user-select: none;
-  border-radius: 0;
+  font-weight: 700;
+  background-color: var(--twikoo-card-bg);
+  color: #555; /* 为标签使用一个更清晰的颜色 */
+  /* 4. 自身也使用 Flex 来确保内部文字的精确居中 */
+  display: flex;
+  align-items: center;
+  /* 5. 高度撑满父容器，确保背景色占满左侧区域 */
+  height: 100%;
 }
+
+/* 这是用户真正输入文字的 <input> 元素 */
+#twikoo .tk-comments .tk-meta-input .el-input--small .el-input__inner {
+  /* 6. 高度撑满父容器 */
+  height: 100%;
+  /* 7. 移除上下的 padding，对齐交给 Flex；只保留左右的 padding */
+  padding: 0 16px;
+  border: none !important;
+  /* 8. 将背景设置为透明，显示父容器的背景色，从而解决了边框覆盖问题 */
+  background: transparent !important;
+  color: #363636 !important; /* 让输入文字颜色深一些以保证清晰 */
+  /* 重置可能干扰对齐的 line-height */
+  line-height: normal;
+}
+/* --- 修改结束 --- */
+
 
 #twikoo .tk-comments .tk-row .tk-avatar {
   display: none;
@@ -549,7 +554,5 @@ twikoo.init({
   box-shadow: var(--twikoo-shadow-lightblack) !important;
   border-radius: 0;
 }
-
 </style>
-  
 {% endif %}
