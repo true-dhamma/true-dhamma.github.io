@@ -1,17 +1,16 @@
 ---
 title: 佛陀大放光明的关键：解密《发趣论》之24缘
-date: 2025-10-20 11:10:00 +08:00
+date: 2025-10-20T10:10:00+07:00
 categories:
-- 南传上座部佛法
-- 精选
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- 
+  -
 excerpt: 深入解析佛法核心的二十四缘，揭示身心世界运作的秘密，让你不再迷惑。
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_image: /uploads/top_banner_dhamma.jpg
 aside: false
 toc: true
 ---
-
 > ##### Conditional Relations - Sayadaw U Sīlānanda
 >
 > ##### 佛陀大放光明的关键：解密《发趣论》之24缘 - 戒谛尊者 - 摘要
@@ -918,4 +917,4 @@ toc: true
 
 ---
 
-<table><tbody><tr><td><img alt="佛陀大放光明的关键：解密《发趣论》之24缘" width="120" src="/uploads/cover-conditional-relations.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="#" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://sadhu3.com" target="_blank" rel="noopener">[Sadhu3]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="佛陀大放光明的关键：解密《发趣论》之24缘" width="120" src="/uploads/cover-conditional-relations.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E6%9C%AA%E5%88%86%E7%B1%BB%E8%B5%84%E6%96%99/%E4%BD%9B%E9%99%80%E5%A4%A7%E6%94%BE%E5%85%89%E6%98%8E%E7%9A%84%E5%85%B3%E9%94%AE.pdf" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://sadhu3.com" target="_blank" rel="noopener">[Sadhu3]</a></p></td></tr></tbody></table>

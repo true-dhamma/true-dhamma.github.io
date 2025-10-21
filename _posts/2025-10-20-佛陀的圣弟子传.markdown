@@ -555,4 +555,4 @@ toc: true
 
 ---
 
-<table><tbody><tr><td><img alt="佛陀的圣弟子传" width="120" src="/uploads/cover-great-disciples.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="#" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://sadhu3.com/" target="_blank" rel="noopener">[Sadhu3]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="佛陀的圣弟子传" width="120" src="/uploads/cover-great-disciples.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E9%AB%98%E5%83%A7%E5%A4%A7%E5%BE%B7%E4%BC%A0%E8%AE%B0/%E4%BD%9B%E9%99%80%E7%9A%84%E5%9C%A3%E5%BC%9F%E5%AD%90%E4%BC%A02018.pdf" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://sadhu3.com/" target="_blank" rel="noopener">[Sadhu3]</a></p></td></tr></tbody></table>
