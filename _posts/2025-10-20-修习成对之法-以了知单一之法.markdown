@@ -1,16 +1,17 @@
 ---
 title: 修习成对之法，以了知单一之法
-date: 2025-10-20T11:10:00+08:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 隆波帕默尊者
-  - 南传上座部佛法
+- 隆波帕默尊者
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: 通过觉知身心内外不断生灭变化的成对现象，最终亲证那超越对立、不生不灭的唯一实相。
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 toc: true
 ---
+
 > ##### เรียนธรรมคู่เพื่อรู้ธรรมหนึ่ง - พระปราโมทย์ ปาโมชฺโช
 >
 > ##### 修习成对之法，以了知单一之法 - 隆波帕默尊者 - 摘要
