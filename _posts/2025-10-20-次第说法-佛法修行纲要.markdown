@@ -1,16 +1,17 @@
 ---
 title: 次第说法：佛法修行纲要
-date: 2025-10-20T10:10:00+07:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 南传上座部佛法
-  - 精选
+- 南传上座部佛法
+- 精选
 redirect_from:
-  -
+- 
 excerpt: 世间万物皆有其因，如来说其因，亦说其灭。此是伟大沙门之教法。
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 toc: true
 ---
+
 > ##### Dhamma: A Gradual Training - John T. Bullitt
 >
 > ##### 次第说法：佛法修行纲要 - 约翰·T·布利特 (汇编) - 摘要
