@@ -1,17 +1,18 @@
 ---
 title: 省思录：阿姜查不存在
-date: 2025-10-20T11:10:00+08:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 阿姜查尊者
-  - 南传上座部佛法
-  - 精选
+- 阿姜查尊者
+- 南传上座部佛法
+- 精选
 redirect_from:
-  -
+- 
 excerpt: 当一位禅师说“没有阿姜查”时，他究竟在说什么？这本语录集直指人心，引导我们放下执着，回归宁静。
-feature_image: /uploads/top_banner_lotus_artwork.jpg
+feature_image: "/uploads/top_banner_lotus_artwork.jpg"
 aside: false
 toc: true
 ---
+
 > ##### No Ajahn Chah – Reflections - Complied & Edited by Dhamma Garden
 >
 > ##### 省思录：阿姜查不存在 - 达摩园 编纂 - 摘要
