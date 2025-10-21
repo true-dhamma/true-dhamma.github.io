@@ -1,18 +1,17 @@
 ---
 title: 疾病时照顾好自己的心
-date: 2025-10-20 11:10:00 +08:00
+date: 2025-10-20T10:10:00+07:00
 categories:
-- 隆波帕默尊者
-- 生老病死
-- 南传上座部佛法
+  - 隆波帕默尊者
+  - 生老病死
+  - 南传上座部佛法
 redirect_from:
-- 
+  -
 excerpt: 当病痛来临时，佛法为我们揭示了如何守护内心，将身体的苦与心的苦分离开来的智慧。
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_image: /uploads/top_banner_lotus_blue.jpg
 aside: false
 toc: true
 ---
-
 > ##### รักษาใจ ยามเจ็บไข้ - พระธรรมเทศนา หลวงพ่อปราโมทย์ ปาโมชฺโช
 >
 > ##### 疾病时照顾好自己的心 - 隆波帕默尊者 - 摘要
