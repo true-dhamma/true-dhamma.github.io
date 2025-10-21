@@ -120,7 +120,7 @@ navigation_header:
   url: https://download.true-dhamma.com/
 - title: 搜索&提问
   url: "/search/"
-- title: 关于本站
+- title: 关于
   url: "/about/"
 navigation_footer:
 - title: Created by 智宁居士
