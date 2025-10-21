@@ -621,4 +621,4 @@ Idam me puññam asavakkhaya´vaham hotu Idam me puññam nibbānassa paccayo ho
 
 ---
 
-<table><tbody><tr><td><img alt="阿毗达摩实用手册" width="120" src="cover-practical-abhidhamma.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="#" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://sadhu3.com/" target="_blank" rel="noopener">[Sadhu3]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="阿毗达摩实用手册" width="120" src="/uploads/cover-practical-abhidhamma.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="#" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://sadhu3.com/" target="_blank" rel="noopener">[Sadhu3]</a></p></td></tr></tbody></table>
