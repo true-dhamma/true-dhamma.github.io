@@ -1,21 +1,17 @@
 ---
-title: ' '
-date: 2025-10-20T11:10:00+08:00
+title: " "
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 阿姜查尊者
-  - 南传上座部佛法
-  - 精选
+- 阿姜查尊者
+- 南传上座部佛法
+- 精选
 redirect_from:
-  -
-excerpt:
-feature_image: /uploads/top_banner_dhamma.jpg
+- 
+excerpt: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 toc: true
 ---
-
-
-
-
 
 ---
 

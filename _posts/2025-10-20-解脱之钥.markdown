@@ -1,16 +1,17 @@
 ---
 title: 阿姜查法谈：解脱之钥
-date: 2025-10-20T10:10:00+07:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 阿姜查尊者
-  - 南传上座部佛法
+- 阿姜查尊者
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: 一位备受敬仰的禅修大师，以朴实直接的语言，揭示了放下执取、走向内心宁静与解脱的实修之道。
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 toc: true
 ---
+
 > ##### The Key to Liberation - Ajahn Chah
 >
 > ##### 阿姜查法谈：解脱之钥 - 阿姜查尊者
