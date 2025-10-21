@@ -1,16 +1,17 @@
 ---
 title: 亲近释迦牟尼佛：从巴利藏经看佛陀的一生
-date: 2025-10-20T10:10:00+07:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 南传上座部佛法
-  - 精选
+- 南传上座部佛法
+- 精选
 redirect_from:
-  -
+- 
 excerpt: 通过巴利三藏的原始记载，本书真实呈现了佛陀从诞生、觉悟到弘法的一生，带你回归根本，亲近历史上最真实的释迦牟尼佛。
-feature_image: /uploads/top_banner_buddha.jpg
+feature_image: "/uploads/top_banner_buddha.jpg"
 aside: false
 toc: true
 ---
+
 > ##### The Life of The Buddha - Bhikkhu Nanamoli
 >
 > ##### 亲近释迦牟尼佛：从巴利藏经看佛陀的一生 - 髻智比库 - 摘要

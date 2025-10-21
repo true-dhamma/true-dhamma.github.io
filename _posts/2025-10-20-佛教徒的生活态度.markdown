@@ -1,16 +1,17 @@
 ---
 title: 佛教徒的生活态度
-date: 2025-10-20T11:10:00+08:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 生老病死
-  - 南传上座部佛法
+- 生老病死
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: '本书深入剖析生命的苦乐本质，教导如何以佛法智慧正确面对生老病死，过上吉祥安乐的生活。 '
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 toc: true
 ---
+
 > ##### The Buddhist’s Attitude to Life - Bhaddanta Santagavesaka
 >
 > ##### 佛教徒的生活态度 - 觅寂尊者 - 摘要
