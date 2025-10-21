@@ -1,16 +1,17 @@
 ---
 title: 初学者阅读巴利三藏的小贴士
-date: 2025-10-20T10:10:00+07:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 巴利圣典
-  - 南传上座部佛法
+- 巴利圣典
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: 本文为佛法初学者提供了一份详尽的指南，解答了关于巴利三藏为何读、读什么、以及如何读懂的问题。
-feature_image: /uploads/top_banner_tipitaka.jpg
+feature_image: "/uploads/top_banner_tipitaka.jpg"
 aside: false
 toc: true
 ---
+
 > ##### Befriending the Suttas: Tips on Reading the Pali Discourses
 >
 > ##### 初学者阅读巴利三藏的小贴士
