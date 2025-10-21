@@ -1,16 +1,17 @@
 ---
 title: 阿毗达摩轻松谈
-date: 2025-10-20T11:10:00+08:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 阿毗达摩
-  - 南传上座部佛法
+- 阿毗达摩
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: '本书以通俗易懂的语言，将深奥的阿毗达摩教法融入日常生活，揭示心与心所的奥秘，指引读者培育善法，走向内心的平静与智慧。 '
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 toc: true
 ---
+
 > ##### Abhidhamma in Daily Life - Venerable Ashin Janakābhivaṃsa
 >
 > ##### 阿毗达摩轻松谈 - 加纳卡阿毗旺萨尊者 - 摘要
