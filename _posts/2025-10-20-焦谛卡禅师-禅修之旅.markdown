@@ -1,18 +1,18 @@
 ---
 title: 焦谛卡禅师：禅修之旅
-date: 2025-10-20T11:10:00+08:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 正念
-  - 正定
-  - 南传上座部佛法
+- 正念
+- 正定
+- 南传上座部佛法
 redirect_from:
-  -
-excerpt: >-
-  焦谛卡禅师以如地图般精准的指引，系统阐述了毗婆舍那禅修的心理准备、基础技巧，并详解了从名色分别智到行舍智的十六观智次第，为修行者提供了一份清晰详尽的心灵之旅指南。
-feature_image: /uploads/top_banner_mindfulnes.jpg
+- 
+excerpt: 焦谛卡禅师以如地图般精准的指引，系统阐述了毗婆舍那禅修的心理准备、基础技巧，并详解了从名色分别智到行舍智的十六观智次第，为修行者提供了一份清晰详尽的心灵之旅指南。
+feature_image: "/uploads/top_banner_mindfulnes.jpg"
 aside: false
 toc: true
 ---
+
 > ##### A Map of the Journey - Jotika Sayadaw
 >
 > ##### 禅修之旅 - 焦谛卡禅师 - 摘要
