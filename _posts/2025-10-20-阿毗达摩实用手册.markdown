@@ -1,16 +1,17 @@
 ---
 title: 阿毗达摩实用手册
-date: 2025-10-20T11:10:00+08:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 阿毗达摩
-  - 南传上座部佛法
+- 阿毗达摩
+- 南传上座部佛法
 redirect_from:
-  -
-excerpt: "以系统化的方式剖析心与物质，将深奥的佛法融入日常生活与禅修实践。\_"
-feature_image: /uploads/top_banner_dhamma.jpg
+- 
+excerpt: 以系统化的方式剖析心与物质，将深奥的佛法融入日常生活与禅修实践。 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 toc: true
 ---
+
 > ##### A Practical Guide to Abhidhamma - Sayalay Susila
 >
 > ##### 阿毗达摩实用手册 - 善戒法师 - 摘要

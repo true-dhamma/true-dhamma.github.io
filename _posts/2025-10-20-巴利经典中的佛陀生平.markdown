@@ -1,16 +1,17 @@
 ---
 title: 巴利经典中的佛陀生平
-date: 2025-10-20T11:10:00+08:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 南传上座部佛法
-  - 精选
+- 南传上座部佛法
+- 精选
 redirect_from:
-  -
+- 
 excerpt: 无论过去、现在，我讲的只是，苦与苦的止息——追随悉达多王子的足迹，从奢华的宫殿到艰苦的修行，直至证得无上觉醒，亲历佛陀不凡一生的关键时刻。
-feature_image: /uploads/top_banner_buiddha.jpg
+feature_image: "/uploads/top_banner_buiddha.jpg"
 aside: false
 toc: true
 ---
+
 > ##### A Sketch of the Buddha’s Life - Readings from the Pali Canon
 >
 > ##### 巴利经典中的佛陀生平 - 约翰·布列特 编 / 良稹 译
