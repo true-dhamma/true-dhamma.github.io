@@ -1,16 +1,17 @@
 ---
 title: 佛陀大放光明的关键：解密《发趣论》之24缘
-date: 2025-10-20T10:10:00+07:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 南传上座部佛法
-  - 精选
+- 南传上座部佛法
+- 精选
 redirect_from:
-  -
+- 
 excerpt: 深入解析佛法核心的二十四缘，揭示身心世界运作的秘密，让你不再迷惑。
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 toc: true
 ---
+
 > ##### Conditional Relations - Sayadaw U Sīlānanda
 >
 > ##### 佛陀大放光明的关键：解密《发趣论》之24缘 - 戒谛尊者 - 摘要
