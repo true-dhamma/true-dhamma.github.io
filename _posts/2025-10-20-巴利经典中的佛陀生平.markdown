@@ -684,4 +684,4 @@ toc: true
 
 ---
 
-<table><tbody><tr><td><img alt="巴利经典中的佛陀生平" width="120" src="/uploads/cover-great-disciples.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请浏览完整书籍：<br /><a href="http://theravadacn.com/Buddha.htm" target="_blank" rel="noopener">[良稹 - 中文译本]</a><br />原始书籍来源：<br /><a href="https://www.accesstoinsight.org/ptf/buddha.html" target="_blank" rel="noopener">[AccesstoInsight - 英文原文]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img alt="巴利经典中的佛陀生平" width="120" src="/uploads/cover-general-dhamma.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请浏览完整书籍：<br /><a href="http://theravadacn.com/Buddha.htm" target="_blank" rel="noopener">[TheravadaCN 良稹 - 中文译本]</a><br />原始书籍来源：<br /><a href="https://www.accesstoinsight.org/ptf/buddha.html" target="_blank" rel="noopener">[AccesstoInsight - 英文原文]</a></p></td></tr></tbody></table>
