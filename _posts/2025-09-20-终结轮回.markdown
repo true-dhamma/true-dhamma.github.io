@@ -1,14 +1,15 @@
 ---
 title: 终结轮回
-date: 2025-09-20T21:20:00+08:00
+date: 2025-09-20 21:20:00 +08:00
 categories:
-  - 隆塔纳荣萨尊者
-  - 南传上座部佛法
+- 隆塔纳荣萨尊者
+- 南传上座部佛法
 excerpt: 我们一生的修行，并非为了让“我”证得什么，而是为了看清那个试图证悟的“我”本身就是一种生灭的现象。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
+
 > ##### 终结轮回 - 隆塔纳荣萨尊者 - 智宁居士译
 >
 > 无需“我”来干预它们——根本无需卷入其中。既然一切现象都依照其本性自然生灭，那么事实上，我们根本无需卷入其中。

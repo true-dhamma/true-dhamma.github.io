@@ -1,15 +1,16 @@
 ---
 title: 彻底结束吧
-date: 2025-10-20T21:20:00+07:00
+date: 2025-10-20 22:20:00 +08:00
 categories:
-  - 隆塔纳荣萨尊者
-  - 南传上座部佛法
+- 隆塔纳荣萨尊者
+- 南传上座部佛法
 excerpt: 停止用五蕴去造作和执取，就在当下放下那个虚幻的‘我’，彻底终结一切痛苦的根源。
-feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 toc: false
 ---
+
 > ##### Let It End - Luangta Narongsak Kheenalayo
 >
 > ##### 彻底结束吧 - 隆塔纳荣萨尊者 - 摘要
