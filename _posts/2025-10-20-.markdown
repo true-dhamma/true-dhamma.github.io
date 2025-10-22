@@ -1,18 +1,17 @@
 ---
-title: " 阿姜查的教言合集"
-date: 2025-10-20 11:10:00 +08:00
+title: ' 阿姜查的教言合集'
+date: 2025-10-20T11:10:00+08:00
 categories:
-- 阿姜查尊者
-- 南传上座部佛法
-- 精选
+  - 阿姜查尊者
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- 
-excerpt: 阿姜查用简单直接的语言，揭示了通往内心平静与解脱的实修之道。
-feature_image: "/uploads/top_banner_dhamma.jpg"
+  -
+excerpt: 阿姜查八本法宝书的合集，尊者用简单直接的语言，揭示了通往内心平静与解脱的实修之道。
+feature_image: /uploads/top_banner_colorful.jpg
 aside: false
 toc: true
 ---
-
 > ##### The Teachings of Ajahn Chah - Ajahn Chah
 >
 > ##### 阿姜查的教言合集 - 阿姜查
@@ -25,13 +24,13 @@ toc: true
 
 这本阿姜查的教言合集收录了以下法宝书：
 
-* 《觉悟之智》（Bodhinyana, 1982）
+* 《菩提之智》（Bodhinyana, 1982）
 * 《自由的滋味》（A Taste of Freedom, 第五版, 2002）
-* 《活在法中》（Living Dhamma, 1992）
+* 《活出佛法》（Living Dhamma, 1992）
 * 《心的食粮》（Food for the Heart, 1992）
 * 《通往和平之路》（The Path to Peace, 1996）
 * 《洞见的清明》（Clarity of Insight, 2000）
-* 《不动摇的寂静》（Unshakeable Peace, 2003）
+* 《不动摇的平静》（Unshakeable Peace, 2003）
 * 《一切都在教导我们》（Everything is Teaching Us, 2004）
 
 我们希望这本阿姜查教言合集的编纂工作能为读者带来利益。（法光比丘与探法比丘）
