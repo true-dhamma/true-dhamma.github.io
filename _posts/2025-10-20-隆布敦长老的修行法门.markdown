@@ -1,18 +1,17 @@
 ---
 title: 隆布敦长老的修行法门
-date: 2025-10-20 11:10:00 +08:00
+date: 2025-10-20T11:10:00+08:00
 categories:
-- 隆波帕默尊者
-- 南传上座部佛法
-- 精选
+  - 隆波帕默尊者
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- 
+  -
 excerpt: 直接从“心”下手，了知四圣谛，这是离苦的快捷方式。
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_image: /uploads/top_banner_calm.jpg
 aside: false
 toc: true
 ---
-
 > ##### The Practice Guideline of Phra Rajavuddhācārya (Luang Pu Dun Atulo) - Luangpor Pramote Pamojjo
 >
 > ##### 隆布敦长老的修行法门 - 隆波帕默尊者 - 摘要
