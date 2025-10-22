@@ -1,16 +1,15 @@
 ---
 title: 心的资粮：阿姜查教导合集
-date: 2025-09-14 02:15:00 +08:00
+date: 2025-09-14T02:15:00+08:00
 categories:
-- 阿姜查尊者
-- 南传上座部佛法
-- 精选
+  - 阿姜查尊者
+  - 南传上座部佛法
+  - 精选
 excerpt: 阿姜查用最质朴的语言和生活中的譬喻，直指苦的根源与灭苦之道，帮助我们培育一颗觉醒、清净、安稳的心。
-feature_text: 
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_text:
+feature_image: /uploads/top_banner_lotus_5.jpg
 aside: false
 ---
-
 > ##### Food for the Heart: **The Collected Teachings of Ajahn Chah** - Ajahn Chah
 >
 > ##### 心的资粮：阿姜查教导合集 - 阿姜查尊者
@@ -885,7 +884,7 @@ aside: false
 
 **正见**，即了知一切皆**不确定**。圣者们虽接触万物，却不执取。
 
-#### gauging our practice
+#### 审视我们的修行
 
 衡量自己修行的标准之一，是看我们是否还存有**“我慢”**——认为自己比人强、与人等同或比人差。这些都是邪见。
 
