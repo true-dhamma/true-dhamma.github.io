@@ -1,11 +1,10 @@
 ---
 title: 关于
-feature_text: 
-feature_image: "/uploads/top_banner_about.jpg"
-excerpt: 
+feature_text:
+feature_image: /uploads/top_banner_about.jpg
+excerpt:
 aside: true
 ---
-
 ### **缘起**
 
 为了便利自己的修行，也为了增上他人的精进……或者什么也不为了，只是在感慨中文佛陀教法的匮乏之际，心血来潮般地使用30年网页技术，造作出了这个小网站。就让它安静的呆在这里，不与五欲的喧闹争锋。
@@ -37,13 +36,11 @@ aside: true
 
 ### **版权**
 
-本站翻译、摘要的书籍、文章，其**原著版权归原作者所有**，相关摘要只供读者了解书籍概况之用，不能代替原始书籍。本站亦在每一篇摘要下方提供完整书籍（如有）的购买链接（如有）。
+**关于本站原创内容：**由**智宁居士（Upāsaka Zhining - Santipaññā）撰写的原创作品**，以及**已获得原作者授权**或**巴利三藏等公共领域著作**的**中文翻译作品**，其著作权归属智宁居士所有。这些内容采用 [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"} 协议进行许可，您可以在**注明作者、注明链接、注明出处、非商业**的前提下免费分发、转载、编辑、使用。[![CC-BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"}
 
-本站翻译的整本书籍，均为公开版权内容，其**原著版权归原作者所有**，**中文翻译版权归本站所有**。
+**关于本站翻译、摘要而成的导读、推荐类文章：**这类文章大多基于在中文世界尚无译本、亦无明确版权代理方的优秀外文出版物或电子书而创作。这些外文作品因语言和文化的隔阂，如同被埋没了上千年的《圣典一样》，长期没有受到中文世界读者的了解和重视。我们的初衷，旨在合理使用这些优秀外文著作，促进知识和思想的传播。本站属于非盈利性网站，以学习、研究和修行之目的，将这些优秀外文著作翻译、摘要，以导读文章的形式推荐给中文读者，以期激发更广泛的思考与实践，并为这些优秀的外文著作在华语世界拓展潜在的影响力。我们已在所有相关文章中清晰注明原作者、原书名，并在文章末尾提供了购买或下载链接，鼓励有能力阅读外文书籍的读者通过合适渠道购买或下载原著。
 
-本站发布的原创文章及书籍、著作，其**版权归本站所有**。
-
-本站的所有内容，均为供读者**学习、研究、修行**之目的，其版权采用[知识共享署名-非商业性使用-相同方式共享 4.0（CC-BY-NY-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"} 协议。您可以在**注明作者、注明链接、注明出处、非商业**的前提下免费分发、转载、编辑、使用。<br>[![CC-BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"}
+**权利人联络：**尽管我们相信本站的使用方式符合“合理使用”的原则，但我们仍然充分尊重版权所有人的权益。如果您是相关作品的版权持有人，并认为本站的文章对您的权益构成了超乎合理使用范围之外的影响，请随时通过Email与我们联系。
 
 ### 致谢
 
