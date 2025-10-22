@@ -1,11 +1,10 @@
 ---
 title: 关于
-feature_text: 
-feature_image: "/uploads/top_banner_about.jpg"
-excerpt: 
+feature_text:
+feature_image: /uploads/top_banner_about.jpg
+excerpt:
 aside: true
 ---
-
 ### **缘起**
 
 为了便利自己的修行，也为了增上他人的精进……或者什么也不为了，只是在感慨中文佛陀教法的匮乏之际，心血来潮般地使用30年网页技术，造作出了这个小网站。就让它安静的呆在这里，不与五欲的喧闹争锋。
@@ -29,7 +28,7 @@ aside: true
 本站为皈依南传上座部佛教的**智宁居士**（Upāsaka Zhining - Santipaññā）建立的非营利性站点。收录的内容包括：
 
 * 以**巴利语**写成的《巴利圣典》及注释书；
-* 以**英语、泰语、中文**写成的**佛法**及**心理学**作品
+* 以**英语、泰语、中文**写成的**佛法**及**心理学**作品；
 * **上座部高僧大德**与**杰出学者**公开发表的开示与论著；
 * 智宁居士本人撰写的佛法及心理学著作。
 
@@ -37,7 +36,7 @@ aside: true
 
 ### **版权**
 
-本站翻译、摘要的书籍、文章，其**版权归原作者所有**，相关摘要只供读者了解书籍概况之用，本站亦在每一篇摘要下方提供完整书籍（如有）的购买链接。
+本站翻译、摘要的书籍、文章，其**原著版权归原作者所有**，相关摘要只供读者了解书籍概况之用，不能代替原始书籍。本站亦在每一篇摘要下方提供完整书籍（如有）的购买链接。
 
 本站翻译的整本书籍，均为公开版权内容，其**原著版权归原作者所有**，**中文翻译版权归本站所有**。
 
@@ -47,7 +46,7 @@ aside: true
 
 ### 致谢
 
-本站所使用服务器由[Cloudflare](https://www.cloudflare.com/){: target="_blank" rel="noopener"}、[GitHub](https://github.com/){: target="_blank" rel="noopener"}、[Google](https://gemini.google.com){: target="_blank" rel="noopener"}、[CloudCannon](https://cloudcannon.com){: target="_blank" rel="noopener"}等互联网厂商免费提供，所使用的技术亦由[Jekyll](https://jekyllrb.com/){: target="_blank" rel="noopener"}、[Albemic](https://alembic.darn.es/){: target="_blank" rel="noopener"}、[Calibre](https://calibre-ebook.com/){: target="_blank" rel="noopener"}、[Twikoo](https://twikoo.js.org/){: target="_blank" rel="noopener"}等开源软件支撑。这并非为了节省资金，而是为了避免因复杂续费问题而造成的资料遗失。这些**软件及服务提供者的布施行为**，堪比[赛博佛菩萨](https://zhuanlan.zhihu.com/p/690622926){: target="_blank" rel="noopener"}，不仅使得本站得以长久存续，亦使世人相信**乐善好施的品行**始终存在。
+本站所使用服务器由[Cloudflare](https://www.cloudflare.com/){: target="_blank" rel="noopener"}、[GitHub](https://github.com/){: target="_blank" rel="noopener"}、[Gemini](https://gemini.google.com){: target="_blank" rel="noopener"}、[Azure](https://azure.com){: target="_blank" rel="noopener"}、[CloudCannon](https://cloudcannon.com){: target="_blank" rel="noopener"}等互联网厂商免费提供，所使用的技术亦由[Jekyll](https://jekyllrb.com/){: target="_blank" rel="noopener"}、[Albemic](https://alembic.darn.es/){: target="_blank" rel="noopener"}、[Calibre](https://calibre-ebook.com/){: target="_blank" rel="noopener"}、[Twikoo](https://twikoo.js.org/){: target="_blank" rel="noopener"}等开源软件支撑。这并非为了节省资金，而是为了避免因复杂续费问题而造成的资料遗失。这些**软件及服务提供者的布施行为**，堪比[赛博佛菩萨](https://zhuanlan.zhihu.com/p/690622926){: target="_blank" rel="noopener"}，不仅使得本站得以长久存续，亦使世人相信**乐善好施的品行**始终存在。
 
 本站亦**不以任何商业目的**而建立，其存在旨在让**南传上座部佛法的中文内容生态得以丰富**，**在动荡的世间，为华人修行者保存一条觉悟与解脱的道迹**。
 
