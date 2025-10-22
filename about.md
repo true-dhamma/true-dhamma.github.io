@@ -37,7 +37,7 @@ aside: true
 
 ### **版权**
 
-**关于本站原创内容：**由**智宁居士（Upāsaka Zhining - Santipaññā）撰写的原创作品**，以及**已获得原作者授权**或**巴利三藏等公共领域著作**的**中文翻译作品**，其著作权归属智宁居士所有。这些内容采用 [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"} 协议进行许可，您可以在**注明作者、注明链接、注明出处、非商业**的前提下免费分发、转载、编辑、使用。[![CC-BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"}
+**关于本站原创内容：**由**智宁居士（Upāsaka Zhining - Santipaññā）撰写的原创作品**，以及**已获得原作者授权**或**巴利三藏等公共领域著作**的**中文翻译作品**，其著作权归属智宁居士所有。这些内容采用 [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"} 协议进行许可，您可以在**注明作者、注明链接、注明出处、非商业**的前提下免费分发、转载、编辑、使用。<br>[![CC-BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"}
 
 **关于本站翻译、摘要而成的导读、推荐类文章：**这类文章大多基于**在中文世界尚无译本、亦无明确版权代理方的优秀外文出版物或电子书**而创作。这些外文作品因语言和文化的隔阂，如同被埋没了上千年的《巴利圣典》一样，长期没有受到中文世界读者的了解和重视。我们的初衷，旨在**合理使用这些优秀外文著作，促进知识和思想的传播**。本站属于**非盈利性**网站，以**学习、研究和修行**之目的，将这些优秀外文著作以**导读文章**的形式推荐给中文读者，以期激发更广泛的**思考与实践**，并拓展这些外文著作在华语世界的潜在影响力。我们已在所有相关文章中清晰注明原作者、原书名，并在文章末尾提供了购买或下载链接，鼓励有能力阅读外文书籍的读者通过合适渠道购买或下载原著。
 
