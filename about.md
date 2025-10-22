@@ -1,11 +1,10 @@
 ---
 title: 关于
-feature_text: 
-feature_image: "/uploads/top_banner_about.jpg"
-excerpt: 
+feature_text:
+feature_image: /uploads/top_banner_about.jpg
+excerpt:
 aside: true
 ---
-
 ### **缘起**
 
 为了便利自己的修行，也为了增上他人的精进……或者什么也不为了，只是在感慨中文佛陀教法的匮乏之际，心血来潮般地使用30年网页技术，造作出了这个小网站。就让它安静的呆在这里，不与五欲的喧闹争锋。
@@ -29,23 +28,23 @@ aside: true
 本站为皈依南传上座部佛教的**智宁居士**（Upāsaka Zhining - Santipaññā）建立的非营利性站点。收录的内容包括：
 
 * 以**巴利语**写成的《巴利圣典》及注释书；
-* 以**英语、泰语、中文**写成的**佛法**及**心理学**作品；
-* **上座部高僧大德**与**杰出学者**公开发表的开示与论著；
-* 智宁居士本人撰写的佛法及心理学著作。
+* 以**英语、泰语等外语**写成的**佛法**及**心理学**作品的中文导读；
+* **上座部高僧大德**与**杰出学者**公开发表的开示与论著的中文翻译；
+* 智宁居士本人撰写的佛法及心理学文章与书籍。
 
-本站内容主要源自**外文世界的书籍、文章与音视频资料**，由智宁居士在原作的基础上，汇编、翻译、摘要、整理成简体中文。其中约六成内容，**系首次以简体中文形式与读者见面**。这些资料曾对本人的研学修行甚有助益，因**不忍独享**，现将资料整理公开，供有兴趣的读者参考。
+本站内容主要源自**外文世界的书籍、文章与音视频资料**，由智宁居士在原作的基础上，汇编、翻译、摘要、整理成中文导读推荐。其中约2/3的内容，**系首次以简体中文形式与读者见面**。这些资料曾对本人的研学修行甚有助益，因不忍独享，现将资料整理公开，供有兴趣的读者参考。
 
 ### **版权**
 
 **关于本站原创内容：**由**智宁居士（Upāsaka Zhining - Santipaññā）撰写的原创作品**，以及**已获得原作者授权**或**巴利三藏等公共领域著作**的**中文翻译作品**，其著作权归属智宁居士所有。这些内容采用 [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"} 协议进行许可，您可以在**注明作者、注明链接、注明出处、非商业**的前提下免费分发、转载、编辑、使用。[![CC-BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"}
 
-**关于本站翻译、摘要而成的导读、推荐类文章：**这类文章大多基于在中文世界尚无译本、亦无明确版权代理方的优秀外文出版物或电子书而创作。这些外文作品因语言和文化的隔阂，如同被埋没了上千年的《圣典一样》，长期没有受到中文世界读者的了解和重视。我们的初衷，旨在合理使用这些优秀外文著作，促进知识和思想的传播。本站属于非盈利性网站，以学习、研究和修行之目的，将这些优秀外文著作翻译、摘要，以导读文章的形式推荐给中文读者，以期激发更广泛的思考与实践，并为这些优秀的外文著作在华语世界拓展潜在的影响力。我们已在所有相关文章中清晰注明原作者、原书名，并在文章末尾提供了购买或下载链接，鼓励有能力阅读外文书籍的读者通过合适渠道购买或下载原著。
+**关于本站翻译、摘要而成的导读、推荐类文章：**这类文章大多基于**在中文世界尚无译本、亦无明确版权代理方的优秀外文出版物或电子书**而创作。这些外文作品因语言和文化的隔阂，如同被埋没了上千年的《巴利圣典》一样，长期没有受到中文世界读者的了解和重视。我们的初衷，旨在**合理使用这些优秀外文著作，促进知识和思想的传播**。本站属于**非盈利性**网站，以**学习、研究和修行**之目的，将这些优秀外文著作以**导读文章**的形式推荐给中文读者，以期激发更广泛的**思考与实践**，并拓展这些外文著作在华语世界的潜在影响力。我们已在所有相关文章中清晰注明原作者、原书名，并在文章末尾提供了购买或下载链接，鼓励有能力阅读外文书籍的读者通过合适渠道购买或下载原著。
 
-**权利人联络：**尽管我们相信本站的使用方式符合“合理使用”的原则，但我们仍然充分尊重版权所有人的权益。如果您是相关作品的版权持有人，并认为本站的文章对您的权益构成了超乎合理使用范围之外的影响，请随时通过Email与我们联系。
+**权利人联络：**尽管我们相信本站的使用方式符合“合理使用”的原则，但我们仍然**充分尊重版权所有人的权益**。如果您是相关作品的版权持有人，并认为本站的文章对您的权益构成了超乎合理使用范围之外的影响，请**随时通过Email与我们联系**。
 
 ### 致谢
 
-本站所使用服务器由[Cloudflare](https://www.cloudflare.com/){: target="_blank" rel="noopener"}、[GitHub](https://github.com/){: target="_blank" rel="noopener"}、[Gemini](https://gemini.google.com){: target="_blank" rel="noopener"}、[Azure](https://azure.com){: target="_blank" rel="noopener"}、[CloudCannon](https://cloudcannon.com){: target="_blank" rel="noopener"}等互联网厂商免费提供，所使用的技术亦由[Jekyll](https://jekyllrb.com/){: target="_blank" rel="noopener"}、[Albemic](https://alembic.darn.es/){: target="_blank" rel="noopener"}、[Calibre](https://calibre-ebook.com/){: target="_blank" rel="noopener"}、[Twikoo](https://twikoo.js.org/){: target="_blank" rel="noopener"}等开源软件支撑。这并非为了节省资金，而是为了避免因复杂续费问题而造成的资料遗失。这些**软件及服务提供者的布施行为**，堪比[赛博佛菩萨](https://zhuanlan.zhihu.com/p/690622926){: target="_blank" rel="noopener"}，不仅使得本站得以长久存续，亦使世人相信**乐善好施的品行**始终存在。
+本站所使用服务器由[Cloudflare](https://www.cloudflare.com/){: target="_blank" rel="noopener"}、[GitHub](https://github.com/){: target="_blank" rel="noopener"}、[Gemini](https://gemini.google.com){: target="_blank" rel="noopener"}、[Azure](https://azure.com){: target="_blank" rel="noopener"}、[CloudCannon](https://cloudcannon.com){: target="_blank" rel="noopener"}等互联网厂商**免费**提供，所使用的技术亦由[Jekyll](https://jekyllrb.com/){: target="_blank" rel="noopener"}、[Albemic](https://alembic.darn.es/){: target="_blank" rel="noopener"}、[Calibre](https://calibre-ebook.com/){: target="_blank" rel="noopener"}、[Twikoo](https://twikoo.js.org/){: target="_blank" rel="noopener"}等**开源**软件支撑。这并非为了节省资金，而是为了避免因复杂续费问题而造成的资料遗失。这些**软件及服务提供者的布施行为**，堪比[赛博佛菩萨](https://zhuanlan.zhihu.com/p/690622926){: target="_blank" rel="noopener"}，不仅使得本站得以长久存续，亦使世人相信**乐善好施的品行**始终存在。
 
 本站亦**不以任何商业目的**而建立，其存在旨在让**南传上座部佛法的中文内容生态得以丰富**，**在动荡的世间，为华人修行者保存一条觉悟与解脱的道迹**。
 
