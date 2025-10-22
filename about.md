@@ -1,11 +1,10 @@
 ---
 title: 关于
-feature_text: 
-feature_image: "/uploads/top_banner_about.jpg"
-excerpt: 
+feature_text:
+feature_image: /uploads/top_banner_about.jpg
+excerpt:
 aside: true
 ---
-
 ### **缘起**
 
 为了便利自己的修行，也为了增上他人的精进……或者什么也不为了，只是在感慨中文佛陀教法的匮乏之际，心血来潮般地使用30年网页技术，造作出了这个小网站。就让它安静的呆在这里，不与五欲的喧闹争锋。
@@ -47,7 +46,7 @@ aside: true
 
 ### 致谢
 
-本站所使用服务器由[Cloudflare](https://www.cloudflare.com/){: target="_blank" rel="noopener"}、[GitHub](https://github.com/){: target="_blank" rel="noopener"}、[Google](https://gemini.google.com){: target="_blank" rel="noopener"}、[CloudCannon](https://cloudcannon.com){: target="_blank" rel="noopener"}等互联网厂商免费提供，所使用的技术亦由[Jekyll](https://jekyllrb.com/){: target="_blank" rel="noopener"}、[Albemic](https://alembic.darn.es/){: target="_blank" rel="noopener"}、[Twikoo](https://twikoo.js.org/){: target="_blank" rel="noopener"}等开源软件支撑。这并非为了节省资金，而是为了避免因复杂续费问题而造成的资料遗失。这些**软件及服务提供者的布施行为**，堪比[当代佛菩萨](https://zhuanlan.zhihu.com/p/690622926){: target="_blank" rel="noopener"}，不仅使得本站得以长久存续，亦使世人相信**乐善好施的品行**始终存在。
+本站所使用服务器由[Cloudflare](https://www.cloudflare.com/){: target="_blank" rel="noopener"}、[GitHub](https://github.com/){: target="_blank" rel="noopener"}、[Google](https://gemini.google.com){: target="_blank" rel="noopener"}、[CloudCannon](https://cloudcannon.com){: target="_blank" rel="noopener"}等互联网厂商免费提供，所使用的技术亦由[Jekyll](https://jekyllrb.com/){: target="_blank" rel="noopener"}、[Albemic](https://alembic.darn.es/){: target="_blank" rel="noopener"}、[Calibre](https://calibre-ebook.com/){: target="_blank" rel="noopener"}、[Twikoo](https://twikoo.js.org/){: target="_blank" rel="noopener"}等开源软件支撑。这并非为了节省资金，而是为了避免因复杂续费问题而造成的资料遗失。这些**软件及服务提供者的布施行为**，堪比[赛博佛菩萨](https://zhuanlan.zhihu.com/p/690622926){: target="_blank" rel="noopener"}，不仅使得本站得以长久存续，亦使世人相信**乐善好施的品行**始终存在。
 
 本站亦**不以任何商业目的**而建立，其存在旨在让**南传上座部佛法的中文内容生态得以丰富**，**在动荡的世间，为华人修行者保存一条觉悟与解脱的道迹**。
 
