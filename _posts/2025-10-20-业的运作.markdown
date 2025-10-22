@@ -1,17 +1,16 @@
 ---
 title: 业的运作
-date: 2025-10-20 11:10:00 +08:00
+date: 2025-10-20T11:10:00+08:00
 categories:
-- 业力与命运
-- 南传上座部佛法
+  - 业力与命运
+  - 南传上座部佛法
 redirect_from:
-- 
+  -
 excerpt: 深入剖析佛法中业的运作机制，揭示从凡夫流转轮回直至最终解脱的完整路径。
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_image: /uploads/top_banner_lotus_simple.jpg
 aside: false
 toc: true
 ---
-
 > ##### The Workings of Kamma - Pa-Auk Sayadaw
 >
 > ##### 业的运作 - 帕奥西亚多 - 摘要
@@ -201,7 +200,23 @@ toc: true
 
 ##### **表1：果报心**
 
-<table><thead><tr><td><p><th style="text-align: left">心所属的界</th>       <th style="text-align: left">果报</th>       <th style="text-align: left">因</th>       <th style="text-align: left">数量 (种)</th>     </p></td></tr></thead><tbody><tr><td><p><td style="text-align: left">欲界</td>       <td style="text-align: left">不善</td>       <td style="text-align: left">无因</td>       <td style="text-align: left">7</td>     </p></td></tr><tr><td><p><td style="text-align: left">欲界</td>       <td style="text-align: left">善</td>       <td style="text-align: left">无因</td>       <td style="text-align: left">8</td>     </p></td></tr><tr><td><p><td style="text-align: left">欲界</td>       <td style="text-align: left">善</td>       <td style="text-align: left">有因</td>       <td style="text-align: left">8</td>     </p></td></tr><tr><td><p><td style="text-align: left">色界</td>       <td style="text-align: left">善</td>       <td style="text-align: left">有因</td>       <td style="text-align: left">5</td>     </p></td></tr><tr><td><p><td style="text-align: left">无色界</td>       <td style="text-align: left">善</td>       <td style="text-align: left">有因</td>       <td style="text-align: left">4</td>     </p></td></tr><tr><td><p><td style="text-align: left">出世间</td>       <td style="text-align: left">善</td>       <td style="text-align: left">有因</td>       <td style="text-align: left">4</td>     </p></td></tr><tr><td><p><td style="text-align: left"><strong>总计</strong></td>       <td style="text-align: left">&nbsp;</td>       <td style="text-align: left">&nbsp;</td>       <td style="text-align: left"><strong>36</strong></td>     </p></td></tr></tbody></table>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<table><thead><tr><td><p></p></td><th style="text-align: left">心所属的界</th>       <th style="text-align: left">果报</th>       <th style="text-align: left">因</th>       <th style="text-align: left">数量 (种)</th>     </tr></thead><tbody><tr><td><p></p></td><td style="text-align: left">欲界</td>       <td style="text-align: left">不善</td>       <td style="text-align: left">无因</td>       <td style="text-align: left">7</td>     </tr><tr><td><p></p></td><td style="text-align: left">欲界</td>       <td style="text-align: left">善</td>       <td style="text-align: left">无因</td>       <td style="text-align: left">8</td>     </tr><tr><td><p></p></td><td style="text-align: left">欲界</td>       <td style="text-align: left">善</td>       <td style="text-align: left">有因</td>       <td style="text-align: left">8</td>     </tr><tr><td><p></p></td><td style="text-align: left">色界</td>       <td style="text-align: left">善</td>       <td style="text-align: left">有因</td>       <td style="text-align: left">5</td>     </tr><tr><td><p></p></td><td style="text-align: left">无色界</td>       <td style="text-align: left">善</td>       <td style="text-align: left">有因</td>       <td style="text-align: left">4</td>     </tr><tr><td><p></p></td><td style="text-align: left">出世间</td>       <td style="text-align: left">善</td>       <td style="text-align: left">有因</td>       <td style="text-align: left">4</td>     </tr><tr><td><p></p></td><td style="text-align: left"><strong>总计</strong></td>       <td style="text-align: left">&nbsp;</td>       <td style="text-align: left">&nbsp;</td>       <td style="text-align: left"><strong>36</strong></td>     </tr></tbody></table>
 
 #### **不善业与善业**
 

@@ -1,19 +1,18 @@
 ---
 title: 福德·业·地狱与天堂：选择权在你手上
-date: 2025-08-17 10:10:00 +08:00
+date: 2025-08-17T10:10:00+08:00
 categories:
-- 巴育陀尊者
-- 业力与命运
-- 南传上座部佛法
+  - 巴育陀尊者
+  - 业力与命运
+  - 南传上座部佛法
 redirect_from:
-- "/业力与命运/南传上座部佛法/2025/08/17/福德-业-地狱与天堂-选择权在你手上/"
-- "/业力与命运/南传上座部佛法/福德-业-地狱与天堂-选择权在你手上/  Updated just now"
+  - /业力与命运/南传上座部佛法/2025/08/17/福德-业-地狱与天堂-选择权在你手上/
+  - /业力与命运/南传上座部佛法/福德-业-地狱与天堂-选择权在你手上/  Updated just now
 excerpt: 深入浅出地阐释佛教的核心法则——业，帮助现代人破除迷信与误解，理智地掌握自己的命运。
-feature_text: 
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_text:
+feature_image: /uploads/top_banner_lotus_simple.jpg
 aside: false
 ---
-
 > ##### Merit, Kamma, Heaven & Hell: The Choice is Yours - P.A. Payutto
 >
 > ##### 福德·业·地狱与天堂：选择权在你手上 - 巴育陀尊者 - 摘要

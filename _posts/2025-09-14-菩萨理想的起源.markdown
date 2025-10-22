@@ -1,15 +1,14 @@
 ---
 title: 菩萨理想的起源
-date: 2025-09-14 02:15:00 +08:00
+date: 2025-09-14T02:15:00+08:00
 categories:
-- 慈悲喜舍
-- 西方世界的佛法
+  - 慈悲喜舍
+  - 西方世界的佛法
 excerpt: 揭示“菩萨”这一概念是如何从一个为自我解脱而修行的个体，逐步演变为一个承载着誓愿、授记与救世情怀的伟大理想。
-feature_text: 
-feature_image: "/uploads/top_banner_metta.jpg"
+feature_text:
+feature_image: /uploads/top_banner_friends.jpg
 aside: false
 ---
-
 > ##### The Genesis of the Bodhisattva Ideal - Anālayo
 >
 > ##### 菩萨理想的起源 - 无着比丘（Anālayo）
