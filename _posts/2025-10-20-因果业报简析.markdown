@@ -1,16 +1,17 @@
 ---
 title: 因果业报简析
-date: 2025-10-20T11:10:00+08:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 业力与命运
-  - 南传上座部佛法
+- 业力与命运
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: 佛陀揭示了众生贫富、寿夭、美丑、智愚等差异背后的根本法则——业力，为我们指明了离苦得乐的道路。
-feature_image: /uploads/top_banner_lotus_simple.jpg
+feature_image: "/uploads/top_banner_lotus_simple.jpg"
 aside: false
 toc: true
 ---
+
 > ##### The Short Analysis of Kamma - Venerable Mahathera Nauyane Ariyadhamma
 >
 > ##### 因果业报简析 - Nauyane Ariyadhamma大长老 - 摘要

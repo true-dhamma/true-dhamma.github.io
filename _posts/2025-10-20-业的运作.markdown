@@ -1,16 +1,17 @@
 ---
 title: 业的运作
-date: 2025-10-20T11:10:00+08:00
+date: 2025-10-20 11:10:00 +08:00
 categories:
-  - 业力与命运
-  - 南传上座部佛法
+- 业力与命运
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: 深入剖析佛法中业的运作机制，揭示从凡夫流转轮回直至最终解脱的完整路径。
-feature_image: /uploads/top_banner_lotus_simple.jpg
+feature_image: "/uploads/top_banner_lotus_simple.jpg"
 aside: false
 toc: true
 ---
+
 > ##### The Workings of Kamma - Pa-Auk Sayadaw
 >
 > ##### 业的运作 - 帕奥西亚多 - 摘要
