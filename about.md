@@ -1,10 +1,11 @@
 ---
 title: 关于
-feature_text:
-feature_image: /uploads/top_banner_tree_green.jpg
-excerpt:
+feature_text: 
+feature_image: "/uploads/top_banner_tree_green.jpg"
+excerpt: 
 aside: true
 ---
+
 ### **缘起**
 
 为了便利自己的修行，也为了增上他人的精进……或者什么也不为了，只是在感慨中文佛陀教法的匮乏之际，心血来潮般地使用30年网页技术，造作出了这个小网站。就让它安静的呆在这里，不与五欲的喧闹争锋。
