@@ -1,16 +1,17 @@
 ---
 title: 觉知之心：阿姜放的教导
-date: 2025-10-19T11:10:00+07:00
+date: 2025-10-19 12:10:00 +08:00
 categories:
-  - 高僧大德
-  - 南传上座部佛法
+- 高僧大德
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: 一位林居禅师的智慧法语，直指清净的觉知之心，教你如何在喧嚣世间安住于当下。
-feature_image: /uploads/top_banner_green.jpg
+feature_image: "/uploads/top_banner_green.jpg"
 aside: false
 toc: true
 ---
+
 > ##### **Awareness Itself: Teachings of Ajaan Fuang Jotiko - Thanissaro Bhikkhu**
 >
 > ##### 觉知之心：阿姜放的教导 - 坦尼沙罗尊者
