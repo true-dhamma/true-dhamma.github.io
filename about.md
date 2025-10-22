@@ -43,7 +43,7 @@ aside: true
 
 本站发布的原创文章及书籍、著作，其**版权归本站所有**。
 
-本站的所有内容，均为供读者**学习、研究、修行**之目的，其版权采用[知识共享署名-非商业性使用-相同方式共享 4.0（CC-BY-NY-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"} 协议。您可以在**注明作者、注明链接、注明出处、非商业**的前提下免费分发、转载、编辑、使用。[![CC-BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"}
+本站的所有内容，均为供读者**学习、研究、修行**之目的，其版权采用[知识共享署名-非商业性使用-相同方式共享 4.0（CC-BY-NY-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"} 协议。您可以在**注明作者、注明链接、注明出处、非商业**的前提下免费分发、转载、编辑、使用。<br>[![CC-BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans){: target="_blank" rel="noopener"}
 
 ### 致谢
 
