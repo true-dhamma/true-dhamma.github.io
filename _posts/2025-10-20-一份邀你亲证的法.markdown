@@ -1,17 +1,16 @@
 ---
 title: 一份邀你亲证的法
-date: 2025-10-20 11:10:00 +08:00
+date: 2025-10-20T11:10:00+08:00
 categories:
-- 隆波帕默尊者
-- 南传上座部佛法
+  - 隆波帕默尊者
+  - 南传上座部佛法
 redirect_from:
-- 
+  -
 excerpt: 佛法是邀请你来亲身验证的科学，而非一套要你盲目相信的理论。
-feature_image: "/uploads/top_banner_dhamma.jpg"
+feature_image: /uploads/top_banner_lp_pramote.jpg
 aside: false
 toc: true
 ---
-
 > ##### Mai Chai Chuan Hai Chuea - Luangpor Pramote Pamojjo
 >
 > ##### 一份邀你亲证的法 - 隆波帕默尊者 - 摘要
