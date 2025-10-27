@@ -1,17 +1,18 @@
 ---
 title: 佛陀的儿子：南传大师赞念长老的少年故事
-date: 2025-10-26T23:10:00+08:00
+date: 2025-10-26 23:10:00 +08:00
 categories:
-  - 阿姜赞念
-  - 高僧大德
-  - 南传上座部佛法
+- 阿姜赞念
+- 高僧大德
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: 一位备受尊敬的南传佛教高僧，亲述其充满磨难、神通、因果与实修智慧的传奇少年时代。
-feature_image: /uploads/top_banner_lotus_simple.jpg
+feature_image: "/uploads/top_banner_lotus_simple.jpg"
 aside: false
 toc: true
 ---
+
 > ##### Buddha’s Son: The Story of a Glimpse of the New Youth of the Great Master of the Theravada - Tiyavanich Kamala
 >
 > ##### 佛陀的儿子：南传大师赞念长老的少年故事 - Tiyavanich Kamala - 摘要
