@@ -1,18 +1,18 @@
 ---
 title: 慈光遍照：阿姜赞念众弟子敬述
-date: 2025-10-26 23:10:00 +08:00
+date: 2025-10-26T22:10:00+07:00
 categories:
-- 慈悲喜舍
-- 高僧大德
-- 南传上座部佛法
+  - 阿姜赞念
+  - 慈悲喜舍
+  - 高僧大德
+  - 南传上座部佛法
 redirect_from:
-- 
+  -
 excerpt: 一群西方弟子分享他们敬爱的导师——阿姜赞念，如何用慈爱与智慧之光，深刻地改变了他们的生命。
-feature_image: "/uploads/top_banner_friends.jpg"
+feature_image: /uploads/top_banner_friends.jpg
 aside: false
 toc: true
 ---
-
 > ##### Illuminated by Love - By his devoted students
 >
 > ##### 慈光遍照：阿姜赞念众弟子敬述 - 摘要
