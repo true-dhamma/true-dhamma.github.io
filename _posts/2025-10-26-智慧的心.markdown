@@ -1,19 +1,19 @@
 ---
 title: 智慧的心
-date: 2025-10-26 23:10:00 +08:00
+date: 2025-10-26T22:10:00+07:00
 categories:
-- 南传上座部佛法
+  - 阿姜赞念
+  - 南传上座部佛法
 redirect_from:
-- 
+  -
 excerpt: 南传大师赞念长老以简短隽永的法语，引导我们放下执着，在日常生活中开发智慧，找到内心的平静与自在。
-feature_image: "/uploads/top_banner_green.jpg"
+feature_image: /uploads/top_banner_green.jpg
 aside: false
 toc: true
 ---
-
-> ##### The Mind of Wisdom - Ajarn Jamnian Seelasettho
+> ##### The Mind of Wisdom - Ajahn Jamnian Seelasettho
 >
-> ##### 智慧的心 - 赞念长老
+> ##### 智慧的心 - 阿姜赞念长老
 >
 > 世间万物都是暂时存在的，没有永久的东西可以依靠，万物就像昙花一现，短暂存在。
 
@@ -299,5 +299,5 @@ toc: true
 
 ---
 
-<table><tbody><tr><td><img width="120" src="/uploads/cover-general-dhamma.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/zan03.pdf
+<table><tbody><tr><td><img width="120" src="/uploads/cover-wisdom-mind.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/zan03.pdf
 " target="_blank" rel="noopener">[林崇安教授文集]</a></p></td></tr></tbody></table>

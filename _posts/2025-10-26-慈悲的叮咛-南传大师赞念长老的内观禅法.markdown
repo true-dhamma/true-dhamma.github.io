@@ -1,21 +1,21 @@
 ---
 title: 慈悲的叮咛：南传大师赞念长老的内观禅法
-date: 2025-10-26 23:10:00 +08:00
+date: 2025-10-26T22:10:00+07:00
 categories:
-- 南传上座部佛法
+  - 阿姜赞念
+  - 南传上座部佛法
 redirect_from:
-- 
-excerpt: 
-feature_image: "/uploads/top_banner_lotus_golden.jpg"
+  -
+excerpt: 泰国当代内观大师赞念长老教导我们如何在日常生活中运用正念，超越苦乐两边，走向中道，亲证实修的法益。
+feature_image: /uploads/top_banner_lotus_golden.jpg
 aside: false
 toc: true
 ---
-
 > ##### Kind Reminders: The Vipassanā Meditation of Ajahn Jamnian - Ajahn Jamnian
 >
-> ##### 慈悲的叮咛：南传大师赞念长老的内观禅法 - 赞念长老
+> ##### 慈悲的叮咛：南传大师赞念长老的内观禅法 - 阿姜赞念长老
 >
-> 泰国当代内观大师赞念长老教导我们如何在日常生活中运用正念，超越苦乐两边，走向中道，亲证实修的法益。&gt; 每一个生起的现象都是修习观禅的机会，都能引导我们回到中道，获得解脱自在。
+> 每一个生起的现象都是修习观禅的机会，都能引导我们回到中道，获得解脱自在。
 
 &nbsp;
 
@@ -817,4 +817,4 @@ toc: true
 
 ---
 
-<table><tbody><tr><td><img width="120" src="/uploads/cover-general-dhamma.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/zan08.pdf" target="_blank" rel="noopener">[林崇安教授文集]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img width="120" src="/uploads/cover-general-dhamma.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E6%9E%97%E5%B4%87%E5%AE%89%E6%95%99%E6%8E%88/%E6%85%88%E6%82%B2%E7%9A%84%E5%8F%AE%E5%9A%80%EF%BC%9A%E5%8D%97%E5%82%B3%E5%A4%A7%E5%B8%AB%E8%AE%9A%E5%BF%B5%E9%95%B7%E8%80%81%E7%9A%84%E5%85%A7%E8%A7%80%E7%A6%AA%E6%B3%95.pdf" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/zan08.pdf" target="_blank" rel="noopener">[林崇安教授文集]</a></p></td></tr></tbody></table>

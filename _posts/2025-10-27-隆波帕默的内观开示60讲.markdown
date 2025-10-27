@@ -1373,4 +1373,4 @@ toc: true
 
 ---
 
-<table><tbody><tr><td><img width="120" src="/uploads/cover-general-dhamma.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/16.pdf" target="_blank" rel="noopener">[林崇安教授文集]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img width="120" src="/uploads/cover-general-dhamma.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E6%9E%97%E5%B4%87%E5%AE%89%E6%95%99%E6%8E%88/%E9%9A%86%E6%B3%A2%E5%B8%95%E9%BB%98%E7%9A%84%E5%85%A7%E8%A7%80%E9%96%8B%E7%A4%BA%2060%20%E8%AC%9B.pdf" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/16.pdf" target="_blank" rel="noopener">[林崇安教授文集]</a></p></td></tr></tbody></table>

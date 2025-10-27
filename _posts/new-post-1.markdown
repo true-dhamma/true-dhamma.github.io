@@ -1,24 +1,24 @@
 ---
 title: 佛陀的儿子：南传大师赞念长老的少年故事
-date: 2025-10-26 23:10:00 +08:00
+date: 2025-10-26T23:10:00+08:00
 categories:
-- 高僧大德
-- 南传上座部佛法
+  - 阿姜赞念
+  - 高僧大德
+  - 南传上座部佛法
 redirect_from:
-- 
+  -
 excerpt: 一位泰国南部高僧的传奇童年，看他如何在贫困、顽劣与神通的交织中，亲身实证因果业报，走向最终的解脱之道。
-feature_image: "/uploads/top_banner_sangha.jpg"
+feature_image: /uploads/top_banner_sangha.jpg
 aside: false
 toc: true
 ---
-
 > ##### Buddha’s Son: The Early Life of a Southern Thai Master, Ajahn Jamnien Selasettho\* - Kamala Tiyavanich
 >
 > ##### 佛陀的儿子：南传大师赞念长老的少年故事 - 卡玛拉·蒂雅瓦妮琪
 >
 > 我们未来生命中的经验，取决于我们曾经造的是善业还是恶业。善得善报，恶得恶报。
 
-###
+&nbsp;
 
 ### 译序：实修的典范与传承
 
@@ -325,4 +325,4 @@ toc: true
 
 ---
 
-<table><tbody><tr><td><img width="120" src="/uploads/cover-general-dhamma.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/zan01.pdf" target="_blank" rel="noopener">[林崇安教授文集]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img width="120" src="/uploads/cover-buddhas-son.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E6%9E%97%E5%B4%87%E5%AE%89%E6%95%99%E6%8E%88/%E4%BD%9B%E9%99%80%E7%9A%84%E5%85%92%E5%AD%90%EF%BC%9A%E5%8D%97%E5%82%B3%E5%A4%A7%E5%B8%AB%E8%AE%9A%E5%BF%B5%E9%95%B7%E8%80%81%E7%9A%84%E5%B0%91%E5%B9%B4%E6%95%85%E4%BA%8B.pdf" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/zan01.pdf" target="_blank" rel="noopener">[林崇安教授文集]</a></p></td></tr></tbody></table>
