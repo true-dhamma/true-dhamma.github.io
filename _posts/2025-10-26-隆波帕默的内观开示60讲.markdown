@@ -1,17 +1,16 @@
 ---
 title: 隆波帕默的内观开示60讲
-date: 2025-10-26 23:10:00 +08:00
+date: 2025-10-27T06:10:00+07:00
 categories:
-- 隆波帕默尊者
-- 南传上座部佛法
+  - 隆波帕默尊者
+  - 南传上座部佛法
 redirect_from:
-- 
+  -
 excerpt: 修行的关键是觉知自己的心，从现实生活的每一个瞬间，看见身心不断生灭的实相，从而放下执取，走向离苦。
-feature_image: "/uploads/top_banner_lp_pramote.jpg"
+feature_image: /uploads/top_banner_lp_pramote.jpg
 aside: false
 toc: true
 ---
-
 > ##### Luang Por Pramote’s 60 Vipassana Talks - Prof. Lin Chong-An
 >
 > ##### 隆波帕默的内观开示60讲 - 林崇安教授编
