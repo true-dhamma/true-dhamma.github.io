@@ -1,16 +1,17 @@
 ---
 title: 智慧的心
-date: 2025-10-26T22:10:00+07:00
+date: 2025-10-26 23:10:00 +08:00
 categories:
-  - 阿姜赞念
-  - 南传上座部佛法
+- 阿姜赞念
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: 南传大师赞念长老以简短隽永的法语，引导我们放下执着，在日常生活中开发智慧，找到内心的平静与自在。
-feature_image: /uploads/top_banner_green.jpg
+feature_image: "/uploads/top_banner_green.jpg"
 aside: false
 toc: true
 ---
+
 > ##### The Mind of Wisdom - Ajahn Jamnian Seelasettho
 >
 > ##### 智慧的心 - 阿姜赞念长老

@@ -1,16 +1,17 @@
 ---
 title: 内观之道：赞念长老开示
-date: 2025-10-26T22:10:00+07:00
+date: 2025-10-26 23:10:00 +08:00
 categories:
-  - 阿姜赞念
-  - 南传上座部佛法
+- 阿姜赞念
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: 跟随泰国当代内观大师赞念长老，学习安住于纯粹的觉知，走上灭苦与解脱的中道。
-feature_image: /uploads/top_banner_mindfulnes.jpg
+feature_image: "/uploads/top_banner_mindfulnes.jpg"
 aside: false
 toc: true
 ---
+
 > ##### The Way of Vipassanā: Teachings from Ajahn Jamnian Seelasettho (Compilation) -
 >
 > ##### 内观之道：阿姜赞念长老开示 - 林崇安教授编译

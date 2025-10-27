@@ -1,16 +1,17 @@
 ---
 title: 泰国禅修老师参访记
-date: 2025-10-27T07:10:00+08:00
+date: 2025-10-27 07:10:00 +08:00
 categories:
-  - 高僧大德
-  - 南传上座部佛法
+- 高僧大德
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: 一位台湾学者亲身探访泰国六位著名禅修大师，记录南北传不同禅法的核心教导与实修心要。
-feature_image: /uploads/top_banner_sangha.jpg
+feature_image: "/uploads/top_banner_sangha.jpg"
 aside: false
 toc: true
 ---
+
 > ##### A Record of Visits to Thai Meditation Masters - Prof. Lin Chong-An
 >
 > ##### 泰国禅修老师参访记 - 林崇安教授编
