@@ -300,5 +300,4 @@ toc: true
 
 ---
 
-<table><tbody><tr><td><img width="120" src="/uploads/cover-wisdom-mind.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/zan03.pdf
-" target="_blank" rel="noopener">[林崇安教授文集]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img width="120" src="/uploads/cover-wisdom-mind.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/zan03.pdf" target="_blank" rel="noopener">[林崇安教授文集]</a></p></td></tr></tbody></table>
