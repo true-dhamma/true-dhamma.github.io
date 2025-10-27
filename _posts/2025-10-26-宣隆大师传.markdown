@@ -1,17 +1,18 @@
 ---
 title: 宣隆大师传
-date: 2025-10-26T23:10:00+08:00
+date: 2025-10-26 23:10:00 +08:00
 categories:
-  - 高僧大德
-  - 南传上座部佛法
-  - 精选
+- 高僧大德
+- 南传上座部佛法
+- 精选
 redirect_from:
-  -
+- 
 excerpt: 一位目不识丁的缅甸农夫，通过体验激烈苦受、专注当下触觉，在短短数月内证悟阿罗汉果的传奇故事与教法精髓。
-feature_image: /uploads/top_banner_lotus.jpg
+feature_image: "/uploads/top_banner_lotus.jpg"
 aside: false
 toc: true
 ---
+
 > ##### The Detailed Biography of The Venerable Sun Lun Gu Kyaung Sayadaw U Kavi of Myingyan - Sayadaw U Sobhaṇa
 >
 > ##### 宣隆大师传 - 苏班那大师 - 摘要
