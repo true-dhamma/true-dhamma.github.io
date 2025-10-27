@@ -1,20 +1,19 @@
 ---
 title: 泰国禅修老师参访记
-date: 2025-10-26 23:10:00 +08:00
+date: 2025-10-26T23:10:00+08:00
 categories:
-- 高僧大德
-- 南传上座部佛法
+  - 高僧大德
+  - 南传上座部佛法
 redirect_from:
-- 
+  -
 excerpt: 一位台湾学者亲身探访泰国六位著名禅修大师，记录南北传不同禅法的核心教导与实修心要。
-feature_image: "/uploads/top_banner_sangha.jpg"
+feature_image: /uploads/top_banner_sangha.jpg
 aside: false
 toc: true
 ---
-
 > ##### A Record of Visits to Thai Meditation Masters - Prof. Lin Chong-An
 >
-> ##### 泰国禅修老师参访记 - 林崇安教授
+> ##### 泰国禅修老师参访记 - 林崇安教授编
 >
 > 修行即是不断地培养觉性，身动时知道，心动时也知道。迷了就去觉悟，苦了就去觉悟，将妄想转为自觉，这就是离苦之道。
 >
@@ -374,4 +373,4 @@ toc: true
 
 ---
 
-<table><tbody><tr><td><img width="120" src="/uploads/cover-general-dhamma.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/H7.pdf" target="_blank" rel="noopener">[Dhamma.com]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img width="120" src="/uploads/cover-general-dhamma.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="http://www.ss.ncu.edu.tw/~calin/textbook2008/H7.pdf" target="_blank" rel="noopener">[林崇安教授文集]</a></p></td></tr></tbody></table>
