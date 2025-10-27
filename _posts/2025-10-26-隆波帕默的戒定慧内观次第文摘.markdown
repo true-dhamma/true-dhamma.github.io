@@ -1,16 +1,17 @@
 ---
 title: 隆波帕默的戒定慧内观次第文摘
-date: 2025-10-26T22:10:00+07:00
+date: 2025-10-26 23:10:00 +08:00
 categories:
-  - 隆波帕默尊者
-  - 南传上座部佛法
+- 隆波帕默尊者
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: '通过觉知自己的心，一步步走向内观智慧与解脱的实修指南。 '
-feature_image: /uploads/top_banner_lp_pramote.jpg
+feature_image: "/uploads/top_banner_lp_pramote.jpg"
 aside: false
 toc: true
 ---
+
 > ##### A Digest of Luangpor Pramote’s Teachings on the Stages of Vipassanā - Prof. Lin Chong-An
 >
 > ##### 隆波帕默的戒定慧内观次第文摘 - 林崇安教授编
