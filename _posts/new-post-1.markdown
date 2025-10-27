@@ -1,16 +1,17 @@
 ---
 title: 佛陀的儿子：南传大师赞念长老的少年故事
-date: 2025-10-26T23:10:00+08:00
+date: 2025-10-26 23:10:00 +08:00
 categories:
-  - 高僧大德
-  - 南传上座部佛法
+- 高僧大德
+- 南传上座部佛法
 redirect_from:
-  -
+- 
 excerpt: 一位泰国南部高僧的传奇童年，看他如何在贫困、顽劣与神通的交织中，亲身实证因果业报，走向最终的解脱之道。
-feature_image: /uploads/top_banner_sangha.jpg
+feature_image: "/uploads/top_banner_sangha.jpg"
 aside: false
 toc: true
 ---
+
 > ##### Buddha’s Son: The Early Life of a Southern Thai Master, Ajahn Jamnien Selasettho\* - Kamala Tiyavanich
 >
 > ##### 佛陀的儿子：南传大师赞念长老的少年故事 - 卡玛拉·蒂雅瓦妮琪

@@ -1,17 +1,18 @@
 ---
 title: 南传菩萨道
-date: 2025-10-26T23:10:00+08:00
+date: 2025-10-26 23:10:00 +08:00
 categories:
-  - 慈悲喜舍
-  - 南传上座部佛法
-  - 精选
+- 慈悲喜舍
+- 南传上座部佛法
+- 精选
 redirect_from:
-  -
+- 
 excerpt: 深入剖析一位菩萨从发下最初誓愿到圆满十波罗蜜的完整道路，揭示成就无上佛果所必须具备的坚韧品质与无尽慈悲。
-feature_image: /uploads/top_banner_steps.jpg
+feature_image: "/uploads/top_banner_steps.jpg"
 aside: false
 toc: true
 ---
+
 > ##### The Great Chronicle of Buddhas - The Ven. Mingun Sayadaw
 >
 > ##### 南传菩萨道 - 明昆三藏持者大长老 - 摘要

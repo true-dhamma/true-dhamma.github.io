@@ -1,15 +1,16 @@
 ---
 title: 慈悲的叮咛：南传大师赞念长老的内观禅法
-date: 2025-10-26T23:10:00+08:00
+date: 2025-10-26 23:10:00 +08:00
 categories:
-  - 南传上座部佛法
+- 南传上座部佛法
 redirect_from:
-  -
-excerpt:
-feature_image: /uploads/top_banner_lotus_golden.jpg
+- 
+excerpt: 
+feature_image: "/uploads/top_banner_lotus_golden.jpg"
 aside: false
 toc: true
 ---
+
 > ##### Kind Reminders: The Vipassanā Meditation of Ajahn Jamnian - Ajahn Jamnian
 >
 > ##### 慈悲的叮咛：南传大师赞念长老的内观禅法 - 赞念长老
