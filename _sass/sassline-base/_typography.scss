@@ -99,7 +99,7 @@ a {
   // Lists.
   ul, ol {
     @include baseline(zeta, $bodytype, 2, 2, all);
-    padding-left: 2rem;
+    // padding-left: 2rem;
 
     li {
       font-feature-settings: 'kern', 'onum', 'liga';
@@ -165,7 +165,7 @@ a {
           counter-increment: sub-level;
 
           &:before {
-            content: counter(top-level) '.' counter(sub-level);
+            // content: counter(top-level) '.' counter(sub-level);
           }
 
           ul {
