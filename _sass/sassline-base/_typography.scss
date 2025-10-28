@@ -152,7 +152,7 @@ a {
               counter-increment: alt-level;
 
               &:before {
-                content: counter(alt-level) '.';
+                // content: counter(alt-level) '.';
               }
             }
           }
@@ -184,7 +184,7 @@ a {
               counter-increment: sub-sub-level;
 
               &:before {
-                content: counter(top-level) '.' counter(sub-level) '.' counter(sub-sub-level);
+                // content: counter(top-level) '.' counter(sub-level) '.' counter(sub-sub-level);
               }
             }
           }
