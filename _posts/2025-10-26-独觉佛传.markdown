@@ -1,17 +1,18 @@
 ---
 title: 独觉佛传
-date: 2025-10-26T23:10:00+08:00
+date: 2025-10-26 23:10:00 +08:00
 categories:
-  - 高僧大德
-  - 南传上座部佛法
-  - 精选
+- 高僧大德
+- 南传上座部佛法
+- 精选
 redirect_from:
-  -
+- 
 excerpt: 在佛陀未出世的时代，他们无师自通，独自觉悟，却默然行于世间——这便是独觉佛的传奇故事。
-feature_image: /uploads/top_banner_sangha.jpg
+feature_image: "/uploads/top_banner_sangha.jpg"
 aside: false
 toc: true
 ---
+
 > ##### Biography of Paccekabuddhas - U Lu Pe Win
 >
 > ##### 独觉佛传 - 正智居士编
