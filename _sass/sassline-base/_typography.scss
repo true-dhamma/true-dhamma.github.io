@@ -123,14 +123,14 @@ a {
 
   // Ordered lists.
   ol {
-    list-style-type: none;
+    // list-style-type: none;
 
     li {
       counter-increment: top-level;
       position: relative;
 
       &:before {
-        content: counter(top-level) '.';
+        // content: counter(top-level) '.';
         font-feature-settings: 'lnum', 'tnum';
         margin-left: -3rem;
         position: absolute;

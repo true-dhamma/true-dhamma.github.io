@@ -464,7 +464,7 @@ pre code {
     // 使用 padding-left 来为列表标记（如圆点）创建空间。
     // list-style-position 的默认值 'outside' 会将标记放置在此内边距区域中。
     // 这样，当列表项的文本换行时，后续行会与第一行文本的起始位置对齐，从而形成“悬挂缩进”效果。
-    padding-left: 1.5rem; // Modified by Kevin
+    padding-left: 1.2rem; // Modified by Kevin
   }
 
   blockquote {
