@@ -64,37 +64,37 @@ a {
   // Heading level 1.
   h1, .alpha {
     // 原为: $lineheight: 3
-    @include sassline($fontsize: alpha, $font: $headingtype, $lineheight: 3.5, $below: 1, $breakpoint: all);
+    @include sassline($fontsize: alpha, $font: $headingtype, $lineheight: 3, $below: 1, $breakpoint: all);
   }
 
   // Heading level 2.
   h2, .beta {
     // 原为: 3
-    @include sassline(beta, $headingtype, 3.5, 1, all);
+    @include sassline(beta, $headingtype, 3, 1, all);
   }
 
   // Heading level 3.
   h3, .gamma {
     // 原为: 3
-    @include sassline(gamma, $headingtype, 3.5, 1, all);
+    @include sassline(gamma, $headingtype, 3, 1, all);
   }
 
   // Heading level 4.
   h4, .delta {
     // 原为: 2
-    @include sassline(delta, $headingtype, 2.5, 0, all);
+    @include sassline(delta, $headingtype, 2, 0, all);
   }
 
   // Heading level 5.
   h5, .epsilon {
     // 原为: 2
-    @include sassline(epsilon, $headingtype, 2.5, 0, all);
+    @include sassline(epsilon, $headingtype, 2, 0, all);
   }
 
   // Heading level 6.
   h6, .zeta {
     // 原为: 2
-    @include sassline(zeta, $headingtype, 2.5, 0, all);
+    @include sassline(zeta, $headingtype, 2, 0, all);
   }
 
   // Lists.
