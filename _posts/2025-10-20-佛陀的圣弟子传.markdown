@@ -1,18 +1,17 @@
 ---
 title: 佛陀的圣弟子传
-date: 2025-10-20 11:10:00 +08:00
+date: 2025-10-20T11:10:00+08:00
 categories:
-- 高僧大德
-- 南传上座部佛法
-- 精选
+  - 高僧大德
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- 
+  -
 excerpt: 一探佛陀座下圣弟子们从凡夫到觉悟的真实生命故事与修行心路。 典范不远，你也可以成为这样的圣者。
-feature_image: "/uploads/top_banner_sangha.jpg"
+feature_image: /uploads/top_banner_lotus_5.jpg
 aside: false
 toc: true
 ---
-
 > ##### Great Disciples of the Buddha - Nyanaponika Thera, Hellmuth Hecker
 >
 > ##### 佛陀的圣弟子传 - 向智长老, 何慕斯·海克 - 摘要
