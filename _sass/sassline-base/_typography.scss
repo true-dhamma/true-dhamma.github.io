@@ -44,7 +44,8 @@ a {
 
   // Paragraphs. OpenType ligatures and oldstyle figures enabled if available.
   p {
-    @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
+    @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 1, $breakpoint: all);
+    // @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
 
     font-feature-settings: 'kern', 'onum', 'liga';
   }
@@ -107,8 +108,8 @@ a {
       @include breakpoint(break-1) {}
 
       ol, ul {
-        padding-top: 1rem;
-        margin-bottom: 1rem;
+        // padding-top: 1rem;
+        // margin-bottom: 1rem;
         // padding-left: 2rem;
       }
     }
@@ -287,7 +288,7 @@ a {
       $baseline-shift: #{($get-size / 2 * ((2 * $rootsize / $get-size) - map-get($bodytype, cap-height))) / $rootsize + 0.00001};
       $baseline-push: #{3 - (($get-size * ((2 * $rootsize / $get-size) - map-get($bodytype, cap-height))) / $rootsize + 0.00001)};
 
-      margin-bottom: #{$baseline-push}rem;
+      // margin-bottom: #{$baseline-push}rem;
       padding-bottom: #{$baseline-shift}rem;
 
       @for $i from 2 through $breakpoints-limit {
@@ -298,7 +299,7 @@ a {
         $baseline-push: #{3 - (($get-size * ((2 * $rootsize / $get-size) - map-get($bodytype, cap-height))) / $rootsize + 0.00001)};
 
         @media screen and (min-width: nth($points, $i) / 16 * 1em ) {
-          margin-bottom: #{$baseline-push}rem;
+          // margin-bottom: #{$baseline-push}rem;
           padding-bottom: #{$baseline-shift}rem;
         }
       }
