@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>正在跳转...</title>
+  <meta name="robots" content="noindex">
+</head>
+<body>
+
+<pre id="routes-config" style="display: none;">
+gg
+https://google.com
+
+gh
+https://github.com
+
+bd,bd1,bd3,buddhadhamma
+/buddhadhamma/
+
+buddhawords
+/buddhawords/
+
+tipitaka
+/tipitaka/
+
+chanting
+/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%B2%BE%E9%80%89/2025/08/09/%E5%8D%97%E4%BC%A0%E6%97%A9%E6%99%9A%E8%AF%BE/
+
+oxy, oxycontin
+/%E5%BF%83%E7%90%86%E5%AD%A6/%E7%B2%BE%E9%80%89/2025/08/09/%E6%A2%A6%E7%98%BE-%E7%BE%8E%E5%9B%BD%E9%98%BF%E7%89%87%E7%B1%BB%E8%8D%AF%E7%89%A9%E6%B3%9B%E6%BB%A5%E7%9A%84%E7%9C%9F%E7%9B%B8/
+
+rr
+/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E7%90%86%E6%80%A7%E5%BA%B7%E5%A4%8D-rational-recovery/
+
+survival
+/%E5%BF%83%E7%90%86%E5%AD%A6/2025/08/09/%E4%BD%A0%E7%9A%84%E7%94%9F%E5%AD%98%E6%9C%AC%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%9D%80%E6%AD%BB%E4%BD%A0/
+</pre>
+
+  <p style="text-align: center; font-family: sans-serif; padding-top: 50px;">
+    正在跳转，请稍候...
+  </p>
+
+  <script>
+    (function () {
+      const routes = {};
+      const configText = document.getElementById('routes-config').textContent;
+      const lines = configText.split('\n').map(line => line.trim()).filter(Boolean);
+
+      for (let i = 0; i < lines.length; i += 2) {
+        if (i + 1 < lines.length) {
+          const keysLine = lines[i];
+          const url = lines[i + 1];
+          const shortIds = keysLine.split(',').map(id => id.trim());
+          shortIds.forEach(id => {
+            if (id) routes[id] = url;
+          });
+        }
+      }
+
+      const shortId = window.location.search.substring(1);
+
+      if (!shortId) {
+        document.body.innerHTML = '<h1 style="text-align: center; font-family: sans-serif;">错误：缺少短链接ID</h1><p style="text-align: center; font-family: sans-serif;">请使用格式：/go?短链接</h1>';
+        return;
+      }
+
+      const longUrl = routes[shortId];
+
+      if (longUrl) {
+        window.location.replace(longUrl);
+      } else {
+        document.body.innerHTML = `<h1 style="text-align: center; font-family: sans-serif;">404 - 未找到短链接: "${shortId}"</h1>`;
+      }
+    })();
+  </script>
+</body>
+</html>
