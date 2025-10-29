@@ -13,6 +13,7 @@ layout: default
     {{ content }}
 
     {% include nav-share.html %}
+    {% if page.comments == true %}{% include post-comments.html %}{% endif %}
 
   </article>
 

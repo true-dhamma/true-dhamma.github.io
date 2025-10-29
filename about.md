@@ -4,6 +4,7 @@ feature_text:
 feature_image: "/uploads/top_banner_tree_green.jpg"
 excerpt: 
 aside: true
+comments: true
 ---
 
 ### **缘起**
