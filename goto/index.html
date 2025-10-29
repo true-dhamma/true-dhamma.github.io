@@ -60,7 +60,9 @@ survival
       const shortId = window.location.search.substring(1);
 
       if (!shortId) {
-        document.body.innerHTML = '<h1 style="text-align: center; font-family: sans-serif;">错误：缺少短链接ID</h1><p style="text-align: center; font-family: sans-serif;">请使用格式：/goto?短链接</h1>';
+        // 使用 window.location.origin 和 window.location.pathname 来构建完整的 URL
+        const fullUrlExample = `${window.location.origin}${window.location.pathname}?短链接`;
+        document.body.innerHTML = `<h1 style="text-align: center; font-family: sans-serif;">错误：缺少短链接ID</h1><p style="text-align: center; font-family: sans-serif;">请使用格式：${fullUrlExample}</h1>`;
         return;
       }
 
