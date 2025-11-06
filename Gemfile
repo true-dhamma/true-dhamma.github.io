@@ -4,7 +4,8 @@ source "https://rubygems.org"
 gemspec
 
 # ----------------------------------------------------
-# 添加下面这行来解决 sass-embedded 的安装问题
-# 这会告诉 Bundler 在 Linux 环境下直接使用哪个包，避免检测失败
-gem "sass-embedded-x86_64-linux", "~> 1.70.0"
+# 强制使用版本 3.0.0 的 jekyll-sass-converter。
+# 这个版本依赖的是旧的、更稳定的 sassc 库，
+# 而不是导致问题的 sass-embedded。
+gem "jekyll-sass-converter", "3.0.0"
 # ----------------------------------------------------
