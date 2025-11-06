@@ -4,8 +4,9 @@ source "https://rubygems.org"
 gemspec
 
 # ----------------------------------------------------
-# 强制使用版本 3.0.0 的 jekyll-sass-converter。
-# 这个版本依赖的是旧的、更稳定的 sassc 库，
-# 而不是导致问题的 sass-embedded。
-gem "jekyll-sass-converter", "3.0.0"
+# 最终解决方案：
+# 将 jekyll-sass-converter 降级到 2.x 版本。
+# 这个版本系列依赖的是旧的、更稳定的 sassc 库，
+# 从而完全绕开 sass-embedded 的安装问题。
+gem "jekyll-sass-converter", "~> 2.2.0"
 # ----------------------------------------------------
