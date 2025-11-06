@@ -1,19 +1,18 @@
 ---
 title: 隆波帕默的禅修经验谈
-date: 2025-10-27 07:10:00 +08:00
+date: 2025-10-27T07:10:00+08:00
 categories:
-- 隆波帕默尊者
-- 高僧大德
-- 南传上座部佛法
-- 精选
+  - 隆波帕默尊者
+  - 高僧大德
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- 
+  -
 excerpt: 一位当代禅修大师坦诚分享从七岁初学到最终彻悟，跨越数十年的真实修行心路历程与宝贵经验。
-feature_image: "/uploads/top_banner_lp_pramote.jpg"
+feature_image: /uploads/top_banner_lp_pramote.jpg
 aside: false
 toc: true
 ---
-
 > ##### Talks on the Meditation Experiences of Luangpor Pramote - Prof. Lin Chong-An
 >
 > ##### 隆波帕默的禅修经验谈 - 林崇安教授编
@@ -22,7 +21,7 @@ toc: true
 
 &nbsp;
 
-### 隆波帕默生平记要
+### 隆波帕默的生平记要
 
 * **1952年**，隆波帕默出生于泰国中部。
 * **1959年，7岁**，在父亲的带领下，从阿姜李（1907-1961）学习观呼吸。
