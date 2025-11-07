@@ -1,18 +1,19 @@
 ---
 title: 自尊的六大支柱
-date: 2025-08-15T21:13:00+08:00
+date: 2025-08-15 21:13:00 +08:00
 categories:
-  - 心理学
-  - 慈悲喜舍
-  - 精选
+- 心理学
+- 慈悲喜舍
+- 精选
 redirect_from:
-  - /心理学/慈悲喜舍/2025/08/15/自尊的六大支柱/
-  - /心理学/慈悲喜舍/自尊的六大支柱/
+- "/心理学/慈悲喜舍/2025/08/15/自尊的六大支柱/"
+- "/心理学/慈悲喜舍/自尊的六大支柱/"
 excerpt: 积极的自尊犹如意识的免疫系统，它不保证我们永不受创，但能赋予我们抵抗、康复以及再生的力量。
-feature_text:
-feature_image: /uploads/top_banner_metta.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_metta.jpg"
 aside: false
 ---
+
 > ##### The Six Pillars of Self-Esteem - Nathaniel Branden
 >
 > ##### 自尊的六大支柱 - 纳撒尼尔·布兰登 - 摘要
