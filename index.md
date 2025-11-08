@@ -13,41 +13,41 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
   <tbody>
     <tr style="border: none;">
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#世间成瘾与出世间觉悟" style="text-decoration: none; color: inherit;">
+        <a href="/book/" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner1.jpg" alt="《世间成瘾与出世间觉悟》及相关资源" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="#世间成瘾与出世间觉悟" style="text-decoration: none; color: inherit;">《世间成瘾与出世间觉悟》<br />及相关资源</a></p><a href="#世间成瘾与出世间觉悟" style="text-decoration: none; color: inherit;">
+          </a><p><a href="/book/" style="text-decoration: none; color: inherit;">《世间成瘾与出世间觉悟》<br />及相关资源</a></p><a href="#世间成瘾与出世间觉悟" style="text-decoration: none; color: inherit;">
         </a><p></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">
+        <a href="/addiction/" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner2.jpg" alt="成瘾/以智慧戒断 现代心理学" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">成瘾/以智慧戒断<br />现代心理学</a></p><a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">
+          </a><p><a href="/addiction/" style="text-decoration: none; color: inherit;">成瘾/以智慧戒断<br />现代心理学</a></p><a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">
         </a><p></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">
+        <a href="/tipitaka/" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner3.jpg" alt="巴利圣典 Pāli Tipiṭaka" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">巴利圣典<br />Pāli Tipiṭaka</a></p><a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">
+          </a><p><a href="/tipitaka/" style="text-decoration: none; color: inherit;">巴利圣典<br />Pāli Tipiṭaka</a></p><a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">
         </a><p></p>
       </td>
     </tr>
     <tr style="border: none;">
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">
+        <a href="/categories/#隆波帕默尊者" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner4.jpg" alt="隆波帕默尊者 Luangpor Pramote Pamojjo" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">隆波帕默尊者<br />Luangpor Pramote Pamojjo</a></p><a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">
+          </a><p><a href="/categories/#隆波帕默尊者" style="text-decoration: none; color: inherit;">隆波帕默尊者<br />Luangpor Pramote Pamojjo</a></p><a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">
         </a><p></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">
+        <a href="/categories/#%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner5.jpg" alt="隆塔纳荣萨尊者 Luangta Narongsak Kheenalayo" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">隆塔纳荣萨尊者<br />Luangta Narongsak Kheenalayo</a></p><a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">
+          </a><p><a href="/categories/#%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85" style="text-decoration: none; color: inherit;">隆塔纳荣萨尊者<br />Luangta Narongsak Kheenalayo</a></p><a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">
         </a><p></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">
+        <a href="/categories/#南传上座部佛法" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner6.jpg" alt="更多南传上座部佛法资源" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">更多南传上座部<br />佛法资源</a></p><a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">
+          </a><p><a href="/categories/#南传上座部佛法" style="text-decoration: none; color: inherit;">更多南传上座部<br />佛法资源</a></p><a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">
         </a><p></p>
       </td>
     </tr>
