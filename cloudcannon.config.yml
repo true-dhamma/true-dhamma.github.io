@@ -1,4 +1,3 @@
-_schema: _schema
 source: /
 paths:
   uploads: uploads
@@ -22,15 +21,17 @@ collections_config:
         type: multiselect
         options:
           allow_create: true
-          empty_type: array
+          allow_empty: true
           values: collections.posts[*].categories
+          empty_type: array
         cascade: true
       tags:
         type: multiselect
         options:
           allow_create: true
-          empty_type: array
+          allow_empty: true
           values: collections.posts[*].tags
+          empty_type: array
         cascade: true
     create:
       path: ''
@@ -48,15 +49,17 @@ collections_config:
         type: multiselect
         options:
           allow_create: true
-          empty_type: array
+          allow_empty: true
           values: collections.posts[*].categories
+          empty_type: array
         cascade: true
       tags:
         type: multiselect
         options:
           allow_create: true
-          empty_type: array
+          allow_empty: true
           values: collections.posts[*].tags
+          empty_type: array
         cascade: true
     add_options:
       - name: Add Post
@@ -72,6 +75,20 @@ collections_config:
     path: _uploads
     name: Uploads
     icon: upload
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  buddhadhamma:
+    path: _buddhadhamma
+    icon: add_ad
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  buddhawords:
+    path: _buddhawords
+    icon: match_word
     disable_url: false
     disable_add: false
     disable_add_folder: false
