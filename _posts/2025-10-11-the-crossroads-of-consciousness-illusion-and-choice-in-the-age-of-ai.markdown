@@ -1,21 +1,21 @@
 ---
 title: 'The Crossroads of Consciousness: Illusion and Choice in the Age of AI'
-date: 2025-10-11 06:20:00 +08:00
+date: 2025-10-11T06:20:00+08:00
 categories:
-- 智宁居士
-- 南传上座部佛法
-- 成瘾与戒断
-- English
+  - 智宁居士
+  - 南传上座部佛法
+  - 成瘾与戒断
+  - English
 redirect_from:
-- 
-excerpt: Humanity is irrevocably entering a new epoch co-authored by code, data, consciousness,
-  and illusion. Only clear awareness remains your most precious quality as a human
-  being.
-feature_text: 
-feature_image: "/uploads/top_banner_colorful.jpg"
+  -
+excerpt: >-
+  Humanity is irrevocably entering a new epoch co-authored by code, data,
+  consciousness, and illusion. Only clear awareness remains your most precious
+  quality as a human being.
+feature_text:
+feature_image: /uploads/top_banner_colorful.jpg
 aside: false
 ---
-
 > ##### The Crossroads of Consciousness: Illusion and Choice in the Age of AI - Upasaka Zhining
 >
 > Humanity is irrevocably entering a new epoch co-authored by code, data, consciousness, and illusion. Only with clear awareness can you possess the power of choice; only with clear awareness can you embody the dignity inherent to a human being.
@@ -24,7 +24,7 @@ aside: false
 
 ## **Introduction**
 
-This article is adapted from “What Kind of Era Are We In?”, the first section of the conclusion to the book *Worldly Addiction and Worldly Liberation*.
+This article is adapted from “What Kind of Era Are We In?”, the first section of the conclusion to the book [*Addicted to the World: The Buddha’s Path to Freedom*](/book-intro/addict2freedom/){: target="_blank" rel="noopener"}.
 
 Here, we will first architect a vision of the future shaped by bleeding-edge technology, analyzing how it will reforge the core human experience through a **“Triple Replacement.”** Following this, we will explore the deep driver behind this wave—namely, **“what technology wants”**—and from there, delineate three paths for the individual at this civilizational crossroads. Finally, we will return to the heart of the matter, investigating how we can **maintain clarity** amidst layers of illusion as the nature of ***dukkha*** (suffering) shifts from the physical to the mental.
 
