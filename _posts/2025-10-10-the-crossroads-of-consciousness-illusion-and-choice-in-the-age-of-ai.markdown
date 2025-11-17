@@ -1,21 +1,21 @@
 ---
 title: 'The Crossroads of Consciousness: Illusion and Choice in the Age of AI'
-date: 2025-10-10T06:20:00+07:00
+date: 2025-10-10 07:20:00 +08:00
 categories:
-  - 智宁居士
-  - 南传上座部佛法
-  - 成瘾与戒断
-  - English
+- 智宁居士
+- 南传上座部佛法
+- 成瘾与戒断
+- English
 redirect_from:
-  -
-excerpt: >-
-  Humanity is irrevocably entering a new epoch co-authored by code, data,
-  consciousness, and illusion. Only clear awareness remains your most precious
-  quality as a human being.
-feature_text:
-feature_image: /uploads/top_banner_colorful.jpg
+- 
+excerpt: Humanity is irrevocably entering a new epoch co-authored by code, data, consciousness,
+  and illusion. Only clear awareness remains your most precious quality as a human
+  being.
+feature_text: 
+feature_image: "/uploads/top_banner_colorful.jpg"
 aside: false
 ---
+
 > ##### The Crossroads of Consciousness: Illusion and Choice in the Age of AI - Upasaka Zhining
 >
 > Humanity is irrevocably entering a new epoch co-authored by code, data, consciousness, and illusion. Only with clear awareness can you possess the power of choice; only with clear awareness can you embody the dignity inherent to a human being.
