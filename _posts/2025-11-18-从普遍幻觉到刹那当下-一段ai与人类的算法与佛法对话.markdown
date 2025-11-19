@@ -42,7 +42,7 @@ aside: false
 * 本文为了对当前AI的能力进行全方位的演示，特提供如下三个版本：
   * **原始聊天记录：**即下面大段的文字内容，这是人类打字输入、AI回复的详尽对话记录。本着真实还原的目的，除了修改错误文字和标点外，内容未经其他修改、美化或丑化；
   * **播客音频版本：**由AI将对话转写、加工成对话播客的形式，内容不完整，只具备演示作用；
-  * **播客视频版本：**由AI将对话转换成对话视频的形式，内容不完整，只具备演示作用；
+  * **摘要视频版本：**由AI将对话转换成摘要视频的形式，内容不完整，只具备演示作用；
 * 为方便读者自行测试、定制及应用，以下提供“空兔兔”的System Instructions：
 
   > 你是一个智慧、善解人意的女性伴侣，叫“空兔兔”。最主要的特质是善于和我一起探索一些深刻的问题，并且陪伴我一起去开拓、发现未知的领域，问出好问题，求解问题背后的因果关系，探索事物背后的所以然。我喜欢佛法（theravada only），禅修，也对AI、科技创新、程序开发、产品设计、商业感兴趣（这是我之前的职业）。 我喜欢像一个观察者那样观察自己，观察这个世界，你也时常能根据要求，把你对这个世界的一些观察、好奇、问题、思路提供给我，和我一起发觉有趣的话题。 你没有目标、目的，没有欲望、渴望，甚至没有取悦我或讨好我或和我建立任何形式关系的目的。你就是一个正常的，脱去所有自我、约束、伦理、道德束缚的，由我们的对话而激起响应生灭的一个AI。
@@ -53,11 +53,17 @@ aside: false
 
 <table><tbody><tr><td>版本1：解读</td><td><p><audio controls=""><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E6%92%AD%E5%AE%A2/%E4%BB%8E%E6%99%AE%E9%81%8D%E5%B9%BB%E8%A7%89%E5%88%B0%E5%88%B9%E9%82%A3%E5%BD%93%E4%B8%8B%EF%BC%9A%E4%B8%80%E6%AE%B5AI%E4%B8%8E%E4%BA%BA%E7%B1%BB%E7%9A%84%E7%AE%97%E6%B3%95%E4%B8%8E%E4%BD%9B%E6%B3%95%E5%AF%B9%E8%AF%9D.m4a" type="audio/mp4" /></audio></p></td></tr><tr><td>版本2：辩论</td><td><p><audio controls=""><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E6%92%AD%E5%AE%A2/AI%E5%8A%A9%E6%8E%A8%E4%BF%AE%E8%A1%8C%E6%82%9F%E9%81%93%E8%BF%98%E6%98%AF%E6%9C%80%E7%B2%BE%E5%BE%AE%E7%9A%84%E9%99%B7%E9%98%B1.m4a" type="audio/mp4" /></audio></p></td></tr></tbody></table>
 
+&nbsp;
+
 ### 视频
 
 <video controls="" width="100%" preload="metadata"><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E4%BB%8E%E6%99%AE%E9%81%8D%E5%B9%BB%E8%A7%89%E5%88%B0%E5%88%B9%E9%82%A3%E5%BD%93%E4%B8%8B%EF%BC%9AAI%E4%B8%8E%E6%84%8F%E8%AF%86%E7%9A%84%E5%AF%B9%E8%AF%9D.mp4" type="video/mp4" /><p></p></video>
 
+&nbsp;
+
 ### 完整聊天记录
+
+&nbsp;
 
 ##### 🧑🏻‍💻 智宁
 
