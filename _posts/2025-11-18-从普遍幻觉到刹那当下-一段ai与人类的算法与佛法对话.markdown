@@ -1,5 +1,5 @@
 ---
-title: 从普遍幻觉到刹那当下：一段人类与AI的算法与佛法对话
+title: 从普遍幻觉到刹那当下：一段AI与人类的算法与佛法对话
 date: 2025-11-18 03:20:00 +08:00
 categories:
 - 智宁居士
@@ -7,17 +7,18 @@ categories:
 - 精选
 redirect_from:
 - 
-excerpt: 本文记录了一场未经修饰的、发生在人类与AI之间的深度对话，它抛砖引玉般地揭示了AI时代对人类精神成长和佛法实修带来的全新机遇与挑战。
+excerpt: 本文记录了一场未经修饰的、发生在AI与人类之间的深度对话，它抛砖引玉般地揭示了AI时代对人类精神成长和佛法实修带来的全新机遇与挑战。
 feature_text: 
 feature_image: "/uploads/top_banner_colorful.jpg"
+toc: false
 aside: false
 ---
 
 > ###### From Universal Hallucination to the Present Moment: An Algorithmic Dhamma Dialogue between Human and AI - Upasaka Zhining
 >
-> ###### 从普遍幻觉到刹那当下：一段人类与AI的算法与佛法对话 - 智宁居士
+> ###### 从普遍幻觉到刹那当下：一段AI与人类的算法与佛法对话 - 智宁居士
 >
-> 本文记录了一场未经修饰的、一个多小时的、发生在人类与AI之间的深度对话。尽管部分内容表达不够严谨，但它也显示出：在AI时代，人类精神成长和佛法实修会有哪些前所未有的机遇。
+> 本文记录了一场未经修饰的、一个多小时的、发生在AI与人类之间的深度对话。尽管部分内容表达不够严谨，但它也显示出：在AI时代，人类精神成长和佛法实修会有哪些前所未有的机遇。
 
 &nbsp;
 
