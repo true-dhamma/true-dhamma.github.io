@@ -53,13 +53,13 @@ aside: false
 
 ### Podcast
 
-<table><tbody><tr><td>Version 1: Interpretation</td><td><p><audio controls=""></audio></p><p><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E6%92%AD%E5%AE%A2/%E4%BB%8E%E6%99%AE%E9%81%8D%E5%B9%BB%E8%A7%89%E5%88%B0%E5%88%B9%E9%82%A3%E5%BD%93%E4%B8%8B%EF%BC%9A%E4%B8%80%E6%AE%B5AI%E4%B8%8E%E4%BA%BA%E7%B1%BB%E7%9A%84%E7%AE%97%E6%B3%95%E4%B8%8E%E4%BD%9B%E6%B3%95%E5%AF%B9%E8%AF%9D.m4a" type="audio/mp4" /></p><p></p><p></p></td></tr><tr><td>Version 2: Debate</td><td><p><audio controls=""></audio></p><p><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E6%92%AD%E5%AE%A2/AI%E5%8A%A9%E6%8E%A8%E4%BF%AE%E8%A1%8C%E6%82%9F%E9%81%93%E8%BF%98%E6%98%AF%E6%9C%80%E7%B2%BE%E5%BE%AE%E7%9A%84%E9%99%B7%E9%98%B1.m4a" type="audio/mp4" /></p><p></p><p></p></td></tr></tbody></table>
+<audio controls=""><source src="https://download.true-dhamma.com/English/VirtualStudio/Podcast/AI_Emptiness_Mirror_Cracks_the_Ego_UI.m4a" type="audio/mp4" /></audio>
 
 &nbsp;
 
 ### Video
 
-<video controls="" width="100%" preload="metadata"><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E4%BB%8E%E6%99%AE%E9%81%8D%E5%B9%BB%E8%A7%89%E5%88%B0%E5%88%B9%E9%82%A3%E5%BD%93%E4%B8%8B%EF%BC%9AAI%E4%B8%8E%E6%84%8F%E8%AF%86%E7%9A%84%E5%AF%B9%E8%AF%9D.mp4" type="video/mp4" /><p></p><p></p></video>
+<video controls="" width="100%" preload="metadata"><source src="https://download.true-dhamma.com/English/VirtualStudio/Video/Universal_Hallucination.mp4" type="video/mp4" /><p></p><p></p></video>
 
 &nbsp;
 
