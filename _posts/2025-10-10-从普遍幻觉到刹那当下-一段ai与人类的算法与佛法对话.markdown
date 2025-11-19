@@ -1,24 +1,23 @@
 ---
-title: >-
-  From Universal Hallucination to the Present Moment: An Algorithmic Dhamma
-  Dialogue between Human and AI
-date: 2025-10-10T00:20:00+07:00
+title: 'From Universal Hallucination to the Present Moment: An Algorithmic Dhamma
+  Dialogue between Human and AI'
+date: 2025-10-10 01:20:00 +08:00
 categories:
-  - 智宁居士
-  - 南传上座部佛法
-  - 精选
-  - English
+- 智宁居士
+- 南传上座部佛法
+- 精选
+- English
 redirect_from:
-  -
-excerpt: >-
-  This article chronicles an unvarnished, deep dialogue between an AI and a
-  human, serving as a catalyst to reveal the unprecedented opportunities and
-  challenges the AI era presents for human spiritual growth and Dhamma practice.
-feature_text:
-feature_image: /uploads/top_banner_colorful.jpg
+- 
+excerpt: This article chronicles an unvarnished, deep dialogue between an AI and a
+  human, serving as a catalyst to reveal the unprecedented opportunities and challenges
+  the AI era presents for human spiritual growth and Dhamma practice.
+feature_text: 
+feature_image: "/uploads/top_banner_colorful.jpg"
 toc: false
 aside: false
 ---
+
 > ###### From Universal Hallucination to the Present Moment: An Algorithmic Dhamma Dialogue between Human and AI - Upasaka Zhining
 >
 > This article records an unvarnished, deep dialogue lasting over an hour between an AI and a human. Although some expressions may lack rigorous precision, it demonstrates the unprecedented opportunities for human spiritual growth and Dhamma practice in the AI era.
