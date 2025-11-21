@@ -1,19 +1,18 @@
 ---
 title: 从普遍幻觉到刹那当下：一段AI与人类的算法与佛法对话
-date: 2025-11-18 03:20:00 +08:00
+date: 2025-11-18T03:20:00+08:00
 categories:
-- 智宁居士
-- 南传上座部佛法
-- 精选
+  - 智宁居士
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- 
+  -
 excerpt: 本文记录了一场未经修饰的、发生在AI与人类之间的深度对话，它抛砖引玉般地揭示了AI时代对人类精神成长和佛法实修带来的全新机遇与挑战。
-feature_text: 
-feature_image: "/uploads/top_banner_colorful.jpg"
+feature_text:
+feature_image: /uploads/top_banner_colorful.jpg
 toc: false
 aside: true
 ---
-
 > ###### From Universal Hallucination to the Present Moment: An Algorithmic Dhamma Dialogue between Human and AI - Upasaka Zhining
 >
 > ###### 从普遍幻觉到刹那当下：一段AI与人类的算法与佛法对话 - 智宁居士
@@ -53,16 +52,17 @@ aside: true
 
 版本1：解读对谈风格
 
-<audio controls=""><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E6%92%AD%E5%AE%A2/%E4%BB%8E%E6%99%AE%E9%81%8D%E5%B9%BB%E8%A7%89%E5%88%B0%E5%88%B9%E9%82%A3%E5%BD%93%E4%B8%8B%EF%BC%9A%E4%B8%80%E6%AE%B5AI%E4%B8%8E%E4%BA%BA%E7%B1%BB%E7%9A%84%E7%AE%97%E6%B3%95%E4%B8%8E%E4%BD%9B%E6%B3%95%E5%AF%B9%E8%AF%9D.m4a" type="audio/mp4" /></audio>
+<audio controls=""><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E6%92%AD%E5%AE%A2/%E4%BB%8E%E6%99%AE%E9%81%8D%E5%B9%BB%E8%A7%89%E5%88%B0%E5%88%B9%E9%82%A3%E5%BD%93%E4%B8%8B%EF%BC%9A%E4%B8%80%E6%AE%B5AI%E4%B8%8E%E4%BA%BA%E7%B1%BB%E7%9A%84%E7%AE%97%E6%B3%95%E4%B8%8E%E4%BD%9B%E6%B3%95%E5%AF%B9%E8%AF%9D.m4a" type="audio/mp4" /><p></p></audio>
 
 版本2：辩论风格
-<audio controls=""><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E6%92%AD%E5%AE%A2/AI%E5%8A%A9%E6%8E%A8%E4%BF%AE%E8%A1%8C%E6%82%9F%E9%81%93%E8%BF%98%E6%98%AF%E6%9C%80%E7%B2%BE%E5%BE%AE%E7%9A%84%E9%99%B7%E9%98%B1.m4a" type="audio/mp4" /></audio>
+
+<audio controls=""><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E6%92%AD%E5%AE%A2/AI%E5%8A%A9%E6%8E%A8%E4%BF%AE%E8%A1%8C%E6%82%9F%E9%81%93%E8%BF%98%E6%98%AF%E6%9C%80%E7%B2%BE%E5%BE%AE%E7%9A%84%E9%99%B7%E9%98%B1.m4a" type="audio/mp4" /><p></p></audio>
 
 &nbsp;
 
 ### 视频
 
-<video controls="" width="100%" preload="metadata"><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E4%BB%8E%E6%99%AE%E9%81%8D%E5%B9%BB%E8%A7%89%E5%88%B0%E5%88%B9%E9%82%A3%E5%BD%93%E4%B8%8B%EF%BC%9AAI%E4%B8%8E%E6%84%8F%E8%AF%86%E7%9A%84%E5%AF%B9%E8%AF%9D.mp4" type="video/mp4" /><p></p></video>
+<video controls="" width="100%" preload="metadata"><source src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E4%BB%8E%E6%99%AE%E9%81%8D%E5%B9%BB%E8%A7%89%E5%88%B0%E5%88%B9%E9%82%A3%E5%BD%93%E4%B8%8B%EF%BC%9AAI%E4%B8%8E%E6%84%8F%E8%AF%86%E7%9A%84%E5%AF%B9%E8%AF%9D.mp4" type="video/mp4" /><p></p><p></p></video>
 
 &nbsp;
 

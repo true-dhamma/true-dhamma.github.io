@@ -21,6 +21,8 @@ toc: true
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E7%8B%AC%E8%A1%8C%E5%9C%A3%E8%80%85%EF%BC%9A%E5%85%B3%E4%BA%8E%E7%8B%AC%E8%A7%89%E4%BD%9B%E7%9A%84%E8%A7%A3%E8%AF%B4.mp4" %}
+
 ### 中编序
 
 关于**独觉佛**的记载，在经藏中极为稀少。《相应部》SN3.20经中曾记载一位富翁，因过去世供养一位独觉佛而获大福报。在《中部》MN142中，佛陀提到供养独觉佛的功德仅次于供养圆满觉悟的佛陀，但大于供养一位阿罗汉。

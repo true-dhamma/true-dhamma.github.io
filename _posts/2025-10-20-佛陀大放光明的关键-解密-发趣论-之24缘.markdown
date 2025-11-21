@@ -20,6 +20,8 @@ toc: true
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E7%8E%B0%E5%AE%9E%E7%9A%84%E8%93%9D%E5%9B%BE%EF%BC%9A%E8%A7%A3%E9%94%81%E5%AD%98%E5%9C%A8%E7%9A%8424%E7%A7%8D%E6%9D%A1%E4%BB%B6.mp4" %}
+
 ### 二十四缘偈颂
 
 1. **根缘**：贪、嗔、痴三不善根，以及无贪、无嗔、无痴三善根，是促成相应名法及此生色法的原因。

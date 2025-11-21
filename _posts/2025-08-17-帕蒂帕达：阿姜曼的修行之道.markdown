@@ -1,27 +1,28 @@
 ---
 title: 帕蒂帕达：阿姜曼的修行之道
-date: 2025-08-17 10:10:00 +08:00
+date: 2025-08-17T10:10:00+08:00
 categories:
-- 阿姜摩诃布瓦尊者
-- 高僧大德
-- 南传上座部佛法
-- 精选
+  - 阿姜摩诃布瓦尊者
+  - 高僧大德
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- "/高僧大德/南传上座部佛法/精选/2025/08/17/帕蒂帕达-阿姜曼的修行之道/"
-- "/高僧大德/南传上座部佛法/精选/帕蒂帕达-阿姜曼的修行之道/"
+  - /高僧大德/南传上座部佛法/精选/2025/08/17/帕蒂帕达-阿姜曼的修行之道/
+  - /高僧大德/南传上座部佛法/精选/帕蒂帕达-阿姜曼的修行之道/
 excerpt: 这是一条踏在荆棘之上、与猛虎为伴的修行路，直指内心最深处的无明，最终证得永恒的寂静与自由。
-feature_text: 
-feature_image: "/uploads/top_banner_sangha.jpg"
+feature_text:
+feature_image: /uploads/top_banner_sangha.jpg
 aside: false
 ---
-
 > ##### Paṭipadā: The Practice of the Dhamma - Venerable Ācariya Mahā Boowa Ñāṇasampanno
 >
 > ##### 帕蒂帕达：阿姜曼的修行之道 - 阿姜摩诃布瓦尊者 - 摘要
 >
-> **正法必然是在濒临死亡之处找到，如果未曾与死亡正面对峙，就不可能见法。**
+> 正法必然是在濒临死亡之处找到，如果未曾与死亡正面对峙，就不可能见法。这是一条踏在荆棘之上、与猛虎为伴的修行路，直指内心最深处的无明，最终证得永恒的寂静与自由。
 
 &nbsp;
+
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E5%B8%95%E8%92%82%E5%B8%95%E8%BE%BE%EF%BC%9A%E6%B3%95%E7%9A%84%E4%BF%AE%E8%A1%8C%E4%B9%8B%E9%81%93.mp4" %}
 
 ### 第一章 业处
 
