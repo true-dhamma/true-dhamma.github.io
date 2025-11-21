@@ -21,7 +21,7 @@ aside: false
 
 &nbsp;
 
-{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E9%A5%BF%E9%AC%BC%E9%81%93%EF%BC%9A%E8%A7%A3%E6%9E%84%E6%88%90%E7%98%BE.mp4" %}
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E7%A9%BA%E6%B4%9E%E7%9A%84%E5%BF%83%EF%BC%9A%E6%88%90%E7%98%BE%E7%9A%84%E7%9C%9F%E7%9B%B8%E4%B8%8E%E7%96%97%E6%84%88.mp4" %}
 
 ### 引言：饿鬼道：成瘾的世界
 
