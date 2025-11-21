@@ -1,16 +1,17 @@
 ---
 title: 正念的奇迹
-date: 2025-08-12T10:10:00+08:00
+date: 2025-08-12 10:10:00 +08:00
 categories:
-  - 正念
-  - 西方世界的佛法
+- 正念
+- 西方世界的佛法
 redirect_from:
-  - /正念/西方世界的佛法/2025/08/12/正念的奇迹/
+- "/正念/西方世界的佛法/2025/08/12/正念的奇迹/"
 excerpt: 真正的奇迹不是在水上或空中行走，而是在大地上行走。
-feature_text:
-feature_image: /uploads/top_banner_mindfulness.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_mindfulness.jpg"
 aside: false
 ---
+
 > ##### The Miracle of Mindfulness: An Introduction to the Practice of Meditation - Thich Nhat Hanh
 >
 > ##### 正念的奇迹 - 一行禅师 - 摘要
