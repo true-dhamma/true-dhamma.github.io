@@ -13,7 +13,6 @@ excerpt: 成瘾的对立面不是清醒，而是连接。我们一直在对成�
 feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
-
 > ##### Chasing the Scream: The First and Last Days of the War on Drugs - Johann Hari
 >
 > ##### 追逐尖叫：毒品战争的百年谎言 - 约翰·哈里 - 摘要
@@ -21,6 +20,8 @@ aside: false
 > 这本书将彻底颠覆你对毒品、成瘾以及这场百年毒品战争的所有认知。
 
 &nbsp;
+
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E8%BF%BD%E9%80%90%E5%B0%96%E5%8F%AB%EF%BC%9A%E6%AF%92%E5%93%81%E6%88%98%E4%BA%89%E7%9A%84%E7%99%BE%E5%B9%B4%E8%B0%8E%E8%A8%80.mp4" %}
 
 **参考：Everything you think you know about addiction is wrong by Johann Hari**
 

@@ -22,6 +22,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E4%B8%96%E9%97%B4%E6%88%90%E7%98%BE%EF%BC%9A%E9%80%9A%E5%BE%80%E8%87%AA%E7%94%B1%E7%9A%84%E5%8F%A4%E8%80%81%E9%81%93%E8%B7%AF.mp4" %}
+
 ### 前言
 
 #### 本书来历

@@ -22,6 +22,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E4%B8%80%E6%9D%A1%E4%B8%8D%E5%90%8C%E7%9A%84%E5%BA%B7%E5%A4%8D%E4%B9%8B%E8%B7%AF%EF%BC%9A%E8%A7%A3%E6%9E%90%E2%80%9C%E7%90%86%E6%80%A7%E5%BA%B7%E5%A4%8D%E2%80%9D.mp4" %}
+
 ### 致谢
 
 本书的灵感来源是我的妻子洛伊丝。理性康复（RR）是我们共同努力的结晶，它源于我们一起面对并战胜我个人酒瘾的经历。在过去的十年里，我们全心投入，绘制了一张清晰的地图，旨在引领任何人走出物质成瘾的阴霾。
