@@ -1,17 +1,18 @@
 ---
 title: 永不足够：成瘾的神经科学与亲身经历
-date: 2025-08-10T21:13:00+08:00
+date: 2025-08-10 21:13:00 +08:00
 categories:
-  - 成瘾与戒断
-  - 心理学
-  - 精选
+- 成瘾与戒断
+- 心理学
+- 精选
 redirect_from:
-  - /心理学/精选/2025/08/10/永不足够-成瘾的神经科学与亲身经历/
+- "/心理学/精选/2025/08/10/永不足够-成瘾的神经科学与亲身经历/"
 excerpt: 大脑对药物的反应，永远是促成与药物效果相反的状态。所有快感的背后，都有一张必须偿还的账单。
-feature_text:
-feature_image: /uploads/top_banner_addiction.jpg
+feature_text: 
+feature_image: "/uploads/top_banner_addiction.jpg"
 aside: false
 ---
+
 > ##### Never Enough: The Neuroscience and Experience of Addiction - Judith Grisel
 >
 > ##### 永不足够：成瘾的神经科学与亲身经历 - 朱迪斯·格里塞尔 - 摘要
