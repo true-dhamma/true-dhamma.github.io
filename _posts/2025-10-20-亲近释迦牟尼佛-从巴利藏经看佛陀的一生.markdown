@@ -20,6 +20,8 @@ toc: true
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E4%BA%B2%E8%BF%91%E9%87%8A%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%EF%BC%9A%E4%BB%8E%E5%B7%B4%E5%88%A9%E8%97%8F%E7%BB%8F%E7%9C%8B%E4%BD%9B%E9%99%80%E7%9A%84%E4%B8%80%E7%94%9F.mp4" %}
+
 ### **人物角色**
 
 * **叙述者：** 为现时代的一位注释者或其同事，负责介绍其他人。他具备一般性的常识，对论及的事件秉持旁观者客观的态度来说明。
