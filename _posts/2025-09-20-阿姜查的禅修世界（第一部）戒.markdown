@@ -19,6 +19,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E9%98%BF%E5%A7%9C%E6%9F%A5%E7%9A%84%E7%A6%85%E4%BF%AE%E4%B8%96%E7%95%8C%EF%BC%9A%E6%88%92.mp4" %}
+
 ### 推荐序 这本书将改变你的生命
 
 我不太晓得如何介绍这位我所见过最有智慧的人才好。只要有他在的地方，就有机锋与活力、率真与实话、庄严与亲密，以及幽默与严肃的戒律、动人的悲心与自然的解脱。阿姜阿玛洛(Ajahn Amaro)对本书精彩的导读，将他描写得很传神。

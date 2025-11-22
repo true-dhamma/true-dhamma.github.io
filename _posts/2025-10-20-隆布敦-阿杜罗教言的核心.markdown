@@ -21,6 +21,8 @@ toc: true
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E9%9A%86%E5%B8%83%E6%95%A6%E6%95%99%E8%A8%80%E7%9A%84%E6%A0%B8%E5%BF%83%EF%BC%9A%E5%BF%83%E7%9A%84%E5%9B%9B%E5%9C%A3%E8%B0%9B.mp4" %}
+
 ## 隆布敦的教言
 
 隆布敦·阿杜罗（Luangpor Dun Atulo），曾任Surin府的宗长，以及Wat Burapharam寺的前住持（下文作者将简称其为“隆布敦”），是一位具备神通与智慧的大长老。他教导弟子的方式通常言简意赅，但其中蕴含着极为深邃的修行内涵，初学者单靠思索很难完全领会。只有当修行达到相应的高度时，才能深刻理解他教言的真义。
