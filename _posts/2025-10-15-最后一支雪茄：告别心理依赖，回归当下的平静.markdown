@@ -21,7 +21,7 @@ aside: false
 
 &nbsp;
 
-{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E6%9C%80%E5%90%8E%E4%B8%80%E6%94%AF%E9%9B%AA%E8%8C%84%EF%BC%9A%E8%B5%B0%E5%87%BA%E8%BF%B7%E5%AE%AB%E7%9A%84%E5%9C%B0%E5%9B%BE.mp4" %}
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E6%9C%80%E5%90%8E%E4%B8%80%E6%94%AF%E9%9B%AA%E8%8C%84%EF%BC%9A%E8%B5%B0%E5%87%BA%E6%88%90%E7%98%BE%E8%BF%B7%E5%AE%AB%E7%9A%84%E5%9C%B0%E5%9B%BE.mp4" %}
 
 为何市面上鲜有关于戒断雪茄的指南？关于戒烟的书籍汗牛充栋，却唯独对雪茄这个领域讳莫如深。是因为抽雪茄的人太少，形不成市场？还是因为它被认为是一种“无需戒断”的雅好？或许两者皆有。
 

@@ -20,7 +20,7 @@ aside: false
 
 &nbsp;
 
-{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E6%AD%A3%E5%BF%B5%E7%9A%84%E5%A5%87%E8%BF%B9%EF%BC%9A%E7%A6%85%E4%BF%AE%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97.mp4" %}
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E6%AD%A3%E5%BF%B5%E7%9A%84%E5%A5%87%E8%BF%B9%EF%BC%9A%E4%B8%80%E8%A1%8C%E7%A6%85%E5%B8%88%E7%9A%84%E7%A6%85%E4%BF%AE%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97.mp4" %}
 
 ### 译者序
 
