@@ -24,6 +24,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E4%B8%9A%EF%BC%9A%E8%B6%85%E8%B6%8A%E5%96%84%E6%81%B6.mp4" %}
+
 ### 第一章：理解业力法则
 
 #### 业力作为自然法则

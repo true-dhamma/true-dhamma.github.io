@@ -13,12 +13,13 @@ feature_text:
 feature_image: "/uploads/top_banner_dhamma.jpg"
 aside: false
 ---
-
 > ##### 吉祥的选择：南传上座部佛教生死书 - 佛护尊者、舍喜尊者 - 摘要
 >
 > 这是一本南传上座部佛教的生死书，完整阐释了从临终关怀到身后事宜的智慧，引导读者作出吉祥的选择，迈向光明的生命。
 
 &nbsp;
+
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E5%90%89%E7%A5%A5%E7%9A%84%E9%80%89%E6%8B%A9.mp4" %}
 
 ## 引言
 
