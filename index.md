@@ -3,10 +3,9 @@ title: 南传上座部佛法 - 中文资源
 feature_text: |
   ## True Dhamma
   为 **渴望** 或 **正在** 真切 **实践佛陀教法** 的 **华人** 而设立
-feature_image: "/uploads/top_banner_home.jpg"
+feature_image: /uploads/top_banner_home.jpg
 excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 ---
-
 提供南传上座部佛法（Theravada Buddhism）、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 
 <table style="width:100%; border: none;">
@@ -15,7 +14,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
         <a href="/book/" style="text-decoration: none; color: inherit;">
           <img src="/uploads/banner1.jpg" alt="《世间成瘾与出世间觉悟》及相关资源" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="/book/" style="text-decoration: none; color: inherit;">《世间成瘾与出世间觉悟》<br />及相关资源</a></p><a href="#世间成瘾与出世间觉悟" style="text-decoration: none; color: inherit;">
+          </a><p><a href="/book/" style="text-decoration: none; color: inherit;">《世间成瘾与世间解脱》<br />及相关资源</a></p><a href="#世间成瘾与世间解脱" style="text-decoration: none; color: inherit;">
         </a><p></p>
       </td>
       <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
@@ -53,16 +52,6 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
     </tr>
   </tbody>
 </table>
-
----
-
-### 世间成瘾与出世间觉悟
-
-世间成瘾与出世间觉悟
-
-世间成瘾与出世间觉悟 世间成瘾与出世间觉悟
-
-(Pending)
 
 ---
 
@@ -141,7 +130,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 ##### 电子书（全网唯一，包含所有隆塔已面世书籍的高质量中文翻译）：
 
-* [《止于心&法语108 v1.1》中文版](https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/%E6%AD%A2%E4%BA%8E%E5%BF%83&%E6%B3%95%E8%AF%AD108%20v1.1.pdf){: target="_blank" rel="noopener"} -（[泰语原版链接](https://www.luangtanarongsak.org/home/index.php/2017-10-14-13-19-49/2017-11-12-10-51-16/item/1415-book-06){: target="_blank" rel="noopener"}）
+* [《止于心&法语108 v1.1》中文版](https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/%E6%AD%A2%E4%BA%8E%E5%BF%83&amp;%E6%B3%95%E8%AF%AD108%20v1.1.pdf){: target="_blank" rel="noopener"} -（[泰语原版链接](https://www.luangtanarongsak.org/home/index.php/2017-10-14-13-19-49/2017-11-12-10-51-16/item/1415-book-06){: target="_blank" rel="noopener"}）
 * [《修行（第一册）》中文版](https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/%E4%BF%AE%E8%A1%8C%EF%BC%88%E7%AC%AC%E4%B8%80%E5%86%8C%EF%BC%89%20-%20%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8.epub){: target="_blank" rel="noopener"} -（[泰语原版链接](https://www.luangtanarongsak.org/home/index.php/2017-10-14-13-19-49/2017-11-12-10-51-16/item/1413-book-04){: target="_blank" rel="noopener"}）
 * [《彻底结束吧》中文版](https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/%E5%BD%BB%E5%BA%95%E7%BB%93%E6%9D%9F%E5%90%A7-%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8.epub){: target="_blank" rel="noopener"} -（[泰语原版链接](https://www.luangtanarongsak.org/home/index.php/2017-10-14-13-19-49/2017-11-12-10-51-16/item/1416-book-07){: target="_blank" rel="noopener"}）
 * [《化解痛苦与缓解压力》中文版](https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E7%94%B5%E5%AD%90%E4%B9%A6/%E5%8C%96%E8%A7%A3%E7%97%9B%E8%8B%A6%E4%B8%8E%E7%BC%93%E8%A7%A3%E5%8E%8B%E5%8A%9B%20-%20%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8.epub){: target="_blank" rel="noopener"} -（[泰语原版链接](https://www.luangtanarongsak.org/home/index.php/2017-10-14-13-19-49/2017-11-12-10-51-16/item/10-book-01){: target="_blank" rel="noopener"}）
