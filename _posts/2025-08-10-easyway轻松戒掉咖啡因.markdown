@@ -20,6 +20,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E8%89%BE%E4%BC%A6%C2%B7%E5%8D%A1%E5%B0%94%E7%9A%84%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%92%96%E5%95%A1%E5%9B%A0%E4%B9%8B%E9%81%93.mp4" %}
+
 ### 艾伦·卡尔的EASYWAY方法
 
 大多数咖啡因饮用者都相信戒掉它很困难。我们被告知，问题不仅在于身体上的戒断反应，还在于我们需要用意志力来抵制渴望。
