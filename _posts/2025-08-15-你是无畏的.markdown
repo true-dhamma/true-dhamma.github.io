@@ -20,6 +20,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E4%BD%A0%E6%98%AF%E6%97%A0%E7%95%8F%E7%9A%84%EF%BC%9A%E6%91%98%E8%A6%81.mp4" %}
+
 ### **引言**
 
 我曾经认为那些励志名言都是一派胡言。同时，我生活中有很多迫切想要改变的事情，但我总是陷入一种愤世嫉俗的状态，觉得自己比那些需要“自我帮助”的人更优越。
