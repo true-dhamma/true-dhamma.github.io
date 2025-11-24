@@ -20,6 +20,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E8%BD%BB%E8%BD%BB%E6%9D%BE%E6%9D%BE%E6%88%92%E6%8E%89%E5%8F%AF%E5%8D%A1%E5%9B%A0.mp4" %}
+
 ## 引言
 
 欢迎阅读《轻松戒掉可卡因》。亚伦·卡尔在戒瘾领域的声誉建立在他帮助吸烟者成功戒烟的巨大成就之上。他的“轻松戒”方法（Easyway）非常成功，迅速成为一种全球现象。从一开始，亚伦就收到了无数来自其他成瘾问题困扰者的请求，希望他能将此方法应用于他们的困境。

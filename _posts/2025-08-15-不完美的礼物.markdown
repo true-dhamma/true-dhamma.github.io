@@ -22,6 +22,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%A4%BC%E7%89%A9.mp4" %}
+
 ### 序言
 
 **全然地拥抱我们的生命故事，并在这个过程中深爱自己，这是我们一生中最勇敢的事。**

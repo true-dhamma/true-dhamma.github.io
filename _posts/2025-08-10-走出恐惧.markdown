@@ -20,6 +20,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E8%B5%B0%E5%87%BA%E6%81%90%E6%83%A7.mp4" %}
+
 ### 引言
 
 我们生活中最深刻的议题之一，是如何摆脱旧有的行为模式，尤其是在人际关系中。这正是本书的核心。

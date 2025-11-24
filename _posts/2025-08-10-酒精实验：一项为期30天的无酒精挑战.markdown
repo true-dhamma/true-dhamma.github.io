@@ -18,6 +18,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E9%85%92%E7%B2%BE%E5%AE%9E%E9%AA%8C%EF%BC%9A%E4%B8%80%E9%A1%B9%E4%B8%BA%E6%9C%9F30%E5%A4%A9%E7%9A%84%E6%8C%91%E6%88%98.mp4" %}
+
 ### **引言**
 
 这是**你的身体**，这是**你的心**，这是**你的选择**。

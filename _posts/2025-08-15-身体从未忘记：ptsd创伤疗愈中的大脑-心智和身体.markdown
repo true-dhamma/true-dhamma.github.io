@@ -21,6 +21,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E8%BA%AB%E4%BD%93%E4%BB%8E%E6%9C%AA%E5%BF%98%E8%AE%B0.mp4" %}
+
 ### 第一部分：创伤的重新发现
 
 ### 第一章 越战士兵的经验教训
