@@ -1,9 +1,8 @@
 <!-- ======================================================================
-     Jekyll Video Include (Plyr 16:9 Dedicated)
-     Features: 
-     1. 强制锁定 16:9 (解决 iOS 全屏旋转/变形问题)
-     2. 自动封面 + 延迟消失 (可配置)
-     3. 倍速 + 画中画 + 汉化
+     Jekyll Video Include (Fix Fullscreen Zoom Issue)
+     Changes: 
+     1. 移除 video 标签的 object-fit: cover，解决全屏被放大裁切的问题
+     2. 保持 wrapper 16:9，确保页面布局稳定
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
@@ -12,8 +11,10 @@
      style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
     
     <!-- 1. Video 标签 -->
-    <!-- object-fit: cover 确保画面始终铺满 16:9 的容器 -->
-    <video playsinline controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover;">
+    <!-- [修复]: 删除了 object-fit: cover。
+         现在视频会保持原始比例。因为你的视频和容器都是16:9，它依然会填满容器。
+         但在全屏时，它会自动适应屏幕黑边，而不会被放大裁切。 -->
+    <video playsinline controls preload="metadata" style="width: 100%; height: 100%;">
         <source src="{{ include.url }}" type="video/mp4">
     </video>
 
@@ -43,7 +44,7 @@
     }
     if (!wrapper) return;
 
-    // --- 2. 注入 CSS ---
+    // --- 2. 注入 CSS (单例) ---
     if (!document.getElementById('plyr-css-cdn')) {
         var cssLink = document.createElement('link');
         cssLink.id = 'plyr-css-cdn';
@@ -51,13 +52,17 @@
         cssLink.href = 'https://cdn.plyr.io/3.7.8/plyr.css';
         document.head.appendChild(cssLink);
         
-        // 强制控件层级在封面之上
         var style = document.createElement('style');
-        style.innerHTML = '.plyr__controls { z-index: 5 !important; }';
+        // 强制 Plyr 控件层级在封面之上，同时修复全屏背景色
+        style.innerHTML = `
+            .plyr__controls { z-index: 5 !important; }
+            /* 确保全屏时视频容器背景是黑色的，防止出现白边 */
+            .plyr--fullscreen-active { background: #000 !important; }
+        `;
         document.head.appendChild(style);
     }
 
-    // --- 3. 注入 JS ---
+    // --- 3. 注入 JS (单例 + 队列) ---
     if (!window.plyrScriptLoading) {
         window.plyrScriptLoading = true;
         window.plyrReadyCallbacks = [];
@@ -101,7 +106,7 @@
                 },
                 playsinline: true,
                 resetOnEnd: true,
-                // [关键]: 既然全是16:9，这里必须写死，告诉iOS不要自作聪明
+                // 保持16:9锁定，解决iOS竖屏误判问题
                 ratio: '16:9'
             });
 
@@ -129,7 +134,6 @@
                     img.onload = function() {
                         coverLayer.style.backgroundImage = 'url("' + coverPath + '")';
                         
-                        // 监听播放时间
                         player.on('timeupdate', function() {
                             if (player.currentTime > delaySeconds) {
                                 coverLayer.style.opacity = '0';
@@ -143,9 +147,6 @@
                     img.onerror = function() { coverLayer.style.display = 'none'; };
                 } catch (e) { console.error(e); }
             }
-
-            // [已删除]: 之前那个监听 loadedmetadata 并修改 wrapper.style.aspectRatio 的代码段
-            // 既然保证是 16:9，就不需要动态计算，避免了页面跳动和 iOS 全屏误判。
         };
     }
 
