@@ -17,7 +17,6 @@ layout: default
    1. 侧边栏导航优化
    ========================================================================== */
 
-/* 强制覆盖侧边栏透明度 */
 .aside--video-nav { opacity: 1 !important; }
 
 /* PC端侧边栏固定 */
@@ -33,8 +32,8 @@ layout: default
 .video-nav-header {
   cursor: pointer;
   display: flex; align-items: center;
-  color: #3A77D8; /* 网站主色 */
-  padding: 0.3rem 0;
+  color: #3A77D8;
+  padding: 0.3rem 0 0.3rem 0.4rem; /* 左侧增加 padding 防止三角形被切 */
   user-select: none;
 }
 .video-nav-header:hover { color: #2e60ad; }
@@ -65,14 +64,14 @@ layout: default
   border-left: 1px solid #f0f0f0;
 }
 
-/* 子菜单项 - 修复手机字号过小问题 */
+/* 子菜单项 - 强制字号修复 */
 .video-nav-subitem {
   cursor: pointer;
   display: block;
   padding: 0.3rem 0 0.3rem 0.6rem;
   color: #3A77D8;
   transition: color 0.1s;
-  /* 强制统一字号，解决手机端差异 */
+  /* 强制 1rem，防止移动端因根元素缩放导致过小，与一级菜单保持视觉一致 */
   font-size: 1rem !important; 
   line-height: 1.5;
 }
@@ -81,19 +80,18 @@ layout: default
 
 
 /* ==========================================================================
-   2. 视频网格与卡片样式 (去多余Hover，调整间距)
+   2. 视频网格与卡片样式
    ========================================================================== */
 
 .video-category-section { display: none; }
 .video-category-section.active { display: block; animation: fadeIn 0.3s ease-out; }
 
-/* Grid 间距调整 */
+/* Grid 间距 */
 .video-grid {
   display: grid;
   grid-template-columns: 1fr;
   column-gap: 2rem;
-  /* 之前是3.5rem太大了，现在回调到一半左右 */
-  row-gap: 1.8rem; 
+  row-gap: 1.8rem; /* 保持较为紧凑的行间距 */
   margin-top: 1.5rem;
 }
 @media screen and (min-width: 40em) {
@@ -112,26 +110,21 @@ layout: default
   aspect-ratio: 16/9;
   background: #000;
   overflow: hidden;
-  /* 缩小图文间距 */
   margin-bottom: 0.5rem; 
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 .video-thumbnail {
   width: 100%; height: 100%; object-fit: cover; 
-  /* 移除 hover 变暗效果 */
-  transition: none; 
-  opacity: 1;
+  transition: none; opacity: 1;
 }
-/* 移除变暗逻辑 */
-/* .video-card:hover .video-thumbnail { opacity: 0.85; } */
 
-/* 播放按钮 */
+/* 播放按钮 - 改为 Plyr 蓝 */
 .play-icon-overlay {
   position: absolute; top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   width: 60px; height: 60px;
-  background: rgba(58, 119, 216, 0.9);
+  background: rgba(0, 179, 255, 0.9); /* Plyr Blue */
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   pointer-events: none;
@@ -149,11 +142,10 @@ layout: default
   border-left: 18px solid #fff; margin-left: 6px;
 }
 
-/* 视频标题 H6 - 调整行高与下划线 */
+/* 列表页标题 H6 */
 .video-card-title {
   margin: 0 !important;
   padding: 0 !important;
-  /* 解决PC上行高过大的问题，强制紧凑 */
   line-height: 1.35 !important; 
   color: #3A77D8 !important;
   font-weight: 700;
@@ -161,17 +153,13 @@ layout: default
 }
 .video-card:hover .video-card-title {
   color: #2e60ad !important;
-  /* 移除下划线 */
   text-decoration: none !important; 
 }
 
 
 /* ==========================================================================
-   3. 弹窗播放器 (修复全屏与进度条 BUG)
+   3. 弹窗播放器 (紧凑布局 & 滚动锁定)
    ========================================================================== */
-
-/* 移除之前导致全屏失效的 z-index !important hack */
-/* 这里的样式只负责基础外观 */
 
 .video-modal-overlay {
   position: fixed; top: 0; left: 0; width: 100%; height: 100%;
@@ -190,11 +178,7 @@ layout: default
   display: flex; flex-direction: column;
 }
 
-/* 
-   关键：不要给 .video-player-wrapper 设置 overflow: hidden 
-   否则某些移动浏览器全屏时计算尺寸会出错，或者 Plyr UI 被截断。
-   Plyr 自己会处理圆角。
-*/
+/* Plyr Wrapper */
 .video-player-wrapper {
   position: relative;
   width: 100%;
@@ -202,49 +186,66 @@ layout: default
   background: #000;
   border-radius: 8px 8px 0 0; 
 }
+/* 全屏时去掉圆角 */
+.plyr--fullscreen-enabled {
+  border-radius: 0 !important;
+}
 
 /* 
    自定义封面层
-   不再依赖 z-index 覆盖 controls，
-   而是通过 JS 插入到 Plyr 内部容器的特定位置 (poster 层级)
 */
 .custom-cover-layer {
   position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
   background-size: contain; background-repeat: no-repeat; background-position: center; 
   background-color: #000; 
-  /* 确保它在视频之上，但 Plyr controls 默认 z-index 很高，会自动盖住它 */
   z-index: 2; 
   transition: opacity 1.5s ease-in-out;
   opacity: 1;
-  pointer-events: none; /* 让点击穿透，确保能点到 Controls */
+  pointer-events: none;
 }
 
-/* 
-   Plyr 样式微调：确保 Plyr 占满容器并保持圆角 
-   Plyr 默认全屏时会移除圆角，这是正常行为
-*/
-.plyr {
-  width: 100%; height: 100%;
-  border-radius: 8px 8px 0 0;
-}
-.plyr--fullscreen-enabled {
-  border-radius: 0 !important;
-}
-
+/* 弹窗底部信息栏：紧凑布局 */
 .video-modal-info {
-  padding: 1.2rem;
+  /* 缩小上下间距，确保内容不被挤出屏幕 */
+  padding: 0.8rem 1rem; 
   background: #fff;
-  display: flex; justify-content: space-between; align-items: center;
+  display: flex; justify-content: space-between; align-items: flex-start; /* 顶部对齐 */
   border-top: 1px solid #eee;
   border-radius: 0 0 8px 8px;
 }
-.modal-text h3 { margin: 0 0 0.4rem 0; font-size: 1.2rem; color: #2c3e50; }
-.modal-post-link { color: #3A77D8; font-weight: 700; text-decoration: none; font-size: 0.95rem; }
+.modal-text {
+  flex: 1;
+  padding-right: 1rem;
+}
+/* 弹窗标题：统一为 H6 样式，蓝色，紧凑行高 */
+.modal-text h6 { 
+  margin: 0 0 0.3rem 0 !important; 
+  font-size: 1.1rem !important; 
+  color: #3A77D8 !important; /* 统一蓝色 */
+  line-height: 1.3 !important; /* 紧凑行距 */
+  font-weight: 700;
+}
+.modal-post-link { 
+  color: #3A77D8; 
+  font-weight: normal; 
+  text-decoration: none; 
+  font-size: 0.9rem; 
+  display: inline-block;
+}
 .modal-post-link:hover { color: #2e60ad; text-decoration: underline; }
-.modal-close-btn { background: none; border: none; font-size: 2rem; color: #999; cursor: pointer; padding: 0 0 0 1rem; line-height: 1; }
+.modal-close-btn { 
+  background: none; border: none; font-size: 2rem; color: #999; 
+  cursor: pointer; padding: 0; line-height: 0.8; 
+  margin-top: -2px; /* 微调对齐 */
+}
 .modal-close-btn:hover { color: #333; }
 
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* 禁止背景滚动 Helper Class */
+body.modal-open {
+  overflow: hidden !important;
+}
 </style>
 
 <main class="main container">
@@ -288,16 +289,17 @@ layout: default
 
 <div class="video-modal-overlay" id="videoModal">
   <div class="video-modal-content" onclick="event.stopPropagation()">
-    <!-- Wrapper，封面层初始并不在这里，而是被JS移动 -->
+    <!-- 播放器容器 -->
     <div class="video-player-wrapper plyr-custom-wrapper">
       <video id="mainPlayer" playsinline controls style="width: 100%; height: 100%;"></video>
-      <!-- 初始隐藏的封面层定义 -->
+      <!-- 封面层：初始隐藏，JS控制 -->
       <div class="custom-cover-layer" id="modalCoverLayer" style="display:none;"></div>
     </div>
     
     <div class="video-modal-info typeset">
       <div class="modal-text">
-        <h3 id="modalTitle"></h3>
+        <!-- 改为 H6 -->
+        <h6 id="modalTitle"></h6>
         <a href="#" target="_blank" class="modal-post-link" id="modalLink">阅读相关文章 &rarr;</a>
       </div>
       <button class="modal-close-btn" onclick="closeModal()" aria-label="Close">×</button>
@@ -320,6 +322,7 @@ layout: default
   const videoElement = document.getElementById('mainPlayer');
   const coverLayer = document.getElementById('modalCoverLayer');
   
+  // 标记：是否是通用封面
   let isUsingFallbackCover = false;
 
   function initPlayer() {
@@ -330,47 +333,32 @@ layout: default
       ratio: '16:9',
       resetOnEnd: true,
       i18n: { speed: '速度', normal: '正常', quality: '画质' },
-      // 关键配置：允许 plyr 容器处理层级
       fullscreen: { enabled: true, fallback: true, iosNative: true } 
     });
 
-    // =========================================================
-    // 核心修复：DOM 移动逻辑 (完全复刻 includes/video.html)
-    // =========================================================
+    // --- DOM 移动逻辑：保证全屏兼容 ---
     var moveLayer = function() {
-        // 将自定义封面移入 Plyr 的容器中
-        // 这样全屏时它会跟着走，且 Plyr 会自动处理 controls 的 z-index 高于内部元素
         if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
             player.elements.container.appendChild(coverLayer);
-            // 确保显示
-            coverLayer.style.display = 'block'; 
+            // 只有当不是通用封面时，才显示 Layer
+            if (!isUsingFallbackCover) {
+                coverLayer.style.display = 'block';
+            }
         }
     };
     
-    // 初始化时尝试移动
     player.on('ready', moveLayer);
-    
-    // 某些情况下 Plyr 会重建 DOM，监听 enterfullscreen 确保层级正确
     player.on('enterfullscreen', moveLayer);
-    
-    // 立即尝试移动一次 (防止 ready 已触发)
     setTimeout(moveLayer, 100);
 
-
-    // =========================================================
-    // 交互逻辑：10s 遮罩控制
-    // =========================================================
+    // --- 交互逻辑 ---
     
-    // 1. 点击播放：如果是通用封面，立即隐藏
     player.on('play', function() {
         if (isUsingFallbackCover) {
-            coverLayer.style.opacity = '0';
-            // 加个延时彻底隐藏，避免挡住点击
-            setTimeout(() => { if(isUsingFallbackCover) coverLayer.style.display = 'none'; }, 300);
+            coverLayer.style.display = 'none';
         }
     });
 
-    // 2. 时间更新：前 10 秒逻辑
     player.on('timeupdate', function() {
         if (isUsingFallbackCover) return; 
 
@@ -382,11 +370,11 @@ layout: default
         }
     });
 
-    // 3. 播放结束：恢复显示
     player.on('ended', () => { 
-        coverLayer.style.display = 'block';
-        // 强制重绘，确保 opacity 生效
-        setTimeout(() => { coverLayer.style.opacity = '1'; }, 10);
+        if (!isUsingFallbackCover) {
+            coverLayer.style.display = 'block';
+            setTimeout(() => { coverLayer.style.opacity = '1'; }, 10);
+        }
     });
   }
 
@@ -416,10 +404,10 @@ layout: default
       linkEl.style.display = 'none';
     }
 
-    // 重置封面状态
-    coverLayer.style.display = 'block';
-    coverLayer.style.opacity = '1';
+    // 重置状态
     isUsingFallbackCover = false;
+    coverLayer.style.opacity = '1';
+    coverLayer.style.display = 'block';
 
     // 图片加载处理
     const img = new Image();
@@ -428,8 +416,11 @@ layout: default
         coverLayer.style.backgroundImage = `url("${coverSrc}")`;
     };
     img.onerror = () => { 
+        // 关键逻辑：如果是通用封面，标记它，并隐藏 Layer
+        // 这样不会显示通用图片，也不会有 10s 遮罩
         coverLayer.style.backgroundImage = `url("${fallbackCoverUrl}")`; 
         isUsingFallbackCover = true;
+        coverLayer.style.display = 'none'; 
     };
 
     player.source = {
@@ -438,7 +429,8 @@ layout: default
     };
 
     modal.classList.add('open');
-    
+    document.body.classList.add('modal-open'); // 禁止背景滚动
+
     // 尝试移动 DOM 确保层级正确
     if (player.elements && player.elements.container) {
          player.elements.container.appendChild(coverLayer);
@@ -449,10 +441,12 @@ layout: default
 
   window.closeModal = function() {
     modal.classList.remove('open');
+    document.body.classList.remove('modal-open'); // 恢复背景滚动
     player.pause();
     setTimeout(() => { 
         coverLayer.style.opacity = '1'; 
-        coverLayer.style.display = 'block'; 
+        // 只有非通用封面才 block，否则保持 none
+        if (!isUsingFallbackCover) coverLayer.style.display = 'block'; 
     }, 300);
   };
 
@@ -473,6 +467,13 @@ layout: default
       
       const grid = target.querySelector('.video-grid');
       if (grid) shuffleGrid(grid);
+
+      // URL Hash 更新
+      if (history.replaceState) {
+        history.replaceState(null, null, '#' + id);
+      } else {
+        window.location.hash = id;
+      }
     }
   };
 
@@ -488,6 +489,7 @@ layout: default
     initPlayer();
     const isPC = window.innerWidth >= 900; 
     
+    // 菜单状态恢复
     const headers = document.querySelectorAll('.video-nav-header.has-children');
     headers.forEach(header => {
       const subList = header.nextElementSibling;
@@ -502,9 +504,33 @@ layout: default
       }
     });
 
-    const firstTrigger = document.querySelector('.video-nav-subitem, .video-nav-header[data-target]');
-    if(firstTrigger) {
-      switchCategory(firstTrigger.getAttribute('data-target'), firstTrigger);
+    // Hash 路由处理
+    const hash = window.location.hash.substring(1); // 去掉 #
+    let targetEl = null;
+
+    if (hash) {
+      // 尝试通过 ID 查找对应的菜单项
+      // 我们在列表生成时给 li 加了 data-target，但点击触发在 div/li 上
+      // 查找拥有该 data-target 的元素
+      targetEl = document.querySelector(`.video-nav-subitem[data-target="${hash}"], .video-nav-header[data-target="${hash}"]`);
+    }
+
+    if (!targetEl) {
+      // 默认第一个
+      targetEl = document.querySelector('.video-nav-subitem, .video-nav-header[data-target]');
+    }
+
+    if(targetEl) {
+      // 如果是二级菜单，确保父级展开
+      if (targetEl.classList.contains('video-nav-subitem')) {
+        const parentUl = targetEl.parentElement;
+        if (parentUl) {
+           parentUl.style.display = 'block';
+           const parentHeader = parentUl.previousElementSibling;
+           if (parentHeader) parentHeader.classList.add('open');
+        }
+      }
+      switchCategory(targetEl.getAttribute('data-target'), targetEl);
     }
   });
 
