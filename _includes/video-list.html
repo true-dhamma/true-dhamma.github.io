@@ -1,0 +1,26 @@
+<ul class="video-nav-list">
+  {% for cat in site.data.video.categories %}
+    <li class="video-nav-item">
+      {% if cat.children %}
+        <!-- 有子目录：点击仅展开/折叠 -->
+        <div class="video-nav-header has-children" onclick="toggleSubmenu(this)">
+          <span class="nav-text">{{ cat.name }}</span>
+          <span class="nav-arrow">▼</span>
+        </div>
+        <ul class="video-nav-sublist" style="display: none;">
+          {% for subcat in cat.children %}
+            <!-- 子目录项 -->
+            <li class="video-nav-subitem" data-target="{{ subcat.id }}" onclick="switchCategory('{{ subcat.id }}', this); event.stopPropagation();">
+              {{ subcat.name }}
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <!-- 无子目录：直接作为分类 -->
+        <div class="video-nav-header" data-target="{{ cat.id }}" onclick="switchCategory('{{ cat.id }}', this)">
+          <span class="nav-text">{{ cat.name }}</span>
+        </div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

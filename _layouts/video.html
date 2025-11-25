@@ -1,0 +1,260 @@
+---
+layout: default
+---
+<!-- _layouts/video.html -->
+
+{% include site-header.html %}
+
+<!-- 基础配置 -->
+{% assign video_base_url = "https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/" %}
+{% assign cover_base_url = "https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/cover/" %}
+{% assign fallback_cover = cover_base_url | append: "general.jpg" %}
+
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+
+<style>
+/* 布局样式：PC左右，手机上下 */
+.video-page-container { display: flex; flex-direction: column; gap: 2rem; padding: 2rem 0; }
+@media (min-width: 900px) {
+  .video-page-container { flex-direction: row; align-items: flex-start; }
+}
+
+/* 侧边栏 */
+.video-sidebar { width: 100%; flex-shrink: 0; background: #f9f9f9; border-radius: 8px; padding: 1rem; }
+@media (min-width: 900px) {
+  .video-sidebar { width: 250px; position: sticky; top: 2rem; max-height: 80vh; overflow-y: auto; }
+}
+
+/* 导航样式 */
+.video-nav-list { list-style: none; padding: 0; margin: 0; }
+.video-nav-item { margin-bottom: 0.5rem; }
+.video-nav-header { padding: 0.8rem 1rem; cursor: pointer; border-radius: 6px; font-weight: 600; display: flex; justify-content: space-between; align-items: center; transition: background 0.2s; user-select: none; }
+.video-nav-header:hover { background: #eee; }
+.video-nav-header.active { background: #333; color: #fff; }
+.video-nav-sublist { list-style: none; padding-left: 1.5rem; margin-top: 0.5rem; }
+.video-nav-subitem { padding: 0.5rem 1rem; cursor: pointer; font-size: 0.95em; color: #555; border-radius: 4px; display: block; }
+.video-nav-subitem:hover { color: #000; background: #e0e0e0; }
+.video-nav-subitem.active { color: #000; font-weight: bold; background: #ddd; }
+.nav-arrow { font-size: 0.8em; transition: transform 0.3s; }
+.has-children.open .nav-arrow { transform: rotate(180deg); }
+
+/* 内容区域 */
+.video-content { flex-grow: 1; width: 100%; min-height: 300px; }
+.video-category-section { display: none; }
+.video-category-section.active { display: block; animation: fadeIn 0.4s ease-out; }
+.video-section-title { margin-top: 0; margin-bottom: 1.5rem; font-size: 1.8rem; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; }
+
+/* Grid & Cards */
+.video-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+@media (min-width: 600px) { .video-grid { grid-template-columns: repeat(2, 1fr); } }
+
+.video-card { cursor: pointer; border-radius: 8px; overflow: hidden; transition: transform 0.2s; }
+.video-card:hover { transform: translateY(-3px); }
+
+.video-thumbnail-wrapper { position: relative; aspect-ratio: 16/9; background: #000; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.video-thumbnail { width: 100%; height: 100%; object-fit: cover; transition: opacity 0.3s; }
+.video-card:hover .video-thumbnail { opacity: 0.8; }
+
+.play-icon-overlay { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 48px; height: 48px; background: rgba(0,0,0,0.6); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 2px solid #fff; pointer-events: none; transition: background 0.3s; }
+.play-icon-overlay::after { content: ''; display: block; width: 0; height: 0; border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-left: 14px solid #fff; margin-left: 4px; }
+.video-card:hover .play-icon-overlay { background: rgba(200, 0, 0, 0.9); border-color: rgba(200, 0, 0, 0.9); }
+
+.video-info { padding: 0.8rem 0.2rem; }
+.video-card-title { font-size: 1.05rem; font-weight: bold; line-height: 1.4; margin: 0; color: #222; }
+
+/* Modal */
+.video-modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 9000; display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; }
+.video-modal-overlay.open { opacity: 1; pointer-events: auto; }
+.video-modal-content { width: 94%; max-width: 1000px; background: #111; border-radius: 8px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.8); display: flex; flex-direction: column; }
+.video-player-wrapper { position: relative; width: 100%; aspect-ratio: 16/9; background: #000; }
+.video-modal-info { padding: 1rem 1.5rem; background: #fff; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.modal-text h3 { margin: 0 0 0.4rem 0; font-size: 1.1rem; color: #333; }
+.modal-post-link { color: #007bff; text-decoration: none; font-size: 0.95rem; font-weight: 600; }
+.modal-close-btn { background: none; border: none; font-size: 2rem; color: #666; cursor: pointer; padding: 0; line-height: 1; }
+.modal-close-btn:hover { color: #000; }
+
+/* Custom Cover inside Modal */
+.custom-cover-layer { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #000; z-index: 5; transition: opacity 1s ease-in-out; pointer-events: none; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+
+<main class="main container">
+  <div class="video-page-container">
+    <aside class="video-sidebar">
+      {% include video-list.html %}
+    </aside>
+
+    <div class="video-content">
+      {% assign all_categories = site.data.video.categories %}
+      {% for cat in all_categories %}
+        {% if cat.videos %}
+          {% assign current_videos = cat.videos %}
+          {% assign section_id = cat.id %}
+          {% assign section_title = cat.name %}
+          {% include video-section-template.html %}
+        {% endif %}
+        {% if cat.children %}
+          {% for subcat in cat.children %}
+            {% if subcat.videos %}
+              {% assign current_videos = subcat.videos %}
+              {% assign section_id = subcat.id %}
+              {% assign section_title = subcat.name %}
+              {% include video-section-template.html %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</main>
+
+<div class="video-modal-overlay" id="videoModal">
+  <div class="video-modal-content" onclick="event.stopPropagation()">
+    <div class="video-player-wrapper plyr-custom-wrapper">
+      <video id="mainPlayer" playsinline controls style="width: 100%; height: 100%;"></video>
+      <div class="custom-cover-layer" id="modalCoverLayer"></div>
+    </div>
+    <div class="video-modal-info">
+      <div class="modal-text">
+        <h3 id="modalTitle"></h3>
+        <a href="#" target="_blank" class="modal-post-link" id="modalLink">阅读相关文章 &rarr;</a>
+      </div>
+      <button class="modal-close-btn" onclick="closeModal()">×</button>
+    </div>
+  </div>
+</div>
+
+{% include site-footer.html %}
+
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+<script>
+(function() {
+  const videoBaseUrl = "{{ video_base_url }}";
+  const coverBaseUrl = "{{ cover_base_url }}";
+  const fallbackCoverUrl = "{{ fallback_cover }}";
+  
+  let player;
+  const modal = document.getElementById('videoModal');
+  const videoElement = document.getElementById('mainPlayer');
+  const coverLayer = document.getElementById('modalCoverLayer');
+  
+  // 初始化播放器
+  function initPlayer() {
+    player = new Plyr(videoElement, {
+      controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'pip', 'fullscreen'],
+      settings: ['quality', 'speed', 'loop'],
+      speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] },
+      ratio: '16:9',
+      resetOnEnd: true,
+      i18n: { speed: '速度', normal: '正常', quality: '画质' } // 简化的汉化
+    });
+
+    // 播放时隐藏封面
+    player.on('playing', () => { coverLayer.style.opacity = '0'; });
+    // 结束后显示封面
+    player.on('ended', () => { coverLayer.style.opacity = '1'; });
+    
+    // 全屏处理：如果 Plyr 全屏，它通常会创建一个新的容器。
+    // 为了让自定义 Cover 也能在全屏显示（如果需要），需要将 Cover 移动到 Plyr 的容器中
+    // 但这会增加复杂性。这里简单处理：只在非全屏模式下保证 Cover 正常。
+    player.on('ready', () => {
+        // 确保 coverLayer 在 wrapper 内部（某些 Plyr 初始化可能会改变 DOM 结构）
+        // 在我们的 HTML 结构中，coverLayer 是 video 的兄弟，Plyr 可能会包裹 video。
+        // Plyr v3 通常把 video 替换为 .plyr 容器。
+        // 最稳妥的方式是把 coverLayer 放在 .plyr-custom-wrapper 里，不要动它。
+    });
+  }
+
+  // 打开视频 (核心逻辑修复：使用 dataset)
+  window.openVideo = function(cardElement) {
+    const ds = cardElement.dataset;
+    const filename = ds.filename;
+    
+    // URL 编码处理中文文件名
+    const encodedFilename = encodeURIComponent(filename);
+    const videoSrc = videoBaseUrl + encodedFilename;
+    
+    // 封面图逻辑
+    const filenameNoExt = filename.substring(0, filename.lastIndexOf('.'));
+    const coverSrc = coverBaseUrl + encodeURIComponent(filenameNoExt) + ".jpg";
+
+    // 1. 设置 UI 文本
+    document.getElementById('modalTitle').textContent = ds.title;
+    const linkEl = document.getElementById('modalLink');
+    if(ds.postUrl) {
+        linkEl.href = "{{ site.baseurl }}" + ds.postUrl;
+        linkEl.textContent = ds.postTitle || "阅读相关文章";
+        linkEl.style.display = 'inline-block';
+    } else {
+        linkEl.style.display = 'none';
+    }
+
+    // 2. 设置封面 (JS 加载图片以处理 Fallback)
+    const img = new Image();
+    img.src = coverSrc;
+    img.onload = () => { coverLayer.style.backgroundImage = `url("${coverSrc}")`; };
+    img.onerror = () => { coverLayer.style.backgroundImage = `url("${fallbackCoverUrl}")`; };
+    
+    // 重置封面状态
+    coverLayer.style.opacity = '1';
+
+    // 3. 设置播放源
+    player.source = {
+      type: 'video',
+      sources: [{ src: videoSrc, type: 'video/mp4' }]
+    };
+
+    // 4. 显示并播放
+    modal.classList.add('open');
+    player.play().catch(e => console.warn("Auto-play blocked", e));
+  };
+
+  window.closeModal = function() {
+    modal.classList.remove('open');
+    player.pause();
+    setTimeout(() => { coverLayer.style.opacity = '1'; }, 300); // 恢复封面
+  };
+
+  // 点击遮罩关闭
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  // 分类切换
+  window.switchCategory = function(id, el) {
+    // 导航高亮
+    document.querySelectorAll('.video-nav-header, .video-nav-subitem').forEach(e => e.classList.remove('active'));
+    if(el) el.classList.add('active');
+    
+    // 内容切换
+    document.querySelectorAll('.video-category-section').forEach(s => s.classList.remove('active'));
+    const target = document.getElementById('section-' + id);
+    if(target) target.classList.add('active');
+  };
+
+  // 子菜单折叠
+  window.toggleSubmenu = function(el) {
+    el.classList.toggle('open');
+    const subList = el.nextElementSibling;
+    if(subList) subList.style.display = (subList.style.display === 'none') ? 'block' : 'none';
+  };
+
+  // 初始化
+  document.addEventListener('DOMContentLoaded', () => {
+    initPlayer();
+    // 自动激活第一个可用分类
+    const first = document.querySelector('.video-nav-subitem, .video-nav-header[data-target]');
+    if(first) {
+        // 如果是子菜单，先展开父级
+        if(first.classList.contains('video-nav-subitem')) {
+            const parentUl = first.parentElement;
+            parentUl.style.display = 'block';
+            parentUl.previousElementSibling.classList.add('open');
+        }
+        // 触发点击逻辑
+        switchCategory(first.getAttribute('data-target'), first);
+    }
+  });
+
+})();
+</script>
