@@ -1,25 +1,23 @@
 <!-- ======================================================================
-     Jekyll Video Include (Plyr + Auto Cover + Configurable Delay)
-     Design: 
-     1. 单例模式加载资源 (CSS/JS只加载一次)
-     2. 支持页面多实例互不干扰
-     3. 封面逻辑：默认停留 10秒，支持 include.delay 参数覆盖
+     Jekyll Video Include (Plyr Local + Ultimate Features)
+     Features: 
+     1. 本地化资源 (Local CSS/JS)
+     2. 自动封面 + 10s 延迟 (可配置)
+     3. 倍速 + 画中画 + 汉化
+     4. 竖屏/横屏完美适配
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
-     id="plyr-wrapper-{{ include.url | slugify }}-{{ 'now' | date: '%s%N' }}"
      data-video-url="{{ include.url }}" 
      data-delay="{{ include.delay | default: 10 }}" 
      style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
     
-    <!-- 1. 核心 Video 标签 -->
-    <!-- playsinline: 必须，否则iOS会自动全屏导致封面失效 -->
+    <!-- Video 标签 -->
     <video playsinline controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover;">
         <source src="{{ include.url }}" type="video/mp4">
     </video>
 
-    <!-- 2. 自定义封面层 -->
-    <!-- 初始位于此处，JS初始化时会将其移动到 Plyr 容器内部以配合 UI 层级 -->
+    <!-- 封面层 -->
     <div class="custom-cover-layer" 
          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
                 background-size: cover; background-position: center; 
@@ -30,10 +28,7 @@
 
 <script>
 (function() {
-    /**
-     * 1. 安全获取当前 Script 对应的 Wrapper 容器
-     * 使用循环查找 previousElementSibling，防止中间夹杂注释或空文本节点导致找不到
-     */
+    // 1. 查找 Wrapper
     var currentScript = document.currentScript;
     var wrapper = null;
     if (currentScript) {
@@ -46,30 +41,31 @@
             prev = prev.previousElementSibling;
         }
     }
-    // 如果找不到 wrapper (极少见情况)，直接退出防止报错
     if (!wrapper) return;
 
-    /**
-     * 2. 注入 CSS (单例)
-     */
-    if (!document.getElementById('plyr-css-cdn')) {
+    // --- [修改点 1] 注入本地 CSS ---
+    if (!document.getElementById('plyr-css-local')) {
         var cssLink = document.createElement('link');
-        cssLink.id = 'plyr-css-cdn';
+        cssLink.id = 'plyr-css-local'; // 改个ID区分一下
         cssLink.rel = 'stylesheet';
-        cssLink.href = 'https://cdn.plyr.io/3.7.8/plyr.css';
+        // 使用 Jekyll 过滤器生成正确的本地路径
+        cssLink.href = '{{ "/assets/plyr.css" | relative_url }}';
         document.head.appendChild(cssLink);
+        
+        // 补充样式：确保控件层级最高
+        var style = document.createElement('style');
+        style.innerHTML = '.plyr__controls { z-index: 5 !important; }';
+        document.head.appendChild(style);
     }
 
-    /**
-     * 3. 注入 JS (单例 + 队列机制)
-     * 确保 plyr.js 只下载一次，所有视频等待下载完成后统一初始化
-     */
+    // --- [修改点 2] 注入本地 JS ---
     if (!window.plyrScriptLoading) {
         window.plyrScriptLoading = true;
         window.plyrReadyCallbacks = [];
-        
         var jsScript = document.createElement('script');
-        jsScript.src = 'https://cdn.plyr.io/3.7.8/plyr.js';
+        // 使用 Jekyll 过滤器生成正确的本地路径
+        jsScript.src = '{{ "/assets/plyr.js" | relative_url }}';
+        
         jsScript.onload = function() {
             window.plyrLoaded = true;
             if (window.plyrReadyCallbacks) {
@@ -77,94 +73,76 @@
                 window.plyrReadyCallbacks = [];
             }
         };
+        // 如果本地文件加载失败（比如路径不对），可以在这里加 onerror 处理
+        jsScript.onerror = function() {
+            console.error("Plyr local JS failed to load. Please check /assets/plyr.js");
+        };
         document.head.appendChild(jsScript);
     }
 
-    /**
-     * 4. 定义初始化逻辑 (全局复用函数)
-     */
+    // 4. 初始化逻辑 (保持不变)
     if (!window.initSinglePlyrVideo) {
         window.initSinglePlyrVideo = function(wrapper) {
-            // 防止重复初始化
             if (wrapper.getAttribute('data-init-done')) return;
             wrapper.setAttribute('data-init-done', 'true');
 
             var videoUrl = wrapper.getAttribute('data-video-url');
             var delayAttr = wrapper.getAttribute('data-delay');
-            var delaySeconds = delayAttr ? parseFloat(delayAttr) : 10; // 默认 10秒
+            var delaySeconds = delayAttr ? parseFloat(delayAttr) : 10;
             var videoEl = wrapper.querySelector('video');
             var coverLayer = wrapper.querySelector('.custom-cover-layer');
 
             if (!videoEl || !coverLayer) return;
 
-            // --- Plyr 初始化 ---
             var player = new Plyr(videoEl, {
-                controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
+                controls: [
+                    'play-large', 'play', 'progress', 'current-time', 
+                    'mute', 'volume', 'settings', 'pip', 'fullscreen'
+                ],
+                settings: ['quality', 'speed', 'loop'],
+                speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] },
+                i18n: {
+                    speed: '速度', normal: '正常', quality: '画质',
+                    loop: '循环播放', play: '播放', pause: '暂停', pip: '画中画'
+                },
                 playsinline: true,
-                resetOnEnd: true,
-                ratio: '16:9' // 默认比例防止抖动
+                resetOnEnd: true
             });
 
-            // --- 核心修复：移动封面层级 ---
-            // 尝试在实例化后立即移动，如果容器还没生成，则 fallback 到 ready 事件
             var moveLayer = function() {
                 if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
-                    // 将封面移入 Plyr 容器，确保它在视频之上，但在控件(z-index:3)之下
                     player.elements.container.appendChild(coverLayer);
                 }
             };
-            moveLayer(); // 立即尝试
-            player.on('ready', moveLayer); // 保险起见再次绑定
+            moveLayer();
+            player.on('ready', moveLayer);
 
-            // --- 自动计算封面路径 ---
             if (videoUrl) {
                 try {
-                    // 逻辑：/path/video.mp4 -> /path/cover/video.jpg
-                    var cleanUrl = videoUrl.split('?')[0];
-                    var parts = cleanUrl.split('/');
+                    var parts = videoUrl.split('?')[0].split('/');
                     var fileNameFull = parts.pop();
-                    
-                    // 解码 + 去后缀 + 编码
                     var fileNameDecoded = decodeURIComponent(fileNameFull);
                     var fileNameNoExt = fileNameDecoded.substring(0, fileNameDecoded.lastIndexOf('.'));
-                    
                     var basePath = parts.join('/');
-                    // 构造封面地址
                     var coverPath = basePath + '/cover/' + encodeURIComponent(fileNameNoExt) + '.jpg';
 
-                    // 加载图片
                     var img = new Image();
                     img.src = coverPath;
-                    
                     img.onload = function() {
                         coverLayer.style.backgroundImage = 'url("' + coverPath + '")';
-                        
-                        // --- 监听播放时间 ---
                         player.on('timeupdate', function() {
-                            // 只有当 当前时间 > 设定时间 且 正在播放时才隐藏
                             if (player.currentTime > delaySeconds) {
                                 coverLayer.style.opacity = '0';
                             } else {
                                 coverLayer.style.opacity = '1';
                             }
                         });
-
-                        // 播放结束复原
-                        player.on('ended', function() {
-                            coverLayer.style.opacity = '1';
-                        });
+                        player.on('ended', function() { coverLayer.style.opacity = '1'; });
                     };
-                    
-                    img.onerror = function() {
-                        // 没封面：隐藏遮罩，显示黑底或第一帧
-                        coverLayer.style.display = 'none'; 
-                    };
-
-                } catch (e) { console.error('AutoCover Error:', e); }
+                    img.onerror = function() { coverLayer.style.display = 'none'; };
+                } catch (e) { console.error(e); }
             }
 
-            // --- 宽高比智能修正 ---
-            // 等视频元数据加载后，如果发现比例不对(如竖屏)，修正 wrapper 高度
             player.on('loadedmetadata', function() {
                 if (player.media.videoWidth && player.media.videoHeight) {
                     var ratio = player.media.videoWidth + ' / ' + player.media.videoHeight;
@@ -174,9 +152,7 @@
         };
     }
 
-    /**
-     * 5. 执行初始化
-     */
+    // 5. 执行
     if (window.plyrLoaded) {
         window.initSinglePlyrVideo(wrapper);
     } else {
