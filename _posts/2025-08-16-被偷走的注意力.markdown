@@ -1,19 +1,18 @@
 ---
 title: 被偷走的注意力
-date: 2025-08-16 22:13:00 +08:00
+date: 2025-08-16T22:13:00+08:00
 categories:
-- 心理学
-- 精选
-tags:
-- 成瘾
+  - 成瘾与戒断
+  - 精选
+tags: []
 redirect_from:
-- "/心理学/精选/2025/08/16/被偷走的注意力/"
+  - /心理学/精选/2025/08/16/被偷走的注意力/
+  - /心理学/精选/被偷走的注意力/
 excerpt: 你的分心不是你的错，而是被精心设计的。你的注意力并没有崩溃，它只是被偷走了。
-feature_text: 
-feature_image: "/uploads/top_banner_addiction.jpg"
+feature_text:
+feature_image: /uploads/top_banner_addiction.jpg
 aside: false
 ---
-
 > ##### Stolen Focus - Johann Hari
 >
 > ##### 被偷走的注意力 - 约翰·哈里 - 摘要
