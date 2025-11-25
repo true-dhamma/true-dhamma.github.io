@@ -1,18 +1,17 @@
 ---
-title: 电视剧《佛陀》
-date: 2025-08-17 00:15:00 +08:00
+title: 电视剧《佛陀》（佛陀传记）
+date: 2025-08-17T00:15:00+08:00
 categories:
-- 南传上座部佛法
-- 精选
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- "/南传上座部佛法/精选/2025/08/17/电视剧-佛陀传/"
+  - /南传上座部佛法/精选/2025/08/17/电视剧-佛陀传/
 excerpt: 电视剧《佛陀》国语版全集在线观看，生动再现了佛陀的成长历程与慈悲智慧，将深刻的哲理融入剧情，许多对白都能启发人心，成为生命的智慧指南。
-feature_text: 
-feature_image: "/uploads/top_banner_tv_buddha.jpg"
+feature_text:
+feature_image: /uploads/top_banner_tv_buddha.jpg
 toc: false
 ---
-
-> 印度电视剧《佛陀》全集在线观看。本剧生动再现了佛陀的成长历程与慈悲智慧，将深刻的哲理融入剧情，许多对白都能启发人心，成为生命的智慧指南。
+> 印度电视剧《佛陀》（佛陀传记）全集在线观看。本剧生动再现了佛陀的成长历程与慈悲智慧，将深刻的哲理融入剧情，许多对白都能启发人心，成为生命的智慧指南。
 
 <div id="video-player-container">
   {% include video.html url="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/%E4%BD%9B%E9%99%80%E5%9B%BD%E8%AF%AD01.mp4" %}
@@ -76,6 +75,7 @@ toc: false
   <a href="#" class="episode-link" data-episode="53">[53]</a>
   <a href="#" class="episode-link" data-episode="54">[54]</a>
 </div>
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const episodeLinks = document.querySelectorAll('.episode-link');
@@ -100,6 +100,9 @@ toc: false
     });
   });
 </script>
+
+&nbsp;
+
 <style>
 .episode-links a {
   margin: 0 5px;
@@ -107,11 +110,13 @@ toc: false
 }
 </style>
 
+&nbsp;
+
 下载地址：[\[True-Dhamma网盘\]](https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/){: target="_blank" rel="noopener"}
 
 ### 剧情简介
 
-这部印度电视剧《佛陀》讲述了释迦牟尼佛，即乔达摩·悉达多，从太子诞生到最终悟道成佛，直至进入大涅槃的传奇一生。悉达多王子自幼便心怀众生，展现出非凡的慈悲与智慧。青年时期，他虽过着奢华的生活，却对生老病死等人生疾苦产生了深刻的思考。最终，他毅然决然地放弃了王位、家庭和优渥的生活，出家寻求宇宙人生的真谛。
+这部印度电视剧《佛陀》（佛陀传记）讲述了释迦牟尼佛，即乔达摩·悉达多，从太子诞生到最终悟道成佛，直至进入大涅槃的传奇一生。悉达多王子自幼便心怀众生，展现出非凡的慈悲与智慧。青年时期，他虽过着奢华的生活，却对生老病死等人生疾苦产生了深刻的思考。最终，他毅然决然地放弃了王位、家庭和优渥的生活，出家寻求宇宙人生的真谛。
 
 经过六年的苦行，悉达多认识到苦行并非解脱之道，转而采取中道。他在菩提树下发愿，不成正觉誓不离座，经过与心魔的斗争，最终彻悟成佛。成佛后，他游历四方，教化众生，组建僧团，弘扬佛法。这部电视剧深刻地展现了佛陀的慈悲与智慧，许多对白都能启发人心，成为生命的智慧指南。
 
