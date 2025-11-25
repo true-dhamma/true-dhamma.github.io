@@ -30,11 +30,12 @@
               loading="lazy"
               onerror="this.src='{{ fallback_cover }}'"
             >
+            <!-- 播放按钮 -->
             <div class="play-icon-overlay"></div>
           </div>
           
           <div class="video-info">
-            <!-- 改为 H6，颜色由 CSS 控制为蓝色 -->
+            <!-- H6 标题，颜色由 CSS !important 强制控制 -->
             <h6 class="video-card-title">{{ video_info.title }}</h6>
           </div>
         </div>
