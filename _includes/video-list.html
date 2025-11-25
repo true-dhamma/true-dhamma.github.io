@@ -1,19 +1,17 @@
 <!-- /_includes/video-list.html -->
 <nav class="nav">
-  <ul class="list" style="list-style: none; padding-left: 0;">
+  <ul class="list" style="list-style: none; padding-left: 0; margin-bottom: 0;">
     {% for cat in site.data.video.categories %}
-      <li class="item" style="margin-bottom: 0;">
+      <li class="video-nav-item">
         {% if cat.children %}
-          <!-- 有子目录：点击头部仅折叠/展开 -->
-          <!-- 注意：增加 has-children 类用于 JS 识别 -->
+          <!-- 有子目录：头部也是蓝色，Hover深蓝 -->
           <div class="video-nav-header has-children" onclick="toggleSubmenu(this)">
             <span class="nav-text">{{ cat.name }}</span>
             <span class="nav-arrow">▼</span>
           </div>
           <ul class="video-nav-sublist">
             {% for subcat in cat.children %}
-              <!-- 子目录项：点击切换右侧内容 -->
-              <!-- data-target 对应 section 的 ID -->
+              <!-- 子目录项 -->
               <li class="video-nav-subitem" 
                   data-target="{{ subcat.id }}" 
                   onclick="switchCategory('{{ subcat.id }}', this); event.stopPropagation();">
@@ -22,7 +20,7 @@
             {% endfor %}
           </ul>
         {% else %}
-          <!-- 无子目录：直接作为分类 -->
+          <!-- 无子目录 -->
           <div class="video-nav-header" 
                data-target="{{ cat.id }}" 
                onclick="switchCategory('{{ cat.id }}', this)">
