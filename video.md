@@ -1,5 +1,6 @@
 ---
-layout: video
 title: 视频
-permalink: /video/
+permalink: "/video/"
+layout: video
 ---
+
