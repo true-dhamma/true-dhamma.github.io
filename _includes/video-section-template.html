@@ -1,0 +1,43 @@
+<!-- /_includes/video-section-template.html -->
+<section id="section-{{ section_id }}" class="video-category-section">
+  <h2 class="video-section-title">{{ section_title }}</h2>
+  
+  <div class="video-grid">
+    {% for v_filename in current_videos %}
+      
+      {% comment %} --- 从 library 中查找视频详情 --- {% endcomment %}
+      {% assign video_info = nil %}
+      {% for v in site.data.video.library %}
+        {% if v.filename == v_filename %}
+          {% assign video_info = v %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      {% if video_info %}
+        <!-- 计算封面地址用于懒加载预览 (这里只做简单的字符串拼接作为初始 src，实际由 JS 处理 error fallback) -->
+        {% assign filename_no_ext = video_info.filename | split: '.' | first %}
+        <!-- 注意：Liquid 的 encode 可能和 JS 不同，这里简单处理，主要逻辑靠 JS 弹窗 -->
+        <!-- 列表页显示的缩略图： -->
+        {% assign thumb_url = cover_base_url | append: filename_no_ext | append: ".jpg" %} 
+
+        <div class="video-card" onclick="openVideo('{{ video_info.filename }}', '{{ video_info.title | escape }}', '{{ video_info.post_url }}', '{{ video_info.post_title | escape }}')">
+          <div class="video-thumbnail-wrapper">
+            <img 
+              src="{{ thumb_url }}" 
+              alt="{{ video_info.title }}" 
+              class="video-thumbnail" 
+              loading="lazy"
+              onerror="this.src='{{ fallback_cover }}'"
+            >
+            <div class="play-icon-overlay"></div>
+          </div>
+          <div class="video-info">
+            <h3 class="video-card-title">{{ video_info.title }}</h3>
+          </div>
+        </div>
+      {% endif %}
+
+    {% endfor %}
+  </div>
+</section>
