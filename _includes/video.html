@@ -1,8 +1,9 @@
 <!-- ======================================================================
-     Jekyll Video Include (Fix Fullscreen Zoom Issue)
-     Changes: 
-     1. 移除 video 标签的 object-fit: cover，解决全屏被放大裁切的问题
-     2. 保持 wrapper 16:9，确保页面布局稳定
+     Jekyll Video Include (Plyr Ultimate Final)
+     Fixed: 
+     1. 删除 video 的 object-fit: cover，修复 iOS 全屏变成竖屏的 Bug
+     2. 保留 Plyr ratio: '16:9' 确保初始化稳定
+     3. 宽高比自适应 + 自动封面 + 倍速 + 画中画
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
@@ -11,14 +12,13 @@
      style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
     
     <!-- 1. Video 标签 -->
-    <!-- [修复]: 删除了 object-fit: cover。
-         现在视频会保持原始比例。因为你的视频和容器都是16:9，它依然会填满容器。
-         但在全屏时，它会自动适应屏幕黑边，而不会被放大裁切。 -->
+    <!-- [修正]: 删除了 object-fit: cover。使用 width/height: 100% 即可，Plyr 会处理适配 -->
     <video playsinline controls preload="metadata" style="width: 100%; height: 100%;">
         <source src="{{ include.url }}" type="video/mp4">
     </video>
 
     <!-- 2. 封面层 -->
+    <!-- 这里的 background-size: cover 是必须的，确保封面图铺满 -->
     <div class="custom-cover-layer" 
          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
                 background-size: cover; background-position: center; 
@@ -44,7 +44,7 @@
     }
     if (!wrapper) return;
 
-    // --- 2. 注入 CSS (单例) ---
+    // --- 2. 注入 CSS ---
     if (!document.getElementById('plyr-css-cdn')) {
         var cssLink = document.createElement('link');
         cssLink.id = 'plyr-css-cdn';
@@ -52,17 +52,13 @@
         cssLink.href = 'https://cdn.plyr.io/3.7.8/plyr.css';
         document.head.appendChild(cssLink);
         
+        // 强制控件层级最高
         var style = document.createElement('style');
-        // 强制 Plyr 控件层级在封面之上，同时修复全屏背景色
-        style.innerHTML = `
-            .plyr__controls { z-index: 5 !important; }
-            /* 确保全屏时视频容器背景是黑色的，防止出现白边 */
-            .plyr--fullscreen-active { background: #000 !important; }
-        `;
+        style.innerHTML = '.plyr__controls { z-index: 5 !important; }';
         document.head.appendChild(style);
     }
 
-    // --- 3. 注入 JS (单例 + 队列) ---
+    // --- 3. 注入 JS ---
     if (!window.plyrScriptLoading) {
         window.plyrScriptLoading = true;
         window.plyrReadyCallbacks = [];
@@ -92,7 +88,7 @@
 
             if (!videoEl || !coverLayer) return;
 
-            // --- Plyr 初始化 ---
+            // 初始化 Plyr
             var player = new Plyr(videoEl, {
                 controls: [
                     'play-large', 'play', 'progress', 'current-time', 
@@ -106,11 +102,10 @@
                 },
                 playsinline: true,
                 resetOnEnd: true,
-                // 保持16:9锁定，解决iOS竖屏误判问题
-                ratio: '16:9'
+                ratio: '16:9' // 保留这个，确保 iOS 识别默认横屏模式
             });
 
-            // 移动封面到 Plyr 内部
+            // 移动封面层
             var moveLayer = function() {
                 if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
                     player.elements.container.appendChild(coverLayer);
@@ -119,7 +114,7 @@
             moveLayer();
             player.on('ready', moveLayer);
 
-            // --- 自动封面逻辑 ---
+            // 自动加载封面
             if (videoUrl) {
                 try {
                     var parts = videoUrl.split('?')[0].split('/');
@@ -141,12 +136,19 @@
                                 coverLayer.style.opacity = '1';
                             }
                         });
-                        
                         player.on('ended', function() { coverLayer.style.opacity = '1'; });
                     };
                     img.onerror = function() { coverLayer.style.display = 'none'; };
                 } catch (e) { console.error(e); }
             }
+
+            // 宽高比自适应 (修正 Wrapper 的比例，让 Plyr 自动填充)
+            player.on('loadedmetadata', function() {
+                if (player.media.videoWidth && player.media.videoHeight) {
+                    var ratio = player.media.videoWidth + ' / ' + player.media.videoHeight;
+                    wrapper.style.aspectRatio = ratio;
+                }
+            });
         };
     }
 
