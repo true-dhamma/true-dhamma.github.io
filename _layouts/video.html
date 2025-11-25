@@ -13,38 +13,11 @@ layout: default
 <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 
 <style>
-/* --- 1. 播放器核心冲突修复 --- */
+/* ==========================================================================
+   1. 侧边栏导航优化
+   ========================================================================== */
 
-/* 强制提升 Plyr 控制条层级，确保在遮罩层之上 */
-.plyr__controls {
-  z-index: 50 !important; 
-}
-
-/* 播放器圆角与阴影 */
-.video-player-wrapper {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16/9;
-  background: #000;
-  border-radius: 8px 8px 0 0; 
-  overflow: hidden;
-  /* 确保 Plyr 自身也被切角 */
-  -webkit-mask-image: -webkit-radial-gradient(white, black);
-}
-
-/* 自定义封面层：位于控件之下，但在视频之上 */
-.custom-cover-layer {
-  position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
-  background-size: contain; background-repeat: no-repeat; background-position: center; 
-  background-color: #000; 
-  z-index: 20; /* 小于 controls (50) */
-  transition: opacity 1.5s ease-in-out;
-  opacity: 1;
-  pointer-events: none; 
-}
-
-/* --- 2. 侧边栏导航 (对齐优化) --- */
-
+/* 强制覆盖侧边栏透明度 */
 .aside--video-nav { opacity: 1 !important; }
 
 /* PC端侧边栏固定 */
@@ -56,73 +29,71 @@ layout: default
 
 .video-nav-item { margin-bottom: 0.5rem; }
 
-/* 导航头部：Flex 布局 */
+/* 导航头部 */
 .video-nav-header {
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  color: #3A77D8;
+  display: flex; align-items: center;
+  color: #3A77D8; /* 网站主色 */
   padding: 0.3rem 0;
   user-select: none;
 }
 .video-nav-header:hover { color: #2e60ad; }
 .video-nav-header.active { color: #2e60ad; font-weight: 700; }
 
-/* CSS 纯粹三角形 (替代 Emoji) */
+/* 纯CSS三角形 */
 .nav-arrow-icon {
   width: 0; height: 0;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  border-left: 6px solid #a8adac; /* 灰色箭头 */
+  border-left: 6px solid #a8adac;
   display: inline-block;
-  margin-right: 0.8rem; /* 箭头与文字的间距 */
+  margin-right: 0.6rem;
   transform-origin: center;
   transition: transform 0.2s;
-  flex-shrink: 0; /* 防止被挤压 */
+  flex-shrink: 0;
 }
-
-/* 展开状态：旋转90度向下 */
 .video-nav-header.open .nav-arrow-icon {
   transform: rotate(90deg);
-  border-left-color: #3A77D8; /* 展开时变蓝 */
+  border-left-color: #3A77D8;
 }
 
 /* 子菜单：整体缩进 */
 .video-nav-sublist {
-  /* 缩进计算：箭头宽(6px) + margin(0.8rem ≈ 13px) = 约 20px */
-  padding-left: 1.2rem; 
-  margin-top: 0.2rem;
-  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  margin-top: 0.2rem; margin-bottom: 0.5rem;
   display: none; 
-  border-left: 1px solid #f0f0f0; /* 极淡的引导线 */
+  border-left: 1px solid #f0f0f0;
 }
 
-/* 子菜单项 */
+/* 子菜单项 - 修复手机字号过小问题 */
 .video-nav-subitem {
   cursor: pointer;
   display: block;
-  padding: 0.3rem 0 0.3rem 0.5rem; /* 增加左padding让文字离线远一点 */
-  color: #3A77D8; 
-  /* 强制手机端字号一致 */
+  padding: 0.3rem 0 0.3rem 0.6rem;
+  color: #3A77D8;
+  transition: color 0.1s;
+  /* 强制统一字号，解决手机端差异 */
   font-size: 1rem !important; 
   line-height: 1.5;
-  transition: color 0.1s;
 }
 .video-nav-subitem:hover { color: #2e60ad; text-decoration: underline; }
 .video-nav-subitem.active { color: #2e60ad; font-weight: 700; }
 
 
-/* --- 3. 视频列表与卡片 --- */
+/* ==========================================================================
+   2. 视频网格与卡片样式 (去多余Hover，调整间距)
+   ========================================================================== */
 
 .video-category-section { display: none; }
 .video-category-section.active { display: block; animation: fadeIn 0.3s ease-out; }
 
-/* 增大行间距 */
+/* Grid 间距调整 */
 .video-grid {
   display: grid;
   grid-template-columns: 1fr;
   column-gap: 2rem;
-  row-gap: 3.5rem; /* 增加垂直间距 */
+  /* 之前是3.5rem太大了，现在回调到一半左右 */
+  row-gap: 1.8rem; 
   margin-top: 1.5rem;
 }
 @media screen and (min-width: 40em) {
@@ -135,68 +106,73 @@ layout: default
   transition: transform 0.1s;
 }
 
-/* 缩略图容器：圆角 */
+/* 缩略图容器 */
 .video-thumbnail-wrapper {
   position: relative;
   aspect-ratio: 16/9;
   background: #000;
   overflow: hidden;
-  margin-bottom: 1rem; /* 图文间距 */
+  /* 缩小图文间距 */
+  margin-bottom: 0.5rem; 
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 .video-thumbnail {
-  width: 100%; height: 100%; object-fit: cover; transition: opacity 0.1s;
+  width: 100%; height: 100%; object-fit: cover; 
+  /* 移除 hover 变暗效果 */
+  transition: none; 
+  opacity: 1;
 }
-.video-card:hover .video-thumbnail { opacity: 0.85; }
+/* 移除变暗逻辑 */
+/* .video-card:hover .video-thumbnail { opacity: 0.85; } */
 
-/* 播放按钮：标准圆形 + 蓝色 */
+/* 播放按钮 */
 .play-icon-overlay {
-  position: absolute;
-  top: 50%; left: 50%;
+  position: absolute; top: 50%; left: 50%;
   transform: translate(-50%, -50%);
-  width: 60px; height: 60px; /* 稍大一点 */
-  background: rgba(58, 119, 216, 0.9); /* #3A77D8 90%透明 */
+  width: 60px; height: 60px;
+  background: rgba(58, 119, 216, 0.9);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex; align-items: center; justify-content: center;
   pointer-events: none;
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-  opacity: 0; /* 默认隐藏 */
+  opacity: 0;
   transition: opacity 0.2s, transform 0.2s;
 }
-/* 鼠标悬停显示 */
 .video-card:hover .play-icon-overlay {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1.05);
 }
-/* 白色三角形 */
 .play-icon-overlay::after {
-  content: '';
-  display: block;
-  width: 0; height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 18px solid #fff; /* 稍微大一点的三角形 */
-  margin-left: 6px; /* 视觉居中校正 */
+  content: ''; display: block; width: 0; height: 0;
+  border-top: 10px solid transparent; border-bottom: 10px solid transparent;
+  border-left: 18px solid #fff; margin-left: 6px;
 }
 
-/* 标题：强制蓝色 */
+/* 视频标题 H6 - 调整行高与下划线 */
 .video-card-title {
-  margin: 0;
-  line-height: 1.4;
-  color: #3A77D8 !important; /* 强制覆盖全局 H6 颜色 */
+  margin: 0 !important;
+  padding: 0 !important;
+  /* 解决PC上行高过大的问题，强制紧凑 */
+  line-height: 1.35 !important; 
+  color: #3A77D8 !important;
   font-weight: 700;
   transition: color 0.1s;
 }
 .video-card:hover .video-card-title {
   color: #2e60ad !important;
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  /* 移除下划线 */
+  text-decoration: none !important; 
 }
 
-/* --- 4. 弹窗样式 --- */
+
+/* ==========================================================================
+   3. 弹窗播放器 (修复全屏与进度条 BUG)
+   ========================================================================== */
+
+/* 移除之前导致全屏失效的 z-index !important hack */
+/* 这里的样式只负责基础外观 */
+
 .video-modal-overlay {
   position: fixed; top: 0; left: 0; width: 100%; height: 100%;
   background: rgba(0, 0, 0, 0.85); z-index: 9999;
@@ -208,10 +184,51 @@ layout: default
 .video-modal-content {
   width: 94%; max-width: 1000px;
   background: #fff;
-  border-radius: 8px; /* 弹窗整体圆角 */
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
   display: flex; flex-direction: column;
+}
+
+/* 
+   关键：不要给 .video-player-wrapper 设置 overflow: hidden 
+   否则某些移动浏览器全屏时计算尺寸会出错，或者 Plyr UI 被截断。
+   Plyr 自己会处理圆角。
+*/
+.video-player-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #000;
+  border-radius: 8px 8px 0 0; 
+}
+
+/* 
+   自定义封面层
+   不再依赖 z-index 覆盖 controls，
+   而是通过 JS 插入到 Plyr 内部容器的特定位置 (poster 层级)
+*/
+.custom-cover-layer {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+  background-size: contain; background-repeat: no-repeat; background-position: center; 
+  background-color: #000; 
+  /* 确保它在视频之上，但 Plyr controls 默认 z-index 很高，会自动盖住它 */
+  z-index: 2; 
+  transition: opacity 1.5s ease-in-out;
+  opacity: 1;
+  pointer-events: none; /* 让点击穿透，确保能点到 Controls */
+}
+
+/* 
+   Plyr 样式微调：确保 Plyr 占满容器并保持圆角 
+   Plyr 默认全屏时会移除圆角，这是正常行为
+*/
+.plyr {
+  width: 100%; height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.plyr--fullscreen-enabled {
+  border-radius: 0 !important;
 }
 
 .video-modal-info {
@@ -219,6 +236,7 @@ layout: default
   background: #fff;
   display: flex; justify-content: space-between; align-items: center;
   border-top: 1px solid #eee;
+  border-radius: 0 0 8px 8px;
 }
 .modal-text h3 { margin: 0 0 0.4rem 0; font-size: 1.2rem; color: #2c3e50; }
 .modal-post-link { color: #3A77D8; font-weight: 700; text-decoration: none; font-size: 0.95rem; }
@@ -234,7 +252,6 @@ layout: default
   <!-- 左侧：侧边栏 -->
   <aside class="aside typeset aside--video-nav" style="margin-right: 4%;">
     <section class="section" style="padding-top: 0;"> 
-      <!-- 改为 Index -->
       <h3>Index</h3>
       {% include video-list.html %}
     </section>
@@ -243,7 +260,6 @@ layout: default
   <!-- 右侧：视频内容 -->
   <div class="content typeset" style="padding-top: 0.2rem;">
     
-    <!-- 改为 H2 -->
     <h2 style="margin-top: 0; line-height: 1.2em;" id="page-title">视频库</h2>
 
     {% assign all_categories = site.data.video.categories %}
@@ -272,9 +288,11 @@ layout: default
 
 <div class="video-modal-overlay" id="videoModal">
   <div class="video-modal-content" onclick="event.stopPropagation()">
+    <!-- Wrapper，封面层初始并不在这里，而是被JS移动 -->
     <div class="video-player-wrapper plyr-custom-wrapper">
       <video id="mainPlayer" playsinline controls style="width: 100%; height: 100%;"></video>
-      <div class="custom-cover-layer" id="modalCoverLayer"></div>
+      <!-- 初始隐藏的封面层定义 -->
+      <div class="custom-cover-layer" id="modalCoverLayer" style="display:none;"></div>
     </div>
     
     <div class="video-modal-info typeset">
@@ -302,7 +320,6 @@ layout: default
   const videoElement = document.getElementById('mainPlayer');
   const coverLayer = document.getElementById('modalCoverLayer');
   
-  // 标记：是否是通用封面
   let isUsingFallbackCover = false;
 
   function initPlayer() {
@@ -312,42 +329,67 @@ layout: default
       speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] },
       ratio: '16:9',
       resetOnEnd: true,
-      i18n: { speed: '速度', normal: '正常', quality: '画质' }
+      i18n: { speed: '速度', normal: '正常', quality: '画质' },
+      // 关键配置：允许 plyr 容器处理层级
+      fullscreen: { enabled: true, fallback: true, iosNative: true } 
     });
 
-    // --- 核心逻辑修复：遮罩层控制 ---
+    // =========================================================
+    // 核心修复：DOM 移动逻辑 (完全复刻 includes/video.html)
+    // =========================================================
+    var moveLayer = function() {
+        // 将自定义封面移入 Plyr 的容器中
+        // 这样全屏时它会跟着走，且 Plyr 会自动处理 controls 的 z-index 高于内部元素
+        if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
+            player.elements.container.appendChild(coverLayer);
+            // 确保显示
+            coverLayer.style.display = 'block'; 
+        }
+    };
     
-    // 监听播放事件：如果是通用封面，点击播放瞬间隐藏遮罩（标准行为）
+    // 初始化时尝试移动
+    player.on('ready', moveLayer);
+    
+    // 某些情况下 Plyr 会重建 DOM，监听 enterfullscreen 确保层级正确
+    player.on('enterfullscreen', moveLayer);
+    
+    // 立即尝试移动一次 (防止 ready 已触发)
+    setTimeout(moveLayer, 100);
+
+
+    // =========================================================
+    // 交互逻辑：10s 遮罩控制
+    // =========================================================
+    
+    // 1. 点击播放：如果是通用封面，立即隐藏
     player.on('play', function() {
         if (isUsingFallbackCover) {
-            coverLayer.style.display = 'none';
+            coverLayer.style.opacity = '0';
+            // 加个延时彻底隐藏，避免挡住点击
+            setTimeout(() => { if(isUsingFallbackCover) coverLayer.style.display = 'none'; }, 300);
         }
     });
 
-    // 监听时间更新：实现 10s 延迟淡出
+    // 2. 时间更新：前 10 秒逻辑
     player.on('timeupdate', function() {
-        // 如果是通用封面，已经在 play 事件中隐藏了，这里无需处理
         if (isUsingFallbackCover) return; 
 
-        // 如果是专用封面，执行前10秒遮挡逻辑
         const delaySeconds = 10; 
         if (player.currentTime > delaySeconds) {
             coverLayer.style.opacity = '0';
         } else {
-            // 如果还在前10秒，保持显示 (opacity 1)
-            // 注意：因为 z-index 20 < controls 50，所以虽然显示遮罩，但底下的进度条依然可见可点
             coverLayer.style.opacity = '1';
         }
     });
 
-    // 播放结束恢复
+    // 3. 播放结束：恢复显示
     player.on('ended', () => { 
-        coverLayer.style.opacity = '1'; 
         coverLayer.style.display = 'block';
+        // 强制重绘，确保 opacity 生效
+        setTimeout(() => { coverLayer.style.opacity = '1'; }, 10);
     });
   }
 
-  // 列表随机排序
   function shuffleGrid(gridElement) {
     for (let i = gridElement.children.length; i >= 0; i--) {
         gridElement.appendChild(gridElement.children[Math.random() * i | 0]);
@@ -375,18 +417,17 @@ layout: default
     }
 
     // 重置封面状态
-    coverLayer.style.opacity = '1';
     coverLayer.style.display = 'block';
+    coverLayer.style.opacity = '1';
     isUsingFallbackCover = false;
 
-    // 加载图片逻辑
+    // 图片加载处理
     const img = new Image();
     img.src = coverSrc;
     img.onload = () => { 
         coverLayer.style.backgroundImage = `url("${coverSrc}")`;
     };
     img.onerror = () => { 
-        // 图片加载失败，使用通用封面
         coverLayer.style.backgroundImage = `url("${fallbackCoverUrl}")`; 
         isUsingFallbackCover = true;
     };
@@ -397,6 +438,12 @@ layout: default
     };
 
     modal.classList.add('open');
+    
+    // 尝试移动 DOM 确保层级正确
+    if (player.elements && player.elements.container) {
+         player.elements.container.appendChild(coverLayer);
+    }
+    
     player.play().catch(e => console.warn("Auto-play blocked:", e));
   };
 
@@ -424,7 +471,6 @@ layout: default
       target.classList.add('active');
       document.getElementById('page-title').innerText = el.innerText.trim();
       
-      // 随机排序
       const grid = target.querySelector('.video-grid');
       if (grid) shuffleGrid(grid);
     }
