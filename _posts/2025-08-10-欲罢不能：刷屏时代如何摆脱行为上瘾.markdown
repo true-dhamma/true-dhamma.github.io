@@ -20,6 +20,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E6%AC%B2%E7%BD%A2%E4%B8%8D%E8%83%BD%EF%BC%9A%E5%88%B7%E5%B1%8F%E6%97%B6%E4%BB%A3%E5%A6%82%E4%BD%95%E6%91%86%E8%84%B1%E8%A1%8C%E4%B8%BA%E4%B8%8A%E7%98%BE.mp4" %}
+
 ## 楔子　令人上瘾的时代
 
 2010年，史蒂夫·乔布斯推出了iPad，他认为人人都应该拥有一台。但他却从来不让自己的孩子用这台设备。一位记者发现，其他科技巨头也都对自己的孩子设定了类似的限制。生产高科技产品的人，仿佛遵守着毒品交易的头号规则：**自己绝不能上瘾**。
