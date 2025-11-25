@@ -1,23 +1,12 @@
-<!-- ======================================================================
-     Jekyll Video Include (Plyr Local + Ultimate Features)
-     Features: 
-     1. 本地化资源 (Local CSS/JS)
-     2. 自动封面 + 10s 延迟 (可配置)
-     3. 倍速 + 画中画 + 汉化
-     4. 竖屏/横屏完美适配
-     ====================================================================== -->
-
 <div class="plyr-custom-wrapper" 
      data-video-url="{{ include.url }}" 
      data-delay="{{ include.delay | default: 10 }}" 
      style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
     
-    <!-- Video 标签 -->
     <video playsinline controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover;">
         <source src="{{ include.url }}" type="video/mp4">
     </video>
 
-    <!-- 封面层 -->
     <div class="custom-cover-layer" 
          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
                 background-size: cover; background-position: center; 
@@ -28,7 +17,6 @@
 
 <script>
 (function() {
-    // 1. 查找 Wrapper
     var currentScript = document.currentScript;
     var wrapper = null;
     if (currentScript) {
@@ -43,29 +31,24 @@
     }
     if (!wrapper) return;
 
-    // --- [修改点 1] 注入本地 CSS ---
-    if (!document.getElementById('plyr-css-local')) {
+    if (!document.getElementById('plyr-css-cdn')) {
         var cssLink = document.createElement('link');
-        cssLink.id = 'plyr-css-local'; // 改个ID区分一下
+        cssLink.id = 'plyr-css-cdn';
         cssLink.rel = 'stylesheet';
-        // 使用 Jekyll 过滤器生成正确的本地路径
-        cssLink.href = '{{ "/assets/plyr.css" | relative_url }}';
+        cssLink.href = 'https://cdn.plyr.io/3.7.8/plyr.css';
         document.head.appendChild(cssLink);
         
-        // 补充样式：确保控件层级最高
+        // [修复]: 注入全屏样式修正
         var style = document.createElement('style');
-        style.innerHTML = '.plyr__controls { z-index: 5 !important; }';
+        style.innerHTML = '.plyr__controls { z-index: 5 !important; } .plyr--fullscreen-active { aspect-ratio: unset !important; }';
         document.head.appendChild(style);
     }
 
-    // --- [修改点 2] 注入本地 JS ---
     if (!window.plyrScriptLoading) {
         window.plyrScriptLoading = true;
         window.plyrReadyCallbacks = [];
         var jsScript = document.createElement('script');
-        // 使用 Jekyll 过滤器生成正确的本地路径
-        jsScript.src = '{{ "/assets/plyr.js" | relative_url }}';
-        
+        jsScript.src = 'https://cdn.plyr.io/3.7.8/plyr.js';
         jsScript.onload = function() {
             window.plyrLoaded = true;
             if (window.plyrReadyCallbacks) {
@@ -73,14 +56,9 @@
                 window.plyrReadyCallbacks = [];
             }
         };
-        // 如果本地文件加载失败（比如路径不对），可以在这里加 onerror 处理
-        jsScript.onerror = function() {
-            console.error("Plyr local JS failed to load. Please check /assets/plyr.js");
-        };
         document.head.appendChild(jsScript);
     }
 
-    // 4. 初始化逻辑 (保持不变)
     if (!window.initSinglePlyrVideo) {
         window.initSinglePlyrVideo = function(wrapper) {
             if (wrapper.getAttribute('data-init-done')) return;
@@ -107,8 +85,7 @@
                 },
                 playsinline: true,
                 resetOnEnd: true,
-                ratio: '16:9' 
-
+                ratio: '16:9' // 保持这个，解决Safari初始判断
             });
 
             var moveLayer = function() {
@@ -118,6 +95,18 @@
             };
             moveLayer();
             player.on('ready', moveLayer);
+
+            // [修复]: 全屏逻辑
+            player.on('enterfullscreen', function() {
+                coverLayer.style.opacity = '0';
+                wrapper.style.aspectRatio = 'unset';
+            });
+            player.on('exitfullscreen', function() {
+                // 恢复比例，防止页面布局跳动
+                if (player.media.videoWidth && player.media.videoHeight) {
+                   wrapper.style.aspectRatio = player.media.videoWidth + ' / ' + player.media.videoHeight;
+                }
+            });
 
             if (videoUrl) {
                 try {
@@ -136,7 +125,10 @@
                             if (player.currentTime > delaySeconds) {
                                 coverLayer.style.opacity = '0';
                             } else {
-                                coverLayer.style.opacity = '1';
+                                // 只有在非全屏模式下才尝试显示封面
+                                if (!player.fullscreen.active) {
+                                    coverLayer.style.opacity = '1';
+                                }
                             }
                         });
                         player.on('ended', function() { coverLayer.style.opacity = '1'; });
@@ -148,13 +140,15 @@
             player.on('loadedmetadata', function() {
                 if (player.media.videoWidth && player.media.videoHeight) {
                     var ratio = player.media.videoWidth + ' / ' + player.media.videoHeight;
-                    wrapper.style.aspectRatio = ratio;
+                    // 只有在非全屏时才应用比例，避免干扰全屏动画
+                    if (!player.fullscreen.active) {
+                        wrapper.style.aspectRatio = ratio;
+                    }
                 }
             });
         };
     }
 
-    // 5. 执行
     if (window.plyrLoaded) {
         window.initSinglePlyrVideo(wrapper);
     } else {
