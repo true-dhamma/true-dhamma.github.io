@@ -4,10 +4,10 @@
     {% for cat in site.data.video.categories %}
       <li class="video-nav-item">
         {% if cat.children %}
-          <!-- 有子目录：头部也是蓝色，Hover深蓝 -->
+          <!-- 有子目录：箭头在左侧 -->
           <div class="video-nav-header has-children" onclick="toggleSubmenu(this)">
+            <span class="nav-arrow">▶</span> <!-- 默认向右，CSS控制旋转 -->
             <span class="nav-text">{{ cat.name }}</span>
-            <span class="nav-arrow">▼</span>
           </div>
           <ul class="video-nav-sublist">
             {% for subcat in cat.children %}
@@ -24,6 +24,8 @@
           <div class="video-nav-header" 
                data-target="{{ cat.id }}" 
                onclick="switchCategory('{{ cat.id }}', this)">
+            <!-- 占位符，保持对齐 -->
+             <span class="nav-arrow" style="visibility: hidden;">▶</span>
             <span class="nav-text">{{ cat.name }}</span>
           </div>
         {% endif %}

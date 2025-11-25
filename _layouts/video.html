@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <!-- _layouts/video.html -->
 
 {% include site-header.html %}
@@ -14,14 +13,14 @@ layout: default
 <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 
 <style>
-/* --- 1. 全局一致性修正 --- */
+/* --- 1. 全局布局修正 --- */
 
-/* 强制覆盖侧边栏透明度，确保导航一直可见 */
+/* 强制覆盖侧边栏透明度 */
 .aside--video-nav {
   opacity: 1 !important; 
 }
 
-/* PC端侧边栏固定逻辑 */
+/* PC端侧边栏固定 */
 @media screen and (min-width: 40em) {
   .aside--video-nav .section {
     position: sticky;
@@ -31,51 +30,53 @@ layout: default
   }
 }
 
-/* 隐藏 Plyr 的圆角，强制直角 */
-.plyr--video {
-  border-radius: 0 !important;
-}
+/* --- 2. 导航样式 (完全复刻 Categories 缩进与布局) --- */
 
-/* --- 2. 导航样式 (完全复用网站 Link 风格) --- */
-
-/* 导航项容器 */
 .video-nav-item {
-  margin-bottom: 0.5rem; /* 保持列表间距 */
+  margin-bottom: 0.5rem;
 }
 
 /* 导航头部 (父级) */
 .video-nav-header {
   cursor: pointer;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; /* 左对齐 */
   align-items: center;
-  /* 核心颜色修正：使用网站主色 #3A77D8 */
-  color: #3A77D8; 
-  font-weight: normal; /* 默认不加粗 */
+  color: #3A77D8; /* 网站主色 */
+  font-weight: normal;
   padding: 0.2rem 0;
-  transition: color 0.1s; /* 修正：与网站一致的 0.1s */
+  transition: color 0.1s;
   user-select: none;
+  gap: 0.5rem; /* 箭头和文字的间距 */
 }
 
-/* Hover 状态：使用网站深蓝 #2e60ad */
 .video-nav-header:hover {
   color: #2e60ad;
-  text-decoration: none; /* 导航菜单通常不加下划线，保持整洁 */
 }
 
-/* 激活状态：加粗 + 深蓝 */
 .video-nav-header.active {
   color: #2e60ad;
   font-weight: 700;
 }
 
-/* 子菜单列表 */
+/* 箭头小图标 (移到左侧) */
+.nav-arrow {
+  font-size: 0.7em;
+  transition: transform 0.2s;
+  color: #a8adac;
+  width: 1em; /* 固定宽度确保文字对齐 */
+  text-align: center;
+}
+.video-nav-header.open .nav-arrow {
+  transform: rotate(90deg); /* 向下旋转 */
+}
+
+/* 子菜单列表 - 缩进对齐 */
 .video-nav-sublist {
-  padding-left: 1.2rem; /* 与 .typeset ul padding 保持一致 */
+  padding-left: 1.5rem; /* 与上级文字对齐 */
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
-  display: none; /* 默认隐藏，JS控制 */
-  border-left: 1px solid #e0e0e0; /* 极淡的左侧引导线 */
+  display: none; 
 }
 
 /* 子菜单项 */
@@ -83,35 +84,23 @@ layout: default
   cursor: pointer;
   display: block;
   padding: 0.2rem 0;
-  color: #3A77D8; /* 默认蓝色 */
+  color: #3A77D8; 
   font-size: 0.95rem;
   transition: color 0.1s;
 }
 
 .video-nav-subitem:hover {
   color: #2e60ad;
+  text-decoration: underline;
 }
 
 .video-nav-subitem.active {
   color: #2e60ad;
   font-weight: 700;
-  /* 不使用背景色，保持清爽 */
 }
 
-/* 箭头小图标 */
-.nav-arrow {
-  font-size: 0.7em;
-  transition: transform 0.2s;
-  color: #a8adac; /* 使用网站辅助灰色 */
-}
-.video-nav-header:hover .nav-arrow {
-  color: #2e60ad;
-}
-.video-nav-header.open .nav-arrow {
-  transform: rotate(180deg);
-}
 
-/* --- 3. 视频卡片 (直角 + 链接风格) --- */
+/* --- 3. 视频卡片 (链接风格 H6) --- */
 
 .video-category-section { display: none; }
 .video-category-section.active { display: block; animation: fadeIn 0.3s ease-out; }
@@ -119,7 +108,7 @@ layout: default
 .video-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem; /* 增加间距让布局更疏朗 */
+  gap: 2rem;
   margin-top: 1.5rem;
 }
 @media screen and (min-width: 40em) {
@@ -128,18 +117,19 @@ layout: default
 
 .video-card {
   cursor: pointer;
-  background: transparent; /* 移除背景色 */
+  background: transparent;
   transition: transform 0.1s;
 }
 
-/* 缩略图容器：直角 */
+/* 缩略图容器：恢复圆角 8px */
 .video-thumbnail-wrapper {
   position: relative;
   aspect-ratio: 16/9;
   background: #000;
   overflow: hidden;
   margin-bottom: 0.8rem;
-  /* border-radius: 0; // 默认就是直角，无需设置 */
+  border-radius: 8px; /* 恢复圆角 */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .video-thumbnail {
@@ -152,53 +142,56 @@ layout: default
   opacity: 0.85;
 }
 
-/* 播放按钮：方形直角，配合网站风格 */
+/* 假播放按钮：恢复原有样式 (非直角) */
 .play-icon-overlay {
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
-  width: 50px; height: 36px; /* 类似 YouTube 的矩形比例 */
-  background: rgba(58, 119, 216, 0.9); /* 使用网站主色 #3A77D8 */
+  width: 50px; height: 50px; /* 圆形 */
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%; /* 圆形 */
+  border: 2px solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   pointer-events: none;
-  opacity: 0; /* 默认隐藏 */
-  transition: opacity 0.1s;
+  opacity: 0.9;
+  transition: background 0.2s, transform 0.2s;
 }
-/* 鼠标悬停时显示播放按钮 */
+/* 鼠标悬停 */
 .video-card:hover .play-icon-overlay {
-  opacity: 1;
+  background: rgba(200, 0, 0, 0.8); /* 类似 YouTube 红 */
+  border-color: rgba(200, 0, 0, 0.8);
+  transform: translate(-50%, -50%) scale(1.1);
 }
 .play-icon-overlay::after {
   content: '';
   display: block;
-  border-top: 6px solid transparent;
-  border-bottom: 6px solid transparent;
-  border-left: 10px solid #fff;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 14px solid #fff;
+  margin-left: 4px;
 }
 
-/* 视频标题 H5 */
+/* 视频标题 H6 - 蓝色链接风格 */
 .video-card-title {
   margin: 0;
   line-height: 1.4;
-  color: #2c3e50; /* 标题默认深灰 */
+  color: #3A77D8; /* 默认蓝色 */
   font-weight: 700;
   transition: color 0.1s;
 }
-/* 悬停时标题变色，模拟链接效果 */
 .video-card:hover .video-card-title {
   color: #2e60ad; /* Hover 深蓝 */
   text-decoration: underline;
-  text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
 
-/* --- 4. 弹窗 (Modal) --- */
+/* --- 4. 弹窗播放器 (完全复刻 _includes/video.html 样式) --- */
 .video-modal-overlay {
   position: fixed;
   top: 0; left: 0; width: 100%; height: 100%;
-  background: rgba(44, 62, 80, 0.95); /* 使用网站深灰配色作为遮罩背景 */
+  background: rgba(0, 0, 0, 0.85);
   z-index: 9999;
   display: flex;
   align-items: center;
@@ -214,36 +207,47 @@ layout: default
 .video-modal-content {
   width: 94%;
   max-width: 1000px;
-  background: #fff;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  background: #000; /* 播放器背景通常黑 */
+  border-radius: 8px; /* 圆角 */
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
   display: flex;
   flex-direction: column;
 }
+
+/* Plyr Wrapper: 恢复圆角 */
 .video-player-wrapper {
   position: relative;
   width: 100%;
   aspect-ratio: 16/9;
   background: #000;
+  border-radius: 8px 8px 0 0; 
+  overflow: hidden;
 }
+
+/* 关键：强制 Plyr 控件在封面之上 */
+.plyr__controls {
+  z-index: 10 !important; 
+}
+
 .video-modal-info {
   padding: 1.2rem;
+  background: #fff;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  border-top: 1px solid #eee;
+  align-items: center;
+  border-radius: 0 0 8px 8px;
 }
 .modal-text h3 {
   margin: 0 0 0.4rem 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #2c3e50;
-  font-family: inherit; /* 继承 serif */
 }
-/* 弹窗内的链接 */
 .modal-post-link {
   color: #3A77D8;
   font-weight: 700;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 .modal-post-link:hover {
   color: #2e60ad;
@@ -252,47 +256,47 @@ layout: default
 .modal-close-btn {
   background: none;
   border: none;
-  font-size: 2.5rem;
-  color: #a8adac; /* 浅灰 */
+  font-size: 2rem;
+  color: #666; 
   cursor: pointer;
   padding: 0 0 0 1rem;
-  line-height: 0.8;
+  line-height: 1;
   transition: color 0.1s;
 }
 .modal-close-btn:hover {
-  color: #2c3e50; /* 悬停变深 */
+  color: #000;
 }
 
-/* 封面层 */
+/* 封面层: 1.5s 动画 */
 .custom-cover-layer {
   position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
   background-size: contain; background-repeat: no-repeat; background-position: center; 
   background-color: #000; 
-  z-index: 5; 
-  transition: opacity 0.5s ease-in-out; 
+  z-index: 5; /* 低于 plyr__controls (10) */
+  transition: opacity 1.5s ease-in-out; /* 复刻 1.5s */
+  opacity: 1;
   pointer-events: none; 
 }
+
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 </style>
 
 <main class="main container">
 
   <!-- 左侧：侧边栏 -->
-  <!-- 使用 typeset 类来继承全局字体，移除 aside--left 改用 flex 布局控制在左侧 -->
   <aside class="aside typeset aside--video-nav" style="margin-right: 4%;">
-    <section class="section">
-      <!-- 这里的 h3 与网站 Index 标题保持一致 -->
-      <h3>视频分类</h3>
+    <section class="section" style="padding-top: 0.5rem;"> <!-- 微调顶部 Padding -->
+      <!-- 英文 Index -->
+      <h3>Index</h3>
       {% include video-list.html %}
     </section>
   </aside>
 
   <!-- 右侧：视频内容 -->
-  <!-- 这里的 style 用于微调顶部对齐 -->
-  <div class="content typeset" style="margin-top: 0.2rem;">
+  <div class="content typeset" style="padding-top: 0.6rem;"> <!-- 微调对齐 -->
     
-    <!-- 页面大标题 -->
-    <h1 style="line-height: 0.8em;" id="page-title">视频库</h1>
+    <!-- 页面大标题 H2 -->
+    <h2 style="margin-top: 0; line-height: 1.2em;" id="page-title">视频库</h2>
 
     <!-- 遍历生成分类 -->
     {% assign all_categories = site.data.video.categories %}
@@ -319,7 +323,7 @@ layout: default
 
 </main>
 
-<!-- 弹窗部分保持不变，逻辑已在CSS中修正为直角和对应颜色 -->
+<!-- 弹窗 -->
 <div class="video-modal-overlay" id="videoModal">
   <div class="video-modal-content" onclick="event.stopPropagation()">
     <div class="video-player-wrapper plyr-custom-wrapper">
@@ -352,6 +356,9 @@ layout: default
   const videoElement = document.getElementById('mainPlayer');
   const coverLayer = document.getElementById('modalCoverLayer');
   
+  // 状态标记：当前是否使用通用封面
+  let isUsingFallbackCover = false;
+
   function initPlayer() {
     player = new Plyr(videoElement, {
       controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'pip', 'fullscreen'],
@@ -361,8 +368,30 @@ layout: default
       resetOnEnd: true,
       i18n: { speed: '速度', normal: '正常', quality: '画质' }
     });
-    player.on('playing', () => { coverLayer.style.opacity = '0'; });
+
+    // 核心逻辑：复刻 video.html 的 10s 延迟淡出
+    // 只有当不使用 fallback 封面时才执行淡出逻辑
+    player.on('timeupdate', function() {
+        if (isUsingFallbackCover) return; // 如果是通用封面，不做淡出操作（或者在 openVideo 时直接隐藏了）
+
+        const delaySeconds = 10; // 设定为 10 秒
+        if (player.currentTime > delaySeconds) {
+            coverLayer.style.opacity = '0';
+        } else {
+            // 如果用户拖回 10s 内，是否恢复封面？原逻辑通常不恢复，这里保持简单：
+            // 只有 > 10s 隐藏。如果需要回退显示，解除下面注释
+             coverLayer.style.opacity = '1';
+        }
+    });
+
     player.on('ended', () => { coverLayer.style.opacity = '1'; });
+  }
+
+  // 随机打乱 Grid 中的子元素
+  function shuffleGrid(gridElement) {
+    for (let i = gridElement.children.length; i >= 0; i--) {
+        gridElement.appendChild(gridElement.children[Math.random() * i | 0]);
+    }
   }
 
   window.openVideo = function(cardElement) {
@@ -386,11 +415,25 @@ layout: default
       linkEl.style.display = 'none';
     }
 
+    // 重置状态
+    coverLayer.style.opacity = '1';
+    coverLayer.style.display = 'block';
+    isUsingFallbackCover = false;
+
+    // 加载封面逻辑
     const img = new Image();
     img.src = coverSrc;
-    img.onload = () => { coverLayer.style.backgroundImage = `url("${coverSrc}")`; };
-    img.onerror = () => { coverLayer.style.backgroundImage = `url("${fallbackCoverUrl}")`; };
-    coverLayer.style.opacity = '1';
+    img.onload = () => { 
+        coverLayer.style.backgroundImage = `url("${coverSrc}")`;
+    };
+    img.onerror = () => { 
+        // 失败，使用通用封面
+        coverLayer.style.backgroundImage = `url("${fallbackCoverUrl}")`; 
+        isUsingFallbackCover = true;
+        // 需求：如果是通用封面，则“没有这个功能”。
+        // 解释为：不显示遮罩层，直接让用户看黑底视频播放
+        coverLayer.style.display = 'none';
+    };
 
     player.source = {
       type: 'video',
@@ -404,7 +447,10 @@ layout: default
   window.closeModal = function() {
     modal.classList.remove('open');
     player.pause();
-    setTimeout(() => { coverLayer.style.opacity = '1'; }, 300);
+    setTimeout(() => { 
+        coverLayer.style.opacity = '1'; 
+        coverLayer.style.display = 'block'; 
+    }, 300);
   };
 
   modal.addEventListener('click', (e) => {
@@ -415,11 +461,18 @@ layout: default
     document.querySelectorAll('.video-nav-header, .video-nav-subitem').forEach(e => e.classList.remove('active'));
     if(el) el.classList.add('active');
     
+    // 隐藏所有
     document.querySelectorAll('.video-category-section').forEach(s => s.classList.remove('active'));
+    
+    // 显示目标
     const target = document.getElementById('section-' + id);
     if(target) {
       target.classList.add('active');
       document.getElementById('page-title').innerText = el.innerText.trim();
+      
+      // 需求：每次显示列表时，随机打乱顺序 (增加新鲜感)
+      const grid = target.querySelector('.video-grid');
+      if (grid) shuffleGrid(grid);
     }
   };
 
@@ -435,7 +488,7 @@ layout: default
     initPlayer();
     const isPC = window.innerWidth >= 900; 
     
-    // PC端默认展开菜单
+    // 导航逻辑
     const headers = document.querySelectorAll('.video-nav-header.has-children');
     headers.forEach(header => {
       const subList = header.nextElementSibling;
