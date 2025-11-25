@@ -1,9 +1,6 @@
 <!-- ======================================================================
-     Jekyll Video Include (Plyr Ultimate Final)
-     Fixed: 
-     1. 删除 video 的 object-fit: cover，修复 iOS 全屏变成竖屏的 Bug
-     2. 保留 Plyr ratio: '16:9' 确保初始化稳定
-     3. 宽高比自适应 + 自动封面 + 倍速 + 画中画
+     Jekyll Video Include (Plyr Ultimate Final v2)
+     Fixed: 封面层改用 contain，确保全屏时封面不裁剪、不拉伸，与视频行为一致。
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
@@ -11,17 +8,18 @@
      data-delay="{{ include.delay | default: 10 }}" 
      style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
     
-    <!-- 1. Video 标签 -->
-    <!-- [修正]: 删除了 object-fit: cover。使用 width/height: 100% 即可，Plyr 会处理适配 -->
+    <!-- 1. Video 标签 (默认 contain，保持原始比例) -->
     <video playsinline controls preload="metadata" style="width: 100%; height: 100%;">
         <source src="{{ include.url }}" type="video/mp4">
     </video>
 
     <!-- 2. 封面层 -->
-    <!-- 这里的 background-size: cover 是必须的，确保封面图铺满 -->
+    <!-- [关键修改]: background-size 改为 contain，并禁止重复，底色设为黑 -->
+    <!-- 这样封面在全屏时也会像视频一样保持完整比例，不会被拉伸或裁切 -->
     <div class="custom-cover-layer" 
          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
-                background-size: cover; background-position: center; 
+                background-size: contain; background-repeat: no-repeat; background-color: #000;
+                background-position: center; 
                 z-index: 2; pointer-events: none; 
                 transition: opacity 0.5s ease; opacity: 1;">
     </div>
@@ -29,7 +27,7 @@
 
 <script>
 (function() {
-    // --- 1. 查找对应的 Wrapper ---
+    // 1. 查找 Wrapper
     var currentScript = document.currentScript;
     var wrapper = null;
     if (currentScript) {
@@ -44,7 +42,7 @@
     }
     if (!wrapper) return;
 
-    // --- 2. 注入 CSS ---
+    // 2. 注入 CSS
     if (!document.getElementById('plyr-css-cdn')) {
         var cssLink = document.createElement('link');
         cssLink.id = 'plyr-css-cdn';
@@ -52,13 +50,12 @@
         cssLink.href = 'https://cdn.plyr.io/3.7.8/plyr.css';
         document.head.appendChild(cssLink);
         
-        // 强制控件层级最高
         var style = document.createElement('style');
         style.innerHTML = '.plyr__controls { z-index: 5 !important; }';
         document.head.appendChild(style);
     }
 
-    // --- 3. 注入 JS ---
+    // 3. 注入 JS
     if (!window.plyrScriptLoading) {
         window.plyrScriptLoading = true;
         window.plyrReadyCallbacks = [];
@@ -74,7 +71,7 @@
         document.head.appendChild(jsScript);
     }
 
-    // --- 4. 初始化逻辑 ---
+    // 4. 初始化逻辑
     if (!window.initSinglePlyrVideo) {
         window.initSinglePlyrVideo = function(wrapper) {
             if (wrapper.getAttribute('data-init-done')) return;
@@ -88,7 +85,6 @@
 
             if (!videoEl || !coverLayer) return;
 
-            // 初始化 Plyr
             var player = new Plyr(videoEl, {
                 controls: [
                     'play-large', 'play', 'progress', 'current-time', 
@@ -102,10 +98,9 @@
                 },
                 playsinline: true,
                 resetOnEnd: true,
-                ratio: '16:9' // 保留这个，确保 iOS 识别默认横屏模式
+                ratio: '16:9' 
             });
 
-            // 移动封面层
             var moveLayer = function() {
                 if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
                     player.elements.container.appendChild(coverLayer);
@@ -114,7 +109,6 @@
             moveLayer();
             player.on('ready', moveLayer);
 
-            // 自动加载封面
             if (videoUrl) {
                 try {
                     var parts = videoUrl.split('?')[0].split('/');
@@ -142,7 +136,6 @@
                 } catch (e) { console.error(e); }
             }
 
-            // 宽高比自适应 (修正 Wrapper 的比例，让 Plyr 自动填充)
             player.on('loadedmetadata', function() {
                 if (player.media.videoWidth && player.media.videoHeight) {
                     var ratio = player.media.videoWidth + ' / ' + player.media.videoHeight;
@@ -152,7 +145,7 @@
         };
     }
 
-    // --- 5. 执行 ---
+    // 5. 执行
     if (window.plyrLoaded) {
         window.initSinglePlyrVideo(wrapper);
     } else {
