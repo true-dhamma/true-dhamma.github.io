@@ -1,29 +1,42 @@
 <!-- ======================================================================
      Jekyll Video Include (Plyr + Auto Cover + 10s Delay)
-     Design: 防止重复加载库，支持同一页面多次引用，默认10s延迟
+     Fix: 解决封面遮挡进度条问题，增强多实例稳定性
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
+     id="plyr-wrapper-{{ include.url | slugify }}-{{ 'now' | date: '%s%N' }}"
      data-video-url="{{ include.url }}" 
      data-delay="10"
      style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
     
-    <!-- 1. 占位 Video 标签 (将被 Plyr 接管) -->
-    <video playsinline controls preload="metadata" style="width: 100%; height: 100%;">
+    <!-- 1. 占位 Video -->
+    <!-- 加上 playsinline 确保 iOS 不会强制全屏从而导致遮罩失效 -->
+    <video playsinline controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover;">
         <source src="{{ include.url }}" type="video/mp4">
-        您的浏览器不支持 HTML5 video 标签。
     </video>
 
-    <!-- 2. 封面遮罩层 (JS 动态填充背景) -->
+    <!-- 2. 封面层 (初始放在这里，JS 会把它移入 Plyr 内部) -->
     <div class="custom-cover-layer" 
-         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover; background-position: center; z-index: 2; pointer-events: none; transition: opacity 0.5s ease; opacity: 1;">
+         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+                background-size: cover; background-position: center; 
+                z-index: 2; pointer-events: none; 
+                transition: opacity 0.5s ease; opacity: 1;">
     </div>
 </div>
 
-<!-- 3. 核心控制脚本 (自包含，防重复) -->
 <script>
 (function() {
-    // --- A. 防止重复加载 CSS ---
+    // 获取当前脚本紧邻的 Wrapper（使用 ID 辅助查找更安全，或者保留 previousElementSibling 方案但加容错）
+    var currentScript = document.currentScript;
+    // 容错处理：循环向前查找直到找到 div.plyr-custom-wrapper
+    var wrapper = currentScript.previousElementSibling;
+    while (wrapper && !wrapper.classList.contains('plyr-custom-wrapper')) {
+        wrapper = wrapper.previousElementSibling;
+    }
+    
+    if (!wrapper) { console.warn('Plyr wrapper not found for script'); return; }
+
+    // --- A. 注入 CSS (单例模式) ---
     if (!document.getElementById('plyr-css-cdn')) {
         var cssLink = document.createElement('link');
         cssLink.id = 'plyr-css-cdn';
@@ -32,8 +45,7 @@
         document.head.appendChild(cssLink);
     }
 
-    // --- B. 防止重复加载 JS 库 ---
-    // 我们定义一个回调系统，确保 Plyr 加载完后再执行每个视频的初始化
+    // --- B. 注入 JS (单例 + 队列模式) ---
     if (!window.plyrScriptLoading) {
         window.plyrScriptLoading = true;
         window.plyrReadyCallbacks = [];
@@ -42,17 +54,15 @@
         jsScript.src = 'https://cdn.plyr.io/3.7.8/plyr.js';
         jsScript.onload = function() {
             window.plyrLoaded = true;
-            // 执行所有排队的回调
             window.plyrReadyCallbacks.forEach(function(cb) { cb(); });
             window.plyrReadyCallbacks = [];
         };
         document.head.appendChild(jsScript);
     }
 
-    // --- C. 定义单个视频的初始化逻辑 (全局复用) ---
+    // --- C. 初始化函数 (全局定义一次) ---
     if (!window.initSinglePlyrVideo) {
         window.initSinglePlyrVideo = function(wrapper) {
-            // 避免重复初始化
             if (wrapper.getAttribute('data-init-done')) return;
             wrapper.setAttribute('data-init-done', 'true');
 
@@ -61,38 +71,40 @@
             var videoEl = wrapper.querySelector('video');
             var coverLayer = wrapper.querySelector('.custom-cover-layer');
 
-            // 1. 启动 Plyr
+            // 1. 初始化 Plyr
             var player = new Plyr(videoEl, {
                 controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
-                playsinline: true, // 核心：iOS兼容
+                playsinline: true,
                 resetOnEnd: true,
-                ratio: '16:9' // 默认比例，防止抖动
+                ratio: '16:9'
             });
 
-            // 2. 自动算封面路径 & 加载
+            // ============================================================
+            // 关键修复：将封面层移动到 Plyr 容器内部
+            // 这样既能盖住视频，又允许 Plyr 的进度条(z-index:3) 显示在它上面
+            // ============================================================
+            player.on('ready', function() {
+                // player.elements.container 是 Plyr 生成的最外层 div
+                // prepend 确保它在最底层（但在视频之上，因为我们有 z-index:2）
+                // 此时 Plyr UI 控件通常 z-index 都在 3 以上
+                player.elements.container.appendChild(coverLayer);
+            });
+
+            // 2. 封面逻辑
             if (videoUrl) {
                 try {
-                    // 简单的字符串处理，避免 URL 对象在旧浏览器报错，同时处理中文
-                    // 逻辑：/path/to/video.mp4 -> /path/to/cover/video.jpg
-                    var parts = videoUrl.split('?')[0].split('/'); // 去掉参数，分割路径
-                    var fileNameFull = parts.pop(); // 拿到 video.mp4
-                    // 解码文件名 (处理 %20, 中文等)
+                    var parts = videoUrl.split('?')[0].split('/');
+                    var fileNameFull = parts.pop();
                     var fileNameDecoded = decodeURIComponent(fileNameFull);
-                    // 去掉后缀
                     var fileNameNoExt = fileNameDecoded.substring(0, fileNameDecoded.lastIndexOf('.'));
-                    
                     var basePath = parts.join('/');
-                    // 拼装封面地址 (注意再次编码)
                     var coverPath = basePath + '/cover/' + encodeURIComponent(fileNameNoExt) + '.jpg';
 
-                    // 预加载图片
                     var img = new Image();
                     img.src = coverPath;
                     img.onload = function() {
-                        // 图片存在：显示遮罩
                         coverLayer.style.backgroundImage = 'url("' + coverPath + '")';
                         
-                        // 监听播放时间
                         player.on('timeupdate', function() {
                             if (player.currentTime > delaySeconds) {
                                 coverLayer.style.opacity = '0';
@@ -101,21 +113,17 @@
                             }
                         });
 
-                        // 播放结束复原
                         player.on('ended', function() {
                             coverLayer.style.opacity = '1';
                         });
                     };
                     img.onerror = function() {
-                        console.warn('Cover not found:', coverPath);
-                        // 没封面就隐藏遮罩，显示黑底或第一帧
                         coverLayer.style.display = 'none'; 
                     };
-
-                } catch (e) { console.error(e); }
+                } catch (e) { console.error('Cover logic error:', e); }
             }
 
-            // 3. 解决宽高比自适应 (竖屏视频优化)
+            // 3. 宽高比自适应
             player.on('loadedmetadata', function() {
                 if (player.media.videoWidth && player.media.videoHeight) {
                     wrapper.style.aspectRatio = player.media.videoWidth + ' / ' + player.media.videoHeight;
@@ -124,17 +132,10 @@
         };
     }
 
-    // --- D. 寻找当前脚本对应的 Wrapper 并加入初始化队列 ---
-    // document.currentScript 指向当前正在执行的这段 script 标签
-    // 我们找它前面的那个 .plyr-custom-wrapper
-    var currentScript = document.currentScript;
-    var wrapper = currentScript.previousElementSibling;
-    
-    // 如果 Plyr 已经加载好，直接干；否则加入队列
+    // --- D. 执行或加入队列 ---
     if (window.plyrLoaded) {
         window.initSinglePlyrVideo(wrapper);
     } else {
-        // 安全检查：初始化数组
         if (!window.plyrReadyCallbacks) window.plyrReadyCallbacks = [];
         window.plyrReadyCallbacks.push(function() {
             window.initSinglePlyrVideo(wrapper);
