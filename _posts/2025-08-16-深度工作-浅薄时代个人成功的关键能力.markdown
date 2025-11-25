@@ -19,6 +19,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E6%B7%B1%E5%BA%A6%E5%B7%A5%E4%BD%9C%EF%BC%9A%E6%B5%AE%E6%B5%85%E6%97%B6%E4%BB%A3%E7%9A%84%E8%B6%85%E7%BA%A7%E5%8A%9B%E9%87%8F.mp4" %}
+
 ### 前言
 
 心理学巨匠卡尔·荣格为了摆脱都市的喧嚣和干扰，在苏黎世湖畔的树林里建造了一座名为“塔楼”的石屋。他在这里进行不被打扰的写作和思考，最终创立了分析心理学，成为20世纪最具影响力的思想家之一。荣格的这种工作方式，正是本书的核心概念：

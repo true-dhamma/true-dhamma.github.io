@@ -18,7 +18,9 @@ aside: false
 >
 > 探索革命性的“轻松戒瘾法”，它将揭示糖瘾背后的真相，无需意志力或牺牲，帮你轻松、永久地摆脱坏糖的枷锁，重获健康与活力。
 
-\##
+&nbsp;
+
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E8%BD%BB%E6%9D%BE%E6%88%92%E6%8E%89%E5%9D%8F%E7%B3%96%EF%BC%9A%E4%B8%80%E7%A7%8D%E6%97%A0%E9%9C%80%E6%84%8F%E5%BF%97%E5%8A%9B%E7%9A%84%E6%96%B9%E6%B3%95.mp4" %}
 
 ## 引言
 

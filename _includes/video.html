@@ -1,12 +1,22 @@
+<!-- ======================================================================
+     Jekyll Video Include (Plyr Ultimate Final Patch)
+     Fixes: 
+     1. iOS 全屏竖屏 bug (通过移除全屏时的 CSS 比例限制)
+     2. PC 全屏比例拉伸问题
+     3. 保持倍速、PIP、自动封面、10s延迟功能
+     ====================================================================== -->
+
 <div class="plyr-custom-wrapper" 
      data-video-url="{{ include.url }}" 
      data-delay="{{ include.delay | default: 10 }}" 
      style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
     
+    <!-- Video 标签 -->
     <video playsinline controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover;">
         <source src="{{ include.url }}" type="video/mp4">
     </video>
 
+    <!-- 封面层 -->
     <div class="custom-cover-layer" 
          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
                 background-size: cover; background-position: center; 
@@ -17,6 +27,7 @@
 
 <script>
 (function() {
+    // 1. 查找 Wrapper
     var currentScript = document.currentScript;
     var wrapper = null;
     if (currentScript) {
@@ -31,6 +42,7 @@
     }
     if (!wrapper) return;
 
+    // 2. 注入 CSS
     if (!document.getElementById('plyr-css-cdn')) {
         var cssLink = document.createElement('link');
         cssLink.id = 'plyr-css-cdn';
@@ -38,12 +50,12 @@
         cssLink.href = 'https://cdn.plyr.io/3.7.8/plyr.css';
         document.head.appendChild(cssLink);
         
-        // [修复]: 注入全屏样式修正
         var style = document.createElement('style');
-        style.innerHTML = '.plyr__controls { z-index: 5 !important; } .plyr--fullscreen-active { aspect-ratio: unset !important; }';
+        style.innerHTML = '.plyr__controls { z-index: 5 !important; }';
         document.head.appendChild(style);
     }
 
+    // 3. 注入 JS
     if (!window.plyrScriptLoading) {
         window.plyrScriptLoading = true;
         window.plyrReadyCallbacks = [];
@@ -59,6 +71,7 @@
         document.head.appendChild(jsScript);
     }
 
+    // 4. 初始化逻辑
     if (!window.initSinglePlyrVideo) {
         window.initSinglePlyrVideo = function(wrapper) {
             if (wrapper.getAttribute('data-init-done')) return;
@@ -72,6 +85,7 @@
 
             if (!videoEl || !coverLayer) return;
 
+            // --- Plyr 初始化 ---
             var player = new Plyr(videoEl, {
                 controls: [
                     'play-large', 'play', 'progress', 'current-time', 
@@ -85,9 +99,11 @@
                 },
                 playsinline: true,
                 resetOnEnd: true,
-                ratio: '16:9' // 保持这个，解决Safari初始判断
+                // 默认比例 16:9，防止初始化抖动
+                ratio: '16:9'
             });
 
+            // 移动封面
             var moveLayer = function() {
                 if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
                     player.elements.container.appendChild(coverLayer);
@@ -96,18 +112,7 @@
             moveLayer();
             player.on('ready', moveLayer);
 
-            // [修复]: 全屏逻辑
-            player.on('enterfullscreen', function() {
-                coverLayer.style.opacity = '0';
-                wrapper.style.aspectRatio = 'unset';
-            });
-            player.on('exitfullscreen', function() {
-                // 恢复比例，防止页面布局跳动
-                if (player.media.videoWidth && player.media.videoHeight) {
-                   wrapper.style.aspectRatio = player.media.videoWidth + ' / ' + player.media.videoHeight;
-                }
-            });
-
+            // 自动加载封面
             if (videoUrl) {
                 try {
                     var parts = videoUrl.split('?')[0].split('/');
@@ -125,10 +130,7 @@
                             if (player.currentTime > delaySeconds) {
                                 coverLayer.style.opacity = '0';
                             } else {
-                                // 只有在非全屏模式下才尝试显示封面
-                                if (!player.fullscreen.active) {
-                                    coverLayer.style.opacity = '1';
-                                }
+                                coverLayer.style.opacity = '1';
                             }
                         });
                         player.on('ended', function() { coverLayer.style.opacity = '1'; });
@@ -137,18 +139,41 @@
                 } catch (e) { console.error(e); }
             }
 
+            // ============================================================
+            // 核心修复区域：处理宽高比和全屏冲突
+            // ============================================================
+
+            // 1. 视频元数据加载后，更新真实比例
             player.on('loadedmetadata', function() {
                 if (player.media.videoWidth && player.media.videoHeight) {
-                    var ratio = player.media.videoWidth + ' / ' + player.media.videoHeight;
-                    // 只有在非全屏时才应用比例，避免干扰全屏动画
-                    if (!player.fullscreen.active) {
-                        wrapper.style.aspectRatio = ratio;
-                    }
+                    // 更新 CSS 比例 (为了页面排版)
+                    var ratioCss = player.media.videoWidth + ' / ' + player.media.videoHeight;
+                    wrapper.style.aspectRatio = ratioCss;
+                    
+                    // 关键：同时更新 Plyr 内部配置的 ratio (为了全屏/iOS识别)
+                    // Plyr 使用 '16:9' 这种冒号格式
+                    player.ratio = player.media.videoWidth + ':' + player.media.videoHeight;
+                }
+            });
+
+            // 2. 进入全屏：移除 wrapper 的 CSS 比例限制
+            // 否则 iOS/Mac 会被这个 CSS 锁死导致变形或竖屏
+            player.on('enterfullscreen', function() {
+                wrapper.style.aspectRatio = 'unset';
+            });
+
+            // 3. 退出全屏：恢复 wrapper 的 CSS 比例
+            player.on('exitfullscreen', function() {
+                if (player.media.videoWidth && player.media.videoHeight) {
+                    wrapper.style.aspectRatio = player.media.videoWidth + ' / ' + player.media.videoHeight;
+                } else {
+                    wrapper.style.aspectRatio = '16 / 9'; // 兜底
                 }
             });
         };
     }
 
+    // 5. 执行
     if (window.plyrLoaded) {
         window.initSinglePlyrVideo(wrapper);
     } else {
