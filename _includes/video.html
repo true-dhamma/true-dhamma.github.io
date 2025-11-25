@@ -1,4 +1,55 @@
-<video controls width="100%" preload="metadata">
-  <source src="{{ include.url }}" type="video/mp4">
-  您的浏览器不支持 HTML5 video 标签。
-</video>
+<div class="video-wrapper" style="width: 100%; margin-bottom: 1.5rem;">
+  <!-- 原生 Video 标签 -->
+  <video controls width="100%" preload="metadata" style="display: block; background-color: #000;">
+    <source src="{{ include.url }}" type="video/mp4">
+    您的浏览器不支持 HTML5 video 标签。
+  </video>
+
+  <!-- 自动封面检测脚本 (内联、隔离作用域) -->
+  <script>
+    (function(scriptTag) {
+      try {
+        // 1. 从 Jekyll 变量获取视频地址
+        var videoUrl = "{{ include.url }}";
+        
+        // 2. 简单的路径推算逻辑
+        // 移除 URL 参数 (?v=1 等)
+        var cleanUrl = videoUrl.split('?')[0];
+        var parts = cleanUrl.split('/');
+        
+        // 获取文件名 (例如 video.mp4)
+        var fileNameWithExt = parts.pop();
+        // 获取基础路径 (例如 https://example.com/videos)
+        var basePath = parts.join('/');
+        
+        // 去除后缀名 (兼容 .mp4, .mov 等)
+        // 逻辑：将文件名按 '.' 分割，去掉最后一个部分，再拼回去
+        var nameParts = fileNameWithExt.split('.');
+        if (nameParts.length > 1) { nameParts.pop(); } 
+        var fileName = nameParts.join('.');
+        
+        // 拼接目标封面地址: ./cover/文件名.jpg
+        var coverUrl = basePath + '/cover/' + fileName + '.jpg';
+
+        // 3. 尝试在后台加载图片
+        var img = new Image();
+        img.src = coverUrl;
+
+        img.onload = function() {
+          // 如果图片加载成功，找到当前组件内的 video 标签
+          var wrapper = scriptTag.parentNode;
+          var video = wrapper.querySelector('video');
+          if (video) {
+            video.poster = coverUrl; // 设置封面
+          }
+        };
+
+        img.onerror = function() {
+          // 图片不存在，什么都不做，Video 标签会默认显示第一帧
+        };
+      } catch (e) {
+        console.error("Auto-cover script error:", e);
+      }
+    })(document.currentScript);
+  </script>
+</div>
