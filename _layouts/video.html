@@ -14,7 +14,7 @@ layout: default
 
 <style>
 /* ==========================================================================
-   1. 侧边栏导航优化 (基于调试结果修正)
+   1. 侧边栏导航优化
    ========================================================================== */
 
 .aside--video-nav { opacity: 1 !important; }
@@ -57,40 +57,35 @@ layout: default
 }
 
 /* 
-   子菜单容器：缩进与对齐修正 
-   margin-left: 0.45em 是为了对齐三角形尖角
+   子菜单容器：样式微调 
+   1. margin-left: 0.45em (对齐三角尖)
+   2. margin-top: -0.6em (向上提，视觉更紧凑)
+   3. 移除了 padding-left (依靠子项自身的padding)
 */
 .video-nav-sublist {
-  margin-left: 0.45em; /* 您的调试结果 */
-  margin-top: 0.2rem; 
+  margin-left: 0.45em; 
+  margin-top: -0.6em !important; /* 用户指定调整 */
   margin-bottom: 0.5rem;
   display: none; 
   border-left: 1px solid #e0e0e0;
-  /* 强制加上 Padding，防止文字贴着线，!important 解决被覆盖问题 */
-  padding-left: 1rem !important; 
+  padding-left: 0 !important; /* 移除多余内边距 */
 }
 
-/* 
-   子菜单项 - 字号修正 
-   移动端 html 根字号小(12px)，PC端正常。
-   策略：移动端强制 px，PC端恢复 rem。
-*/
+/* 子菜单项 - 强制字号修复 & 内边距 */
 .video-nav-subitem {
   cursor: pointer;
   display: block;
-  padding: 0.3rem 0;
+  /* 左侧 padding 确保文字不贴线 */
+  padding: 0.3rem 0 0.3rem 0.8rem; 
   color: #3A77D8;
   transition: color 0.1s;
+  font-size: 1rem !important; /* 强制手机端字号 */
   line-height: 1.5;
-  
-  /* 移动端默认 (Mobile First) */
-  font-size: 16px !important; 
 }
-
-/* PC端覆盖 (min-width: 40em ≈ 640px) */
+/* PC端字号微调 */
 @media screen and (min-width: 40em) {
   .video-nav-subitem {
-    font-size: 0.95rem !important; /* 恢复相对单位，避免PC上巨大 */
+    font-size: 0.95rem !important; 
   }
 }
 
@@ -161,7 +156,7 @@ layout: default
   border-left: 18px solid #fff; margin-left: 6px;
 }
 
-/* 列表页标题 H6 - 蓝色 (因为是链接) */
+/* 列表页标题 H6 - 蓝色 */
 .video-card-title {
   margin: 0 !important;
   padding: 0 !important;
@@ -177,7 +172,7 @@ layout: default
 
 
 /* ==========================================================================
-   3. 弹窗播放器 (标题黑色，间距紧凑)
+   3. 弹窗播放器
    ========================================================================== */
 
 .video-modal-overlay {
@@ -185,6 +180,11 @@ layout: default
   background: rgba(0, 0, 0, 0.85); z-index: 9999;
   display: flex; align-items: center; justify-content: center;
   opacity: 0; pointer-events: none; transition: opacity 0.2s ease;
+  /* 
+     防止 iOS 上弹窗内容过高时，背景滚动传递。
+     touch-action: none 对 body scroll lock 辅助增强。
+  */
+  touch-action: none;
 }
 .video-modal-overlay.open { opacity: 1; pointer-events: auto; }
 
@@ -222,7 +222,7 @@ layout: default
 
 /* 弹窗底部信息栏 */
 .video-modal-info {
-  padding: 0.8rem 1rem; /* 紧凑间距 */
+  padding: 0.8rem 1rem;
   background: #fff;
   display: flex; justify-content: space-between; align-items: flex-start;
   border-top: 1px solid #eee;
@@ -232,11 +232,11 @@ layout: default
   flex: 1;
   padding-right: 1rem;
 }
-/* 弹窗标题：H6 - 黑色/深灰 (非链接) */
+/* 弹窗标题：H6 - 黑色 */
 .modal-text h6 { 
   margin: 0 0 0.3rem 0 !important; 
   font-size: 1.1rem !important; 
-  color: #2c3e50 !important; /* 黑色 */
+  color: #2c3e50 !important; 
   line-height: 1.3 !important; 
   font-weight: 700;
 }
@@ -257,8 +257,10 @@ layout: default
 
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-/* 禁止背景滚动 Helper */
-body.modal-open { overflow: hidden !important; }
+/* 注意：body.modal-open 仅用于 PC，手机端使用 position: fixed 方案 */
+@media screen and (min-width: 40em) {
+  body.modal-open { overflow: hidden !important; }
+}
 </style>
 
 <main class="main container">
@@ -305,13 +307,12 @@ body.modal-open { overflow: hidden !important; }
     <!-- 播放器 -->
     <div class="video-player-wrapper plyr-custom-wrapper">
       <video id="mainPlayer" playsinline controls style="width: 100%; height: 100%;"></video>
-      <!-- 封面层：初始隐藏 -->
+      <!-- 封面层 -->
       <div class="custom-cover-layer" id="modalCoverLayer" style="display:none;"></div>
     </div>
     
     <div class="video-modal-info typeset">
       <div class="modal-text">
-        <!-- H6 黑色标题 -->
         <h6 id="modalTitle"></h6>
         <a href="#" target="_blank" class="modal-post-link" id="modalLink">阅读相关文章 &rarr;</a>
       </div>
@@ -335,7 +336,9 @@ body.modal-open { overflow: hidden !important; }
   const videoElement = document.getElementById('mainPlayer');
   const coverLayer = document.getElementById('modalCoverLayer');
   
-  // 标记：是否是通用封面
+  // 滚动锁定相关变量 (针对手机端)
+  let scrollPosition = 0;
+  
   let isUsingFallbackCover = false;
 
   function initPlayer() {
@@ -349,11 +352,9 @@ body.modal-open { overflow: hidden !important; }
       fullscreen: { enabled: true, fallback: true, iosNative: true } 
     });
 
-    // --- DOM 移动逻辑 ---
     var moveLayer = function() {
         if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
             player.elements.container.appendChild(coverLayer);
-            // 只有非通用封面才显示
             if (!isUsingFallbackCover) {
                 coverLayer.style.display = 'block';
             }
@@ -364,8 +365,6 @@ body.modal-open { overflow: hidden !important; }
     player.on('enterfullscreen', moveLayer);
     setTimeout(moveLayer, 100);
 
-    // --- 交互逻辑 ---
-    
     player.on('play', function() {
         if (isUsingFallbackCover) {
             coverLayer.style.display = 'none';
@@ -397,6 +396,31 @@ body.modal-open { overflow: hidden !important; }
     }
   }
 
+  // --- 移动端滚动锁定 (iOS Fix) ---
+  function disableScroll() {
+    // 记录当前滚动位置
+    scrollPosition = window.pageYOffset;
+    // 强制固定 body
+    document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${scrollPosition}px`;
+    document.body.style.width = '100%';
+    // PC端兼容
+    document.body.classList.add('modal-open');
+  }
+
+  function enableScroll() {
+    // 移除固定
+    document.body.style.removeProperty('overflow');
+    document.body.style.removeProperty('position');
+    document.body.style.removeProperty('top');
+    document.body.style.removeProperty('width');
+    // 恢复滚动位置
+    window.scrollTo(0, scrollPosition);
+    // PC端兼容
+    document.body.classList.remove('modal-open');
+  }
+
   window.openVideo = function(cardElement) {
     if (!cardElement || !cardElement.dataset) return;
     const ds = cardElement.dataset;
@@ -417,7 +441,6 @@ body.modal-open { overflow: hidden !important; }
       linkEl.style.display = 'none';
     }
 
-    // 重置状态
     isUsingFallbackCover = false;
     coverLayer.style.opacity = '1';
     coverLayer.style.display = 'block';
@@ -428,7 +451,6 @@ body.modal-open { overflow: hidden !important; }
         coverLayer.style.backgroundImage = `url("${coverSrc}")`;
     };
     img.onerror = () => { 
-        // 图片加载失败 -> 标记为通用 -> 隐藏 Layer (不显示黑底或general图)
         coverLayer.style.backgroundImage = `url("${fallbackCoverUrl}")`; 
         isUsingFallbackCover = true;
         coverLayer.style.display = 'none'; 
@@ -440,7 +462,7 @@ body.modal-open { overflow: hidden !important; }
     };
 
     modal.classList.add('open');
-    document.body.classList.add('modal-open'); // 锁滚动
+    disableScroll(); // 锁定滚动
 
     if (player.elements && player.elements.container) {
          player.elements.container.appendChild(coverLayer);
@@ -451,7 +473,7 @@ body.modal-open { overflow: hidden !important; }
 
   window.closeModal = function() {
     modal.classList.remove('open');
-    document.body.classList.remove('modal-open'); // 解锁滚动
+    enableScroll(); // 恢复滚动
     player.pause();
     setTimeout(() => { 
         coverLayer.style.opacity = '1'; 
@@ -477,7 +499,6 @@ body.modal-open { overflow: hidden !important; }
       const grid = target.querySelector('.video-grid');
       if (grid) shuffleGrid(grid);
 
-      // URL Hash 联动
       if (history.replaceState) {
         history.replaceState(null, null, '#' + id);
       } else {
@@ -512,7 +533,6 @@ body.modal-open { overflow: hidden !important; }
       }
     });
 
-    // Hash 路由初始化
     const hash = window.location.hash.substring(1);
     let targetEl = null;
 
