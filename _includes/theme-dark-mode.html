@@ -55,14 +55,18 @@
         filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.1) brightness(1.6);
         opacity: 0.8;
       }
-      
-      /* 全屏视频特殊处理：移除恢复滤镜，避免被单独反转 */
+
       .nightowl-dark video:fullscreen,
-      .nightowl-dark video:-webkit-full-screen {
-        filter: none;
-        opacity: 1;
+      .nightowl-dark video:-webkit-full-screen,
+      .nightowl-dark .plyr:fullscreen video,               /* 新增: Plyr全屏时的视频 */
+      .nightowl-dark .plyr:-webkit-full-screen video,      /* 新增: Plyr全屏时的视频(兼容) */
+      .nightowl-dark .plyr:fullscreen .custom-cover-layer,          /* 新增: Plyr全屏时的封面 */
+      .nightowl-dark .plyr:-webkit-full-screen .custom-cover-layer  /* 新增: Plyr全屏时的封面(兼容) */
+      {
+        filter: none !important;
+        opacity: 1 !important;
       }
-      
+
       /* 调整全局文本：降低亮度以适应暗色背景 */
       .nightowl-dark h1, .nightowl-dark h2, .nightowl-dark h3, .nightowl-dark h4, .nightowl-dark h5, .nightowl-dark h6, .nightowl-dark p, .nightowl-dark strong, .nightowl-dark a, .nightowl-dark li, .nightowl-dark span, .nightowl-dark b {
         filter: brightness(0.6);
