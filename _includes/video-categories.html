@@ -1,26 +1,46 @@
-<!-- /_includes/category-nav.html -->
-<!-- 
-  调用方式: 
-  {% include category-nav.html datasource=site.data.video.categories %} 
--->
+<!-- /_includes/video-categories.html -->
 <nav class="nav">
   <ul class="list" style="list-style: none; padding-left: 0; margin-bottom: 0;">
-    {% for cat in include.datasource %}
+    {% for cat in site.data.video.categories %}
+      
+      <!-- 计算一级目录的 Item 总数 -->
+      {% assign total_count = 0 %}
+      
+      <!-- 1. 累加一级目录自身的视频 -->
+      {% if cat.videos %}
+        {% assign total_count = total_count | plus: cat.videos.size %}
+      {% endif %}
+      
+      <!-- 2. 累加子目录的视频 -->
+      {% if cat.children %}
+        {% for child in cat.children %}
+          {% if child.videos %}
+            {% assign total_count = total_count | plus: child.videos.size %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
       <li class="category-nav-item">
         {% if cat.children %}
           <!-- 有子目录：头部 -->
           <div class="category-nav-header has-children" onclick="toggleSubmenu(this)">
             <!-- 纯CSS三角形 -->
             <div class="nav-arrow-icon"></div>
-            <span class="nav-text">{{ cat.name }}</span>
+            <span class="nav-text">{{ cat.name }} ({{ total_count }})</span>
           </div>
           <ul class="category-nav-sublist">
             {% for subcat in cat.children %}
+              <!-- 计算子目录 Item 数 -->
+              {% assign sub_count = 0 %}
+              {% if subcat.videos %}
+                {% assign sub_count = subcat.videos | size %}
+              {% endif %}
+
               <!-- 子目录项 -->
               <li class="category-nav-subitem" 
                   data-target="{{ subcat.id }}" 
                   onclick="switchCategory('{{ subcat.id }}', this); event.stopPropagation();">
-                {{ subcat.name }}
+                {{ subcat.name }} ({{ sub_count }})
               </li>
             {% endfor %}
           </ul>
@@ -31,7 +51,7 @@
                onclick="switchCategory('{{ cat.id }}', this)">
             <!-- 占位符：不可见的三角形，用于对齐文字 -->
             <div class="nav-arrow-icon" style="visibility: hidden;"></div>
-            <span class="nav-text">{{ cat.name }}</span>
+            <span class="nav-text">{{ cat.name }} ({{ total_count }})</span>
           </div>
         {% endif %}
       </li>

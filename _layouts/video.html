@@ -14,10 +14,10 @@ layout: default
 
 <style>
 /* ==========================================================================
-   1. 通用左侧分类导航(Refactored to category-nav)
+   1. 通用侧边栏导航 (Renamed to category-nav)
    ========================================================================== */
 
-/* 侧边栏容器：原 aside--video-nav */
+/* 侧边栏容器 */
 .aside--category-nav { opacity: 1 !important; }
 
 /* PC端侧边栏固定 */
@@ -29,7 +29,7 @@ layout: default
 
 .category-nav-item { margin-bottom: 0.5rem; }
 
-/* 导航头部 */
+/* 导航头部 (一级菜单) */
 .category-nav-header {
   cursor: pointer;
   display: flex; align-items: center;
@@ -40,7 +40,7 @@ layout: default
 .category-nav-header:hover { color: #2e60ad; }
 .category-nav-header.active { color: #2e60ad; font-weight: 700; }
 
-/* 纯CSS三角形 */
+/* 纯CSS三角形图标 */
 .nav-arrow-icon {
   width: 0; height: 0;
   border-top: 5px solid transparent;
@@ -52,12 +52,12 @@ layout: default
   transition: transform 0.2s;
   flex-shrink: 0;
 }
-/* 展开状态 */
 .category-nav-header.open .nav-arrow-icon {
   transform: rotate(90deg);
   border-left-color: #3A77D8;
 }
 
+/* 子菜单列表容器 */
 .category-nav-sublist {
   margin-left: 0.44em; 
   margin-top: -0.35em;
@@ -67,7 +67,7 @@ layout: default
   padding-left: 0.5em !important;
 }
 
-/* 子菜单项 */
+/* 子菜单项 (二级菜单) */
 .category-nav-subitem {
   cursor: pointer;
   display: block;
@@ -91,17 +91,11 @@ layout: default
 
 
 /* ==========================================================================
-   2. 内容显示区域切换 (Generic)
+   2. 视频列表与卡片 (Grid) - 保持 video 前缀，因为内容展示仍是视频专用的
    ========================================================================== */
 
-/* 原 .video-category-section */
-.category-target-section { display: none; }
-.category-target-section.active { display: block; animation: fadeIn 0.3s ease-out; }
-
-
-/* ==========================================================================
-   3. 视频卡片样式 (Video Specific - 不需要改名，因为这是特定内容)
-   ========================================================================== */
+.video-category-section { display: none; }
+.video-category-section.active { display: block; animation: fadeIn 0.3s ease-out; }
 
 /* Grid 间距 */
 .video-grid {
@@ -136,7 +130,7 @@ layout: default
   transition: none; opacity: 1;
 }
 
-/* 列表页播放按钮 */
+/* 列表页播放按钮 - Plyr Blue */
 .play-icon-overlay {
   position: absolute; top: 50%; left: 50%;
   transform: translate(-50%, -50%);
@@ -159,7 +153,7 @@ layout: default
   border-left: 18px solid #fff; margin-left: 6px;
 }
 
-/* 列表页标题 */
+/* 列表页标题 H6 - 蓝色 */
 .video-card-title {
   margin: 0 !important;
   padding: 0 !important;
@@ -175,7 +169,7 @@ layout: default
 
 
 /* ==========================================================================
-   4. 弹窗播放器 (Video Specific)
+   3. 弹窗播放器
    ========================================================================== */
 
 .video-modal-overlay {
@@ -196,6 +190,7 @@ layout: default
   display: flex; flex-direction: column;
 }
 
+/* Plyr Wrapper */
 .video-player-wrapper {
   position: relative;
   width: 100%;
@@ -203,8 +198,11 @@ layout: default
   background: #000;
   border-radius: 8px 8px 0 0; 
 }
-.plyr--fullscreen-enabled { border-radius: 0 !important; }
+.plyr--fullscreen-enabled {
+  border-radius: 0 !important;
+}
 
+/* 自定义封面层 */
 .custom-cover-layer {
   position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
   background-size: contain; background-repeat: no-repeat; background-position: center; 
@@ -215,6 +213,7 @@ layout: default
   pointer-events: none;
 }
 
+/* 弹窗底部信息栏 */
 .video-modal-info {
   padding: 0.8rem 1rem;
   background: #fff;
@@ -222,7 +221,10 @@ layout: default
   border-top: 1px solid #eee;
   border-radius: 0 0 8px 8px;
 }
-.modal-text { flex: 1; padding-right: 1rem; }
+.modal-text {
+  flex: 1;
+  padding-right: 1rem;
+}
 .modal-text h6 { 
   margin: 0 0 0.3rem 0 !important; 
   font-size: 1.1rem !important; 
@@ -231,12 +233,17 @@ layout: default
   font-weight: 700;
 }
 .modal-post-link { 
-  color: #3A77D8; font-weight: normal; text-decoration: none; font-size: 0.9rem; display: inline-block;
+  color: #3A77D8; 
+  font-weight: normal; 
+  text-decoration: none; 
+  font-size: 0.9rem; 
+  display: inline-block;
 }
 .modal-post-link:hover { color: #2e60ad; text-decoration: underline; }
 .modal-close-btn { 
   background: none; border: none; font-size: 2rem; color: #999; 
-  cursor: pointer; padding: 0; line-height: 0.8; margin-top: -2px;
+  cursor: pointer; padding: 0; line-height: 0.8; 
+  margin-top: -2px;
 }
 .modal-close-btn:hover { color: #333; }
 
@@ -253,14 +260,15 @@ layout: default
   <aside class="aside typeset aside--category-nav" style="margin-right: 4%;">
     <section class="section" style="padding-top: 0;"> 
       <h3>Index</h3>
-      <!-- 调用重命名后的 include，并传入数据源 -->
-      {% include category-nav.html datasource=site.data.video.categories %}
+      <!-- 这里文件名已变更为 video-categories.html -->
+      {% include video-categories.html %}
     </section>
   </aside>
 
-  <!-- 右侧：内容区域 -->
+  <!-- 右侧：视频内容 -->
   <div class="content typeset" style="padding-top: 0.2rem;">
     
+    <!-- 标题中会包含数目，需注意 update -->
     <h2 style="margin-top: 0; line-height: 1.2em;" id="page-title">视频库</h2>
 
     {% assign all_categories = site.data.video.categories %}
@@ -289,7 +297,6 @@ layout: default
 
 <div class="video-modal-overlay" id="videoModal">
   <div class="video-modal-content" onclick="event.stopPropagation()">
-    <!-- 播放器 -->
     <div class="video-player-wrapper plyr-custom-wrapper">
       <video id="mainPlayer" playsinline controls style="width: 100%; height: 100%;"></video>
       <div class="custom-cover-layer" id="modalCoverLayer" style="display:none;"></div>
@@ -311,7 +318,6 @@ layout: default
 
 <script>
 (function() {
-  // 1. 视频播放器特定逻辑 (保持不变)
   const videoBaseUrl = "{{ video_base_url }}";
   const coverBaseUrl = "{{ cover_base_url }}";
   const fallbackCoverUrl = "{{ fallback_cover }}";
@@ -320,6 +326,7 @@ layout: default
   const modal = document.getElementById('videoModal');
   const videoElement = document.getElementById('mainPlayer');
   const coverLayer = document.getElementById('modalCoverLayer');
+  
   let scrollPosition = 0;
   let isUsingFallbackCover = false;
 
@@ -337,21 +344,30 @@ layout: default
     var moveLayer = function() {
         if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
             player.elements.container.appendChild(coverLayer);
-            if (!isUsingFallbackCover) coverLayer.style.display = 'block';
+            if (!isUsingFallbackCover) {
+                coverLayer.style.display = 'block';
+            }
         }
     };
+    
     player.on('ready', moveLayer);
     player.on('enterfullscreen', moveLayer);
     setTimeout(moveLayer, 100);
 
     player.on('play', function() {
-        if (isUsingFallbackCover) coverLayer.style.display = 'none';
+        if (isUsingFallbackCover) {
+            coverLayer.style.display = 'none';
+        }
     });
 
     player.on('timeupdate', function() {
         if (isUsingFallbackCover) return; 
-        if (player.currentTime > 10) coverLayer.style.opacity = '0';
-        else coverLayer.style.opacity = '1';
+        const delaySeconds = 10; 
+        if (player.currentTime > delaySeconds) {
+            coverLayer.style.opacity = '0';
+        } else {
+            coverLayer.style.opacity = '1';
+        }
     });
 
     player.on('ended', () => { 
@@ -412,23 +428,33 @@ layout: default
 
     const img = new Image();
     img.src = coverSrc;
-    img.onload = () => { coverLayer.style.backgroundImage = `url("${coverSrc}")`; };
+    img.onload = () => { 
+        coverLayer.style.backgroundImage = `url("${coverSrc}")`;
+    };
     img.onerror = () => { 
         coverLayer.style.backgroundImage = `url("${fallbackCoverUrl}")`; 
         isUsingFallbackCover = true;
         coverLayer.style.display = 'none'; 
     };
 
-    player.source = { type: 'video', sources: [{ src: videoSrc, type: 'video/mp4' }] };
+    player.source = {
+      type: 'video',
+      sources: [{ src: videoSrc, type: 'video/mp4' }]
+    };
+
     modal.classList.add('open');
-    disableScroll();
-    if (player.elements && player.elements.container) player.elements.container.appendChild(coverLayer);
+    disableScroll(); 
+
+    if (player.elements && player.elements.container) {
+         player.elements.container.appendChild(coverLayer);
+    }
+    
     player.play().catch(e => console.warn("Auto-play blocked:", e));
   };
 
   window.closeModal = function() {
     modal.classList.remove('open');
-    enableScroll();
+    enableScroll(); 
     player.pause();
     setTimeout(() => { 
         coverLayer.style.opacity = '1'; 
@@ -436,27 +462,24 @@ layout: default
     }, 300);
   };
 
-  modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
 
-  // =====================================================================
-  // 2. 通用分类切换逻辑 (Refactored for Category Nav)
-  // =====================================================================
-
+  // 修改：选择器更新为 .category-nav-header 和 .category-nav-subitem
   window.switchCategory = function(id, el) {
-    // 移除旧的 active 类
     document.querySelectorAll('.category-nav-header, .category-nav-subitem').forEach(e => e.classList.remove('active'));
     if(el) el.classList.add('active');
     
-    // 隐藏所有内容 section
-    document.querySelectorAll('.category-target-section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.video-category-section').forEach(s => s.classList.remove('active'));
     
-    // 寻找目标 section
     const target = document.getElementById('section-' + id);
     if(target) {
       target.classList.add('active');
-      document.getElementById('page-title').innerText = el.innerText.trim();
+      // 提取纯文本标题（去除 HTML 标签，如果有）
+      const text = el.innerText || el.textContent;
+      document.getElementById('page-title').innerText = text.trim();
       
-      // 如果目标 section 内部包含 video-grid，则进行随机打乱 (可选，Video特定功能)
       const grid = target.querySelector('.video-grid');
       if (grid) shuffleGrid(grid);
 
@@ -480,7 +503,7 @@ layout: default
     initPlayer();
     const isPC = window.innerWidth >= 900; 
     
-    // 初始化展开逻辑 (针对 category-nav)
+    // 修改：选择器更新为 .category-nav-header.has-children
     const headers = document.querySelectorAll('.category-nav-header.has-children');
     headers.forEach(header => {
       const subList = header.nextElementSibling;
@@ -495,15 +518,15 @@ layout: default
       }
     });
 
-    // Hash 路由初始化
     const hash = window.location.hash.substring(1);
     let targetEl = null;
 
     if (hash) {
+      // 修改：选择器更新
       targetEl = document.querySelector(`.category-nav-subitem[data-target="${hash}"], .category-nav-header[data-target="${hash}"]`);
     }
     if (!targetEl) {
-      // 默认选中第一个
+      // 修改：选择器更新
       targetEl = document.querySelector('.category-nav-subitem, .category-nav-header[data-target]');
     }
 
