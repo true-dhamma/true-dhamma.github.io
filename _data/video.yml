@@ -186,7 +186,7 @@ library:
 
   - filename: '欲罢不能：刷屏时代如何摆脱行为上瘾.mp4'
     title: '乔布斯为何不让孩子玩iPad？解密让你《欲罢不能》的“成瘾陷阱”'
-    post_url: '' 
+    post_url: 'https://url.true-dhamma.com/1616LD'
     post_title: ''
 
   - filename: '被偷走的注意力：一场争夺你心智的战争.mp4'
@@ -212,6 +212,36 @@ library:
   - filename: '意识的十字路口：AI时代的幻梦与选择.mp4'
     title: '在AI编织的快乐中，我们正在失去什么？'
     post_url: 'https://url.true-dhamma.com/16U8QK'
+    post_title: ''
+
+  - filename: '国王之问：一场关于自我的古老对话.mp4'
+    title: '如果没有“灵魂”，是谁在轮回？《弥兰王问经》用一盏灯解开千古谜题'
+    post_url: 'https://true-dhamma.com/tipitaka/'
+    post_title: ''
+
+  - filename: '省思录：阿姜查不存在.mp4'
+    title: '“阿姜查不存在”？揭秘泰国森林派高僧最震撼的“无我”教诲'
+    post_url: 'https://url.true-dhamma.com/1SG50I'
+    post_title: ''
+
+  - filename: '心之地图：阿毗达摩入门.mp4'
+    title: '阿毗达摩入门：如何像拆零部件一样解构“自我”？'
+    post_url: 'https://url.true-dhamma.com/DPPRVO'
+    post_title: ''
+
+  - filename: '泰国禅修老师参访记.mp4'
+    title: '觉知 vs 专注，你修对了吗？隆波田尊者教你如何“断开”纷乱思绪'
+    post_url: 'https://url.true-dhamma.com/1HGLOG'
+    post_title: ''
+
+  - filename: '南传菩萨道.mp4'
+    title: '南传菩萨道：放弃立地成佛，只为救度众生的妙智隐士'
+    post_url: 'https://url.true-dhamma.com/1VDHWH'
+    post_title: ''
+
+  - filename: '隆波帕默尊者：直达觉悟的道路.mp4'
+    title: '隆波帕默尊者传授的觉悟之道：心清楚地照见心（完整实修指南）'
+    post_url: 'https://url.true-dhamma.com/1A9RTW'
     post_title: ''
 
   - filename: 'EasyWay轻松戒糖：揭开心理陷阱.mp4'
@@ -501,6 +531,9 @@ categories:
       - name: '核心法义'
         id: 'dhamma-core'
         videos:
+          - '国王之问：一场关于自我的古老对话.mp4'
+          - '心之地图：阿毗达摩入门.mp4'
+          - '南传菩萨道.mp4'
           - '吉祥的选择.mp4'
           - '因果业报简析：《小业分别经》.mp4'
           - '业：超越善恶.mp4'
@@ -516,6 +549,7 @@ categories:
       - name: '禅修实操'
         id: 'dhamma-meditation'
         videos:
+          - '隆波帕默尊者：直达觉悟的道路.mp4'
           - '正念的奇迹：一行禅师的禅修入门指南.mp4'
           - '卡巴金：正念疗愈力.mp4'
           - '阿姜查的禅修世界：定.mp4'
@@ -528,6 +562,8 @@ categories:
       - name: '圣者足迹'
         id: 'dhamma-masters'
         videos:
+          - '省思录：阿姜查不存在.mp4'
+          - '泰国禅修老师参访记.mp4'
           - '阿姜考：一位真实的心灵战士.mp4'
           - '智慧第一：舍利弗的一生.mp4'
           - '一代宗师：阿姜曼・布利达陀传.mp4'
