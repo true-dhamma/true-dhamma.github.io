@@ -112,6 +112,8 @@ navigation_header:
   url: "/"
 - title: 成瘾
   url: "/addiction/"
+- title: 视频
+  url: "/video/"
 - title: 文章
   url: "/blog/"
 - title: 书籍
