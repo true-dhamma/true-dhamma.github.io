@@ -2,7 +2,6 @@
 <section id="section-{{ section_id }}" class="video-category-section">
   <div class="video-grid">
     {% for v_filename in current_videos %}
-      
       {% assign video_info = nil %}
       {% for v in site.data.video.library %}
         {% if v.filename == v_filename %}
@@ -10,37 +9,19 @@
           {% break %}
         {% endif %}
       {% endfor %}
-
       {% if video_info %}
         {% assign filename_no_ext = video_info.filename | split: '.' | first %}
         {% assign thumb_url = cover_base_url | append: filename_no_ext | append: ".jpg" %} 
-
-        <div class="video-card typeset" 
-             data-filename="{{ video_info.filename }}"
-             data-title="{{ video_info.title | escape }}"
-             data-post-url="{{ video_info.post_url }}"
-             data-post-title="{{ video_info.post_title | escape }}"
-             onclick="openVideo(this)">
-             
+        <div class="video-card typeset" data-filename="{{ video_info.filename }}" data-title="{{ video_info.title | escape }}" data-post-url="{{ video_info.post_url }}" data-post-title="{{ video_info.post_title | escape }}" onclick="openVideo(this)">
           <div class="video-thumbnail-wrapper">
-            <img 
-              src="{{ thumb_url }}" 
-              alt="{{ video_info.title | escape }}" 
-              class="video-thumbnail" 
-              loading="lazy"
-              onerror="this.src='{{ fallback_cover }}'"
-            >
-            <!-- 播放按钮 -->
+            <img src="{{ thumb_url }}" alt="{{ video_info.title | escape }}" class="video-thumbnail" loading="lazy" onerror="this.src='{{ fallback_cover }}'">
             <div class="play-icon-overlay"></div>
-          </div>
-          
+          </div>          
           <div class="video-info">
-            <!-- H6 标题，颜色由 CSS !important 强制控制 -->
             <h6 class="video-card-title">{{ video_info.title }}</h6>
           </div>
         </div>
       {% endif %}
-
     {% endfor %}
   </div>
 </section>
