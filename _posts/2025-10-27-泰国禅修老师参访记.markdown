@@ -20,6 +20,8 @@ toc: true
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E6%B3%B0%E5%9B%BD%E7%A6%85%E4%BF%AE%E8%80%81%E5%B8%88%E5%8F%82%E8%AE%BF%E8%AE%B0.mp4" %}
+
 ## **泰国动中禅的创立简介**
 
 ### **隆波田尊者的生平和动中禅**

@@ -21,6 +21,8 @@ toc: true
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E9%9A%86%E6%B3%A2%E5%B8%95%E9%BB%98%E5%B0%8A%E8%80%85%EF%BC%9A%E7%9B%B4%E8%BE%BE%E8%A7%89%E6%82%9F%E7%9A%84%E9%81%93%E8%B7%AF.mp4" %}
+
 ### 前言
 
 要证悟佛陀的正法，其唯一的道路就是**修习念住**（培育正念）。除此以外，再无第二条通往觉悟的道路。
