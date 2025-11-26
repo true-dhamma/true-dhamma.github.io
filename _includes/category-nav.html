@@ -1,19 +1,23 @@
-<!-- /_includes/video-list.html -->
+<!-- /_includes/category-nav.html -->
+<!-- 
+  调用方式: 
+  {% include category-nav.html datasource=site.data.video.categories %} 
+-->
 <nav class="nav">
   <ul class="list" style="list-style: none; padding-left: 0; margin-bottom: 0;">
-    {% for cat in site.data.video.categories %}
-      <li class="video-nav-item">
+    {% for cat in include.datasource %}
+      <li class="category-nav-item">
         {% if cat.children %}
           <!-- 有子目录：头部 -->
-          <div class="video-nav-header has-children" onclick="toggleSubmenu(this)">
+          <div class="category-nav-header has-children" onclick="toggleSubmenu(this)">
             <!-- 纯CSS三角形 -->
             <div class="nav-arrow-icon"></div>
             <span class="nav-text">{{ cat.name }}</span>
           </div>
-          <ul class="video-nav-sublist">
+          <ul class="category-nav-sublist">
             {% for subcat in cat.children %}
               <!-- 子目录项 -->
-              <li class="video-nav-subitem" 
+              <li class="category-nav-subitem" 
                   data-target="{{ subcat.id }}" 
                   onclick="switchCategory('{{ subcat.id }}', this); event.stopPropagation();">
                 {{ subcat.name }}
@@ -22,7 +26,7 @@
           </ul>
         {% else %}
           <!-- 无子目录 -->
-          <div class="video-nav-header" 
+          <div class="category-nav-header" 
                data-target="{{ cat.id }}" 
                onclick="switchCategory('{{ cat.id }}', this)">
             <!-- 占位符：不可见的三角形，用于对齐文字 -->

@@ -1,5 +1,6 @@
 <!-- /_includes/video-section-template.html -->
-<section id="section-{{ section_id }}" class="video-category-section">
+<!-- 注意：外层 class 变成了 category-target-section 以配合通用导航 -->
+<section id="section-{{ section_id }}" class="category-target-section">
   <div class="video-grid">
     {% for v_filename in current_videos %}
       
@@ -30,12 +31,10 @@
               loading="lazy"
               onerror="this.src='{{ fallback_cover }}'"
             >
-            <!-- 播放按钮 -->
             <div class="play-icon-overlay"></div>
           </div>
           
           <div class="video-info">
-            <!-- H6 标题，颜色由 CSS !important 强制控制 -->
             <h6 class="video-card-title">{{ video_info.title }}</h6>
           </div>
         </div>
