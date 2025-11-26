@@ -56,19 +56,13 @@ layout: default
   border-left-color: #3A77D8;
 }
 
-/* 
-   子菜单容器：样式微调 
-   1. margin-left: 0.45em (对齐三角尖)
-   2. margin-top: -0.6em (向上提，视觉更紧凑)
-   3. 移除了 padding-left (依靠子项自身的padding)
-*/
 .video-nav-sublist {
   margin-left: 0.44em; 
   margin-top: -0.5em;
   margin-bottom: 0.5rem;
   display: none; 
   border-left: 1px solid #e0e0e0;
-  padding-left: 0.5em;
+  padding-left: 0.3em;
 }
 
 /* 子菜单项 - 强制字号修复 & 内边距 */
@@ -79,8 +73,14 @@ layout: default
   padding: 0.3rem 0 0.3rem 0.8rem; 
   color: #3A77D8;
   transition: color 0.1s;
-  font-size: 1.25rem !important; /* 强制手机端字号 */
+  font-size: 1.1rem !important;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 40em) {
+  .video-nav-subitem {
+    font-size: 1.15rem !important; 
+  }
 }
 
 .video-nav-subitem:hover { color: #2e60ad; text-decoration: underline; }
