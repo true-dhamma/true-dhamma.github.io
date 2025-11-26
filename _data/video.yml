@@ -14,7 +14,7 @@ library:
     post_url: 'https://url.true-dhamma.com/O680RM'
     post_title: ''
 
-  - filename: '轻松戒重法.mp4'
+  - filename: '艾伦·卡尔的轻松戒重法.mp4'
     title: '停止节食！用70/30法则与食物和解，告别减肥负罪感（亚伦·卡尔轻松法）'
     post_url: 'https://url.true-dhamma.com/IMFAZ8'
     post_title: ''
@@ -42,11 +42,6 @@ library:
   - filename: '你的生存本能正在杀死你.mp4'
     title: '你的生存本能正在杀死你'
     post_url: 'https://url.true-dhamma.com/SM99P8'
-    post_title: ''
-
-  - filename: '轻松戒掉坏糖：一种无需意志力的方法.mp4'
-    title: '戒糖还在靠意志力硬抗？分清“好糖”、“坏糖”才是破局关键！'
-    post_url: 'https://url.true-dhamma.com/1UODCM'
     post_title: ''
 
   - filename: '梦瘾：美国阿片类药物泛滥的真相.mp4'
@@ -245,8 +240,8 @@ library:
     post_title: ''
 
   - filename: 'EasyWay轻松戒糖：揭开心理陷阱.mp4'
-    title: '[默认] EasyWay轻松戒糖：揭开心理陷阱.mp4'
-    post_url: ''
+    title: '戒糖还在靠意志力硬抗？分清“好糖”、“坏糖”才是破局关键！'
+    post_url: 'https://url.true-dhamma.com/1UODCM'
     post_title: ''
 
   - filename: 'Sunlun Sayadaw 宣隆大师传(缅文直译版).mp4'
@@ -256,16 +251,6 @@ library:
 
   - filename: '一代宗师：阿姜曼・布利达陀传.mp4'
     title: '[默认] 一代宗师：阿姜曼・布利达陀传.mp4'
-    post_url: ''
-    post_title: ''
-
-  - filename: '世间成瘾与世间解脱.mp4'
-    title: '[默认] 世间成瘾与世间解脱.mp4'
-    post_url: ''
-    post_title: ''
-
-  - filename: '世间成瘾：通往自由的古老道路.mp4'
-    title: '[默认] 世间成瘾：通往自由的古老道路.mp4'
     post_url: ''
     post_title: ''
 
@@ -437,7 +422,7 @@ categories:
       - '多巴胺国度：在纵欲时代找到平衡.mp4'
       - '你的生存本能正在杀死你.mp4'
       - '被偷走的注意力：一场争夺你心智的战争.mp4'
-      - '轻松戒掉坏糖：一种无需意志力的方法.mp4'
+      - 'EasyWay轻松戒糖：揭开心理陷阱.mp4.mp4'
       - '业：超越善恶.mp4'
       - '从普遍幻觉到刹那当下：AI与意识的对话.mp4'
       - '轻松戒除忧虑.mp4'
@@ -451,9 +436,8 @@ categories:
       - name: '物质依赖'
         id: 'addiction-substance'
         videos:
-          - '轻松戒重法.mp4'
+          - '艾伦·卡尔的轻松戒重法.mp4'
           - '艾伦·卡尔的轻松戒掉咖啡因之道.mp4'
-          - '轻松戒掉坏糖：一种无需意志力的方法.mp4'
           - 'EasyWay轻松戒糖：揭开心理陷阱.mp4'
           - '酒精实验：一项为期30天的挑战.mp4'
           - '赤裸裸的思想：控制酒精，重获自由.mp4'
@@ -499,8 +483,6 @@ categories:
           - '永不足够：成瘾的神经科学.mp4'
           - '理性康复(RR_Rational Recovery)：一条不同的康复之路.mp4'
           - '空洞的心：成瘾的真相与疗愈.mp4'
-          - '世间成瘾与世间解脱.mp4'
-          - '世间成瘾：通往自由的古老道路.mp4'
 
   - name: '心理与疗愈'
     id: 'psychology'
