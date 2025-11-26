@@ -1,19 +1,18 @@
 ---
 title: 隆波田：致觉行者
-date: 2025-10-26 23:10:00 +08:00
+date: 2025-10-26T23:10:00+08:00
 categories:
-- 正念
-- 高僧大德
-- 南传上座部佛法
-- 精选
+  - 正念
+  - 高僧大德
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- 
+  -
 excerpt: 灭苦之道并非向外追寻，而是回到自身，通过觉知每一个当下身心的动作，直接看见念头的生灭。
-feature_image: "/uploads/top_banner_lp_pramote.jpg"
+feature_image: /uploads/top_banner_green.jpg
 aside: false
 toc: true
 ---
-
 > ##### To One That Feels - Luangpor Teean Jittasubho
 >
 > ##### 隆波田：致觉行者 - 隆波田尊者
