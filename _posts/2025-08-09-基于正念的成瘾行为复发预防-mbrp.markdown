@@ -22,6 +22,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E5%9F%BA%E4%BA%8E%E6%AD%A3%E5%BF%B5%E7%9A%84%E5%A4%8D%E5%8F%91%E9%A2%84%E9%98%B2(MBRP).mp4" %}
+
 ## 引言
 
 我们推测，被本课程吸引的临床医生们，无论是在正念练习还是在治疗成瘾行为方面，都有着浓厚的兴趣或丰富的经验。或许，您正为您的来访者寻求一种关于成瘾行为和复发的替代方法或全新视角。也许您正在寻找另一种方式，帮助来访者摆脱有害行为的破坏性循环。正是类似的探索引导我们开发了“基于正念的复发预防”（Mindfulness-Based Relapse Prevention, MBRP）。我们的初衷是将正念觉知的练习带给那些受成瘾困扰的个体。

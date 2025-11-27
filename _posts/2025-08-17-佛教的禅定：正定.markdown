@@ -22,6 +22,8 @@ aside: false
 
 &nbsp;
 
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E4%BD%9B%E6%95%99%E7%A6%85%E5%AE%9A%EF%BC%9A%E6%AD%A3%E5%AE%9A%E4%B9%8B%E8%B7%AF.mp4" %}
+
 ### 正定
 
 正定是八正道的最后一支，也是内容最为丰富的一项，因为它涉及心智培育与发展的完整过程。这是一个精细微妙的主题，既关乎心的精微本质，也涉及实践中广泛而复杂的细节，是所有修行的交汇点或集合场。
