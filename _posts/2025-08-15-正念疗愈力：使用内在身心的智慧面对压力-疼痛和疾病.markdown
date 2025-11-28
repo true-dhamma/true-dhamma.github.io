@@ -24,7 +24,7 @@ aside: false
 
 &nbsp;
 
-{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E6%AD%A3%E5%BF%B5%E7%9A%84%E7%96%97%E6%84%88%E5%8A%9B.mp4" %}
+{% include video.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E5%8D%A1%E5%B7%B4%E9%87%91%EF%BC%9A%E6%AD%A3%E5%BF%B5%E7%96%97%E6%84%88%E5%8A%9B.mp4" %}
 
 ### 前言
 

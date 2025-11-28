@@ -9,11 +9,6 @@ library:
     post_url: 'https://url.true-dhamma.com/8NS5PA'
     post_title: ''
 
-  - filename: '一代宗师：阿姜曼・布利达陀传.mp4'
-    title: '[默认] 一代宗师：阿姜曼・布利达陀传.mp4'
-    post_url: ''
-    post_title: ''
-
   - filename: '不完美的礼物.mp4'
     title: '越想讨好，越被轻视？停止用“完美”来换取“爱”的卑微游戏'
     post_url: 'https://url.true-dhamma.com/10OTZ2'
@@ -30,8 +25,8 @@ library:
     post_title: ''
 
   - filename: '亲近释迦牟尼佛：从巴利藏经看佛陀的一生.mp4'
-    title: '[默认] 亲近释迦牟尼佛：从巴利藏经看佛陀的一生.mp4'
-    post_url: ''
+    title: '被神化前的佛陀：如果不修行，他也只是被欲望困住的凡夫'
+    post_url: 'https://url.true-dhamma.com/RIJN80'
     post_title: ''
 
   - filename: '从普遍幻觉到刹那当下：AI与意识的对话.mp4'
@@ -39,9 +34,14 @@ library:
     post_url: 'https://url.true-dhamma.com/CKP6G0'
     post_title: ''
 
-  - filename: '佛使比丘的人类手册：终结痛苦实用指南.mp4'
-    title: '[默认] 佛使比丘的人类手册：终结痛苦实用指南.mp4'
-    post_url: ''
+  - filename: '佛使比丘：人类手册.mp4'
+    title: '佛使比丘《人类手册》：理解五蕴与无我，获得终极解脱的三把钥匙'
+    post_url: 'https://url.true-dhamma.com/1T1Y50'
+    post_title: ''
+
+  - filename: '佛教禅定：正定之路.mp4'
+    title: '佛教正定：别陷在“邪定”的舒服里！禅定不是终点，而应是智慧的起点'
+    post_url: 'https://url.true-dhamma.com/IB3W69'
     post_title: ''
 
   - filename: '佛陀的圣弟子们：转变的旅程.mp4'
@@ -64,14 +64,19 @@ library:
     post_url: 'https://url.true-dhamma.com/SM99P8'
     post_title: ''
 
+  - filename: '初学者阅读巴利三藏的小贴士.mp4'
+    title: '巴利三藏浩如烟海？新手必看的3部核心经典与阅读心法'
+    post_url: 'https://url.true-dhamma.com/1OI07W'
+    post_title: ''
+
   - filename: '南传菩萨道.mp4'
     title: '南传菩萨道：放弃立地成佛，只为救度众生的妙智隐士'
     post_url: 'https://url.true-dhamma.com/1VDHWH'
     post_title: ''
 
   - filename: '卡巴金：正念疗愈力.mp4'
-    title: '[默认] 卡巴金：正念疗愈力.mp4'
-    post_url: ''
+    title: '无法“治愈”也能“疗愈”？哈佛实证的《正念疗愈力》：8周重塑身心'
+    post_url: 'https://url.true-dhamma.com/J3L5OY'
     post_title: ''
 
   - filename: '反糖斗争.mp4'
@@ -109,9 +114,24 @@ library:
     post_url: 'https://true-dhamma.com/tipitaka/'
     post_title: ''
 
+  - filename: '基于正念的复发预防(MBRP).mp4'
+    title: '为什么戒瘾总是复发？在冲动与回应之间，学会“暂停”是最高级的修行（MBRP基于正念的复发预防）'
+    post_url: 'https://url.true-dhamma.com/KM6GH4'
+    post_title: ''
+
+  - filename: '多巴胺国度练习册.mp4'
+    title: '为什么越快乐越空虚？4周“主动吃苦”重塑大脑（《多巴胺国度》练习册）'
+    post_url: 'https://url.true-dhamma.com/1767YW'
+    post_title: ''
+
   - filename: '多巴胺国度：在纵欲时代找到平衡.mp4'
     title: '越快乐越空虚？解读《多巴胺国度：在纵欲时代找到平衡》'
     post_url: 'https://url.true-dhamma.com/89F49R'
+    post_title: ''
+
+  - filename: '多舛的生命：一份正念疗愈指南.mp4'
+    title: '当生活一团糟时，该怎么办？《多舛的生命》：卡巴金的正念减压圣经（MBSR）'
+    post_url: 'https://url.true-dhamma.com/1K54LY'
     post_title: ''
 
   - filename: '如何与你的手机分手.mp4'
@@ -120,8 +140,8 @@ library:
     post_title: ''
 
   - filename: '完美主义者失控指南.mp4'
-    title: '献给被卡住的你：为什么无论多努力，生活还在原地打转？'
-    post_url: 'https://url.true-dhamma.com/D2WGHA'
+    title: '完美主义不是病，不用治！心理学家： 你是这5种类型里的哪一种？看完不再内耗'
+    post_url: 'https://url.true-dhamma.com/1T9DMA'
     post_title: ''
 
   - filename: '巴育陀(P. A. Payutto)尊者巨著《佛法》核心教义.mp4'
@@ -130,13 +150,18 @@ library:
     post_title: ''
 
   - filename: '帕蒂帕达：法的修行之道.mp4'
-    title: '[默认] 帕蒂帕达：法的修行之道.mp4'
-    post_url: ''
+    title: '帕蒂帕达：森林派祖师阿姜曼的“生死一课”，彻底改变你对恐惧的看法！'
+    post_url: 'https://url.true-dhamma.com/1H9YSR'
     post_title: ''
 
   - filename: '心之地图：阿毗达摩入门.mp4'
     title: '阿毗达摩入门：如何像拆零部件一样解构“自我”？'
     post_url: 'https://url.true-dhamma.com/DPPRVO'
+    post_title: ''
+
+  - filename: '心安住.mp4'
+    title: '隆波帕默尊者揭秘：心如何“安住”成为知者、觉醒者、喜悦者？'
+    post_url: 'https://url.true-dhamma.com/8J0NDM'
     post_title: ''
 
   - filename: '心的资粮：阿姜查的智慧.mp4'
@@ -190,8 +215,8 @@ library:
     post_title: ''
 
   - filename: '森林里的一棵树：阿姜查的比喻集.mp4'
-    title: '[默认] 森林里的一棵树：阿姜查的比喻集.mp4'
-    post_url: ''
+    title: '阿姜查的比喻集：为何要把杯子看作是“碎”的？看懂了你就再不痛苦'
+    post_url: 'https://url.true-dhamma.com/1ENS8A'
     post_title: ''
 
   - filename: '次第说法：佛陀的解脱之道.mp4'
@@ -265,8 +290,8 @@ library:
     post_title: ''
 
   - filename: '自尊的六大支柱.mp4'
-    title: '[默认] 自尊的六大支柱.mp4'
-    post_url: ''
+    title: '缺爱、敏感、想太多？《自尊的六大支柱》帮你破解“伪自尊”的陷阱！'
+    post_url: 'https://url.true-dhamma.com/5DBW1R'
     post_title: ''
 
   - filename: '艾伦·卡尔的轻松戒掉咖啡因之道.mp4'
@@ -294,9 +319,14 @@ library:
     post_url: 'https://url.true-dhamma.com/1L0YGA'
     post_title: ''
 
+  - filename: '解绑焦虑练习册.mp4'
+    title: '解绑焦虑实战：如何利用“好奇心”破解大脑的奖励系统？'
+    post_url: 'https://url.true-dhamma.com/116KY2'
+    post_title: ''
+
   - filename: '解绑焦虑：释放天性中的好奇心，疗愈焦虑的全新科学.mp4'
-    title: '[默认] 解绑焦虑：释放天性中的好奇心，疗愈焦虑的全新科学.mp4'
-    post_url: ''
+    title: '5分钟解绑焦虑死循环：为什么“觉知”比“硬扛”有效100倍？'
+    post_url: 'https://url.true-dhamma.com/6UQMV8'
     post_title: ''
 
   - filename: '赌博成瘾康复手册.mp4'
@@ -310,13 +340,13 @@ library:
     post_title: ''
 
   - filename: '走出恐惧.mp4'
-    title: '[默认] 走出恐惧.mp4'
-    post_url: ''
+    title: '恐惧最怕被“看见”：当你开始观察，它便无处遁形！'
+    post_url: 'https://url.true-dhamma.com/12ODRX'
     post_title: ''
 
   - filename: '身体从未忘记.mp4'
-    title: '[默认] 身体从未忘记.mp4'
-    post_url: ''
+    title: '大脑会骗人，但身体不会：《身体从未忘记》如何帮你找回丢失的自己？'
+    post_url: 'https://url.true-dhamma.com/6LOJTW'
     post_title: ''
 
   - filename: '轻松减肥法：一场无需意志力的革命.mp4'
@@ -364,6 +394,11 @@ library:
     post_url: 'https://url.true-dhamma.com/1QDYP7'
     post_title: ''
 
+  - filename: '阿姜曼正传.mp4'
+    title: '阿姜曼正传：森林派祖师的生死突围，现代阿罗汉的实证之路'
+    post_url: 'https://url.true-dhamma.com/DHY9Z1'
+    post_title: ''
+
   - filename: '阿姜查的禅修世界：定.mp4'
     title: '阿姜查的禅修世界（定）：千万别练成“邪定”！区分正定邪定的关键一步'
     post_url: 'https://url.true-dhamma.com/S61IPU'
@@ -400,8 +435,8 @@ library:
     post_title: ''
 
   - filename: '隆波帕默的禅修经验谈.mp4'
-    title: '[默认] 隆波帕默的禅修经验谈.mp4'
-    post_url: ''
+    title: '别再试图“干预心”：隆波帕默尊者40年的佛法修证实录'
+    post_url: 'https://url.true-dhamma.com/UZ4W4S'
     post_title: ''
 
   - filename: '隆波田：致觉行者.mp4'
@@ -480,9 +515,11 @@ categories:
         videos:
           - '成瘾之心：我们为何沉迷&如何解脱.mp4'
           - '多巴胺国度：在纵欲时代找到平衡.mp4'
+          - '多巴胺国度练习册.mp4'
           - '永不足够：成瘾的神经科学.mp4'
           - '理性康复(RR_Rational Recovery)：一条不同的康复之路.mp4'
           - '空洞的心：成瘾的真相与疗愈.mp4'
+          - '基于正念的复发预防(MBRP).mp4'
 
   - name: '心理与疗愈'
     id: 'psychology'
@@ -494,6 +531,7 @@ categories:
           - '轻松戒除忧虑.mp4'
           - '你的生存本能正在杀死你.mp4'
           - '解绑焦虑：释放天性中的好奇心，疗愈焦虑的全新科学.mp4'
+          - '解绑焦虑练习册.mp4'
           - '走出恐惧.mp4'
           - '逃离幸福陷阱：接纳承诺疗法入门.mp4'
           - '身体从未忘记.mp4'
@@ -524,6 +562,7 @@ categories:
           - '巴育陀(P. A. Payutto)尊者巨著《佛法》核心教义.mp4'
           - '隆布敦教言的核心：心的四圣谛.mp4'
           - '法语微言：隆布敦尊者的教诲.mp4'
+          - '初学者阅读巴利三藏的小贴士.mp4'
 
       - name: '禅修实操'
         id: 'dhamma-meditation'
@@ -541,6 +580,8 @@ categories:
           - '隆波田：致觉行者.mp4'
           - '整装待发：战胜内心唯一的敌人 - 阿姜摩诃布瓦尊者.mp4'
           - '帕蒂帕达：法的修行之道.mp4'
+          - '佛教禅定：正定之路.mp4'
+          - '心安住.mp4'
 
       - name: '圣者足迹'
         id: 'dhamma-masters'
@@ -550,9 +591,9 @@ categories:
           - '南传菩萨道.mp4'
           - '阿姜考：一位真实的心灵战士.mp4'
           - '智慧第一：舍利弗的一生.mp4'
-          - '一代宗师：阿姜曼・布利达陀传.mp4'
+          - '阿姜曼正传.mp4'
           - '佛陀的圣弟子们：转变的旅程.mp4'
-          - '佛使比丘的人类手册：终结痛苦实用指南.mp4'
+          - '佛使比丘：人类手册.mp4'
           - '阿姜摩诃布瓦尊者：阿罗汉向·阿罗汉果.mp4'
           - '心的资粮：阿姜查的智慧.mp4'
           - 'Sunlun Sayadaw 宣隆大师传(缅文直译版).mp4'
