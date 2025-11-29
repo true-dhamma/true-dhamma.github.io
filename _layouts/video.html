@@ -331,8 +331,8 @@ layout: default
   let isUsingFallbackCover = false;
 
   // --- 工具函数：更严格的 URL 编码 ---
-  // 解决 "巴育陀(P. A. Payutto)..." 这种带括号文件名无法读取的问题
-  // 标准 encodeURIComponent 不会转义 '(', ')', 导致部分服务器无法识别
+  // 1. 标准 encodeURIComponent 不会转义 '(', ')', 导致文件名带括号时可能 404
+  // 2. 必须将括号转为 %28 和 %29
   function fixedEncodeURIComponent(str) {
     return encodeURIComponent(str).replace(/[!'()*]/g, function(c) {
       return '%' + c.charCodeAt(0).toString(16);
@@ -428,22 +428,26 @@ layout: default
     document.body.classList.remove('modal-open');
   }
 
+  // 核心修改：使用正则移除扩展名，防止文件名中间的点导致截断
   window.openVideo = function(cardElement) {
     if (!cardElement || !cardElement.dataset) return;
     const ds = cardElement.dataset;
-    const filename = ds.filename;
+    const filename = ds.filename; // 例如: "巴育陀(P. A. Payutto)...mp4"
     
-    // 使用更严格的编码方式，处理括号
+    // 1. 视频地址：对整个文件名进行严格编码
     const encodedFilename = fixedEncodeURIComponent(filename);
     const videoSrc = videoBaseUrl + encodedFilename;
     
-    const lastDotIndex = filename.lastIndexOf('.');
-    const filenameNoExt = lastDotIndex !== -1 ? filename.substring(0, lastDotIndex) : filename;
+    // 2. 封面地址：
+    // 使用正则替换掉字符串末尾的 .xxx 扩展名
+    // 这样 "P. A. Payutto.mp4" 会变成 "P. A. Payutto"，而不会被截断成 "P"
+    const filenameNoExt = filename.replace(/\.[^/.]+$/, "");
     
-    // 这里的编码也使用严格模式，确保封面图请求正确
-    const coverSrc = coverBaseUrl + fixedEncodeURIComponent(filenameNoExt) + ".jpg";
+    // 编码无扩展名的文件名，并加上 .jpg
+    const encodedNoExt = fixedEncodeURIComponent(filenameNoExt);
+    const coverSrc = coverBaseUrl + encodedNoExt + ".jpg";
 
-    // 更新 URL Hash: #CategoryId/EncodedFilename
+    // 3. 更新 URL Hash
     const section = cardElement.closest('.video-category-section');
     if (section) {
         const catId = section.id.replace('section-', '');
@@ -498,7 +502,6 @@ layout: default
     enableScroll(); 
     player.pause();
     
-    // 还原 URL Hash
     const currentHash = window.location.hash;
     if (currentHash && currentHash.includes('/')) {
         const catId = currentHash.split('/')[0]; 
@@ -575,7 +578,7 @@ layout: default
     if (rawHash.includes('/')) {
         const parts = rawHash.split('/');
         targetCatId = parts[0];
-        // decodeURIComponent 会把 %28 还原为 (，以便在 DOM 中查找
+        // 解码用于查找 DOM 元素
         targetVideoFile = decodeURIComponent(parts.slice(1).join('/'));
     }
 
@@ -600,7 +603,7 @@ layout: default
       switchCategory(targetEl.getAttribute('data-target'), targetEl);
 
       if (targetVideoFile) {
-        // CSS.escape 处理文件名中的特殊字符用于选择器
+        // 使用 CSS.escape 确保文件名中的特殊字符（如括号、点）在 querySelector 中是安全的
         const videoCard = document.querySelector(`.video-category-section.active .video-card[data-filename="${CSS.escape(targetVideoFile)}"]`);
         
         if (videoCard) {
