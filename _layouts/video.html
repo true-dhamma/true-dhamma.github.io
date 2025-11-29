@@ -331,8 +331,8 @@ layout: default
   let isUsingFallbackCover = false;
 
   // --- 工具函数：更严格的 URL 编码 ---
-  // 1. 标准 encodeURIComponent 不会转义 '(', ')', 导致文件名带括号时可能 404
-  // 2. 必须将括号转为 %28 和 %29
+  // 修复：必须将括号 '(', ')' 转义为 %28, %29，
+  // 否则文件名带括号时（如 "巴育陀(P...)"），某些服务器会报 404 错误。
   function fixedEncodeURIComponent(str) {
     return encodeURIComponent(str).replace(/[!'()*]/g, function(c) {
       return '%' + c.charCodeAt(0).toString(16);
@@ -428,26 +428,33 @@ layout: default
     document.body.classList.remove('modal-open');
   }
 
-  // 核心修改：使用正则移除扩展名，防止文件名中间的点导致截断
+  // --- 核心函数：打开视频 ---
   window.openVideo = function(cardElement) {
     if (!cardElement || !cardElement.dataset) return;
     const ds = cardElement.dataset;
-    const filename = ds.filename; // 例如: "巴育陀(P. A. Payutto)...mp4"
+    const filename = ds.filename; // 完整文件名，例如 "巴育陀(P. A. Payutto)...mp4"
     
-    // 1. 视频地址：对整个文件名进行严格编码
+    // 1. 处理视频地址：对整个文件名进行严格编码
     const encodedFilename = fixedEncodeURIComponent(filename);
     const videoSrc = videoBaseUrl + encodedFilename;
     
-    // 2. 封面地址：
-    // 使用正则替换掉字符串末尾的 .xxx 扩展名
-    // 这样 "P. A. Payutto.mp4" 会变成 "P. A. Payutto"，而不会被截断成 "P"
-    const filenameNoExt = filename.replace(/\.[^/.]+$/, "");
+    // 2. 处理封面地址：【关键修复点】
+    // 使用 lastIndexOf 从后往前找最后一个点，确保不会在文件名中间的点(P.)处截断
+    const lastDotIndex = filename.lastIndexOf('.');
+    let filenameNoExt = filename;
     
-    // 编码无扩展名的文件名，并加上 .jpg
+    if (lastDotIndex > 0) {
+        filenameNoExt = filename.substring(0, lastDotIndex);
+    }
+    
+    // 对去掉扩展名的文件名进行严格编码（包含括号转义），再加上 .jpg
     const encodedNoExt = fixedEncodeURIComponent(filenameNoExt);
     const coverSrc = coverBaseUrl + encodedNoExt + ".jpg";
 
-    // 3. 更新 URL Hash
+    // 调试日志：如果还有问题，请在浏览器控制台查看这一行的输出
+    console.log("Cover Request URL:", coverSrc);
+
+    // 3. 更新 URL Hash，格式：#分类ID/编码后的文件名
     const section = cardElement.closest('.video-category-section');
     if (section) {
         const catId = section.id.replace('section-', '');
@@ -456,6 +463,7 @@ layout: default
         }
     }
 
+    // 设置弹窗内容
     document.getElementById('modalTitle').innerText = ds.title;
     const linkEl = document.getElementById('modalLink');
     if(ds.postUrl) {
@@ -466,10 +474,12 @@ layout: default
       linkEl.style.display = 'none';
     }
 
+    // 重置封面状态
     isUsingFallbackCover = false;
     coverLayer.style.opacity = '1';
     coverLayer.style.display = 'block';
 
+    // 加载封面图
     const img = new Image();
     img.src = coverSrc;
     img.onload = () => { 
@@ -482,6 +492,7 @@ layout: default
         coverLayer.style.display = 'none'; 
     };
 
+    // 设置 Plyr 源
     player.source = {
       type: 'video',
       sources: [{ src: videoSrc, type: 'video/mp4' }]
@@ -502,6 +513,7 @@ layout: default
     enableScroll(); 
     player.pause();
     
+    // 关闭时，将 URL 还原为纯分类（去掉文件名部分）
     const currentHash = window.location.hash;
     if (currentHash && currentHash.includes('/')) {
         const catId = currentHash.split('/')[0]; 
@@ -535,6 +547,7 @@ layout: default
       const grid = target.querySelector('.video-grid');
       if (grid) shuffleGrid(grid);
 
+      // 仅在非弹窗状态下更新 Hash，避免覆盖视频链接
       if (!modal.classList.contains('open')) {
         if (history.replaceState) {
             history.replaceState(null, null, '#' + id);
@@ -553,10 +566,12 @@ layout: default
     }
   };
 
+  // --- 初始化逻辑 ---
   document.addEventListener('DOMContentLoaded', () => {
     initPlayer();
     const isPC = window.innerWidth >= 900; 
     
+    // 展开侧边栏逻辑
     const headers = document.querySelectorAll('.category-nav-header.has-children');
     headers.forEach(header => {
       const subList = header.nextElementSibling;
@@ -571,6 +586,7 @@ layout: default
       }
     });
 
+    // 解析 URL Hash
     const rawHash = window.location.hash.substring(1); 
     let targetCatId = rawHash;
     let targetVideoFile = null;
@@ -578,10 +594,15 @@ layout: default
     if (rawHash.includes('/')) {
         const parts = rawHash.split('/');
         targetCatId = parts[0];
-        // 解码用于查找 DOM 元素
-        targetVideoFile = decodeURIComponent(parts.slice(1).join('/'));
+        try {
+            // 解码文件名，以便在 DOM 中查找
+            targetVideoFile = decodeURIComponent(parts.slice(1).join('/'));
+        } catch (e) {
+            console.error("URL Decode Error:", e);
+        }
     }
 
+    // 定位并激活分类
     let targetEl = null;
     if (targetCatId) {
       targetEl = document.querySelector(`.category-nav-subitem[data-target="${targetCatId}"], .category-nav-header[data-target="${targetCatId}"]`);
@@ -602,16 +623,23 @@ layout: default
       }
       switchCategory(targetEl.getAttribute('data-target'), targetEl);
 
+      // 如果 URL 包含视频文件名，自动播放
       if (targetVideoFile) {
-        // 使用 CSS.escape 确保文件名中的特殊字符（如括号、点）在 querySelector 中是安全的
-        const videoCard = document.querySelector(`.video-category-section.active .video-card[data-filename="${CSS.escape(targetVideoFile)}"]`);
-        
-        if (videoCard) {
-            setTimeout(() => {
-                openVideo(videoCard);
-            }, 300);
-        } else {
-            console.warn("Shared video not found:", targetVideoFile);
+        // 使用 CSS.escape 处理文件名中的特殊字符（如括号、引号）
+        // 确保 querySelector 不会报错
+        try {
+            const escapedFilename = CSS.escape(targetVideoFile);
+            const videoCard = document.querySelector(`.video-category-section.active .video-card[data-filename="${escapedFilename}"]`);
+            
+            if (videoCard) {
+                setTimeout(() => {
+                    openVideo(videoCard);
+                }, 300);
+            } else {
+                console.warn("Shared video not found in DOM:", targetVideoFile);
+            }
+        } catch (e) {
+            console.error("Auto-play selection error:", e);
         }
       }
     }
