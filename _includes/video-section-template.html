@@ -9,10 +9,38 @@
           {% break %}
         {% endif %}
       {% endfor %}
+      
       {% if video_info %}
-        {% assign filename_no_ext = video_info.filename | split: '.' | first %}
+        <!-- 修复开始：正确处理文件名中包含多个点的情况 -->
+        {% assign parts = video_info.filename | split: '.' %}
+        {% assign parts_size = parts | size %}
+        
+        {% if parts_size > 1 %}
+          {% assign limit_index = parts_size | minus: 1 %}
+          {% assign filename_no_ext = "" %}
+          {% for part in parts %}
+            {% if forloop.index0 < limit_index %}
+              {% if filename_no_ext == "" %}
+                {% assign filename_no_ext = part %}
+              {% else %}
+                {% assign filename_no_ext = filename_no_ext | append: '.' | append: part %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          <!-- 如果文件名没有扩展名（没有点），直接使用原名 -->
+          {% assign filename_no_ext = video_info.filename %}
+        {% endif %}
+        <!-- 修复结束 -->
+
         {% assign thumb_url = cover_base_url | append: filename_no_ext | append: ".jpg" %} 
-        <div class="video-card typeset" data-filename="{{ video_info.filename }}" data-title="{{ video_info.title | escape }}" data-post-url="{{ video_info.post_url }}" data-post-title="{{ video_info.post_title | escape }}" onclick="openVideo(this)">
+        
+        <div class="video-card typeset" 
+             data-filename="{{ video_info.filename }}" 
+             data-title="{{ video_info.title | escape }}" 
+             data-post-url="{{ video_info.post_url }}" 
+             data-post-title="{{ video_info.post_title | escape }}" 
+             onclick="openVideo(this)">
           <div class="video-thumbnail-wrapper">
             <img src="{{ thumb_url }}" alt="{{ video_info.title | escape }}" class="video-thumbnail" loading="lazy" onerror="this.src='{{ fallback_cover }}'">
             <div class="play-icon-overlay"></div>
