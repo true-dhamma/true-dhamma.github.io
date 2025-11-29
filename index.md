@@ -9,70 +9,7 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 
 提供南传上座部佛法（Theravada Buddhism）、高僧大德书籍开示、《世间成瘾与出世间觉悟》及成瘾与戒断心理学相关内容下载。部分内容为作者本人撰写、翻译、整理，全网唯一。
 
-<table style="width:100%; border: none;">
-  <tbody>
-    <tr style="border: none;">
-      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="/book/" style="text-decoration: none; color: inherit;">
-          <img src="/uploads/banner1.jpg" alt="《世间成瘾与出世间觉悟》及相关资源" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="/book/" style="text-decoration: none; color: inherit;">《世间成瘾与世间解脱》<br />及相关资源</a></p><a href="#世间成瘾与世间解脱" style="text-decoration: none; color: inherit;">
-        </a><p></p>
-      </td>
-      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="/addiction/" style="text-decoration: none; color: inherit;">
-          <img src="/uploads/banner2.jpg" alt="成瘾/以智慧戒断 现代心理学" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="/addiction/" style="text-decoration: none; color: inherit;">成瘾/以智慧戒断<br />现代心理学</a></p><a href="#成瘾以智慧戒断" style="text-decoration: none; color: inherit;">
-        </a><p></p>
-      </td>
-      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="/tipitaka/" style="text-decoration: none; color: inherit;">
-          <img src="/uploads/banner3.jpg" alt="巴利圣典 Pāli Tipiṭaka" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="/tipitaka/" style="text-decoration: none; color: inherit;">巴利圣典<br />Pāli Tipiṭaka</a></p><a href="#巴利圣典-tipitaka" style="text-decoration: none; color: inherit;">
-        </a><p></p>
-      </td>
-    </tr>
-    <tr style="border: none;">
-      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="/categories/#隆波帕默尊者" style="text-decoration: none; color: inherit;">
-          <img src="/uploads/banner4.jpg" alt="隆波帕默尊者 Luangpor Pramote Pamojjo" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="/categories/#隆波帕默尊者" style="text-decoration: none; color: inherit;">隆波帕默尊者<br />Luangpor Pramote Pamojjo</a></p><a href="#隆波帕默尊者" style="text-decoration: none; color: inherit;">
-        </a><p></p>
-      </td>
-      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="/categories/#%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85" style="text-decoration: none; color: inherit;">
-          <img src="/uploads/banner5.jpg" alt="隆塔纳荣萨尊者 Luangta Narongsak Kheenalayo" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="/categories/#%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85" style="text-decoration: none; color: inherit;">隆塔纳荣萨尊者<br />Luangta Narongsak Kheenalayo</a></p><a href="#隆塔纳荣萨尊者" style="text-decoration: none; color: inherit;">
-        </a><p></p>
-      </td>
-      <td style="text-align: center; border: none; vertical-align: top; padding: 0 6px;">
-        <a href="/categories/#南传上座部佛法" style="text-decoration: none; color: inherit;">
-          <img src="/uploads/banner6.jpg" alt="更多南传上座部佛法资源" style="width: 100%; max-width: 300px;" />
-          </a><p><a href="/categories/#南传上座部佛法" style="text-decoration: none; color: inherit;">更多南传上座部<br />佛法资源</a></p><a href="#南传上座部佛法" style="text-decoration: none; color: inherit;">
-        </a><p></p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### 成瘾/以智慧戒断
-
-成瘾是堕入轮回不可自拔的体现，以智慧戒断成瘾则是从轮回中解脱的开始
-
-**提供相关公开版权的内容或音视频的中文翻译：**
-
-* Allen Carr’s Easy Way
-* Jack Trimpey’s Rational Racovery及AVRT
-* EasyPeasy Way等
-
-**帮助了解以下成瘾的本质，并以智慧或觉性戒断：**
-
-* 烟、酒精、药物、糖、贷款等等（EasyWay）
-* 酒精、肥胖、赌博（RR/AVRT）
-* 色情（EasyPeasy）
-
-……详情请访问 [\[True-Dhamma网盘\]](https://download.true-dhamma.com/%E6%88%90%E7%98%BE%E4%B8%8E%E5%BF%83%E7%90%86%E5%AD%A6/){: target="_blank" rel="noopener"}
+<style>.vid-nav-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:1rem 0}.vid-nav-item{text-decoration:none!important;display:block;color:inherit}.vid-thumb{border-radius:8px;overflow:hidden;box-shadow:0 4px 6px rgba(0,0,0,0.1);margin-bottom:5px;aspect-ratio:16/9;background:#000}.vid-thumb img{width:100%;height:100%;object-fit:cover;display:block}.vid-txt{text-align:center;font-size:0.9rem;line-height:1.1;margin:0;padding:0;color:#3A77D8;font-weight:700}@media(min-width:40em){.vid-nav-grid{grid-template-columns:repeat(3,1fr);gap:15px}}</style><div class="vid-nav-grid"><a href="/book/" class="vid-nav-item"><div class="vid-thumb"><img src="/uploads/banner1.jpg" alt="世间成瘾"></div><p class="vid-txt">《世间成瘾与世间解脱》<br>及相关资源</p></a><a href="/addiction/" class="vid-nav-item"><div class="vid-thumb"><img src="/uploads/banner2.jpg" alt="成瘾戒断"></div><p class="vid-txt">成瘾/以智慧戒断<br>现代心理学</p></a><a href="/tipitaka/" class="vid-nav-item"><div class="vid-thumb"><img src="/uploads/banner3.jpg" alt="巴利圣典"></div><p class="vid-txt">巴利圣典<br>Pāli Tipiṭaka</p></a><a href="/categories/#隆波帕默尊者" class="vid-nav-item"><div class="vid-thumb"><img src="/uploads/banner4.jpg" alt="隆波帕默"></div><p class="vid-txt">隆波帕默尊者<br>Luangpor Pramote</p></a><a href="/categories/#%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85" class="vid-nav-item"><div class="vid-thumb"><img src="/uploads/banner5.jpg" alt="隆塔纳荣萨"></div><p class="vid-txt">隆塔纳荣萨尊者<br>Luangta Narongsak</p></a><a href="/categories/#南传上座部佛法" class="vid-nav-item"><div class="vid-thumb"><img src="/uploads/banner6.jpg" alt="南传资源"></div><p class="vid-txt">更多南传上座部<br>佛法资源</p></a></div>
 
 ---
 
@@ -94,6 +31,12 @@ excerpt: 提供南传上座部佛法、高僧大德书籍开示、《世间成�
 * 包含完整经藏、律藏，不含论藏
 * 以菩提僧团翻译的文言文底稿为基础，保留菩提僧团说明
 * [请访问详情页](/南传上座部佛法/2025/08/09/巴利圣典/)
+
+---
+
+### 视频
+
+<div class="vid-nav-grid"><a href="https://true-dhamma.github.io/video/#addiction-substance/%E8%8D%AF%E7%89%A9%E4%B8%8A%E7%9A%84%E4%B8%96%E7%95%8C%EF%BC%9A%E4%B9%A0%E6%83%AF%E5%B8%9D%E5%9B%BD%E6%98%AF%E5%A6%82%E4%BD%95%E5%BB%BA%E6%88%90%E7%9A%84.mp4" class="vid-nav-item"><div class="vid-thumb"><img src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/cover/%E8%8D%AF%E7%89%A9%E4%B8%8A%E7%9A%84%E4%B8%96%E7%95%8C%EF%BC%9A%E4%B9%A0%E6%83%AF%E5%B8%9D%E5%9B%BD%E6%98%AF%E5%A6%82%E4%BD%95%E5%BB%BA%E6%88%90%E7%9A%84.jpg" alt="成瘾的社会背景"></div><p class="vid-txt">[成瘾的社会背景] 暴利500年！从鸦片到算法，“成瘾的生意”从未停止，只是换了张皮</p></a><a href="https://true-dhamma.github.io/video/#addiction-theory/%E7%90%86%E6%80%A7%E5%BA%B7%E5%A4%8D%28RR_Rational%20Recovery%29%EF%BC%9A%E4%B8%80%E6%9D%A1%E4%B8%8D%E5%90%8C%E7%9A%84%E5%BA%B7%E5%A4%8D%E4%B9%8B%E8%B7%AF.mp4" class="vid-nav-item"><div class="vid-thumb"><img src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/cover/%E7%90%86%E6%80%A7%E5%BA%B7%E5%A4%8D(RR_Rational%20Recovery)%EF%BC%9A%E4%B8%80%E6%9D%A1%E4%B8%8D%E5%90%8C%E7%9A%84%E5%BA%B7%E5%A4%8D%E4%B9%8B%E8%B7%AF.jpg" alt="成瘾与戒断"></div><p class="vid-txt">[成瘾与戒断] 戒瘾不需要一辈子？理性康复（Rational Recovery）揭秘让大脑“瞬间断舍离”的终极技术（AVRT）</p></a><a href="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/%E5%A4%9A%E8%88%9B%E7%9A%84%E7%94%9F%E5%91%BD%EF%BC%9A%E4%B8%80%E4%BB%BD%E6%AD%A3%E5%BF%B5%E7%96%97%E6%84%88%E6%8C%87%E5%8D%97.mp4" class="vid-nav-item"><div class="vid-thumb"><img src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/cover/%E5%A4%9A%E8%88%9B%E7%9A%84%E7%94%9F%E5%91%BD%EF%BC%9A%E4%B8%80%E4%BB%BD%E6%AD%A3%E5%BF%B5%E7%96%97%E6%84%88%E6%8C%87%E5%8D%97.jpg" alt="正念与心理学"></div><p class="vid-txt">[正念与心理学] 当生活一团糟时，该怎么办？《多舛的生命》：卡巴金的正念减压圣经（MBSR）</p></a><a href="https://true-dhamma.github.io/video/#dhamma-masters/%E4%BA%B2%E8%BF%91%E9%87%8A%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%EF%BC%9A%E4%BB%8E%E5%B7%B4%E5%88%A9%E8%97%8F%E7%BB%8F%E7%9C%8B%E4%BD%9B%E9%99%80%E7%9A%84%E4%B8%80%E7%94%9F.mp4" class="vid-nav-item"><div class="vid-thumb"><img src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/cover/%E4%BA%B2%E8%BF%91%E9%87%8A%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%EF%BC%9A%E4%BB%8E%E5%B7%B4%E5%88%A9%E8%97%8F%E7%BB%8F%E7%9C%8B%E4%BD%9B%E9%99%80%E7%9A%84%E4%B8%80%E7%94%9F.jpg" alt="佛陀"></div><p class="vid-txt">[佛陀] 被神化前的佛陀：如果不修行，他也只是被欲望困住的凡夫</p></a><a href="https://true-dhamma.github.io/video/#dhamma-meditation/%E6%AC%A1%E7%AC%AC%E8%AF%B4%E6%B3%95%EF%BC%9A%E4%BD%9B%E9%99%80%E7%9A%84%E8%A7%A3%E8%84%B1%E4%B9%8B%E9%81%93.mp4" class="vid-nav-item"><div class="vid-thumb"><img src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/cover/%E6%AC%A1%E7%AC%AC%E8%AF%B4%E6%B3%95%EF%BC%9A%E4%BD%9B%E9%99%80%E7%9A%84%E8%A7%A3%E8%84%B1%E4%B9%8B%E9%81%93.jpg" alt="佛法"></div><p class="vid-txt">[佛法] 次第说法：从布施持戒，到觉悟解脱的完整修行地图（佛陀反复亲说）</p></a><a href="https://true-dhamma.github.io/video/#dhamma-masters/%E4%BD%9B%E9%99%80%E7%9A%84%E5%9C%A3%E5%BC%9F%E5%AD%90%E4%BB%AC%EF%BC%9A%E8%BD%AC%E5%8F%98%E7%9A%84%E6%97%85%E7%A8%8B.mp4" class="vid-nav-item"><div class="vid-thumb"><img src="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/cover/%E4%BD%9B%E9%99%80%E7%9A%84%E5%9C%A3%E5%BC%9F%E5%AD%90%E4%BB%AC%EF%BC%9A%E8%BD%AC%E5%8F%98%E7%9A%84%E6%97%85%E7%A8%8B.jpg" alt="圣僧"></div><p class="vid-txt">[圣僧] 当你失去一切时该怎么办？看佛陀如何引导绝望的灵魂转凡成圣！</p></a></div>
 
 ---
 
