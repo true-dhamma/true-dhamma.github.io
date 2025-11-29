@@ -378,11 +378,44 @@ layout: default
     });
   }
 
-  function shuffleGrid(gridElement) {
-    for (let i = gridElement.children.length; i >= 0; i--) {
-        gridElement.appendChild(gridElement.children[Math.random() * i | 0]);
-    }
+  // --- 随机排序逻辑开始 ---
+
+  // 1. 定义一个基于种子的随机数生成器 (LCG 算法)
+  // 如果 _seed 相同，每次调用产生的结果序列就相同
+  let _seed = 0;
+  function seededRandom() {
+      _seed = (_seed * 9301 + 49297) % 233280;
+      return _seed / 233280.0;
   }
+
+  // 2. 每天随机更换一次顺序的函数
+  function shuffleGrid(gridElement) {
+    if (!gridElement) return;
+
+    const now = new Date();
+    // 生成当天的唯一标识，例如：20231129
+    // 这样保证同一天内 seed 是固定的
+    const dailySeed = now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
+
+    // 初始化种子：使用日期 + 列表长度，防止多个列表长度一样时排序结果雷同
+    _seed = dailySeed + gridElement.children.length;
+
+    // 将 HTMLCollection 转为数组，方便操作
+    let childrenArray = Array.prototype.slice.call(gridElement.children);
+
+    // 使用 Fisher-Yates 洗牌算法 (使用我们的 seededRandom 而非 Math.random)
+    for (let i = childrenArray.length - 1; i > 0; i--) {
+        const j = Math.floor(seededRandom() * (i + 1));
+        // 交换位置
+        [childrenArray[i], childrenArray[j]] = [childrenArray[j], childrenArray[i]];
+    }
+
+    // 将排好序的元素重新插入到 DOM 中 (会自动移动元素)
+    childrenArray.forEach(function(child) {
+        gridElement.appendChild(child);
+    });
+  }
+  // --- 随机排序逻辑结束 ---
 
   function disableScroll() {
     scrollPosition = window.pageYOffset;
@@ -481,6 +514,7 @@ layout: default
       document.getElementById('page-title').innerText = text.trim();
       
       const grid = target.querySelector('.video-grid');
+      // 这里调用新的基于日期的排序
       if (grid) shuffleGrid(grid);
 
       if (history.replaceState) {
