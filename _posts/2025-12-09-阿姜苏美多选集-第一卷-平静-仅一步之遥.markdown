@@ -1,6 +1,6 @@
 ---
 title: 阿姜苏美多选集（第一卷）：平静，仅一步之遥
-date: 2025-12-09T07:10:00+07:00
+date: 2025-12-10T07:10:00+07:00
 categories:
   - 阿姜苏美多尊者
   - 南传上座部佛法
@@ -1044,4 +1044,4 @@ toc: true
 
 ---
 
-<table><tbody><tr><td><img width="120" src="/uploads/cover-sound-of-silence.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="https://amaravati.org" target="_blank" rel="noopener">[Amaravati]</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img width="120" src="/uploads/cover-sound-of-silence.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E9%98%BF%E5%A7%9C%E6%9F%A5%E5%B0%8A%E8%80%85/Ajahn-Sumedho-Volume-1-Peace-is-a-Simple-Step.epub" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="https://amaravati.org" target="_blank" rel="noopener">[Amaravati]</a></p></td></tr></tbody></table>
