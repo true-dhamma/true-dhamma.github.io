@@ -2,21 +2,22 @@
 title: 正念：通往不死之路
 date: 2025-12-09T07:10:00+07:00
 categories:
-  - 阿姜查尊者
+  - 阿姜苏美多尊者
   - 正念
   - 正定
   - 南传上座部佛法
+  - 西方世界的佛法
   - 精选
 redirect_from:
   -
 excerpt: 通过观察呼吸、行走等平凡之事，洞悉万物实相，从而摆脱烦恼，实现内心的真正自由。
-feature_image: /uploads/top_banner_mindfulness.jpg
+feature_image: /uploads/top_banner_ajahn_chah.jpg
 aside: false
 toc: true
 ---
 > ##### Mindfulness: The Path to the Deathless - Ajahn Sumedho
 >
-> ##### 正念：通往不死之路 - 阿姜苏美多尊者（阿姜查尊者体系）
+> ##### 正念：通往不死之路 - 阿姜苏美多尊者
 >
 > 我们练习的核心，是耐心观察，无论生起的是什么，它终将逝去。无论是心理上还是生理上的，无论好坏，都只是来了又去的自然状态，这便是洞见。在修行中，我们通过观察呼吸、行走等平凡之事，洞悉万物实相，从而摆脱烦恼，实现内心的真正自由。
 

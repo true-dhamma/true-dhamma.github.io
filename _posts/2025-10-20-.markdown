@@ -1,18 +1,17 @@
 ---
-title: " 阿姜查的教言合集"
-date: 2025-10-20 11:10:00 +08:00
+title: ' 阿姜查的教言合集'
+date: 2025-10-20T11:10:00+08:00
 categories:
-- 阿姜查尊者
-- 南传上座部佛法
-- 精选
+  - 阿姜查尊者
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- 
+  -
 excerpt: 阿姜查八本法宝书的合集，尊者用简单直接的语言，揭示了通往内心平静与解脱的实修之道。
-feature_image: "/uploads/top_banner_colorful.jpg"
+feature_image: /uploads/top_banner_ajahn_chah.jpg
 aside: false
 toc: true
 ---
-
 > ##### The Teachings of Ajahn Chah - Ajahn Chah
 >
 > ##### 阿姜查的教言合集 - 阿姜查

@@ -2,19 +2,20 @@
 title: 寂静之声：阿姜苏美多的教言精选
 date: 2025-12-09T07:10:00+07:00
 categories:
-  - 阿姜查尊者
+  - 阿姜苏美多尊者
   - 南传上座部佛法
+  - 西方世界的佛法
   - 精选
 redirect_from:
   -
 excerpt: 放下思考的重负，回归觉知的宁静，在每一个当下找到终极的皈依。
-feature_image: /uploads/top_banner_mindfulness.jpg
+feature_image: /uploads/top_banner_ajahn_chah.jpg
 aside: false
 toc: true
 ---
 > ##### The Sound of Silence: The Selected Teachings of Ajahn Sumedho - Ajahn Sumedho
 >
-> ##### 寂静之声：阿姜苏美多的教言精选 - 阿姜苏美多尊者（阿姜查尊者体系）
+> ##### 寂静之声：阿姜苏美多的教言精选 - 阿姜苏美多尊者
 >
 > 你的皈依之处在于觉知：觉知感受、态度、情绪、物质与情感的变化。安住于此，因为这个皈依之处坚不可摧，你永远可以信赖。
 
