@@ -1,14 +1,25 @@
+---
+title: 电视剧《佛陀》（佛陀传记）
+date: 2025-08-17 00:15:00 +08:00
+categories:
+- 南传上座部佛法
+- 精选
+redirect_from:
+- "/南传上座部佛法/精选/2025/08/17/电视剧-佛陀传/"
+excerpt: 电视剧《佛陀》国语版全集在线观看，生动再现了佛陀的成长历程与慈悲智慧，将深刻的哲理融入剧情，许多对白都能启发人心，成为生命的智慧指南。
+feature_text: 
+feature_image: "/uploads/top_banner_tv_buddha.jpg"
+toc: false
+---
 > 印度电视剧《佛陀》（佛陀传记）全集在线观看。本剧生动再现了佛陀的成长历程与慈悲智慧，将深刻的哲理融入剧情，许多对白都能启发人心，成为生命的智慧指南。
 
-&nbsp;
-
-<div id="video-player-container" style="margin-bottom:15px;">{% include video.html url="https://file.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/%E4%BD%9B%E9%99%80%E5%9B%BD%E8%AF%AD01.mp4" %}</div>
+<div id="video-player-container" style="margin-bottom:15px;"><video controls width="100%" poster="https://file.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/cover.jpg" style="aspect-ratio:16/9;background:#000"><source src="https://file.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/%E4%BD%9B%E9%99%80%E5%9B%BD%E8%AF%AD01.mp4" type="video/mp4">您的浏览器不支持 HTML5 video 标签。</video></div>
 
 ### 剧集列表
 
-<div id="episode-list" class="episode-links"></div><style>.episode-links{line-height:1.8}.episode-links a{margin:0 4px;text-decoration:none;display:inline-block;font-family:monospace;font-size:1.1em}.episode-links a:hover{color:#d32f2f;font-weight:bold}</style><script>document.addEventListener("DOMContentLoaded",function(){var total=54;var base="https://file.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/%E4%BD%9B%E9%99%80%E5%9B%BD%E8%AF%AD";var list=document.getElementById("episode-list");var html="";for(var i=1;i<=total;i++){var n=i<10?"0"+i:i;html+='<a href="#" class="episode-link" data-ep="'+n+'">['+n+']</a>'}list.innerHTML=html;var player=document.getElementById("video-player-container");list.querySelectorAll(".episode-link").forEach(function(l){l.addEventListener("click",function(e){e.preventDefault();var url=base+this.getAttribute("data-ep")+".mp4";player.innerHTML='<video controls width="100%" autoplay><source src="'+url+'" type="video/mp4">您的浏览器不支持 HTML5 video 标签。</video>'})})});</script>
+<div id="episode-list" class="episode-links"></div><style>.episode-links{line-height:1.8}.episode-links a{margin:0 4px;text-decoration:none;display:inline-block;font-family:monospace;font-size:1.1em}.episode-links a:hover{color:#d32f2f;font-weight:bold}</style><script>document.addEventListener("DOMContentLoaded",function(){var total=54;var base="https://file.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/%E4%BD%9B%E9%99%80%E5%9B%BD%E8%AF%AD";var cover="https://file.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/cover.jpg";var list=document.getElementById("episode-list");var html="";for(var i=1;i<=total;i++){var n=i<10?"0"+i:i;html+='<a href="#" class="episode-link" data-ep="'+n+'">['+n+']</a>'}list.innerHTML=html;var player=document.getElementById("video-player-container");list.querySelectorAll(".episode-link").forEach(function(l){l.addEventListener("click",function(e){e.preventDefault();var url=base+this.getAttribute("data-ep")+".mp4";player.innerHTML='<video controls width="100%" autoplay poster="'+cover+'" style="aspect-ratio:16/9;background:#000"><source src="'+url+'" type="video/mp4">您的浏览器不支持 HTML5 video 标签。</video>'})})});</script>
 
-&nbsp; 
+&nbsp;
 
 下载地址：[\[True-Dhamma网盘\]](https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/){: target="_blank" rel="noopener"}
 
