@@ -8,7 +8,7 @@
 
 <div id="episode-list" class="episode-links"></div><style>.episode-links{line-height:1.8}.episode-links a{margin:0 4px;text-decoration:none;display:inline-block;font-family:monospace;font-size:1.1em}.episode-links a:hover{color:#d32f2f;font-weight:bold}</style><script>document.addEventListener("DOMContentLoaded",function(){var total=54;var base="https://file.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/%E4%BD%9B%E9%99%80%E5%9B%BD%E8%AF%AD";var list=document.getElementById("episode-list");var html="";for(var i=1;i<=total;i++){var n=i<10?"0"+i:i;html+='<a href="#" class="episode-link" data-ep="'+n+'">['+n+']</a>'}list.innerHTML=html;var player=document.getElementById("video-player-container");list.querySelectorAll(".episode-link").forEach(function(l){l.addEventListener("click",function(e){e.preventDefault();var url=base+this.getAttribute("data-ep")+".mp4";player.innerHTML='<video controls width="100%" autoplay><source src="'+url+'" type="video/mp4">您的浏览器不支持 HTML5 video 标签。</video>'})})});</script>
 
-&nbsp;
+&nbsp; 
 
 下载地址：[\[True-Dhamma网盘\]](https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%94%B5%E8%A7%86%E5%89%A7%E3%80%8A%E4%BD%9B%E9%99%80%E3%80%8B/){: target="_blank" rel="noopener"}
 
