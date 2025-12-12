@@ -1407,7 +1407,27 @@ aside: false
 
 &nbsp;
 
-<table><thead><tr><td><p></p></td><td><p></p></td><td><p><th style="text-align: left">孩子状态</th><th style="text-align: left">成人状态</th></p></td></tr></thead><tbody><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">防御性</td><td style="text-align: left">清晰地看待他人</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">为自己的情绪状态指责他人</td><td style="text-align: left">为自己的情绪状态负责</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">对他人不敏感</td><td style="text-align: left">尊重他人</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">请求许可获得空间</td><td style="text-align: left">获取自己需要的空间</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">界限不清或过度</td><td style="text-align: left">清晰地设定界限</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">对爱的承诺不明确</td><td style="text-align: left">共享的理解</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">对方是拯救者</td><td style="text-align: left">接受并享受独处</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">不想感受恐惧和痛苦</td><td style="text-align: left">接受并感受恐惧和痛苦</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">期待一致性</td><td style="text-align: left">欣赏差异</td></p></td></tr></tbody></table>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<table><thead><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><th style="text-align: left">孩子状态</th><th style="text-align: left">成人状态</th></p></td></tr></thead><tbody><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">防御性</td><td style="text-align: left">清晰地看待他人</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">为自己的情绪状态指责他人</td><td style="text-align: left">为自己的情绪状态负责</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">对他人不敏感</td><td style="text-align: left">尊重他人</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">请求许可获得空间</td><td style="text-align: left">获取自己需要的空间</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">界限不清或过度</td><td style="text-align: left">清晰地设定界限</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">对爱的承诺不明确</td><td style="text-align: left">共享的理解</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">对方是拯救者</td><td style="text-align: left">接受并享受独处</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">不想感受恐惧和痛苦</td><td style="text-align: left">接受并感受恐惧和痛苦</td></p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td><td><p><td style="text-align: left">期待一致性</td><td style="text-align: left">欣赏差异</td></p></td></tr></tbody></table>
 
 **从孩子到成人的八个步骤：**
 
