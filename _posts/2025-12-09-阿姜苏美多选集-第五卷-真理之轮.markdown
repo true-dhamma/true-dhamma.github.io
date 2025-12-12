@@ -21,6 +21,10 @@ toc: true
 
 &nbsp;
 
+{% include pdf.html url="https://download.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E5%B9%BB%E7%81%AF%E7%89%87/%E9%98%BF%E5%A7%9C%E8%8B%8F%E7%BE%8E%E5%A4%9A%E9%80%89%E9%9B%86%EF%BC%88%E7%AC%AC%E4%BA%94%E5%8D%B7%EF%BC%89%EF%BC%9A%E7%9C%9F%E7%90%86%E4%B9%8B%E8%BD%AE.pdf" %}
+
+&nbsp;
+
 ### 序言
 
 本书的标题“真理之轮”源自佛陀教法的象征。在佛陀的初次说法中，他宣告了四圣谛与八正道，从而转动了这真理之轮。这一教法始终是阿姜苏美多教导与个人禅修的核心。
