@@ -17,7 +17,7 @@
 <button class="pdf-btn" id="next-{{ uid }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
 <div class="pdf-divider"></div>
 <button class="pdf-btn" id="fullscreen-{{ uid }}" title="全屏"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></button>
-<a href="{{ include.url }}" download class="pdf-btn" title="下载 PDF"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg></a>
+<a href="{{ include.url }}" download class="pdf-btn" title="下载 PDF" target="_blank"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg></a>
 </div></div></div>
 <style>
 .pdf-wrapper{position:relative;width:100%;background:#f1f1f1;border-radius:8px;overflow:hidden;margin:20px 0;box-shadow:0 4px 6px rgba(0,0,0,0.1)}
@@ -42,7 +42,7 @@ canvas{display:block;max-width:100%;height:auto!important}
 const u="{{ include.url }}",wId="pdf-wrapper-{{ uid }}",cId="cover-{{ uid }}",vId="viewer-{{ uid }}",cvId="the-canvas-{{ uid }}",fn="initPdf_{{ uid | replace: '-','_' }}";
 window[fn]=async function(){
 document.getElementById(cId).style.display='none';document.getElementById(vId).style.display='flex';
-if(typeof pdfjsLib==='undefined'){const s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js';document.head.appendChild(s);s.onload=()=>{pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';run()};}else{run()}};
+if(typeof pdfjsLib==='undefined'){const s=document.createElement('script');s.src='/assets/pdf.min.js';document.head.appendChild(s);s.onload=()=>{pdfjsLib.GlobalWorkerOptions.workerSrc='/assets/pdf.worker.min.js';run()};}else{run()}};
 let pdf=null,pn=1,rendering=false,pnPend=null,cv,ctx;
 function run(){cv=document.getElementById(cvId);ctx=cv.getContext('2d');pdfjsLib.getDocument(u).promise.then(p=>{pdf=p;document.getElementById('page_count-{{ uid }}').textContent=pdf.numPages;ren(pn);document.getElementById('prev-{{ uid }}').addEventListener('click',onP);document.getElementById('next-{{ uid }}').addEventListener('click',onN);document.getElementById('fullscreen-{{ uid }}').addEventListener('click',togF);window.addEventListener('resize',()=>{clearTimeout(window.rt);window.rt=setTimeout(()=>{if(pdf)ren(pn)},100)})}).catch(e=>{console.error(e);alert('PDF Error')})}
 function ren(n){rendering=true;pdf.getPage(n).then(p=>{const vw=document.getElementById(vId).clientWidth,vp=p.getViewport({scale:1}),s=vw/vp.width,svp=p.getViewport({scale:s});cv.height=svp.height;cv.width=svp.width;p.render({canvasContext:ctx,viewport:svp}).promise.then(()=>{rendering=false;if(pnPend!==null){ren(pnPend);pnPend=null}})});document.getElementById('page_num-{{ uid }}').textContent=n}
