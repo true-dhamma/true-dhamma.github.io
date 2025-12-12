@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<!-- _layouts/video.html https://cdn.plyr.io/3.7.8/plyr.css -->
+<!-- _layouts/video.html -->
 
 {% include site-header.html %}
 
@@ -10,7 +10,7 @@ layout: default
 {% assign cover_base_url = "https://file.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E8%A7%86%E9%A2%91/cover/" %}
 {% assign fallback_cover = cover_base_url | append: "general.jpg" %}
 
-<link rel="stylesheet" href="/assets/plyr.css" />
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 
 <style>
 /* ==========================================================================
@@ -314,7 +314,7 @@ layout: default
 
 {% include site-footer.html %}
 
-<script src="/assets/plyr.js"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
 
 <script>
 (function() {
@@ -341,8 +341,6 @@ layout: default
 
   function initPlayer() {
     player = new Plyr(videoElement, {
-      iconUrl: '/assets/plyr.svg',
-      blankVideo: '/assets/blank.mp4',
       controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'pip', 'fullscreen'],
       settings: ['quality', 'speed', 'loop'],
       speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] },

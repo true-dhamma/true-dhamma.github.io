@@ -1,9 +1,9 @@
 <!-- ======================================================================
-     Jekyll Video Include (Plyr Ultimate Final v3 - Local Assets Fixed)
+     Jekyll Video Include (Plyr Ultimate Final v3)
      Fixed: 
-     1. iOS/PC 全屏/非全屏 宽高比完美一致
-     2. 封面消失动画优化：1.5s 缓入缓出
-     3. [修复]: 本地资源模式下，显式指定 player.source，解决无法播放的问题
+     1. iOS/PC 全屏/非全屏 宽高比完美一致 (video width 100%, cover contain)
+     2. 封面消失动画优化：1.5s 缓入缓出 (ease-in-out)，实现电影级无缝切换
+     3. 包含倍速、画中画、中文汉化、自动封面逻辑
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
@@ -13,11 +13,12 @@
     
     <!-- 1. Video 标签 -->
     <video playsinline controls preload="metadata" style="width: 100%; height: 100%;">
-        <!-- 这里保留 source 标签作为 fallback，但主要靠 JS 注入 -->
         <source src="{{ include.url }}" type="video/mp4">
     </video>
 
     <!-- 2. 封面层 -->
+    <!-- [动画优化]: transition 改为 1.5s ease-in-out -->
+    <!-- [比例优化]: background-size: contain 确保全屏不裁切 -->
     <div class="custom-cover-layer" 
          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
                 background-size: contain; background-repeat: no-repeat; background-color: #000;
@@ -44,12 +45,12 @@
     }
     if (!wrapper) return;
 
-    // 2. 注入 CSS (本地 assets)
-    if (!document.getElementById('plyr-css-local')) {
+    // 2. 注入 CSS
+    if (!document.getElementById('plyr-css-cdn')) {
         var cssLink = document.createElement('link');
-        cssLink.id = 'plyr-css-local';
+        cssLink.id = 'plyr-css-cdn';
         cssLink.rel = 'stylesheet';
-        cssLink.href = '/assets/plyr.css';
+        cssLink.href = 'https://cdn.plyr.io/3.7.8/plyr.js';
         document.head.appendChild(cssLink);
         
         var style = document.createElement('style');
@@ -57,12 +58,12 @@
         document.head.appendChild(style);
     }
 
-    // 3. 注入 JS (本地 assets)
+    // 3. 注入 JS
     if (!window.plyrScriptLoading) {
         window.plyrScriptLoading = true;
         window.plyrReadyCallbacks = [];
         var jsScript = document.createElement('script');
-        jsScript.src = '/assets/plyr.js';
+        jsScript.src = 'https://cdn.plyr.io/3.7.8/plyr.js';
         jsScript.onload = function() {
             window.plyrLoaded = true;
             if (window.plyrReadyCallbacks) {
@@ -88,9 +89,7 @@
             if (!videoEl || !coverLayer) return;
 
             var player = new Plyr(videoEl, {
-              iconUrl: '/assets/plyr.svg', 
-              blankVideo: '/assets/blank.mp4', 
-              controls: [
+                controls: [
                     'play-large', 'play', 'progress', 'current-time', 
                     'mute', 'volume', 'settings', 'pip', 'fullscreen'
                 ],
@@ -105,19 +104,6 @@
                 ratio: '16:9' 
             });
 
-            // 【关键修复】：显式设置 Source，确保本地 JS 能识别到视频源
-            if (videoUrl) {
-                player.source = {
-                    type: 'video',
-                    sources: [
-                        {
-                            src: videoUrl,
-                            type: 'video/mp4',
-                        },
-                    ],
-                };
-            }
-
             var moveLayer = function() {
                 if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
                     player.elements.container.appendChild(coverLayer);
@@ -128,7 +114,6 @@
 
             if (videoUrl) {
                 try {
-                    // 封面图自动计算逻辑
                     var parts = videoUrl.split('?')[0].split('/');
                     var fileNameFull = parts.pop();
                     var fileNameDecoded = decodeURIComponent(fileNameFull);
