@@ -88,7 +88,9 @@
             if (!videoEl || !coverLayer) return;
 
             var player = new Plyr(videoEl, {
-                controls: [
+              iconUrl: '/assets/plyr.svg', 
+              blankVideo: '/assets/blank.mp4', 
+              controls: [
                     'play-large', 'play', 'progress', 'current-time', 
                     'mute', 'volume', 'settings', 'pip', 'fullscreen'
                 ],
