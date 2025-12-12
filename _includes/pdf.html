@@ -1,281 +1,54 @@
-<!-- _includes/pdf.html -->
-{% comment %}
-  逻辑处理部分：
-  1. 生成唯一 ID
-  2. 定义通用默认封面 (Generic Cover)
-  3. 智能计算封面地址
-{% endcomment %}
-
-{% assign uid = include.url | slugify | append: '-' | append: 'now' | date: '%s' | append: forloop.index %}
-{% assign pdf_filename = include.url | split: '/' | last %}
-{% assign pdf_dir = include.url | remove: pdf_filename %}
-{% assign jpg_filename = pdf_filename | replace: '.pdf', '.jpg' | replace: '.PDF', '.jpg' %}
-
-<!-- 配置：这里设置你的通用保底封面地址 -->
-{% assign generic_cover = "https://file.true-dhamma.com/%E8%99%9A%E6%8B%9F%E6%BC%94%E6%92%AD%E5%AE%A4/%E5%B9%BB%E7%81%AF%E7%89%87/cover/general.jpg" %}
-
-<!-- 封面逻辑判定 -->
-{% if include.cover %}
-    <!-- 1. 如果用户手动指定了 cover，直接使用 -->
-    {% assign final_cover = include.cover %}
-    {% assign use_fallback = false %}
-{% else %}
-    <!-- 2. 如果没指定，推导地址：原路径/cover/文件名.jpg -->
-    {% assign final_cover = pdf_dir | append: 'cover/' | append: jpg_filename %}
-    {% assign use_fallback = true %}
-{% endif %}
-
+{% assign uid = include.url | slugify | append: 'now' | date: '%s' | append: forloop.index %}
+{% assign fName = include.url | split: '/' | last %}
+{% assign cName = fName | replace: '.pdf', '.jpg' | replace: '.PDF', '.jpg' %}
+{% assign auto_cover = include.url | remove: fName | append: 'cover/' | append: cName %}
+{% assign def_cover = "https://file.true-dhamma.com/虚拟演播室/幻灯片/cover/general.jpg" %}
+{% if include.cover %}{% assign final_cover = include.cover %}{% else %}{% assign final_cover = auto_cover %}{% endif %}
 <div class="pdf-wrapper" id="pdf-wrapper-{{ uid }}">
-    <!-- 1. 封面与加载层 -->
-    <div class="pdf-cover-layer" id="cover-{{ uid }}">
-        <img 
-            src="{{ final_cover }}" 
-            alt="PDF Cover" 
-            class="pdf-poster-img"
-            {% if use_fallback %}
-            <!-- 如果图片加载失败(404)，自动替换为通用封面 -->
-            onerror="this.onerror=null; this.src='{{ generic_cover }}';"
-            {% endif %}
-        >
-        
-        <button class="pdf-start-btn" onclick="initPdf_{{ uid | replace: '-','_' }}()" aria-label="阅读 PDF">
-            <svg viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
-            <span>点击浏览 PPT</span>
-        </button>
-    </div>
-
-    <!-- 2. PDF 渲染区域 (保持不变) -->
-    <div class="pdf-viewer-layer" id="viewer-{{ uid }}" style="display: none;">
-        <div class="pdf-canvas-container">
-            <canvas id="the-canvas-{{ uid }}"></canvas>
-        </div>
-        
-        <!-- 底部控制栏 -->
-        <div class="pdf-controls">
-            <button class="pdf-btn" id="prev-{{ uid }}">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
-            </button>
-            <span class="pdf-page-info">
-                <span id="page_num-{{ uid }}">1</span> / <span id="page_count-{{ uid }}">--</span>
-            </span>
-            <button class="pdf-btn" id="next-{{ uid }}">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-            </button>
-            
-            <div class="pdf-divider"></div>
-
-            <button class="pdf-btn" id="fullscreen-{{ uid }}" title="全屏">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
-            </button>
-            <a href="{{ include.url }}" download class="pdf-btn" title="下载 PDF">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4m7-10l5 5m0 0l-5 5m5-5H3"/></svg>
-            </a>
-        </div>
-    </div>
+<div class="pdf-cover-layer" id="cover-{{ uid }}">
+<img src="{{ final_cover }}" alt="PDF Cover" class="pdf-poster-img" onerror="this.onerror=null;this.src='{{ def_cover }}';">
+<button class="pdf-start-btn" onclick="initPdf_{{ uid | replace: '-','_' }}()" aria-label="阅读 PDF"><svg viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg><span>点击浏览 PDF</span></button>
 </div>
-
+<div class="pdf-viewer-layer" id="viewer-{{ uid }}" style="display:none;">
+<div class="pdf-canvas-container"><canvas id="the-canvas-{{ uid }}"></canvas></div>
+<div class="pdf-controls">
+<button class="pdf-btn" id="prev-{{ uid }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+<span class="pdf-page-info"><span id="page_num-{{ uid }}">1</span> / <span id="page_count-{{ uid }}">--</span></span>
+<button class="pdf-btn" id="next-{{ uid }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+<div class="pdf-divider"></div>
+<button class="pdf-btn" id="fullscreen-{{ uid }}" title="全屏"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg></button>
+<a href="{{ include.url }}" download class="pdf-btn" title="下载 PDF"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg></a>
+</div></div></div>
 <style>
-    /* 容器样式 */
-    .pdf-wrapper {
-        position: relative;
-        width: 100%;
-        max-width: 100%;
-        background: #f1f1f1;
-        border-radius: 8px;
-        overflow: hidden;
-        margin: 20px 0;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    .pdf-cover-layer {
-        position: relative;
-        width: 100%;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 200px; /* 防止图片加载前高度塌陷太严重 */
-        background: #eee;
-    }
-    .pdf-poster-img {
-        width: 100%;
-        height: auto;
-        display: block;
-        object-fit: cover;
-    }
-    .pdf-start-btn {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: rgba(0,0,0,0.7);
-        border: none;
-        border-radius: 50px;
-        color: white;
-        padding: 10px 20px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        cursor: pointer;
-        transition: transform 0.2s, background 0.2s;
-        z-index: 10;
-    }
-    .pdf-start-btn:hover {
-        background: rgba(0,0,0,0.9);
-        transform: translate(-50%, -50%) scale(1.05);
-    }
-    .pdf-viewer-layer {
-        background: #333;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .pdf-canvas-container {
-        width: 100%;
-        overflow: auto;
-        display: flex;
-        justify-content: center;
-        background-color: #525659;
-    }
-    canvas {
-        display: block;
-        max-width: 100%;
-        height: auto !important;
-    }
-    .pdf-controls {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #222;
-        color: white;
-        padding: 8px;
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-    .pdf-btn {
-        background: none;
-        border: none;
-        color: #fff;
-        cursor: pointer;
-        padding: 5px;
-        border-radius: 4px;
-        display: flex;
-        align-items: center;
-    }
-    .pdf-btn:hover { background: rgba(255,255,255,0.2); }
-    .pdf-page-info { font-size: 14px; font-family: monospace; min-width: 60px; text-align: center; }
-    .pdf-divider { width: 1px; height: 20px; background: #555; margin: 0 5px; }
-
-    .pdf-wrapper:fullscreen {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background: #000;
-        width: 100vw;
-        height: 100vh;
-        border-radius: 0;
-    }
-    .pdf-wrapper:fullscreen .pdf-canvas-container {
-        flex: 1;
-        align-items: center;
-    }
-    .pdf-wrapper:fullscreen canvas {
-        max-height: 90vh;
-        width: auto;
-        max-width: 100%;
-    }
+.pdf-wrapper{position:relative;width:100%;background:#f1f1f1;border-radius:8px;overflow:hidden;margin:20px 0;box-shadow:0 4px 6px rgba(0,0,0,0.1)}
+.pdf-cover-layer{position:relative;width:100%;cursor:pointer;display:flex;align-items:center;justify-content:center;min-height:200px;background:#eee}
+.pdf-poster-img{width:100%;height:auto;display:block;object-fit:cover}
+.pdf-start-btn{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,0.7);border:none;border-radius:50px;color:#fff;padding:10px 20px;display:flex;align-items:center;gap:10px;cursor:pointer;z-index:10;transition:0.2s}
+.pdf-start-btn:hover{background:rgba(0,0,0,0.9);transform:translate(-50%,-50%) scale(1.05)}
+.pdf-viewer-layer{background:#333;display:flex;flex-direction:column;width:100%}
+.pdf-canvas-container{width:100%;overflow:auto;display:flex;justify-content:center;background-color:#525659}
+canvas{display:block;max-width:100%;height:auto!important}
+.pdf-controls{display:flex;align-items:center;justify-content:center;background:#222;color:#fff;padding:8px;gap:10px;flex-wrap:wrap}
+.pdf-btn{background:0 0;border:none;color:#fff;cursor:pointer;padding:5px;border-radius:4px;display:flex;align-items:center}
+.pdf-btn:hover{background:rgba(255,255,255,0.2)}
+.pdf-page-info{font-size:14px;font-family:monospace;min-width:60px;text-align:center}
+.pdf-divider{width:1px;height:20px;background:#555;margin:0 5px}
+.pdf-wrapper:fullscreen{display:flex;flex-direction:column;justify-content:center;background:#000;width:100vw;height:100vh;border-radius:0}
+.pdf-wrapper:fullscreen .pdf-canvas-container{flex:1;align-items:center}
+.pdf-wrapper:fullscreen canvas{max-height:90vh;width:auto;max-width:100%}
 </style>
-
 <script>
-(function() {
-    const pdfUrl = "{{ include.url }}";
-    const wrapperId = "pdf-wrapper-{{ uid }}";
-    const coverId = "cover-{{ uid }}";
-    const viewerId = "viewer-{{ uid }}";
-    const canvasId = "the-canvas-{{ uid }}";
-    const funcName = "initPdf_{{ uid | replace: '-','_' }}";
-
-    window[funcName] = async function() {
-        document.getElementById(coverId).style.display = 'none';
-        document.getElementById(viewerId).style.display = 'flex';
-
-        if (typeof pdfjsLib === 'undefined') {
-            const script = document.createElement('script');
-            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js';
-            document.head.appendChild(script);
-            script.onload = () => {
-                pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-                startRender();
-            };
-        } else {
-            startRender();
-        }
-    };
-
-    let pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null, canvas, ctx;
-
-    function startRender() {
-        canvas = document.getElementById(canvasId);
-        ctx = canvas.getContext('2d');
-        pdfjsLib.getDocument(pdfUrl).promise.then(function(pdfDoc_) {
-            pdfDoc = pdfDoc_;
-            document.getElementById('page_count-{{ uid }}').textContent = pdfDoc.numPages;
-            renderPage(pageNum);
-            document.getElementById('prev-{{ uid }}').addEventListener('click', onPrevPage);
-            document.getElementById('next-{{ uid }}').addEventListener('click', onNextPage);
-            document.getElementById('fullscreen-{{ uid }}').addEventListener('click', toggleFullScreen);
-            window.addEventListener('resize', () => {
-                 clearTimeout(window.resizeTimer);
-                 window.resizeTimer = setTimeout(() => { if(pdfDoc) renderPage(pageNum); }, 100);
-            });
-        }).catch(err => { console.error('Error loading PDF:', err); alert('PDF 加载失败。'); });
-    }
-
-    function renderPage(num) {
-        pageRendering = true;
-        pdfDoc.getPage(num).then(function(page) {
-            const wrapperWidth = document.getElementById(viewerId).clientWidth;
-            const viewport = page.getViewport({scale: 1});
-            const outputScale = window.devicePixelRatio || 1; 
-            const responsiveScale = (wrapperWidth / viewport.width);
-            const scaledViewport = page.getViewport({scale: responsiveScale});
-
-            canvas.height = scaledViewport.height;
-            canvas.width = scaledViewport.width;
-
-            const renderContext = { canvasContext: ctx, viewport: scaledViewport };
-            const renderTask = page.render(renderContext);
-
-            renderTask.promise.then(function() {
-                pageRendering = false;
-                if (pageNumPending !== null) { renderPage(pageNumPending); pageNumPending = null; }
-            });
-        });
-        document.getElementById('page_num-{{ uid }}').textContent = num;
-    }
-
-    function queueRenderPage(num) {
-        if (pageRendering) { pageNumPending = num; } else { renderPage(num); }
-    }
-
-    function onPrevPage() {
-        if (pageNum <= 1) return;
-        pageNum--;
-        queueRenderPage(pageNum);
-    }
-
-    function onNextPage() {
-        if (pageNum >= pdfDoc.numPages) return;
-        pageNum++;
-        queueRenderPage(pageNum);
-    }
-    
-    function toggleFullScreen() {
-        const elem = document.getElementById(wrapperId);
-        if (!document.fullscreenElement) {
-            elem.requestFullscreen().catch(err => { console.log(err); });
-        } else {
-            document.exitFullscreen();
-        }
-    }
+(function(){
+const u="{{ include.url }}",wId="pdf-wrapper-{{ uid }}",cId="cover-{{ uid }}",vId="viewer-{{ uid }}",cvId="the-canvas-{{ uid }}",fn="initPdf_{{ uid | replace: '-','_' }}";
+window[fn]=async function(){
+document.getElementById(cId).style.display='none';document.getElementById(vId).style.display='flex';
+if(typeof pdfjsLib==='undefined'){const s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js';document.head.appendChild(s);s.onload=()=>{pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';run()};}else{run()}};
+let pdf=null,pn=1,rendering=false,pnPend=null,cv,ctx;
+function run(){cv=document.getElementById(cvId);ctx=cv.getContext('2d');pdfjsLib.getDocument(u).promise.then(p=>{pdf=p;document.getElementById('page_count-{{ uid }}').textContent=pdf.numPages;ren(pn);document.getElementById('prev-{{ uid }}').addEventListener('click',onP);document.getElementById('next-{{ uid }}').addEventListener('click',onN);document.getElementById('fullscreen-{{ uid }}').addEventListener('click',togF);window.addEventListener('resize',()=>{clearTimeout(window.rt);window.rt=setTimeout(()=>{if(pdf)ren(pn)},100)})}).catch(e=>{console.error(e);alert('PDF Error')})}
+function ren(n){rendering=true;pdf.getPage(n).then(p=>{const vw=document.getElementById(vId).clientWidth,vp=p.getViewport({scale:1}),s=vw/vp.width,svp=p.getViewport({scale:s});cv.height=svp.height;cv.width=svp.width;p.render({canvasContext:ctx,viewport:svp}).promise.then(()=>{rendering=false;if(pnPend!==null){ren(pnPend);pnPend=null}})});document.getElementById('page_num-{{ uid }}').textContent=n}
+function qRen(n){if(rendering){pnPend=n}else{ren(n)}}
+function onP(){if(pn<=1)return;pn--;qRen(pn)}
+function onN(){if(pn>=pdf.numPages)return;pn++;qRen(pn)}
+function togF(){const e=document.getElementById(wId);!document.fullscreenElement?e.requestFullscreen().catch(console.log):document.exitFullscreen()}
 })();
 </script>
