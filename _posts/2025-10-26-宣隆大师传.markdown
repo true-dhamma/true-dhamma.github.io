@@ -1,18 +1,17 @@
 ---
 title: 宣隆大师传（缅文直译版）
-date: 2025-10-26 23:10:00 +08:00
+date: 2025-10-26T23:10:00+08:00
 categories:
-- 高僧大德
-- 南传上座部佛法
-- 精选
+  - 高僧大德
+  - 南传上座部佛法
+  - 精选
 redirect_from:
-- 
+  -
 excerpt: 一位目不识丁的缅甸农夫，通过体验激烈苦受、专注当下触觉，在短短数月内证悟阿罗汉果的传奇故事与教法精髓。
-feature_image: "/uploads/top_banner_lotus.jpg"
+feature_image: /uploads/top_banner_lotus.jpg
 aside: false
 toc: true
 ---
-
 > ##### The Detailed Biography of The Venerable Sun Lun Gu Kyaung Sayadaw U Kavi of Myingyan - Sayadaw U Sobhaṇa
 >
 > ##### 宣隆大师传（缅文直译版） - 苏班那大师 - 摘要
@@ -717,4 +716,4 @@ toc: true
 
 ---
 
-<table><tbody><tr><td><img width="120" src="/uploads/cover-sunlun-sayadaw.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍：<br /><a href="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E5%AE%A3%E9%9A%86%E8%A5%BF%E4%BA%9A%E5%A4%9A/%E5%AE%A3%E9%9A%86%E5%A4%A7%E5%B8%88%E4%BC%A0%20SBIO_Ch-Simp_v1.0F.pdf" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="https://www.sunlun-meditation.net/ebooks/BIOMMR.pdf" target="_blank" rel="noopener">[SunlunMeditation] - 缅文版</a><br /><a href="https://www.sunlun-meditation.net/ebooks/BIOENG.pdf" target="_blank" rel="noopener">[SunlunMeditation] - 英文版</a><br /><a href="https://www.sunlun-meditation.net/ebooks/BIOCHS.pdf" target="_blank" rel="noopener">[SunlunMeditation] - 中文版</a></p></td></tr></tbody></table>
+<table><tbody><tr><td><img width="120" src="/uploads/cover-sunlun-sayadaw.jpg" /></td><td>&nbsp; &nbsp; </td><td><h5>本文为书籍摘要，不包含全文</h5><p>如感兴趣请下载完整书籍（缅文直译版）：<br /><a href="https://download.true-dhamma.com/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E5%AE%A3%E9%9A%86%E8%A5%BF%E4%BA%9A%E5%A4%9A/%E5%AE%A3%E9%9A%86%E5%A4%A7%E5%B8%88%E4%BC%A0%EF%BC%88%E7%BC%85%E6%96%87%E7%9B%B4%E8%AF%91%E7%89%88%EF%BC%89.pdf" target="_blank" rel="noopener">[True-Dhamma网盘]</a><br />原始书籍来源：<br /><a href="https://www.sunlun-meditation.net/ebooks/BIOMMR.pdf" target="_blank" rel="noopener">[SunlunMeditation] - 缅文版</a><br /><a href="https://www.sunlun-meditation.net/ebooks/BIOENG.pdf" target="_blank" rel="noopener">[SunlunMeditation] - 英文版</a><br /><a href="https://www.sunlun-meditation.net/ebooks/BIOCHS.pdf" target="_blank" rel="noopener">[SunlunMeditation] - 中文版</a></p></td></tr></tbody></table>
