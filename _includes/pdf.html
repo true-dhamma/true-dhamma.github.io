@@ -28,6 +28,7 @@
 
 <style>
 .pdf-wrapper{position:relative;width:100%;background:#f1f1f1;border-radius:8px;overflow:hidden;margin:20px 0;box-shadow:0 4px 6px rgba(0,0,0,0.1)}
+.pdf-wrapper:focus{outline:2px solid #4a90e2;outline-offset:2px}
 .pdf-cover-layer{position:relative;width:100%;cursor:pointer;display:flex;align-items:center;justify-content:center;min-height:200px;background:#eee;transition:opacity 0.3s ease}
 .pdf-poster-img{width:100%;height:auto;display:block;object-fit:cover}
 .pdf-start-btn{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,0.7);border:none;border-radius:50px;color:#fff;padding:10px 20px;display:flex;align-items:center;gap:10px;cursor:pointer;z-index:10;transition:0.2s}
@@ -54,16 +55,17 @@ window[fn]=async function(){
 const b=document.getElementById(bId),bt=document.getElementById(btId);b.disabled=true;bt.innerText="载入中...";
 if(typeof pdfjsLib==='undefined'){const s=document.createElement('script');s.src='/assets/pdf.min.js';document.head.appendChild(s);s.onload=()=>{pdfjsLib.GlobalWorkerOptions.workerSrc='/assets/pdf.worker.min.js';run()}}else{run()}};
 let pdf=null,pn=1,rendering=false,pnPend=null,cv,ctx,first=true;
-function run(){cv=document.getElementById(cvId);ctx=cv.getContext('2d');pdfjsLib.getDocument(u).promise.then(p=>{pdf=p;document.getElementById('page_count-{{ uid }}').textContent=pdf.numPages;ren(pn);document.getElementById('prev-{{ uid }}').addEventListener('click',onP);document.getElementById('next-{{ uid }}').addEventListener('click',onN);document.getElementById('fullscreen-{{ uid }}').addEventListener('click',togF);window.addEventListener('resize',()=>{clearTimeout(window.rt);window.rt=setTimeout(()=>{if(pdf)ren(pn)},100)})}).catch(e=>{console.error(e);const bt=document.getElementById(btId);bt.innerText="加载失败";})}
+function run(){const w=document.getElementById(wId);w.setAttribute('tabindex','0');cv=document.getElementById(cvId);ctx=cv.getContext('2d');pdfjsLib.getDocument(u).promise.then(p=>{pdf=p;document.getElementById('page_count-{{ uid }}').textContent=pdf.numPages;ren(pn);document.getElementById('prev-{{ uid }}').addEventListener('click',onP);document.getElementById('next-{{ uid }}').addEventListener('click',onN);document.getElementById('fullscreen-{{ uid }}').addEventListener('click',togF);w.addEventListener('keydown',handleKeys);window.addEventListener('resize',()=>{clearTimeout(window.rt);window.rt=setTimeout(()=>{if(pdf)ren(pn)},100)})}).catch(e=>{console.error(e);const bt=document.getElementById(btId);bt.innerText="加载失败";})}
 function ren(n){rendering=true;document.getElementById('page_num-{{ uid }}').textContent=n;pdf.getPage(n).then(p=>{
 const dpr=window.devicePixelRatio||1,w=document.getElementById(wId).clientWidth,vp=p.getViewport({scale:1}),s=w/vp.width,svp=p.getViewport({scale:s*dpr});
 cv.height=svp.height;cv.width=svp.width;
 p.render({canvasContext:ctx,viewport:svp}).promise.then(()=>{rendering=false;
-if(first){document.getElementById(cId).style.display='none';const v=document.getElementById(vId);v.style.display='flex';setTimeout(()=>v.style.opacity=1,10);first=false;}
+if(first){document.getElementById(cId).style.display='none';const v=document.getElementById(vId);v.style.display='flex';setTimeout(()=>{v.style.opacity=1;document.getElementById(wId).focus()},10);first=false;}
 if(pnPend!==null){ren(pnPend);pnPend=null}})}).catch(e=>{rendering=false})}
 function qRen(n){if(rendering){pnPend=n}else{ren(n)}}
 function onP(){if(pn<=1)return;pn--;qRen(pn)}
 function onN(){if(pn>=pdf.numPages)return;pn++;qRen(pn)}
 function togF(){const e=document.getElementById(wId);!document.fullscreenElement?e.requestFullscreen().catch(console.log):document.exitFullscreen()}
+function handleKeys(e){if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();onP()}else if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();onN()}}
 })();
 </script>
