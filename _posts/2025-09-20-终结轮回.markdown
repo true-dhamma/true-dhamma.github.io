@@ -1,12 +1,16 @@
 ---
 title: 隆塔纳荣萨：结轮轮回
-date: 2025-09-20T21:20:00+08:00
+date: 2025-10-20T21:20:00+08:00
 categories:
   - 隆塔纳荣萨尊者
   - 南传上座部佛法
+  - 精选
+redirect_from:
+  - >-
+    /%E9%9A%86%E5%A1%94%E7%BA%B3%E8%8D%A3%E8%90%A8%E5%B0%8A%E8%80%85/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E7%BB%88%E7%BB%93%E8%BD%AE%E5%9B%9E/
 excerpt: 我们一生的修行，并非为了让“我”证得什么，而是为了看清那个试图证悟的“我”本身就是一种生灭的现象。
 feature_text:
-feature_image: /uploads/top_banner_dhamma.jpg
+feature_image: /uploads/top_banner_tower.jpg
 aside: false
 ---
 > ##### The End of Samsara - Luangta Narongsak Khīṇālayo
