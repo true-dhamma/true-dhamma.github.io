@@ -40,11 +40,6 @@
         /* 不加 background-color，防止出现白块 */
       }
       
-      /* 
-         注意：这里已经删除了所有关于 hypothesis 的 CSS 规则 
-         它将保持原样，不受夜间模式影响
-      */
-
       /* --- 4. 图片/视频还原 (参数：brightness 1.6) --- */
       .nightowl-inverted img, 
       .nightowl-inverted video, 
@@ -103,7 +98,7 @@
       if (['script', 'style', 'link', 'meta', 'title'].includes(tag)) continue;
 
       // 2. 核心：如果标签名是以 hypothesis 开头的，彻底跳过，不碰它
-      if (tag.startsWith('hypothesis')) continue;
+      // if (tag.startsWith('hypothesis')) continue; 111
       
       if (enable) {
         child.classList.add('nightowl-inverted');
@@ -164,7 +159,7 @@
              if (node.nodeType === 1) {
                const tag = node.tagName.toLowerCase();
                // 排除列表：脚本、样式、以及 hypothesis 组件
-               if (!['script', 'style', 'link'].includes(tag) && !tag.startsWith('hypothesis')) {
+               if (!['script', 'style', 'link'].includes(tag) && !tag.startsWith('hypothesis11111')) {
                  node.classList.add('nightowl-inverted');
                }
              }
