@@ -1,0 +1,168 @@
+<script>
+(function() {
+  /*
+    重要提示：
+    为防止加载页面时出现“白屏闪烁”，请将以下<script>代码块
+    作为一个独立的<script>标签，放置在网站每个页面的<head>标签内。
+
+    <!-- 防止暗色模式闪烁脚本开始 (请放置在<head>标签内) -->
+    <script>(function(){const s="nightowl-color-scheme",t="dark";try{const e=localStorage.getItem(s);e===t&&document.documentElement.classList.add("nightowl-dark")}catch(e){}})();<\/script>
+    <!-- 防止暗色模式闪นอก结束 -->
+  */
+
+  // --- 常量和变量定义 ---
+  const STORAGE_KEY = "nightowl-color-scheme";
+  const LIGHT_THEME = "light";
+  const DARK_THEME = "dark";
+  
+  let localStorageAvailable = false;
+  let currentTheme;
+
+  // 尝试访问 localStorage
+  try {
+    if (localStorage) {
+      localStorageAvailable = true;
+    }
+  } catch (e) {
+    console.warn("localStorage is not available.");
+  }
+
+  // --- 核心功能函数 ---
+
+  /**
+   * 1. 注入暗色模式所需的CSS样式
+   */
+  function addNightOwlStyles() {
+    const styleElement = document.createElement("style");
+    styleElement.innerHTML = `
+      /* 亮色模式：无滤镜 */
+      .nightowl-light body {
+        filter: invert(0%);
+      }
+      
+      /* 暗色模式：备用深色背景 */
+      .nightowl-dark {
+        background-color: #111;
+      }
+
+      /* 暗色模式：核心反色滤镜 (应用到整个页面) */
+      .nightowl-dark body {
+        filter: invert(100%) hue-rotate(20deg); /* <-- 已修改 */
+      }
+
+      /* 还原图片/视频：抵消body滤镜，恢复原色并调暗 */
+      .nightowl-dark img, .nightowl-dark video, .nightowl-dark iframe, .nightowl-dark .custom-cover-layer, .nightowl-dark .nightowl-daylight {
+        filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.1) brightness(1.6);
+        opacity: 0.8;
+      }
+
+      .nightowl-dark video:fullscreen,
+      .nightowl-dark video:-webkit-full-screen,
+      .nightowl-dark .plyr:fullscreen video,               /* 新增: Plyr全屏时的视频 */
+      .nightowl-dark .plyr:-webkit-full-screen video,      /* 新增: Plyr全屏时的视频(兼容) */
+      .nightowl-dark .plyr:fullscreen .custom-cover-layer,          /* 新增: Plyr全屏时的封面 */
+      .nightowl-dark .plyr:-webkit-full-screen .custom-cover-layer  /* 新增: Plyr全屏时的封面(兼容) */
+      {
+        filter: none !important;
+        opacity: 1;
+      }
+
+      /* 调整全局文本：降低亮度以适应暗色背景 */
+      .nightowl-dark h1, .nightowl-dark h2, .nightowl-dark h3, .nightowl-dark h4, .nightowl-dark h5, .nightowl-dark h6, .nightowl-dark p, .nightowl-dark strong, .nightowl-dark a, .nightowl-dark li, .nightowl-dark span, .nightowl-dark b {
+        filter: brightness(0.6);
+      }
+
+      /* 还原.feature区：抵消body滤镜，恢复原色并调暗 */
+      .nightowl-dark .feature {
+        filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.1) brightness(1);
+        opacity: 0.8;
+      }
+
+      /* 还原图标：抵消body滤镜 */
+      //.nightowl-dark .icon {
+      //  filter: invert(100%) hue-rotate(340deg); /* <-- 已修改 (360-20=340) */
+      //}
+
+      /* 代码块微调：轻微反色以突出背景 */
+      .nightowl-dark pre {
+        filter: invert(6%);
+      }
+
+      /* 列表项标记颜色 */
+      .nightowl-dark li::marker {
+        color: #666;
+      }
+    `;
+    document.head.appendChild(styleElement);
+  }
+
+  /**
+   * 2. 应用暗色模式
+   */
+  function setDarkTheme() {
+    const html = document.documentElement;
+    html.classList.remove("nightowl-light");
+    html.classList.add("nightowl-dark");
+  }
+
+  /**
+   * 3. 应用亮色模式
+   */
+  function setLightTheme() {
+    const html = document.documentElement;
+    html.classList.remove("nightowl-dark");
+    html.classList.add("nightowl-light");
+  }
+  
+  /**
+   * 5. 切换主题
+   */
+  function toggleTheme() {
+    const isDark = document.documentElement.classList.contains('nightowl-dark');
+    currentTheme = isDark ? LIGHT_THEME : DARK_THEME;
+
+    if (currentTheme === DARK_THEME) {
+      setDarkTheme();
+    } else {
+      setLightTheme();
+    }
+    
+    saveThemeState();
+  }
+
+  /**
+   * 7. 保存当前主题状态到本地存储
+   */
+  function saveThemeState() {
+    if (!localStorageAvailable) return;
+
+    if (currentTheme !== null) {
+      try {
+        localStorage.setItem(STORAGE_KEY, currentTheme);
+      } catch (e) {
+        console.error("Failed to save theme to localStorage.", e);
+      }
+    }
+  }
+
+  // --- 初始化和事件绑定 ---
+
+  // 页面加载完成后执行
+  document.addEventListener("DOMContentLoaded", () => {
+    // 只需注入样式和绑定事件，初始主题已由<head>脚本设置
+    addNightOwlStyles();
+    
+    // 为主题切换开关绑定点击事件
+    const darkModeSwitcher = document.getElementById("darkmode-switch");
+    if (darkModeSwitcher) {
+      darkModeSwitcher.addEventListener("click", (event) => {
+        event.preventDefault(); // 阻止链接默认跳转
+        toggleTheme();
+      });
+    } else {
+      console.warn("未找到ID为 'darkmode-switch' 的暗色模式开关。");
+    }
+  });
+
+})();
+</script>
