@@ -1,9 +1,9 @@
 <script>
 (function() {
   /*
-    融合修复版：
-    1. 机制：自动给 body 直系子元素加滤镜 (解决 fixed 悬浮失效问题)。 
-    2. 样式：严格还原用户原始 CSS 中的图片、视频、Feature 区域还原逻辑。
+    最终严格还原版：
+    1. 机制：自动给 body 直系子元素加滤镜 (解决 fixed 悬浮失效问题)。
+    2. 还原度：严格区分 .feature 和 img/video 的亮度参数，与用户源码完全一致。
   */
 
   const STORAGE_KEY = "nightowl-color-scheme";
@@ -21,47 +21,50 @@
     const styleElement = document.createElement("style");
     styleElement.innerHTML = `
       /* --- 1. 基础环境设置 --- */
-      /* 亮色模式：彻底清除滤镜，防止切换回退时残留 */
       .nightowl-light body,
       .nightowl-light .nightowl-inverted {
         filter: none !important;
       }
       
-      /* 暗色模式：只设背景色，不设滤镜，保护 fixed 元素 */
       .nightowl-dark body {
-        background-color: #111;
+        background-color: #111; /* 仅设背景，不设滤镜 */
       }
 
-      /* --- 2. 核心滤镜类 (由 JS 自动添加到 main, header, fab 等直系子元素) --- */
-      /* 相当于原来的 .nightowl-dark body 规则 */
+      /* --- 2. 核心滤镜 (替代原来的 .nightowl-dark body) --- */
+      /* 应用于 body 的直系子元素 */
       .nightowl-inverted {
         filter: invert(100%) hue-rotate(20deg);
-        background-color: inherit; /* 继承背景，防止缝隙 */
+        background-color: inherit;
       }
       
-      /* 针对 FAB/Hypothesis 侧边栏的强制反色 */
+      /* 强制反转 Hypothesis */
       hypothesis-sidebar,
       hypothesis-adder {
         filter: invert(100%) hue-rotate(20deg) !important;
       }
 
-      /* --- 3. 媒体与特定区域还原 (核心修复部分) --- */
-      /* 
-         这里应用了你原始代码的参数：
-         hue-rotate(340deg) 用于抵消父级的 20deg (360-20=340)
-         恢复图片、视频、iframe、自定义封面、feature区域、以及带有 nightowl-daylight 类的元素
-      */
+      /* --- 3. 图片/视频还原 (参数：brightness 1.6) --- */
+      /* 对应原代码：.nightowl-dark img, video, iframe ... */
       .nightowl-inverted img, 
       .nightowl-inverted video, 
       .nightowl-inverted iframe, 
       .nightowl-inverted .custom-cover-layer, 
-      .nightowl-inverted .nightowl-daylight,
-      .nightowl-inverted .feature {
+      .nightowl-inverted .nightowl-daylight {
         filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.1) brightness(1.6);
         opacity: 0.8;
       }
 
-      /* --- 4. 视频全屏特殊处理 (Plyr) --- */
+      /* --- 4. .feature 区域还原 (参数：brightness 1.0) --- */
+      /* 
+         修正：这里单独列出，严格还原你原来的 brightness(1) 
+         原代码：.nightowl-dark .feature { ... brightness(1); ... }
+      */
+      .nightowl-inverted .feature {
+        filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.1) brightness(1);
+        opacity: 0.8;
+      }
+
+      /* --- 5. 视频全屏特殊处理 --- */
       .nightowl-inverted video:fullscreen,
       .nightowl-inverted video:-webkit-full-screen,
       .nightowl-inverted .plyr:fullscreen video,
@@ -72,8 +75,7 @@
         opacity: 1;
       }
 
-      /* --- 5. 文本与代码细节调整 (还原原始逻辑) --- */
-      /* 降低高亮文字亮度 */
+      /* --- 6. 文本与代码细节 (参数完全一致) --- */
       .nightowl-inverted h1, .nightowl-inverted h2, .nightowl-inverted h3, 
       .nightowl-inverted h4, .nightowl-inverted h5, .nightowl-inverted h6, 
       .nightowl-inverted p, .nightowl-inverted strong, .nightowl-inverted a, 
@@ -81,12 +83,12 @@
         filter: brightness(0.6);
       }
 
-      /* 代码块微调：轻微反色以突出背景 */
+      /* 代码块 */
       .nightowl-inverted pre {
         filter: invert(6%);
       }
 
-      /* 列表项标记颜色 */
+      /* 列表项标记 */
       .nightowl-inverted li::marker {
         color: #666;
       }
@@ -94,15 +96,14 @@
     document.head.appendChild(styleElement);
   }
 
-  // --- JS 逻辑保持不变 (负责遍历元素) ---
+  // --- 下面的 JS 逻辑只负责遍历元素，不影响样式参数 ---
   
   function toggleInvertedClass(enable) {
     const children = document.body.children;
     for (let i = 0; i < children.length; i++) {
       const child = children[i];
-      const tag = child.tagName.toLowerCase();
-      // 排除 script/style/meta 等非可视标签
-      if (['script', 'style', 'link', 'meta', 'title'].includes(tag)) continue;
+      // 排除非视觉元素
+      if (['script', 'style', 'link', 'meta', 'title'].includes(child.tagName.toLowerCase())) continue;
       
       if (enable) {
         child.classList.add('nightowl-inverted');
@@ -139,7 +140,6 @@
   document.addEventListener("DOMContentLoaded", () => {
     addNightOwlStyles();
     
-    // 初始化检查
     try {
       if (localStorage.getItem(STORAGE_KEY) === DARK_THEME || document.documentElement.classList.contains("nightowl-dark")) {
          toggleInvertedClass(true);
@@ -154,7 +154,6 @@
       });
     }
     
-    // 监听动态插入的元素 (如 Hypothesis)
     const observer = new MutationObserver((mutations) => {
        if (document.documentElement.classList.contains("nightowl-dark")) {
          mutations.forEach((mutation) => {
