@@ -1,11 +1,11 @@
 <script>
 (function() {
   /*
-    完美修正版：
-    1. 修复 Hypothesis 问题：将 Hypothesis 排除在 JS 遍历之外，仅通过 CSS 在夜间模式下定向反转。
-       (解决了白天变黑、位置错乱、以及夜间位置错乱的问题)
-    2. 保持 FAB 悬浮：继续使用 Body 无滤镜 + 子元素反转策略。
-    3. 保持原始样式还原：严格保留你对图片和 Feature 区域的亮度参数。
+    彻底隔离版 (Skip Hypothesis Completely)
+    1. 策略：完全无视 Hypothesis 组件。不加类名，不写 CSS，不监听。
+       保证它在任何模式下都保持官方原生的位置和样式（亮色）。
+    2. 兼容性：FAB 依然会变黑（因为它是普通直系子元素，不在排除列表里）。
+    3. 还原度：保持图片、视频、Feature 区域的参数与你原始代码一致。
   */
 
   const STORAGE_KEY = "nightowl-color-scheme";
@@ -31,27 +31,21 @@
       /* --- 2. 暗色模式底板 --- */
       .nightowl-dark body {
         background-color: #111 !important;
-        /* Body 保持无 Filter，确保 fab 和 hypothesis 定位正常 */
+        /* 保持 body 无滤镜，确保 fixed 元素定位准确 */
       }
 
-      /* --- 3. 核心滤镜 (通用) --- */
-      /* 应用于主要内容区域，但不应用于 Hypothesis */
+      /* --- 3. 核心滤镜 (只给被 JS 选中的元素加) --- */
       .nightowl-inverted {
         filter: invert(100%) hue-rotate(20deg);
+        /* 不加 background-color，防止出现白块 */
       }
       
-      /* --- 4. Hypothesis 专属处理 (关键修复) --- */
       /* 
-         只有在 .nightowl-dark 激活时才反转。
-         不通过 JS 添加类名，而是直接通过标签名选择，防止 JS 干扰其内部定位。
+         注意：这里已经删除了所有关于 hypothesis 的 CSS 规则 
+         它将保持原样，不受夜间模式影响
       */
-      .nightowl-dark hypothesis-sidebar,
-      .nightowl-dark hypothesis-adder,
-      .nightowl-dark hypothesis-highlight-cluster {
-        filter: invert(100%) hue-rotate(20deg);
-      }
 
-      /* --- 5. 图片/视频还原 (参数：brightness 1.6) --- */
+      /* --- 4. 图片/视频还原 (参数：brightness 1.6) --- */
       .nightowl-inverted img, 
       .nightowl-inverted video, 
       .nightowl-inverted iframe, 
@@ -61,13 +55,13 @@
         opacity: 0.8;
       }
 
-      /* --- 6. .feature 区域还原 (参数：brightness 1.0) --- */
+      /* --- 5. .feature 区域还原 (参数：brightness 1.0) --- */
       .nightowl-inverted .feature {
         filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.1) brightness(1);
         opacity: 0.8;
       }
 
-      /* --- 7. 视频全屏修复 --- */
+      /* --- 6. 视频全屏修复 --- */
       .nightowl-inverted video:fullscreen,
       .nightowl-inverted video:-webkit-full-screen,
       .nightowl-inverted .plyr:fullscreen video,
@@ -78,7 +72,7 @@
         opacity: 1;
       }
 
-      /* --- 8. 文本与代码细节 --- */
+      /* --- 7. 文本与代码细节 --- */
       .nightowl-inverted h1, .nightowl-inverted h2, .nightowl-inverted h3, 
       .nightowl-inverted h4, .nightowl-inverted h5, .nightowl-inverted h6, 
       .nightowl-inverted p, .nightowl-inverted strong, .nightowl-inverted a, 
@@ -97,7 +91,7 @@
     document.head.appendChild(styleElement);
   }
 
-  // --- JS 逻辑优化：排除 Hypothesis ---
+  // --- JS 逻辑：严格排除 Hypothesis ---
   
   function toggleInvertedClass(enable) {
     const children = document.body.children;
@@ -105,11 +99,11 @@
       const child = children[i];
       const tag = child.tagName.toLowerCase();
 
-      // 1. 排除非视觉元素
-      // 2. 关键：排除 hypothesis 开头的元素，完全交给 CSS 处理，防止定位干扰
-      if (['script', 'style', 'link', 'meta', 'title'].includes(tag) || tag.startsWith('hypothesis')) {
-        continue;
-      }
+      // 1. 排除非视觉标签
+      if (['script', 'style', 'link', 'meta', 'title'].includes(tag)) continue;
+
+      // 2. 核心：如果标签名是以 hypothesis 开头的，彻底跳过，不碰它
+      if (tag.startsWith('hypothesis')) continue;
       
       if (enable) {
         child.classList.add('nightowl-inverted');
@@ -146,6 +140,7 @@
   document.addEventListener("DOMContentLoaded", () => {
     addNightOwlStyles();
     
+    // 初始加载检查
     try {
       if (localStorage.getItem(STORAGE_KEY) === DARK_THEME || document.documentElement.classList.contains("nightowl-dark")) {
          toggleInvertedClass(true);
@@ -160,14 +155,15 @@
       });
     }
     
-    // 监听器也需要过滤 hypothesis，防止它被错误地加上通用滤镜类
+    // 监听器：同样需要严格排除 hypothesis
     const observer = new MutationObserver((mutations) => {
        if (document.documentElement.classList.contains("nightowl-dark")) {
          mutations.forEach((mutation) => {
            mutation.addedNodes.forEach((node) => {
-             // 确保是元素节点，且不是 script/style，且不是 hypothesis
+             // 仅处理元素节点
              if (node.nodeType === 1) {
                const tag = node.tagName.toLowerCase();
+               // 排除列表：脚本、样式、以及 hypothesis 组件
                if (!['script', 'style', 'link'].includes(tag) && !tag.startsWith('hypothesis')) {
                  node.classList.add('nightowl-inverted');
                }
