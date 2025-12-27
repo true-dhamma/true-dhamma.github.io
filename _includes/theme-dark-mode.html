@@ -1,9 +1,10 @@
 <script>
 (function() {
   /*
-    最终严格还原版：
-    1. 机制：自动给 body 直系子元素加滤镜 (解决 fixed 悬浮失效问题)。
-    2. 还原度：严格区分 .feature 和 img/video 的亮度参数，与用户源码完全一致。
+    最终修复版 (Fixed Background Patchiness)
+    1. 修正背景逻辑：移除 background-color: inherit，解决页面出现白色块的问题。
+    2. 严格还原逻辑：保持图片 brightness(1.6) 和 .feature brightness(1.0) 的区别。
+    3. 核心机制：继续使用"子元素反转"以保护悬浮 FAB。
   */
 
   const STORAGE_KEY = "nightowl-color-scheme";
@@ -20,21 +21,23 @@
   function addNightOwlStyles() {
     const styleElement = document.createElement("style");
     styleElement.innerHTML = `
-      /* --- 1. 基础环境设置 --- */
+      /* --- 1. 基础清理 --- */
       .nightowl-light body,
       .nightowl-light .nightowl-inverted {
         filter: none !important;
       }
       
+      /* --- 2. 暗色模式底板 --- */
+      /* 必须给 body 一个深色背景，因为子元素若是透明的，就会透出这个颜色 */
       .nightowl-dark body {
-        background-color: #111; /* 仅设背景，不设滤镜 */
+        background-color: #111 !important;
+        /* 注意：这里不加 filter，这是解决 fab 悬浮的关键 */
       }
 
-      /* --- 2. 核心滤镜 (替代原来的 .nightowl-dark body) --- */
-      /* 应用于 body 的直系子元素 */
+      /* --- 3. 核心滤镜 (应用于直系子元素) --- */
       .nightowl-inverted {
         filter: invert(100%) hue-rotate(20deg);
-        background-color: inherit;
+        /* !!! 已删除 background-color: inherit，修复白块问题 !!! */
       }
       
       /* 强制反转 Hypothesis */
@@ -43,8 +46,8 @@
         filter: invert(100%) hue-rotate(20deg) !important;
       }
 
-      /* --- 3. 图片/视频还原 (参数：brightness 1.6) --- */
-      /* 对应原代码：.nightowl-dark img, video, iframe ... */
+      /* --- 4. 图片/视频还原 (参数：brightness 1.6) --- */
+      /* 适用于常规媒体 */
       .nightowl-inverted img, 
       .nightowl-inverted video, 
       .nightowl-inverted iframe, 
@@ -54,17 +57,14 @@
         opacity: 0.8;
       }
 
-      /* --- 4. .feature 区域还原 (参数：brightness 1.0) --- */
-      /* 
-         修正：这里单独列出，严格还原你原来的 brightness(1) 
-         原代码：.nightowl-dark .feature { ... brightness(1); ... }
-      */
+      /* --- 5. .feature 区域还原 (参数：brightness 1.0) --- */
+      /* 严格还原你的原始逻辑，不提亮 */
       .nightowl-inverted .feature {
         filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.1) brightness(1);
         opacity: 0.8;
       }
 
-      /* --- 5. 视频全屏特殊处理 --- */
+      /* --- 6. 视频全屏修复 --- */
       .nightowl-inverted video:fullscreen,
       .nightowl-inverted video:-webkit-full-screen,
       .nightowl-inverted .plyr:fullscreen video,
@@ -75,7 +75,7 @@
         opacity: 1;
       }
 
-      /* --- 6. 文本与代码细节 (参数完全一致) --- */
+      /* --- 7. 文本与代码细节 (保持一致) --- */
       .nightowl-inverted h1, .nightowl-inverted h2, .nightowl-inverted h3, 
       .nightowl-inverted h4, .nightowl-inverted h5, .nightowl-inverted h6, 
       .nightowl-inverted p, .nightowl-inverted strong, .nightowl-inverted a, 
@@ -83,12 +83,10 @@
         filter: brightness(0.6);
       }
 
-      /* 代码块 */
       .nightowl-inverted pre {
         filter: invert(6%);
       }
 
-      /* 列表项标记 */
       .nightowl-inverted li::marker {
         color: #666;
       }
@@ -96,7 +94,7 @@
     document.head.appendChild(styleElement);
   }
 
-  // --- 下面的 JS 逻辑只负责遍历元素，不影响样式参数 ---
+  // --- JS 逻辑 (保持不变) ---
   
   function toggleInvertedClass(enable) {
     const children = document.body.children;
