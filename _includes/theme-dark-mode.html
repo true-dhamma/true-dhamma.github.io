@@ -1,8 +1,10 @@
 <script>
 (function() {
   /*
-    方案：Overlay Mode (蒙版模式)
-    优势：不破坏 position:fixed，不需要修改 HTML 结构
+    终极方案：Auto-Invert Direct Children (自动反转直系子元素)
+    原理：
+    1. 保持 body 干净（无 filter），确保 fixed 定位正常。
+    2. 脚本自动遍历 body 的所有第一级子标签（如 header, main, div, fab），给它们单独加滤镜。
   */
 
   const STORAGE_KEY = "nightowl-color-scheme";
@@ -12,94 +14,111 @@
   let localStorageAvailable = false;
   let currentTheme;
 
+  // 1. 检查 localStorage
   try {
     if (localStorage) localStorageAvailable = true;
   } catch (e) { console.warn("localStorage unavailable"); }
 
+  // 2. 注入 CSS
   function addNightOwlStyles() {
     const styleElement = document.createElement("style");
     styleElement.innerHTML = `
-      /* --- 1. 基础清理 --- */
-      /* 确保亮色模式下没有任何残留滤镜，修复"必须刷新"的bug */
-      .nightowl-light body, 
-      .nightowl-light html {
+      /* --- 基础清理 --- */
+      .nightowl-light body {
         filter: none !important;
       }
       
-      /* --- 2. 暗色模式背景兜底 --- */
-      /* 防止滚动出边界看到白色背景 */
+      /* --- 暗色模式背景 --- */
       .nightowl-dark body {
-        background-color: #111;
-        /* 重要：不要在这里加 filter: invert，否则 fixed 会失效 */
+        background-color: #111; /* 只有背景色，没有 filter */
       }
 
-      /* --- 3. 核心魔法：全屏滤镜蒙版 --- */
-      /* 利用 html::before 生成一个覆盖全屏的层，只处理颜色，不处理交互 */
-      .nightowl-dark::before {
-        content: " ";
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        z-index: 2147483647; /* 尽可能大的层级，覆盖在 hypothesis 之上 */
-        pointer-events: none; /* 关键：允许鼠标点击穿透这层蒙版 */
-        
-        /* 这里应用原来的核心滤镜 */
-        backdrop-filter: invert(100%) hue-rotate(20deg);
-        -webkit-backdrop-filter: invert(100%) hue-rotate(20deg); /* Safari 支持 */
+      /* --- 通用反转类 (由 JS 自动添加) --- */
+      .nightowl-inverted {
+        filter: invert(100%) hue-rotate(20deg);
       }
 
-      /* --- 4. 图片/视频还原 --- */
-      /* 
-         原理：
-         底层图片被反转(filter) -> 变负片 
-         上层蒙版再次反转(backdrop-filter) -> 负片变正片 -> 恢复正常
-      */
-      .nightowl-dark img, 
-      .nightowl-dark video, 
-      .nightowl-dark iframe, 
-      .nightowl-dark .custom-cover-layer {
+      /* --- 针对悬浮元素(FAB)的特殊修正 --- */
+      /* 如果你的 FAB 有特定的背景色，这里确保反转正常 */
+      .nightowl-inverted.fab, 
+      .nightowl-inverted.floating-action-btn {
+         /* 可以在这里微调，例如 filter: invert(100%) ... */
+      }
+
+      /* --- 针对 Hypothesis 侧边栏的特殊处理 --- */
+      /* Hypothesis 通常注入在 body 底部，加上这个类后会自动反转 */
+      hypothesis-sidebar,
+      hypothesis-adder {
+         filter: invert(100%) hue-rotate(20deg) !important;
+      }
+
+      /* --- 图片/视频还原 --- */
+      /* 只有被加了 inverted 类的容器内部的图片才需要还原 */
+      .nightowl-inverted img, 
+      .nightowl-inverted video, 
+      .nightowl-inverted iframe,
+      .nightowl-inverted .custom-cover-layer {
         filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.1) brightness(1.6);
         opacity: 0.8;
       }
 
-      /* Plyr 播放器全屏修复 */
-      .nightowl-dark .plyr:fullscreen video {
+      /* Plyr 全屏修复 */
+      .nightowl-inverted .plyr:fullscreen video {
         filter: none !important;
         opacity: 1;
       }
 
-      /* --- 5. 针对 Hypothesis 和 FAB 的特殊处理 --- */
-      /* 
-         因为蒙版层级(z-index)极高，覆盖了这些悬浮元素，
-         所以它们会被蒙版"反色"，变成暗色风格（这正是我们要的）。
-         
-         但如果你发现某些悬浮元素不想被变黑，或者变得太奇怪，
-         可以在这里单独调整它们的 filter。
-         
-         通常情况下，不需要额外代码，它们会被蒙版自动处理好。
-      */
-      
-      /* 文本降权 (保持原样) */
-      .nightowl-dark h1, .nightowl-dark h2, .nightowl-dark h3, .nightowl-dark p, .nightowl-dark a {
+      /* 文本降权 */
+      .nightowl-inverted h1, 
+      .nightowl-inverted h2, 
+      .nightowl-inverted p, 
+      .nightowl-inverted a {
         filter: brightness(0.6);
       }
     `;
     document.head.appendChild(styleElement);
   }
 
+  // 3. 核心逻辑：给 Body 的直系子元素切换 Class
+  function toggleInvertedClass(enable) {
+    // 获取 body 下所有的直系子元素
+    const children = document.body.children;
+    
+    for (let i = 0; i < children.length; i++) {
+      const child = children[i];
+      const tag = child.tagName.toLowerCase();
+
+      // 排除掉 script, style, meta 等标签，防止报错或逻辑错误
+      if (tag === 'script' || tag === 'style' || tag === 'link' || tag === 'meta') {
+        continue;
+      }
+
+      // 切换类名
+      if (enable) {
+        child.classList.add('nightowl-inverted');
+      } else {
+        child.classList.remove('nightowl-inverted');
+      }
+    }
+  }
+
+  // 4. 设置主题
   function setDarkTheme() {
     const html = document.documentElement;
     html.classList.remove("nightowl-light");
     html.classList.add("nightowl-dark");
+    
+    // 启用子元素滤镜
+    toggleInvertedClass(true);
   }
 
   function setLightTheme() {
     const html = document.documentElement;
     html.classList.remove("nightowl-dark");
     html.classList.add("nightowl-light");
+    
+    // 移除子元素滤镜
+    toggleInvertedClass(false);
   }
   
   function toggleTheme() {
@@ -114,8 +133,18 @@
     try { localStorage.setItem(STORAGE_KEY, currentTheme); } catch (e) {}
   }
 
+  // 5. 初始化
   document.addEventListener("DOMContentLoaded", () => {
     addNightOwlStyles();
+    
+    // 如果页面加载时已经是暗色模式（由 head 脚本决定），需要补打 class
+    // 检查是否需要立即应用 dark 逻辑
+    try {
+      if (localStorage.getItem(STORAGE_KEY) === DARK_THEME || document.documentElement.classList.contains("nightowl-dark")) {
+         toggleInvertedClass(true);
+      }
+    } catch(e) {}
+
     const darkModeSwitcher = document.getElementById("darkmode-switch");
     if (darkModeSwitcher) {
       darkModeSwitcher.addEventListener("click", (event) => {
@@ -123,6 +152,22 @@
         toggleTheme();
       });
     }
+    
+    // 监听 Hypothesis 加载 (它可能会延迟注入 dom)
+    // 使用 MutationObserver 监听 body 变化，防止后加载的元素(如hypothesis)是白色的
+    const observer = new MutationObserver((mutations) => {
+       if (document.documentElement.classList.contains("nightowl-dark")) {
+         mutations.forEach((mutation) => {
+           mutation.addedNodes.forEach((node) => {
+             if (node.nodeType === 1 && node.tagName !== 'SCRIPT' && node.tagName !== 'STYLE') {
+               node.classList.add('nightowl-inverted');
+             }
+           });
+         });
+       }
+    });
+    observer.observe(document.body, { childList: true });
   });
+
 })();
 </script>
