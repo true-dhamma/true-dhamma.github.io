@@ -1,14 +1,50 @@
 <script>
 (function() {
   /*
-    彻底隔离版 (Skip Hypothesis Completely)
-    1. 策略：完全无视 Hypothesis 组件。不加类名，不写 CSS，不监听。
-       保证它在任何模式下都保持官方原生的位置和样式（亮色）。
-    2. 兼容性：FAB 依然会变黑（因为它是普通直系子元素，不在排除列表里）。
-    3. 还原度：保持图片、视频、Feature 区域的参数与你原始代码一致。
+    Dark Model - 可配置增强版
+    1. 配置项 (CONFIG) 提取到了最上方，方便修改。
+    2. 自动处理 Plyr 字幕、背景和 Hypothesis 的排除逻辑。
   */
 
-  const STORAGE_KEY = "nightowl-color-scheme";
+  // =========================================================
+  //  1. 用户配置区域 (在此处添加不需要反色的东西)
+  // =========================================================
+  const CONFIG = {
+    storageKey: "nightowl-color-scheme",
+    
+    // [A] JS 逻辑跳过列表：
+    // 这些元素如果是 body 的直接子元素，脚本完全不会去碰它。
+    // 适用于：Hypothesis 侧边栏、浮动工具栏、第三方插件容器。
+    skipDetection: {
+      tags: ['script', 'style', 'link', 'meta', 'title', 'noscript'],
+      prefixes: ['hypothesis'], // ID 或 Tag 以此开头 (例如 hypothesis-sidebar)
+      classes: [] // 如果某个顶层 div 包含此 class，则跳过 (例如 'ignore-dark-mode')
+    },
+
+    // [B] CSS 视觉还原列表：
+    // 这些元素在暗色模式下会被“再次反色”从而恢复原貌。
+    // 适用于：图片、视频、Iframe、Plyr 播放器、字幕层、封面图。
+    restoreSelectors: [
+      'img', 
+      'video', 
+      'iframe', 
+      '.custom-cover-layer',    // 自定义封面
+      '.nightowl-daylight',     // 手动指定的白底区域
+      '.feature',               // 原本代码中的 feature
+      
+      // --- Plyr 视频播放器相关 ---
+      '.plyr',                  // Plyr 主容器
+      '.plyr-custom-wrapper',   // Includes 里的外层容器
+      '.plyr__captions',        // 字幕容器
+      '.plyr__controls',        // 控制栏
+      '.plyr__poster'           // 官方封面
+    ]
+  };
+
+  // =========================================================
+  //  2. 核心逻辑
+  // =========================================================
+
   const LIGHT_THEME = "light";
   const DARK_THEME = "dark";
   
@@ -19,55 +55,78 @@
     if (localStorage) localStorageAvailable = true;
   } catch (e) { console.warn("localStorage unavailable"); }
 
+  // 辅助函数：判断是否应该跳过该元素 (基于 CONFIG.skipDetection)
+  function shouldSkipElement(node) {
+    if (!node || node.nodeType !== 1) return true; // 非元素节点跳过
+
+    const tagName = node.tagName.toLowerCase();
+    const id = node.id ? node.id.toLowerCase() : "";
+    const classList = node.classList;
+
+    // 1. 检查标签名
+    if (CONFIG.skipDetection.tags.includes(tagName)) return true;
+
+    // 2. 检查前缀 (Tag 或 ID 以某字符串开头)
+    for (const prefix of CONFIG.skipDetection.prefixes) {
+      if (tagName.startsWith(prefix) || id.startsWith(prefix)) return true;
+    }
+
+    // 3. 检查 Class
+    for (const cls of CONFIG.skipDetection.classes) {
+      if (classList.contains(cls)) return true;
+    }
+
+    return false;
+  }
+
   function addNightOwlStyles() {
     const styleElement = document.createElement("style");
+    
+    // 动态生成还原列表的 CSS 选择器
+    // 结果类似: .nightowl-inverted img, .nightowl-inverted .plyr, ...
+    const restoreSelectorString = CONFIG.restoreSelectors
+      .map(sel => `.nightowl-inverted ${sel}`)
+      .join(',\n      ');
+
     styleElement.innerHTML = `
-      /* --- 1. 基础清理 --- */
+      /* --- 基础清理 --- */
       .nightowl-light body,
       .nightowl-light .nightowl-inverted {
         filter: none !important;
       }
       
-      /* --- 2. 暗色模式底板 --- */
+      /* --- 暗色模式底板 --- */
       .nightowl-dark body {
         background-color: #111 !important;
-        /* 保持 body 无滤镜，确保 fixed 元素定位准确 */
       }
 
-      /* --- 3. 核心滤镜 (只给被 JS 选中的元素加) --- */
+      /* --- 核心滤镜 --- */
       .nightowl-inverted {
         filter: invert(100%) hue-rotate(20deg);
-        /* 不加 background-color，防止出现白块 */
       }
       
-      /* --- 4. 图片/视频还原 (参数：brightness 1.6) --- */
-      .nightowl-inverted img, 
-      .nightowl-inverted video, 
-      .nightowl-inverted iframe, 
-      .nightowl-inverted .custom-cover-layer, 
-      .nightowl-inverted .nightowl-daylight {
+      /* --- 动态生成的还原列表 (图片/视频/Plyr) --- */
+      ${restoreSelectorString} {
         filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.1) brightness(1.6);
         opacity: 0.8;
       }
 
-      /* --- 5. .feature 区域还原 (参数：brightness 1.0) --- */
+      /* --- 单独微调 feature (保持你原来的亮度 1) --- */
       .nightowl-inverted .feature {
-        filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.1) brightness(1);
-        opacity: 0.8;
+        filter: invert(100%) hue-rotate(340deg) contrast(1.1) saturate(1.1) brightness(1) !important;
       }
 
-      /* --- 6. 视频全屏修复 --- */
+      /* --- 全屏/视频修复 --- */
       .nightowl-inverted video:fullscreen,
       .nightowl-inverted video:-webkit-full-screen,
       .nightowl-inverted .plyr:fullscreen video,
       .nightowl-inverted .plyr:-webkit-full-screen video,
-      .nightowl-inverted .plyr:fullscreen .custom-cover-layer,
-      .nightowl-inverted .plyr:-webkit-full-screen .custom-cover-layer {
+      .nightowl-inverted .plyr--fullscreen-active {
         filter: none !important;
         opacity: 1;
       }
 
-      /* --- 7. 文本与代码细节 --- */
+      /* --- 文本细节 --- */
       .nightowl-inverted h1, .nightowl-inverted h2, .nightowl-inverted h3, 
       .nightowl-inverted h4, .nightowl-inverted h5, .nightowl-inverted h6, 
       .nightowl-inverted p, .nightowl-inverted strong, .nightowl-inverted a, 
@@ -75,30 +134,19 @@
         filter: brightness(0.6);
       }
 
-      .nightowl-inverted pre {
-        filter: invert(6%);
-      }
-
-      .nightowl-inverted li::marker {
-        color: #666;
-      }
+      .nightowl-inverted pre { filter: invert(6%); }
+      .nightowl-inverted li::marker { color: #666; }
     `;
     document.head.appendChild(styleElement);
   }
 
-  // --- JS 逻辑：严格排除 Hypothesis ---
-  
   function toggleInvertedClass(enable) {
     const children = document.body.children;
     for (let i = 0; i < children.length; i++) {
       const child = children[i];
-      const tag = child.tagName.toLowerCase();
-
-      // 1. 排除非视觉标签
-      if (['script', 'style', 'link', 'meta', 'title'].includes(tag)) continue;
-
-      // 2. 核心：如果标签名是以 hypothesis 开头的，彻底跳过，不碰它
-      // if (tag.startsWith('hypothesis')) continue; 111
+      
+      // 使用新的配置函数判断是否跳过
+      if (shouldSkipElement(child)) continue;
       
       if (enable) {
         child.classList.add('nightowl-inverted');
@@ -129,15 +177,14 @@
 
   function saveThemeState() {
     if (!localStorageAvailable) return;
-    try { localStorage.setItem(STORAGE_KEY, currentTheme); } catch (e) {}
+    try { localStorage.setItem(CONFIG.storageKey, currentTheme); } catch (e) {}
   }
 
   document.addEventListener("DOMContentLoaded", () => {
     addNightOwlStyles();
     
-    // 初始加载检查
     try {
-      if (localStorage.getItem(STORAGE_KEY) === DARK_THEME || document.documentElement.classList.contains("nightowl-dark")) {
+      if (localStorage.getItem(CONFIG.storageKey) === DARK_THEME || document.documentElement.classList.contains("nightowl-dark")) {
          toggleInvertedClass(true);
       }
     } catch(e) {}
@@ -150,16 +197,13 @@
       });
     }
     
-    // 监听器：同样需要严格排除 hypothesis
+    // 监听器：使用相同的判断逻辑
     const observer = new MutationObserver((mutations) => {
        if (document.documentElement.classList.contains("nightowl-dark")) {
          mutations.forEach((mutation) => {
            mutation.addedNodes.forEach((node) => {
-             // 仅处理元素节点
              if (node.nodeType === 1) {
-               const tag = node.tagName.toLowerCase();
-               // 排除列表：脚本、样式、以及 hypothesis 组件
-               if (!['script', 'style', 'link'].includes(tag) && !tag.startsWith('hypothesis11111')) {
+               if (!shouldSkipElement(node)) {
                  node.classList.add('nightowl-inverted');
                }
              }
