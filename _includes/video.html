@@ -2,8 +2,9 @@
      Jekyll Video Include (Plyr Ultimate Final v3)
      Fixed: 
      1. iOS/PC 全屏/非全屏 宽高比完美一致 (video width 100%, cover contain)
-     2. 封面消失动画优化：1.5s 缓入缓出 (ease-in-out)，实现电影级无缝切换
+     2. 封面消失动画优化：1.5s 缓入缓出
      3. 包含倍速、画中画，中文汉化，自动封面逻辑
+     4. [新增] 自动开启视频内嵌字幕 (需浏览器支持该格式内嵌字幕)
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
@@ -12,13 +13,12 @@
      style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
     
     <!-- 1. Video 标签 -->
+    <!-- 注意：crossorigin 属性有时对于加载字幕是必须的，视服务器配置而定 -->
     <video playsinline controls preload="metadata" style="width: 100%; height: 100%;">
         <source src="{{ include.url }}" type="video/mp4">
     </video>
 
     <!-- 2. 封面层 -->
-    <!-- [动画优化]: transition 改为 1.5s ease-in-out -->
-    <!-- [比例优化]: background-size: contain 确保全屏不裁切 -->
     <div class="custom-cover-layer" 
          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
                 background-size: contain; background-repeat: no-repeat; background-color: #000;
@@ -88,21 +88,32 @@
 
             if (!videoEl || !coverLayer) return;
 
+            // --- 核心修改部分 Start ---
             var player = new Plyr(videoEl, {
+                // 1. 在控件列表中加入 'captions'
                 controls: [
                     'play-large', 'play', 'progress', 'current-time', 
-                    'mute', 'volume', 'settings', 'pip', 'fullscreen'
+                    'mute', 'volume', 'captions', 'settings', 'pip', 'fullscreen'
                 ],
-                settings: ['quality', 'speed', 'loop'],
+                // 2. 在设置面板中加入 'captions'
+                settings: ['captions', 'quality', 'speed', 'loop'],
+                // 3. 强制默认开启字幕
+                captions: { 
+                    active: true,   // 默认为开启状态
+                    language: 'auto', 
+                    update: true 
+                },
                 speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] },
                 i18n: {
                     speed: '速度', normal: '正常', quality: '画质',
-                    loop: '循环播放', play: '播放', pause: '暂停', pip: '画中画'
+                    loop: '循环播放', play: '播放', pause: '暂停', pip: '画中画',
+                    captions: '字幕', disabled: '关闭', enabled: '开启' // 汉化字幕相关文本
                 },
                 playsinline: true,
                 resetOnEnd: true,
                 ratio: '16:9' 
             });
+            // --- 核心修改部分 End ---
 
             var moveLayer = function() {
                 if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
