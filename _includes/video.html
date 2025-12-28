@@ -1,24 +1,31 @@
 <!-- ======================================================================
-     Jekyll Video Include (Plyr Ultimate Final v3)
-     Fixed: 
-     1. iOS/PC 全屏/非全屏 宽高比完美一致 (video width 100%, cover contain)
-     2. 封面消失动画优化：1.5s 缓入缓出 (ease-in-out)，实现电影级无缝切换
-     3. 包含倍速、画中画，中文汉化，自动封面逻辑
+     Jekyll Video Include (Plyr Ultimate v5 - Subtitle & Reuse Logic)
+     
+     Updates:
+     1. [重构] URL解析逻辑前置，同时服务于 字幕(VTT) 和 封面(JPG)
+     2. [新增] 自动探测 ./vtt/ 下同名文件并注入 <track>
+     3. [设置] 默认开启字幕，菜单增加字幕开关
+     4. [样式] 字幕字号加大 (知识型视频优化)
+     5. [保留] 原有 iOS 适配、封面缓动、自动宽高比功能
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
      data-video-url="{{ include.url }}" 
      data-delay="{{ include.delay | default: 10 }}" 
-     style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
+     style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; 
+            /* Plyr 原生 CSS 变量覆盖：设置大号字体 */
+            --plyr-font-size-captions: 22px; 
+            --plyr-captions-background: rgba(0,0,0,0.7); 
+            --plyr-captions-text-color: #fff;">
     
     <!-- 1. Video 标签 -->
-    <video playsinline controls preload="metadata" style="width: 100%; height: 100%;">
+    <!-- crossorigin="anonymous" 建议加上，防止跨域导致字幕加载失败 -->
+    <video playsinline controls preload="metadata" crossorigin="anonymous" style="width: 100%; height: 100%;">
         <source src="{{ include.url }}" type="video/mp4">
+        <!-- JS 将在此处动态插入 <track> -->
     </video>
 
     <!-- 2. 封面层 -->
-    <!-- [动画优化]: transition 改为 1.5s ease-in-out -->
-    <!-- [比例优化]: background-size: contain 确保全屏不裁切 -->
     <div class="custom-cover-layer" 
          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
                 background-size: contain; background-repeat: no-repeat; background-color: #000;
@@ -54,7 +61,20 @@
         document.head.appendChild(cssLink);
         
         var style = document.createElement('style');
-        style.innerHTML = '.plyr__controls { z-index: 5 !important; }';
+        // 增加 ::cue 样式覆盖，确保原生或兼容模式下字体也够大
+        style.innerHTML = `
+            .plyr__controls { z-index: 5 !important; }
+            /* 强制字幕样式 */
+            .plyr--full-ui ::cue {
+                font-size: 22px !important;
+                background-color: rgba(0,0,0,0.7) !important;
+            }
+            /* 移动端适当调整，但仍保持清晰 */
+            @media (max-width: 768px) {
+                .plyr-custom-wrapper { --plyr-font-size-captions: 18px !important; }
+                .plyr--full-ui ::cue { font-size: 18px !important; }
+            }
+        `;
         document.head.appendChild(style);
     }
 
@@ -88,22 +108,74 @@
 
             if (!videoEl || !coverLayer) return;
 
+            // ==========================================
+            // [Step A] 解析 URL (变量复用核心)
+            // ==========================================
+            var basePath = null;
+            var fileNameNoExt = null;
+            
+            if (videoUrl) {
+                try {
+                    // 移除 query 参数 (?xxx)
+                    var cleanUrl = videoUrl.split('?')[0];
+                    var parts = cleanUrl.split('/');
+                    var fileNameFull = parts.pop(); // 拿到文件名
+                    
+                    if (fileNameFull) {
+                        var fileNameDecoded = decodeURIComponent(fileNameFull);
+                        // 去掉后缀得到纯文件名
+                        fileNameNoExt = fileNameDecoded.substring(0, fileNameDecoded.lastIndexOf('.'));
+                        basePath = parts.join('/');
+                    }
+                } catch (e) {
+                    console.error('Video path parsing failed:', e);
+                }
+            }
+
+            // ==========================================
+            // [Step B] 注入字幕 (必须在 Plyr 初始化前)
+            // ==========================================
+            if (basePath && fileNameNoExt) {
+                try {
+                    // 构建字幕路径： ./vtt/文件名.vtt
+                    var vttPath = basePath + '/vtt/' + encodeURIComponent(fileNameNoExt) + '.vtt';
+                    
+                    var track = document.createElement('track');
+                    track.kind = 'captions';
+                    track.label = '中文'; // 菜单显示的文字
+                    track.srclang = 'zh';
+                    track.src = vttPath;
+                    track.default = true; // [默认开启] 告诉浏览器默认使用此轨道
+                    
+                    videoEl.appendChild(track);
+                } catch (e) { console.error('Track injection failed:', e); }
+            }
+
+            // ==========================================
+            // [Step C] 初始化 Plyr
+            // ==========================================
             var player = new Plyr(videoEl, {
+                // 增加 'captions' 到控制栏
                 controls: [
                     'play-large', 'play', 'progress', 'current-time', 
-                    'mute', 'volume', 'settings', 'pip', 'fullscreen'
+                    'mute', 'volume', 'captions', 'settings', 'pip', 'fullscreen'
                 ],
-                settings: ['quality', 'speed', 'loop'],
+                // 增加 'captions' 到设置菜单
+                settings: ['captions', 'quality', 'speed', 'loop'],
                 speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] },
+                // 强制配置字幕激活状态
+                captions: { active: true, update: true, language: 'zh' }, 
                 i18n: {
                     speed: '速度', normal: '正常', quality: '画质',
-                    loop: '循环播放', play: '播放', pause: '暂停', pip: '画中画'
+                    loop: '循环播放', play: '播放', pause: '暂停', pip: '画中画',
+                    captions: '字幕', disabled: '关闭', enabled: '开启'
                 },
                 playsinline: true,
                 resetOnEnd: true,
                 ratio: '16:9' 
             });
 
+            // 移动封面层到 Plyr 容器内 (保留原功能)
             var moveLayer = function() {
                 if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
                     player.elements.container.appendChild(coverLayer);
@@ -112,20 +184,20 @@
             moveLayer();
             player.on('ready', moveLayer);
 
-            if (videoUrl) {
+            // ==========================================
+            // [Step D] 加载封面 (复用 Step A 的变量)
+            // ==========================================
+            if (basePath && fileNameNoExt) {
                 try {
-                    var parts = videoUrl.split('?')[0].split('/');
-                    var fileNameFull = parts.pop();
-                    var fileNameDecoded = decodeURIComponent(fileNameFull);
-                    var fileNameNoExt = fileNameDecoded.substring(0, fileNameDecoded.lastIndexOf('.'));
-                    var basePath = parts.join('/');
+                    // 构建封面路径： ./cover/文件名.jpg
                     var coverPath = basePath + '/cover/' + encodeURIComponent(fileNameNoExt) + '.jpg';
-
+                    
                     var img = new Image();
                     img.src = coverPath;
                     img.onload = function() {
                         coverLayer.style.backgroundImage = 'url("' + coverPath + '")';
                         
+                        // 封面缓动逻辑 (保留原功能)
                         player.on('timeupdate', function() {
                             if (player.currentTime > delaySeconds) {
                                 coverLayer.style.opacity = '0';
@@ -135,10 +207,12 @@
                         });
                         player.on('ended', function() { coverLayer.style.opacity = '1'; });
                     };
+                    // 只有图片加载失败才隐藏，不影响视频和字幕
                     img.onerror = function() { coverLayer.style.display = 'none'; };
                 } catch (e) { console.error(e); }
             }
 
+            // 宽高比自适应 (保留原功能)
             player.on('loadedmetadata', function() {
                 if (player.media.videoWidth && player.media.videoHeight) {
                     var ratio = player.media.videoWidth + ' / ' + player.media.videoHeight;
