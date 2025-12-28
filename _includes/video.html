@@ -1,28 +1,21 @@
 <!-- ======================================================================
-     Jekyll Video Include (Plyr Ultimate v5 - Subtitle & Reuse Logic)
+     Jekyll Video Include (Plyr Ultimate v6 - Perfect Subtitles)
      
      Updates:
-     1. [重构] URL解析逻辑前置，同时服务于 字幕(VTT) 和 封面(JPG)
-     2. [新增] 自动探测 ./vtt/ 下同名文件并注入 <track>
-     3. [设置] 默认开启字幕，菜单增加字幕开关
-     4. [样式] 字幕字号加大 (知识型视频优化)
-     5. [保留] 原有 iOS 适配、封面缓动、自动宽高比功能
+     1. [美观] 去除字幕黑底，改为"文字描边+投影"风格 (Netflix风格)
+     2. [响应] 小屏幕/手机端强制大字号 (24px+)
+     3. [全屏] 全屏模式下，字幕随屏幕宽度自动无极缩放
+     4. [复用] 保持了之前的自动加载逻辑
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
      data-video-url="{{ include.url }}" 
      data-delay="{{ include.delay | default: 10 }}" 
-     style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; 
-            /* Plyr 原生 CSS 变量覆盖：设置大号字体 */
-            --plyr-font-size-captions: 22px; 
-            --plyr-captions-background: rgba(0,0,0,0.7); 
-            --plyr-captions-text-color: #fff;">
+     style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
     
     <!-- 1. Video 标签 -->
-    <!-- crossorigin="anonymous" 建议加上，防止跨域导致字幕加载失败 -->
     <video playsinline controls preload="metadata" crossorigin="anonymous" style="width: 100%; height: 100%;">
         <source src="{{ include.url }}" type="video/mp4">
-        <!-- JS 将在此处动态插入 <track> -->
     </video>
 
     <!-- 2. 封面层 -->
@@ -52,7 +45,7 @@
     }
     if (!wrapper) return;
 
-    // 2. 注入 CSS
+    // 2. 注入 CSS (重点修改了这里)
     if (!document.getElementById('plyr-css-cdn')) {
         var cssLink = document.createElement('link');
         cssLink.id = 'plyr-css-cdn';
@@ -61,19 +54,49 @@
         document.head.appendChild(cssLink);
         
         var style = document.createElement('style');
-        // 增加 ::cue 样式覆盖，确保原生或兼容模式下字体也够大
         style.innerHTML = `
             .plyr__controls { z-index: 5 !important; }
-            /* 强制字幕样式 */
+            
+            /* --- 字幕核心样式优化开始 --- */
+            
+            /* 1. 基础样式：去除背景黑块，使用重描边 */
             .plyr--full-ui ::cue {
-                font-size: 22px !important;
-                background-color: rgba(0,0,0,0.7) !important;
+                background-color: transparent !important; /* 去除黑背景 */
+                color: #fff !important;
+                
+                /* 描边黑影效果：上下左右偏移叠加，形成外发光/描边感 */
+                text-shadow: 
+                     2px  0px 1px #000, 
+                    -2px  0px 1px #000, 
+                     0px  2px 1px #000, 
+                     0px -2px 1px #000,
+                     2px  2px 2px rgba(0,0,0,0.8) !important;
+                     
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                font-weight: 600 !important; /* 加粗一点更清晰 */
+                line-height: 1.4 !important;
             }
-            /* 移动端适当调整，但仍保持清晰 */
-            @media (max-width: 768px) {
-                .plyr-custom-wrapper { --plyr-font-size-captions: 18px !important; }
-                .plyr--full-ui ::cue { font-size: 18px !important; }
+
+            /* 2. 默认/窗口模式：强制大字号 */
+            /* 默认给 24px，确保手机/小窗依然很大 */
+            .plyr--full-ui ::cue {
+                font-size: 24px !important;
             }
+
+            /* 3. 全屏模式：随屏幕宽度缩放 */
+            /* 当 Plyr 进入全屏时，会添加 .plyr--fullscreen-active 类 */
+            /* 设置为 4.5vw (视口宽度的 4.5%)，这样 1920 屏幕下字号约为 86px，非常清晰 */
+            .plyr--fullscreen-active ::cue {
+                font-size: 4.5vw !important; 
+            }
+            
+            /* 针对超宽屏幕稍微限制一下最大字号，防止过于夸张 */
+            @media (min-width: 2560px) {
+                .plyr--fullscreen-active ::cue {
+                    font-size: 115px !important; /* 4K屏上限 */
+                }
+            }
+            /* --- 字幕核心样式优化结束 --- */
         `;
         document.head.appendChild(style);
     }
@@ -94,7 +117,7 @@
         document.head.appendChild(jsScript);
     }
 
-    // 4. 初始化逻辑
+    // 4. 初始化逻辑 (保持不变，含自动加载字幕逻辑)
     if (!window.initSinglePlyrVideo) {
         window.initSinglePlyrVideo = function(wrapper) {
             if (wrapper.getAttribute('data-init-done')) return;
@@ -108,63 +131,45 @@
 
             if (!videoEl || !coverLayer) return;
 
-            // ==========================================
-            // [Step A] 解析 URL (变量复用核心)
-            // ==========================================
+            // [Step A] 解析 URL
             var basePath = null;
             var fileNameNoExt = null;
-            
             if (videoUrl) {
                 try {
-                    // 移除 query 参数 (?xxx)
                     var cleanUrl = videoUrl.split('?')[0];
                     var parts = cleanUrl.split('/');
-                    var fileNameFull = parts.pop(); // 拿到文件名
-                    
+                    var fileNameFull = parts.pop();
                     if (fileNameFull) {
                         var fileNameDecoded = decodeURIComponent(fileNameFull);
-                        // 去掉后缀得到纯文件名
                         fileNameNoExt = fileNameDecoded.substring(0, fileNameDecoded.lastIndexOf('.'));
                         basePath = parts.join('/');
                     }
-                } catch (e) {
-                    console.error('Video path parsing failed:', e);
-                }
+                } catch (e) { console.error(e); }
             }
 
-            // ==========================================
-            // [Step B] 注入字幕 (必须在 Plyr 初始化前)
-            // ==========================================
+            // [Step B] 注入字幕
             if (basePath && fileNameNoExt) {
                 try {
-                    // 构建字幕路径： ./vtt/文件名.vtt
                     var vttPath = basePath + '/vtt/' + encodeURIComponent(fileNameNoExt) + '.vtt';
-                    
                     var track = document.createElement('track');
                     track.kind = 'captions';
-                    track.label = '中文'; // 菜单显示的文字
+                    track.label = '中文';
                     track.srclang = 'zh';
                     track.src = vttPath;
-                    track.default = true; // [默认开启] 告诉浏览器默认使用此轨道
-                    
+                    track.default = true; 
                     videoEl.appendChild(track);
-                } catch (e) { console.error('Track injection failed:', e); }
+                } catch (e) { console.error(e); }
             }
 
-            // ==========================================
             // [Step C] 初始化 Plyr
-            // ==========================================
             var player = new Plyr(videoEl, {
-                // 增加 'captions' 到控制栏
                 controls: [
                     'play-large', 'play', 'progress', 'current-time', 
                     'mute', 'volume', 'captions', 'settings', 'pip', 'fullscreen'
                 ],
-                // 增加 'captions' 到设置菜单
                 settings: ['captions', 'quality', 'speed', 'loop'],
                 speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] },
-                // 强制配置字幕激活状态
-                captions: { active: true, update: true, language: 'zh' }, 
+                captions: { active: true, update: true, language: 'zh' },
                 i18n: {
                     speed: '速度', normal: '正常', quality: '画质',
                     loop: '循环播放', play: '播放', pause: '暂停', pip: '画中画',
@@ -175,7 +180,7 @@
                 ratio: '16:9' 
             });
 
-            // 移动封面层到 Plyr 容器内 (保留原功能)
+            // 移动封面
             var moveLayer = function() {
                 if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
                     player.elements.container.appendChild(coverLayer);
@@ -184,20 +189,14 @@
             moveLayer();
             player.on('ready', moveLayer);
 
-            // ==========================================
-            // [Step D] 加载封面 (复用 Step A 的变量)
-            // ==========================================
+            // [Step D] 加载封面
             if (basePath && fileNameNoExt) {
                 try {
-                    // 构建封面路径： ./cover/文件名.jpg
                     var coverPath = basePath + '/cover/' + encodeURIComponent(fileNameNoExt) + '.jpg';
-                    
                     var img = new Image();
                     img.src = coverPath;
                     img.onload = function() {
                         coverLayer.style.backgroundImage = 'url("' + coverPath + '")';
-                        
-                        // 封面缓动逻辑 (保留原功能)
                         player.on('timeupdate', function() {
                             if (player.currentTime > delaySeconds) {
                                 coverLayer.style.opacity = '0';
@@ -207,12 +206,11 @@
                         });
                         player.on('ended', function() { coverLayer.style.opacity = '1'; });
                     };
-                    // 只有图片加载失败才隐藏，不影响视频和字幕
                     img.onerror = function() { coverLayer.style.display = 'none'; };
                 } catch (e) { console.error(e); }
             }
 
-            // 宽高比自适应 (保留原功能)
+            // 宽高比自适应
             player.on('loadedmetadata', function() {
                 if (player.media.videoWidth && player.media.videoHeight) {
                     var ratio = player.media.videoWidth + ' / ' + player.media.videoHeight;
@@ -222,7 +220,6 @@
         };
     }
 
-    // 5. 执行
     if (window.plyrLoaded) {
         window.initSinglePlyrVideo(wrapper);
     } else {
