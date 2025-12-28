@@ -1,11 +1,10 @@
 <!-- ======================================================================
-     Jekyll Video Include (Plyr Ultimate v7 - CSS Class Fix)
+     Jekyll Video Include (Plyr Ultimate v8 - Adaptive Typography)
      
      Fixed:
-     1. [修复] 针对 Plyr 自定义字幕 DOM (.plyr__caption) 进行样式覆盖，
-        解决之前 ::cue 选择器不生效的问题。
-     2. [样式] 完美去除黑底，改为 Netflix 风格的文字描边。
-     3. [缩放] 视口宽度联动：小窗大字，全屏巨字。
+     1. [智能字号] 使用 clamp() 函数，手机端(16px) -> 电脑端(26px) -> 全屏(40px+) 自动平滑过渡
+     2. [全屏优化] 修复了电脑全屏时不放大的问题，全屏时开启独立字号倍率
+     3. [美观] 保持 Netflix 风格无背景描边
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
@@ -13,12 +12,12 @@
      data-delay="{{ include.delay | default: 10 }}" 
      style="width: 100%; margin-bottom: 1.5rem; position: relative; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
     
-    <!-- Video 标签 -->
+    <!-- Video -->
     <video playsinline controls preload="metadata" crossorigin="anonymous" style="width: 100%; height: 100%;">
         <source src="{{ include.url }}" type="video/mp4">
     </video>
 
-    <!-- 封面层 -->
+    <!-- 封面 -->
     <div class="custom-cover-layer" 
          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
                 background-size: contain; background-repeat: no-repeat; background-color: #000;
@@ -45,7 +44,7 @@
     }
     if (!wrapper) return;
 
-    // 2. 注入 CSS (核心修复部分)
+    // 2. 注入 CSS (本次核心修改：智能字号)
     if (!document.getElementById('plyr-css-cdn')) {
         var cssLink = document.createElement('link');
         cssLink.id = 'plyr-css-cdn';
@@ -57,49 +56,46 @@
         style.innerHTML = `
             .plyr__controls { z-index: 5 !important; }
             
-            /* ============================================================
-               字幕样式核心修复
-               目标：覆盖 Plyr 生成的 .plyr__caption span 元素
-               ============================================================ */
-            
-            /* 1. 容器位置与基础字体设置 */
+            /* --- 字幕容器 (负责位置和字号控制) --- */
             .plyr__captions {
                 display: block !important;
-                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
-                /* 默认字号 (手机/小窗口) */
-                font-size: 24px !important; 
-                padding: 20px !important;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+                padding: 10px 20px 20px 20px !important;
+                
+                /* [核心魔法] 
+                   clamp(最小值, 视口宽度百分比, 最大值)
+                   手机端保证不小于16px，电脑窗口模式下随宽度变大直到26px
+                */
+                font-size: clamp(16px, 3vw, 26px) !important; 
+                
+                /* 稍微抬高一点位置，防止挡住进度条 */
+                transform: translateY(-10px);
+                transition: font-size 0.3s ease; /* 字号变化时加个过渡动画 */
             }
 
-            /* 2. 字幕文本本体 (去除黑底，增加描边) */
+            /* --- 全屏模式下的字号覆盖 --- */
+            .plyr--fullscreen-active .plyr__captions {
+                /* 全屏时：最小字号提升到24px，最大允许飙升到64px */
+                font-size: clamp(24px, 4vw, 64px) !important;
+                width: 80% !important; /* 限制宽度，防止字幕太长看不过来 */
+                margin-left: 10% !important;
+            }
+
+            /* --- 字幕文字本体 (负责颜色和描边) --- */
             .plyr__caption {
-                background: transparent !important; /* 关键：去除默认半透明黑底 */
+                background: transparent !important; /* 去除黑底 */
                 color: #fff !important;
                 font-weight: 700 !important;
-                padding: 0 !important;
-                line-height: 1.4 !important;
+                line-height: 1.5 !important;
+                padding: 0 4px !important; /* 文字左右留点呼吸感 */
                 
-                /* 强力文字描边 (模拟 Netflix/Youtube 效果) */
+                /* 究极清晰描边 (Netflix Style) */
                 text-shadow: 
                      2px  0 0 #000, 
                     -2px  0 0 #000, 
                      0  2px 0 #000, 
                      0 -2px 0 #000, 
-                     1px 1px 4px rgba(0,0,0,0.9) !important;
-            }
-
-            /* 3. 全屏模式下自动放大 (响应式核心) */
-            /* Plyr 全屏时会添加 .plyr--fullscreen-active 类 */
-            .plyr--fullscreen-active .plyr__captions {
-                font-size: 4.5vw !important; /* 视口宽度的 4.5%，全屏时字号极大 */
-            }
-
-            /* 4. 原生字幕兜底 (兼容部分特殊情况) */
-            video::cue {
-                background: transparent !important;
-                color: #fff !important;
-                font-size: 24px !important;
-                text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000;
+                     1px 1px 3px rgba(0,0,0,0.8) !important;
             }
         `;
         document.head.appendChild(style);
@@ -135,7 +131,7 @@
 
             if (!videoEl || !coverLayer) return;
 
-            // [解析 URL]
+            // [URL解析]
             var basePath = null;
             var fileNameNoExt = null;
             if (videoUrl) {
@@ -151,7 +147,7 @@
                 } catch (e) { console.error(e); }
             }
 
-            // [注入字幕 Track]
+            // [加载字幕]
             if (basePath && fileNameNoExt) {
                 try {
                     var vttPath = basePath + '/vtt/' + encodeURIComponent(fileNameNoExt) + '.vtt';
@@ -184,7 +180,7 @@
                 ratio: '16:9' 
             });
 
-            // [封面逻辑]
+            // [封面处理]
             var moveLayer = function() {
                 if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
                     player.elements.container.appendChild(coverLayer);
