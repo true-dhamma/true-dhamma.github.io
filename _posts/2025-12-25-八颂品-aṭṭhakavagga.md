@@ -340,56 +340,56 @@ aside: false
 
 （偈颂编号根据 Dines Andersen 和 Helmer Smith 于1913年出版的PTS版。）
 
-#### 从《弥多伽学童所问》
+#### 摘自《弥多伽学童所问》
 
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1050.</span>你若问我苦之起源，<br>我将依我所知为你解说：<br>世间种种形态的苦，<br>皆以缠缚累积为根基而生起。</p>
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1051.</span>无论你善于了知何物，<br>上方、下方、横向或中央，<br>于此等事物中，摒除喜悦与执着，<br>识便不再安住于存在之中。</p>
 
-#### 从《度多迦学童所问》
+#### 摘自《度多迦学童所问》
 
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1068.</span>无论你善于了知何物，<br>上方、下方、横向或中央，<br>了悟此乃世间之执着，<br>莫为这样或那样的存在而造作渴爱。</p>
 
-#### 从《优波私婆学童所问》
+#### 摘自《优波私婆学童所问》
 
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1070.</span>观照空无，具足正念，<br>依于“它不存在”，渡过暴流；<br>舍弃欲望的对象，克制争论，<br>日夜观照渴爱之毁灭。</p>
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1071.</span>对任何欲望的对象皆无贪爱之人，<br>依于空无，舍弃外物，<br>于最高的“想”之解脱中获得自由，<br>他将安住于此，不再追随。</p>
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1072.</span>如火焰被风力所抛，<br>迅速熄灭，不归于任何名相，<br>圣者亦然，从名相之堆中解脱，<br>迅速熄灭，不归于任何名相。</p>
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1073.</span>已熄灭者，无以衡量；<br>可言说他之物，已不复存在；<br>当所有思辨之道皆被移除，<br>所有言说之道亦皆被移除。</p>
 
-#### 从《难陀学童所问》
+#### 摘自《难陀学童所问》
 
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1078.</span>难陀，此间善巧者不说，<br>圣者是因所见、所闻或知识而成；<br>我宣称他们为圣者，他们生活<br>已达平和，无烦恼，无愿望。</p>
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1079.</span>无论何种哲学家与圣洁之人，<br>说纯净是借由所见或所闻，<br>或说纯净是借由道德与戒律，<br>或说纯净是借由种种形态，<br>即便他们于其中自律生活，<br>我宣称他们未曾超越生与老。</p>
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1080.</span>我非宣称所有哲学家与圣洁之人<br>皆为生与老所困；<br>任何在此处已舍弃所见、所闻、所感，<br>及所有道德与戒律，<br>并已舍弃所有种种（修行）形态，<br>彻底了知渴爱，且无缠缚影响之人，<br>我宣称那些人是“已渡过暴流者”。</p>
 
-#### 从《醯摩迦学童所问》
+#### 摘自《醯摩迦学童所问》
 
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1086.</span>醯摩迦，于此，对所见、所闻、所感、所知，<br>于可爱之形态中，<br>去除倾向与贪爱，<br>乃为不灭的寂灭（涅槃）之境。</p>
 
-#### 从《刀提耶学童所问》
+#### 摘自《刀提耶学童所问》
 
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1089.</span>感官之欲不居于其心，<br>渴爱不存于其身，<br>已超越犹豫不决之人——<br>对他而言，此外再无自由。</p>
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1090.</span>他无愿望，亦不期盼（任何事物）；<br>他满是理解，亦不培养理解；<br>刀提耶，你当如此识得圣者，<br>一无所有，不着于感官与存在。</p>
 
-#### 从《迦都迦尼学童所问》
+#### 摘自《迦都迦尼学童所问》
 
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1098.</span>摒除对欲望对象的贪婪，<br>视出离为安稳之境；<br>愿你无一物存在，<br>无论是被执取或被舍弃。</p>
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1099.</span>凡是以前的，让它枯萎；<br>此后，莫让你有任何事物；<br>若于当下你将不执取，<br>你将平和地度过此生。</p>
 
-#### 从《跋陀罗弗陀学童所问》
+#### 摘自《跋陀罗弗陀学童所问》
 
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1103.</span>摒除所有对获取的渴爱，<br>上方、下方、横向或中央，<br>因世人所执取之物，<br>魔罗便藉此追随于人。</p>
 
-#### 从《优陀延学童所问》
+#### 摘自《优陀延学童所问》
 
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1106.</span>舍弃对感官的倾向，<br>及心之不悦，二者皆然，<br>并驱散懒惰，<br>并防止懊悔……</p>
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1107.</span>……及完全纯净的舍与正念，<br>以正道之思量为先导——<br>我宣称此为以知识解脱，<br>为无明之破裂。</p>
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1108.</span>对内在或外在的感受/感觉，<br>皆不喜悦之人，<br>如此正念行事之人，<br>识便止息。</p>
 
-#### 从《波娑罗学童所问》
+#### 摘自《波娑罗学童所问》
 
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1115.</span>了知空无之始，<br>便理解“喜悦是束缚”；<br>如此真正了知之后，<br>他便于其中得见洞察；<br>此乃那已完成所应为之事的<br>圣洁之人的真实知识。</p>
 
-#### 从《目伽罗阇学童所问》
+#### 摘自《目伽罗阇学童所问》
 
 <p style="margin-left: 4em; text-indent: -4em;"><span style="display: inline-block; width: 4em; text-align: right; padding-right: 0.5em; box-sizing: border-box;">1119.</span>目伽罗阇，当恒常正念，<br>从空的角度看待世界；<br>驱散自我之见，<br>如此便能超越死亡；<br>如此看待世界之人，<br>死王亦不能见。</p>

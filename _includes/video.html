@@ -1,11 +1,11 @@
 <!-- ======================================================================
-     Jekyll Video Include (Plyr Ultimate v9 - PC Fullscreen Fixed)
+     Jekyll Video Include (Plyr Ultimate v10 - JS Event Driven)
      
      Fixed:
-     1. [优先级修复] 彻底解决了 PC 全屏字号不放大的问题 (通过增加 CSS 选择器权重)。
-     2. [全屏逻辑] PC 全屏时，字号设定为视口宽度的 5.5% (1080P屏幕下约100px)，巨清晰。
-     3. [窗口逻辑] 非全屏状态下，最大字号限制在 28px，保持精致。
-     4. [兼容性] 完美保留了手机端适配和 Netflix 风格描边。
+     1. [全屏强制] 放弃依赖 Plyr CSS 类，改用 JS 监听全屏事件，手动切换类名。
+        - 确保 PC 全屏时，字号强制变为视口宽度的 5% (巨大且清晰)。
+     2. [普通模式] 优化了窗口模式下的显示，最大限制在 24px，避免遮挡。
+     3. [字幕加载] 保持之前的自动加载 VTT 逻辑。
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
@@ -44,7 +44,7 @@
     }
     if (!wrapper) return;
 
-    // --- CSS 核心修复区 ---
+    // --- 1. 注入 CSS (配合 JS 类名切换) ---
     if (!document.getElementById('plyr-css-cdn')) {
         var cssLink = document.createElement('link');
         cssLink.id = 'plyr-css-cdn';
@@ -56,58 +56,43 @@
         style.innerHTML = `
             .plyr__controls { z-index: 5 !important; }
             
-            /* ==========================================================================
-               1. 基础模式 (手机 / PC 网页窗口)
-               规则：最小 16px，最大 28px。确保在普通浏览时不会太大。
-               ========================================================================== */
+            /* [通用] 字幕容器 */
             .plyr__captions {
                 display: block !important;
-                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+                font-family: system-ui, -apple-system, sans-serif !important;
                 padding: 10px 0 20px 0 !important;
                 transform: translateY(-5px);
-                transition: font-size 0.2s ease;
-                
-                /* 基础字号：根据容器宽度轻微变化，但封顶 28px */
-                font-size: clamp(16px, 4vw, 28px) !important;
+                transition: font-size 0.2s ease; /* 丝滑过渡 */
             }
 
-            /* ==========================================================================
-               2. 全屏模式 (重中之重)
-               规则：使用多重类名 (.plyr--full-ui.plyr--fullscreen-active) 提高权重。
-               字号：改为 5.5vw (视口宽度的 5.5%)。
-               举例：1920px 宽屏幕 -> 字号约为 105px (非常大且清晰)。
-               ========================================================================== */
-            div.plyr--full-ui.plyr--fullscreen-active .plyr__captions {
-                font-size: 5.5vw !important; /* 强制覆盖基础设置 */
+            /* [状态 A: 普通窗口模式] */
+            /* 手机上保证最小 18px，电脑窗口最大 24px */
+            .plyr-custom-wrapper .plyr__captions {
+                font-size: clamp(18px, 3vw, 24px) !important;
+            }
+
+            /* [状态 B: 全屏模式 (由 JS 触发)] */
+            /* 只要 wrapper 上有 is-fullscreen-mode 类，字号强制变为屏幕宽度的 5% */
+            /* 1920px 屏幕 -> 96px 字号 */
+            .plyr-custom-wrapper.is-fullscreen-mode .plyr__captions {
+                font-size: 5vw !important; 
                 width: 90% !important;
                 left: 5% !important;
-                bottom: 5% !important;
-                padding: 0 !important;
+                bottom: 8% !important; /* 全屏时稍微抬高，避开底部进度条 */
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.9); /* 加重投影 */
             }
 
-            /* 针对超大 4K 屏幕的上限保护，防止字大到遮住整个画面 */
-            @media (min-width: 2500px) {
-                div.plyr--full-ui.plyr--fullscreen-active .plyr__captions {
-                    font-size: 100px !important;
-                }
-            }
-
-            /* ==========================================================================
-               3. 字幕本体样式 (Netflix 风格描边)
-               ========================================================================== */
+            /* [通用] 字幕文字本体 (无背景，Netflix 描边) */
             .plyr__caption {
                 background: transparent !important;
                 color: #fff !important;
                 font-weight: 700 !important;
                 line-height: 1.3 !important;
                 padding: 0 4px !important;
-                
-                /* 强力描边 */
                 text-shadow: 
                      2px  0 0 #000, -2px  0 0 #000, 
                      0  2px 0 #000,  0 -2px 0 #000, 
-                     2px  2px 0 #000, -2px -2px 0 #000, /* 增加斜向描边，更圆润 */
-                     1px 1px 5px rgba(0,0,0,0.9) !important;
+                     1px 1px 4px rgba(0,0,0,1) !important;
             }
         `;
         document.head.appendChild(style);
@@ -141,7 +126,7 @@
 
             if (!videoEl || !coverLayer) return;
 
-            // [Step A: 解析 URL]
+            // [URL 解析]
             var basePath = null;
             var fileNameNoExt = null;
             if (videoUrl) {
@@ -157,7 +142,7 @@
                 } catch (e) { console.error(e); }
             }
 
-            // [Step B: 注入字幕]
+            // [加载字幕]
             if (basePath && fileNameNoExt) {
                 try {
                     var vttPath = basePath + '/vtt/' + encodeURIComponent(fileNameNoExt) + '.vtt';
@@ -171,7 +156,7 @@
                 } catch (e) { console.error(e); }
             }
 
-            // [Step C: 初始化 Plyr]
+            // [初始化 Plyr]
             var player = new Plyr(videoEl, {
                 controls: [
                     'play-large', 'play', 'progress', 'current-time', 
@@ -190,6 +175,32 @@
                 ratio: '16:9' 
             });
 
+            // ============================================================
+            // 2. 核心修复逻辑：JS 事件监听
+            // ============================================================
+            
+            // 当进入全屏时，给 Wrapper 加一个类名
+            player.on('enterfullscreen', function() {
+                wrapper.classList.add('is-fullscreen-mode');
+            });
+
+            // 当退出全屏时，移除该类名
+            player.on('exitfullscreen', function() {
+                wrapper.classList.remove('is-fullscreen-mode');
+            });
+
+            // 补充：双击播放器区域有时也会触发，确保同步
+            wrapper.addEventListener('dblclick', function() {
+                setTimeout(function() {
+                    if (player.fullscreen.active) {
+                        wrapper.classList.add('is-fullscreen-mode');
+                    } else {
+                        wrapper.classList.remove('is-fullscreen-mode');
+                    }
+                }, 100);
+            });
+
+            // [封面逻辑]
             var moveLayer = function() {
                 if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
                     player.elements.container.appendChild(coverLayer);
@@ -198,7 +209,6 @@
             moveLayer();
             player.on('ready', moveLayer);
 
-            // [Step D: 封面]
             if (basePath && fileNameNoExt) {
                 try {
                     var coverPath = basePath + '/cover/' + encodeURIComponent(fileNameNoExt) + '.jpg';
