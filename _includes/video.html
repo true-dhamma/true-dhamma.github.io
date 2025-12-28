@@ -1,10 +1,11 @@
 <!-- ======================================================================
-     Jekyll Video Include (Plyr Ultimate v8 - Adaptive Typography)
+     Jekyll Video Include (Plyr Ultimate v9 - PC Fullscreen Fixed)
      
      Fixed:
-     1. [智能字号] 使用 clamp() 函数，手机端(16px) -> 电脑端(26px) -> 全屏(40px+) 自动平滑过渡
-     2. [全屏优化] 修复了电脑全屏时不放大的问题，全屏时开启独立字号倍率
-     3. [美观] 保持 Netflix 风格无背景描边
+     1. [优先级修复] 彻底解决了 PC 全屏字号不放大的问题 (通过增加 CSS 选择器权重)。
+     2. [全屏逻辑] PC 全屏时，字号设定为视口宽度的 5.5% (1080P屏幕下约100px)，巨清晰。
+     3. [窗口逻辑] 非全屏状态下，最大字号限制在 28px，保持精致。
+     4. [兼容性] 完美保留了手机端适配和 Netflix 风格描边。
      ====================================================================== -->
 
 <div class="plyr-custom-wrapper" 
@@ -17,7 +18,7 @@
         <source src="{{ include.url }}" type="video/mp4">
     </video>
 
-    <!-- 封面 -->
+    <!-- Cover -->
     <div class="custom-cover-layer" 
          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
                 background-size: contain; background-repeat: no-repeat; background-color: #000;
@@ -29,7 +30,6 @@
 
 <script>
 (function() {
-    // 1. 查找 Wrapper
     var currentScript = document.currentScript;
     var wrapper = null;
     if (currentScript) {
@@ -44,7 +44,7 @@
     }
     if (!wrapper) return;
 
-    // 2. 注入 CSS (本次核心修改：智能字号)
+    // --- CSS 核心修复区 ---
     if (!document.getElementById('plyr-css-cdn')) {
         var cssLink = document.createElement('link');
         cssLink.id = 'plyr-css-cdn';
@@ -56,52 +56,63 @@
         style.innerHTML = `
             .plyr__controls { z-index: 5 !important; }
             
-            /* --- 字幕容器 (负责位置和字号控制) --- */
+            /* ==========================================================================
+               1. 基础模式 (手机 / PC 网页窗口)
+               规则：最小 16px，最大 28px。确保在普通浏览时不会太大。
+               ========================================================================== */
             .plyr__captions {
                 display: block !important;
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-                padding: 10px 20px 20px 20px !important;
+                padding: 10px 0 20px 0 !important;
+                transform: translateY(-5px);
+                transition: font-size 0.2s ease;
                 
-                /* [核心魔法] 
-                   clamp(最小值, 视口宽度百分比, 最大值)
-                   手机端保证不小于16px，电脑窗口模式下随宽度变大直到26px
-                */
-                font-size: clamp(16px, 3vw, 26px) !important; 
-                
-                /* 稍微抬高一点位置，防止挡住进度条 */
-                transform: translateY(-10px);
-                transition: font-size 0.3s ease; /* 字号变化时加个过渡动画 */
+                /* 基础字号：根据容器宽度轻微变化，但封顶 28px */
+                font-size: clamp(16px, 4vw, 28px) !important;
             }
 
-            /* --- 全屏模式下的字号覆盖 --- */
-            .plyr--fullscreen-active .plyr__captions {
-                /* 全屏时：最小字号提升到24px，最大允许飙升到64px */
-                font-size: clamp(24px, 4vw, 64px) !important;
-                width: 80% !important; /* 限制宽度，防止字幕太长看不过来 */
-                margin-left: 10% !important;
+            /* ==========================================================================
+               2. 全屏模式 (重中之重)
+               规则：使用多重类名 (.plyr--full-ui.plyr--fullscreen-active) 提高权重。
+               字号：改为 5.5vw (视口宽度的 5.5%)。
+               举例：1920px 宽屏幕 -> 字号约为 105px (非常大且清晰)。
+               ========================================================================== */
+            div.plyr--full-ui.plyr--fullscreen-active .plyr__captions {
+                font-size: 5.5vw !important; /* 强制覆盖基础设置 */
+                width: 90% !important;
+                left: 5% !important;
+                bottom: 5% !important;
+                padding: 0 !important;
             }
 
-            /* --- 字幕文字本体 (负责颜色和描边) --- */
+            /* 针对超大 4K 屏幕的上限保护，防止字大到遮住整个画面 */
+            @media (min-width: 2500px) {
+                div.plyr--full-ui.plyr--fullscreen-active .plyr__captions {
+                    font-size: 100px !important;
+                }
+            }
+
+            /* ==========================================================================
+               3. 字幕本体样式 (Netflix 风格描边)
+               ========================================================================== */
             .plyr__caption {
-                background: transparent !important; /* 去除黑底 */
+                background: transparent !important;
                 color: #fff !important;
                 font-weight: 700 !important;
-                line-height: 1.5 !important;
-                padding: 0 4px !important; /* 文字左右留点呼吸感 */
+                line-height: 1.3 !important;
+                padding: 0 4px !important;
                 
-                /* 究极清晰描边 (Netflix Style) */
+                /* 强力描边 */
                 text-shadow: 
-                     2px  0 0 #000, 
-                    -2px  0 0 #000, 
-                     0  2px 0 #000, 
-                     0 -2px 0 #000, 
-                     1px 1px 3px rgba(0,0,0,0.8) !important;
+                     2px  0 0 #000, -2px  0 0 #000, 
+                     0  2px 0 #000,  0 -2px 0 #000, 
+                     2px  2px 0 #000, -2px -2px 0 #000, /* 增加斜向描边，更圆润 */
+                     1px 1px 5px rgba(0,0,0,0.9) !important;
             }
         `;
         document.head.appendChild(style);
     }
 
-    // 3. 注入 JS
     if (!window.plyrScriptLoading) {
         window.plyrScriptLoading = true;
         window.plyrReadyCallbacks = [];
@@ -117,7 +128,6 @@
         document.head.appendChild(jsScript);
     }
 
-    // 4. 初始化逻辑
     if (!window.initSinglePlyrVideo) {
         window.initSinglePlyrVideo = function(wrapper) {
             if (wrapper.getAttribute('data-init-done')) return;
@@ -131,7 +141,7 @@
 
             if (!videoEl || !coverLayer) return;
 
-            // [URL解析]
+            // [Step A: 解析 URL]
             var basePath = null;
             var fileNameNoExt = null;
             if (videoUrl) {
@@ -147,7 +157,7 @@
                 } catch (e) { console.error(e); }
             }
 
-            // [加载字幕]
+            // [Step B: 注入字幕]
             if (basePath && fileNameNoExt) {
                 try {
                     var vttPath = basePath + '/vtt/' + encodeURIComponent(fileNameNoExt) + '.vtt';
@@ -161,7 +171,7 @@
                 } catch (e) { console.error(e); }
             }
 
-            // [初始化 Plyr]
+            // [Step C: 初始化 Plyr]
             var player = new Plyr(videoEl, {
                 controls: [
                     'play-large', 'play', 'progress', 'current-time', 
@@ -180,7 +190,6 @@
                 ratio: '16:9' 
             });
 
-            // [封面处理]
             var moveLayer = function() {
                 if (player.elements && player.elements.container && coverLayer.parentNode !== player.elements.container) {
                     player.elements.container.appendChild(coverLayer);
@@ -189,6 +198,7 @@
             moveLayer();
             player.on('ready', moveLayer);
 
+            // [Step D: 封面]
             if (basePath && fileNameNoExt) {
                 try {
                     var coverPath = basePath + '/cover/' + encodeURIComponent(fileNameNoExt) + '.jpg';
@@ -209,7 +219,6 @@
                 } catch (e) { console.error(e); }
             }
 
-            // [宽高比]
             player.on('loadedmetadata', function() {
                 if (player.media.videoWidth && player.media.videoHeight) {
                     var ratio = player.media.videoWidth + ' / ' + player.media.videoHeight;
