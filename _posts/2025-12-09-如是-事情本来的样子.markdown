@@ -5,9 +5,9 @@ categories:
   - 阿姜苏美多尊者
   - 南传上座部佛法
   - 西方世界的佛法
-  - 精选
 redirect_from:
-  -
+  - >-
+    /%E9%98%BF%E5%A7%9C%E8%8B%8F%E7%BE%8E%E5%A4%9A%E5%B0%8A%E8%80%85/%E5%8D%97%E4%BC%A0%E4%B8%8A%E5%BA%A7%E9%83%A8%E4%BD%9B%E6%B3%95/%E8%A5%BF%E6%96%B9%E4%B8%96%E7%95%8C%E7%9A%84%E4%BD%9B%E6%B3%95/%E7%B2%BE%E9%80%89/%E5%A6%82%E6%98%AF-%E4%BA%8B%E6%83%85%E6%9C%AC%E6%9D%A5%E7%9A%84%E6%A0%B7%E5%AD%90/
 excerpt: 真正的解脱，并非强求世界如我所愿，而是以智慧和慈悲，全然接纳事情本来的样子。
 feature_image: /uploads/top_banner_fall.jpg
 aside: false
