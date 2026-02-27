@@ -25,6 +25,18 @@ var _hmt = _hmt || [];
 
 <!-- Umami.is tag -->
 <script defer src="https://analytics.true-dhamma.com/script.js" data-website-id="7599ab69-d5dd-4759-9a9a-8cce67a1fe70"></script>
+<script>
+  // 稍微延迟一下，确保 umami 脚本已经加载完毕
+  (function() {
+    var checkUmami = setInterval(function() {
+      if (window.umami && typeof window.umami.track === 'function') {
+        clearInterval(checkUmami);
+        // 发送一个自定义事件，名称叫 "域名分布"，并带上当前网页的真实域名
+        umami.track('域名分布', { domain: window.location.hostname });
+      }
+    }, 200);
+  })();
+</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QKR2G4G79"></script>
