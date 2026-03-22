@@ -51,9 +51,13 @@ redirect_from:
 
 #### **AIPali \| 巴利三藏智能化工程**
 
+> 以科技传承智慧，让经典触手可及。
+
 &nbsp;
 
 <a href="https://aipali.true-dhamma.com" target="_blank"><video width="100%" autoplay loop muted playsinline style="aspect-ratio:16/9;background:#000;cursor:pointer;border-radius:8px;"><source src="https://file.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/AIPali/aipali-demo.mp4" type="video/mp4">您的浏览器不支持 HTML5 视频播放。</video></a>
+
+&nbsp;
 
 * **白话文翻译：**基于VRI巴利三藏底稿，联合元亨寺/菩提僧团、萧式球、庄春江版校对为100%现代白话文
 * **智能化阅读：**依托AI梳理多级标题和法义解析，降低古老经典的阅读门槛
