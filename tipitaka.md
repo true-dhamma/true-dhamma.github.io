@@ -53,8 +53,7 @@ redirect_from:
 
 &nbsp;
 
-<div align="center"><a href="https://aipali.true-dhamma.com" target="_blank" title="点击访问 AIPali"><video width="100%" style="max-width: 800px; border-radius: 12px; shadow: 0 4px 12px rgba(0,0,0,0.1);" autoplay="" loop="" muted="" playsinline="">
-</video></a><source src="https://file.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/AIPali/aipali-demo.mp4" type="video/mp4" /><p></p><p></p><p></p><a href="https://aipali.true-dhamma.com" target="_blank" title="点击访问 AIPali">您的浏览器不支持 HTML5 视频播放。</a><p></p><p style="font-size: 0.9em; color: #666; margin-top: 10px;">👆 点击视频，开启智慧之旅</p></div>
+<a href="https://aipali.true-dhamma.com" target="_blank"><video width="100%" autoplay loop muted playsinline style="aspect-ratio:16/9;background:#000;cursor:pointer;border-radius:8px;"><source src="https://file.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/AIPali/aipali-demo.mp4" type="video/mp4">您的浏览器不支持 HTML5 视频播放。</video></a>
 
 * **白话文翻译：**基于VRI巴利三藏底稿，联合元亨寺/菩提僧团、萧式球、庄春江版校对为100%现代白话文
 * **智能化阅读：**依托AI梳理多级标题和法义解析，降低古老经典的阅读门槛
