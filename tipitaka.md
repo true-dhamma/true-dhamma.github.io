@@ -1,21 +1,22 @@
 ---
 title: 巴利圣典
-date: 2025-08-09 01:00:00 +08:00
+date: 2025-08-09T01:00:00+08:00
 categories:
-- 南传上座部佛法
-excerpt: "《巴利圣典》（Pāḷi Tipiṭaka）被全球公认为现存最古老、最完整的早期佛教经典，其使用的巴利语是与佛陀本人所用方言最接近的语言。这意味着它最大限度地保留了佛陀教诲的原始风貌和精确内涵。其内容源自佛陀入灭后，由大迦叶尊者等五百位亲传弟子首次结集确认，传承谱系清晰、严谨可靠。阅读《巴利圣典》，就是最直接地聆听佛陀的声音。"
+  - 南传上座部佛法
+excerpt: >-
+  《巴利三藏》（Pāḷi
+  Tipiṭaka）被全球公认为现存最古老、最完整的早期佛教经典，其使用的巴利语是与佛陀本人所用方言最接近的语言。这意味着它最大限度地保留了佛陀教诲的原始风貌和精确内涵。其内容源自佛陀入灭后，由大迦叶尊者等五百位亲传弟子首次结集确认，传承谱系清晰、严谨可靠。阅读《巴利圣典》，就是最直接地聆听佛陀的声音。
 feature_text: |-
   ## Pāḷi Tipiṭaka
   遵循佛陀原始的教导
-feature_image: "/uploads/top_banner_tipitaka.jpg"
+feature_image: /uploads/top_banner_tipitaka.jpg
 redirect_from:
-- "/南传上座部佛法/2025/08/09/巴利圣典/"
-- "/南传上座部佛法/2025/08/09/巴利圣典"
+  - /南传上座部佛法/2025/08/09/巴利圣典/
+  - /南传上座部佛法/2025/08/09/巴利圣典
 ---
-
 **《巴利圣典》(Pāḷi Tipiṭaka)：现存最古老、最完整的佛陀教导核心记录**
 
-《巴利圣典》，也被称之为“巴利佛经”、“巴利三藏”或“巴利语大藏经”，是佛教所有派别中，现存历史最悠久、内容最完整且在流传过程中变动最少的早期佛教经典集成。它被国际学术界和世界各地的佛教徒公认为记录佛陀本人核心教导的最权威文献。
+《巴利圣典》，也被称之为“巴利三藏”、“巴利语大藏经”或“巴利佛经”，是佛教所有派别中，现存历史最悠久、内容最完整且在流传过程中变动最少的早期佛教经典集成。它被国际学术界和世界各地的佛教徒公认为记录佛陀本人核心教导的最权威文献。
 
 #### **语言的原始性：最接近佛陀的语言**
 
@@ -48,27 +49,27 @@ redirect_from:
 
 ---
 
-#### **简体中文白话文与巴利语对照《巴利圣典》**
-
-&nbsp;&nbsp;
-
-<div style="display: flex; justify-content: space-around;">
-  <img src="/uploads/tipitaka_snapshot_1.webp" alt="Snapshot 1" width="32%" />
-  <img src="/uploads/tipitaka_snapshot_2.webp" alt="Snapshot 2" width="32%" />
-  <img src="/uploads/tipitaka_snapshot_3.webp" alt="Snapshot 3" width="32%" />
-</div>
+#### **AIPali \| 巴利三藏智能化工程**
 
 &nbsp;
 
-* **全网唯一，带目录的EPUB(推荐)/MOBI/AZW3格式**
-* **全网唯一，完全白话文翻译** \*   **由巴利语重新翻译、与文言文及多个翻译版本对照校对而成**
-* 包含完整经藏、律藏，不含论藏
-* 以[菩提僧团](https://s.yam.com/Bl8XD){: target="_blank" rel="noopener"}翻译的文言文底稿为基础，保留菩提僧团说明
-* **下载：**[\[True-Dhamma网盘\]](https://download.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/){: target="_blank" rel="noopener"}
+<div align="center"><a href="https://aipali.true-dhamma.com" target="_blank" title="点击访问 AIPali"><video width="100%" style="max-width: 800px; border-radius: 12px; shadow: 0 4px 12px rgba(0,0,0,0.1);" autoplay="" loop="" muted="" playsinline="">
+</video></a><source src="https://file.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/AIPali/aipali-demo.mp4" type="video/mp4" /><p></p><p></p><p></p><a href="https://aipali.true-dhamma.com" target="_blank" title="点击访问 AIPali">您的浏览器不支持 HTML5 视频播放。</a><p></p><p style="font-size: 0.9em; color: #666; margin-top: 10px;">👆 点击视频，开启智慧之旅</p></div>
+
+* **白话文翻译：**基于VRI巴利三藏底稿，联合元亨寺/菩提僧团、萧式球、庄春江版校对为100%现代白话文
+* **智能化阅读：**依托AI梳理多级标题和法义解析，降低古老经典的阅读门槛
+* **全藏即时检索：**毫秒级全文搜索，都能迅速定位至经文及段落细节
+* **海量法宝收录：**涵盖《巴利三藏》中完整的经藏（含小部）与律藏（含全部）
+* **穿越千年的互动：**随时向三藏提问，AI 基于三藏文本进行严谨检索与问答（开发中）
+* **AIPali 访问地址：**
+  * [https://aipali.true-dhamma.com](https://aipali.true-dhamma.com)
+  * [https://aipali.github.io](https://aipali.github.io)
 
   &nbsp;
 
-  &nbsp;
+---
+
+&nbsp;
 
 > ##### **更多资源：**
 >
