@@ -55,11 +55,11 @@ redirect_from:
 
 <div><a href="https://aipali.true-dhamma.com" target="_blank"><video width="100%" autoplay="" loop="" muted="" playsinline="" style="aspect-ratio:16/9;background:#fff;cursor:pointer;object-fit:contain;display:block;"></video></a><source src="https://file.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/AIPali/aipali-demo.mp4" type="video/mp4" /><a href="https://aipali.true-dhamma.com" target="_blank">您的浏览器不支持 HTML5 视频播放。</a><p></p></div>
 
-* **白话文翻译：**基于VRI巴利三藏底稿，联合元亨寺/菩提僧团、萧式球、庄春江版校对为100%现代白话文
+* **白话文翻译：**基于VRI（缅甸版）巴利三藏底稿与段落索引，联合元亨寺/菩提僧团、萧式球、庄春江、SuttaCentral英文版对比勘校，翻译成100%现代白话文
 * **智能化阅读：**依托AI梳理多级标题和法义解析，降低古老经典的阅读门槛
 * **全藏即时检索：**毫秒级全文搜索，在数千篇经文中迅速定位到段落细节
 * **海量法宝收录：**涵盖《巴利三藏》中完整的经藏（含小部）与律藏（含全部）
-* **穿越千年的互动：**随时向三藏提问，AI 基于三藏文本进行严谨检索与问答（开发中）
+* **穿越千年的互动：**随时向三藏提问，AI 基于三藏文本进行严谨检索与问答
 * **AIPali 访问地址：**
   * [https://aipali.true-dhamma.com](https://aipali.true-dhamma.com)
   * [https://aipali.github.io](https://aipali.github.io)
