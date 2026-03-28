@@ -53,7 +53,7 @@ redirect_from:
 
 以科技传承智慧，让经典触手可及。
 
-<div><a href="https://aipali.true-dhamma.com" target="_blank"><video width="100%" autoplay loop muted playsinline style="aspect-ratio:16/9;background:#fff;cursor:pointer;object-fit:contain;display:block;"><source src="https://file.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/AIPali/aipali-demo.mp4" type="video/mp4">您的浏览器不支持 HTML5 视频播放。</video></a></div>
+<div><a href="https://aipali.true-dhamma.com" target="_blank"><video width="100%" autoplay="" loop="" muted="" playsinline="" style="aspect-ratio:16/9;background:#fff;cursor:pointer;object-fit:contain;display:block;"></video></a><source src="https://file.true-dhamma.com/%E5%B7%B4%E5%88%A9%E5%9C%A3%E5%85%B8%20Tipitaka/AIPali/aipali-demo.mp4" type="video/mp4" /><a href="https://aipali.true-dhamma.com" target="_blank">您的浏览器不支持 HTML5 视频播放。</a><p></p></div>
 
 * **白话文翻译：**基于VRI巴利三藏底稿，联合元亨寺/菩提僧团、萧式球、庄春江版校对为100%现代白话文
 * **智能化阅读：**依托AI梳理多级标题和法义解析，降低古老经典的阅读门槛
@@ -69,10 +69,7 @@ redirect_from:
 > ##### **更多资源：**
 >
 > * SuttaCentral：[https://suttacentral.net/?lang=zh](https://suttacentral.net/?lang=zh){: target="_blank" rel="noopener"}
-> * Dhamma Talks：[https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html](https://www.dhammatalks.net/suttacentral/sc2016/sc/su.html){: target="_blank" rel="noopener"}
-> * Wikipali 巴利圣典文库：[https://www.wikipali.com/](https://www.wikipali.com/){: target="_blank" rel="noopener"}
-> * 汉译南传大藏经（文言文）：[https://buddhist.laogongshuo.com/](https://buddhist.laogongshuo.com/){: target="_blank" rel="noopener"}
->
->   &nbsp;
+> * SuttaCentral 2016年镜像：[archive.aipali.true-dhamma.com](https://archive.aipali.true-dhamma.com/suttacentral/index.html){: target="_blank" rel="noopener"}
+> * 汉译南传大藏经（元亨寺）：[archive.aipali.true-dhamma.com](https://archive.aipali.true-dhamma.com/yht/index.html){: target="_blank" rel="noopener"}
 >
 > 见到**真正的“法”**（the True Dhamma），就是见到了**真正的“心”**（the True Mind）、见到了**通往涅槃的“道”**（Magga）——前行的路上将不再孤单——在这个世界上，再没有什么比**真实**更有力量的了！
