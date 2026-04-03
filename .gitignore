@@ -4,3 +4,4 @@ _site/
 .jekyll-metadata
 alembic-jekyll-theme-*.gem
 vendor/
+.DS_Store
