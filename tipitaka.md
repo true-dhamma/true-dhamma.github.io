@@ -69,8 +69,8 @@ redirect_from:
 > ##### **更多资源：**
 >
 > * SuttaCentral：[https://suttacentral.net/?lang=zh](https://suttacentral.net/?lang=zh){: target="_blank" rel="noopener"}
-> * SuttaCentral 2016年镜像：[archive.aipali.true-dhamma.com](https://archive.aipali.true-dhamma.com/suttacentral/index.html){: target="_blank" rel="noopener"}
-> * 汉译南传大藏经（元亨寺）：[archive.aipali.true-dhamma.com](https://archive.aipali.true-dhamma.com/yht/index.html){: target="_blank" rel="noopener"}
+> * Dhamma Talks：[http://www.dhammatalks.net/suttacentral/sc2016/sc/su.html](http://www.dhammatalks.net/suttacentral/sc2016/sc/su.html){: target="_blank" rel="noopener"}
+> * 汉译南传大藏经（元亨寺）：[https://buddhist.laogongshuo.com/](https://buddhist.laogongshuo.com/){: target="_blank" rel="noopener"}
 >
 > 见到**真正的“法”**（the True Dhamma），就是见到了**真正的“心”**（the True Mind）、见到了**通往涅槃的“道”**（Magga）——前行的路上将不再孤单——在这个世界上，再没有什么比**真实**更有力量的了！
 
