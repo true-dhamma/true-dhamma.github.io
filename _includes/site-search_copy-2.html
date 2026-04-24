@@ -1,0 +1,166 @@
+<div class="form  form--search">
+  <form id="contact-form" action="" onsubmit="return false;">
+    <label class="label" for="search">Search term:</label>
+    <input class="input" id="search" type="search" name="search" placeholder="例如: 禅定" autocomplete="off" />
+
+    <ul class="list  list--results" id="list">
+    </ul>
+  </form>
+</div>
+
+<style>
+  .item--result mark {
+    background-color: #fcf8e3;
+    padding: 0 3px;
+    border-radius: 3px;
+    color: #8a6d3b;
+    font-weight: bold;
+  }
+</style>
+
+<script type="text/javascript" src="{{ "/assets/scripts/fetch.js" | relative_url }}"></script>
+<script type="text/javascript">
+  const CACHE_DURATION_IN_DAYS = 15;
+
+  const endpoint = '{{ "/assets/search.json" | relative_url }}';
+  const pages = [];
+  const searchDataKey = 'search_json_data';
+  const timestampKey = 'search_json_timestamp';
+  const cacheDuration = CACHE_DURATION_IN_DAYS * 24 * 60 * 60 * 1000;
+
+  function fetchAndCacheData() {
+    console.log('Fetching new search data from server...');
+    fetch(endpoint)
+      .then(blob => {
+        if (!blob.ok) {
+          throw new Error(`HTTP error! status: ${blob.status}`);
+        }
+        return blob.json();
+      })
+      .then(data => {
+        pages.push(...data);
+        try {
+          localStorage.setItem(searchDataKey, JSON.stringify(data));
+          localStorage.setItem(timestampKey, new Date().getTime().toString());
+          console.log('Search data fetched and cached successfully.');
+        } catch (e) {
+          console.error('Error saving search cache:', e);
+        }
+      })
+      .catch(err => console.error('Error fetching or processing search.json:', err));
+  }
+
+  function loadDataFromCache() {
+    try {
+      const cachedData = localStorage.getItem(searchDataKey);
+      const cachedTimestamp = localStorage.getItem(timestampKey);
+      const now = new Date().getTime();
+
+      if (cachedData && cachedTimestamp && (now - parseInt(cachedTimestamp, 10) < cacheDuration)) {
+        const data = JSON.parse(cachedData);
+        pages.push(...data);
+        console.log('Successfully loaded search data from cache.');
+      } else {
+        if (cachedData) {
+            console.log('Search cache expired.');
+        }
+        fetchAndCacheData();
+      }
+    } catch (e) {
+      console.error('Failed to load data from cache. Falling back to network.', e);
+      fetchAndCacheData();
+    }
+  }
+
+  loadDataFromCache();
+
+  function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+      const context = this;
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(context, args), wait);
+    };
+  }
+
+  function findResults(termToMatch, pages) {
+    if (!termToMatch.trim()) {
+      return [];
+    }
+    return pages.filter(item => {
+      const regex = new RegExp(termToMatch, 'gi');
+      const titleMatch = item.title && item.title.match(regex);
+      const contentMatch = item.content && item.content.match(regex);
+      return titleMatch || contentMatch;
+    });
+  }
+
+  function displayResults() {
+    const searchTerm = this.value;
+    const resultsArray = findResults(searchTerm, pages);
+
+    if (resultsArray.length > 0) {
+      const html = resultsArray.map(item => {
+        const regex = new RegExp(searchTerm, 'gi');
+        let finalSnippet = '';
+        let sourceForSnippet = '';
+
+        const contentMatch = item.content && item.content.match(regex);
+        const excerptMatch = item.excerpt && item.excerpt.match(regex);
+
+        if (contentMatch) {
+          sourceForSnippet = item.content;
+        } else if (excerptMatch) {
+          sourceForSnippet = item.excerpt;
+        } else {
+          sourceForSnippet = (item.excerpt && item.excerpt.length > 0) ? item.excerpt : item.content;
+        }
+        
+        if (sourceForSnippet) {
+          const matchInSource = new RegExp(searchTerm, 'gi').exec(sourceForSnippet);
+
+          if (matchInSource) {
+            const keywordIndex = matchInSource.index;
+            const snippetRadius = 70;
+            const startIndex = Math.max(0, keywordIndex - snippetRadius);
+            const endIndex = Math.min(sourceForSnippet.length, keywordIndex + matchInSource[0].length + snippetRadius);
+            finalSnippet = sourceForSnippet.substring(startIndex, endIndex);
+            if (startIndex > 0) finalSnippet = '...' + finalSnippet;
+            if (endIndex < sourceForSnippet.length) finalSnippet = finalSnippet + '...';
+          } else {
+            finalSnippet = sourceForSnippet.substring(0, 150) + '...';
+          }
+        }
+
+        const highlightedSnippet = finalSnippet.replace(regex, `<mark>$&</mark>`);
+        const highlightedTitle = item.title.replace(regex, `<mark>$&</mark>`);
+
+        return `
+          <li class="item  item--result">
+            <article class="article  typeset">
+              <h4><a href="${item.url}">${highlightedTitle}</a></h4>
+              <p>${highlightedSnippet}</p>
+            </article>
+          </li>`;
+      }).join('');
+      resultsList.innerHTML = html;
+
+    } else if (searchTerm.length > 0) {
+      resultsList.innerHTML = `<p>抱歉，没有找到相关内容。</p>`;
+    } else {
+      resultsList.innerHTML = '';
+    }
+  }
+
+  const field = document.querySelector('#search');
+  const resultsList = document.querySelector('#list');
+
+  field.addEventListener('keyup', debounce(displayResults, 500));
+
+  field.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+    }
+  });
+</script>
+<noscript>Please enable JavaScript to use the search form.</noscript>
