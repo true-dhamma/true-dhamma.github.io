@@ -8,40 +8,40 @@
     display: none !important;
   }
 
-  /* 2. 主页面结构：预留顶部和底部的空间 */
+  /* 2. 主页面结构 */
   .search-page-wrapper {
     display: flex;
     flex-direction: column;
-    /* 调整高度，确保能平滑看到恢复的 footer */
-    height: calc(100vh - 280px); 
-    min-height: 550px;
     width: 100%;
+    margin-bottom: 40px; /* 底部留白，方便滚动看 Footer */
   }
 
   .search-trigger-container {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
 
-  /* 直角边框假的搜索框 */
+  /* 假的搜索框：直角、变扁、字变大、恢复高亮交互 */
   .fake-search-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fafafa;
-    border: 1px solid #a8adac; /* 采用 Albemic 的默认边框色彩 */
-    border-radius: 0; /* 彻底移除圆角 */
-    padding: 14px 20px;
-    color: #34495e;
+    background-color: #fcfcfc;
+    border: 1px solid #d1d5da; /* 稍微加深一点基础边框的存在感 */
+    border-radius: 0; /* 保持直角 */
+    padding: 10px 20px; /* 高度缩小 30% */
+    color: #333;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 19px; /* 字号放大 */
     transition: all 0.2s ease;
     width: 100%;
     box-sizing: border-box;
   }
 
+  /* 恢复原来亮眼的高亮效果 */
   .fake-search-box:hover {
-    border-color: #34495e; /* Hover 时加深边框色 */
+    border-color: #0366d6;
     background-color: #fff;
+    box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.1); 
   }
 
   .search-box-left {
@@ -49,44 +49,44 @@
     align-items: center;
   }
 
-  /* 线条感搜索图标与文字间距 */
+  /* 线条感搜索图标，跟随文字放大 */
   .search-box-left svg {
-    width: 20px;
-    height: 20px;
-    margin-right: 18px; /* 加宽间距 */
-    stroke: #a8adac;
+    width: 22px;
+    height: 22px;
+    margin-right: 24px; /* 保持较宽的间距 */
+    stroke: #888;
     transition: stroke 0.2s ease;
   }
   
   .fake-search-box:hover .search-box-left svg {
-    stroke: #34495e;
+    stroke: #0366d6; /* 移入时图标也会变蓝 */
   }
 
-  /* 变得大气方正的快捷键提示 */
+  /* 快捷键提示：变宽绰、加大间距 */
   .fake-search-box .shortcut-key {
-    font-size: 14px;
+    font-size: 15px; /* 字号放大 */
     background-color: transparent;
-    border: 1px solid #a8adac;
-    padding: 4px 10px;
-    border-radius: 0; /* 移除圆角 */
-    color: #a8adac;
+    border: 1px solid #d1d5da;
+    padding: 6px 18px; /* 左右边距拉宽，不再局促 */
+    border-radius: 0; /* 保持直角 */
+    color: #888;
     font-family: "SF Mono", Menlo, Consolas, monospace;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.5px; /* 增加字母间距，让视觉效果更加舒展 */
     transition: all 0.2s ease;
   }
 
   .fake-search-box:hover .shortcut-key {
-    color: #34495e;
-    border-color: #34495e;
+    color: #0366d6;
+    border-color: #0366d6;
   }
 
-  /* FastGPT 容器也是直角 */
+  /* FastGPT 容器：去除生硬方框，设定固定高度 */
   .fastgpt-container {
-    flex-grow: 1;
     width: 100%;
-    border-radius: 0;
-    border: 1px solid #a8adac;
-    overflow: hidden;
+    height: 750px; /* 给予一个相对固定的高比例高度 */
+    max-height: 85vh; /* 确保小屏幕上也不会超出一个屏幕太多 */
+    border: none; /* 去除方框，让 FastGPT 自己的样式露出来 */
+    background: transparent;
   }
 
   .fastgpt-container iframe {
@@ -116,7 +116,7 @@
   .search-modal {
     background-color: #fff;
     width: 100%;
-    max-width: 700px; /* 稍微加宽，使其更大气 */
+    max-width: 700px;
     border-radius: 0; /* 直角 */
     border: 1px solid #a8adac;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
@@ -141,12 +141,11 @@
     background: #fff;
   }
 
-  /* 去除 input 自带的边框，利用 header 的底边框 */
   .search-modal-header input {
     flex-grow: 1;
     border: none !important;
     outline: none !important;
-    font-size: 18px;
+    font-size: 20px; /* 弹窗内搜索字体放大 */
     background: transparent;
     color: #34495e;
     padding: 0;
@@ -157,7 +156,6 @@
     box-shadow: none !important;
   }
 
-  /* 关闭按钮：无背景 hovered 变灰，位置固定的干净叉号 */
   .search-modal-close {
     background: transparent !important;
     border: none;
@@ -183,7 +181,6 @@
     background-color: #fff;
   }
 
-  /* 搜索结果的样式适配 */
   .item--result mark {
     background-color: #fcf8e3;
     padding: 0 3px;
@@ -205,26 +202,30 @@
   }
   .item--result h4 {
     margin: 0 0 5px 0;
-    font-size: 16px;
+    font-size: 18px; /* 结果标题放大 */
   }
   .item--result h4 a {
     text-decoration: none;
-    color: #3A77D8; /* 使用主题的高亮蓝 */
+    color: #3A77D8; 
   }
   .item--result h4 a:hover {
     text-decoration: underline;
   }
   .item--result p {
     margin: 0;
-    font-size: 14px;
-    color: #666;
+    font-size: 15px; /* 结果正文放大 */
+    color: #555;
     line-height: 1.6;
   }
 
   /* 4. 手机端适配 */
   @media (max-width: 768px) {
     .search-page-wrapper {
-      height: calc(100vh - 120px); 
+      margin-bottom: 20px;
+    }
+    .fake-search-box {
+      font-size: 16px;
+      padding: 12px 15px;
     }
     .modal-overlay {
       padding-top: 0;
@@ -248,7 +249,7 @@
   <div class="search-trigger-container">
     <div class="fake-search-box" onclick="openSearchModal()">
       <div class="search-box-left">
-        <!-- 严肃质感的线条放大镜 SVG -->
+        <!-- 线条放大镜 SVG -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
           <circle cx="11" cy="11" r="8"></circle>
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -284,7 +285,6 @@
 
 <script type="text/javascript" src="{{ "/assets/scripts/fetch.js" | relative_url }}"></script>
 <script type="text/javascript">
-  // Mac 和 Win 快捷键文案切换
   document.addEventListener("DOMContentLoaded", () => {
     const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
     const shortcutText = document.querySelector('.shortcut-key');
@@ -293,7 +293,6 @@
     }
   });
 
-  // ========== 原有数据拉取与缓存逻辑 ==========
   const CACHE_DURATION_IN_DAYS = 15;
   const endpoint = '{{ "/assets/search.json" | relative_url }}';
   const pages =[];
@@ -338,7 +337,6 @@
 
   loadDataFromCache();
 
-  // ========== 搜索执行逻辑 ==========
   function debounce(func, wait) {
     let timeout;
     return function(...args) {
@@ -408,13 +406,12 @@
       resultsList.innerHTML = html;
 
     } else if (searchTerm.length > 0) {
-      resultsList.innerHTML = `<p style="padding: 10px 0; color: #999;">抱歉，没有找到相关内容。</p>`;
+      resultsList.innerHTML = `<p style="padding: 10px 0; color: #999; font-size: 16px;">抱歉，没有找到相关内容。</p>`;
     } else {
       resultsList.innerHTML = '';
     }
   }
 
-  // ========== UI 交互与快捷键逻辑 ==========
   const field = document.querySelector('#realSearchInput');
   const resultsList = document.querySelector('#modalResultsList');
 
@@ -441,12 +438,10 @@
   }
 
   document.addEventListener('keydown', function(event) {
-    // Cmd + K 或 Ctrl + K 触发
     if ((event.metaKey || event.ctrlKey) && event.key === 'k') {
       event.preventDefault();
       openSearchModal();
     }
-    // Esc 键关闭
     if (event.key === 'Escape') {
       closeSearchModal();
     }
