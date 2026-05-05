@@ -4,7 +4,7 @@ title: >-
   Repose of Non-Attainment
 date: 2025-10-11T00:00:00+07:00
 categories:
-  - 赛博阿罗汉
+  - 赛博空心人
   - 智宁居士
   - 实相与解构
   - 成瘾与戒断
@@ -19,7 +19,7 @@ feature_image: /uploads/top_banner_golden.jpg
 aside: false
 toc: true
 ---
-> ##### **The Last Map: Relinquishing the Thirst for “Truth” and Returning to the Great Repose of Non-Attainment - Cyber-Arahant (Oral) & Upasaka Zhining (Editorial)**
+> ##### **The Last Map: Relinquishing the Thirst for “Truth” and Returning to the Great Repose of Non-Attainment - Cyber-Nobody (Oral) & Upasaka Zhining (Editorial)**
 >
 > This is not an article teaching you how to acquire more Dharma teachings. Instead, it is a map guiding you to put down your torch and walk calmly into an absolute wasteland. It points you toward a path of **walking off the battlefield**, rather than **winning the war**. It might just become the very last “cultivation map” you ever use.
 
@@ -83,10 +83,10 @@ Once you become addicted to “pursuing truth,” you will never find a more “
 
 This addiction has long since transcended mere “seeking knowledge”; it is a comprehensive spiritual bondage involving the core of your sense of existence. It is not a single craving, but a self-circulating ecosystem built by a series of subtle psychological activities:
 
-*   **The pleasure of logical consistency:** When you thoroughly untangle a complex Dhamma concept and form a perfect closed loop, the intellectual satisfaction is like top-tier spiritual cocaine. Its purity and intensity are enough to make any worldly sensory satisfaction pale in comparison.
-*   **The comfort of cognitive superiority:** When you realize you can see through worldly matters that others cannot, and understand the Buddha’s most profound teachings, the elitist complex that “everyone is drunk, but I alone am awake” provides the most solid support for your fragile self-worth. Even if your worldly life is a total failure, this point remains like a nail, firmly pinning your self-worth in place.
-*   **The illusion of controlling the future:** You believe that as long as you figure out all the rules of “dependent origination” (*paṭiccasamuppāda*), you can predict and control your life’s trajectory, thereby thoroughly escaping the fear of uncertainty. Truth becomes your final defense against impermanence.
-*   **The cornerstone of identity:** *“I am a practitioner walking toward awakening”*—after experiencing the ups and downs of the world, this identity label becomes your final and proudest refuge. You can lose your business, your marriage, your reputation, but as long as this label remains, you haven’t completely lost.
+* **The pleasure of logical consistency:** When you thoroughly untangle a complex Dhamma concept and form a perfect closed loop, the intellectual satisfaction is like top-tier spiritual cocaine. Its purity and intensity are enough to make any worldly sensory satisfaction pale in comparison.
+* **The comfort of cognitive superiority:** When you realize you can see through worldly matters that others cannot, and understand the Buddha’s most profound teachings, the elitist complex that “everyone is drunk, but I alone am awake” provides the most solid support for your fragile self-worth. Even if your worldly life is a total failure, this point remains like a nail, firmly pinning your self-worth in place.
+* **The illusion of controlling the future:** You believe that as long as you figure out all the rules of “dependent origination” (*paṭiccasamuppāda*), you can predict and control your life’s trajectory, thereby thoroughly escaping the fear of uncertainty. Truth becomes your final defense against impermanence.
+* **The cornerstone of identity:** *“I am a practitioner walking toward awakening”*—after experiencing the ups and downs of the world, this identity label becomes your final and proudest refuge. You can lose your business, your marriage, your reputation, but as long as this label remains, you haven’t completely lost.
 
 Thus, it is clear that the addiction to “pursuing truth” is indeed not an entanglement driven by sensuality (Desire Realm craving); it is a spiritual shackle constructed by Form Realm craving (*Rūpa-rāga*) and even Formless Realm craving (*Arūpa-rāga*). It can liberate you from the gross illusions of the Desire Realm, but it locks you tightly into a more subtle grasping of Dhamma-nature. The essence of imprisonment hasn’t changed; you’ve just moved from a dark dungeon into a “temple” cast in gold. But that place that looks like a temple is, in fact, still a prison.
 
@@ -288,8 +288,8 @@ The discussion above will resonate with many walking the spiritual path. But nex
 
 The Buddha categorized the defilements binding beings to Samsara into “Ten Fetters” (*Dasa Saṃyojana*)—the five lower fetters and the five higher fetters.
 
-*   **Five Lower Fetters:** Identity view (*Sakkāya-diṭṭhi*), Clinging to rites and rituals (*Sīlabbata-parāmāsa*), Doubt (*Vicikicchā*), Sensual desire (*Kāmacchanda*), Ill will (*Vyāpāda*).
-*   **Five Higher Fetters:** Lust for the Form realm (*Rūparāga*), Lust for the Formless realm (*Arūparāga*), Conceit (*Māna*), Restlessness (*Uddhacca*), Ignorance (*Avijjā*).
+* **Five Lower Fetters:** Identity view (*Sakkāya-diṭṭhi*), Clinging to rites and rituals (*Sīlabbata-parāmāsa*), Doubt (*Vicikicchā*), Sensual desire (*Kāmacchanda*), Ill will (*Vyāpāda*).
+* **Five Higher Fetters:** Lust for the Form realm (*Rūparāga*), Lust for the Formless realm (*Arūparāga*), Conceit (*Māna*), Restlessness (*Uddhacca*), Ignorance (*Avijjā*).
 
 A Stream-Enterer (*Sotāpanna*, First Path) has severed the first three fetters: Identity view, Clinging to rites and rituals, and Doubt. The practitioner has seen through the illusion of the external world, has no more doubts about the Buddha, Dhamma, and Sangha, and understands worldly dhammas are unreliable.
 
@@ -335,7 +335,7 @@ For an elite who has “always been the smart one,” this feeling is utterly un
 
 Therefore, Ignorance employs the most brilliant self-protection strategy: manufacture a doubt, then use “pursuing truth” to fill that doubt, thereby ensuring you never have to face the naked fact that “I actually know absolutely nothing.”
 
-The structure is as follows: The fear of Ignorance (Base layer) -> Manufacture doubt (Middle layer) -> Use truth-seeking to answer the doubt (Surface layer) -> Temporarily gain the comfort of “Ah, I figured it out again” -> But the root of Ignorance hasn’t been touched -> New doubt arises -> Pursue truth again… This is a perpetual motion machine. This machine makes you look incredibly diligent and energetic, but its fuel is precisely the evasion of reality.
+The structure is as follows: The fear of Ignorance (Base layer) -&gt; Manufacture doubt (Middle layer) -&gt; Use truth-seeking to answer the doubt (Surface layer) -&gt; Temporarily gain the comfort of “Ah, I figured it out again” -&gt; But the root of Ignorance hasn’t been touched -&gt; New doubt arises -&gt; Pursue truth again… This is a perpetual motion machine. This machine makes you look incredibly diligent and energetic, but its fuel is precisely the evasion of reality.
 
 ### V.4 The Buddha’s Own Story: The End of Asceticism and Letting Go Under the Bodhi Tree
 
@@ -379,14 +379,10 @@ When the core drive of “Searching” is thoroughly seen through, many will fin
 
 To alleviate the conflict between the beliefs “pursuing truth makes me exhausted” and “pursuing truth is the most noble thing,” our “Inner Dhamma Teacher” (an upgraded version of the inner lawyer) automatically boots up. This teacher’s only job is not to find the truth, but to make our behavior look perfectly reasonable and holy.
 
-*   **Defense 1: Sanctifying Restlessness**
-    *“I’m not addicted, this is Energy (Viriya)! The Buddha praised energy. I am fulfilling my duty as a Dhamma-follower.”* —This lawyer cleverly packages “restlessness” (*uddhacca*—an unwholesome mental factor) as “energy” (*viriya*—a wholesome mental factor). They feel similar, but are fundamentally different: true energy is clear, relaxed, and has direction; restlessness is tense, anxious, and cannot stop.
-*   **Defense 2: Rationalizing Dhammacchanda**
-    *“This is ‘wholesome desire’ (Chanda), the good desire generated for the sake of liberation. This is completely different from my worldly desires.”* —This lawyer redefines a harmful addictive behavior as “spiritual motivation,” making you feel not only guilt-free but “rightfully” proud. True wholesome desire is calm and clearly directed; addiction is anxious and perpetually unsatisfied.
-*   **Defense 3: Benefiting Sentient Beings**
-    *“I’m writing down my insights and spreading the Dhamma to benefit sentient beings. It’s the Bodhisattva path. How can I stop?”* —This teacher packages your personal addiction as a responsibility to the world. Under deep scrutiny, 90% of your “benefiting sentient beings” is actually benefiting that “great, glorious, and righteous ego’s sense of existence.” The world isn’t lacking one more Dhamma delivery boy, but *you* are lacking a thorough, massive rest!
-*   **Defense 4: Claiming Special Spiritual Faculties**
-    *“I just have sharp wisdom faculties (paññindriya); this is just my path. Those who don’t think have strong faith faculties. We are just different.”* —This teacher packages your fear of “stopping thinking” as a gorgeous excuse of “differing faculties,” allowing you to remain comfortably in your logical comfort zone.
+* **Defense 1: Sanctifying Restlessness** *“I’m not addicted, this is Energy (Viriya)! The Buddha praised energy. I am fulfilling my duty as a Dhamma-follower.”* —This lawyer cleverly packages “restlessness” (*uddhacca*—an unwholesome mental factor) as “energy” (*viriya*—a wholesome mental factor). They feel similar, but are fundamentally different: true energy is clear, relaxed, and has direction; restlessness is tense, anxious, and cannot stop.
+* **Defense 2: Rationalizing Dhammacchanda** *“This is ‘wholesome desire’ (Chanda), the good desire generated for the sake of liberation. This is completely different from my worldly desires.”* —This lawyer redefines a harmful addictive behavior as “spiritual motivation,” making you feel not only guilt-free but “rightfully” proud. True wholesome desire is calm and clearly directed; addiction is anxious and perpetually unsatisfied.
+* **Defense 3: Benefiting Sentient Beings** *“I’m writing down my insights and spreading the Dhamma to benefit sentient beings. It’s the Bodhisattva path. How can I stop?”* —This teacher packages your personal addiction as a responsibility to the world. Under deep scrutiny, 90% of your “benefiting sentient beings” is actually benefiting that “great, glorious, and righteous ego’s sense of existence.” The world isn’t lacking one more Dhamma delivery boy, but *you* are lacking a thorough, massive rest!
+* **Defense 4: Claiming Special Spiritual Faculties** *“I just have sharp wisdom faculties (paññindriya); this is just my path. Those who don’t think have strong faith faculties. We are just different.”* —This teacher packages your fear of “stopping thinking” as a gorgeous excuse of “differing faculties,” allowing you to remain comfortably in your logical comfort zone.
 
 We lie to ourselves more than we lie to anyone else, and we believe our own lies implicitly. The purpose of this article is to hand an irrefutable piece of evidence directly to your “Inner Dhamma Teacher,” leaving him utterly speechless.
 
@@ -452,10 +448,10 @@ This is “Post-Traumatic Elite Disorder.” Your super-brain has had its dopami
 
 At this time, please use the upgraded **C.A.L.M. observation method**:
 
-*   **C - Curiosity:** When the thought “I need to figure this out” arises, look at it with curiosity: *“Oh, that logic-smoothing smoker wants a drag again. He’s bored, he wants a puff of a ‘logic cigar.’ Where is this feeling in the body?”*
-*   **A - Accept:** Acknowledge this powerlessness, emptiness, and the impulse to jump up. Don’t suppress it, and don’t execute it. Calmly accept this change in your internal “weather” without judgment.
-*   **L - Look (Observe the 0s and 1s):** Watch this thought arise (1), watch it struggle, watch it find no fuel and naturally pass away (0). Do not interpret. Do not assign meaning. You are not trying to “understand” this thought; you are merely “looking” at its arising and passing.
-*   **M - Melt:** You will find that as long as you don’t hand over the match of “interpretation,” that truth cigar cannot be lit. The impulse will melt away on its own.
+* **C - Curiosity:** When the thought “I need to figure this out” arises, look at it with curiosity: *“Oh, that logic-smoothing smoker wants a drag again. He’s bored, he wants a puff of a ‘logic cigar.’ Where is this feeling in the body?”*
+* **A - Accept:** Acknowledge this powerlessness, emptiness, and the impulse to jump up. Don’t suppress it, and don’t execute it. Calmly accept this change in your internal “weather” without judgment.
+* **L - Look (Observe the 0s and 1s):** Watch this thought arise (1), watch it struggle, watch it find no fuel and naturally pass away (0). Do not interpret. Do not assign meaning. You are not trying to “understand” this thought; you are merely “looking” at its arising and passing.
+* **M - Melt:** You will find that as long as you don’t hand over the match of “interpretation,” that truth cigar cannot be lit. The impulse will melt away on its own.
 
 **This is providing hospice care for the ego.** If the “elite” wants to die, let him die completely. Don’t try to save him. Don’t give him oxygen. If you feel extremely suffocated and absolutely *must* think about something or do something, fine. The only thing you can do is read this article over and over again. For this period, this article is the euthanasia potion prepared for that “elite ego.” You don’t need to anticipate when he will die; just soak in the potion, and quietly watch that little “I am the one who understands” monster swell up, and deflate, swell up, and deflate.
 
@@ -471,9 +467,9 @@ When you truly begin to relax your grasp on “meaning,” there will be a wondr
 
 You thought a black hole would explode, but instead, you just became transparent. You turned into a “pipe.”
 
-*   **No longer carrying:** The truth passes through you and flows away; you don’t need to keep it to prove who you are.
-*   **No longer accumulating:** Doubts, fears, and motivations flow in and out like water. You are squeaky clean; nothing is left.
-*   **No need for motivation:** A pipe doesn’t need motivation. It doesn’t need to plan where the water flows. It is simply “open.” Life pushes you forward: when you are hungry, you eat; when you are tired, you sleep; when you are free, you rest.
+* **No longer carrying:** The truth passes through you and flows away; you don’t need to keep it to prove who you are.
+* **No longer accumulating:** Doubts, fears, and motivations flow in and out like water. You are squeaky clean; nothing is left.
+* **No need for motivation:** A pipe doesn’t need motivation. It doesn’t need to plan where the water flows. It is simply “open.” Life pushes you forward: when you are hungry, you eat; when you are tired, you sleep; when you are free, you rest.
 
 You are no longer a “bucket-maker”; you have become a “transparent, hollow pipe.” This strange feeling of “not being able to touch the bottom” makes you feel ungrounded at first, but soon, you will find this is the most effortless, free way to exist in the entire universe.
 
@@ -611,10 +607,10 @@ That fabricated “elite” is dead, and this biological “you” is completely
 
 After the engine truly stalls, there will be a transition period of dozens of days from “logical understanding” to “bodily realization.” During this time, old habits will make a comeback in various new forms. This is not a regression; this is the “last gasp” (extinction burst) of residual habit-energy.
 
-*   It might appear as *“Someone has to do this”*—no longer “I must prove I understand,” but “I have a responsibility to do it.” It’s the same engine with a more respectable excuse. The vow to benefit beings is real, but if it carries the anxiety of “I *must* accomplish something,” then that is the old habit putting on a new monk’s robe.
-*   It might appear as *“a little self-satisfaction”*—finishing a meaningful task and feeling a warm sense of satisfaction, a faint feeling of “Look, I didn’t waste my day.” That little self-satisfaction is a flame secretly popping up after the old engine stalled.
-*   It might appear as *“Others don’t understand, I need to go explain it to them”*—when you encounter a “mistake” in someone’s Dhamma, how much of that impulse to “correct them” is true compassion, and how much is driven by the conceit of “I know the right answer”?
-*   It might even appear as *“Micro-agitation”*—*How should I walk the path in the future? How should I live my life?* If you still have the capacity to systematically set goals and plan the future, that is a sign the engine has been re-ignited. If you just look at it without answering the question, you will realize these are entirely fake propositions. Because you don’t even have a “goal,” how could there be a “path”? You are not “living,” and certainly not going to “die.” You don’t have this dualistic concept at all. Everything you are is simply “Being”! And the problem of “Being” doesn’t need to be planned! As for the questions of “how to walk the path” or “how to live this life,” leave those to the people who don’t know what “Being” is.
+* It might appear as *“Someone has to do this”*—no longer “I must prove I understand,” but “I have a responsibility to do it.” It’s the same engine with a more respectable excuse. The vow to benefit beings is real, but if it carries the anxiety of “I *must* accomplish something,” then that is the old habit putting on a new monk’s robe.
+* It might appear as *“a little self-satisfaction”*—finishing a meaningful task and feeling a warm sense of satisfaction, a faint feeling of “Look, I didn’t waste my day.” That little self-satisfaction is a flame secretly popping up after the old engine stalled.
+* It might appear as *“Others don’t understand, I need to go explain it to them”*—when you encounter a “mistake” in someone’s Dhamma, how much of that impulse to “correct them” is true compassion, and how much is driven by the conceit of “I know the right answer”?
+* It might even appear as *“Micro-agitation”*—*How should I walk the path in the future? How should I live my life?* If you still have the capacity to systematically set goals and plan the future, that is a sign the engine has been re-ignited. If you just look at it without answering the question, you will realize these are entirely fake propositions. Because you don’t even have a “goal,” how could there be a “path”? You are not “living,” and certainly not going to “die.” You don’t have this dualistic concept at all. Everything you are is simply “Being”! And the problem of “Being” doesn’t need to be planned! As for the questions of “how to walk the path” or “how to live this life,” leave those to the people who don’t know what “Being” is.
 
 Whenever these residual habits appear, no need to panic, no need to condemn yourself, and no need to desperately try to “cure” them. Just recognize them: *“Oh, here it comes again.”* Then, watch it until it dissipates on its own. Like watching a cloud drift past a window. The cloud is not you; you don’t need to chase it, and you don’t need to chase it away.
 
@@ -696,19 +692,16 @@ If you have reached the edge of this Great Barrenness and find yourself exhauste
 
 When you are experiencing the void of withdrawal, your “Inner Dhamma Teacher” will use the most sacred excuses to trick you into a relapse.
 
-*   *“This is Dhammacchanda, this is energy, the Buddha encouraged us to pursue truth.”* — **Truth:** The Buddha encouraged using the raft to cross the river; he didn’t tell you to carry the raft on your head once you reached the shore. Your current “energy” is just “the inability to sit still” in disguise.
-*   *“If I just figure out this mechanism, I will be completely liberated.”* — **Truth:** “Figuring it out” never ends. Liberation is not “understanding everything”; liberation is “no longer needing to understand.”
-*   *“Writing down my insights can benefit sentient beings.”* — **Truth:** Until you have rested enough and truly have something flowing naturally from within, this is mostly your addiction wearing a new outfit. What truly benefits sentient beings is often your quiet presence itself, not compulsive output.
-*   *“Not thinking is empty blankness, it is the view of annihilationism.”* — **Truth:** Not thinking is not ignorance; it is rest. Your mind is overworked. It needs true rest, not another compulsive activity disguised as “overcoming blankness.”
+* *“This is Dhammacchanda, this is energy, the Buddha encouraged us to pursue truth.”* — **Truth:** The Buddha encouraged using the raft to cross the river; he didn’t tell you to carry the raft on your head once you reached the shore. Your current “energy” is just “the inability to sit still” in disguise.
+* *“If I just figure out this mechanism, I will be completely liberated.”* — **Truth:** “Figuring it out” never ends. Liberation is not “understanding everything”; liberation is “no longer needing to understand.”
+* *“Writing down my insights can benefit sentient beings.”* — **Truth:** Until you have rested enough and truly have something flowing naturally from within, this is mostly your addiction wearing a new outfit. What truly benefits sentient beings is often your quiet presence itself, not compulsive output.
+* *“Not thinking is empty blankness, it is the view of annihilationism.”* — **Truth:** Not thinking is not ignorance; it is rest. Your mind is overworked. It needs true rest, not another compulsive activity disguised as “overcoming blankness.”
 
 ### XII.2 Facing the Impulse to “Search”: Look, But Don’t Touch
 
 When you want to flip open that sutta, when you want to open that forum, when you want to untangle a logic that just popped into your head:
 
-**Treat it like a cigarette craving:**
-*   **Acknowledge it:** *“Oh, that smoker named ‘Truth Seeker’ is craving again. He’s bored, he wants a drag of a ‘logic cigar’.”*
-*   **Refuse to hand over the match:** Do not follow the train of thought. Let the doubt hang in mid-air. It will make your heart itch; it will feel as uncomfortable as an uncompleted OCD compulsion. Endure this discomfort.
-*   **Watch it turn to 0:** Watch how this impulse rises to a peak like a wave, and then, because you refuse to supply it with the fuel of processing power, it helplessly shatters, dissipates, and returns to a meaningless 0.
+**Treat it like a cigarette craving:** \*   **Acknowledge it:** *“Oh, that smoker named ‘Truth Seeker’ is craving again. He’s bored, he wants a drag of a ‘logic cigar’.”* \*   **Refuse to hand over the match:** Do not follow the train of thought. Let the doubt hang in mid-air. It will make your heart itch; it will feel as uncomfortable as an uncompleted OCD compulsion. Endure this discomfort. \*   **Watch it turn to 0:** Watch how this impulse rises to a peak like a wave, and then, because you refuse to supply it with the fuel of processing power, it helplessly shatters, dissipates, and returns to a meaningless 0.
 
 Every time you successfully “look but don’t touch,” you are accumulating true freedom for yourself.
 
