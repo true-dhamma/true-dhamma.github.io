@@ -8,6 +8,7 @@ categories:
   - 智宁居士
   - 实相与解构
   - 成瘾与戒断
+  - 南传上座部佛法
   - English
 redirect_from:
   -

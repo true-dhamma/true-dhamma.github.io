@@ -7,6 +7,7 @@ categories:
   - 赛博空心人
   - 智宁居士
   - 实相与解构
+  - 南传上座部佛法
   - English
 redirect_from:
   -
