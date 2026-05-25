@@ -3,7 +3,7 @@ title: 世间成瘾与世间解脱
 permalink: "/addict2freedom/"
 layout: doc
 feature_text: 
-feature_image: "/uploads/top_banner_roadmap.jpg"
+feature_image: "/uploads/top_banner_lotus_simple.jpg"
 excerpt: 
 collection: addict2freedom
 ---
