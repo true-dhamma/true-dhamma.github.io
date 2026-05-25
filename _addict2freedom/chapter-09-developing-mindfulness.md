@@ -1520,7 +1520,7 @@ Concentration</td>
 
 - **观不了身就修奢摩他：**如果修行者发现，即使是观身，心也依然像**脱缰的野马**，安住不了几秒钟就跑得无影无踪，这说明心已经**严重缺乏定力**，"电量"过低。这时，应该果断地暂停毗婆舍那的"观"，转而全力修习奢摩他（止禅）。找一个单一、固定的所缘，比如鼻尖的呼吸、脚底的接触......持续地**将心安放于此**。不要试图去"观"什么，你的唯一任务就是**让心休息、积聚能量**。只有当心重新恢复了稳定和力量，才能再回头去修习观禅。
 
-这个次第告诉我们，修行需要**智慧和善巧，而非蛮干**。那么，如果连修奢摩他都感觉困难重重，心完全无法集中，那就需要回顾["奢摩他的原理"](chapter-08-introduction-to-samadhi.html#奢摩他的基本原理)，以寻根溯源的理性精神，依次退回到["五盖诸法"](chapter-09-developing-mindfulness.html#五盖诸法)、["防护诸根"](chapter-08-introduction-to-samadhi.html#禅定的前行与防护)、["护卫禅"](chapter-08-introduction-to-samadhi.html#护卫禅)及["护卫禅中的佛法僧随念"](chapter-08-introduction-to-samadhi.html#OLE_LINK712)、["持戒"](chapter-07-generosity-and-precepts.html#持戒)、["布施"](chapter-07-generosity-and-precepts.html#布施)、乃至戒断手机、烟酒等粗糙成瘾......简而言之：
+这个次第告诉我们，修行需要**智慧和善巧，而非蛮干**。那么，如果连修奢摩他都感觉困难重重，心完全无法集中，那就需要回顾["奢摩他的原理"](chapter-08-introduction-to-samadhi.html#奢摩他的基本原理)，以寻根溯源的理性精神，依次退回到["五盖诸法"](chapter-09-developing-mindfulness.html#五盖诸法)、["禅定的前行与防护"](chapter-08-introduction-to-samadhi.html#禅定的前行与防护)、["护卫禅"](chapter-08-introduction-to-samadhi.html#护卫禅)及["护卫禅中的佛法僧随念"](chapter-08-introduction-to-samadhi.html#OLE_LINK712)、["持戒"](chapter-07-generosity-and-precepts.html#持戒)、["布施"](chapter-07-generosity-and-precepts.html#布施)、乃至戒断手机、烟酒等粗糙成瘾......简而言之：
 
 - **对治五盖：**禅定不能生起意味着心被五盖中的某一种或几种严重遮蔽了。此时，可以通过给五盖**"断食"**的方法，来避免心被五盖持续遮蔽；
 
