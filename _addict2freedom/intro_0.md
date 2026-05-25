@@ -1,10 +1,8 @@
 ---
-title: "序言 | 世间成瘾与世间解脱 | 智宁居士"
+title: Intro
 ---
 
-# 序言
-![](./media/image2.jpeg){width="3.536111111111111in"
-height="5.304166666666666in"}
+![](assets/media/image2.jpeg)
 
 世间成瘾与\
 世间解脱
@@ -30,7 +28,6 @@ into a Path of Theravada Practice
 
 Upāsaka Zhining
 
-[]{#OLE_LINK275 .anchor}(Upāsaka Santipaññā)
+<a id="OLE_LINK275"></a>(Upāsaka Santipaññā)
 
 <https://true-dhamma.com>
-
