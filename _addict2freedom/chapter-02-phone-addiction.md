@@ -49,8 +49,8 @@ title: 第二章 手机成瘾
 </tr>
 <tr>
 <td><strong>成瘾对象</strong></td>
-<td><p>手机、PC、Pad、VR</p>
-<p>各类APP、游戏、网站</p></td>
+<td>手机、PC、Pad、VR<br>
+各类APP、游戏、网站</td>
 <td>单一品种的香烟</td>
 </tr>
 <tr>
