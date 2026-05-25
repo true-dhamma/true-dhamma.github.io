@@ -58,6 +58,17 @@ defaults:
     toc: true
 - scope:
     path: ''
+    type: addict2freedom
+  values:
+    layout: doc
+    feature_image: "/uploads/top_banner_book.jpg"
+    feature_text: |-
+      ## 世间成瘾与世间解脱
+      Addicted to the World\: The Buddha\’s Path to Freedom
+    date: 2026-05-25 20:40:00.000000000 Z
+    toc: true
+- scope:
+    path: ''
     type: testbook
   values:
     layout: doc
