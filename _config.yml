@@ -10,8 +10,8 @@ collections:
     title: In the Buddha's Words
     output: true
     permalink: "/:collection/:name.html"
-  testbook:
-    title: Testbook
+  addict2freedom:
+    title: 世间成瘾与世间解脱
     output: true
     permalink: "/:collection/:name.html"
   uploads:
