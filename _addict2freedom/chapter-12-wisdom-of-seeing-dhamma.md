@@ -208,7 +208,7 @@ table {
 }
 table th, table td { 
     border: 1px solid #333 !important; 
-    padding: 0.5rem 0.5rem !important;      
+    padding: 0.2rem 0.6rem !important;      
 }
 </style>
 
