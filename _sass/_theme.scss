@@ -487,12 +487,13 @@ pre code {
 }
 
 // TD - 表格框线
-article table { 
+article table:not(.no-border) { 
     border-collapse: collapse !important; 
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
 }
-article table th, table td { 
+article table:not(.no-border) th, 
+article table:not(.no-border) td { 
     border: 1px solid #333 !important; 
     padding: 0rem 0.6rem !important;      
 }
