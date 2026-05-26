@@ -224,9 +224,7 @@ title: 第十二章 见法的智慧
 <tbody>
 <tr>
 <td rowspan="4"><strong>1</strong></td>
-<td rowspan="4"><p><strong>根尘接触:</strong></p>
-<p><strong>外物</strong></p>
-<p><strong>环境</strong></p></td>
+<td rowspan="4"><strong>根尘接触:<br>外物<br>环境</strong></td>
 <td>活着</td>
 <td>安全感低</td>
 <td>趋利避害</td>
@@ -256,9 +254,7 @@ title: 第十二章 见法的智慧
 </tr>
 <tr>
 <td rowspan="7"><strong>2</strong></td>
-<td rowspan="7"><p><strong>我的：</strong></p>
-<p><strong>有形的身</strong></p>
-<p><strong>无形的身</strong></p></td>
+<td rowspan="7"><strong>我的：<br>有形的身<br>无形的身</strong></td>
 <td>样貌</td>
 <td>衰老疾病</td>
 <td>美容养生</td>
@@ -309,9 +305,7 @@ title: 第十二章 见法的智慧
 </tr>
 <tr>
 <td rowspan="3"><strong>3</strong></td>
-<td rowspan="3"><p><strong>我：</strong></p>
-<p><strong>身-色身</strong></p>
-<p><strong>心-名身</strong></p></td>
+<td rowspan="3"><strong>我：<br>身-色身<br>心-名身</strong></td>
 <td>色身长存</td>
 <td>色身消亡</td>
 <td>长久住世</td>
