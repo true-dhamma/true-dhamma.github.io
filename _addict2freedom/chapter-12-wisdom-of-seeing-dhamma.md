@@ -200,18 +200,6 @@ title: 第十二章 见法的智慧
 
 <a id="OLE_LINK546"></a>
 
-<style>
-article table { 
-    border-collapse: collapse !important; 
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
-}
-article table th, table td { 
-    border: 1px solid #333 !important; 
-    padding: 0rem 0.8rem !important;      
-}
-</style>
-
 <table style="width:99%;">
 <colgroup>
 <col style="width: 4%" />
