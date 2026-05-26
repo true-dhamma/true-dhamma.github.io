@@ -76,10 +76,10 @@ title: 前言
 </tr>
 <tr>
 <td colspan="2"><strong>持戒</strong></td>
-<td><p><a href="chapter-07-generosity-and-precepts.html#持戒">《第七章 布施与持戒》中“持戒”一节</a></p>
-<p><a href="chapter-01-smoking-addiction.html#第一章-吸烟成瘾">《第一章 吸烟成瘾》</a></p>
-<p><a href="chapter-02-phone-addiction.html#第二章-手机成瘾">《第二章 手机成瘾》</a></p>
-<p><a href="chapter-03-addiction-migration.html#第三章-成瘾的迁移">《第三章 成瘾的迁移》</a></p></td>
+<td><a href="chapter-07-generosity-and-precepts.html#持戒">《第七章 布施与持戒》中“持戒”一节</a><br>
+<a href="chapter-01-smoking-addiction.html#第一章-吸烟成瘾">《第一章 吸烟成瘾》</a><br>
+<a href="chapter-02-phone-addiction.html#第二章-手机成瘾">《第二章 手机成瘾》</a><br>
+<a href="chapter-03-addiction-migration.html#第三章-成瘾的迁移">《第三章 成瘾的迁移》</a></td>
 </tr>
 <tr>
 <td rowspan="3"><strong>如理作意</strong></td>
@@ -88,15 +88,15 @@ title: 前言
 </tr>
 <tr>
 <td><strong>欲乐的过患</strong></td>
-<td><p><a href="chapter-04-worldly-addictions.html#第四章-世间成瘾">《第四章 世间成瘾》</a></p>
-<p><a href="chapter-01-smoking-addiction.html#第一章-吸烟成瘾">《第一章 吸烟成瘾》</a></p>
-<p><a href="chapter-02-phone-addiction.html#第二章-手机成瘾">《第二章 手机成瘾》</a></p>
-<p><a href="chapter-03-addiction-migration.html#第三章-成瘾的迁移">《第三章 成瘾的迁移》</a>）</p></td>
+<td><a href="chapter-04-worldly-addictions.html#第四章-世间成瘾">《第四章 世间成瘾》</a><br>
+<a href="chapter-01-smoking-addiction.html#第一章-吸烟成瘾">《第一章 吸烟成瘾》</a><br>
+<a href="chapter-02-phone-addiction.html#第二章-手机成瘾">《第二章 手机成瘾》</a><br>
+<a href="chapter-03-addiction-migration.html#第三章-成瘾的迁移">《第三章 成瘾的迁移》</a>）</td>
 </tr>
 <tr>
 <td><strong>出离的利益</strong></td>
-<td><p><a href="chapter-01-smoking-addiction.html#顿悟时刻">《第一章 吸烟成瘾》中“顿悟时刻”一节</a></p>
-<p><a href="chapter-06-refuge-and-sanctuary.html#第六章-皈依与庇护所">《第六章 皈依与庇护所》</a></p></td>
+<td><a href="chapter-01-smoking-addiction.html#顿悟时刻">《第一章 吸烟成瘾》中“顿悟时刻”一节</a><br>
+<a href="chapter-06-refuge-and-sanctuary.html#第六章-皈依与庇护所">《第六章 皈依与庇护所》</a></td>
 </tr>
 <tr>
 <td colspan="2"><strong>防护诸根</strong></td>
@@ -104,8 +104,8 @@ title: 前言
 </tr>
 <tr>
 <td colspan="2"><strong>正念正知</strong></td>
-<td><p><a href="chapter-09-developing-mindfulness.html#第九章-培育觉性">《第九章 培育觉性》</a></p>
-<p><a href="chapter-01-smoking-addiction.html#借助成瘾培育觉性">《第一章 吸烟成瘾》中“借助成瘾培育觉性”一节</a></p></td>
+<td><a href="chapter-09-developing-mindfulness.html#第九章-培育觉性">《第九章 培育觉性》</a><br>
+<a href="chapter-01-smoking-addiction.html#借助成瘾培育觉性">《第一章 吸烟成瘾》中“借助成瘾培育觉性”一节</a></td>
 </tr>
 <tr>
 <td colspan="2"><strong>知足少欲</strong></td>
@@ -121,8 +121,8 @@ title: 前言
 </tr>
 <tr>
 <td colspan="2"><strong>开发智慧</strong></td>
-<td><p><a href="chapter-03-addiction-migration.html#实例成瘾于未知对象">《第三章 成瘾的迁移》中“成瘾于‘未知对象’”一节</a></p>
-<p><a href="chapter-11-worldly-freedom.html#第十一章-世间解脱">《第十一章 世间解脱》</a></p></td>
+<td><a href="chapter-03-addiction-migration.html#实例成瘾于未知对象">《第三章 成瘾的迁移》中“成瘾于‘未知对象’”一节</a><br>
+<a href="chapter-11-worldly-freedom.html#第十一章-世间解脱">《第十一章 世间解脱》</a></td>
 </tr>
 <tr>
 <td colspan="2"><strong>证悟道果</strong></td>
@@ -130,9 +130,6 @@ title: 前言
 </tr>
 </tbody>
 </table>
-
-
-
 
 ## 修行路线与作者局限 {#修行路线与作者局限}
 
@@ -182,6 +179,8 @@ title: 前言
 
 这本书与你我皆在因缘法则之中，他日，若读者从书中受益，是书之幸；若被读者弃之如敝履，亦书之命。得失随缘，皆是平常。感恩佛陀为世间留下的教诲，也感恩缘分让我们能通过这些文字彼此相识。
 
+---
+
 本书有网页版本、PDF版本和EPUB版本免费流通，感兴趣的读者可访问以下链接进行浏览。
 
 作者网站：
@@ -190,15 +189,18 @@ title: 前言
 
 <https://true-dhamma.github.io>
 
+
 本书专栏页面：
 
 <https://true-dhamma.com/goto?addict2freedom>
 
+
 巴利三藏智能化工程：
 
 <https://aipali.true-dhamma.com>
-
 <https://aipali.github.io>
+
+---
 
 愿各位读者法上增上！
 
