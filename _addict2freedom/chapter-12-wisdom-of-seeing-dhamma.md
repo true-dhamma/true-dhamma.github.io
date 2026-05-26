@@ -199,15 +199,19 @@ title: 第十二章 见法的智慧
 以下这张表格，是三层迷失在心理、行为和价值观层面的具体呈现。修行者可以用它来对照自己当前的状态，定位修行大概所处的阶段：
 
 <a id="OLE_LINK546"></a>
+
 <style>
 table { 
     border-collapse: collapse !important; 
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
 }
 table th, table td { 
-    border: 1px solid #333 !important; /* 深灰色强效边框 */
-    padding: 10px 14px !important;      /* 内边距，让文字与边框有足够间隙 */
+    border: 1px solid #333 !important; 
+    padding: 0.5rem 0.5rem !important;      
 }
 </style>
+
 <table style="width:99%;">
 <colgroup>
 <col style="width: 4%" />
