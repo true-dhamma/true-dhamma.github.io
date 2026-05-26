@@ -194,11 +194,15 @@ title: 前言
 
 <https://true-dhamma.com/goto?addict2freedom>
 
+本书PDF、EPub版本下载
+
+<a href="https://download.true-dhamma.com/%E6%99%BA%E5%AE%81%E5%B1%85%E5%A3%AB/" target="_blank">https://download.true-dhamma.com</a>
 
 巴利三藏智能化工程：
 
-<https://aipali.true-dhamma.com>
-<https://aipali.github.io>
+<a href="https://aipali.true-dhamma.com" target="_blank">https://aipali.true-dhamma.com</a>
+
+<a href="https://aipali.github.io" target="_blank">https://aipali.github.io</a>
 
 ---
 
