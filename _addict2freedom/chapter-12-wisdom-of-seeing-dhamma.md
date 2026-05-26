@@ -200,7 +200,7 @@ title: 第十二章 见法的智慧
 
 <a id="OLE_LINK546"></a>
 
-<table border="1" style="border-collapse: collapse; width: 99%;">
+<table style="border-collapse: collapse; width: 99%; border: 1px solid #ccc;">
 <colgroup>
 <col style="width: 4%" />
 <col style="width: 15%" />
