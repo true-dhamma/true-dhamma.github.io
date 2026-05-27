@@ -6,8 +6,7 @@ categories:
 - 心理学
 - 精选
 redirect_from:
-- "/心理学/2025/08/09/理性康复-rational-recovery/"
-- "/心理学/理性康复-rational-recovery/"
+- 
 excerpt: "《理性康复》介绍“成瘾声音识别技术”。它不视成瘾为疾病，而是由追求快感的内在“成瘾声音”驱动。通过识别并战胜此声音，做出“永不再犯”的决定，即可实现即时、永久的自力更生式康复。"
 feature_text: 
 feature_image: "/uploads/top_banner_addiction.jpg"
