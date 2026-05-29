@@ -10,8 +10,8 @@ collections:
     title: In the Buddha's Words
     output: true
     permalink: "/:collection/:name.html"
-  testbook:
-    title: Testbook
+  addict2freedom:
+    title: 世间成瘾与世间解脱
     output: true
     permalink: "/:collection/:name.html"
   uploads:
@@ -55,6 +55,17 @@ defaults:
       ## 佛陀的言教：巴利圣典选集
       In the Buddha\'s Words\: An Anthology of Discourses from the Pali Canon
     date: 2025-10-10 02:01:00.000000000 Z
+    toc: true
+- scope:
+    path: ''
+    type: addict2freedom
+  values:
+    layout: doc
+    feature_image: "/uploads/top_banner_book.jpg"
+    feature_text: |-
+      ## 世间成瘾与世间解脱
+      Addicted to the World\: The Buddha’s Path to Freedom
+    date: 2026-05-25 20:40:00.000000000 Z
     toc: true
 - scope:
     path: ''
