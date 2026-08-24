@@ -127,7 +127,7 @@ navigation_header:
 - title: 视频
   url: "/video/"
 - title: 文章
-  url: "/blog/"
+  url: "/blog-random/"
 - title: 书籍
   url: "/book/"
 - title: 巴利圣典

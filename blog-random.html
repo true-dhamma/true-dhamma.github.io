@@ -1,0 +1,72 @@
+---
+layout: null
+permalink: /blog-random/
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>正在加载文章...</title>
+  <meta name="robots" content="noindex, follow">
+  
+  <script>
+    (function() {
+      /* =================== 【参数设置区】 =================== */
+      var TOTAL_PAGES = 14;  // 总页数：目前是 14 页
+      var CYCLE_DAYS = 7;    // 轮换周期（天）：比如填 7 代表每 7 天换一页，填 3 代表每 3 天换一页
+      var BASE_URL = '/blog/'; // 博客的基础路径
+      /* ===================================================== */
+
+      try {
+        // 1. 获取从 1970 年至今的总天数（按北京时间 UTC+8 计算，保证全球用户同一时间切页）
+        var now = new Date();
+        var utc8Time = now.getTime() + (now.getTimezoneOffset() * 60000) + (8 * 3600000);
+        var daysSinceEpoch = Math.floor(utc8Time / (1000 * 60 * 60 * 24));
+
+        // 2. 计算当前属于第几个周期，并计算出目标页码 (1 到 TOTAL_PAGES)
+        var cycleIndex = Math.floor(daysSinceEpoch / CYCLE_DAYS);
+        var targetPage = (cycleIndex % TOTAL_PAGES) + 1;
+
+        // 3. 拼接出目标页面的最终 URL
+        // 说明：第 1 页为 /blog/，第 2~14 页为 /blog/page2/ ~ /blog/page14/
+        var targetUrl = BASE_URL;
+        if (targetPage > 1) {
+          targetUrl = BASE_URL + 'page' + targetPage + '/';
+        }
+
+        // 4. 超强兼容、防止后退死循环的跳转方式
+        if (window.location.replace) {
+          window.location.replace(targetUrl);
+        } else {
+          window.location.href = targetUrl;
+        }
+      } catch (e) {
+        // 如果遇到极其老旧的浏览器或报错，默认跳转到博客首页兜底
+        window.location.href = BASE_URL;
+      }
+    })();
+  </script>
+
+  <style>
+    /* 极简样式，几毫秒跳转期间不会出现难看的乱码 */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      color: #666;
+      margin: 0;
+      background-color: #fafafa;
+    }
+    a { color: #0066cc; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <!-- 如果用户手机浏览器禁用了 JavaScript，会展示下面的备用提示 -->
+  <noscript>
+    <p>正在跳转，如果页面没有反应，请 <a href="/blog/">点击这里进入文章列表</a>。</p>
+  </noscript>
+</body>
+</html>
