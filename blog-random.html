@@ -13,43 +13,64 @@ permalink: /blog-random/
   <script>
     (function() {
       /* =================== 【参数设置区】 =================== */
-      var TOTAL_PAGES = 14;  // 总页数：目前是 14 页
-      var CYCLE_DAYS = 3;    // 轮换周期（天）：比如填 7 代表每 7 天换一页，填 3 代表每 3 天换一页
-      var BASE_URL = '/blog/'; // 博客的基础路径
+      var TOTAL_PAGES = 14;    // 总页数：目前是 14 页
+      var CYCLE_DAYS = 3;      // 轮换周期（天）：比如填 3 代表每 3 天轮换一页
+      var BASE_URL = '/blog/'; // 博客的基础路径（末尾有无斜杠均可，代码已做兼容）
       /* ===================================================== */
 
       try {
-        // 1. 获取从 1970 年至今的总天数（按北京时间 UTC+8 计算，保证全球用户同一时间切页）
-        var now = new Date();
-        var utc8Time = now.getTime() + (now.getTimezoneOffset() * 60000) + (8 * 3600000);
-        var daysSinceEpoch = Math.floor(utc8Time / (1000 * 60 * 60 * 24));
+        // 1. 规范化 BASE_URL（去除末尾多余斜杠，统一规范为以 / 结尾）
+        var cleanBaseUrl = BASE_URL.replace(/\/+$/, '') + '/';
 
-        // 2. 计算当前属于第几个周期，并计算出目标页码 (1 到 TOTAL_PAGES)
+        // 2. 参数安全校验（防呆处理）
+        TOTAL_PAGES = Math.max(1, parseInt(TOTAL_PAGES, 10) || 1);
+        CYCLE_DAYS = Math.max(1, parseInt(CYCLE_DAYS, 10) || 1);
+
+        // 3. 计算从 1970-01-01 至今在【北京时间 (UTC+8)】下的天数
+        // 注意：getTime() 获取的是纯正的 UTC 时间戳，直接 +8 小时即可对齐到北京时间
+        var now = new Date();
+        var utc8Milliseconds = now.getTime() + (8 * 60 * 60 * 1000);
+        var daysSinceEpoch = Math.floor(utc8Milliseconds / (24 * 60 * 60 * 1000));
+
+        // 4. 计算当前属于第几个周期，并计算目标页码 (范围: 1 到 TOTAL_PAGES)
         var cycleIndex = Math.floor(daysSinceEpoch / CYCLE_DAYS);
         var targetPage = (cycleIndex % TOTAL_PAGES) + 1;
 
-        // 3. 拼接出目标页面的最终 URL
-        // 说明：第 1 页为 /blog/，第 2~14 页为 /blog/page2/ ~ /blog/page14/
-        var targetUrl = BASE_URL;
-        if (targetPage > 1) {
-          targetUrl = BASE_URL + 'page' + targetPage + '/';
+        // 5. 拼接目标 URL（核心：严格区分第 1 页与其它分页）
+        var targetPath = '';
+        if (targetPage <= 1) {
+          // 第 1 页特殊处理：直接使用首页路径，绝不带 page1
+          targetPath = cleanBaseUrl;
+        } else {
+          // 第 2~TOTAL_PAGES 页：拼接为 /blog/page2/ 等格式
+          targetPath = cleanBaseUrl + 'page' + targetPage + '/';
         }
 
-        // 4. 超强兼容、防止后退死循环的跳转方式
+        // 6. 保留访客可能携带的 Query 参数和 Hash（例如 ?from=xxx 或 #tags）
+        var searchAndHash = (window.location.search || '') + (window.location.hash || '');
+        var finalUrl = targetPath + searchAndHash;
+
+        // 7. 使用 replace 跳转（避免产生后退死循环）
         if (window.location.replace) {
-          window.location.replace(targetUrl);
+          window.location.replace(finalUrl);
         } else {
-          window.location.href = targetUrl;
+          window.location.href = finalUrl;
         }
       } catch (e) {
-        // 如果遇到极其老旧的浏览器或报错，默认跳转到博客首页兜底
-        window.location.href = BASE_URL;
+        // 兜底策略：遇到极端异常，直接回退到博客基础首页
+        var fallbackUrl = (BASE_URL.replace(/\/+$/, '') || '/blog') + '/';
+        window.location.href = fallbackUrl;
       }
     })();
   </script>
 
+  <!-- 针对禁用 JavaScript 环境的秒级自动回退 -->
+  <noscript>
+    <meta http-equiv="refresh" content="0;url=/blog/">
+  </noscript>
+
   <style>
-    /* 极简样式，几毫秒跳转期间不会出现难看的乱码 */
+    /* 极简样式，在毫秒级跳转完成前提供整洁的白屏过渡 */
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       display: flex;
@@ -64,7 +85,6 @@ permalink: /blog-random/
   </style>
 </head>
 <body>
-  <!-- 如果用户手机浏览器禁用了 JavaScript，会展示下面的备用提示 -->
   <noscript>
     <p>正在跳转，如果页面没有反应，请 <a href="/blog/">点击这里进入文章列表</a>。</p>
   </noscript>
