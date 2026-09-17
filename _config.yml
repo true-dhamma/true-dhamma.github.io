@@ -10,6 +10,10 @@ collections:
     title: In the Buddha's Words
     output: true
     permalink: "/:collection/:name.html"
+  sunlunbio:
+    title: 宣隆大师传（缅文直译版）
+    output: true
+    permalink: "/:collection/:name.html"
   addict2freedom:
     title: 世间成瘾与世间解脱
     output: true
@@ -54,6 +58,17 @@ defaults:
     feature_text: |-
       ## 佛陀的言教：巴利圣典选集
       In the Buddha\'s Words\: An Anthology of Discourses from the Pali Canon
+    date: 2025-10-10 02:01:00.000000000 Z
+    toc: true
+- scope:
+    path: ''
+    type: sunlunbio
+  values:
+    layout: doc
+    feature_image: "/uploads/top_banner_book.jpg"
+    feature_text: |-
+      ## 宣隆大师传（缅文直译版）
+      စွန်းလွန်းဆရာတော်ဘုရားကြီး၏ ထေရုပ္ပတ္တိကထာ
     date: 2025-10-10 02:01:00.000000000 Z
     toc: true
 - scope:
