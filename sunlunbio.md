@@ -1,6 +1,6 @@
 ---
-title: 佛陀的言教：巴利圣典选集
-permalink: "/buddhawords/"
+title: 宣隆大师传（缅文直译版）
+permalink: "/sunlunbio/"
 layout: doc
 feature_text: 
 feature_image: "/uploads/top_banner_book.jpg"
