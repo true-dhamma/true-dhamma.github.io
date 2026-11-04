@@ -702,7 +702,11 @@ When you are experiencing the void of withdrawal, your “Inner Dhamma Teacher�
 
 When you want to flip open that sutta, when you want to open that forum, when you want to untangle a logic that just popped into your head:
 
-**Treat it like a cigarette craving:** \*   **Acknowledge it:** *“Oh, that smoker named ‘Truth Seeker’ is craving again. He’s bored, he wants a drag of a ‘logic cigar’.”* \*   **Refuse to hand over the match:** Do not follow the train of thought. Let the doubt hang in mid-air. It will make your heart itch; it will feel as uncomfortable as an uncompleted OCD compulsion. Endure this discomfort. \*   **Watch it turn to 0:** Watch how this impulse rises to a peak like a wave, and then, because you refuse to supply it with the fuel of processing power, it helplessly shatters, dissipates, and returns to a meaningless 0.
+**Treat it like a cigarette craving:**
+
+* **Acknowledge it:** *“Oh, that smoker named ‘Truth Seeker’ is craving again. He’s bored, he wants a drag of a ‘logic cigar’.”*
+* **Refuse to hand over the match:** Do not follow the train of thought. Let the doubt hang in mid-air. It will make your heart itch; it will feel as uncomfortable as an uncompleted OCD compulsion. Endure this discomfort.
+* **Watch it turn to 0:** Watch how this impulse rises to a peak like a wave, and then, because you refuse to supply it with the fuel of processing power, it helplessly shatters, dissipates, and returns to a meaningless 0.
 
 Every time you successfully “look but don’t touch,” you are accumulating true freedom for yourself.
 
