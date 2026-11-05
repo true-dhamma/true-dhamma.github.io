@@ -4,19 +4,21 @@ title: 第二篇：生命是怎样的？ | 佛法 | Buddhadhamma
 
 # 第二篇：生命是怎样的？
 
-> 确实，一切有为法都是无常的，  
-> 它们有生有灭。  
-> 它们生起后即息灭；  
-> 它们的止息是至上的安乐。  
+> 确实，一切有为法无常，  
+> 是生灭法。  
+> 既已生起，便会止息；  
+> 其止息是究竟之乐。
+>
 > Aniccā vata saṅkhārā  
 > uppādavayadhammino  
 > Uppajjitvā nirujjhanti  
 > tesaṁ vūpasamo sukho.  
-> D. II. 199
-> 
-> 诸比丘，一切有为法皆是坏灭法；  
-> 你们当以不放逸，努力成就。  
+> [DN 17 / D ii 199](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-17-mahasudassana/){: target="_blank" rel="noopener"}
+>
+> 诸比丘，一切有为法皆是坏灭法，  
+> 当不放逸以成道业。
+>
 > Vayadhammā saṅkhārā, appamādena sampādetha.  
-> D. II. 120
+> [DN 16 / D ii 120](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}
 
-![image](./includes/images/illustrations/white-garland-decor-black.jpg)
+![image](./images/illustrations/white-garland-decor-black.jpg)

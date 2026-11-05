@@ -4,7 +4,7 @@ title: 尊者阿姜查雅萨罗前言 | 佛法 | Buddhadhamma
 
 # 尊者阿姜查雅萨罗前言
 
-《佛法》是颂德·帕菩陀构萨迦利雅（P. A. Payutto，巴育陀）的辉煌成就，他被公认为当代最杰出的泰国佛教学者。这位尊者的巨著，无疑是二十世纪泰国出版的最重要的佛教学术著作。
+《佛法》是颂德·帕·菩陀构萨迦利雅（P. A. Payutto，巴育陀）的辉煌成就，他被公认为当代最杰出的泰国佛教学者。这位尊者的巨著，无疑是二十世纪泰国出版的最重要的佛教学术著作。
 
 《佛法》丰富而全面地阐述了南传上座部佛法教义。作为一本致力于充分揭示佛陀中道深义的书，该书在不加质疑地接受古代义注的诠释与过于全面地否定其价值之间巧妙地取道中间，正相契合。对于有争议的问题，例如缘起，作者公正地总结了辩论中的各种立场，并留待读者自行决定。书中材料的编排不同于常规，但这种不同是经过深思熟虑的，为作者提供了一个令人满意的框架，将佛陀教法的众多珍宝精美地呈现出来。
 
@@ -16,6 +16,6 @@ title: 尊者阿姜查雅萨罗前言 | 佛法 | Buddhadhamma
 伽那马拉隐修处  
 2016年6月
 
-![image](./includes/images/illustrations/flowers-collection-decor.jpg)
+![image](./images/illustrations/flowers-collection-decor.jpg)
 
-![image](./includes/images/illustrations/bodhi-leaf-jayasaro-foreword-trade.jpg)
+![image](./images/illustrations/bodhi-leaf-jayasaro-foreword-trade.jpg)

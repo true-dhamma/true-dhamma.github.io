@@ -4,15 +4,15 @@ title: 佛法基金会主席 | 佛法 | Buddhadhamma
 
 # 佛法基金会主席
 
-![image](./includes/images/illustrations/reclining-buddha-trade.jpg)
+![image](./images/illustrations/reclining-buddha-trade.jpg)
 
 姓名：Yongyut Thanapura
 
-出生：1951年3月10日，于乌隆他尼府乌隆他尼市，父亲是Ruengrung先生，母亲是Kurab夫人。
+出生：1951年3月10日，于乌隆他尼府乌隆他尼市，父亲是 Ruengrung 先生，母亲是 Kurab 夫人。
 
 ### 教育经历
 
-1968年：曼谷Amnuay Silpa学校高中毕业。
+1968年：曼谷 Amnuay Silpa 学校高中毕业。
 
 1975年：曼谷朱拉隆功大学建筑学院学士学位。
 
@@ -30,34 +30,34 @@ title: 佛法基金会主席 | 佛法 | Buddhadhamma
 
 ### 生活与工作
 
-1977年：创立Tap Kwan有限公司，一家建筑公司；所有者兼董事总经理。
+1977年：创立建筑公司 Tap Kwan 有限公司，任业主兼董事总经理。
 
-1979年：与Pravej Vasri教授博士共同创立并指导《Moh-Chao-Ban》，一本旨在推广自我疗愈和家庭疗法的泰国健康杂志。（1981年，《Moh-Chao-Ban》杂志发展成为Moh-Chao-Ban基金会。）
+1979年：与 Pravej Vasri 教授博士共同创办并主持《Moh-Chao-Ban》，一本旨在推广自我疗愈和家庭疗法的泰国健康杂志。（1981年，《Moh-Chao-Ban》杂志发展成为 Moh-Chao-Ban 基金会。）
 
-1986年：创立Synchai Development有限公司，一家房地产公司；合伙人兼执行委员会成员。
+1986年：创立房地产公司 Synchai Development 有限公司，任合伙人兼执行委员会成员。
 
-1987年：创立佛法基金会，出版并发行佛法书籍，特别是P. A. Payutto尊者所著的书籍；担任主席。
+1987年：创立佛法基金会并任主席，出版、流通法宝书籍，尤其是尊者巴育陀（P. A. Payutto）的著作。
 
-捐赠11莱土地（4.35英亩）用于在佛统府（Nakhon Pathom Province）建造涅槃智觉苑（Wat Nyanavesakavan），由Debvedi尊者（P. A. Payutto）担任住持。在早期开发阶段，协助设计和规划寺院，进行土地填土，并监督建筑工作，包括打桩、停车场、僧侣住所和水塔的建造。
+捐赠11莱土地（4.35英亩）用于在佛统府（Nakhon Pathom Province）建造念慧寺（Wat Nyanavesakavan），由尊者帕·贴威提（Phra Debvedi，即 P. A. Payutto）担任住持。在早期开发阶段，协助设计和规划寺院，填土平整场地，并监督各项工程，包括打桩，以及停车场、僧寮和水塔的建造。
 
-1988年：向宗教事务部提交申请，请求授权涅槃智觉苑为寺院，并于1989年1月11日获得正式授权。
+1988年：向宗教事务部提交申请，申请批准念慧寺成为正式寺院，并于1989年1月11日获得正式授权。
 
-1993年：与Kasetsart大学教育学院副院长Apa Suvarna-apa博士和Bruce Evans先生合作，整理法藏尊者（P. A. Payutto）的生平资料和成就清单，并将其提交给教育部教师培训委员会（现称为Rajabhat研究所），以呈报给联合国教科文组织。因此，法藏尊者（P. A. Payutto）在巴黎荣获联合国教科文组织和平教育奖。
+1993年：与农业大学（Kasetsart University）教育学院副院长 Apa Suvarna-apa 博士和 Bruce Evans 先生合作，整理帕·达摩毗达迦尊者（Phra Dhammapitaka，即 P. A. Payutto）的生平资料和成就清单，并将其提交给教育部教师培训委员会（现称为 Rajabhat 研究所），以呈报给联合国教科文组织。最终，帕·达摩毗达迦尊者在巴黎荣获联合国教科文组织和平教育奖。
 
-1998年：成为世界佛教徒联谊会成员。（总部设在泰国曼谷空堤区（Klong Toey）素坤逸路（Sukhumvit Road）Soi Medhinivet旁的素坤逸24号Benjasiri公园616号，邮编10110。）
+1998年：成为世界佛教徒联谊会成员。（总部设在泰国曼谷空堤区〔Klong Toey〕素坤逸路〔Sukhumvit Road〕Soi Medhinivet 旁的素坤逸24号 Benjasiri 公园616号，邮编10110。）
 
-2002年：与中校Sompone Punyagupta博士（Vichaiyuth医院所有者）合作，成立泰国佛教组织大会。担任秘书长，于2002年至2009年在皇家田（Sanam Luang）组织万佛节庆典，共八年。
+2002年：与中校 Sompone Punyagupta 博士（Vichaiyuth 医院所有者）合作，成立泰国佛教组织大会。担任秘书长，于2002年至2009年在皇家田（Sanam Luang）组织万佛节庆典，共八年。
 
-2004年：与曼谷省级僧伽官员、摩诃寺（Wat Mahathat）住持Phra Depmedhi（Peesucharto尊者）合作，在皇家田（Sanam Luang）组织阿萨哈普迦（Asalha Puja）仪式。协助这项任务三年。
+2004年：与曼谷府僧长、摩诃寺（Wat Mahathat）住持尊者帕·贴梅提（Phra Depmedhi，Peesucharto）合作，在皇家田（Sanam Luang）组织阿萨哈普迦（Asalha Puja）仪式。此项工作协助了三年。
 
 成为国家佛教局印刷厂的委员会成员。
 
-2005年：成为皇家田（Sanam Luang）卫塞节（Visakha Puja）复兴和发展执行组织委员会成员，在僧王寺（Wat Bowonniwet Vihara）下属的泰国佛教促进中心赞助下，由Phra Depdilok（Rabaep尊者）担任秘书长。
+2005年：成为皇家田（Sanam Luang）卫塞节（Visakha Puja）复兴和发展执行组织委员会成员，在僧王寺（Wat Bowonniwet Vihara）下属的泰国佛教促进中心赞助下，由尊者帕·贴迪洛（Phra Depdilok，Rabaep）担任秘书长。
 
-成为国会众议院宗教事务、艺术和文化委员会的顾问，由Kudeb Saikrachang中尉博士担任主席。协助这项任务两年，从2005年至2006年。
+成为国会众议院宗教事务、艺术和文化委员会的顾问，由 Kudeb Saikrachang 中尉博士担任主席。任期两年（2005—2006年）。
 
-2006年：成为泰国佛法协会（在Srinagarindra Boromarajajonani殿下皇家赞助下）的委员会成员；履行这项任务四年，从2006年至2009年。
+2006年：成为泰国佛法协会（在 Srinagarindra Boromarajajonani 殿下皇家赞助下）的委员会成员；任期四年（2006—2009年）。
 
-2012年：第二次发起将《佛法》从泰语翻译成英语的工作，聘请美国国籍的Robin Philip Moore先生担任翻译。这项任务历时五年，从2012年至2016年。
+2012年：第二次发起将《佛法》从泰语翻译成英语的工作，聘请美籍的 Robin Philip Moore 先生担任译者，历时五年（2012—2016年）。
 
-2017年：出版《佛法》英文版首次印刷，共5,000册，作为佛法赠品，在全球发行。
+2017年：首次印行《佛法》英文版5,000册，作为法布施在全球流通。
