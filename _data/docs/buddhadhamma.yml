@@ -3,7 +3,7 @@ chapters:
     url: /buddhadhamma/anumodana.html
   - title: 缩写
     url: /buddhadhamma/abbreviations.html
-  - title: 阿姜·查雅萨罗前言
+  - title: 尊者阿姜查雅萨罗前言
     url: /buddhadhamma/foreword-by-ajahn-jayasaro.html
   - title: 佛法基金会主席前言
     url: /buddhadhamma/foreword-by-khun-yongyuth.html
@@ -32,7 +32,7 @@ chapters:
         url: /buddhadhamma/dependent-origination.html
       - title: 第五章：业的法则
         url: /buddhadhamma/law-of-kamma.html
-  - title: 第四篇：生命应成为怎样？
+  - title: 第四篇：生命应成为什么？
     url: /buddhadhamma/goal-of-life.html
     subitems:
       - title: 第六章：涅槃：至上寂静
@@ -41,7 +41,7 @@ chapters:
         url: /buddhadhamma/awakened-beings.html
       - title: 第八章：止与观
         url: /buddhadhamma/calm-and-insight.html
-  - title: 第五篇：生命应如何存在？
+  - title: 第五篇：生命应如何度过？
     url: /buddhadhamma/a-noble-life.html
     subitems:
       - title: 第九章：神通与天人
@@ -80,7 +80,7 @@ chapters:
     url: /buddhadhamma/authors-postscript.html
   - title: 参考书目
     url: /buddhadhamma/bibliography.html
-  - title: 巴育陀 (P. A. Payutto)
+  - title: 巴育陀
     url: /buddhadhamma/p-a-payutto.html
   - title: 佛法基金会主席
     url: /buddhadhamma/president-of-the-buddhadhamma-foundation.html
