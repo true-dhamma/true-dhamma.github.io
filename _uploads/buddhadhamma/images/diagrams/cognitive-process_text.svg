@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="433" viewBox="0.0 0.0 800 433" role="img" aria-label="觉知过程" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>觉知过程</title>
+<rect x="0.0" y="0.0" width="800" height="433" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="433" fill="#ffffff"/>
+<rect x="60.0" y="42.0" width="200.0" height="84.0" rx="42.0" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="160.0" y="71.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">纯粹的觉知过程</text>
+<text x="160.0" y="99.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">自然过程</text>
+<line x1="302.0" y1="20.0" x2="302.0" y2="148.0" stroke="#4a5866" stroke-width="1.2" stroke-dasharray="6 5"/>
+<line x1="268.0" y1="84.0" x2="336.0" y2="84.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="344.0" y="28.0" width="396.0" height="112.0" rx="18" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="542.0" y="56.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">“受用”世间的过程</text>
+<text x="542.0" y="90.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">“受用者”与“被受用者”、</text>
+<text x="542.0" y="114.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">“思考者”与“概念化思想”的产生</text>
+<line x1="542.0" y1="148.0" x2="542.0" y2="188.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="60.0" y="196.0" width="680.0" height="216.0" rx="18" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="142.6" y="236.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">根</text>
+<text x="142.6" y="260.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">āyatana</text>
+<text x="192.0" y="236.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">+</text>
+<text x="245.4" y="236.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">所缘</text>
+<text x="245.4" y="260.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">ārammaṇa</text>
+<text x="298.7" y="236.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">+</text>
+<text x="348.2" y="236.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">识</text>
+<text x="348.2" y="260.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">viññāṇa</text>
+<text x="397.6" y="236.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">=</text>
+<text x="443.1" y="236.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">触</text>
+<text x="443.1" y="260.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">phassa</text>
+<line x1="474.6" y1="236.0" x2="502.6" y2="236.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="534.2" y="236.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">受</text>
+<text x="534.2" y="260.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">vedanā</text>
+<line x1="565.7" y1="236.0" x2="593.7" y2="236.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="621.3" y="236.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">想</text>
+<text x="621.3" y="260.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">saññā</text>
+<line x1="648.9" y1="236.0" x2="676.9" y2="236.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="277.6" y="312.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">思量</text>
+<text x="277.6" y="336.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">vitakka</text>
+<line x1="313.0" y1="312.0" x2="341.0" y2="312.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="376.5" y="312.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">戏论</text>
+<text x="376.5" y="336.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">papañca</text>
+<line x1="411.9" y1="312.0" x2="439.9" y2="312.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="498.9" y="312.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">戏论想</text>
+<text x="498.9" y="336.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">papañca-saññā</text>
+<path d="M250.15999999999997,354.0 q0,10 10,10 L317.03999999999996,364.0 q10,0 10,10 q0,-10 10,-10 L393.91999999999996,364.0 q10,0 10,-10" fill="none" stroke="#4a5866" stroke-width="1.4"/>
+<text x="327.0" y="386.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">行（saṅkhāra）</text>
+</svg>

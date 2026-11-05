@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1151" viewBox="8.5 -3.0 800 1151" role="img" aria-label="烦恼的灭尽之道" font-family="'Noto Sans CJK SC','Noto Sans CJK',sans-serif" fill="#2c3e50">
+<title>烦恼的灭尽之道</title>
+<rect x="8.5" y="-3.0" width="800" height="1151" fill="#FFFFFF"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="1180" fill="#ffffff"/>
+<rect x="330" y="18" width="140" height="40" rx="4" fill="#eef3f8" stroke="#4a5866" stroke-width="1.4"/><text x="400.0" y="38.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">烦恼灭尽</text>
+<line x1="400.0" y1="88.0" x2="400.0" y2="60.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="102.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">解脱</text>
+<text x="400.0" y="152.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">离欲</text>
+<line x1="400.0" y1="138.0" x2="400.0" y2="116.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="202.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">厌离</text>
+<line x1="400.0" y1="188.0" x2="400.0" y2="166.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="252.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">如实知见</text>
+<line x1="400.0" y1="238.0" x2="400.0" y2="216.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="302.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">定</text>
+<line x1="400.0" y1="288.0" x2="400.0" y2="266.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="352.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">乐</text>
+<line x1="400.0" y1="338.0" x2="400.0" y2="316.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="402.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">轻安</text>
+<line x1="400.0" y1="388.0" x2="400.0" y2="366.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="452.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">喜</text>
+<line x1="400.0" y1="438.0" x2="400.0" y2="416.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="502.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">悦</text>
+<line x1="400.0" y1="488.0" x2="400.0" y2="466.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="270.0" y="584.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">如理作意</text>
+<line x1="284.0" y1="569.0" x2="386.0" y2="518.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="386.0" y1="649.0" x2="284.0" y2="599.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="584.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">信心</text>
+<line x1="400.0" y1="569.0" x2="400.0" y2="518.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="400.0" y1="649.0" x2="400.0" y2="599.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="530.0" y="584.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">戒行</text>
+<line x1="516.0" y1="569.0" x2="414.0" y2="518.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="414.0" y1="649.0" x2="516.0" y2="599.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="664.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">苦</text>
+<line x1="400.0" y1="679.0" x2="400.0" y2="721.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="400.0" cy="759.0" r="3.6" fill="#2c3e50"/>
+<text x="400.0" y="735.0" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">无明</text>
+<path d="M420.1,760.2 A165,165 0 0 1 464.5,772.1" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="482.5" cy="781.1" r="3.6" fill="#2c3e50"/>
+<text x="497.5" y="755.1" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">行</text>
+<path d="M499.3,792.2 A165,165 0 0 1 531.8,824.7" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="542.9" cy="841.5" r="3.6" fill="#2c3e50"/>
+<text x="568.9" y="826.5" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">识</text>
+<path d="M551.9,859.5 A165,165 0 0 1 563.8,903.9" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="565.0" cy="924.0" r="3.6" fill="#2c3e50"/>
+<text x="595.0" y="924.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">名色</text>
+<path d="M563.8,944.1 A165,165 0 0 1 551.9,988.5" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="542.9" cy="1006.5" r="3.6" fill="#2c3e50"/>
+<text x="568.9" y="1021.5" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">六处</text>
+<path d="M531.8,1023.3 A165,165 0 0 1 499.3,1055.8" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="482.5" cy="1066.9" r="3.6" fill="#2c3e50"/>
+<text x="497.5" y="1092.9" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">触</text>
+<path d="M464.5,1075.9 A165,165 0 0 1 420.1,1087.8" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="400.0" cy="1089.0" r="3.6" fill="#2c3e50"/>
+<text x="400.0" y="1119.0" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">受</text>
+<path d="M379.9,1087.8 A165,165 0 0 1 335.5,1075.9" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="317.5" cy="1066.9" r="3.6" fill="#2c3e50"/>
+<text x="302.5" y="1092.9" font-size="17" font-weight="400" text-anchor="end" dominant-baseline="central">爱</text>
+<path d="M300.7,1055.8 A165,165 0 0 1 268.2,1023.3" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="257.1" cy="1006.5" r="3.6" fill="#2c3e50"/>
+<text x="231.1" y="1021.5" font-size="17" font-weight="400" text-anchor="end" dominant-baseline="central">取</text>
+<path d="M248.1,988.5 A165,165 0 0 1 236.2,944.1" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="235.0" cy="924.0" r="3.6" fill="#2c3e50"/>
+<text x="205.0" y="924.0" font-size="17" font-weight="400" text-anchor="end" dominant-baseline="central">有</text>
+<path d="M236.2,903.9 A165,165 0 0 1 248.1,859.5" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="257.1" cy="841.5" r="3.6" fill="#2c3e50"/>
+<text x="231.1" y="826.5" font-size="17" font-weight="400" text-anchor="end" dominant-baseline="central">生</text>
+<path d="M268.2,824.7 A165,165 0 0 1 300.7,792.2" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="317.5" cy="781.1" r="3.6" fill="#2c3e50"/>
+<text x="302.5" y="755.1" font-size="17" font-weight="400" text-anchor="end" dominant-baseline="central">老死</text>
+<path d="M335.5,772.1 A165,165 0 0 1 379.9,760.2" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+</svg>

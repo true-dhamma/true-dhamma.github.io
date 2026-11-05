@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="444" viewBox="0.0 -1.0 800 444" role="img" aria-label="修习正思惟" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>修习正思惟</title>
+<rect x="0.0" y="-1.0" width="800" height="444" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="443" fill="#ffffff"/>
+<rect x="220.0" y="20.0" width="360.0" height="84.0" rx="42.0" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="400.0" y="46.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">正思惟</text>
+<text x="400.0" y="80.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">出离思惟、无嗔恚思惟与无害思惟</text>
+<line x1="400.0" y1="104.0" x2="400.0" y2="142.0" stroke="#4a5866" stroke-width="1.6"/>
+<line x1="200.0" y1="142.0" x2="600.0" y2="142.0" stroke="#4a5866" stroke-width="1.6"/>
+<line x1="200.0" y1="142.0" x2="200.0" y2="176.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="600.0" y1="142.0" x2="600.0" y2="176.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="40.0" y="180.0" width="320.0" height="120.0" rx="8" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="200.0" y="210.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">如理作意</text>
+<text x="200.0" y="240.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">如实观照</text>
+<text x="200.0" y="270.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">远离欲贪、嗔恚和残酷</text>
+<rect x="440.0" y="180.0" width="320.0" height="120.0" rx="8" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="600.0" y="210.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">如理作意</text>
+<text x="600.0" y="240.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">激发善法</text>
+<text x="600.0" y="270.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">出离、慈心、悲心</text>
+<rect x="80.0" y="370.0" width="240.0" height="52.0" rx="26.0" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="200.0" y="396.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">正见</text>
+<rect x="480.0" y="370.0" width="240.0" height="52.0" rx="26.0" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="600.0" y="396.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">正语、正业、正命</text>
+<line x1="200.0" y1="300.0" x2="200.0" y2="366.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="600.0" y1="300.0" x2="600.0" y2="366.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="280.0" y1="300.0" x2="520.0" y2="366.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="520.0" y1="300.0" x2="280.0" y2="366.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+</svg>

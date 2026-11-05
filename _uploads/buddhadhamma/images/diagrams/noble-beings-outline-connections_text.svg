@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0.0 0.0 800 600" role="img" aria-label="圣者道次第关系详图" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>圣者道次第关系详图</title>
+<rect x="0.0" y="0.0" width="800" height="600" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="600" fill="#ffffff"/>
+<g transform="translate(35.8,2.0)">
+<circle cx="232" cy="30" r="12" fill="#2c3e50"/><text x="232.0" y="30.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">1</text>
+<text x="257.0" y="30.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">须陀洹向</text>
+<circle cx="232" cy="70" r="12" fill="#2c3e50"/><text x="232.0" y="70.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">2</text>
+<text x="257.0" y="70.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">须陀洹（已断前三结）</text>
+<circle cx="232" cy="110" r="12" fill="#2c3e50"/><text x="232.0" y="110.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">3</text>
+<text x="257.0" y="110.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">斯陀含向</text>
+<circle cx="232" cy="150" r="12" fill="#2c3e50"/><text x="232.0" y="150.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">4</text>
+<text x="257.0" y="150.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">斯陀含（贪、嗔、痴已薄弱）</text>
+<circle cx="232" cy="190" r="12" fill="#2c3e50"/><text x="232.0" y="190.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">5</text>
+<text x="257.0" y="190.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">阿那含向</text>
+<circle cx="232" cy="230" r="12" fill="#2c3e50"/><text x="232.0" y="230.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">6</text>
+<text x="257.0" y="230.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">阿那含（已断前五结）</text>
+<circle cx="232" cy="270" r="12" fill="#2c3e50"/><text x="232.0" y="270.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">7</text>
+<text x="257.0" y="270.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">阿罗汉向</text>
+<circle cx="232" cy="310" r="12" fill="#2c3e50"/><text x="232.0" y="310.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">8</text>
+<text x="257.0" y="310.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">阿罗汉（已断全部十结）</text>
+<circle cx="32" cy="380" r="12" fill="#2c3e50"/><text x="32.0" y="380.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">1</text>
+<circle cx="224" cy="380" r="12" fill="#2c3e50"/><text x="224.0" y="380.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">2</text>
+<circle cx="254" cy="380" r="12" fill="#2c3e50"/><text x="254.0" y="380.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">3</text>
+<circle cx="284" cy="380" r="12" fill="#2c3e50"/><text x="284.0" y="380.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">4</text>
+<circle cx="472" cy="380" r="12" fill="#2c3e50"/><text x="472.0" y="380.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">5</text>
+<circle cx="502" cy="380" r="12" fill="#2c3e50"/><text x="502.0" y="380.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">6</text>
+<circle cx="532" cy="380" r="12" fill="#2c3e50"/><text x="532.0" y="380.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">7</text>
+<circle cx="637" cy="380" r="12" fill="#2c3e50"/><text x="637.0" y="380.0" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#fff">8</text>
+<text x="20.0" y="430.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">1. 随信行者</text>
+<text x="20.0" y="480.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">2. 随法行者</text>
+<line x1="120.0" y1="430.0" x2="190.0" y2="430.0" stroke="#4a5866" stroke-width="1.4"/>
+<line x1="120.0" y1="480.0" x2="190.0" y2="480.0" stroke="#4a5866" stroke-width="1.4"/>
+<line x1="190.0" y1="430.0" x2="190.0" y2="550.0" stroke="#4a5866" stroke-width="1.4"/>
+<line x1="190.0" y1="430.0" x2="206.0" y2="430.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="212.0" y="430.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">＋定</text>
+<text x="212.0" y="452.0" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">不超过四禅那</text>
+<line x1="190.0" y1="550.0" x2="206.0" y2="550.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="212.0" y="550.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">＋解脱</text>
+<text x="212.0" y="572.0" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">无色界禅那的解脱</text>
+<line x1="370.0" y1="430.0" x2="452.0" y2="430.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<polyline points="400.0,430.0 400.0,480.0 452.0,480.0" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="460.0" y="430.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">3. 信解脱者</text>
+<text x="460.0" y="480.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">4. 见至者</text>
+<line x1="370.0" y1="550.0" x2="452.0" y2="550.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="460.0" y="550.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">5. 身证者</text>
+<polyline points="566.6,430.0 595.0,430.0 595.0,480.0 549.6,480.0" fill="none" stroke="#4a5866" stroke-width="1.6"/>
+<line x1="595.0" y1="455.0" x2="617.0" y2="455.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="625.0" y="455.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">6. 慧解脱者</text>
+<line x1="549.6" y1="550.0" x2="617.0" y2="550.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="625.0" y="550.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">7. 俱解脱者</text>
+</g>
+</svg>

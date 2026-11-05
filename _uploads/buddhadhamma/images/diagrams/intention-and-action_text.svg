@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="324" viewBox="0.0 -1.0 800 324" role="img" aria-label="思与业" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>思与业</title>
+<rect x="0.0" y="-1.0" width="800" height="324" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="324" fill="#ffffff"/>
+<g transform="translate(22.2,-14.5)">
+<text x="40.0" y="44.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">身行</text>
+<text x="40.0" y="68.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">kāya-saṅkhāra</text>
+<text x="185.0" y="44.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">=</text>
+<text x="215.0" y="44.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">身思</text>
+<text x="215.0" y="68.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">kāya-sañcetanā</text>
+<text x="215.0" y="92.0" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">经由身表达的思</text>
+<text x="420.0" y="44.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">+</text>
+<text x="450.0" y="44.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">身门</text>
+<text x="450.0" y="68.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">kāya-dvāra</text>
+<line x1="560.0" y1="44.0" x2="620.0" y2="44.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="640.0" y="44.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">身业</text>
+<text x="640.0" y="68.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">kāya-kamma</text>
+<text x="40.0" y="154.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">语行</text>
+<text x="40.0" y="178.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">vacī-saṅkhāra</text>
+<text x="185.0" y="154.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">=</text>
+<text x="215.0" y="154.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">语思</text>
+<text x="215.0" y="178.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">vacī-sañcetanā</text>
+<text x="215.0" y="202.0" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">经由语表达的思</text>
+<text x="420.0" y="154.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">+</text>
+<text x="450.0" y="154.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">语门</text>
+<text x="450.0" y="178.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">vacī-dvāra</text>
+<line x1="560.0" y1="154.0" x2="620.0" y2="154.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="640.0" y="154.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">语业</text>
+<text x="640.0" y="178.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">vacī-kamma</text>
+<text x="40.0" y="264.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">意行</text>
+<text x="40.0" y="288.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">mano-saṅkhāra</text>
+<text x="185.0" y="264.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">=</text>
+<text x="215.0" y="264.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">意思</text>
+<text x="215.0" y="288.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">mano-sañcetanā</text>
+<text x="215.0" y="312.0" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">经由意表达的思</text>
+<text x="420.0" y="264.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">+</text>
+<text x="450.0" y="264.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">意门</text>
+<text x="450.0" y="288.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">mano-dvāra</text>
+<line x1="560.0" y1="264.0" x2="620.0" y2="264.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="640.0" y="264.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">意业</text>
+<text x="640.0" y="288.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">mano-kamma</text>
+</g>
+</svg>

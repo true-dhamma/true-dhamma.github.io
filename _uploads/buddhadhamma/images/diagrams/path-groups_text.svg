@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="332" viewBox="0.0 0.0 800 332" role="img" aria-label="八道支分为三蕴" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>八道支分为三蕴</title>
+<rect x="0.0" y="0.0" width="800" height="332" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="332" fill="#ffffff"/>
+<g transform="translate(67.5,-7.0)">
+<text x="200.0" y="40.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">1. 正见</text>
+<text x="200.0" y="70.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">2. 正思惟</text>
+<path d="M390,28 q10,0 10,10 L400,45.0 q0,10 10,10 q-10,0 -10,10 L400,72 q0,10 -10,10" fill="none" stroke="#4a5866" stroke-width="1.4"/>
+<text x="430.0" y="55.0" font-size="18" font-weight="500" text-anchor="start" dominant-baseline="central">3. 慧</text>
+<text x="200.0" y="128.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">3. 正语</text>
+<text x="200.0" y="158.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">4. 正业</text>
+<text x="200.0" y="188.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">5. 正命</text>
+<path d="M390,116 q10,0 10,10 L400,148.0 q0,10 10,10 q-10,0 -10,10 L400,190 q0,10 -10,10" fill="none" stroke="#4a5866" stroke-width="1.4"/>
+<text x="430.0" y="158.0" font-size="18" font-weight="500" text-anchor="start" dominant-baseline="central">1. 戒</text>
+<text x="200.0" y="246.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">6. 正精进</text>
+<text x="200.0" y="276.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">7. 正念</text>
+<text x="200.0" y="306.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">8. 正定</text>
+<path d="M390,234 q10,0 10,10 L400,266.0 q0,10 10,10 q-10,0 -10,10 L400,308 q0,10 -10,10" fill="none" stroke="#4a5866" stroke-width="1.4"/>
+<text x="430.0" y="276.0" font-size="18" font-weight="500" text-anchor="start" dominant-baseline="central">2. 定</text>
+</g>
+</svg>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="415" viewBox="0.0 0.0 800 415" role="img" aria-label="四双八辈圣者详表">
+<title>四双八辈圣者详表</title>
+<rect x="0.0" y="0.0" width="800" height="415" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style></defs>
+<rect x="24" y="20.5" width="180.48" height="55" fill="rgb(238, 243, 248)"/>
+<rect x="204.48" y="20.5" width="300.8" height="55" fill="rgb(238, 243, 248)"/>
+<rect x="505.27" y="20.5" width="270.73" height="55" fill="rgb(238, 243, 248)"/>
+<line x1="24" y1="20.5" x2="204.48" y2="20.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="24" y1="75.5" x2="204.48" y2="75.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="204.48" y1="20.5" x2="505.27" y2="20.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="204.48" y1="75.5" x2="505.27" y2="75.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="505.27" y1="20.5" x2="776" y2="20.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="505.27" y1="75.5" x2="776" y2="75.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="24" y1="156" x2="204.48" y2="156" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="204.48" y1="156" x2="505.27" y2="156" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="505.27" y1="156" x2="776" y2="156" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="24" y1="211" x2="204.48" y2="211" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="204.48" y1="211" x2="505.27" y2="211" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="505.27" y1="211" x2="776" y2="211" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="24" y1="269" x2="204.48" y2="269" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="204.48" y1="269" x2="505.27" y2="269" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="505.27" y1="269" x2="776" y2="269" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="24" y1="394.5" x2="204.48" y2="394.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="204.48" y1="394.5" x2="505.27" y2="394.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="505.27" y1="394.5" x2="776" y2="394.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<text x="32" y="43" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="500" fill="rgb(44, 62, 80)">圣者</text>
+<text x="32" y="63.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="500" font-style="italic" fill="rgb(107, 119, 133)">dakkhiṇeyya-puggala</text>
+<text x="212.48" y="43" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="500" fill="rgb(44, 62, 80)">学</text>
+<text x="212.48" y="63.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="500" font-style="italic" fill="rgb(107, 119, 133)">sikkhā</text>
+<text x="513.27" y="43" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="500" fill="rgb(44, 62, 80)">所断之结</text>
+<text x="513.27" y="63.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="500" font-style="italic" fill="rgb(107, 119, 133)">saṁyojana</text>
+<text x="32" y="98" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">1.</text>
+<text x="50.75" y="98" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">须陀洹</text>
+<text x="50.75" y="118.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="400" font-style="italic" fill="rgb(107, 119, 133)">sotāpanna</text>
+<text x="212.48" y="98" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">戒圆满；定与慧达到相当的程度。</text>
+<text x="513.27" y="98" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">1. 有身见（</text>
+<text x="587.47" y="98" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" font-style="italic" fill="rgb(44, 62, 80)">sakkāya-diṭṭhi</text>
+<text x="675.54" y="98" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">）</text>
+<text x="513.27" y="120.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">2. 疑（</text>
+<text x="557.47" y="120.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" font-style="italic" fill="rgb(44, 62, 80)">vicikicchā</text>
+<text x="617.3" y="120.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">）</text>
+<text x="513.27" y="143" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">3. 戒禁取（</text>
+<text x="587.47" y="143" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" font-style="italic" fill="rgb(44, 62, 80)">sīlabbata-parāmāsa</text>
+<text x="713.36" y="143" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">）</text>
+<text x="32" y="178.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">2.</text>
+<text x="50.75" y="178.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">斯陀含</text>
+<text x="50.75" y="199" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="400" font-style="italic" fill="rgb(107, 119, 133)">sakadāgāmī</text>
+<text x="212.48" y="178.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">戒圆满；定与慧达到相当的程度。</text>
+<text x="513.27" y="178.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">贪、嗔、痴已薄弱。</text>
+<text x="32" y="233.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">3.</text>
+<text x="50.75" y="233.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">阿那含</text>
+<text x="50.75" y="254" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="400" font-style="italic" fill="rgb(107, 119, 133)">anāgāmī</text>
+<text x="212.48" y="233.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">戒与定圆满；慧达到相当的程度。</text>
+<text x="513.27" y="233.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">4. 欲贪（</text>
+<text x="572.47" y="233.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" font-style="italic" fill="rgb(44, 62, 80)">kāma-rāga</text>
+<text x="640.95" y="233.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">）</text>
+<text x="513.27" y="256" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">5. 嗔恚（</text>
+<text x="572.47" y="256" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" font-style="italic" fill="rgb(44, 62, 80)">paṭigha</text>
+<text x="620.8" y="256" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">）</text>
+<text x="32" y="291.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">4.</text>
+<text x="50.75" y="291.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">阿罗汉</text>
+<text x="50.75" y="312" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="400" font-style="italic" fill="rgb(107, 119, 133)">arahant</text>
+<text x="212.48" y="291.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">戒、定、慧圆满。</text>
+<text x="513.27" y="291.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">6. 色贪（</text>
+<text x="572.47" y="291.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" font-style="italic" fill="rgb(44, 62, 80)">rūpa-rāga</text>
+<text x="635.01" y="291.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">）</text>
+<text x="513.27" y="314" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">7. 无色贪（</text>
+<text x="587.47" y="314" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" font-style="italic" fill="rgb(44, 62, 80)">arūpa-rāga</text>
+<text x="658.05" y="314" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">）</text>
+<text x="513.27" y="336.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">8. 慢（</text>
+<text x="557.47" y="336.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" font-style="italic" fill="rgb(44, 62, 80)">māna</text>
+<text x="593.43" y="336.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">）</text>
+<text x="513.27" y="359" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">9. 掉举（</text>
+<text x="572.47" y="359" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" font-style="italic" fill="rgb(44, 62, 80)">uddhacca</text>
+<text x="632.97" y="359" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">）</text>
+<text x="513.27" y="381.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">10. 无明（</text>
+<text x="579.92" y="381.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" font-style="italic" fill="rgb(44, 62, 80)">avijjā</text>
+<text x="613.44" y="381.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">）</text>
+</svg>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="452" viewBox="0.0 -0.5 800 452" role="img" aria-label="三世二重因果" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>三世二重因果</title>
+<rect x="0.0" y="-0.5" width="800" height="452" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="452" fill="#ffffff"/>
+<g transform="translate(13.5,1.5)">
+<line x1="245.0" y1="20.0" x2="245.0" y2="430.0" stroke="#4a5866" stroke-width="1.2" stroke-dasharray="6 5"/>
+<line x1="600.0" y1="20.0" x2="600.0" y2="430.0" stroke="#4a5866" stroke-width="1.2" stroke-dasharray="6 5"/>
+<text x="130.0" y="28.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">过去</text>
+<text x="425.0" y="28.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">现在</text>
+<text x="690.0" y="28.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">未来</text>
+<text x="130.0" y="72.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">因</text>
+<line x1="122.0" y1="84.0" x2="75.0" y2="112.0" stroke="#4a5866" stroke-width="1"/>
+<line x1="138.0" y1="84.0" x2="185.0" y2="112.0" stroke="#4a5866" stroke-width="1"/>
+<text x="485.0" y="72.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">因</text>
+<line x1="477.0" y1="84.0" x2="430.0" y2="112.0" stroke="#4a5866" stroke-width="1"/>
+<line x1="493.0" y1="84.0" x2="540.0" y2="112.0" stroke="#4a5866" stroke-width="1"/>
+<text x="310.0" y="72.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">果</text>
+<line x1="310.0" y1="84.0" x2="310.0" y2="112.0" stroke="#4a5866" stroke-width="1"/>
+<text x="690.0" y="72.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">果</text>
+<line x1="690.0" y1="84.0" x2="690.0" y2="112.0" stroke="#4a5866" stroke-width="1"/>
+<rect x="25.0" y="115.0" width="100" height="30" rx="15.0" fill="#fff" stroke="#4a5866" stroke-width="1.4"/><text x="75.0" y="130.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">无明</text>
+
+<rect x="25.0" y="225.0" width="100" height="30" rx="15.0" fill="#fff" stroke="#4a5866" stroke-width="1.4"/><text x="75.0" y="240.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">爱、取</text>
+
+<text x="75.0" y="185.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">＋</text>
+<rect x="135.0" y="115.0" width="100" height="30" fill="#f6f1e7" stroke="#4a5866" stroke-width="1.4"/><text x="185.0" y="130.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">行</text>
+
+<rect x="135.0" y="225.0" width="100" height="30" fill="#f6f1e7" stroke="#4a5866" stroke-width="1.4"/><text x="185.0" y="240.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">有</text>
+
+<text x="185.0" y="185.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">＋</text>
+<rect x="252.0" y="115.0" width="116" height="30" fill="#eef3f8" stroke="#4a5866" stroke-width="1.4"/><text x="310.0" y="130.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">识……受</text>
+
+<rect x="252.0" y="225.0" width="116" height="30" fill="#eef3f8" stroke="#4a5866" stroke-width="1.4"/><text x="310.0" y="240.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">生、老死……</text>
+
+<text x="310.0" y="185.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">＝</text>
+<rect x="380.0" y="115.0" width="100" height="30" rx="15.0" fill="#fff" stroke="#4a5866" stroke-width="1.4"/><text x="430.0" y="130.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">爱、取</text>
+
+<rect x="380.0" y="225.0" width="100" height="30" rx="15.0" fill="#fff" stroke="#4a5866" stroke-width="1.4"/><text x="430.0" y="240.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">无明</text>
+
+<text x="430.0" y="185.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">＋</text>
+<rect x="490.0" y="115.0" width="100" height="30" fill="#f6f1e7" stroke="#4a5866" stroke-width="1.4"/><text x="540.0" y="130.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">有</text>
+
+<rect x="490.0" y="225.0" width="100" height="30" fill="#f6f1e7" stroke="#4a5866" stroke-width="1.4"/><text x="540.0" y="240.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">行</text>
+
+<text x="540.0" y="185.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">＋</text>
+<rect x="632.0" y="115.0" width="116" height="30" fill="#eef3f8" stroke="#4a5866" stroke-width="1.4"/><text x="690.0" y="130.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">生、老死……</text>
+
+<rect x="632.0" y="225.0" width="116" height="30" fill="#eef3f8" stroke="#4a5866" stroke-width="1.4"/><text x="690.0" y="240.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">识……受</text>
+
+<text x="690.0" y="185.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">＝</text>
+<line x1="75.0" y1="258.0" x2="75.0" y2="306.0" stroke="#4a5866" stroke-width="1"/>
+<text x="75.0" y="320.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">烦恼</text>
+<line x1="103.0" y1="320.0" x2="157.0" y2="320.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="185.0" y1="258.0" x2="185.0" y2="306.0" stroke="#4a5866" stroke-width="1"/>
+<text x="185.0" y="320.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">业</text>
+<line x1="213.0" y1="320.0" x2="282.0" y2="320.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="310.0" y1="258.0" x2="310.0" y2="306.0" stroke="#4a5866" stroke-width="1"/>
+<text x="310.0" y="320.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">果报</text>
+<line x1="338.0" y1="320.0" x2="402.0" y2="320.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="430.0" y1="258.0" x2="430.0" y2="306.0" stroke="#4a5866" stroke-width="1"/>
+<text x="430.0" y="320.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">烦恼</text>
+<line x1="458.0" y1="320.0" x2="512.0" y2="320.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="540.0" y1="258.0" x2="540.0" y2="306.0" stroke="#4a5866" stroke-width="1"/>
+<text x="540.0" y="320.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">业</text>
+<line x1="568.0" y1="320.0" x2="662.0" y2="320.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="690.0" y1="258.0" x2="690.0" y2="306.0" stroke="#4a5866" stroke-width="1"/>
+<text x="690.0" y="320.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">果报</text>
+<path d="M310,336 L310,358 Q310,368 300,368 L85,368 Q75,368 75,358 L75,338" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="192.5" y="390.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">轮转</text>
+<text x="192.5" y="410.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">vaṭṭa</text>
+<path d="M690,336 L690,358 Q690,368 680,368 L440,368 Q430,368 430,358 L430,338" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="560.0" y="390.0" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">轮转</text>
+<text x="560.0" y="410.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">vaṭṭa</text>
+</g>
+</svg>

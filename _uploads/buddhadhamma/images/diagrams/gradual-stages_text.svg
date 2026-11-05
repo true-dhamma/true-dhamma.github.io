@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0.0 0.0 800 420" role="img" aria-label="禅修成就的次第" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>禅修成就的次第</title>
+<rect x="0.0" y="0.0" width="800" height="420" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="420" fill="#ffffff"/>
+<g transform="translate(59.8,-1.5)">
+<text x="30.0" y="30.0" font-size="16" font-weight="500" text-anchor="start" dominant-baseline="central">解脱</text>
+<text x="30.0" y="54.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">vimokkha</text>
+<text x="175.0" y="30.0" font-size="16" font-weight="500" text-anchor="start" dominant-baseline="central">禅那</text>
+<text x="175.0" y="54.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">jhāna</text>
+<text x="330.0" y="30.0" font-size="16" font-weight="500" text-anchor="start" dominant-baseline="central">等至</text>
+<text x="330.0" y="54.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">samāpatti</text>
+<line x1="20.0" y1="76.0" x2="660.5" y2="76.0" stroke="#4a5866" stroke-width="1"/>
+<text x="30.0" y="120.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">第一解脱</text>
+<text x="30.0" y="156.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">第二解脱</text>
+<text x="30.0" y="192.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">第三解脱</text>
+<text x="30.0" y="228.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">第四解脱</text>
+<text x="30.0" y="264.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">第五解脱</text>
+<text x="30.0" y="300.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">第六解脱</text>
+<text x="30.0" y="336.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">第七解脱</text>
+<text x="30.0" y="372.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">第八解脱</text>
+<path d="M145,106 q10,0 10,10 L155,146.0 q0,10 10,10 q-10,0 -10,10 L155,196 q0,10 -10,10" fill="none" stroke="#4a5866" stroke-width="1.4"/>
+<path d="M145,214 q10,0 10,10 L155,272.0 q0,10 10,10 q-10,0 -10,10 L155,340 q0,10 -10,10" fill="none" stroke="#4a5866" stroke-width="1.4"/>
+<text x="175.0" y="156.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">四色界禅那</text>
+<text x="175.0" y="282.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">四无色界禅那</text>
+<path d="M300,142.0 q10,0 10,10 L310,209.0 q0,10 10,10 q-10,0 -10,10 L310,286.0 q0,10 -10,10" fill="none" stroke="#4a5866" stroke-width="1.4"/>
+<text x="330.0" y="219.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">八定</text>
+<text x="310.0" y="372.0" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">＝</text>
+<text x="330.0" y="372.0" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">灭尽定</text>
+<text x="330.0" y="394.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">nirodha-samāpatti</text>
+<path d="M473.76,205.0 q10,0 10,10 L483.76,285.5 q0,10 10,10 q-10,0 -10,10 L483.76,376 q0,10 -10,10" fill="none" stroke="#4a5866" stroke-width="1.4"/>
+<text x="505.8" y="284.5" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="central">九次第定</text>
+<text x="505.8" y="308.5" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">anupubbavihāra-samāpatti</text>
+</g>
+</svg>

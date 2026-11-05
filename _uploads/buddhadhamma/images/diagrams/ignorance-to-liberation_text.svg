@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="285" viewBox="0.0 -0.5 800 285" role="img" aria-label="从无明到解脱之道" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>从无明到解脱之道</title>
+<rect x="0.0" y="-0.5" width="800" height="285" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="285" fill="#ffffff"/>
+<g transform="translate(14.8,-5.5)">
+<text x="30.0" y="100.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">无明</text>
+<line x1="78.0" y1="100.0" x2="108.0" y2="100.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="116.0" y="100.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">……苦</text>
+<line x1="184.0" y1="92.3" x2="242.0" y2="44.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="184.0" y1="100.0" x2="242.0" y2="100.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="184.0" y1="107.7" x2="242.0" y2="156.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="250.0" y="36.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">如理作意</text>
+<text x="250.0" y="100.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">信心</text>
+<text x="250.0" y="164.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">戒行</text>
+<line x1="298.0" y1="164.0" x2="328.0" y2="164.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="336.0" y="164.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">无悔</text>
+<polyline points="338.0,36.0 596.0,36.0 632.0,86.0" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="298.0" y1="100.0" x2="632.0" y2="100.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<polyline points="384.0,164.0 596.0,164.0 632.0,114.0" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="640.0" y="100.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">悦</text>
+<polyline points="668.0,100.0 700.0,100.0 700.0,214.0 40.0,214.0 40.0,246.0" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="30.0" y="262.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">喜</text>
+<line x1="58.0" y1="262.0" x2="86.0" y2="262.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="94.0" y="262.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">轻安</text>
+<line x1="142.0" y1="262.0" x2="170.0" y2="262.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="178.0" y="262.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">乐</text>
+<line x1="206.0" y1="262.0" x2="234.0" y2="262.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="242.0" y="262.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">定</text>
+<line x1="270.0" y1="262.0" x2="298.0" y2="262.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="306.0" y="262.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">如实知见</text>
+<line x1="394.0" y1="262.0" x2="422.0" y2="262.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="430.0" y="262.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">厌离</text>
+<line x1="478.0" y1="262.0" x2="506.0" y2="262.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="514.0" y="262.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">离欲</text>
+<line x1="562.0" y1="262.0" x2="590.0" y2="262.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="598.0" y="262.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">解脱</text>
+<line x1="646.0" y1="262.0" x2="674.0" y2="262.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="682.0" y="262.0" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="central">漏尽智</text>
+</g>
+</svg>

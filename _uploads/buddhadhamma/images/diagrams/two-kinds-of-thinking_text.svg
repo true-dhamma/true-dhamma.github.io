@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="216" viewBox="0.0 0.0 800 216" role="img" aria-label="两种思维方式" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>两种思维方式</title>
+<rect x="0.0" y="0.0" width="800" height="216" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="216" fill="#ffffff"/>
+<g transform="translate(0.2,-17.0)">
+<rect x="28.2" y="38.0" width="83.7" height="64.0" rx="32.0" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="70.0" y="60.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">触</text>
+<text x="70.0" y="84.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">phassa</text>
+<text x="210.0" y="60.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">受</text>
+<text x="210.0" y="84.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">vedanā</text>
+<text x="380.0" y="60.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">爱……等</text>
+<text x="380.0" y="84.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">taṇhā</text>
+<rect x="658.2" y="38.0" width="83.7" height="64.0" rx="32.0" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="700.0" y="60.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">苦</text>
+<text x="700.0" y="84.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">dukkha</text>
+<line x1="119.8" y1="70.0" x2="180.2" y2="70.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="239.8" y1="70.0" x2="336.0" y2="70.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="424.0" y1="70.0" x2="650.2" y2="70.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="330.0" y="170.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">如理作意</text>
+<text x="330.0" y="194.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">yoniso-manasikāra</text>
+<text x="530.0" y="170.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">慧</text>
+<text x="530.0" y="194.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">paññā</text>
+<rect x="629.0" y="148.0" width="141.9" height="64.0" rx="32.0" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="700.0" y="170.0" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">苦的止息</text>
+<text x="700.0" y="194.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">dukkha-nirodha</text>
+<line x1="399.9" y1="180.0" x2="503.8" y2="180.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="556.2" y1="180.0" x2="621.0" y2="180.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<polyline points="210.0,104.0 210.0,180.0 260.1,180.0" fill="none" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+</g>
+</svg>

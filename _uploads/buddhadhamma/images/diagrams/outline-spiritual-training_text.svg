@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="367" viewBox="0.0 0.0 800 367" role="img" aria-label="修行纲要" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>修行纲要</title>
+<rect x="0.0" y="0.0" width="800" height="367" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="367" fill="#ffffff"/>
+<g transform="translate(0.0,-3.0)">
+<rect x="390.0" y="24.0" width="380.0" height="325.0" rx="18" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<g transform="translate(0,63)"><text x="410.0" y="0.0" font-size="18" font-weight="500" text-anchor="start" dominant-baseline="central">修行的过程</text>
+<text x="410.0" y="26.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">助缘环境的要素</text>
+<text x="410.0" y="70.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">1.</text>
+<text x="431.9" y="70.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">增上戒学</text>
+<text x="431.9" y="95.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">戒行、戒律，以及正直的身语行为，包括正当的</text>
+<text x="431.9" y="117.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">生计</text>
+<text x="410.0" y="157.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">2.</text>
+<text x="431.9" y="157.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">增上心学</text>
+<text x="431.9" y="182.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">心的品质、心力、心理能力和心理健康</text>
+<text x="410.0" y="222.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">3.</text>
+<text x="431.9" y="222.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">增上慧学</text>
+<text x="431.9" y="247.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">健全的信念与价值观；与真相相符的理解</text>
+</g><rect x="30.0" y="67.5" width="290.0" height="238.0" rx="18" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<g transform="translate(0,106.5)"><text x="50.0" y="0.0" font-size="18" font-weight="500" text-anchor="start" dominant-baseline="central">修行的起点或源头</text>
+<text x="50.0" y="26.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">正见的要素</text>
+<text x="50.0" y="70.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">1.</text>
+<text x="71.9" y="70.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">他人的教导</text>
+<text x="71.9" y="95.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">外在影响</text>
+<text x="50.0" y="135.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">2.</text>
+<text x="71.9" y="135.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">如理作意；善巧的思惟</text>
+<text x="71.9" y="160.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">内在因素</text>
+</g><line x1="330.0" y1="186.5" x2="380.0" y2="186.5" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+</g>
+</svg>

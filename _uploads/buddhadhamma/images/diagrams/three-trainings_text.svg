@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="197" viewBox="0.0 -0.5 800 197" role="img" aria-label="三增上学" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>三增上学</title>
+<rect x="0.0" y="-0.5" width="800" height="197" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="197" fill="#ffffff"/>
+<g transform="translate(0.0,-6.5)">
+<text x="50.0" y="36.0" font-size="18" font-weight="500" text-anchor="start" dominant-baseline="central">1. 增上戒学</text>
+<text x="50.0" y="62.0" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">adhisīla-sikkhā</text>
+<line x1="50.0" y1="86.0" x2="250.0" y2="86.0" stroke="#8a96a3" stroke-width="1"/>
+<text x="50.0" y="112.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">正语</text>
+<text x="50.0" y="144.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">正业</text>
+<text x="50.0" y="176.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">正命</text>
+<text x="300.0" y="36.0" font-size="18" font-weight="500" text-anchor="start" dominant-baseline="central">2. 增上心学</text>
+<text x="300.0" y="62.0" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">adhicitta-sikkhā</text>
+<line x1="300.0" y1="86.0" x2="500.0" y2="86.0" stroke="#8a96a3" stroke-width="1"/>
+<text x="300.0" y="112.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">正精进</text>
+<text x="300.0" y="144.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">正念</text>
+<text x="300.0" y="176.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">正定</text>
+<text x="550.0" y="36.0" font-size="18" font-weight="500" text-anchor="start" dominant-baseline="central">3. 增上慧学</text>
+<text x="550.0" y="62.0" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">adhipaññā-sikkhā</text>
+<line x1="550.0" y1="86.0" x2="750.0" y2="86.0" stroke="#8a96a3" stroke-width="1"/>
+<text x="550.0" y="112.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">正见</text>
+<text x="550.0" y="144.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">正思惟</text>
+</g>
+</svg>

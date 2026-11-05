@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="535" viewBox="0.0 -1.0 800 535" role="img" aria-label="正思惟的展现" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>正思惟的展现</title>
+<rect x="0.0" y="-1.0" width="800" height="535" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="535" fill="#ffffff"/>
+<rect x="220.0" y="20.0" width="360.0" height="104.0" rx="8" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="400.0" y="46.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">正思惟</text>
+<text x="400.0" y="70.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">sammā-saṅkappa</text>
+<text x="400.0" y="100.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">出离思惟、无嗔恚思惟、无害思惟</text>
+<line x1="330.0" y1="126.0" x2="140.0" y2="160.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="20.0" y="164.0" width="240.0" height="44.0" rx="8" fill="#f6f1e7" stroke="#4a5866" stroke-width="1.4"/>
+<text x="140.0" y="186.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">出离思惟</text>
+<line x1="140.0" y1="210.0" x2="140.0" y2="248.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="140.0" y="272.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">舍</text>
+<line x1="140.0" y1="296.0" x2="140.0" y2="334.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="140.0" y="358.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">平衡、平等的行为</text>
+<line x1="140.0" y1="382.0" x2="140.0" y2="420.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="140.0" y="444.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">正业</text>
+<line x1="400.0" y1="126.0" x2="400.0" y2="160.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="280.0" y="164.0" width="240.0" height="44.0" rx="8" fill="#f6f1e7" stroke="#4a5866" stroke-width="1.4"/>
+<text x="400.0" y="186.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">无嗔恚思惟</text>
+<line x1="400.0" y1="210.0" x2="400.0" y2="248.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="272.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">慈心、随喜</text>
+<line x1="400.0" y1="296.0" x2="400.0" y2="334.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="358.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">布施、爱语、利行</text>
+<line x1="400.0" y1="382.0" x2="400.0" y2="420.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="400.0" y="444.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">正语与正业</text>
+<line x1="470.0" y1="126.0" x2="660.0" y2="160.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="540.0" y="164.0" width="240.0" height="44.0" rx="8" fill="#f6f1e7" stroke="#4a5866" stroke-width="1.4"/>
+<text x="660.0" y="186.0" font-size="18" font-weight="500" text-anchor="middle" dominant-baseline="central">无害思惟</text>
+<line x1="660.0" y1="210.0" x2="660.0" y2="248.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="660.0" y="272.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">悲心、随喜</text>
+<line x1="660.0" y1="296.0" x2="660.0" y2="334.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="660.0" y="358.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">布施、爱语、利行</text>
+<line x1="660.0" y1="382.0" x2="660.0" y2="420.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="660.0" y="444.0" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">正语与正业</text>
+<text x="400.0" y="508.0" font-size="12.0" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">此处的“舍”等同于出离，依据的是“舍心解脱（upekkhā-cetovimutti）即是从贪欲中解脱”的教导（DN 33 / D iii 248-9）。</text>
+</svg>

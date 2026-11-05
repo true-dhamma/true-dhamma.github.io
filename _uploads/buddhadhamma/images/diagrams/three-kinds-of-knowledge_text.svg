@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="396" viewBox="0.0 0.0 800 396" role="img" aria-label="三种智">
+<title>三种智</title>
+<rect x="0.0" y="0.0" width="800" height="396" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style></defs>
+<rect x="24" y="20.5" width="120.31" height="55" fill="rgb(238, 243, 248)"/>
+<rect x="144.31" y="20.5" width="210.55" height="55" fill="rgb(238, 243, 248)"/>
+<rect x="354.87" y="20.5" width="210.55" height="55" fill="rgb(238, 243, 248)"/>
+<rect x="565.42" y="20.5" width="210.58" height="55" fill="rgb(238, 243, 248)"/>
+<line x1="24" y1="20.5" x2="144.31" y2="20.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="24" y1="75.5" x2="144.31" y2="75.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="144.31" y1="20.5" x2="354.87" y2="20.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="144.31" y1="75.5" x2="354.87" y2="75.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="354.87" y1="20.5" x2="565.42" y2="20.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="354.87" y1="75.5" x2="565.42" y2="75.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="565.42" y1="20.5" x2="776" y2="20.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="565.42" y1="75.5" x2="776" y2="75.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="24" y1="133.5" x2="144.31" y2="133.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="144.31" y1="133.5" x2="354.87" y2="133.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="354.87" y1="133.5" x2="565.42" y2="133.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="565.42" y1="133.5" x2="776" y2="133.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="24" y1="214" x2="144.31" y2="214" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="144.31" y1="214" x2="354.87" y2="214" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="354.87" y1="214" x2="565.42" y2="214" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="565.42" y1="214" x2="776" y2="214" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="24" y1="294.5" x2="144.31" y2="294.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="144.31" y1="294.5" x2="354.87" y2="294.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="354.87" y1="294.5" x2="565.42" y2="294.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="565.42" y1="294.5" x2="776" y2="294.5" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="24" y1="375" x2="144.31" y2="375" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="144.31" y1="375" x2="354.87" y2="375" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="354.87" y1="375" x2="565.42" y2="375" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<line x1="565.42" y1="375" x2="776" y2="375" stroke="rgb(138, 150, 163)" stroke-width="1"/>
+<text x="32" y="43" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="500" fill="rgb(44, 62, 80)">四圣谛</text>
+<text x="152.31" y="43" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="500" fill="rgb(44, 62, 80)">真理智</text>
+<text x="152.31" y="63.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="500" font-style="italic" fill="rgb(107, 119, 133)">sacca-ñāṇa</text>
+<text x="362.87" y="43" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="500" fill="rgb(44, 62, 80)">职责智</text>
+<text x="362.87" y="63.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="500" font-style="italic" fill="rgb(107, 119, 133)">kicca-ñāṇa</text>
+<text x="573.42" y="43" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="500" fill="rgb(44, 62, 80)">已作智</text>
+<text x="573.42" y="63.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="500" font-style="italic" fill="rgb(107, 119, 133)">kata-ñāṇa</text>
+<text x="32" y="98" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">苦</text>
+<text x="32" y="118.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="400" font-style="italic" fill="rgb(107, 119, 133)">dukkha</text>
+<text x="152.31" y="98" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知苦是如此；知问题是什</text>
+<text x="152.31" y="120.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">么。</text>
+<text x="362.87" y="98" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知苦应遍知；知必须了解问</text>
+<text x="362.87" y="120.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">题的性质和范围。</text>
+<text x="573.42" y="98" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知苦已遍知；知已了解问题</text>
+<text x="573.42" y="120.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">的性质和范围。</text>
+<text x="32" y="156" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">集</text>
+<text x="32" y="176.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="400" font-style="italic" fill="rgb(107, 119, 133)">samudaya</text>
+<text x="152.31" y="156" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知苦因是如此；知渴爱是苦</text>
+<text x="152.31" y="178.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">因；知问题的原因是什么。</text>
+<text x="362.87" y="156" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知苦因应断除；知必须断除</text>
+<text x="362.87" y="178.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">渴爱；知必须从根源上解决</text>
+<text x="362.87" y="201" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">问题。</text>
+<text x="573.42" y="156" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知苦因已断除；知渴爱已断</text>
+<text x="573.42" y="178.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">除；知问题的根源已被消</text>
+<text x="573.42" y="201" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">除。</text>
+<text x="32" y="236.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">灭</text>
+<text x="32" y="257" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="400" font-style="italic" fill="rgb(107, 119, 133)">nirodha</text>
+<text x="152.31" y="236.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知灭是如此；知涅槃是苦的</text>
+<text x="152.31" y="259" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">止息；知什么是真正值得追</text>
+<text x="152.31" y="281.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">求的。</text>
+<text x="362.87" y="236.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知灭应现证；知涅槃应现</text>
+<text x="362.87" y="259" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">证；知这就是目标。</text>
+<text x="573.42" y="236.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知灭——涅槃——已现证；知</text>
+<text x="573.42" y="259" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">目标已经达到。</text>
+<text x="32" y="317" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">道</text>
+<text x="32" y="337.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="400" font-style="italic" fill="rgb(107, 119, 133)">magga</text>
+<text x="152.31" y="317" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知道是如此；知灭苦之道有</text>
+<text x="152.31" y="339.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">八支；知有哪些解决问题的</text>
+<text x="152.31" y="362" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">方法。</text>
+<text x="362.87" y="317" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知道应修习；知应修习八正</text>
+<text x="362.87" y="339.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">道；知应着手并运用解决问</text>
+<text x="362.87" y="362" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">题的方法。</text>
+<text x="573.42" y="317" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">知道已修习；知已依八正道</text>
+<text x="573.42" y="339.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">而行；知已完成并结束了解</text>
+<text x="573.42" y="362" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="15px" font-weight="400" fill="rgb(44, 62, 80)">决问题的方法。</text>
+</svg>

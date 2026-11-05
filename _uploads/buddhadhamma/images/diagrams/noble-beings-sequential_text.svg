@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="177" viewBox="0.0 -1.0 800 177" role="img" aria-label="七圣者次第" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>七圣者次第</title>
+<rect x="0.0" y="-1.0" width="800" height="177" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="176" fill="#ffffff"/>
+<g transform="translate(33.0,-10.5)">
+<text x="20.0" y="40.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">1. 随信行者</text>
+<text x="20.0" y="90.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">2. 随法行者</text>
+<line x1="140.0" y1="40.0" x2="400.0" y2="40.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="140.0" y1="90.0" x2="400.0" y2="90.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="170.0" y1="40.0" x2="170.0" y2="140.0" stroke="#4a5866" stroke-width="1.6"/>
+<line x1="170.0" y1="140.0" x2="202.0" y2="140.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="210.0" y="140.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">＋解脱</text>
+<text x="210.0" y="162.0" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785" font-style="italic">vimokkha</text>
+<line x1="270.0" y1="140.0" x2="400.0" y2="140.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="410.0" y="40.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">3. 信解脱者</text>
+<text x="410.0" y="90.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">4. 见至者</text>
+<text x="410.0" y="140.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">5. 身证者</text>
+<polyline points="530.0,40.0 580.0,40.0 580.0,90.0 504.2,90.0" fill="none" stroke="#4a5866" stroke-width="1.6"/>
+<line x1="580.0" y1="65.0" x2="615.0" y2="65.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="530.0" y1="140.0" x2="615.0" y2="140.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="625.0" y="65.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">6. 慧解脱者</text>
+<text x="625.0" y="140.0" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="central">7. 俱解脱者</text>
+</g>
+</svg>

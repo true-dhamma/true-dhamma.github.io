@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="723" viewBox="0.0 0.0 800 723" role="img" aria-label="修行与发展" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
+<title>修行与发展</title>
+<rect x="0.0" y="0.0" width="800" height="723" fill="#FFFFFF"/>
+<defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5866"/></marker></defs>
+<rect width="800" height="723" fill="#ffffff"/>
+<g transform="translate(-18.5,-1.5)">
+<text x="86.0" y="30.0" font-size="16" font-weight="500" text-anchor="middle" dominant-baseline="central">起点/助缘</text>
+<text x="86.0" y="52.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">正见的要素</text>
+<text x="360.0" y="30.6" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">1. 良好的外在影响</text>
+<text x="360.0" y="51.6" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">paratoghosa</text>
+<line x1="460.0" y1="40.0" x2="540.0" y2="40.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="640.0" y="30.6" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">2. 如理作意</text>
+<text x="640.0" y="51.6" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">yoniso-manasikāra</text>
+<line x1="360.0" y1="64.0" x2="478.0" y2="108.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="640.0" y1="64.0" x2="522.0" y2="108.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="500.0" y="116.6" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">正见</text>
+<text x="500.0" y="139.1" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">sammā-diṭṭhi</text>
+<line x1="500.0" y1="152.0" x2="500.0" y2="190.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="86.0" y="240.0" font-size="16" font-weight="500" text-anchor="middle" dominant-baseline="central">修行过程</text>
+<text x="86.0" y="262.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">三学</text>
+<rect x="300.0" y="196.0" width="400.0" height="110.0" rx="10" fill="#fff" stroke="#4a5866" stroke-width="1.4"/>
+<text x="380.0" y="224.6" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">增上戒</text>
+<text x="380.0" y="246.3" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">adhisīla</text>
+<text x="500.0" y="224.6" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">增上心</text>
+<text x="500.0" y="246.3" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">adhicitta</text>
+<text x="620.0" y="224.6" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">增上慧</text>
+<text x="620.0" y="246.3" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">adhipaññā</text>
+<text x="500.0" y="282.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">于社会、心、智慧三个层面</text>
+<text x="214.0" y="350.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">在社会层面修习增上戒</text>
+<line x1="380.0" y1="350.0" x2="414.0" y2="350.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="420.0" y="350.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">在心的层面修习增上心</text>
+<line x1="586.0" y1="350.0" x2="620.0" y2="350.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="626.0" y="350.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">在智慧层面修习增上慧</text>
+<text x="86.0" y="448.0" font-size="16" font-weight="500" text-anchor="middle" dominant-baseline="central">无上生活</text>
+<text x="86.0" y="470.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">magga</text>
+<text x="335.2" y="412.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">增上戒所培育：</text>
+<text x="330.0" y="448.0" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">正语</text>
+<text x="330.0" y="476.0" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">正业</text>
+<text x="330.0" y="504.0" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">正命</text>
+<text x="505.2" y="412.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">增上心所培育：</text>
+<text x="500.0" y="448.0" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">正精进</text>
+<text x="500.0" y="476.0" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">正念</text>
+<text x="500.0" y="504.0" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">正定</text>
+<text x="675.2" y="412.0" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">增上慧所培育：</text>
+<text x="670.0" y="448.0" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">正见</text>
+<text x="670.0" y="476.0" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">正思惟</text>
+<text x="86.0" y="584.0" font-size="16" font-weight="500" text-anchor="middle" dominant-baseline="central">人生目标</text>
+<text x="86.0" y="606.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">attha</text>
+<text x="330.0" y="584.6" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">现法利益</text>
+<text x="330.0" y="606.3" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">diṭṭhadhammikattha</text>
+<text x="500.0" y="584.6" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">来世利益</text>
+<text x="500.0" y="606.3" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">samparāyikattha</text>
+<text x="670.0" y="584.6" font-size="17" font-weight="400" text-anchor="middle" dominant-baseline="central">究竟利益</text>
+<text x="670.0" y="606.3" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">paramattha</text>
+<line x1="330.0" y1="522.0" x2="330.0" y2="568.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="350.0" y1="522.0" x2="470.0" y2="568.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="500.0" y1="522.0" x2="500.0" y2="568.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="520.0" y1="522.0" x2="640.0" y2="568.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="670.0" y1="494.0" x2="670.0" y2="568.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
+<path d="M240,634 q0,10 10,10 L490.0,644 q10,0 10,10 q0,-10 10,-10 L750,644 q10,0 10,-10" fill="none" stroke="#4a5866" stroke-width="1.4"/>
+<text x="500.0" y="674.6" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="central">正智与正解脱</text>
+<text x="500.0" y="697.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">sammā-ñāṇa, sammā-vimutti</text>
+</g>
+</svg>
