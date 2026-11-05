@@ -8,4 +8,4 @@ excerpt:
 collection: buddhadhamma
 ---
 
-![“佛法：自然法则及其对生命的利益 \| Buddhadhamma The Laws of Nature and Their Benefits to Life 中文版 \| 巴育陀尊者 \| P. A. Payutto”](/uploads/buddhadhamma/images/cover/buddhadhamma-cover-front.jpg)
+![“佛法：自然法则及其对生命的利益 \| Buddhadhamma The Laws of Nature and Their Benefits to Life 中文版 \| 巴育陀尊者 \| P. A. Payutto”](./images/cover/buddhadhamma-cover-front.jpg)
