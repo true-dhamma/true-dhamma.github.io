@@ -4,9 +4,9 @@ title: 缩写 | 佛法 | Buddhadhamma
 
 # 缩写
 
-（经文出处附有 VRI/CSCD 式编号，例如：[MN 18 / M i 111-12](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-018-madhupindika/){: target="_blank" rel="noopener"}, Madhupiṇḍika Sutta。以下列表中的经典著作以斜体字表示。）
+中文译注：经文出处中，斜杠前为 VRI/CSCD 式编号（链接至“[AIPali 巴利三藏智能化工程](https://aipali.true-dhamma.com/){: target="_blank" rel="noopener"}”），斜杠后为 PTS 版卷页号。英文版原采用 SuttaCentral 式编号与 PTS 版卷页号结合的方式，其中 SuttaCentral 部分经号与 VRI/CSCD 有细微不同，本书已将 SuttaCentral 式编号更改为 VRI/CSCD 式编号。书中照录原书的 PTS 版卷页号。少量未找到 PTS 与 VRI/CSCD 对应的编号，仅保留 PTS 版卷页号，且未提供 AIPali 链接。
 
-译注：经文出处中，斜杠前为 VRI/CSCD 式经号（链接至 AIPali），斜杠后为 PTS 版卷页号。英文版原用 SuttaCentral 式编号，部分经号与本书不同。书中照录原书的若干缩写与上表写法不同或未列入上表：Nd. I.＝Nd1.，Nd. II.＝Nd2.，NdA.＝Nd1A./Nd2A.，Ps1.、Ps2.＝Ps. I.、Ps. II.，VibA.＝VbhA.，JatA.＝JA.，BudA.＝BvA.，Bu.＝Bv.，VinT.＝VinṬ.；另有 Mang.＝Maṅgalatthadīpanī（《吉祥灯》），Mhvs.＝Mahāvaṁsa（《大史》）；BE.、CE. 分别指佛历、公元。
+若干缩写与下表写法不同或未列入下表：Nd. I.＝Nd1.，Nd. II.＝Nd2.，NdA.＝Nd1A./Nd2A.，Ps1.、Ps2.＝Ps. I.、Ps. II.，VibA.＝VbhA.，JatA.＝JA.，BudA.＝BvA.，Bu.＝Bv.，VinT.＝VinṬ.；另有 Mang.＝Maṅgalatthadīpanī（《吉祥灯》），Mhvs.＝Mahāvaṁsa（《大史》）；BE.、CE. 分别指佛历、公元。以下列表中的经典著作以斜体字表示。
 
 _A._
 
