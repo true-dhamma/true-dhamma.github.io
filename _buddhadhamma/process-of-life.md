@@ -10,24 +10,24 @@ title: 第三篇：生命如何运作？ | 佛法 | Buddhadhamma
 >
 > 有智慧的人就是这样如实地看待业，他们是缘起的见者，精通于业及其果报。业使世界运转；业使众生世代轮转。众生被业所束缚，如同行进的车轮被轴栓所系。
 >
-> > Samaññā hesā lokasmiṁ, nāmagottaṁ pakappitaṁ;  
-> > Sammuccā samudāgataṁ, tattha tattha pakappitaṁ.
-> >
-> > Dīgharattānusayitaṁ, diṭṭhigatamajānataṁ;  
-> > Ajānantā no pabrunti, jātiyā hoti brāhmaṇo.
-> >
-> > Na jaccā brāhmaṇo hoti, na jaccā hoti abrāhmaṇo;  
-> > Kammunā brāhmaṇo hoti, kammunā hoti abrāhmaṇo.
-> >
-> > Kassako kammunā hoti, sippiko hoti kammunā;  
-> > Vāṇijo kammunā hoti, pessako hoti kammunā.
-> >
-> > Coropi kammunā hoti, yodhājīvopi kammunā;  
-> > Yājako kammunā hoti, rājāpi hoti kammunā.
-> >
-> > Evametaṁ yathābhūtaṁ, kammaṁ passanti paṇḍitā;  
-> > Paṭiccasamuppādadassā, kammavipākakovidā.
-> >
-> > Kammunā vattati loko, kammunā vattati pajā;  
-> > Kammanibandhanā sattā, rathassāṇīva yāyato.  
-> > [MN 98 / M ii 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-098-vasettha/){: target="_blank" rel="noopener"}
+> Samaññā hesā lokasmiṁ, nāmagottaṁ pakappitaṁ;  
+> Sammuccā samudāgataṁ, tattha tattha pakappitaṁ.
+>
+> Dīgharattānusayitaṁ, diṭṭhigatamajānataṁ;  
+> Ajānantā no pabrunti, jātiyā hoti brāhmaṇo.
+>
+> Na jaccā brāhmaṇo hoti, na jaccā hoti abrāhmaṇo;  
+> Kammunā brāhmaṇo hoti, kammunā hoti abrāhmaṇo.
+>
+> Kassako kammunā hoti, sippiko hoti kammunā;  
+> Vāṇijo kammunā hoti, pessako hoti kammunā.
+>
+> Coropi kammunā hoti, yodhājīvopi kammunā;  
+> Yājako kammunā hoti, rājāpi hoti kammunā.
+>
+> Evametaṁ yathābhūtaṁ, kammaṁ passanti paṇḍitā;  
+> Paṭiccasamuppādadassā, kammavipākakovidā.
+>
+> Kammunā vattati loko, kammunā vattati pajā;  
+> Kammanibandhanā sattā, rathassāṇīva yāyato.  
+> [MN 98 / M ii 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-098-vasettha/){: target="_blank" rel="noopener"}

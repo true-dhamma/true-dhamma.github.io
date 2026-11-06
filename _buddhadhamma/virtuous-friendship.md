@@ -23,7 +23,7 @@ title: 第十三章：善友 | 佛法 | Buddhadhamma
 
 1.  Paratoghosa：他人的“宣说”；外在的影响或诱导，例如：他人的教导、建议、解释和传授；广告、信息、新闻、书面材料和学校教育。在此，特指善法教导，特别是佛法教导的传授，以及从善友（kalyāṇamitta）那里获得的知识和忠告。这是一种外在的社会因素。可称为信（saddhā）的途径。
     
-2.  Yoniso-manasikāra：如理作意；分析性思惟；理性或系统的注意。懂得如何客观地思考事物，运用理性思维，探究事物的起源，追溯现象的整个轨迹，并分析一个所缘或问题，以便按照真相及其相互关联的因缘来看待它，而不允许个人渴爱或执著干扰。这是一种内在的修行因素。可称为慧（paññā）的途径。
+2.  Yoniso-manasikāra：如理作意；分析性思惟；理性或系统的注意。懂得如何客观地思考事物，运用理性思维，探究事物的起源，追溯现象的整个轨迹，并分析一个所缘或问题，以便按照真相及其相互关联的因缘来看待它，而不允许个人渴爱或执着干扰。这是一种内在的修行因素。可称为慧（paññā）的途径。
     
 
 以下段落强调了这两种因素在修行中的重要性：
@@ -55,11 +55,11 @@ title: 第十三章：善友 | 佛法 | Buddhadhamma
 
 正人与智者
 
-> 当 sappurisa 与 ariya 搭配使用时，义注提出了各种定义：ariya 指佛陀，而 sappurisa 指独觉佛和如来的弟子，或者指所有弟子；或者，这两个词具有相同含义（例如：MA. I. 21, 24; SA. II. 252, 254; NdA. 76, 79; DhsA. 349, 353）。
+> 当 sappurisa 与 ariya 搭配使用时，义注提出了各种定义：ariya 指佛陀，而 sappurisa 指独觉佛和如来的弟子，或者指所有弟子；或者，这两个词具有相同含义（例如：MA. I. 21, 24；SA. II. 252, 254；NdA. 76, 79；DhsA. 349, 353）。
 >
-> 当 sappurisa 单独出现时，它指佛陀和所有上述个体（例如：DA. III. 1020, 1058; AA. III. 63）。
+> 当 sappurisa 单独出现时，它指佛陀和所有上述个体（例如：DA. III. 1020, 1058；AA. III. 63）。
 >
-> paṇḍita 一词可用于指佛陀和所有上述个体（例如：KhA. 128; SnA. I. 300）。
+> paṇḍita 一词可用于指佛陀和所有上述个体（例如：KhA. 128；SnA. I. 300）。
 >
 > 一般来说，ariya、sappurisa 和 paṇḍita 这些词的含义是重叠的，有时可以互换使用。但若严格按照佛陀的话来说，paṇḍita 指的是达到前几章所述的两种“利益”（attha）的人（paṇḍita 也有一些额外的技术定义），而 sappurisa 指的是具备以下特定品质的人。
 
@@ -94,7 +94,7 @@ title: 第十三章：善友 | 佛法 | Buddhadhamma
 > [AN 1.127 / A i 18](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#15-an-1114-129-正法的失坏与安住){: target="_blank" rel="noopener"}
 >
 > 就外在因素而言，我未见有任何其他因素，能像善友那样，如此导向大利益。  
-> [AN 1.111 / A i 17](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#13-an-1110-111-恶友与善友){: target="_blank" rel="noopener"}; 参阅：[SN 46.50 / S v 102](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-41-50-cakkavatti/#10-sn-4650-外部支分经-bāhiraṅgasutta){: target="_blank" rel="noopener"}
+> [AN 1.111 / A i 17](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#13-an-1110-111-恶友与善友){: target="_blank" rel="noopener"}；参阅：[SN 46.50 / S v 102](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-41-50-cakkavatti/#10-sn-4650-外部支分经-bāhiraṅgasutta){: target="_blank" rel="noopener"}
 >
 > 对于一位仍在修行中、尚未证得阿罗汉果、并渴望超越束缚的究竟安稳的比丘，我未见有任何其他外在因素，能像善友那样有益。当一位比丘拥有善友时，他将消除不善法，培养善法。  
 > [Iti 1.17 / It 10](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-01-ekaka/#27-iti-117-学二经){: target="_blank" rel="noopener"}, Dutiyasekha Sutta
@@ -248,12 +248,12 @@ paṇḍita 是一个有智慧的人，一个用智慧来引导生活的人。�
 > “让居士和比丘都认为只有我独自完成了这件事情；在所有工作，无论大小，让他们都服从我。”这是愚者的野心；他的嫉妒和傲慢只会不断累积。  
 > [Dhp 73 and 74](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-033-075-citta-puppha-bala/#514-dhp-73-74-质多居士的故事-cittagahapativatthu){: target="_blank" rel="noopener"}, Bālavagga
 >
-> 善人对一切状况都不执著；正直的人不为欲乐而发言；无论受乐或受苦，智者既不欣喜也不沮丧。
+> 善人对一切状况都不执着；正直的人不为欲乐而发言；无论受乐或受苦，智者既不欣喜也不沮丧。
 >
 > 智者不为自己也不为他人而行任何恶事；他不渴望通过不义手段获得儿子、财富、王国或个人成功；他有德、有智、正直。[\[17\]](#fn-fn17){:id="fr-fn17"}  
 > [Dhp 83 and 84](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-076-128-pandita-arahanta-sahassa-papa/#68-dhp-83-智者不为得失所动-pañcasatabhikkhuvatthu){: target="_blank" rel="noopener"}, Paṇḍitavagga
 
-> 无论他是否受到尊敬，他的定都不可动摇；他保持警觉和清醒。这样的人持续禅修并不断精进；他拥有敏锐的观智，并乐于摧毁执著。他们称他为殊胜之人。[\[18\]](#fn-fn18){:id="fr-fn18"}  
+> 无论他是否受到尊敬，他的定都不可动摇；他保持警觉和清醒。这样的人持续禅修并不断精进；他拥有敏锐的观智，并乐于摧毁执着。他们称他为殊胜之人。[\[18\]](#fn-fn18){:id="fr-fn18"}  
 > [SN 17.10 / S ii 232](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-17-labhasakkara/sn-17-labhasakkara/#110-sn-1710-偈颂经-sagāthakasutta){: target="_blank" rel="noopener"}, Sagāthaka Sutta
 >
 > 治水者引水，造箭者矫箭，木工者琢木，智者训练自己。  
@@ -480,7 +480,7 @@ paṇḍita 是一个有智慧的人，一个用智慧来引导生活的人。�
 5.  为学生提供全面的保障（教导他们如何真正运用知识并谋生）。
     
 
-最后，善友有两项特质应特别强调，它们区分了此类人的卓越：第一，他真正能够做到他所教导的，或者他对某事已有特定的证悟，并能就此教导他人；第二，他是自由的；他不陷于困惑，也不与他所引导的人受相同的执著所束缚。关于第一项特质，佛陀有许多教导，例如：
+最后，善友有两项特质应特别强调，它们区分了此类人的卓越：第一，他真正能够做到他所教导的，或者他对某事已有特定的证悟，并能就此教导他人；第二，他是自由的；他不陷于困惑，也不与他所引导的人受相同的执着所束缚。关于第一项特质，佛陀有许多教导，例如：
 
 > 一个人应先确立自己  
 > 在正确和善的方面；  
@@ -718,7 +718,7 @@ kammassakatā-ñāṇa（或 kammassakatā-sammādiṭṭhi）的一个常见例
 \[11\] 导向入流的因素：[SN 55.5 / S v 347](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#5-sn-555-舍利弗经之二-dutiyasāriputtasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn11)
 {: id="fn-fn11"}
 
-\[12\] 此教导是给予比丘的，例如：[DN 33 / D iii 266-7](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}, [DN 34 / D iii 290](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 10.17 / A v 23-4](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-011-020-natha/#7-an-1017-救护之一-paṭhamanāthasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn12)
+\[12\] 此教导是给予比丘的，例如：[DN 33 / D iii 266-7](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[DN 34 / D iii 290](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 10.17 / A v 23-4](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-011-020-natha/#7-an-1017-救护之一-paṭhamanāthasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn12)
 {: id="fn-fn12"}
 
 \[13\] 其中最著名的包括：两只红胸鹦鹉兄弟（Sattigumba Jātaka: J. IV. 432；JA. IV. 430）；味道异常的芒果（Dadhivāhana Jātaka: J. II. 106；JA. II. 101）；马和它的训练师（Giridatta Jātaka \[亦称 Somadatta Jātaka\]: J. II. 98；JA. II. 164）；一头大象改变其性情（Mahilāmukha Jātaka: J. I. 188；JA. I. 185）；鸽子和乌鸦（Kapota Jātaka: J. I. 244；JA. I. 241；J. III. 225；JA. III. 224；Lola Jātaka: J. II. 363；JA. II. 361）；豺和狮子幼崽（Manoja Jātaka: J. III. 323；JA. III. 321）；鸡和鹰（Kukkuṭa Jātaka: J. IV. 56；JA. IV. 55）。另见：Mittāmitta Jātaka (J. II. 131；JA. II. 130；J. IV. 197；JA. IV. 196)；Vyaggha Jātaka (J. II. 357；JA. II. 355)；Kuntinī Jātaka (J. III. 135；JA. III. 134)；Mahāsuvarāja Jātaka (J. III. 491；JA. III. 490)；Kusanāḷi Jātaka (J. I. 443；JA. I. 440)；Kuruṅgamiga Jātaka (J. II. 153；JA. II. 152)；Mahā-ukkusa Jātaka (J. IV. 291；JA. IV. 288)。《本生经》故事中还有许多关于人际交往的说法，与此主题不直接相关。[&nbsp;↩&nbsp;](#fr-fn13)
@@ -727,13 +727,13 @@ kammassakatā-ñāṇa（或 kammassakatā-sammādiṭṭhi）的一个常见例
 \[14\] 针对公众的此类教导包括：通过思惟无常和不稳定的真理，帮助人们接受死亡；以及劝导人们不要沉溺于物质利益、声望、快乐和赞美。[&nbsp;↩&nbsp;](#fr-fn14)
 {: id="fn-fn14"}
 
-\[15\] [DN 33 / D iii 252](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}, [DN 34 / D iii 283](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 7.68 / A iv 113-14](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#4-an-768-善知法经-dhammaññūsutta){: target="_blank" rel="noopener"}；另一组包含八个因素的正直之人品德出现在：[MN 110 / M iii 23](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-110-culapunnama/){: target="_blank" rel="noopener"}。“正法行”（dhamma-cariyā）或十善业道（kusala-kammapatha）有时被称为善士法（sappurisa-dhamma）（[AN 10.192 / A v 279](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-189-198-ariyamagga/#4-an-10192-善士法经-sappurisadhammasutta){: target="_blank" rel="noopener"}）；偶尔，十无学法（asekha-dhamma）或十正性（sammatta）被称为善士法（[AN 10.148 / A v 245](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-145-154-ariyamagga/#4-an-10148-善士法经-sappurisadhammasutta){: target="_blank" rel="noopener"}）；有时，善士（sappurisa）被定义为具足八正道之人（[SN 45.25 / S v 19-20](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-21-30-micchatta/#5-sn-4525-第一不善士经-paṭhamaasappurisasutta){: target="_blank" rel="noopener"}）。关于正直之人与非正直之人（asappurisa）的佛教教导众多；此处仅选取部分，以阐明这些教导的精髓。[&nbsp;↩&nbsp;](#fr-fn15)
+\[15\] [DN 33 / D iii 252](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[DN 34 / D iii 283](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 7.68 / A iv 113-14](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#4-an-768-善知法经-dhammaññūsutta){: target="_blank" rel="noopener"}；另一组包含八个因素的正直之人品德出现在：[MN 110 / M iii 23](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-110-culapunnama/){: target="_blank" rel="noopener"}。“正法行”（dhamma-cariyā）或十善业道（kusala-kammapatha）有时被称为善士法（sappurisa-dhamma）（[AN 10.192 / A v 279](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-189-198-ariyamagga/#4-an-10192-善士法经-sappurisadhammasutta){: target="_blank" rel="noopener"}）；偶尔，十无学法（asekha-dhamma）或十正性（sammatta）被称为善士法（[AN 10.148 / A v 245](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-145-154-ariyamagga/#4-an-10148-善士法经-sappurisadhammasutta){: target="_blank" rel="noopener"}）；有时，善士（sappurisa）被定义为具足八正道之人（[SN 45.25 / S v 19-20](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-21-30-micchatta/#5-sn-4525-第一不善士经-paṭhamaasappurisasutta){: target="_blank" rel="noopener"}）。关于正直之人与非正直之人（asappurisa）的佛教教导众多；此处仅选取部分，以阐明这些教导的精髓。[&nbsp;↩&nbsp;](#fr-fn15)
 {: id="fn-fn15"}
 
-\[16\] Apadāne sobhati paññā；我根据 AA. II. 169翻译了这句话。[&nbsp;↩&nbsp;](#fr-fn16)
+\[16\] Apadāne sobhati paññā；我根据 AA. II. 169 翻译了这句话。[&nbsp;↩&nbsp;](#fr-fn16)
 {: id="fn-fn16"}
 
-\[17\] 义注将“对一切状况都不执著”一语解释为“放弃对一切事物的欢喜和执着（chanda-rāga）”（DhA. II. 156）。[&nbsp;↩&nbsp;](#fr-fn17)
+\[17\] 义注将“对一切状况都不执着”一语解释为“放弃对一切事物的欢喜和执着（chanda-rāga）”（DhA. II. 156）。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
 \[18\] 在泰语巴利语版本中，“保持警觉和清醒”一语被“住于无量定”取代。[&nbsp;↩&nbsp;](#fr-fn18)
@@ -793,19 +793,19 @@ kammassakatā-ñāṇa（或 kammassakatā-sammādiṭṭhi）的一个常见例
 \[36\] 提及：Nd. I. 31-2；Nd. II. 21。[&nbsp;↩&nbsp;](#fr-fn36)
 {: id="fn-fn36"}
 
-\[37\] “不应过于忙碌，不应不加区别地行事”这句话是巴利语 na vāyameyya sabbattha 的翻译，其字面意思是“不应在所有地方努力”或“不应在所有事情上努力”。义注解释这句话为“不应在各种不善的活动中努力”，例如像皇室官员一样充当信使或侦察员（UdA. 334）。“不应成为别人的仆役”意指不应成为某人的仆人或下属。[&nbsp;↩&nbsp;](#fr-fn37)
+\[37\] “不应过于繁忙，不应漫无目的地行事”这句话是巴利语 na vāyameyya sabbattha 的翻译，其字面意思是“不应在所有地方努力”或“不应在所有事情上努力”。义注解释这句话为“不应在各种不善的活动中努力”，例如像皇室官员一样充当信使或侦察员（UdA. 334）。“不应成为他人的仆役”意指不应成为某人的仆人或下属。[&nbsp;↩&nbsp;](#fr-fn37)
 {: id="fn-fn37"}
 
 \[38\] 参见：[AN 4.36 / A ii 38-9](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#6-an-436-头那婆罗门经-doṇasutta){: target="_blank" rel="noopener"}, Doṇa Sutta。[&nbsp;↩&nbsp;](#fr-fn38)
 {: id="fn-fn38"}
 
-\[39\] “完全熄灭”和“熄灭”的表达翻译自“他自己证得了般涅槃，因此教授法以证得般涅槃”这句话。[&nbsp;↩&nbsp;](#fr-fn39)
+\[39\] “已般涅槃”“为了般涅槃”即英译本中的“完全熄灭”（completely quenched）和“熄灭”（extinguishment），对应“世尊自己已般涅槃，因此为了般涅槃而教导佛法”一句。[&nbsp;↩&nbsp;](#fr-fn39)
 {: id="fn-fn39"}
 
-\[40\] [MN 77 / M ii 9-10](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-077-mahasakuludayi/){: target="_blank" rel="noopener"}；[AN 3.126 / A i 276](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-124-133-kusinara/#3-an-3126-乔达摩支提经-gotamakacetiyasutta){: target="_blank" rel="noopener"}；Nd. I. 271-2。对于这一段落的翻译存在矛盾；例如，不同版本的泰语三藏包含不同的翻译。将这一段落与 [DN 9 / D i 193](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-09-potthapada/){: target="_blank" rel="noopener"}, [DN 9 / D i 198-9](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-09-potthapada/){: target="_blank" rel="noopener"}, [DN 13 / D i 239](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-13-tevijja/){: target="_blank" rel="noopener"}；[MN 79 / M ii 33](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-079-culasakuludayi/){: target="_blank" rel="noopener"}；DA. II. 379, 555；MA. III. 273；SA. III. 254；UdA. 326；NdA. II. 355 中的教法进行比较会很有帮助。[&nbsp;↩&nbsp;](#fr-fn40)
+\[40\] [MN 77 / M ii 9-10](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-077-mahasakuludayi/){: target="_blank" rel="noopener"}；[AN 3.126 / A i 276](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-124-133-kusinara/#3-an-3126-乔达摩支提经-gotamakacetiyasutta){: target="_blank" rel="noopener"}；Nd. I. 271-2。对于这一段落的翻译存在矛盾；例如，不同版本的泰语三藏包含不同的翻译。将这一段落与 [DN 9 / D i 193](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-09-potthapada/){: target="_blank" rel="noopener"}；[DN 9 / D i 198-9](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-09-potthapada/){: target="_blank" rel="noopener"}；[DN 13 / D i 239](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-13-tevijja/){: target="_blank" rel="noopener"}；[MN 79 / M ii 33](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-079-culasakuludayi/){: target="_blank" rel="noopener"}；DA. II. 379, 555；MA. III. 273；SA. III. 254；UdA. 326；NdA. II. 355 中的教法进行比较会很有帮助。[&nbsp;↩&nbsp;](#fr-fn40)
 {: id="fn-fn40"}
 
-\[41\] 参见：[Thag 17.3 / Thag verses 1024-1033](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-17-21-timsa-maha/#thag-173-阿难长老偈-ānandattheragāthā){: target="_blank" rel="noopener"}（关于第一个类比，请参阅上文脚注84）。[&nbsp;↩&nbsp;](#fr-fn41)
+\[41\] 参见：[Thag 17.3 / Thag verses 1024-1033](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-17-21-timsa-maha/#thag-173-阿难长老偈-ānandattheragāthā){: target="_blank" rel="noopener"}（关于第一个类比，请参阅上文脚注34）。[&nbsp;↩&nbsp;](#fr-fn41)
 {: id="fn-fn41"}
 
 \[42\] 例如，参见 SA. I. 273；SnA. II. 398 中的故事。[&nbsp;↩&nbsp;](#fr-fn42)
@@ -823,7 +823,7 @@ kammassakatā-ñāṇa（或 kammassakatā-sammādiṭṭhi）的一个常见例
 \[46\] 引自 UdA. 107。关于如理作意与出世间正见之间的联系，请参见同一参考文献。[&nbsp;↩&nbsp;](#fr-fn46)
 {: id="fn-fn46"}
 
-\[47\] 有助于智慧增长的德行（paññāvuḍḍhi-dhamma；有助于智慧发展的因素）有时被简称为四种增长因素（vuḍḍhi；vuḍḍhi-dhamma）。它们等同于四入流支（sotāpattiyaṅga）：亲近善士（sappurisa-saṁseva）、听闻正法（saddhamma-savana）、如理作意（yoniso-manasikāra）和如法、随法行（dhammānudhamma-paṭipatti）。许多这些教法的来源已在前面引用，包括：[DN 33 / D iii 227](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[SN 55.5 / S v 347](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#5-sn-555-舍利弗经之二-dutiyasāriputtasutta){: target="_blank" rel="noopener"}, [SN 55.50 / S v 404](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-41-50-sagathakapunnabhisanda/#10-sn-5550-支-aṅgasutta){: target="_blank" rel="noopener"}, [SN 55.55–58 / S v 410-11](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#5-sn-5555-入流果经-sotāpattiphalasutta){: target="_blank" rel="noopener"}；[AN 4.248 / A ii 245-6](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-243-253-apattibhaya/#6-an-4248-增慧经-paññāvuddhisutta){: target="_blank" rel="noopener"}；参见：[DN 18 / D ii 214](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}。这些德行在《巴利三藏》的教法中随处可见，仿佛佛陀在寻找机会提及它们。这方面另一个有力的教导见于 [Khp 8 / Kh 7](https://aipali.true-dhamma.com/sutta/kn/kn-01-khp/khp-01-09-khuddakapatha/#8-伏藏经-nidhikaṇḍasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn47)
+\[47\] 有助于智慧增长的德行（paññāvuḍḍhi-dhamma；有助于智慧发展的因素）有时被简称为四种增长因素（vuḍḍhi；vuḍḍhi-dhamma）。它们等同于四入流支（sotāpattiyaṅga）：亲近善士（sappurisa-saṁseva）、听闻正法（saddhamma-savana）、如理作意（yoniso-manasikāra）和如法、随法行（dhammānudhamma-paṭipatti）。许多这些教法的来源已在前面引用，包括：[DN 33 / D iii 227](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[SN 55.5 / S v 347](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#5-sn-555-舍利弗经之二-dutiyasāriputtasutta){: target="_blank" rel="noopener"}；[SN 55.50 / S v 404](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-41-50-sagathakapunnabhisanda/#10-sn-5550-支-aṅgasutta){: target="_blank" rel="noopener"}；[SN 55.55–58 / S v 410-11](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#5-sn-5555-入流果经-sotāpattiphalasutta){: target="_blank" rel="noopener"}；[AN 4.248 / A ii 245-6](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-243-253-apattibhaya/#6-an-4248-增慧经-paññāvuddhisutta){: target="_blank" rel="noopener"}；参见：[DN 18 / D ii 214](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}。这些德行在《巴利三藏》的教法中随处可见，仿佛佛陀在寻找机会提及它们。这方面另一个有力的教导见于 [Khp 8 / Kh 7](https://aipali.true-dhamma.com/sutta/kn/kn-01-khp/khp-01-09-khuddakapatha/#8-伏藏经-nidhikaṇḍasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn47)
 {: id="fn-fn47"}
 
 \[48\] 这段经文之后是两个类似的段落，其中上面的一些因素被以下因素替换：“他有智慧，不是笨蛋”；“他不是带着轻蔑的态度听闻”；“他不是带着竞争的心态听闻”；“他不是带着挑剔的心态，心对说话者硬化而听闻”；以及“他不会自以为理解尚未理解的事物。”这三部经也描述了每个段落中提及的相反特质。这些积极的特质在《巴利三藏》的许多段落中都有发现。[&nbsp;↩&nbsp;](#fr-fn48)
@@ -862,7 +862,7 @@ kammassakatā-ñāṇa（或 kammassakatā-sammādiṭṭhi）的一个常见例
 \[59\] 参见：[AN 9.5 / A iv 363-4](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#5-an-95-力经四力与五怖-balasutta){: target="_blank" rel="noopener"}, Bala Sutta。[&nbsp;↩&nbsp;](#fr-fn59)
 {: id="fn-fn59"}
 
-\[60\] 译注：此附录包含《佛法》泰语版脚注1203的材料。[&nbsp;↩&nbsp;](#fr-fn60)
+\[60\] 译注：此附录包含《佛法》泰语版脚注 1203 的材料。[&nbsp;↩&nbsp;](#fr-fn60)
 {: id="fn-fn60"}
 
 \[61\] 例如：AA. II. 24, 162；AA. III. 281。[&nbsp;↩&nbsp;](#fr-fn61)

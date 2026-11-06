@@ -141,13 +141,13 @@ title: 参考书目 | 佛法 | Buddhadhamma
 
 #### 律藏
 
-*   义注标题：《善见律毗婆沙》（Samantapāsādikā Vinayaṭṭhagathā）（由觉音阿阇梨尊者撰写）。《戒律之始》（The Inception of Discipline）（仅含《外因缘》Bāhiranidāna 部分），N.A. Jayawickrama 译（牛津：巴利圣典协会，1962, 1986, 2010）。
+*   义注标题：《善见律毗婆沙》（Samantapāsādikā Vinayaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《戒律之始》（The Inception of Discipline）（仅含《外因缘》Bāhiranidāna 部分），N.A. Jayawickrama 译（牛津：巴利圣典协会，1962, 1986, 2010）。
     
 *   复注标题：《精义律疏》（Sāratthadīpanī Vinayaṭīkā）（由斯里兰卡舍利弗长老撰写）。
     
 *   《除疑律疏》（Vimativinodanī Ṭīkā）（由南印度拘罗国迦叶长老撰写）。
     
-*   《善见律注解》（Samantapāsādikāya Atthayojanā）（由泰国清迈的智称尊者〔Ñāṇakitti〕于约佛历2000年，即公元1457年撰写）。
+*   《善见律注解》（Samantapāsādikāya Atthayojanā）（由泰国清迈的智称尊者〔Ñāṇakitti〕于约佛历两千余年撰写）。
     
 *   《除疑律论》（Kaṅkhāvitaraṇī Pāṭimokkhavaṇṇanā, Mātikaṭṭhakathā）（由觉音阿阇梨尊者撰写）。
     
@@ -168,7 +168,7 @@ title: 参考书目 | 佛法 | Buddhadhamma
     
 *   《自说经》（Udāna）：义注标题：《胜义灯》（Paramatthadīpanī Udānavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《自说经义注》（Udāna Commentary），P. Masefield 译，2卷（牛津：巴利圣典协会，1994, 1995）。
     
-*   《如是语经》（Itivuttaka）：义注标题：《胜义灯》（Paramatthadīpanī Itivuttakavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《如是语经义注》（The Commentary on the Itivuttaka），Peter Masefield 译，2卷（牛津：巴利圣典协会，2008 - 2009）。
+*   《如是语经》（Itivuttaka）：义注标题：《胜义灯》（Paramatthadīpanī Itivuttakavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《如是语经义注》（The Commentary on the Itivuttaka），Peter Masefield 译，2卷（牛津：巴利圣典协会，2008-2009）。
     
 *   《经集》（Suttanipāta）：义注标题：《胜义之光》（Paramatthajotikā Suttanipātavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。英文译本：未知。
     
@@ -192,7 +192,7 @@ title: 参考书目 | 佛法 | Buddhadhamma
     
 *   《行藏》（Cariyāpiṭaka）：义注标题：《胜义灯》（Paramatthadīpanī Cariyāpiṭakavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。英文译本：未知。
     
-*   《吉祥义灯》（Maṅgalatthadīpanī Maṅgalasuttavaṇṇanā）（由清迈的吉祥阿阇梨尊者〔Sirimaṅgalācāriya〕于约佛历2000年，即公元1487年撰写）。
+*   《吉祥义灯》（Maṅgalatthadīpanī Maṅgalasuttavaṇṇanā）（由清迈的吉祥阿阇梨尊者〔Sirimaṅgalācāriya〕于约佛历两千余年撰写）。
     
 
 #### 论藏

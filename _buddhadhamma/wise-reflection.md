@@ -16,7 +16,7 @@ title: 第十五章：如理作意 | 佛法 | Buddhadhamma
 
 “正确地生活”或“适当地处理所有事物”这种说法，是对修行的一种概括性描述。为了更清晰地描述，必须将正确的修行分解和区分成各种细微的活动，并审视人生活的许多方面。因此，描述修行的不同部分是有益的，这些部分共同构成了正确生活方式的整体。由此，人们可以界定正确生活的精微之处，揭示适当修行的不同方面。
 
-从一个角度看，生活就是为了生存而奋斗，努力摆脱压迫和阻碍的力量，并寻得安乐。简而言之，生活的这一方面，就是解决问题或苦的止息。那些能够正确解决和摆脱问题的人，在生活中获得了真正的成功，并生活在没有痛苦之中。因此，正确而成功地生活可以定义为解决问题的能力。
+从一个角度看，生活就是为了生存而奋斗，努力摆脱压迫和阻碍的力量，并寻得安乐。简而言之，生活的这一方面，就是解决问题或苦的止息。那些能够正确解决和摆脱问题的人，在生活中获得了真正的成功，过着没有痛苦的生活。因此，正确而成功地生活可以定义为解决问题的能力。
 
 从另一个角度看，生活是从事各种活动，表现为不同形式的身语行为。当这种活动没有向外表达时，它就以意业的形式在内部显现。这指的是身、语、意业，在法义上被称为身业（kāya-kamma）、语业（vacī-kamma）和意业（mano-kamma）。总的来说，它们被称为通过三“门”（dvāra）的业。
 
@@ -182,14 +182,14 @@ title: 第十五章：如理作意 | 佛法 | Buddhadhamma
     
     如果提供指导的人，例如父母或老师，无法在学生（或孩子，视情况而定）心中建立信任感，而学生随后对其他信息和思维来源，比如通过媒体传播的电影明星的言语，产生了更大的兴趣和信任，并且如果这些替代信息是糟糕或错误的，那么学习或修行过程就会陷入危险。最终结果可能是学错了，或根本没有真正学到什么。
     
-2.  如理作意（yoniso-manasikāra）；善巧的思惟模式；系统化的思惟；能够如实地思惟和辨别事物，例如认识到特定现象“如是存在”。探寻因缘，探究事物的源头，追溯事件的完整序列，并分析事物以如实看待事物并符合因果法则。不因个人渴爱和执着而执着或扭曲事物。如理作意导向安乐和解决问题的能力。这是一个内在的精神因素，可称之为“智慧之道”。
+2.  如理作意（yoniso-manasikāra）：善巧的思惟模式；系统化的思惟；能够如实地思惟和辨别事物，例如认识到特定现象“如是存在”。探寻因缘，探究事物的源头，追溯事件的完整序列，并分析事物以如实看待事物并符合因果法则。不因个人渴爱和执着而执着或扭曲事物。如理作意导向安乐和解决问题的能力。这是一个内在的精神因素，可称之为“智慧之道”。
     
 
 在这两个因素中，如理作意是必不可少的。修行真正结出果实并达到目标，正是如理作意所致。事实上，如理作意可能在没有外部影响协助的情况下启动修行。如果依赖第一个因素即外部教导，它必须导向如理作意，修习才能圆满。直觉、洞察力以及对实相的发现和证悟，都是通过如理作意来完成的。
 
 话虽如此，我们不应低估第一个因素——他人的教导——的力量，因为只有极少数人不需要依赖这个因素——那些只通过运用如理作意就能进步的人。这些人，就像佛陀一样，是例外的。世界上几乎所有人都依赖他人的教导来指引方向。
 
-所有过去和现在形式化的、系统的教育，以及所有艺术和科学领域的学业，都属于“他人言教”（paratoghosa）这一因素。因此，善友对知识的良好传授值得我们给予最大的关注和重视。
+所有过去和现在形式化的、系统的教育，以及所有艺术和科学领域的学业，都属于“他人的教导”（paratoghosa）这一因素。因此，善友对知识的良好传授值得我们给予最大的关注和重视。
 
 这里需要重申的一点是，在提供教育或善巧指导时，善友需要不断牢记，这种指导必须成为学生心中生起如理作意的催化剂。
 
@@ -274,7 +274,7 @@ title: 第十五章：如理作意 | 佛法 | Buddhadhamma
 
 在修行的体系中，如理作意是一个内在因素，与思惟的发展和应用相关联。它可以定义为一种正确的思惟方法，有条理的思惟，或分析性思惟，它具有以下特点：它防止人肤浅地看待事物；它导致自力更生；它导向解脱，免于痛苦，真正的平静，以及纯粹的智慧，这些都是佛教的最高目标。
 
-以上材料概述了修行的两个初始因素：他人言教（paratoghosa），也可以描述为拥有善友（kalyāṇamitta），这是一个外在因素，涉及信；以及如理作意（yoniso-manasikāra），这是一个内在因素，涉及慧。
+以上材料概述了修行的两个初始因素：他人的教导（paratoghosa），也可以描述为拥有善友（kalyāṇamitta），这是一个外在因素，涉及信；以及如理作意（yoniso-manasikāra），这是一个内在因素，涉及慧。
 
 从这里开始，本章的焦点将仅限于如理作意，以阐明佛法独特的思惟方法。
 
@@ -286,9 +286,9 @@ title: 第十五章：如理作意 | 佛法 | Buddhadhamma
 > 比丘们，正如黎明的银光和金光是日出的前驱，同样，对比丘而言，如理作意是七觉支生起的先兆和前驱。当一个比丘在如理作意上有所成就时，期望他会培育和修习七觉支。  
 > [SN 46.13 / S v 79](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-11-20-gilana/#3-sn-4613-日轮喻经之二-dutiyasūriyūpamasutta){: target="_blank" rel="noopener"}, Dutiyasūriyūpama Sutta
 >
-> 比丘们，正如这个身体由营养维持，依靠营养而生存，没有营养就无法生存；同样，五盖由营养维持，依靠营养而生存，没有营养就无法生存。那么，\[它们的\]营养是什么呢？：……频繁地缺乏如理作意……。
+> 比丘们，正如这个身体由营养维持，依靠营养而生存，没有营养就无法生存；同样，五盖由营养维持，依靠营养而生存，没有营养就无法生存。那么，\[它们的\]营养是什么呢？……频繁地缺乏如理作意……。
 >
-> 比丘们，正如这个身体由营养维持，依靠营养而生存，没有营养就无法生存；同样，七觉支由营养维持，依靠营养而生存，没有营养就无法生存。那么，\[它们的\]营养是什么呢？：……反复运用如理作意。[\[3\]](#fn-fn3){:id="fr-fn3"}  
+> 比丘们，正如这个身体由营养维持，依靠营养而生存，没有营养就无法生存；同样，七觉支由营养维持，依靠营养而生存，没有营养就无法生存。那么，\[它们的\]营养是什么呢？……反复运用如理作意。[\[3\]](#fn-fn3){:id="fr-fn3"}  
 > [SN 46.2 / S v 64-7](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-01-10-pabbata/#2-sn-462-身经-kāyasutta){: target="_blank" rel="noopener"}, Kāya Sutta
 
 > 比丘们，通过如理作意（yoniso-manasikāra），通过细心正精进（yoniso-sammappadhāna），我证得了无上解脱，我了悟了无上解脱。你们也通过如理作意，通过细心正精进，将证得无上解脱，将了悟无上解脱。  
@@ -357,9 +357,9 @@ Manasikāra 被译为“心的活动”、“思惟”、“考量”、“反�
 
 Yoniso：一种途径和一条道路
 
-> Yoniso 在义注中通常仅被定义为 upāya（“手段”，“方法”）：MA. V. 81; SA. I. 88; AA. I. 51; AA. II. 38; AA. IV. 1; KhA. 229; NdA. II. 343; DhsA. 402; VismṬ.: Sīlaniddesavaṇṇanā, Paccayasannissitasīlavaṇṇanā; VismṬ.: Anussatikammaṭṭhānaniddesavaṇṇanā, Maraṇassatikathāvaṇṇanā。
+> Yoniso 在义注中通常仅被定义为 upāya（“手段”，“方法”）：MA. V. 81；SA. I. 88；AA. I. 51；AA. II. 38；AA. IV. 1；KhA. 229；NdA. II. 343；DhsA. 402；VismṬ.: Sīlaniddesavaṇṇanā, Paccayasannissitasīlavaṇṇanā；VismṬ.: Anussatikammaṭṭhānaniddesavaṇṇanā, Maraṇassatikathāvaṇṇanā。
 >
-> 它在以下文献中被定义为 upāya 和 patha（“道路”）：\[AA. 2/157\]; AA. III. 394; ItA. I. 62; NdA. II. 463; Vism. 30。它在以下文献中被定义为 upāya, patha 和 kāraṇa（“手段”，“作为”）：DA. II. 643。它在 SA. II. 268, 321; \[SA. 3/390\]中被定义为 kāraṇa。它在《导论》（Nettipakaraṇa）中被定义为 paññā（智慧）（参阅《导论》；另参阅后期文本《名义灯》〔Abhidhānappadīpikā〕：第153颂）
+> 它在以下文献中被定义为 upāya 和 patha（“道路”）：\[AA. 2/157\]；AA. III. 394；ItA. I. 62；NdA. II. 463；Vism. 30。它在以下文献中被定义为 upāya、patha 和 kāraṇa（“手段”，“作为”）：DA. II. 643。它在 SA. II. 268, 321；\[SA. 3/390\]中被定义为 kāraṇa。它在《导论》（Nettipakaraṇa）中被定义为 paññā（智慧）（参阅《导论》；另参阅后期文本《名义灯》〔Abhidhānappadīpikā〕：第153颂）。
 
 Manasikāra 的同义词
 
@@ -370,16 +370,16 @@ Manasikāra 的同义词
 > *   samannāhāra：考量，反省；
 > *   以及 paccavekkhaṇa：考量，反省，审视。
 >
-> 参阅：DA. II. 643; MA. I. 64; ItA. I. 62; Vism. 274。
+> 参阅：DA. II. 643；MA. I. 64；ItA. I. 62；Vism. 274。
 >
 > 还有许多其他同义词，包括：
 >
-> *   upparikkhā：审查，调查（[SN 22.43 / S iii 42](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-43-52-attadipa/#1-sn-2243-自洲经-attadīpasutta){: target="_blank" rel="noopener"}, [SN 22.95 / S iii 140-41](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-93-102-puppha/#3-sn-2295-聚沫喻经-pheṇapiṇḍūpamasutta){: target="_blank" rel="noopener"}）；
+> *   upparikkhā：审查，调查（[SN 22.43 / S iii 42](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-43-52-attadipa/#1-sn-2243-自洲经-attadīpasutta){: target="_blank" rel="noopener"}；[SN 22.95 / S iii 140-41](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-93-102-puppha/#3-sn-2295-聚沫喻经-pheṇapiṇḍūpamasutta){: target="_blank" rel="noopener"}）；
 > *   paṭisaṅkhā：反省，考量（[AN 4.37 / A ii 39-40](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#7-an-437-四不退堕-aparihāniyasutta){: target="_blank" rel="noopener"}）；
 > *   paṭisañcikkhaṇā：仔细思考，反省（[AN 10.92 / A v 184](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#2-an-1092-止息怖畏-bhayasutta){: target="_blank" rel="noopener"}）；此词与 yoniso-manasikāra 在 [SN 12.41 / S ii 70](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-41-50-gahapati/#1-sn-1241-五畏罪经-pañcaverabhayasutta){: target="_blank" rel="noopener"}和 [SN 55.28 / S v 389](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-21-30-saranani/#8-sn-5528-怖畏与怨仇息止经之一-paṭhamabhayaverūpasantasutta){: target="_blank" rel="noopener"}中等同；
 > *   parivīmaṁsā：彻底考量，审查（[SN 12.51 / S ii 81](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-51-60-dukkha/#1-sn-1251-思量经-parivīmaṃsanasutta){: target="_blank" rel="noopener"}）。
 >
-> sammā-manasikāra（[DN 1 / D i 12-13](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-01-brahmajala/){: target="_blank" rel="noopener"}; [DN 24 / D iii 30](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-24-pathika/){: target="_blank" rel="noopener"}; DA. I. 104; DA. III. 888; MA. I. 197）的含义与 yoniso-manasikāra 非常接近，但它很少使用，其含义也不被视为有严格的界定。
+> sammā-manasikāra（[DN 1 / D i 12-13](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-01-brahmajala/){: target="_blank" rel="noopener"}；[DN 24 / D iii 30](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-24-pathika/){: target="_blank" rel="noopener"}；DA. I. 104；DA. III. 888；MA. I. 197）的含义与 yoniso-manasikāra 非常接近，但它很少使用，其含义也不被视为有严格的界定。
 
 这四个定义描述了被称为“如理作意”（yoniso-manasikāra）的作意的各种属性。在任何时候，如理作意可能包含所有或部分这些属性。这四个定义可以简要概括为“方法性思惟”、“系统性思惟”、“分析性思惟”或“引发善法的思惟”。然而，要为 yoniso-manasikāra 找到一个单一的定义或翻译是具有挑战性的。大多数翻译只能捕捉这个词有限的细微差别，并且不全面。另一种选择是给出冗长的定义，如上文所述。
 
@@ -410,7 +410,7 @@ Yoniso Manasikāra 的翻译
 
 根据这种解释，yoniso-manasikāra 是一种心所运作（manasikāra），导向智慧的应用和培育。[\[10\]](#fn-fn10){:id="fr-fn10"}
 
-《破除障碍》（Papañcasūdanī）指出，不如理作意（ayoniso-manasikāra）是生死轮回（vaṭṭa）的根本来源，导致众生积累问题并沉溺于痛苦之中。这部文本还解释说，当不如理作意被允许滋长时，它会增加无明（avijjā）和有爱（bhava-taṇhā）。随着无明的生起，缘起之轮开始运转，始于无明作为行（saṅkhāra）的条件，并以整个苦聚的生起而完成。缘起之轮的开始也可以通过爱（taṇhā）的生起来指定，始于爱作为取的条件，同样以苦聚而完成。
+《破除障碍》（Papañcasūdanī）指出，不如理作意（ayoniso-manasikāra）是生死轮回（vaṭṭa）的根本来源，导致众生积累问题并沉溺于痛苦之中。这部文本还解释说，当不如理作意被允许滋长时，它会增加无明（avijjā）和有爱（bhava-taṇhā）。随着无明的生起，缘起之轮开始运转，始于无明作为行（saṅkhāra）的条件，并以整个苦聚的生起而完成。缘起之轮也可以以爱（taṇhā）的生起为开端，始于爱作为取的条件，同样以苦聚而完成。
 
 反之，如理作意是“出离”（vivaṭṭa）循环的根本原因，使人能够摆脱痛苦的漩涡并真正解决问题。随着如理作意的生起，人开始按照八正道分修习，以正见为引导因素。这里的正见等同于真知（vijjā）。随着真知的生起，无明止息。随着无明的止息，缘起的止息循环（nirodha-vāra）开始运作，逐渐导致痛苦的止息。[\[11\]](#fn-fn11){:id="fr-fn11"}这些过程可以这样说明：
 
@@ -440,7 +440,7 @@ Yoniso Manasikāra 的翻译
 
 yoniso-manasikāra 一词含义广泛，包括关注戒行问题的思惟，以及符合自己所学习和理解的德行与实相原则的思惟。不需要深奥智慧的初步沉思包括：友善的思虑、慈心的思虑、慷慨助人的思虑，以及培养内在力量、决心和勇气的思虑。然而，有些沉思需要精细入微的智慧，例如对次要因素的分析或对因缘的探究。
 
-由于如理作意的意义如此全面，每个人都能够运用它，尤其是初级的思惟。所有人都需要做的，就是将他们的思惟导向善的方向，与他们所接受的教法和所培养的观念相符。这种基本的如理作意有助于生起世间的正见，并且深受信心（saddhā）的影响，信心是通过他人的言语（paratoghosa）而产生的，包括所受的教育、文化和善友的存在。信心作为心的锚和内在的力量。认知感官对象或遇到特定情况时，思维过程就会被信心的力量引导，仿佛信心已经为思惟挖好了一条通道。
+由于如理作意的意义如此全面，每个人都能够运用它，尤其是初级的思惟。所有人都需要做的，就是将他们的思惟导向善的方向，与他们所接受的教法和所培养的观念相符。这种基本的如理作意有助于生起世间的正见，并且深受信心（saddhā）的影响，信心是通过他人的教导（paratoghosa）而产生的，包括所受的教育、文化和善友的存在。信心作为心的锚和内在的力量。认知感官对象或遇到特定情况时，思维过程就会被信心的力量引导，仿佛信心已经为思惟挖好了一条通道。
 
 因此，佛陀指出（正确的）信心是如理作意的滋养。[\[12\]](#fn-fn12){:id="fr-fn12"} 来自善友的外部教导，以信心为渠道，能够逐渐增进理解，并给人带来新的观念，例如通过咨询和提问来消除疑虑。
 
@@ -665,7 +665,7 @@ yoniso-manasikāra 一词含义广泛，包括关注戒行问题的思惟，以�
 
 这种作意有两种普遍的特性：
 
-1.  它符合因果关系。调查从结果开始，追溯到原因，然后是随后关注并从根源解决问题。它分为两对：
+1.  它符合因果关系。调查从结果开始，追溯到原因，然后着手从根源解决问题。它分为两对：
     
     第一对：
     
@@ -903,7 +903,7 @@ atthupaparikkhā 一词在此的使用，似乎是在这种情况下缩小了 yo
 
 *   乐味（assāda）：优点；功德；良好品质；甜美；令人满足的方面；美味的方面。
     
-*   过患（ādīnava）：缺点；过失；缺陷；缺点；不足；危险；有害的方面。
+*   过患（ādīnava）：缺点；过失；缺陷；弊端；不足；危险；有害的方面。
     
 *   出离（nissaraṇa）：解脱；出路；解脱的状态；舍弃；摆脱问题；内在的圆满；一种真正的善的状态，独立于优点和缺点，摆脱问题和所舍弃的事物。
     
@@ -1143,7 +1143,7 @@ atthupaparikkhā 一词在此的使用，似乎是在这种情况下缩小了 yo
 >
 > 今日必须努力；明日死神可能降临，谁知？对伟大的总司令、死亡之主，没有缓刑。
 >
-> 如是精进住，日夜不懈怠——这样的人，寂静的圣者称之为日日繁荣者。[\[58\]](#fn-fn58){:id="fr-fn58"}  
+> 如是精进住，日夜不懈怠——这样的人，寂静的圣者称之为日日吉祥者。[\[58\]](#fn-fn58){:id="fr-fn58"}  
 > Bhaddekaratta Sutta, [MN 131 / M iii 187-9](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-131-bhaddekaratta/){: target="_blank" rel="noopener"}
 >
 > \[那些证悟佛法的人\] 不为过去而悲伤，也不为未来而幻想。他们安住于当下：因此他们的容光如此焕发。
@@ -1176,7 +1176,7 @@ atthupaparikkhā 一词在此的使用，似乎是在这种情况下缩小了 yo
 >
 > 又，一位比丘这样思惟：“我现在很少生病或受苦；我拥有均衡的代谢和消化，既不太冷也不太热，而是适中且适合精进。但总有一天，疾病会侵袭这个身体……我愿赶紧奋发精进……即使我生病了，我也会安然住下……”
 >
-> 又，一位比丘这样思惟：“现在食物充足，化缘食物丰盛，所以通过化缘可以轻易维持生计。但总有一天会发生饥荒，收成不好，化缘食物难以获得，通过化缘难以轻易维持生计。 人们将从饥荒之地迁移到食物充足的地方，那里的寺院将变得拥挤和堵塞。当生活条件拥挤和堵塞时，就不容易听闻佛陀的教导，也不容易前往森林和丛林深处的僻静处所。确实……我愿赶紧奋发精进……即使在饥荒中，我也会安然住下……”
+> 又，一位比丘这样思惟：“现在食物充足，化缘食物丰盛，所以通过化缘可以轻易维持生计。但总有一天会发生饥荒，收成不好，化缘食物难以获得，通过化缘难以轻易维持生计。人们将从饥荒之地迁移到食物充足的地方，那里的寺院将变得拥挤和堵塞。当生活条件拥挤和堵塞时，就不容易听闻佛陀的教导，也不容易前往森林和丛林深处的僻静处所。确实……我愿赶紧奋发精进……即使在饥荒中，我也会安然住下……”
 >
 > 又，一位比丘这样思惟：“现在人们和睦相处，快乐地生活在一起，没有争议，像水乳交融，彼此以慈爱之眼相待。但总有一天会发生危险，边境发生骚乱和叛乱，乡村的人们骑着交通工具，四处逃散。在危险时期，人们迁移到安全的地方，那里的生活条件将变得拥挤和堵塞……我愿赶紧奋发精进……即使在危险时期，我也会安然住下……”
 >
@@ -1189,8 +1189,8 @@ atthupaparikkhā 一词在此的使用，似乎是在这种情况下缩小了 yo
 
 > 诸比丘，有这五种尚未生起的未来危险，它们将在未来生起。你们应该认识到它们并努力预防它们。哪五种？
 >
-> 1.  在未来，会有一些比丘身、戒、心、慧未得培育。他们将给予他人具足戒，但无法在增上戒、增上心和增上慧方面训练他们。这些\[弟子\]也将身、戒、心、慧未得培育。他们反过来也会给予他人具足戒，但无法在增上戒、增上心和增上慧方面训练他们。 这些\[弟子\]也将身、戒、心、慧未得培育。因此，由于法腐败，律也腐败；由于律腐败，法也腐败。
-> 1.  又，在未来，会有一些比丘身、戒、心、慧未得培育。他们将给予他人依止[\[60\]](#fn-fn60){:id="fr-fn60"}，但无法在增上戒、增上心和增上慧方面训练他们。这些\[弟子\]也将未得发展……因此，由于法腐败，律也腐败；由于律腐败，法也腐败。
+> 1.  在未来，会有一些比丘身、戒、心、慧未得培育。他们将给予他人具足戒，但无法在增上戒、增上心和增上慧方面训练他们。这些\[弟子\]也将身、戒、心、慧未得培育。他们反过来也会给予他人具足戒，但无法在增上戒、增上心和增上慧方面训练他们。这些\[弟子\]也将身、戒、心、慧未得培育。因此，由于法腐败，律也腐败；由于律腐败，法也腐败。
+> 1.  又，在未来，会有一些比丘身、戒、心、慧未得培育。他们将给予他人依止[\[60\]](#fn-fn60){:id="fr-fn60"}，但无法在增上戒、增上心和增上慧方面训练他们。这些\[弟子\]也将身、戒、心、慧未得培育……因此，由于法腐败，律也腐败；由于律腐败，法也腐败。
 > 1.  又，在未来，会有一些比丘身、戒、心、慧未得培育。他们将宣读高等教义和教理问答的讲经，在没有意识到的情况下，误入不正确的法。因此，由于法腐败，律也腐败；由于律腐败，法也腐败。
 > 1.  又，在未来，会有一些比丘身、戒、心、慧未得培育。当如来所说的那些深奥、意义深刻、超越世俗、与空性相关的论述被宣读时，他们不会专心聆听，不会侧耳倾听，也不会运用心去理解它们；他们不会认为那些教导应该被学习和研究。但是，当那些由诗人创作的诗歌，言辞优美、词藻华丽、涉及外部事物、由弟子所说的论述被宣读时，他们会专心聆听，侧耳倾听，并运用心去理解它们；他们会认为那些教导应该被学习和研究。因此，由于法腐败，律也腐败；由于律腐败，法也腐败。
 > 1.  又，在未来，会有一些比丘身、戒、心、慧未得培育。长老比丘……将贪婪懈怠，成为放逸的领袖，抛弃独处的责任；他们不会奋发精进以获得未获得的，成就未成就的，证悟未证悟的。下一代的人将效仿他们的榜样。他们也将贪婪懈怠，成为放逸的领袖，抛弃独处的责任；他们不会奋发精进……因此，由于法腐败，律也腐败；由于律腐败，法也腐败。
@@ -1420,9 +1420,9 @@ Vibhajja 一词的意思是“分离”、“划分”、“区分”或“分�
 >
 > 佛陀：王子，对这个问题，无法一概而论地回答。
 >
-> 〔佛陀随后区分了他所说和不说的言语，其要旨如下：
+> 〔佛陀随后区分了他所说和不说的言语，其要旨如下：〕
 >
-> 1.  〕不真实、不正确、无益，且令他人不悦不快的话——他不讲。
+> 1.  不真实、不正确、无益，且令他人不悦不快的话——他不讲。
 > 1.  真实且正确，但无益，且令他人不悦不快的话——他不讲。
 > 1.  真实、正确且有益，但令他人不悦不快的话——他选择性地讲。
 > 1.  不真实、不正确、无益，但令他人感到悦耳且愉快的话——他不讲。
@@ -1462,18 +1462,18 @@ Vibhajja 一词的意思是“分离”、“划分”、“区分”或“分�
 >
 > 尊者三弥提（Samiddhi）：通过身、语、意造作有意的业后，一个人会感受到苦，哺罗陀子（Potaliputta）朋友。
 >
-> 〔佛陀后来听说了这次对话，并说：
+> 〔佛陀后来听说了这次对话，并说：〕
 >
-> 〕哺罗陀子（Potaliputta）游方者的提问本应先分析再回答，这个被误导的人三弥提（Samiddhi）却作了一向记说……哺罗陀子（Potaliputta）游方者从一开始就问的是三种感受。如果这个被误导的人三弥提（Samiddhi）在被这样问时，解释说：“哺罗陀子（Potaliputta）朋友，通过身、语、意造作有意的业，如果它作为乐受的基础，一个人就感受乐。通过身、语、意造作有意的业，如果它作为苦受的基础，一个人就感受苦。通过身、语、意造作有意的业，如果它作为不苦不乐受的基础，一个人就感受不苦不乐。”那么他就正确回答了哺罗陀子（Potaliputta）游方者的问题。  
+> 哺罗陀子（Potaliputta）游方者的提问本应先分析再回答，这个被误导的人三弥提（Samiddhi）却作了一向记说……哺罗陀子（Potaliputta）游方者从一开始就问的是三种感受。如果这个被误导的人三弥提（Samiddhi）在被这样问时，解释说：“哺罗陀子（Potaliputta）朋友，通过身、语、意造作有意的业，如果它作为乐受的基础，一个人就感受乐。通过身、语、意造作有意的业，如果它作为苦受的基础，一个人就感受苦。通过身、语、意造作有意的业，如果它作为不苦不乐受的基础，一个人就感受不苦不乐。”那么他就正确回答了哺罗陀子（Potaliputta）游方者的问题。  
 > [MN 136 / M iii 208-209](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-136-mahakammavibhanga/){: target="_blank" rel="noopener"}, Mahākammavibhaṅga Sutta
 
 尊者阿难（Ānanda）去托钵，进入了鹿住（Migasālā）女居士的家中，女居士对他说：
 
 > 尊者阿难（Ānanda）大德，世尊的这项教导应该如何理解呢？为什么一个梵行者和一个非梵行者，在他们的未来生命中，却有着完全相同的目的地？
 >
-> 我的父亲富兰那（Purāṇa）是梵行者，独自生活，禁绝淫欲这种凡俗之事。当他去世时，世尊宣称：“他是一来果，已转生到兜率天（Tusita）。”
+> 我的父亲富兰那（Purāṇa）是梵行者，独自生活，禁绝淫欲这种凡俗之事。当他去世时，世尊宣称：“他是一来者，已转生到兜率天（Tusita）。”
 >
-> 我父亲的挚友梨师达多（Isidatta）并非梵行者，而是与妻子知足生活。当他去世时，世尊也宣称：“他是一来果，已转生到兜率天（Tusita）。”
+> 我父亲的挚友梨师达多（Isidatta）并非梵行者，而是与妻子知足生活。当他去世时，世尊也宣称：“他是一来者，已转生到兜率天（Tusita）。”
 
 尊者阿难（Ānanda）认可这个问题，但他没有回答，而是将此事呈报给佛陀。佛陀解释说，要理解此事，人必须能够辨别不同类型的人（人必须拥有洞察不同人的优劣品质之智——purisapuggalaparopariya-ñāṇa）。
 
@@ -1511,7 +1511,7 @@ Vibhajja 一词的意思是“分离”、“划分”、“区分”或“分�
     
 *   8\. 有些人依正法寻求财富，一旦获得财富，他们使自己快乐，但他们不分享财富，也不做功德。他们因一方面而应受责备，因两方面而应受赞扬。
     
-*   9\. 有些人依正法寻求财富；一旦获得财富，他们使自己快乐，并且他们既分享财富又做功德。但他们仍然执著于财富并沉迷其中；他们使用财富而不辨其过患，并且没有智慧来解脱自己，成为财富的主人。他们因三方面而应受赞扬，因一方面而应受责备。
+*   9\. 有些人依正法寻求财富；一旦获得财富，他们使自己快乐，并且他们既分享财富又做功德。但他们仍然执着于财富并沉迷其中；他们使用财富而不辨其过患，并且没有智慧来解脱自己，成为财富的主人。他们因三方面而应受赞扬，因一方面而应受责备。
     
 
 第四组：依正法寻求财富，以正念和智慧使用财富，并获得解脱心者：
@@ -1520,7 +1520,7 @@ Vibhajja 一词的意思是“分离”、“划分”、“区分”或“分�
 
 这种“分别说”的作意能导致清晰精确的思考和辨别，这与真相相符并与之相当，并能防止困惑。
 
-一个日常生活的简单例子是观察到某人说话直接、直率、坦白，无法说出甜言蜜语；他似乎以坦诚的外衣掩盖了他的直率和唐突的言语。如果更仔细地分析这种情况，可以得出结论，他的坦率和直接是一种美德，但他的唐突和坦白则是一种过失。
+一个日常生活的简单例子是观察到某人说话直接、直率、坦白，无法说出甜言蜜语；他似乎以坦诚的外衣掩盖了他的直率和唐突的言语。如果更仔细地分析这种情况，可以得出结论，他的坦率和直接是一种美德，但他的唐突和口无遮拦则是一种过失。
 
 一个具有这种品质的人应该承认自己在言语不悦耳方面的不足，而不是以直接作为借口。如果希望美德得以圆满，就应该在那些仍有缺陷的方面加以调整。
 
@@ -1581,16 +1581,16 @@ Vibhajja 一词的意思是“分离”、“划分”、“区分”或“分�
 >
 > 特拉：世尊，我独自进入村庄乞食，我独自返回，我独自静坐，我独自修习经行。我就是这样一位独居者，并称赞独居。
 >
-> 佛陀：那是一种独居的方式，长老，我并不否认。但至于独居如何详细圆满，请听我仔细讲……在这里，过去的事物已被舍弃，未来的事物已被放弃，对现在各种个体存在的欢喜和执著已被彻底去除。独居就是这样详细圆满的。[\[85\]](#fn-fn85){:id="fr-fn85"}  
+> 佛陀：那是一种独居的方式，长老，我并不否认。但至于独居如何详细圆满，请听我仔细讲……在这里，过去的事物已被舍弃，未来的事物已被放弃，对现在各种个体存在的欢喜和执着已被彻底去除。独居就是这样详细圆满的。[\[85\]](#fn-fn85){:id="fr-fn85"}  
 > [SN 21.10 / S ii 282-3](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-21-bhikkhu/sn-21-bhikkhu/#110-sn-2110-名为长老经-theranāmakasutta){: target="_blank" rel="noopener"}, Theranāmaka Sutta
 >
 > 尊者弥伽阇罗（Migajāla）：世尊，经中说，“独居者，独居者。”一个人如何是独居者，以及如何是与伴侣同住者？
 >
-> 佛陀：弥伽阇罗，有眼所识的色……耳所识的声音……鼻所识的气味……舌所识的滋味……身所识的触觉……意所识的法，这些都是令人向往、可爱、合意、令人愉悦、感官诱惑、令人心动的。如果一位比丘对它们寻求欢喜，为它们烦恼，并欢迎它们，那么欢喜（nandi）就会生起。当有欢喜时，就有迷恋。当有迷恋时，就有结缚（saṁyojana）。被欢喜和执著所系缚的比丘，被称为与伴侣同住者。
+> 佛陀：弥伽阇罗，有眼所识的色……耳所识的声音……鼻所识的气味……舌所识的滋味……身所识的触觉……意所识的法，这些都是令人向往、可爱、合意、令人愉悦、感官诱惑、令人心动的。如果一位比丘对它们寻求欢喜，为它们烦恼，并欢迎它们，那么欢喜（nandi）就会生起。当有欢喜时，就有迷恋。当有迷恋时，就有结缚（saṁyojana）。被欢喜和执着所系缚的比丘，被称为与伴侣同住者。
 >
 > 即使一位如此居住的比丘住在偏远的森林住所，那里少有声音和喧嚣，荒凉，远离人群，适合隐私和隐居，他仍然被称为与伴侣同住者。为什么呢？因为渴爱是他的伴侣，他还没有舍弃它；因此他被称为与伴侣同住者。
 >
-> 弥伽阇罗，有眼所识的色……耳所识的声音……鼻所识的气味……舌所识的滋味……身所识的触觉……意所识的法，这些都是令人向往、可爱、合意、令人愉悦、感官诱惑、令人心动的。如果一位比丘不对它们寻求欢喜，不为它们烦恼，不欢迎它们，那么欢喜就会止息。当没有欢喜时，就没有迷恋。当没有迷恋时，就没有结缚。从欢喜和执著中解脱的比丘，被称为独居者。
+> 弥伽阇罗，有眼所识的色……耳所识的声音……鼻所识的气味……舌所识的滋味……身所识的触觉……意所识的法，这些都是令人向往、可爱、合意、令人愉悦、感官诱惑、令人心动的。如果一位比丘不对它们寻求欢喜，不为它们烦恼，不欢迎它们，那么欢喜就会止息。当没有欢喜时，就没有迷恋。当没有迷恋时，就没有结缚。从欢喜和执着中解脱的比丘，被称为独居者。
 >
 > 即使一位如此居住的比丘住在村庄附近，与比丘和比丘尼、男居士和女居士、国王和王室大臣、外道导师和他们的弟子交往，他仍然被称为独居者。为什么呢？因为他已经舍弃了他的渴爱伴侣；因此他被称为独居者。[\[86\]](#fn-fn86){:id="fr-fn86"}  
 > [SN 35.63 / S iv 35-7](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-63-73-migajala/#1-sn-3563-尊者鹿网经之一-paṭhamamigajālasutta){: target="_blank" rel="noopener"}, Paṭhamamigajāla Sutta
@@ -1621,7 +1621,7 @@ Vibhajja 一词的意思是“分离”、“划分”、“区分”或“分�
 
 如理觉知事物的一个显著特点是，简单而准确地了解它们，并为正念提供有用的数据，以便在日常生活中和活动中使用。
 
-换句话说，如理认知事物是为了正念和智慧的利益。这不同于导致误解、冲突、执著和心智腐化的认知。通过经验获得知识，而不是让经验或感官印象主宰或迷惑心智。否则，非但没有获得知识来解决问题和消除痛苦，反而积累了烦恼并加剧了痛苦。同样的原则也适用于思维行为，它们有助于区分以智慧引导的生活。
+换句话说，如理认知事物是为了正念和智慧的利益。这不同于导致误解、冲突、执着和心智腐化的认知。通过经验获得知识，而不是让经验或感官印象主宰或迷惑心智。否则，非但没有获得知识来解决问题和消除痛苦，反而积累了烦恼并加剧了痛苦。同样的原则也适用于思维行为，它们有助于区分以智慧引导的生活。
 
 有些人可能会抱怨这种所谓的智慧生活显得缺乏情感、贫瘠无味。对此的回应是，情感往往几乎持续不断地主宰着普通人的生活。如理作意只是减轻人们的痛苦并缓解他们的问题。无需担心他们会缺乏情感。
 
@@ -1749,13 +1749,13 @@ B. 方法论（人类的）：此阶段需要实践和应用：
     
 3.  推断止息：人们认为苦通过以下过程之一止息：
     
-    1.  通过寻求欲乐并最大限度地放纵自己。
+    （A）通过寻求欲乐并最大限度地放纵自己。
     
-    2.  通过依“瑜伽行者之道”（yoga-vidhi）修习禅定成就（jhāna-samāpatti）。
+    （B）通过依“瑜伽行者之道”（yoga-vidhi）修习禅定成就（jhāna-samāpatti）。
     
-    3.  通过发展极端的苦行和自我折磨。
+    （C）通过发展极端的苦行和自我折磨。
     
-    4.  通过断绝缘起的循环，消除无明，切断渴爱，保持正念，并以智慧引导自己的生活。
+    （D）通过断绝缘起的循环，消除无明，切断渴爱，保持正念，并以智慧引导自己的生活。
     
 4.  遵循道：
     
@@ -1774,7 +1774,7 @@ B. 方法论（人类的）：此阶段需要实践和应用：
 
 以下是《巴利三藏》和义注中对 dhammānudhamma-paṭipatti 一词的一些定义：正确地、整合地、无障碍地、与修行目标一致地修行；[\[92\]](#fn-fn92){:id="fr-fn92"}与九种出世间法（lokuttara-dhamma）一致地进行初阶修行；[\[93\]](#fn-fn93){:id="fr-fn93"}进行初阶修行，以及与九种出世间法（lokuttara-dhamma）一致的戒行（sīla）；[\[94\]](#fn-fn94){:id="fr-fn94"}进行初阶修行以及戒行（sīla），以达到目标：超越的状态；[\[95\]](#fn-fn95){:id="fr-fn95"}修行与圣谛（ariya-dhamma）一致的毗婆舍那（vipassanā）法（vipassanā-dhamma）；[\[96\]](#fn-fn96){:id="fr-fn96"}修行符合圣谛（ariya-dhamma）的毗婆舍那（vipassanā）道（vipassanā-magga）；[\[97\]](#fn-fn97){:id="fr-fn97"}遵循符合涅槃（Nibbāna）——超越状态——的正道修行；[\[98\]](#fn-fn98){:id="fr-fn98"}发展符合超越状态的毗婆舍那（vipassanā）禅修（vipassanā-bhāvanā）辅助因素；[\[99\]](#fn-fn99){:id="fr-fn99"} dhammānudhamma 一词指的是法（Dhamma）及其所有微小部分（anudhamma）；[\[100\]](#fn-fn100){:id="fr-fn100"} dhammānudhamma 指的是法的组成部分：那些与法兼容的修行；[\[101\]](#fn-fn101){:id="fr-fn101"}九种出世间法被称为法（Dhamma），例如毗婆舍那（vipassanā）等品质被称为 anudhamma，而适合法的修行被称为 anudhamma-paṭipadā。[\[102\]](#fn-fn102){:id="fr-fn102"}
 
-\[1\] 这里，“他人的言语”（paratoghosa）指的是他人善巧、有益的言语。[&nbsp;↩&nbsp;](#fr-fn1)
+\[1\] 这里，“他人的教导”（paratoghosa）指的是他人善巧、有益的言语。[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
 \[2\] 请注意，这里的“感受”指的是感官体验，而非情感。[&nbsp;↩&nbsp;](#fr-fn2)
@@ -1786,7 +1786,7 @@ B. 方法论（人类的）：此阶段需要实践和应用：
 \[4\] 特别是，知道如何产生如理作意并防止不如理作意的方法。[&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
-\[5\] 关于 yoniso-manasikāra 被定义为 upāya-manasikāra（“有方法地作意”）、patha-manasikāra（“适当的作意”）和 uppādaka-manasikāra（“有效的作意”），请参阅：SA. III. 165；被定义为 upāya-manasikāra 和 patha-manasikāra，请参阅：DA. II. 459, 643；DA. III. 777 = VbhA. 270 = MA. I. 64, 281；ItA. I. 62；SA. II. 21；仅被定义为 upāya-manasikāra，请参阅：MA. II. 346；SA. I. 171；SA. III. 133；AA. I. 46；AA. II. 23；VinṬ.：Mahāvaggaṭīkā, Mahākhandhakaṁ, Aññatitthiyapubbavatthukathāvaṇṇanā, Dutiyamārakathāvaṇṇanā；被定义为 uppādaka-manasikāra，请参阅：MA. I. 296；被定义为 kāraṇa-manasikāra（即作为 patha-manasikāra 定义的阐述），请参阅 Dīgha Nikāya 的复注。关于 yoniso-manasikāra 的值得注意的普遍定义，请参阅：Vism. 131-32；VinṬ.：Tatiya-pārājikaṁ, Ānāpānassatisamādhikathāvaṇṇanā；VismṬ.：Pathavīkasiṇaniddesavaṇṇanā, Dasavidha-appanākosallavaṇṇanā；cf.：Pañcikā Abhidhammatthavibhāvinī-atthayojanā: \[1/432; 2/115, 267\]。这些定义也包括我的一些解释。[&nbsp;↩&nbsp;](#fr-fn5)
+\[5\] 关于 yoniso-manasikāra 被定义为 upāya-manasikāra（“有方法地作意”）、patha-manasikāra（“适当的作意”）和 uppādaka-manasikāra（“有效的作意”），请参阅：SA. III. 165；被定义为 upāya-manasikāra 和 patha-manasikāra，请参阅：DA. II. 459, 643；DA. III. 777 = VbhA. 270 = MA. I. 64, 281；ItA. I. 62；SA. II. 21；仅被定义为 upāya-manasikāra，请参阅：MA. II. 346；SA. I. 171；SA. III. 133；AA. I. 46；AA. II. 23；VinṬ.：Mahāvaggaṭīkā, Mahākhandhakaṁ, Aññatitthiyapubbavatthukathāvaṇṇanā, Dutiyamārakathāvaṇṇanā；被定义为 uppādaka-manasikāra，请参阅：MA. I. 296；被定义为 kāraṇa-manasikāra（即作为 patha-manasikāra 定义的阐述），请参阅 Dīgha Nikāya 的复注。关于 yoniso-manasikāra 的值得注意的普遍定义，请参阅：Vism. 131-32；VinṬ.：Tatiya-pārājikaṁ, Ānāpānassatisamādhikathāvaṇṇanā；VismṬ.：Pathavīkasiṇaniddesavaṇṇanā, Dasavidha-appanākosallavaṇṇanā；cf.：Pañcikā Abhidhammatthavibhāvinī-atthayojanā: \[1/432；2/115, 267\]。这些定义也包括我的一些解释。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
 \[6\] 这是这句格言的真实含义：Attā hi attano nātho——“人确实是自己的依怙。”[&nbsp;↩&nbsp;](#fr-fn6)
@@ -1801,7 +1801,7 @@ B. 方法论（人类的）：此阶段需要实践和应用：
 \[9\] Miln.：Manasikāralakkhaṇapañho aṭṭhamo。[&nbsp;↩&nbsp;](#fr-fn9)
 {: id="fn-fn9"}
 
-\[10\] 以下包含 yoniso-manasikāra 和 ayoniso-manasikāra 术语的段落可以阐明这些术语的含义：当僧团中发生争吵时，使用如理作意的人会停止争吵，并寻求解决争议问题的方法（VinA. V. 1151；MA. IV. 205；JA. III. 489；DhA. I. 65）；报复可以通过如理作意来平息（DhA. I. 51）；以不如理作意领会经文含义会导致误解——例如，遇到 sambhavesī（“受制于再生之众生”）一词时，人们可能会错误地得出佛陀肯定了中间存在状态（antarābhava）的结论——见：UdA. 93；如理作意帮助可训练之人证得法（Dhamma）（SA. III. 6）；如理作意帮助人从听闻法（Dhamma）中获益（ItA. II. 25；NdA. I. 8——基于 [AN 5.151 / A iii 174-5](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-151-160-saddhamma/#1-an-5151-正性决定经之一-paṭhamasammattaniyāmasutta){: target="_blank" rel="noopener"}）；yoniso-manasikāra 一词指的是“毗婆舍那”（vipassanā），并被用作“发展毗婆舍那”这一短语的替代（在许多段落中，例如：MA. I. 72 = ItA. I. 62；AA. I. 214, 380——cf.：\[AA. 1/215\]；UdA. 354。除了这些参考文献，还请参阅：MA. I. 195；SA. III. 111；AA. III. 266；KhA. 232；DhA. I. 157；ItA. II. 150；PsA. I. 302。[&nbsp;↩&nbsp;](#fr-fn10)
+\[10\] 以下包含 yoniso-manasikāra 和 ayoniso-manasikāra 术语的段落可以阐明这些术语的含义：当僧团中发生争吵时，使用如理作意的人会停止争吵，并寻求解决争议问题的方法（VinA. V. 1151；MA. IV. 205；JA. III. 489；DhA. I. 65）；报复可以通过如理作意来平息（DhA. I. 51）；以不如理作意领会经文含义会导致误解——例如，遇到 sambhavesī（“受制于再生之众生”）一词时，人们可能会错误地得出佛陀肯定了中间存在状态（antarābhava）的结论——见：UdA. 93；如理作意帮助可训练之人证得法（Dhamma）（SA. III. 6）；如理作意帮助人从听闻法（Dhamma）中获益（ItA. II. 25；NdA. I. 8——基于 [AN 5.151 / A iii 174-5](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-151-160-saddhamma/#1-an-5151-正性决定经之一-paṭhamasammattaniyāmasutta){: target="_blank" rel="noopener"}）；yoniso-manasikāra 一词指的是“毗婆舍那”（vipassanā），并被用作“发展毗婆舍那”这一短语的替代（在许多段落中，例如：MA. I. 72 = ItA. I. 62；AA. I. 214, 380——cf.：\[AA. 1/215\]；UdA. 354）。除了这些参考文献，还请参阅：MA. I. 195；SA. III. 111；AA. III. 266；KhA. 232；DhA. I. 157；ItA. II. 150；PsA. I. 302。[&nbsp;↩&nbsp;](#fr-fn10)
 {: id="fn-fn10"}
 
 \[11\] MA. I. 65。[&nbsp;↩&nbsp;](#fr-fn11)
@@ -1813,16 +1813,16 @@ B. 方法论（人类的）：此阶段需要实践和应用：
 \[13\] 关于如理作意作为信心的根本原因，例如：ItA. II. 79。[&nbsp;↩&nbsp;](#fr-fn13)
 {: id="fn-fn13"}
 
-\[14\] 见：[DN 16 / D ii 100-101](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；亦见注27。成为自己的依怙，即以法（Dhamma）为依怙。这指的是以精进、正念、正知和智慧生活，依照四念住的教导，彻底了知身体、感受、心和心所法。yoniso-manasikāra 滋养正念并产生智慧（[AN 2.126 / A i 87-8](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-119-180-tatiyapannasaka/#19-an-2127-他声与如理作意){: target="_blank" rel="noopener"}；[AN 10.61 / A v 115](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#1-an-1061-无明经-avijjāsutta){: target="_blank" rel="noopener"}, [AN 10.62 / A v 118](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#2-an-1062-有爱经-taṇhāsutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn14)
+\[14\] 见：[DN 16 / D ii 100-101](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；亦见注27。成为自己的依怙，即以法（Dhamma）为依怙。这指的是以精进、正念、正知和智慧生活，依照四念住的教导，彻底了知身体、感受、心和心所法。yoniso-manasikāra 滋养正念并产生智慧（[AN 2.126 / A i 87-8](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-119-180-tatiyapannasaka/#19-an-2127-他声与如理作意){: target="_blank" rel="noopener"}；[AN 10.61 / A v 115](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#1-an-1061-无明经-avijjāsutta){: target="_blank" rel="noopener"}；[AN 10.62 / A v 118](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#2-an-1062-有爱经-taṇhāsutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn14)
 {: id="fn-fn14"}
 
-\[15\] 例如：[SN 46.2 / S v 65](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-01-10-pabbata/#2-sn-462-身经-kāyasutta){: target="_blank" rel="noopener"}, [SN 46.35 / S v 94](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-31-40-nivarana/#5-sn-4635-如理作意经之一-ayonisomanasikārasutta){: target="_blank" rel="noopener"}, [SN 46.51 / S v 103-104](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#1-sn-4651-食经-āhārasutta){: target="_blank" rel="noopener"}；[AN 10.61 / A v 115](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#1-an-1061-无明经-avijjāsutta){: target="_blank" rel="noopener"}, [AN 10.62 / A v 118](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#2-an-1062-有爱经-taṇhāsutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn15)
+\[15\] 例如：[SN 46.2 / S v 65](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-01-10-pabbata/#2-sn-462-身经-kāyasutta){: target="_blank" rel="noopener"}；[SN 46.35 / S v 94](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-31-40-nivarana/#5-sn-4635-如理作意经之一-ayonisomanasikārasutta){: target="_blank" rel="noopener"}；[SN 46.51 / S v 103-104](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#1-sn-4651-食经-āhārasutta){: target="_blank" rel="noopener"}；[AN 10.61 / A v 115](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#1-an-1061-无明经-avijjāsutta){: target="_blank" rel="noopener"}；[AN 10.62 / A v 118](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#2-an-1062-有爱经-taṇhāsutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn15)
 {: id="fn-fn15"}
 
 \[16\] 关于无明和渴爱作为轮回（vaṭṭa）的主要推动者和根本原因，除了前面引用的 MA. I. 65 段落外，还请参阅《巴利三藏》中关于此事的原始教导：[AN 10.61 / A v 113](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#1-an-1061-无明经-avijjāsutta){: target="_blank" rel="noopener"} 和 [AN 10.62 / A v 116-17](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#2-an-1062-有爱经-taṇhāsutta){: target="_blank" rel="noopener"}，以及后来在 Vism. 524-5 和 577-8 中的解释。[&nbsp;↩&nbsp;](#fr-fn16)
 {: id="fn-fn16"}
 
-\[17\] 标准的公式：“……此灭故彼灭。即：缘无明有行……”经常出现，例如：[SN 12.37 / S ii 65](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-31-40-kalarakhattiya/#7-sn-1237-非汝之物经-natumhasutta){: target="_blank" rel="noopener"}, [SN 12.41 / S ii 70](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-41-50-gahapati/#1-sn-1241-五畏罪经-pañcaverabhayasutta){: target="_blank" rel="noopener"}, [SN 12.62 / S ii 95-7](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#2-sn-1262-无闻经之二-dutiyaassutavāsutta){: target="_blank" rel="noopener"}；[SN 55.28 / S v 389](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-21-30-saranani/#8-sn-5528-怖畏与怨仇息止经之一-paṭhamabhayaverūpasantasutta){: target="_blank" rel="noopener"}；Nd. II. 43。[&nbsp;↩&nbsp;](#fr-fn17)
+\[17\] 标准的公式：“……此灭故彼灭。即：缘无明有行……”经常出现，例如：[SN 12.37 / S ii 65](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-31-40-kalarakhattiya/#7-sn-1237-非汝之物经-natumhasutta){: target="_blank" rel="noopener"}；[SN 12.41 / S ii 70](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-41-50-gahapati/#1-sn-1241-五畏罪经-pañcaverabhayasutta){: target="_blank" rel="noopener"}；[SN 12.62 / S ii 95-7](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#2-sn-1262-无闻经之二-dutiyaassutavāsutta){: target="_blank" rel="noopener"}；[SN 55.28 / S v 389](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-21-30-saranani/#8-sn-5528-怖畏与怨仇息止经之一-paṭhamabhayaverūpasantasutta){: target="_blank" rel="noopener"}；Nd. II. 43。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
 \[18\] 关于毗婆尸佛和所有七位圆满正等正觉佛陀的省思，请参阅：[DN 14 / D ii 31](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-14-mahapadana/){: target="_blank" rel="noopener"}；[SN 12.4–9 / S ii 5-9](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-01-10-buddha/#4-sn-124-毗婆尸经-vipassīsutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn18)
@@ -1852,7 +1852,7 @@ B. 方法论（人类的）：此阶段需要实践和应用：
 \[26\] 这种如理作意的方法几乎贯穿了《相应部》（Saṁyutta Nikāya）的整个《蕴相应》（Khandha Saṁyutta），也散见于《巴利三藏》的其他卷中。[&nbsp;↩&nbsp;](#fr-fn26)
 {: id="fn-fn26"}
 
-\[27\] “在那方面止息” = tadaṅga-nibbāna（“以对治取代的涅槃”或“暂时性涅槃”）。[&nbsp;↩&nbsp;](#fr-fn27)
+\[27\] “在那个方面已达究竟寂静” = tadaṅga-nibbāna（“以对治取代的涅槃”或“暂时性涅槃”）。[&nbsp;↩&nbsp;](#fr-fn27)
 {: id="fn-fn27"}
 
 \[28\] 见《小鬘童子经》（Cūḷamāluṅkayovāda Sutta）：[MN 63 / M i 426-32](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-063-culamalukya/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn28)
@@ -1876,7 +1876,7 @@ B. 方法论（人类的）：此阶段需要实践和应用：
 \[34\] “恭敬地”（sakkaccaṁ）一词意为真诚地、认真地对待某事，例如在短语中：vacchakaṁ sakkaccaṁ upanijjhāyati = “以承诺和细心照看小牛”（[MV 5 / Vin i 193](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn34)
 {: id="fn-fn34"}
 
-\[35\] 见：[AN 1.333–377 / A i 35-6](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#74-an-1322-335-稀有者的对比){: target="_blank" rel="noopener"}；[AN 4.97 / A ii 97](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-091-100-asura/#7-an-497-急速观察-khippanisantisutta){: target="_blank" rel="noopener"}；[AN 7.68 / A iv 116](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#4-an-768-善知法经-dhammaññūsutta){: target="_blank" rel="noopener"}, [AN 8.25–26 / A iv 220-23](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#5-an-825-摩诃那摩经-mahānāmasutta){: target="_blank" rel="noopener"}, [AN 8.62 / A iv 296](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-061-070-bhumicala/#2-an-862-有能比丘-alaṃsutta){: target="_blank" rel="noopener"} (= [AN 8.78 / A iv 328](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-071-080-yamaka/#8-an-878-有能-alaṃsutta){: target="_blank" rel="noopener"}), [AN 8.82 / A iv 337-8](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-081-090-sati/#2-an-882-弗尼耶经-puṇṇiyasutta){: target="_blank" rel="noopener"}, [AN 9.19 / A iv 391-92](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#9-an-919-诸天经-devatāsutta){: target="_blank" rel="noopener"}；[AN 10.68 / A v 126-7](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#8-an-1068-那罗伽林经之二-dutiyanaḷakapānasutta){: target="_blank" rel="noopener"}, [AN 10.83 / A v 154-5](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-081-090-thera/#3-an-1083-普尼耶经-puṇṇiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn35)
+\[35\] 见：[AN 1.333–377 / A i 35-6](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#74-an-1322-335-稀有者的对比){: target="_blank" rel="noopener"}；[AN 4.97 / A ii 97](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-091-100-asura/#7-an-497-急速观察-khippanisantisutta){: target="_blank" rel="noopener"}；[AN 7.68 / A iv 116](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#4-an-768-善知法经-dhammaññūsutta){: target="_blank" rel="noopener"}；[AN 8.25–26 / A iv 220-23](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#5-an-825-摩诃那摩经-mahānāmasutta){: target="_blank" rel="noopener"}；[AN 8.62 / A iv 296](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-061-070-bhumicala/#2-an-862-有能比丘-alaṃsutta){: target="_blank" rel="noopener"} (= [AN 8.78 / A iv 328](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-071-080-yamaka/#8-an-878-有能-alaṃsutta){: target="_blank" rel="noopener"}), [AN 8.82 / A iv 337-8](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-081-090-sati/#2-an-882-弗尼耶经-puṇṇiyasutta){: target="_blank" rel="noopener"}；[AN 9.19 / A iv 391-92](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#9-an-919-诸天经-devatāsutta){: target="_blank" rel="noopener"}；[AN 10.68 / A v 126-7](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#8-an-1068-那罗伽林经之二-dutiyanaḷakapānasutta){: target="_blank" rel="noopener"}；[AN 10.83 / A v 154-5](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-081-090-thera/#3-an-1083-普尼耶经-puṇṇiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn35)
 {: id="fn-fn35"}
 
 \[36\] 这项教导出现在许多地方；参见之前的参考文献。[&nbsp;↩&nbsp;](#fr-fn36)
@@ -1885,7 +1885,7 @@ B. 方法论（人类的）：此阶段需要实践和应用：
 \[37\] [AN 10.113–116 / A v 222-32](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-113-122-paccorohani/#1-an-10113-非法经之一-paṭhamaadhammasutta){: target="_blank" rel="noopener"} 的节略译文。在 [AN 10.171–173 / A v 254-61](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-167-177-janussoni/#5-an-10171-非法之一-paṭhamaadhammasutta){: target="_blank" rel="noopener"} 和 [AN 10.182 / A v 275](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-178-188-sadhu/#5-an-10182-法与非法经-dhammasutta){: target="_blank" rel="noopener"} 中，十种不善业道（akusala-kammapatha）被定义为 adhamma，十种善业道（kusala-kammapatha）被定义为 dhamma。[&nbsp;↩&nbsp;](#fr-fn37)
 {: id="fn-fn37"}
 
-\[38\] 见 [AN 10.1–2 / A v 1-3](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-001-010-anisamsa/#1-an-101-解脱何因经-kimatthiyasutta){: target="_blank" rel="noopener"}, [AN 11.1 / A v 311-12](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-001-010-nissaya/#1-an-111-何义经-kimatthiyasutta){: target="_blank" rel="noopener"} 中相似的段落。[&nbsp;↩&nbsp;](#fr-fn38)
+\[38\] 见 [AN 10.1–2 / A v 1-3](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-001-010-anisamsa/#1-an-101-解脱何因经-kimatthiyasutta){: target="_blank" rel="noopener"}；[AN 11.1 / A v 311-12](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-001-010-nissaya/#1-an-111-何义经-kimatthiyasutta){: target="_blank" rel="noopener"} 中相似的段落。[&nbsp;↩&nbsp;](#fr-fn38)
 {: id="fn-fn38"}
 
 \[39\] “不识善者”是对 anattha-kusala 的翻译；这个词字面意思是“错过要点的聪明人”。《名义灯》（Abhidhānappadīpikā）提供了 attha 一词的九种不同定义。请注意，在《巴利三藏》的次要文献和义注中，attha 一词通常用作“意为”或“在……意义上”，例如：“因‘不散乱’之义，故称正定”（Ps. I. 21；与 Ps. II. 96 相似）；“因‘善安立’之义，故称定”（Vism. 84-5）。然而，在原始巴利文本中，这个词用于表示“利益”或“目标”，例如：“定的利益\[或目的\]是如实知见”（例如：[AN 10.1 / A v 1-2](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-001-010-anisamsa/#1-an-101-解脱何因经-kimatthiyasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn39)
@@ -1912,13 +1912,13 @@ B. 方法论（人类的）：此阶段需要实践和应用：
 \[46\] Ps. II. 8-10。[&nbsp;↩&nbsp;](#fr-fn46)
 {: id="fn-fn46"}
 
-\[47\] Cf.：[DN 29 / D iii 130](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}。在这些对四资具的省察中，最常提及的是对饮食的省察；修行此者被称为“食知节量者”（bhojane-mattaññutā）：例如：[MN 39 / M i 273](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-039-mahaassapura/){: target="_blank" rel="noopener"}；[MN 107 / M iii 2-3](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-107-ganakamoggallana/){: target="_blank" rel="noopener"}；[SN 35.120 / S iv 104](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-114-123-lokakamaguna/#7-sn-35120-舍利弗与共住弟子-sāriputtasaddhivihārikasutta){: target="_blank" rel="noopener"}, [SN 35.239 / S iv 176-7](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#2-sn-35239-战车经-rathopamasutta){: target="_blank" rel="noopener"}；[AN 4.37 / A ii 39-40](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#7-an-437-四不退堕-aparihāniyasutta){: target="_blank" rel="noopener"}；[AN 8.9 / A iv 167-8](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-001-010-metta/#9-an-89-难陀-nandasutta){: target="_blank" rel="noopener"}。食知节量是减少味贪（rasa-taṇhā）的一种方法：Nd. I. 240-41。请注意，这里使用 yoniso paṭisaṅkhā 一词表示“如理省察”，但根据 [MN 2 / M i 7](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-002-sabbasava/){: target="_blank" rel="noopener"} 所表达的原则，此词的含义包含在 yoniso-manasikāra 一词的范围内。这两个词在 [MN 2 / M i 11](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-002-sabbasava/){: target="_blank" rel="noopener"} 和 [SN 46.13 / S v 79](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-11-20-gilana/#3-sn-4613-日轮喻经之二-dutiyasūriyūpamasutta){: target="_blank" rel="noopener"} 中明显互换使用。《一切漏经》（Sabbāsavasaṁvara Sutta）为展示 yoniso-manasikāra 一词的含义范围提供了一个很好的例子（[MN 2 / M i 6-12](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-002-sabbasava/){: target="_blank" rel="noopener"}）；[AN 6.58 / A iii 387-8](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#4-an-658-诸漏经-āsavasutta){: target="_blank" rel="noopener"} 中也有类似的经文。[&nbsp;↩&nbsp;](#fr-fn47)
+\[47\] Cf.：[DN 29 / D iii 130](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}。在这些对四资具的省察中，最常提及的是对饮食的省察；修行此者被称为“食知节量者”（bhojane-mattaññutā）：例如：[MN 39 / M i 273](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-039-mahaassapura/){: target="_blank" rel="noopener"}；[MN 107 / M iii 2-3](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-107-ganakamoggallana/){: target="_blank" rel="noopener"}；[SN 35.120 / S iv 104](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-114-123-lokakamaguna/#7-sn-35120-舍利弗与共住弟子-sāriputtasaddhivihārikasutta){: target="_blank" rel="noopener"}；[SN 35.239 / S iv 176-7](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#2-sn-35239-战车经-rathopamasutta){: target="_blank" rel="noopener"}；[AN 4.37 / A ii 39-40](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#7-an-437-四不退堕-aparihāniyasutta){: target="_blank" rel="noopener"}；[AN 8.9 / A iv 167-8](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-001-010-metta/#9-an-89-难陀-nandasutta){: target="_blank" rel="noopener"}。食知节量是减少味贪（rasa-taṇhā）的一种方法：Nd. I. 240-41。请注意，这里使用 yoniso paṭisaṅkhā 一词表示“如理省察”，但根据 [MN 2 / M i 7](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-002-sabbasava/){: target="_blank" rel="noopener"} 所表达的原则，此词的含义包含在 yoniso-manasikāra 一词的范围内。这两个词在 [MN 2 / M i 11](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-002-sabbasava/){: target="_blank" rel="noopener"} 和 [SN 46.13 / S v 79](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-11-20-gilana/#3-sn-4613-日轮喻经之二-dutiyasūriyūpamasutta){: target="_blank" rel="noopener"} 中明显互换使用。《一切漏经》（Sabbāsavasaṁvara Sutta）为展示 yoniso-manasikāra 一词的含义范围提供了一个很好的例子（[MN 2 / M i 6-12](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-002-sabbasava/){: target="_blank" rel="noopener"}）；[AN 6.58 / A iii 387-8](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#4-an-658-诸漏经-āsavasutta){: target="_blank" rel="noopener"} 中也有类似的经文。[&nbsp;↩&nbsp;](#fr-fn47)
 {: id="fn-fn47"}
 
 \[48\] 见：Vism. 229-39。[&nbsp;↩&nbsp;](#fr-fn48)
 {: id="fn-fn48"}
 
-\[49\] kusīta-vatthu 和 ārabbha-vatthu 的描述出现在：[DN 33 / D iii 255-8](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}, [DN 34 / D iii 287](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 8.80 / A iv 332-5](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-071-080-yamaka/#10-an-880-懈怠与精进-kusītārambhavatthusutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn49)
+\[49\] kusīta-vatthu 和 ārabbha-vatthu 的描述出现在：[DN 33 / D iii 255-8](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[DN 34 / D iii 287](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 8.80 / A iv 332-5](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-071-080-yamaka/#10-an-880-懈怠与精进-kusītārambhavatthusutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn49)
 {: id="fn-fn49"}
 
 \[50\] [MN 20 / M i 118-22](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-020-vitakkasanthana/){: target="_blank" rel="noopener"}。下面的摘要包含了义注分析和《佛法》作者的解释。[&nbsp;↩&nbsp;](#fr-fn50)
@@ -1930,7 +1930,7 @@ B. 方法论（人类的）：此阶段需要实践和应用：
 \[52\] [AN 5.161 / A iii 185-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-161-170-aghata/#1-an-5161-调伏嫌恨之一-paṭhamaāghātapaṭivinayasutta){: target="_blank" rel="noopener"}, Paṭhamaāghātapaṭivinaya Sutta。[&nbsp;↩&nbsp;](#fr-fn52)
 {: id="fn-fn52"}
 
-\[53\] [AN 5.162 / A iii 186-91](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-161-170-aghata/#2-an-5162-调伏嫌恨之二-dutiyaāghātapaṭivinayasutta){: target="_blank" rel="noopener"}（此为意译）。另见：九种 āghāta-vatthu（引起恶意的事物）和九种 āghāta-paṭivinaya（消除恶意的方法），见：[DN 33 / D iii 262-3](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}, [DN 34 / D iii 289](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"} 和 [AN 9.29–30 / A iv 408-409](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-021-031-sattavasa/#9-an-929-嫌恨之一经-āghātavatthusutta){: target="_blank" rel="noopener"}；以及十种 āghāta-vatthu 和十种 āghāta-paṭivinaya，见：[AN 10.79–80 / A v 150-51](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#9-an-1079-十嫌恨事经-āghātavatthusutta){: target="_blank" rel="noopener"}。（只列 āghāta-vatthu 的见于：[PV 15 / Vin v 168](https://aipali.true-dhamma.com/vinaya/pv/pv-15-mahasangama/){: target="_blank" rel="noopener"}；Vbh. 389, 391。）[&nbsp;↩&nbsp;](#fr-fn53)
+\[53\] [AN 5.162 / A iii 186-91](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-161-170-aghata/#2-an-5162-调伏嫌恨之二-dutiyaāghātapaṭivinayasutta){: target="_blank" rel="noopener"}（此为意译）。另见：九种 āghāta-vatthu（引起恶意的事物）和九种 āghāta-paṭivinaya（消除恶意的方法），见：[DN 33 / D iii 262-3](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[DN 34 / D iii 289](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"} 和 [AN 9.29–30 / A iv 408-409](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-021-031-sattavasa/#9-an-929-嫌恨之一经-āghātavatthusutta){: target="_blank" rel="noopener"}；以及十种 āghāta-vatthu 和十种 āghāta-paṭivinaya，见：[AN 10.79–80 / A v 150-51](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#9-an-1079-十嫌恨事经-āghātavatthusutta){: target="_blank" rel="noopener"}。（只列 āghāta-vatthu 的见于：[PV 15 / Vin v 168](https://aipali.true-dhamma.com/vinaya/pv/pv-15-mahasangama/){: target="_blank" rel="noopener"}；Vbh. 389, 391。）[&nbsp;↩&nbsp;](#fr-fn53)
 {: id="fn-fn53"}
 
 \[54\] Vism. 295-306。在此，《清净道论》（Visuddhimagga）中，此主题是在修习慈梵住的背景下讨论的。以类似方式，关于其他禅修技巧，例如不净观（asubha）和四大元素观，也存在多种观想方法。另请注意，这些观想是为比丘而设，但居士可以根据自己的性情选择和应用。[&nbsp;↩&nbsp;](#fr-fn54)
@@ -1996,7 +1996,7 @@ B. 方法论（人类的）：此阶段需要实践和应用：
 \[74\] 例如：[MN 63 / M i 428-32](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-063-culamalukya/){: target="_blank" rel="noopener"}；[SN 44.1–11 / S iv 374-403](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-44-abyakata/sn-44-abyakata/#11-sn-441-差摩长老尼经-khemāsutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn74)
 {: id="fn-fn74"}
 
-\[75\] 例如：[SN 12.12 / S ii 13-14](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-11-20-ahara/#2-sn-1212-破群那经-moḷiyaphaggunasutta){: target="_blank" rel="noopener"}, [SN 12.35 / S ii 60-62](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-31-40-kalarakhattiya/#5-sn-1235-无明缘经-avijjāpaccayasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn75)
+\[75\] 例如：[SN 12.12 / S ii 13-14](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-11-20-ahara/#2-sn-1212-破群那经-moḷiyaphaggunasutta){: target="_blank" rel="noopener"}；[SN 12.35 / S ii 60-62](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-31-40-kalarakhattiya/#5-sn-1235-无明缘经-avijjāpaccayasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn75)
 {: id="fn-fn75"}
 
 \[76\] 这部经提到了许多其他应该培养或不应该培养的事物，包括四资具和与各种人的交往。[&nbsp;↩&nbsp;](#fr-fn76)
@@ -2008,7 +2008,7 @@ B. 方法论（人类的）：此阶段需要实践和应用：
 \[78\] 这部经同样提到了居住在乡村、城镇、城市和国家，以及依止特定的人生活。关于依止特定人生活的部分类似于 [AN 9.6 / A iv 365-6](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#6-an-96-亲近经-sevanāsutta){: target="_blank" rel="noopener"} 的段落。这是一个节略译文。[&nbsp;↩&nbsp;](#fr-fn78)
 {: id="fn-fn78"}
 
-\[79\] “从事宗教实践”是对 jīvita 的翻译。“供奉行为”是对 upaṭṭhāna-sāra 的翻译。另见义注提供的定义。[&nbsp;↩&nbsp;](#fr-fn79)
+\[79\] “宗教生活”是对 jīvita 的翻译。“祭祀行为”是对 upaṭṭhāna-sāra 的翻译。另见义注提供的定义。[&nbsp;↩&nbsp;](#fr-fn79)
 {: id="fn-fn79"}
 
 \[80\] “在此事上他不是一个偏执的发言者（ekaṁsavādī）。”后来，伐耆耶摩希达前去向佛陀询问此事，佛陀描述了哪些苦行应该进行，哪些不应该进行，根据善法和不善法的增减，其方式类似于上述教义。[&nbsp;↩&nbsp;](#fr-fn80)

@@ -12,7 +12,7 @@ title: 第二章：六处 | 佛法 | Buddhadhamma
 
 尽管人类是由五蕴构成，五蕴又可以进一步细分为许多附属因素，但一般来说，在日常生活中，人们并不直接与这些蕴打交道。许多构成人类生命的组成因素在人们不知情的情况下存在和运作，即使人们意识到它们，也常常不去深思。例如，在身体方面，许多身体器官在当事人不知情的情况下运作，而当事人也常常不关心了解。人们可能只在出现异常或障碍时才对这些功能产生兴趣。对于心理因素来说，情况也类似。
 
-人们通常将身的研究分析，交给医学家和生物学家；将心的研究，则留给阿毗达摩学者和心理学家。对大多数人来说，生命的意义和重要性，主要在于他们与世界的日常接触和互动。对大多数人来说，生命的重要性在于他们与世界的关系。
+人们通常将身的研究分析，交给医学家和生物学家；将心的研究，则留给阿毗达摩学者和心理学家。对大多数人来说，生命的意义和重要性，主要在于他们与世界的日常接触和互动，也就是在于他们与世界的关系。
 
 这种接触或关系可以分为两个部分（或说两个系统），两者都依赖于特定的“门”（dvāra；“通道”）来与世界建立联系：
 
@@ -114,7 +114,7 @@ title: 第二章：六处 | 佛法 | Buddhadhamma
 
 如果人们以这种方式执取受，他们就偏离了自然的觉知过程，并为另一种动态提供了接管的机会。受成为一个主导因素，在此新动态中引起后续因素。自然的觉知过程与这种新动态共同运作，但它被其力量扭曲并偏离了真相。
 
-这种新动态很容易展开。基本上，如果与所缘的接触提供了乐受（sukha-vedanā），就会对该所缘生起渴爱（taṇhā）。这种渴爱导致执著与潜在的执取（upādāna）。人们无法放下此所缘，尽管事实上不可能占有它，因为它已经过去并消失了。在这个阶段，人们心有所系，产生各种想法和观念，思考如何拥有这个可意的所缘，并计划如何获得它。最后，人们采取各种身行和语行，以达到其渴望的目标并获得乐受。
+这种新动态很容易展开。基本上，如果与所缘的接触提供了乐受（sukha-vedanā），就会对该所缘生起渴爱（taṇhā）。这种渴爱导致执着与潜在的执取（upādāna）。人们无法放下此所缘，尽管事实上不可能占有它，因为它已经过去并消失了。在这个阶段，人们心有所系，产生各种想法和观念，思考如何拥有这个可意的所缘，并计划如何获得它。最后，人们采取各种身行和语行，以达到其渴望的目标并获得乐受。
 
 相反地，如果与所缘的接触导致苦受或不适受（dukkha-vedanā），人就会不满和恼怒。人渴望摆脱或去除此所缘（= taṇhā）。人在负面意义上为该境所困、执着于它（= upādāna），倾向于厌恶、恐惧和回避。人进一步通过渴望和沉迷于乐受来做出反应，追求那些他们认为能带来欲乐的事物。
 
@@ -228,7 +228,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
     2.  源于善法思维的想；源于正确理解的想。这种想被称为善法想（kusala-saññā）、有助于知识的想（vijjābhāgiya-saññā），或类似的其他术语。它促进智慧和善法的培育与增长。这类想的例子包括：知觉那些促进友谊的属性；以及知觉那些揭示因果状态、无常状态、无我状态等的属性。
     
 
-阿罗汉[\[16\]](#fn-fn16){:id="fr-fn16"} 拥有想，但那是没有漏（āsava）、没有烦恼（kilesa）的想。[\[17\]](#fn-fn17){:id="fr-fn17"} 阿罗汉能够辨识凡夫所体验到的、或他们自己在完全觉悟前曾体验过的戏论想（papañca-saññā），但他们这样做仅仅是为了知识的缘故，或为了利益他人，例如在帮助他人解决问题时。阿罗汉的这些想中，没有感到个人困扰或受影响。一般的佛法修行者可以效仿阿罗汉的这种行为。
+阿罗汉[\[16\]](#fn-fn16){:id="fr-fn16"} 拥有想，但那是没有漏（āsava）、没有烦恼（kilesa）的想。[\[17\]](#fn-fn17){:id="fr-fn17"} 阿罗汉能够辨识凡夫所体验到的、或他们自己在完全觉悟前曾体验过的戏论想（papañca-saññā），但他们这样做仅仅是为了知识的缘故，或为了利益他人，例如在帮助他人解决问题时。阿罗汉不会因这些想而感到个人困扰或受其影响。一般的佛法修行者可以效仿阿罗汉的这种行为。
 
 2\. 识（viññāṇa）：识蕴（viññāṇa-khandha）中的所有知识；所有知识和觉知的主要形式，这是心的相续功能。识觉知所有的心行，如第一章“五蕴”所解释。
 
@@ -240,7 +240,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
     
     被分类为“见”（diṭṭhi）的知识范围从非理性的，到中度理性的，再到高度理性的。当见发展到正确知识和理解的程度——即与实相相符的——它被称为“正见”（sammā-diṭṭhi）并被指定为“智慧”（paññā）。[\[22\]](#fn-fn22){:id="fr-fn22"} 智慧开发到能清晰辨别事物本性时，便不再需要将这种理解执为己有。这是因为真理本身是中立、客观地存在的；它不依赖于任何人的主张或肯定。它超越了“见”的阶段。
     
-    由于见往往与个人执著相关联，因此它常常产生有害影响。如果执著强烈而不动摇，那么即使见解已经非常接近真理，最终仍会成为障碍，使人无法证悟真理。
+    由于见往往与个人执着相关联，因此它常常产生有害影响。如果执着强烈而不动摇，那么即使见解已经非常接近真理，最终仍会成为障碍，使人无法证悟真理。
     
 *   痴（moha；无明）：moha 是 avijjā 的同义词；这两个术语都指对真相的无知和对实相缺乏理解。这种无知与智慧（paññā）相对，特别是名为“明”（vijjā）的特定形式的智慧。可以说，痴是人类存在的基本状态，人们被鼓励通过明（vijjā）或通过开发智慧来消除它。
     
@@ -259,7 +259,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 
 ### 认知的途径
 
-根据佛法，“触”（phassa）是了知的来源：所有形式的理解都因触而生，或在触发生时生起（参见注释：触与识）。[\[27\]](#fn-fn27){:id="fr-fn27"} 也就是说，知识依赖于认知，即数据经由六个认知领域（āyatana）或认知之门（dvāra）传入：眼、耳、鼻、舌、身和意。
+根据佛法，“触”（phassa）是了知的来源：所有形式的理解都因触而生，或在触发生时生起（参见附注“触与识”）。[\[27\]](#fn-fn27){:id="fr-fn27"} 也就是说，知识依赖于认知，即数据经由六个认知领域（āyatana）或认知之门（dvāra）传入：眼、耳、鼻、舌、身和意。
 
 触与识
 
@@ -277,7 +277,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
     
     3.  行蕴（saṅkhāra-khandha）。
     
-    4.  无见无对色（Anidassana-appaṭigha-rūpa）：不可见无对之色，归属于法处所摄色。它也被称为细色（sukhuma-rūpa），包含十六种：凝聚界（āpo-dhātu）；女性特质（itthī-bhāva）；男性特质（purisa-bhāva）；心的物质基础（hadaya-rūpa）；命根（jīvitindriya）；营养物质（āhāra-rūpa；营养精髓——ojā）；空间（ākāsa）；身表（kāya-viññatti）；语表（vacī-viññatti）；三种可变性（vikāra-rūpa）质素：轻快（lahutā）、柔软（mudutā；柔韧）和适用（kammaññatā）；和四种显著特征的物质特质（lakkhaṇa-rūpa）：生长或扩大（upacaya）、持续（santati）；衰变（jaratā）；和坏灭（aniccatā）。
+    4.  无见无对色（Anidassana-appaṭigha-rūpa）：不可见无对之色，归属于法处所摄色。它也被称为细色（sukhuma-rūpa），包含十六种：凝聚界（āpo-dhātu）；女性特质（itthī-bhāva）；男性特质（purisa-bhāva）；心的物质基础（hadaya-rūpa）；命根（jīvitindriya）；营养物质（āhāra-rūpa；营养精髓——ojā）；空间（ākāsa）；身表（kāya-viññatti）；语表（vacī-viññatti）；三种可变性（vikāra-rūpa）质素：轻快（lahutā）、柔软（mudutā；柔韧）和适用（kammaññatā）；和四种显著特征的物质特质（lakkhaṇa-rūpa）：生长或扩大（upacaya）；持续（santati）；衰变（jaratā）；和坏灭（aniccatā）。
     
     5.  无为界（asaṅkhata-dhātu），也就是涅槃。
     
@@ -311,7 +311,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
     
 4.  关于情绪、过去的感官印象、名称以及物质现象间相互关系的思想、想象、判断和推理分析。
     
-5.  遍满光明心的洞察力或超凡知识。例如，辨识出各种因素之间的真实关系时，清晰的理解就会生起，并洞察到相互关联的条件法则（或“相对论”）。这种知识被称为 ñāṇa（“智”）。一个例子是 abhiññā（“无上智”）。
+5.  遍满光明心的洞察力或超凡知识。例如，辨识出各种因素之间的真实关系时，清晰的理解就会生起，并洞察到相互关联的条件法则（或“相对论”）。这种知识被称为 ñāṇa（“智”）。一个例子是 abhiññā（“证智”）。
     
 6.  无为，即涅槃。
     
@@ -337,7 +337,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 
 有三种与开发智慧相关的知识。根据发展阶段，或根据智慧和理解的效力，它们按以下顺序排列：
 
-1.  想（saññā）：通过感知、记忆和识别事物属性而获得的认知。这种知识被记录在心中。它作为比较的模型，也作为思考和后续理解的原始材料。这种想可以分为两种，如前所述（见：A. 知的种类）。
+1.  想（saññā）：通过感知、记忆和识别事物属性而获得的认知。这种知识被记录在心中。它作为比较的模型，也作为思考和后续理解的原始材料。这种想可以分为两种，如前所述（参见上文“知的种类”一节）。
     
     在正常的觉知过程中生起的想——无论是基本的想，还是伴随智慧发展中理解增长的想——仅仅是知或不知的问题。即使是指不同层次的想，比如从模糊到清晰的想，从部分到完全的想，或从错误到正确的想，也是如此。因此，这件事直接关乎知识和知识的发展。这与被称为“戏论想”（papañca-saññā）或“烦恼想”（kilesa-saññā）的过度或不适度的想形成直接对比，后者总是阻碍和扭曲知识。
     
@@ -346,7 +346,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 3.  智（ñāṇa）：彻见实相的智慧；真知。ñāṇa 一词是 paññā（“智慧”）的同义词，但其定义往往更为局限。也就是说，它指的是智慧的特定功能和果实，例如：kammassakatā-ñāṇa（洞见众生是自业的主人）；atītaṁsa-ñāṇa（对过去的深奥知识）；saccānulomika-ñāṇa（与真理和谐的知识）；ṭhānāṭhāna-ñāṇa（对可能与不可能的知识）；以及 nānādhimuttika-ñāṇa（对各种众生的性情、特质和信仰的知识）。Ñāṇa 指的是一种纯净而光辉的知识，它自发地生起于心中，并如实地辨识出一种特定的品质。
     
 
-尽管 ñāṇa 有许多层次，包括错误的知识或不完整的知识，但它们都可以被称为“纯粹”或“真实”的知识形式，因为它们尚未被自我认同或自我执著所污染。偶尔 ñāṇa 会作为推理思维的结果而生起，但这种知识独立于这种思维而存在，因为它与真实存在的某种现实面向相连。这是 ñāṇa 和 diṭṭhi 之间的一个区别。被称为 diṭṭhi 的知识依赖于个人信仰和逻辑推理，而 ñāṇa 则接触真实存在的外部现实面向。[\[33\]](#fn-fn33){:id="fr-fn33"}
+尽管 ñāṇa 有许多层次，包括错误的知识或不完整的知识，但它们都可以被称为“纯粹”或“真实”的知识形式，因为它们尚未被自我认同或自我执着所污染。偶尔 ñāṇa 会作为推理思维的结果而生起，但这种知识独立于这种思维而存在，因为它与真实存在的某种现实面向相连。这是 ñāṇa 和 diṭṭhi 之间的一个区别。被称为 diṭṭhi 的知识依赖于个人信仰和逻辑推理，而 ñāṇa 则接触真实存在的外部现实面向。[\[33\]](#fn-fn33){:id="fr-fn33"}
 
 在基本层面上，想（saññā）是所有思维和后续知识的原始材料。因此，见（diṭṭhi）和智（ñāṇa）都依赖于想。
 
@@ -370,9 +370,9 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 
 有人可能观察落叶，从而生起观智（vipassanā-ñāṇa）并洞察万物的无常。这种知识依赖于许多想作为其来源，例如：对生命和万物维持的想；对衰老和腐朽的想；对退化、死亡和事物终结的想；以及对“上”和“下”的想。看到这些不同想之间关系的能力产生了知识。或者以世间智（lokiya-ñāṇa）为例：当艾萨克·牛顿观察苹果从树上掉落时，他洞察到了重力。这种洞察依赖于无数的想，例如：对“下落”的想；对聚合的想；对空间和力的想；以及对吸引、移动、释放、悬浮、线性、轨迹等等的想。清晰地看到这些不同想之间关系的能力产生了对重力的这种洞察。
 
-智（ñāṇa）能够生起见（diṭṭhi），而较高层次的见往往是基于先前所证得的“智”而生起的。经文中一个清晰的例子是名为婆迦（Baka）的梵天的故事，他能够回忆起似乎无限长的众生诞生。他观察到无数众生的生与死，而他自己却保持不变。因此，他形成了梵天居所是常恒不变、永恒的观点，以及梵天是万物创造者的见。[\[35\]](#fn-fn35){:id="fr-fn35"} 同样，牛顿在发现万有引力之后，利用这一洞察力进一步观察自然现象，但他的视野和理解并非全面。他仍然被某些事物所困或被其欺骗。因此，知识和洞察力易受被称为“见”（diṭṭhi）的执著影响。
+智（ñāṇa）能够生起见（diṭṭhi），而较高层次的见往往是基于先前所证得的“智”而生起的。经文中一个清晰的例子是名为婆迦（Baka）的梵天的故事，他能够回忆起似乎无限长的众生诞生。他观察到无数众生的生与死，而他自己却保持不变。因此，他形成了梵天居所是常恒不变、永恒的观点，以及梵天是万物创造者的见。[\[35\]](#fn-fn35){:id="fr-fn35"} 同样，牛顿在发现万有引力之后，利用这一洞察力进一步观察自然现象，但他的视野和理解并非全面。他仍然被某些事物所困或被其欺骗。因此，知识和洞察力易受被称为“见”（diṭṭhi）的执着影响。
 
-反过来，见（diṭṭhi）支持智（ñāṇa）的生起。许多见是沉思的结果，并且非常合乎逻辑、合理。它们在聪明个体和哲学家的心中确立为信仰。因此，如果不僵硬地执著于这些见，并且能够倾听他人并运用如理作意，那么很有可能更深的知识会生起，为修行进步铺平道路，并消除道路上的任何障碍。
+反过来，见（diṭṭhi）支持智（ñāṇa）的生起。许多见是沉思的结果，并且非常合乎逻辑、合理。它们在聪明个体和哲学家的心中确立为信仰。因此，如果不僵硬地执着于这些见，并且能够倾听他人并运用如理作意，那么很有可能更深的知识会生起，为修行进步铺平道路，并消除道路上的任何障碍。
 
 当见（diṭṭhi）或智（ñāṇa）生起时，新的想（saññā）也随之形成。因此，见和智都会生起想（saññā），后者作为进一步沉思和理解的原始材料。这里的区别在于，见倾向于产生错误的想，而智则有助于产生准确、正确的想并消除错误的想。[\[36\]](#fn-fn36){:id="fr-fn36"}
 
@@ -382,7 +382,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
     
 2.  Sutamaya-paññā（闻所成慧）：由学习或从他人那里传承知识而生起的智慧。
     
-3.  Bhāvanāmaya-paññā（修所成慧）：由修行而生起的智慧。（参见注：产生智慧的因素）
+3.  Bhāvanāmaya-paññā（修所成慧）：由修行而生起的智慧。（参见附注“产生智慧的因素”）
     
 
 产生智慧的因素
@@ -409,7 +409,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
     
     2.  一些宗教宣称已被至高天神揭示和披露的知识。例如，婆罗门教徒相信《吠陀》（Veda）是梵天直接传授的。在巴利语中，这种知识通常被称为 suti，对应于梵语的 ṡruti。然而，在佛教中，这种知识不被认为具有任何独特的区别，因此被包含在 suta 一词中。从智慧的角度来看，它并无任何特殊价值；其区别纯粹在于内容。
     
-2.  见（Diṭṭhi）：意见、理论、教义、信仰。指对事物得出的特定结论。这种理解与个人执著和偏好相关联，并有可能造成与他人分离的感觉。尽管这个因素在前面已经讨论过，但这里关注它在社会背景中的作用。当个人信仰向外延伸，人们宣称或宣告他们的见解时，其他人可能会采纳这些信仰，从而导致派系主义和思想机构或学派的产生。
+2.  见（Diṭṭhi）：意见、理论、教义、信仰。指对事物得出的特定结论。这种理解与个人执着和偏好相关联，并有可能造成与他人分离的感觉。尽管这个因素在前面已经讨论过，但这里关注它在社会背景中的作用。当个人信仰向外延伸，人们宣称或宣告他们的见解时，其他人可能会采纳这些信仰，从而导致派系主义和思想机构或学派的产生。
     
     diṭṭhi（梵语：dṛishṭi）一词有许多巴利语同义词。最重要的包括：khanti（“兼容的观念”、“可接受的原则”）；ruci（“珍视的观念”、“令人愉悦的原则”）；以及 laddhi（“习得的观念”、“教条”、“修行信条”、“被认为有益的修行方式”、“宗教信仰”）。[\[41\]](#fn-fn41){:id="fr-fn41"}
     
@@ -435,13 +435,13 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 
 ### 两种层次的真理
 
-学习佛法的人可能会对“真理”这一主题感到困惑。一方面，他们听到这样的教导：不要与愚人交往，要与智者交往；愚人有这些特征，智者有这些特征；知足常乐，不要贪图他人的财物；自归依；以及应该互相支持。另一方面，其他教导则指出：根据真理辨识，身体仅仅是身体；它不是一个“众生”、一个“人”、一个“自我”、“我”、“你”、“他”或“她”；它不属于我们；它不是持久和实体的；万物皆无我（anattā）。这些人因此认为这些教导是矛盾的，或者他们感到困惑，并因理解有限而修行得偏颇、不正确。有时，当他们应该根据对世界基本的、世俗的理解说话或行动时，他们却执著于胜义谛的教导，导致各种困惑，甚至给自己和他人带来伤害。
+学习佛法的人可能会对“真理”这一主题感到困惑。一方面，他们听到这样的教导：不要与愚人交往，要与智者交往；愚人有这些特征，智者有这些特征；知足常乐，不要贪图他人的财物；自归依；以及应该互相支持。另一方面，其他教导则指出：根据真理辨识，身体仅仅是身体；它不是一个“众生”、一个“人”、一个“自我”、“我”、“你”、“他”或“她”；它不属于我们；它不是持久和实体的；万物皆无我（anattā）。这些人因此认为这些教导是矛盾的，或者他们感到困惑，并因理解有限而修行得偏颇、不正确。有时，当他们应该根据对世界基本的、世俗的理解说话或行动时，他们却执着于胜义谛的教导，导致各种困惑，甚至给自己和他人带来伤害。
 
 为了防止这种困惑和错误行为，《阿毗达摩》将真理（sacca）分为两个层次：[\[42\]](#fn-fn42){:id="fr-fn42"}
 
 1.  世俗谛（sammati-sacca）：另一个名称是 vohāra-sacca：“言说真理”、“口语真理”。这指的是共识的真理：那些经互相同意的事物和共同的名称。这些名称被用作交流的工具，为了日常生活的便利和利益。例子包括这些名称：“人”、“动物”、“好人”、“坏人”、“桌子”、“椅子”和“书”，以及常用词“水”和“盐”。
     
-2.  胜义谛（paramattha-sacca）：就此真理能以言语表达的范围而言，其描述旨在令人彻底如实了知事物。这里的目标是生起透彻究竟真理（sacca-dhamma）的最高利益，这种理解能驱散所有执著、妄想和烦恼，培养对事物的正确关系，带来从苦中解脱，并导向真正的纯净、平静和安乐。
+2.  胜义谛（paramattha-sacca）：就此真理能以言语表达的范围而言，其描述旨在令人彻底如实了知事物。这里的目标是生起透彻究竟真理（sacca-dhamma）的最高利益，这种理解能驱散所有执着、妄想和烦恼，培养对事物的正确关系，带来从苦中解脱，并导向真正的纯净、平静和安乐。
     
     胜义谛的例子包括：名法（nāma-dhamma）、色法（rūpa-dhamma）、受（vedanā）、想（saññā）、行（saṅkhāra）、识（viññāṇa）、心（citta）、心所（cetasika）、物质形色（rūpa）、涅槃、触（phassa）、思（cetanā）、一境性（ekaggatā）、命根（jīvitindriya）等等。与现代科学的比较是水或盐的分析。对于科学家来说，“水”和“盐”这些术语可能被认为不充分、模糊或具有误导性。为了更准确，他们因此将水定义为氧化氢（H2O），将食盐定义为氯化钠（NaCl）。（请注意，这种比较并不完全符合这里对胜义谛的描述，但它显示了即使在其他知识领域，真理的某些方面也与人们的日常理解和定义有所区别。）
 
@@ -451,20 +451,20 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 >
 > 这些术语的清晰描述和区分见于 PañcA. 12, 84。它们在许多其他来源中也有提及，例如：MA. I. 217 = SA. II. 13；DhA. III. 403；\[Saṅganī Mūlaṭīkā: 165, 280\]；\[Saṅgaṇī Anuṭīkā: 328\]；VismṬ.: Brahmavihāraniddesavaṇṇanā, Pakiṇṇakakathāvaṇṇanā；UdA. 396；ItA. I. 162；CompṬ.: Paccayaparicchedavaṇṇanā, Paññattibhedavaṇṇanā。
 >
-> \[译注：在《佛教词典》的巴利语词汇表中，尊者作者承认 sammati 和 sammuti 两种拼写均有效。然而，在词典正文中，他仅使用 sammati，例如：sammati-sacca, sammati-desanā 等。在他的《佛教术语词典》（Dictionary of Buddhist Terminology；仅泰语版）中，他只提供 sammati 的拼写。此外，在 Sir Monier Monier-Williams 的《梵英词典》（A Sanskrit-English Dictionary）中，也只提供 sammati。尽管巴利文本协会的《巴利英词典》（Pali-English Dictionary）非常倾向于 sammuti（它包括 sammata 作为过去分词），且没有提及 sammati，我决定本书中只使用 sammati。更复杂的是，在泰语中，两个读音相近的词 sammuti（“世俗谛”）和 vimutti（“解脱”，此处指胜义谛）常被成对使用、相互对照。\]
+> \[译注：在《佛教词典》的巴利语词汇表中，尊者作者承认 sammati 和 sammuti 两种拼写均有效。然而，在词典正文中，他仅使用 sammati，例如：sammati-sacca、sammati-desanā 等。在他的《佛教术语词典》（Dictionary of Buddhist Terminology；仅泰语版）中，他只提供 sammati 的拼写。此外，在 Sir Monier Monier-Williams 的《梵英词典》（A Sanskrit-English Dictionary）中，也只提供 sammati。尽管巴利文本协会的《巴利英词典》（Pali-English Dictionary）非常倾向于 sammuti（它包括 sammata 作为过去分词），且没有提及 sammati，我决定本书中只使用 sammati。更复杂的是，在泰语中，两个读音相近的词 sammuti（“世俗谛”）和 vimutti（“解脱”，此处指胜义谛）常被成对使用、相互对照。\]
     
 
 无论如何，《阿毗达摩》为这些世俗谛和胜义谛的概念分配了特定的技术术语，并引用经文来证实其主张。这表明这些概念从一开始就存在。很可能在佛陀时代，人们对这些概念已有基本理解，因此没有必要为它们建立独特的描述性术语。这里引用的关键经文是金刚比丘尼（Vajirā）的教导：
 
 > 魔罗，你怎么能相信有众生并持有 \[这样\] 的见解？这纯粹是诸行的集合；在这里，找不到任何众生。正如各种部件的组合产生了“车”这个词，同样地，五蕴也产生了“众生”这个世俗词。  
-> [SN 5.10 / S i 135](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-05-bhikkhuni/sn-05-bhikkhuni/#110-sn-510-金刚经-vajirāsutta){: target="_blank" rel="noopener"}, Vajirā Sutta; 引自 Kvu. 86-7
+> [SN 5.10 / S i 135](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-05-bhikkhuni/sn-05-bhikkhuni/#110-sn-510-金刚经-vajirāsutta){: target="_blank" rel="noopener"}, Vajirā Sutta；引自 Kvu. 86-7
 
-在日常的实修方面，佛陀有许多开示强调对世俗谛和胜义谛的理解。佛陀鼓励人们仅仅将语言视为一种沟通工具，而不执著于约定俗成或被语言所奴役。这里有两个例子：
+在日常的实修方面，佛陀有许多开示强调对世俗谛和胜义谛的理解。佛陀鼓励人们仅仅将语言视为一种沟通工具，而不执着于约定俗成或被语言所奴役。这里有两个例子：
 
 > 漏尽的阿罗汉可能会说：“我这样说，他们也这样对我说。”他善巧地了知世间的言语，将这些词语仅仅用作表达。  
 > [SN 1.25 / S i 14](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-01-devata/sn-01-21-30-satti/#5-sn-125-阿罗汉经-arahantasutta){: target="_blank" rel="noopener"}, Arahanta Sutta
 >
-> 这些是世俗的词语、表达、言谈方式和名称。如来使用这些，但并不执著于它们。  
+> 这些是世俗的词语、表达、言谈方式和名称。如来使用这些，但并不执着于它们。  
 > [DN 9 / D i 202](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-09-potthapada/){: target="_blank" rel="noopener"}, Poṭṭhapāda Sutta
 
 请注意，《阿毗达摩》将经藏——Suttanta Piṭaka——描述为一种世俗教法（vohāra-desanā），因为其大部分内容由世俗语言组成。相比之下，《阿毗达摩》将自身描述为一种胜义教法（paramattha-desanā），因为其大部分内容直接呈现胜义谛。[\[43\]](#fn-fn43){:id="fr-fn43"}
@@ -594,7 +594,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 >
 > 阿难（Ānanda），在圣者之律中，如何达到诸根的至上培育？在这里，当一个比丘以眼见色……以耳闻声……以鼻嗅香……以舌尝味……以身触觉……以意知法时，在他心中生起可意的，生起不可意的，生起既可意又不可意的。
 >
-> 他这样理解：“在我心中生起了可意的，生起了不可意的，生起了既可意又不可意的。但那是因缘和合的、粗糙的、依缘而生的。此后随之而来的状态是寂静而殊胜的，即是舍。” 在他心中生起的可意、不可意，以及既可意又不可意，都止息了，而舍得以确立。
+> 他这样理解：“在我心中生起了可意的，生起了不可意的，生起了既可意又不可意的。但那是因缘和合的、粗糙的、依缘而生的。此后随之而来的状态是寂静而殊胜的，即是舍。”在他心中生起的可意、不可意，以及既可意又不可意，都止息了，而舍得以确立。
 >
 > 正如一个视力良好的人，睁开眼睛后可能闭上，或闭上眼睛后可能睁开一样，对于任何人也都是如此，生起的可意、不可意，以及既可意又不可意，都迅速、快速、轻易地止息了，而舍得以确立。这在圣者之律中被称为诸根的至上培育……  
 > [MN 152 / M iii 299](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-152-indriyabhavana/){: target="_blank" rel="noopener"}, Indriyabhāvanā Sutta
@@ -809,7 +809,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 \[23\] 参阅：Ps. I. 23。[&nbsp;↩&nbsp;](#fr-fn23)
 {: id="fn-fn23"}
 
-\[24\] 参阅：[AN 6.110 / A iii 447](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-107-116-tika/#4-an-6110-想经-saññāsutta){: target="_blank" rel="noopener"}；比较：[AN 9.1 / A iv 352-3](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#1-an-91-正觉-sambodhisutta){: target="_blank" rel="noopener"}, [AN 9.3 / A iv 358](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#3-an-93-弥醯经-meghiyasutta){: target="_blank" rel="noopener"}；[Ud 4.1 / Ud 37](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-04-meghiya/#1-ud-41-尊者弥醯-meghiyasutta){: target="_blank" rel="noopener"}；Ps. I. 57-8, 78等。被认为是“应修习的法”（bhāvetabba-dhamma）的想有时被称为“有助于明的想”（vijjābhāgiya-saññā，参阅：[AN 6.35 / A iii 334](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-031-042-devata/#5-an-635-明分六法-vijjābhāgiyasutta){: target="_blank" rel="noopener"}）、“有助于断除烦恼的想”（nibbedhabhāgiya-sañña，参阅：SA. II. 392）、善想（kusala-saññā），或无颠倒想（aviparīta-saññā；后两个词语参阅：Nett. 126）。[&nbsp;↩&nbsp;](#fr-fn24)
+\[24\] 参阅：[AN 6.110 / A iii 447](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-107-116-tika/#4-an-6110-想经-saññāsutta){: target="_blank" rel="noopener"}；比较：[AN 9.1 / A iv 352-3](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#1-an-91-正觉-sambodhisutta){: target="_blank" rel="noopener"}；[AN 9.3 / A iv 358](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#3-an-93-弥醯经-meghiyasutta){: target="_blank" rel="noopener"}；[Ud 4.1 / Ud 37](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-04-meghiya/#1-ud-41-尊者弥醯-meghiyasutta){: target="_blank" rel="noopener"}；Ps. I. 57-8, 78等。被认为是“应修习的法”（bhāvetabba-dhamma）的想有时被称为“有助于明的想”（vijjābhāgiya-saññā，参阅：[AN 6.35 / A iii 334](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-031-042-devata/#5-an-635-明分六法-vijjābhāgiyasutta){: target="_blank" rel="noopener"}）、“有助于断除烦恼的想”（nibbedhabhāgiya-saññā，参阅：SA. II. 392）、善想（kusala-saññā），或无颠倒想（aviparīta-saññā；后两个词语参阅：Nett. 126）。[&nbsp;↩&nbsp;](#fr-fn24)
 {: id="fn-fn24"}
 
 \[25\] 参阅上一脚注。[&nbsp;↩&nbsp;](#fr-fn25)
@@ -818,7 +818,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 \[26\] 识（viññāṇa）是“应遍知的法”（pariññeyya-dhamma），智慧（paññā）是“应修习的法”（bhāvetabba-dhamma）；参阅：[MN 43 / M i 292](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-043-mahavedalla/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn26)
 {: id="fn-fn26"}
 
-\[27\] 参阅，例如：[SN 22.56 / S iii 59-60](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#4-sn-2256-五取蕴四谛转经-upādānaparipavattasutta){: target="_blank" rel="noopener"}, [SN 22.57 / S iii 63-4](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#5-sn-2257-七处经-sattaṭṭhānasutta){: target="_blank" rel="noopener"}；[SN 35.93 / S iv 68-9](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-84-93-channa/#10-sn-3593-二法之二经-dutiyadvayasutta){: target="_blank" rel="noopener"}；[AN 6.63 / A iii 413](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#9-an-663-决择法经-nibbedhikasutta){: target="_blank" rel="noopener"}；[AN 8.83 / A iv 338-9](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-081-090-sati/#3-an-883-根本经-mūlakasutta){: target="_blank" rel="noopener"}, [AN 9.14 / A iv 385](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#4-an-914-三弥提经-samiddhisutta){: target="_blank" rel="noopener"}；Ps. I. 57。[&nbsp;↩&nbsp;](#fr-fn27)
+\[27\] 参阅，例如：[SN 22.56 / S iii 59-60](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#4-sn-2256-五取蕴四谛转经-upādānaparipavattasutta){: target="_blank" rel="noopener"}；[SN 22.57 / S iii 63-4](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#5-sn-2257-七处经-sattaṭṭhānasutta){: target="_blank" rel="noopener"}；[SN 35.93 / S iv 68-9](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-84-93-channa/#10-sn-3593-二法之二经-dutiyadvayasutta){: target="_blank" rel="noopener"}；[AN 6.63 / A iii 413](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#9-an-663-决择法经-nibbedhikasutta){: target="_blank" rel="noopener"}；[AN 8.83 / A iv 338-9](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-081-090-sati/#3-an-883-根本经-mūlakasutta){: target="_blank" rel="noopener"}；[AN 9.14 / A iv 385](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#4-an-914-三弥提经-samiddhisutta){: target="_blank" rel="noopener"}；Ps. I. 57。[&nbsp;↩&nbsp;](#fr-fn27)
 {: id="fn-fn27"}
 
 \[28\] 通过“意触”（mano-samphassa）获得的知识。[&nbsp;↩&nbsp;](#fr-fn28)
@@ -830,7 +830,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 \[30\] Comp.: Pakiṇṇakaparicchedo, Ālambaṇasaṅgaho；CompṬ.: Pakiṇṇakaparicchedavaṇṇanā, Ālambaṇasaṅgahavaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn30)
 {: id="fn-fn30"}
 
-\[31\] 此分类常见；重要段落包括：[SN 35.95 / S iv 73](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-94-103-sala/#2-sn-3595-摩罗迦子经-mālukyaputtasutta){: target="_blank" rel="noopener"}；Vbh. 429；Nd. I. 55。另参阅：[DN 29 / D iii 135](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"} = [AN 4.23 / A ii 23-4](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-021-030-uruvela/#3-an-423-如来觉世间-lokasutta){: target="_blank" rel="noopener"}；A. II. 25 = It. 121-22；M. I. 135-6；M. III. 261；S. III. 202-203；A. V. 318, 353-8；A. V. 321-22。以复合词形式出现于：M. II. 231-32；Sn. 209-210；Nd. I. 9, 50-51, 53-4, 133-4, 189-90, 203-204, 227, 245, 247, 333-4；Nd. II. 16。作为所见、所闻、所经验（diṭṭhi、suta、muta）的三重分类，例如：[SN 9.10 / S i 202-203](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-09-vana/sn-09-vana/#110-sn-910-课诵经-sajjhāyasutta){: target="_blank" rel="noopener"}；[Snp 42 / Sn 155](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#42-snp-42-净八颂经-suddhaṭṭhakasutta){: target="_blank" rel="noopener"}, [Snp 51 / Sn 175-6](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#51-snp-51-大集积经-mahābyūhasutta){: target="_blank" rel="noopener"}；Nd. I. 95-6, 106, 110-11, 315；Nd. II. 28。[&nbsp;↩&nbsp;](#fr-fn31)
+\[31\] 此分类常见；重要段落包括：[SN 35.95 / S iv 73](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-94-103-sala/#2-sn-3595-摩罗迦子经-mālukyaputtasutta){: target="_blank" rel="noopener"}；Vbh. 429；Nd. I. 55。另参阅：[DN 29 / D iii 135](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"} = [AN 4.23 / A ii 23-4](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-021-030-uruvela/#3-an-423-如来觉世间-lokasutta){: target="_blank" rel="noopener"}；A. II. 25 = It. 121-22；M. I. 135-6；M. III. 261；S. III. 202-203；A. V. 318, 353-8；A. V. 321-22。以复合词形式出现于：M. II. 231-32；Sn. 209-210；Nd. I. 9, 50-51, 53-4, 133-4, 189-90, 203-204, 227, 245, 247, 333-4；Nd. II. 16。作为所见、所闻、所经验（diṭṭha、suta、muta）的三重分类，例如：[SN 9.10 / S i 202-203](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-09-vana/sn-09-vana/#110-sn-910-课诵经-sajjhāyasutta){: target="_blank" rel="noopener"}；[Snp 42 / Sn 155](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#42-snp-42-净八颂经-suddhaṭṭhakasutta){: target="_blank" rel="noopener"}；[Snp 51 / Sn 175-6](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#51-snp-51-大集积经-mahābyūhasutta){: target="_blank" rel="noopener"}；Nd. I. 95-6, 106, 110-11, 315；Nd. II. 28。[&nbsp;↩&nbsp;](#fr-fn31)
 {: id="fn-fn31"}
 
 \[32\] 眼（cakkhu）和耳（sota）能辨识“未到达（根处）”的所缘：appattavisayaggāhika/appattagāhika。鼻（ghāna）、舌（jivhā）和身（kāya）能辨识“到达（根处）”的所缘：sampattavisayaggāhika/sampattagāhika。参阅：Comp.: Rūpaparicchedo, Rūpavibhāgo；CompṬ.: Rūpaparicchedavaṇṇanā, Rūpavibhāgavaṇṇanā；VismṬ.: Khandhaniddesavaṇṇanā, Rūpakkhandakathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn32)
@@ -854,7 +854,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 \[38\] 这些辅助因素散见于经典之中。其中许多在 [MN 95 / M ii 174](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-095-canki/){: target="_blank" rel="noopener"}中被提及，作为证悟真理的助缘。[&nbsp;↩&nbsp;](#fr-fn38)
 {: id="fn-fn38"}
 
-\[39\] 此分类与 [Snp 47 / Sn 164-5](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#47-snp-47-摩根提耶经-māgaṇḍiyasutta){: target="_blank" rel="noopener"}和 [Snp 62 / Sn 207-208](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#62-snp-62-难陀问经-nandamāṇavapucchā){: target="_blank" rel="noopener"}相符；Nd. I. 187-8和 Nd. II. 26对其进行了阐释。这些引用是偈颂形式，这三个因素按见、闻、智的顺序排列。此处已将其重新组织，以与前一节（C）相符。[&nbsp;↩&nbsp;](#fr-fn39)
+\[39\] 此分类与 [Snp 47 / Sn 164-5](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#47-snp-47-摩根提耶经-māgaṇḍiyasutta){: target="_blank" rel="noopener"}和 [Snp 62 / Sn 207-208](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#62-snp-62-难陀问经-nandamāṇavapucchā){: target="_blank" rel="noopener"}相符；Nd. I. 187-8和 Nd. II. 26对其进行了阐释。这些引用是偈颂形式，这三个因素按见、闻、智的顺序排列。此处已将其重新组织，以与前一节“开发智慧”相符。[&nbsp;↩&nbsp;](#fr-fn39)
 {: id="fn-fn39"}
 
 \[40\] 参阅第十三章“善友”，关于修行的初步阶段（因素 #1：善友）。[&nbsp;↩&nbsp;](#fr-fn40)
@@ -863,7 +863,7 @@ indriya 一词通常用于指根的积极运作，指它们在日常生活中以
 \[41\] 例如：Nd. I. 64-5, 105, 162, 169-70, 310-11。这些术语最常以见（diṭṭhi）、忍（khanti）和意乐（ruci）的形式组合出现，例如：[MV 1 / Vin i 69-70](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, Mahākhandhaka, Aññatitthiyapubbakathā；它出现在《大义释》（Mahāniddesa）的许多段落中。这三个术语有时伴随着志趣（ajjhāsaya）和意向（adhippāya）这两个词，例如：Nd. I. 64-5；Nd. II. 43, 50。这些同义词的最大集合包括：见（diṭṭhi）、忍（khanti）、意乐（ruci）、所接受的信念（ādāya）、教义和戒律（dhamma-vinaya）、根本教义（pāvacana）、至高修行（brahmacariya）和导师的教导（satthu-sāsana），例如：Nd. I. 40, 156；Nd. II. 9, 20；Vbh. 245-6（在这些情况下，指的是佛教）。[&nbsp;↩&nbsp;](#fr-fn41)
 {: id="fn-fn41"}
 
-\[42\] 另见注释：两层真理[&nbsp;↩&nbsp;](#fr-fn42)
+\[42\] 另见附注“两层真理”。[&nbsp;↩&nbsp;](#fr-fn42)
 {: id="fn-fn42"}
 
 \[43\] VinA. I. 21；DA. I. 19；DhsA. 21, 56；MA. I. 217 = SA. 13。[&nbsp;↩&nbsp;](#fr-fn43)

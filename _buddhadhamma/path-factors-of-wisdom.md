@@ -81,7 +81,7 @@ title: 第十六章：智慧道支 | 佛法 | Buddhadhamma
 
 ### 一般要点
 
-Ditthi 最常被翻译为“见”，但它的含义也包括“信仰”、“思想体系”、“观点”、“理性知识”、“符合个人理解的事物”、“被认为可接受的原则”、“合意的观念”、“固守的见解”、“偏好”和“个人价值观”。这个词的含义也包括个人的理想、世界观、人生观以及由此类见解、知识和偏好所产生的基本态度。[\[4\]](#fn-fn4){:id="fr-fn4"}
+Diṭṭhi 最常被翻译为“见”，但它的含义也包括“信仰”、“思想体系”、“观点”、“理性知识”、“符合个人理解的事物”、“被认为可接受的原则”、“合意的观念”、“固守的见解”、“偏好”和“个人价值观”。这个词的含义也包括个人的理想、世界观、人生观以及由此类见解、知识和偏好所产生的基本态度。[\[4\]](#fn-fn4){:id="fr-fn4"}
 
 如上所述，见地有两种层次或类型：第一，与价值感相关的见解和理解，比如什么是善与恶，适当与不适当；第二，与真相相关的见解和理解，比如某事物是什么，它如何存在，以及它从何而来。
 
@@ -97,7 +97,7 @@ Ditthi 最常被翻译为“见”，但它的含义也包括“信仰”、“�
 
 如果有人不相信福德（puñña）和恶（pāpa），并将这些词语视为空洞的威胁，他将不理会关于善行举止的教导，也不会克制那些被认为是不善巧的行为。
 
-若不能深刻理解生命和世界终究不稳定、短暂，往往就会执着于身体、生命、财产和人。他通常感到焦虑和恐惧，并表达出因执着和恐惧而产生的痛苦。
+若不能深刻理解生命和世界终究不稳定、短暂，往往就会执着于身体、生命、财产和人，常常感到焦虑和恐惧，并表达出因执着和恐惧而产生的痛苦。
 
 对于所有这些例子，反面也同样真实：善的见地导致善的结果。
 
@@ -111,7 +111,7 @@ Ditthi 最常被翻译为“见”，但它的含义也包括“信仰”、“�
 
 世间正见（lokiya-sammādiṭṭhi）：与世间相关并依赖于世间的见地；对世间的见解、信仰和理解，符合善的原则，与正法之道相符，或与善行和谐一致，如以上经文所述。
 
-一般而言，这种正见是“他音”（paratoghosa）或社会因素的结果，它以信心作为连接或引导力量。[\[6\]](#fn-fn6){:id="fr-fn6"} 特别是源于从社会中接受的指导，例如通过伦理道德的教导和培训以及文化传承。它与如理作意相关；这里所应用的如理作意通常鼓励人从事善的活动。
+一般而言，这种正见是“他人的教导”（paratoghosa）或社会因素的结果，它以信心作为连接或引导力量。[\[6\]](#fn-fn6){:id="fr-fn6"} 特别是源于从社会中接受的指导，例如通过伦理道德的教导和培训以及文化传承。它与如理作意相关；这里所应用的如理作意通常鼓励人从事善的活动。
 
 这种正见与评价相关：什么是善、恶、对、错、更好、更差，什么应该和不应该做。它也包含维护这些善的价值观的信仰体系和教义。
 
@@ -285,7 +285,7 @@ Ditthi 最常被翻译为“见”，但它的含义也包括“信仰”、“�
 
 在教育孩子时，需要具备所有“四梵住”（brahmavihāra）。除了坚定地立足于慈（mettā）：当孩子受苦时，要展现悲（karuṇā）；当孩子快乐、做得好或做出明智判断时，要认可或随喜（muditā）；当孩子负责任且明智地行动，或者需要对其行为后果负责时，要保持舍（upekkhā）或以客观态度看待。尤其这最后的舍支，能确保慈心不会阻碍智慧。
 
-人类处在时而有利、时而有害的自然力量包围之中，生活，没有真正的稳定性。人们必须挣扎求生；他们必须寻找维持生命之物，并逃离和清除敌对因素。不真正理解自然，就会执着、沉迷于那些自认为能满足欲望的事物；他将世界视为一个追求欲乐之地，一个满足所有欲望的场所。他视自己为世界的统治者，将他人视为障碍或竞争对手。这反过来导致人与人之间的占有欲、敌意、嗔恨、轻蔑、竞争和压迫。此外，得不到想要的东西，或事物后来起了变化，都会带来剧烈的痛苦。
+人类生活在时而有利、时而有害的自然力量包围之中，没有真正的稳定性。人们必须挣扎求生；他们必须寻找维持生命之物，并逃离和清除敌对因素。不真正理解自然，就会执着、沉迷于那些自认为能满足欲望的事物；他将世界视为一个追求欲乐之地，一个满足所有欲望的场所。他视自己为世界的统治者，将他人视为障碍或竞争对手。这反过来导致人与人之间的占有欲、敌意、嗔恨、轻蔑、竞争和压迫。此外，得不到想要的东西，或事物后来起了变化，都会带来剧烈的痛苦。
 
 若得到善友的鼓励，有人帮助自己看到慈心的价值，与他人和自然的关系会改善。然而，这仍然是世间层面的正见。
 
@@ -299,7 +299,7 @@ Ditthi 最常被翻译为“见”，但它的含义也包括“信仰”、“�
 
 > 诸比丘，如果正见得到五种因素的辅助，它将以心解脱和慧解脱为果报。这五种因素是：
 >
-> 1.  戒行（sīla；行为不压迫他人）。
+> 1.  戒行（sīla：行为不压迫他人）。
 > 1.  闻（suta：通过听闻、学习、阅读等获得的知识）。
 > 1.  讨论（sākacchā：交谈；辩论；交流思想；验证自己的知识）。
 > 1.  止（samatha：平息内心；没有躁动和分心）。
@@ -325,13 +325,13 @@ Ditthi 最常被翻译为“见”，但它的含义也包括“信仰”、“�
 > 圣、无漏、出世间、道支的正思惟是心高尚、心无漏、拥有圣道并正在修习圣道者的思（takka）、寻（vitakka）、意图（saṅkappa）、专注思惟（appanā）、坚固思惟（byappanā）、专注注意和语行（vacī-saṅkhāra）的前提。  
 > [MN 117 / M iii 73](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-117-mahacattarisaka/){: target="_blank" rel="noopener"}, Mahācattārīsaka Sutta; Vbh. 110, 237
 
-为求简明，在此我只解释作为世间法支的正思惟的定义。根据此定义，sammā-saṅkappa 指的是正意图，或朝向正确方向的思惟。这与“邪思惟”（micchā-saṅkappa）相对，邪思惟也有三种：
+为求简明，在此我只解释作为世间道支的正思惟的定义。根据此定义，sammā-saṅkappa 指的是正意图，或朝向正确方向的思惟。这与“邪思惟”（micchā-saṅkappa）相对，邪思惟也有三种：
 
-1.  欲思惟（kāma-saṅkappa; kāma-vitakka）：与欲乐纠缠的思惟；属于寻求和沉溺于满足感官对象或满足渴爱和执取之物的思惟；自私的思惟。此类思惟以贪或淫欲为特征。
+1.  欲思惟（kāma-saṅkappa；kāma-vitakka）：与欲乐纠缠的思惟；属于寻求和沉溺于满足感官对象或满足渴爱和执取之物的思惟；自私的思惟。此类思惟以贪或淫欲为特征。
     
-2.  嗔恚思惟（byāpāda-saṅkappa; byāpāda-vitakka）：伴随愤怒、厌恶、愤慨和不悦的思惟；以负面眼光看待事物；将他人视为对手；将外物视为烦恼的源头。此类思惟以嗔恨为特征，其意义是自己是被侵犯的受害者（这与慈——mettā——是相反的品质）。
+2.  嗔恚思惟（byāpāda-saṅkappa；byāpāda-vitakka）：伴随愤怒、厌恶、愤慨和不悦的思惟；以负面眼光看待事物；将他人视为对手；将外物视为烦恼的源头。此类思惟以嗔恨为特征，其意义是自己是被侵犯的受害者（这与慈——mettā——是相反的品质）。
     
-3.  害思惟（vihiṁsā-saṅkappa; vihiṁsā-vitakka）：压迫、伤害、损伤、虐待和毁灭的思惟；希望扰乱和侵犯他人；希望他人经历痛苦和困厄。此类思惟以嗔恨为特征，其意义是积极挑起冲突（这种品质与悲——karuṇā——是相反的）。
+3.  害思惟（vihiṁsā-saṅkappa；vihiṁsā-vitakka）：压迫、伤害、损伤、虐待和毁灭的思惟；希望扰乱和侵犯他人；希望他人经历痛苦和困厄。此类思惟以嗔恨为特征，其意义是积极挑起冲突（这种品质与悲——karuṇā——是相反的）。
     
 
 此类思惟和意图在人们中很常见。这是因为当凡夫经历感官印象时，例如看到视觉形式或听到声音时，通常会产生两种感受之一：如果喜欢该对象，就会感到高兴和着迷，渴望并执着于它，并顺从于它；如果厌恶该对象，就会感到不悦、恼怒、冒犯——就会厌恶它并与之对立。由此，各种思惟就会根据这些好恶，或跟随其势头而产生。
@@ -352,11 +352,11 @@ Ditthi 最常被翻译为“见”，但它的含义也包括“信仰”、“�
 
 正思惟（sammā-saṅkappa）——与邪思惟相对——指的是一种心的状态，其中存在独立和分析性的思惟，没有偏见，无论是执着还是厌恶。正思惟有三种：
 
-1.  出离思惟（nekkhamma-saṅkappa; nekkhamma-vitakka）：没有贪婪的思惟；没有欲乐的思惟，不执着于满足欲望的对象；无私的思惟；舍弃的思惟；所有善的思惟范畴。[\[18\]](#fn-fn18){:id="fr-fn18"} 这种思惟被归类为没有贪欲（rāga）或贪婪（lobha）的思惟。
+1.  出离思惟（nekkhamma-saṅkappa；nekkhamma-vitakka）：没有贪婪的思惟；没有欲乐的思惟，不执着于满足欲望的对象；无私的思惟；舍弃的思惟；所有善的思惟范畴。[\[18\]](#fn-fn18){:id="fr-fn18"} 这种思惟被归类为没有贪欲（rāga）或贪婪（lobha）的思惟。
     
-2.  无嗔恚思惟（abyāpāda-saṅkappa; abyāpāda-vitakka）：没有愤怒、嗔恨、厌恶和消极的思惟；特别是，这指的是与嗔恚相反的品质：拥有慈爱、善意和友善的思惟——希望他人快乐。这种思惟被归类为没有嗔恨（dosa）的思惟。
+2.  无嗔恚思惟（abyāpāda-saṅkappa；abyāpāda-vitakka）：没有愤怒、嗔恨、厌恶和消极的思惟；特别是，这指的是与嗔恚相反的品质：拥有慈爱、善意和友善的思惟——希望他人快乐。这种思惟被归类为没有嗔恨（dosa）的思惟。
     
-3.  无害思惟（avihiṁsā-saṅkappa; avihiṁsā-vitakka）：没有压迫的思惟——没有伤害或损伤的意图；特别是，这指的是相反的品质：拥有悲心——希望帮助他人摆脱痛苦。这种思惟同样被归类为没有嗔恨（dosa）的思惟。
+3.  无害思惟（avihiṁsā-saṅkappa；avihiṁsā-vitakka）：没有压迫的思惟——没有伤害或损伤的意图；特别是，这指的是相反的品质：拥有悲心——希望帮助他人摆脱痛苦。这种思惟同样被归类为没有嗔恨（dosa）的思惟。
     
 
 在佛法（Buddha-Dhamma）中，当指代与不善或消极品质形成对比的善法或美德时，通常使用否定词而非反义（即积极）词。这导致一些人认为佛教是一种消极或被动的教义：它教导善只是不作恶并安住于被动状态。在上文中，“邪思惟”被定义为嗔恚思惟，但“正思惟”并没有被明确定义为慈爱思惟，而是被定义为无嗔恚思惟——对邪思惟的否定。
@@ -410,7 +410,7 @@ Ditthi 最常被翻译为“见”，但它的含义也包括“信仰”、“�
 
 培育这两个初始道支被认为是修行的初级阶段。在开始时，智慧尚未达到圆满的阶段。就像所有道支一样，它们完整的范围和潜力可能无法立即实现，而是必须逐步培育。
 
-因此，关于三种正思惟：“出离思惟”有时指作为一个比丘受戒或从居家生活中抽离出来的基本阶段或象征性姿态；“无嗔思惟”主要指慈心的修行；而“无害思惟”主要指悲心的修行。
+因此，关于三种正思惟：“出离思惟”有时指作为一个比丘受戒或从居家生活中抽离出来的基本阶段或象征性姿态；“无嗔恚思惟”主要指慈心的修行；而“无害思惟”主要指悲心的修行。
 
 诚然，此时培养的智慧可能是正见的表现，即如实看待事物，但它尚未纯净和自由——它尚未完全证悟。证悟的圆满是在基于禅定的舍（upekkhā）阶段达到的。
 
@@ -465,7 +465,7 @@ Mettā 可以定义为“友善”、“爱”、“祝愿”、“同情”、�
 
 包含这两个道支的修行的初始阶段可以总结如下：
 
-> 诸比丘，一位具足四种品质的比丘，被称为遵循无误修行之道的人，并开始为断除烦恼建立基础。这四种品质是：出离思惟、无嗔思惟、无害思惟和正见。  
+> 诸比丘，一位具足四种品质的比丘，被称为遵循无误修行之道的人，并开始为断除烦恼建立基础。这四种品质是：出离思惟、无嗔恚思惟、无害思惟和正见。  
 > [AN 4.72 / A ii 76-7](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-071-080-apannaka/#2-an-472-正见-sammādiṭṭhisutta){: target="_blank" rel="noopener"}, Sammādiṭṭhi Sutta
 
 ## 附录：内在品质与外在行为的关系
@@ -487,7 +487,7 @@ Mettā 可以定义为“友善”、“爱”、“祝愿”、“同情”、�
 
 泰国孔敬府孔敬国家博物馆，加拉信府（Kalasin Province）卡马拉塞（Kamalasai）芒法达颂阳（Mueang Fa Daet Song Yang）的 Phimpha Philap sīmā 石（寺庙界标）
 
-\[1\] 类似的段落见：[DN 18 / D ii 216-17](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}；[AN 10.121 / A v 236-7](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-113-122-paccorohani/#9-an-10121-正见先驱经-pubbaṅgamasutta){: target="_blank" rel="noopener"}。“comes into being”一词是巴利语 pahoti 的翻译，也可译为“适用于应用”或“可行”。[SN 45.1 / S v 1-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-01-10-avijja/#1-sn-451-无明经-avijjāsutta){: target="_blank" rel="noopener"}和 [AN 10.105 / A v 214](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#5-an-10105-以明为先经-vijjāsutta){: target="_blank" rel="noopener"}的段落提供了更深入的分析，指出尽管正见是所有道支的领导者，但知见（vijjā）是所有善法事业的领导者，也是正见的来源。（同样地，无明——avijjā——是所有不善法的领导者，也是邪见的来源。）[&nbsp;↩&nbsp;](#fr-fn1)
+\[1\] 类似的段落见：[DN 18 / D ii 216-17](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}；[AN 10.121 / A v 236-7](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-113-122-paccorohani/#9-an-10121-正见先驱经-pubbaṅgamasutta){: target="_blank" rel="noopener"}。“生起”（英译 comes into being）一词是巴利语 pahoti 的翻译，也可译为“适用于应用”或“可行”。[SN 45.1 / S v 1-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-01-10-avijja/#1-sn-451-无明经-avijjāsutta){: target="_blank" rel="noopener"} 和 [AN 10.105 / A v 214](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#5-an-10105-以明为先经-vijjāsutta){: target="_blank" rel="noopener"} 的段落提供了更深入的分析，指出尽管正见是所有道支的领导者，但知见（vijjā）是所有善法事业的领导者，也是正见的来源。（同样地，无明——avijjā——是所有不善法的领导者，也是邪见的来源。）[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
 \[2\] 三不善根：贪、嗔、痴；三善根：无贪、无嗔、无痴。[&nbsp;↩&nbsp;](#fr-fn2)
@@ -499,7 +499,7 @@ Mettā 可以定义为“友善”、“爱”、“祝愿”、“同情”、�
 \[4\] 在《巴利三藏》（Tipiṭaka）中，有两个等同的术语常伴随 diṭṭhi 形成以下一组：diṭṭhi（见）、khanti（符合个人理解的事物）和 ruci（偏好或愉悦的观念），例如：[MV 1 / Vin i 69-70](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；Nd. I. 40；Ps. I. 176；Vbh. 245, 324-5。另请参阅第二章“六处”中关于不同种类和阶段知识的部分。虽然 diṭṭhi 一词对应于英文单词“attitude”，但后者在某种程度上也对应于 saṅkappa（思；意图）——第二个道支。[&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
-\[5\] diṭṭhi 作为在业道（kamma-patha）教法中的意业，例如：[AN 10.176 / A v 264-8](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-167-177-janussoni/#10-an-10176-金匠淳陀-cundasutta){: target="_blank" rel="noopener"}, [AN 10.217 / A v 292](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-211-220-karajakaya/#7-an-10217-故思业之一经-paṭhamasañcetanikasutta){: target="_blank" rel="noopener"}。关于 diṭṭhi 的关键重要性，见：[MN 56 / M i 373](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-056-upali/){: target="_blank" rel="noopener"}；[AN 10.104 / A v 212](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#4-an-10104-种子经-bījasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn5)
+\[5\] diṭṭhi 作为在业道（kamma-patha）教法中的意业，例如：[AN 10.176 / A v 264-8](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-167-177-janussoni/#10-an-10176-金匠淳陀-cundasutta){: target="_blank" rel="noopener"}；[AN 10.217 / A v 292](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-211-220-karajakaya/#7-an-10217-故思业之一经-paṭhamasañcetanikasutta){: target="_blank" rel="noopener"}。关于 diṭṭhi 的关键重要性，见：[MN 56 / M i 373](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-056-upali/){: target="_blank" rel="noopener"}；[AN 10.104 / A v 212](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#4-an-10104-种子经-bījasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
 \[6\] Saddhāmūlikā ca sammādiṭṭhi（“以信为根源的正见”）：DA. I. 231；MA. I. 132；AA. II. 109；ItA. II. 45。[&nbsp;↩&nbsp;](#fr-fn6)
@@ -547,7 +547,7 @@ Mettā 可以定义为“友善”、“爱”、“祝愿”、“同情”、�
 \[20\] 参见：VbhA. 91, 115；Vism. 515。[&nbsp;↩&nbsp;](#fr-fn20)
 {: id="fn-fn20"}
 
-\[21\] Nd. I. 488中 mettā 的定义是：mettāti yā sattesu metti mettāyanā mettāyitattaṁ anudā anudāyanā anudāyitattaṁ hitesitā anukampā abyāpādo abyāpajjho adoso kusalamūlaṁ；SnA. I. 128的定义是：hitasukhūpanayanakāmatā mettā。[&nbsp;↩&nbsp;](#fr-fn21)
+\[21\] Nd. I. 488 中 mettā 的定义是：mettāti yā sattesu metti mettāyanā mettāyitattaṁ anudā anudāyanā anudāyitattaṁ hitesitā anukampā abyāpādo abyāpajjho adoso kusalamūlaṁ；SnA. I. 128 的定义是：hitasukhūpanayanakāmatā mettā。[&nbsp;↩&nbsp;](#fr-fn21)
 {: id="fn-fn21"}
 
 \[22\] Vism. 318。[&nbsp;↩&nbsp;](#fr-fn22)

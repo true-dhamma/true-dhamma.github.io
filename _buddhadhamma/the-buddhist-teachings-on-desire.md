@@ -26,9 +26,9 @@ title: 第十章：佛陀关于欲望的教导 | 佛法 | Buddhadhamma
 
 ## 人类活动的机制
 
-一个常被表达的疑虑是基于这样一种信念：人的行为总是必须伴随着欲求；人是根据欲求行事的。如果没有渴爱或欲求作为催化剂，人们就不会行动。当然，他们会保持惰性、无精打采和冷漠。
+一个常被表达的疑虑是基于这样一种信念：人的行为总是必须伴随着欲求；人是根据欲求行事的。如果没有渴爱或欲求作为催化剂，人们就不会行动。想必，他们会保持惰性、无精打采和冷漠。
 
-要开始回应这个疑虑，所有人类行为，甚至不行动的行为，都需要心中有一些活动或作用。活着就意味着有这样的活动和运作。在此，我们可以审视这些活动背后运作的机制。
+回应这个疑虑，首先要看到：所有人类行为，甚至不行动的行为，都需要心中有一些活动或作用。活着就意味着有这样的活动和运作。在此，我们可以审视这些活动背后运作的机制。
 
 人类不像树的叶子和枝条，它们随风摇摆，仅仅受外部条件影响。人类是受内部条件促使而行动的。当身体健康并准备好活动时，心就开始觉察到前方和后方、上方和下方、附近和远处的一切，以及各种物体周围的位置。简而言之，对可能的行动和活动途径有了了解。
 
@@ -135,7 +135,7 @@ title: 第十章：佛陀关于欲望的教导 | 佛法 | Buddhadhamma
 
 重申一下，渴爱并不渴望作为行动直接结果的事物或状态。渴爱只有在行动是获取所欲求所缘的必要先决条件时，才会促使行动。如果还有其他方式可以不费力气地获取所欲求的对象，渴爱就会促使人避免行动，选择不行动的路径。渴爱更多时候是“不行动”的动机，而不是“行动”的动机。
 
-当渴爱导致不行动时，它可能表现为懒惰，使人执著于愉悦的感受。或者，它可能表现为恐惧，例如害怕在行动时遇到某种不适，或者害怕失去自我重要性。
+当渴爱导致不行动时，它可能表现为懒惰，使人执着于愉悦的感受。或者，它可能表现为恐惧，例如害怕在行动时遇到某种不适，或者害怕失去自我重要性。
 
 当不行动是渴爱获取其所欲（即增加欲乐或强化自我重要性）所必需时，渴爱就会促使这种不行动，而不考虑行动可能带来的积极效果是否会丧失。
 
@@ -179,7 +179,7 @@ Taṇhā-chanda：[\[2\]](#fn-fn2){:id="fr-fn2"} 在这里，chanda 一词是渴
 
 由于这里的 chanda 与 taṇhā 相同，因此在以下段落中可以将 chanda 替换为渴爱：“对存在的欲”，[\[5\]](#fn-fn5){:id="fr-fn5"} “对感官享乐的欲”，[\[6\]](#fn-fn6){:id="fr-fn6"} “对身体的喜”，[\[7\]](#fn-fn7){:id="fr-fn7"} “对性交的爱”，[\[8\]](#fn-fn8){:id="fr-fn8"} “对无常、苦、无我的身体和感受的喜”，[\[9\]](#fn-fn9){:id="fr-fn9"} 以及“对无常、苦、无我的声音、气味和味道的欲”。[\[10\]](#fn-fn10){:id="fr-fn10"}
 
-复合词的构成方式与 taṇhā 类似，例如：rūpa-chanda（“对色法的喜”）、sadda-chanda（“对声法的喜”）、gandha-chanda（“对香法的喜”）、rasa-chanda（“对味法的喜”）、phoṭṭhabba-chanda（“对触法的喜”），以及 dhamma-chanda（“对意法的喜”）。[\[11\]](#fn-fn11){:id="fr-fn11"} Chanda 可用于人际关系语境，[\[12\]](#fn-fn12){:id="fr-fn12"} 指爱或情谊，如在《健陀婆伽经》（Gandhabhaga Sutta）中，它指对妻子和儿女的爱。[\[13\]](#fn-fn13){:id="fr-fn13"} 在同一部经中，它说：“‘Chanda’是苦的根源”，这与第二圣谛中渴爱是苦因的说法是相同的。在另一部经中，佛陀说应该舍弃 chanda（对于无常、苦和无我的事物），[\[14\]](#fn-fn14){:id="fr-fn14"} 就像在《转法轮经》（Dhammacakkapavattana Sutta）中他说应该舍弃渴爱一样。[\[15\]](#fn-fn15){:id="fr-fn15"}
+复合词的构成方式与 taṇhā 类似，例如：rūpa-chanda（“对色法的喜”）、sadda-chanda（“对声法的喜”）、gandha-chanda（“对香法的喜”）、rasa-chanda（“对味法的喜”）、phoṭṭhabba-chanda（“对触法的喜”），以及 dhamma-chanda（“对意法的喜”）。[\[11\]](#fn-fn11){:id="fr-fn11"} Chanda 可用于人际关系语境，[\[12\]](#fn-fn12){:id="fr-fn12"} 指爱或情谊，如在《健陀婆伽经》（Gandhabhaga Sutta）中，它指对妻子和儿女的爱。[\[13\]](#fn-fn13){:id="fr-fn13"} 在同一部经中，它说：“‘Chanda’是苦的根源”，这与第二圣谛中渴爱是苦因的说法是相同的。在另一部经中，佛陀说应该舍弃 chanda（对于无常、苦和无我的事物），[\[14\]](#fn-fn14){:id="fr-fn14"} 就像在《转法轮经》（Dhammacakkappavattana Sutta）中他说应该舍弃渴爱一样。[\[15\]](#fn-fn15){:id="fr-fn15"}
 
 欲的同义词
 
@@ -188,7 +188,7 @@ Taṇhā-chanda：[\[2\]](#fn-fn2){:id="fr-fn2"} 在这里，chanda 一词是渴
 > 例如，chanda 被描述为渴爱的弱形式或 rāga 的弱形式，但当它频繁生起时，就会变成渴爱或贪的强烈形式。
 >
 > 同样，chanda 是 lobha 的弱形式，但当欲求增强并导致迷恋时，它被归类为 rāga，而当它进一步增强时，就变成了强烈的贪（chanda-rāga）。  
-> 见：DA. II. 499; AA. IV. 190; SA. III. 64; VinṬ.: Verañjakaṇḍavaṇṇanā, Paṭhamajjhānakathā; VismṬ.: Pathavīkasiṇa-niddesavaṇṇanā, Paṭhamajjhānakathāvanṇṇanā
+> 见：DA. II. 499；AA. IV. 190；SA. III. 64；VinṬ.: Verañjakaṇḍavaṇṇanā, Paṭhamajjhānakathā；VismṬ.: Pathavīkasiṇa-niddesavaṇṇanā, Paṭhamajjhānakathāvanṇṇanā
 
 Kattukamyatā-chanda：欲求行动。这种形式的欲求等同于在《阿毗达摩》（Abhidhamma）中被归类为“杂类”或“分配”心所（pakiṇṇaka-cetasika）的心所群，即它们既可以在善心中生起，也可以在不善心中生起。[\[16\]](#fn-fn16){:id="fr-fn16"}
 
@@ -244,7 +244,7 @@ A. 欲是苦和五取蕴的根源：
 > 那位比丘对世尊的开示感到欢喜和庆幸。然后他进一步请问世尊：“然而，尊者，这五取蕴以何为根源？”“比丘，这五取蕴以欲（chanda）为根源。”  
 > [MN 109 / M iii 16](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-109-mahapunnama/){: target="_blank" rel="noopener"}; [SN 22.82 / S iii 100-101](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-73-82-khajjaniya/#10-sn-2282-满月经-puṇṇamasutta){: target="_blank" rel="noopener"}
 
-这两段话相互呼应，正如《转法轮经》（Dhammacakkapavattana Sutta）所证实的那样，佛陀在其中说道：
+这两段话相互呼应，正如《转法轮经》（Dhammacakkappavattana Sutta）所证实的那样，佛陀在其中说道：
 
 > “简而言之，五取蕴即是苦。”  
 > [SN 56.11 / S v 421](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}, Dhammacakkappavattana Sutta
@@ -386,11 +386,11 @@ Taṇhā 可以被翻译为“渴”、“渴爱”、“渴望”、“迷恋�
 
 > Taṇhaṁ paṭicca pariyesanā：“以爱为缘，故有寻求”；pariyesanaṁ paṭicca lābho：“以寻求为缘，故有获得。”
 >
-> （[DN 15 / D ii 58-9](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-15-mahanidana/){: target="_blank" rel="noopener"}; [AN 9.23 / A iv 400-401](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-021-031-sattavasa/#3-an-923-九渴爱根经-taṇhāmūlakasutta){: target="_blank" rel="noopener"}; Vbh. 390-1；参见：[SN 14.7 / S ii 143](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-14-dhatu/sn-14-01-10-nanatta/#7-sn-147-种种求-saññānānattasutta){: target="_blank" rel="noopener"}，其中渴爱被表述为 chanda）。
+> （[DN 15 / D ii 58-9](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-15-mahanidana/){: target="_blank" rel="noopener"}；[AN 9.23 / A iv 400-401](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-021-031-sattavasa/#3-an-923-九渴爱根经-taṇhāmūlakasutta){: target="_blank" rel="noopener"}；Vbh. 390-1；参见：[SN 14.7 / S ii 143](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-14-dhatu/sn-14-01-10-nanatta/#7-sn-147-种种求-saññānānattasutta){: target="_blank" rel="noopener"}，其中渴爱被表述为 chanda）。
 >
 > Pariyesanā 也可以翻译为“努力获得”或“承认”。
 >
-> 在 DA. II. 499, AA. IV. 188 和 VinṬ.: Parivāraṭīkā, Ekuttarikanayo, Navakavāravaṇṇanā 中，渴爱被分为两种：
+> 在 DA. II. 499、AA. IV. 188 和 VinṬ.: Parivāraṭīkā, Ekuttarikanayo, Navakavāravaṇṇanā 中，渴爱被分为两种：
 >
 > *   寻求爱（esanā-taṇhā，在寻求所欲之物时的渴爱）和
 > *   已求爱（esita-taṇhā，对已寻求和获得之物的渴爱）。
@@ -431,10 +431,10 @@ Dhamma-chanda 被翻译为爱真理或对真理的欲求。Dhamma 一词通常�
 >
 > 其他定义包括：
 >
-> *   “导致快乐”（sukha-vipāka）和“安稳”（khema）。
-> *   例如参见：
+> *   “导致快乐”（sukha-vipāka）；
+> *   “安稳”（khema）。
 >
-> PsA. I. 129, 206; DhsA. 38, 62; DA. II. 645; VismṬ.: Khandhaniddesavaṇṇanā, Viññāṇakkhandhakathāvaṇṇanā。
+> 例如参见：PsA. I. 129, 206；DhsA. 38, 62；DA. II. 645；VismṬ.：Khandhaniddesavaṇṇanā, Viññāṇakkhandhakathāvaṇṇanā。
 
 因此，dhamma-chanda 可以翻译为“专注于真理”、“爱真理”、“专注于善”或“爱善”。它包括对知识的渴望、对行动的欲求、对行动的热情。Dhamma-chanda 的简单定义是“专注于真理”，并理解上述所有解释都包含在此定义中。同样，单独的 chanda 一词也可以翻译为“专注于真理”。
 
@@ -569,7 +569,7 @@ Chanda 欲求行动所产生的德行，因此也欲求行动本身，因为行�
 > 阿毗达摩指出，慢的近因（padaṭṭhāna）是贪（lobha），并且慢只在以贪为根（lobha-mūla）或伴贪（lobha-sahagata）的心识中生起。
 >
 > 简而言之，慢是渴爱的结果。  
-> 参见：Dhs. 247; Comp.: Cetasikaparicchedo, Akusalacetasikasampayoganayo; CompṬ.: Cittaparicchedavaṇṇanā, Akusalacetasikasampayoganayavaṇṇanā; Vism. 469。
+> 参见：Dhs. 247；Comp.: Cetasikaparicchedo, Akusalacetasikasampayoganayo；CompṬ.: Cittaparicchedavaṇṇanā, Akusalacetasikasampayoganayavaṇṇanā；Vism. 469。
 
 饥饿是一种刺激。它促使饮食行为，并制约饮食行为：如果非常饥饿，就会吃很多；如果不是很饿，他会吃得少。
 
@@ -601,7 +601,7 @@ Chanda 欲求行动所产生的德行，因此也欲求行动本身，因为行�
 >
 > 在佛法修持中，如果行为是基于这种理性的反思，就会将以正当方式寻求食物视为一种责任，并为此付出努力。即使是比丘们，他们也应该仅以最低限度的食物维持生命，但他们仍会努力按照自己的习俗和传统寻找食物。
 >
-> 参阅：[MV 1 / Vin i 57-8](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, [MV 1 / Vin i 96](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}：这些段落揭示了另一种区分：作为责任的寻求与纯粹的行动之间的区别，以及仅仅是寻求感官体验而无需行动的寻求之间的区别。
+> 参阅：[MV 1 / Vin i 57-8](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[MV 1 / Vin i 96](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}：这些段落揭示了另一种区分：作为责任的寻求与纯粹的行动之间的区别，以及仅仅是寻求感官体验而无需行动的寻求之间的区别。
 
 渴爱不一定会想要进食，也不特别关心身体的需求。渴爱只想要美味；进食仅仅是获取这些美味的必要条件，除了吃之外别无选择。
 
@@ -723,7 +723,7 @@ Chanda 欲求行动所产生的德行，因此也欲求行动本身，因为行�
 
 这些定义看似直截了当，但对于某些人来说，在作为 mettā 的爱与不善的爱之间区分时会产生困惑。
 
-不善的爱在巴利语中通常被称为 sineha，意思是针对特定个体的爱，或是自私的爱。它会导致心胸狭隘、执著、兴奋和激情。
+不善的爱在巴利语中通常被称为 sineha，意思是针对特定个体的爱，或是自私的爱。它会导致心胸狭隘、执着、兴奋和激情。
 
 这与慈心（mettā）——纯粹的爱——相反，慈心是人对一切人类和有情所怀有的爱，视他们为地球上的朋友，苦中的伴侣，以及生死中的同伴。它是一种包容一切、无私的爱，能使人心胸开阔、安适、明亮。
 
@@ -751,9 +751,9 @@ Sineha 是渴爱的同义词。不善的爱，即慈心的反面，因此是源�
 
 父母对孩子的爱是慈心的一个良好基准。父母通常爱他们的孩子，为他们的安乐而高兴，希望他们繁荣、快乐、免于危险。父母体验这种爱，不把孩子视为快乐的来源，也不论孩子的生活是否增强了他们的自我安全感。
 
-然而，当父母仍是凡夫时，渴爱往往会在一定程度上渗透并污染父母的爱；他们的爱并非完全纯粹，这在“这些是我的孩子；他们属于我”这种常见的执著中显而易见。大多数父母仍然希望他们的孩子能帮助增加自我安全感或自我重要性，例如，他们希望孩子有很高的社会地位，这样他们就能感到自豪并分享这种声望，或者他们担心孩子会失去社会地位，从而使自己蒙羞。
+然而，当父母仍是凡夫时，渴爱往往会在一定程度上渗透并污染父母的爱；他们的爱并非完全纯粹，这在“这些是我的孩子；他们属于我”这种常见的执着中显而易见。大多数父母仍然希望他们的孩子能帮助增加自我安全感或自我重要性，例如，他们希望孩子有很高的社会地位，这样他们就能感到自豪并分享这种声望，或者他们担心孩子会失去社会地位，从而使自己蒙羞。
 
-（对于凡夫来说，轻微的执著是难免的，但如果它扩大并控制了人的全部行为，那么它可能造成相当大的损害。从 mettā 的角度来看，重要的一点是这种爱是无条件的：父母爱孩子，无论他或她是否增强了他们的自我重要性。当孩子被所有人抛弃时，父母仍然继续提供爱和支持。）[\[53\]](#fn-fn53){:id="fr-fn53"}
+（对于凡夫来说，轻微的执着是难免的，但如果它扩大并控制了人的全部行为，那么它可能造成相当大的损害。从 mettā 的角度来看，重要的一点是这种爱是无条件的：父母爱孩子，无论他或她是否增强了他们的自我重要性。当孩子被所有人抛弃时，父母仍然继续提供爱和支持。）[\[53\]](#fn-fn53){:id="fr-fn53"}
 
 当孩子和别人发生冲突时，父母往往会对对立方感到愤慨，并偏袒自己的孩子。他们无法真正客观地考虑问题，因为他们的爱仍然混杂着渴爱。这种爱仍然导致“所爱”与“非所爱”之间的区分，从而仍然引起问题并造成苦。
 
@@ -859,7 +859,7 @@ Sineha 是渴爱的同义词。不善的爱，即慈心的反面，因此是源�
 > *   乐于涅槃者从一切苦中解脱（[SN 1.59 / S i 38](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-01-devata/sn-01-51-60-jara/#9-sn-159-伴经-dutiyasutta){: target="_blank" rel="noopener"}）；
 > *   一位比丘不沉迷于工作，不耽于睡眠、闲聊、交际或心戏论，是乐于涅槃者，并舍弃对身体的认同以终结苦（[AN 6.14–15 / A iii 293-5](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#4-an-614-临终安乐-bhaddakasutta){: target="_blank" rel="noopener"}）；
 > *   一位比丘知道何时应抑制心，知道如何防护心，能够使心喜悦，并能在适当时保持舍心，被称为乐于涅槃者，并能够证得涅槃（[AN 6.85 / A iii 435-6](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-085-095-siti/#1-an-685-无上清凉经-sītibhāvasutta){: target="_blank" rel="noopener"}）；
-> *   一位长老尼（therī）说她乐于涅槃（[Thig 3.3 / Thig verse 46](https://aipali.true-dhamma.com/sutta/kn/kn-09-thig/thig-01-12-ekaka-solasaka/#thig-33-另一位乌塔玛长老尼偈-aparāuttamātherīgāthā){: target="_blank" rel="noopener"}, [Thig 16.1 / Thig verse 450](https://aipali.true-dhamma.com/sutta/kn/kn-09-thig/thig-13-16-visati-maha/#thig-161-善慧长老尼偈-sumedhātherīgāthā){: target="_blank" rel="noopener"}）；
+> *   一位长老尼（therī）说她乐于涅槃（[Thig 3.3 / Thig verse 46](https://aipali.true-dhamma.com/sutta/kn/kn-09-thig/thig-01-12-ekaka-solasaka/#thig-33-另一位乌塔玛长老尼偈-aparāuttamātherīgāthā){: target="_blank" rel="noopener"}；[Thig 16.1 / Thig verse 450](https://aipali.true-dhamma.com/sutta/kn/kn-09-thig/thig-13-16-visati-maha/#thig-161-善慧长老尼偈-sumedhātherīgāthā){: target="_blank" rel="noopener"}）；
 > *   欲求涅槃者在世间行持良好（“行得好”；[Snp 25 / Sn 64](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#25-snp-25-正游行经-sammāparibbājanīyasutta){: target="_blank" rel="noopener"}）；
 > *   佛陀教导那些希求脱离束缚之安稳的比丘（[MN 1 / M i 4](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-001-mulapariyaya/){: target="_blank" rel="noopener"}）；
 > *   佛陀教导比丘们要充满喜悦并欲求脱离束缚之安稳：欲求涅槃（[MN 34 / M i 227](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-034-culagopalaka/){: target="_blank" rel="noopener"}）。
@@ -895,9 +895,9 @@ Sineha 是渴爱的同义词。不善的爱，即慈心的反面，因此是源�
 
 > 婆罗门：阿难大师，在沙门乔达摩（Gotama）座下过梵行的目的是什么？
 >
-> 阿难：为了舍离欲（chanda）。
+> 阿难：为了舍离欲（chanda）。（参见附注“舍离欲”）
 >
-> （见注：舍离欲）婆罗门：是否有道，是否有修行方法来舍离此欲？
+> 婆罗门：是否有道，是否有修行方法来舍离此欲？
 >
 > 阿难：有道，婆罗门。
 >
@@ -934,7 +934,7 @@ Sineha 是渴爱的同义词。不善的爱，即慈心的反面，因此是源�
 
 如《巴利三藏》所记载，佛陀声称，即使是为了最大的利益：证悟涅槃，也有可能以这种方式利用渴爱。这个次要的原则，即依靠渴爱来根除渴爱，在尊者阿难给予一位爱上他的比丘尼的以下教导中显而易见：
 
-> 姐妹，当我说：“此身由渴爱而生；人应依靠渴爱来舍离渴爱”，这是针对什么情况而说的？ 在此，一位比丘听说：“他们说某某名字的比丘，通过诸漏的灭尽，于此生中，由亲身直接了知而证入并安住于无漏的心解脱、慧解脱。”然后他想：“哦，我何时也能证悟无漏的心解脱、慧解脱呢？”然后过了一段时间，基于那份渴爱，他舍离了渴爱。[\[69\]](#fn-fn69){:id="fr-fn69"}  
+> 姐妹，当我说：“此身由渴爱而生；人应依靠渴爱来舍离渴爱”，这是针对什么情况而说的？在此，一位比丘听说：“他们说某某名字的比丘，通过诸漏的灭尽，于此生中，由亲身直接了知而证入并安住于无漏的心解脱、慧解脱。”然后他想：“哦，我何时也能证悟无漏的心解脱、慧解脱呢？”然后过了一段时间，基于那份渴爱，他舍离了渴爱。[\[69\]](#fn-fn69){:id="fr-fn69"}  
 > [AN 4.159 / A ii 145-6](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-151-160-indriya/#9-an-4159-比丘尼-bhikkhunīsutta){: target="_blank" rel="noopener"}, Bhikkhunī Sutta
 
 这个故事中比丘的欲求，在听到另一位比丘证得阿罗汉果后也想成为阿罗汉，这显然是一种渴爱：他将阿罗汉的状态视为外在于自身的境界，并（带着一种我见）欲求拥有或安住于此状态。
@@ -1011,7 +1011,7 @@ B. 尽管善法欲是一种善的、纯净的品质，对人的生命有益，�
 
 应当从培养如理作意开始——熟练地反思真相和探究因果关系，并提出诸如：“真相是什么？”“什么对我的生命真正有益？”以及“什么值得作为人生的目标？”这样的问题。然后，应当通过生起对真相的渴望和热爱、对善法的热爱，以及对更高生活品质的渴望来培养美德。通过增进这些美德，就能达到智慧的最高阶段，从而带来彻底的解脱和心的自由。[\[72\]](#fn-fn72){:id="fr-fn72"}
 
-C. 当善法欲成为渴爱的条件时，即使对于一个善意的人来说，结果也往往是有害的。尽管善人可能不会因为执著或认同他们通过善法欲所创造的善行而变得傲慢或跋扈，但微细的执著仍然会造成相当大的苦恼。例如，有人可能会这样想：“为什么我的房子、我的寺院、我的学校不像他们的那样干净整洁？”“我已尽力教导这个学生，并想尽一切办法提供帮助和建议；他为什么没有进步？”“我已尽一切努力帮助这些人变得更自立；他们为什么不像我所希望的那样努力和快速进步？”当因缘超出了善人纠正的能力范围时，这会增加他们的痛苦和烦恼感。
+C. 当善法欲成为渴爱的条件时，即使对于一个善意的人来说，结果也往往是有害的。尽管善人可能不会因为执着或认同他们通过善法欲所创造的善行而变得傲慢或跋扈，但微细的执着仍然会造成相当大的苦恼。例如，有人可能会这样想：“为什么我的房子、我的寺院、我的学校不像他们的那样干净整洁？”“我已尽力教导这个学生，并想尽一切办法提供帮助和建议；他为什么没有进步？”“我已尽一切努力帮助这些人变得更自立；他们为什么不像我所希望的那样努力和快速进步？”当因缘超出了善人纠正的能力范围时，这会增加他们的痛苦和烦恼感。
 
 这种痛苦是善人特有的；一个卑劣、不道德的人不会被这些情况所困扰。可以说，善人体验着一种独特的苦。[\[73\]](#fn-fn73){:id="fr-fn73"} 苦随后为烦恼之轮再次转动提供了机会，产生了诸如困惑、沮丧、自怜、愤慨、不安和急躁等心境。
 
@@ -1109,7 +1109,7 @@ C. 当善法欲成为渴爱的条件时，即使对于一个善意的人来说�
 
 例如，如果一个孩子热爱整洁有序，那么她就很难追随渴爱而随意乱扔垃圾。如果她把房间弄乱了，她很不可能把它留着一团糟，如果别人弄脏了房间，她也不会等到有奖励的承诺才开始自己打扫。
 
-善法欲（chanda）可能会给有德行的凡夫带来痛苦，甚至可能导致他们诉诸暴力，如果他们受到心的执著的支配并且缺乏足够的正念和智慧。但善法欲是行动的关键动机，它促进所有善法的培育，因此应该以洞察力和理解来推广。至于对凡夫构成的风险，有避免和处理它们的方法，这将在后续章节中解释。
+善法欲（chanda）可能会给有德行的凡夫带来痛苦，甚至可能导致他们诉诸暴力，如果他们受到心的执着的支配并且缺乏足够的正念和智慧。但善法欲是行动的关键动机，它促进所有善法的培育，因此应该以洞察力和理解来推广。至于对凡夫构成的风险，有避免和处理它们的方法，这将在后续章节中解释。
 
 如果对真理的热爱（dhamma-chanda）或对善法的热爱（kusala-chanda）很强大，它就能抑制渴爱的力量。
 
@@ -1137,15 +1137,15 @@ C. 当善法欲成为渴爱的条件时，即使对于一个善意的人来说�
 
 有爱（bhava-taṇhā）伴随着“有见”（bhava-diṭṭhi：即常见——sassata-diṭṭhi），无有爱（vibhava-taṇhā）伴随着断灭见（uccheda-diṭṭhi）；欲爱（kāma-taṇhā）则包括所有其余形式的渴爱。[\[81\]](#fn-fn81){:id="fr-fn81"}
 
-根据佛教教义，对欲乐的执著比对自我或认为存在一个独立自我的见解更为根深蒂固和根本：例如，就十结（saṁyojana）而言，身见（sakkāya-diṭṭhi）被须陀洹舍弃，而欲贪（kāma-rāga）被阿那含舍弃。就四种执取而言，对自我观念的执著（attavādupādāna = 身见）在入流阶段被舍弃，而对欲乐的执取（kāmupādāna）则在证得阿罗汉果时被舍弃（kāmupādāna 包括对色界的执著——rūpa-rāga——和对无色界的执著——arūpa-rāga）。[\[82\]](#fn-fn82){:id="fr-fn82"}
+根据佛教教义，对欲乐的执着比对自我或认为存在一个独立自我的见解更为根深蒂固和根本：例如，就十结（saṁyojana）而言，身见（sakkāya-diṭṭhi）被须陀洹舍弃，而欲贪（kāma-rāga）被阿那含舍弃。就四种执取而言，对自我观念的执着（attavādupādāna = 身见）在入流阶段被舍弃，而对欲乐的执取（kāmupādāna）则在证得阿罗汉果时被舍弃（kāmupādāna 包括对色界的执着——rūpa-rāga——和对无色界的执着——arūpa-rāga）。[\[82\]](#fn-fn82){:id="fr-fn82"}
 
 ## 附录二：渴爱的危害
 
 如果渴爱（连同我慢〔māna〕和执见〔diṭṭhi〕）取代了善法欲并压倒了心，它能给有德行的人造成严重的痛苦和伤害。例如：
 
-*   由于热爱善法和纯净，渴爱可能会对个人戒德建立执著，直到这个人对保护自己的美德感到焦虑，害怕自己的品格受到玷污，并害怕他人的误解。他因此类事情所受的痛苦比大多数人感受到的要大。这种焦虑与西方心理学家所描述的“内疚感”有关。
+*   由于热爱善法和纯净，渴爱可能会对个人戒德建立执着，直到这个人对保护自己的美德感到焦虑，害怕自己的品格受到玷污，并害怕他人的误解。他因此类事情所受的痛苦比大多数人感受到的要大。这种焦虑与西方心理学家所描述的“内疚感”有关。
     
-*   有些人怀有建立一个有德行的社会的强烈愿望。如果他们无法实现抱负或遇到障碍，他们会感到愤怒并更紧密地执著于自己的个人意见，变得更加固执和任性。或者，他们有一个一心一意革新和改善社会的使命，但却诉诸暴力手段来清除和排除那些他们认为是无法合作的人，这种行为是出于愤怒，完全不顾及他人的福祉。因此，被渴爱、我慢和执见主导的善法欲可能导致暴力。
+*   有些人怀有建立一个有德行的社会的强烈愿望。如果他们无法实现抱负或遇到障碍，他们会感到愤怒并更紧密地执着于自己的个人意见，变得更加固执和任性。或者，他们有一个一心一意革新和改善社会的使命，但却诉诸暴力手段来清除和排除那些他们认为是无法合作的人，这种行为是出于愤怒，完全不顾及他人的福祉。因此，被渴爱、我慢和执见主导的善法欲可能导致暴力。
     
 *   高度竞争的社会、工作和生活方式助长了自私，并导致人们以与有爱（bhava-taṇhā）相应的方式行事。当这种系统在一个具有高度热忱和行动意愿（chanda）的社会中实施时，社会的许多方面将迅速发展。然而，其缺点是这些竞争系统将导致压力、焦虑和心的疾病等问题。当这种系统在一个缺乏善法欲的社会中实施时，它们往往会产生不道德行为、混乱和腐败（我在此使用“往往会”一词，因为必须考虑其他行为的因缘）。
     
@@ -1159,7 +1159,7 @@ C. 当善法欲成为渴爱的条件时，即使对于一个善意的人来说�
 2.  悲心（karuṇā），导向佛陀志业的完成（buddha-kicca），导向成为“世间救主”（loka-nātha），以及导向利益他人的生活（parahita-paṭipatti）。[\[83\]](#fn-fn83){:id="fr-fn83"}
     
 
-在一些义注中，清净（visuddhi）被区分为一个单独的特质，但通常清净被认为是智慧的一部分，因为它是证悟的自然结果，因此这种品质通常不被指定为一个单独的特质。在《金刚智疏》（Vajirabuddhiṭīkā）中，佛陀的事业（buddha-kicca）被表述为双重的：以智行事（ñāṇa-kicca）和以悲心行事（karuṇā-kicca）。[\[84\]](#fn-fn84){:id="fr-fn84"} 佛陀和阿罗汉的智慧没有我慢和自私，他们的悲心没有执著和悲伤。凡夫的悲心仍然只是近似的悲心，因为他们的心智并非完全清明：当他们感到悲心时，仍然存在个人执著和情感，以及悲伤和忧愁感。
+在一些义注中，清净（visuddhi）被区分为一个单独的特质，但通常清净被认为是智慧的一部分，因为它是证悟的自然结果，因此这种品质通常不被指定为一个单独的特质。在《金刚智疏》（Vajirabuddhiṭīkā）中，佛陀的事业（buddha-kicca）被表述为双重的：以智行事（ñāṇa-kicca）和以悲心行事（karuṇā-kicca）。[\[84\]](#fn-fn84){:id="fr-fn84"} 佛陀和阿罗汉的智慧没有我慢和自私，他们的悲心没有执着和悲伤。凡夫的悲心仍然只是近似的悲心，因为他们的心智并非完全清明：当他们感到悲心时，仍然存在个人执着和情感，以及悲伤和忧愁感。
 
 随着佛教分为两大主要部派，上座部传统被认为强调智慧，而大乘传统则强调悲心。
 
@@ -1218,10 +1218,10 @@ C. 当善法欲成为渴爱的条件时，即使对于一个善意的人来说�
 \[17\] 四神足经常出现在经典中，例如：[DN 33 / D iii 221-2](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；Vbh. 216；[SN 51.1–86 / S v 254-93](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-51-iddhipada/sn-51-01-10-capala/#1-sn-511-此岸-apārasutta){: target="_blank" rel="noopener"} 全篇；Vbh. 216-26；并参见：PañcA. 107 的解释。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
-\[18\] 例如：[AN 4.13 / A ii 15-16](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-011-020-cara/#3-an-413-四正勤经-padhānasutta){: target="_blank" rel="noopener"}, [AN 4.69 / A ii 74](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-061-070-pattakamma/#9-an-469-四勤-padhānasutta){: target="_blank" rel="noopener"}；[SN 49.1–54 / S v 244-8](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-49-sammappadhana/sn-49-sammappadhana/#1-sn-491-12-恒河广说品-gaṅgāpeyyālavagga){: target="_blank" rel="noopener"}；Vbh. 208-215。[&nbsp;↩&nbsp;](#fr-fn18)
+\[18\] 例如：[AN 4.13 / A ii 15-16](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-011-020-cara/#3-an-413-四正勤经-padhānasutta){: target="_blank" rel="noopener"}；[AN 4.69 / A ii 74](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-061-070-pattakamma/#9-an-469-四勤-padhānasutta){: target="_blank" rel="noopener"}；[SN 49.1–54 / S v 244-8](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-49-sammappadhana/sn-49-sammappadhana/#1-sn-491-12-恒河广说品-gaṅgāpeyyālavagga){: target="_blank" rel="noopener"}；Vbh. 208-215。[&nbsp;↩&nbsp;](#fr-fn18)
 {: id="fn-fn18"}
 
-\[19\] 例如：在佛陀对正精进的解释中——[Snp 55 / Sn 196](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#55-snp-55-序偈-vatthugāthā){: target="_blank" rel="noopener"}；[SN 56.34 / S v 440-41](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-31-40-sisapavana/#4-sn-5634-衣经-celasutta){: target="_blank" rel="noopener"}；[AN 3.62 / A i 174-5](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#1-an-362-三所依处经-titthāyatanasutta){: target="_blank" rel="noopener"}；[AN 4.93 / A ii 93-4](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-091-100-asura/#3-an-493-得定之二-dutiyasamādhisutta){: target="_blank" rel="noopener"}, [AN 4.194 / A ii 195](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#4-an-4194-沙布迦邑经-sāmugiyasutta){: target="_blank" rel="noopener"}；[AN 6.20 / A iii 306-307](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#10-an-620-修死随念之二-dutiyamaraṇassatisutta){: target="_blank" rel="noopener"}；DhA. III. 9。[&nbsp;↩&nbsp;](#fr-fn19)
+\[19\] 例如：在佛陀对正精进的解释中——[Snp 55 / Sn 196](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#55-snp-55-序偈-vatthugāthā){: target="_blank" rel="noopener"}；[SN 56.34 / S v 440-41](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-31-40-sisapavana/#4-sn-5634-衣经-celasutta){: target="_blank" rel="noopener"}；[AN 3.62 / A i 174-5](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#1-an-362-三所依处经-titthāyatanasutta){: target="_blank" rel="noopener"}；[AN 4.93 / A ii 93-4](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-091-100-asura/#3-an-493-得定之二-dutiyasamādhisutta){: target="_blank" rel="noopener"}；[AN 4.194 / A ii 195](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#4-an-4194-沙布迦邑经-sāmugiyasutta){: target="_blank" rel="noopener"}；[AN 6.20 / A iii 306-307](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#10-an-620-修死随念之二-dutiyamaraṇassatisutta){: target="_blank" rel="noopener"}；DhA. III. 9。[&nbsp;↩&nbsp;](#fr-fn19)
 {: id="fn-fn19"}
 
 \[20\] 关于将 chanda 解释为 kattukamyatā-chanda，参见例如：MA. III. 426（对 [MN 95 / M ii 174](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-095-canki/){: target="_blank" rel="noopener"} 的解释）；AA. III. 352（对：[AN 6.20 / A iii 306-307](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#10-an-620-修死随念之二-dutiyamaraṇassatisutta){: target="_blank" rel="noopener"}；[AN 8.74 / A iv 320](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-071-080-yamaka/#4-an-874-死随念之二-dutiyamaraṇassatisutta){: target="_blank" rel="noopener"} 的解释）；AA. III. 412（对 [AN 6.79 / A iii 431-2](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-075-084-arahatta/#5-an-679-得达善法经-adhigamasutta){: target="_blank" rel="noopener"} 的解释）。关于也将 chanda 分类为 kusala-chanda 或 dhamma-chanda 的解释，参见例如：DA. III. 1006（对 [DN 33 / D iii 221](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"} 的解释）；MA. III. 243（对 [MN 77 / M ii 11](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-077-mahasakuludayi/){: target="_blank" rel="noopener"} 的解释）；AA. II. 43（对 [AN 1.406–409 / A i 38-9](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-382-611-catutthapannasaka/#14-an-1394-397-四正勤等四经){: target="_blank" rel="noopener"} 的解释）；MA. III. 193（对 [MN 70 / M i 480](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-070-kitagiri/){: target="_blank" rel="noopener"} 的解释）；AA. II. 346（对 [AN 3.82–84 / A i 229](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#1-an-382-沙门经-samaṇasutta){: target="_blank" rel="noopener"} 的解释）；SA. III. 133（对 [SN 45.51 / S v 30](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-41-181-maggapeyyala/#22-sn-4550-54-戒具足至不放逸具足等五经之一-sīlasampadādisuttapañcaka){: target="_blank" rel="noopener"} 的解释）；VinṬ.：Tatiyapārājikaṁ, Ānāpānassatisamādhikathāvaṇṇanā；VbhA. 290（对 Vbh. 211 的解释）。这些义注还提供了 chanda 的进一步分类，例如 taṇhā-chanda、diṭṭhi-chanda、viriya-chanda 和 dhamma-chanda，但我在此不赘述此主题。[&nbsp;↩&nbsp;](#fr-fn20)
@@ -1278,7 +1278,7 @@ C. 当善法欲成为渴爱的条件时，即使对于一个善意的人来说�
 \[37\] 关于三种渴爱的更多内容，请参见附录一。[&nbsp;↩&nbsp;](#fr-fn37)
 {: id="fn-fn37"}
 
-\[38\] 将此术语与 kusaladhamma-asantuṭṭhī（asantuṭṭhitā kusalesu dhammesu）相比较：“对善法的不满足”，这是支持佛陀觉悟的重要因素，也是所有佛法修行者应与精进（[DN 33 / D iii 213-14](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 2.5 / A i 50](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#15-an-25-通达二法-upaññātasutta){: target="_blank" rel="noopener"}, [AN 2.177 / A i 95](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-119-180-tatiyapannasaka/#515-an-2178-善法不满足与精勤不退息){: target="_blank" rel="noopener"}；[AN 6.80 / A iii 432](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-075-084-arahatta/#6-an-680-诸法得大经-mahantattasutta){: target="_blank" rel="noopener"}；Dhs. 7-8, 234）并行具备的因素。[&nbsp;↩&nbsp;](#fr-fn38)
+\[38\] 将此术语与 kusaladhamma-asantuṭṭhī（asantuṭṭhitā kusalesu dhammesu）相比较：“对善法的不满足”，这是支持佛陀觉悟的重要因素，也是所有佛法修行者应与精进（[DN 33 / D iii 213-14](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 2.5 / A i 50](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#15-an-25-通达二法-upaññātasutta){: target="_blank" rel="noopener"}；[AN 2.177 / A i 95](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-119-180-tatiyapannasaka/#515-an-2178-善法不满足与精勤不退息){: target="_blank" rel="noopener"}；[AN 6.80 / A iii 432](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-075-084-arahatta/#6-an-680-诸法得大经-mahantattasutta){: target="_blank" rel="noopener"}；Dhs. 7-8, 234）并行具备的因素。[&nbsp;↩&nbsp;](#fr-fn38)
 {: id="fn-fn38"}
 
 \[39\] 译注：作者在此使用的泰语双关语效果更佳：อยากธรรม ก็อยากทำ：yahk tam gaw yahk tam：“若渴望真理，便渴望行动。”[&nbsp;↩&nbsp;](#fr-fn39)
@@ -1392,7 +1392,7 @@ C. 当善法欲成为渴爱的条件时，即使对于一个善意的人来说�
 \[75\] Natthi chandassa hāni。这是十八种品质中的第十种；参见，例如：DA. III. 994；MilnA. \[369\]；Dīgha Nikāya Pāṭikavagga Ṭīkā：Sampasādanīyasuttavaṇṇanā, Sāriputtasīhanādavaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn75)
 {: id="fn-fn75"}
 
-\[76\] 作为一个群体，这四个因素——慈、悲、喜、舍——通常被称为“梵住”（brahmavihāra；“神圣住处”）。义注者指出，这四个因素都以善法欲作为其起点（sabbesampi ca etesaṁ kattukamyatā-chando ādi）；例如参见：DhsA. 194。参见脚注64。[&nbsp;↩&nbsp;](#fr-fn76)
+\[76\] 作为一个群体，这四个因素——慈、悲、喜、舍——通常被称为“梵住”（brahmavihāra；“神圣住处”）。义注者指出，这四个因素都以善法欲作为其起点（sabbesampi ca etesaṁ kattukamyatā-chando ādi）；例如参见：DhsA. 194。参见脚注56。[&nbsp;↩&nbsp;](#fr-fn76)
 {: id="fn-fn76"}
 
 \[77\] 关于佛陀的主要德行特质，请参见附录三。[&nbsp;↩&nbsp;](#fr-fn77)

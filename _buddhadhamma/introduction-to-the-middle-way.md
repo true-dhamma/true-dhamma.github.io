@@ -68,7 +68,7 @@ title: 第十二章：中道导论 | 佛法 | Buddhadhamma
 
 中道
 
-> 有时，人们可能使用“中道”一词来表示既不过于僵硬也不过于松懈的努力，或者既不懒惰也不强行紧张的工作或训练。虽然在这些用法中，“中道”一词可能与中道有一些共通之处，但它并非绝对正确。即使是那些遵循中道的人，也可能付出过多的努力，或不够的努力，因此未能获得修行的成果。在这种情况下，佛陀使用 viriya-samatā 来指正确的精进（此词意为正确、平衡或持续的精进；samatā = samabhāva = 平等、平衡、适宜、节制、持续性）；见：[MV 5 / Vin i 181](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}; [AN 6.55 / A iii 374-5](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#1-an-655-尊者守笼那经-soṇasutta){: target="_blank" rel="noopener"}。
+> 有时，人们可能使用“中道”一词来表示既不过于僵硬也不过于松懈的努力，或者既不懒惰也不强行紧张的工作或训练。虽然在这些用法中，“中道”一词可能与中道有一些共通之处，但它并非绝对正确。即使是那些遵循中道的人，也可能付出过多的努力，或不够的努力，因此未能获得修行的成果。在这种情况下，佛陀使用 viriya-samatā 来指正确的精进（此词意为正确、平衡或持续的精进；samatā = samabhāva = 平等、平衡、适宜、节制、持续性）；见：[MV 5 / Vin i 181](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}；[AN 6.55 / A iii 374-5](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#1-an-655-尊者守笼那经-soṇasutta){: target="_blank" rel="noopener"}。
 >
 > 有时，当人们确定走在正确的道路上，充满信心并做好准备时，他们被鼓励要竭尽全力，即使在此过程中必须放弃生命。例如，佛陀本人在觉悟之夜就无所畏惧地决心（[AN 2.5 / A i 50](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#15-an-25-通达二法-upaññātasutta){: target="_blank" rel="noopener"}）。不应将此主题与中道混淆。
 
@@ -127,7 +127,7 @@ title: 第十二章：中道导论 | 佛法 | Buddhadhamma
 
 另一方面，觉悟者的行为与该特定活动的纯粹理由和客观目的和谐一致；它们不与任何渴爱或执取纠缠。
 
-觉悟者不再造恶，因为不再有会迫使他们行为不端的因缘；他们的心中不再存有任何贪、嗔、痴，这些会驱使他们寻求个人利益。他们只行善事，只以智慧和慈悲行事。然而，这里的“善”是根据一般人的理解来使用的。觉悟者不执著于个人善的概念，也不执著于善作为某种个人身份的标志。
+觉悟者不再造恶，因为不再有会迫使他们行为不端的因缘；他们的心中不再存有任何贪、嗔、痴，这些会驱使他们寻求个人利益。他们只行善事，只以智慧和慈悲行事。然而，这里的“善”是根据一般人的理解来使用的。觉悟者不执着于个人善的概念，也不执着于善作为某种个人身份的标志。
 
 一般来说，当凡夫行善时，他们的行为并非完全符合这些善行的真实目的，而是往往期待某种个人回报。在微妙的层面上，这可能是一种对个人声望的渴望，甚至是“我”做了善事的一种内在良好感觉。
 
@@ -255,7 +255,7 @@ cariya-dhamma 一词涵盖了法实践的全部内容，从基本的道德行为
 > > 智者警觉，因此获得两种利益（attha）：此生可见的利益和后世的利益。  
 > > 智者通过获得利益，被称为贤者。
 >
-> Appamāda Sutta: [SN 3.18 / S i 87-9](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#28-sn-318-善友经-kalyāṇamittasutta){: target="_blank" rel="noopener"}; 参阅：[AN 6.53 / A iii 364](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#11-an-653-不放逸经-appamādasutta){: target="_blank" rel="noopener"}
+> Appamāda Sutta: [SN 3.18 / S i 87-9](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#28-sn-318-善友经-kalyāṇamittasutta){: target="_blank" rel="noopener"}；参阅：[AN 6.53 / A iii 364](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#11-an-653-不放逸经-appamādasutta){: target="_blank" rel="noopener"}
 
 attha（“利益”）一词也可译为“实质”、“意义”、“目标”、“益处”、“目的”或“宗旨”。在这里，它指人生的真正目的或目标，指的是梵行的目标或佛教的目标。
 
@@ -452,7 +452,7 @@ puñña-kiriyā 一词提供了一个与相关主题有趣的联系。当佛陀�
 
 三组
 
-> 参见上文引用的段落：[MN 44 / M i 300-301](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-044-culavedalla/){: target="_blank" rel="noopener"}；另参见：[AN 3.26 / A i 124-5](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-021-030-puggala/#6-an-326-亲近经-sevitabbasutta){: target="_blank" rel="noopener"}, [AN 3.145 / A i 291](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-134-146-yodhajiva/#12-an-3145-孔雀饲育处之二-dutiyamoranivāpasutta){: target="_blank" rel="noopener"}；[AN 5.22 / A iii 15-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-021-030-pancangika/#2-an-522-不敬之二-dutiyaagāravasutta){: target="_blank" rel="noopener"}；[AN 11.10 / A v 326-7](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-001-010-nissaya/#10-an-1110-孔雀林园经-moranivāpasutta){: target="_blank" rel="noopener"}；另参见五蕴或五组的分类（包括那些超越道德行为、禅定和智慧的事物，构成另外两个因素：解脱蕴——vimutti-khandha——和解脱知见蕴——vimuttiñāṇadassana-khandha），载于：[DN 34 / D iii 279](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 5.108 / A iii 134-5](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-101-110-phasuvihara/#8-an-5108-无学五法经-asekhasutta){: target="_blank" rel="noopener"}, [AN 5.251–253 / A iii 271](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-251-271-upasampada/#1-an-5251-近圆五法经){: target="_blank" rel="noopener"}；AA. V. 4；NdA. I. 90。
+> 参见上文引用的段落：[MN 44 / M i 300-301](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-044-culavedalla/){: target="_blank" rel="noopener"}；另参见：[AN 3.26 / A i 124-5](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-021-030-puggala/#6-an-326-亲近经-sevitabbasutta){: target="_blank" rel="noopener"}；[AN 3.145 / A i 291](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-134-146-yodhajiva/#12-an-3145-孔雀饲育处之二-dutiyamoranivāpasutta){: target="_blank" rel="noopener"}；[AN 5.22 / A iii 15-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-021-030-pancangika/#2-an-522-不敬之二-dutiyaagāravasutta){: target="_blank" rel="noopener"}；[AN 11.10 / A v 326-7](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-001-010-nissaya/#10-an-1110-孔雀林园经-moranivāpasutta){: target="_blank" rel="noopener"}；另参见五蕴或五组的分类（包括那些超越道德行为、禅定和智慧的事物，构成另外两个因素：解脱蕴——vimutti-khandha——和解脱知见蕴——vimuttiñāṇadassana-khandha），载于：[DN 34 / D iii 279](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 5.108 / A iii 134-5](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-101-110-phasuvihara/#8-an-5108-无学五法经-asekhasutta){: target="_blank" rel="noopener"}；[AN 5.251–253 / A iii 271](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-251-271-upasampada/#1-an-5251-近圆五法经){: target="_blank" rel="noopener"}；AA. V. 4；NdA. I. 90。
 
 三组（“三法蕴”）——戒蕴（sīla-khandha）、定蕴（samādhi-khandha）和慧蕴（paññā-khandha）——的这种分类，是一种将相似品质归类在一起的方式。
 
@@ -634,7 +634,7 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 
 互相协作的道支
 
-> 参阅义注中关于道支关系的分析：VbhA. 114-17。另参阅 VbhA. 91和 Vism. 514-15中的类比，解释道支为何被划分为不同组别。
+> 参阅义注中关于道支关系的分析：VbhA. 114-17。另参阅 VbhA. 91 和 Vism. 514-15 中的类比，解释道支为何被划分为不同组别。
 >
 > 一个比喻是三位朋友互相帮助采摘瞻波伽花，单人站立无法够到。
 >
@@ -787,9 +787,9 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 
 总而言之，有两个因素导致正见的产生。第一是信心（saddhā），它指的是对他人智慧的信任或依赖。它作为对他人教导的回应而生起，并标志着由外缘发起的修行之始。第二是如理作意（yoniso-manasikāra），它指的是自行或正确思考的能力，并标志着由内缘发起的修行之始。
 
-saddhā 这个词并非直接指人的理解来源，而是一种将人与外部因素联系起来的内在精神品质。理解的真正外部来源是影响自己信仰的他人，或他人的教导，这在佛教中被称为“他音”（paratoghosa）。
+saddhā 这个词并非直接指人的理解来源，而是一种将人与外部因素联系起来的内在精神品质。理解的真正外部来源是影响自己信仰的他人或他人的言教，这在佛教中被称为“他人的教导”（paratoghosa）。
 
-除了有助于生起信心并作为建立正见的间接方法之外，他音也可以是运用如理作意的直接动力。因此，经典提出了正见的两个来源或因素：他人的言语（paratoghosa）这一外部因素，以及如理作意（yoniso-manasikāra）这一内在因素。
+除了有助于生起信心并作为建立正见的间接方法之外，他人的教导也可以是运用如理作意的直接动力。因此，经典提出了正见的两个来源或因素：他人的教导（paratoghosa）这一外部因素，以及如理作意（yoniso-manasikāra）这一内在因素。
 
 佛教非常重视正见，因为人们，包括佛教徒自己，通常没有对这一道支给予足够的关注。即使他们认识到其重要性，人们也往往只是口头说说，而不去付诸实践。因此，有必要提醒人们首先认识到正见的重要性，更重要的是，要找到生起正见的方法。
 
@@ -816,7 +816,7 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 
 有时他们会放宽定义，指出增上戒学（adhisīla）指的是那些以涅槃为目标的人所奉行的道德行为——无论是五戒还是十戒，而增上心学（adhicitta）指的是八定。[\[42\]](#fn-fn42){:id="fr-fn42"} 关于佛陀谈到居士的“更高德行”的段落，[\[43\]](#fn-fn43){:id="fr-fn43"} 义注说这指的是五戒或十戒。[\[44\]](#fn-fn44){:id="fr-fn44"}
 
-有时，前缀 adhi-仅仅表示比较两件事物时的“更好”或“更高”，例如十戒相对于五戒来说是增上戒学（adhisīla），而色界心（rūpāvacara-citta）相对于欲界心（kāmāvacara-citta）来说，属于增上心（adhicitta）的范畴。[\[45\]](#fn-fn45){:id="fr-fn45"}
+有时，前缀 adhi- 仅仅表示比较两件事物时的“更好”或“更高”，例如十戒相对于五戒来说是增上戒学（adhisīla），而色界心（rūpāvacara-citta）相对于欲界心（kāmāvacara-citta）来说，属于增上心（adhicitta）的范畴。[\[45\]](#fn-fn45){:id="fr-fn45"}
 
 本质上，三学指的是根据佛教教义正确实践的善行、禅定和智慧，它们有助于在修行中进步。[\[46\]](#fn-fn46){:id="fr-fn46"}
 
@@ -839,10 +839,10 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 
 《自说经》（Udāna）中包含这段话：
 
-> 那些以学习、戒行、宗教仪轨、谋生、持守梵行以及取悦（天人）为首要价值的人——这是一端。而那些认为贪欲无害的人——这是另一端。这两种极端会增长无明和渴爱，进而增长邪见。那些不理解这两种极端的人——一类人陷入泥沼，另一类人则逾越界限。那些理解这两种极端的人不会被它们困住，也不会因这种不执著而产生傲慢。对这些人而言，已无需再宣告轮回（的苦）。  
+> 那些以学习、戒行、宗教仪轨、谋生、持守梵行以及取悦（天人）为首要价值的人——这是一端。而那些认为贪欲无害的人——这是另一端。这两种极端会增长无明和渴爱，进而增长邪见。那些不理解这两种极端的人——一类人陷入泥沼，另一类人则逾越界限。那些理解这两种极端的人不会被它们困住，也不会因这种不执着而产生傲慢。对这些人而言，已无需再宣告轮回（的苦）。  
 > [Ud 6.8 / Ud 71](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-06-jaccandha/#8-ud-68-游女-gaṇikāsutta){: target="_blank" rel="noopener"}, Gaṇikā Sutta
 
-（义注将“谋生”定义为“作为苦行者生活”，并将自我折磨〔atta-kilamathānuyoga〕等同于执著戒律和宗教修行〔sīlabbata-parāmāsa〕。）[\[50\]](#fn-fn50){:id="fr-fn50"}
+（义注将“谋生”定义为“作为苦行者生活”，并将自我折磨〔atta-kilamathānuyoga〕等同于执着戒律和宗教修行〔sīlabbata-parāmāsa〕。）[\[50\]](#fn-fn50){:id="fr-fn50"}
 
 ![image](./images/illustrations/lotus-flowers-2.jpg)
 
@@ -893,13 +893,13 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 \[15\] [AN 8.54 / A iv 281-4](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#4-an-854-长膝经-dīghajāṇusutta){: target="_blank" rel="noopener"}, Dīghajāṇu Sutta。[&nbsp;↩&nbsp;](#fr-fn15)
 {: id="fn-fn15"}
 
-\[16\] 参见：[DN 33 / D iii 218](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 8.36 / A iv 241-2](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#6-an-836-福业事-puññakiriyavatthusutta){: target="_blank" rel="noopener"}；[Iti 1.22 / It 15](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-01-ekaka/#32-iti-122-慈心经){: target="_blank" rel="noopener"}, [Iti 3.11 / It 51-2](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#21-iti-311-福业事经){: target="_blank" rel="noopener"}；DA. III. 999；ItA. I. 78；ItA. II. 23。[&nbsp;↩&nbsp;](#fr-fn16)
+\[16\] 参见：[DN 33 / D iii 218](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 8.36 / A iv 241-2](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#6-an-836-福业事-puññakiriyavatthusutta){: target="_blank" rel="noopener"}；[Iti 1.22 / It 15](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-01-ekaka/#32-iti-122-慈心经){: target="_blank" rel="noopener"}；[Iti 3.11 / It 51-2](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#21-iti-311-福业事经){: target="_blank" rel="noopener"}；DA. III. 999；ItA. I. 78；ItA. II. 23。[&nbsp;↩&nbsp;](#fr-fn16)
 {: id="fn-fn16"}
 
 \[17\] 这里的贪欲（rāga）与贪（lobha）相同。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
-\[18\] 另一部相似但较短的经文是：[AN 3.55 / A i 157-8](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#4-an-355-遍历者经-paribbājakasutta){: target="_blank" rel="noopener"}。在 [SN 46.55 / S v 124](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#5-sn-4655-伤歌逻水钵喻经-saṅgāravasutta){: target="_blank" rel="noopener"}和 [AN 5.51 / A iii 64](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-051-060-nivarana/#1-an-551-五盖障碍经-āvaraṇasutta){: target="_blank" rel="noopener"}, [AN 5.193 / A iii 234-5](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-191-200-brahmana/#3-an-5193-桑迦罗婆婆罗门经-saṅgāravasutta){: target="_blank" rel="noopener"}中，五盖（nīvaraṇa）被描述为未能认识这三种福祉的根源。[&nbsp;↩&nbsp;](#fr-fn18)
+\[18\] 另一部相似但较短的经文是：[AN 3.55 / A i 157-8](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#4-an-355-遍历者经-paribbājakasutta){: target="_blank" rel="noopener"}。在 [SN 46.55 / S v 124](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#5-sn-4655-伤歌逻水钵喻经-saṅgāravasutta){: target="_blank" rel="noopener"}和 [AN 5.51 / A iii 64](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-051-060-nivarana/#1-an-551-五盖障碍经-āvaraṇasutta){: target="_blank" rel="noopener"}；[AN 5.193 / A iii 234-5](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-191-200-brahmana/#3-an-5193-桑迦罗婆婆罗门经-saṅgāravasutta){: target="_blank" rel="noopener"}中，五盖（nīvaraṇa）被描述为未能认识这三种福祉的根源。[&nbsp;↩&nbsp;](#fr-fn18)
 {: id="fn-fn18"}
 
 \[19\] 此信息的来源与第一组三种利益：现法利益（diṭṭhadhammikattha）、后世利益（samparāyikattha）和究竟利益（paramattha）的来源相同；参见上文经文参考文献。另请参见 VismṬ.：Cha-anussatiniddesavaṇṇanā, Buddhānussatikathāvaṇṇanā（两处）和 VinṬ.：Paṭhamo Bhāgo, Verañjakaṇḍavaṇṇanā 中关于佛陀功德（buddha-guṇa）的解释，其中指出自利（attattha）与智慧（paññā）的关系，以及利他（parattha）与慈悲（karuṇā）的关系。[&nbsp;↩&nbsp;](#fr-fn19)
@@ -944,7 +944,7 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 \[32\] [DN 14 / D ii 49-50](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-14-mahapadana/){: target="_blank" rel="noopener"}；[Dhp 183-5](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#144-dhp-183-185-阿难问诸佛教诲的故事-ānandattherapañhavatthu){: target="_blank" rel="noopener"}。关于将此教导归类为符合三学的分类，请参阅：DA. II. 479 和 DhA. III. 237。《长部义注》（Dīgha Nikāya Aṭṭhakathā）指出，第一句指的是戒律仪（sīla-saṁvara），第二句指的是奢摩他（止）和毗婆舍那（观），即定和慧，第三句指的是阿罗汉果（arahatta-phala）。然而，《法句经义注》（Dhammapada Aṭṭhakathā）将第三句解释为仅仅通过去除五盖（nīvaraṇa）来清洁心，就等同于净化自己的心。通过参考这两个来源，我们可以将第一句定义为戒（可以扩展这个定义），第二句定义为定和慧，第三句也定义为定和慧（这里也可以包括解脱 vimutti）。无论如何，《清净道论》提出了一个简单的分类，即第一句 = 戒，第二句 = 定，第三句 = 慧；参见：Vism. 4-5。[&nbsp;↩&nbsp;](#fr-fn32)
 {: id="fn-fn32"}
 
-\[33\] 将这两个因素加入八正道，从而构成十个因素，这被称为十正性（sammatta）或十无学法（asekha-dhamma）；参见：[DN 33 / D iii 271](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}, [DN 34 / D iii 292](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}。义注指出，正智（sammā-ñāṇa）等同于果智（phala-ñāṇa）和省察智（paccavekkhaṇa-ñāṇa）；参见：MA. I. 189；AA. II. 382。正智（sammā-ñāṇa）是正见的最终阶段（参见：MA. IV. 135；AA. V. 70）。[&nbsp;↩&nbsp;](#fr-fn33)
+\[33\] 将这两个因素加入八正道，从而构成十个因素，这被称为十正性（sammatta）或十无学法（asekha-dhamma）；参见：[DN 33 / D iii 271](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[DN 34 / D iii 292](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}。义注指出，正智（sammā-ñāṇa）等同于果智（phala-ñāṇa）和省察智（paccavekkhaṇa-ñāṇa）；参见：MA. I. 189；AA. II. 382。正智（sammā-ñāṇa）是正见的最终阶段（参见：MA. IV. 135；AA. V. 70）。[&nbsp;↩&nbsp;](#fr-fn33)
 {: id="fn-fn33"}
 
 \[34\] 关于这三个道支如何与其他道支一起生起的描述，请参阅《大四十经》（Mahācattārīsaka Sutta, [MN 117 / M iii 71-78](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-117-mahacattarisaka/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn34)
@@ -956,7 +956,7 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 \[36\] 义注指出，佛陀和独觉佛陀仅凭如理作意而觉悟，如理作意是正见的条件——参见：MA. II. 346。[&nbsp;↩&nbsp;](#fr-fn36)
 {: id="fn-fn36"}
 
-\[37\] UdA. 107的义注指出，他音（paratoghosa；即信道）是世间正见的条件，而如理作意是出世间正见的条件。[&nbsp;↩&nbsp;](#fr-fn37)
+\[37\] UdA. 107 的义注指出，他人的教导（paratoghosa；即信道）是世间正见的条件，而如理作意是出世间正见的条件。[&nbsp;↩&nbsp;](#fr-fn37)
 {: id="fn-fn37"}
 
 \[38\] [AN 3.91 / A i 235-6](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#10-an-391-三学之二-dutiyasikkhattayasutta){: target="_blank" rel="noopener"}, Dutiyasikkhattaya Sutta。[&nbsp;↩&nbsp;](#fr-fn38)

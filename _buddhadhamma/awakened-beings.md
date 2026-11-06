@@ -29,15 +29,15 @@ title: 第七章：觉悟者 | 佛法 | Buddhadhamma
 
 已完全证悟涅槃者，以及那些初次瞥见目标并因此被保证将达到目标的人，都被归类为佛陀的真实弟子。他们被称为“声闻僧团”（sāvaka-saṅgha），例如在赞颂僧伽功德的偈语中可见：“他们是善于修行的世尊弟子。”
 
-有许多专门的术语用以形容这些真实的弟子。最常用的术语是 ariya-puggala（或 ariya），译为“有教养的”“高尚的”或“远离怨敌者”（即远离烦恼）。[\[2\]](#fn-fn2){:id="fr-fn2"} ariya-puggala 一词最初是在广义上使用的；后来才专门用于描述证悟的阶段。《巴利三藏》（Tipiṭaka）中用来区分证悟阶段的原始术语是 dakkhiṇeyya（或 dakkhiṇeyya-puggala）。无论如何，ariya-puggala 和 dakkhiṇeyya-puggala 这两个术语都是从婆罗门教中借鉴而来的。佛陀改变了它们的含义，正如他改变了许多其他词语的含义，例如：brahmā、brāhmaṇa（“婆罗门”）、nahātaka（“已洗净”）和 vedagū（“智者”）。
+有许多专门的术语用以形容这些真实的弟子。最常用的术语是 ariya-puggala（或 ariya），译为“有教养的”、“高尚的”或“远离怨敌者”（即远离烦恼）。[\[2\]](#fn-fn2){:id="fr-fn2"} ariya-puggala 一词最初是在广义上使用的；后来才专门用于描述证悟的阶段。《巴利三藏》（Tipiṭaka）中用来区分证悟阶段的原始术语是 dakkhiṇeyya（或 dakkhiṇeyya-puggala）。无论如何，ariya-puggala 和 dakkhiṇeyya-puggala 这两个术语都是从婆罗门教中借鉴而来的。佛陀改变了它们的含义，正如他改变了许多其他词语的含义，例如：brahmā、brāhmaṇa（“婆罗门”）、nahātaka（“已洗净”）和 vedagū（“智者”）。
 
-佛陀赋予 ariya 一词新的定义，与婆罗门教规定的不同。ariya（梵语为 ārya，即雅利安人）这个词最初指的是几千年前从西北地区迁徙并入侵印度次大陆的一个民族。由于这次入侵，当地居民要么向南撤退，要么躲入森林和山脉。雅利安人认为自己是有教养的；他们鄙视当地人，称他们为野蛮人并奴役他们。后来，当雅利安人巩固了他们的统治并建立了种姓制度后，当地人民被置于最低等的首陀罗（Śūdra；劳动者）阶层。ariya（“高尚的”）一词则指三个上层种姓：刹帝利（Kṣatriyaḥ；武士、国王、行政官）、婆罗门（brāhmaṇa；学者、祭司、教师）和吠舍（Vaishya；商人）。首陀罗和所有其他人则被标记为 anariya（“低贱的”，“卑劣的”）。[\[3\]](#fn-fn3){:id="fr-fn3"} 人的种姓在出生时就已确定；无法选择或改变自己的地位。
+佛陀赋予 ariya 一词新的定义，与婆罗门教规定的不同。ariya（梵语为 ārya，即雅利安人）这个词最初指的是几千年前从西北地区迁徙并入侵印度次大陆的一个民族。由于这次入侵，当地居民要么向南撤退，要么躲入森林和山脉。雅利安人认为自己是有教养的；他们鄙视当地人，称他们为野蛮人并奴役他们。后来，当雅利安人巩固了他们的统治并建立了种姓制度后，当地人民被置于最低等的首陀罗（Śūdra；劳动者）阶层。ariya（“高尚的”）一词则指三个上层种姓：刹帝利（Kṣatriyaḥ；武士、国王、行政官）、婆罗门（brāhmaṇa；学者、祭司、教师）和吠舍（Vaishya；商人）。首陀罗和所有其他人则被标记为 anariya（“低贱的”、“卑劣的”）。[\[3\]](#fn-fn3){:id="fr-fn3"} 人的种姓在出生时就已确定；无法选择或改变自己的地位。
 
 当佛陀开始教导时，他宣称高尚不取决于出身，而是取决于正法，正法源于修行和训练。无论出身或种姓如何，凡是依循圣法（ariya-dhamma）行事的人就是“圣者”（ariya）。不依循者即是 anariya。真理并不局限于婆罗门与《吠陀》（Veda）的教条，[\[4\]](#fn-fn4){:id="fr-fn4"} 而是客观和普遍的。一个证悟了这些普遍真理的人是圣者，尽管他从未学习过《吠陀》。因为对这些真理的了知使人成为圣者，所以它们被称为“圣谛”。[\[5\]](#fn-fn5){:id="fr-fn5"} 从技术上讲，理解圣谛的人是须陀洹及以上圣者。因此，经典通常将 ariya 一词用作 dakkhiṇeyya-puggala（“值得供养者”）的同义词，这个术语稍后将讨论。
 
 四圣谛（ariya-sacca）有时也被称为圣法。[\[6\]](#fn-fn6){:id="fr-fn6"} 然而，ariya-dhamma 一词没有固定的定义，也用于其他场合。[\[7\]](#fn-fn7){:id="fr-fn7"} 它可以指十种“善业道”（kusala-kammapatha）[\[8\]](#fn-fn8){:id="fr-fn8"} 和五戒。[\[9\]](#fn-fn9){:id="fr-fn9"} 这些定义并不矛盾，因为那些真正一生持守五戒，没有盲目依附（sīlabbata-parāmāsa）且没有瑕疵的居士，都是须陀洹及以上圣者。义注中对 ariya 指“圣者”之人的标准定义，包括佛陀、独觉佛（paccekabuddha）[\[10\]](#fn-fn10){:id="fr-fn10"} 和佛陀的弟子，[\[11\]](#fn-fn11){:id="fr-fn11"} 尽管在某些地方，这个定义仅指佛陀一人。[\[12\]](#fn-fn12){:id="fr-fn12"} 当形容一种修行方法或要素时，ariya 等同于“出世间”（lokuttara），[\[13\]](#fn-fn13){:id="fr-fn13"} 尽管并非总是严格如此。[\[14\]](#fn-fn14){:id="fr-fn14"}
 
-尽管 ariya 的定义相当广泛，但可以总结说，当该词用于指人时，它等同于 dakkhiṇeyya-puggala，意思是那些超越凡夫的境界并成为声闻僧团（今天更常称为圣僧团，ariya-saṅgha）成员的人。（另见注释“圣者”的义注分类）。在义注和复注中，这个定义几乎是固定的，只有极少数例外。在经典中，ariya 一词倾向于以一般意义使用，不指定觉醒的层次。Dakkhiṇeyya 是一个更具体的专有名词，使用频率低于 ariya。
+尽管 ariya 的定义相当广泛，但可以总结说，当该词用于指人时，它等同于 dakkhiṇeyya-puggala，意思是那些超越凡夫的境界并成为声闻僧团（今天更常称为圣僧团，ariya-saṅgha）成员的人。（参见附注“圣者”的义注分类）。在义注和复注中，这个定义几乎是固定的，只有极少数例外。在经典中，ariya 一词倾向于以一般意义使用，不指定觉醒的层次。Dakkhiṇeyya 是一个更具体的专有名词，使用频率低于 ariya。
 
 “圣者”的义注分类
 
@@ -61,11 +61,11 @@ Dakkhiṇeyya 译为“值得供养者”。[\[15\]](#fn-fn15){:id="fr-fn15"} �
 
 佛陀开始教导时，他主张废除动物祭祀，并改变了 yañña 和 dakkhiṇā 这两个词的含义。他把 yañña 的含义发展为不伤害生命的布施，而佛教教义中的 dakkhiṇā 指的是适宜的礼物和真诚的捐赠，而不是费用或报酬。[\[16\]](#fn-fn16){:id="fr-fn16"} 如果说这是一种报酬，那它是德行的报酬，但更恰当地说，它是为了尊崇德行而作的供养。此外，这些礼物并非过度奢华，而是简单的、基本的生活必需品。[\[17\]](#fn-fn17){:id="fr-fn17"}
 
-值得这些供养的人，是已完成亲身修行之人，充满了善法。他们体现了一种有德行和安乐的生活。他们存在于世间本身，就是对他人的一种祝福。当他们走进更广阔的社会，传授这些戒行的原则，以身作则并教导他人时，他们为世间提供了无价的服务。而这些个人不要求或期望报酬。他们仅仅依靠四资具的供养来维持生命。对这些人所作的供养会带来巨大的果报，因为这些供养使善行得以在世间彰显并增长。这些人被称为“值得供养者”（dakkhiṇeyya），因为对他们所作的供养会产生宝贵的结果。他们也被称为“无上福田”，[\[18\]](#fn-fn18){:id="fr-fn18"} 因为他们是善行在世间绽放和传播的源泉。[\[19\]](#fn-fn19){:id="fr-fn19"}
+值得这些供养的人，是已自我修习之人，充满了善法。他们体现了一种有德行和安乐的生活。他们存在于世间本身，就是对他人的一种祝福。当他们走进更广阔的社会，传授这些戒行的原则，以身作则并教导他人时，他们为世间提供了无价的服务。而这些个人不要求或期望报酬。他们仅仅依靠四资具的供养来维持生命。对这些人所作的供养会带来巨大的果报，因为这些供养使善行得以在世间彰显并增长。这些人被称为“值得供养者”（dakkhiṇeyya），因为对他们所作的供养会产生宝贵的结果。他们也被称为“无上福田”，[\[18\]](#fn-fn18){:id="fr-fn18"} 因为他们是善行在世间绽放和传播的源泉。[\[19\]](#fn-fn19){:id="fr-fn19"}
 
 人们会给普通老师适当的报酬；那么，给那些教导德行和真理之道的人一些简单的礼物，难道不合适吗？在当今社会，那些从事破坏性商业——损害经济、环境，乃至人类善性——的人，却获得了各种奢华的报酬。[\[20\]](#fn-fn20){:id="fr-fn20"} 难道那些通过节制消费来保护世界和维护德行的人不应该得到支持吗？那些只消费必需品的人对世界资源的冲击最小；他们取之甚少，回报甚多。
 
-供养不同于一般的布施；它不是出于个人情感、义务或期望获得回报而施予。人们是怀着对善行力量的信心而布施的，他们认识到受供者是佛教僧团（saṅgha）的成员，或者他/她持守着德行。无论如何，受供者必须具备必要的德行，才有资格接受这些供养。例如，一个尚未证悟的僧人或沙弥，如果食用信众的斋饭，他就是“负债”，尽管他有良好的戒行并精进于佛法修行。他应该尽快通过证得 dakkhiṇeyya-puggala 的状态来解除这笔债务。例如，尊者大迦叶（Mahā Kassapa）曾声称，在他受戒至证得阿罗汉果的七天期间，他“欠”了在家人七天的债。[\[21\]](#fn-fn21){:id="fr-fn21"} 他受戒后，作为未觉醒者精进修行佛法七天，然后才达到阿罗汉果，成为值得虔诚在家人供养的人。
+供养不同于一般的布施；它不是出于个人情感、义务或期望获得回报而施予。人们是怀着对善行力量的信心而布施的，他们认识到受供者是佛教僧团（saṅgha）的成员，或者对方持守着德行。无论如何，受供者必须具备必要的德行，才有资格接受这些供养。例如，一个尚未证悟的僧人或沙弥，如果食用信众的斋饭，他就是“负债”，尽管他有良好的戒行并精进于佛法修行。他应该尽快通过证得 dakkhiṇeyya-puggala 的状态来解除这笔债务。例如，尊者大迦叶（Mahā Kassapa）曾声称，在他受戒至证得阿罗汉果的七天期间，他“欠”了在家人七天的债。[\[21\]](#fn-fn21){:id="fr-fn21"} 他受戒后，作为未觉醒者精进修行佛法七天，然后才达到阿罗汉果，成为值得虔诚在家人供养的人。
 
 义注将接受供养的比丘及沙弥分为四类：
 
@@ -151,16 +151,16 @@ Dakkhiṇeyya 译为“值得供养者”。[\[15\]](#fn-fn15){:id="fr-fn15"} �
     
 7.  阿罗汉（已证得阿罗汉果的人）。
     
-8.  阿罗汉向（为证得阿罗汉果而修行的人）。（参见注释“对偶翻译”）
+8.  阿罗汉向（为证得阿罗汉果而修行的人）。（参见附注“对偶翻译”）
     
 
 对偶翻译
 
-> 现今人们将这些对偶翻译为“入流果”（sotāpatti-phala）、“入流道”（sotāpatti-magga）、“一来果”（sakadāgāmi-phala）、“一来道”（sakadāgāmi-magga）等。这种翻译遵循义注术语：关于 maggaṭṭha 和 phalaṭṭha，请参阅 Nd1A. II. 254; Nd2A. 15; KhA. 183; DhA. I. 334; VinṬ.: Pārājikakaṇḍaṁ, Bhikkhupadabhājanīyavaṇṇanā; DA. II. 515 = AA. IV. 3 = PañcA. 191; MA. II. 120; UdA. 306。术语 sotāpatti-magga、sakadāgāmi-magga 和 anāgāmi-magga 并未出现在早期三藏文献中；它们首次出现在《义释》（Niddesa）、《无碍解道》（Paṭisambhidāmagga）和《阿毗达摩》（Abhidhamma）中。在早期文献中，术语 arahatta-magga 仅见于以下段落：arahā vā assasi arahattamaggaṁ vā samāpanno 和 arahanto vā arahattamaggaṁ vā samāpannā：[MV 1 / Vin i 32](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, [MV 1 / Vin i 39](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}; [DN 5 / D i 144](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-05-kutadanta/){: target="_blank" rel="noopener"}; [SN 3.11 / S i 78](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#21-sn-311-结发行者经-sattajaṭilasutta){: target="_blank" rel="noopener"}; [AN 4.39 / A ii 42](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#9-an-439-郁阇耶婆罗门-ujjayasutta){: target="_blank" rel="noopener"}; [AN 6.59 / A iii 391](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#5-an-659-木材商经-dārukammikasutta){: target="_blank" rel="noopener"}; [Ud 1.10 / Ud 7](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-01-bodhi/#10-ud-110-婆醯-bāhiyasutta){: target="_blank" rel="noopener"}, [Ud 6.2 / Ud 65](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-06-jaccandha/#2-ud-62-外道-sattajaṭilasutta){: target="_blank" rel="noopener"}。在后来的文献，例如《义释》、《无碍解道》和《阿毗达摩》中，则被广泛使用。
+> 现今人们将这些对偶翻译为“入流果”（sotāpatti-phala）、“入流道”（sotāpatti-magga）、“一来果”（sakadāgāmi-phala）、“一来道”（sakadāgāmi-magga）等。这种翻译遵循义注术语：关于 maggaṭṭha 和 phalaṭṭha，请参阅 Nd1A. II. 254；Nd2A. 15；KhA. 183；DhA. I. 334；VinṬ.: Pārājikakaṇḍaṁ, Bhikkhupadabhājanīyavaṇṇanā；DA. II. 515 = AA. IV. 3 = PañcA. 191；MA. II. 120；UdA. 306。术语 sotāpatti-magga、sakadāgāmi-magga 和 anāgāmi-magga 并未出现在早期三藏文献中；它们首次出现在《义释》（Niddesa）、《无碍解道》（Paṭisambhidāmagga）和《阿毗达摩》（Abhidhamma）中。在早期文献中，术语 arahatta-magga 仅见于以下段落：arahā vā assasi arahattamaggaṁ vā samāpanno 和 arahanto vā arahattamaggaṁ vā samāpannā：[MV 1 / Vin i 32](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[MV 1 / Vin i 39](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[DN 5 / D i 144](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-05-kutadanta/){: target="_blank" rel="noopener"}；[SN 3.11 / S i 78](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#21-sn-311-结发行者经-sattajaṭilasutta){: target="_blank" rel="noopener"}；[AN 4.39 / A ii 42](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#9-an-439-郁阇耶婆罗门-ujjayasutta){: target="_blank" rel="noopener"}；[AN 6.59 / A iii 391](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#5-an-659-木材商经-dārukammikasutta){: target="_blank" rel="noopener"}；[Ud 1.10 / Ud 7](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-01-bodhi/#10-ud-110-婆醯-bāhiyasutta){: target="_blank" rel="noopener"}；[Ud 6.2 / Ud 65](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-06-jaccandha/#2-ud-62-外道-sattajaṭilasutta){: target="_blank" rel="noopener"}。在后来的文献，例如《义释》、《无碍解道》和《阿毗达摩》中，则被广泛使用。
 
 这四对圣者被称为声闻僧团，是佛陀的弟子，被视为人类的典范，也是佛教中三宝之一。赞颂僧伽的唱诵包括：“这四双、八种圣者，是世尊的弟子”（yadidaṁ cattāri purisayugāni aṭṭha purisapuggalā esa bhagavato sāvaka-saṅgho）。[\[37\]](#fn-fn37){:id="fr-fn37"}
 
-在经典中，佛陀的这些弟子后来被称为“圣僧团”（ariya-saṅgha）。在较早的经文中，ariya-saṅgha 一词仅在《增支部》（Aṅguttara-Nikāya）的一偈颂中作为 sāvaka-saṅgha 的同义词使用过一次。[\[38\]](#fn-fn38){:id="fr-fn38"} 在义注中，它被频繁使用，尤其是在《清净道论》（Visuddhimagga）中。[\[39\]](#fn-fn39){:id="fr-fn39"} 当 ariya-saṅgha 一词比 sāvaka-saṅgha 更受欢迎时，sammati-saṅgha 一词便被用来指比丘僧团。Sammati-saṅgha 意为“约定僧团”或“授权僧团”，指的是任何超过三位比丘的集会。这些术语通常成对出现：sāvaka-saṅgha 与比丘僧团，圣僧团与约定僧团。无论如何，圣僧团和约定僧团这两个术语与旧有术语并不矛盾，并提供了理解“僧团”一词含义的宝贵视角。
+在经典中，佛陀的这些弟子后来被称为“圣僧团”（ariya-saṅgha）。在较早的经文中，ariya-saṅgha 一词仅在《增支部》（Aṅguttara-Nikāya）的一偈颂中作为 sāvaka-saṅgha 的同义词使用过一次。[\[38\]](#fn-fn38){:id="fr-fn38"} 在义注中，它被频繁使用，尤其是在《清净道论》（Visuddhimagga）中。[\[39\]](#fn-fn39){:id="fr-fn39"} 当 ariya-saṅgha 一词比 sāvaka-saṅgha 更受欢迎时，sammati-saṅgha 一词便被用来指比丘僧团。Sammati-saṅgha 意为“约定僧团”或“授权僧团”，指的是任何超过三位比丘的集会。这些术语通常成对出现：声闻僧团与比丘僧团，圣僧团与约定僧团。无论如何，圣僧团和约定僧团这两个术语与旧有术语并不矛盾，并提供了理解“僧团”一词含义的宝贵视角。
 
 表 7.1：四双八辈圣者详表
 {: style="text-align:center"}
@@ -221,7 +221,7 @@ Dakkhiṇeyya 译为“值得供养者”。[\[15\]](#fn-fn15){:id="fr-fn15"} �
 
 许多佛教徒倾向于从否定的角度来描述阿罗汉和其他觉悟者的特质，即通过确定那些已被舍弃或消除的烦恼。例如，须陀洹已消除了前三结（saṁyojana）；斯陀含已消除这三结并进一步减弱贪、嗔、痴；阿那含已消除前五结；而阿罗汉已消除所有十结。或者，他们简要地将阿罗汉定义为“无贪、嗔、痴者”或“已解脱烦恼者”。这些定义有用之处在于它们清晰并提供了简单的评估标准。但它们有局限性；它们未能清晰展示觉悟者的非凡特质和突出特征，也未描述这些觉悟者如何过着有戒行的生活并利益世间。
 
-事实上，有许多术语和段落以肯定方式描述阿罗汉的特征。然而，许多关于阿罗汉的描述或解释涵盖了广泛的主题，因而难以清晰、有条理地总结其积极特质。要么就只是叙述具体的事件和个人，但并未描述所有阿罗汉共有的特质。
+事实上，有许多术语和段落以肯定方式描述阿罗汉的特征。然而，许多关于阿罗汉的描述或解释涵盖了广泛的主题，因而难以清晰、有条理地总结其积极特质。否则只是叙述具体的事件和个人，但并未描述所有阿罗汉共有的特质。
 
 这方面一个重要的术语是 bhāvitatta，字面译为“已修习自身者”或“自我修习者”。[\[43\]](#fn-fn43){:id="fr-fn43"} 这个术语用于所有阿罗汉：佛陀、独觉佛（paccekabuddha）以及所有阿罗汉弟子。例如，在《大般涅槃经》（Mahāparinibbāna Sutta）中，当佛陀前往他最终般涅槃的地方时，他被称为“修行圆满者”。
 
@@ -286,7 +286,7 @@ Dakkhiṇeyya 译为“值得供养者”。[\[15\]](#fn-fn15){:id="fr-fn15"} �
 
 佛陀上述的教法与一些基本法义原则相关联：
 
-Bhāvitatta[\[49\]](#fn-fn49){:id="fr-fn49"} 是一个“赞叹之词”（guṇa-pada），一个描述佛陀和阿罗汉美德或卓越功德的术语，指那些已完成亲身修行的人。当人们将这个词的含义扩展为身的修习圆满（bhāvita-kāya）、戒行的修习圆满（bhāvita-sīla）、心的修习圆满（bhāvita-citta）和智慧的修习圆满（bhāvita-paññā）这四重成就时，这便与关于四种修习（bhāvanā）的教导相关：身的修习（kāya-bhāvanā）、戒行的修习（sīla-bhāvanā）、心的修习（citta-bhāvanā）和智慧的修习（paññā-bhāvanā）。
+Bhāvitatta[\[49\]](#fn-fn49){:id="fr-fn49"} 是一个“赞叹之词”（guṇa-pada），一个描述佛陀和阿罗汉美德或卓越功德的术语，指那些已自我培育并完成修行的人。当人们将这个词的含义扩展为身的修习圆满（bhāvita-kāya）、戒行的修习圆满（bhāvita-sīla）、心的修习圆满（bhāvita-citta）和智慧的修习圆满（bhāvita-paññā）这四重成就时，这便与关于四种修习（bhāvanā）的教导相关：身的修习（kāya-bhāvanā）、戒行的修习（sīla-bhāvanā）、心的修习（citta-bhāvanā）和智慧的修习（paññā-bhāvanā）。
 
 在此，需要了解巴利语的一些基本知识。bhāvita 这个词既可用作形容词也可用作副词，描述个体的品质。另一方面，bhāvanā 这个词是一个名词，描述一种行动、一种原则或一种修行形式。这两个术语之间存在兼容性，因为 bhāvita 指的是已充分从事 bhāvanā 的人。因此，身修习圆满（bhāvita-kāya）的人已从事身的修习（kāya-bhāvanā），戒行修习圆满（bhāvita-sīla）的人已从事戒行的修习（sīla-bhāvanā），心修习圆满（bhāvita-citta）的人已从事心的修习（citta-bhāvanā），智慧修习圆满（bhāvita-paññā）的人已从事智慧的修习（paññā-bhāvanā）。
 
@@ -303,11 +303,11 @@ Bhāvitatta[\[49\]](#fn-fn49){:id="fr-fn49"} 是一个“赞叹之词”（guṇ
 4.  智慧的修习（paññā-bhāvanā）：培育和增长智慧，直到对真理产生全面的理解，通过如实知见事物并对世间和现象获得清晰的洞察。在这个阶段，便能解脱心，净化自身的烦恼，并从苦中解脱。以穿透性的觉知生活、行动和解决问题。
     
 
-bhāvanā（“修习”）居于上述修行方式的核心；理解了它的含义，也就理解了 bhāvita（“成就者”）这个词，它是那些已完成修行并圆满了四种修习者的属性：
+bhāvanā（“修习”）居于上述修行方式的核心；理解了它的含义，也就理解了 bhāvita（“成就者”）这个词，它是那些已完成修行并圆满了四种修习之人的属性：
 
 1.  身的修习圆满（bhāvita-kāya）：这指的是那些已完成身的修习的人，也就是说，他们已培育了与物质环境和自身身体的关系；他们对事物和自然拥有健康、满足和尊重的关系；特别是，他们通过五感体验事物，例如看或听，都带着正念，并有助于培养智慧。他们适度地消费事物，从中获得真正的利益和价值。他们不被偏好和厌恶的影响所迷惑或误导。他们不放逸；他们不让感官刺激造成伤害，而是利用它们来获取利益；他们不被不善心所主导，而是培养善心。
     
-2.  戒行的修习圆满（bhāvita-sīla）：这指的是那些已完成戒行培育的人。他们通过遵守戒行规范和与他人和谐相处，在社会中行为端正。他们不使用身体行动、言语或其生计来压迫他人或制造冲突，而是将这些活动用于亲身修行、帮助他人和建设健康的社会。
+2.  戒行的修习圆满（bhāvita-sīla）：这指的是那些已完成戒行培育的人。他们通过遵守戒行规范和与他人和谐相处，在社会中行为端正。他们不使用身体行动、言语或其生计来压迫他人或制造冲突，而是将这些活动用于自身修行、帮助他人和建设健康的社会。
     
 3.  心的修习圆满（bhāvita-citta）：这指的是那些已完成心的修习的人。因此，他们的心是清澈、光明、开阔、喜悦和安乐的。他们的内心充满了各种善法品质，如善意、悲悯、信心、感恩、慷慨、坚毅、忍耐、平静、稳定、正念和定。
     
@@ -316,7 +316,7 @@ bhāvanā（“修习”）居于上述修行方式的核心；理解了它的�
 
 这部经中值得注意的一段是，佛陀指出那些未能圆满修习其身、戒、心、慧的比丘，将成为戒师和老师，但却无法在增上戒、增上心和增上慧（即在戒行——sīla、定——samādhi 和智慧——paññā 方面）引导他们的弟子。
 
-有趣的是，当描述老师的特质时，佛陀提到了四种自我修习（bhāvita），但当他描述学习的主题——教法或修行原则时，他提到了三学，即戒行、定和智慧。（完整来说，这些被称为“增上戒学”——adhisīla-sikkhā，“增上心学”——adhicitta-sikkhā，和“增上慧学”——adhipaññā-sikkhā。）
+有趣的是，当描述老师的特质时，佛陀提到了四种自我修习（bhāvita），但当他描述学习的主题——教法或修行原则时，他提到了三学，即戒行、定和智慧。（完整来说，这些被称为“增上戒学”——adhisīla-sikkhā，“增上心学”——adhicitta-sikkhā和“增上慧学”——adhipaññā-sikkhā。）
 
 这种区别可能会引起一些疑问。首先，佛陀为什么不在这里使用互补或对应的术语呢？他难道不应该说，一个人若未在四方面充分修习（bhāvita），就无法在四重修习（bhāvanā）方面引导他人；或者反过来说，一个人若未完成三学，就无法在戒、定、慧方面引导他人吗？
 
@@ -468,7 +468,7 @@ bhāvanā（“修习”）居于上述修行方式的核心；理解了它的�
 
 现在让我们审视一个更高的修行阶段——根的培育（indriya-bhāvanā），这在《根修经》（Indriyabhāvanā Sutta）中有详细描述。在描述了这种修行形式之后，这部经也区分了“有学”（sekha-pāṭipada）——指觉醒但仍在修行的个体，以及“已修习诸根者”（bhāvitindriya）——指已完成其精神修行并“身的修习圆满”（bhāvita-kāya）的阿罗汉。
 
-有一次，佛陀住在迦阇伽罗的竹林精舍，婆罗门波罗奢那（Pārāsariya）的弟子郁多罗（Uttara）拜访了他。[\[55\]](#fn-fn55){:id="fr-fn55"}佛陀问他波罗奢那是否向他的弟子们传授根修（indriya-bhāvanā）。当郁多罗回答说他传授时，佛陀问他如何传授根修。郁多罗回答说，波罗奢那教导避免让眼睛看物质形相和耳朵听声音。佛陀回答说，按照这种推理，盲人或聋人就已经“修习诸根”（bhāvitindriya）了。
+有一次，佛陀住在迦阇伽罗的竹林精舍，婆罗门波罗奢那（Pārāsariya）的弟子郁多罗（Uttara）拜访了他。[\[55\]](#fn-fn55){:id="fr-fn55"} 佛陀问他波罗奢那是否向他的弟子们传授根修（indriya-bhāvanā）。当郁多罗回答说他传授时，佛陀问他如何传授根修。郁多罗回答说，波罗奢那教导避免让眼睛看物质形相和耳朵听声音。佛陀回答说，按照这种推理，盲人或聋人就已经“修习诸根”（bhāvitindriya）了。
 
 佛陀接着说，波罗奢那所教导的诸根的培育与圣者律（ariya-vinaya）中至上的诸根培育是不同的。于是，尊者阿难请佛陀解释这种至上的诸根培育：
 
@@ -588,7 +588,7 @@ ramaṇīya 一词在三藏中频繁出现，这种愉悦或清爽的氛围仿�
 
 戒行（sīla）是修行的起始阶段，并在须陀洹（sotāpanna）的层次上得以圆满。[\[61\]](#fn-fn61){:id="fr-fn61"}对于已证得解脱的人来说，不可能行不善（dussīla）之事或故意造成伤害。[\[62\]](#fn-fn62){:id="fr-fn62"}因此，经文中关于觉悟者戒行的记载很少。这里要讨论的问题因此仅限于阿罗汉如何生活并在社会中行动。
 
-阿罗汉已令“业”（kamma）止息；[\[63\]](#fn-fn63){:id="fr-fn63"}他们已终结了业。[\[64\]](#fn-fn64){:id="fr-fn64"}他们的行为不再被称为业——他们的行为的专有名词是“唯作”（kiriyā）。[\[65\]](#fn-fn65){:id="fr-fn65"}无明、渴爱和执取不再控制他们的行为；他们以自由的心和智慧行事，清楚地理解因果。他们不执着于对错的观念，而对其他人来说，这些观念与个人身份感和获得感相关。他们没有隐藏的个人欲望；他们没有“我的戒德”或“我的善行”等我慢。他们客观、理性、正确地行动。他们超越了恶业，因为不再有贪、嗔、痴可能导致伤害或邪恶，他们也超越了善业。
+阿罗汉已令“业”（kamma）止息；[\[63\]](#fn-fn63){:id="fr-fn63"}他们已终结了业。[\[64\]](#fn-fn64){:id="fr-fn64"}他们的行为不再被称为业——其专有术语是“唯作”（kiriyā）。[\[65\]](#fn-fn65){:id="fr-fn65"}无明、渴爱和执取不再控制他们的行为；他们以自由的心和智慧行事，清楚地理解因果。他们不执着于对错的观念，而对其他人来说，这些观念与个人身份感和获得感相关。他们没有隐藏的个人欲望；他们没有“我的戒德”或“我的善行”等我慢。他们客观、理性、正确地行动。他们超越了恶业，因为不再有贪、嗔、痴可能导致伤害或邪恶，他们也超越了善业。
 
 有人可能会提出疑问，所有的行为都需要一种推动力，而关键的推动力是欲望（这是一种渴爱——taṇhā）。阿罗汉既然已经舍弃了渴爱，他们又如何能够行动呢？他们肯定会保持被动和怠惰。虽然他们不做恶事，但他们也不做善事。对此问题的答案是，欲望并不是行动的唯一推动力。如理作意也是一种推动力。
 
@@ -602,7 +602,7 @@ ramaṇīya 一词在三藏中频繁出现，这种愉悦或清爽的氛围仿�
 
 简单来说，人类有两种动机。第一种是由渴爱驱动的，基于我们的感受。它包括追随感受的欲望、愿望和需求。如果某事物令人愉悦，人们就想获得它；如果某事物美味，人们就想品尝它。这种欲望不需要了解欲望的对象是正确还是不正确，有益还是有害。
 
-第二种动机源于智慧。它包括符合理性理解和对正确事物的真正领悟的欲望、愿望和需求。例如，看到一条破裂、肮脏、堵塞或湿滑的道路。他知道根据其真实目的和价值，这样的通道应该是干净、平坦和安全的。当他看到道路处于这种损坏状态时，他希望修复并清理它。与渴爱的动机不同，这第二种动机被称为“善法欲（chanda）的动机”。
+第二种动机源于智慧。它包括符合理性理解和对正确事物的真正领悟的欲望、愿望和需求。例如，看到一条破裂、肮脏、堵塞或湿滑的道路。人们知道根据其真实目的和价值，这样的通道应该是干净、平坦和安全的。当人们看到道路处于这种损坏状态时，便希望修复并清理它。与渴爱的动机不同，这第二种动机被称为“善法欲（chanda）的动机”。
 
 Chanda 指的是符合实相（sabhāva）的欲望、愿望和需求。希望某事物如其本然应有的那样美好、精良、完整、端正或圆满。这不依赖于个人的好恶，也不依赖于为了满足个人情感而想要获取某物或希望它消失。事实上，善法欲的产生是伴随着智慧的增长而培养的。
 
@@ -612,7 +612,7 @@ Chanda 指的是符合实相（sabhāva）的欲望、愿望和需求。希望�
 
 悲心在那些已证得涅槃、完全解脱和安乐的人身上尤其显著。基于智慧的行动自由，或源于智慧的推动力，使得以悲心为形式的善法欲（chanda）的力量得以充分表达。悲心是佛陀和阿罗汉的关键特质。
 
-对于一个具有一般人道品质的人来说，当看到他人受苦时，悲心会自然生起。然而，这种悲心的生起，取决于内心的自在程度和对事物实相的理解。在那一刻，不被无明（avijjā）、渴爱（taṇhā）和执取（upādāna）所支配，例如：不是出于个人利益行事；他没有自私的考量；他也不因他人的不幸而感到愉悦，以此来满足秘密的自我膨胀的愿望。
+对于一个具有一般人道品质的人来说，当看到他人受苦时，悲心会自然生起。然而，这种悲心的生起，取决于内心的自在程度和对事物实相的理解。在那一刻，不被无明（avijjā）、渴爱（taṇhā）和执取（upādāna）所支配，例如：不是出于个人利益行事；没有自私的考量；也不因他人的不幸而感到愉悦，以此来满足秘密的自我膨胀的愿望。
 
 当心不受压迫时，它变得广阔，充分感受他人的痛苦。有同理心、理解，以及希望他人脱离痛苦的愿望。如果渴爱不干扰（例如，自私的顾虑、害怕失去优势或懒惰），生命将由智慧引导，帮助他人的愿望将转化为悲悯的行动。
 
@@ -744,7 +744,7 @@ Chanda 是心清明自在、准备好真正接纳他人、以理解他们的痛�
     
 *   离垢（viraja）：离染；清净无垢。
     
-*   行住坐卧皆自在（visaṭṭho gacchati…）：“行、住、坐、卧皆完全自在。”
+*   行住坐卧皆自在（visaṭṭho gacchati...）：“行、住、坐、卧皆完全自在。”
     
 
 佛陀强调乐（sukha）。有描述涅槃为安乐的术语，描述已证得涅槃者为安乐的术语，以及这些已证得者自身描述其安乐的言论。例如：
@@ -882,9 +882,9 @@ Chanda 是心清明自在、准备好真正接纳他人、以理解他们的痛�
 雨行提出此解释后，问佛陀是赞同还是反对这个说法。佛陀回答说，他既不赞同也不反对这个说法，但他自己对具有卓越智慧的大丈夫的描述，是具备另外四种特质：
 
 > 1.  一个人为大众的福祉和安乐而修行；他使人们建立在圣道上，即具备美好和健全的品质。
-> 1.  他想思考什么就思考什么，不想思考什么就不思考什么；他想意欲什么就意欲什么，不想意欲什么就不意欲什么；因此，他已在思惟方面成为心的主宰。
-> 1.  他随意获得、不费力气或困难地获得构成增上心（abhicitta）的四种禅定，即现法乐住。
-> 1.  随着诸漏的灭尽，他已以亲身证知证得了无漏的心解脱和慧解脱，并在此世中安住其中。
+> 2.  他想思考什么就思考什么，不想思考什么就不思考什么；他想意欲什么就意欲什么，不想意欲什么就不意欲什么；因此，他已在思惟方面成为心的主宰。
+> 3.  他随意获得、不费力气或困难地获得构成增上心（abhicitta）的四种禅那，即现法乐住。
+> 4.  随着诸漏的灭尽，他已以亲身证知证得了无漏的心解脱和慧解脱，并在此世中安住其中。
 >
 > [AN 4.35 / A ii 35](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#5-an-435-禹舍婆罗门-vassakārasutta){: target="_blank" rel="noopener"}, Vassakāra Sutta
 
@@ -1245,7 +1245,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 
 > 舍利弗！一个人以正确的智慧如实观照：“这是已生成的。”[\[162\]](#fn-fn162){:id="fr-fn162"} 如此观照后，他正在为对已生成的厌离和离贪，为它的止息而修行。他以正确的智慧如实观照：“它的生起是以彼为食。”如此观照后，他正在为对通过食而生起的厌离和离贪，为它的止息而修行。他以正确的智慧如实观照：“随着彼食的止息，已生成的会止息。”如此观照后，他正在为对会止息的厌离和离贪，为它的止息而修行。正是以这种方式，他是一个有学。
 >
-> 舍利弗！一个人是如何充分考察佛法的？[\[163\]](#fn-fn163){:id="fr-fn163"} 一个人以正确的智慧如实观照：“这是已生成的。”如此观照后，通过对已生成的厌离和离贪，通过它的止息，他以无执著而解脱。他以正确的智慧如实观照：“它的生起是以彼为食。”如此观照后，通过对通过食而生起的厌离和离贪，通过它的止息，他以无执著而解脱。他以正确的智慧如实观照：“随着彼食的止息，已生成的会止息。”如此观照后，通过对会止息的厌离和离贪，通过它的止息，他以无执著而解脱。正是以这种方式，他已充分考察佛法。  
+> 舍利弗！一个人是如何充分考察佛法的？[\[163\]](#fn-fn163){:id="fr-fn163"} 一个人以正确的智慧如实观照：“这是已生成的。”如此观照后，通过对已生成的厌离和离贪，通过它的止息，他以无执着而解脱。他以正确的智慧如实观照：“它的生起是以彼为食。”如此观照后，通过对通过食而生起的厌离和离贪，通过它的止息，他以无执着而解脱。他以正确的智慧如实观照：“随着彼食的止息，已生成的会止息。”如此观照后，通过对会止息的厌离和离贪，通过它的止息，他以无执着而解脱。正是以这种方式，他已充分考察佛法。  
 > [SN 12.31 / S ii 49-50](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-31-40-kalarakhattiya/#1-sn-1231-生者经-bhūtasutta){: target="_blank" rel="noopener"}, Bhūta Sutta
 >
 > 那么，摩诃那摩，何为有学的智慧？一位比丘在此法和律中如实了解：“这是苦”……“这是苦的起源”……“这是苦的灭尽”……“这是导向苦灭的道。”这就是有学的智慧。
@@ -1256,7 +1256,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 以下还有几段重要的经文，区分了有学和无学：
 
 > “比丘，他正在学习。因此他被称为有学。他学习什么呢？他学习增上戒、增上心、增上慧。”  
-> [AN 3.86 / A i 231](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#5-an-386-有学经-sekkhasutta){: target="_blank" rel="noopener"}, Sekkha Sutta; 另见：Nd. I. 493; Nd. II. 9
+> [AN 3.86 / A i 231](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#5-an-386-有学经-sekkhasutta){: target="_blank" rel="noopener"}, Sekkha Sutta；另见：Nd. I. 493；Nd. II. 9
 >
 > “比丘，在此，一个人拥有有学的正见、正思惟、正语、正业、正命、正精进、正念和正定。正是以这种方式，他是有学。”  
 > [SN 45.13 / S v 14](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-11-20-vihara/#3-sn-4513-有学-sekkhasutta){: target="_blank" rel="noopener"}, Sekkha Sutta
@@ -1327,7 +1327,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 
 ### 慧解脱阿罗汉与俱解脱阿罗汉
 
-> 阿难（Ānanda），如果一位比丘如实了知这七识住和这二处（见注释：九有情居），它们的生起与止息、乐味、过患与出离，那么，阿难，这位比丘以不执取而解脱，被称为慧解脱者……
+> 阿难（Ānanda），如果一位比丘如实了知这七识住和这二处（参见附注“九有情居”），它们的生起与止息、乐味、过患与出离，那么，阿难，这位比丘以不执取而解脱，被称为慧解脱者……
 >
 > 阿难，当一位比丘以顺次、逆次和顺逆次，随意进入和出离这八解脱（vimokkha），并以亲身证悟，于此生此世进入并安住于无漏的心解脱和慧解脱，诸漏已尽，那么这位比丘被称为“俱解脱者”。[\[170\]](#fn-fn170){:id="fr-fn170"}  
 > [DN 15 / D ii 70-71](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-15-mahanidana/){: target="_blank" rel="noopener"}, Mahānidāna Sutta
@@ -1337,17 +1337,17 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 > 七识住（viññāṇa-ṭhiti）：
 >
 > 1.  身异想异有情；
-> 1.  身异想一有情；
-> 1.  身一想异有情；
-> 1.  身一想一有情；
-> 1.  空无边处有情；
-> 1.  识无边处有情；
-> 1.  无所有处有情。
+> 2.  身异想一有情；
+> 3.  身一想异有情；
+> 4.  身一想一有情；
+> 5.  空无边处有情；
+> 6.  识无边处有情；
+> 7.  无所有处有情。
 >
 > 二处（āyatana）：
 >
 > 1.  无想有情处（asaññīsattāyatana）；
-> 1.  非想非非想处（nevasaññānāsaññāyatana）。
+> 2.  非想非非想处（nevasaññānāsaññāyatana）。
 >
 > 七识住和二处有时合并称为九有情居（sattāvāsa）。此处提及识住和二处仅仅是一种教导方式：以五蕴来替代也同样有效，它将涵盖相同的主题。
 
@@ -1381,7 +1381,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 
 1.  信：须陀洹对真理、善行和因果法则抱有坚定不移的信任。他们对智慧有信心，相信人类有可能通过证悟缘起实相来克服痛苦。他们对遵循这条智慧之路的有德行的人有信心，并对三宝（ratanattaya）怀有深深的敬意。[\[180\]](#fn-fn180){:id="fr-fn180"} 他们的信心是稳固而不可动摇的，因为它植根于真实的理解。
     
-2.  戒：他们的身语行为得体，谋生方式诚实正直。他们的行为是“自由的”；它不被渴爱奴役（见注释：自由的戒行）。他们依照真理行事，以促进德行、简朴、离欲、平静和专注。一般来说，这意味着遵循五戒，这被认为是完美的戒行。
+2.  戒：他们的身语行为得体，谋生方式诚实正直。他们的行为是“自由的”；它不被渴爱奴役（参见附注“自由的戒行”）。他们依照真理行事，以促进德行、简朴、离欲、平静和专注。一般来说，这意味着遵循五戒，这被认为是完美的戒行。
     
 3.  闻：“闻法者”（sutavant）；他们已经学习了“圣法”（ariya-dhamma）。[\[181\]](#fn-fn181){:id="fr-fn181"}
     
@@ -1468,19 +1468,19 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 > 是证悟觉悟之流。[\[192\]](#fn-fn192){:id="fr-fn192"}  
 > [Dhp 178](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#1311-dhp-178-给孤独长者之子的故事-anāthapiṇḍakaputtakālavatthu){: target="_blank" rel="noopener"}, Lokavagga
 
-对于那些觉得涅槃太过遥远、玄奥或虚无的人来说，可以将须陀洹果位作为理解的桥梁，因为须陀洹果更接近他们的经验，也更容易理解。同时，须陀洹果与涅槃直接相关，因为它“进入导向涅槃之流”或对涅槃的“初见”（paṭhama-dassana）。[\[193\]](#fn-fn193){:id="fr-fn193"} 这种双重受益的方法适用于当代人，并且仍然符合佛陀的原则。须陀洹果应该是个人修行者和整个佛教社区的目标。同时，修行者也可以达到一个中间阶段，成为“随信行者”（saddhānusārī）或“随法行者”（dhammānusārī，见注释：随信行者与随法行者），他们的成员被认为是“接近须陀洹果”、“安住于道”和“不退转地进步”，有时也被归类为“圣者”（ariya）或“真实弟子”（sāvaka-saṅgha）。
+对于那些觉得涅槃太过遥远、玄奥或虚无的人来说，可以将须陀洹果位作为理解的桥梁，因为须陀洹果更接近他们的经验，也更容易理解。同时，须陀洹果与涅槃直接相关，因为它“进入导向涅槃之流”或对涅槃的“初见”（paṭhama-dassana）。[\[193\]](#fn-fn193){:id="fr-fn193"} 这种双重受益的方法适用于当代人，并且仍然符合佛陀的原则。须陀洹果应该是个人修行者和整个佛教社区的目标。同时，修行者也可以达到一个中间阶段，成为“随信行者”（saddhānusārī）或“随法行者”（dhammānusārī，参见附注“随信行者与随法行者”），他们的成员被认为是“接近须陀洹果”、“安住于道”和“不退转地进步”，有时也被归类为“圣者”（ariya）或“真实弟子”（sāvaka-saṅgha）。
 
 随信行者与随法行者
 
-> 参见前面描述随信行者与随法行者的部分。后来，创造了“小须陀洹”（cūḷa-sotāpanna）一词，指那些对佛陀有深厚爱与信心但智慧尚未发展的弟子（见：[MN 22 / M i 141-2](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-022-alagaddupama/){: target="_blank" rel="noopener"}）。义注说这指的是那些已发展出洞察力并达到“遍知智”（ñāta-pariññā）和“度疑清净”（kaṅkhāvitaraṇa-visuddhi）的修行者，他们已获得安乐和安全感。见：MA. II. 120; VbhA. 254; Vism. 606; VismṬ.: Kaṅkhāvitaraṇavisuddhiniddesavaṇṇanā, Paccayapariggahakathāvaṇṇanā。另见关于“坚固的信心”（okappanā-saddhā）的讨论：DA. II. 529; DA. III. 1029; MA. III. 326; AA. III. 257。
+> 参见前面描述随信行者与随法行者的部分。后来，创造了“小须陀洹”（cūḷa-sotāpanna）一词，指那些对佛陀有深厚爱与信心但智慧尚未发展的弟子（见：[MN 22 / M i 141-2](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-022-alagaddupama/){: target="_blank" rel="noopener"}）。义注说这指的是那些已发展出洞察力并达到“遍知智”（ñāta-pariññā）和“度疑清净”（kaṅkhāvitaraṇa-visuddhi）的修行者，他们已获得安乐和安全感。见：MA. II. 120；VbhA. 254；Vism. 606；VismṬ.: Kaṅkhāvitaraṇavisuddhiniddesavaṇṇanā, Paccayapariggahakathāvaṇṇanā。另见关于“坚固的信心”（okappanā-saddhā）的讨论：DA. II. 529；DA. III. 1029；MA. III. 326；AA. III. 257。
 
-那些犹豫不决或因某种原因而延迟的人可以安住于“贤善凡夫”（kalyāṇa-puthujjana，见注释：贤善凡夫）、“具足美好品质”[\[194\]](#fn-fn194){:id="fr-fn194"} 或“多闻圣弟子”（sutavā ariyasāvaka）的预备阶段。[\[195\]](#fn-fn195){:id="fr-fn195"} 这些人已经学习了“圣法”（ariya-dhamma）；他们回应了真理的“召唤”。他们已经摆脱了（混乱的）“丛林”，并认识到道路的起点。虽然他们可能仍会动摇，但他们拥有开启旅程的必要因素。起初，这些贤善凡夫，他们的信、戒行、施和慧尚未真正稳固，可以培养“闻”（suta）的品质——即“听闻”和寻求知识——直到他们达到“多闻”（bahussuta）的阶段，在知识上坚定不移。
+那些犹豫不决或因某种原因而延迟的人可以安住于“贤善凡夫”（kalyāṇa-puthujjana，参见附注“贤善凡夫”）、“具足美好品质”[\[194\]](#fn-fn194){:id="fr-fn194"} 或“多闻圣弟子”（sutavā ariyasāvaka）的预备阶段。[\[195\]](#fn-fn195){:id="fr-fn195"} 这些人已经学习了“圣法”（ariya-dhamma）；他们回应了真理的“召唤”。他们已经摆脱了（混乱的）“丛林”，并认识到道路的起点。虽然他们可能仍会动摇，但他们拥有开启旅程的必要因素。起初，这些贤善凡夫，他们的信、戒行、施和慧尚未真正稳固，可以培养“闻”（suta）的品质——即“听闻”和寻求知识——直到他们达到“多闻”（bahussuta）的阶段，在知识上坚定不移。
 
 贤善凡夫
 
-> 这个术语在义注中经常使用，并与盲痴凡夫（andhabāla-puthujjana）成对（对比）出现。在《巴利三藏》中，它见于：Nd. I. 131, 138, 232, 313-4, 477-8。在某些地方，它拼写为 puthujjana-kalyāṇaka，例如：Ps. I. 176; Ps. II. 190, 193。在《巴利三藏》中，盲痴凡夫（andhabāla-puthujjana）仅见于：[SN 22.94 / S iii 140](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-93-102-puppha/#2-sn-2294-花经-pupphasutta){: target="_blank" rel="noopener"} 和 [Thag 10.5 / Thag verse 575](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-105-劫波长老偈-kappattheragāthā){: target="_blank" rel="noopener"}；更常用的是 assutavā puthujjana 这一术语，意为“未闻法凡夫”，例如：[MN 1 / M i 1](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-001-mulapariyaya/){: target="_blank" rel="noopener"}; Nd. II. 44; Ps. I. 149; Dhs. 182; Vbh. 364, 368, 375；这个术语经常与多闻圣弟子（sutavā ariyasāvaka）成对使用。义注将这些“贤善凡夫”（kalyāṇa-puthujjana）——特别是那些在修行中付出巨大努力且其德行表明他们即将证得须陀洹果的人——归类为“有学”（sekha），与其他七种（觉悟的）有学一同；这些贤善凡夫从随信行者和随法行者的阶段就被纳入此分类。
+> 这个术语在义注中经常使用，并与盲痴凡夫（andhabāla-puthujjana）成对（对比）出现。在《巴利三藏》中，它见于：Nd. I. 131, 138, 232, 313-4, 477-8。在某些地方，它拼写为 puthujjana-kalyāṇaka，例如：Ps. I. 176；Ps. II. 190, 193。在《巴利三藏》中，盲痴凡夫（andhabāla-puthujjana）仅见于：[SN 22.94 / S iii 140](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-93-102-puppha/#2-sn-2294-花经-pupphasutta){: target="_blank" rel="noopener"} 和 [Thag 10.5 / Thag verse 575](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-105-劫波长老偈-kappattheragāthā){: target="_blank" rel="noopener"}；更常用的是 assutavā puthujjana 这一术语，意为“未闻法凡夫”，例如：[MN 1 / M i 1](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-001-mulapariyaya/){: target="_blank" rel="noopener"}；Nd. II. 44；Ps. I. 149；Dhs. 182；Vbh. 364, 368, 375；这个术语经常与多闻圣弟子（sutavā ariyasāvaka）成对使用。义注将这些“贤善凡夫”（kalyāṇa-puthujjana）——特别是那些在修行中付出巨大努力且其德行表明他们即将证得须陀洹果的人——归类为“有学”（sekha），与其他七种（觉悟的）有学一同；这些贤善凡夫从随信行者和随法行者的阶段就被纳入此分类。
 >
-> 与注释：随信行者与随法行者中提到“小须陀洹”相比较。
+> 与附注“随信行者与随法行者”中提到“小须陀洹”相比较。
 >
 > VinA. I. 242; MA. I. 40; VbhA. 329; AA. II. 147; ItA. I. 60; VinṬ.: Pārājikakaṇḍaṁ, Bhikkhupadabhājanīyavaṇṇanā。
 
@@ -1526,10 +1526,10 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 > [MV 1 / Vin i 12](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, [MV 1 / Vin i 16](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, [MV 1 / Vin i 19](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, [MV 1 / Vin i 20](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, [MV 1 / Vin i 23](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, [MV 1 / Vin i 37](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, [MV 5 / Vin i 181](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}, [MV 6 / Vin i 225-6](https://aipali.true-dhamma.com/vinaya/mv/mv-06-bhesajja/){: target="_blank" rel="noopener"}, [MV 6 / Vin i 242](https://aipali.true-dhamma.com/vinaya/mv/mv-06-bhesajja/){: target="_blank" rel="noopener"}, [MV 6 / Vin i 248](https://aipali.true-dhamma.com/vinaya/mv/mv-06-bhesajja/){: target="_blank" rel="noopener"}; [CV 6 / Vin ii 157](https://aipali.true-dhamma.com/vinaya/cv/cv-06-senasana/){: target="_blank" rel="noopener"}, [CV 7 / Vin ii 192](https://aipali.true-dhamma.com/vinaya/cv/cv-07-sanghabheda/){: target="_blank" rel="noopener"}; [DN 3 / D i 110](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-03-ambattha/){: target="_blank" rel="noopener"}, [DN 5 / D i 148](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-05-kutadanta/){: target="_blank" rel="noopener"}; [DN 14 / D ii 41](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-14-mahapadana/){: target="_blank" rel="noopener"}; [MN 56 / M i 379-80](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-056-upali/){: target="_blank" rel="noopener"}, [MN 74 / M i 501](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-074-dighanakha/){: target="_blank" rel="noopener"}; [MN 91 / M ii 145](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-091-brahmayu/){: target="_blank" rel="noopener"}; [AN 8.12 / A iv 186-7](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-011-020-maha/#2-an-812-狮子将军经-sīhasutta){: target="_blank" rel="noopener"}, [AN 8.21 / A iv 209-10](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#1-an-821-郁伽居士经之一-paṭhamauggasutta){: target="_blank" rel="noopener"}; [Ud 5.3 / Ud 49](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-05-sona/#3-ud-53-善觉癞患-suppabuddhakuṭṭhisutta){: target="_blank" rel="noopener"}
 >
 > 此段落的变体是：行持佛陀教诲者，回应其忠告者，已超越疑惑者……在导师的教法中。  
-> [MN 35 / M i 234](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-035-culasaccaka/){: target="_blank" rel="noopener"}, [MN 73 / M i 491](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-073-mahavaccha/){: target="_blank" rel="noopener"} （这也指斯陀含）
+> [MN 35 / M i 234](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-035-culasaccaka/){: target="_blank" rel="noopener"}；[MN 73 / M i 491](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-073-mahavaccha/){: target="_blank" rel="noopener"} （这也指斯陀含）
 >
 > 或者：在此法与律中坚定安住、安适者，已超越疑惑者……在导师的教法中。  
-> [AN 6.16 / A iii 297](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#6-an-616-那拘罗父-nakulapitusutta){: target="_blank" rel="noopener"}; 参见：[DN 25 / D iii 39](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-25-udumbarika/){: target="_blank" rel="noopener"}, [DN 25 / D iii 52](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-25-udumbarika/){: target="_blank" rel="noopener"}; [SN 38.5 / S iv 254](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-38-jambukhadaka/sn-38-jambukhadaka/#15-sn-385-安息经-assāsappattasutta){: target="_blank" rel="noopener"}
+> [AN 6.16 / A iii 297](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#6-an-616-那拘罗父-nakulapitusutta){: target="_blank" rel="noopener"}；参见：[DN 25 / D iii 39](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-25-udumbarika/){: target="_blank" rel="noopener"}；[DN 25 / D iii 52](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-25-udumbarika/){: target="_blank" rel="noopener"}；[SN 38.5 / S iv 254](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-38-jambukhadaka/sn-38-jambukhadaka/#15-sn-385-安息经-assāsappattasutta){: target="_blank" rel="noopener"}
 >
 > 一位已证得果位、\[已证悟法\]并了解教法的圣弟子。[\[205\]](#fn-fn205){:id="fr-fn205"}  
 > [BV 3.1 / Vin iii 189](https://aipali.true-dhamma.com/vinaya/bv/kanda-03-aniyata/#1-不定一可淫屏处-paṭhamaaniyatasikkhāpada){: target="_blank" rel="noopener"}; [AN 6.10 / A iii 284](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-001-010-ahuneyya/#10-an-610-释氏摩诃那摩经-mahānāmasutta){: target="_blank" rel="noopener"}
@@ -1545,14 +1545,14 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 > 居士\[给孤独\]，当五种恐怖的恶报在圣弟子心中止息，他具足四入流支，并且以智慧清楚地看见并彻底洞察了圣理，如果他愿意，他可以自己宣称：“我已经脱离了地狱，脱离了畜生道，脱离了饿鬼道，脱离了恶趣、恶报之地、毁灭之地。我是一名须陀洹，不再注定堕落，命运已定，以觉悟为最终目的地……。”
 >
 > 1.  止息五种恐怖的恶报：由于其行为，杀生者在当下和未来都会遭遇恐怖的恶报，并经历内心的痛苦和悲伤。对于戒除杀生者，这种恐怖的恶报就止息了……。偷盗者在当下和未来都会遭遇恐怖的恶报……。对于戒除不与取者，这种恐怖的恶报就止息了……。从事性邪行者在当下和未来都会遭遇恐怖的恶报……。对于戒除性邪行者，这种恐怖的恶报就止息了……。说妄语者在当下和未来都会遭遇恐怖的恶报……。对于戒除妄语者，这种恐怖的恶报就止息了……。沉溺于酒、烈酒和麻醉品者在当下和未来都会遭遇恐怖的恶报……。对于戒除麻醉品者，这种恐怖的恶报就止息了……。
-> 1.  具足四入流支：[\[207\]](#fn-fn207){:id="fr-fn207"} 在此，圣弟子对佛陀具有坚定的智慧信心，如此：“世尊是阿罗汉，正等正觉者，明行足，善逝，世间解，无上士，调御丈夫，天人师，佛，世尊。”（参见“不可动摇的信心”注释）他对法具有坚定的智慧信心，如此：“法是世尊善说者，现见者，无时者，来见者，导向内证，智者各自证知者。”他对僧伽具有坚定的智慧信心，如此：“世尊的声闻僧伽是善行道者，直行道者，正行道者，如法行道者；亦即四双八辈；这世尊的声闻僧伽是应受供养者，应受奉献者，应受布施者，应受尊敬者，世间无上的福田。”
-> 1.  他具足圣者所珍爱的戒行——无破、无穿、无瑕、无疵、自由、智者所赞叹、无歧义（参见“无可指责的”注释），并且导向禅定。以智慧洞察圣理：圣弟子仔细分析缘起，如此：“此有故彼有；此生故彼生。此无故彼无；此灭故彼灭。即以无明为缘生行；以行为缘生识……。如是，此整个苦聚生起。但无明无余灭尽故行灭；行灭故识灭……。如是，此整个苦聚止息。”当五种恐怖的恶报在圣弟子心中止息，他具足四入流支，并且以智慧清楚地看见并彻底洞察了圣理，如果他愿意，他可以自己宣称……“我是一名须陀洹……以觉悟为最终目的地。”[\[208\]](#fn-fn208){:id="fr-fn208"}
+> 2.  具足四入流支：[\[207\]](#fn-fn207){:id="fr-fn207"} 在此，圣弟子对佛陀具有坚定的智慧信心，如此：“世尊是阿罗汉，正等正觉者，明行足，善逝，世间解，无上士，调御丈夫，天人师，佛，世尊。”（参见附注“不可动摇的信心”）他对法具有坚定的智慧信心，如此：“法是世尊善说者，现见者，无时者，来见者，导向内证，智者各自证知者。”他对僧伽具有坚定的智慧信心，如此：“世尊的声闻僧伽是善行道者，直行道者，正行道者，如法行道者；亦即四双八辈；这世尊的声闻僧伽是应受供养者，应受奉献者，应受布施者，应受尊敬者，世间无上的福田。”他具足圣者所珍爱的戒行——无破、无穿、无瑕、无疵、自由、智者所赞叹、无歧义（参见附注“无可指责的”），并且导向禅定。
+> 3.  以智慧洞察圣理：圣弟子仔细分析缘起，如此：“此有故彼有；此生故彼生。此无故彼无；此灭故彼灭。即以无明为缘生行；以行为缘生识……。如是，此整个苦聚生起。但无明无余灭尽故行灭；行灭故识灭……。如是，此整个苦聚止息。”当五种恐怖的恶报在圣弟子心中止息，他具足四入流支，并且以智慧清楚地看见并彻底洞察了圣理，如果他愿意，他可以自己宣称……“我是一名须陀洹……以觉悟为最终目的地。”[\[208\]](#fn-fn208){:id="fr-fn208"}
 >
 > [SN 12.41 / S ii 68-70](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-41-50-gahapati/#1-sn-1241-五畏罪经-pañcaverabhayasutta){: target="_blank" rel="noopener"}; [SN 55.28 / S v 387-9](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-21-30-saranani/#8-sn-5528-怖畏与怨仇息止经之一-paṭhamabhayaverūpasantasutta){: target="_blank" rel="noopener"}
 
 不可动摇的信心
 
-> Aveccappasāda 有时被翻译为“不可动摇的信心”。我使用了“坚定的智慧信心”这一翻译，以扩展其含义并显示信心与智慧的关系。智慧是平衡灵修中固有的一部分，它以越来越大的清晰度展现自己，直到不再需要提及“信心”这个词。至少，人们应该理解这里的信心是建立在智慧基础上的。Avecca 可以翻译为“知晓”、“审视”和“以智慧洞察”；参见：[DN 30 / D iii 158](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-30-lakkhana/){: target="_blank" rel="noopener"}；[Khp 6 / Kh 4](https://aipali.true-dhamma.com/sutta/kn/kn-01-khp/khp-01-09-khuddakapatha/#6-三宝经-ratanasutta){: target="_blank" rel="noopener"}；[Snp 13 / Sn 40](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#13-snp-13-三宝经-ratanasutta){: target="_blank" rel="noopener"}, [Snp 26 / Sn 66](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#26-snp-26-如法经-dhammikasutta){: target="_blank" rel="noopener"}；（在 DA. III. 933；KhA. 185；SnA. I. 277, 368中解释）。与 Rūpa Siddhi Pakaraṇa \[16/17\]中的 avicca 和 [AN 10.48 / A v 88](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-041-050-akkosa/#8-an-1048-出家者应常省察的十法经-pabbajitaabhiṇhasutta){: target="_blank" rel="noopener"}中的 anuvicca 相比较（在 AA. IV. 98中解释）。关于 aveccappasāda 的义注段落，参见：AA. II. 333；AA. III. 363；DA. II. 544。一个简洁的定义将 aveccappasāda 等同于 acalappasāda，例如：DA. II. 646；DA. III. 1021；SA. II. 74；SA. III. 90, 276；AA. I. 396；AA. V. 44。另参见 aveccappasāda 与 [MN 7 / M i 37](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-007-vattha/){: target="_blank" rel="noopener"}中舍弃十六种 upakkilesa 之间的关系。
+> Aveccappasāda 有时被翻译为“不可动摇的信心”。我使用了“坚定的智慧信心”这一翻译，以扩展其含义并显示信心与智慧的关系。智慧是平衡灵修中固有的一部分，它以越来越大的清晰度展现自己，直到不再需要提及“信心”这个词。至少，人们应该理解这里的信心是建立在智慧基础上的。Avecca 可以翻译为“知晓”、“审视”和“以智慧洞察”；参见：[DN 30 / D iii 158](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-30-lakkhana/){: target="_blank" rel="noopener"}；[Khp 6 / Kh 4](https://aipali.true-dhamma.com/sutta/kn/kn-01-khp/khp-01-09-khuddakapatha/#6-三宝经-ratanasutta){: target="_blank" rel="noopener"}；[Snp 13 / Sn 40](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#13-snp-13-三宝经-ratanasutta){: target="_blank" rel="noopener"}；[Snp 26 / Sn 66](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#26-snp-26-如法经-dhammikasutta){: target="_blank" rel="noopener"}；（在 DA. III. 933；KhA. 185；SnA. I. 277, 368中解释）。与 Rūpa Siddhi Pakaraṇa \[16/17\]中的 avicca 和 [AN 10.48 / A v 88](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-041-050-akkosa/#8-an-1048-出家者应常省察的十法经-pabbajitaabhiṇhasutta){: target="_blank" rel="noopener"}中的 anuvicca 相比较（在 AA. IV. 98中解释）。关于 aveccappasāda 的义注段落，参见：AA. II. 333；AA. III. 363；DA. II. 544。一个简洁的定义将 aveccappasāda 等同于 acalappasāda，例如：DA. II. 646；DA. III. 1021；SA. II. 74；SA. III. 90, 276；AA. I. 396；AA. V. 44。另参见 aveccappasāda 与 [MN 7 / M i 37](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-007-vattha/){: target="_blank" rel="noopener"}中舍弃十六种 upakkilesa 之间的关系。
 
 无可指责的
 
@@ -1574,14 +1574,14 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 
 须陀洹的所有特质都属于信、戒、闻、施、慧的范畴。因此，佛陀经常鼓励他的弟子们培养这些特质，并将其作为衡量觉悟者进步的标尺。同样，他也建议将它们用于衡量所有弟子（包括尚未觉悟的弟子）的进步：
 
-> 诸比丘，在五个成长方面成长，一位男性圣弟子以圣者的成长（ariyā vaḍḍhi）而成长，他获得了此身体存在物的精髓，获得了最好的。哪五个呢？他增长信心、戒行、闻、布施和智慧。
+> 诸比丘，在五个成长方面成长，一位男性圣弟子以圣者的成长（ariyā vaḍḍhi）而成长，他获得了此身体存在的精髓，获得了最好的。哪五个呢？他增长信心、戒行、闻、布施和智慧。
 >
 > 当他在信心、戒行、闻、布施和智慧方面成长时，有德行和有知识的男弟子就在当下为自己获得了精髓。
 >
-> 诸比丘，在五个成长方面成长，一位女性圣弟子以圣者的成长而成长，她获得了此身体存在物的精髓，获得了最好的。哪五个呢？她增长信心、戒行、闻、布施和智慧。
+> 诸比丘，在五个成长方面成长，一位女性圣弟子以圣者的成长而成长，她获得了此身体存在的精髓，获得了最好的。哪五个呢？她增长信心、戒行、闻、布施和智慧。
 >
 > 当她在信心、戒行、闻、布施和智慧方面成长时，有德行和有知识的女性弟子就在当下为自己获得了精髓。[\[215\]](#fn-fn215){:id="fr-fn215"}  
-> [AN 5.64 / A iii 80](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-061-070-sanna/#4-an-564-五增长经之二-dutiyavaḍḍhisutta){: target="_blank" rel="noopener"}; [SN 37.34 / S iv 250](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-37-matugama/sn-37-matugama/#310-sn-3734-增长经-vaḍḍhīsutta){: target="_blank" rel="noopener"}; 参见：[AN 10.74 / A v 137](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#4-an-1074-十增长经-vaḍḍhisutta){: target="_blank" rel="noopener"}
+> [AN 5.64 / A iii 80](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-061-070-sanna/#4-an-564-五增长经之二-dutiyavaḍḍhisutta){: target="_blank" rel="noopener"}；[SN 37.34 / S iv 250](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-37-matugama/sn-37-matugama/#310-sn-3734-增长经-vaḍḍhīsutta){: target="_blank" rel="noopener"}；参见：[AN 10.74 / A v 137](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#4-an-1074-十增长经-vaḍḍhisutta){: target="_blank" rel="noopener"}
 >
 > 一位比丘具足信心、戒行、闻、布施和智慧。他思忖：“啊，愿我通过亲身证知，就在当下进入并安住于那因诸漏灭尽而无漏的心解脱和慧解脱！”而他通过亲身证知，就在当下进入并安住于那因诸漏灭尽而无漏的心解脱和慧解脱。[\[216\]](#fn-fn216){:id="fr-fn216"}  
 > [MN 120 / M iii 103](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-120-sankharupapatti/){: target="_blank" rel="noopener"}, Saṅkhārupapatti Sutta
@@ -1642,7 +1642,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 
 > 一位具足正见者（diṭṭhi-sampanna）[\[225\]](#fn-fn225){:id="fr-fn225"}已舍弃六种事物。他已舍弃有身见、疑惑、戒禁取、导向毁灭的欲贪、导向毁灭的嗔，以及导向毁灭的痴迷……。具足正见者不可能生起这六种事物。
 >
-> 有这六种不可能（abhabbaṭṭhāna）：具足正见者不可能不恭敬、不尊重导师而生活[\[226\]](#fn-fn226){:id="fr-fn226"}……法……僧伽……学处……。他不可能执著于不应执著之物……。他不可能生起第八次受生。[\[227\]](#fn-fn227){:id="fr-fn227"}
+> 有这六种不可能（abhabbaṭṭhāna）：具足正见者不可能不恭敬、不尊重导师而生活[\[226\]](#fn-fn226){:id="fr-fn226"}……法……僧伽……学处……。他不可能执着于不应执着之物……。他不可能生起第八次受生。[\[227\]](#fn-fn227){:id="fr-fn227"}
 >
 > 还有这六种不可能：具足正见者不可能相信任何有为法是常恒的……本质上是快乐的……是“我”的……。他不可能犯五逆重罪（anantariya-kamma）[\[228\]](#fn-fn228){:id="fr-fn228"}……他不可能相信通过吉祥仪式可以获得清净……他不可能在此教法之外寻找真正值得供养者（dakkhiṇeyya）。
 >
@@ -1667,14 +1667,14 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 > 证得须陀洹果有这六种利益：坚固于善法；不会退堕；苦痛有限；具足超凡的智慧；已清楚地洞察因缘和因缘之果。[\[235\]](#fn-fn235){:id="fr-fn235"}  
 > [AN 6.97 / A iii 442](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-096-106-anisamsa/#2-an-697-六种功德-ānisaṃsasutta){: target="_blank" rel="noopener"}, Ānisaṁsa Sutta
 >
-> 具足正见者，从广阔的苦难平原中解脱，如实地了知：“这是苦……”“这是苦的生起……”“这是苦的灭尽……”“这是导向苦灭的道。”因此，你应该努力如实地了知：“这是苦……”“这是导向苦灭的道。”（参见“苦难平原”注释）  
+> 具足正见者，从广阔的苦难平原中解脱，如实地了知：“这是苦……”“这是苦的生起……”“这是苦的灭尽……”“这是导向苦灭的道。”因此，你应该努力如实地了知：“这是苦……”“这是导向苦灭的道。”（参见附注“苦难平原”）  
 > [SN 56.36 / S v 442](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-31-40-sisapavana/#6-sn-5636-生类经-pāṇasutta){: target="_blank" rel="noopener"}, Pāṇa Sutta
 >
 > “诸比丘，假设大海干涸、毁灭，只剩下两三滴水。你们认为，哪一个更多：干涸毁灭的大海之水，还是剩下的两三滴水？”
 >
 > “世尊，干涸毁灭的大海之水更多。剩下的两三滴水微不足道。它们连干涸毁灭的大海之水的百分之一、千分之一、十万分之一都算不上。”
 >
-> “同样地，诸比丘，对于一位圣弟子，一位已证得真理、具足正见者，已被摧毁和消除的苦更多，而剩余的苦微不足道。它连百分之一、千分之一、十万分之一都算不上……因为最多还有七次受生。证得法的利益是如此之大，获得法眼的利益是如此之大。”（参见“剩余的苦”注释）
+> “同样地，诸比丘，对于一位圣弟子，一位已证得真理、具足正见者，已被摧毁和消除的苦更多，而剩余的苦微不足道。它连百分之一、千分之一、十万分之一都算不上……因为最多还有七次受生。证得法的利益是如此之大，获得法眼的利益是如此之大。”（参见附注“剩余的苦”）
 >
 > 世俗欲乐和天界之乐，不及爱尽之乐的十六分之一。[\[236\]](#fn-fn236){:id="fr-fn236"}  
 > [Ud 2.2 / Ud 11](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-02-mucalinda/#2-ud-22-谈话-rājasutta){: target="_blank" rel="noopener"}, Rāja Sutta
@@ -1724,7 +1724,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 > 摩诃那摩：世尊，怎样才算是居士在智慧上圆满呢？
 >
 > 佛陀：在此，一位圣弟子有智慧；他拥有……洞察真理的智慧，导向苦的彻底灭尽。如此，这位居士就在智慧上圆满。[\[238\]](#fn-fn238){:id="fr-fn238"}  
-> [SN 55.37 / S v 395](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-31-40-punnabhisanda/#7-sn-5537-摩诃那摩-mahānāmasutta){: target="_blank" rel="noopener"}; 参见：[AN 8.25–26 / A iv 220-23](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#5-an-825-摩诃那摩经-mahānāmasutta){: target="_blank" rel="noopener"}
+> [SN 55.37 / S v 395](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-31-40-punnabhisanda/#7-sn-5537-摩诃那摩-mahānāmasutta){: target="_blank" rel="noopener"}；参见：[AN 8.25–26 / A iv 220-23](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#5-an-825-摩诃那摩经-mahānāmasutta){: target="_blank" rel="noopener"}
 
 让我们再次看看随信行者（saddhānusārī）和随法行者（dhammānusārī），他们的级别仅次于须陀洹：
 
@@ -1740,17 +1740,17 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 > 舍利弗：与贤人交往（sappurisa-saṁseva）是入流支。聆听贤人的教法（saddhamma-savana）是入流支。如理作意（yoniso-manasikāra）是入流支。全面深入地修习佛法（dhammānudhamma-paṭipatti）是入流支。  
 > [SN 55.5 / S v 347](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#5-sn-555-舍利弗经之二-dutiyasāriputtasutta){: target="_blank" rel="noopener"}, Dutiyasāriputta Sutta
 >
-> 比丘们，有这四入流支：与贤人交往、聆听贤人的教法、如理作意、以及全面深入地修习佛法。（参见“正见因素”注）  
+> 比丘们，有这四入流支：与贤人交往、聆听贤人的教法、如理作意、以及全面深入地修习佛法。（参见附注“正见因素”）  
 > [SN 55.50 / S v 404](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-41-50-sagathakapunnabhisanda/#10-sn-5550-支-aṅgasutta){: target="_blank" rel="noopener"}; [DN 33 / D iii 227](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}
 >
 > 比丘们，这四件事，当它们得到修习和培育时，能导向须陀洹果的证悟。哪四件？与贤人交往、聆听贤人的教法、如理作意、以及全面深入地修习佛法。  
-> [SN 55.55 / S v 410-11](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#5-sn-5555-入流果经-sotāpattiphalasutta){: target="_blank" rel="noopener"}, Sotāpattiphala Sutta; 参见 Ps. II. 189
+> [SN 55.55 / S v 410-11](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#5-sn-5555-入流果经-sotāpattiphalasutta){: target="_blank" rel="noopener"}, Sotāpattiphala Sutta；参见 Ps. II. 189
 
 这四种品质不仅能导向须陀洹果，还能导向所有层次的智慧，最终证悟阿罗汉果。它们可能被称为许多其他名称，但因为佛陀在这里强调了它们，所以它们被称为“入流支”。[\[240\]](#fn-fn240){:id="fr-fn240"}
 
 正见因素
 
-> 前三个因素是正见（sammā-diṭṭhi）的因素。 Sappurisa-saṁseva = kalyāṇamittatā；saddhamma-savana = 有益的“从他人学习”（parato-ghosa）。这些正见的因素在《佛法》的后半部分有解释。
+> 前三个因素是正见（sammā-diṭṭhi）的因素。Sappurisa-saṁseva = kalyāṇamittatā；saddhamma-savana = 有益的“从他人学习”（parato-ghosa）。这些正见的因素在《佛法》的后半部分有解释。
 >
 > Dhammānudhamma-paṭipatti 是循序渐进、系统且正确的修行：初步的修行有助于随后的成就。例如，正确的持戒修行能导向涅槃的证悟；不是盲目地遵守规则或固执己见地行事。
 >
@@ -1792,7 +1792,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 3.  戒行的持守导向自律和内心染污的减少。戒行使人更容易接受善法。特别是，它是定的基础。[\[242\]](#fn-fn242){:id="fr-fn242"}
     
 
-尽管存在比五戒更高层次的戒，但所有修行所需的合宜戒行（被称为“圣者所珍爱的戒行”——ariya-kanta-sīla）都具有相同的本质和相同的标准：它们并非出于对快乐回报的渴望，也非出于执著，更非出于对戒行的固执己见，也不是盲目地遵循社会习俗而受持。它们是基于对戒律真实目的的理解而受持的。对于持有这种正确见解的在家佛教徒来说，持守五戒就足以导向须陀洹果。
+尽管存在比五戒更高层次的戒，但所有修行所需的合宜戒行（被称为“圣者所珍爱的戒行”——ariya-kanta-sīla）都具有相同的本质和相同的标准：它们并非出于对快乐回报的渴望，也非出于执着，更非出于对戒行的固执己见，也不是盲目地遵循社会习俗而受持。它们是基于对戒律真实目的的理解而受持的。对于持有这种正确见解的在家佛教徒来说，持守五戒就足以导向须陀洹果。
 
 ### 多闻
 
@@ -1809,7 +1809,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 
 除了在更广泛的背景下提供慷慨的帮助外，圣弟子们也乐于与他们的同伴分享。他们乐意将自己的私人财物捐献给公众使用，以利益他们社群中有道德的成员。
 
-因为圣弟子是“贤人”（sappurisa），所以他们施予“贤人之施”（sappurisa-dāna）。（参见“布施的特质”注）
+因为圣弟子是“贤人”（sappurisa），所以他们施予“贤人之施”（sappurisa-dāna）。（参见附注“布施的特质”）
 
 这些品质之一是恭敬地布施；圣弟子珍视受施者、布施物和布施的行为。他乐意布施，没有怨恨；无论受施者的社会地位多么低下，他都不会蔑视此人，而是以慈心和帮助的意愿行事。[\[245\]](#fn-fn245){:id="fr-fn245"}
 
@@ -1820,29 +1820,29 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 > （A）五种特质组合：
 >
 > 1.  恭敬地布施；
-> 1.  谦卑地布施；
-> 1.  亲手布施；
-> 1.  布施纯净之物（或不施予残羹剩饭）；
-> 1.  以知布施之果的心态布施（āgamana-diṭṭhika）——义注解释为知道布施之果并相信业及其果报；[MN 110 / M iii 24](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-110-culapunnama/){: target="_blank" rel="noopener"}; [AN 5.147 / A iii 171-2](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-141-150-tikandaki/#7-an-5147-非善士施经-asappurisadānasutta){: target="_blank" rel="noopener"}; [AN 9.20 / A iv 392-3](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#10-an-920-毗罗摩婆罗门经-velāmasutta){: target="_blank" rel="noopener"};
+> 2.  谦卑地布施；
+> 3.  亲手布施；
+> 4.  布施纯净之物（或不施予残羹剩饭）；
+> 5.  以知布施之果的心态布施（āgamana-diṭṭhika）——义注解释为知道布施之果并相信业及其果报；[MN 110 / M iii 24](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-110-culapunnama/){: target="_blank" rel="noopener"}；[AN 5.147 / A iii 171-2](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-141-150-tikandaki/#7-an-5147-非善士施经-asappurisadānasutta){: target="_blank" rel="noopener"}；[AN 9.20 / A iv 392-3](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#10-an-920-毗罗摩婆罗门经-velāmasutta){: target="_blank" rel="noopener"};
 >
 > （B）五种特质组合：
 >
 > 1.  以信心布施；
-> 1.  恭敬地布施；
-> 1.  适时布施；
-> 1.  以慷慨之心，不带骄傲地布施（这是义注的解释；这种品质也被翻译为“以服务之心布施”）；
+> 2.  恭敬地布施；
+> 3.  适时布施；
+> 4.  以慷慨之心，不带骄傲地布施（这是义注的解释；这种品质也被翻译为“以服务之心布施”）；
 > 1.  布施时不给自己或他人带来困扰（例如：通过抬高自己和贬低他人）；[AN 5.148 / A iii 173](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-141-150-tikandaki/#8-an-5148-五善士施经-sappurisadānasutta){: target="_blank" rel="noopener"}, Sappurisadāna Sutta;
 >
 > （C）八种特质组合：
 >
 > 1.  布施清洁之物；
-> 1.  布施精选之物；
-> 1.  适时布施；
-> 1.  布施适宜之物；
-> 1.  布施时有鉴别力；
-> 1.  定期布施；
-> 1.  布施时心是明亮的；
-> 1.  布施后心是愉悦的；[AN 8.37 / A iv 244](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#7-an-837-善士施-sappurisadānasutta){: target="_blank" rel="noopener"}, Sappurisadāna Sutta.
+> 2.  布施精选之物；
+> 3.  适时布施；
+> 4.  布施适宜之物；
+> 5.  布施时有鉴别力；
+> 6.  定期布施；
+> 7.  布施时心是明亮的；
+> 8.  布施后心是愉悦的；[AN 8.37 / A iv 244](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#7-an-837-善士施-sappurisadānasutta){: target="_blank" rel="noopener"}, Sappurisadāna Sutta.
 
 ### 智慧
 
@@ -1852,7 +1852,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 
 闻（suta）可以是智慧的缘：它提供信息并扩展人的理解。不仅是佛法学习支持智慧；世间知识，特别是生活经验，也能培养对真理的理解。一个善于如理作意（yoniso-manasikāra）的人，通过运用技术或专业知识，获得了对世界和生命的理解。然而，修行进步的决定性因素是智慧。有些人受过高等教育却无法反思；因此他们不会变得有智慧，也无法真正从他们的知识中受益。有些人只有很少的正规教育，但却非常智慧；他们明智的反思使他们能够解决问题。对于一个有智慧的人来说，任何类型的知识增长都能为他们所用。因为一个有智慧的人即使缺乏正规学习也能兴盛，所以许多时候圣弟子的品质数量从五项减少到四项，留下信心、戒行、布施和智慧。
 
-智慧不仅能圆满多闻（suta）；它也验证了圣弟子的所有其他功德。智慧确保信心是正确的，不会偏向轻信。智慧导向适当的戒，这种戒行受到觉悟者的赞扬，并且不执著于规章和修行。智慧带来真正的舍弃，因为只要不真正理解世界和现象，并且没有发现更精妙的安乐，就自然会沉溺于感官享受。缺乏智慧，就很难不被世间欲乐所占据，也很难在不期望某种欲乐或其他回报的情况下布施。因此，智慧将其他因素结合起来；它是圣弟子的基本因素，也是每个后续修行层次的目标。
+智慧不仅能圆满多闻（suta）；它也验证了圣弟子的所有其他功德。智慧确保信心是正确的，不会偏向轻信。智慧导向适当的戒，这种戒行受到觉悟者的赞扬，并且不执着于规章和修行。智慧带来真正的舍弃，因为只要不真正理解世界和现象，并且没有发现更精妙的安乐，就自然会沉溺于感官享受。缺乏智慧，就很难不被世间欲乐所占据，也很难在不期望某种欲乐或其他回报的情况下布施。因此，智慧将其他因素结合起来；它是圣弟子的基本因素，也是每个后续修行层次的目标。
 
 总而言之，圣弟子有四种主要的美德：
 
@@ -1867,7 +1867,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 
 通过任何形式——指导、鼓励、建议或学习——获得的多闻（suta），都支持其他美德的发展并带来更大的成功，但所需的多闻量和成功水平取决于以智慧反思的能力。
 
-让我们回到信（saddhā）这一首要德行，并审视它在修行初期如何是一个关键因素。通常，信心分为三类：对佛的信心、对法的信心和对僧的信心。偶尔，会给出单一而精确的定义，特别是在描述圣弟子证得须陀洹果之前的信心时：\[一个人\]对如来的觉悟有信心，如是说：“世尊是阿罗汉……是觉悟者。”这种形式的信心被称为“对如来菩提的信心”（tathāgatabodhi-saddhā，参见“对如来菩提的信心”注）。这是对佛陀智慧的信心，佛陀被视为全人类的原型、代表或先驱。
+让我们回到信（saddhā）这一首要德行，并审视它在修行初期如何是一个关键因素。通常，信心分为三类：对佛的信心、对法的信心和对僧的信心。偶尔，会给出单一而精确的定义，特别是在描述圣弟子证得须陀洹果之前的信心时：\[一个人\]对如来的觉悟有信心，如是说：“世尊是阿罗汉……是觉悟者。”这种形式的信心被称为“对如来菩提的信心”（tathāgatabodhi-saddhā，参见附注“对如来菩提的信心”）。这是对佛陀智慧的信心，佛陀被视为全人类的原型、代表或先驱。
 
 佛陀的觉悟证实了所有人类都能通过正念、智慧和精进的努力证悟真理，达到最高善。佛陀将自己比作一只小鸡，它是第一个啄破无明蛋壳的，[\[247\]](#fn-fn247){:id="fr-fn247"} 也是一位古道的发现者，将这条道路揭示给人类。[\[248\]](#fn-fn248){:id="fr-fn248"} 因此，对佛陀觉悟的信心等同于对人类能力和智慧的信心。或者更简洁地说，它是自信或相信自己。这种自信不是自私的信念或骄傲，而是身为人类的自信或对人类的客观信任。相信人类有智慧的潜力，每个人都能通过精神训练达到最高目标，并满足人类最伟大的抱负。[\[249\]](#fn-fn249){:id="fr-fn249"} 佛陀是自信的象征；他是第一个肯定这种人类潜力的人，也是第一个不将觉悟归因于神圣或超自然力量的人。
 
@@ -1875,9 +1875,9 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 
 > 或者说，“对真理发现者智慧的信心”。值得注意的是，佛陀在此处使用“如来”一词来指代自己，因为佛陀有许多称号，每个称号都强调不同的特质。
 >
-> 在此处使用“如来”一词与佛陀描述自然法则的段落相符，这些法则自主存在，不依赖于如来的出现；如来仅仅是这些真理的发现者和揭示者（参见：[AN 3.137 / A i 286](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-134-146-yodhajiva/#4-an-3137-如来出世经-uppādāsutta){: target="_blank" rel="noopener"}; [SN 12.20 / S ii 25](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-11-20-ahara/#10-sn-1220-缘经-paccayasutta){: target="_blank" rel="noopener"}）。
+> 在此处使用“如来”一词与佛陀描述自然法则的段落相符，这些法则自主存在，不依赖于如来的出现；如来仅仅是这些真理的发现者和揭示者（参见：[AN 3.137 / A i 286](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-134-146-yodhajiva/#4-an-3137-如来出世经-uppādāsutta){: target="_blank" rel="noopener"}；[SN 12.20 / S ii 25](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-11-20-ahara/#10-sn-1220-缘经-paccayasutta){: target="_blank" rel="noopener"}）。
 >
-> 在许多场合，“如来”一词被翻译为“众生”（例如：[MN 63 / M i 426](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-063-culamalukya/){: target="_blank" rel="noopener"}; [SN 44.7–8 / S iv 395](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-44-abyakata/sn-44-abyakata/#17-sn-447-目犍连经-moggallānasutta){: target="_blank" rel="noopener"}; 例如在 MA. III. 142 中解释）。有兴趣的学者可以比较此处的 bodhi 与大乘传统中的佛性概念。
+> 在许多场合，“如来”一词被翻译为“众生”（例如：[MN 63 / M i 426](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-063-culamalukya/){: target="_blank" rel="noopener"}；[SN 44.7–8 / S iv 395](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-44-abyakata/sn-44-abyakata/#17-sn-447-目犍连经-moggallānasutta){: target="_blank" rel="noopener"}；例如在 MA. III. 142 中解释）。有兴趣的学者可以比较此处的 bodhi 与大乘传统中的佛性概念。
 
 实际上，对佛陀觉悟的信心涵盖了对三宝的信心：相信人类能够发展智慧，直至解决心中最微细的烦恼，并且能够达到最高的解脱和彻底的安乐，就像佛陀所能成就的那样；相信这些修行原则和最高目标是基于自然法则的真理的一部分；并且相信有人已经达到了这个目标，他们组成了一个圣者的僧团，已经验证了真理，传播佛法，散播福祉，并已充分准备好帮助他人加入这个圣者的僧团。
 
@@ -2007,34 +2007,34 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 佛陀曾多次讨论人们布施的动机：
 
 > 1.  为求得而施；出于执着而施；相信死后会得到同样的回报而施；
-> 1.  认为布施是善事而施；
-> 1.  想到祖先曾行布施、不应中断这个家族传统而施；
-> 1.  心想：“我能自给，这些人不能自给；我能自给，却不施予不能自给的人，是不应该的”而施；
-> 1.  心想：“我的这份布施，就像古代仙人的大祭祀一样”而施；为求声誉而施；
-> 1.  心想布施会带来喜悦与欢喜而施；
-> 1.  为庄严心、提升心的品质而施：认为布施是修心之道，布施能柔软施者与受者的心，布施是一种舍离，布施能培养慈与悲；心想“愿受苦者因这份布施而得安乐”而施；严格来说，最后这种布施是止与观的助缘。[\[301\]](#fn-fn301){:id="fr-fn301"}
+> 2.  认为布施是善事而施；
+> 3.  想到祖先曾行布施、不应中断这个家族传统而施；
+> 4.  心想：“我能自给，这些人不能自给；我能自给，却不施予不能自给的人，是不应该的”而施；
+> 5.  心想：“我的这份布施，就像古代仙人的大祭祀一样”而施；为求声誉而施；
+> 6.  心想布施会带来喜悦与欢喜而施；
+> 7.  为庄严心、提升心的品质而施：认为布施是修心之道，布施能柔软施者与受者的心，布施是一种舍离，布施能培养慈与悲；心想“愿受苦者因这份布施而得安乐”而施；严格来说，最后这种布施是止与观的助缘。[\[301\]](#fn-fn301){:id="fr-fn301"}
 >
 > [AN 7.52 / A iv 59-63](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#9-an-752-布施大果经-dānamahapphalasutta){: target="_blank" rel="noopener"}, Dānamahapphala Sutta
 >
 > 1.  因情势所需而施；因受者恰好到来而施；
-> 1.  出于恐惧而施；
-> 1.  为报恩而施；
-> 1.  希望受者日后回报而施；为求回报而施；
-> 1.  认为布施是善事而施；
-> 1.  心想：“我能自给，这些人不能自给……”而施；
-> 1.  心想布施能使自己声名远播而施；
-> 1.  为庄严心、提升心而施。
+> 2.  出于恐惧而施；
+> 3.  为报恩而施；
+> 4.  希望受者日后回报而施；为求回报而施；
+> 5.  认为布施是善事而施；
+> 6.  心想：“我能自给，这些人不能自给……”而施；
+> 7.  心想布施能使自己声名远播而施；
+> 8.  为庄严心、提升心而施。
 >
 > [DN 33 / D iii 258](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}; [AN 8.31 / A iv 236](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#1-an-831-布施之一-paṭhamadānasutta){: target="_blank" rel="noopener"}.
 >
 > 1.  出于爱着而施；
-> 1.  出于嗔而施；
-> 1.  出于痴而施；
-> 1.  出于恐惧而施；
-> 1.  想到祖先曾行布施……而施；
-> 1.  心想布施能使自己生天而施；
-> 1.  心想布施会带来喜悦与欢喜而施；
-> 1.  为庄严心、提升心的品质而施。
+> 2.  出于嗔而施；
+> 3.  出于痴而施；
+> 4.  出于恐惧而施；
+> 5.  想到祖先曾行布施……而施；
+> 6.  心想布施能使自己生天而施；
+> 7.  心想布施会带来喜悦与欢喜而施；
+> 8.  为庄严心、提升心的品质而施。
 >
 > [AN 8.33 / A iv 236-7](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#3-an-833-八布施事-dānavatthusutta){: target="_blank" rel="noopener"}, Dānavatthu Sutta
 
@@ -2200,7 +2200,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[1\] MA. I. 73; DhsA. 356; Vism. 697; VismṬ: Ñāṇadassanavisuddhiniddesavaṇṇanā, Pariññādippabhedakathāvanṇṇanā.[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
-\[2\] 在阿毗达摩（Abhidhamma）的《人施设论》（Puggala Paññatti）中，首次将“圣者（ariya-puggala）”作为一个专门指代觉悟阶段的术语（Pug. 11-12, 14）。请参阅相关资料：[PV 7 / Vin v 117](https://aipali.true-dhamma.com/vinaya/pv/pv-07-ekuttarikanaya/){: target="_blank" rel="noopener"}; Nd. I. 232; Ps. I. 167.[&nbsp;↩&nbsp;](#fr-fn2)
+\[2\] 在阿毗达摩（Abhidhamma）的《人施设论》（Puggala Paññatti）中，首次将“圣者（ariya-puggala）”作为一个专门指代觉悟阶段的术语（Pug. 11-12, 14）。请参阅相关资料：[PV 7 / Vin v 117](https://aipali.true-dhamma.com/vinaya/pv/pv-07-ekuttarikanaya/){: target="_blank" rel="noopener"}；Nd. I. 232；Ps. I. 167.[&nbsp;↩&nbsp;](#fr-fn2)
 {: id="fn-fn2"}
 
 \[3\] 参阅 Sir Monier Monier-Williams 所著《梵英词典》（A Sanskrit-English Dictionary；伦敦：牛津大学出版社，1964年），第152页中“ārya”一词。另参阅《摩奴法典》（Manava Dharma Shastra）。[&nbsp;↩&nbsp;](#fr-fn3)
@@ -2209,40 +2209,40 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[4\] 译注：吠陀：古婆罗门教神圣文本的集合。[&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
-\[5\] [SN 56.23 / S v 433](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-21-30-kotigama/#3-sn-5623-正等正觉者-sammāsambuddhasutta){: target="_blank" rel="noopener"}（引用于 Vism. 495；在《巴利三藏》中，“ariyoti”一词已消失。另参阅 ItA. I. 85; PsA. I. 62）。参阅：[SN 56.27–28 / S v 435](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-21-30-kotigama/#7-sn-5627-真如经-tathasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn5)
+\[5\] [SN 56.23 / S v 433](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-21-30-kotigama/#3-sn-5623-正等正觉者-sammāsambuddhasutta){: target="_blank" rel="noopener"}（引用于 Vism. 495；在《巴利三藏》中，“ariyoti”一词已消失。另参阅 ItA. I. 85；PsA. I. 62）。参阅：[SN 56.27–28 / S v 435](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-21-30-kotigama/#7-sn-5627-真如经-tathasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
-\[6\] 亦作：ārya-dhamma。[Snp 24 / Sn 62](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#24-snp-24-尼拘律劫波经-nigrodhakappasutta){: target="_blank" rel="noopener"}; SnA. I. 350.[&nbsp;↩&nbsp;](#fr-fn6)
+\[6\] 亦作：ārya-dhamma。[Snp 24 / Sn 62](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#24-snp-24-尼拘律劫波经-nigrodhakappasutta){: target="_blank" rel="noopener"}；SnA. I. 350.[&nbsp;↩&nbsp;](#fr-fn6)
 {: id="fn-fn6"}
 
-\[7\] 例如：DA. II. 643; [AN 10.135 / A v 241](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-134-144-sadhu/#2-an-10135-圣法经-ariyadhammasutta){: target="_blank" rel="noopener"}; Nd2A. 77.[&nbsp;↩&nbsp;](#fr-fn7)
+\[7\] 例如：DA. II. 643；[AN 10.135 / A v 241](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-134-144-sadhu/#2-an-10135-圣法经-ariyadhammasutta){: target="_blank" rel="noopener"}；Nd2A. 77.[&nbsp;↩&nbsp;](#fr-fn7)
 {: id="fn-fn7"}
 
 \[8\] [AN 10.179 / A v 274](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-178-188-sadhu/#2-an-10179-圣法经-ariyadhammasutta){: target="_blank" rel="noopener"}, Ariyadhamma Sutta.[&nbsp;↩&nbsp;](#fr-fn8)
 {: id="fn-fn8"}
 
-\[9\] [AN 4.61 / A ii 69](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-061-070-pattakamma/#1-an-461-能作四业-pattakammasutta){: target="_blank" rel="noopener"}; AA. III. 213, 300; AA. III. 303.[&nbsp;↩&nbsp;](#fr-fn9)
+\[9\] [AN 4.61 / A ii 69](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-061-070-pattakamma/#1-an-461-能作四业-pattakammasutta){: target="_blank" rel="noopener"}；AA. III. 213, 300; AA. III. 303.[&nbsp;↩&nbsp;](#fr-fn9)
 {: id="fn-fn9"}
 
 \[10\] 译注：“独觉佛”；指那些独自达到至上觉悟，但不向世人宣说此真理的人。[&nbsp;↩&nbsp;](#fr-fn10)
 {: id="fn-fn10"}
 
-\[11\] VinA. I. 165; DA. III. 1009; Nd1A. II. 379; NdA. \[2/200\]; Vism. 425. 阿毗达摩（Abhidhamma）的《分别论》（Vibhaṅga）将“圣（ariya）”定义为包括佛陀和佛陀的弟子（Vbh. 259）。\[译注：尽管“圣（ariya）”通常指“已觉悟的”弟子，但也有例外。见下文。\][&nbsp;↩&nbsp;](#fr-fn11)
+\[11\] VinA. I. 165；DA. III. 1009；Nd1A. II. 379；NdA. \[2/200\]；Vism. 425. 阿毗达摩（Abhidhamma）的《分别论》（Vibhaṅga）将“圣（ariya）”定义为包括佛陀和佛陀的弟子（Vbh. 259）。\[译注：尽管“圣（ariya）”通常指“已觉悟的”弟子，但也有例外。见下文。\][&nbsp;↩&nbsp;](#fr-fn11)
 {: id="fn-fn11"}
 
-\[12\] 例如：MA. I. 60; SA. III. 208; Nd1A. II. 272; DhsA. 349.[&nbsp;↩&nbsp;](#fr-fn12)
+\[12\] 例如：MA. I. 60；SA. III. 208；Nd1A. II. 272；DhsA. 349.[&nbsp;↩&nbsp;](#fr-fn12)
 {: id="fn-fn12"}
 
-\[13\] 例如：[MN 117 / M iii 72](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-117-mahacattarisaka/){: target="_blank" rel="noopener"}; AA. III. 416; Nd1A. II. 336.[&nbsp;↩&nbsp;](#fr-fn13)
+\[13\] 例如：[MN 117 / M iii 72](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-117-mahacattarisaka/){: target="_blank" rel="noopener"}；AA. III. 416；Nd1A. II. 336.[&nbsp;↩&nbsp;](#fr-fn13)
 {: id="fn-fn13"}
 
-\[14\] “圣（ariya）”一词有时也可指世间（lokiya）的，例如：SA. I. 35; SA. III. 303.[&nbsp;↩&nbsp;](#fr-fn14)
+\[14\] “圣（ariya）”一词有时也可指世间（lokiya）的，例如：SA. I. 35；SA. III. 303.[&nbsp;↩&nbsp;](#fr-fn14)
 {: id="fn-fn14"}
 
 \[15\] 供养 = 布施（dakkhiṇā）（梵语：dakshiṇā）。布施（Dakkhiṇā）+ neyya（taddhita 后缀；“次生词”）= 应受布施者（dakkhiṇeyya）。[&nbsp;↩&nbsp;](#fr-fn15)
 {: id="fn-fn15"}
 
-\[16\] 义注提及那些基于对业（kamma）和业果（kamma-vipāka）的信仰而给予之物，而非期望医疗援助或其他恩惠而给予；参阅：\[KhA. 200\]。有些地方提及那些相信“来世”（paraloka）者所供养之物；例如：Vism. 220; ItA. I. 88; VinṬ.: Pārājikakaṇḍaṁ, Sikkhāpaccakkhānavibhaṅgavaṇṇanā.[&nbsp;↩&nbsp;](#fr-fn16)
+\[16\] 义注提及那些基于对业（kamma）和业果（kamma-vipāka）的信仰而给予之物，而非期望医疗援助或其他恩惠而给予；参阅：\[KhA. 200\]。有些地方提及那些相信“来世”（paraloka）者所供养之物；例如：Vism. 220；ItA. I. 88；VinṬ.: Pārājikakaṇḍaṁ, Sikkhāpaccakkhānavibhaṅgavaṇṇanā.[&nbsp;↩&nbsp;](#fr-fn16)
 {: id="fn-fn16"}
 
 \[17\] 译注：四种基本资具：食物、衣服、住所和医药。[&nbsp;↩&nbsp;](#fr-fn17)
@@ -2251,7 +2251,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[18\] Anuttaraṁ puññakkhettaṁ lokassa.[&nbsp;↩&nbsp;](#fr-fn18)
 {: id="fn-fn18"}
 
-\[19\] 例如：DA. III. 996; AA. IV. 29; VinṬ.: Pārājikakaṇḍaṁ, Sikkhāpaccakkhānavibhaṅgavaṇṇanā.[&nbsp;↩&nbsp;](#fr-fn19)
+\[19\] 例如：DA. III. 996；AA. IV. 29；VinṬ.: Pārājikakaṇḍaṁ, Sikkhāpaccakkhānavibhaṅgavaṇṇanā.[&nbsp;↩&nbsp;](#fr-fn19)
 {: id="fn-fn19"}
 
 \[20\] 我们所称的“生产”或“工业”总是涉及一定程度的破坏。有时其成本或有害影响会超过制成品的价值。现在是人们应该以更广阔的经济视角来重新审视“工业”、“劳动”和“生产”的真正含义的时候了。[&nbsp;↩&nbsp;](#fr-fn20)
@@ -2275,16 +2275,16 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[26\] 译注：请注意，在泰语版的《佛法》中，这两种分类是同时呈现的。[&nbsp;↩&nbsp;](#fr-fn26)
 {: id="fn-fn26"}
 
-\[27\] 例如：[SN 45.180–181 / S v 61](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-41-181-maggapeyyala/#109-sn-45180-五下分结经-orambhāgiyasutta){: target="_blank" rel="noopener"}; [AN 10.13 / A v 17](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-011-020-natha/#3-an-1013-十结经-saṃyojanasutta){: target="_blank" rel="noopener"}; Vbh. 377; DA. I. 312。在《巴利三藏》中，第四和第五结是贪欲（kāma-chanda）和嗔恚（byāpāda），但 [AN 3.95 / A i 242](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-093-103-lonakapalla/#3-an-395-秋日破暗-saradasutta){: target="_blank" rel="noopener"} 除外，那里是贪求（abhijjhā）和嗔恚（byāpāda）。常见的欲贪（kāma-rāga）和嗔（paṭigha）这一对词来自次要文献和复注，例如：Ps2. 94; Vism. 683; Comp.: Samuccayaparicchedo, Akusalasaṅgaho.[&nbsp;↩&nbsp;](#fr-fn27)
+\[27\] 例如：[SN 45.180–181 / S v 61](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-41-181-maggapeyyala/#109-sn-45180-五下分结经-orambhāgiyasutta){: target="_blank" rel="noopener"}；[AN 10.13 / A v 17](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-011-020-natha/#3-an-1013-十结经-saṃyojanasutta){: target="_blank" rel="noopener"}；Vbh. 377；DA. I. 312。在《巴利三藏》中，第四和第五结是贪欲（kāma-chanda）和嗔恚（byāpāda），但 [AN 3.95 / A i 242](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-093-103-lonakapalla/#3-an-395-秋日破暗-saradasutta){: target="_blank" rel="noopener"} 除外，那里是贪求（abhijjhā）和嗔恚（byāpāda）。常见的欲贪（kāma-rāga）和嗔（paṭigha）这一对词来自次要文献和复注，例如：Ps2. 94；Vism. 683；Comp.: Samuccayaparicchedo, Akusalasaṅgaho.[&nbsp;↩&nbsp;](#fr-fn27)
 {: id="fn-fn27"}
 
-\[28\] 参阅：[MN 44 / M i 300](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-044-culavedalla/){: target="_blank" rel="noopener"}; [SN 41.3 / S iv 287](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-41-citta/sn-41-citta/#13-sn-413-伊西达多经之二-dutiyaisidattasutta){: target="_blank" rel="noopener"}; Dhs. 182-3; Vbh. 364.[&nbsp;↩&nbsp;](#fr-fn28)
+\[28\] 参阅：[MN 44 / M i 300](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-044-culavedalla/){: target="_blank" rel="noopener"}；[SN 41.3 / S iv 287](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-41-citta/sn-41-citta/#13-sn-413-伊西达多经之二-dutiyaisidattasutta){: target="_blank" rel="noopener"}；Dhs. 182-3；Vbh. 364.[&nbsp;↩&nbsp;](#fr-fn28)
 {: id="fn-fn28"}
 
 \[29\] 参阅附录一关于戒禁取（sīlabbata-parāmāsa）。[&nbsp;↩&nbsp;](#fr-fn29)
 {: id="fn-fn29"}
 
-\[30\] 有学（sekha）和无学（asekha）的两种应供者（dakkhiṇeyya）：[AN 2.35 / A i 63](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#44-an-236-有学无学){: target="_blank" rel="noopener"}, [AN 3.87 / A i 231-2](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#6-an-387-学处之一-paṭhamasikkhāsutta){: target="_blank" rel="noopener"}。四种应供者（dakkhiṇeyya）或圣者（ariya-puggala）（有些地方以其他名称或无名称提及）：例如 [DN 6 / D i 156](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-06-mahali/){: target="_blank" rel="noopener"}; [DN 19 / D ii 251-2](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}; [DN 28 / D iii 107](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-28-sampasadaniya/){: target="_blank" rel="noopener"}, [DN 29 / D iii 132](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}; [MN 118 / M iii 80-1](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-118-anapanassati/){: target="_blank" rel="noopener"}; Pug. 63。在 [AN 8.52 / A iv 279-80](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#2-an-852-教诫经-ovādasutta){: target="_blank" rel="noopener"} 中，须陀洹分为三种类型，阿那含分为五种类型；与斯陀含结合，这构成了九种有余依者（sa-upādisesa-puggala）。[&nbsp;↩&nbsp;](#fr-fn30)
+\[30\] 有学（sekha）和无学（asekha）的两种应供者（dakkhiṇeyya）：[AN 2.35 / A i 63](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#44-an-236-有学无学){: target="_blank" rel="noopener"}；[AN 3.87 / A i 231-2](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#6-an-387-学处之一-paṭhamasikkhāsutta){: target="_blank" rel="noopener"}。四种应供者（dakkhiṇeyya）或圣者（ariya-puggala）（有些地方以其他名称或无名称提及）：例如 [DN 6 / D i 156](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-06-mahali/){: target="_blank" rel="noopener"}；[DN 19 / D ii 251-2](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}；[DN 28 / D iii 107](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-28-sampasadaniya/){: target="_blank" rel="noopener"}；[DN 29 / D iii 132](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}；[MN 118 / M iii 80-1](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-118-anapanassati/){: target="_blank" rel="noopener"}；Pug. 63。在 [AN 8.52 / A iv 279-80](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#2-an-852-教诫经-ovādasutta){: target="_blank" rel="noopener"} 中，须陀洹分为三种类型，阿那含分为五种类型；与斯陀含结合，这构成了九种有余依者（sa-upādisesa-puggala）。[&nbsp;↩&nbsp;](#fr-fn30)
 {: id="fn-fn30"}
 
 \[31\] 参阅 [SN 55.5 / S v 347-8](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#5-sn-555-舍利弗经之二-dutiyasāriputtasutta){: target="_blank" rel="noopener"}, Dutiyasāriputta Sutta.[&nbsp;↩&nbsp;](#fr-fn31)
@@ -2299,28 +2299,28 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[34\] 此译文遵循义注的解释，例如 AA. IV. 40, 174.[&nbsp;↩&nbsp;](#fr-fn34)
 {: id="fn-fn34"}
 
-\[35\] Diṭṭheva dhamme aññā sati vā upādisese anāgāmitā. [DN 22 / D ii 314](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-22-mahasatipatthana/){: target="_blank" rel="noopener"}; [MN 10 / M i 62](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-010-mahasatipatthana/){: target="_blank" rel="noopener"}, [MN 70 / M i 481](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-070-kitagiri/){: target="_blank" rel="noopener"}; [SN 46.57 / S v 129](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-57-66-anapana/#1-sn-4657-骨想功德-aṭṭhikamahapphalasutta){: target="_blank" rel="noopener"}, [SN 48.65 / S v 237](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-61-70-bodhipakkhiya/#5-sn-4865-果之一-paṭhamaphalasutta){: target="_blank" rel="noopener"}, [SN 51.25 / S v 285](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-51-iddhipada/sn-51-21-32-ayogula/#5-sn-5125-果之一经-paṭhamaphalasutta){: target="_blank" rel="noopener"}; [AN 5.67 / A iii 81-2](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-061-070-sanna/#7-an-567-神足五法经之一-paṭhamaiddhipādasutta){: target="_blank" rel="noopener"}, [AN 5.122 / A iii 143](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-121-130-gilana/#2-an-5122-念善安住-satisūpaṭṭhitasutta){: target="_blank" rel="noopener"}; [AN 10.59 / A v 108](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-051-060-sacitta/#9-an-1059-熟知出家经-pabbajjāsutta){: target="_blank" rel="noopener"}; [Iti 2.18 / It 39](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-02-duka/#28-iti-218-隐居经){: target="_blank" rel="noopener"}; [Snp 38 / Sn 140](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#38-snp-38-二随观经-dvayatānupassanāsutta){: target="_blank" rel="noopener"}, [Snp 38 / Sn 148](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#38-snp-38-二随观经-dvayatānupassanāsutta){: target="_blank" rel="noopener"}。义注中的解释：例如 ItA. I. 169; SnA. II. 503.[&nbsp;↩&nbsp;](#fr-fn35)
+\[35\] Diṭṭheva dhamme aññā sati vā upādisese anāgāmitā. [DN 22 / D ii 314](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-22-mahasatipatthana/){: target="_blank" rel="noopener"}；[MN 10 / M i 62](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-010-mahasatipatthana/){: target="_blank" rel="noopener"}；[MN 70 / M i 481](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-070-kitagiri/){: target="_blank" rel="noopener"}；[SN 46.57 / S v 129](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-57-66-anapana/#1-sn-4657-骨想功德-aṭṭhikamahapphalasutta){: target="_blank" rel="noopener"}；[SN 48.65 / S v 237](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-61-70-bodhipakkhiya/#5-sn-4865-果之一-paṭhamaphalasutta){: target="_blank" rel="noopener"}；[SN 51.25 / S v 285](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-51-iddhipada/sn-51-21-32-ayogula/#5-sn-5125-果之一经-paṭhamaphalasutta){: target="_blank" rel="noopener"}；[AN 5.67 / A iii 81-2](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-061-070-sanna/#7-an-567-神足五法经之一-paṭhamaiddhipādasutta){: target="_blank" rel="noopener"}；[AN 5.122 / A iii 143](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-121-130-gilana/#2-an-5122-念善安住-satisūpaṭṭhitasutta){: target="_blank" rel="noopener"}；[AN 10.59 / A v 108](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-051-060-sacitta/#9-an-1059-熟知出家经-pabbajjāsutta){: target="_blank" rel="noopener"}；[Iti 2.18 / It 39](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-02-duka/#28-iti-218-隐居经){: target="_blank" rel="noopener"}；[Snp 38 / Sn 140](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#38-snp-38-二随观经-dvayatānupassanāsutta){: target="_blank" rel="noopener"}；[Snp 38 / Sn 148](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#38-snp-38-二随观经-dvayatānupassanāsutta){: target="_blank" rel="noopener"}。义注中的解释：例如 ItA. I. 169；SnA. II. 503.[&nbsp;↩&nbsp;](#fr-fn35)
 {: id="fn-fn35"}
 
-\[36\] [DN 33 / D iii 255](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}; [AN 8.59 / A iv 292](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#9-an-859-第一个人经-paṭhamapuggalasutta){: target="_blank" rel="noopener"}。阿毗达摩将这八种人分为两组：具足道者（magga-samaṅgī）和具足果者（phala-samaṅgī）——Pug. 73.[&nbsp;↩&nbsp;](#fr-fn36)
+\[36\] [DN 33 / D iii 255](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 8.59 / A iv 292](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#9-an-859-第一个人经-paṭhamapuggalasutta){: target="_blank" rel="noopener"}。阿毗达摩将这八种人分为两组：具足道者（magga-samaṅgī）和具足果者（phala-samaṅgī）——Pug. 73.[&nbsp;↩&nbsp;](#fr-fn36)
 {: id="fn-fn36"}
 
-\[37\] 例如：[MN 7 / M i 37](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-007-vattha/){: target="_blank" rel="noopener"}; [AN 6.10 / A iii 286](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-001-010-ahuneyya/#10-an-610-释氏摩诃那摩经-mahānāmasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn37)
+\[37\] 例如：[MN 7 / M i 37](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-007-vattha/){: target="_blank" rel="noopener"}；[AN 6.10 / A iii 286](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-001-010-ahuneyya/#10-an-610-释氏摩诃那摩经-mahānāmasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn37)
 {: id="fn-fn37"}
 
 \[38\] [AN 6.54 / A iii 373](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#12-an-654-昙弥经-dhammikasutta){: target="_blank" rel="noopener"}, Dhammika Sutta.[&nbsp;↩&nbsp;](#fr-fn38)
 {: id="fn-fn38"}
 
-\[39\] 例如：Vism. 218; VinṬ.: Paṭhamo Bhāgo, Ganthārambhakathāvaṇṇanā.[&nbsp;↩&nbsp;](#fr-fn39)
+\[39\] 例如：Vism. 218；VinṬ.: Paṭhamo Bhāgo, Ganthārambhakathāvaṇṇanā.[&nbsp;↩&nbsp;](#fr-fn39)
 {: id="fn-fn39"}
 
-\[40\] 参阅佛陀的一些关键原则：[AN 4.183 / A ii 172-3](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-181-190-brahmana/#3-an-4183-闻经-sutasutta){: target="_blank" rel="noopener"}; [DN 29 / D iii 134-5](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}; [MN 58 / M i 395](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-058-abhayarajakumara/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn40)
+\[40\] 参阅佛陀的一些关键原则：[AN 4.183 / A ii 172-3](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-181-190-brahmana/#3-an-4183-闻经-sutasutta){: target="_blank" rel="noopener"}；[DN 29 / D iii 134-5](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}；[MN 58 / M i 395](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-058-abhayarajakumara/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn40)
 {: id="fn-fn40"}
 
 \[41\] 译注：在泰语版的《佛法》中，此段紧随关于涅槃（Nibbāna）的初始部分。[&nbsp;↩&nbsp;](#fr-fn41)
 {: id="fn-fn41"}
 
-\[42\] 其中有些词语常用，有些则不常用。例如：[MN 35 / M i 235](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-035-culasaccaka/){: target="_blank" rel="noopener"}, [MN 39 / M i 280](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-039-mahaassapura/){: target="_blank" rel="noopener"}, [MN 65 / M i 446-7](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-065-bhaddali/){: target="_blank" rel="noopener"}; [MN 78 / M ii 29](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-078-samanamundika/){: target="_blank" rel="noopener"}; [SN 22.57 / S iii 61-2](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#5-sn-2257-七处经-sattaṭṭhānasutta){: target="_blank" rel="noopener"}; [AN 10.12 / A v 16](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-011-020-natha/#2-an-1012-五分-pañcaṅgasutta){: target="_blank" rel="noopener"}, [AN 10.111 / A v 221-22](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#11-an-10111-无学之一经-paṭhamaasekhasutta){: target="_blank" rel="noopener"}; Nd. II. 10。特别是最后几个词语是从古婆罗门教的表达中借用而来，但赋予了符合佛教原则的新含义。例如，婆罗门（brāhmaṇa）最初指通过在圣河（如恒河）中沐浴而超越邪恶的人。然而，在佛教中，此术语指通过遵循八正道而摆脱邪恶的人，或用作隐喻，指“沐浴于法”的人。[&nbsp;↩&nbsp;](#fr-fn42)
+\[42\] 其中有些词语常用，有些则不常用。例如：[MN 35 / M i 235](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-035-culasaccaka/){: target="_blank" rel="noopener"}；[MN 39 / M i 280](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-039-mahaassapura/){: target="_blank" rel="noopener"}；[MN 65 / M i 446-7](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-065-bhaddali/){: target="_blank" rel="noopener"}；[MN 78 / M ii 29](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-078-samanamundika/){: target="_blank" rel="noopener"}；[SN 22.57 / S iii 61-2](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#5-sn-2257-七处经-sattaṭṭhānasutta){: target="_blank" rel="noopener"}；[AN 10.12 / A v 16](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-011-020-natha/#2-an-1012-五分-pañcaṅgasutta){: target="_blank" rel="noopener"}；[AN 10.111 / A v 221-22](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#11-an-10111-无学之一经-paṭhamaasekhasutta){: target="_blank" rel="noopener"}；Nd. II. 10。特别是最后几个词语是从古婆罗门教的表达中借用而来，但赋予了符合佛教原则的新含义。例如，婆罗门（brāhmaṇa）最初指通过在圣河（如恒河）中沐浴而超越邪恶的人。然而，在佛教中，此术语指通过遵循八正道而摆脱邪恶的人，或用作隐喻，指“沐浴于法”的人。[&nbsp;↩&nbsp;](#fr-fn42)
 {: id="fn-fn42"}
 
 \[43\] 这些译文是巴利语“bhāvitatto”一词的翻译，其意义等同于“attānaṁ bhāvetvā vaḍḍhetvā ṭhito”这个短语。“已修习者（bhāvitatta）”指已发展自身并安住于此修习的人；SA. I. 207.[&nbsp;↩&nbsp;](#fr-fn43)
@@ -2377,16 +2377,16 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[60\] 详情请参阅下文。[&nbsp;↩&nbsp;](#fr-fn60)
 {: id="fn-fn60"}
 
-\[61\] 例如：[AN 9.12 / A iv 380](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#2-an-912-有余依经-saupādisesasutta){: target="_blank" rel="noopener"}; Pug. 37.[&nbsp;↩&nbsp;](#fr-fn61)
+\[61\] 例如：[AN 9.12 / A iv 380](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#2-an-912-有余依经-saupādisesasutta){: target="_blank" rel="noopener"}；Pug. 37.[&nbsp;↩&nbsp;](#fr-fn61)
 {: id="fn-fn61"}
 
 \[62\] [AN 10.75 / A v 139-40](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#5-an-1075-鹿住优婆夷经-migasālāsutta){: target="_blank" rel="noopener"}, Migasālā Sutta.[&nbsp;↩&nbsp;](#fr-fn62)
 {: id="fn-fn62"}
 
-\[63\] 背景资料：[SN 35.146 / S iv 132-3](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-146-155-navapurana/#1-sn-35146-业经-kammanirodhasutta){: target="_blank" rel="noopener"}（与 [AN 3.112 / A i 263-4](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#9-an-3112-缘之一经-paṭhamanidānasutta){: target="_blank" rel="noopener"}; [AN 6.63 / A iii 415-6](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#9-an-663-决择法经-nibbedhikasutta){: target="_blank" rel="noopener"} 比较）。[&nbsp;↩&nbsp;](#fr-fn63)
+\[63\] 背景资料：[SN 35.146 / S iv 132-3](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-146-155-navapurana/#1-sn-35146-业经-kammanirodhasutta){: target="_blank" rel="noopener"}（与 [AN 3.112 / A i 263-4](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#9-an-3112-缘之一经-paṭhamanidānasutta){: target="_blank" rel="noopener"}；[AN 6.63 / A iii 415-6](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#9-an-663-决择法经-nibbedhikasutta){: target="_blank" rel="noopener"} 比较）。[&nbsp;↩&nbsp;](#fr-fn63)
 {: id="fn-fn63"}
 
-\[64\] 背景资料：[DN 33 / D iii 230](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}; [AN 4.233 / A ii 231](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#2-an-4233-四业之解释-vitthārasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn64)
+\[64\] 背景资料：[DN 33 / D iii 230](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 4.233 / A ii 231](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#2-an-4233-四业之解释-vitthārasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn64)
 {: id="fn-fn64"}
 
 \[65\] 例如：Dhs. 180-1.[&nbsp;↩&nbsp;](#fr-fn65)
@@ -2398,10 +2398,10 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[67\] 译注：五盖：贪欲、嗔恚、昏沉睡眠、掉举恶作、疑。[&nbsp;↩&nbsp;](#fr-fn67)
 {: id="fn-fn67"}
 
-\[68\] [AN 1.45–46 / A i 9](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-001-050-pathamapannasaka/#55-an-145-浑水之喻){: target="_blank" rel="noopener"}; [AN 3.72 / A i 216](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-072-081-ananda/#1-an-372-游方者阐陀经-channasutta){: target="_blank" rel="noopener"}; [SN 46.55 / S v 121](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#5-sn-4655-伤歌逻水钵喻经-saṅgāravasutta){: target="_blank" rel="noopener"}; [AN 5.51 / A iii 63-4](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-051-060-nivarana/#1-an-551-五盖障碍经-āvaraṇasutta){: target="_blank" rel="noopener"}, [AN 5.193 / A iii 230](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-191-200-brahmana/#3-an-5193-桑迦罗婆婆罗门经-saṅgāravasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn68)
+\[68\] [AN 1.45–46 / A i 9](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-001-050-pathamapannasaka/#55-an-145-浑水之喻){: target="_blank" rel="noopener"}；[AN 3.72 / A i 216](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-072-081-ananda/#1-an-372-游方者阐陀经-channasutta){: target="_blank" rel="noopener"}；[SN 46.55 / S v 121](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#5-sn-4655-伤歌逻水钵喻经-saṅgāravasutta){: target="_blank" rel="noopener"}；[AN 5.51 / A iii 63-4](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-051-060-nivarana/#1-an-551-五盖障碍经-āvaraṇasutta){: target="_blank" rel="noopener"}, [AN 5.193 / A iii 230](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-191-200-brahmana/#3-an-5193-桑迦罗婆婆罗门经-saṅgāravasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn68)
 {: id="fn-fn68"}
 
-\[69\] [MV 1 / Vin i 20-1](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}; [SN 4.5 / S i 105-106](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-04-mara/sn-04-mara/#15-sn-45-繫蹄经其二-dutiyamārapāsasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn69)
+\[69\] [MV 1 / Vin i 20-1](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 4.5 / S i 105-106](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-04-mara/sn-04-mara/#15-sn-45-繫蹄经其二-dutiyamārapāsasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn69)
 {: id="fn-fn69"}
 
 \[70\] [Thag 14.1 / Thag verse 648](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-11-16-ekadasaka-visati/#thag-141-离婆多长老偈-khadiravaniyarevatattheragāthā){: target="_blank" rel="noopener"}, Khadiravaniyarevatattheragāthā[&nbsp;↩&nbsp;](#fr-fn70)
@@ -2410,16 +2410,16 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[71\] 译注：“attha”也可翻译为“利益”、“安乐”、“获得”、“利润”或“财富”。[&nbsp;↩&nbsp;](#fr-fn71)
 {: id="fn-fn71"}
 
-\[72\] [MV 1 / Vin i 20-1](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}; [SN 4.5 / S i 105](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-04-mara/sn-04-mara/#15-sn-45-繫蹄经其二-dutiyamārapāsasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn72)
+\[72\] [MV 1 / Vin i 20-1](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 4.5 / S i 105](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-04-mara/sn-04-mara/#15-sn-45-繫蹄经其二-dutiyamārapāsasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn72)
 {: id="fn-fn72"}
 
-\[73\] [DN 16 / D ii 119-20](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}; [DN 33 / D iii 211-12](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn73)
+\[73\] [DN 16 / D ii 119-20](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[DN 33 / D iii 211-12](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn73)
 {: id="fn-fn73"}
 
 \[74\] [AN 5.88 / A iii 114-5](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-081-090-thera/#8-an-588-邪见长老-therasutta){: target="_blank" rel="noopener"}, [AN 6.46 / A iii 355-6](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#4-an-646-摩诃周那经-mahācundasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn74)
 {: id="fn-fn74"}
 
-\[75\] 佛陀：[DN 18 / D ii 211-12](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}, [DN 19 / D ii 222](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}; [MN 4 / M i 21](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-004-bhayabherava/){: target="_blank" rel="noopener"}, [MN 12 / M i 83](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-012-mahasihanada/){: target="_blank" rel="noopener"}; [SN 21.2 / S ii 275](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-21-bhikkhu/sn-21-bhikkhu/#12-sn-212-优波低舍经-upatissasutta){: target="_blank" rel="noopener"}; [AN 1.170 / A i 22](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#41-an-1170-174-如来出世的稀有与利益){: target="_blank" rel="noopener"}。佛陀、阿罗汉和“有学”（sekha）：[Iti 3.35 / It 78-9](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#45-iti-335-多人利益经){: target="_blank" rel="noopener"}。佛陀和转轮圣王：[AN 2.52 / A i 76](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-053-118-dutiyapannasaka/#11-an-253-两种出世之人){: target="_blank" rel="noopener"}。比丘和具有戒行及善法（kalyāṇa-dhamma）的婆罗门：[DN 23 / D ii 331-2](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-23-payasi/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn75)
+\[75\] 佛陀：[DN 18 / D ii 211-12](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}；[DN 19 / D ii 222](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}；[MN 4 / M i 21](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-004-bhayabherava/){: target="_blank" rel="noopener"}；[MN 12 / M i 83](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-012-mahasihanada/){: target="_blank" rel="noopener"}；[SN 21.2 / S ii 275](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-21-bhikkhu/sn-21-bhikkhu/#12-sn-212-优波低舍经-upatissasutta){: target="_blank" rel="noopener"}；[AN 1.170 / A i 22](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#41-an-1170-174-如来出世的稀有与利益){: target="_blank" rel="noopener"}。佛陀、阿罗汉和“有学”（sekha）：[Iti 3.35 / It 78-9](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#45-iti-335-多人利益经){: target="_blank" rel="noopener"}。佛陀和转轮圣王：[AN 2.52 / A i 76](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-053-118-dutiyapannasaka/#11-an-253-两种出世之人){: target="_blank" rel="noopener"}。比丘和具有戒行及善法（kalyāṇa-dhamma）的婆罗门：[DN 23 / D ii 331-2](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-23-payasi/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn75)
 {: id="fn-fn75"}
 
 \[76\] [DN 12 / D i 228-9](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-12-lohicca/){: target="_blank" rel="noopener"}, Lohicca Sutta.[&nbsp;↩&nbsp;](#fr-fn76)
@@ -2431,10 +2431,10 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[78\] [SN 16.5 / S ii 203](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-16-kassapa/sn-16-kassapa/#15-sn-165-老经-jiṇṇasutta){: target="_blank" rel="noopener"}, Jiṇṇa Sutta.[&nbsp;↩&nbsp;](#fr-fn78)
 {: id="fn-fn78"}
 
-\[79\] 作为后代的榜样：[AN 2.44 / A i 71](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#53-an-245-无上与有上){: target="_blank" rel="noopener"}, [AN 3.96 / A i 242-3](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-093-103-lonakapalla/#4-an-396-三众-parisāsutta){: target="_blank" rel="noopener"}; [AN 4.160 / A ii 147](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-151-160-indriya/#10-an-4160-善逝之律-sugatavinayasutta){: target="_blank" rel="noopener"}; [AN 5.79 / A iii 105-106](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#9-an-579-未来怖畏经之三-tatiyaanāgatabhayasutta){: target="_blank" rel="noopener"}, [AN 5.156 / A iii 178-9](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-151-160-saddhamma/#6-an-5156-忘失正法经之三-tatiyasaddhammasammosasutta){: target="_blank" rel="noopener"}, [AN 5.218 / A iii 255-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-211-220-akkosaka/#8-an-5218-端正五德之二-dutiyaapāsādikasutta){: target="_blank" rel="noopener"}; [PV 7 / Vin v 132](https://aipali.true-dhamma.com/vinaya/pv/pv-07-ekuttarikanaya/){: target="_blank" rel="noopener"}；作为普遍的榜样：[AN 3.27 / A i 127](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-021-030-puggala/#7-an-327-厌弃经-jigucchitabbasutta){: target="_blank" rel="noopener"}, [AN 3.92 / A i 239](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#11-an-392-崩伽阇邑经-saṅkavāsutta){: target="_blank" rel="noopener"}, [AN 3.100 / A i 246-7](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-093-103-lonakapalla/#8-an-3100-树皮衣-potthakasutta){: target="_blank" rel="noopener"}; [AN 5.88 / A iii 114-5](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-081-090-thera/#8-an-588-邪见长老-therasutta){: target="_blank" rel="noopener"}, [AN 6.67 / A iii 422](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-065-074-devata-2/#3-an-667-善人为友-mittasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn79)
+\[79\] 作为后代的榜样：[AN 2.44 / A i 71](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#53-an-245-无上与有上){: target="_blank" rel="noopener"}；[AN 3.96 / A i 242-3](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-093-103-lonakapalla/#4-an-396-三众-parisāsutta){: target="_blank" rel="noopener"}；[AN 4.160 / A ii 147](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-151-160-indriya/#10-an-4160-善逝之律-sugatavinayasutta){: target="_blank" rel="noopener"}；[AN 5.79 / A iii 105-106](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#9-an-579-未来怖畏经之三-tatiyaanāgatabhayasutta){: target="_blank" rel="noopener"}；[AN 5.156 / A iii 178-9](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-151-160-saddhamma/#6-an-5156-忘失正法经之三-tatiyasaddhammasammosasutta){: target="_blank" rel="noopener"}；[AN 5.218 / A iii 255-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-211-220-akkosaka/#8-an-5218-端正五德之二-dutiyaapāsādikasutta){: target="_blank" rel="noopener"}；[PV 7 / Vin v 132](https://aipali.true-dhamma.com/vinaya/pv/pv-07-ekuttarikanaya/){: target="_blank" rel="noopener"}；作为普遍的榜样：[AN 3.27 / A i 127](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-021-030-puggala/#7-an-327-厌弃经-jigucchitabbasutta){: target="_blank" rel="noopener"}；[AN 3.92 / A i 239](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#11-an-392-崩伽阇邑经-saṅkavāsutta){: target="_blank" rel="noopener"}；[AN 3.100 / A i 246-7](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-093-103-lonakapalla/#8-an-3100-树皮衣-potthakasutta){: target="_blank" rel="noopener"}；[AN 5.88 / A iii 114-5](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-081-090-thera/#8-an-588-邪见长老-therasutta){: target="_blank" rel="noopener"}；[AN 6.67 / A iii 422](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-065-074-devata-2/#3-an-667-善人为友-mittasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn79)
 {: id="fn-fn79"}
 
-\[80\] [CV 5 / Vin ii 108](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}, [CV 5 / Vin ii 128-9](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}; [BV 1.2 / Vin iii 42](https://aipali.true-dhamma.com/vinaya/bv/kanda-01-parajika/bv-01-02-dutiya/){: target="_blank" rel="noopener"}; [AN 5.209 / A iii 251](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-201-210-kimila/#9-an-5209-歌音诵法经-gītassarasutta){: target="_blank" rel="noopener"}; [MN 85 / M ii 92-3](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn80)
+\[80\] [CV 5 / Vin ii 108](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}, [CV 5 / Vin ii 128-9](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}；[BV 1.2 / Vin iii 42](https://aipali.true-dhamma.com/vinaya/bv/kanda-01-parajika/bv-01-02-dutiya/){: target="_blank" rel="noopener"}；[AN 5.209 / A iii 251](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-201-210-kimila/#9-an-5209-歌音诵法经-gītassarasutta){: target="_blank" rel="noopener"}；[MN 85 / M ii 92-3](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn80)
 {: id="fn-fn80"}
 
 \[81\] [AN 1.188–197 / A i 23](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#51-an-1188-197-比丘第一其一){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn81)
@@ -2452,7 +2452,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[85\] [MV 1 / Vin i 82](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}. \[译注：尊者罗睺罗（Rāhula）是佛陀的儿子。\][&nbsp;↩&nbsp;](#fr-fn85)
 {: id="fn-fn85"}
 
-\[86\] 例如，沙弥僧吉蔗（Saṅkicca）、般地达（Paṇḍita）、索帕迦（Sopāka）和离婆多（Revata）：[Thag 7.4 / Thag verses 480-6](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-74-索帕卡长老偈-sopākattheragāthā){: target="_blank" rel="noopener"}, [Thag 11.1 / Thag verses 597-607](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-11-16-ekadasaka-visati/#thag-111-沙其卡长老偈-saṃkiccattheragāthā){: target="_blank" rel="noopener"}, [Thag 14.1 / Thag verses 645-58](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-11-16-ekadasaka-visati/#thag-141-离婆多长老偈-khadiravaniyarevatattheragāthā){: target="_blank" rel="noopener"}；DhA. II. 127, 239; DhA. IV. 186.[&nbsp;↩&nbsp;](#fr-fn86)
+\[86\] 例如，沙弥僧吉蔗（Saṅkicca）、般地达（Paṇḍita）、索帕迦（Sopāka）和离婆多（Revata）：[Thag 7.4 / Thag verses 480-6](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-74-索帕卡长老偈-sopākattheragāthā){: target="_blank" rel="noopener"}；[Thag 11.1 / Thag verses 597-607](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-11-16-ekadasaka-visati/#thag-111-沙其卡长老偈-saṃkiccattheragāthā){: target="_blank" rel="noopener"}；[Thag 14.1 / Thag verses 645-58](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-11-16-ekadasaka-visati/#thag-141-离婆多长老偈-khadiravaniyarevatattheragāthā){: target="_blank" rel="noopener"}；DhA. II. 127, 239；DhA. IV. 186.[&nbsp;↩&nbsp;](#fr-fn86)
 {: id="fn-fn86"}
 
 \[87\] J. I. 234.[&nbsp;↩&nbsp;](#fr-fn87)
@@ -2464,10 +2464,10 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[89\] 参阅 [MN 67 / M i 459](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-067-catuma/){: target="_blank" rel="noopener"}, Cātuma Sutta.[&nbsp;↩&nbsp;](#fr-fn89)
 {: id="fn-fn89"}
 
-\[90\] [DN 16 / D ii 76](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}; [AN 7.23 / A iv 21](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-021-031-vajjisattaka/#3-an-723-七不衰法之一经-paṭhamasattakasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn90)
+\[90\] [DN 16 / D ii 76](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[AN 7.23 / A iv 21](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-021-031-vajjisattaka/#3-an-723-七不衰法之一经-paṭhamasattakasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn90)
 {: id="fn-fn90"}
 
-\[91\] [MN 108 / M iii 8-13](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-108-gopakamoggallana/){: target="_blank" rel="noopener"}; [DN 16 / D ii 154](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn91)
+\[91\] [MN 108 / M iii 8-13](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-108-gopakamoggallana/){: target="_blank" rel="noopener"}；[DN 16 / D ii 154](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn91)
 {: id="fn-fn91"}
 
 \[92\] 参阅《律藏》（Vinaya Piṭaka）第一、二卷。[&nbsp;↩&nbsp;](#fr-fn92)
@@ -2494,7 +2494,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[99\] 参阅：Paṭhamasambhodikathā, Mārabandhaparivatta, Pariccheda #28.[&nbsp;↩&nbsp;](#fr-fn99)
 {: id="fn-fn99"}
 
-\[100\] [AN 4.117 / A ii 120](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-111-120-kesi/#7-an-4117-守护经-ārakkhasutta){: target="_blank" rel="noopener"}; [Iti 3.39 / It 83](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#49-iti-339-内垢经){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn100)
+\[100\] [AN 4.117 / A ii 120](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-111-120-kesi/#7-an-4117-守护经-ārakkhasutta){: target="_blank" rel="noopener"}；[Iti 3.39 / It 83](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#49-iti-339-内垢经){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn100)
 {: id="fn-fn100"}
 
 \[101\] [MN 95 / M ii 172](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-095-canki/){: target="_blank" rel="noopener"}, Caṅkī Sutta.[&nbsp;↩&nbsp;](#fr-fn101)
@@ -2506,7 +2506,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[103\] [MN 152 / M iii 300-301](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-152-indriyabhavana/){: target="_blank" rel="noopener"}, Indriyabhāvanā Sutta.[&nbsp;↩&nbsp;](#fr-fn103)
 {: id="fn-fn103"}
 
-\[104\] [Snp 25 / Sn 65](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#25-snp-25-正游行经-sammāparibbājanīyasutta){: target="_blank" rel="noopener"}, [Snp 32 / Sn 95](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#32-snp-32-娑毗耶经-sabhiyasutta){: target="_blank" rel="noopener"}; [Dhp 321-3](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-290-359-pakinnaka-niraya-naga-tanha/#231-dhp-320-322-佛陀忍受毁谤-attadantavatthu){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn104)
+\[104\] [Snp 25 / Sn 65](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#25-snp-25-正游行经-sammāparibbājanīyasutta){: target="_blank" rel="noopener"}, [Snp 32 / Sn 95](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#32-snp-32-娑毗耶经-sabhiyasutta){: target="_blank" rel="noopener"}；[Dhp 321-3](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-290-359-pakinnaka-niraya-naga-tanha/#231-dhp-320-322-佛陀忍受毁谤-attadantavatthu){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn104)
 {: id="fn-fn104"}
 
 \[105\] [Dhp 103-105](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-076-128-pandita-arahanta-sahassa-papa/#83-dhp-102-103-军荼罗吉尸富家女嫁小偷-kuṇḍalakesitherīvatthu){: target="_blank" rel="noopener"}, Sahassavagga[&nbsp;↩&nbsp;](#fr-fn105)
@@ -2515,28 +2515,28 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[106\] [AN 6.55 / A iii 378](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#1-an-655-尊者守笼那经-soṇasutta){: target="_blank" rel="noopener"}, Soṇa Sutta.[&nbsp;↩&nbsp;](#fr-fn106)
 {: id="fn-fn106"}
 
-\[107\] [Dhp 95](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-076-128-pandita-arahanta-sahassa-papa/#76-dhp-95-比丘控诉舍利弗-sāriputtattheravatthu){: target="_blank" rel="noopener"}；[AN 9.11 / A iv 374-5](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#1-an-911-狮子吼经-sīhanādasutta){: target="_blank" rel="noopener"}；（在修行层面：[MN 21 / M i 127](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-021-kakacupama/){: target="_blank" rel="noopener"}, [MN 62 / M i 423](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-062-maharahulovada/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn107)
+\[107\] [Dhp 95](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-076-128-pandita-arahanta-sahassa-papa/#76-dhp-95-比丘控诉舍利弗-sāriputtattheravatthu){: target="_blank" rel="noopener"}；[AN 9.11 / A iv 374-5](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#1-an-911-狮子吼经-sīhanādasutta){: target="_blank" rel="noopener"}；（在修行层面：[MN 21 / M i 127](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-021-kakacupama/){: target="_blank" rel="noopener"}；[MN 62 / M i 423](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-062-maharahulovada/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn107)
 {: id="fn-fn107"}
 
-\[108\] [Snp 32 / Sn 101](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#32-snp-32-娑毗耶经-sabhiyasutta){: target="_blank" rel="noopener"}, [Snp 44 / Sn 160](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#44-snp-44-衰老经-jarāsutta){: target="_blank" rel="noopener"}; [Dhp 401](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-360-423-bhikkhu-brahmana/#2618-dhp-401-阿罗汉不染诸欲-uppalavaṇṇāttherīvatthu){: target="_blank" rel="noopener"}；[AN 4.36 / A ii 39](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#6-an-436-头那婆罗门经-doṇasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn108)
+\[108\] [Snp 32 / Sn 101](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#32-snp-32-娑毗耶经-sabhiyasutta){: target="_blank" rel="noopener"}, [Snp 44 / Sn 160](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#44-snp-44-衰老经-jarāsutta){: target="_blank" rel="noopener"}；[Dhp 401](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-360-423-bhikkhu-brahmana/#2618-dhp-401-阿罗汉不染诸欲-uppalavaṇṇāttherīvatthu){: target="_blank" rel="noopener"}；[AN 4.36 / A ii 39](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#6-an-436-头那婆罗门经-doṇasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn108)
 {: id="fn-fn108"}
 
 \[109\] [DN 34 / D iii 275](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}, Dasuttara Sutta.[&nbsp;↩&nbsp;](#fr-fn109)
 {: id="fn-fn109"}
 
-\[110\] [SN 1.20 / S i 12](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-01-devata/sn-01-11-20-nandana/#10-sn-120-三弥提经-samiddhisutta){: target="_blank" rel="noopener"}, [SN 1.34 / S i 23](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-01-devata/sn-01-31-40-satullapakayika/#4-sn-134-非然经-nasantisutta){: target="_blank" rel="noopener"}, [SN 6.3 / S i 141](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#13-sn-63-梵天经-brahmadevasutta){: target="_blank" rel="noopener"}; [Snp 58 / Sn 201](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#58-snp-58-富楼那问经-puṇṇakamāṇavapucchā){: target="_blank" rel="noopener"}, [Snp 62 / Sn 208](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#62-snp-62-难陀问经-nandamāṇavapucchā){: target="_blank" rel="noopener"}。佛陀倾向于在偈颂中，就智慧而言，使用“无望（nirāsa）”作为对日常词语的玩味，就像“无信（assaddha）”一样。在散文中，则使用另一个词——“离希望（vigatāsa）”——意指所愿之物的离去，或希望的终结，以区别于绝望或失望（[AN 3.13 / A i 107](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-011-020-rathakara/#3-an-313-正希望者-āsaṃsasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn110)
+\[110\] [SN 1.20 / S i 12](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-01-devata/sn-01-11-20-nandana/#10-sn-120-三弥提经-samiddhisutta){: target="_blank" rel="noopener"}；[SN 1.34 / S i 23](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-01-devata/sn-01-31-40-satullapakayika/#4-sn-134-非然经-nasantisutta){: target="_blank" rel="noopener"}；[SN 6.3 / S i 141](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#13-sn-63-梵天经-brahmadevasutta){: target="_blank" rel="noopener"}；[Snp 58 / Sn 201](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#58-snp-58-富楼那问经-puṇṇakamāṇavapucchā){: target="_blank" rel="noopener"}；[Snp 62 / Sn 208](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#62-snp-62-难陀问经-nandamāṇavapucchā){: target="_blank" rel="noopener"}。佛陀倾向于在偈颂中，就智慧而言，使用“无望（nirāsa）”作为对日常词语的玩味，就像“无信（assaddha）”一样。在散文中，则使用另一个词——“离希望（vigatāsa）”——意指所愿之物的离去，或希望的终结，以区别于绝望或失望（[AN 3.13 / A i 107](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-011-020-rathakara/#3-an-313-正希望者-āsaṃsasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn110)
 {: id="fn-fn110"}
 
-\[111\] 例如：[MN 26 / M i 174](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-026-pasarasi/){: target="_blank" rel="noopener"}; [SN 2.19 / S i 55](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-02-devaputta/sn-02-11-20-anathapindika/#9-sn-219-郁多罗经-uttarasutta){: target="_blank" rel="noopener"}; [AN 3.35 / A i 137-8](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-031-040-devaduta/#5-an-335-诃哆王子经-hatthakasutta){: target="_blank" rel="noopener"}; [AN 4.198 / A ii 208](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#8-an-4198-自苦经-attantapasutta){: target="_blank" rel="noopener"}; [Ud 2.10 / Ud 19-20](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-02-mucalinda/#10-ud-210-尊者跋提-bhaddiyasutta){: target="_blank" rel="noopener"}; [Snp 35 / Sn 119-20](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}, [Snp 53 / Sn 185](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#53-snp-53-执杖经-attadaṇḍasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn111)
+\[111\] 例如：[MN 26 / M i 174](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-026-pasarasi/){: target="_blank" rel="noopener"}；[SN 2.19 / S i 55](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-02-devaputta/sn-02-11-20-anathapindika/#9-sn-219-郁多罗经-uttarasutta){: target="_blank" rel="noopener"}；[AN 3.35 / A i 137-8](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-031-040-devaduta/#5-an-335-诃哆王子经-hatthakasutta){: target="_blank" rel="noopener"}；[AN 4.198 / A ii 208](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#8-an-4198-自苦经-attantapasutta){: target="_blank" rel="noopener"}；[Ud 2.10 / Ud 19-20](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-02-mucalinda/#10-ud-210-尊者跋提-bhaddiyasutta){: target="_blank" rel="noopener"}；[Snp 35 / Sn 119-20](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}；[Snp 53 / Sn 185](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#53-snp-53-执杖经-attadaṇḍasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn111)
 {: id="fn-fn111"}
 
-\[112\] 请注意，这里的“随顺忍（anulomikā khanti）”被翻译为“有助于证悟真理的考察”。“忍（khanti）”在此用作智慧的一个方面，而不仅仅指忍耐；可将此意义与：Ps. I. 123-4; Ps. II. 236, 238; Vbh. 324-5, 340 相比较。（VbhA. 411 指出，“忍〔khanti〕”是“慧〔paññā〕”的同义词；VbhA. 459 指出，“随顺忍〔anulomikā khanti〕”是毗婆舍那智〔vipassanā-ñāṇa〕；此意义上的“忍〔khanti〕”有时被翻译为“忍智〔khanti-ñāṇa〕”。）[&nbsp;↩&nbsp;](#fr-fn112)
+\[112\] 请注意，这里的“随顺忍（anulomikā khanti）”被翻译为“有助于证悟真理的考察”。“忍（khanti）”在此用作智慧的一个方面，而不仅仅指忍耐；可将此意义与：Ps. I. 123-4；Ps. II. 236, 238；Vbh. 324-5, 340 相比较。（VbhA. 411 指出，“忍〔khanti〕”是“慧〔paññā〕”的同义词；VbhA. 459 指出，“随顺忍〔anulomikā khanti〕”是毗婆舍那智〔vipassanā-ñāṇa〕；此意义上的“忍〔khanti〕”有时被翻译为“忍智〔khanti-ñāṇa〕”。）[&nbsp;↩&nbsp;](#fr-fn112)
 {: id="fn-fn112"}
 
 \[113\] [MN 1 / M i 4-5](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-001-mulapariyaya/){: target="_blank" rel="noopener"}, Mūlapariyāya Sutta.[&nbsp;↩&nbsp;](#fr-fn113)
 {: id="fn-fn113"}
 
-\[114\] [SN 12.51 / S ii 82-3](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-51-60-dukkha/#1-sn-1251-思量经-parivīmaṃsanasutta){: target="_blank" rel="noopener"}; [SN 36.3–6 / S iv 205-210](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#13-sn-363-舍弃经-pahānasutta){: target="_blank" rel="noopener"}; [MN 148 / M iii 285-6](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-148-chachakka/){: target="_blank" rel="noopener"}; [AN 4.195 / A ii 198-9](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#5-an-4195-释迦种瓦帕经-vappasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn114)
+\[114\] [SN 12.51 / S ii 82-3](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-51-60-dukkha/#1-sn-1251-思量经-parivīmaṃsanasutta){: target="_blank" rel="noopener"}；[SN 36.3–6 / S iv 205-210](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#13-sn-363-舍弃经-pahānasutta){: target="_blank" rel="noopener"}；[MN 148 / M iii 285-6](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-148-chachakka/){: target="_blank" rel="noopener"}；[AN 4.195 / A ii 198-9](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#5-an-4195-释迦种瓦帕经-vappasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn114)
 {: id="fn-fn114"}
 
 \[115\] [SN 36.31 / S iv 236-7](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#311-sn-3631-无食经-nirāmisasutta){: target="_blank" rel="noopener"}, Nirāmisa Sutta.[&nbsp;↩&nbsp;](#fr-fn115)
@@ -2551,7 +2551,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[118\] [SN 22.43 / S iii 42](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-43-52-attadipa/#1-sn-2243-自洲经-attadīpasutta){: target="_blank" rel="noopener"}, Attadīpa Sutta.[&nbsp;↩&nbsp;](#fr-fn118)
 {: id="fn-fn118"}
 
-\[119\] [MN 75 / M i 509](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-075-magandiya/){: target="_blank" rel="noopener"}; [Dhp 204](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-197-289-sukha-piya-kodha-mala-dhammattha-magga/#156-dhp-204-无病是最上的利益-pasenadikosalavatthu){: target="_blank" rel="noopener"}；[Snp 38 / Sn 146](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#38-snp-38-二随观经-dvayatānupassanāsutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn119)
+\[119\] [MN 75 / M i 509](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-075-magandiya/){: target="_blank" rel="noopener"}；[Dhp 204](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-197-289-sukha-piya-kodha-mala-dhammattha-magga/#156-dhp-204-无病是最上的利益-pasenadikosalavatthu){: target="_blank" rel="noopener"}；[Snp 38 / Sn 146](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#38-snp-38-二随观经-dvayatānupassanāsutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn119)
 {: id="fn-fn119"}
 
 \[120\] 参阅 [MN 75 / M i 506-509](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-075-magandiya/){: target="_blank" rel="noopener"}, Māgaṇḍiya Sutta.[&nbsp;↩&nbsp;](#fr-fn120)
@@ -2560,13 +2560,13 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[121\] 参阅 [AN 10.99 / A v 202](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#9-an-1099-优波离-upālisutta){: target="_blank" rel="noopener"}, Upāli Sutta.[&nbsp;↩&nbsp;](#fr-fn121)
 {: id="fn-fn121"}
 
-\[122\] 关于此主题，请参阅：[SN 35.134 / S iv 124-5](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-134-145-devadaha/#1-sn-35134-天臂经-devadahasutta){: target="_blank" rel="noopener"}, [SN 35.132 / S iv 120-21](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-124-133-gahapati/#9-sn-35132-鲁酰遮经-lohiccasutta){: target="_blank" rel="noopener"}; [MN 152 / M iii 299-300](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-152-indriyabhavana/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn122)
+\[122\] 关于此主题，请参阅：[SN 35.134 / S iv 124-5](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-134-145-devadaha/#1-sn-35134-天臂经-devadahasutta){: target="_blank" rel="noopener"}；[SN 35.132 / S iv 120-21](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-124-133-gahapati/#9-sn-35132-鲁酰遮经-lohiccasutta){: target="_blank" rel="noopener"}；[MN 152 / M iii 299-300](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-152-indriyabhavana/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn122)
 {: id="fn-fn122"}
 
 \[123\] [SN 22.60 / S iii 69](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#8-sn-2260-摩诃梨经-mahālisutta){: target="_blank" rel="noopener"}, Mahāli Sutta.[&nbsp;↩&nbsp;](#fr-fn123)
 {: id="fn-fn123"}
 
-\[124\] 参阅：[MN 13 / M i 85-90](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-013-mahadukkhakkhandha/){: target="_blank" rel="noopener"}; [SN 22.26–28 / S iii 27-31](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-22-32-bhara/#5-sn-2226-味经一-assādasuttaṃ){: target="_blank" rel="noopener"}; [AN 3.105 / A i 259-60](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#2-an-3105-滋味之一经-paṭhamaassādasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn124)
+\[124\] 参阅：[MN 13 / M i 85-90](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-013-mahadukkhakkhandha/){: target="_blank" rel="noopener"}；[SN 22.26–28 / S iii 27-31](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-22-32-bhara/#5-sn-2226-味经一-assādasuttaṃ){: target="_blank" rel="noopener"}；[AN 3.105 / A i 259-60](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#2-an-3105-滋味之一经-paṭhamaassādasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn124)
 {: id="fn-fn124"}
 
 \[125\] 例如，佛陀没有回答的问题，如世间是永恒还是非永恒。[&nbsp;↩&nbsp;](#fr-fn125)
@@ -2575,7 +2575,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[126\] 另参阅 [Snp 48 / Sn 167](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#48-snp-48-死前经-purābhedasutta){: target="_blank" rel="noopener"} 和 [Dhp 97](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-076-128-pandita-arahanta-sahassa-papa/#78-dhp-97-舍利弗非盲信-sāriputtattheravatthu){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn126)
 {: id="fn-fn126"}
 
-\[127\] 明（vijjā），例如：MA. II. 348; MA. V. 100; SA. II. 270, 366; AA. I. 55; AA. II. 264; AA. III. 175; \[2/580\]; AA. IV. 90。解脱（vimutti），例如：MA. II. 281; MA. V. 59; AA. II. 263; AA. III. 217, 227, 378, 416; ItA. I. 170。明与解脱（vijjā、vimutti），例如：MA. V. 104; AA. I. 120; AA. II. 79, 154; AA. III. 220; AA. V. 43; VismṬ.: Anussatikammaṭṭhānaniddesavaṇṇanā, Ānāpānassatikathāvaṇṇanā。有些解释是相互矛盾的。[&nbsp;↩&nbsp;](#fr-fn127)
+\[127\] 明（vijjā），例如：MA. II. 348；MA. V. 100；SA. II. 270, 366；AA. I. 55；AA. II. 264；AA. III. 175；\[2/580\]；AA. IV. 90。解脱（vimutti），例如：MA. II. 281；MA. V. 59；AA. II. 263；AA. III. 217, 227, 378, 416；ItA. I. 170。明与解脱（vijjā、vimutti），例如：MA. V. 104；AA. I. 120；AA. II. 79, 154；AA. III. 220；AA. V. 43；VismṬ.: Anussatikammaṭṭhānaniddesavaṇṇanā, Ānāpānassatikathāvaṇṇanā。有些解释是相互矛盾的。[&nbsp;↩&nbsp;](#fr-fn127)
 {: id="fn-fn127"}
 
 \[128\] VismṬ.: Cha-anussatiniddesavaṇṇanā, Buddhānussatikathāvaṇṇanā.[&nbsp;↩&nbsp;](#fr-fn128)
@@ -2593,7 +2593,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[132\] 译注：波斯匿王（Pasenadi）提到了十个原因；其中包括：比丘们和睦相处，相互赞赏，没有争执；以及比丘僧伽纪律严明。[&nbsp;↩&nbsp;](#fr-fn132)
 {: id="fn-fn132"}
 
-\[133\] 此段落指佛陀是一位大丈夫。然而，许多段落证明，这是所有漏尽者（khīṇāsava）的属性。参阅：[MN 20 / M i 121-2](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-020-vitakkasanthana/){: target="_blank" rel="noopener"}, [MN 32 / M i 214-15](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-032-mahagosinga/){: target="_blank" rel="noopener"}; AA. III. 5; \[2/471\].[&nbsp;↩&nbsp;](#fr-fn133)
+\[133\] 此段落指佛陀是一位大丈夫。然而，许多段落证明，这是所有漏尽者（khīṇāsava）的属性。参阅：[MN 20 / M i 121-2](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-020-vitakkasanthana/){: target="_blank" rel="noopener"}；[MN 32 / M i 214-15](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-032-mahagosinga/){: target="_blank" rel="noopener"}；AA. III. 5；\[2/471\].[&nbsp;↩&nbsp;](#fr-fn133)
 {: id="fn-fn133"}
 
 \[134\] [SN 35.69 / S iv 40-41](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-63-73-migajala/#7-sn-3569-优波先那与毒蛇经-upasenaāsīvisasutta){: target="_blank" rel="noopener"}, Upasenaāsīvisa Sutta.[&nbsp;↩&nbsp;](#fr-fn134)
@@ -2605,7 +2605,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[136\] 这是佛陀的一种品质。然而，阿罗汉也遵循这种修行，而且“大丈夫（mahāpurisa）”是阿罗汉常见的称号。例如：[Dhp 352](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-290-359-pakinnaka-niraya-naga-tanha/#248-dhp-351-352-魔罗恐吓罗睺罗-māravatthu){: target="_blank" rel="noopener"}；[Snp 57 / Sn 199](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#57-snp-57-提舍弥勒问经-tissametteyyamāṇavapucchā){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn136)
 {: id="fn-fn136"}
 
-\[137\] 例如：[MN 91 / M ii 138](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-091-brahmayu/){: target="_blank" rel="noopener"}; [SN 11.3 / S i 219-20](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-11-sakka/sn-11-sakka/#13-sn-113-幢顶经-dhajaggasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn137)
+\[137\] 例如：[MN 91 / M ii 138](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-091-brahmayu/){: target="_blank" rel="noopener"}；[SN 11.3 / S i 219-20](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-11-sakka/sn-11-sakka/#13-sn-113-幢顶经-dhajaggasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn137)
 {: id="fn-fn137"}
 
 \[138\] Vism. 634-5; VbhA. 489.[&nbsp;↩&nbsp;](#fr-fn138)
@@ -2617,16 +2617,16 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[140\] 解脱（vimokkha）与心解脱（cetovimutti）中的“解脱（vimutti）”一词相对应：通过禅定（samādhi）的力量获得的解脱。[&nbsp;↩&nbsp;](#fr-fn140)
 {: id="fn-fn140"}
 
-\[141\] 例如：[DN 33 / D iii 262](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}; [AN 8.66 / A iv 306-307](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-061-070-bhumicala/#6-an-866-八解脱-vimokkhasutta){: target="_blank" rel="noopener"}。解释见：Ps. II. 38-40; DA. II. 513; MA. III. 255; AA. IV. 146.[&nbsp;↩&nbsp;](#fr-fn141)
+\[141\] 例如：[DN 33 / D iii 262](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 8.66 / A iv 306-307](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-061-070-bhumicala/#6-an-866-八解脱-vimokkhasutta){: target="_blank" rel="noopener"}。解释见：Ps. II. 38-40；DA. II. 513；MA. III. 255；AA. IV. 146.[&nbsp;↩&nbsp;](#fr-fn141)
 {: id="fn-fn141"}
 
 \[142\] 译注：遍处（kasiṇa）：关于蓝色、黄色、红色和白色，以及地、水、火、风、空和识（或光）等元素的十种禅修。[&nbsp;↩&nbsp;](#fr-fn142)
 {: id="fn-fn142"}
 
-\[143\] [DN 28 / D iii 105](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-28-sampasadaniya/){: target="_blank" rel="noopener"}, [DN 33 / D iii 253-4](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}; [AN 7.14 / A iv 10-11](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-011-020-anusaya/#4-an-714-七等人-puggalasutta){: target="_blank" rel="noopener"}, [AN 7.56 / A iv 76-7](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-054-064-abyakata/#3-an-756-帝须梵经-tissabrahmāsutta){: target="_blank" rel="noopener"}; Ps. II. 53-4。关于不同解释，请参阅附录七。[&nbsp;↩&nbsp;](#fr-fn143)
+\[143\] [DN 28 / D iii 105](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-28-sampasadaniya/){: target="_blank" rel="noopener"}；[DN 33 / D iii 253-4](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 7.14 / A iv 10-11](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-011-020-anusaya/#4-an-714-七等人-puggalasutta){: target="_blank" rel="noopener"}；[AN 7.56 / A iv 76-7](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-054-064-abyakata/#3-an-756-帝须梵经-tissabrahmāsutta){: target="_blank" rel="noopener"}；Ps. II. 53-4。关于不同解释，请参阅附录七。[&nbsp;↩&nbsp;](#fr-fn143)
 {: id="fn-fn143"}
 
-\[144\] 此图表遵循《巴利三藏》中的大纲（参阅：[AN 3.21 / A i 120](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-021-030-puggala/#1-an-321-萨弥达经-samiddhasutta){: target="_blank" rel="noopener"}; Pug. 74），《胜义宝函》（Paramatthamañjusā）声称这是一个直接的呈现。《无碍解道》（Paṭisambhidāmagga）使用了一个它称之为“间接”或“比喻性”的大纲，其差异很大（Ps. II. 53-5）。为了避免给读者造成困惑，我在此不呈现后者的大纲。后来的文献如《清净道论》（Visuddhimagga）则依后者的纲要来解释。参阅：Vism. 659-60; VismṬ.: Paṭipadāñāṇadassanavisuddhiniddesavaṇṇanā, Saṅkhārupekkhāñāṇakathāvaṇṇanā。参阅：[AN 3.21 / A i 120](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-021-030-puggala/#1-an-321-萨弥达经-samiddhasutta){: target="_blank" rel="noopener"} 和 Pug. 72.[&nbsp;↩&nbsp;](#fr-fn144)
+\[144\] 此图表遵循《巴利三藏》中的大纲（参阅：[AN 3.21 / A i 120](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-021-030-puggala/#1-an-321-萨弥达经-samiddhasutta){: target="_blank" rel="noopener"}；Pug. 74），《胜义宝函》（Paramatthamañjusā）声称这是一个直接的呈现。《无碍解道》（Paṭisambhidāmagga）使用了一个它称之为“间接”或“比喻性”的大纲，其差异很大（Ps. II. 53-5）。为了避免给读者造成困惑，我在此不呈现后者的大纲。后来的文献如《清净道论》（Visuddhimagga）则依后者的纲要来解释。参阅：Vism. 659-60；VismṬ.: Paṭipadāñāṇadassanavisuddhiniddesavaṇṇanā, Saṅkhārupekkhāñāṇakathāvaṇṇanā。参阅：[AN 3.21 / A i 120](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-021-030-puggala/#1-an-321-萨弥达经-samiddhasutta){: target="_blank" rel="noopener"} 和 Pug. 72.[&nbsp;↩&nbsp;](#fr-fn144)
 {: id="fn-fn144"}
 
 \[145\] Paṭivedhakāle paññandriyaṁ ādhipateyyaṁ hoti（Ps. II. 50-51；另参阅 [SN 48.45 / S v 222](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-41-50-jara/#5-sn-4845-东园之一-paṭhamapubbārāmasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn145)
@@ -2635,7 +2635,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[146\] Ps. II. 52.[&nbsp;↩&nbsp;](#fr-fn146)
 {: id="fn-fn146"}
 
-\[147\] 例如：DA. II. 514; Vism. 660; VismṬ.: Paṭipadāñāṇadassanavisuddhiniddesavaṇṇanā, Saṅkhārupekkhāñāṇakathāvaṇṇanā.[&nbsp;↩&nbsp;](#fr-fn147)
+\[147\] 例如：DA. II. 514；Vism. 660；VismṬ.: Paṭipadāñāṇadassanavisuddhiniddesavaṇṇanā, Saṅkhārupekkhāñāṇakathāvaṇṇanā.[&nbsp;↩&nbsp;](#fr-fn147)
 {: id="fn-fn147"}
 
 \[148\] 参阅：[SN 12.70 / S ii 121-7](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#10-sn-1270-须深游方者经-susimaparibbājakasutta){: target="_blank" rel="noopener"}, Susimaparibbājaka Sutta.[&nbsp;↩&nbsp;](#fr-fn148)
@@ -2644,16 +2644,16 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[149\] 慧解脱者（paññā-vimutta）和俱解脱者（ubhatobhāga-vimutta）的比较见 [DN 15 / D ii 68-71](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-15-mahanidana/){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn149)
 {: id="fn-fn149"}
 
-\[150\] 一些次要和后来的文献将解脱分为三种，并根据对三法印（tilakkhaṇa）中每一个的辨别，并与主导根（indriya）相关联，将其扩展为不同的类别。这三种解脱是空解脱（suññata-vimokkha）、无相解脱（animitta-vimokkha）和无愿解脱（appaṇihita-vimokkha）。为避免读者负担过重，此处不列出这些类别。参阅：Ps. II. 35-71; Vism. 657-9; Comp.: Kammaṭṭhānaparicchedo, Vipassanākammaṭṭhānaṁ, Visuddhibhedo。律藏（Vinaya Piṭaka）列出了这三种解脱，但义注的解释不同；参阅：[BV 1.4 / Vin iii 92-3](https://aipali.true-dhamma.com/vinaya/bv/kanda-01-parajika/bv-01-04-catuttha/){: target="_blank" rel="noopener"}; [BV 5.1.8 / Vin iv 25-6](https://aipali.true-dhamma.com/vinaya/bv/kanda-05-pacittiya/bv-05-01-musavada/#8-单堕八证上人法-bhūtārocanasikkhāpada){: target="_blank" rel="noopener"}; VinA. II. 493。此外，义注将这里的五种慧解脱者（paññā-vimutta）和五种俱解脱者（ubhatobhāga-vimutta）按奢摩他（samatha）禅修的基础来分类，例如：DA. II. 512; DA. III. 889; MA. III. 188; PañcA. 191.[&nbsp;↩&nbsp;](#fr-fn150)
+\[150\] 一些次要和后来的文献将解脱分为三种，并根据对三法印（tilakkhaṇa）中每一个的辨别，并与主导根（indriya）相关联，将其扩展为不同的类别。这三种解脱是空解脱（suññata-vimokkha）、无相解脱（animitta-vimokkha）和无愿解脱（appaṇihita-vimokkha）。为避免读者负担过重，此处不列出这些类别。参阅：Ps. II. 35-71；Vism. 657-9；Comp.: Kammaṭṭhānaparicchedo, Vipassanākammaṭṭhānaṁ, Visuddhibhedo。律藏（Vinaya Piṭaka）列出了这三种解脱，但义注的解释不同；参阅：[BV 1.4 / Vin iii 92-3](https://aipali.true-dhamma.com/vinaya/bv/kanda-01-parajika/bv-01-04-catuttha/){: target="_blank" rel="noopener"}；[BV 5.1.8 / Vin iv 25-6](https://aipali.true-dhamma.com/vinaya/bv/kanda-05-pacittiya/bv-05-01-musavada/#8-单堕八证上人法-bhūtārocanasikkhāpada){: target="_blank" rel="noopener"}；VinA. II. 493。此外，义注将这里的五种慧解脱者（paññā-vimutta）和五种俱解脱者（ubhatobhāga-vimutta）按奢摩他（samatha）禅修的基础来分类，例如：DA. II. 512；DA. III. 889；MA. III. 188；PañcA. 191.[&nbsp;↩&nbsp;](#fr-fn150)
 {: id="fn-fn150"}
 
-\[151\] 参阅：[MN 64 / M i 437](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-064-mahamalukya/){: target="_blank" rel="noopener"}; MA. III. 191.[&nbsp;↩&nbsp;](#fr-fn151)
+\[151\] 参阅：[MN 64 / M i 437](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-064-mahamalukya/){: target="_blank" rel="noopener"}；MA. III. 191.[&nbsp;↩&nbsp;](#fr-fn151)
 {: id="fn-fn151"}
 
 \[152\] [AN 5.71 / A iii 84](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#1-an-571-心解脱果经之一-paṭhamacetovimuttiphalasutta){: target="_blank" rel="noopener"}。从本质上讲，所有已证得阿罗汉果的人都已完成了这两种解脱——见下文。[&nbsp;↩&nbsp;](#fr-fn152)
 {: id="fn-fn152"}
 
-\[153\] Ps. II. 53-5; 参阅：[AN 9.43–45 / A iv 451-3](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-042-051-samanna/#2-an-943-身证者经-kāyasakkhīsutta){: target="_blank" rel="noopener"}。另参阅 [AN 1.198–208 / A i 24](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#52-an-1198-208-比丘第一其二){: target="_blank" rel="noopener"}，其中尊者跋迦梨（Vakkali）被誉为所有信解脱者（saddhā-vimutta）中（或信胜解者 saddhādhimutta）最杰出的弟子。《清净道论》依《无碍解道》（Paṭisambhidāmagga）来解释（Vism. 659-60）。[&nbsp;↩&nbsp;](#fr-fn153)
+\[153\] Ps. II. 53-5；参阅：[AN 9.43–45 / A iv 451-3](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-042-051-samanna/#2-an-943-身证者经-kāyasakkhīsutta){: target="_blank" rel="noopener"}。另参阅 [AN 1.198–208 / A i 24](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#52-an-1198-208-比丘第一其二){: target="_blank" rel="noopener"}，其中尊者跋迦梨（Vakkali）被誉为所有信解脱者（saddhā-vimutta）中（或信胜解者 saddhādhimutta）最杰出的弟子。《清净道论》依《无碍解道》（Paṭisambhidāmagga）来解释（Vism. 659-60）。[&nbsp;↩&nbsp;](#fr-fn153)
 {: id="fn-fn153"}
 
 \[154\] 例如：[DN 22 / D ii 313](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-22-mahasatipatthana/){: target="_blank" rel="noopener"}, Mahāsatipaṭṭhāna Sutta.[&nbsp;↩&nbsp;](#fr-fn154)
@@ -2662,16 +2662,16 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[155\] 例如：[DN 33 / D iii 222-3](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}, Saṅgīti Sutta.[&nbsp;↩&nbsp;](#fr-fn155)
 {: id="fn-fn155"}
 
-\[156\] 参阅：[DN 18 / D ii 216-7](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}; [MN 117 / M iii 71](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-117-mahacattarisaka/){: target="_blank" rel="noopener"}; [SN 45.28 / S v 21](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-21-30-micchatta/#8-sn-4528-定经-samādhisutta){: target="_blank" rel="noopener"}; [AN 7.45 / A iv 40](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#2-an-745-七定资粮经-samādhiparikkhārasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn156)
+\[156\] 参阅：[DN 18 / D ii 216-7](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}；[MN 117 / M iii 71](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-117-mahacattarisaka/){: target="_blank" rel="noopener"}；[SN 45.28 / S v 21](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-21-30-micchatta/#8-sn-4528-定经-samādhisutta){: target="_blank" rel="noopener"}；[AN 7.45 / A iv 40](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#2-an-745-七定资粮经-samādhiparikkhārasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn156)
 {: id="fn-fn156"}
 
 \[157\] 比丘尼法施（Dhammadinnā）声称，定的修习包括对所专注的相（nimitta）以及辅助的修行要素的培养（[MN 44 / M i 301](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-044-culavedalla/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn157)
 {: id="fn-fn157"}
 
-\[158\] 例如：[AN 4.172 / A ii 160](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-171-180-sancetaniya/#2-an-4172-四无碍解经-vibhattisutta){: target="_blank" rel="noopener"}; Ps. I. 119-20; Vbh. 294-5。并非必须是俱解脱者（ubhatobhāga-vimutta）才能获得四无碍解（paṭisambhidā）（参阅：Vism. 277, 442; VbhA. 388）。[&nbsp;↩&nbsp;](#fr-fn158)
+\[158\] 例如：[AN 4.172 / A ii 160](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-171-180-sancetaniya/#2-an-4172-四无碍解经-vibhattisutta){: target="_blank" rel="noopener"}；Ps. I. 119-20；Vbh. 294-5。并非必须是俱解脱者（ubhatobhāga-vimutta）才能获得四无碍解（paṭisambhidā）（参阅：Vism. 277, 442；VbhA. 388）。[&nbsp;↩&nbsp;](#fr-fn158)
 {: id="fn-fn158"}
 
-\[159\] 这些慧解脱者（paññā-vimutta）和俱解脱者（ubhatobhāga-vimutta）的定义遵循义注和复注的解释，例如：DA. II. 514, 515; Vism. 659-60; VismṬ.: Paṭipadāñāṇadassanavisuddhiniddesavaṇṇanā, Saṅkhārupekkhāñāṇakathāvaṇṇanā。参阅：[DN 15 / D ii 70-1](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-15-mahanidana/){: target="_blank" rel="noopener"}; [SN 12.70 / S ii 123-27](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#10-sn-1270-须深游方者经-susimaparibbājakasutta){: target="_blank" rel="noopener"}。关于三明（vijjā），参阅：[DN 33 / D iii 220](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}, [DN 34 / D iii 275-6](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}; [AN 10.102 / A v 211](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#2-an-10102-七觉支经-bojjhaṅgasutta){: target="_blank" rel="noopener"}。关于六神通（abhiññā），例如：[DN 34 / D iii 281](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}; [AN 6.2 / A iii 280](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-001-010-ahuneyya/#2-an-62-应请之二-dutiyaāhuneyyasutta){: target="_blank" rel="noopener"}。\[译注：请注意，“俱解脱者（ubhatobhāga-vimutta）”一词在此既用作标题，也用作副标题。\][&nbsp;↩&nbsp;](#fr-fn159)
+\[159\] 这些慧解脱者（paññā-vimutta）和俱解脱者（ubhatobhāga-vimutta）的定义遵循义注和复注的解释，例如：DA. II. 514, 515；Vism. 659-60；VismṬ.: Paṭipadāñāṇadassanavisuddhiniddesavaṇṇanā, Saṅkhārupekkhāñāṇakathāvaṇṇanā。参阅：[DN 15 / D ii 70-1](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-15-mahanidana/){: target="_blank" rel="noopener"}；[SN 12.70 / S ii 123-27](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#10-sn-1270-须深游方者经-susimaparibbājakasutta){: target="_blank" rel="noopener"}。关于三明（vijjā），参阅：[DN 33 / D iii 220](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[DN 34 / D iii 275-6](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 10.102 / A v 211](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#2-an-10102-七觉支经-bojjhaṅgasutta){: target="_blank" rel="noopener"}。关于六神通（abhiññā），例如：[DN 34 / D iii 281](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 6.2 / A iii 280](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-001-010-ahuneyya/#2-an-62-应请之二-dutiyaāhuneyyasutta){: target="_blank" rel="noopener"}。\[译注：请注意，“俱解脱者（ubhatobhāga-vimutta）”一词在此既用作标题，也用作副标题。\][&nbsp;↩&nbsp;](#fr-fn159)
 {: id="fn-fn159"}
 
 \[160\] 这六个术语中，“纯观行者（sukkhavipassaka）”来自义注；其余的则见于《巴利三藏》。这六种阿罗汉列于 Vism. 710，但第一种是信解脱者（saddhāvimutta）而非纯观行者（sukkhavipassaka）。信解脱者（saddhāvimutta）是指以信为主要根，直至证得须陀洹果的人。《无碍解道》（Ps. II. 53-4）保留了该词用于指称从须陀洹果到阿罗汉果位的人（尽管写作信胜解者，saddhādhimutta）；然而，在 Vism. 659 中，则写作信解脱者（saddhāvimutta）。[&nbsp;↩&nbsp;](#fr-fn160)
@@ -2683,7 +2683,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[162\] 义注将这里的“已生（bhūta）”定义为五蕴。义注师声称这只是描述有学和无学修行方式的一种方法。事实上，“已生（bhūta）”在这里可以通过多种方式定义，例如作为处、界（dhātu）或缘起中的因素（SA. II. 61）。[&nbsp;↩&nbsp;](#fr-fn162)
 {: id="fn-fn162"}
 
-\[163\] 遍知法者（saṅkhāta-dhamma）：已完全审察法者 = 阿罗汉；参阅：SA. II. 59; UdA. 116; SnA. I. 124; SnA. II. 587.[&nbsp;↩&nbsp;](#fr-fn163)
+\[163\] 遍知法者（saṅkhāta-dhamma）：已完全审察法者 = 阿罗汉；参阅：SA. II. 59；UdA. 116；SnA. I. 124；SnA. II. 587.[&nbsp;↩&nbsp;](#fr-fn163)
 {: id="fn-fn163"}
 
 \[164\] 《相应部》（Saṁyutta Nikāya）的《大品》（Mahāvagga）中有两部相似的经文：在 [SN 48.2–5 / S v 193](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-01-10-suddhika/#2-sn-482-入流经之一-paṭhamasotāpannasutta){: target="_blank" rel="noopener"} 中，五蕴被五根（5 indriya）取代，而在 [SN 48.26–27 / S v 205](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-21-30-chalindriya/#6-sn-4826-入流-sotāpannasutta){: target="_blank" rel="noopener"} 中，它们被六处（6 indriya）取代。[&nbsp;↩&nbsp;](#fr-fn164)
@@ -2713,22 +2713,22 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[172\] “入流支”（sotāpattiyaṅga）有时指导致证得须陀洹的要素，有时指须陀洹的品质。[&nbsp;↩&nbsp;](#fr-fn172)
 {: id="fn-fn172"}
 
-\[173\] 例如，毗舍佉（Visākhā）的故事：[Ud 8.8 / Ud 91-2](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-08-pataligamiya/#8-ud-88-毗舍佉-visākhāsutta){: target="_blank" rel="noopener"}; UdA. 417; DhA. III. 278.[&nbsp;↩&nbsp;](#fr-fn173)
+\[173\] 例如，毗舍佉（Visākhā）的故事：[Ud 8.8 / Ud 91-2](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-08-pataligamiya/#8-ud-88-毗舍佉-visākhāsutta){: target="_blank" rel="noopener"}；UdA. 417；DhA. III. 278.[&nbsp;↩&nbsp;](#fr-fn173)
 {: id="fn-fn173"}
 
-\[174\] 重要来源：[MV 1 / Vin i 35-9](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}; PvA. 209。\[译注：布萨戒包括独身和过午不食。\][&nbsp;↩&nbsp;](#fr-fn174)
+\[174\] 重要来源：[MV 1 / Vin i 35-9](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；PvA. 209。\[译注：布萨戒包括独身和过午不食。\][&nbsp;↩&nbsp;](#fr-fn174)
 {: id="fn-fn174"}
 
-\[175\] 重要来源：[CV 6 / Vin ii 154-9](https://aipali.true-dhamma.com/vinaya/cv/cv-06-senasana/){: target="_blank" rel="noopener"}; [AN 1.248–257 / A i 25-6](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#56-an-1248-257-优婆塞第一){: target="_blank" rel="noopener"}; AA. I. 384.[&nbsp;↩&nbsp;](#fr-fn175)
+\[175\] 重要来源：[CV 6 / Vin ii 154-9](https://aipali.true-dhamma.com/vinaya/cv/cv-06-senasana/){: target="_blank" rel="noopener"}；[AN 1.248–257 / A i 25-6](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#56-an-1248-257-优婆塞第一){: target="_blank" rel="noopener"}；AA. I. 384.[&nbsp;↩&nbsp;](#fr-fn175)
 {: id="fn-fn175"}
 
-\[176\] 重要来源包括：[MV 8 / Vin i 290-4](https://aipali.true-dhamma.com/vinaya/mv/mv-08-civara/){: target="_blank" rel="noopener"}; [AN 1.258–267 / A i 26](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#57-an-1258-267-优婆夷第一){: target="_blank" rel="noopener"}; AA. I. 404; DhA. I. 384.[&nbsp;↩&nbsp;](#fr-fn176)
+\[176\] 重要来源包括：[MV 8 / Vin i 290-4](https://aipali.true-dhamma.com/vinaya/mv/mv-08-civara/){: target="_blank" rel="noopener"}；[AN 1.258–267 / A i 26](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#57-an-1258-267-优婆夷第一){: target="_blank" rel="noopener"}；AA. I. 404；DhA. I. 384.[&nbsp;↩&nbsp;](#fr-fn176)
 {: id="fn-fn176"}
 
-\[177\] 重要来源：[MV 1 / Vin i 71-2](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, [MV 8 / Vin i 267-82](https://aipali.true-dhamma.com/vinaya/mv/mv-08-civara/){: target="_blank" rel="noopener"}; [CV 5 / Vin ii 119](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}; [AN 1.248–257 / A i 25-6](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#56-an-1248-257-优婆塞第一){: target="_blank" rel="noopener"}; AA. I. 398.[&nbsp;↩&nbsp;](#fr-fn177)
+\[177\] 重要来源：[MV 1 / Vin i 71-2](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[MV 8 / Vin i 267-82](https://aipali.true-dhamma.com/vinaya/mv/mv-08-civara/){: target="_blank" rel="noopener"}；[CV 5 / Vin ii 119](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}；[AN 1.248–257 / A i 25-6](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#56-an-1248-257-优婆塞第一){: target="_blank" rel="noopener"}；AA. I. 398.[&nbsp;↩&nbsp;](#fr-fn177)
 {: id="fn-fn177"}
 
-\[178\] 重要来源：[AN 1.248–257 / A i 25-6](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#56-an-1248-257-优婆塞第一){: target="_blank" rel="noopener"}; [AN 4.55 / A ii 61-2](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-051-060-punnabhisanda/#5-an-455-更得互遇-paṭhamasamajīvīsutta){: target="_blank" rel="noopener"}; [AN 6.16 / A iii 295-6](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#6-an-616-那拘罗父-nakulapitusutta){: target="_blank" rel="noopener"}; [AN 8.48 / A iv 268-9](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-041-050-uposatha/#8-an-848-那拘罗母经-nakulamātāsutta){: target="_blank" rel="noopener"}; [SN 22.1 / S iii 1](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-01-11-nakulapitu/#1-sn-221-那拘罗父经-nakulapitusutta){: target="_blank" rel="noopener"}; [SN 35.131 / S iv 116](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-124-133-gahapati/#8-sn-35131-那拘罗父经-nakulapitusutta){: target="_blank" rel="noopener"}; AA. I. 399.[&nbsp;↩&nbsp;](#fr-fn178)
+\[178\] 重要来源：[AN 1.248–257 / A i 25-6](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#56-an-1248-257-优婆塞第一){: target="_blank" rel="noopener"}；[AN 4.55 / A ii 61-2](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-051-060-punnabhisanda/#5-an-455-更得互遇-paṭhamasamajīvīsutta){: target="_blank" rel="noopener"}；[AN 6.16 / A iii 295-6](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#6-an-616-那拘罗父-nakulapitusutta){: target="_blank" rel="noopener"}；[AN 8.48 / A iv 268-9](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-041-050-uposatha/#8-an-848-那拘罗母经-nakulamātāsutta){: target="_blank" rel="noopener"}；[SN 22.1 / S iii 1](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-01-11-nakulapitu/#1-sn-221-那拘罗父经-nakulapitusutta){: target="_blank" rel="noopener"}；[SN 35.131 / S iv 116](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-124-133-gahapati/#8-sn-35131-那拘罗父经-nakulapitusutta){: target="_blank" rel="noopener"}；AA. I. 399.[&nbsp;↩&nbsp;](#fr-fn178)
 {: id="fn-fn178"}
 
 \[179\] 与巴利语中首先列出缺失、已断除的品质不同，我在此首先列出积极、活跃的品质，这是一种更现代的格式。无论如何，缺失和活跃的品质是直接相互关联的。[&nbsp;↩&nbsp;](#fr-fn179)
@@ -2755,52 +2755,52 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[186\] 也翻译为“恶行”。[&nbsp;↩&nbsp;](#fr-fn186)
 {: id="fn-fn186"}
 
-\[187\] [CV 11 / Vin ii 285](https://aipali.true-dhamma.com/vinaya/cv/cv-11-pancasatika/){: target="_blank" rel="noopener"}; Vism. 683, 685.[&nbsp;↩&nbsp;](#fr-fn187)
+\[187\] [CV 11 / Vin ii 285](https://aipali.true-dhamma.com/vinaya/cv/cv-11-pancasatika/){: target="_blank" rel="noopener"}；Vism. 683, 685.[&nbsp;↩&nbsp;](#fr-fn187)
 {: id="fn-fn187"}
 
 \[188\] 译注：贪（lobha）的同义词。[&nbsp;↩&nbsp;](#fr-fn188)
 {: id="fn-fn188"}
 
-\[189\] [SN 25.1 / S iii 225](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-25-okkanta/sn-25-okkanta/#11-sn-251-眼经-cakkhusutta){: target="_blank" rel="noopener"}; [AN 6.90 / A iii 438](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-085-095-siti/#6-an-690-已断经-pahīnasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn189)
+\[189\] [SN 25.1 / S iii 225](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-25-okkanta/sn-25-okkanta/#11-sn-251-眼经-cakkhusutta){: target="_blank" rel="noopener"}；[AN 6.90 / A iii 438](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-085-095-siti/#6-an-690-已断经-pahīnasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn189)
 {: id="fn-fn189"}
 
-\[190\] [SN 13.1–11 / S ii 133-40](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-13-abhisamaya/sn-13-abhisamaya/#11-sn-131-爪尖经-nakhasikhāsutta){: target="_blank" rel="noopener"}; [SN 55.28 / S v 388](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-21-30-saranani/#8-sn-5528-怖畏与怨仇息止经之一-paṭhamabhayaverūpasantasutta){: target="_blank" rel="noopener"}, [SN 56.36 / S v 441-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-31-40-sisapavana/#6-sn-5636-生类经-pāṇasutta){: target="_blank" rel="noopener"}, [SN 56.49–60 / S v 457-65](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-41-50-papata/#9-sn-5649-须弥之一经-paṭhamasinerupabbatarājasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn190)
+\[190\] [SN 13.1–11 / S ii 133-40](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-13-abhisamaya/sn-13-abhisamaya/#11-sn-131-爪尖经-nakhasikhāsutta){: target="_blank" rel="noopener"}；[SN 55.28 / S v 388](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-21-30-saranani/#8-sn-5528-怖畏与怨仇息止经之一-paṭhamabhayaverūpasantasutta){: target="_blank" rel="noopener"}, [SN 56.36 / S v 441-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-31-40-sisapavana/#6-sn-5636-生类经-pāṇasutta){: target="_blank" rel="noopener"}, [SN 56.49–60 / S v 457-65](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-41-50-papata/#9-sn-5649-须弥之一经-paṭhamasinerupabbatarājasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn190)
 {: id="fn-fn190"}
 
-\[191\] [AN 6.54 / A iii 371-4](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#12-an-654-昙弥经-dhammikasutta){: target="_blank" rel="noopener"}; 参阅：[AN 7.73 / A iv 135-6](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#9-an-773-善眼经-sunettasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn191)
+\[191\] [AN 6.54 / A iii 371-4](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#12-an-654-昙弥经-dhammikasutta){: target="_blank" rel="noopener"}；参阅：[AN 7.73 / A iv 135-6](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#9-an-773-善眼经-sunettasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn191)
 {: id="fn-fn191"}
 
 \[192\] 须陀洹果。[&nbsp;↩&nbsp;](#fr-fn192)
 {: id="fn-fn192"}
 
-\[193\] 例如：MA. I. 74; SA. III. 55; KhA. 188; SnA. I. 193; PsA. I. 282; DhsA. 43；须陀洹道（sotāpatti-magga）被称为见（dassana），例如：[MN 2 / M i 7-8](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-002-sabbasava/){: target="_blank" rel="noopener"}; Dhs. 182, 220.[&nbsp;↩&nbsp;](#fr-fn193)
+\[193\] 例如：MA. I. 74；SA. III. 55；KhA. 188；SnA. I. 193；PsA. I. 282；DhsA. 43；须陀洹道（sotāpatti-magga）被称为见（dassana），例如：[MN 2 / M i 7-8](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-002-sabbasava/){: target="_blank" rel="noopener"}；Dhs. 182, 220.[&nbsp;↩&nbsp;](#fr-fn193)
 {: id="fn-fn193"}
 
 \[194\] [AN 2.48 / A i 74](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#57-an-249-重财与重法){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn194)
 {: id="fn-fn194"}
 
-\[195\] 关于多闻圣弟子是善凡夫（kalyāṇa-puthujjana）的，请参阅：[MN 2 / M i 8](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-002-sabbasava/){: target="_blank" rel="noopener"}; MA. I. 72；关于须陀洹或更高阶位的，请参阅下文。[&nbsp;↩&nbsp;](#fr-fn195)
+\[195\] 关于多闻圣弟子是善凡夫（kalyāṇa-puthujjana）的，请参阅：[MN 2 / M i 8](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-002-sabbasava/){: target="_blank" rel="noopener"}；MA. I. 72；关于须陀洹或更高阶位的，请参阅下文。[&nbsp;↩&nbsp;](#fr-fn195)
 {: id="fn-fn195"}
 
-\[196\] 针对获得正见的两个因素，多闻（suta）是来自他人的知识（他缘音，paratoghosa）——它依赖于有智慧和值得信赖的同伴。这种多闻随后导致了信和如理作意（yoniso-manasikāra）。[&nbsp;↩&nbsp;](#fr-fn196)
+\[196\] 针对获得正见的两个因素，多闻（suta）是来自他人的知识（他人的教导，paratoghosa）——它依赖于有智慧和值得信赖的同伴。这种多闻随后导致了信和如理作意（yoniso-manasikāra）。[&nbsp;↩&nbsp;](#fr-fn196)
 {: id="fn-fn196"}
 
 \[197\] [AN 5.46 / A iii 53](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#6-an-546-五圆足-sampadāsutta){: target="_blank" rel="noopener"}, Sampadā Sutta.[&nbsp;↩&nbsp;](#fr-fn197)
 {: id="fn-fn197"}
 
-\[198\] [AN 5.47 / A iii 53](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#7-an-547-五财-dhanasutta){: target="_blank" rel="noopener"}；这五种宝藏也称为五圣财（ariya-vaḍḍhi），尽管更常见的圣财组合包含另外两种品质：惭（hiri）和愧（ottappa），例如：[DN 33 / D iii 251](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}; [AN 7.6 / A iv 5-6](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-001-010-dhana/#6-an-76-广说七财-vitthatadhanasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn198)
+\[198\] [AN 5.47 / A iii 53](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#7-an-547-五财-dhanasutta){: target="_blank" rel="noopener"}；这五种宝藏也称为五圣财（ariya-vaḍḍhi），尽管更常见的圣财组合包含另外两种品质：惭（hiri）和愧（ottappa），例如：[DN 33 / D iii 251](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 7.6 / A iv 5-6](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-001-010-dhana/#6-an-76-广说七财-vitthatadhanasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn198)
 {: id="fn-fn198"}
 
-\[199\] [BV 6 / Vin iv 180](https://aipali.true-dhamma.com/vinaya/bv/kanda-06-patidesaniya/){: target="_blank" rel="noopener"}；即使他去他们家拜访，他们供养食物，他也不应接受，更不用说去乞食了，因为这在任何情况下都是犯戒（亲戚或已正式邀请者除外）；参阅：[MV 1 / Vin i 45](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}; [BV 5.4.9 / Vin iv 87](https://aipali.true-dhamma.com/vinaya/bv/kanda-05-pacittiya/bv-05-04-bhojana/#9-单堕三十九乞求美食-paṇītabhojanasikkhāpada){: target="_blank" rel="noopener"}, [BV 7 / Vin iv 193](https://aipali.true-dhamma.com/vinaya/bv/kanda-07-sekhiya/){: target="_blank" rel="noopener"}。其他三种资具也是如此（参阅：[BV 2.6 / Vin iii 148](https://aipali.true-dhamma.com/vinaya/bv/kanda-02-sanghadisesa/bv-02-06-kutikara/){: target="_blank" rel="noopener"}, [BV 4.1.6 / Vin iii 212](https://aipali.true-dhamma.com/vinaya/bv/kanda-04-nissaggiya/bv-04-01-civara/#6-舍堕六无故乞衣-aññātakaviññattisikkhāpada){: target="_blank" rel="noopener"}, [BV 4.3.6 / Vin iii 256](https://aipali.true-dhamma.com/vinaya/bv/kanda-04-nissaggiya/bv-04-03-patta/#6-舍堕二十六乞纱织衣-suttaviññattisikkhāpada){: target="_blank" rel="noopener"}; [BV 5.5.7 / Vin iv 102-3](https://aipali.true-dhamma.com/vinaya/bv/kanda-05-pacittiya/bv-05-05-acelaka/#7-单堕四十七索药无度-mahānāmasikkhāpada){: target="_blank" rel="noopener"}）。另参阅：[DN 33 / D iii 224-5](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}; [SN 16.1 / S ii 195](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-16-kassapa/sn-16-kassapa/#11-sn-161-满足经-santuṭṭhasutta){: target="_blank" rel="noopener"}; [AN 4.28 / A ii 27-8](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-021-030-uruvela/#8-an-428-四圣种-ariyavaṃsasutta){: target="_blank" rel="noopener"}; [AN 5.80 / A iii 108-9](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#10-an-580-未来怖畏经之四-catutthaanāgatabhayasutta){: target="_blank" rel="noopener"}; Nd. I. 495; Nd. II. 59; Vism. 39-42.[&nbsp;↩&nbsp;](#fr-fn199)
+\[199\] [BV 6 / Vin iv 180](https://aipali.true-dhamma.com/vinaya/bv/kanda-06-patidesaniya/){: target="_blank" rel="noopener"}；即使他去他们家拜访，他们供养食物，他也不应接受，更不用说去乞食了，因为这在任何情况下都是犯戒（亲戚或已正式邀请者除外）；参阅：[MV 1 / Vin i 45](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[BV 5.4.9 / Vin iv 87](https://aipali.true-dhamma.com/vinaya/bv/kanda-05-pacittiya/bv-05-04-bhojana/#9-单堕三十九乞求美食-paṇītabhojanasikkhāpada){: target="_blank" rel="noopener"}；[BV 7 / Vin iv 193](https://aipali.true-dhamma.com/vinaya/bv/kanda-07-sekhiya/){: target="_blank" rel="noopener"}。其他三种资具也是如此（参阅：[BV 2.6 / Vin iii 148](https://aipali.true-dhamma.com/vinaya/bv/kanda-02-sanghadisesa/bv-02-06-kutikara/){: target="_blank" rel="noopener"}；[BV 4.1.6 / Vin iii 212](https://aipali.true-dhamma.com/vinaya/bv/kanda-04-nissaggiya/bv-04-01-civara/#6-舍堕六无故乞衣-aññātakaviññattisikkhāpada){: target="_blank" rel="noopener"}；[BV 4.3.6 / Vin iii 256](https://aipali.true-dhamma.com/vinaya/bv/kanda-04-nissaggiya/bv-04-03-patta/#6-舍堕二十六乞纱织衣-suttaviññattisikkhāpada){: target="_blank" rel="noopener"}；[BV 5.5.7 / Vin iv 102-3](https://aipali.true-dhamma.com/vinaya/bv/kanda-05-pacittiya/bv-05-05-acelaka/#7-单堕四十七索药无度-mahānāmasikkhāpada){: target="_blank" rel="noopener"}）。另参阅：[DN 33 / D iii 224-5](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[SN 16.1 / S ii 195](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-16-kassapa/sn-16-kassapa/#11-sn-161-满足经-santuṭṭhasutta){: target="_blank" rel="noopener"}；[AN 4.28 / A ii 27-8](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-021-030-uruvela/#8-an-428-四圣种-ariyavaṃsasutta){: target="_blank" rel="noopener"}；[AN 5.80 / A iii 108-9](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#10-an-580-未来怖畏经之四-catutthaanāgatabhayasutta){: target="_blank" rel="noopener"}；Nd. I. 495；Nd. II. 59；Vism. 39-42.[&nbsp;↩&nbsp;](#fr-fn199)
 {: id="fn-fn199"}
 
-\[200\] 例如：[MV 1 / Vin i 12](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, [MV 1 / Vin i 16](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；在大多数情况下，法眼指须陀洹道智（sotāpattimagga-ñāṇa），例如：VinA. V. 973; DA. I. 278; AA. II. 356; AA. IV. 102; UdA. 283; Nd2A. 8。有时此术语包括斯陀含道和阿那含道，例如：VinA. III. 537; DA. I. 237; PsA. I. 77; DhsA. 306。有时它指所有三道和三果，例如：SA. III. 297。在某些地方，它指所有四道和四果，包括阿罗汉果，例如：NdA. 83; MA. III. 92; MA. V. 99; SA. II. 392; VinṬ.: Mahākhandhakaṁ, Dhammacakkappavattanasuttavaṇṇanā。《巴利三藏》中有一处提及法眼生起的两次场合；第一次是须陀洹道，第二次是阿那含道（[AN 3.95 / A i 242](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-093-103-lonakapalla/#3-an-395-秋日破暗-saradasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn200)
+\[200\] 例如：[MV 1 / Vin i 12](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[MV 1 / Vin i 16](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；在大多数情况下，法眼指须陀洹道智（sotāpattimagga-ñāṇa），例如：VinA. V. 973；DA. I. 278；AA. II. 356；AA. IV. 102；UdA. 283；Nd2A. 8。有时此术语包括斯陀含道和阿那含道，例如：VinA. III. 537；DA. I. 237；PsA. I. 77；DhsA. 306。有时它指所有三道和三果，例如：SA. III. 297。在某些地方，它指所有四道和四果，包括阿罗汉果，例如：NdA. 83；MA. III. 92；MA. V. 99；SA. II. 392；VinṬ.: Mahākhandhakaṁ, Dhammacakkappavattanasuttavaṇṇanā。《巴利三藏》中有一处提及法眼生起的两次场合；第一次是须陀洹道，第二次是阿那含道（[AN 3.95 / A i 242](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-093-103-lonakapalla/#3-an-395-秋日破暗-saradasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn200)
 {: id="fn-fn200"}
 
 \[201\] DhA. III. 9; J. I. 226.[&nbsp;↩&nbsp;](#fr-fn201)
 {: id="fn-fn201"}
 
-\[202\] “具足正见者（diṭṭhi-sampanna）”和“具足洞见者（dassana-sampanna）”这两个术语常单独使用作为须陀洹的同义词；关于“具足正见者（diṭṭhi-sampanna）”，例如：[MN 48 / M i 322-5](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-048-kosambiya/){: target="_blank" rel="noopener"}; [MN 115 / M iii 64-5](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-115-bahudhatuka/){: target="_blank" rel="noopener"}; [SN 12.50 / S ii 80](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-41-50-gahapati/#10-sn-1250-圣弟子经之二-dutiyaariyasāvakasutta){: target="_blank" rel="noopener"}, [SN 13.1–10 / S ii 133-9](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-13-abhisamaya/sn-13-abhisamaya/#11-sn-131-爪尖经-nakhasikhāsutta){: target="_blank" rel="noopener"}; [SN 56.36 / S v 441-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-31-40-sisapavana/#6-sn-5636-生类经-pāṇasutta){: target="_blank" rel="noopener"}, [SN 56.49–60 / S v 457-65](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-41-50-papata/#9-sn-5649-须弥之一经-paṭhamasinerupabbatarājasutta){: target="_blank" rel="noopener"}; [AN 1.268 / A i 26-7](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#61-an-1268-277-知见与重罪的无有是处){: target="_blank" rel="noopener"}; [AN 6.54 / A iii 373](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#12-an-654-昙弥经-dhammikasutta){: target="_blank" rel="noopener"}, [AN 6.90–95 / A iii 438-40](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-085-095-siti/#6-an-690-已断经-pahīnasutta){: target="_blank" rel="noopener"}; [AN 10.63 / A v 119-20](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#3-an-1063-达究竟者经-niṭṭhaṅgatasutta){: target="_blank" rel="noopener"}; Ps. I. 161; Vbh. 335-6；（义注解释，例如：SA. II. 59; MA. IV. 107; AA. III. 387; AA. IV. 185）；“具足洞见者（dassana-sampanna）”仅见于偈颂中，例如：[AN 3.45 / A i 151](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-041-051-cula/#5-an-345-智者经-paṇḍitasutta){: target="_blank" rel="noopener"}; [AN 5.31 / A iii 34](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-031-040-sumana/#1-an-531-须摩那王童女经-sumanasutta){: target="_blank" rel="noopener"}; [Thag 1.45 / Thag verse 45](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-01-ekaka/#thag-145-罗摩尼耶毗诃梨长老偈-ramaṇīyavihārittheragāthā){: target="_blank" rel="noopener"}, [Thag 2.27 / Thag verse 174](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-227-难达克长老偈-nandakattheragāthā){: target="_blank" rel="noopener"}；（义注解释，例如：AA. III. 244）。“具穿透性智慧的圣者（ariyo nibbedhikapañño）”也可翻译为“具穿透烦恼智慧的圣者”、“具解脱智慧的圣者”或“具无障碍智慧的圣者”（参阅：Ps. II. 201-202; DA. III. 1029, \[3/300\]; MA. III. 31, 326; MA. IV. 85; SA. I. 122; AA. II. 86; AA. III. 223, 258, 406; Nd1A. II. 285, 353, 359; Vism. 88; VismṬ.: Kammaṭṭhānaggahaṇaniddesavaṇṇanā, Samādhicatukkavaṇṇanā）。[&nbsp;↩&nbsp;](#fr-fn202)
+\[202\] “具足正见者（diṭṭhi-sampanna）”和“具足洞见者（dassana-sampanna）”这两个术语常单独使用作为须陀洹的同义词；关于“具足正见者（diṭṭhi-sampanna）”，例如：[MN 48 / M i 322-5](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-048-kosambiya/){: target="_blank" rel="noopener"}；[MN 115 / M iii 64-5](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-115-bahudhatuka/){: target="_blank" rel="noopener"}；[SN 12.50 / S ii 80](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-41-50-gahapati/#10-sn-1250-圣弟子经之二-dutiyaariyasāvakasutta){: target="_blank" rel="noopener"}；[SN 13.1–10 / S ii 133-9](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-13-abhisamaya/sn-13-abhisamaya/#11-sn-131-爪尖经-nakhasikhāsutta){: target="_blank" rel="noopener"}；[SN 56.36 / S v 441-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-31-40-sisapavana/#6-sn-5636-生类经-pāṇasutta){: target="_blank" rel="noopener"}；[SN 56.49–60 / S v 457-65](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-41-50-papata/#9-sn-5649-须弥之一经-paṭhamasinerupabbatarājasutta){: target="_blank" rel="noopener"}；[AN 1.268 / A i 26-7](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#61-an-1268-277-知见与重罪的无有是处){: target="_blank" rel="noopener"}；[AN 6.54 / A iii 373](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#12-an-654-昙弥经-dhammikasutta){: target="_blank" rel="noopener"}；[AN 6.90–95 / A iii 438-40](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-085-095-siti/#6-an-690-已断经-pahīnasutta){: target="_blank" rel="noopener"}；[AN 10.63 / A v 119-20](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#3-an-1063-达究竟者经-niṭṭhaṅgatasutta){: target="_blank" rel="noopener"}；Ps. I. 161；Vbh. 335-6；（义注解释，例如：SA. II. 59；MA. IV. 107；AA. III. 387；AA. IV. 185）；“具足洞见者（dassana-sampanna）”仅见于偈颂中，例如：[AN 3.45 / A i 151](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-041-051-cula/#5-an-345-智者经-paṇḍitasutta){: target="_blank" rel="noopener"}；[AN 5.31 / A iii 34](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-031-040-sumana/#1-an-531-须摩那王童女经-sumanasutta){: target="_blank" rel="noopener"}；[Thag 1.45 / Thag verse 45](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-01-ekaka/#thag-145-罗摩尼耶毗诃梨长老偈-ramaṇīyavihārittheragāthā){: target="_blank" rel="noopener"}；[Thag 2.27 / Thag verse 174](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-227-难达克长老偈-nandakattheragāthā){: target="_blank" rel="noopener"}；（义注解释，例如：AA. III. 244）。“具穿透性智慧的圣者（ariyo nibbedhikapañño）”也可翻译为“具穿透烦恼智慧的圣者”、“具解脱智慧的圣者”或“具无障碍智慧的圣者”（参阅：Ps. II. 201-202；DA. III. 1029, \[3/300\]；MA. III. 31, 326；MA. IV. 85；SA. I. 122；AA. II. 86；AA. III. 223, 258, 406；Nd1A. II. 285, 353, 359；Vism. 88；VismṬ.: Kammaṭṭhānaggahaṇaniddesavaṇṇanā, Samādhicatukkavaṇṇanā）。[&nbsp;↩&nbsp;](#fr-fn202)
 {: id="fn-fn202"}
 
 \[203\] 更多关于多闻圣弟子（sutavā ariyasāvaka）、圣法（ariya-dhamma）和善士（sappurisa）的信息，请参阅附录三。[&nbsp;↩&nbsp;](#fr-fn203)
@@ -2818,16 +2818,16 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[207\] 这里的四入流支（sotāpattiyaṅga）指须陀洹的四种品质；参阅 SA. III. 278。有三组不同的入流支（每组包含四种因素）——参阅下文。[&nbsp;↩&nbsp;](#fr-fn207)
 {: id="fn-fn207"}
 
-\[208\] 另见 [AN 10.92 / A v 182-3](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#2-an-1092-止息怖畏-bhayasutta){: target="_blank" rel="noopener"}，其中提及“如此观想”而非“如此分析缘起”。[AN 9.27–28 / A iv 405-408](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-021-031-sattavasa/#7-an-927-怨仇止息之一经-paṭhamaverasutta){: target="_blank" rel="noopener"} 包含相同的自我省察和声明，但仅提及五种可怖的报应和四入流支——没有提及圣理。[AN 5.179 / A iii 211-12](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-171-180-upasaka/#9-an-5179-在家五戒-gihisutta){: target="_blank" rel="noopener"} 是另一种呈现方式：五种报应被替换为“对五戒的约束行为”，而四入流支则被称为“四种增上心的现法乐住”。有许多提及须陀洹特别与理解缘起（“圣理”）相关联的文献，例如：[SN 12.27 / S ii 43](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-21-30-dasabala/#7-sn-1227-缘经-paccayasutta){: target="_blank" rel="noopener"}, [SN 12.33 / S ii 59](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-31-40-kalarakhattiya/#3-sn-1233-智事经-ñāṇavatthusutta){: target="_blank" rel="noopener"}, [SN 12.50 / S ii 80](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-41-50-gahapati/#10-sn-1250-圣弟子经之二-dutiyaariyasāvakasutta){: target="_blank" rel="noopener"}（他们在此通常被称为“具足正见者”——diṭṭhi-sampanna）。须陀洹被认为是“世界的真正知者”（[SN 12.50 / S ii 80](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-41-50-gahapati/#10-sn-1250-圣弟子经之二-dutiyaariyasāvakasutta){: target="_blank" rel="noopener"}; [AN 8.34 / A iv 238](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#4-an-834-八分福田-khettasutta){: target="_blank" rel="noopener"}; [Dhp 44](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-033-075-citta-puppha-bala/#41-dhp-44-45-五百比丘谈论地理的故事-pathavikathāpasutapañcasatabhikkhuvatthu){: target="_blank" rel="noopener"}）。在 [SN 12.33 / S ii 59](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-31-40-kalarakhattiya/#3-sn-1233-智事经-ñāṇavatthusutta){: target="_blank" rel="noopener"} 中，须陀洹被说成拥有两种知识：“真理知识”（dhamma-ñāṇa）和“随顺知识”（anvaya-ñāṇa），两者都与缘起相关。[&nbsp;↩&nbsp;](#fr-fn208)
+\[208\] 另见 [AN 10.92 / A v 182-3](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#2-an-1092-止息怖畏-bhayasutta){: target="_blank" rel="noopener"}，其中提及“如此观想”而非“如此分析缘起”。[AN 9.27–28 / A iv 405-408](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-021-031-sattavasa/#7-an-927-怨仇止息之一经-paṭhamaverasutta){: target="_blank" rel="noopener"} 包含相同的自我省察和声明，但仅提及五种可怖的报应和四入流支——没有提及圣理。[AN 5.179 / A iii 211-12](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-171-180-upasaka/#9-an-5179-在家五戒-gihisutta){: target="_blank" rel="noopener"} 是另一种呈现方式：五种报应被替换为“对五戒的约束行为”，而四入流支则被称为“四种增上心的现法乐住”。有许多提及须陀洹特别与理解缘起（“圣理”）相关联的文献，例如：[SN 12.27 / S ii 43](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-21-30-dasabala/#7-sn-1227-缘经-paccayasutta){: target="_blank" rel="noopener"}；[SN 12.33 / S ii 59](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-31-40-kalarakhattiya/#3-sn-1233-智事经-ñāṇavatthusutta){: target="_blank" rel="noopener"}；[SN 12.50 / S ii 80](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-41-50-gahapati/#10-sn-1250-圣弟子经之二-dutiyaariyasāvakasutta){: target="_blank" rel="noopener"}（他们在此通常被称为“具足正见者”——diṭṭhi-sampanna）。须陀洹被认为是“世界的真正知者”（[SN 12.50 / S ii 80](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-41-50-gahapati/#10-sn-1250-圣弟子经之二-dutiyaariyasāvakasutta){: target="_blank" rel="noopener"}；[AN 8.34 / A iv 238](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#4-an-834-八分福田-khettasutta){: target="_blank" rel="noopener"}；[Dhp 44](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-033-075-citta-puppha-bala/#41-dhp-44-45-五百比丘谈论地理的故事-pathavikathāpasutapañcasatabhikkhuvatthu){: target="_blank" rel="noopener"}）。在 [SN 12.33 / S ii 59](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-31-40-kalarakhattiya/#3-sn-1233-智事经-ñāṇavatthusutta){: target="_blank" rel="noopener"} 中，须陀洹被说成拥有两种知识：“真理知识”（dhamma-ñāṇa）和“随顺知识”（anvaya-ñāṇa），两者都与缘起相关。[&nbsp;↩&nbsp;](#fr-fn208)
 {: id="fn-fn208"}
 
-\[209\] 这种呈现方式在《相应部·大品》（Saṁyutta Nikāya, Mahāvāra Vagga）中频繁出现。四入流支通常被称为四种“法”（dhamma）；在前面的引文和 [SN 55.3 / S v 345](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#3-sn-553-长寿优婆塞经-dīghāvuupāsakasutta){: target="_blank" rel="noopener"}, [SN 55.16 / S v 364-5](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-11-20-rajakarama/#6-sn-5516-朋友经之一-paṭhamamittāmaccasutta){: target="_blank" rel="noopener"} 中，它们被明确地称为四入流支（sotāpattiyaṅga）。[&nbsp;↩&nbsp;](#fr-fn209)
+\[209\] 这种呈现方式在《相应部·大品》（Saṁyutta Nikāya, Mahāvāra Vagga）中频繁出现。四入流支通常被称为四种“法”（dhamma）；在前面的引文和 [SN 55.3 / S v 345](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#3-sn-553-长寿优婆塞经-dīghāvuupāsakasutta){: target="_blank" rel="noopener"}；[SN 55.16 / S v 364-5](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-11-20-rajakarama/#6-sn-5516-朋友经之一-paṭhamamittāmaccasutta){: target="_blank" rel="noopener"} 中，它们被明确地称为四入流支（sotāpattiyaṅga）。[&nbsp;↩&nbsp;](#fr-fn209)
 {: id="fn-fn209"}
 
-\[210\] [DN 16 / D ii 93](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}; [SN 55.8–10 / S v 357-60](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#8-sn-558-砖造精舍经之一-paṭhamagiñjakāvasathasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn210)
+\[210\] [DN 16 / D ii 93](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[SN 55.8–10 / S v 357-60](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#8-sn-558-砖造精舍经之一-paṭhamagiñjakāvasathasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn210)
 {: id="fn-fn210"}
 
-\[211\] [SN 55.32 / S v 391-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-31-40-punnabhisanda/#2-sn-5532-润泽之二-dutiyapuññābhisandasutta){: target="_blank" rel="noopener"}, [SN 55.41–43 / S v 399-402](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-41-50-sagathakapunnabhisanda/#1-sn-5541-润泽之一-paṭhamaabhisandasutta){: target="_blank" rel="noopener"}（第四支“戒”〔sīla〕有时改为“舍”〔cāga〕或“慧”〔paññā〕）。[&nbsp;↩&nbsp;](#fr-fn211)
+\[211\] [SN 55.32 / S v 391-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-31-40-punnabhisanda/#2-sn-5532-润泽之二-dutiyapuññābhisandasutta){: target="_blank" rel="noopener"}；[SN 55.41–43 / S v 399-402](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-41-50-sagathakapunnabhisanda/#1-sn-5541-润泽之一-paṭhamaabhisandasutta){: target="_blank" rel="noopener"}（第四支“戒”〔sīla〕有时改为“舍”〔cāga〕或“慧”〔paññā〕）。[&nbsp;↩&nbsp;](#fr-fn211)
 {: id="fn-fn211"}
 
 \[212\] [AN 5.179 / A iii 211](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-171-180-upasaka/#9-an-5179-在家五戒-gihisutta){: target="_blank" rel="noopener"}, Gihi Sutta。[&nbsp;↩&nbsp;](#fr-fn212)
@@ -2848,10 +2848,10 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[217\] 这部经提到了比丘、比丘尼、优婆塞和优婆夷，他们听过觉悟者的名声，从阿罗汉到须陀洹；这里，我提供了一个例子（参见：[MN 68 / M i 465-8](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-068-nalakapana/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn217)
 {: id="fn-fn217"}
 
-\[218\] 这五种品质：信、戒、闻、施、慧有时被称为五种“成就”（sampadā）——见：[AN 5.46 / A iii 53](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#6-an-546-五圆足-sampadāsutta){: target="_blank" rel="noopener"}, [AN 5.91 / A iii 118](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-091-100-kakudha/#1-an-591-五圆足之一-paṭhamasampadāsutta){: target="_blank" rel="noopener"}。有时它们被称为五种“财”（dhana）——例如：[AN 5.47 / A iii 53](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#7-an-547-五财-dhanasutta){: target="_blank" rel="noopener"}。它们在许多不同的场合被提及，例如：[DN 30 / D iii 164-5](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-30-lakkhana/){: target="_blank" rel="noopener"}; [MN 96 / M ii 179](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-096-esukari/){: target="_blank" rel="noopener"}; [AN 3.71 / A i 210-11](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#10-an-371-布萨经-uposathasutta){: target="_blank" rel="noopener"}; [AN 5.157 / A iii 181](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-151-160-saddhamma/#7-an-5157-难言经-dukkathāsutta){: target="_blank" rel="noopener"}, [AN 6.25 / A iii 314](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-021-030-anuttariya/#5-an-625-六随念住-anussatiṭṭhānasutta){: target="_blank" rel="noopener"}; [AN 11.12 / A v 333-4](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-011-021-anussati/#2-an-1112-摩诃那摩之二-dutiyamahānāmasutta){: target="_blank" rel="noopener"}; [Ud 5.3 / Ud 50](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-05-sona/#3-ud-53-善觉癞患-suppabuddhakuṭṭhisutta){: target="_blank" rel="noopener"}。偶尔，闻（suta）会被省略，其余的品质则被称为“四种成就”；这表明这四种是基本品质（见，例如：[AN 4.61 / A ii 66](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-061-070-pattakamma/#1-an-461-能作四业-pattakammasutta){: target="_blank" rel="noopener"}; [AN 8.54 / A iv 281](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#4-an-854-长膝经-dīghajāṇusutta){: target="_blank" rel="noopener"}, [AN 8.55 / A iv 285-6](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#5-an-855-郁阇迦经-ujjayasutta){: target="_blank" rel="noopener"}, [AN 8.76 / A iv 324-5](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-071-080-yamaka/#6-an-876-具足之二-dutiyasampadāsutta){: target="_blank" rel="noopener"}, [AN 9.5 / A iv 363-4](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#5-an-95-力经四力与五怖-balasutta){: target="_blank" rel="noopener"}）。有时这些品质没有被提及名称（例如：[AN 8.49–50 / A iv 270-72](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-041-050-uposatha/#9-an-849-此世胜福之一经-paṭhamaidhalokikasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn218)
+\[218\] 这五种品质：信、戒、闻、施、慧有时被称为五种“成就”（sampadā）——见：[AN 5.46 / A iii 53](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#6-an-546-五圆足-sampadāsutta){: target="_blank" rel="noopener"}；[AN 5.91 / A iii 118](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-091-100-kakudha/#1-an-591-五圆足之一-paṭhamasampadāsutta){: target="_blank" rel="noopener"}。有时它们被称为五种“财”（dhana）——例如：[AN 5.47 / A iii 53](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#7-an-547-五财-dhanasutta){: target="_blank" rel="noopener"}。它们在许多不同的场合被提及，例如：[DN 30 / D iii 164-5](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-30-lakkhana/){: target="_blank" rel="noopener"}；[MN 96 / M ii 179](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-096-esukari/){: target="_blank" rel="noopener"}；[AN 3.71 / A i 210-11](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#10-an-371-布萨经-uposathasutta){: target="_blank" rel="noopener"}；[AN 5.157 / A iii 181](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-151-160-saddhamma/#7-an-5157-难言经-dukkathāsutta){: target="_blank" rel="noopener"}；[AN 6.25 / A iii 314](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-021-030-anuttariya/#5-an-625-六随念住-anussatiṭṭhānasutta){: target="_blank" rel="noopener"}；[AN 11.12 / A v 333-4](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-011-021-anussati/#2-an-1112-摩诃那摩之二-dutiyamahānāmasutta){: target="_blank" rel="noopener"}；[Ud 5.3 / Ud 50](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-05-sona/#3-ud-53-善觉癞患-suppabuddhakuṭṭhisutta){: target="_blank" rel="noopener"}。偶尔，闻（suta）会被省略，其余的品质则被称为“四种成就”；这表明这四种是基本品质（见，例如：[AN 4.61 / A ii 66](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-061-070-pattakamma/#1-an-461-能作四业-pattakammasutta){: target="_blank" rel="noopener"}；[AN 8.54 / A iv 281](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#4-an-854-长膝经-dīghajāṇusutta){: target="_blank" rel="noopener"}；[AN 8.55 / A iv 285-6](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#5-an-855-郁阇迦经-ujjayasutta){: target="_blank" rel="noopener"}；[AN 8.76 / A iv 324-5](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-071-080-yamaka/#6-an-876-具足之二-dutiyasampadāsutta){: target="_blank" rel="noopener"}；[AN 9.5 / A iv 363-4](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#5-an-95-力经四力与五怖-balasutta){: target="_blank" rel="noopener"}）。有时这些品质没有被提及名称（例如：[AN 8.49–50 / A iv 270-72](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-041-050-uposatha/#9-an-849-此世胜福之一经-paṭhamaidhalokikasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn218)
 {: id="fn-fn218"}
 
-\[219\] 对如来菩提的信心也出现在精进者的因素（padhāniyaṅga）中；见：[DN 33 / D iii 237](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}; [MN 90 / M ii 128](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-090-kannakatthala/){: target="_blank" rel="noopener"}; [AN 10.11 / A v 15](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-011-020-natha/#1-an-1011-坐卧处经-senāsanasutta){: target="_blank" rel="noopener"}。它也是信根（saddhindriya）的定义；见：[SN 48.10 / S v 197-8](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-01-10-suddhika/#10-sn-4810-解说五根经之二-dutiyavibhaṅgasutta){: target="_blank" rel="noopener"}, [SN 48.11 / S v 199](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-11-20-mudutara/#1-sn-4811-获得-paṭilābhasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn219)
+\[219\] 对如来菩提的信心也出现在精进者的因素（padhāniyaṅga）中；见：[DN 33 / D iii 237](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[MN 90 / M ii 128](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-090-kannakatthala/){: target="_blank" rel="noopener"}；[AN 10.11 / A v 15](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-011-020-natha/#1-an-1011-坐卧处经-senāsanasutta){: target="_blank" rel="noopener"}。它也是信根（saddhindriya）的定义；见：[SN 48.10 / S v 197-8](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-01-10-suddhika/#10-sn-4810-解说五根经之二-dutiyavibhaṅgasutta){: target="_blank" rel="noopener"}；[SN 48.11 / S v 199](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-11-20-mudutara/#1-sn-4811-获得-paṭilābhasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn219)
 {: id="fn-fn219"}
 
 \[220\] 同前一脚注。[&nbsp;↩&nbsp;](#fr-fn220)
@@ -2863,7 +2863,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[222\] 这个关于闻的定义经常被包含在其他修行品质的组别中。[&nbsp;↩&nbsp;](#fr-fn222)
 {: id="fn-fn222"}
 
-\[223\] 在 [AN 8.54 / A iv 284-5](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#4-an-854-长膝经-dīghajāṇusutta){: target="_blank" rel="noopener"}, [AN 8.55 / A iv 288](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#5-an-855-郁阇迦经-ujjayasutta){: target="_blank" rel="noopener"}, [AN 8.76 / A iv 324-5](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-071-080-yamaka/#6-an-876-具足之二-dutiyasampadāsutta){: target="_blank" rel="noopener"} 中被称为“成就”（sampadā）。在 [SN 55.33 / S v 392](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-31-40-punnabhisanda/#3-sn-5533-润泽之三-tatiyapuññābhisandasutta){: target="_blank" rel="noopener"} 中被称为“福德之海”。“洞察生灭”（udayatthagāminiyā）也可以翻译为“理解成长与衰退”。“刺穿烦恼”（nibbedhikā）也可以翻译为“洞察真理”。[&nbsp;↩&nbsp;](#fr-fn223)
+\[223\] 在 [AN 8.54 / A iv 284-5](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#4-an-854-长膝经-dīghajāṇusutta){: target="_blank" rel="noopener"}；[AN 8.55 / A iv 288](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#5-an-855-郁阇迦经-ujjayasutta){: target="_blank" rel="noopener"}；[AN 8.76 / A iv 324-5](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-071-080-yamaka/#6-an-876-具足之二-dutiyasampadāsutta){: target="_blank" rel="noopener"} 中被称为“成就”（sampadā）。在 [SN 55.33 / S v 392](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-31-40-punnabhisanda/#3-sn-5533-润泽之三-tatiyapuññābhisandasutta){: target="_blank" rel="noopener"} 中被称为“福德之海”。“洞察生灭”（udayatthagāminiyā）也可以翻译为“理解成长与衰退”。“刺穿烦恼”（nibbedhikā）也可以翻译为“洞察真理”。[&nbsp;↩&nbsp;](#fr-fn223)
 {: id="fn-fn223"}
 
 \[224\] 这项教导的要旨是能够反思事物而不被五盖所压倒。[&nbsp;↩&nbsp;](#fr-fn224)
@@ -2881,10 +2881,10 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[228\] 立即产生结果的行为，例如：弑母（见下文）。[&nbsp;↩&nbsp;](#fr-fn228)
 {: id="fn-fn228"}
 
-\[229\] 最后两组不可能之处（abhabbaṭṭhāna）也出现在：[MN 115 / M iii 64](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-115-bahudhatuka/){: target="_blank" rel="noopener"}; [AN 1.268 / A i 26-7](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#61-an-1268-277-知见与重罪的无有是处){: target="_blank" rel="noopener"}; Vbh. 335-6。[&nbsp;↩&nbsp;](#fr-fn229)
+\[229\] 最后两组不可能之处（abhabbaṭṭhāna）也出现在：[MN 115 / M iii 64](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-115-bahudhatuka/){: target="_blank" rel="noopener"}；[AN 1.268 / A i 26-7](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#61-an-1268-277-知见与重罪的无有是处){: target="_blank" rel="noopener"}；Vbh. 335-6。[&nbsp;↩&nbsp;](#fr-fn229)
 {: id="fn-fn229"}
 
-\[230\] 比较阿罗汉的九种不可能之处和五种不可能之处（abhabbaṭṭhāna），在：[DN 29 / D iii 133](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}, [DN 33 / D iii 235](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；例如，阿罗汉无法故意杀害有情众生。[&nbsp;↩&nbsp;](#fr-fn230)
+\[230\] 比较阿罗汉的九种不可能之处和五种不可能之处（abhabbaṭṭhāna），在：[DN 29 / D iii 133](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}；[DN 33 / D iii 235](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；例如，阿罗汉无法故意杀害有情众生。[&nbsp;↩&nbsp;](#fr-fn230)
 {: id="fn-fn230"}
 
 \[231\] 译注：macchariya：也译作“吝啬”或“卑劣”。[&nbsp;↩&nbsp;](#fr-fn231)
@@ -2938,10 +2938,10 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[247\] [BV 1.1 / Vin iii 3-4](https://aipali.true-dhamma.com/vinaya/bv/kanda-01-parajika/bv-01-01-pathama/){: target="_blank" rel="noopener"}, Pārājika 1, Verañjakaṇḍa[&nbsp;↩&nbsp;](#fr-fn247)
 {: id="fn-fn247"}
 
-\[248\] [SN 12.65 / S ii 106](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#5-sn-1265-诸佛古道经-nagarasutta){: target="_blank" rel="noopener"}; [SN 22.58 / S iii 66](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#6-sn-2258-正觉者经-sammāsambuddhasutta){: target="_blank" rel="noopener"}, [SN 22.84 / S iii 108-109](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-83-92-thera/#2-sn-2284-低舍经-tissasutta){: target="_blank" rel="noopener"}; [MN 107 / M iii 4](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-107-ganakamoggallana/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn248)
+\[248\] [SN 12.65 / S ii 106](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#5-sn-1265-诸佛古道经-nagarasutta){: target="_blank" rel="noopener"}；[SN 22.58 / S iii 66](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#6-sn-2258-正觉者经-sammāsambuddhasutta){: target="_blank" rel="noopener"}, [SN 22.84 / S iii 108-109](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-83-92-thera/#2-sn-2284-低舍经-tissasutta){: target="_blank" rel="noopener"}；[MN 107 / M iii 4](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-107-ganakamoggallana/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn248)
 {: id="fn-fn248"}
 
-\[249\] 回答人类知识是否有限的问题，训练有素者的知识是人类智慧可能达到的最高程度。如果这种知识有局限，那么其他地方就不存在超越和增进它的知识；即使是最高神祇的知识也是由人类赋予他们的（参见：Kevaṭṭa Sutta, [DN 11 / D i 215-23](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-11-kevatta/){: target="_blank" rel="noopener"}; Brahmanimantanika Sutta, [MN 49 / M i 326-31](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-049-brahmanimantanika/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn249)
+\[249\] 回答人类知识是否有限的问题，训练有素者的知识是人类智慧可能达到的最高程度。如果这种知识有局限，那么其他地方就不存在超越和增进它的知识；即使是最高神祇的知识也是由人类赋予他们的（参见：Kevaṭṭa Sutta, [DN 11 / D i 215-23](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-11-kevatta/){: target="_blank" rel="noopener"}；Brahmanimantanika Sutta, [MN 49 / M i 326-31](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-049-brahmanimantanika/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn249)
 {: id="fn-fn249"}
 
 \[250\] 关于后来将信分为四个因素，请参见第十四章“信心”附录二。[&nbsp;↩&nbsp;](#fr-fn250)
@@ -2962,13 +2962,13 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[255\] [Snp 13 / Sn 41](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#13-snp-13-三宝经-ratanasutta){: target="_blank" rel="noopener"}, [Snp 42 / Sn 155-6](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#42-snp-42-净八颂经-suddhaṭṭhakasutta){: target="_blank" rel="noopener"}, [Snp 47 / Sn 164-5](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#47-snp-47-摩根提耶经-māgaṇḍiyasutta){: target="_blank" rel="noopener"}, [Snp 62 / Sn 208-209](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#62-snp-62-难陀问经-nandamāṇavapucchā){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn255)
 {: id="fn-fn255"}
 
-\[256\] 例如：Nd. I. 88-9, 188; Nd. II 29。[&nbsp;↩&nbsp;](#fr-fn256)
+\[256\] 例如：Nd. I. 88-9, 188；Nd. II 29。[&nbsp;↩&nbsp;](#fr-fn256)
 {: id="fn-fn256"}
 
-\[257\] [MN 16 / M i 103](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-016-cetokhila/){: target="_blank" rel="noopener"}, [MN 57 / M i 388](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-057-kukkuravatika/){: target="_blank" rel="noopener"}; [SN 35.241 / S iv 180](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#4-sn-35241-木块经之一-pathamadārukkhandhopamasutta){: target="_blank" rel="noopener"}; [AN 5.206 / A iii 250](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-201-210-kimila/#6-an-5206-心缚经-vinibandhasutta){: target="_blank" rel="noopener"}; [AN 7.50 / A iv 55](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#7-an-750-婬欲偶合经-methunasutta){: target="_blank" rel="noopener"}, [AN 9.72 / A iv 461](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-063-072-satipatthana/#10-an-972-五心缚经-cetasovinibandhasutta){: target="_blank" rel="noopener"}; Nd. I. 34, 215。[&nbsp;↩&nbsp;](#fr-fn257)
+\[257\] [MN 16 / M i 103](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-016-cetokhila/){: target="_blank" rel="noopener"}, [MN 57 / M i 388](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-057-kukkuravatika/){: target="_blank" rel="noopener"}；[SN 35.241 / S iv 180](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#4-sn-35241-木块经之一-pathamadārukkhandhopamasutta){: target="_blank" rel="noopener"}；[AN 5.206 / A iii 250](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-201-210-kimila/#6-an-5206-心缚经-vinibandhasutta){: target="_blank" rel="noopener"}；[AN 7.50 / A iv 55](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#7-an-750-婬欲偶合经-methunasutta){: target="_blank" rel="noopener"}, [AN 9.72 / A iv 461](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-063-072-satipatthana/#10-an-972-五心缚经-cetasovinibandhasutta){: target="_blank" rel="noopener"}；Nd. I. 34, 215。[&nbsp;↩&nbsp;](#fr-fn257)
 {: id="fn-fn257"}
 
-\[258\] 例如：[Snp 51 / Sn 175-6](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#51-snp-51-大集积经-mahābyūhasutta){: target="_blank" rel="noopener"}, [Snp 62 / Sn 208-209](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#62-snp-62-难陀问经-nandamāṇavapucchā){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn258)
+\[258\] 例如：[Snp 51 / Sn 175-6](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#51-snp-51-大集积经-mahābyūhasutta){: target="_blank" rel="noopener"}；[Snp 62 / Sn 208-209](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#62-snp-62-难陀问经-nandamāṇavapucchā){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn258)
 {: id="fn-fn258"}
 
 \[259\] 另见义注的解释：Nd1A II. 272。[&nbsp;↩&nbsp;](#fr-fn259)
@@ -3004,7 +3004,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[269\] [MV 10 / Vin i 347](https://aipali.true-dhamma.com/vinaya/mv/mv-10-kosambaka/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn269)
 {: id="fn-fn269"}
 
-\[270\] [DN 24 / D iii 28](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-24-pathika/){: target="_blank" rel="noopener"}; DA. III. 829。[&nbsp;↩&nbsp;](#fr-fn270)
+\[270\] [DN 24 / D iii 28](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-24-pathika/){: target="_blank" rel="noopener"}；DA. III. 829。[&nbsp;↩&nbsp;](#fr-fn270)
 {: id="fn-fn270"}
 
 \[271\] [AN 5.179 / A iii 213](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-171-180-upasaka/#9-an-5179-在家五戒-gihisutta){: target="_blank" rel="noopener"}, Gihi Sutta。[&nbsp;↩&nbsp;](#fr-fn271)
@@ -3013,13 +3013,13 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[272\] Nd. I. 216。[&nbsp;↩&nbsp;](#fr-fn272)
 {: id="fn-fn272"}
 
-\[273\] J. IV. 379; J. V. 281; J. VI. 73; 比较：DhsA. 238; MA. II. 310。[&nbsp;↩&nbsp;](#fr-fn273)
+\[273\] J. IV. 379；J. V. 281；J. VI. 73；比较：DhsA. 238；MA. II. 310。[&nbsp;↩&nbsp;](#fr-fn273)
 {: id="fn-fn273"}
 
-\[274\] Nd1A. II. 339, 349；另见：Nd1A. I. 163; Nd1A. II. 304; DhsA. 49。[&nbsp;↩&nbsp;](#fr-fn274)
+\[274\] Nd1A. II. 339, 349；另见：Nd1A. I. 163；Nd1A. II. 304；DhsA. 49。[&nbsp;↩&nbsp;](#fr-fn274)
 {: id="fn-fn274"}
 
-\[275\] 例如：[Snp 43 / Sn 156-7](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#43-snp-43-胜八颂经-paramaṭṭhakasutta){: target="_blank" rel="noopener"}; Dhs. 183; [MN 57 / M i 388](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-057-kukkuravatika/){: target="_blank" rel="noopener"}; Nd1A. \[1/122\]。[&nbsp;↩&nbsp;](#fr-fn275)
+\[275\] 例如：[Snp 43 / Sn 156-7](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#43-snp-43-胜八颂经-paramaṭṭhakasutta){: target="_blank" rel="noopener"}；Dhs. 183；[MN 57 / M i 388](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-057-kukkuravatika/){: target="_blank" rel="noopener"}；Nd1A. \[1/122\]。[&nbsp;↩&nbsp;](#fr-fn275)
 {: id="fn-fn275"}
 
 \[276\] 参阅 Nd1A. II. 349。[&nbsp;↩&nbsp;](#fr-fn276)
@@ -3028,16 +3028,16 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[277\] 参阅 UdA. 351。[&nbsp;↩&nbsp;](#fr-fn277)
 {: id="fn-fn277"}
 
-\[278\] 例如：[SN 55.1 / S v 343](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#1-sn-551-转轮王经-cakkavattirājasutta){: target="_blank" rel="noopener"}。亦解释于：VinA. VII. 1317; DA. I. 108; DA. II. 536; SA. III. 277; AA. III. 345; Vism. 13-4。比较：SA. II. 98。亦译作“无可指责的”：超越了责备和过错。[&nbsp;↩&nbsp;](#fr-fn278)
+\[278\] 例如：[SN 55.1 / S v 343](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#1-sn-551-转轮王经-cakkavattirājasutta){: target="_blank" rel="noopener"}。亦解释于：VinA. VII. 1317；DA. I. 108；DA. II. 536；SA. III. 277；AA. III. 345；Vism. 13-4。比较：SA. II. 98。亦译作“无可指责的”：超越了责备和过错。[&nbsp;↩&nbsp;](#fr-fn278)
 {: id="fn-fn278"}
 
-\[279\] 参阅：[Snp 43 / Sn 156-7](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#43-snp-43-胜八颂经-paramaṭṭhakasutta){: target="_blank" rel="noopener"}, [Snp 50 / Sn 171-2](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#50-snp-50-小集积经-cūḷabyūhasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn279)
+\[279\] 参阅：[Snp 43 / Sn 156-7](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#43-snp-43-胜八颂经-paramaṭṭhakasutta){: target="_blank" rel="noopener"}；[Snp 50 / Sn 171-2](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#50-snp-50-小集积经-cūḷabyūhasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn279)
 {: id="fn-fn279"}
 
-\[280\] [MV 5 / Vin i 183-4](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}; [AN 6.55 / A iii 376](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#1-an-655-尊者守笼那经-soṇasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn280)
+\[280\] [MV 5 / Vin i 183-4](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}；[AN 6.55 / A iii 376](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#1-an-655-尊者守笼那经-soṇasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn280)
 {: id="fn-fn280"}
 
-\[281\] [Iti 3.35 / It 80](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#45-iti-335-多人利益经){: target="_blank" rel="noopener"}; [Snp 12 / Sn 36](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#12-snp-12-牟尼经-munisutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn281)
+\[281\] [Iti 3.35 / It 80](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#45-iti-335-多人利益经){: target="_blank" rel="noopener"}；[Snp 12 / Sn 36](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#12-snp-12-牟尼经-munisutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn281)
 {: id="fn-fn281"}
 
 \[282\] [AN 3.60 / A i 167](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#9-an-360-生闻婆罗门经-jāṇussoṇisutta){: target="_blank" rel="noopener"}, Jāṇussoṇi Sutta。[&nbsp;↩&nbsp;](#fr-fn282)
@@ -3046,10 +3046,10 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[283\] [Snp 47 / Sn 164-5](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#47-snp-47-摩根提耶经-māgaṇḍiyasutta){: target="_blank" rel="noopener"}, Māgaṇḍiya Sutta。[&nbsp;↩&nbsp;](#fr-fn283)
 {: id="fn-fn283"}
 
-\[284\] 例如：[SN 55.1 / S v 343](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#1-sn-551-转轮王经-cakkavattirājasutta){: target="_blank" rel="noopener"}, [SN 55.54 / S v 408-409](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#4-sn-5554-疾病经-gilānasutta){: target="_blank" rel="noopener"}。请参阅前面关于须陀洹的章节。[&nbsp;↩&nbsp;](#fr-fn284)
+\[284\] 例如：[SN 55.1 / S v 343](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#1-sn-551-转轮王经-cakkavattirājasutta){: target="_blank" rel="noopener"}；[SN 55.54 / S v 408-409](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#4-sn-5554-疾病经-gilānasutta){: target="_blank" rel="noopener"}。请参阅前面关于须陀洹的章节。[&nbsp;↩&nbsp;](#fr-fn284)
 {: id="fn-fn284"}
 
-\[285\] 参阅：[AN 3.79 / A i 225](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-072-081-ananda/#8-an-379-戒禁经-sīlabbatasutta){: target="_blank" rel="noopener"}; [Ud 6.8 / Ud 71](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-06-jaccandha/#8-ud-68-游女-gaṇikāsutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn285)
+\[285\] 参阅：[AN 3.79 / A i 225](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-072-081-ananda/#8-an-379-戒禁经-sīlabbatasutta){: target="_blank" rel="noopener"}；[Ud 6.8 / Ud 71](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-06-jaccandha/#8-ud-68-游女-gaṇikāsutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn285)
 {: id="fn-fn285"}
 
 \[286\] 例如：[AN 3.87 / A i 231](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#6-an-387-学处之一-paṭhamasikkhāsutta){: target="_blank" rel="noopener"}, Paṭhamasikkhā Sutta。[&nbsp;↩&nbsp;](#fr-fn286)
@@ -3094,7 +3094,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[299\] [AN 5.179 / A iii 213](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-171-180-upasaka/#9-an-5179-在家五戒-gihisutta){: target="_blank" rel="noopener"}；解释于 AA. III. 100, 304。[&nbsp;↩&nbsp;](#fr-fn299)
 {: id="fn-fn299"}
 
-\[300\] 参阅：MA. I. 21; SA. II. 97; AA. I. 63; DhsA. 349; 比较：Nd. I. 146-7, 248-9; DA. I. 59; Nd1A. II. 273; PsA. I. 205, 266; VinṬ.: Paṭhamo Bhāgo, Paṭhamamahāsaṅgītikathāvaṇṇanā; VinṬ.: Pārājikakaṇḍaṁ, Bhikkhupadabhājanīyavaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn300)
+\[300\] 参阅：MA. I. 21；SA. II. 97；AA. I. 63；DhsA. 349；比较：Nd. I. 146-7, 248-9；DA. I. 59；Nd1A. II. 273；PsA. I. 205, 266；VinṬ.: Paṭhamo Bhāgo, Paṭhamamahāsaṅgītikathāvaṇṇanā；VinṬ.: Pārājikakaṇḍaṁ, Bhikkhupadabhājanīyavaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn300)
 {: id="fn-fn300"}
 
 \[301\] 本组和后续各组的因素按从低到高的动机排列。[&nbsp;↩&nbsp;](#fr-fn301)
@@ -3103,7 +3103,7 @@ vimokkha 是从不利心智品质中解脱出来，这是由于专注于某个�
 \[302\] 常见（sassata-vāda）。[&nbsp;↩&nbsp;](#fr-fn302)
 {: id="fn-fn302"}
 
-\[303\] 断见（uccheda-vāda）（参见：[SN 22.81 / S iii 99](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-73-82-khajjaniya/#9-sn-2281-波陀聚落经-pālileyyasutta){: target="_blank" rel="noopener"}）。尽管这是一种邪见，但佛陀说在佛教之外的所有学说中，断见是最好的，因为它的倡导者会厌离有（bhava），而不会厌离有尽。参见：[AN 10.29 / A v 64](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-021-030-maha/#9-an-1029-拘萨罗国之一-paṭhamakosalasutta){: target="_blank" rel="noopener"}; AA. V. 27; SA. II. 306。[&nbsp;↩&nbsp;](#fr-fn303)
+\[303\] 断见（uccheda-vāda）（参见：[SN 22.81 / S iii 99](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-73-82-khajjaniya/#9-sn-2281-波陀聚落经-pālileyyasutta){: target="_blank" rel="noopener"}）。尽管这是一种邪见，但佛陀说在佛教之外的所有学说中，断见是最好的，因为它的倡导者会厌离有（bhava），而不会厌离有尽。参见：[AN 10.29 / A v 64](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-021-030-maha/#9-an-1029-拘萨罗国之一-paṭhamakosalasutta){: target="_blank" rel="noopener"}；AA. V. 27；SA. II. 306。[&nbsp;↩&nbsp;](#fr-fn303)
 {: id="fn-fn303"}
 
 \[304\] 虚无论（natthika-vāda）。[&nbsp;↩&nbsp;](#fr-fn304)

@@ -100,7 +100,7 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 1.  苦（Dukkha）：苦；难以忍受的状况；人类的困境。更深层次地，这个真理指的是一切有为法的状态，它们受制于三法印（无常、苦、无我）的自然法则。有为法伴随着压力、紧张、冲突和障碍。它们本质上有缺陷且不完美；它们缺乏真正的实质和稳定性；它们无法提供持久的满足和知足；它们总是容易对执取于它们的人造成问题和制造苦。
     
-2.  苦集（Dukkha-samudaya）（简称“集”）：苦的起源或根源；即渴爱，它抓住对“自我”的信念，建立一个“我”，这个“我”被假定为在不同情境下感受和获得、存在和消亡。执著于这种自我感使人不断处于烦躁不安、焦虑、渴望、占有欲、嗔恨、恐惧、怀疑、无聊和其他形式的内心烦恼中。因此无法真正感到自在、自由和喜悦；也不知道何为纯净而安稳的安乐。
+2.  苦集（Dukkha-samudaya）（简称“集”）：苦的起源或根源；即渴爱，它抓住对“自我”的信念，建立一个“我”，这个“我”被假定为在不同情境下感受和获得、存在和消亡。执着于这种自我感使人不断处于烦躁不安、焦虑、渴望、占有欲、嗔恨、恐惧、怀疑、无聊和其他形式的内心烦恼中。因此无法真正感到自在、自由和喜悦；也不知道何为纯净而安稳的安乐。
     
 3.  苦灭（Dukkha-nirodha）（简称“灭”）：苦的止息；完全消除无明和渴爱，不再受渴爱的影响或驱使，并且不再被焦虑、无聊或任何其他形式的内心苦恼压迫时所达到的状态。此时解脱、平静、光明而自在，体验到纯净的安乐。简言之，灭（nirodha）等同于涅槃（Nibbāna）。
     
@@ -117,7 +117,7 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 《律藏》（Vinaya Piṭaka）描述了佛陀证悟的故事，从他证悟之后立即开始，他用整整一周的时间体验解脱之乐并思惟缘起，包括顺行（苦的生起）和逆行（苦的止息）。[\[6\]](#fn-fn6){:id="fr-fn6"} 在体验解脱之乐七周之后，佛陀考虑向他人宣说正法，他有了这个念头：
 
-> “我已证得的这个法（Dhamma）是甚深难见、难证得的……对于这些乐于执著的众生来说，难以见到这个真理，即此缘性、缘起。而且，这个真理，即……涅槃（Nibbāna），也是难以见到。”  
+> “我已证得的这个法（Dhamma）是甚深难见、难证得的……对于这些乐于执着的众生来说，难以见到这个真理，即此缘性、缘起。而且，这个真理，即……涅槃（Nibbāna），也难以见到。”  
 > [MV 1 / Vin i 1-5](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, Mahākhandhaka
 
 《经藏》（Sutta Piṭaka）以类似的方式描述了佛陀的生平故事，始于促使他出离宫殿的念头，接着是他出家为沙门，随苦行者阿罗罗（Āḷāra）和郁陀迦（Uddaka）学习，行持并放弃极端苦行，恢复进食，然后证得禅那（jhānas）并在觉悟时证得三明：
@@ -131,7 +131,7 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 律藏描述了佛陀刚觉悟之后的时期，当时佛陀体验了解脱之乐（义注说持续了七周）。该描述始于佛陀对缘起的审视，止于佛陀因缘起和涅槃的复杂和深奥而考虑不教导法。经藏描述了佛陀觉悟之前的境况，直到他证得三明（vijjā）。它略过了体验解脱之乐的时期，直接转向佛陀不教导法的意向。
 
-那些关注律藏中佛陀思惟缘起的段落，以及律藏和经中佛陀考虑教导法的段落的人，会声称佛陀证悟了缘起。另一方面，那些关注经文段落，特别是描述证得三明的段落，并主要考虑第三明的人——第三明是觉悟的真正核心（前两种明不能被认为是与觉悟等同，也不是证得涅槃所必需的）——会声称佛陀证悟了四圣谛，从而获得了漏尽解脱。
+那些关注律藏中佛陀思惟缘起的段落，以及律藏和经中佛陀考虑教导法的段落的人，会声称佛陀证悟了缘起。另一方面，那些关注经文段落，特别是描述证得三明的段落，并主要考虑第三明的人——第三明是觉悟的真正核心（前两种明不能被视为与觉悟等同，也不是证得涅槃所必需的）——会声称佛陀证悟了四圣谛，从而获得了漏尽解脱。
 
 尽管这两种答案都是正确的，但这两种法义具有不同的特征和不同的适用范围，因此应被视为相互区别。
 
@@ -163,7 +163,7 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 这些法义的主要区别在于缘起的灭尽循环，它与第三圣谛和第四圣谛相对应。将灭尽循环与第三圣谛（nirodha）相比较，会发现它主要侧重于导致止息的过程，而不是止息——涅槃——本身的状态。因此，在佛陀觉悟之后，当他考虑是否教导法时，他区分了他所证得的两个真理。他的第一个考虑是：
 
-> 我所证得的这法，深奥、难见、难证……\[难以\]为乐于执著的众生所见，即此缘性、缘起。
+> 我所证得的这法，深奥、难见、难证……\[难以\]为乐于执着的众生所见，即此缘性、缘起。
 
 接着是第二个考虑：
 
@@ -193,14 +193,11 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 1.  苦应遍知（dukkhaṁ ariyasaccaṁ pariññeyyaṁ）。
     
-2.  苦集应断除
-    （dukkhasamudayo ariyasaccaṁ pahātabbaṁ）。
+2.  苦集应断除（dukkhasamudayo ariyasaccaṁ pahātabbaṁ）。
     
-3.  苦灭应现证
-    （dukkhanirodho ariyasaccaṁ sacchikātabbaṁ）。
+3.  苦灭应现证（dukkhanirodho ariyasaccaṁ sacchikātabbaṁ）。
     
-4.  导向苦灭之道应修习
-    （dukkhanirodhagāminīpaṭipadā ariyasaccaṁ bhāvetabbaṁ）。
+4.  导向苦灭之道应修习（dukkhanirodhagāminīpaṭipadā ariyasaccaṁ bhāvetabbaṁ）。
     
 
 *   A. 遍知（pariññā）：关于苦的职责是彻底理解：应当如实地考察和理解苦；应该清楚地理解相关问题并确定这些问题的程度。这是修行的一个基本阶段，使人能够进展到后续阶段并理解人类困境的核心。
@@ -566,7 +563,7 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 > 请注意，在佛教修习的语境中，身修习并未被描述为一个独立的因素，因为它被归入戒行（sīla）的阶段。佛教的生活方式不与自然冲突或疏离，而是与自然保持着健康、和谐的关系。此外，在守护根门戒（indriyasaṁvara-sīla）的道德原则中，佛陀强调了身体与外部环境之间的联系；他还强调了人的内在或精神生活与其物质消费之间的联系，这在被称为四资具依止戒（paccayasannissita-sīla）的德行教导、食知节量（bhojane-mattaññutā）的教导，以及适顺（sappāya）的教导中都有描述。
 >
-> 佛教不将身体的修习与一般的贤善行为分开，因为单独培育一个强壮健康的身体并不构成一项必要的修行。此外，身体训练通常倾向于为渴爱提供追求和放纵欲乐的途径，这与修行是背道而驰的。尽管三学中没有明确说明身修习，但它是四种修习（bhāvanā）的一部分：参见：  
+> 佛教不将身体的修习与一般的贤善行为分开，因为单独培育一个强壮健康的身体并不构成一项必要的修行。此外，身体训练通常倾向于为渴爱提供追求和放纵欲乐的途径，这与修行是背道而驰的。尽管三学中没有明确说明身修习，但它是四种修习（bhāvanā）的一部分，参见：  
 > [AN 5.79 / A iii 105-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#9-an-579-未来怖畏经之三-tatiyaanāgatabhayasutta){: target="_blank" rel="noopener"}
 
 ## 佛教解决问题的方式
@@ -884,10 +881,10 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 \[3\] 括号内的段落来自义注的解释：SA. III. 299。[&nbsp;↩&nbsp;](#fr-fn3)
 {: id="fn-fn3"}
 
-\[4\] 这个译文与《清净道论》Vism. 495的引文一致。在泰文巴利语版本中没有“ariya”一词；若省略此词，该段落译为：“正是因为他如实地完全觉悟了这四圣谛，如来才被称为阿罗汉、正等正觉者。” \[译注：这是菩提比丘（Bhikkhu Bodhi）在《相应部》（Saṁyutta Nikāya）新译本（Connected Discourses of the Buddha: A New Translation of the Saṁyutta Nikāya; Wisdom Publications; © 2000）中的译法。\][&nbsp;↩&nbsp;](#fr-fn4)
+\[4\] 这个译文与《清净道论》Vism. 495 的引文一致。在泰文巴利语版本中没有“ariya”一词；若省略此词，该段落译为：“正是因为他如实地完全觉悟了这四圣谛，如来才被称为阿罗汉、正等正觉者。” \[译注：这是菩提比丘（Bhikkhu Bodhi）在《相应部》（Saṁyutta Nikāya）新译本（Connected Discourses of the Buddha: A New Translation of the Saṁyutta Nikāya；Wisdom Publications；© 2000）中的译法。\][&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
-\[5\] 例如：在《转法轮经》中：[MV 1 / Vin i 10](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}; [SN 56.11 / S v 421-22](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}; 以及：Ps. II. 147-150; Vbh. 99-104。[&nbsp;↩&nbsp;](#fr-fn5)
+\[5\] 例如：在《转法轮经》中：[MV 1 / Vin i 10](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 56.11 / S v 421-22](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}；以及：Ps. II. 147-150；Vbh. 99-104。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
 \[6\] [MV 1 / Vin i 1-5](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, Mahākhandhaka。[&nbsp;↩&nbsp;](#fr-fn6)
@@ -902,19 +899,19 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 \[9\] 同上。[&nbsp;↩&nbsp;](#fr-fn9)
 {: id="fn-fn9"}
 
-\[10\] [MN 149 / M iii 290](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-149-mahasalayatanika/){: target="_blank" rel="noopener"}; [AN 4.254 / A ii 247](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-254-263-abhinna/#1-an-4254-通慧经-abhiññāsutta){: target="_blank" rel="noopener"}。请注意，在《巴利三藏》中，bhāvetabba-dhamma（即奢摩他与毗婆舍那）一词排在 sacchikātabba-dhamma（即明和解脱）之前。[&nbsp;↩&nbsp;](#fr-fn10)
+\[10\] [MN 149 / M iii 290](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-149-mahasalayatanika/){: target="_blank" rel="noopener"}；[AN 4.254 / A ii 247](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-254-263-abhinna/#1-an-4254-通慧经-abhiññāsutta){: target="_blank" rel="noopener"}。请注意，在《巴利三藏》中，bhāvetabba-dhamma（即奢摩他与毗婆舍那）一词排在 sacchikātabba-dhamma（即明和解脱）之前。[&nbsp;↩&nbsp;](#fr-fn10)
 {: id="fn-fn10"}
 
-\[11\] Vism. 512; VbhA. 88; PsA. I. 198。[&nbsp;↩&nbsp;](#fr-fn11)
+\[11\] Vism. 512；VbhA. 88；PsA. I. 198。[&nbsp;↩&nbsp;](#fr-fn11)
 {: id="fn-fn11"}
 
-\[12\] Vism. 497-8; VbhA. 86; PsA. I. 54, 198。这三部文本中的段落完全相同。此处，我只提供这些教义的摘录。[&nbsp;↩&nbsp;](#fr-fn12)
+\[12\] Vism. 497-8；VbhA. 86；PsA. I. 54, 198。这三部文本中的段落完全相同。此处，我只提供这些教义的摘录。[&nbsp;↩&nbsp;](#fr-fn12)
 {: id="fn-fn12"}
 
-\[13\] 例如：[MN 101 / M ii 214-23](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}; [AN 3.62 / A i 173](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#1-an-362-三所依处经-titthāyatanasutta){: target="_blank" rel="noopener"}; Vbh. 367-8; J. V. 232-43; J. VI. 206-211; JA. V. 237-41。Issaranimmāna-vāda 也被称为 issaranimmita-vāda、issarakaraṇa-vāda 或 issarakutti-vāda。特别是在与 pubbekata-vāda 相关的方面，区分此教义与佛教的业论至关重要，而许多佛教徒似乎并未充分重视这一区分。经文强调了这一区分，若深入研究，将有助于清晰理解佛教的业概念。VbhA. 497中的义注声称，第一种教义是尼乾陀（Nigaṇṭhā）的，第二种是婆罗门的，第三种是阿耆毗迦（Ājīvakas）的。在 J. V. 239-41中，断灭论（uccheda-vāda）作为第四项被加入这份邪说列表。[&nbsp;↩&nbsp;](#fr-fn13)
+\[13\] 例如：[MN 101 / M ii 214-23](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}；[AN 3.62 / A i 173](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#1-an-362-三所依处经-titthāyatanasutta){: target="_blank" rel="noopener"}；Vbh. 367-8；J. V. 232-43；J. VI. 206-211；JA. V. 237-41。Issaranimmāna-vāda 也被称为 issaranimmita-vāda、issarakaraṇa-vāda 或 issarakutti-vāda。特别是在与 pubbekata-vāda 相关的方面，区分此教义与佛教的业论至关重要，而许多佛教徒似乎并未充分重视这一区分。经文强调了这一区分，若深入研究，将有助于清晰理解佛教的业概念。VbhA. 497 中的义注声称，第一种教义是尼乾陀（Nigaṇṭhā）的，第二种是婆罗门的，第三种是阿耆毗迦（Ājīvakas）的。在 J. V. 239-41 中，断灭论（uccheda-vāda）作为第四项被加入这份邪说列表。[&nbsp;↩&nbsp;](#fr-fn13)
 {: id="fn-fn13"}
 
-\[14\] Ps. I. 27; Ps. II. 220。[&nbsp;↩&nbsp;](#fr-fn14)
+\[14\] Ps. I. 27；Ps. II. 220。[&nbsp;↩&nbsp;](#fr-fn14)
 {: id="fn-fn14"}
 
 \[15\] 引用自第七章“觉悟者”。三宝（ratanattaya）包含佛教的三个基本支柱，佛教徒应时刻铭记：佛陀（“真正的人性”；此原则指出所有人内在的最高潜能）；法（“自然”；即因果的自然法则，理解它将导向证悟超越因缘的终极真理）；以及僧伽（“僧团”；由处于不同证法层次的圣者组成的理想僧团，他们遵循佛陀的道）。[&nbsp;↩&nbsp;](#fr-fn15)
