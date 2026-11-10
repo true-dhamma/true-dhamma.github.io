@@ -37,7 +37,7 @@ title: 第一章：五蕴 | 佛法 | Buddhadhamma
 
 想（saññā）是一种认知。[\[8\]](#fn-fn8){:id="fr-fn8"}它指对所缘属性和特质的识别或辨别，包括其形状、外观、颜色等，以及其名称和约定俗成的概念。例如，人知道某个事物是“绿色”、“白色”、“黑色”、“红色”、“响亮”、“微弱”、“低音”、“高音”、“胖”、“瘦”、“一张桌子”、“一支笔”、“一头猪”、“一条狗”、“一条鱼”、“一只猫”、“一个人”、“他”、“她”、“我”、“你”等。
 
-想依赖于过往经验或知识与新经验或知识之间的相遇或比较。如果当前的经验与过往经验相符——比如遇到熟人，或听到熟悉的声音——就会“认出”来（注意这与“记忆”不同）。例如，琼斯先生认识史密斯先生。一个月后，他们相遇，琼斯先生认出了史密斯先生。
+想依赖于过往经验或知识与新经验或知识之间的相遇或比较。如果当前的经验与过往经验相符——比如遇到熟人，或听到熟悉的声音——就会“认出”来（注意这与“记忆”不同）。例如，王先生认识李先生。一个月后，他们相遇，王先生认出了李先生。
 
 如果新的经验与过去的经验不符，人们倾向于拿它与过去的经验或知识作比较，着眼于那些相似或不同的方面。然后，他们根据其标签或指称来识别该所缘，这些标签或指称由相似性和差异性决定。这就是想的过程——界定和识别。
 
@@ -106,11 +106,11 @@ saññā 和 sati 在“记忆”的概念上具有重叠的意义。想（sañ�
 
 想（saññā）记录和标注所缘；念（sati）将所缘引向注意力。健全的想——清楚地识别事物，以有序和结构化的方式界定事物，以及整合和连接事物（这依赖于专注和理解）——和强大的忆起能力（这依赖于清晰的诸想、持续的正念，以及明亮、宁静和专注的心）——都是良好记忆力的因素。
 
-过去罗伯特和杰克彼此很熟。十年后，他们再次相遇，罗伯特认出杰克，并忆念起他们曾经去过的地方和共同参与过的活动。对另一个人的识别是想（saññā），而对过去事件的回忆是念（sati）。
+过去周明和吴涛彼此很熟。十年后，他们再次相遇，周明认出吴涛，并忆念起他们曾经去过的地方和共同参与过的活动。对另一个人的识别是想（saññā），而对过去事件的回忆是念（sati）。
 
-有一次格雷格和卡尔会面并交谈。一个月后，格雷格的朋友问他那天和谁会面并交谈了。格雷格反思过去，并回忆起他与卡尔会面过。这回忆是念（sati）。
+有一次郑浩和孙杰会面并交谈。一个月后，郑浩的朋友问他那天和谁会面并交谈了。郑浩反思过去，并回忆起他与孙杰会面过。这回忆是念（sati）。
 
-一部电话放在房间的一个角落，一本电话簿放在另一个角落。凯伦打开电话簿，找到她要找的号码。她在心里记住这个号码，然后走向电话拨号。当她穿过房间时，她将这个号码持续地保持在她的注意力中。从书本中读取和记住号码是想（saññā）；从她离开书本的那一刻起，对那个号码的记忆是念（sati）。
+一部电话放在房间的一个角落，一本电话簿放在另一个角落。何静打开电话簿，找到她要找的号码。她在心里记住这个号码，然后走向电话拨号。当她穿过房间时，她将这个号码持续地保持在她的注意力中。从书本中读取和记住号码是想（saññā）；从她离开书本的那一刻起，对那个号码的记忆是念（sati）。
 
 当所缘显现时，人能够立即觉知它们。然而，当它们不显现时，以及在它们是法所缘（dhammārammaṇa；心中固有的事物）的情况下，人可以使用念（sati）来引出它们并专注于它们。此外，念（sati）能够让心忆起诸想，也就是说，它能够回忆过去的诸想作为注意力对象。想（saññā）随后能够识别、澄清和巩固这些先前的诸想，或按照自己的目标和目的，换个角度去认知它们。
 
@@ -149,9 +149,9 @@ paññā 是一个通用术语，描述上述各种了知。慧有许多不同�
 四名蕴紧密相关，相互影响和制约。这四蕴的生起通常以下列方式概述：[\[18\]](#fn-fn18){:id="fr-fn18"}
 
 > 依眼和色，眼识生起；耳和声、鼻和香等情况也是如此。三者的聚合是触。触为缘，有受。一个人感受到什么，就认知到什么；一个人认知到什么，就思惟什么……  
-> [MN 18 / M i 111-12](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-018-madhupindika/){: target="_blank" rel="noopener"}, Madhupiṇḍika Sutta
+> [MN 18 / M i 111-112](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-018-madhupindika/){: target="_blank" rel="noopener"}, Madhupiṇḍika Sutta
 
-这是一个例子：戈登听到钟声（耳 + 声 + 耳识）。他觉得声音悦耳（受）。他将声音认知为“悠扬的”、“钟声”，以及“悠扬的钟声”（想）。他喜欢这个声音并想再次听到它；他思考自己敲响那口钟；他想要得到这口钟；他思考购买或偷走这口钟，等等（行）。
+这是一个例子：杨帆听到钟声（耳 + 声 + 耳识）。他觉得声音悦耳（受）。他将声音认知为“悠扬的”、“钟声”，以及“悠扬的钟声”（想）。他喜欢这个声音并想再次听到它；他思考自己敲响那口钟；他想要得到这口钟；他思考购买或偷走这口钟，等等（行）。
 
 请注意受蕴（vedanā）在此过程中的关键作用。想蕴（saññā）特别关注那些提供愉悦感受的对象。快乐越大，想赋予该对象的重要性就越大。此外，这种愉悦的感受促使人们思考和行动以增加快乐。这可描述为一个基本的、普通的或初级的过程。
 
@@ -230,11 +230,12 @@ paññā 是一个通用术语，描述上述各种了知。慧有许多不同�
 > 想（saññā） →  
 > 行（saṅkhāra）。
 
-通过行蕴，人们进而与世间（loka）展开互动。（译注：关于 āyatana 与 rūpa 两个术语，参见附注“作为色的处”。）
+通过行蕴，人们进而与世间（loka）展开互动。（译者注：关于 āyatana 与 rūpa 两个术语，参见附注 1.1“作为色的处”。）
 
-作为色的处
-
-> 译注：尊者作者在指称“外处”与“内处”时，不用 āyatana 一词，而用 rūpa（色）一词。他的解释是：
+> **附注 1.1　作为色的处**
+> {: id="note-1-1"}
+>
+> 译者注：尊者作者在指称“外处”与“内处”时，不用 āyatana 一词，而用 rūpa（色）一词。他的解释是：
 >
 > > 义注有时把五根称为“内色”，代表整个身体，而把其他一切物质称为“外色”。
 >
@@ -295,7 +296,7 @@ paññā 是一个通用术语，描述上述各种了知。慧有许多不同�
 
 总结而言：人的生命或人类的存在，等同于五蕴的相续运作（khandha-pavatti），始于六内处。究其根本，五蕴的相续运作是此缘性缘起（idappaccayatā-paṭiccasamuppāda）的一个面向，通常也简称为“因缘过程”（paccayākāra）——即自然现象（sabhāva-dhamma）之间的相互关系，具体而言即全体名色（nāma-rūpa）或五蕴。这一过程具有三法印（tilakkhaṇa）的特征：无常（anicca）、苦（dukkha）与无我（anattā）。
 
-### 附注
+### 补充说明
 
 根据《阿毗达摩》（Abhidhamma）的高阶分析体系，五蕴与究竟法（paramattha-dhamma）的对应归纳如下：
 
@@ -464,7 +465,7 @@ paññā 是一个通用术语，描述上述各种了知。慧有许多不同�
 \[1\] 在巴利语中，“事物”可以被称为现象（dhamma）、元素（dhātu）或实相的面向（sabhāva）。第三个术语的完整拼写是 sabhāva-dhammā（源自 sa + bhāva + dhamma），字面意思是“依其自性而存在的事物”。[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
-\[2\] [SN 5.10 / S i 135](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-05-bhikkhuni/sn-05-bhikkhuni/#110-sn-510-金刚经-vajirāsutta){: target="_blank" rel="noopener"}, Vajirā Sutta. \[译注：在古印度，这指马车；在现代，我们可以称之为“汽车”。\][&nbsp;↩&nbsp;](#fr-fn2)
+\[2\] [SN 5.10 / S i 135](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-05-bhikkhuni/sn-05-bhikkhuni/#110-sn-510-金刚经-vajirāsutta){: target="_blank" rel="noopener"}, Vajirā Sutta. \[译者注：在古印度，这指马车；在现代，我们可以称之为“汽车”。\][&nbsp;↩&nbsp;](#fr-fn2)
 {: id="fn-fn2"}
 
 \[3\] 最广义的划分是分为名（nāma）和色（rūpa），或者心法与色法。阿毗达摩文献倾向于将心法分为心（citta）、心所（cetasika）和色（rūpa）三部分。若把这一分析与五蕴相对照，可以将以下各项等同：citta = viññāṇa-khandha；cetasika = vedanā-khandha、saññā-khandha 和 saṅkhāra-khandha；rūpa = rūpa-khandha。[&nbsp;↩&nbsp;](#fr-fn3)
@@ -479,13 +480,13 @@ paññā 是一个通用术语，描述上述各种了知。慧有许多不同�
 \[6\] upekkhā 这个重要术语的含义经常被误解。这个术语出现在行（saṅkhāra）的组别中，在那里它等同于中舍性（tatramajjhattatā），也出现在受（vedanā）的组别中，在那里它等同于中性感受（adukkhamasukha），即不苦不乐的感受。[&nbsp;↩&nbsp;](#fr-fn6)
 {: id="fn-fn6"}
 
-\[7\] 以下解释基于《巴利三藏》的参考资料，以及义注的比较参考资料，特别是：[MN 43 / M i 292-3](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-043-mahavedalla/){: target="_blank" rel="noopener"}, Mahāvedalla Sutta；[SN 22.79 / S iii 87](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-73-82-khajjaniya/#7-sn-2279-所食经-khajjanīyasutta){: target="_blank" rel="noopener"}, Khajjanīya Sutta；\[MA. II. 462\]；SA. II. 291；Vism. 436, 452-3。[&nbsp;↩&nbsp;](#fr-fn7)
+\[7\] 以下解释基于《巴利三藏》的参考资料，以及义注的比较参考资料，特别是：[MN 43 / M i 292-293](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-043-mahavedalla/){: target="_blank" rel="noopener"}, Mahāvedalla Sutta；[SN 22.79 / S iii 87](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-73-82-khajjaniya/#7-sn-2279-所食经-khajjanīyasutta){: target="_blank" rel="noopener"}, Khajjanīya Sutta；\[MA. II. 462\]；SA. II. 291；Vism. 436, 452-453。[&nbsp;↩&nbsp;](#fr-fn7)
 {: id="fn-fn7"}
 
 \[8\] 关于想蕴的义注分析，请参阅附录二。[&nbsp;↩&nbsp;](#fr-fn8)
 {: id="fn-fn8"}
 
-\[9\] 译注：英文中，有时会用“apperception（统觉）”来翻译 saññā（想）。然而根据《柯林斯简明词典》（Collins Concise Dictionary，© 1999）的定义，统觉是“对‘正在感知’的觉知”，这个意思其实更接近 viññāṇa（识）的功能，即了知心识活动本身。[&nbsp;↩&nbsp;](#fr-fn9)
+\[9\] 译者注：英文中，有时会用“apperception（统觉）”来翻译 saññā（想）。然而根据《柯林斯简明词典》（Collins Concise Dictionary，© 1999）的定义，统觉是“对‘正在感知’的觉知”，这个意思其实更接近 viññāṇa（识）的功能，即了知心识活动本身。[&nbsp;↩&nbsp;](#fr-fn9)
 {: id="fn-fn9"}
 
 \[10\] 关于此主题的更多内容，请参阅第四章“缘起”。[&nbsp;↩&nbsp;](#fr-fn10)
@@ -500,16 +501,16 @@ paññā 是一个通用术语，描述上述各种了知。慧有许多不同�
 \[13\] 念（sati）的一个方面是忆念——回忆的能力；另一个方面是正念。[&nbsp;↩&nbsp;](#fr-fn13)
 {: id="fn-fn13"}
 
-\[14\] [AN 1.219-234 / A i 24-25](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#54-an-1219-234-比丘第一其四){: target="_blank" rel="noopener"}, Catuttha Vagga.[&nbsp;↩&nbsp;](#fr-fn14)
+\[14\] [AN 1.219–234 / A i 24-25](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#54-an-1219-234-比丘第一其四){: target="_blank" rel="noopener"}, Catuttha Vagga.[&nbsp;↩&nbsp;](#fr-fn14)
 {: id="fn-fn14"}
 
-\[15\] [MN 43 / M i 292-3](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-043-mahavedalla/){: target="_blank" rel="noopener"}, Mahāvedalla Sutta.[&nbsp;↩&nbsp;](#fr-fn15)
+\[15\] [MN 43 / M i 292-293](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-043-mahavedalla/){: target="_blank" rel="noopener"}, Mahāvedalla Sutta.[&nbsp;↩&nbsp;](#fr-fn15)
 {: id="fn-fn15"}
 
 \[16\] Vism. 436.[&nbsp;↩&nbsp;](#fr-fn16)
 {: id="fn-fn16"}
 
-\[17\] 译注：菩萨须大拏（Vessantara）及其妻子曼坻（Maddī）的孩子。[&nbsp;↩&nbsp;](#fr-fn17)
+\[17\] 译者注：菩萨须大拏（Vessantara）及其妻子曼坻（Maddī）的孩子。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
 \[18\] 关于此过程的完整顺序，请参阅下一章“六处”。[&nbsp;↩&nbsp;](#fr-fn18)
@@ -521,25 +522,25 @@ paññā 是一个通用术语，描述上述各种了知。慧有许多不同�
 \[20\] [MN 135 / M iii 203](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-135-culakammavibhanga/){: target="_blank" rel="noopener"}, Cūḷakammavibhaṅga Sutta.[&nbsp;↩&nbsp;](#fr-fn20)
 {: id="fn-fn20"}
 
-\[21\] [Snp 35 / Sn 118-19](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}, Vāseṭṭha Sutta.[&nbsp;↩&nbsp;](#fr-fn21)
+\[21\] [Snp 35 / Sn 118-119](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}, Vāseṭṭha Sutta.[&nbsp;↩&nbsp;](#fr-fn21)
 {: id="fn-fn21"}
 
-\[22\] 译注：在巴利语中，有许多术语可以依情况指称“心”，其中最常用的是 citta。[&nbsp;↩&nbsp;](#fr-fn22)
+\[22\] 译者注：在巴利语中，有许多术语可以依情况指称“心”，其中最常用的是 citta。[&nbsp;↩&nbsp;](#fr-fn22)
 {: id="fn-fn22"}
 
-\[23\] 译注：请注意，在其他语境中，citta 一词的含义可能更宽或更窄。例如，在四神足（iddhipāda）的教导中，citta 指“专注意念”。[&nbsp;↩&nbsp;](#fr-fn23)
+\[23\] 译者注：请注意，在其他语境中，citta 一词的含义可能更宽或更窄。例如，在四神足（iddhipāda）的教导中，citta 指“专注意念”。[&nbsp;↩&nbsp;](#fr-fn23)
 {: id="fn-fn23"}
 
 \[24\] 此第三种感受也可以称为舍（upekkhā）。但我建议避免使用这个术语，因为 upekkhā 也指一种极其殊胜的善心——“平等心”，属于行蕴。我认为最好将 upekkhā 一词保留用于表示“平等心”。[&nbsp;↩&nbsp;](#fr-fn24)
 {: id="fn-fn24"}
 
-\[25\] 译注：巴利语作 kamma，梵语作 karma。英语读者更熟悉梵语拼法。[&nbsp;↩&nbsp;](#fr-fn25)
+\[25\] 译者注：巴利语作 kamma，梵语作 karma。英语读者更熟悉梵语拼法。[&nbsp;↩&nbsp;](#fr-fn25)
 {: id="fn-fn25"}
 
-\[26\] 请注意佛陀的话：“比丘们，对于凡夫来说，把这个由四大种组成的身体当作‘我’，要比将心视为‘我’更好。这是因为这个由四大种组成的身体被看到可以存在一年、两年、三年、四年、五年、十年、二十年、三十年、四十年、五十年、一百年，甚至更久。但是那个被称为‘心’（citta）、‘意’（mano）或‘识’（viññāṇa）的东西，却日夜不停地生起和灭去。”（[SN 12.61 / S ii 94-5](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#1-sn-1261-无闻经之一-assutavāsutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn26)
+\[26\] 请注意佛陀的话：“比丘们，对于凡夫来说，把这个由四大种组成的身体当作‘我’，要比将心视为‘我’更好。这是因为这个由四大种组成的身体被看到可以存在一年、两年、三年、四年、五年、十年、二十年、三十年、四十年、五十年、一百年，甚至更久。但是那个被称为‘心’（citta）、‘意’（mano）或‘识’（viññāṇa）的东西，却日夜不停地生起和灭去。”（[SN 12.61 / S ii 94-95](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#1-sn-1261-无闻经之一-assutavāsutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn26)
 {: id="fn-fn26"}
 
-\[27\] 参见：[SN 22.1 / S iii 3-5](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-01-11-nakulapitu/#1-sn-221-那拘罗父经-nakulapitusutta){: target="_blank" rel="noopener"}；[SN 22.7 / S iii 16-18](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-01-11-nakulapitu/#7-sn-227-执取与恐慌经之一-upādāparitassanāsutta){: target="_blank" rel="noopener"}；[SN 22.85 / S iii 110-15](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-83-92-thera/#3-sn-2285-焰摩迦经-yamakasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn27)
+\[27\] 参见：[SN 22.1 / S iii 3-5](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-01-11-nakulapitu/#1-sn-221-那拘罗父经-nakulapitusutta){: target="_blank" rel="noopener"}；[SN 22.7 / S iii 16-18](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-01-11-nakulapitu/#7-sn-227-执取与恐慌经之一-upādāparitassanāsutta){: target="_blank" rel="noopener"}；[SN 22.85 / S iii 110-115](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-83-92-thera/#3-sn-2285-焰摩迦经-yamakasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn27)
 {: id="fn-fn27"}
 
 \[28\] 参见第四章“缘起”。[&nbsp;↩&nbsp;](#fr-fn28)
@@ -548,5 +549,5 @@ paññā 是一个通用术语，描述上述各种了知。慧有许多不同�
 \[29\] 例如：[SN 22.56 / S iii 60-61](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#4-sn-2256-五取蕴四谛转经-upādānaparipavattasutta){: target="_blank" rel="noopener"}, Upādānaparipavatta Sutta。[&nbsp;↩&nbsp;](#fr-fn29)
 {: id="fn-fn29"}
 
-\[30\] 译注：有关 citta、viññāṇa 和 mano 术语的更多信息，请参阅本书末尾的特别附录。[&nbsp;↩&nbsp;](#fr-fn30)
+\[30\] 译者注：有关 citta、viññāṇa 和 mano 术语的更多信息，请参阅本书末尾的特别附录。[&nbsp;↩&nbsp;](#fr-fn30)
 {: id="fn-fn30"}

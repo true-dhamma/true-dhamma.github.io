@@ -17,5 +17,3 @@ title: 尊者阿姜查雅萨罗前言 | 佛法 | Buddhadhamma
 2016年6月
 
 ![image](./images/illustrations/flowers-collection-decor.jpg)
-
-![image](./images/illustrations/bodhi-leaf-jayasaro-foreword-trade.jpg)

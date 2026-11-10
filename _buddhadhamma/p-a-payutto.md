@@ -51,13 +51,13 @@ title: 巴育陀 | 佛法 | Buddhadhamma
 
 ### 弘法活动
 
-1962-64年：在摩诃朱拉隆功大学巴利语预科系授课。
+1962-1964年：在摩诃朱拉隆功大学巴利语预科系授课。
 
-1964-74年：在摩诃朱拉隆功大学教授佛学本科课程（在此期间，他偶尔会在艺术大学考古学院和玛希隆大学比较宗教学项目讲课）。
+1964-1974年：在摩诃朱拉隆功大学教授佛学本科课程（在此期间，他偶尔会在艺术大学考古学院和玛希隆大学比较宗教学项目讲课）。
 
-1964-74年：担任摩诃朱拉隆功大学助理秘书长，后任副秘书长。
+1964-1974年：担任摩诃朱拉隆功大学助理秘书长，后任副秘书长。
 
-1972-76年：被任命为 Wat Phra Phiren 的住持。
+1972-1976年：被任命为 Wat Phra Phiren 的住持。
 
 1972年：在宾夕法尼亚大学博物馆讲授“佛教与泰国文化”。
 
@@ -255,5 +255,5 @@ title: 巴育陀 | 佛法 | Buddhadhamma
 
 附注：尽管许多大学和机构曾邀请尊贵的作者接受荣誉博士学位、勋章和奖项，但由于健康不佳和居住在偏远省份，自2004年起（即从获得世界佛教大学授予的“最杰出学者”荣誉开始），尊者巴育陀已请求免于亲自出席相关荣誉典礼。他转而向各方致谢，感谢他们的好意，以及对求知事业的赞赏与支持。
 
-\[1\] 全称：Somdet Phra Buddhaghosacariya Ñāṇa-adulyasundaranāyaka Pāvacanatilaka Varānusāsana Arayangkoon Vilāsanāmānukkama Gambhīrañāṇa-uttamavisiṭṭha Tipiṭaka-paṇḍita Mahāgaṇissara Bowonsaṅghārāma Gāmavāsī Araññavāsī。（译注：这是我自己的音译；泰语的读音与此大不相同，因为泰语常采用词的梵语形式，且常将巴利语和梵语词缩略。请注意，将泰语法号พุทธโฆษาจารย์音译成罗马字母有多种方式，包括：Buddhaghosacariya, Buddhaghosacharya, 和 Phutthakosajarn。引述 Somseen 博士在其近期译作《头陀行》〔Dhutanga...〕中的话：“表面上，这个特定的僧侣头衔的名称是模仿觉音长老……这位公元五世纪的印度佛教僧侣是上座部佛教最伟大的义注师和学者。”）[&nbsp;↩&nbsp;](#fr-fn1)
+\[1\] 全称：Somdet Phra Buddhaghosacariya Ñāṇa-adulyasundaranāyaka Pāvacanatilaka Varānusāsana Arayangkoon Vilāsanāmānukkama Gambhīrañāṇa-uttamavisiṭṭha Tipiṭaka-paṇḍita Mahāgaṇissara Bowonsaṅghārāma Gāmavāsī Araññavāsī。（译者注：这是我自己的音译；泰语的读音与此大不相同，因为泰语常采用词的梵语形式，且常将巴利语和梵语词缩略。请注意，将泰语法号พุทธโฆษาจารย์音译成罗马字母有多种方式，包括：Buddhaghosacariya, Buddhaghosacharya, 和 Phutthakosajarn。引述 Somseen 博士在其近期译作《头陀行》〔Dhutanga...〕中的话：“表面上，这个特定的僧侣头衔的名称是模仿觉音长老……这位公元五世纪的印度佛教僧侣是上座部佛教最伟大的义注师和学者。”）[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}

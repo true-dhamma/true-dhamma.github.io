@@ -13,19 +13,19 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 ## 四圣谛的作用与意义
 
 > 诸位朋友，就像任何动物的足迹都可以容纳在大象的足迹之中，所以大象的足迹被称为其中之首，因为它体量巨大；同样地，所有善法都可以包含在四圣谛之中。  
-> [MN 28 / M i 184-5](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-028-mahahatthipadopama/){: target="_blank" rel="noopener"}, Mahāhatthipadopama Sutta
+> [MN 28 / M i 184-185](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-028-mahahatthipadopama/){: target="_blank" rel="noopener"}, Mahāhatthipadopama Sutta
 >
 > 诸比丘，只要我对这四圣谛三转十二行相的如实智见尚未如此完全清净，我就不宣称已证得无上正等正觉……《转法轮经》（Dhammacakkappavattana Sutta）：  
-> [MV 1 / Vin i 11](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}; [SN 56.11 / S v 422-3](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}
+> [MV 1 / Vin i 11](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 56.11 / S v 422-423](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}
 >
 > 诸比丘，正是因为不理解、不通达四圣谛，我与你们才长久地在\[生死\]轮回中流转。  
 > [DN 16 / D ii 90](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}, Mahāparinibbāna Sutta
 >
 > 接着，世尊给居士优波离（Upāli）循序渐进地教导，即布施论、戒论、生天论；他解释了欲乐的过患、卑劣与染污，以及出离的利益。当他知道居士优波离的心已准备就绪、堪能、离诸盖、欢喜且明净时，他向他阐述了佛陀特有的教法：苦、苦集、苦灭和道。[\[1\]](#fn-fn1){:id="fr-fn1"}  
-> [MN 56 / M i 379-80](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-056-upali/){: target="_blank" rel="noopener"}, Upāli Sutta
+> [MN 56 / M i 379-380](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-056-upali/){: target="_blank" rel="noopener"}, Upāli Sutta
 >
 > 一个人修习梵行，是为了在世尊座下，了知、看见、亲证、实证、达到那尚未了知、未见、未亲证、未实证、未达到的境界，\[那就是\]：这是苦，这是苦集，这是苦灭，这是导向苦灭之道。  
-> [AN 9.13 / A iv 384-5](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#3-an-913-大拘絺罗经-koṭṭhikasutta){: target="_blank" rel="noopener"}, Koṭṭhika Sutta
+> [AN 9.13 / A iv 384-385](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#3-an-913-大拘絺罗经-koṭṭhikasutta){: target="_blank" rel="noopener"}, Koṭṭhika Sutta
 
 佛教的独特之处之一在于，它只教导那些可以应用于生活中并带来利益的真理。四圣谛直接有益于人们的生活。佛教不关心那些没有实际价值的抽象真理。因此，佛陀不参与形而上学的争论，也不在其上浪费时间：
 
@@ -38,7 +38,7 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 > 因此，记住我未宣说者为未宣说，记住我已宣说者为已宣说。那么我未宣说了什么呢？“世界是永恒的”，“世界是不永恒的”……为什么我未宣说这些呢？因为它们无益，不属于梵行的根本，不能导向厌离、离欲、止息、寂静、证智、觉悟、涅槃。这就是我未宣说它们的原因。
 >
 > 那么我宣说了什么呢？我已宣说：“这是苦”，“这是苦集”，“这是苦灭”，“这是导向苦灭之道。”为什么我宣说这些呢？因为它们有益，属于梵行的根本，导向厌离、离欲、止息、寂静、证智、觉悟、涅槃。这就是我宣说它们的原因。  
-> [MN 63 / M i 428-31](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-063-culamalukya/){: target="_blank" rel="noopener"}, Cūḷamālukya Sutta
+> [MN 63 / M i 428-431](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-063-culamalukya/){: target="_blank" rel="noopener"}, Cūḷamālukya Sutta
 
 在另一个场合，佛陀说他所证悟的事物很多，但他所教导的事物却很少。这是因为他只教导那些有益且能解决问题的事物。具体来说，这些有益的事物就是四圣谛：
 
@@ -53,12 +53,12 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 > “那么，诸比丘，我教导了什么呢？我教导了：‘这是苦’；我教导了：‘这是苦集’；我教导了：‘这是苦灭’；我教导了：‘这是导向苦灭之道。’为什么我教导这些呢？因为它们有益，与梵行的根本相关，并导向厌离、离欲、止息、寂静、证智、觉悟、涅槃。因此我教导了这些。
 >
 > “因此，诸比丘，你们应当努力，以便如实理解：‘这是苦，这是苦集，这是苦灭，这是导向苦灭之道。’”[\[2\]](#fn-fn2){:id="fr-fn2"}  
-> [SN 56.31 / S v 437-8](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-31-40-sisapavana/#1-sn-5631-申恕林经-sīsapāvanasutta){: target="_blank" rel="noopener"}, Sīsapāvana Sutta
+> [SN 56.31 / S v 437-438](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-31-40-sisapavana/#1-sn-5631-申恕林经-sīsapāvanasutta){: target="_blank" rel="noopener"}, Sīsapāvana Sutta
 
 四圣谛对出家众和居士都是至关重要的教法。因此，佛陀敦促比丘们向居士开示，以便他们理解这些真理：
 
 > 诸比丘，你们应当帮助的人，或那些乐于接受教法的人——无论是朋友、同事、亲戚还是眷属——你们都应当鼓励和劝导他们，使其安住并确立对四圣谛如实的亲证。  
-> [SN 56.26 / S v 434-5](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-21-30-kotigama/#6-sn-5626-友-mittasutta){: target="_blank" rel="noopener"}, Mitta Sutta
+> [SN 56.26 / S v 434-435](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-21-30-kotigama/#6-sn-5626-友-mittasutta){: target="_blank" rel="noopener"}, Mitta Sutta
 
 ## 四圣谛的含义
 
@@ -71,10 +71,11 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 > 诸比丘，正因为如来（Tathāgata）、阿罗汉（Arahant）、正等正觉者如实地彻悟了这四圣谛，他才被称为圣者。[\[4\]](#fn-fn4){:id="fr-fn4"}  
 > [SN 56.23 / S v 433](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-21-30-kotigama/#3-sn-5623-正等正觉者-sammāsambuddhasutta){: target="_blank" rel="noopener"}, Sammāsambuddha Sutta
 
-《清净道论》（Visuddhimagga）引用《巴利三藏》（Tipiṭaka）中的段落，提出了四圣谛的四种定义（参见附注“圣谛”）：
+《清净道论》（Visuddhimagga）引用《巴利三藏》（Tipiṭaka）中的段落，提出了四圣谛的四种定义（参见附注 19.1“圣谛”）：
 
-圣谛
-
+> **附注 19.1　圣谛**
+> {: id="note-19-1"}
+>
 > Vism. 495. 对于第一个定义，《清净道论》（Visuddhimagga）引用了以下段落：“诸比丘，因为‘圣者’（即觉悟者）通达这些真理，所以它们被称为圣谛”，但我无法在现存的三藏（Tipiṭaka）中找到这段经文。至于第四个定义，ariya 这个词通常翻译为“高贵的”或“卓越的”，因此 ariya-sacca 被翻译为“圣谛”，但这里的义注师根据上述引用的段落，将 ariya 解释为“真实的”或“确定的”。
 
 1.  由“圣者”（参见前一脚注）所证悟的真理。
@@ -125,7 +126,7 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 > 当我吃了固体食物并恢复体力后，我完全离于欲乐，离于不善法，安住于初禅……二禅……三禅……四禅，四禅不苦不乐，由舍而念清净……
 >
 > 当我的心已得定、清净、明晰、无染、离于烦恼、柔顺、适于作业、稳定、不动摇时，我将它导向宿命随念智（pubbenivāsānussati-ñāṇa；第一明——vijjā）。我忆念我的多生多世……我将它导向众生生死智……我看见众生逝去与再生（cutūpapāta-ñāṇa；第二明）……我将它导向漏尽智（āsavakkhaya-ñāṇa；第三明）。我如实证知：“此是苦”，“此是苦集”，“此是苦灭”，“此是导向苦灭之道”；我如实证知：“此是漏”，“此是漏集”，“此是漏灭”，“此是导向漏灭之道”。当我如此了知、看见时，我的心从欲漏、有漏、无明漏中解脱。  
-> [MN 26 / M i 163-73](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-026-pasarasi/){: target="_blank" rel="noopener"}, [MN 36 / M i 240-49](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}; [MN 85 / M ii 93](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}, [MN 100 / M ii 211-12](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-100-sangarava/){: target="_blank" rel="noopener"}
+> [MN 26 / M i 163-173](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-026-pasarasi/){: target="_blank" rel="noopener"}, [MN 36 / M i 240-249](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}；[MN 85 / M ii 93](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}, [MN 100 / M ii 211-212](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-100-sangarava/){: target="_blank" rel="noopener"}
 
 这些段落之后，描述了佛陀对宣说法（Dhamma）的考虑，与上面引用的律藏中的段落相同。
 
@@ -439,7 +440,7 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 > 众人受危险威胁，寻求山林、圣林和圣树为皈依。然此类皈依无一安全，无一殊胜。依止此等皈依，并不能从一切苦难中解脱。
 >
 > 若有皈依佛、法、僧者；若以智慧清楚地见四圣谛：苦、苦的起源、苦的超越，以及导向苦灭的八正道。这确实是安全的皈依；这确实是殊胜的皈依。依止这样的皈依，便能从一切苦难中解脱。[\[15\]](#fn-fn15){:id="fr-fn15"}  
-> [Dhp 188-92](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#146-dhp-188-192-祀得皈依三宝的故事-aggidattabrāhmaṇavatthu){: target="_blank" rel="noopener"}, Buddhavagga
+> [Dhp 188-192](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#146-dhp-188-192-祀得皈依三宝的故事-aggidattabrāhmaṇavatthu){: target="_blank" rel="noopener"}, Buddhavagga
 
 忆念佛陀使我们确信，每个人都拥有可以被训练或发展至完美的智力和能力。我们都能够证悟真理，达到彻底的苦的解脱，超越世俗现象，并拥有连天神和梵天都敬仰的至上美德。在这方面，伟大的导师佛陀是我们的引导者和先行者。
 
@@ -455,10 +456,11 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 对于那些具有坚定信心，对三宝完全信赖的人来说，无论是外部的看法，还是生活中通常被称为命运转折的种种变迁，都不能让他们动摇。
 
-他们的心境类似于一个身体健康、体魄强壮的人：他们始终是自依止的。（参见附注“自依止”）他们不需要依赖外部力量。他们期待的是业所带来的结果，即依循因缘、刻意努力的结果。他们已培育出智慧，清楚地了知根据四圣谛解决问题的原则，并坚定不移地遵循八正道。
+他们的心境类似于一个身体健康、体魄强壮的人：他们始终是自依止的。（参见附注 19.2“自依止”）他们不需要依赖外部力量。他们期待的是业所带来的结果，即依循因缘、刻意努力的结果。他们已培育出智慧，清楚地了知根据四圣谛解决问题的原则，并坚定不移地遵循八正道。
 
-自依止
-
+> **附注 19.2　自依止**
+> {: id="note-19-2"}
+>
 > 诚然，根据佛教的修习方式，在人成为须陀洹（sotāpanna）之前，他要时刻在心理上做到自依止是极其困难的。因此，佛陀鼓励那些仍然依赖神圣力量、天神以及命运或运气的人，改变方向，转向真理，采用新的方法来解决问题。
 >
 > 佛陀没有让人们通过举行仪式来避免灾难或消除厄运，也没有让他们向某种外部力量祈祷，而是让他们以一种新的方式找到解脱，即通过善的自我奉献与牺牲，例如参与公益慈善，以及奉献时间和精力来促进公共利益。
@@ -521,7 +523,7 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 三学由增上戒学（adhisīla-sikkhā）、增上心学（adhicitta-sikkhā）和增上慧学（adhipaññā-sikkhā）组成。为求简便，这些因素通常被称为戒（sīla）、定（samādhi）和慧（paññā）。
 
-增上戒学：贤善的身、语、活命行为，即培育正语、正业和正命这些道支。本质上，这指的是在社会中表现良好，遵守戒律规范，并履行社会责任。以有益的方式与社会互动，并保护自己的环境——尤其是社会环境——使其有利于每个人过上良善生活并依照道修习。（参见附注“戒即正确的相互关系”）
+增上戒学：贤善的身、语、活命行为，即培育正语、正业和正命这些道支。本质上，这指的是在社会中表现良好，遵守戒律规范，并履行社会责任。以有益的方式与社会互动，并保护自己的环境——尤其是社会环境——使其有利于每个人过上良善生活并依照道修习。（参见附注 19.3“戒即正确的相互关系”）
 
 戒（Sīla）是修习最基本的形式。它具有非常广泛的应用范围，可以分为许多层面，涵盖所有外部行为，所有与他人相关的自我约束行为，以及与环境（包括社会环境和自然环境）之间的一切关系。戒行最基本的层面是避免伤害他人（包括不伤害自己）以及损害有利于德行和道修习的社会环境。
 
@@ -529,8 +531,9 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 增上心学：培养心的品质和能力；培育正精进、正念和正定这些道支。本质上，这意味着使心强大、稳定和安稳，保持自我约束，并专注和高度积极。心变得平静、明亮、喜悦、清净，没有躁动或烦恼。此时心处于最适于工作的状态，尤其适于运用深刻的智慧。
 
-戒即正确的相互关系
-
+> **附注 19.3　戒即正确的相互关系**
+> {: id="note-19-3"}
+>
 > 非常不幸的是，人们倾向于将戒（sīla）看作仅仅是负面的东西——一套禁令或一种约束形式，例如不违犯五戒。
 >
 > 人们没有看到经文中所描述的这个词更广阔的含义。例如，就僧团而言，戒涵盖了师生之间正确的相互关系，如《大品》（Mahākhandhaka）和《律藏》（Vinaya Piṭaka）的其他章节所描述的。
@@ -545,7 +548,7 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 这些定义基本一致，即有必要训练人们有纪律（包括有社会责任感并与社会建立积极关系），培养他们的心境（赋能和完善心），并开发觉醒的智力与智慧（buddhi-paññā）——从推理能力开始。
 
-现代人类发展理论认同这三个层面的训练是相互关联、相互支持的，例如，它们证实了理性的智力有助于整体心境的发展，增强其纪律感，并提升社会责任感。因此，这三学或这三种人类发展形式必须同步进行。（参见附注“身修习”）
+现代人类发展理论认同这三个层面的训练是相互关联、相互支持的，例如，它们证实了理性的智力有助于整体心境的发展，增强其纪律感，并提升社会责任感。因此，这三学或这三种人类发展形式必须同步进行。（参见附注 19.4“身修习”）
 
 请注意，佛教关于四种修习（bhāvanā）的教导中包含额外的身修习（kāya-bhāvanā）因素。[\[16\]](#fn-fn16){:id="fr-fn16"}然而，这里的“身修习”与现代用法有所不同。在佛教中，此术语是指通过身体来发展自己与环境的关系，从而产生有利的结果。它并非指实际培育或改善身体。此外，这个概念也用来衡量修行的进度。在实践应用中，身修习被归类为增上戒学（adhisīla-sikkhā）的一部分。
 
@@ -559,12 +562,13 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 如前所述，圆满三学之后，整个生活方式都与道相符，并且所有因素——无论是关注外在事物还是关注精神品质的——都和谐运作。
 
-身修习
-
+> **附注 19.4　身修习**
+> {: id="note-19-4"}
+>
 > 请注意，在佛教修习的语境中，身修习并未被描述为一个独立的因素，因为它被归入戒行（sīla）的阶段。佛教的生活方式不与自然冲突或疏离，而是与自然保持着健康、和谐的关系。此外，在守护根门戒（indriyasaṁvara-sīla）的道德原则中，佛陀强调了身体与外部环境之间的联系；他还强调了人的内在或精神生活与其物质消费之间的联系，这在被称为四资具依止戒（paccayasannissita-sīla）的德行教导、食知节量（bhojane-mattaññutā）的教导，以及适顺（sappāya）的教导中都有描述。
 >
 > 佛教不将身体的修习与一般的贤善行为分开，因为单独培育一个强壮健康的身体并不构成一项必要的修行。此外，身体训练通常倾向于为渴爱提供追求和放纵欲乐的途径，这与修行是背道而驰的。尽管三学中没有明确说明身修习，但它是四种修习（bhāvanā）的一部分，参见：  
-> [AN 5.79 / A iii 105-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#9-an-579-未来怖畏经之三-tatiyaanāgatabhayasutta){: target="_blank" rel="noopener"}
+> [AN 5.79 / A iii 105-106](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#9-an-579-未来怖畏经之三-tatiyaanāgatabhayasutta){: target="_blank" rel="noopener"}
 
 ## 佛教解决问题的方式
 
@@ -738,7 +742,7 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 *   冈仁波齐峰山顶很高 → 空气非常冷 → 全年下雪。
     
-*   哈维先生长时间被困在雪中 → 因低温血流减少 → 血液无法充分到达手指和脚趾 → 他的手指和脚趾疼痛并麻木 → 他患上冻伤 → 他成了残疾人。
+*   孙先生长时间被困在雪中 → 因低温血流减少 → 血液无法充分到达手指和脚趾 → 他的手指和脚趾疼痛并麻木 → 他患上冻伤 → 他成了残疾人。
     
 
 二、内心层面的业报因缘模式
@@ -747,20 +751,20 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 
 时钟敲响上午十点
 
-*   亚当斯先生（一名囚犯，行刑时间已到）听到钟声 → 他感到恐惧 → 他双腿发软无法站立。
+*   张先生（一名囚犯，行刑时间已到）听到钟声 → 他感到恐惧 → 他双腿发软无法站立。
     
-*   巴林顿先生（被亚当斯先生所杀之人的亲属）听到钟声 → 他的复仇欲望得到满足 → 他高兴地大喊。
+*   黄先生（被张先生所杀之人的亲属）听到钟声 → 他的复仇欲望得到满足 → 他高兴地大喊。
     
-*   查德威克先生（死者的另一位亲属）听到钟声 → 他很生气，但想到人的行为及其果报（kamma-vipāka），因此感到悲伤 → 他变得内敛和安静。
+*   吴先生（死者的另一位亲属）听到钟声 → 他很生气，但想到人的行为及其果报（kamma-vipāka），因此感到悲伤 → 他变得内敛和安静。
     
-*   德米特里先生（另一名即将被处决的囚犯）听到钟声 → 他之前很害怕，但他考虑到自己行为的应得报应 → 他平静地与狱警同行。
+*   郑先生（另一名即将被处决的囚犯）听到钟声 → 他之前很害怕，但他考虑到自己行为的应得报应 → 他平静地与狱警同行。
     
 
 三、个体层面的业报因缘模式
 
 例子：
 
-*   埃文斯先生辱骂费舍尔先生 → 费舍尔先生用棍子猛击埃文斯先生的头部 → 埃文斯先生头部受伤 → 埃文斯先生拿起枪射击费舍尔先生 → 费舍尔先生受重伤，等等。
+*   陈先生辱骂刘先生 → 刘先生用棍子猛击陈先生的头部 → 陈先生头部受伤 → 陈先生拿起枪射击刘先生 → 刘先生受重伤，等等。
 
 四、社会层面的业报因缘模式
 
@@ -872,19 +876,19 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 > 第二十二章：补充章节 #5：安乐：教理分析[\[28\]](#fn-fn28){:id="fr-fn28"}  
 > 第二十三章：补充章节 #6：安乐：实践分析
 
-\[1\] 另请参见：[AN 8.21 / A iv 209-10](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#1-an-821-郁伽居士经之一-paṭhamauggasutta){: target="_blank" rel="noopener"}。Sāmukkaṁsikā-dhammadesanā（“佛陀特有的教法”）意为“卓越的佛法教义”、“佛陀所称扬的教义”或“佛陀亲自揭示和解释的佛法教义”——它们不同于人们回答问题或与他人交谈时通常给予的教义。[&nbsp;↩&nbsp;](#fr-fn1)
+\[1\] 另请参见：[AN 8.21 / A iv 209-210](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#1-an-821-郁伽居士经之一-paṭhamauggasutta){: target="_blank" rel="noopener"}。Sāmukkaṁsikā-dhammadesanā（“佛陀特有的教法”）意为“卓越的佛法教义”、“佛陀所称扬的教义”或“佛陀亲自揭示和解释的佛法教义”——它们不同于人们回答问题或与他人交谈时通常给予的教义。[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
-\[2\] 译注：作者使用的是 Sīsapā 丛林的拼写。[&nbsp;↩&nbsp;](#fr-fn2)
+\[2\] 译者注：作者使用的是 Sīsapā 丛林的拼写。[&nbsp;↩&nbsp;](#fr-fn2)
 {: id="fn-fn2"}
 
 \[3\] 括号内的段落来自义注的解释：SA. III. 299。[&nbsp;↩&nbsp;](#fr-fn3)
 {: id="fn-fn3"}
 
-\[4\] 这个译文与《清净道论》Vism. 495 的引文一致。在泰文巴利语版本中没有“ariya”一词；若省略此词，该段落译为：“正是因为他如实地完全觉悟了这四圣谛，如来才被称为阿罗汉、正等正觉者。” \[译注：这是菩提比丘（Bhikkhu Bodhi）在《相应部》（Saṁyutta Nikāya）新译本（Connected Discourses of the Buddha: A New Translation of the Saṁyutta Nikāya；Wisdom Publications；© 2000）中的译法。\][&nbsp;↩&nbsp;](#fr-fn4)
+\[4\] 这个译文与《清净道论》Vism. 495 的引文一致。在泰文巴利语版本中没有“ariya”一词；若省略此词，该段落译为：“正是因为他如实地完全觉悟了这四圣谛，如来才被称为阿罗汉、正等正觉者。” \[译者注：这是菩提比丘（Bhikkhu Bodhi）在《相应部》（Saṁyutta Nikāya）新译本（Connected Discourses of the Buddha: A New Translation of the Saṁyutta Nikāya；Wisdom Publications；© 2000）中的译法。\][&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
-\[5\] 例如：在《转法轮经》中：[MV 1 / Vin i 10](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 56.11 / S v 421-22](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}；以及：Ps. II. 147-150；Vbh. 99-104。[&nbsp;↩&nbsp;](#fr-fn5)
+\[5\] 例如：在《转法轮经》中：[MV 1 / Vin i 10](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 56.11 / S v 421-422](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}；以及：Ps. II. 147-150；Vbh. 99-104。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
 \[6\] [MV 1 / Vin i 1-5](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, Mahākhandhaka。[&nbsp;↩&nbsp;](#fr-fn6)
@@ -905,10 +909,10 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 \[11\] Vism. 512；VbhA. 88；PsA. I. 198。[&nbsp;↩&nbsp;](#fr-fn11)
 {: id="fn-fn11"}
 
-\[12\] Vism. 497-8；VbhA. 86；PsA. I. 54, 198。这三部文本中的段落完全相同。此处，我只提供这些教义的摘录。[&nbsp;↩&nbsp;](#fr-fn12)
+\[12\] Vism. 497-498；VbhA. 86；PsA. I. 54, 198。这三部文本中的段落完全相同。此处，我只提供这些教义的摘录。[&nbsp;↩&nbsp;](#fr-fn12)
 {: id="fn-fn12"}
 
-\[13\] 例如：[MN 101 / M ii 214-23](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}；[AN 3.62 / A i 173](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#1-an-362-三所依处经-titthāyatanasutta){: target="_blank" rel="noopener"}；Vbh. 367-8；J. V. 232-43；J. VI. 206-211；JA. V. 237-41。Issaranimmāna-vāda 也被称为 issaranimmita-vāda、issarakaraṇa-vāda 或 issarakutti-vāda。特别是在与 pubbekata-vāda 相关的方面，区分此教义与佛教的业论至关重要，而许多佛教徒似乎并未充分重视这一区分。经文强调了这一区分，若深入研究，将有助于清晰理解佛教的业概念。VbhA. 497 中的义注声称，第一种教义是尼乾陀（Nigaṇṭhā）的，第二种是婆罗门的，第三种是阿耆毗迦（Ājīvakas）的。在 J. V. 239-41 中，断灭论（uccheda-vāda）作为第四项被加入这份邪说列表。[&nbsp;↩&nbsp;](#fr-fn13)
+\[13\] 例如：[MN 101 / M ii 214-223](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}；[AN 3.62 / A i 173](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#1-an-362-三所依处经-titthāyatanasutta){: target="_blank" rel="noopener"}；Vbh. 367-368；J. V. 232-243；J. VI. 206-211；JA. V. 237-241。Issaranimmāna-vāda 也被称为 issaranimmita-vāda、issarakaraṇa-vāda 或 issarakutti-vāda。特别是在与 pubbekata-vāda 相关的方面，区分此教义与佛教的业论至关重要，而许多佛教徒似乎并未充分重视这一区分。经文强调了这一区分，若深入研究，将有助于清晰理解佛教的业概念。VbhA. 497 中的义注声称，第一种教义是尼乾陀（Nigaṇṭhā）的，第二种是婆罗门的，第三种是阿耆毗迦（Ājīvakas）的。在 J. V. 239-241 中，断灭论（uccheda-vāda）作为第四项被加入这份邪说列表。[&nbsp;↩&nbsp;](#fr-fn13)
 {: id="fn-fn13"}
 
 \[14\] Ps. I. 27；Ps. II. 220。[&nbsp;↩&nbsp;](#fr-fn14)
@@ -923,10 +927,10 @@ title: 第十九章：四圣谛 | 佛法 | Buddhadhamma
 \[17\] 关于泰文版章节顺序，请参见附录二。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
-\[18\] [SN 35.146 / S iv 132-3](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-146-155-navapurana/#1-sn-35146-业经-kammanirodhasutta){: target="_blank" rel="noopener"}, Kammanirodha Sutta。[&nbsp;↩&nbsp;](#fr-fn18)
+\[18\] [SN 35.146 / S iv 132-133](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-146-155-navapurana/#1-sn-35146-业经-kammanirodhasutta){: target="_blank" rel="noopener"}, Kammanirodha Sutta。[&nbsp;↩&nbsp;](#fr-fn18)
 {: id="fn-fn18"}
 
-\[19\] 译注：作者在罗宾·摩尔（Robin Moore）于2015年翻译的《佛教戒律与比丘尼》（The Buddhist Discipline in Relation to Bhikkhunis）一书中，对这一“圣律”（ariya-vinaya）进行了详尽的概述和分析。[&nbsp;↩&nbsp;](#fr-fn19)
+\[19\] 译者注：作者在罗宾·摩尔（Robin Moore）于2015年翻译的《佛教戒律与比丘尼》（The Buddhist Discipline in Relation to Bhikkhunis）一书中，对这一“圣律”（ariya-vinaya）进行了详尽的概述和分析。[&nbsp;↩&nbsp;](#fr-fn19)
 {: id="fn-fn19"}
 
 \[20\] 此内容包含在英文版的第六章中。[&nbsp;↩&nbsp;](#fr-fn20)

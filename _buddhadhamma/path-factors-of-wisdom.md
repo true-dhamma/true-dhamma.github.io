@@ -44,21 +44,21 @@ title: 第十六章：智慧道支 | 佛法 | Buddhadhamma
 > [SN 45.9 / S v 10-11](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-01-10-avijja/#9-sn-459-芒经-sūkasutta){: target="_blank" rel="noopener"}, [SN 45.154 / S v 49](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-41-181-maggapeyyala/#86-sn-45154-芒喻经-sūkasutta){: target="_blank" rel="noopener"}
 >
 > 我看不到有任何其他事物，能像正见那样，如此有助于未生善法的生起，或已生善法的增长和繁荣。  
-> [AN 1.307 / A i 30-31](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#72-an-1298-307-见解的种子效应){: target="_blank" rel="noopener"}
+> [AN 1.299 / A i 30-31](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#72-an-1298-307-见解的种子效应){: target="_blank" rel="noopener"}
 
 ### 正见的定义
 
 正见最常见的定义是对四圣谛的了知：
 
 > 诸比丘，何为正见？了知苦，了知苦的生起，了知苦的止息，了知导致苦止息之道：这称为正见。例如：  
-> [DN 22 / D ii 311-12](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-22-mahasatipatthana/){: target="_blank" rel="noopener"}; [MN 9 / M i 48-9](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-009-sammaditthi/){: target="_blank" rel="noopener"}, [MN 10 / M i 62](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-010-mahasatipatthana/){: target="_blank" rel="noopener"}; [SN 45.8 / S v 8-9](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-01-10-avijja/#8-sn-458-分别经-vibhaṅgasutta){: target="_blank" rel="noopener"}; Vbh. 104, 235
+> [DN 22 / D ii 311-312](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-22-mahasatipatthana/){: target="_blank" rel="noopener"}；[MN 9 / M i 48-49](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-009-sammaditthi/){: target="_blank" rel="noopener"}, [MN 10 / M i 62](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-010-mahasatipatthana/){: target="_blank" rel="noopener"}；[SN 45.8 / S v 8-9](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-01-10-avijja/#8-sn-458-分别经-vibhaṅgasutta){: target="_blank" rel="noopener"}；Vbh. 104, 235
 
 其他定义包括：
 
 了知善法和不善法，以及它们的根本原因：
 
 > 当一位圣弟子了知不善和不善的根，善和善的根时，以此方式他便是具足正见者，其见地正直，对法有不动摇的信心，并已到达此真实之法。[\[2\]](#fn-fn2){:id="fr-fn2"}  
-> [MN 9 / M i 46-7](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-009-sammaditthi/){: target="_blank" rel="noopener"}, Sammādiṭṭhi Sutta
+> [MN 9 / M i 46-47](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-009-sammaditthi/){: target="_blank" rel="noopener"}, Sammādiṭṭhi Sutta
 
 辨明三法印：
 
@@ -255,10 +255,11 @@ Diṭṭhi 最常被翻译为“见”，但它的含义也包括“信仰”、
 
 因此，当教导孩子道德自律时，也必须培养他们对自律的价值和必要性的理解。
 
-在制定规则、规章、戒律等时，重要的是让参与者理解其目的并给予同意，这将防止他们感到被胁迫或被命令，或仅仅是盲目服从。（参见附注“制定毗奈耶”）即使对于现有的社会制度、习俗、传统和机构，重要的是要教导每一代新人这些事物的价值。
+在制定规则、规章、戒律等时，重要的是让参与者理解其目的并给予同意，这将防止他们感到被胁迫或被命令，或仅仅是盲目服从。（参见附注 16.1“制定毗奈耶”）即使对于现有的社会制度、习俗、传统和机构，重要的是要教导每一代新人这些事物的价值。
 
-制定毗奈耶
-
+> **附注 16.1　制定毗奈耶**
+> {: id="note-16-1"}
+>
 > 值得注意的是，在为比丘僧伽制定毗奈耶戒律时，佛陀会召集整个僧团，解释每条戒律的目的，获得所有人的认同和同意。此外，他没有使用“命令”、“禁止”、“强迫”、“不许”或“必须”等词语。
 >
 > 对于类似于禁令的条款，他会使用这样的措辞：“若比丘以这种方式行事，则犯某某程度的过失。”对于波提木叉（Pāṭimokkha）之外不合适的行为，他最多会说：“你不应该那样做。”
@@ -314,7 +315,7 @@ Diṭṭhi 最常被翻译为“见”，但它的含义也包括“信仰”、
 八正道分中第二个因素——正思惟——的普遍经文定义如下：
 
 > 诸比丘，什么是正思惟？出离思惟、无嗔恚思惟、无害思惟：这被称为正思惟。[\[16\]](#fn-fn16){:id="fr-fn16"}  
-> [DN 22 / D ii 311-12](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-22-mahasatipatthana/){: target="_blank" rel="noopener"}; [MN 141 / M iii 251](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-141-saccavibhanga/){: target="_blank" rel="noopener"}; Vbh. 104, 235
+> [DN 22 / D ii 311-312](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-22-mahasatipatthana/){: target="_blank" rel="noopener"}；[MN 141 / M iii 251](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-141-saccavibhanga/){: target="_blank" rel="noopener"}；Vbh. 104, 235
 
 以下是区分世间正思惟和出世间正思惟的定义：
 
@@ -323,7 +324,7 @@ Diṭṭhi 最常被翻译为“见”，但它的含义也包括“信仰”、
 > 受漏影响的正思惟……是出离思惟、无嗔恚思惟、无害思惟。
 >
 > 圣、无漏、出世间、道支的正思惟是心高尚、心无漏、拥有圣道并正在修习圣道者的思（takka）、寻（vitakka）、意图（saṅkappa）、专注思惟（appanā）、坚固思惟（byappanā）、专注注意和语行（vacī-saṅkhāra）的前提。  
-> [MN 117 / M iii 73](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-117-mahacattarisaka/){: target="_blank" rel="noopener"}, Mahācattārīsaka Sutta; Vbh. 110, 237
+> [MN 117 / M iii 73](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-117-mahacattarisaka/){: target="_blank" rel="noopener"}, Mahācattārīsaka Sutta；Vbh. 110, 237
 
 为求简明，在此我只解释作为世间道支的正思惟的定义。根据此定义，sammā-saṅkappa 指的是正意图，或朝向正确方向的思惟。这与“邪思惟”（micchā-saṅkappa）相对，邪思惟也有三种：
 
@@ -439,7 +440,7 @@ Mettā 可以定义为“友善”、“爱”、“祝愿”、“同情”、�
 真正的爱是公正无私的，并保持客观性。它导向利他主义和公平，没有有害思想，友善并希望平等地帮助每个人，以及合理的判断和行动，旨在所有众生的真正福祉。不会出于个人偏好或为了获得某种东西而行动。真正的爱有以下特点：
 
 > 世尊平等无私，对弓箭手（被雇佣秘密刺杀佛陀的人）、提婆达多（Devadatta）（下令刺杀的人）、盗匪鸯掘摩罗（Aṅgulimāla）、象王护财（Dhanapāla）（被释放以杀害佛陀的象），以及罗睺罗（Rāhula）（佛陀的儿子），一视同仁。[\[24\]](#fn-fn24){:id="fr-fn24"}  
-> Ap. 47-8; DhA. I. 145
+> Ap. 47-48；DhA. I. 145
 
 在争议和辩论时期，慈心的益处显而易见，那时每一方都能考虑对方的合理论点，甚至认识到这些论点的真相。
 
@@ -448,7 +449,7 @@ Mettā 可以定义为“友善”、“爱”、“祝愿”、“同情”、�
 > 既然如此，我对乔达摩尊者有信心。乔达摩尊者确实身心俱已培育……
 >
 > 乔达摩尊者，这真是太奇妙了，前所未有，当我侮辱他、用无礼的言语盘问他时，他的脸色依然明亮，面部容光焕发，这正是一位阿罗汉、圆满觉悟者应有的表现。  
-> [MN 36 / M i 239-40](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}, [MN 36 / M i 250](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}
+> [MN 36 / M i 239-240](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}, [MN 36 / M i 250](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}
 
 如果邪思惟（micchā-saṅkappa）产生了，它不能通过固执、烦躁或语无伦次的举止来纠正。相反，必须运用如理作意，以理性的辨别力加以探究，并省察现象的优缺点：
 
@@ -461,12 +462,12 @@ Mettā 可以定义为“友善”、“爱”、“祝愿”、“同情”、�
 > 当我这样精进、热忱、坚定地安住时，一个嗔恚思惟在我心中生起……一个害思惟在我心中生起。我清楚地理解到……每当一个害思惟在我心中生起时，我都会放弃它，减少它，消除它。
 >
 > 诸比丘，无论一位比丘频繁地思考和沉思什么，那就会成为他心意的倾向。如果他频繁地思考和沉思欲思惟，他就会放弃出离思惟去培养欲思惟，然后他的心就会倾向于欲思惟……如果他频繁地思考和沉思出离思惟，他就会放弃欲思惟去培养出离思惟，然后他的心就会倾向于出离思惟。  
-> [MN 19 / M i 114-16](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-019-dvedhavitakka/){: target="_blank" rel="noopener"}, Dvedhāvitakka Sutta
+> [MN 19 / M i 114-116](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-019-dvedhavitakka/){: target="_blank" rel="noopener"}, Dvedhāvitakka Sutta
 
 包含这两个道支的修行的初始阶段可以总结如下：
 
 > 诸比丘，一位具足四种品质的比丘，被称为遵循无误修行之道的人，并开始为断除烦恼建立基础。这四种品质是：出离思惟、无嗔恚思惟、无害思惟和正见。  
-> [AN 4.72 / A ii 76-7](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-071-080-apannaka/#2-an-472-正见-sammādiṭṭhisutta){: target="_blank" rel="noopener"}, Sammādiṭṭhi Sutta
+> [AN 4.72 / A ii 76-77](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-071-080-apannaka/#2-an-472-正见-sammādiṭṭhisutta){: target="_blank" rel="noopener"}, Sammādiṭṭhi Sutta
 
 ## 附录：内在品质与外在行为的关系
 
@@ -487,7 +488,7 @@ Mettā 可以定义为“友善”、“爱”、“祝愿”、“同情”、�
 
 泰国孔敬府孔敬国家博物馆，加拉信府（Kalasin Province）卡马拉塞（Kamalasai）芒法达颂阳（Mueang Fa Daet Song Yang）的 Phimpha Philap sīmā 石（寺庙界标）
 
-\[1\] 类似的段落见：[DN 18 / D ii 216-17](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}；[AN 10.121 / A v 236-7](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-113-122-paccorohani/#9-an-10121-正见先驱经-pubbaṅgamasutta){: target="_blank" rel="noopener"}。“生起”（英译 comes into being）一词是巴利语 pahoti 的翻译，也可译为“适用于应用”或“可行”。[SN 45.1 / S v 1-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-01-10-avijja/#1-sn-451-无明经-avijjāsutta){: target="_blank" rel="noopener"} 和 [AN 10.105 / A v 214](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#5-an-10105-以明为先经-vijjāsutta){: target="_blank" rel="noopener"} 的段落提供了更深入的分析，指出尽管正见是所有道支的领导者，但知见（vijjā）是所有善法事业的领导者，也是正见的来源。（同样地，无明——avijjā——是所有不善法的领导者，也是邪见的来源。）[&nbsp;↩&nbsp;](#fr-fn1)
+\[1\] 类似的段落见：[DN 18 / D ii 216-217](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}；[AN 10.121 / A v 236-237](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-113-122-paccorohani/#9-an-10121-正见先驱经-pubbaṅgamasutta){: target="_blank" rel="noopener"}。“生起”（英译 comes into being）一词是巴利语 pahoti 的翻译，也可译为“适用于应用”或“可行”。[SN 45.1 / S v 1-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-01-10-avijja/#1-sn-451-无明经-avijjāsutta){: target="_blank" rel="noopener"} 和 [AN 10.105 / A v 214](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#5-an-10105-以明为先经-vijjāsutta){: target="_blank" rel="noopener"} 的段落提供了更深入的分析，指出尽管正见是所有道支的领导者，但知见（vijjā）是所有善法事业的领导者，也是正见的来源。（同样地，无明——avijjā——是所有不善法的领导者，也是邪见的来源。）[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
 \[2\] 三不善根：贪、嗔、痴；三善根：无贪、无嗔、无痴。[&nbsp;↩&nbsp;](#fr-fn2)
@@ -496,10 +497,10 @@ Mettā 可以定义为“友善”、“爱”、“祝愿”、“同情”、�
 \[3\] 例如：[SN 12.15 / S ii 17](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-11-20-ahara/#5-sn-1215-迦旃延经-kaccānagottasutta){: target="_blank" rel="noopener"}；[MN 9 / M i 47-55](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-009-sammaditthi/){: target="_blank" rel="noopener"}。有许多这样的定义。[&nbsp;↩&nbsp;](#fr-fn3)
 {: id="fn-fn3"}
 
-\[4\] 在《巴利三藏》（Tipiṭaka）中，有两个等同的术语常伴随 diṭṭhi 形成以下一组：diṭṭhi（见）、khanti（符合个人理解的事物）和 ruci（偏好或愉悦的观念），例如：[MV 1 / Vin i 69-70](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；Nd. I. 40；Ps. I. 176；Vbh. 245, 324-5。另请参阅第二章“六处”中关于不同种类和阶段知识的部分。虽然 diṭṭhi 一词对应于英文单词“attitude”，但后者在某种程度上也对应于 saṅkappa（思；意图）——第二个道支。[&nbsp;↩&nbsp;](#fr-fn4)
+\[4\] 在《巴利三藏》（Tipiṭaka）中，有两个等同的术语常伴随 diṭṭhi 形成以下一组：diṭṭhi（见）、khanti（符合个人理解的事物）和 ruci（偏好或愉悦的观念），例如：[MV 1 / Vin i 69-70](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；Nd. I. 40；Ps. I. 176；Vbh. 245, 324-325。另请参阅第二章“六处”中关于不同种类和阶段知识的部分。虽然 diṭṭhi 一词对应于英文单词“attitude”，但后者在某种程度上也对应于 saṅkappa（思；意图）——第二个道支。[&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
-\[5\] diṭṭhi 作为在业道（kamma-patha）教法中的意业，例如：[AN 10.176 / A v 264-8](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-167-177-janussoni/#10-an-10176-金匠淳陀-cundasutta){: target="_blank" rel="noopener"}；[AN 10.217 / A v 292](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-211-220-karajakaya/#7-an-10217-故思业之一经-paṭhamasañcetanikasutta){: target="_blank" rel="noopener"}。关于 diṭṭhi 的关键重要性，见：[MN 56 / M i 373](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-056-upali/){: target="_blank" rel="noopener"}；[AN 10.104 / A v 212](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#4-an-10104-种子经-bījasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn5)
+\[5\] diṭṭhi 作为在业道（kamma-patha）教法中的意业，例如：[AN 10.176 / A v 264-268](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-167-177-janussoni/#10-an-10176-金匠淳陀-cundasutta){: target="_blank" rel="noopener"}；[AN 10.217 / A v 292](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-211-220-karajakaya/#7-an-10217-故思业之一经-paṭhamasañcetanikasutta){: target="_blank" rel="noopener"}。关于 diṭṭhi 的关键重要性，见：[MN 56 / M i 373](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-056-upali/){: target="_blank" rel="noopener"}；[AN 10.104 / A v 212](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#4-an-10104-种子经-bījasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
 \[6\] Saddhāmūlikā ca sammādiṭṭhi（“以信为根源的正见”）：DA. I. 231；MA. I. 132；AA. II. 109；ItA. II. 45。[&nbsp;↩&nbsp;](#fr-fn6)
@@ -514,10 +515,10 @@ Mettā 可以定义为“友善”、“爱”、“祝愿”、“同情”、�
 \[9\] 负面价值观和负面情绪都是渴爱的结果。区别在于前者是经过美化或修饰的渴爱形式，而后者是纯粹渴爱的表达。[&nbsp;↩&nbsp;](#fr-fn9)
 {: id="fn-fn9"}
 
-\[10\] 例如：Nd. I. 44-5；Vbh. 237。[&nbsp;↩&nbsp;](#fr-fn10)
+\[10\] 例如：Nd. I. 44-45；Vbh. 237。[&nbsp;↩&nbsp;](#fr-fn10)
 {: id="fn-fn10"}
 
-\[11\] 这里的 sucarita 一词指 virtuous physical acts, speech, and livelihood；它不包括 mano-sucarita（“善意行为”），后者涵盖正见。[&nbsp;↩&nbsp;](#fr-fn11)
+\[11\] 这里的 sucarita 一词指身、语方面的善行以及正当的活命；它不包括 mano-sucarita（“善意行为”），后者涵盖正见。[&nbsp;↩&nbsp;](#fr-fn11)
 {: id="fn-fn11"}
 
 \[12\] 这是个体行为如何塑造价值观的一个例子，正如外部社会因素也能塑造价值观一样。[&nbsp;↩&nbsp;](#fr-fn12)
@@ -532,7 +533,7 @@ Mettā 可以定义为“友善”、“爱”、“祝愿”、“同情”、�
 \[15\] 节译。再加上佛陀的教导：善听、探究和调查是智慧的养分（[AN 10.73 / A v 136](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#3-an-1073-可爱十法经-iṭṭhadhammasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn15)
 {: id="fn-fn15"}
 
-\[16\] 译注：sammā-saṅkappa 有时被译为“right intention”、“right attitude”、“right motive”或“right aspiration”。[&nbsp;↩&nbsp;](#fr-fn16)
+\[16\] 译者注：sammā-saṅkappa 有时被译为“right intention”、“right attitude”、“right motive”或“right aspiration”。[&nbsp;↩&nbsp;](#fr-fn16)
 {: id="fn-fn16"}
 
 \[17\] 当发展到更高程度时，这种视角变为舍（upekkhā），这是有效推理的关键因素。这与通常理解的自满或冷漠不同。这一点将在下文详细解释。[&nbsp;↩&nbsp;](#fr-fn17)

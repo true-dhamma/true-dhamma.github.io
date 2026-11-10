@@ -6,6 +6,8 @@ title: 导论 | 佛法 | Buddhadhamma
 
 ![image](./images/illustrations/introduction-buddha-trade.jpg)
 
+![image](./images/illustrations/bodhi-leaf-lineart-trade.jpg)
+
 今日人们经常提出佛教是一种宗教、一种哲学，或者仅仅是一种生活方式的问题。这个疑问引发了各种辩论和观点，这些往往只会造成困惑。
 
 虽然这本《佛法》（Buddhadhamma）是以哲学论著的形式写就，但我不会参与上述辩论。[\[1\]](#fn-fn1){:id="fr-fn1"} 我的重点将仅仅放在佛陀教法中所阐述的——这些教法的要旨上。至于佛教是否是一种哲学的问题，则由各种哲学体系自己来决定佛教是否符合它们的标准。佛教依然是它本身；它不受这些评判和解释的影响。我在这里唯一想说明的是，任何只作为逻辑或理性智力练习，而没有相应实践应用于日常生活的要素的真理教导或学说，都不是佛教，尤其是佛陀亲自传授的原始和纯正的教法，这被称为佛法（Buddha-Dhamma）。
@@ -145,14 +147,10 @@ title: 导论 | 佛法 | Buddhadhamma
 
 ![image](./images/illustrations/bodhi-leaves-page-trade.jpg)
 
-![image](./images/illustrations/dhammacakka-trade.jpg)
-
-![image](./images/illustrations/bodhi-leaf-lineart-trade.jpg)
-
 \[1\] 当我开始撰写本书时，我受邀以哲学方法将佛陀的教法（佛法）编纂成章。[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
-\[2\] 参见，例如：[Snp 35 / Sn 115-16](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}, Vāseṭṭha Sutta 和 [Snp 19 / Sn 52-5](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#19-snp-19-婆罗门法经-brāhmaṇadhammikasutta){: target="_blank" rel="noopener"}, Brāhmaṇadhammika Sutta。[&nbsp;↩&nbsp;](#fr-fn2)
+\[2\] 参见，例如：[Snp 35 / Sn 115-116](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}, Vāseṭṭha Sutta 和 [Snp 19 / Sn 52-55](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#19-snp-19-婆罗门法经-brāhmaṇadhammikasutta){: target="_blank" rel="noopener"}, Brāhmaṇadhammika Sutta。[&nbsp;↩&nbsp;](#fr-fn2)
 {: id="fn-fn2"}
 
 \[3\] 根据经典中的证据，沙门和婆罗门的教义可分为六十二种不同的见解或信仰体系（[DN 1 / D i 13-45](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-01-brahmajala/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn3)
@@ -164,25 +162,25 @@ title: 导论 | 佛法 | Buddhadhamma
 \[5\] 关于佛陀这一时期生活的更多内容，参见，例如：[MN 100 / M ii 209-213](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-100-sangarava/){: target="_blank" rel="noopener"}, Saṅgārava Sutta。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
-\[6\] 译注：梵语：dharma。Dhamma 一词有多种定义；一些最常见的定义是：事物、现象、品质、特性、本性、自然法则、真理、实相、德行、正义、佛陀所揭示的教法以及心的所缘。[&nbsp;↩&nbsp;](#fr-fn6)
+\[6\] 译者注：梵语：dharma。Dhamma 一词有多种定义；一些最常见的定义是：事物、现象、品质、特性、本性、自然法则、真理、实相、德行、正义、佛陀所揭示的教法以及心的所缘。[&nbsp;↩&nbsp;](#fr-fn6)
 {: id="fn-fn6"}
 
-\[7\] 译注：deva = 神；天人。[&nbsp;↩&nbsp;](#fr-fn7)
+\[7\] 译者注：deva = 神；天人。[&nbsp;↩&nbsp;](#fr-fn7)
 {: id="fn-fn7"}
 
-\[8\] 译注：巴利语：bhikkhunī，指出家的女性修行者。为简便起见，英译本中拼作“bhikkhuni”。[&nbsp;↩&nbsp;](#fr-fn8)
+\[8\] 译者注：巴利语：bhikkhunī，指出家的女性修行者。为简便起见，英译本中拼作“bhikkhuni”。[&nbsp;↩&nbsp;](#fr-fn8)
 {: id="fn-fn8"}
 
-\[9\] 参见 [DN 29 / D iii 122-5](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}, Pāsādika Sutta。注意 brahmacariya（“梵行”、“崇高生活”）一词如何包含在家居士。[&nbsp;↩&nbsp;](#fr-fn9)
+\[9\] 参见 [DN 29 / D iii 122-125](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}, Pāsādika Sutta。注意 brahmacariya（“梵行”、“崇高生活”）一词如何包含在家居士。[&nbsp;↩&nbsp;](#fr-fn9)
 {: id="fn-fn9"}
 
-\[10\] 例如：[AN 3.138 / A i 286-7](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-134-146-yodhajiva/#5-an-3138-发毯经-kesakambalasutta){: target="_blank" rel="noopener"}, Kesakambala Sutta。[&nbsp;↩&nbsp;](#fr-fn10)
+\[10\] 例如：[AN 3.138 / A i 286-287](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-134-146-yodhajiva/#5-an-3138-发毯经-kesakambalasutta){: target="_blank" rel="noopener"}, Kesakambala Sutta。[&nbsp;↩&nbsp;](#fr-fn10)
 {: id="fn-fn10"}
 
 \[11\] 例如：[SN 55.27 / S v 386](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-21-30-saranani/#7-sn-5527-给孤独经之二-dutiyaanāthapiṇḍikasutta){: target="_blank" rel="noopener"}, Dutiyaanāthapiṇḍika Sutta。[&nbsp;↩&nbsp;](#fr-fn11)
 {: id="fn-fn11"}
 
-\[12\] 参见，例如：[AN 8.19 / A iv 202-203](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-011-020-maha/#9-an-819-波呵罗阿修罗王经-pahārādasutta){: target="_blank" rel="noopener"}, Pahārāda Sutta；[DN 27 / D iii 97-8](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-27-agganna/){: target="_blank" rel="noopener"}, Aggañña Sutta。[&nbsp;↩&nbsp;](#fr-fn12)
+\[12\] 参见，例如：[AN 8.19 / A iv 202-203](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-011-020-maha/#9-an-819-波呵罗阿修罗王经-pahārādasutta){: target="_blank" rel="noopener"}, Pahārāda Sutta；[DN 27 / D iii 97-98](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-27-agganna/){: target="_blank" rel="noopener"}, Aggañña Sutta。[&nbsp;↩&nbsp;](#fr-fn12)
 {: id="fn-fn12"}
 
 \[13\] 参见，例如：B. V. Bapat，《佛教两千五百年》（2500 Years of Buddhism；1959年），第335页，以及：S. Dutt，《印度佛教僧侣和寺院》（Buddhist Monks and Monasteries of India；1962年），第210页。[&nbsp;↩&nbsp;](#fr-fn13)
@@ -191,17 +189,17 @@ title: 导论 | 佛法 | Buddhadhamma
 \[14\] 参见：[CV 5 / Vin ii 139](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}, Khuddakavatthukkhandhaka。[&nbsp;↩&nbsp;](#fr-fn14)
 {: id="fn-fn14"}
 
-\[15\] 参见，例如：[AN 10.95 / A v 193-8](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#5-an-1095-郁低迦-uttiyasutta){: target="_blank" rel="noopener"}, Uttiya Sutta；[MN 63 / M i 426-32](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-063-culamalukya/){: target="_blank" rel="noopener"}, Cūḷamālukya Sutta。[&nbsp;↩&nbsp;](#fr-fn15)
+\[15\] 参见，例如：[AN 10.95 / A v 193-198](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#5-an-1095-郁低迦-uttiyasutta){: target="_blank" rel="noopener"}, Uttiya Sutta；[MN 63 / M i 426-432](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-063-culamalukya/){: target="_blank" rel="noopener"}, Cūḷamālukya Sutta。[&nbsp;↩&nbsp;](#fr-fn15)
 {: id="fn-fn15"}
 
-\[16\] 参见：[AN 7.47 / A iv 41](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#4-an-747-火之二经-dutiyaaggisutta){: target="_blank" rel="noopener"}, Dutiyaaggi Sutta；[AN 10.94 / A v 190-91](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#4-an-1094-跋耆居士-vajjiyamāhitasutta){: target="_blank" rel="noopener"}, Vajjiyamāhita Sutta；[Snp 19 / Sn 51-53](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#19-snp-19-婆罗门法经-brāhmaṇadhammikasutta){: target="_blank" rel="noopener"}, Brāhmaṇadhammika Sutta；另参见以下主题材料。[&nbsp;↩&nbsp;](#fr-fn16)
+\[16\] 参见：[AN 7.47 / A iv 41](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#4-an-747-火之二经-dutiyaaggisutta){: target="_blank" rel="noopener"}, Dutiyaaggi Sutta；[AN 10.94 / A v 190-191](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#4-an-1094-跋耆居士-vajjiyamāhitasutta){: target="_blank" rel="noopener"}, Vajjiyamāhita Sutta；[Snp 19 / Sn 51-53](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#19-snp-19-婆罗门法经-brāhmaṇadhammikasutta){: target="_blank" rel="noopener"}, Brāhmaṇadhammika Sutta；另参见以下主题材料。[&nbsp;↩&nbsp;](#fr-fn16)
 {: id="fn-fn16"}
 
 \[17\] 泰国人对其他概念和术语也发展出类似的独特含义，例如：ārammaṇa（“所缘”）、viññāṇa（“识”）、pāramī（“波罗蜜”）、santosa（“知足”）、upekkhā（“舍”）、adhiṭṭhāna（“决意”）、parikamma（“预备禅修”）、bhāvanā（“修习”）、vipassanā（“毗婆舍那”）、kāma（“欲乐”）、lokiya（“世间”）、lokuttara（“出世间”）、puñña（“福德”）、icchā（“渴望”）等。这些术语现在要么与它们最初的意图完全不同，要么其意义范围已经改变。在学习佛法时，辨识和区分这些新含义对于理解这些术语的真正定义至关重要。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
-\[18\] 译注：在《佛法》的泰文原著中，尊者作者从未用第一人称代词指代自己。这是一种与文本保持距离的方式。正如他在“作者注”中所述，他希望尽可能客观地呈现佛陀的教法，并在此方面，让读者忘记他的存在。由于这在英文语境中不常见，我偶尔插入了第一人称代词。[&nbsp;↩&nbsp;](#fr-fn18)
+\[18\] 译者注：在《佛法》的泰文原著中，尊者作者从未用第一人称代词指代自己。这是一种与文本保持距离的方式。正如他在“作者注”中所述，他希望尽可能客观地呈现佛陀的教法，并在此方面，让读者忘记他的存在。由于这在英文语境中不常见，我偶尔插入了第一人称代词。[&nbsp;↩&nbsp;](#fr-fn18)
 {: id="fn-fn18"}
 
-\[19\] 参见“教法次第”（desanānukkama），位于：MA ii 219, Mahāhatthipadopama Sutta Vaṇṇanā（指：[MN 28 / M i 184-91](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-028-mahahatthipadopama/){: target="_blank" rel="noopener"}）。\[译注：这最后一句，关于呈现方式与四圣谛一致的说法，尤其值得注意。关于这个主题的更多内容，请参见目录中苦（Dukkha）、集（Samudaya）、灭（Nirodha）和道（Magga）这四个要素是如何包含的。另请参见第十九章“四圣谛”。\][&nbsp;↩&nbsp;](#fr-fn19)
+\[19\] 参见“教法次第”（desanānukkama），位于：MA ii 219, Mahāhatthipadopama Sutta Vaṇṇanā（指：[MN 28 / M i 184-191](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-028-mahahatthipadopama/){: target="_blank" rel="noopener"}）。\[译者注：这最后一句，关于呈现方式与四圣谛一致的说法，尤其值得注意。关于这个主题的更多内容，请参见目录中苦（Dukkha）、集（Samudaya）、灭（Nirodha）和道（Magga）这四个要素是如何包含的。另请参见第十九章“四圣谛”。\][&nbsp;↩&nbsp;](#fr-fn19)
 {: id="fn-fn19"}

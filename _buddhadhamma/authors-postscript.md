@@ -39,7 +39,7 @@ title: 作者后记 | 佛法 | Buddhadhamma
 
 本书充满了原始资料和经证，有些人可能会觉得这太多了。这样做的原因并非是对经文的执着，也不是执着于认为只要经文里有的就一定是真实不变的。
 
-毫无疑问，古代经文，尤其是后世撰写的，因记录错误或缺陷而包含谬误。然而，经文是至关重要的基础和信息来源。其重要性可根据其传统地位和起源时期来衡量。（参见附注“权威的次第”）
+毫无疑问，古代经文，尤其是后世撰写的，因记录错误或缺陷而包含谬误。然而，经文是至关重要的基础和信息来源。其重要性可根据其传统地位和起源时期来衡量。（参见附注 19.5“权威的次第”）
 
 如果我们承认个人见解是重要的，我们就不能否认义注中解释的重要性。这些典籍的编纂者和作者很可能都是博学而智慧的人，其中许多人是各自时代佛教界的学术代表。此外，他们生活的时代比我们更接近佛陀的时代。
 
@@ -49,8 +49,9 @@ title: 作者后记 | 佛法 | Buddhadhamma
 
 事实上，不运用辨别智（vicāraṇa-ñāṇa）就相信或排斥经文，都很容易流于轻信盲从——不是天真地信，就是天真地不信。
 
-权威的次第
-
+> **附注 19.5　权威的次第**
+> {: id="note-19-5"}
+>
 > 再引用一次经文，过去的长老们将事实证据的重要性顺序排列如下：
 >
 > 1.  āhacca-pada（《巴利三藏》〔Tipiṭaka〕中引用的经文或段落）；
@@ -70,7 +71,7 @@ title: 作者后记 | 佛法 | Buddhadhamma
 >
 > 见：DA. II. 567。
 >
-> 另见四大教法（mahāpadesa）的原则：[DN 16 / D ii 124](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[AN 4.180 / A ii 167-8](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-171-180-sancetaniya/#10-an-4180-四大教法经-mahāpadesasutta){: target="_blank" rel="noopener"}；以及《律藏》（Vinaya）中的描述：[MV 6 / Vin i 250-51](https://aipali.true-dhamma.com/vinaya/mv/mv-06-bhesajja/){: target="_blank" rel="noopener"}。
+> 另见四大教法（mahāpadesa）的原则：[DN 16 / D ii 124](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[AN 4.180 / A ii 167-168](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-171-180-sancetaniya/#10-an-4180-四大教法经-mahāpadesasutta){: target="_blank" rel="noopener"}；以及《律藏》（Vinaya）中的描述：[MV 6 / Vin i 250-251](https://aipali.true-dhamma.com/vinaya/mv/mv-06-bhesajja/){: target="_blank" rel="noopener"}。
 
 即便要排斥经文，若要做得彻底而无可指摘，也须避免含糊笼统的否定和不信。在评判，甚至舍弃经文之前，应先全面研读这些文本，以确切了解其作者所说。我们如何看待或从这些文本中建立不同的观点，则由我们自己决定。那些已故的作者处于不利地位；他们无法站起来表达自己的观点或与我们辩论。因此，应当先加以研究，让这些作者通过他们的文本把话完整地说出来。无论我们是否同意他们所说的，至少我们已经给予他们应有的公正。
 
@@ -145,7 +146,7 @@ title: 作者后记 | 佛法 | Buddhadhamma
 > dhammassa ca sudhammataṁ
 >
 > “我将亲自从村到村，从城到城，不知疲倦地礼敬佛陀与殊胜的法。”[\[4\]](#fn-fn4){:id="fr-fn4"}  
-> [SN 10.12 / S i 215](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-10-yakkha/sn-10-yakkha/#112-sn-1012-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}; [Snp 10 / Sn 33](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#10-snp-10-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}, [Snp 9 / Sn 31](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#9-snp-9-雪山夜叉经-hemavatasutta){: target="_blank" rel="noopener"}; Ap. 48, 376; cf.: [DN 18 / D ii 208](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}, [DN 19 / D ii 221](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}, [DN 19 / D ii 227](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}
+> [SN 10.12 / S i 215](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-10-yakkha/sn-10-yakkha/#112-sn-1012-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}；[Snp 10 / Sn 33](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#10-snp-10-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}, [Snp 9 / Sn 31](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#9-snp-9-雪山夜叉经-hemavatasutta){: target="_blank" rel="noopener"}；Ap. 48, 376；比较：[DN 18 / D ii 208](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}, [DN 19 / D ii 221](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}, [DN 19 / D ii 227](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}
 >
 > Passa dhammasudhammataṁ
 >
@@ -200,25 +201,25 @@ title: 作者后记 | 佛法 | Buddhadhamma
 \[1\] [DN 1 / D i 2-3](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-01-brahmajala/){: target="_blank" rel="noopener"}, Brahmajāla Sutta。[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
-\[2\] [MN 85 / M ii 96](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}; cf.: Ap. 392。[&nbsp;↩&nbsp;](#fr-fn2)
+\[2\] [MN 85 / M ii 96](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}；比较：Ap. 392。[&nbsp;↩&nbsp;](#fr-fn2)
 {: id="fn-fn2"}
 
-\[3\] [Thag 7.3 / Thag verse 479](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-73-跋陀长老偈-bhaddattheragāthā){: target="_blank" rel="noopener"} and [Thag 7.4 / Thag verse 486](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-74-索帕卡长老偈-sopākattheragāthā){: target="_blank" rel="noopener"}; Ap. 399。[&nbsp;↩&nbsp;](#fr-fn3)
+\[3\] [Thag 7.3 / Thag verse 479](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-73-跋陀长老偈-bhaddattheragāthā){: target="_blank" rel="noopener"}；[Thag 7.4 / Thag verse 486](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-74-索帕卡长老偈-sopākattheragāthā){: target="_blank" rel="noopener"}；Ap. 399。[&nbsp;↩&nbsp;](#fr-fn3)
 {: id="fn-fn3"}
 
-\[4\] 相关短语 buddhasubodhiṁ dhammasudhammataṁ saṅghasupaṭipattiṁ 见：Nd. I. 359-60, 453; Nd. II. 42。[&nbsp;↩&nbsp;](#fr-fn4)
+\[4\] 相关短语 buddhasubodhiṁ dhammasudhammataṁ saṅghasupaṭipattiṁ 见：Nd. I. 359-360, 453；Nd. II. 42。[&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
-\[5\] 见：VinA. I. 225; MA. \[3/147, 3/523\]; AA. V. 33。[&nbsp;↩&nbsp;](#fr-fn5)
+\[5\] 见：VinA. I. 225；MA. \[3/147, 3/523\]；AA. V. 33。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
 \[6\] “Pali”一词的这种用法，可见于《清净道论》（Visuddhimagga）等，例如：Vism. 107, 450。[&nbsp;↩&nbsp;](#fr-fn6)
 {: id="fn-fn6"}
 
-\[7\] 译注：在此英文译本中，我使用“巴利三藏”一词指代前一种含义，即三藏（Tipiṭaka）的原典内容。[&nbsp;↩&nbsp;](#fr-fn7)
+\[7\] 译者注：在此英文译本中，我使用“巴利三藏”一词指代前一种含义，即三藏（Tipiṭaka）的原典内容。[&nbsp;↩&nbsp;](#fr-fn7)
 {: id="fn-fn7"}
 
-\[8\] 早在1973—75年间论教育及教育哲学的著作中，我就开始讨论 dhamma-chanda 和 kusala-chanda。[&nbsp;↩&nbsp;](#fr-fn8)
+\[8\] 早在1973-1975年间论教育及教育哲学的著作中，我就开始讨论 dhamma-chanda 和 kusala-chanda。[&nbsp;↩&nbsp;](#fr-fn8)
 {: id="fn-fn8"}
 
 \[9\] 现称为颂德·帕·菩陀构萨迦利雅（Somdet Phra Buddhaghosacariya；P. A. Payutto，巴育陀）。[&nbsp;↩&nbsp;](#fr-fn9)

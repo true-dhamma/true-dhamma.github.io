@@ -13,4 +13,4 @@ title: 第六篇：美好的生命是怎样的？ | 佛法 | Buddhadhamma
 > aññāya sallasatthanaṁ  
 > Tumhehi kiccaṁ ātappaṁ  
 > akkhātāro tathāgatā.  
-> [Dhp verse 275-76](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-197-289-sukha-piya-kodha-mala-dhammattha-magga/#201-dhp-273-276-解脱之道-pañcasatabhikkhuvatthu){: target="_blank" rel="noopener"}
+> [Dhp 275-276](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-197-289-sukha-piya-kodha-mala-dhammattha-magga/#201-dhp-273-276-解脱之道-pañcasatabhikkhuvatthu){: target="_blank" rel="noopener"}

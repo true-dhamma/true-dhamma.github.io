@@ -54,10 +54,10 @@ title: 佛法基金会主席 | 佛法 | Buddhadhamma
 
 2005年：成为皇家田（Sanam Luang）卫塞节（Visakha Puja）复兴和发展执行组织委员会成员，在僧王寺（Wat Bowonniwet Vihara）下属的泰国佛教促进中心赞助下，由尊者帕·贴迪洛（Phra Depdilok，Rabaep）担任秘书长。
 
-成为国会众议院宗教事务、艺术和文化委员会的顾问，由 Kudeb Saikrachang 中尉博士担任主席。任期两年（2005—2006年）。
+成为国会众议院宗教事务、艺术和文化委员会的顾问，由 Kudeb Saikrachang 中尉博士担任主席。任期两年（2005-2006年）。
 
-2006年：成为泰国佛法协会（在 Srinagarindra Boromarajajonani 殿下皇家赞助下）的委员会成员；任期四年（2006—2009年）。
+2006年：成为泰国佛法协会（在 Srinagarindra Boromarajajonani 殿下皇家赞助下）的委员会成员；任期四年（2006-2009年）。
 
-2012年：第二次发起将《佛法》从泰语翻译成英语的工作，聘请美籍的 Robin Philip Moore 先生担任译者，历时五年（2012—2016年）。
+2012年：第二次发起将《佛法》从泰语翻译成英语的工作，聘请美籍的 Robin Philip Moore 先生担任译者，历时五年（2012-2016年）。
 
 2017年：首次印行《佛法》英文版5,000册，作为法布施在全球流通。

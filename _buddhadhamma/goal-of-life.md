@@ -13,4 +13,4 @@ title: 第四篇：生命应成为什么？ | 佛法 | Buddhadhamma
 > saggassa gamanena vā;  
 > Sabbalokādhipaccena,  
 > sotāpattiphalaṁ varaṁ.  
-> [Dhp verse 178](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#1311-dhp-178-给孤独长者之子的故事-anāthapiṇḍakaputtakālavatthu){: target="_blank" rel="noopener"}
+> [Dhp 178](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#1311-dhp-178-给孤独长者之子的故事-anāthapiṇḍakaputtakālavatthu){: target="_blank" rel="noopener"}

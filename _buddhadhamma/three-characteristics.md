@@ -14,7 +14,7 @@ Tilakkhaṇa
 
 这种有为法的相续，本质上是稳定的（dhātu），本质上是固定和确定的（dhammaṭṭhiti），它是自然秩序（dhamma-niyāma）的一部分。[\[1\]](#fn-fn1){:id="fr-fn1"}它的存在不依赖于神、宗教或先知。在佛法中，导师[\[2\]](#fn-fn2){:id="fr-fn2"}的角色是发现并向他人解释这一真理。
 
-佛陀提出了三法印（tilakkhaṇa）[\[3\]](#fn-fn3){:id="fr-fn3"}的教导，以描述这种生灭流转的自然法则（参见附注“缘起作为生灭流转的法则”）。这一教导的概述如下：
+佛陀提出了三法印（tilakkhaṇa）[\[3\]](#fn-fn3){:id="fr-fn3"}的教导，以描述这种生灭流转的自然法则（参见附注 3.1“缘起作为生灭流转的法则”）。这一教导的概述如下：
 
 > “无论如来（Tathāgatas）[\[4\]](#fn-fn4){:id="fr-fn4"}出现与否，这一真理（dhātu）都是常住和稳定的……那就是：
 >
@@ -36,9 +36,10 @@ Tilakkhaṇa
 *   无我（Anattatā）：无我的状态；事物缺乏一个能主宰或控制诸法的真实不变的“我”。[\[6\]](#fn-fn6){:id="fr-fn6"}
     
 
-缘起作为生灭流转的法则
-
-> 佛陀的另一个核心教导是缘起（paṭiccasamuppāda）。此教导从不同的角度描述了生灭流转的法则，并阐明了同样的真理。三法印显示了一切事物的特相，这些特性与缘起所阐明的关系相对应。缘起描述了诸法的缘起之流，揭示了三法印。\[译注：参见第四章“缘起”。
+> **附注 3.1　缘起作为生灭流转的法则**
+> {: id="note-3-1"}
+>
+> 佛陀的另一个核心教导是缘起（paṭiccasamuppāda）。此教导从不同的角度描述了生灭流转的法则，并阐明了同样的真理。三法印显示了一切事物的特相，这些特性与缘起所阐明的关系相对应。缘起描述了诸法的缘起之流，揭示了三法印。\[译者注：参见第四章“缘起”。
 >
 > 英文版中，作为教法的 Three Characteristics 首字母大写，指自然属性的 three characteristics 则小写；中文版分别译为“三法印”与“三特相”。\]
 
@@ -73,7 +74,7 @@ Tilakkhaṇa
 > “不，世尊。”
 >
 > “因此，比丘们，你们应该以正确的智慧如实地看待任何一种色蕴……受蕴……想蕴……行蕴……识蕴，无论过去、未来或现在，内在或外在，粗劣或微细，低劣或优胜，远或近，都应如此：‘这不是我的，我不是这个，这不是我的我。’”  
-> [SN 22.59 / S iii 66-8](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#7-sn-2259-无我相经-anattalakkhaṇasutta){: target="_blank" rel="noopener"}, Anattalakkhaṇa Sutta
+> [SN 22.59 / S iii 66-68](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#7-sn-2259-无我相经-anattalakkhaṇasutta){: target="_blank" rel="noopener"}, Anattalakkhaṇa Sutta
 
 许多学者试图证明佛陀承认一个存在于五蕴之外的“我”。他们声称他只是否定有为法中的自我，并肯定了一个究竟的“自我”。此外，他们解释涅槃（Nibbāna）[\[10\]](#fn-fn10){:id="fr-fn10"}与 ātman/attā 是相同的：涅槃就是“我”。我将在第六章“涅槃：至上寂静”中详细阐述这个问题。
 
@@ -348,7 +349,7 @@ dukkha-ariyasacca 特指与五取蕴（upādāna-khandha）相关的事项。[\[
 > 什么是五蕴？无论是何种色蕴……受蕴……想蕴……行蕴……识蕴，无论是过去、未来或现在，内或外，粗或细，劣或胜，远或近……这些被称为五蕴。
 >
 > 什么是五取蕴？无论是何种色蕴……受蕴……想蕴……行蕴……识蕴，无论是过去、未来或现在，内或外，粗或细，劣或胜，远或近，凡是伴随着诸漏（sāsava），是执取的所缘（upādāniya）……这些被称为五取蕴。  
-> [SN 22.48 / S iii 47-8](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-43-52-attadipa/#6-sn-2248-蕴经-khandhasutta){: target="_blank" rel="noopener"}, Khandha Sutta
+> [SN 22.48 / S iii 47-48](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-43-52-attadipa/#6-sn-2248-蕴经-khandhasutta){: target="_blank" rel="noopener"}, Khandha Sutta
 
 当佛陀教导三法印时，他总是会说五蕴是无常的、受压迫的、无我的。色蕴、受蕴、想蕴、行蕴、识蕴的真实本性都带有这三种特性。他没有说五取蕴是无常的、受压迫的、无我的，因为这些已经包含在更广泛的五蕴分类中。这里的重点是，通过执着于五蕴，它们发展成为五取蕴，而这种执取导致了苦。
 
@@ -366,7 +367,7 @@ dukkha-ariyasacca 特指与五取蕴（upādāna-khandha）相关的事项。[\[
 在为五比丘（pañca-vaggiya）所说的《转法轮经》（Dhammacakkappavattana Sutta）中，佛陀详细描述了苦（dukkha），即第一圣谛。这第一圣谛可以定义为：
 
 > 比丘们，这就是苦圣谛：生是苦，老是苦，病是苦，死是苦；与不可意的人事物相会是苦；与可意的人事物分离是苦；求不得是苦；简而言之，五取蕴即是苦。  
-> [SN 56.11 / S v 421-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}, Dhammacakkappavattana Sutta
+> [SN 56.11 / S v 421-422](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}, Dhammacakkappavattana Sutta
 
 结尾的短语，“简而言之，五取蕴即是苦”（saṅkhittena pañcupādānakkhandhā dukkhā），是这一段的要旨。也就是说，所有先前的陈述都由这个结尾短语概括。
 
@@ -383,7 +384,7 @@ dukkha-ariyasacca 特指与五取蕴（upādāna-khandha）相关的事项。[\[
 > 比丘们，什么是苦的止息？就是那同一种渴爱无余的褪去和止息，舍弃它、放弃它、从中解脱、不再依赖它。这被称为苦的止息。
 >
 > 比丘们，什么是导向苦止息的道路？就是这八正道；那就是正见、正思惟、正语、正业、正命、正精进、正念和正定。这被称为导向苦止息的道路。[\[46\]](#fn-fn46){:id="fr-fn46"}  
-> [SN 22.104 / S iii 158-9](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-103-112-anta/#2-sn-22104-苦经-dukkhasutta){: target="_blank" rel="noopener"}; [SN 56.13 / S v 425](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#3-sn-5613-蕴-khandhasutta){: target="_blank" rel="noopener"}
+> [SN 22.104 / S iii 158-159](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-103-112-anta/#2-sn-22104-苦经-dukkhasutta){: target="_blank" rel="noopener"}；[SN 56.13 / S v 425](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#3-sn-5613-蕴-khandhasutta){: target="_blank" rel="noopener"}
 
 从这段经文中我们可以得出结论，佛陀在初次说法中用来描述痛苦的许多例子，指的是一般人熟悉的与痛苦相关的条件或情境。在建立了对主题的基本理解之后，佛陀接着描述了苦的要旨：五取蕴。如果他没有首先提供常见的痛苦例子，那些缺乏理解基础的听众将会感到困惑。
 
@@ -415,7 +416,7 @@ dukkha-ariyasacca 特指与五取蕴（upādāna-khandha）相关的事项。[\[
 > 又，以欲乐为因……人们拿起刀剑和盾牌，系上弓箭和箭袋，然后去参战，双方都在进行激烈的战斗。箭矢横飞，长矛投掷，刀剑闪烁，一些士兵被箭矢刺穿，一些被长矛刺穿，一些头被刀剑砍下，从而导致死亡或致命的痛苦。现在，这也是欲乐中的一种危险……其因纯粹是欲乐。
 >
 > 又，以欲乐为因……人们拿起刀剑和盾牌，系上弓箭和箭袋，然后冲向涂满热泥的堡垒。箭矢横飞，长矛投掷，刀剑闪烁，一些士兵被箭矢刺穿，一些被长矛刺穿，一些被沸腾的粪便泼溅，一些被耙子砍伤，一些头被刀剑砍下，从而导致死亡或致命的痛苦。现在，这也是欲乐中的一种危险……其因纯粹是欲乐。  
-> [MN 14 / M i 91-2](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}, Cūḷadukkhakkhandha Sutta
+> [MN 14 / M i 91-92](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}, Cūḷadukkhakkhandha Sutta
 
 3\. 人类痛苦的无数形式：到目前为止，这次讨论的主要目的之一是区分四圣谛中的苦（dukkha）与三法印中的苦（dukkha），并了解这两种苦（dukkha）如何相关联。
 
@@ -580,7 +581,7 @@ Attā（梵语——ātman）指一个永恒的自我或实体，据称是任何
 
 > “先尼（Seniya），在今世或来世都不宣称自我为真实或真实的导师，被称为圆满觉悟的佛陀。”
 >
-> Kvu. 68; Pug. 38
+> Kvu. 68；Pug. 38
 
 因此，佛教教义不关心自我的存在，也不对自我作诊断。此外，佛陀说道：
 
@@ -639,7 +640,7 @@ Attā（梵语——ātman）指一个永恒的自我或实体，据称是任何
 在此意义上，义注更倾向于将 anattā 定义为“无法控制”或“不受控制”（avasavattanaṭṭhena 或 avasavattanato）。[\[61\]](#fn-fn61){:id="fr-fn61"} 同样，他们解释说，没有人能够违背因果法则，强令诸行屈从，要求已生起的现象不存在、已存在的现象不老去、正在老去的现象不消逝。[\[62\]](#fn-fn62){:id="fr-fn62"} 他们引用佛陀的话说：
 
 > “一个人不能就色身而言，如愿获得：‘愿色身如此，愿色身不如此。’（其他诸蕴亦然。）”[\[63\]](#fn-fn63){:id="fr-fn63"}  
-> VbhA. 49; VinṬ.
+> VbhA. 49；VinṬ.
 
 当人们彻底审视万物的本性时，会发现并不存在给事物起特定名称时所暗示的那种固定不变的自我。仅仅存在一个自然过程（dhamma-pavatti）——一个缘起的过程——或是一个色法和名法的过程（khandha-pavatti），它源于多种组成部分的汇合。所有这些组成部分在持续的相互因果关系中生灭，无论是单一的孤立动态内部还是所有创造物之中。既然如此，我们应该注意四个重要点：
 
@@ -654,7 +655,7 @@ Attā（梵语——ātman）指一个永恒的自我或实体，据称是任何
 
 一个动态的显现和转化是由其组成部分的关系决定的。该动态在没有“自我”干预的情况下进行。不存在分离的自我，既没有能够抵抗因果并根据其意愿指导活动的内在持久自我，也没有独立的外部施动者。
 
-人类赋予许多这些组合和构成物名称，例如“人”、“马”、“猫”、“蚂蚁”、“汽车”、“商店”、“房子”、“钟”、“笔”、“琼斯先生”和“史密斯女士”。然而，这些名称只是约定俗成的标签，是为了方便交流而建立的。这些实体并非真实存在：它们没有真实的自我，没有区别于其集合组成部分的独立身份。分析这些实体后，剩下的只是每个具有其特定名称的单元或部分。无论人们多么深入地探寻，都无法在这些实体中找到一个自我。
+人类赋予许多这些组合和构成物名称，例如“人”、“马”、“猫”、“蚂蚁”、“汽车”、“商店”、“房子”、“钟”、“笔”、“王先生”和“李女士”。然而，这些名称只是约定俗成的标签，是为了方便交流而建立的。这些实体并非真实存在：它们没有真实的自我，没有区别于其集合组成部分的独立身份。分析这些实体后，剩下的只是每个具有其特定名称的单元或部分。无论人们多么深入地探寻，都无法在这些实体中找到一个自我。
 
 通过给事物命名，人们创造了一个暂时性的自我，并将其强加于真实的状态之上。它是随意强加的，与那个特定的动态没有直接关系、控制或影响，除非人们执着于这个约定俗成的称谓（此时执着是这个过程的一个组成部分）。如果名称只是约定俗成、随意强加的标签，那么它们是无力的，这是不言而喻的。
 
@@ -778,7 +779,7 @@ anattatā 的基本含义——即所有事物都是由相互关联的部分按�
 > 没有行为的作者，也没有行为结果的收获者；唯有现象不断流转。这是正见。当业和果报（vipāka）这样因果相续地维持其流转，如种子和树木轮番生长，找不到最初的开端。在未来的生死轮回（saṁsāra）中，也无法分辨出业和果报循环的缺失。其他宗派的信徒，不了解这一点，未能获得自我主宰（asayaṁvasī——由于邪见而依赖他人）。他们执着于一个众生（satta-saññā），将其视为永恒或断灭。他们采纳了六十二种观点，每一种都相互矛盾。渴爱的洪流将他们冲走，见解的罗网将他们缠绕。当洪流将他们冲走时，他们无法从痛苦中解脱。佛陀的弟子，直接了解这个事实，洞察了这种深奥而微妙、空无自我的缘起。
 >
 > 在果报中没有业，业中也不存在果报。尽管它们彼此空无，但没有行为就没有果报。同样地，火不存在于阳光、放大镜或牛粪（用作燃料）中，也不在它们之外，而是由它们的结合而被点燃。所以果报既不能在行为中找到，也不能在行为之外找到；行为也不会继续存在（在它所产生的果报中）。业是空无其果报的；果报在行为中尚未存在。但果报仍然由业而生，依存于业。因为这里没有造物主神，没有生死轮回的创造者；唯有现象不断流转，依存于条件的结合。[\[68\]](#fn-fn68){:id="fr-fn68"}  
-> Vism. 602-3
+> Vism. 602-603
 >
 > 自然现象完全由因缘生起；它们受制于压力、无常、不稳定和变易。万事万物相互依存而生。在此连续体中，没有个人或外在的“我”。
 >
@@ -886,7 +887,7 @@ anattatā 的基本含义——即所有事物都是由相互关联的部分按�
 > 所执着的不存在；那么，有什么可以舍弃的呢？
 >
 > Natthi attā kuto nirattaṁ vā.  
-> [Snp 52 / Sn 180](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#52-snp-52-迅速经-tuvaṭakasutta){: target="_blank" rel="noopener"}, Tuvaṭaka Sutta；Nd. I. 352-3 有解释
+> [Snp 52 / Sn 180](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#52-snp-52-迅速经-tuvaṭakasutta){: target="_blank" rel="noopener"}, Tuvaṭaka Sutta；Nd. I. 352-353 有解释
 
 甚至“执着于我”这种说法也是严格不正确的。既然“我”只是一种世俗的实相，那么正确的说法应该是“执着于‘我’的见解”。我们的任务是停止执取对“我”的信念或概念。“我”不需要被舍弃，因为根本就没有可以被拥有的“我”；那么又怎能舍弃呢？
 
@@ -963,7 +964,7 @@ Māna 是与戒行相关的问题。应当戒除我慢和傲慢，并抵制心�
 引用佛陀的话：
 
 > 了知万法无我者，能去除“我慢”（asmi-māna），并于此生此世证得涅槃。  
-> [AN 9.1 / A iv 353](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#1-an-91-正觉-sambodhisutta){: target="_blank" rel="noopener"}, [AN 9.3 / A iv 358](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#3-an-93-弥醯经-meghiyasutta){: target="_blank" rel="noopener"}; [Ud 4.1 / Ud 37](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-04-meghiya/#1-ud-41-尊者弥醯-meghiyasutta){: target="_blank" rel="noopener"}
+> [AN 9.1 / A iv 353](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#1-an-91-正觉-sambodhisutta){: target="_blank" rel="noopener"}, [AN 9.3 / A iv 358](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#3-an-93-弥醯经-meghiyasutta){: target="_blank" rel="noopener"}；[Ud 4.1 / Ud 37](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-04-meghiya/#1-ud-41-尊者弥醯-meghiyasutta){: target="_blank" rel="noopener"}
 
 ## 实践应用的价值
 
@@ -986,10 +987,10 @@ Māna 是与戒行相关的问题。应当戒除我慢和傲慢，并抵制心�
 应当将这第二种积极的行动方针应用于人类事务的各个层面，从个人问题到社会问题，从世俗事务到修行事务，从谋生到寻求佛陀的觉悟真理。佛陀以下教导强调了这种品质：
 
 > 比丘们，考虑到自身的福祉，你们应该以不放逸来成就它。考虑到他人的福祉，你们应该以不放逸来成就它。考虑到两者的福祉，你们应该以不放逸来成就它。  
-> [SN 12.22 / S ii 29](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-21-30-dasabala/#2-sn-1222-十力之二经-dutiyadasabalasutta){: target="_blank" rel="noopener"}; [AN 7.72 / A iv 134-5](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#8-an-772-大火聚经-aggikkhandhopamasutta){: target="_blank" rel="noopener"}
+> [SN 12.22 / S ii 29](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-21-30-dasabala/#2-sn-1222-十力之二经-dutiyadasabalasutta){: target="_blank" rel="noopener"}；[AN 7.72 / A iv 134-135](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#8-an-772-大火聚经-aggikkhandhopamasutta){: target="_blank" rel="noopener"}
 >
 > 大王，有一种品质能确保双重利益，即现世（可见的）利益和未来（微妙的）利益……这种品质就是不放逸（appamāda）……一个有智慧而又不放逸的人能确保双重利益，即现世和未来。坚韧不拔者，通过确保\[这两种\]利益，被称为圣者。[\[82\]](#fn-fn82){:id="fr-fn82"}  
-> [SN 3.17 / S i 86-7](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#27-sn-317-不放逸经-appamādasutta){: target="_blank" rel="noopener"}, Appamāda Sutta
+> [SN 3.17 / S i 86-87](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#27-sn-317-不放逸经-appamādasutta){: target="_blank" rel="noopener"}, Appamāda Sutta
 >
 > 比丘们，一个品德良好、道德圆满的人，通过对他事务的仔细关注，获得了大量财富。[\[83\]](#fn-fn83){:id="fr-fn83"}  
 > [AN 5.213 / A iii 253](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-211-220-akkosaka/#3-an-5213-无戒五失-sīlasutta){: target="_blank" rel="noopener"}, Sīla Sutta
@@ -1066,10 +1067,11 @@ Māna 是与戒行相关的问题。应当戒除我慢和傲慢，并抵制心�
 
 导致放逸行为的一个原因是执着于不执着。在正确的修行中，放下是自然而然发生的；它是根据三法印的真理清晰地看待事物的结果。然而，有些人尚未有这种清晰的洞察力；他们只是听说了这个真理，便对此加以推论，形成了一种半生不熟的理解。此外，他们执着于一种想法，即通过不执着任何事物，他们就能从苦中解脱。
 
-以这种方式思考，他们试图向自己和他人证明他们不执着任何事物，或者没有烦恼，甚至到了对任何事情都不认真对待的地步（参见附注“漠不关心”）。结果是功能失衡、注意力不集中和放逸。这就是执着于不执着：它是一种虚假的不执着。
+以这种方式思考，他们试图向自己和他人证明他们不执着任何事物，或者没有烦恼，甚至到了对任何事情都不认真对待的地步（参见附注 3.2“漠不关心”）。结果是功能失衡、注意力不集中和放逸。这就是执着于不执着：它是一种虚假的不执着。
 
-漠不关心
-
+> **附注 3.2　漠不关心**
+> {: id="note-3-2"}
+>
 > 不渴望任何东西是好的，但对漠不关心必须非常小心。不求个人回报而行动是值得称赞的，因为这表明此人不受渴爱的控制；但漠不关心很容易变成怠惰。怠惰等同于放逸、误判和渴爱，它使人沉溺于安逸和舒适。至少，漠不关心表明缺乏善法欲（kusala-chanda），而善法欲是一切善行的第一步。
 
 通过比较由不同动机驱动的活动，有助于突显由不放逸驱动的活动。比较以下四种活动和不活动：
@@ -1180,7 +1182,7 @@ Māna 是与戒行相关的问题。应当戒除我慢和傲慢，并抵制心�
 
 ### 解脱的利益
 
-尽管解脱的价值是修行之道的一部分，但它有几个独特的特点。经典通过提及无常来定义修行之道及其伴随的实践教导，因为无常很容易被注意到。即使是初学佛法者也能通过整合精神和实践教导，根据他们的理解水平，从三法印中受益。然而，解脱的价值伴随着对无我（anattā）的观修（参见附注“解脱”）。
+尽管解脱的价值是修行之道的一部分，但它有几个独特的特点。经典通过提及无常来定义修行之道及其伴随的实践教导，因为无常很容易被注意到。即使是初学佛法者也能通过整合精神和实践教导，根据他们的理解水平，从三法印中受益。然而，解脱的价值伴随着对无我（anattā）的观修（参见附注 3.3“解脱”）。
 
 > 一个人以正确的智慧如实观见任何一种色……受……想……行……以及识，无论是过去、现在或未来……因此：“这不是我的，我不是这个，这不是我的自体。”当一个人以这种方式知见时，对于这个有识之身和所有外部诸相，就没有“我作”（ahaṅkāra）、“我所作”（mamaṅkāra）或我慢随眠（mānānusaya）的存在。  
 > [MN 109 / M iii 18-19](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-109-mahapunnama/){: target="_blank" rel="noopener"}, Mahāpuṇṇama Sutta
@@ -1194,8 +1196,9 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 *   Diṭṭhi：执取于个人观点；对理论、信条和理想的固执信念、轻信和迷恋。
     
 
-解脱
-
+> **附注 3.3　解脱**
+> {: id="note-3-3"}
+>
 > 对无常、苦和无我的探究结果是相互关联的，因此审视三法印中的每一个都有助于解脱。然而，解脱的主要决定因素是对无我的理解，正如佛陀的教导所证实：
 >
 > > “无常想应修习，以去除‘我慢’（asmimāna）。因为当一个人觉察到无常时，弥醯（Meghiya），无我想便确立了。一个觉察到无我\[于一切事物中\]的人，就完成了‘我慢’的根除，并\[证得\]涅槃。”
@@ -1365,7 +1368,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > 他如实地理解无常的色为“无常的色”……无常的识为“无常的识”。他如实地理解苦的（dukkha）色为“苦的色”……苦的识为“苦的识”。他如实地理解无我的色为“无我的色”……无我的识为“无我的识”。他如实地理解有为的色为“有为的色”……有为的识为“有为的识”。他如实地理解衰损的色为“衰损的色”……衰损的识为“衰损的识”。
 >
 > 他不执取、把握或认定色为“我的自我”。他不对受……想……行……识进行执取；他不把握或认定它们为“我的自我”。不被执取或执着，这五取蕴导向他长久的福祉和安乐。[\[97\]](#fn-fn97){:id="fr-fn97"}  
-> [SN 22.85 / S iii 114-15](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-83-92-thera/#3-sn-2285-焰摩迦经-yamakasutta){: target="_blank" rel="noopener"}, Yamaka Sutta
+> [SN 22.85 / S iii 114-115](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-83-92-thera/#3-sn-2285-焰摩迦经-yamakasutta){: target="_blank" rel="noopener"}, Yamaka Sutta
 
 > 居士，一个人如何会身体受苦，心意受苦呢？在这里，一个未受教导的凡夫，他未见过圣者，未熟练且未受教法训练……他视色、受、想、行、识为自我，视自我拥有色……视色在自我中……视自我在色中……视自我在识中。他活在被这些观念困扰中：“我是色”、“我的色”、“我是受”、“我的受”、“我是想”、“我的想”、“我是行”、“我的行”、“我是识”、“我的识”。当他活在被这些观念困扰中时，他的色……识就会改变和变异。随着色、受、想、行、识的改变和变异，他心中生起忧愁、悲伤、痛苦、忧恼和绝望。
 >
@@ -1434,7 +1437,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > 并为自己制造一个庇护所；  
 > 让他像头着火般精进，  
 > 目标是那不朽之境。[\[103\]](#fn-fn103){:id="fr-fn103"}  
-> [SN 22.95 / S iii 142-3](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-93-102-puppha/#3-sn-2295-聚沫喻经-pheṇapiṇḍūpamasutta){: target="_blank" rel="noopener"}, Pheṇapiṇḍūpama Sutta
+> [SN 22.95 / S iii 142-143](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-93-102-puppha/#3-sn-2295-聚沫喻经-pheṇapiṇḍūpamasutta){: target="_blank" rel="noopener"}, Pheṇapiṇḍūpama Sutta
 >
 > 诸比丘，人类的寿命是短暂的；人必须迁往来生。你们应如理作意，行善，并过清净梵行（brahmacariya）的生活。生者不能免死；长寿者活百岁或稍长。
 >
@@ -1448,7 +1451,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > > 凡人的生命已耗尽，  
 > > 犹如小溪之水。[\[104\]](#fn-fn104){:id="fr-fn104"}
 >
-> Nd. I. 44, 119-20
+> Nd. I. 44, 119-120
 
 > 此世生命变幻莫测，不确定。此处的生命艰难、短暂且与苦相系。没有办法帮助生者避免死亡。即使长寿者，死神也盛行；这就是众生的本性。
 >
@@ -1474,7 +1477,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > 国王也许能击败可怕的四种军队\[大象、马匹、战车和步兵\]，但他们无法击败死主……被四种军队包围，国王也许能逃脱敌人的魔爪，但他们无法逃脱死神……英雄也许能用大象、马匹、战车和步兵攻击并摧毁敌人，但他无法摧毁死神……人们可以安抚愤怒的恶魔、精灵和鬼魂，但他们无法安抚死神……罪犯、重犯或流氓可能仍能得到国王的宽恕，但死神不施怜悯……无论王室贵族、富人、权贵或强者；死神不怜悯任何人。因此我决意修习法……
 >
 > 确实，正法保护行正法者；善于持守真理会带来安乐的报偿。持守真理者不会堕入苦境。因为正法和不正法没有相同的结局；不正法导致地狱；正法导致安乐的归宿。  
-> J. IV. 494-6
+> J. IV. 494-496
 
 > 正如坚固的岩石山，  
 > 巨大，直插云霄，  
@@ -1510,7 +1513,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > 随着昼夜流逝，生命的机会逐渐减少。
 >
 > 你的最后时刻临近：无论行、住、坐、卧，你都没有时间疏忽大意。[\[106\]](#fn-fn106){:id="fr-fn106"}  
-> [Thag 6.13 / Thag 447-52](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-613-悉利曼德长老偈-sirimaṇḍattheragāthā){: target="_blank" rel="noopener"}, Sirimaṇḍattheragāthā
+> [Thag 6.13 / Thag verses 447-452](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-613-悉利曼德长老偈-sirimaṇḍattheragāthā){: target="_blank" rel="noopener"}, Sirimaṇḍattheragāthā
 >
 > 我看见你的幼子哭喊着“妈妈，爸爸”；他们可爱且难得。唉，甚至在未及老年之时，他们便屈服于死亡。我看见你的幼女，少女们姿态可爱；但她们的生命如被连根拔起的新竹般终结。
 >
@@ -1519,12 +1522,12 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > 世间受死神击打，被衰老包围；日子没有虚度……正如线被织工用尽，人类的生命亦然。正如一条涨满的河流不会返回高处，人类也不会重返青春。正如一条泛滥的河流冲走两岸的树木，老与死也冲走所有众生……正如成熟的果实随时都有掉落的危险，众生也随时都有死亡的危险。
 >
 > 早晨我们看到许多人；到了晚上，有些人已不见踪影。晚上我们看到许多人；到了早上，有些人已不见踪影。我们今天就应赶紧精进；谁知明天我们是否会死去？因为死神及其队伍是无法推迟的。  
-> J. VI. 25-8
+> J. VI. 25-28
 
 > 我儿舍弃了他的身体，就像蛇脱去旧皮一样；他的身体已无用，他去世了……他未被召唤而来，我未曾允许他离去。他来时如何，去时亦如何；哀悼他的离去又有何益？若我悲泣，我的身体将日渐消瘦；这又有何益处？我的亲友将更加痛苦……
 >
 > 犹如孩童徒然哭泣想抓住空中的月亮，人们也同样徒然地哀悼逝去的所爱之人。那些已逝并已火化的人，感受不到亲友的哀叹。因此，我不悲伤；他走他必须走的路。  
-> J. III. 164-6
+> J. III. 164-166
 >
 > 与其哀悼逝者，我们更应该为自己哀悼，因为我们都在死亡的支配之下。当人们站立、坐着、躺卧或行走时，生命的组成部分并未停止；我们的岁月在每一次眨眼间流逝。
 >
@@ -1555,7 +1558,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > > 并坚定不移地思考：  
 > > “我现在该如何行事？”
 >
-> [AN 5.48 / A iii 54-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#8-an-548-不得五处-alabbhanīyaṭhānasutta){: target="_blank" rel="noopener"}；[AN 5.50 / A iii 60-62](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#10-an-550-尊者那罗陀-nāradasutta){: target="_blank" rel="noopener"}；最后几偈也见于 J. III. 204
+> [AN 5.48 / A iii 54-56](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#8-an-548-不得五处-alabbhanīyaṭhānasutta){: target="_blank" rel="noopener"}；[AN 5.50 / A iii 60-62](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#10-an-550-尊者那罗陀-nāradasutta){: target="_blank" rel="noopener"}；最后几偈也见于 J. III. 204
 
 > 死时我们独自离去；生时我们独自到来；众生之间的结合只是偶遇。因此，一位博学、洞悉此世与来世、完全领悟真理的圣者，即使面对最严重的苦难，也不会感到痛苦。
 >
@@ -1565,7 +1568,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > “我将在这里度过雨季，在这里度过冬季和夏季”；愚者如此思忖，却不知危险。被子女和牲畜所占据，执着于财物，死亡将他带走，犹如一场大洪水冲走了一个沉睡的村庄。
 >
 > 当一个人被死亡征服时，无论是子女、父母还是朋友都无法提供保护；家庭也无法提供庇护。认识到这一点的重要性，让有智慧和道德的人迅速清除通往涅槃的道路。  
-> [Dhp 286-9](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-197-289-sukha-piya-kodha-mala-dhammattha-magga/#2010-dhp-286-不觉死到来-mahādhanavāṇijavatthu){: target="_blank" rel="noopener"}, Maggavagga
+> [Dhp 286-289](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-197-289-sukha-piya-kodha-mala-dhammattha-magga/#2010-dhp-286-不觉死到来-mahādhanavāṇijavatthu){: target="_blank" rel="noopener"}, Maggavagga
 
 > 此生命确乎短暂；一个人在一百年内死去，即使活得更久，也终将因衰老而逝去。人们为他们执着为“我的”事物而悲伤，但没有任何珍爱之物能永恒。一个看到这种必然分离的人，应该过上无家可居的生活。凡被视为“我的”东西，死时都必须放弃。智者深知此理，应致力于佛陀的教导，避开占有欲。
 >
@@ -1583,7 +1586,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > 有时财富会离开它的主人；有时一个人会离开他的财富。看啊，你这享乐的追求者：凡人并不能永生。因此，当别人悲伤时，我不悲伤。
 >
 > 满月升起然后渐亏；太阳照亮大地然后落下。我看透了世间的变迁；因此，当别人悲伤时，我不悲伤。  
-> J. III. 154; Nd. I. 124
+> J. III. 154；Nd. I. 124
 
 > 快乐与痛苦，名誉与毁谤，  
 > 获得与失去，赞美与责备：  
@@ -1625,25 +1628,25 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 >
 > > “确实，一切有为法无常，是生灭法。既已生起，便会止息；其止息是究竟之乐。”
 >
-> [DN 17 / D ii 196-9](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-17-mahasudassana/){: target="_blank" rel="noopener"}, Mahāsudassana Sutta
+> [DN 17 / D ii 196-199](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-17-mahasudassana/){: target="_blank" rel="noopener"}, Mahāsudassana Sutta
 
 > 我的城市名为迦毗罗卫；我的父亲是净饭王；生下我的母亲名为摩耶夫人。我过了二十九年的居家生活；我有三座宏伟的宫殿：善月宫、赤莲宫和仙鹤宫，拥有四万名妆容美丽的宫女。我的妻子名为耶输陀罗，我的儿子名为罗睺罗。看到四种相状后，我舍弃了家庭生活；六年间，我精进修行并苦行。我在波罗奈的仙人住处鹿野苑转法轮。我就是觉悟的佛陀，名为乔达摩，是所有众生的皈依处……我在这个时代的寿命仅仅一百年。尽管生命如此短暂，但我已帮助许多人超越轮回，并竖起了正法之炬，以唤醒后代。很快，我将与我的弟子们一同般涅槃，[\[111\]](#fn-fn111){:id="fr-fn111"} 就像火因燃料耗尽而熄灭一样。这具身体所具备的殊胜品质，以三十二相和无与伦比的光辉所庄严，连同诸波罗蜜、十力以及照耀十方如太阳般的六色光芒，所有这些都将完全消失。确实，所有有为法都无有实体，它们是空无的。  
-> Bv. 97-8
+> Bv. 97-98
 
 > 无论老少，无论愚智，无论贫富，都注定要死亡。就像陶工的器皿，无论大小，无论烧制过还是未烧制过，最终都会破碎，同样，所有众生的生命也都以死亡告终。
 >
 > 我已年迈。我的生命只剩下一点点。现在我将离开你们；我已作了自己的皈依处。
 >
 > 比丘们，你们当不放逸、具足正念，保持纯净的戒行；调伏你们的思想，守护你们的心。在这教法与律法中，一个不放逸地遵守的人将能逃离轮回，并终结苦。  
-> [DN 16 / D ii 120-21](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}, Mahāparinibbāna Sutta
+> [DN 16 / D ii 120-121](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}, Mahāparinibbāna Sutta
 
 > 如今，比丘们，诚实地说，一个人应该说：“人类的生命有限而短暂；它充满了痛苦和磨难。要以智慧省思，行善，过上清净的生活（brahmacariya）；因为生者必有一死。”如今，长寿的人能活到一百岁或稍多一点。而活到一百年，也只是三百个季节……活到三百个季节，也只是一千二百个月……活到一千二百个月，也只是二千四百个半月……活到二千四百个半月，也只是三万六千天……而活到三万六千天，一个人只吃七万二千顿饭：冬季吃二万四千顿，夏季吃二万四千顿，雨季吃二万四千顿。这其中还包括喝母乳和不进食的时间。
 >
 > 这些是不进食的时间：当心怀怨恨、烦恼或生病时，当禁食时，以及当找不到任何东西吃时。因此，比丘们，我已经计算了一个百岁老人的生命：他的寿命限制、季节数、年数、月数和半月数、日夜数、他的餐数和不进食的时间。一位出于慈悲，为弟子们谋求福祉的导师，所有该做的事，我都已为你们做了。比丘们，这些是树根下，这些是空闲的茅屋。比丘们，去禅修吧，不要放逸，以免将来后悔。这是我对你们的教导。  
-> [AN 7.74 / A iv 138-40](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#10-an-774-阿罗迦经-arakasutta){: target="_blank" rel="noopener"}, Araka Sutta
+> [AN 7.74 / A iv 138-140](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#10-an-774-阿罗迦经-arakasutta){: target="_blank" rel="noopener"}, Araka Sutta
 >
 > 比丘们，考虑到自身的福祉，你们应该悉心成就它。考虑到他人的福祉，你们应该悉心成就它。考虑到自身和他人双方的福祉，你们应该悉心成就它。  
-> [SN 12.22 / S ii 29](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-21-30-dasabala/#2-sn-1222-十力之二经-dutiyadasabalasutta){: target="_blank" rel="noopener"}；[AN 7.72 / A iv 134-5](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#8-an-772-大火聚经-aggikkhandhopamasutta){: target="_blank" rel="noopener"}（前文已引）
+> [SN 12.22 / S ii 29](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-21-30-dasabala/#2-sn-1222-十力之二经-dutiyadasabalasutta){: target="_blank" rel="noopener"}；[AN 7.72 / A iv 134-135](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-065-074-maha/#8-an-772-大火聚经-aggikkhandhopamasutta){: target="_blank" rel="noopener"}（前文已引）
 
 #### 培养紧迫感并为未来做准备
 
@@ -1683,7 +1686,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > 在年轻时没有积累财富的人，  
 > 像废弃的箭一样，  
 > 躺在那里哀叹过去。  
-> [Dhp 155-6](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#119-dhp-155-156-摩诃达拿散尽家财的故事-mahādhanaseṭṭhiputtavatthu){: target="_blank" rel="noopener"}, Jarāvagga
+> [Dhp 155-156](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#119-dhp-155-156-摩诃达拿散尽家财的故事-mahādhanaseṭṭhiputtavatthu){: target="_blank" rel="noopener"}, Jarāvagga
 >
 > 所有的利益都建立在两件事上：  
 > 获得未曾获得的，以及保护已获得的。[\[112\]](#fn-fn112){:id="fr-fn112"}  
@@ -1707,7 +1710,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > 一个愚蠢、误导的领导者的荣耀会消退，就像一张磨损的蛇皮。但一个勤勉、勤奋的领导者，善于及时处理事务，财富会增长，就像一头公牛能增加其牛群的财富。
 >
 > 因此，国王啊，巡游并视察乡村，完成巡察后履行你的王室职责。  
-> J. V. 99-100；部分也见于 J. V. 112-13
+> J. V. 99-100；部分也见于 J. V. 112-113
 >
 > 让一个有智慧的人坚定地怀抱希望，不要气馁。  
 > 我自己清楚地看到我所有愿望的实现。  
@@ -1717,7 +1720,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > [AN 2.5 / A i 50](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#15-an-25-通达二法-upaññātasutta){: target="_blank" rel="noopener"}, Upaññāta Sutta
 >
 > 不要仅仅满足于持守戒与禁行，也不要满足于广大学识，也不要满足于深邃的禅定，也不要满足于隐居生活，甚至不要以为：“我享受着凡夫所未曾体验的出离之乐。”哦，比丘们，在达到诸漏尽灭之前，你们不应满足。[\[113\]](#fn-fn113){:id="fr-fn113"}  
-> [Dhp 271-2](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-197-289-sukha-piya-kodha-mala-dhammattha-magga/#1910-dhp-271-272-证阿罗汉果甚难-sambahulasīlādisampannabhikkhuvatthu){: target="_blank" rel="noopener"}, Dhammaṭṭhavagga
+> [Dhp 271-272](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-197-289-sukha-piya-kodha-mala-dhammattha-magga/#1910-dhp-271-272-证阿罗汉果甚难-sambahulasīlādisampannabhikkhuvatthu){: target="_blank" rel="noopener"}, Dhammaṭṭhavagga
 >
 > 为未来做好准备，履行你的职责；  
 > 不要让那些任务在无法再拖延时压倒你。  
@@ -1739,23 +1742,24 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > 在这里，舍利弗（Sāriputta），拘留孙佛（Kakusandha）、拘那含牟尼佛（Konāgamana）和迦叶佛（Kassapa）等诸佛世尊，都曾勤奋地向弟子们详细教导正法，他们有许多散文、散文与偈颂……以及问答式的论述。他们为弟子们制定了学处，并规定了波罗提木叉。[\[114\]](#fn-fn114){:id="fr-fn114"} 当这些佛陀、这些世尊以及他们觉悟的弟子们般涅槃后，后来世代的弟子们，具有各种不同的名字、家庭和宗族，出家并长期保存着教法。
 >
 > 这就像各种鲜花，散落在木板上，用线好好地系在一起，就不会被一阵风吹散。这是因为它们被线系得很好……正是由于这个原因，拘留孙、拘那含牟尼和迦叶诸世尊的教法得以长久住世。  
-> [BV 1.1 / Vin iii 8](https://aipali.true-dhamma.com/vinaya/bv/kanda-01-parajika/bv-01-01-pathama/){: target="_blank" rel="noopener"}
+> [BV 1.0 / Vin iii 8](https://aipali.true-dhamma.com/vinaya/bv/kanda-01-parajika/bv-01-00-veranjaka/){: target="_blank" rel="noopener"}
 
 > 随后，尊者舍利弗（Sāriputta）对比丘们说：“朋友们，此法已被我们的世尊正等正觉者善妙地宣说和传授；它导向解脱，并有助于安宁。因此，我们所有人都应该集会，和合地诵习此教法，以便此梵行（brahmacariya）能够长久住世和确立，从而为大众带来福祉和安乐，出于对世间的慈悲，为天人带来利益、福祉和安乐。”  
-> [DN 33 / D iii 210-11](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}, Saṅgīti Sutta
+> [DN 33 / D iii 210-211](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}, Saṅgīti Sutta
 
 > 然后，尊者大迦叶（Mahākassapa）对比丘们说：“各位尊者，来吧，让我们在非佛法显现而佛法被遮蔽之前，在非律法显现而律法被遮蔽之前，在宣说非佛法者变得强大而宣说佛法者衰弱之前，在宣说非律法者变得强大而宣说律法者衰弱之前，诵习佛法与律法吧。”  
-> [CV 11 / Vin ii 283-4](https://aipali.true-dhamma.com/vinaya/cv/cv-11-pancasatika/){: target="_blank" rel="noopener"}, Pañcasatikakkhandhaka
+> [CV 11 / Vin ii 283-284](https://aipali.true-dhamma.com/vinaya/cv/cv-11-pancasatika/){: target="_blank" rel="noopener"}, Pañcasatikakkhandhaka
 >
 > 阿难，只要跋耆人定期频繁地举行集会……只要跋耆人和合地集会，和合地散会，和合地处理事务，他们就可望繁荣而不衰退……
 >
 > 比丘们，只要比丘们定期频繁地举行集会……只要他们和合地集会，和合地散会，和合地处理事务，他们就可望繁荣而不衰退……
 >
-> 比丘们，只要比丘们持续拥有信心、谦逊、对恶行的恐惧、广闻多学（bahussuta）、精进的决心、安住的正念和智慧，他们就可望繁荣而不衰退。（参见附注“无常与履行职责”）  
-> [DN 16 / D ii 73-9](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}, Mahāparinibbāna Sutta
+> 比丘们，只要比丘们持续拥有信心、谦逊、对恶行的恐惧、广闻多学（bahussuta）、精进的决心、安住的正念和智慧，他们就可望繁荣而不衰退。（参见附注 3.4“无常与履行职责”）  
+> [DN 16 / D ii 73-79](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}, Mahāparinibbāna Sutta
 
-无常与履行职责
-
+> **附注 3.4　无常与履行职责**
+> {: id="note-3-4"}
+>
 > 在修行方面，佛陀敦促他的弟子们反思万物无常且必然衰朽；然而，这段文字教导的是，认真履行（适当的）职责只会带来繁荣，而非衰退。
 >
 > 应当好好研究这两项训诫，以获得正确的理解，并避免误导性的佛法实践。此外，应当意识到，为了自我提升和自我发展而保持不放逸，这虽然是个人之事，但也必须与对社会责任的不放逸并行不悖。
@@ -1770,7 +1774,7 @@ ahaṅkāra、mamaṅkāra 和 mānānusaya 的烦恼也分别被称为 diṭṭ
 > 1.  业报法则（Kamma-niyāma）：关于意图和人类行为的法则，即行为（业）及其结果的法则。
 > 1.  法的法则（Dhamma-niyāma）：一般的自然法则，特别是因果法则；关于万物相互关联的法则。[\[115\]](#fn-fn115){:id="fr-fn115"}
 >
-> DA. II. 432; DhsA. 272
+> DA. II. 432；DhsA. 272
 
 ## 附录二：义注对概念的解释
 
@@ -1816,19 +1820,19 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[1\] 关于阿毗达摩对自然法则的分类，请参见附录一。[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
-\[2\] 译注：指佛陀。[&nbsp;↩&nbsp;](#fr-fn2)
+\[2\] 译者注：指佛陀。[&nbsp;↩&nbsp;](#fr-fn2)
 {: id="fn-fn2"}
 
 \[3\] 也称作“相”或“标志”。[&nbsp;↩&nbsp;](#fr-fn3)
 {: id="fn-fn3"}
 
-\[4\] 译注：tathāgata：佛陀；此处用复数形式。[&nbsp;↩&nbsp;](#fr-fn4)
+\[4\] 译者注：tathāgata：佛陀；此处用复数形式。[&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
-\[5\] 译注：dukkha 一词翻译起来非常困难。最常见的翻译包括：痛苦、不满足、压力、疼痛和悲惨。将第二个法印翻译为：“一切皆苦”或“生命是苦的”已引起许多误解。关于 dukkha 一词使用的不同语境，请参见下文。请注意，当我在这里使用“有压力”和“处于被逼迫的状态”时，我指的是万物所固有的压力和张力。[&nbsp;↩&nbsp;](#fr-fn5)
+\[5\] 译者注：dukkha 一词翻译起来非常困难。最常见的翻译包括：痛苦、不满足、压力、疼痛和悲惨。将第二个法印翻译为：“一切皆苦”或“生命是苦的”已引起许多误解。关于 dukkha 一词使用的不同语境，请参见下文。请注意，当我在这里使用“有压力”和“处于被逼迫的状态”时，我指的是万物所固有的压力和张力。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
-\[6\] 译注：请注意，我根据语境将 anattā 译为“无我”、“非我”或“无我的”。巴利语 attā（梵语 ātman）最常被译为“自我”或“灵魂”；我两者都用，同样是根据语境。这里的“无我的”和“无我性”不应与标准英语中利他主义的定义混淆。作者在此使用了“无灵魂性”的英文翻译。[&nbsp;↩&nbsp;](#fr-fn6)
+\[6\] 译者注：请注意，我根据语境将 anattā 译为“无我”、“非我”或“无我的”。巴利语 attā（梵语 ātman）最常被译为“自我”或“灵魂”；我两者都用，同样是根据语境。这里的“无我的”和“无我性”不应与标准英语中利他主义的定义混淆。作者在此使用了“无灵魂性”的英文翻译。[&nbsp;↩&nbsp;](#fr-fn6)
 {: id="fn-fn6"}
 
 \[7\] 也就是说，所有有为法（saṅkhāra）普遍是无常和不坚固的；所有法（dhamma），无论是有为法还是无为法，普遍是无我的。[&nbsp;↩&nbsp;](#fr-fn7)
@@ -1837,16 +1841,16 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[8\] 关于五蕴（khandha）请参见第一章“五蕴”。五蕴构成了所有世间事物，作为一个整体，它们与三法印中的 saṅkhāra（有为法）是同义的。[&nbsp;↩&nbsp;](#fr-fn8)
 {: id="fn-fn8"}
 
-\[9\] 译注：此处，dukkha 与 sukha 对比，sukha 通常译为快乐或愉悦。sukha 一词还有其他定义，包括：“流畅的”、“平顺的”、“方便的”、“轻松的”和“舒适的”。比丘菩提将此段译为：“无常的是痛苦的还是愉悦的？”参见第十一章“安乐”。[&nbsp;↩&nbsp;](#fr-fn9)
+\[9\] 译者注：此处，dukkha 与 sukha 对比，sukha 通常译为快乐或愉悦。sukha 一词还有其他定义，包括：“流畅的”、“平顺的”、“方便的”、“轻松的”和“舒适的”。比丘菩提将此段译为：“无常的是痛苦的还是愉悦的？”参见第十一章“安乐”。[&nbsp;↩&nbsp;](#fr-fn9)
 {: id="fn-fn9"}
 
 \[10\] 梵语：nirvāṇa。[&nbsp;↩&nbsp;](#fr-fn10)
 {: id="fn-fn10"}
 
-\[11\] 译注：当指三法印中的 saṅkhāra 时，我使用“有为法”或更简单的“行”一词。[&nbsp;↩&nbsp;](#fr-fn11)
+\[11\] 译者注：当指三法印中的 saṅkhāra 时，我使用“有为法”或更简单的“行”一词。[&nbsp;↩&nbsp;](#fr-fn11)
 {: id="fn-fn11"}
 
-\[12\] 译注：梵语：dharma。dhamma 一词有许多定义；最常见的有：究竟真理、教法、教义、本性、法则、现象和事物。[&nbsp;↩&nbsp;](#fr-fn12)
+\[12\] 译者注：梵语：dharma。dhamma 一词有许多定义；最常见的有：究竟真理、教法、教义、本性、法则、现象和事物。[&nbsp;↩&nbsp;](#fr-fn12)
 {: id="fn-fn12"}
 
 \[13\] 参见，例如：Dhs 2, 193, 244；DhA. III. 128。（在阿毗达摩中定义 saṅkhata-dhamma 的一种方式，如本引用所示，如下：四地〔bhūmi〕中的善法；所有不善法；四地中的异熟〔vipāka〕；三地中的无记行〔kiriyā-abyākata〕；以及所有物质性。）[&nbsp;↩&nbsp;](#fr-fn13)
@@ -1855,19 +1859,19 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[14\] [AN 3.47 / A i 152](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-041-051-cula/#7-an-347-有为相经-saṅkhatalakkhaṇasutta){: target="_blank" rel="noopener"}, Saṅkhatalakkhaṇa Sutta。[&nbsp;↩&nbsp;](#fr-fn14)
 {: id="fn-fn14"}
 
-\[15\] 义注中的佐证段落包括：不死法是无我的（attasuññamatapadaṁ；Vism. 513）；以及：确实，涅槃是无我的，因为它没有自我（nibbānadhammo attasseva abhāvato attasuñño；PsA. III. 638-39）。关于此偈颂的义注分析，请参见附录二。[&nbsp;↩&nbsp;](#fr-fn15)
+\[15\] 义注中的佐证段落包括：不死法是无我的（attasuññamatapadaṁ；Vism. 513）；以及：确实，涅槃是无我的，因为它没有自我（nibbānadhammo attasseva abhāvato attasuñño；PsA. III. 638-639）。关于此偈颂的义注分析，请参见附录二。[&nbsp;↩&nbsp;](#fr-fn15)
 {: id="fn-fn15"}
 
-\[16\] 译注：当然这在英文中也是如此。[&nbsp;↩&nbsp;](#fr-fn16)
+\[16\] 译者注：当然这在英文中也是如此。[&nbsp;↩&nbsp;](#fr-fn16)
 {: id="fn-fn16"}
 
-\[17\] 译注：指戒律，特别是僧伽戒律。[&nbsp;↩&nbsp;](#fr-fn17)
+\[17\] 译者注：指戒律，特别是僧伽戒律。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
-\[18\] 译注：经的汇集。[&nbsp;↩&nbsp;](#fr-fn18)
+\[18\] 译者注：经的汇集。[&nbsp;↩&nbsp;](#fr-fn18)
 {: id="fn-fn18"}
 
-\[19\] 译注：在印度教中，瑜伽（意为“结合”或“连接”）指个体灵魂与至高精神的结合。[&nbsp;↩&nbsp;](#fr-fn19)
+\[19\] 译者注：在印度教中，瑜伽（意为“结合”或“连接”）指个体灵魂与至高精神的结合。[&nbsp;↩&nbsp;](#fr-fn19)
 {: id="fn-fn19"}
 
 \[20\] 阿毗达摩将行蕴（saṅkhāra）分为五十种，包括五十二心所（cetasika）中的五十种。[&nbsp;↩&nbsp;](#fr-fn20)
@@ -1897,7 +1901,7 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[28\] Vism. 611。[&nbsp;↩&nbsp;](#fr-fn28)
 {: id="fn-fn28"}
 
-\[29\] VismṬ. Maggāmaggañāṇadassanavisuddhiniddesavaṇṇanā, Cattārīsākāra-anupassanakathāvaṇṇanā。\[译注：在《佛法》前两版中，我将三法印语境中的 dukkha 译为“承受压力”。经过对物理学领域术语的进一步研究，似乎更准确的说法是“承受张力”。因此，在本第三版中，我将前者替换为后者。\][&nbsp;↩&nbsp;](#fr-fn29)
+\[29\] VismṬ. Maggāmaggañāṇadassanavisuddhiniddesavaṇṇanā, Cattārīsākāra-anupassanakathāvaṇṇanā。\[译者注：在《佛法》前两版中，我将三法印语境中的 dukkha 译为“承受压力”。经过对物理学领域术语的进一步研究，似乎更准确的说法是“承受张力”。因此，在本第三版中，我将前者替换为后者。\][&nbsp;↩&nbsp;](#fr-fn29)
 {: id="fn-fn29"}
 
 \[30\] Vism. 611。[&nbsp;↩&nbsp;](#fr-fn30)
@@ -1918,7 +1922,7 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[35\] Ps. I. 19；Ps. II. 104；Vism. 494 中提及；VbhA. 83。MA. II. 113 将 santāpa 归类为上述四种意义中的第一种。[&nbsp;↩&nbsp;](#fr-fn35)
 {: id="fn-fn35"}
 
-\[36\] 译注：分别是上面苦的定义 1 和无常的定义 2。[&nbsp;↩&nbsp;](#fr-fn36)
+\[36\] 译者注：分别是上面苦的定义 1 和无常的定义 2。[&nbsp;↩&nbsp;](#fr-fn36)
 {: id="fn-fn36"}
 
 \[37\] 这是作者的定义；关于论疏和复疏的解释，请参见：PsA. I. 100, 102；VismṬ. Indriyasaccaniddesavaṇṇanā, Saccavitthārakathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn37)
@@ -1927,10 +1931,10 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[38\] 参见上文第四项：sukhapaṭikkhepato。[&nbsp;↩&nbsp;](#fr-fn38)
 {: id="fn-fn38"}
 
-\[39\] 译注：upādāna-khandha，五取蕴，与前面提到的五蕴（khandha）相同，但这个术语强调的是蕴作为人类认同和执着的客体，并因此产生苦。参见第一章“五蕴”。[&nbsp;↩&nbsp;](#fr-fn39)
+\[39\] 译者注：upādāna-khandha，五取蕴，与前面提到的五蕴（khandha）相同，但这个术语强调的是蕴作为人类认同和执着的客体，并因此产生苦。参见第一章“五蕴”。[&nbsp;↩&nbsp;](#fr-fn39)
 {: id="fn-fn39"}
 
-\[40\] 探讨此问题的重要来源有：Yam. I. 174-5；PañcA 167；Vism. 510-13；VismṬ. Indriyasaccaniddesavaṇṇanā, Magganiddesakathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn40)
+\[40\] 探讨此问题的重要来源有：Yam. I. 174-175；PañcA 167；Vism. 510-513；VismṬ. Indriyasaccaniddesavaṇṇanā, Magganiddesakathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn40)
 {: id="fn-fn40"}
 
 \[41\] 也称为“三苦”；[DN 33 / D iii 216](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[SN 38.14 / S iv 259](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-38-jambukhadaka/sn-38-jambukhadaka/#114-sn-3814-苦经-dukkhapañhāsutta){: target="_blank" rel="noopener"}；[SN 45.165 / S v 56](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-41-181-maggapeyyala/#95-sn-45165-苦经-dukkhatāsutta){: target="_blank" rel="noopener"}；Vism. 499；VbhA. 93；VinṬ. Dhammacakkappavattanasuttavaṇṇanā；VismṬ. Indriyasaccaniddesavaṇṇanā, Dukkhaniddesakathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn41)
@@ -1966,7 +1970,7 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[51\] Nd. I. 17-18, 45-47；Nd. II. 7, 14, 54。[&nbsp;↩&nbsp;](#fr-fn51)
 {: id="fn-fn51"}
 
-\[52\] [MN 13 / M i 83-90](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-013-mahadukkhakkhandha/){: target="_blank" rel="noopener"}, [MN 14 / M i 91-5](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn52)
+\[52\] [MN 13 / M i 83-90](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-013-mahadukkhakkhandha/){: target="_blank" rel="noopener"}, [MN 14 / M i 91-95](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn52)
 {: id="fn-fn52"}
 
 \[53\] 例如：Vism. 531；VbhA. 145, 149；在一些用泰文印刷的《小义释》中，例如 Nd. II. 7，可以找到 saṁsāra-dukkha 这个词，但这是误印；它应该是 saṅkhāra-dukkha。[&nbsp;↩&nbsp;](#fr-fn53)
@@ -2002,7 +2006,7 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[63\] Mahākhandhakaṁ Anattalakkhaṇasuttavaṇṇanā 指的是佛陀在《无我相经》（Anattalakkhaṇa Sutta, [SN 22.59 / S iii 66](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#7-sn-2259-无我相经-anattalakkhaṇasutta){: target="_blank" rel="noopener"}）中的开示。[&nbsp;↩&nbsp;](#fr-fn63)
 {: id="fn-fn63"}
 
-\[64\] 参见 Vism. 593-5。[&nbsp;↩&nbsp;](#fr-fn64)
+\[64\] 参见 Vism. 593-595。[&nbsp;↩&nbsp;](#fr-fn64)
 {: id="fn-fn64"}
 
 \[65\] Vism. 618；MA. II. 113；VbhA. 48；另请参见 VinṬ. Mahākhandhakaṁ Anattalakkhaṇasuttavaṇṇanā；VismṬ. Maggāmaggañāṇadassanavisuddhiniddesavaṇṇanā, Rūpasattakasammasanakathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn65)
@@ -2014,7 +2018,7 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[67\] [SN 12.12 / S ii 13-14](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-11-20-ahara/#2-sn-1212-破群那经-moḷiyaphaggunasutta){: target="_blank" rel="noopener"}, Moḷiyaphagguna Sutta。[&nbsp;↩&nbsp;](#fr-fn67)
 {: id="fn-fn67"}
 
-\[68\] 译注：基于髻智比丘（Bhikkhu Ñāṇamoli）的译文。[&nbsp;↩&nbsp;](#fr-fn68)
+\[68\] 译者注：基于髻智比丘（Bhikkhu Ñāṇamoli）的译文。[&nbsp;↩&nbsp;](#fr-fn68)
 {: id="fn-fn68"}
 
 \[69\] 例如：[SN 35.1 / S iv 1](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-01-12-anicca/#1-sn-351-内六处无常-ajjhattāniccasutta){: target="_blank" rel="noopener"}, Ajjhattānicca Sutta。[&nbsp;↩&nbsp;](#fr-fn69)
@@ -2023,19 +2027,19 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[70\] Vism. 640；VbhA. 50；VismṬ. Paṭipadāñāṇadassanavisuddhiniddesavaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn70)
 {: id="fn-fn70"}
 
-\[71\] 译注：iriyāpatha（“姿势”）字面意思是“运动方式”。[&nbsp;↩&nbsp;](#fr-fn71)
+\[71\] 译者注：iriyāpatha（“姿势”）字面意思是“运动方式”。[&nbsp;↩&nbsp;](#fr-fn71)
 {: id="fn-fn71"}
 
 \[72\] 或作 attaṁ 和 nirattaṁ。泰文版的《巴利三藏》暹罗拉塔版在某些地方有 attā 和 nirattaṁ，在另一些地方有 attaṁ 和 nirattaṁ（参见 [Snp 41 / Sn 154](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#41-snp-41-嗔怒八颂经-duṭṭhaṭṭhakasutta){: target="_blank" rel="noopener"}；[Snp 48 / Sn 168](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#48-snp-48-死前经-purābhedasutta){: target="_blank" rel="noopener"}；[Snp 52 / Sn 180](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#52-snp-52-迅速经-tuvaṭakasutta){: target="_blank" rel="noopener"}，以及 [Snp 43 / Sn 157](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#43-snp-43-胜八颂经-paramaṭṭhakasutta){: target="_blank" rel="noopener"}；[Snp 66 / Sn 213](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#66-snp-66-诸多迦尼问经-jatukaṇṇimāṇavapucchā){: target="_blank" rel="noopener"} 的相关段落）。然而，在其他版本中，我只发现了 attā 和 nirattā。[&nbsp;↩&nbsp;](#fr-fn72)
 {: id="fn-fn72"}
 
-\[73\] Nd. I. 82, 247, 352-53，并参见 Nd. I. 90-91, 107-8；Nd. II. 35 的相关段落。[&nbsp;↩&nbsp;](#fr-fn73)
+\[73\] Nd. I. 82, 247, 352-353，并参见 Nd. I. 90-91, 107-108；Nd. II. 35 的相关段落。[&nbsp;↩&nbsp;](#fr-fn73)
 {: id="fn-fn73"}
 
 \[74\] 关于神的问题，请参见附录四。[&nbsp;↩&nbsp;](#fr-fn74)
 {: id="fn-fn74"}
 
-\[75\] VbhA. 48-9；以及 MA. II. 113 的某些章节；VinṬ. Mahākhandhakaṁ, Anattalakkhaṇasuttavaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn75)
+\[75\] VbhA. 48-49；以及 MA. II. 113 的某些章节；VinṬ. Mahākhandhakaṁ, Anattalakkhaṇasuttavaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn75)
 {: id="fn-fn75"}
 
 \[76\] [Snp 42 / Sn 155](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-39-54-atthaka/#42-snp-42-净八颂经-suddhaṭṭhakasutta){: target="_blank" rel="noopener"}（参见 Nd. I. 90-91 的相关段落）。[&nbsp;↩&nbsp;](#fr-fn76)
@@ -2047,28 +2051,28 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[78\] māna 在泰语中的当前含义，已严重偏离其原始含义——现在表示努力/勤奋——在此不作讨论，因其会过于深入语言学范畴。[&nbsp;↩&nbsp;](#fr-fn78)
 {: id="fn-fn78"}
 
-\[79\] 译注：在英语中，“ego”（自我）一词就是这样使用的，例如：“他自我意识很强。”[&nbsp;↩&nbsp;](#fr-fn79)
+\[79\] 译者注：在英语中，“ego”（自我）一词就是这样使用的，例如：“他自我意识很强。”[&nbsp;↩&nbsp;](#fr-fn79)
 {: id="fn-fn79"}
 
 \[80\] 此偈颂被称为“阿罗汉的箴言”（[SN 1.11 / S i 6](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-01-devata/sn-01-11-20-nandana/#1-sn-111-欢喜园经-nandanasutta){: target="_blank" rel="noopener"}）。“止息”和“究竟之乐”都指涅槃。此偈颂常在葬礼上唱诵：Aniccā vata saṅkhārā……[&nbsp;↩&nbsp;](#fr-fn80)
 {: id="fn-fn80"}
 
-\[81\] 替代的第二句是：圆满不放逸。此偈颂是佛陀的最后遗言，被认为意义重大。见于 [DN 16 / D ii 120](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[DN 16 / D ii 156](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[SN 6.15 / S i 157-8](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#25-sn-615-般涅槃经-parinibbānasutta){: target="_blank" rel="noopener"}；尊者离婆多和舍利弗在 [Thag 14.1 / Thag 67](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-11-16-ekadasaka-visati/#thag-141-离婆多长老偈-khadiravaniyarevatattheragāthā){: target="_blank" rel="noopener"}；[Thag 17.2 / Thag 91](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-17-21-timsa-maha/#thag-172-舍利弗长老偈-sāriputtattheragāthā){: target="_blank" rel="noopener"} 中也说过类似的偈颂。[&nbsp;↩&nbsp;](#fr-fn81)
+\[81\] 替代的第二句是：圆满不放逸。此偈颂是佛陀的最后遗言，被认为意义重大。见于 [DN 16 / D ii 120](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[DN 16 / D ii 156](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[SN 6.15 / S i 157-158](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#25-sn-615-般涅槃经-parinibbānasutta){: target="_blank" rel="noopener"}；尊者离婆多和舍利弗在 [Thag 14.1 / Thag verse 658](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-11-16-ekadasaka-visati/#thag-141-离婆多长老偈-khadiravaniyarevatattheragāthā){: target="_blank" rel="noopener"}；[Thag 17.2 / Thag verse 1017](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-17-21-timsa-maha/#thag-172-舍利弗长老偈-sāriputtattheragāthā){: target="_blank" rel="noopener"} 中也说过类似的偈颂。[&nbsp;↩&nbsp;](#fr-fn81)
 {: id="fn-fn81"}
 
-\[82\] 参见 [SN 3.18 / S i 89](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#28-sn-318-善友经-kalyāṇamittasutta){: target="_blank" rel="noopener"}；[AN 5.43 / A iii 48-9](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#3-an-543-五法可爱-iṭṭhasutta){: target="_blank" rel="noopener"}；[Iti 1.23 / It 16-17](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-01-ekaka/#33-iti-123-两利经){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn82)
+\[82\] 参见 [SN 3.18 / S i 89](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#28-sn-318-善友经-kalyāṇamittasutta){: target="_blank" rel="noopener"}；[AN 5.43 / A iii 48-49](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#3-an-543-五法可爱-iṭṭhasutta){: target="_blank" rel="noopener"}；[Iti 1.23 / It 16-17](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-01-ekaka/#33-iti-123-两利经){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn82)
 {: id="fn-fn82"}
 
 \[83\] 参见 [DN 16 / D ii 86](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[DN 33 / D iii 236](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[Ud 8.6 / Ud 87](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-08-pataligamiya/#6-ud-86-波吒离村-pāṭaligāmiyasutta){: target="_blank" rel="noopener"}；此外，参见前一脚注中引用的段落的开头（未引用）。[&nbsp;↩&nbsp;](#fr-fn83)
 {: id="fn-fn83"}
 
-\[84\] 译注：八“世间风”：得失、誉毁、乐苦、名辱。[&nbsp;↩&nbsp;](#fr-fn84)
+\[84\] 译者注：八“世间风”：得失、誉毁、乐苦、名辱。[&nbsp;↩&nbsp;](#fr-fn84)
 {: id="fn-fn84"}
 
 \[85\] Kusalo dhammo akusalassa dhammassa ārammaṇapaccayena paccayo (Paṭ. 154)；adhipatipaccayena (Paṭ. 158)；upanissayapaccayena (Paṭ. 166)。[&nbsp;↩&nbsp;](#fr-fn85)
 {: id="fn-fn85"}
 
-\[86\] 译注：其他译文包括：精进、毅力、谨慎、不间断的正念、警觉和热忱。[&nbsp;↩&nbsp;](#fr-fn86)
+\[86\] 译者注：其他译文包括：精进、毅力、谨慎、不间断的正念、警觉和热忱。[&nbsp;↩&nbsp;](#fr-fn86)
 {: id="fn-fn86"}
 
 \[87\] 佛陀有时将阿罗汉称为“不可能放逸者”（[MN 70 / M i 478](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-070-kitagiri/){: target="_blank" rel="noopener"}；[SN 35.134 / S iv 125](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-134-145-devadaha/#1-sn-35134-天臂经-devadahasutta){: target="_blank" rel="noopener"}）。他解释说，阿罗汉已经完成了所有必须通过不放逸来完成的任务。[&nbsp;↩&nbsp;](#fr-fn87)
@@ -2077,10 +2081,10 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[88\] 阿毗达摩指出，阿罗汉，那些已证得究竟出世间境界者，以“殊胜作用心”（mahākiriya-citta）行事，此心是世俗的，属于欲界。[&nbsp;↩&nbsp;](#fr-fn88)
 {: id="fn-fn88"}
 
-\[89\] 相反地，面对三法印却未能真正理解它们，是导致苦的原因（例如：[SN 22.1 / S iii 3](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-01-11-nakulapitu/#1-sn-221-那拘罗父经-nakulapitusutta){: target="_blank" rel="noopener"}；[SN 22.7 / S iii 16](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-01-11-nakulapitu/#7-sn-227-执取与恐慌经之一-upādāparitassanāsutta){: target="_blank" rel="noopener"}；[SN 22.43 / S iii 42-3](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-43-52-attadipa/#1-sn-2243-自洲经-attadīpasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn89)
+\[89\] 相反地，面对三法印却未能真正理解它们，是导致苦的原因（例如：[SN 22.1 / S iii 3](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-01-11-nakulapitu/#1-sn-221-那拘罗父经-nakulapitusutta){: target="_blank" rel="noopener"}；[SN 22.7 / S iii 16](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-01-11-nakulapitu/#7-sn-227-执取与恐慌经之一-upādāparitassanāsutta){: target="_blank" rel="noopener"}；[SN 22.43 / S iii 42-43](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-43-52-attadipa/#1-sn-2243-自洲经-attadīpasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn89)
 {: id="fn-fn89"}
 
-\[90\] 例如：[AN 9.12 / A iv 380-81](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#2-an-912-有余依经-saupādisesasutta){: target="_blank" rel="noopener"}；Pug. 37。[&nbsp;↩&nbsp;](#fr-fn90)
+\[90\] 例如：[AN 9.12 / A iv 380-381](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#2-an-912-有余依经-saupādisesasutta){: target="_blank" rel="noopener"}；Pug. 37。[&nbsp;↩&nbsp;](#fr-fn90)
 {: id="fn-fn90"}
 
 \[91\] 此处的“创造”一词带有戏谑意味；准确地说，人类是相互关联过程中影响其他条件的条件之一。[&nbsp;↩&nbsp;](#fr-fn91)
@@ -2089,19 +2093,19 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[92\] 第二句的替代翻译是：……通过不放逸来成就自己和他人的福祉，以及：……圆满不放逸。[&nbsp;↩&nbsp;](#fr-fn92)
 {: id="fn-fn92"}
 
-\[93\] 译注：参见第十章“佛陀关于欲望的教导”。[&nbsp;↩&nbsp;](#fr-fn93)
+\[93\] 译者注：参见第十章“佛陀关于欲望的教导”。[&nbsp;↩&nbsp;](#fr-fn93)
 {: id="fn-fn93"}
 
 \[94\] 严格来说，根据乐的三重划分，必须使用 nirāmisatara-sukha：sāmisa-sukha（= kāma-sukha；欲乐）、nirāmisa-sukha（禅那之乐）和 nirāmisatara-sukha（解脱之乐）。未觉悟者可能会执着于禅那之乐；真正的安全因此发生在 nirāmisatara-sukha。关于乐的三重划分，请参见：[SN 36.31 / S iv 235](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#311-sn-3631-无食经-nirāmisasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn94)
 {: id="fn-fn94"}
 
-\[95\] 译注：diṭṭhi 在此处以中性含义使用，指人的视角或对世界的理解。[&nbsp;↩&nbsp;](#fr-fn95)
+\[95\] 译者注：diṭṭhi 在此处以中性含义使用，指人的视角或对世界的理解。[&nbsp;↩&nbsp;](#fr-fn95)
 {: id="fn-fn95"}
 
-\[96\] 译注：参见下一章“缘起”。八正道支将在后面的章节中讨论。[&nbsp;↩&nbsp;](#fr-fn96)
+\[96\] 译者注：参见下一章“缘起”。八正道支将在后面的章节中讨论。[&nbsp;↩&nbsp;](#fr-fn96)
 {: id="fn-fn96"}
 
-\[97\] 尊者舍利弗的偈颂；节略翻译。该部分“不将色视为自我，或自我拥有色，或色在自我中，或自我在色中”在《清净道论》的定义中概括为：Na attā（非自我），na attano（非自我所有），na attani（非在自我中），na attavatī（非拥有自我）；参见 Vism. 578。《清净道论》使用了多种解释来觉察无我，例如将色视为非有情、非精神、非人、非少年、非女人、非男人、非自我或自我所有、非我们或我们的、或不属于任何人的（Vism. 653-6）。[&nbsp;↩&nbsp;](#fr-fn97)
+\[97\] 尊者舍利弗的偈颂；节略翻译。该部分“不将色视为自我，或自我拥有色，或色在自我中，或自我在色中”在《清净道论》的定义中概括为：Na attā（非自我），na attano（非自我所有），na attani（非在自我中），na attavatī（非拥有自我）；参见 Vism. 578。《清净道论》使用了多种解释来觉察无我，例如将色视为非有情、非精神、非人、非少年、非女人、非男人、非自我或自我所有、非我们或我们的、或不属于任何人的（Vism. 653-656）。[&nbsp;↩&nbsp;](#fr-fn97)
 {: id="fn-fn97"}
 
 \[98\] 尊者舍利弗的偈颂；节略翻译。[&nbsp;↩&nbsp;](#fr-fn98)
@@ -2110,7 +2114,7 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[99\] 在 Vbh. 382 中，有一个类似但稍微更详细的段落，涉及六种见解。[&nbsp;↩&nbsp;](#fr-fn99)
 {: id="fn-fn99"}
 
-\[100\] 译注：佛陀。[&nbsp;↩&nbsp;](#fr-fn100)
+\[100\] 译者注：佛陀。[&nbsp;↩&nbsp;](#fr-fn100)
 {: id="fn-fn100"}
 
 \[101\] 同上。[&nbsp;↩&nbsp;](#fr-fn101)
@@ -2122,16 +2126,16 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[103\] 不朽之境：涅槃。[&nbsp;↩&nbsp;](#fr-fn103)
 {: id="fn-fn103"}
 
-\[104\] 其中一些偈颂出现在 [DN 19 / D ii 246](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}；[SN 4.9 / S i 108](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-04-mara/sn-04-mara/#19-sn-49-寿命经其一-paṭhamaāyusutta){: target="_blank" rel="noopener"}；[SN 4.10 / S i 108-109](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-04-mara/sn-04-mara/#110-sn-410-寿命经其二-dutiyaāyusutta){: target="_blank" rel="noopener"}；[Thag 2.13 / Thag 20](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-213-何金长老偈-heraññakānittheragāthā){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn104)
+\[104\] 其中一些偈颂出现在 [DN 19 / D ii 246](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}；[SN 4.9 / S i 108](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-04-mara/sn-04-mara/#19-sn-49-寿命经其一-paṭhamaāyusutta){: target="_blank" rel="noopener"}；[SN 4.10 / S i 108-109](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-04-mara/sn-04-mara/#110-sn-410-寿命经其二-dutiyaāyusutta){: target="_blank" rel="noopener"}；[Thag 2.13 / Thag verse 145](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-213-何金长老偈-heraññakānittheragāthā){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn104)
 {: id="fn-fn104"}
 
-\[105\] 有些偈颂重复出现在 J. IV. 127；Nd. I. 120-21。[&nbsp;↩&nbsp;](#fr-fn105)
+\[105\] 有些偈颂重复出现在 J. IV. 127；Nd. I. 120-121。[&nbsp;↩&nbsp;](#fr-fn105)
 {: id="fn-fn105"}
 
 \[106\] 由尊者尸利曼陀（Sirimaṇḍa）所说。[&nbsp;↩&nbsp;](#fr-fn106)
 {: id="fn-fn106"}
 
-\[107\] 译注：阿罗汉。[&nbsp;↩&nbsp;](#fr-fn107)
+\[107\] 译者注：阿罗汉。[&nbsp;↩&nbsp;](#fr-fn107)
 {: id="fn-fn107"}
 
 \[108\] 仍在修行的比丘：一位有学（sekha）或一位有德凡夫（puthujjana-kalyāṇaka）。[&nbsp;↩&nbsp;](#fr-fn108)
@@ -2143,7 +2147,7 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[110\] 他既不像凡夫那样充满激情，也不像有学或有德凡夫那样厌离。[&nbsp;↩&nbsp;](#fr-fn110)
 {: id="fn-fn110"}
 
-\[111\] 译注：究竟涅槃；究竟解脱于轮回。[&nbsp;↩&nbsp;](#fr-fn111)
+\[111\] 译者注：究竟涅槃；究竟解脱于轮回。[&nbsp;↩&nbsp;](#fr-fn111)
 {: id="fn-fn111"}
 
 \[112\] 不放逸的两个方面是建立和保护。[&nbsp;↩&nbsp;](#fr-fn112)
@@ -2152,10 +2156,10 @@ Phra Jao（泰语中“神”的意思，字面意义为“尊贵的上主”）
 \[113\] 论疏将出离之乐（nekkhamma-sukha）定义为不还者（anāgāmī）的安乐。[&nbsp;↩&nbsp;](#fr-fn113)
 {: id="fn-fn113"}
 
-\[114\] 译注：僧团的戒律。[&nbsp;↩&nbsp;](#fr-fn114)
+\[114\] 译者注：僧团的戒律。[&nbsp;↩&nbsp;](#fr-fn114)
 {: id="fn-fn114"}
 
-\[115\] 译注：作者在此补充了英文翻译：“自然状态如是性的一般法则”。[&nbsp;↩&nbsp;](#fr-fn115)
+\[115\] 译者注：作者在此补充了英文翻译：“自然状态如是性的一般法则”。[&nbsp;↩&nbsp;](#fr-fn115)
 {: id="fn-fn115"}
 
 \[116\] 本附录包含泰文版《佛法》第87页的资料：脚注156。[&nbsp;↩&nbsp;](#fr-fn116)

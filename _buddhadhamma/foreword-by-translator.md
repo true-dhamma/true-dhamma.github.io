@@ -4,6 +4,8 @@ title: 译者前言 | 佛法 | Buddhadhamma
 
 # 译者前言
 
+![image](./images/illustrations/temple-translators-foreword-trade.jpg)
+
 ## 英文译者前言
 
 俗话说，千里之行始于足下。然而，第一步的启动可能源于许多不同的原因。完成这部《佛法》翻译的旅程，在某种意义上是偶然开始的，或者至少是机缘巧合。
@@ -91,7 +93,7 @@ Sādhu！Sādhu！Sādhu！
 [zhining@true-dhamma.com](mailto:zhining@true-dhamma.com)  
 [https://true-dhamma.com](https://true-dhamma.com){:target="_blank"}
 
-![image](./images/illustrations/temple-translators-foreword-trade.jpg)
+![image](./images/illustrations/dhammacakka-trade.jpg)
 
 \[1\] 头陀（Tudong）：游方比丘的传统修行方式。这个词源于巴利语“dhutaṅga”，意译为消除或“抖落”心染的训练。[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}

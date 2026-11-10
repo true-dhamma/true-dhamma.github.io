@@ -16,10 +16,11 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 
 包含在培育智慧中的信心或许最好定义为自信：即基于批判性推理，坚信所追求的目标或理想既有价值、又可达成。这种信心激励人们去验证他们相信合理可达的真相。
 
-为了正确地定义信心，《巴利三藏》（Tipiṭaka）中所有将信心（saddhā）列为一组修行要素的教导，也都包含智慧作为伴随要素，并且通常信心被列为第一个要素，而智慧被列为最后一个要素（参见附注“始于信心的要素”）。然而，强调智慧的教导则不一定包含信心的要素（参见附注“不包含信心的要素”）。
+为了正确地定义信心，《巴利三藏》（Tipiṭaka）中所有将信心（saddhā）列为一组修行要素的教导，也都包含智慧作为伴随要素，并且通常信心被列为第一个要素，而智慧被列为最后一个要素（参见附注 14.1“始于信心的要素”）。然而，强调智慧的教导则不一定包含信心的要素（参见附注 14.2“不包含信心的要素”）。
 
-始于信心的要素
-
+> **附注 14.1　始于信心的要素**
+> {: id="note-14-1"}
+>
 > 有许多例子，包括：
 >
 > *   导向后世利益的美德（samparāyikattha）：信心、戒行、布施和智慧。
@@ -28,8 +29,9 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 > *   成就无畏的法（vesārajjakaraṇa-dhamma）：信心、戒行、多闻、精进和智慧。
 > *   圣财（ariya-dhana）：信心、戒行、惭、愧、多闻、布施和智慧。
 
-不包含信心的要素
-
+> **附注 14.2　不包含信心的要素**
+> {: id="note-14-2"}
+>
 > 例如：
 >
 > *   应在心中确立的美德（adhiṭṭhāna-dhamma）：智慧、真实、布施和宁静。
@@ -42,7 +44,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 
 *   信心引发喜（pīti），喜生起轻安（passaddhi），轻安继而导致乐，然后是定，最终是智慧；以及
     
-*   信心产生精进——努力从事修行，并检验那些由信心所相信的事物，以便亲身实证真理，这最终导向智慧（参见附注“信心作为辅助条件”）。
+*   信心产生精进——努力从事修行，并检验那些由信心所相信的事物，以便亲身实证真理，这最终导向智慧（参见附注 14.3“信心作为辅助条件”）。
     
 
 尽管这两个益处源于情感基础，但其达到顶峰的过程始终必须包含对智慧的内在渴望。
@@ -53,9 +55,10 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 
 信心不被归类为道支，因为引导并验证信心的智慧，才是道上进步所需的必要因素。此外，那些拥有大智慧的人，例如圆满觉悟的诸佛和独觉佛（Pacceka-Buddha），从智慧开始修行，而无需经过信心的阶段。智慧的培育不一定总是始于信心——它也可以始于如理作意（yoniso-manasikāra）。因此，佛陀将信心的概念置于培育正见部分，他并未将信心区分为一个独立的要素。
 
-信心作为辅助条件
-
-> 信心导向喜（pīti），见：[SN 12.23 / S ii 31](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-21-30-dasabala/#3-sn-1223-漏尽之缘经-upanisasutta){: target="_blank" rel="noopener"}；信心导向精进（viriya），见：[SN 48.50 / S v 225](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-41-50-jara/#10-sn-4850-信经-āpaṇasutta){: target="_blank" rel="noopener"}。信心有助于产生心的力量和无畏，这些是“精进”（viriya）的特质：参见《旗帜经》（Dhajagga Sutta）（[SN 11.3 / S i 218-20](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-11-sakka/sn-11-sakka/#13-sn-113-幢顶经-dhajaggasutta){: target="_blank" rel="noopener"}）。
+> **附注 14.3　信心作为辅助条件**
+> {: id="note-14-3"}
+>
+> 信心导向喜（pīti），见：[SN 12.23 / S ii 31](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-21-30-dasabala/#3-sn-1223-漏尽之缘经-upanisasutta){: target="_blank" rel="noopener"}；信心导向精进（viriya），见：[SN 48.50 / S v 225](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-41-50-jara/#10-sn-4850-信经-āpaṇasutta){: target="_blank" rel="noopener"}。信心有助于产生心的力量和无畏，这些是“精进”（viriya）的特质：参见《旗帜经》（Dhajagga Sutta）（[SN 11.3 / S i 218-220](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-11-sakka/sn-11-sakka/#13-sn-113-幢顶经-dhajaggasutta){: target="_blank" rel="noopener"}）。
 >
 > 请注意，缺乏智慧支持的信心是一种导向定的力量，包括极高层次的定，它们是心解脱（cetovimutti）的形式。然而，这些心的境界仍会退转和停滞：它们不一定导向智慧，甚至可能阻碍智慧。另一方面，伴随智慧的信心，则能产生支持智慧进一步培育的定。在最后阶段，信心和定导向慧解脱（paññā-vimutti），这能带来不可动摇的心解脱。
 
@@ -100,7 +103,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 >
 > 卡拉玛人啊，你们感到困惑是恰当的，你们感到怀疑是恰当的。你们对令人困惑的事情产生了怀疑。来吧，卡拉玛人：
 >
-> *   不要因执持口传（anussava）而相信（参见附注“‘Anussava’一词”）。
+> *   不要因执持口传（anussava）而相信（参见附注 14.4“‘Anussava’一词”）。
 > *   不要因执持教义传承（paramparā）而相信。
 > *   不要因道听途说（itikirā）而相信。
 > *   不要因引用经典（piṭaka-sampadāna）而相信。
@@ -126,9 +129,10 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 > 他所获得的第四种确信是：“假设恶报不会降临作恶者。那么就在此世，我见自己在这两方面都已清净。”[\[4\]](#fn-fn4){:id="fr-fn4"}  
 > [AN 3.66 / A i 188](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#5-an-366-卡拉玛经-kesamuttisutta){: target="_blank" rel="noopener"}, Kesamutti Sutta
 
-“Anussava”一词
-
-> 自从《佛法》（Buddhadhamma）最初写作阶段（在第一版印刷之前），我就觉得这里的“不相信”一词未能清晰传达巴利语的含义，但我尚未找到一个恰当的替代词。\[译注：作者此处指的是泰语短语 yah yeut theu（อย่ายึดถือ）；这也可以表示“不执取”、“不假定”。\]我的翻译基于《泰国巴利三藏：纪念佛教25 世纪》（Thai Tipiṭaka: A Tribute to 25 Centuries of Buddhism；佛历2500 年出版）的版本，该版本将此语境中 mā 的注释性解释应用为 mā gaṇhittha。在《佛法》的后续版本中，我继续使用 yah yeut theu 这个短语，但增加了脚注：“此处的‘不相信’一词是暂时的，因为尚未找到合适的替代词。应将此短语理解为‘不要仅凭这些因素中的任何一个就做出判断或以绝对、明确的方式确立观点’。”1972 年，当我编写《佛教词典》（พจนานุกรมพุทธศาสน์ ฉบับประมวลธรรม）时，我决定采用“不要（果断地）相信”（yah bplong jy cheua – อย่าปลงใจเชื่อ）的翻译。后来，《佛法》的版本保留了最初的翻译，并补充了脚注：“yah yeut theu 的表达应理解为与 yah bplong jy cheua 相对应。”关于此主题的更多内容，请参见附录一。
+> **附注 14.4　“Anussava”一词**
+> {: id="note-14-4"}
+>
+> 自从《佛法》（Buddhadhamma）最初写作阶段（在第一版印刷之前），我就觉得这里的“不相信”一词未能清晰传达巴利语的含义，但我尚未找到一个恰当的替代词。\[译者注：作者此处指的是泰语短语 yah yeut theu（อย่ายึดถือ）；这也可以表示“不执取”、“不假定”。\]我的翻译基于《泰国巴利三藏：纪念佛教25 世纪》（Thai Tipiṭaka: A Tribute to 25 Centuries of Buddhism；佛历2500 年出版）的版本，该版本将此语境中 mā 的注释性解释应用为 mā gaṇhittha。在《佛法》的后续版本中，我继续使用 yah yeut theu 这个短语，但增加了脚注：“此处的‘不相信’一词是暂时的，因为尚未找到合适的替代词。应将此短语理解为‘不要仅凭这些因素中的任何一个就做出判断或以绝对、明确的方式确立观点’。”1972 年，当我编写《佛教词典》（พจนานุกรมพุทธศาสน์ ฉบับประมวลธรรม）时，我决定采用“不要（果断地）相信”（yah bplong jy cheua – อย่าปลงใจเชื่อ）的翻译。后来，《佛法》的版本保留了最初的翻译，并补充了脚注：“yah yeut theu 的表达应理解为与 yah bplong jy cheua 相对应。”关于此主题的更多内容，请参见附录一。
 
 对于不遵循特定学说或宗教的人，佛陀会慈悲、中立、客观地教导。他会鼓励听者从独立的立场思惟真理。他不会声称拥有这些教导，也不会试图说服人们对他表示虔诚或皈依“佛教”。
 
@@ -184,7 +188,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 > 再者，某些事物可能经过深思熟虑，但它可能是空洞和虚假的；而另一些事物可能与所深思熟虑的不相似，但它可能是事实的、真实的、无误的。
 >
 > 再者，某些事物可能被充分反思\[为符合个人观点和信念\]，但它可能是空洞和虚假的；而另一些事物可能与所反思的不相似，但它可能是事实的、真实的、无误的。  
-> [MN 95 / M ii 170-71](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-095-canki/){: target="_blank" rel="noopener"}；参阅：[MN 101 / M ii 218](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}
+> [MN 95 / M ii 170-171](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-095-canki/){: target="_blank" rel="noopener"}；参阅：[MN 101 / M ii 218](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}
 
 在接下来的经文中，佛陀进一步揭示了一种保护或守护真相（saccānurakkha）的方法——即在对待个人观点和信念时如何行事，以及如何回应他人的观点和信念：
 
@@ -221,7 +225,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 > “但是，如何才能最终达到真理呢？一个人如何才能最终达到真理呢？”
 >
 > “真理的最终达到（saccānupatti）在于对那些相同事物的重复、修习和培育。通过这种方式，就有了真理的最终达到；通过这种方式，一个人最终达到真理。”[\[9\]](#fn-fn9){:id="fr-fn9"}  
-> [MN 95 / M ii 171-4](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-095-canki/){: target="_blank" rel="noopener"}, Caṅkī Sutta
+> [MN 95 / M ii 171-174](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-095-canki/){: target="_blank" rel="noopener"}, Caṅkī Sutta
 
 信心对于修行最初的阶段至关重要。它有助于修行上的成长；运用得当，还能加快修行的进步。
 
@@ -240,7 +244,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 > 1.  一个比丘对他修习梵行的同伴感到愤怒和怨恨；他对他们感到敌意和冷漠。
 >
 > 一个比丘的心对导师……法……僧伽……学……感到疑虑、犹豫、犹豫不决、缺乏承诺……对修习梵行的同伴感到愤怒……不倾向于精进、勤勉修行、坚持和努力。一个不倾向于精进……的比丘是尚未去除心中桩的人……。[\[11\]](#fn-fn11){:id="fr-fn11"}  
-> [DN 33 / D iii 238](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}; [MN 16 / M i 101](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-016-cetokhila/){: target="_blank" rel="noopener"}
+> [DN 33 / D iii 238](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[MN 16 / M i 101](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-016-cetokhila/){: target="_blank" rel="noopener"}
 
 缺乏信心和自信，即怀疑和犹豫，是培育智慧和修行进步的主要障碍。在这种情况下，所需的任务是消除疑虑并建立信心。
 
@@ -275,7 +279,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 > 现在，如果其他人问那个比丘：“你有什么理由和证据让你说：‘世尊已完全觉悟，法已被世尊善妙宣说，僧伽修行良好’？”——那个比丘如果正确回答，他会这样回答：“诸友，我亲近世尊是为了听闻法。世尊教导我法……。当世尊以这种方式教导我法时，通过对该法中某一教法的亲知，我对这些教法得出了结论。我由此对导师产生信心：‘世尊已完全觉悟，法已被世尊善妙宣说，僧伽修行良好。’”
 >
 > 诸比丘，当某人的信心通过这些理由、术语和表述，在如来身上被培植、生根和建立时，他的信心就被称为有理性支持、以见为根基、[\[12\]](#fn-fn12){:id="fr-fn12"} 坚定不移，并且无法被任何沙门、婆罗门、天神、魔罗、梵天或世上任何人所动摇。这就是如何调查如来的功德，以及如何依照法来善加调查如来。  
-> 《考察者经》（Vīmaṁsaka Sutta）：[MN 47 / M i 317-20](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-047-vimamsaka/){: target="_blank" rel="noopener"}
+> 《考察者经》（Vīmaṁsaka Sutta）：[MN 47 / M i 317-320](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-047-vimamsaka/){: target="_blank" rel="noopener"}
 
 疑虑和犹豫，即使是对佛陀本人，也不被认为是错误或邪恶的；它们只是需要通过运用智慧来理解和消除的心的状态。事实上，疑虑可以鼓励人们增加调查和探究。
 
@@ -302,7 +306,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 > “尊者，这就像一座王家边境城市，拥有强大的堡垒和坚固的环城墙，城墙上有一道城门，城门有一个守门人，他明智、熟练而聪明，他阻止陌生人进入，让认识的人进入。他不断巡逻，沿着城墙巡视，没有发现城墙上有任何缝隙或裂缝，即使是猫也无法钻过。他认为，任何较大的生物进出城市，都必须通过这道城门。
 >
 > “同样地，尊者，我知道证悟佛法之道：所有过去圆满觉悟的圣佛，都是通过舍弃染污内心、削弱智慧力量的五盖，在心中坚定建立四念住，并如实发展七觉支而证得无上正等正觉的。所有未来圆满觉悟的圣佛也将如此，而您，尊者，现在是圆满觉悟的圣佛，也是通过舍弃五盖……如实发展七觉支而证得无上正等正觉的。”[\[15\]](#fn-fn15){:id="fr-fn15"}  
-> [DN 16 / D ii 81-2](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}; [DN 28 / D iii 99-101](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-28-sampasadaniya/){: target="_blank" rel="noopener"}
+> [DN 16 / D ii 81-82](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[DN 28 / D iii 99-101](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-28-sampasadaniya/){: target="_blank" rel="noopener"}
 
 若能善加运用，作为修行进步的助缘，对特定人物的虔信可以是有益的。但它也有缺点，因为它常常会变成对个人的执着并阻碍进步。首先，这里有一段经文概述了虔信的优点：
 
@@ -347,7 +351,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 只停留在信心层面的修行进步，并不稳固，也不可靠，因为信心依赖于外部条件并可能减弱，这已被佛陀的教导所证实：
 
 > 在此，跋达离，假设一个人只有一只眼睛；那么他的朋友和同伴，他的亲属和家属，会帮助守护他的眼睛，心想：“不要让他失去他唯一的眼睛。”同样，一些比丘在这法和律中，以信和爱修行。在这种情况下，其他比丘会这样考虑：“这位比丘以信和爱修行。我们应该通过反复敦促他行事来帮助他，以便他不会失去那份信和爱。”这就是在此教法中，必须反复敦促一些比丘履行其义务的原因。  
-> [MN 65 / M i 444-5](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-065-bhaddali/){: target="_blank" rel="noopener"}, Bhaddāli Sutta
+> [MN 65 / M i 444-445](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-065-bhaddali/){: target="_blank" rel="noopener"}, Bhaddāli Sutta
 
 当信心未发展到智慧的阶段时，它是有限的。它可能导致投生到天界，但它本身无法导致佛法的最终目标，这已由佛陀的教导所证实：
 
@@ -364,14 +368,14 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 > 那些法随行者（dhammānusārī）或信随行者（saddhānusārī）的比丘，都将趋向觉悟……。
 >
 > 那些仅仅对我怀有信心、仅仅对我怀有爱恋的比丘，都将趋向天界。  
-> [MN 22 / M i 141-2](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-022-alagaddupama/){: target="_blank" rel="noopener"}, Alagaddūpama Sutta
+> [MN 22 / M i 141-142](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-022-alagaddupama/){: target="_blank" rel="noopener"}, Alagaddūpama Sutta
 
 就培育智慧而言，智慧最初受益于正确的信心，然后逐渐发展，直到达到“智见”（ñāṇa-dassana）的阶段。在这个阶段，不再需要依赖信念和观点，因为已亲自清楚地知见，因此这个阶段超越了信心的范畴：
 
 > 殊胜尊者：“茂师罗尊者，除了信，除了个人偏好，除了口传，除了理性思惟，除了与教义分析的一致性之外，茂师罗尊者是否有亲身知识，即：‘以生为缘，老死生起’？”
 >
 > 茂师罗尊者：“殊胜友，除了信，除了个人偏好，除了口传，除了理性思惟，除了与教义分析的一致性之外，我知此，我见此：‘以生为缘，老死生起。’”[\[16\]](#fn-fn16){:id="fr-fn16"}  
-> [SN 12.68 / S ii 115-18](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#8-sn-1268-憍赏弥经-kosambisutta){: target="_blank" rel="noopener"}, Kosambi Sutta
+> [SN 12.68 / S ii 115-118](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#8-sn-1268-憍赏弥经-kosambisutta){: target="_blank" rel="noopener"}, Kosambi Sutta
 
 这段经文继续说：
 
@@ -388,7 +392,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 > “是的，世尊。”
 >
 > “诸比丘，这就是（一种）阐述方法，通过这种方法，比丘——除了信仰……除了符合教义分析——可以宣称最终的知识……。”[\[17\]](#fn-fn17){:id="fr-fn17"}  
-> [SN 35.153 / S iv 138-40](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-146-155-navapurana/#8-sn-35153-有因由耶经-atthinukhopariyāyasutta){: target="_blank" rel="noopener"}, Atthinukhopariyāya Sutta
+> [SN 35.153 / S iv 138-140](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-146-155-navapurana/#8-sn-35153-有因由耶经-atthinukhopariyāyasutta){: target="_blank" rel="noopener"}, Atthinukhopariyāya Sutta
 
 一旦有了清晰的智见，信心就不再需要：此人无需相信他人。佛陀的弟子们，那些已证得卓越功德的人，无需提及佛陀，就能知晓并谈论这些事情，这在耆那教领袖尼乾陀·若提子（Nigaṇṭha Nātaputta）与居士质多（Citta）之间的对话中得到了印证，质多是佛陀一位精通佛法的杰出弟子：
 
@@ -397,7 +401,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 > 质多：“在这件事上，尊者，我并非凭借对世尊的信仰而说：‘有一种无寻无伺的禅定；寻伺有止息’……。
 >
 > “‘无论我愿意到何种程度……我进入并安住于初禅……我进入并安住于二禅……我进入并安住于三禅……我进入并安住于四禅。’[\[18\]](#fn-fn18){:id="fr-fn18"} 既然我如此知晓和看到，我就不以信仰相信任何沙门或婆罗门关于无寻无伺的禅定存在、寻伺止息的说法。”  
-> [SN 41.8 / S iv 298-9](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-41-citta/sn-41-citta/#18-sn-418-尼乾陀经-nigaṇṭhanāṭaputtasutta){: target="_blank" rel="noopener"}, Nigaṇṭhanāṭaputta Sutta
+> [SN 41.8 / S iv 298-299](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-41-citta/sn-41-citta/#18-sn-418-尼乾陀经-nigaṇṭhanāṭaputtasutta){: target="_blank" rel="noopener"}, Nigaṇṭhanāṭaputta Sutta
 
 阿罗汉，那些已达到最高智见的人，拥有“无信”（assaddha）的特质：[\[19\]](#fn-fn19){:id="fr-fn19"} 他们在清楚看到的事情上，无需相信任何其他人，这已由佛陀与尊者舍利弗（Sāriputta）的讨论所证实：
 
@@ -406,7 +410,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 > 舍利弗：“在这件事上，我不凭借对世尊的信仰……。那些不知、不见、不解、不证、不用智慧辨别的人——他们就得在这方面依靠对别人的信仰……。但那些用智慧知、见、解、证、辨别这些事情的人——他们在这件事上就不会困惑或疑虑……。我已用智慧知、见、解、证、辨别这些事情——因此，我对这件事毫无疑虑和不确定：信根……精进根……念根……定根……慧根，当被发展和培育时，能深入不死，以不死为目的地，以不死为最终目标。”
 >
 > 佛陀：“善哉，善哉，舍利弗。”  
-> [SN 48.44 / S v 220-22](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-41-50-jara/#4-sn-4844-东门楼经-pubbakoṭṭhakasutta){: target="_blank" rel="noopener"}, Pubbakoṭṭhaka Sutta
+> [SN 48.44 / S v 220-222](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-41-50-jara/#4-sn-4844-东门楼经-pubbakoṭṭhakasutta){: target="_blank" rel="noopener"}, Pubbakoṭṭhaka Sutta
 
 佛陀的以下这些段落强调了智慧的至关重要性：
 
@@ -420,16 +424,17 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 只要慧根缺失，信、精进、念、定等其他诸根，无论是单独还是组合，都无法带来觉悟：
 
 > 诸比丘，正如陆地动物的足迹都能容纳在大象的足迹中，而大象的足迹因其巨大而被宣称为它们的首要，同样地，在通往觉悟的步骤中，慧根被宣称为它们的首要，也就是说，就证得觉悟而言。[\[20\]](#fn-fn20){:id="fr-fn20"}  
-> [SN 48.54 / S v 231-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-51-60-sukarakhata/#4-sn-4854-足迹经-padasutta){: target="_blank" rel="noopener"}, [SN 48.67–70 / S v 237-9](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-61-70-bodhipakkhiya/#7-sn-4867-树喻之一-paṭhamarukkhasutta){: target="_blank" rel="noopener"}
+> [SN 48.54 / S v 231-232](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-51-60-sukarakhata/#4-sn-4854-足迹经-padasutta){: target="_blank" rel="noopener"}, [SN 48.67–70 / S v 237-239](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-61-70-bodhipakkhiya/#7-sn-4867-树喻之一-paṭhamarukkhasutta){: target="_blank" rel="noopener"}
 
 ## 中道的准备
 
 总而言之，普通人，那些尚未精通智慧的人，需要他人的引导和鼓励。对他们而言，智慧的培育始于善友这一外部因素，以便建立信心。（这里的信心是指源于良好理性辨别的自信。）
 
-从这里开始，便进入内在因素的运作，首先是运用信心所依据的知识，独立地作分析性思考。这种分析性反思会产生正见，并推进智慧的培育，最终达到清晰的智见（ñāṇa-dassana）（参见附注“三种如理作意”）。
+从这里开始，便进入内在因素的运作，首先是运用信心所依据的知识，独立地作分析性思考。这种分析性反思会产生正见，并推进智慧的培育，最终达到清晰的智见（ñāṇa-dassana）（参见附注 14.5“三种如理作意”）。
 
-三种如理作意
-
+> **附注 14.5　三种如理作意**
+> {: id="note-14-5"}
+>
 > 一位帮助引导他人的人，可以运用以下三种如理作意作为基本原则，来检验他人的智慧水平或如理作意的能力：
 >
 > 1.  与条件相应地思考：看对方是否能合理且系统地思考，并能探究因果条件。
@@ -492,7 +497,7 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 这组因素被许多其他名称所指称，包括：“有助于证得入流果直至证得阿罗汉果的善法”：
 
 > “诸比丘，这四法，当被发展和培育时，能导致证得入流果……证得一来果……证得不还果……证得阿罗汉果。哪四法？亲近善人、听闻正法、如理作意、法随法行。”[\[22\]](#fn-fn22){:id="fr-fn22"}  
-> [SN 55.55–58 / S v 410-11](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#5-sn-5555-入流果经-sotāpattiphalasutta){: target="_blank" rel="noopener"}
+> [SN 55.55–58 / S v 410-411](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#5-sn-5555-入流果经-sotāpattiphalasutta){: target="_blank" rel="noopener"}
 
 亲近善人（sappurisa-saṁseva）等同于拥有善友（kalyāṇamitta）。佛陀是至高无上的善人和善友。[\[23\]](#fn-fn23){:id="fr-fn23"}与智者交往和拥有善友会导致他人的有益教导（paratoghosa），即听闻或学习法——真实、善的教法。
 
@@ -619,25 +624,25 @@ title: 第十四章：信心 | 佛法 | Buddhadhamma
 
 kamma-saddhā 和 vipāka-saddhā 源自关于业的教义，这些教义通常与邪见（micchā-diṭṭhi）和正见（sammā-diṭṭhi）相关联，[\[34\]](#fn-fn34){:id="fr-fn34"}但这些特定术语并未出现在《巴利三藏》中。即使是“相信业”这个表达，作为优婆塞五法（upāsaka-dhamma）之一，也是从 kammaṁ pacceti 翻译而来，意为专注于通过行动取得成就而非依赖运气。这个主题反映了佛教思想和传统在后期，即后经典时代的演变。
 
-\[1\] 译注：saddhā 源自巴利语动词 saddahati：“托付于心”（源自梵语词根 ṡrad——被认为与 hṛid——“心”——和 dhā——“放置”相关联；英语 heart 和 cardiac 在词源上与词根 ṡrad 有关）。请注意，在泰语版《佛法》中，本章被纳入“善友”一章。[&nbsp;↩&nbsp;](#fr-fn1)
+\[1\] 译者注：saddhā 源自巴利语动词 saddahati：“托付于心”（源自梵语词根 ṡrad——被认为与 hṛid——“心”——和 dhā——“放置”相关联；英语 heart 和 cardiac 在词源上与词根 ṡrad 有关）。请注意，在泰语版《佛法》中，本章被纳入“善友”一章。[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
 \[2\] 关于戒行对信心的依赖，请参阅：Vism. 511；VismṬ.: Indriyasaccaniddesavaṇṇanā, Magganiddesakathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn2)
 {: id="fn-fn2"}
 
-\[3\] 在不同版本的《巴利三藏》中，这部经文被分别称为 Kesaputta Sutta、Kesaputti Sutta、Kesaputtiya Sutta 或 Kesamutti Sutta。这部经文之后的那部经文包含类似的内容；另请参阅：[AN 4.193 / A ii 190-91](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#3-an-4193-离车人跋提经-bhaddiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn3)
+\[3\] 在不同版本的《巴利三藏》中，这部经文被分别称为 Kesaputta Sutta、Kesaputti Sutta、Kesaputtiya Sutta 或 Kesamutti Sutta。这部经文之后的那部经文包含类似的内容；另请参阅：[AN 4.193 / A ii 190-191](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#3-an-4193-离车人跋提经-bhaddiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn3)
 {: id="fn-fn3"}
 
-\[4\] 译注：义注对“两方面”的解释是：“因为他不做恶，也因为他不会遭遇恶事。”（长老向智〔Nyanaponika Thera〕和菩提比丘〔Bhikkhu Bodhi〕的《佛陀的数字论述》〔The Numerical Discourses of the Buddha〕；AltaMira Press，© 1999；注 51。）[&nbsp;↩&nbsp;](#fr-fn4)
+\[4\] 译者注：义注对“两方面”的解释是：“因为他不做恶，也因为他不会遭遇恶事。”（长老向智〔Nyanaponika Thera〕和菩提比丘〔Bhikkhu Bodhi〕的《佛陀的数字论述》〔The Numerical Discourses of the Buddha〕；AltaMira Press，© 1999；注 51。）[&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
 \[5\] JA. I. 94。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
-\[6\] 译注：“他世”（paraloka），即其他或未来的存在领域。[&nbsp;↩&nbsp;](#fr-fn6)
+\[6\] 译者注：“他世”（paraloka），即其他或未来的存在领域。[&nbsp;↩&nbsp;](#fr-fn6)
 {: id="fn-fn6"}
 
-\[7\] 译注：《中部》的义注（Majjhima Nikāya Aṭṭhakathā）指出，此处“有之止息”（bhava-nirodha）指的是涅槃。[&nbsp;↩&nbsp;](#fr-fn7)
+\[7\] 译者注：《中部》的义注（Majjhima Nikāya Aṭṭhakathā）指出，此处“有之止息”（bhava-nirodha）指的是涅槃。[&nbsp;↩&nbsp;](#fr-fn7)
 {: id="fn-fn7"}
 
 \[8\] Devā arūpino saññāmayā。[&nbsp;↩&nbsp;](#fr-fn8)
@@ -676,13 +681,13 @@ kamma-saddhā 和 vipāka-saddhā 源自关于业的教义，这些教义通常�
 \[19\] [Dhp 97](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-076-128-pandita-arahanta-sahassa-papa/#78-dhp-97-舍利弗非盲信-sāriputtattheravatthu){: target="_blank" rel="noopener"}, Arahantavagga。[&nbsp;↩&nbsp;](#fr-fn19)
 {: id="fn-fn19"}
 
-\[20\] 译注：“通往觉悟的阶梯”（padāni bodhāya saṁvattanti）= dhamma-padāni：“法阶”或“法的章节”。[&nbsp;↩&nbsp;](#fr-fn20)
+\[20\] 译者注：“通往觉悟的阶梯”（padāni bodhāya saṁvattanti）= dhamma-padāni：“法阶”或“法的章节”。[&nbsp;↩&nbsp;](#fr-fn20)
 {: id="fn-fn20"}
 
 \[21\] 请注意，基于如理辨别后的信心与信念，以及先确立信心与信念再对其信念进行理性论证之间的区别。[&nbsp;↩&nbsp;](#fr-fn21)
 {: id="fn-fn21"}
 
-\[22\] 这些因素被称为“入流支”（sotāpattiyaṅga；“入流者的品质”），例如：[SN 55.5 / S v 347](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#5-sn-555-舍利弗经之二-dutiyasāriputtasutta){: target="_blank" rel="noopener"}。它们被称为“有助于智慧增长的德行”（paññāvuḍḍhi-dhamma），例如：[SN 55.60 / S v 411](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#10-sn-5560-增长经-paññāvuddhisutta){: target="_blank" rel="noopener"}；[AN 4.248 / A ii 245-6](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-243-253-apattibhaya/#6-an-4248-增慧经-paññāvuddhisutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn22)
+\[22\] 这些因素被称为“入流支”（sotāpattiyaṅga；“入流者的品质”），例如：[SN 55.5 / S v 347](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-01-10-veludvara/#5-sn-555-舍利弗经之二-dutiyasāriputtasutta){: target="_blank" rel="noopener"}。它们被称为“有助于智慧增长的德行”（paññāvuḍḍhi-dhamma），例如：[SN 55.60 / S v 411](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#10-sn-5560-增长经-paññāvuddhisutta){: target="_blank" rel="noopener"}；[AN 4.248 / A ii 245-246](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-243-253-apattibhaya/#6-an-4248-增慧经-paññāvuddhisutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn22)
 {: id="fn-fn22"}
 
 \[23\] 请参阅前一章“善友”。[&nbsp;↩&nbsp;](#fr-fn23)
@@ -694,22 +699,22 @@ kamma-saddhā 和 vipāka-saddhā 源自关于业的教义，这些教义通常�
 \[25\] AA. II. 305。[&nbsp;↩&nbsp;](#fr-fn25)
 {: id="fn-fn25"}
 
-\[26\] [AN 3.67 / A i 193-4](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#6-an-367-沙罗经-sāḷhasutta){: target="_blank" rel="noopener"}；[AN 4.193 / A ii 190-91](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#3-an-4193-离车人跋提经-bhaddiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn26)
+\[26\] [AN 3.67 / A i 193-194](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#6-an-367-沙罗经-sāḷhasutta){: target="_blank" rel="noopener"}；[AN 4.193 / A ii 190-191](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#3-an-4193-离车人跋提经-bhaddiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn26)
 {: id="fn-fn26"}
 
 \[27\] AA. III. 173。这与包含《卡拉玛经》义注的是同一卷。[&nbsp;↩&nbsp;](#fr-fn27)
 {: id="fn-fn27"}
 
-\[28\] 译注：这些是《佛教词典》（พจนานุกรมพุทธศาสน์ ฉบับประมวลธรรม）中包含的英文译文。[&nbsp;↩&nbsp;](#fr-fn28)
+\[28\] 译者注：这些是《佛教词典》（พจนานุกรมพุทธศาสน์ ฉบับประมวลธรรม）中包含的英文译文。[&nbsp;↩&nbsp;](#fr-fn28)
 {: id="fn-fn28"}
 
-\[29\] 译注：或许可以翻译为：“保持对……的怀疑”或“对……保持健康的怀疑”。这种方法似乎与宗教怀疑论（允许对宗教信仰和主张存疑）和科学怀疑论（对所有主张进行系统调查）的结合是一致的。[&nbsp;↩&nbsp;](#fr-fn29)
+\[29\] 译者注：或许可以翻译为：“保持对……的怀疑”或“对……保持健康的怀疑”。这种方法似乎与宗教怀疑论（允许对宗教信仰和主张存疑）和科学怀疑论（对所有主张进行系统调查）的结合是一致的。[&nbsp;↩&nbsp;](#fr-fn29)
 {: id="fn-fn29"}
 
-\[30\] 参阅：Nd. I. 188-9；Dhs. 233；Vbh. 328。[&nbsp;↩&nbsp;](#fr-fn30)
+\[30\] 参阅：Nd. I. 188-189；Dhs. 233；Vbh. 328。[&nbsp;↩&nbsp;](#fr-fn30)
 {: id="fn-fn30"}
 
-\[31\] [AN 5.161 / A iii 185-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-161-170-aghata/#1-an-5161-调伏嫌恨之一-paṭhamaāghātapaṭivinayasutta){: target="_blank" rel="noopener"}, Paṭhamaāghātapaṭivinaya Sutta。[&nbsp;↩&nbsp;](#fr-fn31)
+\[31\] [AN 5.161 / A iii 185-186](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-161-170-aghata/#1-an-5161-调伏嫌恨之一-paṭhamaāghātapaṭivinayasutta){: target="_blank" rel="noopener"}, Paṭhamaāghātapaṭivinaya Sutta。[&nbsp;↩&nbsp;](#fr-fn31)
 {: id="fn-fn31"}
 
 \[32\] 例如：DA. II. 359；DA. III. 936；SA. I. 87。[&nbsp;↩&nbsp;](#fr-fn32)

@@ -8,11 +8,12 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 ## 导论
 
-如果有人提出佛教是否肯定神通现象（见“神通”一词的说明）和天人存在的疑问，根据《巴利三藏》（Tipiṭaka）及其他经典中的文字证据，答案是明确肯定的。支持这一回答的经典证实是广泛而丰富的。[\[1\]](#fn-fn1){:id="fr-fn1"} 尽管如此，人们很难就这些事物是否真实存在达成一致或共识。
+如果有人提出佛教是否肯定神通现象（参见附注 9.1“‘神通’一词”）和天人存在的疑问，根据《巴利三藏》（Tipiṭaka）及其他经典中的文字证据，答案是明确肯定的。支持这一回答的经典证实是广泛而丰富的。[\[1\]](#fn-fn1){:id="fr-fn1"} 尽管如此，人们很难就这些事物是否真实存在达成一致或共识。
 
-“神通”一词
-
-> 译注：在此使用“神通”一词，其在英文本中对应“supernatural”，宽泛含义是“超越寻常”、“神变般的”、“属于更高领域”或“自然法则无法解释的事件”。正如尊者作者在《佛法》第四章“缘起”中所指出的，佛教教义不承认存在凌驾于自然之上并对其拥有力量的超世间实体。同样地，此处的“神通”一词并不意味着存在于自然世界之外的现实，也并非指超越自然力量的能力。从这个意义上讲，“出世间”一词，虽然不常用，但在这里可能更为准确。
+> **附注 9.1　“神通”一词**
+> {: id="note-9-1"}
+>
+> 译者注：在此使用“神通”一词，其在英文本中对应“supernatural”，宽泛含义是“超越寻常”、“神变般的”、“属于更高领域”或“自然法则无法解释的事件”。正如尊者作者在《佛法》第四章“缘起”中所指出的，佛教教义不承认存在凌驾于自然之上并对其拥有力量的超世间实体。同样地，此处的“神通”一词并不意味着存在于自然世界之外的现实，也并非指超越自然力量的能力。从这个意义上讲，“出世间”一词，虽然不常用，但在这里可能更为准确。
 
 许多人认为相信这些事物会带来有害后果，这一观点导致一些学者把这些现象解释为隐喻。在此无需详尽探讨这些解释。即使接受这些事物真实存在的字面解释，佛教教义也包含足够的保障，有助于防止迷信或过度执着于证明神通的有效性。
 
@@ -88,7 +89,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
     
 
 > 有些人通过某种迹象宣称：“你的心是这样的，它倾向于这样，你心里就是这样的。”他无论作出多少这样的宣称，都完全如此，并无差异。另一些人则不通过迹象作出宣称，而是在听到人类、鬼或天人的声音后宣称：“你的心是这样的，它倾向于这样，你心里就是这样的”……或者通过听到一个人在思惟时，其寻和伺的声音，宣称：“你的心是这样的，它倾向于这样，你心里就是这样的”……或者通过以心识穿透某人处于无寻无伺禅定状态的心，清楚地了知那人心中的心行，并知道这种心行之后他将会有怎样的思惟。他无论作出多少这样的宣称，都完全如此，并无差异。  
-> [DN 28 / D iii 103-104](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-28-sampasadaniya/){: target="_blank" rel="noopener"}, Sampasādanīya Sutta; Ps. II. 227-8
+> [DN 28 / D iii 103-104](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-28-sampasadaniya/){: target="_blank" rel="noopener"}, Sampasādanīya Sutta；Ps. II. 227-228
 
 记心神变（ādesanā-pāṭihāriya）似乎与他心通（cetopariya-ñāṇa 或 paracitta-vijānana）相似，但其不同之处在于前者仍处于直觉性感知的层面；它尚未达到“智”（ñāṇa）的层面。
 
@@ -160,10 +161,11 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 因此，重要的是要记住，神通应始终伴随着正确的教诫。如果有人揭示或声称拥有神通，而这些神通不是通向“教诫神变”的桥梁，他们的行为就可以被认为是不正确的。[\[20\]](#fn-fn20){:id="fr-fn20"}
 
-他们可能怀有恶意或欺骗意图，他们可能在寻求个人利益，或者他们可能仅仅对神通有错误的理解。同样的原则也可以应用于圣物或护身符：如果有人借这些物品与人交往，没有提供任何形式的教导——没有引导他们培育智慧，没有让他们理解真理，也没有让他们逐渐摆脱对这些物品的依赖——那么这种做法就是不正确的，并且将人们引向错误的方向。（参见附注“引向错误方向”）
+他们可能怀有恶意或欺骗意图，他们可能在寻求个人利益，或者他们可能仅仅对神通有错误的理解。同样的原则也可以应用于圣物或护身符：如果有人借这些物品与人交往，没有提供任何形式的教导——没有引导他们培育智慧，没有让他们理解真理，也没有让他们逐渐摆脱对这些物品的依赖——那么这种做法就是不正确的，并且将人们引向错误的方向。（参见附注 9.2“引向错误方向”）
 
-引向错误方向
-
+> **附注 9.2　引向错误方向**
+> {: id="note-9-2"}
+>
 > 这个主题包括圣物和魔法物品、神秘力量，以及佛陀所称的低劣或“旁生术”（tiracchāna-vijjā）。低劣之术是指那些阻碍通往天界和涅槃之道，或与佛教目标不符的外道教义。它们主要涉及占卜、预言和疾病治疗，这些对于比丘而言，如果他为了谋生或追求个人利益而修行这些技艺，则从道德角度来看是错误的和有害的。
 >
 > “旁生术”不同于神通神变（iddhi-pāṭihāriya）。它在《长部》（Dīgha Nikāya）[DN 1 / D i 9-12](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-01-brahmajala/){: target="_blank" rel="noopener"} 中有所讨论，并在《长部》的 Sīlakkhandhavagga 中反复提及。在例如《律藏》（Vinaya Piṭaka）[CV 5 / Vin ii 140](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}；[NV 4.5.10 / Vin iv 306](https://aipali.true-dhamma.com/vinaya/nv/kanda-04-pacittiya/nv-04-05-cittagara/#10-单堕五十教畜生咒-dasamasikkhāpada){: target="_blank" rel="noopener"} 中有禁止学习和教授这些技艺的戒律；例如在 DA. I. 131；Nd1A. II. 402 中有所解释。
@@ -201,10 +203,11 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 ### 人与天人
 
-前面关于神变和神通的大部分内容也适用于天人（devatā）这个主题。（参见附注“天人〔Devatā〕”）人们通常出于实际原因对天人感兴趣：他们希望并祈求拥有特殊力量的天人帮助，就像他们寻求其他形式超自然力量的帮助一样。因此，上述原则，特别是关于超自然力量的优点和潜在危害，与天人这个主题相关。然而，还有一些额外的事项需要考虑。
+前面关于神变和神通的大部分内容也适用于天人（devatā）这个主题。（参见附注 9.3“天人〔Devatā〕”）人们通常出于实际原因对天人感兴趣：他们希望并祈求拥有特殊力量的天人帮助，就像他们寻求其他形式超自然力量的帮助一样。因此，上述原则，特别是关于超自然力量的优点和潜在危害，与天人这个主题相关。然而，还有一些额外的事项需要考虑。
 
-天人（Devatā）
-
+> **附注 9.3　天人（Devatā）**
+> {: id="note-9-3"}
+>
 > deva 或 devatā 这些词涵盖所有天人，包括梵天。天人分为三类：
 >
 > 1.  欲界天人；那些执着于欲的众生；这些众生的居所有时被称为“六欲天”（chakāmāvacara-sagga）：四大天王天（cātummahārājikā）；三十三天（tāvatiṁsā）；夜摩天（yāmā）；兜率天（tusitā）；化乐天（nimmānaratī）；他化自在天（paranimmitavasavattī）；
@@ -262,7 +265,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 以下是关于与天人建立正确关系的一些进一步观察。首先，天人无法单方面决定和控制人类的环境或人类的命运。尽管普遍认为天人拥有比人类更强大的力量，但人类若提升自己，他们能够与天人相等甚至超越天人，如前所述。孰优孰劣，取决于各自的德行与努力，这一点得到了《本生经》（Jātaka）中这个故事的证实：
 
 > 两个邻国的国王正在准备战斗。其中一位国王咨询了一位拥有神通的仙人。这位仙人能够与帝释天（Indra）交谈，帝释天告诉他国王的军队将取得胜利。因此，国王漫不经心地让他的士兵休息和娱乐。另一位国王听说自己将战败的预测后，加倍努力加强自己的军队。在随后的战斗中，这第二位国王的军队获得了胜利。被指责的帝释天（Indra）于是说出了这句箴言：“人类的毅力和努力，天人无法阻挠。”  
-> J. III. 7; JA. III. 3-8
+> J. III. 7；JA. III. 3-8
 
 人们常对居住在家中的天人表示尊敬，但从某种角度来看，这些天人只是客人。如果房屋主人非常贤德，例如他是一位“圣弟子”——德行稳固，并已从依赖信仰进步到坚定智慧——那么家宅天人就无法控制主人，反而必须服从和尊敬他。
 
@@ -288,10 +291,11 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 人类与天人之间这种不干扰、不伤害的关系，在许多经典故事中都有清晰的描绘，特别是在《本生经》和《法句经》（Dhammapada）的义注中。在这些故事中，我们看到天人帮助人类，但这种帮助的性质和原因与早期传统中发现的不同。在这里，天人是出于自身的主动性，被其自身善意所驱动而提供帮助的；他们并非因为人们请求而帮助，也既不期待也不渴望此类恳求。获得帮助的人只是如常地、独立地以德行和智慧处事；他们不期望获得帮助，也不寻求此类帮助。这种帮助的原因是人类的善意或善行；它不是祈求的结果，也不是一种回报。
 
-在经典中，向人类提供这种帮助的主要天人是帝释天（Sakka，亦称 Indra），[\[48\]](#fn-fn48){:id="fr-fn48"} 他是天人之王。帝释天的帮助原则，符合佛教的“积极行动”（业）原则，是从前佛教宗教教义所倡导的神力原则演变而来的。[\[49\]](#fn-fn49){:id="fr-fn49"} 尽管这个原则尚未纯粹符合佛教教义，但它已朝着明显的佛教方向发展，并已被纳入佛教传统。这个原则的核心是，有德的人类会尽其所能，坚定果断地依自己的正念和如理作意行事；他们不等待、不期望、也不请求天人的帮助。有德的天人则乐于基于自身的德行帮助善人。当善人遇到麻烦时，有德的天人感到不得不帮助。（参见附注“无需努力的祈祷”）
+在经典中，向人类提供这种帮助的主要天人是帝释天（Sakka，亦称 Indra），[\[48\]](#fn-fn48){:id="fr-fn48"} 他是天人之王。帝释天的帮助原则，符合佛教的“积极行动”（业）原则，是从前佛教宗教教义所倡导的神力原则演变而来的。[\[49\]](#fn-fn49){:id="fr-fn49"} 尽管这个原则尚未纯粹符合佛教教义，但它已朝着明显的佛教方向发展，并已被纳入佛教传统。这个原则的核心是，有德的人类会尽其所能，坚定果断地依自己的正念和如理作意行事；他们不等待、不期望、也不请求天人的帮助。有德的天人则乐于基于自身的德行帮助善人。当善人遇到麻烦时，有德的天人感到不得不帮助。（参见附注 9.4“无需努力的祈祷”）
 
-无需努力的祈祷
-
+> **附注 9.4　无需努力的祈祷**
+> {: id="note-9-4"}
+>
 > 在当今世界，人们似乎严重依赖祈求和祈祷。如果他们首先付出了努力，这尚可接受，但情况往往是人们在乞求天人之前毫无努力。天人反过来等待请求后才降临，他们帮助那些祈求的人，不论人们是善是恶。在这种情况下，可以认为降临的天人是贪婪、不真诚或软弱的，他们被人类事务纠缠，直到双方都腐化。
 
 在这里，人类行为良好而不期待天人的帮助，天人提供帮助而不期待人类的恳求。那些仍然关注神力原则的人可以反思这句话：“人类的责任是努力行善；天人的责任是帮助善人；尽你最大的能力履行你的职责。”[\[50\]](#fn-fn50){:id="fr-fn50"}
@@ -301,7 +305,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 以下是佛陀关于天人主题的一段总结性段落：
 
 > 禁食鱼肉、裸体苦行、剃头、结发苦行、涂抹灰烬、穿粗糙豹皮、火祭、为了投生为天人而进行宗教修行、世俗的苦行、禳灾祭品、牺牲、季节性吉祥仪式：这些都无法净化一个尚未克服疑惑的人。[\[51\]](#fn-fn51){:id="fr-fn51"}  
-> [Snp 14 / Sn 44-5](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#14-snp-14-荤腥经-āmagandhasutta){: target="_blank" rel="noopener"}, Āmagandha Sutta
+> [Snp 14 / Sn 44-45](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#14-snp-14-荤腥经-āmagandhasutta){: target="_blank" rel="noopener"}, Āmagandha Sutta
 
 ## 结论
 
@@ -320,10 +324,11 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 第一阶段可被视为修行前的阶段；第二阶段标志着加入佛教或“圣者”团体的起始阶段；而第三阶段是达到佛教目标的修行者所处的阶段。
 
-要被称为佛教徒，必须超越依赖天人的阶段，进入与天人友好共存的阶段。然后，他将依据理智判断努力过活。他不再将天人视为需要祈求和奉承的强大存在，而是将天人视为有德的伴侣，与他们应保持相互的善意和尊重。（参见附注“尊重天人”）在这方面，人类和天人不应过度交往，不应干涉彼此事务，也不应密谋共同伤害任何人。
+要被称为佛教徒，必须超越依赖天人的阶段，进入与天人友好共存的阶段。然后，他将依据理智判断努力过活。他不再将天人视为需要祈求和奉承的强大存在，而是将天人视为有德的伴侣，与他们应保持相互的善意和尊重。（参见附注 9.5“尊重天人”）在这方面，人类和天人不应过度交往，不应干涉彼此事务，也不应密谋共同伤害任何人。
 
-尊重天人
-
+> **附注 9.5　尊重天人**
+> {: id="note-9-5"}
+>
 > 过去信仰天人的泰国佛教徒，在采取可能困扰天人的行动之前，会知会天人或守护神。这种行为可视为从婆罗门教徒安抚天人的做法，向佛教修行方式的适应。
 >
 > 然而，天人的安抚似乎在泰国蔓延，尽管佛教领袖警告要放弃这种行为。这可能源于不了解佛教所教导的与天人之间的正确关系。因此，相信天人者和否认天人存在者两派之间发生了争论。尽管有这些争论，总有一些人坚持他们对天人的信仰，也有一些人推测关于天人的信仰。这些信徒往往除了祈求之外不知道如何对待天人。
@@ -353,20 +358,22 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 这种修行方式在佛陀所制定的关于踩踏仪轨布的戒律中显而易见。有一次，菩提王子（Bodhirājakumāra）刚刚建好一座宫殿，他邀请佛陀和僧团在那里用餐。王子命人将白布铺在通往宫殿楼梯的第一级台阶上。佛陀抵达时，他避免踩踏布匹，因此王子命人将布匹撤掉，之后佛陀才进入。后来，佛陀制定了一条戒律，禁止比丘踩踏此类布匹。
 
-另一次，一位刚刚流产的妇女邀请比丘们到她家，她铺好一块布，请比丘们踩踏作为一种加持。然而，比丘们拒绝这样做。这位妇女很不高兴，并公开批评比丘们。当这个故事传到佛陀那里时，他修改了戒律，允许比丘们在居士请求下，作为加持而踩踏仪轨布。（参见附注“仪轨布”）
+另一次，一位刚刚流产的妇女邀请比丘们到她家，她铺好一块布，请比丘们踩踏作为一种加持。然而，比丘们拒绝这样做。这位妇女很不高兴，并公开批评比丘们。当这个故事传到佛陀那里时，他修改了戒律，允许比丘们在居士请求下，作为加持而踩踏仪轨布。（参见附注 9.6“仪轨布”）
 
-仪轨布
-
-> [CV 5 / Vin ii 127-9](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}；[MN 85 / M ii 91](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}。义注（VinA. VI. 1209；\[MA. 3/299\]；DhA. III. 133）解释说，菩提王子没有孩子，他铺下布匹时下定决心，如果佛陀踩踏这块布，这将预示着孩子的出生。佛陀知道王子不会有孩子，因此没有踩踏布匹。他制定这条戒律是为了帮助后代的比丘。在佛陀时代，有许多比丘能够读取人们的心思，他们可以根据在家供养者的想法做出回应，而后来的比丘不会有这种天赋，也不知道如何恰当回应。因此，在家信徒会指责他们不像以前的比丘那样熟练。佛陀制定这条戒律是为了保护这些后来的比丘。
+> **附注 9.6　仪轨布**
+> {: id="note-9-6"}
+>
+> [CV 5 / Vin ii 127-129](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}；[MN 85 / M ii 91](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}。义注（VinA. VI. 1209；\[MA. 3/299\]；DhA. III. 133）解释说，菩提王子没有孩子，他铺下布匹时下定决心，如果佛陀踩踏这块布，这将预示着孩子的出生。佛陀知道王子不会有孩子，因此没有踩踏布匹。他制定这条戒律是为了帮助后代的比丘。在佛陀时代，有许多比丘能够读取人们的心思，他们可以根据在家供养者的想法做出回应，而后来的比丘不会有这种天赋，也不知道如何恰当回应。因此，在家信徒会指责他们不像以前的比丘那样熟练。佛陀制定这条戒律是为了保护这些后来的比丘。
 >
 > 义注接着解释说，对于一个流产或即将分娩的妇女，请求踩踏布匹是为了加持，因此是允许的。在第一种情况下，请求是作为誓愿和预兆而提出的，而在第二种情况下，请求是作为加持而提出的。
 >
 > 佛陀拒绝踩踏宫殿布匹的一个简单解释是，他出于良好礼仪。当他抵达宫殿时，他尚未洗脚，他也不希望弄脏布匹（戒律中有一个附属条款，允许比丘在洗脚后踩踏布匹）。对于那位妇女的情况，佛陀允许比丘踩踏布匹，因为她特别请求他们这样做是为了加持。
 
-佛陀的这种允许很可能是为什么在近代，比丘们顺应居士的请求，举行吉祥仪式、制作护身符并接触其他圣物（参见附注“吉祥物”），以至于在某些时期，这种参与似乎超出了适度范围。[\[53\]](#fn-fn53){:id="fr-fn53"} 无论如何，如果比丘们理解上述戒律的精神，即仅当居士特别请求时才举行吉祥仪式，那么任何危害或不当行为都将避免。
+佛陀的这种允许很可能是为什么在近代，比丘们顺应居士的请求，举行吉祥仪式、制作护身符并接触其他圣物（参见附注 9.7“吉祥物”），以至于在某些时期，这种参与似乎超出了适度范围。[\[53\]](#fn-fn53){:id="fr-fn53"} 无论如何，如果比丘们理解上述戒律的精神，即仅当居士特别请求时才举行吉祥仪式，那么任何危害或不当行为都将避免。
 
-吉祥物
-
+> **附注 9.7　吉祥物**
+> {: id="note-9-7"}
+>
 > 吉祥物（maṅgala）不同于神通力，但从实际角度来看，例如就其优缺点以及与这些事物的正确关系而言，它们有许多相似之处。神通力是指拥有它们的人具备非凡能力。
 >
 > 然而，吉祥可以源于不同的来源：人们可能相信吉祥的人或物具有某种神通力；人们可能相信此人或物是某种神秘力量的媒介或通道；或者人们可能相信此人或物具备赋予神圣或祝福的功德、安乐或纯净，正如许多在家佛教徒对比丘们所相信的那样。
@@ -382,7 +389,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 > 接受了他的敬重后，  
 > 他们同样会敬重他。  
 > 他们会像母亲爱护孩子般关爱他。[\[55\]](#fn-fn55){:id="fr-fn55"}  
-> [MV 6 / Vin i 229-30](https://aipali.true-dhamma.com/vinaya/mv/mv-06-bhesajja/){: target="_blank" rel="noopener"}; [DN 16 / D ii 88-9](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}; [Ud 8.6 / Ud 89](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-08-pataligamiya/#6-ud-86-波吒离村-pāṭaligāmiyasutta){: target="_blank" rel="noopener"}
+> [MV 6 / Vin i 229-230](https://aipali.true-dhamma.com/vinaya/mv/mv-06-bhesajja/){: target="_blank" rel="noopener"}；[DN 16 / D ii 88-89](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[Ud 8.6 / Ud 89](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-08-pataligamiya/#6-ud-86-波吒离村-pāṭaligāmiyasutta){: target="_blank" rel="noopener"}
 
 无论如何，天人回报的善意是无需请求的；供养尊敬的人无需为此祈求。我们的职责只是建立一颗善心，并与他人分享我们所拥有的一切善意。理解这个原则的人将以仁慈之心对待天人。行善积德时，便与他们分享这份功德。这种行为没有害处；它只会提升心的品质，并将善意与和平散播到全世界。即使无法超越第二阶段，只要保持这种友好共存的原则，不退回到讨好天人，行为就会自然保持在善的界限内，并避免造成伤害。此外，他的心性也将得到提升。
 
@@ -597,7 +604,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
     
 *   治愈丈夫的疾病（AA. III. 349；然而，在《巴利三藏》中，声称康复是由于听了妻子在 [AN 6.16 / A iii 297](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#6-an-616-那拘罗父-nakulapitusutta){: target="_blank" rel="noopener"} 提供的佛法开示）；
     
-*   以及推断是否存在真正“值得供养”的众生。（AA. IV. 181. \[译注：值得供养的人 = dakkhiṇeyya-puggala；此术语指觉悟者。\]）
+*   以及推断是否存在真正“值得供养”的众生。（AA. IV. 181. \[译者注：值得供养的人 = dakkhiṇeyya-puggala；此术语指觉悟者。\]）
     
 
 谛语的实践是衡量社会道德行为稳定性的标尺。这种谛语传统的衰退可能表明社会道德的沦丧，因为当人们缺乏能够带来自信的德行时，他们很可能会重新依赖并祈求天人协助等神通现象。正是由于这种道德行为的薄弱，我们才看到今天原始宗教形式的持续存在和盛行，例如献祭、祈求、诅咒和咒语。
@@ -629,7 +636,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 > “既然我问尊者是天人、乾闼婆、夜叉还是人类，您都回答‘我不是’。那么，尊者究竟是什么？”
 >
 > “婆罗门，那些若不舍弃便可能使我成为天人、乾闼婆、夜叉或人类的烦恼垢染——这些烦恼垢染已被我舍弃，连根拔除……被摧毁，以致未来不再生起。正如，婆罗门，蓝、红或白莲花，虽生于水中、长于水中，却能出水而立，不为水所染，同样，婆罗门，我虽生于世间、长于世间，却已超越世间，安住于不为世间所染。婆罗门，请视我为佛陀。”[\[108\]](#fn-fn108){:id="fr-fn108"}  
-> [AN 4.36 / A ii 37-8](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#6-an-436-头那婆罗门经-doṇasutta){: target="_blank" rel="noopener"}, Doṇa Sutta
+> [AN 4.36 / A ii 37-38](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#6-an-436-头那婆罗门经-doṇasutta){: target="_blank" rel="noopener"}, Doṇa Sutta
 
 ## 附录五：天人的证智与知见
 
@@ -667,49 +674,49 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[3\] 这项原则收录在我希望在《佛法》未来版本中作为独立章节的名为《分析佛法意义和价值的标准》（Criteria for Analyzing the Meaning and Value of Buddha-Dhamma）的小册子中。[&nbsp;↩&nbsp;](#fr-fn3)
 {: id="fn-fn3"}
 
-\[4\] 比较佛陀在 [MN 63 / M i 428-32](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-063-culamalukya/){: target="_blank" rel="noopener"} 中关于应解释和应不解释之事的教导。[&nbsp;↩&nbsp;](#fr-fn4)
+\[4\] 比较佛陀在 [MN 63 / M i 428-432](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-063-culamalukya/){: target="_blank" rel="noopener"} 中关于应解释和应不解释之事的教导。[&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
 \[5\] 也译作“超常能力”或“证智”。在巴利语中，神通（iddhi）可以被称为“神通神变”（iddhi-pāṭihāriya）、“神通的形式”（iddhi-vidhi）或“神通的方式”（iddhi-vidhā）。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
-\[6\] 译注：世俗的五种证智是：（1）神通，包括隐身、意生身、穿墙而过、水上行走、空中飞行等；（2）天耳通；（3）他心通；（4）宿命通；（5）天眼通。[&nbsp;↩&nbsp;](#fr-fn6)
+\[6\] 译者注：世俗的五种证智是：（1）神通，包括隐身、意生身、穿墙而过、水上行走、空中飞行等；（2）天耳通；（3）他心通；（4）宿命通；（5）天眼通。[&nbsp;↩&nbsp;](#fr-fn6)
 {: id="fn-fn6"}
 
 \[7\] 关于各种证智（abhiññā）的详细解释，连同经典出处，见于第七章“觉悟者”。[&nbsp;↩&nbsp;](#fr-fn7)
 {: id="fn-fn7"}
 
-\[8\] [DN 11 / D i 212-15](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-11-kevatta/){: target="_blank" rel="noopener"}；[DN 33 / D iii 220](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 3.61 / A i 170](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#10-an-361-伤歌逻婆罗门经-saṅgāravasutta){: target="_blank" rel="noopener"}；Ps. II. 227-8。[&nbsp;↩&nbsp;](#fr-fn8)
+\[8\] [DN 11 / D i 212-215](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-11-kevatta/){: target="_blank" rel="noopener"}；[DN 33 / D iii 220](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 3.61 / A i 170](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#10-an-361-伤歌逻婆罗门经-saṅgāravasutta){: target="_blank" rel="noopener"}；Ps. II. 227-228。[&nbsp;↩&nbsp;](#fr-fn8)
 {: id="fn-fn8"}
 
 \[9\] 《坚固经》：[DN 11 / D i 213](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-11-kevatta/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn9)
 {: id="fn-fn9"}
 
-\[10\] Ps. II. 227-8。[&nbsp;↩&nbsp;](#fr-fn10)
+\[10\] Ps. II. 227-228。[&nbsp;↩&nbsp;](#fr-fn10)
 {: id="fn-fn10"}
 
-\[11\] 译注：他有以下疑问：四大——地、水、火、风——在哪里无余灭尽？关于这个故事的更多内容，请参见第六章“涅槃：至上寂静”。[&nbsp;↩&nbsp;](#fr-fn11)
+\[11\] 译者注：他有以下疑问：四大——地、水、火、风——在哪里无余灭尽？关于这个故事的更多内容，请参见第六章“涅槃：至上寂静”。[&nbsp;↩&nbsp;](#fr-fn11)
 {: id="fn-fn11"}
 
-\[12\] 参见《坚固经》：[DN 11 / D i 211-23](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-11-kevatta/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn12)
+\[12\] 参见《坚固经》：[DN 11 / D i 211-223](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-11-kevatta/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn12)
 {: id="fn-fn12"}
 
-\[13\] 参见：[AN 3.61 / A i 170-72](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#10-an-361-伤歌逻婆罗门经-saṅgāravasutta){: target="_blank" rel="noopener"}, Saṅgārava Sutta。[&nbsp;↩&nbsp;](#fr-fn13)
+\[13\] 参见：[AN 3.61 / A i 170-172](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#10-an-361-伤歌逻婆罗门经-saṅgāravasutta){: target="_blank" rel="noopener"}, Saṅgārava Sutta。[&nbsp;↩&nbsp;](#fr-fn13)
 {: id="fn-fn13"}
 
-\[14\] [DN 28 / D iii 112-13](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-28-sampasadaniya/){: target="_blank" rel="noopener"}；解释于 Ps. II. 212。[&nbsp;↩&nbsp;](#fr-fn14)
+\[14\] [DN 28 / D iii 112-113](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-28-sampasadaniya/){: target="_blank" rel="noopener"}；解释于 Ps. II. 212。[&nbsp;↩&nbsp;](#fr-fn14)
 {: id="fn-fn14"}
 
-\[15\] 关于这种修行的目的，参见：[AN 5.144 / A iii 169](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-141-150-tikandaki/#4-an-5144-底甘陀林经-tikaṇḍakīsutta){: target="_blank" rel="noopener"}。这种神通是“慈心解脱”（mettā-cetovimutti）的一种形式，通过它，修行者达到了“净解脱”（subha-vimokkha）的境界。它可以通过修习伴随慈心的七觉支（[SN 46.54 / S v 119](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#4-sn-4654-四无量心解脱经-mettāsahagatasutta){: target="_blank" rel="noopener"}）、修习四念住（[SN 52.1 / S v 294-6](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-52-anuruddha/sn-52-anuruddha/#11-sn-521-独处之一-paṭhamarahogatasutta){: target="_blank" rel="noopener"}），或者修习禅定（[SN 54.8 / S v 317-8](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-54-anapana/sn-54-anapana/#18-sn-548-灯喻经-padīpopamasutta){: target="_blank" rel="noopener"}）而产生。以这种方式修行的人有时被称为“已修习诸根的圣者”（[MN 152 / M iii 302](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-152-indriyabhavana/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn15)
+\[15\] 关于这种修行的目的，参见：[AN 5.144 / A iii 169](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-141-150-tikandaki/#4-an-5144-底甘陀林经-tikaṇḍakīsutta){: target="_blank" rel="noopener"}。这种神通是“慈心解脱”（mettā-cetovimutti）的一种形式，通过它，修行者达到了“净解脱”（subha-vimokkha）的境界。它可以通过修习伴随慈心的七觉支（[SN 46.54 / S v 119](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#4-sn-4654-四无量心解脱经-mettāsahagatasutta){: target="_blank" rel="noopener"}）、修习四念住（[SN 52.1 / S v 294-296](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-52-anuruddha/sn-52-anuruddha/#11-sn-521-独处之一-paṭhamarahogatasutta){: target="_blank" rel="noopener"}），或者修习禅定（[SN 54.8 / S v 317-318](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-54-anapana/sn-54-anapana/#18-sn-548-灯喻经-padīpopamasutta){: target="_blank" rel="noopener"}）而产生。以这种方式修行的人有时被称为“已修习诸根的圣者”（[MN 152 / M iii 302](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-152-indriyabhavana/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn15)
 {: id="fn-fn15"}
 
 \[16\] [CV 5 / Vin ii 112](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}。义注（参见：VinA. VI. 1203）声称佛陀只禁止了 vikubbanā-iddhi（“变化的神通”，例如将自己变为不同形体，为他人创造意生身物，隐形说话，或只显露身体的一部分）；他没有禁止 adhiṭṭhāna-iddhi（“主宰神通”，例如展现自己为许多个体，水上行走，或潜入地中）；然而，这种解释似乎不受青睐。[&nbsp;↩&nbsp;](#fr-fn16)
 {: id="fn-fn16"}
 
-\[17\] [AN 3.145 / A i 292](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-134-146-yodhajiva/#12-an-3145-孔雀饲育处之二-dutiyamoranivāpasutta){: target="_blank" rel="noopener"}；[AN 11.10 / A v 326-7](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-001-010-nissaya/#10-an-1110-孔雀林园经-moranivāpasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn17)
+\[17\] [AN 3.145 / A i 292](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-134-146-yodhajiva/#12-an-3145-孔雀饲育处之二-dutiyamoranivāpasutta){: target="_blank" rel="noopener"}；[AN 11.10 / A v 326-327](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-001-010-nissaya/#10-an-1110-孔雀林园经-moranivāpasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
-\[18\] Iddhi-mada。这种迷醉属于与被知识、道德行为、禅那等所迷醉的同一范畴；参见：Vbh. 345-6。[&nbsp;↩&nbsp;](#fr-fn18)
+\[18\] Iddhi-mada。这种迷醉属于与被知识、道德行为、禅那等所迷醉的同一范畴；参见：Vbh. 345-346。[&nbsp;↩&nbsp;](#fr-fn18)
 {: id="fn-fn18"}
 
 \[19\] Vism. 89-90, 97。[&nbsp;↩&nbsp;](#fr-fn19)
@@ -718,7 +725,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[20\] 在类似背景下，佛陀曾严厉批评那些利用自己的戒律和宗教修行来影响他人，同时寻求名声、赞美或物质利益的人。[&nbsp;↩&nbsp;](#fr-fn20)
 {: id="fn-fn20"}
 
-\[21\] 译注：佛陀。[&nbsp;↩&nbsp;](#fr-fn21)
+\[21\] 译者注：佛陀。[&nbsp;↩&nbsp;](#fr-fn21)
 {: id="fn-fn21"}
 
 \[22\] 请注意，自力更生的原则需要与尊重或崇敬佛法的原则相平衡。另请注意，一个真正解脱的人会遵循教法并高度自律。听从教导与信心的原则并非完全相同。听从教导或严格遵守教导可以源于信心或智慧；阿罗汉出于智慧，依照教导修行并遵守纪律标准。[&nbsp;↩&nbsp;](#fr-fn22)
@@ -727,25 +734,25 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[23\] 关于经典中展现神通的记载，请参见附录一。[&nbsp;↩&nbsp;](#fr-fn23)
 {: id="fn-fn23"}
 
-\[24\] Āmisa-iddhi（物质的成功或繁荣；物质作为一种创造力）和 dhamma-iddhi（通过佛法获得的成功或繁荣；精神的繁荣；佛法作为一种创造力；正义的力量）；参见：[AN 2.158 / A i 93-4](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-119-180-tatiyapannasaka/#48-an-2159-财成就与法成就){: target="_blank" rel="noopener"}。拥有美丽的容貌、长寿、健康和吸引力也被称为“成就”（iddhi）的形式；参见：[DN 17 / D ii 177](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-17-mahasudassana/){: target="_blank" rel="noopener"}；[MN 129 / M iii 176](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-129-balapandita/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn24)
+\[24\] Āmisa-iddhi（物质的成功或繁荣；物质作为一种创造力）和 dhamma-iddhi（通过佛法获得的成功或繁荣；精神的繁荣；佛法作为一种创造力；正义的力量）；参见：[AN 2.159 / A i 93-94](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-119-180-tatiyapannasaka/#48-an-2159-财成就与法成就){: target="_blank" rel="noopener"}。拥有美丽的容貌、长寿、健康和吸引力也被称为“成就”（iddhi）的形式；参见：[DN 17 / D ii 177](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-17-mahasudassana/){: target="_blank" rel="noopener"}；[MN 129 / M iii 176](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-129-balapandita/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn24)
 {: id="fn-fn24"}
 
-\[25\] [DN 11 / D i 215-6](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-11-kevatta/){: target="_blank" rel="noopener"}；[SN 2.26 / S i 61-2](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-02-devaputta/sn-02-21-30-nanatitthiya/#6-sn-226-赤马经-rohitassasutta){: target="_blank" rel="noopener"}；[AN 4.45 / A ii 47-8](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-041-050-rohitassa/#5-an-445-赤马天子经-rohitassasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn25)
+\[25\] [DN 11 / D i 215-216](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-11-kevatta/){: target="_blank" rel="noopener"}；[SN 2.26 / S i 61-62](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-02-devaputta/sn-02-21-30-nanatitthiya/#6-sn-226-赤马经-rohitassasutta){: target="_blank" rel="noopener"}；[AN 4.45 / A ii 47-48](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-041-050-rohitassa/#5-an-445-赤马天子经-rohitassasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn25)
 {: id="fn-fn25"}
 
-\[26\] [CV 7 / Vin ii 184-5](https://aipali.true-dhamma.com/vinaya/cv/cv-07-sanghabheda/){: target="_blank" rel="noopener"}；如果人们有极其恶劣的思想，他们的神通可能会退化，因为这些神通依赖于禅那作为基础，而要进入禅那，心必须纯净、明亮，并且没有盖障（nīvaraṇa）。[&nbsp;↩&nbsp;](#fr-fn26)
+\[26\] [CV 7 / Vin ii 184-185](https://aipali.true-dhamma.com/vinaya/cv/cv-07-sanghabheda/){: target="_blank" rel="noopener"}；如果人们有极其恶劣的思想，他们的神通可能会退化，因为这些神通依赖于禅那作为基础，而要进入禅那，心必须纯净、明亮，并且没有盖障（nīvaraṇa）。[&nbsp;↩&nbsp;](#fr-fn26)
 {: id="fn-fn26"}
 
-\[27\] [AN 9.21 / A iv 396-7](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-021-031-sattavasa/#1-an-921-三处经-tiṭhānasutta){: target="_blank" rel="noopener"}, Tiṭhāna Sutta。[&nbsp;↩&nbsp;](#fr-fn27)
+\[27\] [AN 9.21 / A iv 396-397](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-021-031-sattavasa/#1-an-921-三处经-tiṭhānasutta){: target="_blank" rel="noopener"}, Tiṭhāna Sutta。[&nbsp;↩&nbsp;](#fr-fn27)
 {: id="fn-fn27"}
 
-\[28\] [Iti 3.34 / It 76-8](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#44-iti-334-五前相经){: target="_blank" rel="noopener"}, Pañcapubbanimitta Sutta。[&nbsp;↩&nbsp;](#fr-fn28)
+\[28\] [Iti 3.34 / It 76-78](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#44-iti-334-五前相经){: target="_blank" rel="noopener"}, Pañcapubbanimitta Sutta。[&nbsp;↩&nbsp;](#fr-fn28)
 {: id="fn-fn28"}
 
 \[29\] 同上。[&nbsp;↩&nbsp;](#fr-fn29)
 {: id="fn-fn29"}
 
-\[30\] [AN 8.29 / A iv 225-6](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#9-an-829-八无暇-akkhaṇasutta){: target="_blank" rel="noopener"}, Akkhaṇa Sutta。[&nbsp;↩&nbsp;](#fr-fn30)
+\[30\] [AN 8.29 / A iv 225-226](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#9-an-829-八无暇-akkhaṇasutta){: target="_blank" rel="noopener"}, Akkhaṇa Sutta。[&nbsp;↩&nbsp;](#fr-fn30)
 {: id="fn-fn30"}
 
 \[31\] 参见：AA. IV. 187。[&nbsp;↩&nbsp;](#fr-fn31)
@@ -757,16 +764,16 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[33\] 关于天人的殊胜知见（adhidevañāṇadassana）的主题，请参见附录五。[&nbsp;↩&nbsp;](#fr-fn33)
 {: id="fn-fn33"}
 
-\[34\] [SN 6.6 / S i 146-7](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#16-sn-66-梵天世界经-brahmalokasutta){: target="_blank" rel="noopener"}, Brahmaloka Sutta。[&nbsp;↩&nbsp;](#fr-fn34)
+\[34\] [SN 6.6 / S i 146-147](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#16-sn-66-梵天世界经-brahmalokasutta){: target="_blank" rel="noopener"}, Brahmaloka Sutta。[&nbsp;↩&nbsp;](#fr-fn34)
 {: id="fn-fn34"}
 
-\[35\] [MN 37 / M i 253-4](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-037-culatanhasankhaya/){: target="_blank" rel="noopener"}, Cūḷataṇhāsaṅkhaya Sutta。[&nbsp;↩&nbsp;](#fr-fn35)
+\[35\] [MN 37 / M i 253-254](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-037-culatanhasankhaya/){: target="_blank" rel="noopener"}, Cūḷataṇhāsaṅkhaya Sutta。[&nbsp;↩&nbsp;](#fr-fn35)
 {: id="fn-fn35"}
 
 \[36\] [SN 11.3 / S i 219](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-11-sakka/sn-11-sakka/#13-sn-113-幢顶经-dhajaggasutta){: target="_blank" rel="noopener"}, Dhajagga Sutta。[&nbsp;↩&nbsp;](#fr-fn36)
 {: id="fn-fn36"}
 
-\[37\] 对于天人而言，人类世界是肮脏且气味令人厌恶的；参见：[DN 23 / D ii 325-6](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-23-payasi/){: target="_blank" rel="noopener"}；KhA. 117；SnA. I. 180。[&nbsp;↩&nbsp;](#fr-fn37)
+\[37\] 对于天人而言，人类世界是肮脏且气味令人厌恶的；参见：[DN 23 / D ii 325-326](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-23-payasi/){: target="_blank" rel="noopener"}；KhA. 117；SnA. I. 180。[&nbsp;↩&nbsp;](#fr-fn37)
 {: id="fn-fn37"}
 
 \[38\] DhA. III. 10；JA. I. 227。[&nbsp;↩&nbsp;](#fr-fn38)
@@ -790,16 +797,16 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[44\] 参见：JA. I. 71；\[BvA. 521\]。[&nbsp;↩&nbsp;](#fr-fn44)
 {: id="fn-fn44"}
 
-\[45\] 参见：[MN 49 / M i 330-31](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-049-brahmanimantanika/){: target="_blank" rel="noopener"}, Brahmanimantanika Sutta。[&nbsp;↩&nbsp;](#fr-fn45)
+\[45\] 参见：[MN 49 / M i 330-331](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-049-brahmanimantanika/){: target="_blank" rel="noopener"}, Brahmanimantanika Sutta。[&nbsp;↩&nbsp;](#fr-fn45)
 {: id="fn-fn45"}
 
 \[46\] [AN 4.15 / A ii 17](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-011-020-cara/#5-an-415-四种最上经-paññattisutta){: target="_blank" rel="noopener"}, Paññatti Sutta。[&nbsp;↩&nbsp;](#fr-fn46)
 {: id="fn-fn46"}
 
-\[47\] 参见：[Iti 3.33 / It 75](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#43-iti-333-天声经){: target="_blank" rel="noopener"}；[Thag 12.2 / Thag verse 628](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-11-16-ekadasaka-visati/#thag-122-须泥多长老偈-sunītattheragāthā){: target="_blank" rel="noopener"}；[Thig 13.5 / Thig verse 365](https://aipali.true-dhamma.com/sutta/kn/kn-09-thig/thig-13-16-visati-maha/#thig-135-美好铁匠之女的偈颂-subhākammāradhītutherīgāthā){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn47)
+\[47\] 参见：[Iti 3.33 / It 75](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#43-iti-333-天声经){: target="_blank" rel="noopener"}；[Thag 12.2 / Thag verse 628](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-11-16-ekadasaka-visati/#thag-122-须泥多长老偈-sunītattheragāthā){: target="_blank" rel="noopener"}；[Thig 13.5 / Thīg verse 365](https://aipali.true-dhamma.com/sutta/kn/kn-09-thig/thig-13-16-visati-maha/#thig-135-美好铁匠之女的偈颂-subhākammāradhītutherīgāthā){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn47)
 {: id="fn-fn47"}
 
-\[48\] 译注：巴利语：Inda。[&nbsp;↩&nbsp;](#fr-fn48)
+\[48\] 译者注：巴利语：Inda。[&nbsp;↩&nbsp;](#fr-fn48)
 {: id="fn-fn48"}
 
 \[49\] 关于帝释天的协助与扰乱，请参见附录二。[&nbsp;↩&nbsp;](#fr-fn49)
@@ -817,7 +824,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[53\] 一些学者声称这种默许或宽容的态度是佛教的特征和弱点。确实，没有明确原则和界限的默许是有害的，但佛教在神通等问题上确实采取了强硬立场并设定了明确的界限。问题在于我们是否正确理解了佛教的立场。诚然，即使有明确的原则，默许行为也会带来一些有害的后果。无论如何，本章前面已经解释了佛教在此神通问题上的立场所带来的益处。[&nbsp;↩&nbsp;](#fr-fn53)
 {: id="fn-fn53"}
 
-\[54\] 例如：[AN 4.61 / A ii 68](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-061-070-pattakamma/#1-an-461-能作四业-pattakammasutta){: target="_blank" rel="noopener"}；[AN 5.41 / A iii 45-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#1-an-541-得财五因-ādiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn54)
+\[54\] 例如：[AN 4.61 / A ii 68](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-061-070-pattakamma/#1-an-461-能作四业-pattakammasutta){: target="_blank" rel="noopener"}；[AN 5.41 / A iii 45-46](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#1-an-541-得财五因-ādiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn54)
 {: id="fn-fn54"}
 
 \[55\] 关于这些经典段落中提及的对天人的供养（bali）有两个重要点：（1）佛陀将这些教导给予婆罗门，而婆罗门有向天人献祭的习俗；（2）当时人们相信，每当人们建造重要的房屋或建筑时，天人会自行前来居住在这些建筑中。人们没有为这些天人建造特殊的地方（例如神龛），也没有举行邀请天人的仪式。[&nbsp;↩&nbsp;](#fr-fn55)
@@ -835,7 +842,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[59\] 更多关于对天人的供养（devatā-bali）的内容，请参见附录六。[&nbsp;↩&nbsp;](#fr-fn59)
 {: id="fn-fn59"}
 
-\[60\] 译注：此处“佛教修行”作者使用了 ariya-dhamma 一词：“圣者的佛法”。[&nbsp;↩&nbsp;](#fr-fn60)
+\[60\] 译者注：此处“佛教修行”作者使用了 ariya-dhamma 一词：“圣者的佛法”。[&nbsp;↩&nbsp;](#fr-fn60)
 {: id="fn-fn60"}
 
 \[61\] 关于谛语（sacca-kiriyā）作为那些仍然希望获得外部力量帮助的人的积极解决方案，请参见附录三。[&nbsp;↩&nbsp;](#fr-fn61)
@@ -847,7 +854,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[63\] [MV 1 / Vin i 24-33](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}. Damana（“降伏”，“驯服”）源自动词 dameti，意为“训练”：消除傲慢并将人引导至正确的修行方式；在这里，它不表示惩罚或责骂。[&nbsp;↩&nbsp;](#fr-fn63)
 {: id="fn-fn63"}
 
-\[64\] [MN 49 / M i 326-30](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-049-brahmanimantanika/){: target="_blank" rel="noopener"}；[SN 6.4 / S i 142](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#14-sn-64-婆迦梵天经-bakabrahmasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn64)
+\[64\] [MN 49 / M i 326-330](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-049-brahmanimantanika/){: target="_blank" rel="noopener"}；[SN 6.4 / S i 142](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#14-sn-64-婆迦梵天经-bakabrahmasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn64)
 {: id="fn-fn64"}
 
 \[65\] [SN 6.5 / S i 144](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#15-sn-65-某梵天经-aññatarabrahmasutta){: target="_blank" rel="noopener"}, Aññatarabrahma Sutta。[&nbsp;↩&nbsp;](#fr-fn65)
@@ -859,19 +866,19 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[67\] [MN 86 / M ii 99](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-086-angulimala/){: target="_blank" rel="noopener"}, Aṅgulimāla Sutta。[&nbsp;↩&nbsp;](#fr-fn67)
 {: id="fn-fn67"}
 
-\[68\] [SN 22.80 / S iii 92-3](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-73-82-khajjaniya/#8-sn-2280-乞食经-piṇḍolyasutta){: target="_blank" rel="noopener"}, Piṇḍolya Sutta。[&nbsp;↩&nbsp;](#fr-fn68)
+\[68\] [SN 22.80 / S iii 92-93](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-73-82-khajjaniya/#8-sn-2280-乞食经-piṇḍolyasutta){: target="_blank" rel="noopener"}, Piṇḍolya Sutta。[&nbsp;↩&nbsp;](#fr-fn68)
 {: id="fn-fn68"}
 
-\[69\] [DN 3 / D i 105-106](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-03-ambattha/){: target="_blank" rel="noopener"}, [DN 3 / D i 109](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-03-ambattha/){: target="_blank" rel="noopener"}；[MN 91 / M ii 135](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-091-brahmayu/){: target="_blank" rel="noopener"}, [MN 92 / M ii 147](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-092-sela/){: target="_blank" rel="noopener"}；[Snp 33 / Sn 108](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#33-snp-33-赛罗经-selasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn69)
+\[69\] [DN 3 / D i 105-106](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-03-ambattha/){: target="_blank" rel="noopener"}, [DN 3 / D i 109](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-03-ambattha/){: target="_blank" rel="noopener"}；[MN 91 / M ii 135](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-091-brahmayu/){: target="_blank" rel="noopener"}, [MN 92 / M ii 146](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-092-sela/){: target="_blank" rel="noopener"}；[Snp 33 / Sn 108](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#33-snp-33-赛罗经-selasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn69)
 {: id="fn-fn69"}
 
 \[70\] [CV 7 / Vin ii 195](https://aipali.true-dhamma.com/vinaya/cv/cv-07-sanghabheda/){: target="_blank" rel="noopener"}。这是一种间接展现神通的方式。[&nbsp;↩&nbsp;](#fr-fn70)
 {: id="fn-fn70"}
 
-\[71\] 译注：yakkha：一类非人类众生。这个词可以翻译为“精灵”、“魔鬼”、“神灵”、“食人魔”等。[&nbsp;↩&nbsp;](#fr-fn71)
+\[71\] 译者注：yakkha：一类非人类众生。这个词可以翻译为“精灵”、“魔鬼”、“神灵”、“食人魔”等。[&nbsp;↩&nbsp;](#fr-fn71)
 {: id="fn-fn71"}
 
-\[72\] [SN 10.12 / S i 213-14](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-10-yakkha/sn-10-yakkha/#112-sn-1012-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}；[Snp 10 / Sn 31-32](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#10-snp-10-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}。这是一种间接展现神通的方式。[&nbsp;↩&nbsp;](#fr-fn72)
+\[72\] [SN 10.12 / S i 213-214](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-10-yakkha/sn-10-yakkha/#112-sn-1012-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}；[Snp 10 / Sn 31-32](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#10-snp-10-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}。这是一种间接展现神通的方式。[&nbsp;↩&nbsp;](#fr-fn72)
 {: id="fn-fn72"}
 
 \[73\] DA. I. 57；DhA. III. 199；JA. IV. 263。这些事件指的是以下段落：Ps. I. 2-3, 125；[CV 5 / Vin ii 111](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn73)
@@ -889,10 +896,10 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[77\] [BV 1.2 / Vin iii 67](https://aipali.true-dhamma.com/vinaya/bv/kanda-01-parajika/bv-01-02-dutiya/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn77)
 {: id="fn-fn77"}
 
-\[78\] [BV 4.3.3 / Vin iii 249-50](https://aipali.true-dhamma.com/vinaya/bv/kanda-04-nissaggiya/bv-04-03-patta/#3-舍堕二十三存七日药-bhesajjasikkhāpada){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn78)
+\[78\] [BV 4.3.3 / Vin iii 249-250](https://aipali.true-dhamma.com/vinaya/bv/kanda-04-nissaggiya/bv-04-03-patta/#3-舍堕二十三存七日药-bhesajjasikkhāpada){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn78)
 {: id="fn-fn78"}
 
-\[79\] [CV 4 / Vin ii 75-6](https://aipali.true-dhamma.com/vinaya/cv/cv-04-samatha/){: target="_blank" rel="noopener"}；[BV 2.8 / Vin iii 158-9](https://aipali.true-dhamma.com/vinaya/bv/kanda-02-sanghadisesa/bv-02-08-dutthadosa/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn79)
+\[79\] [CV 4 / Vin ii 75-76](https://aipali.true-dhamma.com/vinaya/cv/cv-04-samatha/){: target="_blank" rel="noopener"}；[BV 2.8 / Vin iii 158-159](https://aipali.true-dhamma.com/vinaya/bv/kanda-02-sanghadisesa/bv-02-08-dutthadosa/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn79)
 {: id="fn-fn79"}
 
 \[80\] [MV 5 / Vin i 180](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}。他的神通如此令人印象深刻，以至于他必须在佛陀面前展现，同时宣布佛陀是他的老师，这样在家居士才愿意听从佛陀的教导。[&nbsp;↩&nbsp;](#fr-fn80)
@@ -901,22 +908,22 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[81\] [BV 5.6.1 / Vin iv 109](https://aipali.true-dhamma.com/vinaya/bv/kanda-05-pacittiya/bv-05-06-surapana/){: target="_blank" rel="noopener"}。这个故事与禁止比丘饮酒的戒律有关。[&nbsp;↩&nbsp;](#fr-fn81)
 {: id="fn-fn81"}
 
-\[82\] [CV 7 / Vin ii 184-5](https://aipali.true-dhamma.com/vinaya/cv/cv-07-sanghabheda/){: target="_blank" rel="noopener"}, Saṅghabhedakakkhandhaka。[&nbsp;↩&nbsp;](#fr-fn82)
+\[82\] [CV 7 / Vin ii 184-185](https://aipali.true-dhamma.com/vinaya/cv/cv-07-sanghabheda/){: target="_blank" rel="noopener"}, Saṅghabhedakakkhandhaka。[&nbsp;↩&nbsp;](#fr-fn82)
 {: id="fn-fn82"}
 
 \[83\] [CV 7 / Vin ii 200](https://aipali.true-dhamma.com/vinaya/cv/cv-07-sanghabheda/){: target="_blank" rel="noopener"}, Saṅghabhedakakkhandhaka。[&nbsp;↩&nbsp;](#fr-fn83)
 {: id="fn-fn83"}
 
-\[84\] [SN 41.4 / S iv 289-90](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-41-citta/sn-41-citta/#14-sn-414-摩诃迦经-mahakapāṭihāriyasutta){: target="_blank" rel="noopener"}。应要求，尊者摩诃迦随后为在家居士质多（Citta）制造了一团火。[&nbsp;↩&nbsp;](#fr-fn84)
+\[84\] [SN 41.4 / S iv 289-290](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-41-citta/sn-41-citta/#14-sn-414-摩诃迦经-mahakapāṭihāriyasutta){: target="_blank" rel="noopener"}。应要求，尊者摩诃迦随后为在家居士质多（Citta）制造了一团火。[&nbsp;↩&nbsp;](#fr-fn84)
 {: id="fn-fn84"}
 
-\[85\] [MN 37 / M i 253-4](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-037-culatanhasankhaya/){: target="_blank" rel="noopener"}, Cūḷataṇhāsaṅkhaya Sutta。[&nbsp;↩&nbsp;](#fr-fn85)
+\[85\] [MN 37 / M i 253-254](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-037-culatanhasankhaya/){: target="_blank" rel="noopener"}, Cūḷataṇhāsaṅkhaya Sutta。[&nbsp;↩&nbsp;](#fr-fn85)
 {: id="fn-fn85"}
 
 \[86\] [SN 51.14 / S v 270](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-51-iddhipada/sn-51-11-20-pasadakampana/#4-sn-5114-目犍连经-moggallānasutta){: target="_blank" rel="noopener"}, Moggallāna Sutta。[&nbsp;↩&nbsp;](#fr-fn86)
 {: id="fn-fn86"}
 
-\[87\] [SN 6.14 / S i 155-6](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#24-sn-614-阿卢那瓦提经-aruṇavatīsutta){: target="_blank" rel="noopener"}；[AN 3.81 / A i 226-7](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-072-081-ananda/#10-an-381-小千世界经-cūḷanikāsutta){: target="_blank" rel="noopener"}；Ps. II. 210。[&nbsp;↩&nbsp;](#fr-fn87)
+\[87\] [SN 6.14 / S i 155-156](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#24-sn-614-阿卢那瓦提经-aruṇavatīsutta){: target="_blank" rel="noopener"}；[AN 3.81 / A i 226-227](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-072-081-ananda/#10-an-381-小千世界经-cūḷanikāsutta){: target="_blank" rel="noopener"}；Ps. II. 210。[&nbsp;↩&nbsp;](#fr-fn87)
 {: id="fn-fn87"}
 
 \[88\] AA. I. 209, 216；DhA. I. 239；Vism. 387（参见 Ps. II. 207）。[&nbsp;↩&nbsp;](#fr-fn88)
@@ -952,13 +959,13 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[98\] [DN 16 / D ii 108](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}, Mahāparinibbāna Sutta。[&nbsp;↩&nbsp;](#fr-fn98)
 {: id="fn-fn98"}
 
-\[99\] [MN 56 / M i 377-8](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-056-upali/){: target="_blank" rel="noopener"}, Upāli Sutta。[&nbsp;↩&nbsp;](#fr-fn99)
+\[99\] [MN 56 / M i 377-378](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-056-upali/){: target="_blank" rel="noopener"}, Upāli Sutta。[&nbsp;↩&nbsp;](#fr-fn99)
 {: id="fn-fn99"}
 
-\[100\] [AN 6.41 / A iii 340-41](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-031-042-devata/#11-an-641-大木聚-dārukkhandhasutta){: target="_blank" rel="noopener"}, Dārukkhandha Sutta。[&nbsp;↩&nbsp;](#fr-fn100)
+\[100\] [AN 6.41 / A iii 340-341](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-031-042-devata/#11-an-641-大木聚-dārukkhandhasutta){: target="_blank" rel="noopener"}, Dārukkhandha Sutta。[&nbsp;↩&nbsp;](#fr-fn100)
 {: id="fn-fn100"}
 
-\[101\] [AN 3.40 / A i 148-9](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-031-040-devaduta/#10-an-340-增上经-ādhipateyyasutta){: target="_blank" rel="noopener"}, Ādhipateyya Sutta。[&nbsp;↩&nbsp;](#fr-fn101)
+\[101\] [AN 3.40 / A i 148-149](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-031-040-devaduta/#10-an-340-增上经-ādhipateyyasutta){: target="_blank" rel="noopener"}, Ādhipateyya Sutta。[&nbsp;↩&nbsp;](#fr-fn101)
 {: id="fn-fn101"}
 
 \[102\] 例如：Lomasakassapa Jātaka：JA. III. 514；Alambusā Jātaka：JA. V. 152；Naḷinikā Jātaka：JA. V. 193。[&nbsp;↩&nbsp;](#fr-fn102)
@@ -970,16 +977,16 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[104\] JA. VI. 34。这个故事描绘了菩萨（Bodhisatta）最后的十世生命中的一世。[&nbsp;↩&nbsp;](#fr-fn104)
 {: id="fn-fn104"}
 
-\[105\] [AN 3.37 / A i 142-3](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-031-040-devaduta/#7-an-337-四天王经-catumahārājasutta){: target="_blank" rel="noopener"}；AA. II. 232。[&nbsp;↩&nbsp;](#fr-fn105)
+\[105\] [AN 3.37 / A i 142-143](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-031-040-devaduta/#7-an-337-四天王经-catumahārājasutta){: target="_blank" rel="noopener"}；AA. II. 232。[&nbsp;↩&nbsp;](#fr-fn105)
 {: id="fn-fn105"}
 
-\[106\] 译注：佛陀。[&nbsp;↩&nbsp;](#fr-fn106)
+\[106\] 译者注：佛陀。[&nbsp;↩&nbsp;](#fr-fn106)
 {: id="fn-fn106"}
 
-\[107\] 译注：gandhabba：属于四大天王天的半神族，被描述为天界乐师。[&nbsp;↩&nbsp;](#fr-fn107)
+\[107\] 译者注：gandhabba：属于四大天王天的半神族，被描述为天界乐师。[&nbsp;↩&nbsp;](#fr-fn107)
 {: id="fn-fn107"}
 
-\[108\] 译注：关于这个双关语，比丘菩提（Bhikkhu Bodhi）是这样说的：“婆罗门的问题使用了将来时 bhavissati，但很难说他是否真的打算将问题指向佛陀的未来，或者只是将将来时形式用作一种礼貌的习惯。可能存在一个双关语，婆罗门以礼貌的含义使用将来时，佛陀则故意按字面上的将来时来回答。”《佛陀的数字论》（Numerical Discourses of the Buddha），© Buddhist Publication Society，第291页。[&nbsp;↩&nbsp;](#fr-fn108)
+\[108\] 译者注：关于这个双关语，比丘菩提（Bhikkhu Bodhi）是这样说的：“婆罗门的问题使用了将来时 bhavissati，但很难说他是否真的打算将问题指向佛陀的未来，或者只是将将来时形式用作一种礼貌的习惯。可能存在一个双关语，婆罗门以礼貌的含义使用将来时，佛陀则故意按字面上的将来时来回答。”《佛陀的数字论》（Numerical Discourses of the Buddha），© Buddhist Publication Society，第291页。[&nbsp;↩&nbsp;](#fr-fn108)
 {: id="fn-fn108"}
 
 \[109\] [AN 8.64 / A iv 304-305](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-061-070-bhumicala/#4-an-864-伽耶象头山-gayāsīsasutta){: target="_blank" rel="noopener"}, Gayāsīsa Sutta。[&nbsp;↩&nbsp;](#fr-fn109)
@@ -991,7 +998,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[111\] 参阅：MA. III. 328。[&nbsp;↩&nbsp;](#fr-fn111)
 {: id="fn-fn111"}
 
-\[112\] [AN 4.61 / A ii 68](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-061-070-pattakamma/#1-an-461-能作四业-pattakammasutta){: target="_blank" rel="noopener"}；[AN 5.41 / A iii 45-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#1-an-541-得财五因-ādiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn112)
+\[112\] [AN 4.61 / A ii 68](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-061-070-pattakamma/#1-an-461-能作四业-pattakammasutta){: target="_blank" rel="noopener"}；[AN 5.41 / A iii 45-46](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#1-an-541-得财五因-ādiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn112)
 {: id="fn-fn112"}
 
 \[113\] [Khp 6 / Kh 3-4](https://aipali.true-dhamma.com/sutta/kn/kn-01-khp/khp-01-09-khuddakapatha/#6-三宝经-ratanasutta){: target="_blank" rel="noopener"}；[Snp 13 / Sn 39](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#13-snp-13-三宝经-ratanasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn113)

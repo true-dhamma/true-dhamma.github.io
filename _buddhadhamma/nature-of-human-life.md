@@ -14,4 +14,4 @@ title: 第一篇：生命是什么？ | 佛法 | Buddhadhamma
 > 诸比丘，若有色，执着于色，依附于色，便生起此见：“彼即是我，彼即是世间。死后我将常住、持久、永恒，不坏变。”若有受……若有想……若有行……若有识……执着于识……便生起此见：“彼即是我，彼即是世间。死后我将常住、持久、永恒，不坏变。”
 >
 > Rūpe kho bhikkhave sati ... vedanāya sati ... saññāya sati ... saṅkhāresu sati ... viññāṇe sati, rūpaṁ ... vedanaṁ ... saññaṁ ... saṅkhāre ... viññāṇaṁ upādāya ... abhinivissa evaṁ diṭṭhi upajjati so attā so loko so pecca bhavissāmi nicco dhuvo sassato avipariṇāmadhammo.  
-> [SN 22.152 / S iii 182-83](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-150-159-ditthi/#3-sn-22152-那个我经-soattāsutta){: target="_blank" rel="noopener"}
+> [SN 22.152 / S iii 182-183](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-150-159-ditthi/#3-sn-22152-那个我经-soattāsutta){: target="_blank" rel="noopener"}

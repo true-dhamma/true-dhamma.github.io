@@ -15,7 +15,7 @@ title: 第五章：业的法则 | 佛法 | Buddhadhamma
 缘起（paṭiccasamuppāda）的教法描述了人类存在的整个过程，它全面而广泛地涵盖了所有其他佛法教法。它是一个完整的教法。理解了缘起，就理解了存在的精髓或佛教的整体，正如佛陀所确认的：
 
 > 见缘起者见法。  
-> [MN 28 / M i 190-91](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-028-mahahatthipadopama/){: target="_blank" rel="noopener"}, Mahāhatthipadopama Sutta
+> [MN 28 / M i 190-191](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-028-mahahatthipadopama/){: target="_blank" rel="noopener"}, Mahāhatthipadopama Sutta
 
 然而，人们普遍认为缘起深奥且极难理解。即使是解释它也十分困难。因此，几乎没有专门解释缘起的文本。更常见的是找到解释佛法其他部分或原则的文本，这些部分或原则是缘起教法的一部分。
 
@@ -122,7 +122,7 @@ title: 第五章：业的法则 | 佛法 | Buddhadhamma
     
 
 > 比丘们，有这两种导致痛苦的事物。是哪两种？有一种情况是，有人未行善，未作善业，未行能对治恐惧的福德之事。相反，他所行的是恶行、凶残和残忍之事。心想：“我未行善业；我已作恶”，他便感到痛苦。  
-> [Iti 2.3 / It 25-6](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-02-duka/#13-iti-23-焦恼经){: target="_blank" rel="noopener"}, Tapanīya Sutta
+> [Iti 2.3 / It 25-26](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-02-duka/#13-iti-23-焦恼经){: target="_blank" rel="noopener"}, Tapanīya Sutta
 
 值得注意的是，在现代，这是对业最常见的解释，尤其是在指代过去的行动时。
 
@@ -131,14 +131,14 @@ title: 第五章：业的法则 | 佛法 | Buddhadhamma
 > 婆悉吒，你应当知道，凡在人中以牧牛为生者，被称为农夫；他不是婆罗门……凡以各种技艺为生者，被称为匠人……凡以贸易为生者，被称为商人……凡以服务他人为生者，被称为仆人……凡以盗窃为生者，被称为盗贼……凡以弓箭刀剑为生者，被称为士兵……凡以祭司之术为生者，被称为祭司……凡在人中治理城镇和国土者，被称为国王；他不是婆罗门……那心中没有残余垢染，不再执着的人，我称他为婆罗门……
 >
 > 一个人并非生来就是婆罗门，也非生来就不是婆罗门。人是因其业而成为婆罗门，也是因其行为而成为非婆罗门。通过他们的业（kamma：工作、职业、行为、生活方式），人们成为农夫、匠人、商人、仆人、盗贼、士兵、祭司，甚至是国王。这是智者看待业的真实方式，他们是缘起的见者，精通业及其结果。业使世间运转；业使这一代众生流转。  
-> [MN 98 / M ii 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-098-vasettha/){: target="_blank" rel="noopener"}; [Snp 35 / Sn 117-23](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}
+> [MN 98 / M ii 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-098-vasettha/){: target="_blank" rel="noopener"}；[Snp 35 / Sn 117-123](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}
 
 同样，在《起世经》（Aggañña Sutta）中：
 
 > 于是那些年长的众生聚在一起，彼此倾诉他们的烦恼：“诸位，我们之间已生起各种恶行，导致偷盗、诬告、妄语以及持棍棒。愿此不要再发生。假设我们任命（sammati：‘同意’）某个众生，他将惩戒应受惩戒者，谴责应受谴责者，驱逐应受驱逐者。作为回报，我们将给予他一份谷物。”
 >
 > 于是他们走到他们当中最庄重、最有魅力、最有感召力且令人敬畏的那位，请求他为他们做这件事，以换取一份谷物，他同意了……因为他是大众选出来的，所以第一个正式头衔“大统领”（Mahā Sammata）便产生了。[\[10\]](#fn-fn10){:id="fr-fn10"}  
-> [DN 27 / D iii 92-3](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-27-agganna/){: target="_blank" rel="noopener"}, Aggañña Sutta
+> [DN 27 / D iii 92-93](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-27-agganna/){: target="_blank" rel="noopener"}, Aggañña Sutta
 
 同样，在《转轮圣王经》（Cakkavatti Sutta）中：
 
@@ -196,22 +196,22 @@ title: 第五章：业的法则 | 佛法 | Buddhadhamma
 > 比丘们，我没有看到任何一件事物，能像邪见那样，使未生起的不善法生起，已生起的不善法增长和扩张……
 >
 > 比丘们，我没有看到任何一件事物，能像正见那样，使未生起的善法生起，已生起的善法增长和扩张。  
-> [AN 1.306–307 / A i 30](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#72-an-1298-307-见解的种子效应){: target="_blank" rel="noopener"}
+> [AN 1.298–299 / A i 30](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#72-an-1298-307-见解的种子效应){: target="_blank" rel="noopener"}
 >
 > 比丘们，对于一个怀有邪见的人，无论他依据这种见地所持守和从事的身业、语业和意业，以及无论他的意图、渴望、倾向与诸行（saṅkhāra）为何，它们都只会导致不愿、不欲、不喜之事，导致伤害和痛苦。为什么呢？因为这种见地是恶劣的。假设一粒楝树、蛇瓜或苦瓜的种子被种在潮湿的土壤中。无论它从土壤和水中汲取什么养分，都会导致其苦涩、辛辣和难吃的味道。为什么呢？因为这种子是恶劣的……
 >
 > 比丘们，对于一个怀有正见的人，无论他依据这种见地所持守和从事的身业、语业和意业，以及无论他的意图、渴望、倾向与诸行（saṅkhāra）为何，它们都只会导致所愿、所欲、所喜之事，导致福祉和安乐。为什么呢？因为这种见地是善妙的。假设一粒甘蔗、脱壳小麦或金苹果的种子被种在潮湿的土壤中。无论它从土壤和水中汲取什么养分，都会导致其甜美、可口和美味的味道。为什么呢？因为这种子是善妙的。  
-> [AN 1.314–315 / A i 32](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#72-an-1298-307-见解的种子效应){: target="_blank" rel="noopener"}; cf.: [AN 10.104 / A v 212](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#4-an-10104-种子经-bījasutta){: target="_blank" rel="noopener"}
+> [AN 1.306–307 / A i 32](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#72-an-1298-307-见解的种子效应){: target="_blank" rel="noopener"}；比较：[AN 10.104 / A v 212](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#4-an-10104-种子经-bījasutta){: target="_blank" rel="noopener"}
 >
 > 比丘们，有这样一个人，他出现在世间，是为了许多人受害，为了许多人不幸，为了许多人、天人众生遭受毁灭、伤害和痛苦。那是一个怎样的人呢？他是一个持有邪见并抱有颠倒观点的人。他将许多人引离真正的法，使他们确立于不真实的法之中……
 >
 > 比丘们，有这样一个人，他出现在世间，是为了许多人的福祉，为了许多人的安乐，为了许多人、天人众生的善、福祉和安乐。那是一个怎样的人呢？他是一个持有正见并抱有正确观点的人。他将许多人引离不真实的法，使他们确立于真正的法之中……
 >
 > 比丘们，我没有看到任何一件事物能像邪见那样有害。邪见是所有有害事物中最糟糕的。[\[18\]](#fn-fn18){:id="fr-fn18"}  
-> [AN 1.316–318 / A i 33](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#73-an-1308-321-邪师与正法的对比){: target="_blank" rel="noopener"}
+> [AN 1.308–310 / A i 33](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#73-an-1308-321-邪师与正法的对比){: target="_blank" rel="noopener"}
 
 > 心是诸法之首，心是主宰，一切法皆由心造。若以污秽之心言行，苦便随之，犹如车轮随拉车的牛……若以清净之心言行，乐便随之，犹如不离身的影像。[\[19\]](#fn-fn19){:id="fr-fn19"}  
-> [Dhp 1 and 2](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-001-032-yamaka-appamada/#11-dhp-1-盲尊者迦丘帕喇的故事-cakkhupālattheravatthu){: target="_blank" rel="noopener"}, Yamakavagga
+> [Dhp 1-2](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-001-032-yamaka-appamada/#11-dhp-1-盲尊者迦丘帕喇的故事-cakkhupālattheravatthu){: target="_blank" rel="noopener"}, Yamakavagga
 
 ## 善恶的标准
 
@@ -298,10 +298,11 @@ title: 第五章：业的法则 | 佛法 | Buddhadhamma
 
 以下是善法的例子：念（sati）：持续的觉知力；慈（mettā）：慈爱、善意、希望他人快乐的愿望；alobha（无贪）：无贪婪、没有渴望、倾向于慷慨；paññā（慧）：智慧、洞察力；passaddhi（轻安）：止息、身体安息和内心平静、没有压力和不安；善法欲（kusala-chanda）：对善法的欲求、对善的爱、对真理的渴望、希望与因缘和谐一致；muditā（随喜）：当他人成功或快乐时感到喜悦和随喜。
 
-以下是不善法的例子：kāma-chanda（贪欲盖）：感官欲望、贪求（参见附注“善法欲与欲贪”）；byāpāda（嗔恚盖）：恶意、愤慨、怨恨；thīna-middha（昏沉睡眠盖）：昏沉、睡眠、怠惰、无力；uddhacca-kukkucca（掉举恶作盖）：掉举、追悔、不安、焦虑；vicikicchā（疑盖）：怀疑、犹豫不决；kodha（嗔）：愤怒；issā（嫉妒）：嫉妒；macchariya（悭吝）：吝啬、嫉妒、希望阻碍他人。
+以下是不善法的例子：kāma-chanda（贪欲盖）：感官欲望、贪求（参见附注 5.1“善法欲与欲贪”）；byāpāda（嗔恚盖）：恶意、愤慨、怨恨；thīna-middha（昏沉睡眠盖）：昏沉、睡眠、怠惰、无力；uddhacca-kukkucca（掉举恶作盖）：掉举、追悔、不安、焦虑；vicikicchā（疑盖）：怀疑、犹豫不决；kodha（嗔）：愤怒；issā（嫉妒）：嫉妒；macchariya（悭吝）：吝啬、嫉妒、希望阻碍他人。
 
-善法欲与欲贪
-
+> **附注 5.1　善法欲与欲贪**
+> {: id="note-5-1"}
+>
 > 善法欲（kusala-chanda）和欲贪（kāma-chanda）（或贪〔lobha〕）之间的区别在第十章“佛陀关于欲望的教导”中有详细讨论。简言之，贪（lobha）是对感官对象的执着，这些感官对象提供即时满足，但不会导向超越此境的任何事物。贪专注于沉溺于感官对象，并强化一个获取或消费这些对象的自我感。而善法欲（chanda）则抓住处于发展初始阶段的事物。心接纳并与事物协调一致，帮助它们达到圆满。它不涉及个人满足的愿望，也不会导向一个获取或消费事物的孤立自我感。
 
 具足慈心（mettā）时，心是安乐、平静和广大的。慈心支持和增强心。而念则有助于保持对所从事事物的专注。它觉知在特定情况下的适当行为，抵御不善法，并为心做准备。因此，这两种品质被归类为善法。
@@ -355,7 +356,7 @@ title: 第五章：业的法则 | 佛法 | Buddhadhamma
 相反，在《巴利三藏》的一部经文中，可以找到 nirūpadhi-kusala（“出世间善法”）与 opadhika-puñña（“世间善”）配对使用：
 
 > 通过身、语、意，培育出世间、无量的善法。以布施培育世间善之后，\[修习法布施\]，鼓励他人安住于正法，安住于梵行。  
-> [Iti 3.34 / It 77-8](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#44-iti-334-五前相经){: target="_blank" rel="noopener"}, Pañcapubbanimitta Sutta
+> [Iti 3.34 / It 77-78](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#44-iti-334-五前相经){: target="_blank" rel="noopener"}, Pañcapubbanimitta Sutta
 
 一般来说，佛陀使用福德（puñña）一词是指世间善（opadhika-puñña）。虽然没有添加 opadhika 一词，但其含义是隐含的。因此，其意义等同于世间善（lokiya-kusala）。福德（puñña）只是善法（kusala）的一部分，善法（kusala）也包含出世间。只有极少数的义注段落完全等同于福德（puñña）和善法（kusala）。[\[33\]](#fn-fn33){:id="fr-fn33"}
 
@@ -597,7 +598,7 @@ title: 第五章：业的法则 | 佛法 | Buddhadhamma
 > 这与世尊所说相符：“大王，有三件事，当它们在一个人心中生起时，会给他带来伤害、痛苦和不安。哪三件？贪、嗔、痴……”
 >
 > 就像竹子种子摧毁竹子本身一样，贪、嗔、痴在心中生起，也会摧毁一个邪恶心性的人。[\[59\]](#fn-fn59){:id="fr-fn59"}  
-> Nd. I. 12-15, 360-64, 467-70; Nd. II. 59
+> Nd. I. 12-15, 360-364, 467-470；Nd. II. 59
 >
 > 大王，世上有三件事，当它们生起时，会给自己带来伤害、痛苦和不安。哪三件？贪、嗔、痴。  
 > [SN 3.23 / S i 98](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#33-sn-323-世间经-lokasutta){: target="_blank" rel="noopener"}, Loka Sutta
@@ -676,19 +677,19 @@ title: 第五章：业的法则 | 佛法 | Buddhadhamma
 > 尊者阿难随后回答了有关善法的问题，并以这段话作结：
 >
 > “任何不导致自己苦恼，不导致他人苦恼，不导致两者都苦恼，并因此不善法减少而善法增加的身……语……意行。大王，正是这样的身……语……意行未受智者沙门和婆罗门的谴责。”  
-> [MN 88 / M ii 114-16](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-088-bahitika/){: target="_blank" rel="noopener"}, Bāhitika Sutta
+> [MN 88 / M ii 114-116](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-088-bahitika/){: target="_blank" rel="noopener"}, Bāhitika Sutta
 >
 > 一个被贪欲所煽动、被贪欲所征服、心被其所迷惑的人，会意图为自己带来苦恼，为他人带来苦恼，也为双方带来苦恼，他会体验到心智的痛苦和苦难。但当贪欲被舍弃时，他不会意图为自己带来苦恼，不为他人带来苦恼，也不为双方带来苦恼，他也不会体验到心智的痛苦和苦难。
 >
 > 一个被贪欲所煽动、被贪欲所征服、心被其所迷惑的人，会从事身、语、意的恶行。但当贪欲被舍弃时，他不会从事身、语、意的恶行。一个被贪欲所煽动、被贪欲所征服、心被其所迷惑的人，不会如实地理解自己的利益、他人的利益或双方的利益。但当贪欲被舍弃时，他会如实地理解自己的利益、他人的利益和双方的利益。
 >
 > 一个充满嗔恨、被嗔恨所克服的人……一个痴迷、被痴迷所克服的人……体验到心智的痛苦和苦难……但当痴迷被舍弃时，他会如实地理解自己的利益、他人的利益和双方的利益。[\[63\]](#fn-fn63){:id="fr-fn63"}  
-> [AN 3.72 / A i 216-17](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-072-081-ananda/#1-an-372-游方者阐陀经-channasutta){: target="_blank" rel="noopener"}, Channa Sutta
+> [AN 3.72 / A i 216-217](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-072-081-ananda/#1-an-372-游方者阐陀经-channasutta){: target="_blank" rel="noopener"}, Channa Sutta
 
 > 一项行为若在做完之后令人苦恼，并且在流泪、泪流满面之时收获其果报，则此行为并非善作。
 >
 > 一项行为若在做完之后不令人苦恼，并且在喜悦、欢欣之时收获其果报，则此行为是善作。  
-> [Dhp 67-8](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-033-075-citta-puppha-bala/#58-dhp-67-农夫的故事-kassakavatthu){: target="_blank" rel="noopener"}, Bālavagga
+> [Dhp 67-68](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-033-075-citta-puppha-bala/#58-dhp-67-农夫的故事-kassakavatthu){: target="_blank" rel="noopener"}, Bālavagga
 >
 > 任何行为，都在自己内心可见。  
 > J. II. 202
@@ -705,7 +706,7 @@ title: 第五章：业的法则 | 佛法 | Buddhadhamma
 > 阿难，我明确宣布，身恶行、语恶行和意恶行是不应做的，因为这样做可以预料到这些危险：一个人会自责；[\[64\]](#fn-fn64){:id="fr-fn64"}智者在考察后会谴责他；恶名会传播开来；他临终时心迷乱；并且在身坏命终之后，他会投生到恶趣、恶道、堕处、地狱……
 >
 > 阿难，我明确宣布，身善行、语善行和意善行是应做的，因为这样做可以预料到这些利益：一个人不会自责；智者在考察后会赞扬他；好名声会传播开来；他会在不困惑中死去；并且在身坏命终之后，他会投生到善趣，投生到天界。  
-> [AN 2.18 / A i 57-8](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#28-an-218-应作与不应作){: target="_blank" rel="noopener"}
+> [AN 2.18 / A i 57-58](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#28-an-218-应作与不应作){: target="_blank" rel="noopener"}
 >
 > 诸比丘，舍弃不善法！舍弃不善法是可能的。如果舍弃不善法是不可能的，我就不会说：“诸比丘，舍弃不善法！”但因为舍弃不善法是可能的，所以我说：“诸比丘，舍弃不善法！”如果舍弃不善法会导致伤害和苦，我就不会告诉你们去舍弃它。但因为舍弃不善法会导致福祉和安乐，所以我说：“诸比丘，舍弃不善法！”
 >
@@ -775,7 +776,7 @@ title: 第五章：业的法则 | 佛法 | Buddhadhamma
 > Tādisaṁ labhate phalaṁ  
 > Kalyāṇakārī kalyāṇaṁ  
 > Pāpakārī pāpakaṁ.  
-> [SN 11.10 / S i 227](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-11-sakka/sn-11-sakka/#110-sn-1110-海边圣者经-samuddakasutta){: target="_blank" rel="noopener"}, Samuddaka Sutta; J. II. 202; J. III. 158
+> [SN 11.10 / S i 227](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-11-sakka/sn-11-sakka/#110-sn-1110-海边圣者经-samuddakasutta){: target="_blank" rel="noopener"}, Samuddaka Sutta；J. II. 202；J. III. 158
 
 此处，佛陀引用了前代仙人和菩萨的偈颂，并将其吸纳到三藏中。这些偈颂可被视为对佛教业原则的清晰而简洁的描述。
 
@@ -985,10 +986,11 @@ Vipatti 可译为“缺陷”、“弱点”或“劣势”。它指的是各种
 >
 > [MN 135 / M iii 202-206](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-135-culakammavibhanga/){: target="_blank" rel="noopener"} （《须跋经》，Subha Sutta；节译）
 
-虽然此经描述了未来世可能经历的果报，但它强调了此生所造作的业。特别是，它强调了日常生活中经常或持续造作的业，这些业有助于塑造人的心境、性格特征和个性，并作为特定结果的直接原因。它不着眼于奢侈或夸张的果报，即并非造作一次业，比如布施一次，就能获得无限的报酬或心想事成。这种自私的焦点会导致人们行善时，类似于把钱存入银行而悠闲地等待利息，或者买一次彩票就期望获得巨额奖金。然后，人们就会忽视此经中概述的那些一般或日常的善业。（参见附注“《须跋经》中的造物主与仪轨”）
+虽然此经描述了未来世可能经历的果报，但它强调了此生所造作的业。特别是，它强调了日常生活中经常或持续造作的业，这些业有助于塑造人的心境、性格特征和个性，并作为特定结果的直接原因。它不着眼于奢侈或夸张的果报，即并非造作一次业，比如布施一次，就能获得无限的报酬或心想事成。这种自私的焦点会导致人们行善时，类似于把钱存入银行而悠闲地等待利息，或者买一次彩票就期望获得巨额奖金。然后，人们就会忽视此经中概述的那些一般或日常的善业。（参见附注 5.2“《须跋经》中的造物主与仪轨”）
 
-《须跋经》中的造物主与仪轨
-
+> **附注 5.2　《须跋经》中的造物主与仪轨**
+> {: id="note-5-2"}
+>
 > 此经记载了佛陀与年轻的婆罗门学生须跋（Subha）之间的对话。此经中佛陀的教法可以从婆罗门教的角度来看待。
 >
 > 首先，它们是一种驳斥婆罗门教义的方式，该教义认为大梵天是人类和世间万物的创造者。佛陀提供了一种替代教法，指出人自身的业（有意的作为）才是塑造人生的决定性因素。
@@ -1047,7 +1049,7 @@ Vipatti 可译为“缺陷”、“弱点”或“劣势”。它指的是各种
 > 诸比丘，我走近那\[第三组\]沙门和婆罗门，我问他们：“是真的吗……？”然后我告诉他们：“在这种情况下，是无因无缘，你们才会杀生、不与而取、沉溺于淫欲、说妄语……并持邪见。”
 >
 > 那些将无因无缘作为根本真理的人，在这方面没有意愿或努力：“这应该做；这应该避免……”  
-> [AN 3.62 / A i 173-5](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#1-an-362-三所依处经-titthāyatanasutta){: target="_blank" rel="noopener"}；另见：[MN 101 / M ii 214-23](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}；Vbh. 367-8
+> [AN 3.62 / A i 173-175](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#1-an-362-三所依处经-titthāyatanasutta){: target="_blank" rel="noopener"}；另见：[MN 101 / M ii 214-223](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}；Vbh. 367-368
 
 第一个教义（宿作因论）是由尼乾陀派（Nigaṇṭhā，耆那教徒）所持，此经文证实了这一点：
 
@@ -1092,7 +1094,7 @@ Vipatti 可译为“缺陷”、“弱点”或“劣势”。它指的是各种
 > “他放弃杀生并戒绝杀生。他放弃不与而取……邪淫……妄语……离间语……粗恶语……绮语……贪欲……嗔恚……邪见；他是一个正见者。
 >
 > “那位圣弟子——如此无贪、无嗔、无痴、清楚理解、常怀正念——以充满慈爱的心遍满一方，同样遍满第二方、第三方和第四方。如此向上、向下、横向、遍一切处，对一切众生如对自身，他以充满慈爱的心遍满整个世界，广大、崇高、无量、无敌意、无嗔恚……当慈心解脱以这种方式发展和培育时，任何已造作的中等业都不会停留在此，不会持续在此。”  
-> [SN 42.8 / S iv 319-23](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-42-gamani/sn-42-gamani/#18-sn-428-螺贝经-saṅkhadhamasutta){: target="_blank" rel="noopener"}, Saṅkhadhama Sutta
+> [SN 42.8 / S iv 319-323](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-42-gamani/sn-42-gamani/#18-sn-428-螺贝经-saṅkhadhamasutta){: target="_blank" rel="noopener"}, Saṅkhadhama Sutta
 
 佛陀的这些教法旨在帮助阐明业果成熟的一些细微之处。它们起到了预防作用，防止人们过快地对业形成看法或对其意义作过于简单的解释。尽管如此，这些只是关于业的教法中的几个例子。
 
@@ -1130,7 +1132,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > 无论谁曾放逸，此后不再放逸；这样的人，如同月亮摆脱云翳，照亮此世。
 >
 > 无论谁以善行抵消恶行；这样的人，如同月亮摆脱云翳，照亮此世。[\[89\]](#fn-fn89){:id="fr-fn89"}  
-> [Dhp 172-3](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#135-dhp-172-手执扫帚的比丘的故事-sammajjanattheravatthu){: target="_blank" rel="noopener"}, Lokavagga
+> [Dhp 172-173](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#135-dhp-172-手执扫帚的比丘的故事-sammajjanattheravatthu){: target="_blank" rel="noopener"}, Lokavagga
 
 ### 导向业尽的业
 
@@ -1174,7 +1176,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 尼乾陀派的教义如下：
 
 > 无论一个人感受到什么，无论是乐、苦还是不苦不乐，所有这些都由过去所做之事引起。因此，通过苦行灭尽过去的业，并且不造作新的业，未来就不会有任何后果。未来没有后果，业就会灭尽。业灭尽了，苦就灭尽了。苦灭尽了，受就灭尽了。受灭尽了，所有的苦就会穷尽。这就是尼乾陀派的教义，这就是他们的观点。  
-> [MN 14 / M i 92-3](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}; [MN 101 / M ii 214](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}; [AN 3.75 / A i 220-21](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-072-081-ananda/#4-an-375-尼乾陀经-nigaṇṭhasutta){: target="_blank" rel="noopener"}
+> [MN 14 / M i 92-93](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}；[MN 101 / M ii 214](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}；[AN 3.75 / A i 220-221](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-072-081-ananda/#4-an-375-尼乾陀经-nigaṇṭhasutta){: target="_blank" rel="noopener"}
 
 尼乾陀派相信，人所经历的一切都是过去业的结果。为了终结苦，必须通过极端的苦行来烧尽心理烦恼，从而摧毁所有的业。通过这种方式，过去的业得以消除。此外，还必须避免造作任何新业。
 
@@ -1249,7 +1251,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > 那么，比丘们，什么是业的止息？当一个人通过身业、语业和意业的止息而达到解脱时，这被称为业的止息。
 >
 > 那么，比丘们，什么是导向业止息之道？这就是八正道；即正见……正定。这被称为导向业止息之道。  
-> [SN 35.146 / S iv 132-3](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-146-155-navapurana/#1-sn-35146-业经-kammanirodhasutta){: target="_blank" rel="noopener"}, Kammanirodha Sutta
+> [SN 35.146 / S iv 132-133](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-146-155-navapurana/#1-sn-35146-业经-kammanirodhasutta){: target="_blank" rel="noopener"}, Kammanirodha Sutta
 >
 > 比丘们，此身不属于你们，也不属于他人。它应被视为旧业，由因缘所造，由思所生，是受的处所。  
 > [SN 12.37 / S ii 65](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-31-40-kalarakhattiya/#7-sn-1237-非汝之物经-natumhasutta){: target="_blank" rel="noopener"}, Natumha Sutta
@@ -1257,17 +1259,17 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > 比丘们，有这三种业生起的原因。哪三种？贪……嗔……痴是业生起的原因。任何通过贪而行、由贪而生、由贪而起、源于贪的业，都会在个体投生之处成熟。无论此业在哪里成熟，人就在那里体验其果报，或在此生，或在\[下一世\]，或在随后的某个时候。任何通过嗔……通过痴而行的业，都会在个体投生之处成熟。无论此业在哪里成熟，人就在那里体验其果报……
 >
 > 比丘们，还有这三种\[其他\]业生起的原因。哪三种？无贪……无嗔……无痴是业生起的原因。任何通过无贪而行、由无贪而生、由无贪而起、源于无贪的业，当贪消失时就被舍弃了；它被连根拔除，变得像棕榈树桩一样，被彻底清除，因此不再受未来生起的支配。任何通过无嗔……通过无痴而行的业，当痴消失时就被舍弃了；它被连根拔除，变得像棕榈树桩一样，被彻底清除，因此不再受未来生起的支配。  
-> [AN 3.34 / A i 134-5](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-031-040-devaduta/#4-an-334-因缘经-nidānasutta){: target="_blank" rel="noopener"}, Nidāna Sutta
+> [AN 3.34 / A i 134-135](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-031-040-devaduta/#4-an-334-因缘经-nidānasutta){: target="_blank" rel="noopener"}, Nidāna Sutta
 >
 > 比丘们，有这三种业生起的原因。哪三种？贪……嗔……痴……任何通过贪而行、由贪而生、由贪而起、源于贪的业，是不善的、有害的，并导致苦。这种业导向业的生起，而非业的止息。任何通过嗔……通过痴而行的业……导向业的生起……
 >
 > 比丘们，还有这三种\[其他\]业生起的原因。哪三种？无贪……无嗔……无痴……任何通过无贪而行、由无贪而生、由无贪而起、源于无贪的业，是善的、有益的，并导致乐。这种业导向业的止息，而非业的生起。任何通过无嗔……通过无痴而行的业……导向业的止息……  
-> [AN 3.112 / A i 263](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#9-an-3112-缘之一经-paṭhamanidānasutta){: target="_blank" rel="noopener"}；另见两部相似经文：[AN 3.113 / A i 264](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#10-an-3113-缘之二经-dutiyanidānasutta){: target="_blank" rel="noopener"} 和 [AN 6.39 / A iii 338-9](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-031-042-devata/#9-an-639-集业三缘-nidānasutta){: target="_blank" rel="noopener"}
+> [AN 3.112 / A i 263](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#9-an-3112-缘之一经-paṭhamanidānasutta){: target="_blank" rel="noopener"}；另见两部相似经文：[AN 3.113 / A i 264](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#10-an-3113-缘之二经-dutiyanidānasutta){: target="_blank" rel="noopener"} 和 [AN 6.39 / A iii 338-339](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-031-042-devata/#9-an-639-集业三缘-nidānasutta){: target="_blank" rel="noopener"}
 >
 > 比丘们，我说杀生是三种：由贪引起，由嗔引起，由痴引起。不与而取……邪淫……妄语……离间语……恶口……绮语……贪婪……恶意……邪见，我说，也是三种：由贪引起，由嗔引起，由痴引起。
 >
 > 因此，贪是业的根源和生起；嗔是业的根源和生起；痴是业的根源和生起。随着贪的灭尽，业的根源就熄灭了。随着嗔的灭尽，业的根源就熄灭了。随着痴的灭尽，业的根源就熄灭了。  
-> [AN 10.174 / A v 261-2](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-167-177-janussoni/#8-an-10174-业之因缘-kammanidānasutta){: target="_blank" rel="noopener"}, Kammanidāna Sutta
+> [AN 10.174 / A v 261-262](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-167-177-janussoni/#8-an-10174-业之因缘-kammanidānasutta){: target="_blank" rel="noopener"}, Kammanidāna Sutta
 >
 > 富楼那·拘利子，我以证智亲自证悟后，宣说了四种业。是哪四种？有黑业黑报；有白业白报；有黑白业黑白报；以及有非黑非白业非黑非白报，这种业导向业的灭尽。
 >
@@ -1284,7 +1286,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > 因此，众生的投生是由于过去的业；一个人通过他所造作的业而投生。当他投生后，触触及他。因此我说众生是其业的继承者。这被称为黑白业黑白报。
 >
 > 那么，富楼那，什么是非黑非白业非黑非白报，导向业灭尽的业？关于这三种业，即舍弃黑业黑报的思、舍弃白业白报的思，以及舍弃黑白业黑白报的思：这被称为非黑非白业非黑非白报，导向业灭尽的业。[\[91\]](#fn-fn91){:id="fr-fn91"}  
-> [MN 57 / M i 389-90](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-057-kukkuravatika/){: target="_blank" rel="noopener"}, Kukkuravatika Sutta
+> [MN 57 / M i 389-390](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-057-kukkuravatika/){: target="_blank" rel="noopener"}, Kukkuravatika Sutta
 
 > 比丘们，有四种业……那么，比丘们，什么是黑业黑报？在此，有人杀生、不与而取、邪淫、妄语，并沉溺于酒类和烈性酒等放逸之本的麻醉品。这被称为黑业黑报。
 >
@@ -1311,10 +1313,10 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > 那么，比丘们，什么是黑白业黑白报？……
 >
 > 那么，比丘们，什么是非黑非白业非黑非白报，导向业灭尽的业？念觉支、择法觉支、精进觉支、喜觉支、轻安觉支、定觉支和舍觉支……  
-> [AN 4.238 / A ii 236-7](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#7-an-4238-七觉支-bojjhaṅgasutta){: target="_blank" rel="noopener"}, Bojjhaṅga Sutta
+> [AN 4.238 / A ii 236-237](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#7-an-4238-七觉支-bojjhaṅgasutta){: target="_blank" rel="noopener"}, Bojjhaṅga Sutta
 >
 > 在此，优陀夷，一位比丘修习念觉支……舍觉支，其基础是远离、离欲和止息；它是广大的、崇高的、无量的、无压迫的。当他修习念觉支……舍觉支时，渴爱就被舍弃了。随着渴爱的舍弃，业就被舍弃了。随着业的舍弃，苦就被舍弃了。因此，随着渴爱的灭尽，业就灭尽了；随着业的灭尽，苦就灭尽了。  
-> [SN 46.26 / S v 86-7](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-21-30-udayi/#6-sn-4626-尽经-taṇhakkhayasutta){: target="_blank" rel="noopener"}, Taṇhakkhaya Sutta
+> [SN 46.26 / S v 86-87](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-21-30-udayi/#6-sn-4626-尽经-taṇhakkhayasutta){: target="_blank" rel="noopener"}, Taṇhakkhaya Sutta
 
 ### 社会业或共业
 
@@ -1355,7 +1357,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > 婆悉吒，你应当知道，在人群中以放牧为生的人，被称为农夫；他不是婆罗门……凡是以各种手艺为生的人，被称为工匠……凡是以贸易为生的人，被称为商人……凡是以服务他人为生的人，被称为仆人……凡是以偷窃为生的人，被称为盗贼……凡是以弓箭和刀剑为生的人，被称为士兵……凡是以祭司职事为生的人，被称为祭司；他不是婆罗门……凡是治理城镇和国土的人，被称为统治者；他不是婆罗门……那没有残余烦恼、不再执着的人，我称他为婆罗门……
 >
 > 一个人并非因出生而成为婆罗门。因其行动而成为婆罗门；因其行动而成为非婆罗门。因为人们因其行动（kamma；“工作”、“职业”、“行为”）而成为农夫；人们因其行动而成为工匠、商人、仆人、盗贼、士兵、祭司，以及统治者。真正有智慧的人，缘起的见者，善于了知业及其果报的人，如实地看待业。业使得世间运转；业使得这一代人流转。  
-> [MN 98 / M ii 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-098-vasettha/){: target="_blank" rel="noopener"}; [Snp 35 / Sn 117-23](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}
+> [MN 98 / M ii 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-098-vasettha/){: target="_blank" rel="noopener"}；[Snp 35 / Sn 117-123](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}
 
 总而言之，根据佛教教义，人类社会是依据人们的工作、职业以及生活方式而展现和运作的。它并非最终取决于婆罗门所宣称的、由梵天规定和创造的基于出生和家庭的种姓制度。
 
@@ -1374,7 +1376,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > 比丘们，有一种人出现于世间，是为了许多人的伤害，许多人的不幸，许多人、天人的毁灭、伤害和苦恼。那是哪一种人呢？他就是持有邪见并有不正确见解的人。他将许多人从正法中引开，并使他们建立在邪法中。这就是那种出现于世间，为了许多人的伤害，许多人的不幸，许多人、天人的毁灭、伤害和苦恼的人。
 >
 > 比丘们，有一种人出现于世间，是为了许多人的利益，许多人的安乐，许多人、天人的利益、福祉和安乐。那是哪一种人呢？他就是持有正见并有正确见解的人。他将许多人从邪法中引开，并使他们建立在正法中。这就是那种出现于世间，为了许多人的利益，许多人的安乐，许多人、天人的利益、福祉和安乐的人。  
-> [AN 1.317 / A i 33](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#73-an-1308-321-邪师与正法的对比){: target="_blank" rel="noopener"}
+> [AN 1.309 / A i 33](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-098-381-tatiyapannasaka/#73-an-1308-321-邪师与正法的对比){: target="_blank" rel="noopener"}
 
 总的来说，人们可以通过其行动的成果来评判那些通过分享思想而影响社会的宗教领袖、知识分子、政治家等，依据佛陀对“大丈夫”（mahā-purisa）特质的描述标准：“他为了许多人的利益和安乐而修行；他使许多人建立在高尚之道上，具足善法与德行。”[\[93\]](#fn-fn93){:id="fr-fn93"} 这与经常引用的佛教格言相符：“为多数人的利益和安乐，为世间的慈悲援助而行”（bahujanahitāya bahujanasukhāya lokānukampāya）。
 
@@ -1550,17 +1552,18 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 
 请注意，常规行为规范所固有的业，不仅限于惩罚或解决问题，也可能与积极有利的行为相关。例如，僧伽在僧团戒律中的正式行为包括受戒仪式（upasampadā-kamma）、布萨日仪式（uposatha-kamma）、正式邀请训诫（pavāraṇā-kamma），以及选举僧伽执事等各种常规活动（sammati-kamma）。
 
-正等正觉者的定义
-
+> **附注 5.3　正等正觉者的定义**
+> {: id="note-5-3"}
+>
 > 译者注：请注意尊者帕·巴育陀的《佛教术语词典》（พจนานุกรมพุทธศาสน์ ฉบับประมวลศัพท์）中对这些术语的定义：正等正觉者（sammāsambuddha）：
 >
 > 一位完全觉悟的众生；一位未经他人教导而证悟四圣谛的众生，从而开启了正法的传播并建立了佛教；独觉佛（pacceka-buddha）：一种独自证悟而未教导他人的佛。另请注意律藏中著名的教导：
 >
 > > 舍利弗，拘留孙（Kakusandha）、拘那含牟尼（Konāgamana）和迦叶（Kassapa）等世尊，皆精勤详尽地向弟子传授正法，他们有许多散文、散文诗……以及问答式的论述。他们为弟子制定了学处，并制定了波罗提木叉。当这些佛陀、这些世尊以及他们觉悟的弟子们般涅槃后，后代弟子们，无论其姓名、家族和宗族如何，都出家并长期保存了教法。这就像各种散落在木板上的鲜花，被一根线牢牢地系在一起，不会被一阵风吹散。这是因为它们被线牢牢地系在一起……正是因为这个原因，拘留孙、拘那含牟尼和迦叶等世尊的教法得以长久住世。
 >
-> [BV 1.1 / Vin iii 8](https://aipali.true-dhamma.com/vinaya/bv/kanda-01-parajika/bv-01-01-pathama/){: target="_blank" rel="noopener"}, Pārājika 1, Verañjakaṇḍa
+> [BV 1.0 / Vin iii 8](https://aipali.true-dhamma.com/vinaya/bv/kanda-01-parajika/bv-01-00-veranjaka/){: target="_blank" rel="noopener"}, Pārājika 1, Verañjakaṇḍa
 
-总之，那些具足至高智慧，已证悟正法，达到最高真理并已觉悟的导师，被称为佛陀。但如果他们止步于此，他们就是独觉佛（pacceka-buddha）。然而，如果他们凭借大悲心建立并运用戒律，使全人类皆受益于正法，那么他们就是正等正觉者（sammāsambuddha）。（参见附注“正等正觉者的定义”）
+总之，那些具足至高智慧，已证悟正法，达到最高真理并已觉悟的导师，被称为佛陀。但如果他们止步于此，他们就是独觉佛（pacceka-buddha）。然而，如果他们凭借大悲心建立并运用戒律，使全人类皆受益于正法，那么他们就是正等正觉者（sammāsambuddha）。（参见附注 5.3“正等正觉者的定义”）
 
 因此，要从佛教中获得最大的价值，除了证悟正法（证悟自然法则）之外，还需要建立戒律（处理与人类社会相关的事宜）。
 
@@ -1577,7 +1580,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > “比丘们，我已经通过反复的询问，就各种主题和原则深入教导过你们。你们认为如何？色是常还是无常？”——“无常，尊者。”——“受……想……行……识是常还是无常？”——“无常，尊者。”——“无常的是苦还是乐？”——“苦，尊者。”——“无常、苦且变易的，适合被视为：‘这是我的，我就是这个，这是我的自我’吗？”——“不，尊者。”
 >
 > ——“因此，任何一种色……都只是色。任何一种受……想……行……任何一种识……都只是识。你们应当以正慧，如实地看到它：‘这不是我的，我不是这个，这不是我的自我。’如此看时，一位受过善导的圣弟子会对色蕴、受蕴、想蕴、行蕴、识蕴生起厌离之心……\[他的心\]获得解脱……不再有这种存在状态。”  
-> [MN 109 / M iii 19-20](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-109-mahapunnama/){: target="_blank" rel="noopener"}; [SN 22.82 / S iii 103-104](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-73-82-khajjaniya/#10-sn-2282-满月经-puṇṇamasutta){: target="_blank" rel="noopener"}
+> [MN 109 / M iii 19-20](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-109-mahapunnama/){: target="_blank" rel="noopener"}；[SN 22.82 / S iii 103-104](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-73-82-khajjaniya/#10-sn-2282-满月经-puṇṇamasutta){: target="_blank" rel="noopener"}
 
 在更仔细地探讨这篇经文之前，让我们先考虑以下类比：
 
@@ -1599,11 +1602,11 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 
 在此，人们清楚地认识到，用来描述这片自然水域的“城堡河”这个名称（以及与河流属性相关的术语）仅仅是出于与他人交流方便而使用的约定俗成之称谓。然而，这些术语是否存在，或者是否选择使用它们，都与这片水域无关。河流作为一个动态的水流，根据其自身的因缘条件持续不断地流动。人们能够区分这些约定俗成的标签和自然现象。有了正确的理解，人们便能轻松自在地使用这些术语。
 
-实际上，诸如“人”、“亚当斯先生”、“皮尔斯女士”、“我们”和“你们”等世俗概念，指的是自然界中以相互关联的因缘不断流动的动态过程。它们根据各自的条件因素，包括动态本身固有的因素和相关的外部因素，以无数种形式显现。
+实际上，诸如“人”、“张先生”、“刘女士”、“我们”和“你们”等世俗概念，指的是自然界中以相互关联的因缘不断流动的动态过程。它们根据各自的条件因素，包括动态本身固有的因素和相关的外部因素，以无数种形式显现。
 
-当特定类型的因素互动作为因缘出现时，它会在特定的动态中产生变化和转变的效果。就人类而言，所谓的业和果报（即行为和行为的果报）等同于构成特定个体之因果连续体中展开的事件和发生。每个自然现象就其内在而言是完整的，因为它独立于世俗概念。对于人类来说也是如此，他们独立于诸如“我”、“你”、“他”、“苏珊”、“保罗”等标签而存在，这些标签可能被指称为拥有者、发动者、接收者等等。
+当特定类型的因素互动作为因缘出现时，它会在特定的动态中产生变化和转变的效果。就人类而言，所谓的业和果报（即行为和行为的果报）等同于构成特定个体之因果连续体中展开的事件和发生。每个自然现象就其内在而言是完整的，因为它独立于世俗概念。对于人类来说也是如此，他们独立于诸如“我”、“你”、“他”、“林芳”、“周强”等标签而存在，这些标签可能被指称为拥有者、发动者、接收者等等。
 
-这就是事物根据自然规律真实存在的方式。然而，为了方便与他人交流，人们可能会选择使用约定俗成的名称，将这些流动变化的动态事物赋予名字和称谓，例如“大卫”、“南希”、“公爵”、“公爵夫人”、“老板”等等。当人们被这些标签识别时，他们可以根据具体情况，合理地被称为拥有者、发动者、接收者等。然而，无论这些名称和称谓是否存在或是否被使用，自然的动态都按照自然法则进行，并受其各自的因缘条件所塑造。这里的关键在于能够清楚地区分自然现象本身及其特定的约定俗成之称谓。不应将这两个方面混淆。在使用约定俗成之称谓之前，应当对作为基础的现象有一个透彻的理解。
+这就是事物根据自然规律真实存在的方式。然而，为了方便与他人交流，人们可能会选择使用约定俗成的名称，将这些流动变化的动态事物赋予名字和称谓，例如“陈刚”、“何丽”、“公爵”、“公爵夫人”、“老板”等等。当人们被这些标签识别时，他们可以根据具体情况，合理地被称为拥有者、发动者、接收者等。然而，无论这些名称和称谓是否存在或是否被使用，自然的动态都按照自然法则进行，并受其各自的因缘条件所塑造。这里的关键在于能够清楚地区分自然现象本身及其特定的约定俗成之称谓。不应将这两个方面混淆。在使用约定俗成之称谓之前，应当对作为基础的现象有一个透彻的理解。
 
 自然现象本身及其世俗概念都是不可或缺的。自然现象（常被称为“究竟实相”——paramattha）是自然的层面。世俗概念则与人类的日常事务有关。问题之所以产生，是因为人们常常混淆这两者，即他们试图使现象符合概念，从而导致各种麻烦。现象本身不遭受任何苦恼；它们只是按照自己的本性运行；它们不关心人们是否执着于它们。唯有人类遭受苦恼。而且，由于现象本身对人们的苦恼无动于衷，人们感到自己的欲望受挫，从而遭受更多痛苦。
 
@@ -1615,9 +1618,9 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 
 人类能够造业并承受其果报，而不需要一个恒久的“行为者”或“承受者”参与其中。当遇到自然界中的任何过程时，需要探究是什么相互关联的条件产生了这种动态。同样，这种动态的结果是什么，即它是如何转化和变化的？就人类而言，那些统称为“造业”（kamma）的条件因素是因，为个体带来果报（vipāka）。我们可以将这个过程称为人类的行为和行为的果报，而不需要一个独立的“行为者”或“果报承受者”实体。
 
-业等同于这种因果过程，它与我们给事物所贴的约定俗成的标签截然不同。当人们彼此同意，对构成个体人类的自然动态应用约定俗成的名称时，比如称一个人为麦克（Mac），另一个人为莉莉（Lily），那么被认定为“麦克”或“莉莉”的实体就被承认为特定行为的施事者或受事者。然而，自然现象——身心过程——本身是完整的，并且独立于这些名称和约定俗成而进行；它是独立地进行的。
+业等同于这种因果过程，它与我们给事物所贴的约定俗成的标签截然不同。当人们彼此同意，对构成个体人类的自然动态应用约定俗成的名称时，比如称一个人为李明，另一个人为王丽，那么被认定为“李明”或“王丽”的实体就被承认为特定行为的施事者或受事者。然而，自然现象——身心过程——本身是完整的，并且独立于这些名称和约定俗成而进行；它是独立地进行的。
 
-当人们使用约定俗成的语言时（例如，说“麦克做了某某行为，并承受了某某结果”），就应该清楚自己是在这个层面说话。同样，当人们谈论究竟层面或提及绝对真理时（例如，描述在身心动态中产生特定结果的因缘条件），也应该清楚这一点。如果人们在使用言语时，清楚自己的目标和目的，并且不混淆这些不同层次的真理，那么就没有问题。[\[95\]](#fn-fn95){:id="fr-fn95"}
+当人们使用约定俗成的语言时（例如，说“李明做了某某行为，并承受了某某结果”），就应该清楚自己是在这个层面说话。同样，当人们谈论究竟层面或提及绝对真理时（例如，描述在身心动态中产生特定结果的因缘条件），也应该清楚这一点。如果人们在使用言语时，清楚自己的目标和目的，并且不混淆这些不同层次的真理，那么就没有问题。[\[95\]](#fn-fn95){:id="fr-fn95"}
 
 人们的考察不必集中于人类，因为人类是由极其错综复杂的因缘聚合而成，并附加了各种心所法。即使是物质事物，例如前面提到的城堡河，人们也常常执着于世俗概念，并围绕自然现象创造出固定的身份。
 
@@ -1625,17 +1628,17 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 
 仅关注世俗概念来研究业的原理，会导致对因果关系的理解过于宽泛。人们可能会考察某人在过去某一天所做的特定恶业，并将其与十年后发生的负面结果联系起来。在这里，人们勾勒出一条跨越十年之久的因果关系。这种考察无法清晰细致地揭示因果过程，因为它没有解释相关因缘的持续流转。然而，对现象的详细研究有助于辨识不间断、相互关联的事件流，并揭示行为及其果报之间的真实联系。[\[96\]](#fn-fn96){:id="fr-fn96"}
 
-克里斯可能与他的一个邻居发生争执，一怒之下将他杀害。他害怕被当局逮捕，也害怕受害人亲友的报复，于是躲藏起来。最终，他被捕并受到惩罚。
+赵勇可能与他的一个邻居发生争执，一怒之下将他杀害。他害怕被当局逮捕，也害怕受害人亲友的报复，于是躲藏起来。最终，他被捕并受到惩罚。
 
-即使刑期已满，克里斯仍然被这桩恶行所困扰，邻居的形象也挥之不去。他经历了身心上的痛苦；他无法找到任何平静。他的外表也发生了变化；他显得忧郁、多疑和痛苦。
+即使刑期已满，赵勇仍然被这桩恶行所困扰，邻居的形象也挥之不去。他经历了身心上的痛苦；他无法找到任何平静。他的外表也发生了变化；他显得忧郁、多疑和痛苦。
 
 由于其他因素，例如他身体强壮，他变得暴躁和暴力。经过长时间后，他的性格改变了；他变得粗鲁和残忍，他通过暴力行为来掩盖自己的痛苦。他成为社会的危险人物，也无法在人群中找到任何快乐。
 
-这个故事的简短叙述会这样说：“克里斯做了一件卑鄙的事，并自食其果。”使用这种日常、约定俗成的语言，人们很容易理解；它为沟通提供了便利。但这只描述了事物的外在状态，或是对精微相互关联的因缘的粗略描述。它没有触及自然现象的根本因果关系。
+这个故事的简短叙述会这样说：“赵勇做了一件卑鄙的事，并自食其果。”使用这种日常、约定俗成的语言，人们很容易理解；它为沟通提供了便利。但这只描述了事物的外在状态，或是对精微相互关联的因缘的粗略描述。它没有触及自然现象的根本因果关系。
 
 另一方面，对现象的究竟本性的讨论，描述了自然过程的要旨。例如，可以说：“在这个由五蕴组成的特定动态中，愤怒在心中生起，导致进一步的造作活动和身体行为的表达。心继续被愤怒塑造，导致心的品质发生改变，现在以不信任、恐惧和恶意等负面状态为特征。当心频繁地被愤怒所制约时，负面心念累积，直至成为固定的性格特征。这些负面心念在个体内部造成痛苦，在这种情况下甚至导致身体上的痛苦。”
 
-这种对现象的讨论是完整的，无需提及一个名叫克里斯的人或任何世俗身份。这里的动态包含各种因素，这些因素作为相互关联的因缘而生起并发挥作用。有行为和行为的果报，而不需要一个“行为者”或“承受者”。
+这种对现象的讨论是完整的，无需提及一个名叫赵勇的人或任何世俗身份。这里的动态包含各种因素，这些因素作为相互关联的因缘而生起并发挥作用。有行为和行为的果报，而不需要一个“行为者”或“承受者”。
 
 无论使用哪种语言，所讨论现象的本质真理始终不变。不同之处在于，对事物究竟本性的讨论只提及实相的纯粹方面，而没有在实相之上添加约定俗成的概念。
 
@@ -1699,7 +1702,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > 所行之业，若行后心生痛苦，涕泪满面，承受其果报，则此业非善作。
 >
 > 所行之业，若行后心无痛苦，心生喜悦，承受其果报，则此业是善作。  
-> [Dhp 67-8](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-033-075-citta-puppha-bala/#58-dhp-67-农夫的故事-kassakavatthu){: target="_blank" rel="noopener"}, Bālavagga
+> [Dhp 67-68](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-033-075-citta-puppha-bala/#58-dhp-67-农夫的故事-kassakavatthu){: target="_blank" rel="noopener"}, Bālavagga
 >
 > 愚者无智，自作自受，犹如仇敌。彼等行恶业，唯得苦果。所行之业，若行后心生痛苦，涕泪满面，承受其果报，则此业非善作。
 >
@@ -1714,7 +1717,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > [MN 7 / M i 39](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-007-vattha/){: target="_blank" rel="noopener"}, Vattha Sutta
 
 > 如果一个人能通过沐浴（洗刷罪恶）来逃脱恶业，那么青蛙、乌龟、蛇、鳄鱼和其他水生动物肯定都会上天堂。如果这些河流能够冲刷掉你过去的恶业，那么它们肯定也会冲刷掉你的善业。  
-> [Thig 12.1 / Thīg verses 240-41](https://aipali.true-dhamma.com/sutta/kn/kn-09-thig/thig-01-12-ekaka-solasaka/#thig-121-富娜长老尼偈-puṇṇātherīgāthā){: target="_blank" rel="noopener"}, [Thig 12.1 / Thīg verse 243](https://aipali.true-dhamma.com/sutta/kn/kn-09-thig/thig-01-12-ekaka-solasaka/#thig-121-富娜长老尼偈-puṇṇātherīgāthā){: target="_blank" rel="noopener"}
+> [Thig 12.1 / Thīg verses 240-241](https://aipali.true-dhamma.com/sutta/kn/kn-09-thig/thig-01-12-ekaka-solasaka/#thig-121-富娜长老尼偈-puṇṇātherīgāthā){: target="_blank" rel="noopener"}, [Thig 12.1 / Thīg verse 243](https://aipali.true-dhamma.com/sutta/kn/kn-09-thig/thig-01-12-ekaka-solasaka/#thig-121-富娜长老尼偈-puṇṇātherīgāthā){: target="_blank" rel="noopener"}
 >
 > 清净并非来自众人前往沐浴的\[圣\]水。具足真理与正法者，方为清净，方为婆罗门。  
 > [Ud 1.9 / Ud 6](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-01-bodhi/#9-ud-19-结发外道-jaṭilasutta){: target="_blank" rel="noopener"}, Jaṭila Sutta
@@ -1742,7 +1745,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > 居士，世间有这五种令人渴望、诱人、合意且难以获得的事物。哪五种？长寿……美貌……安乐……名誉……天界……。这五种事物……我说，不是通过祈祷或野心就能获得的。如果这五种事物……可以通过祈祷或野心获得，这里谁会缺少任何东西呢？
 >
 > 居士，渴望长寿的圣弟子不应该仅仅因为渴望而祈祷长寿或沉溺于长寿。渴望长寿的圣弟子应该修习有助于长寿之道。因为当他修习有助于长寿之道时，它会导致他获得长寿，并且他会获得人或天界的寿命。渴望美貌……安乐……名誉……天界的圣弟子，应该修习有助于美貌……安乐……名誉……天界之道。  
-> [AN 5.43 / A iii 47-8](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#3-an-543-五法可爱-iṭṭhasutta){: target="_blank" rel="noopener"}, Iṭṭha Sutta
+> [AN 5.43 / A iii 47-48](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#3-an-543-五法可爱-iṭṭhasutta){: target="_blank" rel="noopener"}, Iṭṭha Sutta
 >
 > 比丘们，当一位比丘不持续精进培育心时，即便他心中可能生起这样的愿望：“啊，愿我的心能通过不执着而从诸漏中解脱！”然而他的心并没有通过不执着而从诸漏中解脱……。假设有一只母鸡，有八个、十个或十二个蛋，但她没有妥善覆盖、孵化和照料它们。即使她心中可能生起这样的愿望：“啊，愿我的小鸡能用它们的爪尖和喙尖破壳而出，平安孵化！”然而，那些小鸡却无法自行啄破蛋壳、平安孵出。  
 > [SN 22.101 / S iii 153](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-93-102-puppha/#9-sn-22101-斧柄经-vāsijaṭasutta){: target="_blank" rel="noopener"}, Vāsijaṭa Sutta
@@ -1756,7 +1759,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > 名姓和氏族在世间只是被当作称谓来指定，它们起源于根据场合而定的称呼方式。那些不了解这个事实，心中邪见已深埋多年的，宣称：“人是因出生而为婆罗门。”一个人不是因出生而为婆罗门，也不是因出生而为非婆罗门。一个人是因其业（kamma）而为婆罗门，是因其业而为非婆罗门。[\[101\]](#fn-fn101){:id="fr-fn101"} 人们因其职业而成为农夫、工匠、商人、仆人、盗贼、士兵、祭司，甚至国王。
 >
 > 智者，缘起之见者，善于行动及其结果者，能如实看到行动。行动让世界运转；行动让这一代的众生轮回不止。众生被行动束缚，就像车轮被轴钉束缚一样。  
-> [MN 98 / M ii 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-098-vasettha/){: target="_blank" rel="noopener"}; [Snp 35 / Sn 119-23](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}
+> [MN 98 / M ii 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-098-vasettha/){: target="_blank" rel="noopener"}；[Snp 35 / Sn 119-123](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}
 
 > 婆罗门，我不是说一个人出身贵族就更好，也不是说一个人出身贵族就更差。我不是说一个人拥有有影响力的社会地位就更好，也不是说一个人拥有有影响力的社会地位就更差。[\[102\]](#fn-fn102){:id="fr-fn102"} 我不是说一个人财富巨大就更好，也不是说一个人财富巨大就更差。
 >
@@ -1764,7 +1767,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > [MN 96 / M ii 179](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-096-esukari/){: target="_blank" rel="noopener"}, Esukārī Sutta
 >
 > 一个人不是因出生而为贱民，一个人也不是因出生而为婆罗门。是靠行为，一个人成为贱民，是靠行为，一个人成为婆罗门。  
-> [Snp 7 / Sn 23-4](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#7-snp-7-贱民经-vasalasutta){: target="_blank" rel="noopener"}, Vasala Sutta
+> [Snp 7 / Sn 23-24](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#7-snp-7-贱民经-vasalasutta){: target="_blank" rel="noopener"}, Vasala Sutta
 >
 > 当四种社会阶层——刹帝利、婆罗门、吠舍和首陀罗——从居家生活出离，在如来所宣讲的法与律中过无家生活时，他们都放弃了旧有的名姓和氏族，都被视为跟随释迦子出家的人。  
 > [AN 8.19 / A iv 202](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-011-020-maha/#9-an-819-波呵罗阿修罗王经-pahārādasutta){: target="_blank" rel="noopener"}, Pahārāda Sutta
@@ -1784,12 +1787,12 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > [Dhp 165](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#129-dhp-165-小迦罗受妓女保护的故事-cūḷakālaupāsakavatthu){: target="_blank" rel="noopener"}, Attavagga
 >
 > 比丘们，以自己为皈依而住，没有其他皈依；以法为皈依而住，没有其他皈依。  
-> [DN 16 / D ii 100](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}; [DN 26 / D iii 77](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-26-cakkavatti/){: target="_blank" rel="noopener"}; [SN 22.43 / S iii 42](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-43-52-attadipa/#1-sn-2243-自洲经-attadīpasutta){: target="_blank" rel="noopener"}
+> [DN 16 / D ii 100](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[DN 26 / D iii 77](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-26-cakkavatti/){: target="_blank" rel="noopener"}；[SN 22.43 / S iii 42](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-43-52-attadipa/#1-sn-2243-自洲经-attadīpasutta){: target="_blank" rel="noopener"}
 
 ### 对未来的劝诫
 
 > 女人或男人，在家居士或出家人，都应该再三反省：“我是我的业的主人，是我的业的继承者，由我的业所生，与我的业相关联，依我的业而住；无论我将造作何种业，是善是恶，我都将是它的继承者。”  
-> [AN 5.57 / A iii 71-2](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-051-060-nivarana/#7-an-557-常思五处经-abhiṇhapaccavekkhitabbaṭhānasutta){: target="_blank" rel="noopener"}, Abhiṇhapaccavekkhitabbaṭhāna Sutta
+> [AN 5.57 / A iii 71-72](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-051-060-nivarana/#7-an-557-常思五处经-abhiṇhapaccavekkhitabbaṭhānasutta){: target="_blank" rel="noopener"}, Abhiṇhapaccavekkhitabbaṭhāna Sutta
 >
 > 如果你害怕痛苦，就不要公开或秘密地做恶行。如果你将做恶行或现在正在做恶行，就无法摆脱痛苦，即使你跳起来逃跑也一样。  
 > [Ud 5.4 / Ud 51](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-05-sona/#4-ud-54-童子-kumārakasutta){: target="_blank" rel="noopener"}, Kumāraka Sutta
@@ -1920,7 +1923,7 @@ Paṭikamma 最初是一个普通日常用语，用于指修复损坏之物、�
 > 比丘们，有三种业的生起因。哪三种？贪……嗔……痴……
 >
 > 任何通过贪、由贪所生、由贪所致、由贪所起的业……通过嗔所造的业……通过痴所造的业……由痴所起的业，无论个体在哪里投生，它都会在那里成熟。无论该业在哪里成熟，个体就在那里体验其结果，或在现世，或在\[来\]生，或在某个后续场合。  
-> [AN 3.34 / A i 134-5](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-031-040-devaduta/#4-an-334-因缘经-nidānasutta){: target="_blank" rel="noopener"}, Nidāna Sutta
+> [AN 3.34 / A i 134-135](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-031-040-devaduta/#4-an-334-因缘经-nidānasutta){: target="_blank" rel="noopener"}, Nidāna Sutta
 
 这些经文的义注正是《满足希望》，它提供了如上所述的十二种业最详细的描述。
 
@@ -1975,7 +1978,7 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 
 ![image](./images/illustrations/head-spiral.jpg)
 
-\[1\] 译注：我在此文本中不愿使用“karma”或“karmic”这些词语，因为人们对佛教的“业/kamma”概念存在诸多误解。举例来说，《柯林斯简明词典》（Collins Concise Dictionary，1999年第四版）中“karma”的前两个定义是：1. 印度教、佛教。一种报应正义的原则，通过人过去的作为来决定其生命状态及其轮回状态；2. 命运或天意。希望本文能展示并解释这些定义与佛教原始含义的遥远距离。[&nbsp;↩&nbsp;](#fr-fn1)
+\[1\] 译者注：我在此文本中不愿使用“karma”或“karmic”这些词语，因为人们对佛教的“业/kamma”概念存在诸多误解。举例来说，《柯林斯简明词典》（Collins Concise Dictionary，1999年第四版）中“karma”的前两个定义是：1. 印度教、佛教。一种报应正义的原则，通过人过去的作为来决定其生命状态及其轮回状态；2. 命运或天意。希望本文能展示并解释这些定义与佛教原始含义的遥远距离。[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
 \[2\] 佛陀描述了缘起与业的法则之间的密切联系：“智者，那些辨识缘起并善于行动及其结果的人，如实认知意志行动，因此……”（[MN 98 / M ii 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-098-vasettha/){: target="_blank" rel="noopener"}；[Snp 35 / Sn 123](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn2)
@@ -1984,22 +1987,22 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[3\] 例如：DA. II. 439；DhsA. 272。Niyāma 在英语中被学者们以各种方式翻译，包括“自然的秩序”和“自然法则的五个方面”。另请参阅第三章“三法印”开头的脚注。[&nbsp;↩&nbsp;](#fr-fn3)
 {: id="fn-fn3"}
 
-\[4\] [MN 98 / M ii 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-098-vasettha/){: target="_blank" rel="noopener"}；[Snp 35 / Sn 123](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}。另译：“世界因业而存在”。\[译注：比丘菩提的译文是：“行动使世界运转。”\][&nbsp;↩&nbsp;](#fr-fn4)
+\[4\] [MN 98 / M ii 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-098-vasettha/){: target="_blank" rel="noopener"}；[Snp 35 / Sn 123](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#35-snp-35-婆悉吒经-vāseṭṭhasutta){: target="_blank" rel="noopener"}。另译：“世界因业而存在”。\[译者注：比丘菩提的译文是：“行动使世界运转。”\][&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
 \[5\] 阿毗达摩学者会指出，虽然由五蕴组成的人类受制于所有自然法则，但五蕴中只有部分是作为业的结果而生起并直接受业支配的。例如，阿毗达摩区分了我们身体的物质形式（rūpa-dhamma）可能作为业、心（citta）、物理法则（utu）或食物（āhāra）的结果而生起。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
-\[6\] 译注：请注意，niyamana 一词在词源上与 niyāma 相关。[&nbsp;↩&nbsp;](#fr-fn6)
+\[6\] 译者注：请注意，niyamana 一词在词源上与 niyāma 相关。[&nbsp;↩&nbsp;](#fr-fn6)
 {: id="fn-fn6"}
 
-\[7\] [AN 6.63 / A iii 413-14](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#9-an-663-决择法经-nibbedhikasutta){: target="_blank" rel="noopener"}, Nibbedhika Sutta。[&nbsp;↩&nbsp;](#fr-fn7)
+\[7\] [AN 6.63 / A iii 413-414](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#9-an-663-决择法经-nibbedhikasutta){: target="_blank" rel="noopener"}, Nibbedhika Sutta。[&nbsp;↩&nbsp;](#fr-fn7)
 {: id="fn-fn7"}
 
 \[8\] 同上。[&nbsp;↩&nbsp;](#fr-fn8)
 {: id="fn-fn8"}
 
-\[9\] [SN 22.57 / S iii 63-4](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#5-sn-2257-七处经-sattaṭṭhānasutta){: target="_blank" rel="noopener"}；参阅：Vism. 526-7, 530-31。[&nbsp;↩&nbsp;](#fr-fn9)
+\[9\] [SN 22.57 / S iii 63-64](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-53-62-upaya/#5-sn-2257-七处经-sattaṭṭhānasutta){: target="_blank" rel="noopener"}；参阅：Vism. 526-527, 530-531。[&nbsp;↩&nbsp;](#fr-fn9)
 {: id="fn-fn9"}
 
 \[10\] 巴利语 satta（“有情”）通常指人类。佛陀在觉悟前被称为 bodhisatta 或 mahāsatta。即使在觉悟后，他有时也被称为“超越一切妄想的有情”（例如：[MN 4 / M i 21](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-004-bhayabherava/){: target="_blank" rel="noopener"}；[MN 12 / M i 83](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-012-mahasihanada/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn10)
@@ -2008,7 +2011,7 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[11\] “提供”一词是 anupadāna 的翻译，它也可以翻译为“管理”、“分享”、“分配”或“给予”。[&nbsp;↩&nbsp;](#fr-fn11)
 {: id="fn-fn11"}
 
-\[12\] 参阅：[AN 3.6 / A i 104](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-001-010-bala/#6-an-36-不善经-akusalasutta){: target="_blank" rel="noopener"}；[AN 3.112 / A i 263](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#9-an-3112-缘之一经-paṭhamanidānasutta){: target="_blank" rel="noopener"}；[Iti 2.3–4 / It 25-6](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-02-duka/#13-iti-23-焦恼经){: target="_blank" rel="noopener"}；[Iti 3.16 / It 54-5](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#26-iti-316-妙行经){: target="_blank" rel="noopener"}。关于不善根和善根，参阅：[DN 34 / D iii 275](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 3.70 / A i 201-202](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#9-an-370-不善根经-akusalamūlasutta){: target="_blank" rel="noopener"}；Dhs. 180。关于三善根，无贪是指那些对抗贪（lobha）的品质，包括布施（cāga；“舍弃”）；无嗔（adosa；“无恶意”）是指那些对抗嗔的品质，尤其是慈心（mettā）；而无痴是指那些对抗痴的品质，尤其是智慧（paññā）（参阅：Dhs. 188-9；Majjhimanikāya Ṭīkā \[缅甸版 1/56\]）。[&nbsp;↩&nbsp;](#fr-fn12)
+\[12\] 参阅：[AN 3.6 / A i 104](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-001-010-bala/#6-an-36-不善经-akusalasutta){: target="_blank" rel="noopener"}；[AN 3.112 / A i 263](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#9-an-3112-缘之一经-paṭhamanidānasutta){: target="_blank" rel="noopener"}；[Iti 2.3–4 / It 25-26](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-02-duka/#13-iti-23-焦恼经){: target="_blank" rel="noopener"}；[Iti 3.16 / It 54-55](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#26-iti-316-妙行经){: target="_blank" rel="noopener"}。关于不善根和善根，参阅：[DN 34 / D iii 275](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 3.70 / A i 201-202](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#9-an-370-不善根经-akusalamūlasutta){: target="_blank" rel="noopener"}；Dhs. 180。关于三善根，无贪是指那些对抗贪（lobha）的品质，包括布施（cāga；“舍弃”）；无嗔（adosa；“无恶意”）是指那些对抗嗔的品质，尤其是慈心（mettā）；而无痴是指那些对抗痴的品质，尤其是智慧（paññā）（参阅：Dhs. 188-189；Majjhimanikāya Ṭīkā \[缅甸版 1/56\]）。[&nbsp;↩&nbsp;](#fr-fn12)
 {: id="fn-fn12"}
 
 \[13\] [MN 56 / M i 373](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-056-upali/){: target="_blank" rel="noopener"}；[AN 3.6 / A i 104](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-001-010-bala/#6-an-36-不善经-akusalasutta){: target="_blank" rel="noopener"}；Dhs. 180。[&nbsp;↩&nbsp;](#fr-fn13)
@@ -2017,22 +2020,22 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[14\] [AN 3.6 / A i 104](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-001-010-bala/#6-an-36-不善经-akusalasutta){: target="_blank" rel="noopener"}, [AN 3.147 / A i 292](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-147-156-mangala/#1-an-3147-不善经-akusalasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn14)
 {: id="fn-fn14"}
 
-\[15\] 这四种是业的比喻性定义，具有多重细微含义。参阅：[DN 33 / D iii 230](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[MN 57 / M i 389-90](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-057-kukkuravatika/){: target="_blank" rel="noopener"}；[AN 4.232–238 / A ii 230-37](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#1-an-4232-四业经-saṃkhittasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn15)
+\[15\] 这四种是业的比喻性定义，具有多重细微含义。参阅：[DN 33 / D iii 230](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[MN 57 / M i 389-390](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-057-kukkuravatika/){: target="_blank" rel="noopener"}；[AN 4.232–238 / A ii 230-237](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#1-an-4232-四业经-saṃkhittasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn15)
 {: id="fn-fn15"}
 
 \[16\] 有关这十二种分类的更多细节，请参阅附录。[&nbsp;↩&nbsp;](#fr-fn16)
 {: id="fn-fn16"}
 
-\[17\] 关于邪见（micchā-diṭṭhi）和正见（sammā-diṭṭhi）作为心业（mano-kamma）的形式，参阅：[AN 10.217–218 / A v 296-8](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-211-220-karajakaya/#7-an-10217-故思业之一经-paṭhamasañcetanikasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn17)
+\[17\] 关于邪见（micchā-diṭṭhi）和正见（sammā-diṭṭhi）作为心业（mano-kamma）的形式，参阅：[AN 10.217–218 / A v 296-298](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-211-220-karajakaya/#7-an-10217-故思业之一经-paṭhamasañcetanikasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
-\[18\] 关于正见和邪见对觉悟能力的重要性，参阅：[SN 45.9 / S v 10-11](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-01-10-avijja/#9-sn-459-芒经-sūkasutta){: target="_blank" rel="noopener"}；[SN 45.154 / S v 48-9](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-41-181-maggapeyyala/#86-sn-45154-芒喻经-sūkasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn18)
+\[18\] 关于正见和邪见对觉悟能力的重要性，参阅：[SN 45.9 / S v 10-11](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-01-10-avijja/#9-sn-459-芒经-sūkasutta){: target="_blank" rel="noopener"}；[SN 45.154 / S v 48-49](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-41-181-maggapeyyala/#86-sn-45154-芒喻经-sūkasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn18)
 {: id="fn-fn18"}
 
-\[19\] \[译注：chāyā 在此的标准翻译是“影子”，但此词也可指“光辉”、“反射”、“美丽”、“光”。\][&nbsp;↩&nbsp;](#fr-fn19)
+\[19\] \[译者注：chāyā 在此的标准翻译是“影子”，但此词也可指“光辉”、“反射”、“美丽”、“光”。\][&nbsp;↩&nbsp;](#fr-fn19)
 {: id="fn-fn19"}
 
-\[20\] 译注：作者在此当然是指泰语中的对应词——“dee”（ดี）和“chua”（ชั่ว）——但同样的分析也适用于英语。[&nbsp;↩&nbsp;](#fr-fn20)
+\[20\] 译者注：作者在此当然是指泰语中的对应词——“dee”（ดี）和“chua”（ชั่ว）——但同样的分析也适用于英语。[&nbsp;↩&nbsp;](#fr-fn20)
 {: id="fn-fn20"}
 
 \[21\] 如果在这里想使用“价值”一词，那么它是一种与自然真理相关的价值，而非人类赋予的价值。[&nbsp;↩&nbsp;](#fr-fn21)
@@ -2041,10 +2044,10 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[22\] 参阅：DhsA. 38, 62；PsA. I. 129, 206；VismṬ.: Khandhaniddesavaṇṇanā, Viññāṇakkhandhakathāvaṇṇanā；Saṅganī-anuṭīkā 201；DA. II. 645；DA. III. 883；AA. III. 161。一些文献除了提供上述定义外，还提供了 kusala 一词的字面定义。详情请参阅参考文献。请注意，以上定义包含了作者的扩展解释；它们并非逐字逐句摘自经文。[&nbsp;↩&nbsp;](#fr-fn22)
 {: id="fn-fn22"}
 
-\[23\] 参阅：Dhs. 66-7。这些因素是从《阿毗达摩》中善心所（sobhaṇa-cetasika）的列表中提取的。[&nbsp;↩&nbsp;](#fr-fn23)
+\[23\] 参阅：Dhs. 66-67。这些因素是从《阿毗达摩》中善心所（sobhaṇa-cetasika）的列表中提取的。[&nbsp;↩&nbsp;](#fr-fn23)
 {: id="fn-fn23"}
 
-\[24\] 这些因素是参照五盖（nīvaraṇa）和七觉支（bojjhaṅga）提出的；它们汇编自：[SN 46.33–40 / S v 92-8](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-31-40-nivarana/#3-sn-4633-随烦恼经-upakkilesasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn24)
+\[24\] 这些因素是参照五盖（nīvaraṇa）和七觉支（bojjhaṅga）提出的；它们汇编自：[SN 46.33–40 / S v 92-98](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-31-40-nivarana/#3-sn-4633-随烦恼经-upakkilesasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn24)
 {: id="fn-fn24"}
 
 \[25\] 这些是善定心的特质；例如，参阅：[MN 85 / M ii 93](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn25)
@@ -2053,13 +2056,13 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[26\] 这些特质在三藏的不同段落中有所提及；请参阅第七章“觉悟者”中关于觉悟者特质的部分。[&nbsp;↩&nbsp;](#fr-fn26)
 {: id="fn-fn26"}
 
-\[27\] 这一组强调阿罗汉的自由。它在三藏中多处出现，略有变异。参阅：[MN 111 / M iii 25](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-111-anupada/){: target="_blank" rel="noopener"}；[MN 112 / M iii 30](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-112-chabbisodhana/){: target="_blank" rel="noopener"}；[SN 22.28 / S iii 30-31](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-22-32-bhara/#7-sn-2228-味经三-tatiyaassādasuttaṃ){: target="_blank" rel="noopener"}；[SN 35.17 / S iv 11-12](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-13-22-yamaka/#5-sn-3517-若无乐味之一-paṭhamanoceassādasutta){: target="_blank" rel="noopener"}；[AN 3.106 / A i 260](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#3-an-3106-滋味之二经-dutiyaassādasutta){: target="_blank" rel="noopener"}；[AN 10.81 / A v 152](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-081-090-thera/#1-an-1081-瓦哈那经-vāhanasutta){: target="_blank" rel="noopener"}；并且在《大义释》中不少于十五次出现，例如：Nd. I. 55-6, 71, 90, 133。[&nbsp;↩&nbsp;](#fr-fn27)
+\[27\] 这一组强调阿罗汉的自由。它在三藏中多处出现，略有变异。参阅：[MN 111 / M iii 25](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-111-anupada/){: target="_blank" rel="noopener"}；[MN 112 / M iii 30](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-112-chabbisodhana/){: target="_blank" rel="noopener"}；[SN 22.28 / S iii 30-31](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-22-32-bhara/#7-sn-2228-味经三-tatiyaassādasuttaṃ){: target="_blank" rel="noopener"}；[SN 35.17 / S iv 11-12](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-13-22-yamaka/#5-sn-3517-若无乐味之一-paṭhamanoceassādasutta){: target="_blank" rel="noopener"}；[AN 3.106 / A i 260](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#3-an-3106-滋味之二经-dutiyaassādasutta){: target="_blank" rel="noopener"}；[AN 10.81 / A v 152](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-081-090-thera/#1-an-1081-瓦哈那经-vāhanasutta){: target="_blank" rel="noopener"}；并且在《大义释》中不少于十五次出现，例如：Nd. I. 55-56, 71, 90, 133。[&nbsp;↩&nbsp;](#fr-fn27)
 {: id="fn-fn27"}
 
-\[28\] 这里的“渴望”、“希望”等词是巴利语 rāga 的翻译，它与 lobha 同义。rāga 的翻译有时仅限于“淫欲”的定义，但它具有更广的含义范围。参阅：Paṭ: 154-5, 168-9。[&nbsp;↩&nbsp;](#fr-fn28)
+\[28\] 这里的“渴望”、“希望”等词是巴利语 rāga 的翻译，它与 lobha 同义。rāga 的翻译有时仅限于“淫欲”的定义，但它具有更广的含义范围。参阅：Paṭ: 154-155, 168-169。[&nbsp;↩&nbsp;](#fr-fn28)
 {: id="fn-fn28"}
 
-\[29\] 关于这些定义，参阅：ItA. I. 78, 152-3；AA. II. 42, 91；UdA. 220；VinA. II. 404；VbhA. 142；VinT. \[2/142\]；VinṬ.: Tatiyapārājikaṁ, Paṭhamapaññatinidānavaṇṇanā；VismṬ.: Khandhaniddesavaṇṇanā, Viññāṇakkhandhakathāvaṇṇanā；VismṬ.: Paññābhūminiddesavaṇṇanā, Avijjāpaccayāsaṅkhārapadakathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn29)
+\[29\] 关于这些定义，参阅：ItA. I. 78, 152-153；AA. II. 42, 91；UdA. 220；VinA. II. 404；VbhA. 142；VinT. \[2/142\]；VinṬ.: Tatiyapārājikaṁ, Paṭhamapaññatinidānavaṇṇanā；VismṬ.: Khandhaniddesavaṇṇanā, Viññāṇakkhandhakathāvaṇṇanā；VismṬ.: Paññābhūminiddesavaṇṇanā, Avijjāpaccayāsaṅkhārapadakathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn29)
 {: id="fn-fn29"}
 
 \[30\] 例如：[SN 49.1 / S v 244](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-49-sammappadhana/sn-49-sammappadhana/#11-sn-491-12-东方等十二经-pācīnādisuttadvādasaka){: target="_blank" rel="noopener"}；[AN 4.13 / A ii 15](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-011-020-cara/#3-an-413-四正勤经-padhānasutta){: target="_blank" rel="noopener"}；SA. I. 266；SnA. \[1/109, 226\]。[&nbsp;↩&nbsp;](#fr-fn30)
@@ -2068,7 +2071,7 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[31\] DA. III. 858。[&nbsp;↩&nbsp;](#fr-fn31)
 {: id="fn-fn31"}
 
-\[32\] 参阅：[SN 11.16 / S i 233](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-11-sakka/sn-11-sakka/#26-sn-1116-供牺牲经-yajamānasutta){: target="_blank" rel="noopener"}；[AN 8.60 / A iv 293](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#10-an-860-第二个人经-dutiyapuggalasutta){: target="_blank" rel="noopener"}；[Iti 1.27 / It 19-20](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-01-ekaka/#37-iti-127-修慈经){: target="_blank" rel="noopener"}；[Iti 3.34 / It 77-8](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#44-iti-334-五前相经){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn32)
+\[32\] 参阅：[SN 11.16 / S i 233](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-11-sakka/sn-11-sakka/#26-sn-1116-供牺牲经-yajamānasutta){: target="_blank" rel="noopener"}；[AN 8.60 / A iv 293](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#10-an-860-第二个人经-dutiyapuggalasutta){: target="_blank" rel="noopener"}；[Iti 1.27 / It 19-20](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-01-ekaka/#37-iti-127-修慈经){: target="_blank" rel="noopener"}；[Iti 3.34 / It 77-78](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#44-iti-334-五前相经){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn32)
 {: id="fn-fn32"}
 
 \[33\] 参阅：ItA. I. 78。[&nbsp;↩&nbsp;](#fr-fn33)
@@ -2077,7 +2080,7 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[34\] ItA. I. 73。[&nbsp;↩&nbsp;](#fr-fn34)
 {: id="fn-fn34"}
 
-\[35\] [DN 26 / D iii 78-9](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-26-cakkavatti/){: target="_blank" rel="noopener"}。请注意，此段落的义注使用了 lokuttara-puñña 一词（DA. III. 858）。[&nbsp;↩&nbsp;](#fr-fn35)
+\[35\] [DN 26 / D iii 78-79](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-26-cakkavatti/){: target="_blank" rel="noopener"}。请注意，此段落的义注使用了 lokuttara-puñña 一词（DA. III. 858）。[&nbsp;↩&nbsp;](#fr-fn35)
 {: id="fn-fn35"}
 
 \[36\] 例如：[SN 12.51 / S ii 82](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-51-60-dukkha/#1-sn-1251-思量经-parivīmaṃsanasutta){: target="_blank" rel="noopener"}, Parivīmaṁsana Sutta。[&nbsp;↩&nbsp;](#fr-fn36)
@@ -2098,10 +2101,10 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[41\] 参阅脚注47。[&nbsp;↩&nbsp;](#fr-fn41)
 {: id="fn-fn41"}
 
-\[42\] 善（kusala）与福德（puñña）经常并列出现，在以下段落中具有相同含义：puññābhisanda kusalābhisanda（[AN 5.45 / A iii 51-2](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#5-an-545-五者生福-puññābhisandasutta){: target="_blank" rel="noopener"}；[AN 8.39 / A iv 245-6](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#9-an-839-等流果-abhisandasutta){: target="_blank" rel="noopener"}；参照：[SN 55.31–32 / S v 391](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-31-40-punnabhisanda/#1-sn-5531-润泽之一-paṭhamapuññābhisandasutta){: target="_blank" rel="noopener"}）；“尽管他想：‘让我行福德之事’，他却行了非福之事。尽管他想：‘让我做善事’，他却做了不善事”（[AN 7.47 / A iv 42-3](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#4-an-747-火之二经-dutiyaaggisutta){: target="_blank" rel="noopener"}）。另请注意上述在 [Iti 3.34 / It 77-8](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#44-iti-334-五前相经){: target="_blank" rel="noopener"}中，无依善（nirūpadhi-kusala）与有依福德（opadhika-puñña）的配对。[&nbsp;↩&nbsp;](#fr-fn42)
+\[42\] 善（kusala）与福德（puñña）经常并列出现，在以下段落中具有相同含义：puññābhisanda kusalābhisanda（[AN 5.45 / A iii 51-52](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-041-050-mundaraja/#5-an-545-五者生福-puññābhisandasutta){: target="_blank" rel="noopener"}；[AN 8.39 / A iv 245-246](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#9-an-839-等流果-abhisandasutta){: target="_blank" rel="noopener"}；参照：[SN 55.31–32 / S v 391](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-31-40-punnabhisanda/#1-sn-5531-润泽之一-paṭhamapuññābhisandasutta){: target="_blank" rel="noopener"}）；“尽管他想：‘让我行福德之事’，他却行了非福之事。尽管他想：‘让我做善事’，他却做了不善事”（[AN 7.47 / A iv 42-43](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#4-an-747-火之二经-dutiyaaggisutta){: target="_blank" rel="noopener"}）。另请注意上述在 [Iti 3.34 / It 77-78](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#44-iti-334-五前相经){: target="_blank" rel="noopener"}中，无依善（nirūpadhi-kusala）与有依福德（opadhika-puñña）的配对。[&nbsp;↩&nbsp;](#fr-fn42)
 {: id="fn-fn42"}
 
-\[43\] 例如：[MV 5 / Vin i 182](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}；[MN 67 / M i 461](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-067-catuma/){: target="_blank" rel="noopener"}；[AN 4.122 / A ii 125](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-121-130-bhaya/#2-an-4122-浪怖畏-ūmibhayasutta){: target="_blank" rel="noopener"}；[AN 6.55 / A iii 374-5](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#1-an-655-尊者守笼那经-soṇasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn43)
+\[43\] 例如：[MV 5 / Vin i 182](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}；[MN 67 / M i 461](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-067-catuma/){: target="_blank" rel="noopener"}；[AN 4.122 / A ii 125](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-121-130-bhaya/#2-an-4122-浪怖畏-ūmibhayasutta){: target="_blank" rel="noopener"}；[AN 6.55 / A iii 374-375](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#1-an-655-尊者守笼那经-soṇasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn43)
 {: id="fn-fn43"}
 
 \[44\] [MN 82 / M ii 57](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-082-ratthapala/){: target="_blank" rel="noopener"}；[AN 8.21 / A iv 209-210](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#1-an-821-郁伽居士经之一-paṭhamauggasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn44)
@@ -2125,7 +2128,7 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[50\] 请注意，阿毗达摩通常不使用福德（puñña）和恶（pāpa）这两个词语。例外情况是，当恶（pāpa）用作不善（akusala）一词的修饰语时，以及当福德（puñña）出现在具有特殊指定含义的福行（puññābhisaṅkhāra）一词中时。阿毗达摩论义注提到十福业事（puññakiriyā-vatthu）来解释欲界善心（kāmāvacara-kusalacitta）；参见：DhsA. 157。[&nbsp;↩&nbsp;](#fr-fn50)
 {: id="fn-fn50"}
 
-\[51\] 译注：参见第312页。[&nbsp;↩&nbsp;](#fr-fn51)
+\[51\] 译者注：参见第312页。[&nbsp;↩&nbsp;](#fr-fn51)
 {: id="fn-fn51"}
 
 \[52\] 在此，审视仅限于一个层面。在某些情况下，事情可能更为复杂，涉及其他因素。例如，人们可能需要考虑最初接受这些规定背后的智慧品质，这会影响当事人的意图。无论如何，在思考和行动的那一刻，意图都扮演着角色，并立即对人的心和整体生活产生影响。[&nbsp;↩&nbsp;](#fr-fn52)
@@ -2134,7 +2137,7 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[53\] 这不应与不会在人的外在生活中产生结果的思愿行混淆。[&nbsp;↩&nbsp;](#fr-fn53)
 {: id="fn-fn53"}
 
-\[54\] 参见：[MN 54 / M i 361-4](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-054-potaliya/){: target="_blank" rel="noopener"}；[MN 88 / M ii 114](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-088-bahitika/){: target="_blank" rel="noopener"}；[AN 2.18 / A i 57-8](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#28-an-218-应作与不应作){: target="_blank" rel="noopener"}；[AN 2.134–135 / A i 89](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-119-180-tatiyapannasaka/#25-an-2135-称与毁){: target="_blank" rel="noopener"} = [AN 4.3 / A ii 3](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-001-010-bhandagama/#3-an-43-受伤经之一-paṭhamakhatasutta){: target="_blank" rel="noopener"}；[AN 4.83 / A ii 84](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-081-090-macala/#3-an-483-诽谤经-avaṇṇārahasutta){: target="_blank" rel="noopener"}；[AN 5.217 / A iii 255](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-211-220-akkosaka/#7-an-5217-端正五德之一-paṭhamaapāsādikasutta){: target="_blank" rel="noopener"}；[AN 5.244 / A iii 267-8](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-241-250-duccarita/#4-an-5244-意恶行之一-paṭhamamanoduccaritasutta){: target="_blank" rel="noopener"}；[AN 10.23 / A v 39](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-021-030-maha/#3-an-1023-身经-kāyasutta){: target="_blank" rel="noopener"}；[Dhp 229](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-197-289-sukha-piya-kodha-mala-dhammattha-magga/#177-dhp-227-230-阿都罗的抱怨-atulaupāsakavatthu){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn54)
+\[54\] 参见：[MN 54 / M i 361-364](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-054-potaliya/){: target="_blank" rel="noopener"}；[MN 88 / M ii 114](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-088-bahitika/){: target="_blank" rel="noopener"}；[AN 2.18 / A i 57-58](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#28-an-218-应作与不应作){: target="_blank" rel="noopener"}；[AN 2.135–136 / A i 89](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-119-180-tatiyapannasaka/#25-an-2135-称与毁){: target="_blank" rel="noopener"} = [AN 4.3 / A ii 3](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-001-010-bhandagama/#3-an-43-受伤经之一-paṭhamakhatasutta){: target="_blank" rel="noopener"}；[AN 4.83 / A ii 84](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-081-090-macala/#3-an-483-诽谤经-avaṇṇārahasutta){: target="_blank" rel="noopener"}；[AN 5.217 / A iii 255](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-211-220-akkosaka/#7-an-5217-端正五德之一-paṭhamaapāsādikasutta){: target="_blank" rel="noopener"}；[AN 5.244 / A iii 267-268](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-241-250-duccarita/#4-an-5244-意恶行之一-paṭhamamanoduccaritasutta){: target="_blank" rel="noopener"}；[AN 10.23 / A v 39](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-021-030-maha/#3-an-1023-身经-kāyasutta){: target="_blank" rel="noopener"}；[Dhp 229](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-197-289-sukha-piya-kodha-mala-dhammattha-magga/#177-dhp-227-230-阿都罗的抱怨-atulaupāsakavatthu){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn54)
 {: id="fn-fn54"}
 
 \[55\] 第二个标准与第一个不同之处在于，它侧重于人们日常生活中所经历的可见影响，特别是安乐与痛苦的遭遇以及进步与衰退、繁荣与损失的表现。许多人并未察觉或不了解他们内心运作的动态。[&nbsp;↩&nbsp;](#fr-fn55)
@@ -2143,25 +2146,25 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[56\] 这段经文接着描述了“非善非恶的现象”——abyākata-dhamma。[&nbsp;↩&nbsp;](#fr-fn56)
 {: id="fn-fn56"}
 
-\[57\] 译注：作者在此未翻译巴利语 atta-bhāva。在他的《佛教术语词典》中，他为此术语提供了三个定义：“个体”、“生命”和“五蕴”。[&nbsp;↩&nbsp;](#fr-fn57)
+\[57\] 译者注：作者在此未翻译巴利语 atta-bhāva。在他的《佛教术语词典》中，他为此术语提供了三个定义：“个体”、“生命”和“五蕴”。[&nbsp;↩&nbsp;](#fr-fn57)
 {: id="fn-fn57"}
 
 \[58\] 这段文字是双关语（见下文）。[&nbsp;↩&nbsp;](#fr-fn58)
 {: id="fn-fn58"}
 
-\[59\] 提及有学生和老师引自 [SN 35.151 / S iv 136](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-146-155-navapurana/#6-sn-35151-内住弟子经-antevāsikasutta){: target="_blank" rel="noopener"}；提及内在染污引自 [Iti 3.39 / It 83-4](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#49-iti-339-内垢经){: target="_blank" rel="noopener"}；提及人心中生起三物引自 [SN 3.2 / S i 70](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#12-sn-32-人经-purisasutta){: target="_blank" rel="noopener"}；最后一段（偈颂形式）也见于 [Iti 3.1 / It 45](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#11-iti-31-根经){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn59)
+\[59\] 提及有学生和老师引自 [SN 35.151 / S iv 136](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-146-155-navapurana/#6-sn-35151-内住弟子经-antevāsikasutta){: target="_blank" rel="noopener"}；提及内在染污引自 [Iti 3.39 / It 83-84](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#49-iti-339-内垢经){: target="_blank" rel="noopener"}；提及人心中生起三物引自 [SN 3.2 / S i 70](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#12-sn-32-人经-purisasutta){: target="_blank" rel="noopener"}；最后一段（偈颂形式）也见于 [Iti 3.1 / It 45](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#11-iti-31-根经){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn59)
 {: id="fn-fn59"}
 
 \[60\] 这部经文的以下段落从与不善根相反的角度描述了善根。[&nbsp;↩&nbsp;](#fr-fn60)
 {: id="fn-fn60"}
 
-\[61\] 在这部经文中，佛陀从与不善相反的角度描述了善。类似的经文可见于：[AN 3.67 / A i 193-4](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#6-an-367-沙罗经-sāḷhasutta){: target="_blank" rel="noopener"}和 [AN 4.193 / A ii 190-191](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#3-an-4193-离车人跋提经-bhaddiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn61)
+\[61\] 在这部经文中，佛陀从与不善相反的角度描述了善。类似的经文可见于：[AN 3.67 / A i 193-194](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#6-an-367-沙罗经-sāḷhasutta){: target="_blank" rel="noopener"}和 [AN 4.193 / A ii 190-191](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#3-an-4193-离车人跋提经-bhaddiyasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn61)
 {: id="fn-fn61"}
 
 \[62\] 术语 sabyāpajjha 通常被译为“压迫性的”或“伴随着压迫的”。然而，义注几乎总是将此术语定义为“导致痛苦的”或“伴随着痛苦的”。“导致苦恼的”或“伴随着苦恼的”是恰当的翻译。类似的翻译（“非压迫性的”等）适用于其反义词 abyāpajjha。例如，参见：MA. III. 104, 347, 360, \[508\]。[&nbsp;↩&nbsp;](#fr-fn62)
 {: id="fn-fn62"}
 
-\[63\] 开头的段落也可见于 [AN 3.54–55 / A i 156-8](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#3-an-354-某婆罗门经-aññatarabrāhmaṇasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn63)
+\[63\] 开头的段落也可见于 [AN 3.54–55 / A i 156-158](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#3-an-354-某婆罗门经-aññatarabrāhmaṇasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn63)
 {: id="fn-fn63"}
 
 \[64\] “自责”是 upavadati 一词的翻译；它也可以译为“自我批评”或“自我审视”。[&nbsp;↩&nbsp;](#fr-fn64)
@@ -2176,10 +2179,10 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[67\] 相关段落见于：JA. II. 202；JA. III. 158。这些出处都包含扩展材料。本生故事中相关的情节似乎强调结果表现为清晰可见的事件和境况。本生故事中的第二偈偶尔为 tādisaṁ ruhate phalaṁ 或 tādisaṁ harate phalaṁ，分别译为“那是生长的果实”和“那是结出的果实”。[&nbsp;↩&nbsp;](#fr-fn67)
 {: id="fn-fn67"}
 
-\[68\] Vbh. 338-9；义注见于：AA. II. 218-21；VbhA. 439-54。[&nbsp;↩&nbsp;](#fr-fn68)
+\[68\] Vbh. 338-339；义注见于：AA. II. 218-221；VbhA. 439-454。[&nbsp;↩&nbsp;](#fr-fn68)
 {: id="fn-fn68"}
 
-\[69\] 译注：deva：天人。[&nbsp;↩&nbsp;](#fr-fn69)
+\[69\] 译者注：deva：天人。[&nbsp;↩&nbsp;](#fr-fn69)
 {: id="fn-fn69"}
 
 \[70\] 诸义注仅就投生之处来解释 gati-sampatti 和 gati-vipatti。[&nbsp;↩&nbsp;](#fr-fn70)
@@ -2200,10 +2203,10 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[75\] 例如：伊恩·史蒂文森（Ian Stevenson），《二十个轮回转世案例》（Twenty Cases Suggestive of Reincarnation）（纽约，1966年），通篇。A.R. 马丁（A.R. Martin），《轮回与超越研究》（Researches in Reincarnation and Beyond）（宾夕法尼亚，1942年），通篇。C.J. 杜卡斯（C.J. Ducasse），《对死后生命信仰的批判性考察》（A Critical Examination of the Belief in a Life After Death）（伊利诺伊州斯普林菲尔德，1961年），通篇。[&nbsp;↩&nbsp;](#fr-fn75)
 {: id="fn-fn75"}
 
-\[76\] 有两部相邻的经文（《愚智经》〔Bālapaṇḍita Sutta〕和《天使经》〔Devadūta Sutta〕）是后来关于天堂与地狱文学作品的重要来源（[MN 129 / M iii 163-78](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-129-balapandita/){: target="_blank" rel="noopener"}和 [MN 130 / M iii 178-87](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-130-devaduta/){: target="_blank" rel="noopener"}）；三种地狱的名称见于：[MN 50 / M i 337](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-050-maratajjaniya/){: target="_blank" rel="noopener"}；关于投生天界（deva-loka）和天人寿命，例如参见：[AN 3.71 / A i 209-210](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#10-an-371-布萨经-uposathasutta){: target="_blank" rel="noopener"}；[AN 3.71 / A i 212-13](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#10-an-371-布萨经-uposathasutta){: target="_blank" rel="noopener"}；[AN 4.123 / A ii 126-7](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-121-130-bhaya/#3-an-4123-殊异不共之一-paṭhamanānākaraṇasutta){: target="_blank" rel="noopener"}；[AN 7.52 / A iv 62](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#9-an-752-布施大果经-dānamahapphalasutta){: target="_blank" rel="noopener"}；[AN 7.53 / A iv 65](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#10-an-753-难陀母优婆夷经-nandamātāsutta){: target="_blank" rel="noopener"}；[AN 8.35–36 / A iv 239-43](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#5-an-835-八布施受生-dānūpapattisutta){: target="_blank" rel="noopener"}；[AN 8.42–45 / A iv 252-61](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-041-050-uposatha/#2-an-842-布萨广说经-vitthatūposathasutta){: target="_blank" rel="noopener"}；Vbh. 421-6；并参见七种“识住”（viññāṇaṭṭhiti）和九种“有情住”（sattāvāsa），例如参见：[DN 33 / D iii 253](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[DN 33 / D iii 263](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[DN 34 / D iii 282](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[DN 34 / D iii 289](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 7.44 / A iv 39-40](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#1-an-744-七识住经-sattaviññāṇaṭṭhitisutta){: target="_blank" rel="noopener"}；[AN 9.24 / A iv 401](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-021-031-sattavasa/#4-an-924-九有情居经-sattāvāsasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn76)
+\[76\] 有两部相邻的经文（《愚智经》〔Bālapaṇḍita Sutta〕和《天使经》〔Devadūta Sutta〕）是后来关于天堂与地狱文学作品的重要来源（[MN 129 / M iii 163-178](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-129-balapandita/){: target="_blank" rel="noopener"}和 [MN 130 / M iii 178-187](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-130-devaduta/){: target="_blank" rel="noopener"}）；三种地狱的名称见于：[MN 50 / M i 337](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-050-maratajjaniya/){: target="_blank" rel="noopener"}；关于投生天界（deva-loka）和天人寿命，例如参见：[AN 3.71 / A i 209-210](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#10-an-371-布萨经-uposathasutta){: target="_blank" rel="noopener"}；[AN 3.71 / A i 212-213](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-062-071-maha/#10-an-371-布萨经-uposathasutta){: target="_blank" rel="noopener"}；[AN 4.123 / A ii 126-127](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-121-130-bhaya/#3-an-4123-殊异不共之一-paṭhamanānākaraṇasutta){: target="_blank" rel="noopener"}；[AN 7.52 / A iv 62](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#9-an-752-布施大果经-dānamahapphalasutta){: target="_blank" rel="noopener"}；[AN 7.53 / A iv 65](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#10-an-753-难陀母优婆夷经-nandamātāsutta){: target="_blank" rel="noopener"}；[AN 8.35–36 / A iv 239-243](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-031-040-dana/#5-an-835-八布施受生-dānūpapattisutta){: target="_blank" rel="noopener"}；[AN 8.42–45 / A iv 252-261](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-041-050-uposatha/#2-an-842-布萨广说经-vitthatūposathasutta){: target="_blank" rel="noopener"}；Vbh. 421-426；并参见七种“识住”（viññāṇaṭṭhiti）和九种“有情住”（sattāvāsa），例如参见：[DN 33 / D iii 253](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[DN 33 / D iii 263](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[DN 34 / D iii 282](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[DN 34 / D iii 289](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 7.44 / A iv 39-40](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#1-an-744-七识住经-sattaviññāṇaṭṭhitisutta){: target="_blank" rel="noopener"}；[AN 9.24 / A iv 401](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-021-031-sattavasa/#4-an-924-九有情居经-sattāvāsasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn76)
 {: id="fn-fn76"}
 
-\[77\] 例如：[AN 5.34 / A iii 38-9](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-031-040-sumana/#4-an-534-狮子将军经-sīhasenāpatisutta){: target="_blank" rel="noopener"}；[AN 5.211–217 / A iii 252-6](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-211-220-akkosaka/#1-an-5211-谤圣五失-akkosakasutta){: target="_blank" rel="noopener"}；[AN 11.15 / A v 342](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-011-021-anussati/#5-an-1115-慈心功德经-mettāsutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn77)
+\[77\] 例如：[AN 5.34 / A iii 38-39](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-031-040-sumana/#4-an-534-狮子将军经-sīhasenāpatisutta){: target="_blank" rel="noopener"}；[AN 5.211–217 / A iii 252-256](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-211-220-akkosaka/#1-an-5211-谤圣五失-akkosakasutta){: target="_blank" rel="noopener"}；[AN 11.15 / A v 342](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-011-021-anussati/#5-an-1115-慈心功德经-mettāsutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn77)
 {: id="fn-fn77"}
 
 \[78\] 参见第十章“佛陀关于欲望的教导”。[&nbsp;↩&nbsp;](#fr-fn78)
@@ -2227,31 +2230,31 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[84\] 类似于将一块盐放入河流中。[AN 3.101 / A i 249](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-093-103-lonakapalla/#9-an-3101-一壶之盐-loṇakapallasutta){: target="_blank" rel="noopener"}。译文“此业中微不足道的方面没有显现，只有其重要的方面显现”源自巴利语：nānupi khāyati bahudeva。此段也可译为“微不足道的方面没有以主要方式显现”。如果根据义注翻译此段，则译为“微不足道的业不会在以后成熟，只有主要的业才会成熟”（参见：AA. II. 361）。[&nbsp;↩&nbsp;](#fr-fn84)
 {: id="fn-fn84"}
 
-\[85\] 译注：法和律。[&nbsp;↩&nbsp;](#fr-fn85)
+\[85\] 译者注：法和律。[&nbsp;↩&nbsp;](#fr-fn85)
 {: id="fn-fn85"}
 
 \[86\] [MV 2 / Vin i 126](https://aipali.true-dhamma.com/vinaya/mv/mv-02-uposatha/){: target="_blank" rel="noopener"}. Ahaṁ āvuso itthannāmāya āpattiyā vematiko yadā nibbematiko bhavissāmi tadā taṁ āpattiṁ paṭikarissāmi. 注意 paṭikamma 的动词（过去分词）形式是 paṭikara。[&nbsp;↩&nbsp;](#fr-fn86)
 {: id="fn-fn86"}
 
-\[87\] [MV 4 / Vin i 159-60](https://aipali.true-dhamma.com/vinaya/mv/mv-04-pavarana/){: target="_blank" rel="noopener"}. Saṅghaṁ āvuso pavāremi diṭṭhena vā sutena vā parisaṅkāya vā vadantu maṁ āyasmanto anukampaṁ upādāya passanto paṭikarissāmi.[&nbsp;↩&nbsp;](#fr-fn87)
+\[87\] [MV 4 / Vin i 159-160](https://aipali.true-dhamma.com/vinaya/mv/mv-04-pavarana/){: target="_blank" rel="noopener"}. Saṅghaṁ āvuso pavāremi diṭṭhena vā sutena vā parisaṅkāya vā vadantu maṁ āyasmanto anukampaṁ upādāya passanto paṭikarissāmi.[&nbsp;↩&nbsp;](#fr-fn87)
 {: id="fn-fn87"}
 
 \[88\] [CV 7 / Vin ii 192](https://aipali.true-dhamma.com/vinaya/cv/cv-07-sanghabheda/){: target="_blank" rel="noopener"}. Yato ca kho tvaṁ āvuso accayaṁ accayato disvā yathādhammaṁ paṭikarosi tante mayaṁ paṭiggaṇhāma vuddhi hesā āvuso ariyassa vinaye yo accayaṁ accayato disvā yathādhammaṁ paṭikaroti āyatiṁ saṁvaraṁ āpajjati.[&nbsp;↩&nbsp;](#fr-fn88)
 {: id="fn-fn88"}
 
-\[89\] 尊者鸯掘摩罗在 [MN 86 / M ii 104-105](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-086-angulimala/){: target="_blank" rel="noopener"}；[Thag 16.8 / Thag verses 871-72](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-11-16-ekadasaka-visati/#thag-168-鸯掘摩罗长老偈-aṅgulimālattheragāthā){: target="_blank" rel="noopener"}偈中说。[&nbsp;↩&nbsp;](#fr-fn89)
+\[89\] 尊者鸯掘摩罗在 [MN 86 / M ii 104-105](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-086-angulimala/){: target="_blank" rel="noopener"}；[Thag 16.8 / Thag verses 871-872](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-11-16-ekadasaka-visati/#thag-168-鸯掘摩罗长老偈-aṅgulimālattheragāthā){: target="_blank" rel="noopener"}偈中说。[&nbsp;↩&nbsp;](#fr-fn89)
 {: id="fn-fn89"}
 
-\[90\] 参见：[DN 33 / D iii 230](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[MN 57 / M i 389-90](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-057-kukkuravatika/){: target="_blank" rel="noopener"}；[AN 4.232–238 / A ii 230-37](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#1-an-4232-四业经-saṃkhittasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn90)
+\[90\] 参见：[DN 33 / D iii 230](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[MN 57 / M i 389-390](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-057-kukkuravatika/){: target="_blank" rel="noopener"}；[AN 4.232–238 / A ii 230-237](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#1-an-4232-四业经-saṃkhittasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn90)
 {: id="fn-fn90"}
 
-\[91\] 参照：[AN 4.233–235 / A ii 231-4](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#2-an-4233-四业之解释-vitthārasutta){: target="_blank" rel="noopener"}；这些因素的列表，没有解释性段落，见于：[DN 33 / D iii 230](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 4.232 / A ii 230-31](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#1-an-4232-四业经-saṃkhittasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn91)
+\[91\] 参照：[AN 4.233–235 / A ii 231-234](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#2-an-4233-四业之解释-vitthārasutta){: target="_blank" rel="noopener"}；这些因素的列表，没有解释性段落，见于：[DN 33 / D iii 230](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 4.232 / A ii 230-231](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#1-an-4232-四业经-saṃkhittasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn91)
 {: id="fn-fn91"}
 
-\[92\] 参照以下经文：[AN 4.236 / A ii 234-5](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#5-an-4236-异熟业之二-dutiyasikkhāpadasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn92)
+\[92\] 参照以下经文：[AN 4.236 / A ii 234-235](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-232-242-kamma/#5-an-4236-异熟业之二-dutiyasikkhāpadasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn92)
 {: id="fn-fn92"}
 
-\[93\] [AN 4.35 / A ii 35-6](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#5-an-435-禹舍婆罗门-vassakārasutta){: target="_blank" rel="noopener"}, Vassakāra Sutta。[&nbsp;↩&nbsp;](#fr-fn93)
+\[93\] [AN 4.35 / A ii 35-36](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-031-040-cakka/#5-an-435-禹舍婆罗门-vassakārasutta){: target="_blank" rel="noopener"}, Vassakāra Sutta。[&nbsp;↩&nbsp;](#fr-fn93)
 {: id="fn-fn93"}
 
 \[94\] [AN 4.21 / A ii 21](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-021-030-uruvela/#1-an-421-优楼频螺之一-paṭhamauruvelasutta){: target="_blank" rel="noopener"}, Paṭhamauruvela Sutta。[&nbsp;↩&nbsp;](#fr-fn94)
@@ -2263,16 +2266,16 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[96\] 阿毗达摩的复注解释说，概念（paññatti，又译“施设”；“名称”）是离于时（kāla-vinimutta；独立于时间）的，因为它们是不可摧毁且不受衰败影响的；然而，它们终究是不存在的。“时间”的概念是由于各种现象的生起与消逝而产生的。（DhsA. 59；CompṬ.: Pakiṇṇakaparicchedavaṇṇanā, Ālambaṇasaṅgahavaṇṇanā。）[&nbsp;↩&nbsp;](#fr-fn96)
 {: id="fn-fn96"}
 
-\[97\] 译注：隆波（Luang Por）：意为“可敬的父亲”的尊称。[&nbsp;↩&nbsp;](#fr-fn97)
+\[97\] 译者注：隆波（Luang Por）：意为“可敬的父亲”的尊称。[&nbsp;↩&nbsp;](#fr-fn97)
 {: id="fn-fn97"}
 
-\[98\] 译注：作者使用拼写 Adhikakka。[&nbsp;↩&nbsp;](#fr-fn98)
+\[98\] 译者注：作者使用拼写 Adhikakka。[&nbsp;↩&nbsp;](#fr-fn98)
 {: id="fn-fn98"}
 
-\[99\] 译注：也称为萨拉斯瓦蒂（Sarasvatī）。[&nbsp;↩&nbsp;](#fr-fn99)
+\[99\] 译者注：也称为萨拉斯瓦蒂（Sarasvatī）。[&nbsp;↩&nbsp;](#fr-fn99)
 {: id="fn-fn99"}
 
-\[100\] Bhovādī. \[译注：婆罗门的习俗是用 bho（“先生”、“吾友”）来称呼他人，暗示说话者某种程度上的优越感。\][&nbsp;↩&nbsp;](#fr-fn100)
+\[100\] Bhovādī. \[译者注：婆罗门的习俗是用 bho（“先生”、“吾友”）来称呼他人，暗示说话者某种程度上的优越感。\][&nbsp;↩&nbsp;](#fr-fn100)
 {: id="fn-fn100"}
 
 \[101\] 如前所述，业（kamma）一词字面意思是“行动”，但在某些情况下，如本段，它具有更广泛的含义，指与谋生相关的职业（“工作”、“专业”）。[&nbsp;↩&nbsp;](#fr-fn101)
@@ -2293,7 +2296,7 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[106\] Vism. 601-602。[&nbsp;↩&nbsp;](#fr-fn106)
 {: id="fn-fn106"}
 
-\[107\] AA. II. 210-18。[&nbsp;↩&nbsp;](#fr-fn107)
+\[107\] AA. II. 210-218。[&nbsp;↩&nbsp;](#fr-fn107)
 {: id="fn-fn107"}
 
 \[108\] 参见前一节：“业果”。[&nbsp;↩&nbsp;](#fr-fn108)
@@ -2302,23 +2305,23 @@ diṭṭhadhammavedanīya-kamma、uppajjavedanīya-kamma 和 aparāpariyavedanī
 \[109\] MA. III. 339；MA. V. 11。[&nbsp;↩&nbsp;](#fr-fn109)
 {: id="fn-fn109"}
 
-\[110\] [MN 136 / M iii 214-15](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-136-mahakammavibhanga/){: target="_blank" rel="noopener"}, Mahākammavibhaṅga Sutta。[&nbsp;↩&nbsp;](#fr-fn110)
+\[110\] [MN 136 / M iii 214-215](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-136-mahakammavibhanga/){: target="_blank" rel="noopener"}, Mahākammavibhaṅga Sutta。[&nbsp;↩&nbsp;](#fr-fn110)
 {: id="fn-fn110"}
 
 \[111\] MA. V. 19。[&nbsp;↩&nbsp;](#fr-fn111)
 {: id="fn-fn111"}
 
-\[112\] Ap. 280, 378-9, 391, 454。[&nbsp;↩&nbsp;](#fr-fn112)
+\[112\] Ap. 280, 378-379, 391, 454。[&nbsp;↩&nbsp;](#fr-fn112)
 {: id="fn-fn112"}
 
-\[113\] 值得注意的是：[MN 101 / M ii 220-21](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}；[AN 9.13 / A iv 383-4](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#3-an-913-大拘絺罗经-koṭṭhikasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn113)
+\[113\] 值得注意的是：[MN 101 / M ii 220-221](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}；[AN 9.13 / A iv 383-384](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#3-an-913-大拘絺罗经-koṭṭhikasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn113)
 {: id="fn-fn113"}
 
-\[114\] Kvu. 611-12。\[译注：第三次结集也称为第三次佛典集结。作者使用拼写 Moggallīputta-Tissa Thera。\][&nbsp;↩&nbsp;](#fr-fn114)
+\[114\] Kvu. 611-612。\[译者注：第三次结集也称为第三次佛典集结。作者使用拼写 Moggallīputta-Tissa Thera。\][&nbsp;↩&nbsp;](#fr-fn114)
 {: id="fn-fn114"}
 
 \[115\] Ps. II. 78。[&nbsp;↩&nbsp;](#fr-fn115)
 {: id="fn-fn115"}
 
-\[116\] AA. II. 220-22。[&nbsp;↩&nbsp;](#fr-fn116)
+\[116\] AA. II. 220-222。[&nbsp;↩&nbsp;](#fr-fn116)
 {: id="fn-fn116"}

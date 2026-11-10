@@ -91,11 +91,12 @@ title: 第十一章：安乐 | 佛法 | Buddhadhamma
 
 就修行的初始阶段而言，佛陀曾说“福德是安乐之名”（福德 = puñña；“善行”，“行善法”）。[\[1\]](#fn-fn1){:id="fr-fn1"}
 
-作者注
-
+> **附注 11.1　作者注**
+> {: id="note-11-1"}
+>
 > 第二十三章是《佛法》泰文版的新增内容。安乐是一个广受关注的话题。我一直希望能对《佛法》中关于安乐的原始章节加以补充，因为该章节内容复杂，充满了专门术语。2010年2月24日，我受邀在萨功·塔纳米塔博士（Hon. Professor Dr. Sakorn Dhanamitta，健康培育教育项目顾问）80岁生日之际发表演讲。该演讲内容于同年12月以“安乐的各个方面”为题出版，本章是该书的概要。请注意，本章中的许多主题在原始的安乐章以及欲望和动机章（参见第十章“佛陀关于欲望的教导”）中已有不同深度的探讨。
 >
-> \[译注：英文版《佛法》中关于安乐的这一章结合了泰文版的两章安乐。尽管这是一项挑战（第二十二章以正式的书面风格呈现，而第二十三章是演讲稿的誊录），我已尝试将这两章编织成一个整合的整体。\]
+> \[译者注：英文版《佛法》中关于安乐的这一章结合了泰文版的两章安乐。尽管这是一项挑战（第二十二章以正式的书面风格呈现，而第二十三章是演讲稿的誊录），我已尝试将这两章编织成一个整合的整体。\]
 
 就禅修而言，安乐是生起定的重要助缘，正如佛陀所证实的：“乐者，心得定。”[\[2\]](#fn-fn2){:id="fr-fn2"} 在经文中，安乐被描述为定的“近因”（padaṭṭhāna）。当心高度专注并达到禅那状态时，乐（sukha）是禅支（jhānaṅga）之一，一直存在到三禅。[\[3\]](#fn-fn3){:id="fr-fn3"} 尽管从严格定义上讲，乐不是高于三禅的禅那等至（jhāna-samāpatti）的禅支，但这些状态仍被视为更微细的安乐形式。[\[4\]](#fn-fn4){:id="fr-fn4"}
 
@@ -273,7 +274,7 @@ Pīti 具有振奋、欣快、活力、狂喜、光彩和充满的特征，这�
 
 首先，增强善心所。要确保渴求知识的善法欲（chanda）比渴求放纵的渴爱（taṇhā）更强大。例如，这种善法欲可以阻止人翘班去和朋友喝酒。
 
-其次，负面品质被正面品质取代。例如，保罗觊觎约翰的钱并想偷走它，但他考虑到约翰获得这笔钱是多么困难。约翰已经有足够的麻烦了；为什么要给他制造更多麻烦呢？这种想法产生了悲心，渴爱因此平息下来。
+其次，负面品质被正面品质取代。例如，周强觊觎陈东的钱并想偷走它，但他考虑到陈东获得这笔钱是多么困难。陈东已经有足够的麻烦了；为什么要给他制造更多麻烦呢？这种想法产生了悲心，渴爱因此平息下来。
 
 就智慧而言，举例来说，有人看到金子以极低的价格出售。他双眼放光，渴望得到这批金子，但一旦他发现这金子是伪造的，他的欲望便立即消失。然而，这种认识只是一种基本或虚假的智慧；它只处理眼前的问题。
 
@@ -433,7 +434,7 @@ chanda 的本质是渴望行动。因此，这个术语被定义为欲求行动�
 > [MN 13 / M i 85](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-013-mahadukkhakkhandha/){: target="_blank" rel="noopener"}, Mahādukkhakkhandha Sutta
 >
 > 这种乐和喜……被称为欲乐（kāma-sukha）。  
-> [MN 80 / M ii 42-3](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-080-vekhanasa/){: target="_blank" rel="noopener"}；[SN 36.19 / S iv 225](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#29-sn-3619-般阇康伽经-pañcakaṅgasutta){: target="_blank" rel="noopener"}；[AN 9.34 / A iv 415-16](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#3-an-934-涅槃是乐经-nibbānasukhasutta){: target="_blank" rel="noopener"}; Nd. II. 66-7
+> [MN 80 / M ii 42-43](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-080-vekhanasa/){: target="_blank" rel="noopener"}；[SN 36.19 / S iv 225](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#29-sn-3619-般阇康伽经-pañcakaṅgasutta){: target="_blank" rel="noopener"}；[AN 9.34 / A iv 415-416](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#3-an-934-涅槃是乐经-nibbānasukhasutta){: target="_blank" rel="noopener"}；Nd. II. 66-67
 >
 > “kāma”这个词指的是两件事：可欲的所缘（vatthu-kāma），以及烦恼欲（kilesa-kāma；滋生欲的烦恼）。
 >
@@ -443,7 +444,7 @@ chanda 的本质是渴望行动。因此，这个术语被定义为欲求行动�
 > Nd. I. 1-2, 28
 >
 > 比丘们，胎儿在母胎中的结生是通过三件事的结合而发生的。当父母结合，并且是母亲的受孕期，并且有待投生的众生存在时，通过这三件事的结合，胎儿在母胎中的结生就发生了。然后，母亲怀胎九到十个月，冒着生命危险，承受着沉重的负担。接着，在九到十个月期满时，母亲冒着生命危险，承受着沉重的负担分娩。她随后用自己的血滋养新生儿；因为在圣者的教法中，母亲的乳汁被称为“血”。[\[20\]](#fn-fn20){:id="fr-fn20"}  
-> [MN 38 / M i 265-6](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-038-mahatanhasankhaya/){: target="_blank" rel="noopener"}, Mahātaṇhāsaṅkhaya Sutta
+> [MN 38 / M i 265-266](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-038-mahatanhasankhaya/){: target="_blank" rel="noopener"}, Mahātaṇhāsaṅkhaya Sutta
 >
 > “一个仰卧的小婴儿，甚至玩弄着自己的尿和粪便。你们认为，那对那个婴儿来说难道不是完全的乐趣吗？”
 >
@@ -652,7 +653,7 @@ chanda 的本质是渴望行动。因此，这个术语被定义为欲求行动�
 
 当教导那些对佛教教义一无所知或只有基本了解，且尚未渴望出家生活的在家居士时，佛陀通常会从基本的修行层次开始，然后是更精微的层次。佛陀的这种教导被称为“次第教导”（anupubbikathā）。
 
-次第教导包含五个因素（三种开示——kathā——和两个相关主题）。（参见附注“开示”）三种开示如下：
+次第教导包含五个因素（三种开示——kathā——和两个相关主题）。（参见附注 11.2“开示”）三种开示如下：
 
 1.  布施开示（Dāna-kathā）：关于布施、舍弃、慈善和慷慨的开示。
     
@@ -663,8 +664,9 @@ chanda 的本质是渴望行动。因此，这个术语被定义为欲求行动�
 
 这种次第教导让听众中的居士认识到他们正在努力寻找的最高目标。他们能够认识到，按照布施和戒行的前两条原则生活，便会体验到一种无过失的安乐，并享受丰富的欲乐，正如第三个因素所描述的那样，从而满足自己的愿望。
 
-开示
-
+> **附注 11.2　开示**
+> {: id="note-11-2"}
+>
 > 在《巴利三藏》和其他经典中，只提到了三种“开示”（kathā）：布施开示（dāna-kathā）、戒开示（sīla-kathā）和生天开示（sagga-kathā）。接下来的两个因素，“欲乐的过患”（kāmādīnava）和“出离欲乐的功德”（nekkhammānisaṁsa），并没有加上“kathā”一词。它们是相关的教法，描述了前三个因素，特别是生天开示（sagga-kathā）的要旨，并指出了达到更精微安乐的途径。然而，后来的文本将“kathā”一词添加到了这两个因素中。甚至在某些《巴利三藏》版本（缅甸版本）、义注和复注中，也创造并插入了“kāmādīnava-kathā”一词（与“nekkhammānisaṁsakathā”不同，后者只出现在后来的文本中）。
 
 如果听者准备好了，佛陀就会继续描述欲乐的过患（kāmādīnava）。他会解释说，无论依赖物质所缘的欲乐有多大，它仍然有其缺点或不足，为痛苦和损失铺平了道路。当听者充分理解了这第四个因素并希望找到出路时，佛陀就会描述出离欲乐的功德（nekkhammānisaṁsa），即他会指出一种自由、独立于物质、无拘无束的安乐生活，这种安乐成为一种恒常的内在品质。听者就会变得乐于接受并渴望达到一种不依赖感官所缘（nirāmisa-sukha）的安乐。佛陀就是这样培养人们的接受度和准备状态的。他会逐渐准备他们的心，正如古老的表达所概括的那样：“净化一个人的心。”
@@ -828,7 +830,7 @@ samparāyikattha 一词的含义包括所有形式的内在、精微的安乐，
 >
 > “什么是善友？在这里，无论善男子居住在哪个村庄或城镇，他都与那些具备信心、善行、慷慨和智慧的居士或他们的儿子交往——无论是年轻还是年长且行为成熟的人；他与他们交谈并向他们请教。在他们精通信心方面，他效仿他们对信心的精通；在他们精通善行方面，他效仿他们对善行的精通；在他们精通慷慨方面，他效仿他们对慷慨的精通；在他们精通智慧方面，他效仿他们对智慧的精通。这被称为善友。
 >
-> “什么是和合生活？在这里，善男子过着平衡的生活，既不过度奢侈也不过度节俭。他知道自己的财富如何增长和减少，\[清楚地知道\]：‘这样我的收入会超过支出，而不是相反。’就像一个估价师或他的学徒，举起天平，知道：‘它倾斜了多少，上升了多少……’如果这个善男子收入微薄却生活奢侈，其他人会说他：‘这个善男子吃掉他的财富，就像吃无花果的人一样。’（参见附注“成熟的无花果”）如果他收入丰厚却生活简朴，其他人会说他：‘这个善男子甚至可能像个穷光蛋一样死去。’但是，当善男子过着平衡的生活时，这被称为和合生活……
+> “什么是和合生活？在这里，善男子过着平衡的生活，既不过度奢侈也不过度节俭。他知道自己的财富如何增长和减少，\[清楚地知道\]：‘这样我的收入会超过支出，而不是相反。’就像一个估价师或他的学徒，举起天平，知道：‘它倾斜了多少，上升了多少……’如果这个善男子收入微薄却生活奢侈，其他人会说他：‘这个善男子吃掉他的财富，就像吃无花果的人一样。’（参见附注 11.3“成熟的无花果”）如果他收入丰厚却生活简朴，其他人会说他：‘这个善男子甚至可能像个穷光蛋一样死去。’但是，当善男子过着平衡的生活时，这被称为和合生活……
 >
 > “虎路（Byagghapajja）啊，你看，这样如法获得的财富有四种衰败之门（apāya-mukha）：沉迷女色、酗酒、赌博，以及恶友、恶伴侣、恶同伴。这就像一个有四个进水口和四个出水口的大水库，如果一个人关闭进水口并打开出水口，而且没有足够的雨水落下，人们可以预期水库里的水会减少而不是增加……
 >
@@ -870,9 +872,10 @@ samparāyikattha 一词的含义包括所有形式的内在、精微的安乐，
 
 尽管仍在享用欲乐，但当在家居士享用这种乐的方式能够带来现世利益，并且他们逐渐熟悉更精微的内心利益时，可以预期他们会兴旺发达，并体验到一种可靠、无害的安乐。此外，他们还将有助于创造持久的社会福祉和繁荣。
 
-成熟的无花果
-
-> 译注：菩提比丘（Bhikkhu Bodhi）在其《佛陀的数字论述：增支部翻译》（The Numerical Discourses of the Buddha: A Translation of the Aṅguttara Nikāya）© 2012 中引用《满足希望》（Manorathapūraṇī）说：“一个人如果想吃无花果，可能会摇晃一棵成熟的无花果树，一用力就打落许多果实。他会吃掉成熟的果实然后离开，留下其余的；同样地，一个人如果挥霍掉他大部分的收入来享用财富，人们就会说：‘这个善男子吃掉他的财富，就像吃无花果的人一样。’”另见第十七章“戒行道支”中“正命的一般原则”一节中关于无花果树上的 mayhaka 鸟的描述。
+> **附注 11.3　成熟的无花果**
+> {: id="note-11-3"}
+>
+> 译者注：菩提比丘（Bhikkhu Bodhi）在其《佛陀的数字论述：增支部翻译》（The Numerical Discourses of the Buddha: A Translation of the Aṅguttara Nikāya）© 2012 中引用《满足希望》（Manorathapūraṇī）说：“一个人如果想吃无花果，可能会摇晃一棵成熟的无花果树，一用力就打落许多果实。他会吃掉成熟的果实然后离开，留下其余的；同样地，一个人如果挥霍掉他大部分的收入来享用财富，人们就会说：‘这个善男子吃掉他的财富，就像吃无花果的人一样。’”另见第十七章“戒行道支”中“正命的一般原则”一节中关于无花果树上的 mayhaka 鸟的描述。
 
 ### 不同种类安乐之比较
 
@@ -944,7 +947,7 @@ samparāyikattha 一词的含义包括所有形式的内在、精微的安乐，
 > “比丘们，什么是苦的来源和起源？渴爱是它的来源和起源（nidāna-sambhava）。
 >
 > “什么是苦的结果？……我这样说，苦的结果要么是内心失常，要么是向外寻求解脱。”  
-> [AN 6.63 / A iii 415-6](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#9-an-663-决择法经-nibbedhikasutta){: target="_blank" rel="noopener"}, Nibbedhika Sutta
+> [AN 6.63 / A iii 415-416](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#9-an-663-决择法经-nibbedhikasutta){: target="_blank" rel="noopener"}, Nibbedhika Sutta
 
 通过满足渴爱来寻求快乐，在所有阶段都会引起问题，不仅仅是在满足被剥夺时。在寻找可意所缘期间和获得这些所缘之后，也可能出现问题。在寻找所缘时，可能会伤害或剥削他人，给他们带来痛苦和烦恼。而一旦获得了渴望的所缘，可能会对其痴迷，增加自己的渴求和渴爱，从而引起更多的问题。因此，有良知的凡夫必须运用辨别力，并应用有德的品质来指导自己的行为，以减轻渴爱的危害。
 
@@ -959,7 +962,7 @@ samparāyikattha 一词的含义包括所有形式的内在、精微的安乐，
 > 圣者修习禅那，不是为了被烦恼玷污的乐，也不是为了未来的出生。事实上，圣者修习禅那是为了烦恼的止息，为了没有未来的出生。
 >
 > 圣者以寂静（即涅槃）为目标，倾向于此方向，致力于此状态，而行布施。圣者以涅槃为目标，正如河流奔向大海深处。  
-> Nd. I. 424-5
+> Nd. I. 424-425
 
 ## 乐味与过患
 
@@ -1031,7 +1034,7 @@ sukha（“安乐”）的字面意思是“方便”或“容易”。没有压
 在同一片树林里，另一次，尊者舍利弗向其他大弟子提出了以下问题：
 
 > 牛角娑罗树林令人愉悦，夜晚清澈明亮，娑罗树全部盛开，向四面八方散发着芬芳，如同天堂的香气。朋友，什么样的比丘才能为牛角娑罗树林增光添彩呢？  
-> [MN 32 / M i 212-13](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-032-mahagosinga/){: target="_blank" rel="noopener"}, Mahāgosiṅga Sutta
+> [MN 32 / M i 212-213](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-032-mahagosinga/){: target="_blank" rel="noopener"}, Mahāgosiṅga Sutta
 
 在《巴利三藏》（Tipiṭaka）中有大量诗歌赞美大自然。例如，以下引自《须大拏本生经》（Mahāvessantara Jātaka）的诗句：
 
@@ -1047,7 +1050,7 @@ sukha（“安乐”）的字面意思是“方便”或“容易”。没有压
 > 微风吹拂，瞻波迦树、兰花和月桂散发出芬芳。树冠上开满花朵，垂下彩色的枝条，仿佛深思熟虑地伸出手臂，用它们的香气表达敬意。尊者，胜利者，现在是时候动身了。
 >
 > 绚丽的鹦鹉和喜鹊，声音甜美，在树梢间飞舞聚集，在小径两旁叽叽喳喳地鸣叫。现在是世尊去看望他父亲的时候了。  
-> ApA. 532-7
+> ApA. 532-537
 
 总而言之，佛陀和阿罗汉，他们的内心清净，在大自然的宁静和美丽中找到乐趣，并安乐地安住于自然环境中。学人（sekha）和凡夫则在大自然中找到一个宁静、令人心旷神怡的环境，有助于禅修和智慧的培育。
 
@@ -1191,7 +1194,7 @@ sukha（“安乐”）的字面意思是“方便”或“容易”。没有压
 > “当有不满（anabhirati）时，朋友，这种苦是可以预料的：行走时，找不到安乐与满足；站立时……坐着时……躺下时……在村庄里时……在森林里时……在树下时……在空房里时……在露天时……在比丘僧团中时，找不到安乐与满足。当有不满时，这种苦是可以预料的。”
 >
 > “\[但是\]当有满足（abhirati）时，这种乐是可以预料的：行走时，能找到安乐与满足；站立时……坐着时……躺下时……在村庄里时……在森林里时……在树下时……在空房里时……在露天时……在比丘僧团中时，能找到安乐与满足。当有满足时，这种乐是可以预料的。”  
-> [AN 10.66 / A v 121-2](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#6-an-1066-乐经之二-dutiyasukhasutta){: target="_blank" rel="noopener"}, Dutiyasukha Sutta
+> [AN 10.66 / A v 121-122](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-061-070-yamaka/#6-an-1066-乐经之二-dutiyasukhasutta){: target="_blank" rel="noopener"}, Dutiyasukha Sutta
 
 以下列出的是禅那（jhāna）各阶段固有安乐的类比。达到禅那之前的最后一步是舍弃五盖（nīvaraṇa）：欲贪（kāma-chanda）、嗔恚（byāpāda）、昏沉睡眠（thīna-middha）、掉举恶作（uddhacca-kukkucca）和疑（vicikicchā）。当人舍弃五盖时，他便体验到平静和满足，这是体验禅那之乐的基础。对这种最初的平静和满足有五个譬喻：
 
@@ -1250,7 +1253,7 @@ sukha（“安乐”）的字面意思是“方便”或“容易”。没有压
 > 阿难，比丘完全超越非想非非想处定，进入并安住于想受灭尽定。这是比前一种乐\[非想非非想处\]更殊胜、更微妙的另一种乐。
 >
 > 现在，其他宗派的游方者可能会这样说：“沙门乔达摩谈到想受灭尽定，他坚持认为它包含在乐中。那是什么？为什么这样说？”当其他宗派的游方者这样说时，应该告诉他们：“朋友们，世尊描述一种包含在乐中的状态，并非只指乐受。而是，朋友们，无论在何处，以何种方式发现乐，如来都描述那种状态包含在乐中。”  
-> [MN 59 / M i 400](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-059-bahuvedaniya/){: target="_blank" rel="noopener"}；[SN 36.19 / S iv 228](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#29-sn-3619-般阇康伽经-pañcakaṅgasutta){: target="_blank" rel="noopener"}; cf.: MA. III. 115; SA. III. 80
+> [MN 59 / M i 400](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-059-bahuvedaniya/){: target="_blank" rel="noopener"}；[SN 36.19 / S iv 228](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#29-sn-3619-般阇康伽经-pañcakaṅgasutta){: target="_blank" rel="noopener"}；比较：MA. III. 115；SA. III. 80
 
 想受灭尽定（saññāvedayita-nirodha）与涅槃相似，这种状态中不依赖于享受感官所缘——或者说没有受——的安乐与涅槃之乐（nibbāna-sukha）相似。[\[64\]](#fn-fn64){:id="fr-fn64"}
 
@@ -1283,7 +1286,7 @@ sukha（“安乐”）的字面意思是“方便”或“容易”。没有压
 > 比丘：尊者，我独自静处时，心中生起这样的思惟：“世尊曾说到三种受：乐受、苦受（dukkha-vedanā）、不苦不乐受……但世尊也说过：‘凡所有感官所缘的受都归类为苦。’”世尊是针对什么而说的呢？
 >
 > 佛陀：善哉，善哉，比丘！我曾说到三种受：乐受、苦受、不苦不乐受……我也说过：“凡所有感官所缘的受都归类为苦。”这\[后半句\]是我针对诸行无常而说的。我是针对诸行会坏灭……会消散……会消退……会止息……会变迁而说的。[\[68\]](#fn-fn68){:id="fr-fn68"}  
-> [SN 36.11 / S iv 216-17](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#21-sn-3611-独坐经-rahogatasutta){: target="_blank" rel="noopener"}, Rahogata Sutta
+> [SN 36.11 / S iv 216-217](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#21-sn-3611-独坐经-rahogatasutta){: target="_blank" rel="noopener"}, Rahogata Sutta
 
 每当真正理解三种受是无常的，是由因缘条件塑造的，相互依存的，且其本质是衰败和止息的，并且断除了对这些受的渴爱，以至于心得到解脱，便不再依赖于感官所缘的享受。[\[69\]](#fn-fn69){:id="fr-fn69"} 他体验到超越受的至上安乐。
 
@@ -1300,7 +1303,7 @@ sukha（“安乐”）的字面意思是“方便”或“容易”。没有压
 > 随着色……声……香……味……触……法的变迁、消逝和止息，天人安住于苦。
 >
 > 但如来，阿罗汉，正等正觉者，已如实了知色……声……香……味……触……法的生起、无常、乐味、过患和出离，因此他不喜欢色、不喜悦色、不欣于色……不欣于法。随着色……声……香……味……触……法的变迁、消逝和止息，如来安乐而住。  
-> [SN 35.136–137 / S iv 126-8](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-134-145-devadaha/#3-sn-35136-执著经之一-paṭhamarūpārāmasutta){: target="_blank" rel="noopener"}; cf.: [MN 36 / M i 239](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}；[MN 148 / M iii 285](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-148-chachakka/){: target="_blank" rel="noopener"}；[Snp 38 / Sn 148-9](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#38-snp-38-二随观经-dvayatānupassanāsutta){: target="_blank" rel="noopener"}
+> [SN 35.136–137 / S iv 126-128](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-134-145-devadaha/#3-sn-35136-执著经之一-paṭhamarūpārāmasutta){: target="_blank" rel="noopener"}；比较：[MN 36 / M i 239](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}；[MN 148 / M iii 285](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-148-chachakka/){: target="_blank" rel="noopener"}；[Snp 38 / Sn 148-149](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#38-snp-38-二随观经-dvayatānupassanāsutta){: target="_blank" rel="noopener"}
 
 凡夫的经验是有限而局限的；他们只熟悉源于欲乐的快乐。当他们体验到令人满意的乐受时，他们会被这种快乐和快乐的所缘所吸引、迷恋和迷惑。当他们体验到苦受时，他们会变得沮丧或烦躁。他们渴望并寄希望于欲乐的回归，因为除了欲乐，他们不知道有其他摆脱苦受的方法。
 
@@ -1490,7 +1493,7 @@ sukha（“安乐”）的字面意思是“方便”或“容易”。没有压
 
 如果这种善法欲的缺乏普遍存在，所有人类系统和机构都将被扭曲、失衡和腐化。工作将不成功，人们会不快乐。此外，当人们缺乏善法欲并被渴爱主导时，他们不会在工作中尽力；他们逃避工作，不诚实、欺骗，从而导致腐败和浪费。结果就是必须强调次要的监督和控制系统。
 
-当渴爱掌控这些监督系统时，就需要建立新的重叠控制系统。三种扰动烦恼（papañca-dhamma）随后引起进一步的动荡和痛苦。最终，人类社会走向毁灭和灾难，正如一首古老的泰国诗歌所描述的：“当泰铢耗尽，老虎便死。”（参见附注“诗歌《Loka Niti》”）因此，重要的是一个先决条件系统不应破坏或压制善法欲。需要警觉并运用智慧，以确保先决条件系统支持善法欲，从而调动合意的自然过程。
+当渴爱掌控这些监督系统时，就需要建立新的重叠控制系统。三种扰动烦恼（papañca-dhamma）随后引起进一步的动荡和痛苦。最终，人类社会走向毁灭和灾难，正如一首古老的泰国诗歌所描述的：“当泰铢耗尽，老虎便死。”（参见附注 11.4“诗歌《Loka Niti》”）因此，重要的是一个先决条件系统不应破坏或压制善法欲。需要警觉并运用智慧，以确保先决条件系统支持善法欲，从而调动合意的自然过程。
 
 在当今这个由基于贪欲的系统主导的时代，善法和有德行的培育仍然可能发生，因为有足够多的人具备适度的善法欲，即使这并非总是显而易见。我们需要防止渴爱系统成为主导动态，以至于遮蔽善法欲，使其逐渐消退直至最终消失。相反，我们应该让善法欲成为主要支柱；尽管渴爱可能仍然会造成一些麻烦，但人们将保持足够的稳定和安全。
 
@@ -1498,9 +1501,10 @@ sukha（“安乐”）的字面意思是“方便”或“容易”。没有压
 
 欲望这个关键主题往往被忽视。能够区分善法欲和不善法欲至关重要。理解了这个问题，就很容易确定如何解决问题，并且将满怀信心地培养安乐。
 
-诗歌《Loka Niti》
-
-> 摘自诗歌《Loka Niti》（โลกนิติ）。\[译注：写于1831年。故事是说，一个动物园得到一只老虎，每天拨出一泰铢来喂养它。负责喂养老虎的饲养员每天贪污25萨当。当园长注意到老虎不饱满时，他派了一名检查员去查明情况。当检查员发现真相后，他向饲养员索要25萨当作为封口费。老虎变得更瘦了，促使园长派了一名更高级的检查员。他也索要25萨当作为封口费，老虎很快就只剩下皮包骨了。园长派出了首席检查员，但他为自己索要了剩下的25萨当，导致老虎死亡。\]
+> **附注 11.4　诗歌《Loka Niti》**
+> {: id="note-11-4"}
+>
+> 摘自诗歌《Loka Niti》（โลกนิติ）。\[译者注：写于1831年。故事是说，一个动物园得到一只老虎，每天拨出一泰铢来喂养它。负责喂养老虎的饲养员每天贪污25萨当。当园长注意到老虎不饱满时，他派了一名检查员去查明情况。当检查员发现真相后，他向饲养员索要25萨当作为封口费。老虎变得更瘦了，促使园长派了一名更高级的检查员。他也索要25萨当作为封口费，老虎很快就只剩下皮包骨了。园长派出了首席检查员，但他为自己索要了剩下的25萨当，导致老虎死亡。\]
 
 ### 从先决条件系统中获取最大利益
 
@@ -1998,10 +2002,11 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 
 比丘们所修习的六种有助于社群生活的德行（sārāṇīya-dhamma）是建立在四梵住之上的。但是，要在在家生活中建立这同一组六种德行是困难的。以第四个因素为例，即平均分配物质所得。这在僧团中是现实且可行的，但在日常社会中却很难实施。通常，人们在这方面能做的最好是遵从分享一切的原则，否则他们就完全回避这个问题。因此，又为在家社会建立了另一组因素作为实践指导方针。如果被问到这些因素是什么，我不知道有多少佛教徒能够回答。
 
-顺便提一下，我注意到在家佛教徒通常无法正确区分内在的内心品质和应用于外部社会环境的实践原则。例如，许多人提及慈心和悲心等内心品质，并谈论它们，仿佛它们是社会实践的原则。这会给说话者以及其他人造成困惑和误解。（参见附注“对教法的误解”）
+顺便提一下，我注意到在家佛教徒通常无法正确区分内在的内心品质和应用于外部社会环境的实践原则。例如，许多人提及慈心和悲心等内心品质，并谈论它们，仿佛它们是社会实践的原则。这会给说话者以及其他人造成困惑和误解。（参见附注 11.5“对教法的误解”）
 
-对教法的误解
-
+> **附注 11.5　对教法的误解**
+> {: id="note-11-5"}
+>
 > 以约瑟夫·L·萨顿博士（Dr. Joseph L. Sutton）为例，他于1962年从印第安纳大学来到泰国工作。在泰国国家发展管理学院（NIDA）成立公共行政研究生院期间，萨顿博士在他的书《泰国政治与行政问题》（Problems of Politics and Administration in Thailand）（布卢明顿：公共服务培训学院，印第安纳大学政府系，1962年）中，撰写了一篇关于泰国社会在佛教与发展方面的分析。
 >
 > 他引用了阿尔伯特·史怀哲（Albert Schweitzer）的一段话，称在佛教社会中，仁慈行为根本不需要任何实际行动，因为根据佛教教义，人所需要做的就是待在家里，散播慈爱的念头（在此我只是意译这段话）。
@@ -2162,7 +2167,7 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 > “纯陀，有四种享乐是低俗的、粗鄙的、世俗的、卑劣的，不利于福祉，不导向厌离、离欲、止息、寂静、证悟、觉醒、涅槃。它们是什么？首先，愚痴之人以杀生为乐……以不予取为乐……以妄语为乐……沉溺于五欲之乐……
 >
 > “纯陀，有四种享乐完全导向厌离、离欲、止息、寂静、证悟、觉醒、涅槃。它们是什么？在此，一位比丘，远离欲，远离不善法，进入并安住于初禅……二禅……三禅……四禅。”  
-> [DN 29 / D iii 130-32](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}, Pāsādika Sutta
+> [DN 29 / D iii 130-132](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}, Pāsādika Sutta
 
 ### 对安乐的正确态度
 
@@ -2174,7 +2179,7 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 > 2.  不放弃如法的乐。
 > 3.  不沉迷于那份乐（即便是如法的乐）。[\[85\]](#fn-fn85){:id="fr-fn85"}
 >
-> [MN 101 / M ii 222-3](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}, Devadaha Sutta
+> [MN 101 / M ii 222-223](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}, Devadaha Sutta
 
 佛陀并未在此结束教导。他接着描述了修行的另一个重要阶段，可以归类为第四个原则，即努力彻底根除痛苦的根源。这第四个因素是达到佛教最终目标的决定性标准，因为要证悟最高真理，首先必须彻底消除痛苦的根源。
 
@@ -2436,10 +2441,10 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[5\] [MN 75 / M i 508-509](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-075-magandiya/){: target="_blank" rel="noopener"}；[Dhp 204](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-197-289-sukha-piya-kodha-mala-dhammattha-magga/#156-dhp-204-无病是最上的利益-pasenadikosalavatthu){: target="_blank" rel="noopener"}. 这个问题已在“证得涅槃者的心境”一节中讨论；见第七章“觉悟者”。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
-\[6\] 译注：见第七章“觉悟者”。[&nbsp;↩&nbsp;](#fr-fn6)
+\[6\] 译者注：见第七章“觉悟者”。[&nbsp;↩&nbsp;](#fr-fn6)
 {: id="fn-fn6"}
 
-\[7\] 见：[MN 36 / M i 246-7](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}；[MN 85 / M ii 93](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}。这些是佛陀提及他自己修行的参考。此处的 dukkha 一词指的是自苦行（dukkara-kiriyā）所带来的痛苦。这不应与 dukkha-paṭipadā 和 sukha-paṭipadā 混淆，前者仅指困难、艰苦的修行（[AN 4.161–163 / A ii 149-52](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-161-170-patipada/#1-an-4161-简略经-saṃkhittasutta){: target="_blank" rel="noopener"}）。尼乾陀（耆那教徒）认为：“安乐不能通过安乐获得；只能通过痛苦获得。”因此，他们实行严苛的苦行和自苦行（atta-kilamathānuyoga）——[MN 14 / M i 93-4](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}。在佛陀觉悟之前，他也有相同的理解，因此长时间徒劳地实行极度苦行（[MN 85 / M ii 93](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn7)
+\[7\] 见：[MN 36 / M i 246-247](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}；[MN 85 / M ii 93](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}。这些是佛陀提及他自己修行的参考。此处的 dukkha 一词指的是自苦行（dukkara-kiriyā）所带来的痛苦。这不应与 dukkha-paṭipadā 和 sukha-paṭipadā 混淆，前者仅指困难、艰苦的修行（[AN 4.161–163 / A ii 149-152](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-161-170-patipada/#1-an-4161-简略经-saṃkhittasutta){: target="_blank" rel="noopener"}）。尼乾陀（耆那教徒）认为：“安乐不能通过安乐获得；只能通过痛苦获得。”因此，他们实行严苛的苦行和自苦行（atta-kilamathānuyoga）——[MN 14 / M i 93-94](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}。在佛陀觉悟之前，他也有相同的理解，因此长时间徒劳地实行极度苦行（[MN 85 / M ii 93](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn7)
 {: id="fn-fn7"}
 
 \[8\] Eseva maggo bodhiyā. 例如：[MN 85 / M ii 93](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}[&nbsp;↩&nbsp;](#fr-fn8)
@@ -2457,10 +2462,10 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[12\] [MN 14 / M i 91-92](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}, Cūḷadukkhakkhandha Sutta.[&nbsp;↩&nbsp;](#fr-fn12)
 {: id="fn-fn12"}
 
-\[13\] [MN 68 / M i 463-4](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-068-nalakapana/){: target="_blank" rel="noopener"}, Naḷakapāna Sutta.[&nbsp;↩&nbsp;](#fr-fn13)
+\[13\] [MN 68 / M i 463-464](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-068-nalakapana/){: target="_blank" rel="noopener"}, Naḷakapāna Sutta.[&nbsp;↩&nbsp;](#fr-fn13)
 {: id="fn-fn13"}
 
-\[14\] 译注：巴利文 sukha 一词可根据上下文译为“安乐”或“快乐”。[&nbsp;↩&nbsp;](#fr-fn14)
+\[14\] 译者注：巴利文 sukha 一词可根据上下文译为“安乐”或“快乐”。[&nbsp;↩&nbsp;](#fr-fn14)
 {: id="fn-fn14"}
 
 \[15\] 关于这些成对的分类，请参阅附录一。[&nbsp;↩&nbsp;](#fr-fn15)
@@ -2484,7 +2489,7 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[21\] 部分与 [MN 38 / M i 266](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-038-mahatanhasankhaya/){: target="_blank" rel="noopener"}相似。[&nbsp;↩&nbsp;](#fr-fn21)
 {: id="fn-fn21"}
 
-\[22\] [MN 129 / M iii 172-7](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-129-balapandita/){: target="_blank" rel="noopener"}。关于转轮圣王荣耀的更多内容，见：《大善见经》（Mahāsudassana Sutta, [DN 17 / D ii 169-99](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-17-mahasudassana/){: target="_blank" rel="noopener"}）；《顶生王本生经》（Mandhāturāja Jātaka, JA. \[4/47\]）。[&nbsp;↩&nbsp;](#fr-fn22)
+\[22\] [MN 129 / M iii 172-177](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-129-balapandita/){: target="_blank" rel="noopener"}。关于转轮圣王荣耀的更多内容，见：《大善见经》（Mahāsudassana Sutta, [DN 17 / D ii 169-199](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-17-mahasudassana/){: target="_blank" rel="noopener"}）；《顶生王本生经》（Mandhāturāja Jātaka, JA. \[4/47\]）。[&nbsp;↩&nbsp;](#fr-fn22)
 {: id="fn-fn22"}
 
 \[23\] 在此，kāma、kāma-guṇa 和 kāma-sukha 这些词语需根据巴利语的广义定义来理解。[&nbsp;↩&nbsp;](#fr-fn23)
@@ -2496,10 +2501,10 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[25\] 另一种解释这个比喻的方式如下：感官所缘就像树的果实，而树干正被无常和不稳定所砍伐。例如，衰败和死亡不断侵蚀树干，将其磨损并最终导致其倒塌。沉溺于欲乐的人不断受到这种不稳定和不确定所带来的恐惧和忧虑的威胁。越是沉迷于欲而无法舍弃，就越有被倒下的树严重伤害的风险。[&nbsp;↩&nbsp;](#fr-fn25)
 {: id="fn-fn25"}
 
-\[26\] 前七个比喻的描述见：[MN 54 / M i 364-7](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-054-potaliya/){: target="_blank" rel="noopener"}；其他参考文献只列出十个比喻，例如：[CV 1 / Vin ii 25-6](https://aipali.true-dhamma.com/vinaya/cv/cv-01-kamma/){: target="_blank" rel="noopener"}；[BV 5.7.8 / Vin iv 134](https://aipali.true-dhamma.com/vinaya/bv/kanda-05-pacittiya/bv-05-07-sappanaka/#8-单堕六十八邪见障道-ariṭṭhasikkhāpada){: target="_blank" rel="noopener"}；[MN 22 / M i 130](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-022-alagaddupama/){: target="_blank" rel="noopener"}；[AN 5.76 / A iii 96-7](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#6-an-576-战士经之二-dutiyayodhājīvasutta){: target="_blank" rel="noopener"}。这些比喻的简要解释见：Nd. I. 6-7, 19；Nd. II. 67；VinA. IV. 869；AA. III. 269；NdA. I. 32；VinṬ.：Sappāṇakavaggo, Ariṭṭhasikkhāpadavaṇṇanā；这些比喻的某些方面描述见：[SN 35.244 / S iv 189](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#7-sn-35244-苦法经-dukkhadhammasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn26)
+\[26\] 前七个比喻的描述见：[MN 54 / M i 364-367](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-054-potaliya/){: target="_blank" rel="noopener"}；其他参考文献只列出十个比喻，例如：[CV 1 / Vin ii 25-26](https://aipali.true-dhamma.com/vinaya/cv/cv-01-kamma/){: target="_blank" rel="noopener"}；[BV 5.7.8 / Vin iv 134](https://aipali.true-dhamma.com/vinaya/bv/kanda-05-pacittiya/bv-05-07-sappanaka/#8-单堕六十八邪见障道-ariṭṭhasikkhāpada){: target="_blank" rel="noopener"}；[MN 22 / M i 130](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-022-alagaddupama/){: target="_blank" rel="noopener"}；[AN 5.76 / A iii 96-97](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#6-an-576-战士经之二-dutiyayodhājīvasutta){: target="_blank" rel="noopener"}。这些比喻的简要解释见：Nd. I. 6-7, 19；Nd. II. 67；VinA. IV. 869；AA. III. 269；NdA. I. 32；VinṬ.：Sappāṇakavaggo, Ariṭṭhasikkhāpadavaṇṇanā；这些比喻的某些方面描述见：[SN 35.244 / S iv 189](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#7-sn-35244-苦法经-dukkhadhammasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn26)
 {: id="fn-fn26"}
 
-\[27\] 参阅：[MN 13 / M i 85-6](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-013-mahadukkhakkhandha/){: target="_blank" rel="noopener"}, Mahādukkhakkhandha Sutta。[&nbsp;↩&nbsp;](#fr-fn27)
+\[27\] 参阅：[MN 13 / M i 85-86](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-013-mahadukkhakkhandha/){: target="_blank" rel="noopener"}, Mahādukkhakkhandha Sutta。[&nbsp;↩&nbsp;](#fr-fn27)
 {: id="fn-fn27"}
 
 \[28\] 值得思考经由眼、耳、鼻、舌和身体的触碰所产生的乐和苦的程度和频率。[&nbsp;↩&nbsp;](#fr-fn28)
@@ -2508,13 +2513,13 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[29\] 这是《摩犍提经》（Māgandiya Sutta）中一段内容的总结和解释：[MN 75 / M i 506-509](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-075-magandiya/){: target="_blank" rel="noopener"}。在这部经中，对不同形式安乐的关注从欲乐开始，直接转向涅槃状态；没有明确提及禅那之乐（jhāna-sukha）。然而，禅那的状态被描述为“间接地”或“在某些方面”（pariyāya）的涅槃，即它具有一些相似的特征。关于此主题的更多内容，请参见第六章“涅槃：至上寂静”。[&nbsp;↩&nbsp;](#fr-fn29)
 {: id="fn-fn29"}
 
-\[30\] [AN 10.46 / A v 83-4](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-041-050-akkosa/#6-an-1046-释迦国经-sakkasutta){: target="_blank" rel="noopener"}, Sakka Sutta。[&nbsp;↩&nbsp;](#fr-fn30)
+\[30\] [AN 10.46 / A v 83-84](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-041-050-akkosa/#6-an-1046-释迦国经-sakkasutta){: target="_blank" rel="noopener"}, Sakka Sutta。[&nbsp;↩&nbsp;](#fr-fn30)
 {: id="fn-fn30"}
 
 \[31\] 巴利语 roga（“疾病”，“病患”）字面意思是“打破”、“压碎”或“穿透”；ābādha（“痛苦”，“病患”，“疾病”）字面意思是“压迫”。[&nbsp;↩&nbsp;](#fr-fn31)
 {: id="fn-fn31"}
 
-\[32\] [MN 26 / M i 173-4](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-026-pasarasi/){: target="_blank" rel="noopener"}, Pāsarāsi Sutta。[&nbsp;↩&nbsp;](#fr-fn32)
+\[32\] [MN 26 / M i 173-174](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-026-pasarasi/){: target="_blank" rel="noopener"}, Pāsarāsi Sutta。[&nbsp;↩&nbsp;](#fr-fn32)
 {: id="fn-fn32"}
 
 \[33\] 例如：DA. III. 1013；MA. III. 50；SA. II. 163；AA. II. 373；AA. III. 52；NdA. 464；NdA. II. 123。“省察能力”对应于 paṭisaṅkhā yoniso 和 yoniso paṭisaṅkhā，它们是 yoniso-manasikāra 的同义词。[&nbsp;↩&nbsp;](#fr-fn33)
@@ -2523,49 +2528,49 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[34\] 见：Nd. I. 495；在某些段落中，nissaraṇa-paññā 被描述为通过使用（必需品）来消除诸漏——见：[MN 2 / M i 10](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-002-sabbasava/){: target="_blank" rel="noopener"}；[DN 29 / D iii 130](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}。食知节量被称为 bhojane-mattaññutā（经常提及，例如：[MN 53 / M i 355](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-053-sekha/){: target="_blank" rel="noopener"}；[MN 107 / M iii 2](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-107-ganakamoggallana/){: target="_blank" rel="noopener"}）。这些参考文献在第十章“佛陀关于欲望的教导”中已被引用。[&nbsp;↩&nbsp;](#fr-fn34)
 {: id="fn-fn34"}
 
-\[35\] 译注：如第七章“觉悟者”所述，“多闻圣弟子”（sutavā ariya-sāvaka）在某些情况下可以指“未觉悟的贤善凡夫”（kalyāṇa-puthujjana）；此外，“圣弟子”（ariya-sāvaka）一词在某些情况下指的是“佛陀这位圣者的弟子”，而非“一位圣者弟子”。[&nbsp;↩&nbsp;](#fr-fn35)
+\[35\] 译者注：如第七章“觉悟者”所述，“多闻圣弟子”（sutavā ariya-sāvaka）在某些情况下可以指“未觉悟的贤善凡夫”（kalyāṇa-puthujjana）；此外，“圣弟子”（ariya-sāvaka）一词在某些情况下指的是“佛陀这位圣者的弟子”，而非“一位圣者弟子”。[&nbsp;↩&nbsp;](#fr-fn35)
 {: id="fn-fn35"}
 
 \[36\] 居士或在家众有许多巴利语词汇，包括：gahaṭṭha, gihi, kāma-bhogī, sāgāra, āgārika, agārika, gehavāsī, gharamesī, gharavāsī。[&nbsp;↩&nbsp;](#fr-fn36)
 {: id="fn-fn36"}
 
-\[37\] 关于觉悟者如何过在家生活并安全享受欲乐的例子，见：[MV 5 / Vin i 180-81](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn37)
+\[37\] 关于觉悟者如何过在家生活并安全享受欲乐的例子，见：[MV 5 / Vin i 180-181](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn37)
 {: id="fn-fn37"}
 
-\[38\] 分为三种的分类法见：Nd. I. 168-9, 178, 357；Nd. II. 57。[&nbsp;↩&nbsp;](#fr-fn38)
+\[38\] 分为三种的分类法见：Nd. I. 168-169, 178, 357；Nd. II. 57。[&nbsp;↩&nbsp;](#fr-fn38)
 {: id="fn-fn38"}
 
-\[39\] 例如：[SN 12.22 / S ii 29](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-21-30-dasabala/#2-sn-1222-十力之二经-dutiyadasabalasutta){: target="_blank" rel="noopener"}；[SN 46.55 / S v 121-2](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#5-sn-4655-伤歌逻水钵喻经-saṅgāravasutta){: target="_blank" rel="noopener"}；[AN 1.45–46 / A i 9](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-001-050-pathamapannasaka/#55-an-145-浑水之喻){: target="_blank" rel="noopener"}；[AN 5.51 / A iii 63-4](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-051-060-nivarana/#1-an-551-五盖障碍经-āvaraṇasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn39)
+\[39\] 例如：[SN 12.22 / S ii 29](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-21-30-dasabala/#2-sn-1222-十力之二经-dutiyadasabalasutta){: target="_blank" rel="noopener"}；[SN 46.55 / S v 121-122](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#5-sn-4655-伤歌逻水钵喻经-saṅgāravasutta){: target="_blank" rel="noopener"}；[AN 1.45–46 / A i 9](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-001-050-pathamapannasaka/#55-an-145-浑水之喻){: target="_blank" rel="noopener"}；[AN 5.51 / A iii 63-64](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-051-060-nivarana/#1-an-551-五盖障碍经-āvaraṇasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn39)
 {: id="fn-fn39"}
 
-\[40\] [AN 5.63–64 / A iii 80](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-061-070-sanna/#3-an-563-五增长经之一-paṭhamavaḍḍhisutta){: target="_blank" rel="noopener"}；[AN 8.25 / A iv 220-21](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#5-an-825-摩诃那摩经-mahānāmasutta){: target="_blank" rel="noopener"}。vaḍḍhi 的字面翻译是“利润”、“增益”。[AN 10.74 / A v 137](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#4-an-1074-十增长经-vaḍḍhisutta){: target="_blank" rel="noopener"}描述了圣弟子在十种 ariyā vaḍḍhi 中成长；其中五种是物质利益（diṭṭhadhammikattha；即他们在耕地、财富和谷物、妻儿、仆人、工人和劳工以及牲畜方面增长），这些受五种被归类为内心利益的因素（samparāyikattha；即信心、戒行、学习、慷慨和智慧）的保护。[&nbsp;↩&nbsp;](#fr-fn40)
+\[40\] [AN 5.63–64 / A iii 80](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-061-070-sanna/#3-an-563-五增长经之一-paṭhamavaḍḍhisutta){: target="_blank" rel="noopener"}；[AN 8.25 / A iv 220-221](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#5-an-825-摩诃那摩经-mahānāmasutta){: target="_blank" rel="noopener"}。vaḍḍhi 的字面翻译是“利润”、“增益”。[AN 10.74 / A v 137](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#4-an-1074-十增长经-vaḍḍhisutta){: target="_blank" rel="noopener"}描述了圣弟子在十种 ariyā vaḍḍhi 中成长；其中五种是物质利益（diṭṭhadhammikattha；即他们在耕地、财富和谷物、妻儿、仆人、工人和劳工以及牲畜方面增长），这些受五种被归类为内心利益的因素（samparāyikattha；即信心、戒行、学习、慷慨和智慧）的保护。[&nbsp;↩&nbsp;](#fr-fn40)
 {: id="fn-fn40"}
 
-\[41\] [DN 31 / D iii 180-93](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-31-singala/){: target="_blank" rel="noopener"}。此经义注中作为在家众戒律的参考文献：DA. \[3/151\]。对《善生经》（Siṅgālaka Sutta）的系统化分析，请参阅书籍《佛教徒的戒律》（The Buddhist’s Discipline）（P. A. Payutto, © 2000, Dr. Somseen Chanawangsa 翻译）。\[译注：此经亦称 Sigālaka Sutta\]。[&nbsp;↩&nbsp;](#fr-fn41)
+\[41\] [DN 31 / D iii 180-193](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-31-singala/){: target="_blank" rel="noopener"}。此经义注中作为在家众戒律的参考文献：DA. \[3/151\]。对《善生经》（Siṅgālaka Sutta）的系统化分析，请参阅书籍《佛教徒的戒律》（The Buddhist’s Discipline）（P. A. Payutto, © 2000, Dr. Somseen Chanawangsa 翻译）。\[译者注：此经亦称 Sigālaka Sutta\]。[&nbsp;↩&nbsp;](#fr-fn41)
 {: id="fn-fn41"}
 
-\[42\] 译注：亦称“服务原则”：布施（dāna）、爱语（piya-vācā）、利行（atthacariyā）和同事（samānattatā）。[&nbsp;↩&nbsp;](#fr-fn42)
+\[42\] 译者注：亦称“服务原则”：布施（dāna）、爱语（piya-vācā）、利行（atthacariyā）和同事（samānattatā）。[&nbsp;↩&nbsp;](#fr-fn42)
 {: id="fn-fn42"}
 
 \[43\] 无过（anavajja）行为的例子包括守布萨（Uposatha）戒、帮助和服务他人、建立公园、植树造林和修建桥梁（KhA. \[123\]；SnA. \[2/96\]）。[&nbsp;↩&nbsp;](#fr-fn43)
 {: id="fn-fn43"}
 
-\[44\] 译注：作者使用拼写“Koḷiyans”。[&nbsp;↩&nbsp;](#fr-fn44)
+\[44\] 译者注：作者使用拼写“Koḷiyans”。[&nbsp;↩&nbsp;](#fr-fn44)
 {: id="fn-fn44"}
 
 \[45\] 这是长膝（Dīghajāṇu）的传统名称。[&nbsp;↩&nbsp;](#fr-fn45)
 {: id="fn-fn45"}
 
-\[46\] 译注：作者在此使用 bhagavā 的另一种含义，指“分析法者”。因此，佛陀的另一个称号是“分析者”。[&nbsp;↩&nbsp;](#fr-fn46)
+\[46\] 译者注：作者在此使用 bhagavā 的另一种含义，指“分析法者”。因此，佛陀的另一个称号是“分析者”。[&nbsp;↩&nbsp;](#fr-fn46)
 {: id="fn-fn46"}
 
-\[47\] [AN 8.55 / A iv 285-6](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#5-an-855-郁阇迦经-ujjayasutta){: target="_blank" rel="noopener"}；[AN 8.76 / A iv 322-3](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-071-080-yamaka/#6-an-876-具足之二-dutiyasampadāsutta){: target="_blank" rel="noopener"}有相似的教导。[&nbsp;↩&nbsp;](#fr-fn47)
+\[47\] [AN 8.55 / A iv 285-286](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#5-an-855-郁阇迦经-ujjayasutta){: target="_blank" rel="noopener"}；[AN 8.76 / A iv 322-323](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-071-080-yamaka/#6-an-876-具足之二-dutiyasampadāsutta){: target="_blank" rel="noopener"}有相似的教导。[&nbsp;↩&nbsp;](#fr-fn47)
 {: id="fn-fn47"}
 
-\[48\] 译注：作者使用拼写 miḷha-sukha。[&nbsp;↩&nbsp;](#fr-fn48)
+\[48\] 译者注：作者使用拼写 miḷha-sukha。[&nbsp;↩&nbsp;](#fr-fn48)
 {: id="fn-fn48"}
 
-\[49\] [MN 139 / M iii 233](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-139-aranavibhanga/){: target="_blank" rel="noopener"}；[MN 139 / M iii 236](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-139-aranavibhanga/){: target="_blank" rel="noopener"}。这些描述也见于：[MN 66 / M i 454](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-066-latukikopama/){: target="_blank" rel="noopener"}；[MN 122 / M iii 110-11](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-122-mahasunnata/){: target="_blank" rel="noopener"} = Nd. II. 64；[AN 5.30 / A iii 30-31](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-021-030-pancangika/#10-an-530-尊者那耆多-nāgitasutta){: target="_blank" rel="noopener"}；[AN 6.42 / A iii 342](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-031-042-devata/#12-an-642-尊者那耆多-nāgitasutta){: target="_blank" rel="noopener"}；[AN 8.86 / A iv 341-2](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-081-090-sati/#6-an-886-伊奢能伽罗经-yasasutta){: target="_blank" rel="noopener"}。“内在之乐”（ajjhatta-sukha），亦称“无过之乐”（anavajja-sukha），实际上指的是从善行所产生的喜悦开始，向上的一切形式的安乐；它在许多段落中被提及，包括：[DN 2 / D i 70](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-02-samannaphala/){: target="_blank" rel="noopener"}；[MN 27 / M i 180-81](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-027-culahatthipadopama/){: target="_blank" rel="noopener"}；[MN 38 / M i 268-9](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-038-mahatanhasankhaya/){: target="_blank" rel="noopener"}；[MN 51 / M i 346](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-051-kandaraka/){: target="_blank" rel="noopener"}；[MN 112 / M iii 34-5](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-112-chabbisodhana/){: target="_blank" rel="noopener"}；[AN 4.198 / A ii 210](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#8-an-4198-自苦经-attantapasutta){: target="_blank" rel="noopener"}；[AN 10.99 / A v 205-206](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#9-an-1099-优波离-upālisutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn49)
+\[49\] [MN 139 / M iii 233](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-139-aranavibhanga/){: target="_blank" rel="noopener"}；[MN 139 / M iii 236](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-139-aranavibhanga/){: target="_blank" rel="noopener"}。这些描述也见于：[MN 66 / M i 454](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-066-latukikopama/){: target="_blank" rel="noopener"}；[MN 122 / M iii 110-111](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-122-mahasunnata/){: target="_blank" rel="noopener"} = Nd. II. 64；[AN 5.30 / A iii 30-31](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-021-030-pancangika/#10-an-530-尊者那耆多-nāgitasutta){: target="_blank" rel="noopener"}；[AN 6.42 / A iii 342](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-031-042-devata/#12-an-642-尊者那耆多-nāgitasutta){: target="_blank" rel="noopener"}；[AN 8.86 / A iv 341-342](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-081-090-sati/#6-an-886-伊奢能伽罗经-yasasutta){: target="_blank" rel="noopener"}。“内在之乐”（ajjhatta-sukha），亦称“无过之乐”（anavajja-sukha），实际上指的是从善行所产生的喜悦开始，向上的一切形式的安乐；它在许多段落中被提及，包括：[DN 2 / D i 70](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-02-samannaphala/){: target="_blank" rel="noopener"}；[MN 27 / M i 180-181](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-027-culahatthipadopama/){: target="_blank" rel="noopener"}；[MN 38 / M i 268-269](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-038-mahatanhasankhaya/){: target="_blank" rel="noopener"}；[MN 51 / M i 346](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-051-kandaraka/){: target="_blank" rel="noopener"}；[MN 112 / M iii 34-35](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-112-chabbisodhana/){: target="_blank" rel="noopener"}；[AN 4.198 / A ii 210](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#8-an-4198-自苦经-attantapasutta){: target="_blank" rel="noopener"}；[AN 10.99 / A v 205-206](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#9-an-1099-优波离-upālisutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn49)
 {: id="fn-fn49"}
 
 \[50\] 相续（santati）掩盖了无常（anicca）的特相，威仪（iriyāpatha）掩盖了苦（dukkha，“受苦”，“压力”）的特相，而密集相（ghana）掩盖了无我（anattā）的特相：Vism. 640。[&nbsp;↩&nbsp;](#fr-fn50)
@@ -2580,28 +2585,28 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[53\] 这种分类偶尔分为十对。[&nbsp;↩&nbsp;](#fr-fn53)
 {: id="fn-fn53"}
 
-\[54\] [MN 14 / M i 93-4](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}, Cūḷadukkhakkhandha Sutta。[&nbsp;↩&nbsp;](#fr-fn54)
+\[54\] [MN 14 / M i 93-94](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}, Cūḷadukkhakkhandha Sutta。[&nbsp;↩&nbsp;](#fr-fn54)
 {: id="fn-fn54"}
 
 \[55\] [MN 99 / M ii 203-204](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-099-subha/){: target="_blank" rel="noopener"}。在这部经中，不从稻草或木材（即没有任何烟雾的火）产生的火是假想的；在当时的历史时期，除非有人通过神通力量，否则无法产生这种火。然而，如今，现代科学成就已使这种火成为可能。[&nbsp;↩&nbsp;](#fr-fn55)
 {: id="fn-fn55"}
 
-\[56\] [DN 2 / D i 71-6](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-02-samannaphala/){: target="_blank" rel="noopener"}, [DN 10 / D i 207](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-10-subha/){: target="_blank" rel="noopener"}；[MN 39 / M i 275](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-039-mahaassapura/){: target="_blank" rel="noopener"}；[MN 77 / M ii 15](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-077-mahasakuludayi/){: target="_blank" rel="noopener"}；[MN 119 / M iii 92-3](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-119-kayagatasati/){: target="_blank" rel="noopener"}；[AN 5.28 / A iii 25](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-021-030-pancangika/#8-an-528-五正定-pañcaṅgikasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn56)
+\[56\] [DN 2 / D i 71-76](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-02-samannaphala/){: target="_blank" rel="noopener"}, [DN 10 / D i 207](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-10-subha/){: target="_blank" rel="noopener"}；[MN 39 / M i 275](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-039-mahaassapura/){: target="_blank" rel="noopener"}；[MN 77 / M ii 15](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-077-mahasakuludayi/){: target="_blank" rel="noopener"}；[MN 119 / M iii 92-93](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-119-kayagatasati/){: target="_blank" rel="noopener"}；[AN 5.28 / A iii 25](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-021-030-pancangika/#8-an-528-五正定-pañcaṅgikasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn56)
 {: id="fn-fn56"}
 
 \[57\] 见：[AN 9.38 / A iv 430](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#7-an-938-顺世婆罗门经-lokāyatikasutta){: target="_blank" rel="noopener"}。“束缚于世间的系缚”是 visattikā 的翻译，通常等同于 taṇhā（“渴爱”）；有时被翻译为“渴爱之桎梏”。[&nbsp;↩&nbsp;](#fr-fn57)
 {: id="fn-fn57"}
 
-\[58\] 它包含 sambādha（“限制”，“禁锢”）；见：[AN 9.42 / A iv 449-50](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-042-051-samanna/#1-an-942-拥挤经-sambādhasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn58)
+\[58\] 它包含 sambādha（“限制”，“禁锢”）；见：[AN 9.42 / A iv 449-450](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-042-051-samanna/#1-an-942-拥挤经-sambādhasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn58)
 {: id="fn-fn58"}
 
-\[59\] 它包含 ābādha（“苦恼”）；见：[AN 9.41 / A iv 439-40](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#10-an-941-多梨富沙居士经-tapussasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn59)
+\[59\] 它包含 ābādha（“苦恼”）；见：[AN 9.41 / A iv 439-440](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#10-an-941-多梨富沙居士经-tapussasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn59)
 {: id="fn-fn59"}
 
 \[60\] 见：[MN 102 / M ii 237](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-102-pancattaya/){: target="_blank" rel="noopener"}；[MN 106 / M ii 265](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-106-aneñjasappaya/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn60)
 {: id="fn-fn60"}
 
-\[61\] 见：[MN 66 / M i 455-6](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-066-latukikopama/){: target="_blank" rel="noopener"}；[MN 105 / M ii 255-6](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-105-sunakkhatta/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn61)
+\[61\] 见：[MN 66 / M i 455-456](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-066-latukikopama/){: target="_blank" rel="noopener"}；[MN 105 / M ii 255-256](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-105-sunakkhatta/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn61)
 {: id="fn-fn61"}
 
 \[62\] 见：[MN 52 / M i 352](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-052-atthakanagara/){: target="_blank" rel="noopener"}；[AN 11.16 / A v 343](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-011-021-anussati/#6-an-1116-八城居士-aṭṭhakanāgarasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn62)
@@ -2622,7 +2627,7 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[67\] 此处的“有为法”指的是“有为之物”（saṅkhata-dhammā），它涵盖了所有五蕴（khandha）；它并非专指“行”（saṅkhāra），即第四蕴。[&nbsp;↩&nbsp;](#fr-fn67)
 {: id="fn-fn67"}
 
-\[68\] 乐受（sukha-vedanā）（连同苦受〔dukkha-vedanā〕和不苦不乐受〔adukkhamasukha-vedanā〕）被归类为苦（dukkha）的讨论也见于：[SN 36.2 / S iv 205](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#12-sn-362-乐经-sukhasutta){: target="_blank" rel="noopener"}；[Iti 3.4 / It 47](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#14-iti-34-受二经){: target="_blank" rel="noopener"}；[Snp 38 / Sn 143-4](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#38-snp-38-二随观经-dvayatānupassanāsutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn68)
+\[68\] 乐受（sukha-vedanā）（连同苦受〔dukkha-vedanā〕和不苦不乐受〔adukkhamasukha-vedanā〕）被归类为苦（dukkha）的讨论也见于：[SN 36.2 / S iv 205](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#12-sn-362-乐经-sukhasutta){: target="_blank" rel="noopener"}；[Iti 3.4 / It 47](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#14-iti-34-受二经){: target="_blank" rel="noopener"}；[Snp 38 / Sn 143-144](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-27-38-maha/#38-snp-38-二随观经-dvayatānupassanāsutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn68)
 {: id="fn-fn68"}
 
 \[69\] [MN 74 / M i 500](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-074-dighanakha/){: target="_blank" rel="noopener"}。受是无常的，苦的，并受制于变化。这是受的过患（ādīnava）（[MN 13 / M i 90](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-013-mahadukkhakkhandha/){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn69)
@@ -2640,55 +2645,55 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[73\] 包括所有梵天（十六种色界梵天和四种无色界梵天）。[&nbsp;↩&nbsp;](#fr-fn73)
 {: id="fn-fn73"}
 
-\[74\] 译注：cariya-dhamma 一词仅见于泰语。关于此词的更多内容，请参见第十二章“中道导论”中的“作为梵行的道”部分。[&nbsp;↩&nbsp;](#fr-fn74)
+\[74\] 译者注：cariya-dhamma 一词仅见于泰语。关于此词的更多内容，请参见第十二章“中道导论”中的“作为梵行的道”部分。[&nbsp;↩&nbsp;](#fr-fn74)
 {: id="fn-fn74"}
 
 \[75\] 这些书籍中有些写于二十五年前，有些我已无法找到副本；只剩下书名和基本提纲。这些文本包括：《教育：发展的工具》（การศึกษา: เครื่องมือพัฒนาที่ยังต้องพัฒนา；佛历2530年）；《教育改革的反思》（Reflections on Reforming Education；在课程与教学发展司成立44周年时发表的演讲）；以及《和平源于自由与安乐》（Peace Comes from Freedom and Happiness；佛历2537年）。[&nbsp;↩&nbsp;](#fr-fn75)
 {: id="fn-fn75"}
 
-\[76\] [MN 101 / M ii 226-28](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}, Devadaha Sutta。[&nbsp;↩&nbsp;](#fr-fn76)
+\[76\] [MN 101 / M ii 226-228](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-101-devadaha/){: target="_blank" rel="noopener"}, Devadaha Sutta。[&nbsp;↩&nbsp;](#fr-fn76)
 {: id="fn-fn76"}
 
-\[77\] 译注：请注意莫尼尔·莫尼尔-威廉姆斯爵士（Sir Monier Monier-Williams）在《梵英词典》（A Sanskrit-English Dictionary）中对 sukha 的定义：“据说是源自 su + kha，最初意思是‘有一个好轴孔’；运行迅速而轻松……”。[&nbsp;↩&nbsp;](#fr-fn77)
+\[77\] 译者注：请注意莫尼尔·莫尼尔-威廉姆斯爵士（Sir Monier Monier-Williams）在《梵英词典》（A Sanskrit-English Dictionary）中对 sukha 的定义：“据说是源自 su + kha，最初意思是‘有一个好轴孔’；运行迅速而轻松……”。[&nbsp;↩&nbsp;](#fr-fn77)
 {: id="fn-fn77"}
 
 \[78\] 它们有时被称为十福业事。[&nbsp;↩&nbsp;](#fr-fn78)
 {: id="fn-fn78"}
 
-\[79\] 译注：此处“比丘”一词可理解为无性别，指代比丘和比丘尼。[&nbsp;↩&nbsp;](#fr-fn79)
+\[79\] 译者注：此处“比丘”一词可理解为无性别，指代比丘和比丘尼。[&nbsp;↩&nbsp;](#fr-fn79)
 {: id="fn-fn79"}
 
-\[80\] 译注：作者将他的名字拼写为 Hatthakāḷavaka。[&nbsp;↩&nbsp;](#fr-fn80)
+\[80\] 译者注：作者将他的名字拼写为 Hatthakāḷavaka。[&nbsp;↩&nbsp;](#fr-fn80)
 {: id="fn-fn80"}
 
-\[81\] 译注：作者在此是针对泰国佛教徒发表此看法，但我认为此看法对于全世界的佛教徒而言是有效的。[&nbsp;↩&nbsp;](#fr-fn81)
+\[81\] 译者注：作者在此是针对泰国佛教徒发表此看法，但我认为此看法对于全世界的佛教徒而言是有效的。[&nbsp;↩&nbsp;](#fr-fn81)
 {: id="fn-fn81"}
 
-\[82\] 译注：我在此使用菩提比丘的译文；作者仅呈现巴利语：vaṭṭanāvallī（尽管在泰语中拼写为 vaṭṭanāvaḷī）。[&nbsp;↩&nbsp;](#fr-fn82)
+\[82\] 译者注：我在此使用菩提比丘的译文；作者仅呈现巴利语：vaṭṭanāvallī（尽管在泰语中拼写为 vaṭṭanāvaḷī）。[&nbsp;↩&nbsp;](#fr-fn82)
 {: id="fn-fn82"}
 
 \[83\] 尼乾陀（Nigaṇṭhā）教团的成员相信安乐只能通过痛苦获得，因此采取了各种极端的苦行；见：[MN 14 / M i 94](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-014-culadukkhakkhandha/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn83)
 {: id="fn-fn83"}
 
-\[84\] 见：[MN 36 / M i 246-9](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}, Mahāsaccaka Sutta。[&nbsp;↩&nbsp;](#fr-fn84)
+\[84\] 见：[MN 36 / M i 246-249](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}, Mahāsaccaka Sutta。[&nbsp;↩&nbsp;](#fr-fn84)
 {: id="fn-fn84"}
 
 \[85\] 佛陀给出此教导是为了区分佛教与尼乾陀（Nigaṇṭhā）教义，后者教导极端苦行（atta-kilamathānuyoga）。[&nbsp;↩&nbsp;](#fr-fn85)
 {: id="fn-fn85"}
 
-\[86\] [AN 4.55 / A ii 61-2](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-051-060-punnabhisanda/#5-an-455-更得互遇-paṭhamasamajīvīsutta){: target="_blank" rel="noopener"}, Paṭhamasamajīvī Sutta。[&nbsp;↩&nbsp;](#fr-fn86)
+\[86\] [AN 4.55 / A ii 61-62](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-051-060-punnabhisanda/#5-an-455-更得互遇-paṭhamasamajīvīsutta){: target="_blank" rel="noopener"}, Paṭhamasamajīvī Sutta。[&nbsp;↩&nbsp;](#fr-fn86)
 {: id="fn-fn86"}
 
 \[87\] 此处“为了工作本身而工作”与“为工作而工作”不同，而是为了所有人类的利益和福祉，并努力达成该特定活动的真正目的——其价值与卓越。[&nbsp;↩&nbsp;](#fr-fn87)
 {: id="fn-fn87"}
 
-\[88\] [AN 6.60 / A iii 392-99](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#6-an-660-尊者象舍利子经-hatthisāriputtasutta){: target="_blank" rel="noopener"}；尽管他已证得较高的住定（vihāra-samāpatti），但他仍然还俗。此事提及于：AA. III. 402；DhA. I. 305；JA. I. 310。\[译注：作者使用拼写 Cittahatthasārīputta。\] 关于泰国短期出家的习俗，请参见附录四。[&nbsp;↩&nbsp;](#fr-fn88)
+\[88\] [AN 6.60 / A iii 392-399](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#6-an-660-尊者象舍利子经-hatthisāriputtasutta){: target="_blank" rel="noopener"}；尽管他已证得较高的住定（vihāra-samāpatti），但他仍然还俗。此事提及于：AA. III. 402；DhA. I. 305；JA. I. 310。\[译者注：作者使用拼写 Cittahatthasārīputta。\] 关于泰国短期出家的习俗，请参见附录四。[&nbsp;↩&nbsp;](#fr-fn88)
 {: id="fn-fn88"}
 
 \[89\] 例如：[DN 33 / D iii 232](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[MN 110 / M iii 23](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-110-culapunnama/){: target="_blank" rel="noopener"}；[AN 4.186 / A ii 179](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-181-190-brahmana/#6-an-4186-善问经-ummaggasutta){: target="_blank" rel="noopener"}。然而请注意，此处“不伤害自己”与充分的正当自我奉献或出离不同，后者是另一种法（Dhamma）的修习。[&nbsp;↩&nbsp;](#fr-fn89)
 {: id="fn-fn89"}
 
-\[90\] [AN 2.64–76 / A i 80-82](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-053-118-dutiyapannasaka/#2-an-265-77-乐品-sukhavagga){: target="_blank" rel="noopener"}。此处的解释与 AA. II. 152一致。[&nbsp;↩&nbsp;](#fr-fn90)
+\[90\] [AN 2.65–77 / A i 80-82](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-053-118-dutiyapannasaka/#2-an-265-77-乐品-sukhavagga){: target="_blank" rel="noopener"}。此处的解释与 AA. II. 152一致。[&nbsp;↩&nbsp;](#fr-fn90)
 {: id="fn-fn90"}
 
 \[91\] 请注意，在这些成对的安乐中，“舍”（upekkhā）与“舍受”（upekkhā-vedanā）不同。[&nbsp;↩&nbsp;](#fr-fn91)
@@ -2715,7 +2720,7 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[98\] AA. I. 53 = AA. III. 2。[&nbsp;↩&nbsp;](#fr-fn98)
 {: id="fn-fn98"}
 
-\[99\] 见：《小义释义注》（Cūḷaniddesa Aṭṭhakathā）106；Vism. 636-7；VinṬ.：Tatiyapārājikaṁ, Ānāpānassatisamādhikathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn99)
+\[99\] 见：《小义释义注》（Cūḷaniddesa Aṭṭhakathā）106；Vism. 636-637；VinṬ.：Tatiyapārājikaṁ, Ānāpānassatisamādhikathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn99)
 {: id="fn-fn99"}
 
 \[100\] SnA. I. 331。[&nbsp;↩&nbsp;](#fr-fn100)
