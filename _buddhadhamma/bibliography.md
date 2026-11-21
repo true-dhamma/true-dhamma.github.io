@@ -10,11 +10,11 @@ title: 参考书目 | 佛法 | Buddhadhamma
 
 ### 巴利三藏
 
-《巴利三藏》的泰文版共计45卷 = 21,926页（律藏，3,351页；经藏，12,077页；阿毗达摩藏，6,498页）。[\[2\]](#fn-fn2){:id="fr-fn2"}
+《巴利三藏》泰文字母版共计 45 卷 = 21,926 页（律藏，3,351 页；经藏，12,077 页；阿毗达摩藏，6,498 页）。[\[2\]](#fn-fn2){:id="fr-fn2"}
 
 #### 律藏
 
-*   《律之书》（The Book of the Discipline），I. B. Horner 译，共6卷（牛津：巴利圣典协会）：第一卷（1938, 1992, 2014，包含 P. Kieffer-Pülz 迄今未译的段落）；第二卷（1940, 1993）；第三卷（1942, 1993）；第四卷（1951, 1993, 2014）；第五卷（1952, 1993）；第六卷（1966, 1993, 2014）。第一至三卷：《经分别》（Suttavibhaṅga）；第四卷：《大品》（Mahāvagga）；第五卷：《小品》（Cūlavagga）；第六卷：《附随》（Parivāra）。
+*   《律之书》（The Book of the Discipline），I. B. Horner 译，共 6 卷（牛津：巴利圣典协会）：第一卷（1938, 1992, 2014，包含 P. Kieffer-Pülz 迄今未译的段落）；第二卷（1940, 1993）；第三卷（1942, 1993）；第四卷（1951, 1993, 2014）；第五卷（1952, 1993）；第六卷（1966, 1993, 2014）。第一至三卷：《经分别》（Suttavibhaṅga）；第四卷：《大品》（Mahāvagga）；第五卷：《小品》（Cūlavagga）；第六卷：《附随》（Parivāra）。
 
 #### 经藏
 
@@ -28,7 +28,8 @@ title: 参考书目 | 佛法 | Buddhadhamma
     
 *   《小诵》（Khuddakapāṭha），《小读本与究竟义的阐释者》（The Minor Readings and The Illustrator of Ultimate Meaning），髻智比丘译（牛津：巴利圣典协会，1960, 1991, 2015）。
     
-*   《小部》（Khuddaka-nikāya）
+《小部》（Khuddaka-nikāya）
+
 *   《法句经》（Dhammapada）
     
     *   《法句经：巴利文本和译文附简短故事和义注》（The Dhammapada: Pali Text and Translation with Stories in Brief and Notes），那罗陀长老（Narada Thera）译，印度佛教传教士协会，1978；可从 Pariyatti Books 获得。
@@ -77,7 +78,7 @@ title: 参考书目 | 佛法 | Buddhadhamma
     
     *   《觉悟比丘尼之声：长老尼偈》（The Voice Of Enlightened Nuns: The Therigatha），尊者基里巴特戈达·尼亚纳南达（Kiribathgoda Gnanananda）译（Mahamegha Publications，2016）。
     
-*   《本生经》（Jātaka），《本生经或佛陀前生故事》（The Jataka or Stories of the Buddha’s Former Births），各种译者，E.B. Cowell 编辑（牛津：巴利圣典协会，E.B. Cowell 编辑，6卷 1895-1907，以及索引 1913，全部于1990年重印，现为3卷）。
+*   《本生经》（Jātaka），《本生经或佛陀前生故事》（The Jataka or Stories of the Buddha’s Former Births），各种译者，E.B. Cowell 编辑（牛津：巴利圣典协会，E.B. Cowell 编辑，6 卷 1895-1907，以及索引 1913，全部于 1990 年重印，现为 3 卷）。
     
 *   《义释》（Niddesa），根据传说，此文本（《大义释》和《小义释》）由佛陀的首要弟子尊者舍利弗撰写。英文译本可得性：印刷版：未知。
     
@@ -100,7 +101,7 @@ title: 参考书目 | 佛法 | Buddhadhamma
     
 *   《人施设论》（Puggalapaññatti），《人类类型之指定》（A Designation of Human Types），B.C. Law 从巴利语翻译（牛津：巴利圣典协会，1922）。
     
-*   《论事》（Kathāvatthu），根据传说，此文本由目犍连子帝须长老在第三次结集时（约佛历236年，即公元前307年）撰写。《争议点》（Points of Controversy），S.Z. Aung 和 C.A.F. Rhys Davids 从巴利语翻译（牛津：巴利圣典协会，1915）。
+*   《论事》（Kathāvatthu），根据传说，此文本由目犍连子帝须长老在第三次结集时（约佛历 236 年，即公元前 307 年）撰写。《争议点》（Points of Controversy），S.Z. Aung 和 C.A.F. Rhys Davids 从巴利语翻译（牛津：巴利圣典协会，1915）。
     
 *   《双论》（Yamaka），英文译本：未知。
     
@@ -121,16 +122,16 @@ title: 参考书目 | 佛法 | Buddhadhamma
     
 *   《藏释》（Peṭakopadesapakaraṇa）（据说是大迦旃延尊者的作品）。《藏经阐释》（Pitaka Disclosure (Petakopadesa)），髻智尊者译（牛津：巴利圣典协会，1964, 1979）。
     
-*   《弥兰王问经》（Milindapañha）（由那先长老于约佛历500年，即公元43年撰写）。
+*   《弥兰王问经》（Milindapañha）（由那先长老于约佛历 500 年，即公元 43 年撰写）。
     
-    *   《弥兰陀的问题》（Milinda’s Questions），I.B. Horner 译，2卷（牛津：巴利圣典协会，第一卷：1963, 1990；第二卷：1964, 1991）。
+    *   《弥兰陀的问题》（Milinda’s Questions），I.B. Horner 译，2 卷（牛津：巴利圣典协会，第一卷：1963, 1990；第二卷：1964, 1991）。
     
     *   《弥兰陀王之辩》（The Debate of King Milinda），佩萨拉比丘（Bhikkhu Pesala）编辑，节略版，Antony Rowe Ltd.，1990。
     
 
 ### 义注、复注及其他藏外文献
 
-义注、复注及其他藏外文献数量庞大，此处仅选列一部分，尤其是本书引用过的。这些文本中的大部分尚未被翻译成英文，并以贝叶手稿形式保存。后经典时期（这些文本从僧伽罗语重新翻译成巴利语的“翻译时代”）被认为始于觉音阿阇梨尊者，略早于佛历1000年（公元457年）。[\[3\]](#fn-fn3){:id="fr-fn3"}
+义注、复注及其他藏外文献数量庞大，此处仅选列一部分，尤其是本书引用过的。这些文本中的大部分尚未被翻译成英文，并以贝叶手稿形式保存。后经典时期（这些文本从僧伽罗语重新翻译成巴利语的“翻译时代”）被认为始于觉音阿阇梨尊者，略早于佛历 1000 年（公元 457 年）。[\[3\]](#fn-fn3){:id="fr-fn3"}
 
 #### 重要典籍及相关文献
 
@@ -164,15 +165,15 @@ title: 参考书目 | 佛法 | Buddhadhamma
     
 *   《小诵》（Khuddakapāṭha）：义注标题：《胜义之光》（Paramatthajotikā Khuddakapāṭhavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《小读本与究竟义的阐释者》（The Minor Readings and The Illustrator of Ultimate Meaning），髻智比丘译（牛津：巴利圣典协会，1960, 1991, 2015）。
     
-*   《法句经》（Dhammapada）：义注标题：《法句经义注》（Dhammapada-aṭṭhakathā）（由觉音阿阇梨尊者撰写；从僧伽罗语翻译）。《佛教传说》（Buddhist Legends），E.W. Burlingame 译（牛津：巴利圣典协会，1921，1990年重印为3卷，1995）。
+*   《法句经》（Dhammapada）：义注标题：《法句经义注》（Dhammapada-aṭṭhakathā）（由觉音阿阇梨尊者撰写；从僧伽罗语翻译）。《佛教传说》（Buddhist Legends），E.W. Burlingame 译（牛津：巴利圣典协会，1921，1990 年重印为 3 卷，1995）。
     
-*   《自说经》（Udāna）：义注标题：《胜义灯》（Paramatthadīpanī Udānavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《自说经义注》（Udāna Commentary），P. Masefield 译，2卷（牛津：巴利圣典协会，1994, 1995）。
+*   《自说经》（Udāna）：义注标题：《胜义灯》（Paramatthadīpanī Udānavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《自说经义注》（Udāna Commentary），P. Masefield 译，2 卷（牛津：巴利圣典协会，1994, 1995）。
     
-*   《如是语经》（Itivuttaka）：义注标题：《胜义灯》（Paramatthadīpanī Itivuttakavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《如是语经义注》（The Commentary on the Itivuttaka），Peter Masefield 译，2卷（牛津：巴利圣典协会，2008-2009）。
+*   《如是语经》（Itivuttaka）：义注标题：《胜义灯》（Paramatthadīpanī Itivuttakavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《如是语经义注》（The Commentary on the Itivuttaka），Peter Masefield 译，2 卷（牛津：巴利圣典协会，2008-2009）。
     
 *   《经集》（Suttanipāta）：义注标题：《胜义之光》（Paramatthajotikā Suttanipātavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由觉音阿阇梨尊者撰写）。英文译本：未知。
     
-*   《天宫事》（Vimānavatthu）：义注标题：《胜义灯》（Paramatthadīpanī Vimānavatthuvaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《天宫故事》（Vimāna Stories），P. Masefield 译（牛津：巴利圣典协会，1989，2015年重印）。
+*   《天宫事》（Vimānavatthu）：义注标题：《胜义灯》（Paramatthadīpanī Vimānavatthuvaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《天宫故事》（Vimāna Stories），P. Masefield 译（牛津：巴利圣典协会，1989，2015 年重印）。
     
 *   《饿鬼事》（Petavatthu）：义注标题：《胜义灯》（Paramatthadīpanī Petavatthuvaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《饿鬼故事》（Peta Stories），U Ba Kyaw 和 P. Masefield 译（牛津：巴利圣典协会，1980）。
     
@@ -180,7 +181,7 @@ title: 参考书目 | 佛法 | Buddhadhamma
     
 *   《长老尼偈》（Therīgāthā）：义注标题：《胜义灯》（Paramatthadīpanī Therīgāthā-atthavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由法护长老撰写）。《长老尼偈义注》（The Commentary on the Verses of the Therīs），William Pruitt 译（牛津：巴利圣典协会，1998）。
     
-*   《本生经》（Jātaka）：义注标题：《本生经义注》（Jātaka-aṭṭhakathā）（由觉音阿阇梨尊者撰写；从僧伽罗语翻译）。《本生经或佛陀前生故事》（The Jataka or Stories of the Buddha’s Former Births），各种译者，E.B. Cowell 编辑（牛津：巴利圣典协会，E.B. Cowell 编辑，6卷 1895-1907，以及索引 1913，全部于1990年重印，现为3卷）。
+*   《本生经》（Jātaka）：义注标题：《本生经义注》（Jātaka-aṭṭhakathā）（由觉音阿阇梨尊者撰写；从僧伽罗语翻译）。《本生经或佛陀前生故事》（The Jataka or Stories of the Buddha’s Former Births），各种译者，E.B. Cowell 编辑（牛津：巴利圣典协会，E.B. Cowell 编辑，6 卷 1895-1907，以及索引 1913，全部于 1990 年重印，现为 3 卷）。
     
 *   《义释》（Niddesa）：义注标题：《正法光明》（Saddhammapajjotikā Niddesavaṇṇanā, Khuddakanikāyaṭṭhakathā）（由斯里兰卡优婆斯那长老撰写）。英文译本：未知。
     
@@ -197,9 +198,9 @@ title: 参考书目 | 佛法 | Buddhadhamma
 
 #### 论藏
 
-*   《法集论》（Dhammasaṅgaṇī）：义注标题：《显义》（Atthasālinī Dhammasaṅgaṇīvaṇṇanā, Abhidhammaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《解释者》（The Expositor），Pe Maung Tin 译（牛津：巴利圣典协会，2卷，1920, 1921，1976年重印为1卷）。
+*   《法集论》（Dhammasaṅgaṇī）：义注标题：《显义》（Atthasālinī Dhammasaṅgaṇīvaṇṇanā, Abhidhammaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《解释者》（The Expositor），Pe Maung Tin 译（牛津：巴利圣典协会，2 卷，1920, 1921，1976 年重印为 1 卷）。
     
-*   《分别论》（Vibhaṅga）：义注标题：《破除痴迷》（Sammohavinodanī Vibhaṅgavaṇṇanā, Abhidhammaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《迷误消除者》（Dispeller of Delusion），髻智比丘译，L.S. Cousins、向智大长老（Nyanaponika Mahāthera）和 C.M.M. Shaw 修订（牛津：巴利圣典协会，2卷，1987, 1991）。
+*   《分别论》（Vibhaṅga）：义注标题：《破除痴迷》（Sammohavinodanī Vibhaṅgavaṇṇanā, Abhidhammaṭṭhakathā）（由觉音阿阇梨尊者撰写）。《迷误消除者》（Dispeller of Delusion），髻智比丘译，L.S. Cousins、向智大长老（Nyanaponika Mahāthera）和 C.M.M. Shaw 修订（牛津：巴利圣典协会，2 卷，1987, 1991）。
     
 *   《界论》（Dhātukathā）：义注标题：《胜义灯》（Paramatthadīpanī Dhātukathādipañcapakaraṇa-aṭṭhakathā）[\[5\]](#fn-fn5){:id="fr-fn5"}（由觉音阿阇梨尊者撰写）。英文译本：未知。
     
@@ -226,12 +227,12 @@ title: 参考书目 | 佛法 | Buddhadhamma
 
 *   《成就色论》（Rūpasiddhipakaraṇa）（由南印度佛陀比耶长老撰写）。
 
-注意：在一些引用缅甸文或罗马字母文本的脚注中，括号内有说明这些文本尚未被翻译成泰文。这些脚注出自1982年《佛法》修订扩充版的首次印行本。此后其中一些文本已有泰译，但我尚未据此修改脚注。
+注意：一些引用缅文字母版或罗马字母版原典的脚注，括号内注明“泰文字母版尚未出版”。这些脚注出自 1982 年《佛法》修订扩充版的首次印行本。此后已有部分原典陆续以泰文字母印行，但相关脚注尚未据此修订。
 
-\[1\] 希望看到类似编排的英文参考文献的读者，可查阅《佛教学生手册》（A Buddhist Students’ Manual）（Christmas Humphreys 编辑，伦敦，佛教协会，1956），第228-240页。\[译者注：本参考书目的开头一段由译者撰写。\][&nbsp;↩&nbsp;](#fr-fn1)
+\[1\] 希望看到类似编排的英文参考文献的读者，可查阅《佛教学生手册》（A Buddhist Students’ Manual）（Christmas Humphreys 编辑，伦敦，佛教协会，1956），第 228-240 页。\[译者注：本参考书目的开头一段由译者撰写。\][&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
-\[2\] 译者注：《巴利三藏》的主要泰文版是《暹罗王国巴利三藏》（Syāmraṭṭhassa Tepiṭakaṁ），曼谷，摩诃蒙固佛教大学，1925-1930年（首次由 Panich Supaphon 印刷厂印刷；第二次印刷始于1955年，摩诃蒙固佛教大学出版社）。上述《暹罗王国巴利三藏》的泰文译本被称为《皇家版三藏》（Royal Tipiṭaka），由宗教事务部于1971年出版（第二次印刷）。在上述《暹罗王国巴利三藏》之后的是《摩诃朱拉隆功三藏》（Mahācuḷā Tepiṭakaṁ），由摩诃朱拉隆功大学出版，该大学也有自己的泰文译本（摩诃朱拉隆功三藏）。[&nbsp;↩&nbsp;](#fr-fn2)
+\[2\] 译者注：《巴利三藏》的主要泰文字母版是《暹罗王国巴利三藏》（Syāmraṭṭhassa Tepiṭakaṁ），曼谷，摩诃蒙固佛教大学，1925-1930 年（首次由 Panich Supaphon 印刷厂印刷；第二次印刷始于 1955 年，摩诃蒙固佛教大学出版社）。上述《暹罗王国巴利三藏》的泰文译本被称为《皇家版三藏》（Royal Tipiṭaka），由宗教事务部于 1971 年出版（第二次印刷）。在上述《暹罗王国巴利三藏》之后的是《摩诃朱拉隆功三藏》（Mahācuḷā Tepiṭakaṁ），由摩诃朱拉隆功大学出版，该大学也有自己的泰文译本（摩诃朱拉隆功三藏）。[&nbsp;↩&nbsp;](#fr-fn2)
 {: id="fn-fn2"}
 
 \[3\] 义注在斯里兰卡存在已久，远早于此日期。觉音阿阇梨尊者只是将它们从僧伽罗语翻译回巴利语。[&nbsp;↩&nbsp;](#fr-fn3)

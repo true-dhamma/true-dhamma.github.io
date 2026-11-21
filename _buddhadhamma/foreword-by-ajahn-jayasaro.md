@@ -14,6 +14,6 @@ title: 尊者阿姜查雅萨罗前言 | 佛法 | Buddhadhamma
 
 阿姜查雅萨罗  
 伽那马拉隐修处  
-2016年6月
+2016 年 6 月
 
 ![image](./images/illustrations/flowers-collection-decor.jpg)

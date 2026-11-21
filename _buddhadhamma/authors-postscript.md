@@ -6,19 +6,19 @@ title: 作者后记 | 佛法 | Buddhadhamma
 
 ![image](./images/illustrations/postscript-trade.jpg)
 
-这版《佛法》是十年前，即1971年，作者以帕·斯里维苏提摩利（Phra Srivisuddhimoli）之名出版的同名节略版的修订和扩充版。
+这版《佛法》是十年前，即 1971 年，作者以帕·斯里维苏提摩利（Phra Srivisuddhimoli）之名出版的同名节略版的修订和扩充版。
 
-《佛法》原版收录于《万瓦他雅贡》（Wan Waithayakon）丛书，该丛书是泰国社会科学协会为纪念瓦那·维达亚卡拉亲王殿下（His Royal Highness Prince Vanna Vaidhayakara），即纳拉迪普·蓬色布拉班亲王（Prince Naradhip Bhongseprabhan）八十寿辰，于1971年8月25日组织发起的社会科学与人文教材推广项目所出版的学术文集。
+《佛法》原版收录于《万瓦他雅贡》（Wan Waithayakon）丛书，该丛书是泰国社会科学协会为纪念瓦那·维达亚卡拉亲王殿下（His Royal Highness Prince Vanna Vaidhayakara），即纳拉迪普·蓬色布拉班亲王（Prince Naradhip Bhongseprabhan）八十寿辰，于 1971 年 8 月 25 日组织发起的社会科学与人文教材推广项目所出版的学术文集。
 
-《佛法》原版还曾两次出版：1976年4月3日星期六，瓦普拉普拉差寺（Wat Plubplachai）的僧团印刷此书，以纪念帕·西拉坎塔索比塔（Phra Silakhandhasobhita；维拉查·西里达多，Virach Siridatto）的皇家火葬；以及1987年11月29日，教育部宗教事务部印刷此书，以纪念桑维萨威察亚兰寺（Wat Sangveswitsayaram）的颂德·帕·瓦纳拉特（Somdet Phra Vanarat；萨普·戈萨卡大长老，Sap Ghosaka Mahāthera）的皇家火葬。
+《佛法》原版还曾两次出版：1976 年 4 月 3 日星期六，瓦普拉普拉差寺（Wat Plubplachai）的僧团印刷此书，以纪念帕·西拉坎塔索比塔（Phra Silakhandhasobhita；维拉查·西里达多，Virach Siridatto）的皇家火葬；以及 1977 年 11 月 29 日，教育部宗教事务部印刷此书，以纪念桑维萨威察亚兰寺（Wat Sangveswitsayaram）的颂德·帕·瓦纳拉特（Somdet Phra Vanarat；萨普·戈萨卡大长老，Sap Ghosaka Mahāthera）的皇家火葬。
 
 这最新版的《佛法》篇幅约为原版的六倍。原版文本经过修订和澄清；许多段落得以扩展，同时新增了其他段落。因此，这个版本几乎是一本全新的书。无论如何，新内容比原版内容多得多。
 
-修订扩充版《佛法》的出版背景简述如下：1978年8月，拉维·帕维莱教授（Prof. Rawee Pawilai）代表弘法小组（Dhamma-Mobilizing Group）联系了持有《佛法》原版版权的社会科学与人文推广基金会，以便他能将此书作为非营利出版物再版。上述基金会委员会主席萨内·查马里克教授（Prof. Saneh Chamarik）体恤地通知了我这位作者并征求我的许可。
+修订扩充版《佛法》的出版背景简述如下：1978 年 8 月，拉维·帕维莱教授（Prof. Rawee Pawilai）代表弘法小组（Dhamma-Mobilizing Group）联系了持有《佛法》原版版权的社会科学与人文推广基金会，以便他能将此书作为非营利出版物再版。上述基金会委员会主席萨内·查马里克教授（Prof. Saneh Chamarik）体恤地通知了我这位作者并征求我的许可。
 
 不久之后，拉维·帕维莱教授前来与我商谈此事。我表达了我的谢意，但请求他能否稍作延迟出版，以便我能利用这个机会对文本进行一些修订。最初撰写此书时，我是赶着截稿期限完成的；而且首次出版后的七年里，我又有了许多想补充进去的新想法。拉维·帕维莱教授慷慨地答应了，尽管他已经为出版此书做了准备，例如预留了必要的资金。我估计完成修订所需时间为三个月。
 
-当时我手头有许多未完成的图书项目。几个月前，我决定重新启动我于1964年开始的《佛教百科全书》（Buddhist Encyclopaedia）的工作。为确保此书的完成，我决定拒绝所有演讲和教学邀请，直到至少这本书完成。因此，修订《佛法》是在我刚写完《佛教百科全书》约190页时额外插进来的任务。
+当时我手头有许多未完成的图书项目。几个月前，我决定重新启动我于 1964 年开始的《佛教百科全书》（Buddhist Encyclopaedia）的工作。为确保此书的完成，我决定拒绝所有演讲和教学邀请，直到至少这本书完成。因此，修订《佛法》是在我刚写完《佛教百科全书》约 190 页时额外插进来的任务。
 
 无论如何，这次修订并未在估计的时间内完成；事实上，这项任务拖延了三年，直到现在。它不再是一项辅助工作，而成为一项主要工作。《佛教百科全书》的工作暂停了，我对那本书的所有决心都转移到了《佛法》的修订上。
 
@@ -60,7 +60,7 @@ title: 作者后记 | 佛法 | Buddhadhamma
 > 1.  adhippāya（个人诠释）；
 > 1.  kāranuttariya（由前四个信息来源组成的理性解释）。
 >
-> 见：Miln. 148。
+> 参见：Miln. 148。
 >
 > 在义注中，这一重要性顺序是：
 >
@@ -69,9 +69,9 @@ title: 作者后记 | 佛法 | Buddhadhamma
 > 1.  ācariya-vāda（= aṭṭhakathā；义注）；
 > 1.  attanomati（个人诠释）。
 >
-> 见：DA. II. 567。
+> 参见：DA. II. 567。
 >
-> 另见四大教法（mahāpadesa）的原则：[DN 16 / D ii 124](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[AN 4.180 / A ii 167-168](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-171-180-sancetaniya/#10-an-4180-四大教法经-mahāpadesasutta){: target="_blank" rel="noopener"}；以及《律藏》（Vinaya）中的描述：[MV 6 / Vin i 250-251](https://aipali.true-dhamma.com/vinaya/mv/mv-06-bhesajja/){: target="_blank" rel="noopener"}。
+> 另参见四大教法（mahāpadesa）的原则：[DN 16 / D ii 124](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"}；[AN 4.180 / A ii 167-168](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-171-180-sancetaniya/#10-an-4180-四大教法经-mahāpadesasutta){: target="_blank" rel="noopener"}；以及《律藏》（Vinaya）中的描述：[MV 6 / Vin i 250-251](https://aipali.true-dhamma.com/vinaya/mv/mv-06-bhesajja/){: target="_blank" rel="noopener"}。
 
 即便要排斥经文，若要做得彻底而无可指摘，也须避免含糊笼统的否定和不信。在评判，甚至舍弃经文之前，应先全面研读这些文本，以确切了解其作者所说。我们如何看待或从这些文本中建立不同的观点，则由我们自己决定。那些已故的作者处于不利地位；他们无法站起来表达自己的观点或与我们辩论。因此，应当先加以研究，让这些作者通过他们的文本把话完整地说出来。无论我们是否同意他们所说的，至少我们已经给予他们应有的公正。
 
@@ -101,7 +101,7 @@ title: 作者后记 | 佛法 | Buddhadhamma
     
 *   在已引用主要原始资料的情况下，除非有特殊原因，例如后来的文本提供了补充说明，否则没有必要引用次要经文。
     
-*   在广泛选用原始资料时，文本通常按照类别、部类、起源时间等排列。例如，《巴利三藏》（Tipiṭaka）的引文先于义注的引文，义注的引文先于复注的引文。《律藏》（Vinaya Piṭaka）的引文通常先于《经藏》（Suttanta Piṭaka）的引文；《经藏》（Suttanta Piṭaka）的引文先于《阿毗达摩藏》（Abhidhamma Piṭaka）的引文。经文中的各种引文按部（nikāya）排列；同一部中的引文按卷次排列。例如：Vin., D. I., D. II., D. III., M. I., M. II. ... Dhs.（阿毗达摩）, Vbh.（阿毗达摩）... VinA., DA., MA. ... VbhA. ... VinṬ.等。例外情况是，如果后世文献详细地涵盖了特定主题，并因此成为关键的经文参考，在这种情况下，该文献可以放在所有引证的最前面。同样，如果同一段落出现在不同的文本中，这些文本的引证可以放在一起。
+*   在广泛选用原始资料时，文本通常按照类别、部类、起源时间等排列。例如，《巴利三藏》（Tipiṭaka）的引文先于义注的引文，义注的引文先于复注的引文。《律藏》（Vinaya Piṭaka）的引文通常先于《经藏》（Suttanta Piṭaka）的引文；《经藏》（Suttanta Piṭaka）的引文先于《阿毗达摩藏》（Abhidhamma Piṭaka）的引文。经文中的各种引文按部（nikāya）排列；同一部中的引文按卷次排列。例如：Vin., D. I., D. II., D. III., M. I., M. II. ... Dhs.（阿毗达摩）, Vbh.（阿毗达摩）... VinA., DA., MA. ... VbhA. ... VinṬ.等。例外情况是，如果后世文献详细地涵盖了特定主题，并因此成为重要的文献依据，在这种情况下，该文献可以放在所有引证的最前面。同样，如果同一段落出现在不同的文本中，这些文本的引证可以放在一起。
     
 
 与大量的经证类似，本书也包含大量的解释性脚注。有些读者可能会觉得这些脚注杂乱或令人烦恼，但我只请求你们考虑那些可能从中受益的读者。
@@ -134,11 +134,11 @@ title: 作者后记 | 佛法 | Buddhadhamma
 
 这些批评即使合乎逻辑或部分正确，也大多源于把佛教徒的行为举止与佛陀的真实教导混为一谈。批评者观察到佛教徒的特定有害或不良行为，然后将重点放在并批评佛教教义中似乎与此行为相符的某个方面。批评者很少攻击真实、本质的佛教教义。
 
-佛教徒可以利用这些批评进行自我反省，然后调整自己的行为以符合真实教导。就正式教导本身而言，在探究、研习教导时，若发现某个法（Dhamma）要点能回应或消除特定的批评或指责，便会为法（Dhamma）的卓越和光辉而欣喜和欢庆。
+佛教徒可以利用这些批评进行自我反省，然后调整自己的行为以符合真实教导。就正式教导本身而言，在探究、研习教导时，若发现某个法（Dhamma）要点能回应或消除特定的批评或指责，便会为法（Dhamma）的殊胜与光辉而欣喜和欢庆。
 
-在佛陀时代，他的一位弟子说了以下偈语：Aho buddho aho dhammo aho dhammassa svākkhātatā（“哦，佛陀的殊胜！哦，法的殊胜！哦，法被善说得多么殊胜！”）。[\[2\]](#fn-fn2){:id="fr-fn2"} 同样，一些尊贵的长老感叹道：Aho dhammasudhammatā（“确实，法是何等殊胜！”）。[\[3\]](#fn-fn3){:id="fr-fn3"}
+在佛陀时代，他的一位弟子说了以下偈语：Aho buddho aho dhammo aho dhammassa svākkhātatā（“哦，佛陀的殊胜！哦，法的殊胜！哦，法被善说得多么殊胜！”）。[\[2\]](#fn-fn2){:id="fr-fn2"}同样，一些尊贵的长老感叹道：Aho dhammasudhammatā（“确实，法是何等殊胜！”）。[\[3\]](#fn-fn3){:id="fr-fn3"}
 
-当这种热情生起时，便会有一种强大的善法欲，想要向他人宣扬法（Dhamma）的功德，或者鼓励他人见证并欣赏法（Dhamma）的卓越和高尚，正如《巴利三藏》中忠实弟子的言论所见：
+当这种热情生起时，便会有一种强大的善法欲，想要向他人宣扬法（Dhamma）的功德，或者鼓励他人见证并欣赏法（Dhamma）的殊胜与高尚，正如《巴利三藏》中忠实弟子的言论所见：
 
 > So ahaṁ vicarissāmi  
 > gāmā gāmaṁ purā puraṁ  
@@ -146,12 +146,12 @@ title: 作者后记 | 佛法 | Buddhadhamma
 > dhammassa ca sudhammataṁ
 >
 > “我将亲自从村到村，从城到城，不知疲倦地礼敬佛陀与殊胜的法。”[\[4\]](#fn-fn4){:id="fr-fn4"}  
-> [SN 10.12 / S i 215](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-10-yakkha/sn-10-yakkha/#112-sn-1012-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}；[Snp 10 / Sn 33](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#10-snp-10-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}, [Snp 9 / Sn 31](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#9-snp-9-雪山夜叉经-hemavatasutta){: target="_blank" rel="noopener"}；Ap. 48, 376；比较：[DN 18 / D ii 208](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}, [DN 19 / D ii 221](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}, [DN 19 / D ii 227](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}
+> [SN 10.12 / S i 215](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-10-yakkha/sn-10-yakkha/#112-sn-1012-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}；[Snp 10 / Sn 33](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#10-snp-10-旷野夜叉经-āḷavakasutta){: target="_blank" rel="noopener"}, [Snp 9 / Sn 31](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#9-snp-9-雪山夜叉经-hemavatasutta){: target="_blank" rel="noopener"}；Ap. 48, 376；对照：[DN 18 / D ii 208](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-18-janavasabha/){: target="_blank" rel="noopener"}, [DN 19 / D ii 221](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}, [DN 19 / D ii 227](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}
 >
 > Passa dhammasudhammataṁ
 >
-> “来吧，见证法的殊胜，”或“来吧，看啊！法（Dhamma）是真正卓越的教导。”  
-> [Thag 1.24 / Thag verse 24](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-01-ekaka/#thag-124-苏犍陀长老偈-sugandhattheragāthā){: target="_blank" rel="noopener"}, [Thag 3.1 / Thag verse 220](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-31-安迦尼迦婆罗堕阇婆阇长老偈-aṅgaṇikabhāradvājattheragāthā){: target="_blank" rel="noopener"}, [Thag 4.1 / Thag verse 270](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-41-龙垢长老偈-nāgasamālattheragāthā){: target="_blank" rel="noopener"}, [Thag 4.5 / Thag verse 286](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-45-阎浮迦长老偈-jambukattheragāthā){: target="_blank" rel="noopener"}, [Thag 4.9 / Thag verse 302](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-49-旃檀长老偈-candanattheragāthā){: target="_blank" rel="noopener"}, [Thag 5.1 / Thag verse 319](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-51-王授长老偈-rājadattattheragāthā){: target="_blank" rel="noopener"}, [Thag 6.6 / Thag verse 410](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-66-萨帕达萨长老偈-sappadāsattheragāthā){: target="_blank" rel="noopener"}, [Thag 17.3 / Thag verse 1039](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-17-21-timsa-maha/#thag-173-阿难长老偈-ānandattheragāthā){: target="_blank" rel="noopener"}
+> “来吧，见证法的殊胜，”或“来吧，看啊！法（Dhamma）是真正殊胜的教导。”  
+> [Thag 1.24 / Thag 第 24 偈](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-01-ekaka/#thag-124-苏犍陀长老偈-sugandhattheragāthā){: target="_blank" rel="noopener"}, [Thag 3.1 / Thag 第 220 偈](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-31-安迦尼迦婆罗堕阇婆阇长老偈-aṅgaṇikabhāradvājattheragāthā){: target="_blank" rel="noopener"}, [Thag 4.1 / Thag 第 270 偈](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-41-龙垢长老偈-nāgasamālattheragāthā){: target="_blank" rel="noopener"}, [Thag 4.5 / Thag 第 286 偈](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-45-阎浮迦长老偈-jambukattheragāthā){: target="_blank" rel="noopener"}, [Thag 4.9 / Thag 第 302 偈](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-49-旃檀长老偈-candanattheragāthā){: target="_blank" rel="noopener"}, [Thag 5.1 / Thag 第 319 偈](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-51-王授长老偈-rājadattattheragāthā){: target="_blank" rel="noopener"}, [Thag 6.6 / Thag 第 410 偈](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-66-萨帕达萨长老偈-sappadāsattheragāthā){: target="_blank" rel="noopener"}, [Thag 17.3 / Thag 第 1039 偈](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-17-21-timsa-maha/#thag-173-阿难长老偈-ānandattheragāthā){: target="_blank" rel="noopener"}
 
 这种热情和启发是撰写本书的重要催化剂。作为佛法学子撰写本书，写作行为促进了我个人的学习。因此，我很乐意回应建议和异议，并在得知错误时本着相互的善意和对法（Dhamma）的共同热爱进行修改，以使本书得以完成。
 
@@ -163,13 +163,13 @@ title: 作者后记 | 佛法 | Buddhadhamma
 
 一个重要的例子是 dhamma-paṭipatti（“如法修行”）这个术语，其真实含义是“在日常生活中运用法”或“依法而行”。然而，如今“如法修行”往往被定义为修行的特定步骤或阶段，表现为一套系统化的程序，并按照某种既定方法进行。在本书中，我有时会在这种狭义上使用“如法修行”这一术语。读者应注意这种区别。
 
-在泰语中，一个有趣的例子是 seuksah（巴利语：sikkhā）这个词，它与 patibat（= paṭipatti）这个词成对出现。最初，sikkhā 这个术语指的是修行（paṭipatti）的精髓，或者它指的是修行本身。sikkhā 由戒（sīla）、定（samādhi）和慧（paññā）组成，它们直接与修行相关。[\[5\]](#fn-fn5){:id="fr-fn5"} 尤其是开发智慧是无上殊胜的修行形式，导向证悟（paṭivedha）。在泰语中，seuksah 一词后来被用来指代学习或教育，甚至是死记硬背或抽象学习，这可能导致语无伦次或漫无目的的思考。因此，seuksah 的含义已被转化为等同于 pariyatti（“正式学习”）这一术语。
+在泰语中，一个有趣的例子是 seuksah（巴利语：sikkhā）这个词，它与 patibat（= paṭipatti）这个词成对出现。最初，sikkhā 这个术语指的是修行（paṭipatti）的精髓，或者它指的是修行本身。sikkhā 由戒（sīla）、定（samādhi）和慧（paññā）组成，它们直接与修行相关。[\[5\]](#fn-fn5){:id="fr-fn5"}尤其是开发智慧是无上殊胜的修行形式，导向证悟（paṭivedha）。在泰语中，seuksah 一词后来被用来指代学习或教育，甚至是死记硬背或抽象学习，这可能导致语无伦次或漫无目的的思考。因此，seuksah 的含义已被转化为等同于 pariyatti（“正式学习”）这一术语。
 
-另一个重要的区别（虽然与词义变得模糊无关），是“Pali”与巴利语之间的区别。“Pali”单独使用时，专指《巴利三藏》（Tipiṭaka）的内容，以区别于后世经文，例如义注、复注等。[\[6\]](#fn-fn6){:id="fr-fn6"} 巴利语是指用于记录和保存《巴利三藏》（Tipiṭaka）内容的语言；它也被称为摩揭陀俗语（Magadhi Prakrit，摩揭陀的语言）。《巴利三藏》（Tipiṭaka）和后世经文，例如义注，都是用巴利语记录的。[\[7\]](#fn-fn7){:id="fr-fn7"}
+另一个重要的区别（虽然与词义变得模糊无关），是“Pali”与巴利语之间的区别。“Pali”单独使用时，专指《巴利三藏》（Tipiṭaka）的内容，以区别于后世经文，例如义注、复注等。[\[6\]](#fn-fn6){:id="fr-fn6"}巴利语是指用于记录和保存《巴利三藏》（Tipiṭaka）内容的语言；它也被称为摩揭陀俗语（Magadhi Prakrit，摩揭陀的语言）。《巴利三藏》（Tipiṭaka）和后世经文，例如义注，都是用巴利语记录的。[\[7\]](#fn-fn7){:id="fr-fn7"}
 
 在《佛法》（Buddhadhamma）的初版中，有些主题只是非常简要地讨论，仅仅是为了让读者熟悉基本概念。我没有深入解释它们或指出相关的实践方法。这个修订和扩充版已经解决了这些弱点和不足。例如，在初版中题为“正见之助缘”的部分，因为我感觉到善友（kalyāṇamitta）和如理作意（yoniso-manasikāra）的主题被佛教徒普遍忽视，我曾专注于通过引用大量佛陀的话语来强调这些原则的重要性，以证明其意义。然而，这些基本原则的各个方面，包括应用它们的实际方法，却没有加以阐述。这样做可能收效不大，因为十年后这些主题似乎仍未得到应有的关注。因此，在这个新版《佛法》（Buddhadhamma）中，更多地关注了基本原则和实践方法。处理这些主题的部分也因此变得更加详细和广泛。
 
-还有许多其他类似的原则，例如：对真理的渴望（dhamma-chanda），或善法欲（kusala-chanda），这与渴爱（taṇhā）相反；[\[8\]](#fn-fn8){:id="fr-fn8"} 世间和出世间正见；与中道（majjhimā-paṭipadā）成对的中道法义（majjhena-dhammadesanā）；以及与业（kamma）的教导相悖的三种宣扬邪见的教义。
+还有许多其他类似的原则，例如：对真理的渴望（dhamma-chanda），或善法欲（kusala-chanda），这与渴爱（taṇhā）相反；[\[8\]](#fn-fn8){:id="fr-fn8"}世间和出世间正见；与中道（majjhimā-paṭipadā）成对的中道法义（majjhena-dhammadesanā）；以及与业（kamma）的教导相悖的三种宣扬邪见的教义。
 
 尽管本书是为现代读者而写，但由于其强调理论知识和经文原始资料，可以说它是连接传统与现代的桥梁。它并非以全新的形式呈现佛法（Buddha-Dhamma），这种新形式将主要重视现代人的心理和智力倾向，并主要使用现代用语。因此，正如《佛法》（Buddhadhamma）初版中已经提到的，未来可能需要撰写一本名为《佛法应用》（Applied Buddha-Dhamma）的配套卷册。
 
@@ -177,7 +177,7 @@ title: 作者后记 | 佛法 | Buddhadhamma
 
 如上所述，这本修订和扩充版的《佛法》（Buddhadhamma）是由于拉维·帕维莱教授的信心和规划而得以问世的。作为本项目的推动者和本次出版的赞助者，拉维·帕维莱教授因此成为本书成功和完成的关键资助者。
 
-这本修订和扩充版的《佛法》（Buddhadhamma）是1971年出版的《佛法》（Buddhadhamma）初版的续篇。初版源于在泰国社会科学协会赞助下，由“社会科学与人文教材推广项目”所组织的规划，Sulak Sivaraksa 先生担任主要联络人和协调员。当时他协助规划和联络，因此也为本书的制作提供了大力支持。
+这本修订和扩充版的《佛法》（Buddhadhamma）是 1971 年出版的《佛法》（Buddhadhamma）初版的续篇。初版源于在泰国社会科学协会赞助下，由“社会科学与人文教材推广项目”所组织的规划，Sulak Sivaraksa 先生担任主要联络人和协调员。当时他协助规划和联络，因此也为本书的制作提供了大力支持。
 
 尽管我早已决心修订和扩充《佛法》（Buddhadhamma）文本，但如果我没有收到出版邀请并得知出版意愿，这个项目就会被推迟，并且肯定不会在此时完成。
 
@@ -194,7 +194,7 @@ title: 作者后记 | 佛法 | Buddhadhamma
 这里提到的每一位，都参与了协助出版《佛法》（Buddhadhamma）这一功德善举，本书旨在作为知识和真理的礼物，造福所有人。在此，我衷心感谢大家团结一致的精神和支持。
 
 帕·拉差瓦拉牟尼（Phra Rajavaramuni，巴育 Prayut）[\[9\]](#fn-fn9){:id="fr-fn9"}  
-1981年12月29日
+1981 年 12 月 29 日
 
 ![image](./images/illustrations/bells-large-decor.jpg)
 
@@ -204,22 +204,22 @@ title: 作者后记 | 佛法 | Buddhadhamma
 \[2\] [MN 85 / M ii 96](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-04-raja/mn-085-bodhirajakumara/){: target="_blank" rel="noopener"}；比较：Ap. 392。[&nbsp;↩&nbsp;](#fr-fn2)
 {: id="fn-fn2"}
 
-\[3\] [Thag 7.3 / Thag verse 479](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-73-跋陀长老偈-bhaddattheragāthā){: target="_blank" rel="noopener"}；[Thag 7.4 / Thag verse 486](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-74-索帕卡长老偈-sopākattheragāthā){: target="_blank" rel="noopener"}；Ap. 399。[&nbsp;↩&nbsp;](#fr-fn3)
+\[3\] [Thag 7.3 / Thag 第 479 偈](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-73-跋陀长老偈-bhaddattheragāthā){: target="_blank" rel="noopener"}；[Thag 7.4 / Thag 第 486 偈](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-06-10-chakka-dasaka/#thag-74-索帕卡长老偈-sopākattheragāthā){: target="_blank" rel="noopener"}；Ap. 399。[&nbsp;↩&nbsp;](#fr-fn3)
 {: id="fn-fn3"}
 
-\[4\] 相关短语 buddhasubodhiṁ dhammasudhammataṁ saṅghasupaṭipattiṁ 见：Nd. I. 359-360, 453；Nd. II. 42。[&nbsp;↩&nbsp;](#fr-fn4)
+\[4\] 相关短语 buddhasubodhiṁ dhammasudhammataṁ saṅghasupaṭipattiṁ 参见：Nd. I. 359-360, 453；Nd. II. 42。[&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
-\[5\] 见：VinA. I. 225；MA. \[3/147, 3/523\]；AA. V. 33。[&nbsp;↩&nbsp;](#fr-fn5)
+\[5\] 参见：VinA. I. 225；MA. \[3/147, 3/523\]；AA. V. 33。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
 \[6\] “Pali”一词的这种用法，可见于《清净道论》（Visuddhimagga）等，例如：Vism. 107, 450。[&nbsp;↩&nbsp;](#fr-fn6)
 {: id="fn-fn6"}
 
-\[7\] 译者注：在此英文译本中，我使用“巴利三藏”一词指代前一种含义，即三藏（Tipiṭaka）的原典内容。[&nbsp;↩&nbsp;](#fr-fn7)
+\[7\] 译者注：英文版所用的 Pali Canon（本译作“巴利三藏”），指前一种含义，即三藏（Tipiṭaka）的原典内容。[&nbsp;↩&nbsp;](#fr-fn7)
 {: id="fn-fn7"}
 
-\[8\] 早在1973-1975年间论教育及教育哲学的著作中，我就开始讨论 dhamma-chanda 和 kusala-chanda。[&nbsp;↩&nbsp;](#fr-fn8)
+\[8\] 早在 1973-1975 年间论教育及教育哲学的著作中，我就开始讨论 dhamma-chanda 和 kusala-chanda。[&nbsp;↩&nbsp;](#fr-fn8)
 {: id="fn-fn8"}
 
 \[9\] 现称为颂德·帕·菩陀构萨迦利雅（Somdet Phra Buddhaghosacariya；P. A. Payutto，巴育陀）。[&nbsp;↩&nbsp;](#fr-fn9)

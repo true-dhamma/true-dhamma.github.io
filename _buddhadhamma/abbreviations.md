@@ -14,7 +14,7 @@ title: 缩写 | 佛法 | Buddhadhamma
 
 | VRI | PTS | 典籍 |
 |---|---|---|
-| _AN_ | _A._ | 《增支部》（Aṅguttaranikāya）（5卷） |
+| _AN_ | _A._ | 《增支部》（Aṅguttaranikāya）（5 卷） |
 |  | AA. | 《增支部义注》（Aṅguttaranikāya Aṭṭhakathā）（Manorathapūraṇī） |
 |  | _Ap._ | 《譬喻经》（Apadāna）（《小部》） |
 |  | ApA. | 《譬喻义注》（Apadāna Aṭṭhakathā）（Visuddhajanavilāsinī） |
@@ -24,7 +24,7 @@ title: 缩写 | 佛法 | Buddhadhamma
 |  | CompṬ. | 《摄阿毗达摩义论复注》（Abhidhammatthasaṅgaha Ṭīkā）（Abhidhammatthavibhāvinī） |
 |  | _Cp._ | 《行藏》（Cariyāpiṭaka）（《小部》） |
 |  | CpA. | 《行藏义注》（Cariyāpiṭaka Aṭṭhakathā）（Paramatthadīpanī） |
-| _DN_ | _D._ | 《长部》（Dīghanikāya）（3卷） |
+| _DN_ | _D._ | 《长部》（Dīghanikāya）（3 卷） |
 |  | DA. | 《长部义注》（Dīghanikāya Aṭṭhakathā）（Sumaṅgalavilāsinī） |
 |  | DAṬ. | 《长部义注复注》（Dīghanikāya Aṭṭhakathā Ṭīkā）（Līnatthapakāsinī） |
 | _Dhp_ | _Dh._ | 《法句经》（Dhammapada）（《小部》） |
@@ -41,7 +41,7 @@ title: 缩写 | 佛法 | Buddhadhamma
 |  | KhA. | 《小诵义注》（Khuddakapāṭha Aṭṭhakathā）（Paramatthajotikā） |
 |  | _Kvu._ | 《论事》（Kathāvatthu）（《阿毗达摩》） |
 |  | KvuA. | 《论事义注》（Kathāvatthu Aṭṭhakathā）（Paramatthadīpanī） |
-| _MN_ | _M._ | 《中部》（Majjhimanikāya）（3卷） |
+| _MN_ | _M._ | 《中部》（Majjhimanikāya）（3 卷） |
 |  | MA. | 《中部义注》（Majjhimanikāya Aṭṭhakathā）（Papañcasūdanī） |
 |  | Miln. | 《弥兰王问经》（Milindapañhā） |
 |  | _Nd1._ | 《大义释》（Mahāniddesa）（《小部》） |
@@ -60,7 +60,7 @@ title: 缩写 | 佛法 | Buddhadhamma
 |  | PugA. | 《人施设论义注》（Puggalapaññatti Aṭṭhakathā）（Paramatthadīpanī） |
 |  | _Pv._ | 《饿鬼事》（Petavatthu）（《小部》） |
 |  | PvA. | 《饿鬼事义注》（Petavatthu Aṭṭhakathā）（Paramatthadīpanī） |
-| _SN_ | _S._ | 《相应部》（Saṁyuttanikāya）（5卷） |
+| _SN_ | _S._ | 《相应部》（Saṁyuttanikāya）（5 卷） |
 |  | SA. | 《相应部义注》（Saṁyuttanikāya Aṭṭhakathā）（Sāratthapakāsinī） |
 | _Snp_ | _Sn._ | 《经集》（Suttanipāta）（《小部》） |
 |  | SnA. | 《经集义注》（Suttanipāta Aṭṭhakathā）（Paramatthajotikā） |
@@ -72,7 +72,7 @@ title: 缩写 | 佛法 | Buddhadhamma
 |  | UdA. | 《自说经义注》（Udāna Aṭṭhakathā）（Paramatthadīpanī） |
 |  | _Vbh._ | 《分别论》（Vibhaṅga）（《阿毗达摩》） |
 |  | VbhA. | 《分别论义注》（Vibhaṅga Aṭṭhakathā）（Sammohavinodanī） |
-|  | _Vin._ | 《律藏》（Vinaya Piṭaka）（5卷） |
+|  | _Vin._ | 《律藏》（Vinaya Piṭaka）（5 卷） |
 | _BV 1_ | _Vin._ | 《波罗夷》（Pārājika）（《律藏》） |
 | _BV 2_ | _Vin._ | 《僧残》（Saṅghādisesa）（《律藏》） |
 | _BV 3_ | _Vin._ | 《不定》（Aniyata）（《律藏》） |

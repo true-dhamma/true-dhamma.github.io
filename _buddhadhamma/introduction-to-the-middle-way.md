@@ -4,6 +4,8 @@ title: 第十二章：中道导论 | 佛法 | Buddhadhamma
 
 # 第十二章：中道导论
 
+从中道法义到中道修行
+
 ![image](./images/illustrations/ch-12-trade.jpg)
 
 ## 导论
@@ -67,7 +69,7 @@ title: 第十二章：中道导论 | 佛法 | Buddhadhamma
 > **附注 12.1　中道**
 > {: id="note-12-1"}
 >
-> 有时，人们可能使用“中道”一词来表示既不过于僵硬也不过于松懈的努力，或者既不懒惰也不强行紧张的工作或训练。虽然在这些用法中，“中道”一词可能与中道有一些共通之处，但它并非绝对正确。即使是那些遵循中道的人，也可能付出过多的努力，或不够的努力，因此未能获得修行的成果。在这种情况下，佛陀使用 viriya-samatā 来指正确的精进（此词意为正确、平衡或持续的精进；samatā = samabhāva = 平等、平衡、适宜、节制、持续性）；见：[MV 5 / Vin i 181](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}；[AN 6.55 / A iii 374-375](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#1-an-655-尊者守笼那经-soṇasutta){: target="_blank" rel="noopener"}。
+> 有时，人们可能使用“中道”一词来表示既不过于僵硬也不过于松懈的努力，或者既不懒惰也不强行紧张的工作或训练。虽然在这些用法中，“中道”一词可能与中道有一些共通之处，但它并非绝对正确。即使是那些遵循中道的人，也可能付出过多的努力，或不够的努力，因此未能获得修行的成果。在这种情况下，佛陀使用 viriya-samatā 来指正确的精进（此词意为正确、平衡或持续的精进；samatā = samabhāva = 平等、平衡、适宜、节制、持续性）；参见：[MV 5 / Vin i 181](https://aipali.true-dhamma.com/vinaya/mv/mv-05-camma/){: target="_blank" rel="noopener"}；[AN 6.55 / A iii 374-375](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-055-064-maha/#1-an-655-尊者守笼那经-soṇasutta){: target="_blank" rel="noopener"}。
 >
 > 有时，当人们确定走在正确的道路上，充满信心并做好准备时，他们被鼓励要竭尽全力，即使在此过程中必须放弃生命。例如，佛陀本人在觉悟之夜就无所畏惧地决心（[AN 2.5 / A i 50](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#15-an-25-通达二法-upaññātasutta){: target="_blank" rel="noopener"}）。不应将此主题与中道混淆。
 
@@ -99,17 +101,17 @@ title: 第十二章：中道导论 | 佛法 | Buddhadhamma
 > 诸比丘，正如黎明是太阳升起的先兆和前驱，同样地，如理作意（yoniso-manasikāra）的圆满是比丘八正道生起的先兆和前驱。可以预期，圆满如理作意的比丘将培育和修习八正道。  
 > [SN 45.55 / S v 31](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-41-181-maggapeyyala/#23-sn-4555-作意具足经之一-yonisomanasikārasampadāsutta){: target="_blank" rel="noopener"}, Yonisomanasikārasampadā Sutta
 
-这段话引入了一个概念：尽管社会因素至关重要，但不应忽视个人内在心力因素的重要性。内缘和外缘都可以成为修行和正确生活方式的动力。事实上，这两个因素是相互支持的。
+上述教导表明，善友及其教导等外缘固然重要，也不能忽略如理作意这一内缘。内外因缘都能推动修行与正当生活，并且相互支持。
 
-这段话强调，正确的修行，或有道德的生活，是这两种因素整合的结果。当这两种因素相互服务和帮助时，在通往生命最高目标的道路上，进步最为成功。
+正确的修行与有德行的生活，有赖于内外因缘的配合。两者相互助益，最能促进人迈向生命的最高目标。
 
-然而请注意，教导常常更强调拥有善友的社会因素，而非如理作意的内在因素。有些段落，如上文所示，将拥有善友的价值等同于整个佛教教义的实践，此处称为“梵行”（brahmacariya）。这是因为大多数人必须依赖社会因素才能开始正确的实践和有道德的生活，或踏上圣道。
+不过，教导往往更强调善友这项外缘，而非如理作意这一内缘。如上所引，有些经文把善友之谊等同于整个佛教修行，即“梵行”（brahmacariya）。这是因为大多数人必须先得到他人良好的教导和引导，才能开始正确修行、过有德行的生活，或踏上圣道。
 
-此外，健全的社会因素既是开启如理作意的触发器，也是增强和促进如理作意的支持。
+良好的外在助缘既能启发如理作意，也能支持并促进它的发展。
 
-这条规则只有极少数例外，即那些非凡之人，他们可以仅依靠自己固有的精神禀赋安全地在道上前进。他们无需外界影响即可开始如理作意，并且无需依赖社会因素即可不断唤起如理作意。[\[4\]](#fn-fn4){:id="fr-fn4"}因此，这些段落是针对大多数根器中等的人。
+这条规则只有极少数例外，即那些非凡之人，他们可以仅依靠自己固有的精神禀赋安全地在道上前进。他们无需外界引导就能开始如理作意，也不必依靠他人的教导和引导，便能持续运用如理作意。[\[4\]](#fn-fn4){:id="fr-fn4"}因此，这些段落是针对大多数根器中等的人。
 
-社会因素与内在心力因素的这一主题非常重要，将在后续章节中更详细地探讨。
+外在助缘与个人内在修习之间的关系十分重要，后续章节将进一步探讨。
 
 ### 作为止息业之道
 
@@ -122,7 +124,7 @@ title: 第十二章：中道导论 | 佛法 | Buddhadhamma
 
 “业的止息”这个表达并不意味着停滞和自满，而是凡夫行为的止息，以及圣者行为的开始。
 
-凡夫以渴爱和执取行事；他们执着于对善恶的个人观念以及提供某种个人利益的事物。这种人的行动在技术上被称为“业”（kamma），分为善业或恶业。
+凡夫以渴爱和执取行事；他们执着于对善恶的个人观念以及提供某种个人利益的事物。这种人的行动在佛法中称为“业”（kamma），分为善业或恶业。
 
 业的止息是指停止以执着于对错的个人观点和渴望个人利益的心行事。当对对错的个人执着不存在时，随后的行动就不再被称为“业”，因为业需要偏袒一方，需要事物是善是恶。
 
@@ -132,7 +134,7 @@ title: 第十二章：中道导论 | 佛法 | Buddhadhamma
 
 一般来说，当凡夫行善时，他们的行为并非完全符合这些善行的真实目的，而是往往期待某种个人回报。在微妙的层面上，这可能是一种对个人声望的渴望，甚至是“我”做了善事的一种内在良好感觉。
 
-然而，觉悟者所做的善行则完全符合其行为的意图、目的和必要性。因此，他们的行为在技术上不被称为“业”。
+然而，觉悟者所做的善行则完全符合其行为的意图、目的和必要性。因此，他们的行为在佛法中不称为“业”。
 
 道是一种实践方式，旨在终止有意图的造作行为（业，kamma）；当业止息时，只有纯粹的行为（称为“唯作”——kiriyā），在智慧的引导下，依然存在。
 
@@ -164,10 +166,10 @@ title: 第十二章：中道导论 | 佛法 | Buddhadhamma
 
 ### 作为梵行的道
 
-> 诸比丘，你们应该为了多数人的利益和安乐，为了悲悯世间，为了诸天和人类的福祉、支持和安乐而游行……你们应该宣说正法……你们应该弘扬梵行。  
+> 比丘们，为了多数人的利益，为了多数人的安乐，为了悲悯世间，为了诸天和人类的利益、福祉和安乐，你们要游行……你们应该宣说正法……你们应该弘扬梵行。  
 > [MV 1 / Vin i 20-21](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}, Mahākhandhaka
 >
-> “梵行，梵行。朋友，何谓梵行？谁是梵行的追随者？梵行的最终目标是什么？”
+> “梵行，梵行。贤友，何谓梵行？谁是梵行的追随者？梵行的最终目标是什么？”
 >
 > “这八正道即是梵行；即正见……正定。具足这八正道者，称为梵行者。贪的止息，嗔的止息，痴的止息；这就是梵行的最终目标。”  
 > [SN 45.6 / S v 7-8](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-01-10-avijja/#6-sn-456-某比丘之一经-paṭhamaaññatarabhikkhusutta){: target="_blank" rel="noopener"}, [SN 45.20 / S v 16-17](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-11-20-vihara/#10-sn-4520-鸡林精舍之三-tatiyakukkuṭārāmasutta){: target="_blank" rel="noopener"}, [SN 45.40 / S v 26-27](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-45-magga/sn-45-31-40-patipatti/#10-sn-4540-梵行经之二-dutiyabrahmacariyasutta){: target="_blank" rel="noopener"}
@@ -183,27 +185,27 @@ title: 第十二章：中道导论 | 佛法 | Buddhadhamma
 > **附注 12.2　梵行的定义**
 > {: id="note-12-2"}
 >
-> 义注对“brahmacariya”一词给出了十二种定义。常见的定义包括：整个佛教；依八正道修行；四梵住（brahmavihāra）；布施（dāna）；对自己的妻子知足；独身；以及说法（dhamma-desanā）：MA. II. 204。DA. I. 177 提供了十种定义；ItA. I. 109 提供了五种定义；KhA. 152 和 SnA. I. 299 提供了四种定义；《小义释》（Cūḷaniddesa）将 brahmacariya 定义为禁欲（“不善行”——asaddhamma），并补充道：Apica nippariyāyena brahmacariyaṁ vuccati ariyo aṭṭhaṅgiko maggo——“此外，通常来说，八正道被称为梵行”（Nd. II. 10, 48）。
+> 义注对“brahmacariya”一词给出了十二种定义。常见的定义包括：整个佛教；依八正道修行；四梵住（brahmavihāra）；布施（dāna）；对自己的妻子知足；独身；以及说法（dhamma-desanā）：MA. II. 204。DA. I. 177 提供了十种定义；ItA. I. 109 提供了五种定义；KhA. 152 和 SnA. I. 299 提供了四种定义；《小义释》（Cūḷaniddesa）将 brahmacariya 定义为禁欲（“不善行”——asaddhamma），并补充道：Apica nippariyāyena brahmacariyaṁ vuccati ariyo aṭṭhaṅgiko maggo——“此外，就究竟说（非方便说）而言，八正道被称为梵行”（Nd. II. 10, 48）。
 >
-> 《大义释》（Mahāniddesa）将 cara 定义为：vihara（“住”、“存在”）；iriya（“动”）；vatta（“去”、“轮回”）；pāla（“保护”）；yapa（“进行”）；yāpa（“滋养”、“维持生命”）。例如，请参阅：Nd. I. 51, 159, 314。
+> 《大义释》（Mahāniddesa）将 cara 定义为：vihara（“住”、“存在”）；iriya（“动”）；vatta（“去”、“轮回”）；pāla（“保护”）；yapa（“进行”）；yāpa（“滋养”、“维持生命”）。例如，请参见：Nd. I. 51, 159, 314。
 >
 > 以下是这些词语（rūpa-siddhi）的证实含义：cariya（中性）和 cariyā（阴性）源自 cara（词根——dhātu）+ ṇya（后缀——paccaya）+ i（附加音节——āgama）。这里的 cariya 与泰语复合词 cariya-sikkhā（จริยศึกษา——道德教育）和 cariya-dhamma（จริยธรรม——有德行的行为）中使用的词相同。
 
 事实上，佛陀用此词指代整个佛教或依佛教原则的生活方式。这从佛陀派遣弟子“宣说梵行”的经文，以及他指出当四众——比丘、比丘尼、优婆塞、优婆夷——出家众（brahmacārī）和居士（kāmabhogī——“受用欲乐者”；有家庭者）——都很好地理解和实践法时，梵行将真正兴盛的经文中可见一斑。[\[9\]](#fn-fn9){:id="fr-fn9"}
 
-“梵行”（brahmacariya）由“brahma”和“cariya”两个词组成。Brahma 意为“卓越的”、“上等的”、“至上的”、“清净的”。[\[10\]](#fn-fn10){:id="fr-fn10"}Cariya 源自词根 cara，其具体意义是“旅行”、“前进”、“游行”，而其抽象意义则是“行为”、“引导自己的生活”、“举止”、“存在”。在这里，我们关注的是其比喻或抽象意义。（请注意，有时 brahmacariya 写作 brahmacariyā。）（进一步分析参见附注 12.2“梵行的定义”）
+“梵行”（brahmacariya）由“brahma”和“cariya”两个词组成。Brahma 意为“崇高的”、“上等的”、“至上的”、“清净的”[\[10\]](#fn-fn10){:id="fr-fn10"}。Cariya 源自词根 cara，其具体意义是“旅行”、“前进”、“游行”，而其抽象意义则是“行为”、“引导自己的生活”、“举止”、“存在”。在这里，我们关注的是其比喻或抽象意义。（请注意，有时 brahmacariya 写作 brahmacariyā。）（进一步分析参见附注 12.2“梵行的定义”）
 
-因此，作为复合词，brahmacariya 的意思是：殊胜的行为；卓越的举止；清净、神圣的行为（类似梵天的行为）；卓越地过自己的生活；卓越地生活；或是一种卓越的生活。[\[11\]](#fn-fn11){:id="fr-fn11"}
+因此，作为复合词，brahmacariya 的意思是：崇高的行为；高尚的举止；清净、神圣的行为（类似梵天的行为）；以崇高的方式生活；或是一种崇高的生活。[\[11\]](#fn-fn11){:id="fr-fn11"}
 
 cariya-dhamma（จริยธรรม）这个词是泰语中新设立的。虽然在巴利语中 cariya 一词本身就存在，但添加 dhamma 一词并无矛盾。cariya-dhamma 在这里意为“正直的行为”、“有德行的行为”或“行为的基础”。它指的是行为的原则或生活举止的原则。在这里，我将不讨论 cariya-dhamma 一词更广泛的学术概念，而只关注其佛教含义。
 
-采用这个新词，梵行（brahmacariya）可以定义为卓越的有德行的行为——卓越的 cariya-dhamma。这种卓越的行为，或“至上”（brahma）的行为，特指佛陀所揭示和宣说的行为体系。
+采用这个新词，梵行（brahmacariya）可以定义为崇高的德行——崇高的 cariya-dhamma。这种崇高的行为，或“至上”（brahma）的行为，特指佛陀所揭示和宣说的行为体系。
 
-根据佛陀上面引述的经文，梵行——卓越的行为或佛教行为——等同于道（magga）或中道（majjhimā-paṭipadā）。同样，梵行者（brahmacārī）——其行为符合佛教原则者——是依道生活或依中道修行。
+根据佛陀上面引述的经文，梵行——崇高的行为或佛教行为——等同于道（magga）或中道（majjhimā-paṭipadā）。同样，梵行者（brahmacārī）——其行为符合佛教原则者——是依道生活或依中道修行。
 
 佛教教义指出，道——中道——是一个行为体系，一个实践应用体系，一个过有德生活的指南，或者一种人们正确引导自己生活的方式，它引导至解脱苦的彼岸。
 
-以下几点概述了梵行：梵行、卓越的行为或符合中道实践的行为：
+以下几点概述梵行，即崇高的行为或依中道而行的生活：
 
 #### 有德行的行为
 
@@ -219,11 +221,11 @@ cariya-dhamma 一词是 brahmacariya 的同义词，它涵盖了所有这些类�
 
 #### 梵行
 
-梵行（brahmacariya）——卓越的行为、道或中道——等同于佛教的整个实践教义。这个词的定义比泰语中的 sīla-dhamma（ศีลธรรม——“道德”、“道德行为”）一词要广泛得多。[\[12\]](#fn-fn12){:id="fr-fn12"}就其一般特征、内容和目标而言，sīla-dhamma 的含义较为狭窄。一般来说，sīla-dhamma 指的是身语的外在行为，不伤害他人，戒除恶行，以及在社会中相互协助。
+梵行（brahmacariya）——崇高的行为、道或中道——等同于佛教的整个实践教义。这个词的定义比泰语中的 sīla-dhamma（ศีลธรรม——“道德”、“道德行为”）一词要广泛得多。[\[12\]](#fn-fn12){:id="fr-fn12"}就其一般特征、内容和目标而言，sīla-dhamma 的含义较为狭窄。一般来说，sīla-dhamma 指的是身语的外在行为，不伤害他人，戒除恶行，以及在社会中相互协助。
 
 就其内容或主题而言，后者（sīla-dhamma）倾向于局限于戒行（sīla）：即身语的自制，以及梵住（brahmavihāra）的表达，例如慈心和悲心。虽然它与心相关，但它不包括禅定的修习或智慧的培育以证悟有为法的真理。
 
-至于其目标，它强调社会福祉、和平共处、世间进步——比如物质财富、名誉和声望——以及投生到善趣。简而言之，它与人天成就（sampatti）相关，与“现法利益”（diṭṭhadhammikattha）和“来世利益”（samparāyikattha）的初期阶段相关。
+至于其目标，它强调社会福祉、和平共处、世间进步——比如物质财富、名誉和声望——以及投生到善趣。简而言之，它与人天成就（sampatti）相关，与“现法利益”（diṭṭhadhammikattha）和“后世利益”（samparāyikattha）的初期阶段相关。
 
 在这里，我们看到 sīla-dhamma 等同于 sīla——“法”这个词的添加只是为了音韵和谐。
 
@@ -233,15 +235,15 @@ cariya-dhamma 一词是 brahmacariya 的同义词，它涵盖了所有这些类�
 
 只需说，类似于 sīla-dhamma 一词等同于 sīla 一样，cariya-dhamma 等同于 cariya（“行为”、“举止”）——其后缀 dhamma 不改变其含义。
 
-cariya-dhamma 一词涵盖了法实践的全部内容，从基本的道德行为开始。以下因素都包含在 cariya-dhamma 原则中：道德行为、培育良好的家庭关系、社会和谐、在寺院中作为在家居士持守戒律、在森林中履行出家人的职责（samaṇa-dhamma）、愉悦心境、培养心理健康、心的训练、禅修、内观实践等等。
+cariya-dhamma 一词涵盖了法实践的全部内容，从基本的道德行为开始。以下因素都包含在 cariya-dhamma 原则中：道德行为、培育良好的家庭关系、社会和谐、在寺院中作为在家居士持守戒律、在森林中履行出家人的职责（samaṇa-dhamma）、愉悦心境、培养心理健康、心的训练、禅修、修观等等。
 
 如上所述，包含 cariya 一词的 brahmacariya 指的是道或中道，但它强调行为或生活方式。本质上，brahmacariya 指的是以德行生活的一个体系，或佛教中整个法实践体系，因此它包含了泰语中使用的 sīla-dhamma 一词。它还包括心的训练、德行的灌输，以及智见（ñāṇa-dassana）的培育，这是更高智慧的一个方面。
 
 总而言之，brahmacariya 指的是通过身、语、意来培养德行的手段，或者从三学的角度来看，它是戒（sīla）、定（samādhi）和慧（paññā）的完整训练。
 
-这种卓越行为的目标是逐一成就佛教修行的每一个阶段，直到达到梵行的最高目标（brahmacariya-pariyosāna）：贪、嗔、痴的止息，证得明（vijjā），解脱（vimutti），清净（visuddhi）和寂静（santi）。总而言之，就是证悟涅槃。
+这种崇高行为的目标是逐一成就佛教修行的每一个阶段，直到达到梵行的最高目标（brahmacariya-pariyosāna）：贪、嗔、痴的止息，证得明（vijjā），解脱（vimutti），清净（visuddhi）和寂静（santi）。总而言之，就是证悟涅槃。
 
-为求简洁，brahmacariya 在这里被翻译为“梵行”或“过一种卓越的生活”。卓越的行为并非仅仅由有影响力的人的奇思异想或某个团体或社区的共识所能制定出来的，也不是盲目追随的东西。建立真正的卓越行为，并使这种行为结出果实，取决于对实相的认知。
+为求简洁，brahmacariya 在这里被翻译为“梵行”或“过崇高的生活”。崇高的行为并非仅仅由有影响力的人的奇思异想或某个团体或社区的共识所能制定出来的，也不是盲目追随的东西。确立真正崇高的生活方式，并使之结出果实，取决于对实相的认知。
 
 ### 作为实现人生目标的道
 
@@ -257,7 +259,7 @@ cariya-dhamma 一词涵盖了法实践的全部内容，从基本的道德行为
 > > 智者警觉，因此获得两种利益（attha）：此生可见的利益和后世的利益。  
 > > 智者通过获得利益，被称为贤者。
 >
-> Appamāda Sutta: [SN 3.18 / S i 87-89](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#28-sn-318-善友经-kalyāṇamittasutta){: target="_blank" rel="noopener"}；参阅：[AN 6.53 / A iii 364](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#11-an-653-不放逸经-appamādasutta){: target="_blank" rel="noopener"}
+> [SN 3.18 / S i 87-89](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#28-sn-318-善友经-kalyāṇamittasutta){: target="_blank" rel="noopener"}, Kalyāṇamitta Sutta；对照：[AN 6.53 / A iii 364](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#11-an-653-不放逸经-appamādasutta){: target="_blank" rel="noopener"}
 
 attha（“利益”）一词也可译为“实质”、“意义”、“目标”、“益处”、“目的”或“宗旨”。在这里，它指人生的真正目的或目标，指的是梵行的目标或佛教的目标。
 
@@ -276,11 +278,11 @@ attha（“利益”）一词也可译为“实质”、“意义”、“目标
 
 1.  Diṭṭhadhammikattha：现法利益；此生利益；可见的利益。这指的是基本或即时的目标，明显的、日常的益处。它涉及外在的或普通的世俗目的和愿望，如物质财富、声望、快乐、赞誉、社会地位、友谊和快乐的婚姻生活。它也包括正当地追求这些事物，正确地对待它们，以一种给自己和他人带来快乐的方式使用这些事物，社会和谐，以及履行个人社会责任从而带来社区福祉。
     
-2.  Samparāyikattha：后世利益；不显眼的利益；深远的利益，非立即可见。它关乎人的修行生活或人类生命的真实价值；它指的是更高的目标，是离开此世时的保障，或者是获得优越福祉——比世间通常所得更大的收获——的保证。这些利益包括：修行上的进展和德行的增长；对戒行、福德善事、善的培养以及基于信心和舍离的行为的兴趣；对德行力量的信心；宁静和内心的安乐；精致安乐的体验；以及禅那的卓越特质。（最初，觉悟的最高利益也包含在这个词中。）
+2.  Samparāyikattha：后世利益；不显眼的利益；深远的利益，非立即可见。这里也包括今生修行所得的内在、深远利益，并不限于死后。它关乎人的修行生活或人类生命的真实价值；它指的是更高的目标，是离开此世时的保障，或者是获得优越福祉——比世间通常所得更大的收获——的保证。这些利益包括：修行上的进展和德行的增长；对戒行、福德善事、善的培养以及基于信心和舍离的行为的兴趣；对德行力量的信心；宁静和内心的安乐；精致安乐的体验；以及禅那的殊胜特质。（最初，觉悟的最高利益也包含在这个词中。）
     
-    获得这些利益的人，就从对物质事物的执着中解脱出来。他不会过分看重这些事物，以至于执取它们、屈服于它们，或让它们成为行恶的起因。相反，他看重德行，以热爱真理行事，珍惜优质的生活，并乐于修行。达到这个阶段会产生可与世俗利益（diṭṭhadhammikattha）结合使用的结果，并且能支持自己和他人。例如，不再用钱追求欲乐，而是用它来帮助他人和提升自己的生活品质。
+    获得这些利益的人，就从对物质事物的执着中解脱出来。他不会过分看重这些事物，以至于执取它们、屈服于它们，或让它们成为行恶的起因。相反，他看重德行，以热爱真理行事，珍惜优质的生活，并乐于修行。达到这个阶段会产生可与现法利益（diṭṭhadhammikattha）结合使用的结果，并且能支持自己和他人。例如，不再用钱追求欲乐，而是用它来帮助他人和提升自己的生活品质。
     
-3.  Paramattha：究竟利益；最殊胜的善。这指的是最高目标，最终目的地：证悟真理；彻底了知有为法的本性；不被世间奴役；一颗自由、喜悦和广阔的心；不被个人执着和恐惧所压迫；没有燃烧和腐蚀心的烦恼；从痛苦中解脱；达到完全纯净，并伴随完美寂静、光明和喜悦的内在安乐。换句话说，这指的是解脱（vimutti）：即涅槃。
+3.  Paramattha：究竟利益；最殊胜的善。这指的是最高目标，最终目的地：证悟真理；彻底了知有为法的本性；不被世间奴役；一颗自由、喜悦和广阔的心；不被个人执着和恐惧所压迫；没有燃烧和腐蚀心的烦恼；从苦中解脱；达到完全纯净，并伴随完美寂静、光明和喜悦的内在安乐。换句话说，这指的是解脱（vimutti）：即涅槃。
     
 
 佛陀承认所有上述利益或目标的重要性，认识到它们与个人的生活方式、职业、环境、熟练程度、准备程度和根器的成熟度有关。
@@ -351,7 +353,7 @@ puñña-kiriyā 一词提供了一个与相关主题有趣的联系。当佛陀�
 > 诸比丘，假设有一个湖泊，其水不浑浊、清澈、纯净。一个视力良好的人站在岸边，可以看到湖中的蜗牛、蛤蜊、石头、鹅卵石，以及成群的鱼，无论是游动的还是静止的。这是为什么？因为水不浑浊。同样地，一个心不浑浊的比丘，能理解自己的利益（attattha）、他人的利益（parattha）以及两者的利益（ubhayattha）。他有可能证悟超越凡夫的殊胜境界，即智见（ñāṇa-dassana），这能够导向觉醒。这是为什么？因为他的心不浑浊。  
 > [AN 1.46 / A i 9](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-001-050-pathamapannasaka/#56-an-146-清水之喻){: target="_blank" rel="noopener"}
 >
-> 当一个人为贪欲所困，[\[17\]](#fn-fn17){:id="fr-fn17"}被贪欲所压倒和占据……当一个人怀有嗔恨，被嗔恨所压倒和占据……当一个人因愚痴而迷惑，被愚痴所压倒和占据时，他就会为自己、为他人、为两者谋划损害；并且他的心中会体验到痛苦和悲伤。当贪欲……嗔恨……愚痴被断除时，他既不为自己、也不为他人、也不为两者谋划损害。
+> 当一个人为贪欲[\[17\]](#fn-fn17){:id="fr-fn17"}所困，被贪欲所压倒和占据……当一个人怀有嗔恨，被嗔恨所压倒和占据……当一个人因愚痴而迷惑，被愚痴所压倒和占据时，他就会为自己、为他人、为两者谋划损害；并且他的心中会体验到痛苦和悲伤。当贪欲……嗔恨……愚痴被断除时，他既不为自己、也不为他人、也不为两者谋划损害。
 >
 > 当一个人为贪欲所困……怀有嗔恨……因愚痴而迷惑时，他会身、语、意不善。当贪欲……嗔恨……愚痴被断除时，他不会身、语、意不善。
 >
@@ -403,14 +405,14 @@ puñña-kiriyā 一词提供了一个与相关主题有趣的联系。当佛陀�
 
 > 诸比丘，有这三学。哪三学？增上戒学、增上心学、增上慧学。
 >
-> 何为增上戒学？在此，一位比丘于此法和律中持戒，遵循波提木叉（Pāṭimokkha）来自制，在行为和住处上圆满，对最微小的过失也见其危险。他受持并修习各种学处。这称为增上戒学。
+> 何为增上戒学？在此，一位比丘于此法和律中持戒，遵循波罗提木叉（Pāṭimokkha）来自制，在行为和住处上圆满，对最微小的过失也见其危险。他受持并修习各种学处。这称为增上戒学。
 >
 > 何为增上心学？在此，一位比丘远离欲，远离不善法，进入并安住于初禅，此禅伴随着寻与伺，有离生喜乐。随着寻与伺的止息，他进入并安住于二禅，此禅有内在的明净和心一境性，无寻无伺，有定生喜乐。随着喜的消逝，他住于舍，正念正知，身受乐；他进入并安住于三禅，诸圣者宣称：“他住于舍、具念、安乐。”随着乐和苦的舍弃，以及之前喜和忧的消逝，他进入并安住于四禅，此禅无苦无乐，由舍念而清净。这称为增上心学。
 >
 > 何为增上慧学？在此，一位比丘如实地理解：“这是苦。这是苦的生起。这是苦的止息。这是导向苦止息之道。”这称为增上慧学。  
 > [AN 3.91 / A i 235-236](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#10-an-391-三学之二-dutiyasikkhattayasutta){: target="_blank" rel="noopener"}, Dutiyasikkhattaya Sutta
 >
-> 毗舍佉朋友，三学的划分不包含在八正道中，但八正道包含在三学的划分中。正语、正业、正命——这些法都包含在戒蕴（sīla-khandha）中。正精进、正念、正定——这些法都包含在定蕴（samādhi-khandha）中。正见和正思惟——这些法都包含在慧蕴（paññā-khandha）中。  
+> 贤友毗舍佉，三学的划分不包含在八正道中，但八正道包含在三学的划分中。正语、正业、正命——这些法都包含在戒蕴（sīla-khandha）中。正精进、正念、正定——这些法都包含在定蕴（samādhi-khandha）中。正见和正思惟——这些法都包含在慧蕴（paññā-khandha）中。  
 > [MN 44 / M i 300-301](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-044-culavedalla/){: target="_blank" rel="noopener"}, Cūḷavedalla Sutta
 
 ## 圣道与三学
@@ -455,7 +457,7 @@ puñña-kiriyā 一词提供了一个与相关主题有趣的联系。当佛陀�
 > **附注 12.3　三组**
 > {: id="note-12-3"}
 >
-> 参见上文引用的段落：[MN 44 / M i 300-301](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-044-culavedalla/){: target="_blank" rel="noopener"}；另参见：[AN 3.26 / A i 124-125](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-021-030-puggala/#6-an-326-亲近经-sevitabbasutta){: target="_blank" rel="noopener"}；[AN 3.144 / A i 291](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-134-146-yodhajiva/#11-an-3144-孔雀饲育处之一-paṭhamamoranivāpasutta){: target="_blank" rel="noopener"}；[AN 5.22 / A iii 15-16](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-021-030-pancangika/#2-an-522-不敬之二-dutiyaagāravasutta){: target="_blank" rel="noopener"}；[AN 11.10 / A v 326-327](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-001-010-nissaya/#10-an-1110-孔雀林园经-moranivāpasutta){: target="_blank" rel="noopener"}；另参见五蕴或五组的分类（包括那些超越道德行为、禅定和智慧的事物，构成另外两个因素：解脱蕴——vimutti-khandha——和解脱知见蕴——vimuttiñāṇadassana-khandha），载于：[DN 34 / D iii 279](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 5.108 / A iii 134-135](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-101-110-phasuvihara/#8-an-5108-无学五法经-asekhasutta){: target="_blank" rel="noopener"}；[AN 5.251–253 / A iii 271](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-251-271-upasampada/#1-an-5251-近圆五法经){: target="_blank" rel="noopener"}；AA. V. 4；NdA. I. 90。
+> 参见上文引用的段落：[MN 44 / M i 300-301](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-044-culavedalla/){: target="_blank" rel="noopener"}；另参照：[AN 3.26 / A i 124-125](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-021-030-puggala/#6-an-326-亲近经-sevitabbasutta){: target="_blank" rel="noopener"}；[AN 3.144 / A i 291](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-134-146-yodhajiva/#11-an-3144-孔雀饲育处之一-paṭhamamoranivāpasutta){: target="_blank" rel="noopener"}；[AN 5.22 / A iii 15-16](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-021-030-pancangika/#2-an-522-不敬之二-dutiyaagāravasutta){: target="_blank" rel="noopener"}；[AN 11.10 / A v 326-327](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-001-010-nissaya/#10-an-1110-孔雀林园经-moranivāpasutta){: target="_blank" rel="noopener"}；另参见五蕴或五组的分类（包括那些超越道德行为、禅定和智慧的事物，构成另外两个因素：解脱蕴——vimutti-khandha——和解脱知见蕴——vimuttiñāṇadassana-khandha），载于：[DN 34 / D iii 279](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 5.108 / A iii 134-135](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-101-110-phasuvihara/#8-an-5108-无学五法经-asekhasutta){: target="_blank" rel="noopener"}；[AN 5.251–253 / A iii 271](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-251-271-upasampada/#1-an-5251-近圆五法经){: target="_blank" rel="noopener"}；AA. V. 4；NdA. I. 90。
 
 三组（“三法蕴”）——戒蕴（sīla-khandha）、定蕴（samādhi-khandha）和慧蕴（paññā-khandha）——的这种分类，是一种将相似品质归类在一起的方式。
 
@@ -478,27 +480,27 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 
 三学的简要定义如下：[\[21\]](#fn-fn21){:id="fr-fn21"}
 
-1.  增上戒学（adhisīla-sikkhā）：[\[22\]](#fn-fn22){:id="fr-fn22"} 在行为层面、依照道德规范来训练和学习，以使身、语和生计保持正直。
+1.  增上戒学（adhisīla-sikkhā）：[\[22\]](#fn-fn22){:id="fr-fn22"}在行为层面、依照道德规范来训练和学习，以使身、语和生计保持正直。
     
-2.  增上心学（adhicitta-sikkhā）：[\[23\]](#fn-fn23){:id="fr-fn23"} 训练心，培育心的品质，生起安乐，培育心境，并在定中获得熟练。
+2.  增上心学（adhicitta-sikkhā）：[\[23\]](#fn-fn23){:id="fr-fn23"}训练心，培育心的品质，生起安乐，培育心境，并在定中获得熟练。
     
 3.  增上慧学（adhipaññā-sikkhā）：训练更高层次的智慧，生起透彻的理解，从而导向心的完全净化和从苦中解脱。
     
 
 为了对这三学给出完整的定义，必须结合对其目的的解释。三学指的是对行为、心和智慧的训练，它导向苦的止息、真正的安乐和解脱。就这条解脱之道而言，每一学的核心如下：
 
-*   增上戒学的核心是在社会中正直地生活，支持、保护和促进和平与贤善的共存。道德行为是培育心的品质和智慧的基础。
+1.  增上戒学的核心是在社会中正直地生活，支持、保护和促进和平与贤善的共存。道德行为是培育心的品质和智慧的基础。
     
-*   增上心学的核心是培育和提升心的品质和潜能，这支持正直的生活，并有利于以最佳方式运用智慧。
+2.  增上心学的核心是培育和提升心的品质和潜能，这支持正直的生活，并有利于以最佳方式运用智慧。
     
-*   增上慧学的核心是根据实相来辨识和理解事物，洞察有为法的本质，从而以智慧生活和行动。懂得如何正确地与世界相处，并与他人分享福祉，拥有一个明亮、独立和喜悦的心，远离痛苦。
+3.  增上慧学的核心是根据实相来辨识和理解事物，洞察有为法的本质，从而以智慧生活和行动。懂得如何正确地与世界相处，并与他人分享福祉，拥有一个明亮、独立和喜悦的心，远离痛苦。
     
 
 三学的核心不限于个人，也关系到或呼吁人们在其社区和社会背景下的责任：建立社会系统、构建机构、安排活动，以及运用各种方法，以便这些学的精髓融入社会，或者让人们以三学为基础。（在此，道德规范作为这些社会系统的基础，从而与增上戒学相联系。）
 
 广义来说，当 sīla 一词包含道德规范或戒律时，sīla 的意义包括创造一个环境，无论是物质的还是社会的，它有助于防止恶行、不善行，并促进善行。这在建立社会系统和公益事业方面尤为真实，通过建立社区、组织或机构，并通过制定道德规范和规定规章制度，来规范人们的行为并促进社区福祉。这种道德规范的专有名词是 vinaya。
 
-严格来说，制定戒律（vinaya）是使人们确立戒行（sīla）的准备或工具；从技术上讲，vinaya 尚未达到 sīla 的阶段。但如上所述，在修行方面，戒律与道德行为相关联，并为其奠定基础。因此，综合而言，vinaya 包含在 sīla 一词中。
+严格来说，制定戒律（vinaya）是使人们确立戒行（sīla）的准备或工具；vinaya 尚未达到 sīla 的阶段。但如上所述，在修行方面，戒律与道德行为相关联，并为其奠定基础。因此，综合而言，vinaya 包含在 sīla 一词中。
 
 道德规范应根据特定社区或社会的目标来制定。例如，佛陀为比丘和比丘尼僧团制定的僧团戒律（Vinaya）既包含处理比丘和比丘尼个人行为的戒条，也包含处理僧团事务的戒条：行政管理、调查和审议法律问题、施加惩罚、任命僧团官员、僧团会议程序、接待来访者和作为客人的适当礼仪，以及僧团财物的使用。[\[24\]](#fn-fn24){:id="fr-fn24"}
 
@@ -526,9 +528,9 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 > 如果这些因素不适宜和不利，则被称为 asappāya。  
 > 参见：Vism. 127；VinA. II. 429；MA. IV. 161。
 
-从严格、字面意义上讲，“增上慧”（adhipaññā）指的是内观（vipassanā-bhāvanā）的发展，其修行体系的演变与禅定修习方法相似。但从更广阔的视角来看，考虑到智慧的本质和目标，这个层面的修行指的是所有培育个人思维和认知能力的活动，涵盖了被称为“学习”或“训练”的整个范围。这种学习依赖善友，特别是自己的老师，来传授“所学”（suta；知识）以及在艺术和科学方面的精通，始于职业知识（这属于戒——sīla——的范畴）。
+从严格、字面意义上讲，“增上慧”（adhipaññā）指的是修观（vipassanā-bhāvanā），其修行体系的演变与禅定修习方法相似。但从更广阔的视角来看，考虑到智慧的本质和目标，这个层面的修行指的是所有培育个人思维和认知能力的活动，涵盖了被称为“学习”或“训练”的整个范围。这种学习依赖善友，特别是自己的老师，来传授“所学”（suta；知识）以及在艺术和科学方面的精通，始于职业知识（这属于戒——sīla——的范畴）。
 
-然而，职业或学术知识本身，并不符合增上慧的资格。老师应该在学生心中建立信心，并鼓励他们独立思考；至少学生应该发展符合佛法的正见。除此之外，老师可以帮助学生如实地看待事物，正确地与世界相处，明智地生活，建立有效的修行以降伏烦恼、消除痛苦，利益他人，并获得安乐。
+然而，职业或学术知识本身，并不符合增上慧的资格。老师应该在学生心中建立信心，并鼓励他们独立思考；至少学生应该发展符合佛法的正见。除此之外，老师可以帮助学生如实地看待事物，正确地与世界相处，明智地生活，建立有效的修行以降伏烦恼、消除苦，利益他人，并获得安乐。
 
 一般来说，提供这个层面的训练是学校或教育机构的职能。这样的场所应该支持所有三个层面的训练：戒行、禅定和智慧；它们不应该只专注于智慧。这是因为增上慧学是训练的最高阶段，其完成依赖于前两个阶段作为基础。此外，这三个层面的训练是相互支持的。只有当这三个培育阶段良好整合时，修行才是真实和完整的。
 
@@ -544,7 +546,7 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 >
 > \[渴望善的人\]应该修学福业，这些福业有深远的影响并以至乐告终。
 >
-> 让他修习布施、正直的行为（samacariyā），[\[27\]](#fn-fn27){:id="fr-fn27"}和慈心。
+> 让他修习布施、正直的行为（samacariyā）[\[27\]](#fn-fn27){:id="fr-fn27"}，和慈心。
 >
 > 一个培育这三种导向安乐的品质的智者，
 >
@@ -570,7 +572,7 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 
 居士的生活直接涉及物质财产，而这些财产的寻求和管理是在与社会相关的环境中进行的。如果人们未能善加管理自己的财产，他们就会失去财产，个人和社会都会陷入困境。因此，有必要强调布施和戒行这两个要素，作为两种不同的福业。尽管内在的修习很重要，但需量力而行，按各人的能力及可用的时间、精力来安排。在这里，心的训练和智慧培育这两个要素合并为单一的“修习”（bhāvanā）要素。而且，由于在家众生活的独特之处在于与更广泛社会的互动，这里的修习主要侧重于慈心的修习。
 
-为了符合上述教导，与其使用常见的“做功德”的表达，更准确的说法是鼓励佛教徒“修习福德”。福德（puñña）指人在身、语、意和智慧方面的卓越品质和能力。我们被鼓励通过身、语、心和智慧的训练来增加和提升我们的福德。这是一种自我发展；我们的生活将因此逐渐变得更加完善和繁荣。
+为了符合上述教导，与其使用常见的“做功德”的表达，更准确的说法是鼓励佛教徒“修习福德”。福德（puñña）指人在身、语、意和智慧方面的优良品质和能力。我们被鼓励通过身、语、心和智慧的训练来增加和提升我们的福德。这是一种自我发展；我们的生活将因此逐渐变得更加完善和繁荣。
 
 三福业事如下：
 
@@ -583,7 +585,7 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 
 在古代，尊者长者将这项关于福业的教导传授给后代。到了义注撰写之时，又增加了七个要素。这些附加要素实际上是对原有三个基础的阐释：
 
-1.  布施（dāna）：增加了两个要素：回向功德（pattidāna）：通过共同行善，给予他人分享自己功德的机会；以及随喜功德（pattānumodanā）：通过随喜和支持他人的善行，而对他们的功德感到欢喜。
+1.  布施（dāna）：增加了两个要素：回向（pattidāna）：通过共同行善，给予他人分享自己福德的机会；以及随喜（pattānumodanā）：通过随喜和支持他人的善行，而对他们的福德感到欢喜。
     
 2.  戒（sīla）：增加了两个要素：恭敬（apacāyana）：谦恭有礼，尊敬长者和有德之人；拥有符合自己文化和传统的良好举止；以及助人（veyyāvacca）：帮助、服务和支持他人；致力于有益的活动。
     
@@ -594,25 +596,25 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 
 这些额外要素的增加构成了十福业事：
 
-1.  布施功德（dāna-maya）：通过给予获得的福德。
+1.  布施之福德（dāna-maya）：通过给予获得的福德。
     
-2.  持戒功德（sīla-maya）：通过持守道德原则和善行获得的福德。
+2.  持戒之福德（sīla-maya）：通过持守道德原则和善行获得的福德。
     
-3.  修习功德（bhāvanā-maya）：通过修习获得的福德。
+3.  修习之福德（bhāvanā-maya）：通过修习获得的福德。
     
-4.  恭敬功德（apacāyana-maya）：通过恭敬行为获得的福德。
+4.  恭敬之福德（apacāyana-maya）：通过恭敬行为获得的福德。
     
-5.  助人功德（veyyāvacca-maya）：通过服务他人获得的福德。
+5.  助人之福德（veyyāvacca-maya）：通过服务他人获得的福德。
     
-6.  回向功德（pattidāna-maya）：通过与他人分享善行获得的福德。
+6.  回向之福德（pattidāna-maya）：通过与他人分享善行获得的福德。
     
-7.  随喜功德（pattānumodanā-maya）：通过随喜他人的善行获得的福德。
+7.  随喜之福德（pattānumodanā-maya）：通过随喜他人的善行获得的福德。
     
-8.  闻法功德（dhamma-savana-maya）：通过听闻佛法获得的福德。
+8.  闻法之福德（dhamma-savana-maya）：通过听闻佛法获得的福德。
     
-9.  说法功德（dhamma-desanā-maya）：通过宣讲佛法获得的福德。
+9.  说法之福德（dhamma-desanā-maya）：通过宣讲佛法获得的福德。
     
-10.  确立正见功德（diṭṭhuju-kamma）：通过确立正见获得的福德。
+10.  确立正见之福德（diṭṭhuju-kamma）：通过确立正见获得的福德。
     
 
 ### 八正道与修习体系
@@ -640,7 +642,7 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 > **附注 12.6　互相协作的道支**
 > {: id="note-12-6"}
 >
-> 参阅义注中关于道支关系的分析：VbhA. 114-117。另参阅 VbhA. 91 和 Vism. 514-515 中的类比，解释道支为何被划分为不同组别。
+> 参见义注中关于道支关系的分析：VbhA. 114-117。另参见 VbhA. 91 和 Vism. 514-515 中的类比，解释道支为何被划分为不同组别。
 >
 > 一个比喻是三位朋友互相帮助采摘瞻波伽花，单人站立无法够到。
 >
@@ -672,7 +674,7 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 
 这里需要注意的是，无论修行者在哪个阶段训练——无论是戒、定还是慧——每一个道支，从正见到正定，都在整个过程中始终运作和发挥作用。说某人正在戒行、禅定或智慧的层面训练，只是表明此时正特别强调、重视发展特定要素或一组要素，或者在此刻，特定要素被召唤来发挥显著作用。
 
-从一个角度看，似乎存在两种修习系统：一种是外在的修习，另一种是内在的修习。[\[29\]](#fn-fn29){:id="fr-fn29"} 这两种系统是相互关联的，并且它们的有效性都得到了佛教教义的承认。
+从一个角度看，似乎存在两种修习系统：一种是外在的修习，另一种是内在的修习。[\[29\]](#fn-fn29){:id="fr-fn29"}这两种系统是相互关联的，并且它们的有效性都得到了佛教教义的承认。
 
 三学中概述的修习层次与八正道中要素的功能之间的关系，可以用以下类比来描述：
 
@@ -711,7 +713,7 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 
 这类似于未被搅动或摇晃的水；水面平静，沉淀物沉到底部，水清澈透明，使人能够清晰地看到事物。在更高层次的佛法修习中，这会产生更高的智慧并消除烦恼，心更加需要平静和清澈，并拥有能够暂停通过感官之门进行认知，而仅将注意力维持在所选的觉知对象上的一心专注，以便完全消除心的“沉淀物”。
 
-佛陀偶尔会以简单的形式呈现三学作为修行方法，这些教导常被后世佛教徒提及。例如，三学是被称为教诫波提木叉（Ovāda Pāṭimokkha）的关键教导的重要组成部分，其中一偈包含三句：[\[32\]](#fn-fn32){:id="fr-fn32"}
+佛陀偶尔会以简单的形式呈现三学作为修行方法，这些教导常被后世佛教徒提及。例如，三学是被称为教诫波罗提木叉（Ovāda Pāṭimokkha）的关键教导的重要组成部分，其中一偈包含三句：[\[32\]](#fn-fn32){:id="fr-fn32"}
 
 1.  诸恶莫作（sabbapāpassa akaraṇaṁ）：不作一切恶。
     
@@ -729,7 +731,7 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 事实上，智慧在整个修行过程中是持续培育的。最初，被称为正见的理解可能仅仅是符合理性分析的信念。到了修习的后期，最初的理解或信念将通过适当的反思、思惟和考察，以及通过亲证修习的成果和诸根力量的增强，逐渐发展并变得更加清晰，直到智慧达到根据真相理解一切事物的阶段，达到解脱，并证悟涅槃。理性理解或理性信念成为心中固有的真实而圆满的知晓：
 
 > 这条中道修习能生起智（ñāṇa-karaṇī）、生起眼（cakkhu-karaṇī），并导向寂静、觉醒、涅槃。  
-> Dhammacakkappavattana Sutta: [MV 1 / Vin i 10](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 56.11 / S v 421](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}
+> [MV 1 / Vin i 10](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 56.11 / S v 421](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}, Dhammacakkappavattana Sutta
 
 道最终归结于智慧，智慧在实现目标中起着关键作用。因此，在经文中，八正道的末尾又增加了两个道支：正智（sammā-ñāṇa；对应于生起智与见），以及正解脱（sammā-vimutti；对应于“寂静、觉醒、涅槃”）。[\[33\]](#fn-fn33){:id="fr-fn33"}
 
@@ -743,9 +745,9 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 
 ### 道之始末
 
-正见（sammā-diṭṭhi）被翻译为正见或正确见解。在世俗层面，这指的是根据法（Dhamma）的教导看事物。在出世间层面，这指的是直接根据真相看事物：根据实相或缘起法则。[\[35\]](#fn-fn35){:id="fr-fn35"} 按照佛法教导看事物，甚至相信事物，例如相信行善会得善报，作恶会得恶报，就足以开始佛法修习。有了这样的见解和信念，便为修习做好了准备，并开始了戒行的第一阶段训练。
+正见（sammā-diṭṭhi），即正确的见解。在世间层面，这指的是根据法（Dhamma）的教导看事物。在出世间层面，这指的是直接根据真相看事物：根据实相或缘起法则。[\[35\]](#fn-fn35){:id="fr-fn35"}按照佛法教导看事物，甚至相信事物，例如相信行善会得善报，作恶会得恶报，就足以开始佛法修习。有了这样的见解和信念，便为修习做好了准备，并开始了戒行的第一阶段训练。
 
-然而，只拥有这个层次正见的人，往往非常重视戒行修习，而通常不会进展到定和慧的阶段。在经文中，世俗正见常在法行（dhamma-cariyā）和十善业道（kusala-kammapatha）的教导中呈现，这些是在日常生活中修习八正道的方式。
+然而，只拥有这个层次正见的人，往往非常重视戒行修习，而通常不会进展到定和慧的阶段。在经文中，世间正见常在法行（dhamma-cariyā）和十善业道（kusala-kammapatha）的教导中呈现，这些是在日常生活中修习八正道的方式。
 
 关于四圣谛的教导提供了一个更宽泛的正见（sammā-diṭṭhi）定义。尽管它没有明确提及正见，但它与八正道的整体修习相对应。对四圣谛——人类问题的性质、这些问题的原因、目标以及修习方法——的基本理解，是开始佛法修习的基础。这类似于前面提到的认知：知道自己要去哪里，知道哪条路会引导自己达到这个目的，以及知道这条路从哪里开始。
 
@@ -776,15 +778,15 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 > 正智（sammā-ñāṇa）→  
 > 正解脱（sammā-vimutti）。
 
-遵循这个过程，起初智慧以潜在的形式存在，或者作为信心的辅助。然后智慧逐渐自行发展，直到它成为正智，在这个阶段它是纯粹而卓越的。此时，信心已不再存在，因为它已被智慧完全取代。只有在这个阶段，觉悟或解脱才有可能。这个过程将在后续章节中更详细地描述。
+遵循这个过程，起初智慧以潜在的形式存在，或者作为信心的辅助。然后智慧逐渐自行发展，直到它成为正智，在这个阶段它是纯净而殊胜的。此时，信心已不再存在，因为它已被智慧完全取代。只有在这个阶段，觉悟或解脱才有可能。这个过程将在后续章节中更详细地描述。
 
 请注意，参与这个过程的信心是能够引向智慧或有利于智慧的信心。这种信心或信仰必须伴随着智慧，或建立在有智慧的省察之上（ākāravatī-saddhā 或 saddhā-ñāṇa-sampayutta）。它指的不是那种不经智慧省察的盲目信心（amūlikā-saddhā 或 saddhā-ñāṇa-vipayutta）。
 
 无论如何，如果只把智慧的培育或正见的建立看作仅仅始于信心，那是不够的。
 
-从技术上讲，有一些特殊的人，他们能够在不依赖他人的信心的情况下培养智慧。他们完全依赖如理作意（yoniso-manasikāra）——即如实、如因缘地看待事物的能力——直到他们将智慧培育到证入真理的阶段。[\[36\]](#fn-fn36){:id="fr-fn36"}
+严格说来，有一些特殊的人，他们能够在不依赖他人的信心的情况下培养智慧。他们完全依赖如理作意（yoniso-manasikāra）——即如实、如因缘地看待事物的能力——直到他们将智慧培育到证入真理的阶段。[\[36\]](#fn-fn36){:id="fr-fn36"}
 
-同样地，凡夫以信心开始的智慧培育，也依赖于他们运用如理作意的能力。特别是能够彻见真理并彻底消除烦恼的出世间智慧，没有如理作意是无法生起的。[\[37\]](#fn-fn37){:id="fr-fn37"} 正确、可取的信心与如理作意相联系或激活如理作意。因此，完整的进程应如图“智慧的培育”所示。
+同样地，凡夫以信心开始的智慧培育，也依赖于他们运用如理作意的能力。特别是能够彻见真理并彻底消除烦恼的出世间智慧，没有如理作意是无法生起的。[\[37\]](#fn-fn37){:id="fr-fn37"}正确、可取的信心与如理作意相联系或激活如理作意。因此，完整的进程应如图“智慧的培育”所示。
 
 图 12.2：智慧的培育
 {: style="text-align:center"}
@@ -793,9 +795,9 @@ sikkhā 一词可以翻译为“训练”、“研究”、“纪律”、“认
 
 总而言之，有两个因素导致正见的产生。第一是信心（saddhā），它指的是对他人智慧的信任或依赖。它作为对他人教导的回应而生起，并标志着由外缘发起的修行之始。第二是如理作意（yoniso-manasikāra），它指的是自行或正确思考的能力，并标志着由内缘发起的修行之始。
 
-saddhā 这个词并非直接指人的理解来源，而是一种将人与外部因素联系起来的内在精神品质。理解的真正外部来源是影响自己信仰的他人或他人的言教，这在佛教中被称为“他人的教导”（paratoghosa）。
+saddhā（信心）本身不是获得理解的外缘，而是使人与外在教导、引导建立联系的内在心性。真正的外缘，是影响其信心的他人及其言教，佛法称之为“他人的教导”（paratoghosa）。
 
-除了有助于生起信心并作为建立正见的间接方法之外，他人的教导也可以是运用如理作意的直接动力。因此，经典提出了正见的两个来源或因素：他人的教导（paratoghosa）这一外部因素，以及如理作意（yoniso-manasikāra）这一内在因素。
+他人的教导除了能引发信心、间接促成正见，也能直接激发如理作意。因此，经典将正见生起的两项条件概括为：他人的教导（paratoghosa）这一外缘，以及如理作意（yoniso-manasikāra）这一内缘。
 
 佛教非常重视正见，因为人们，包括佛教徒自己，通常没有对这一道支给予足够的关注。即使他们认识到其重要性，人们也往往只是口头说说，而不去付诸实践。因此，有必要提醒人们首先认识到正见的重要性，更重要的是，要找到生起正见的方法。
 
@@ -812,15 +814,15 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 3.  增上慧学（adhipaññā-sikkhā）：作为更高智慧的训练；即训练智慧以达到最高了悟境界的种种方法。
     
 
-在《巴利三藏》中，三学的定义仅限于比丘。在此，增上戒学（adhisīla-sikkhā）指的是依循僧团戒律（pāṭimokkhasaṁvara-sīla）的律仪，增上心学（adhicitta-sikkhā）指的是四禅那，而增上慧学（adhipaññā-sikkhā）则指四圣谛的智慧，或是心解脱（cetovimutti）和慧解脱（paññāvimutti）的证悟。[\[38\]](#fn-fn38){:id="fr-fn38"} 《义释》（Niddesa）稍作扩展了此定义。[\[39\]](#fn-fn39){:id="fr-fn39"}
+在《巴利三藏》中，三学的定义仅限于比丘。在此，增上戒学（adhisīla-sikkhā）指的是依循僧团戒律（pāṭimokkhasaṁvara-sīla）的律仪，增上心学（adhicitta-sikkhā）指的是四禅那，而增上慧学（adhipaññā-sikkhā）则指四圣谛的智慧，或是心解脱（cetovimutti）和慧解脱（paññāvimutti）的证悟。[\[38\]](#fn-fn38){:id="fr-fn38"}《义释》（Niddesa）稍作扩展了此定义。[\[39\]](#fn-fn39){:id="fr-fn39"}
 
 《无碍解道》（Paṭisambhidāmagga）拓宽了此定义，将增上戒学（adhisīla）定义为律仪（saṁvara），增上心学（adhicitta）定义为不散乱，增上慧学（adhipaññā）定义为正见或正解。[\[40\]](#fn-fn40){:id="fr-fn40"}
 
-《善见律毗婆沙》（Samantapāsādikā）声称，三学并非仅仅指五戒或十戒、八定，或符合业果法则的世间智慧，因为这些戒、定、慧的层次，无论佛陀出世与否，都可被教导。相反，三学特指伴随佛陀出世而有的戒、定、慧，即：增上戒学（adhisīla）等于依循僧团戒律的律仪，增上心学（adhicitta）等于具备八定的心，这些成就是内观（毗婆舍那）的基础，而增上慧学（adhipaññā）等于能辨别三法印的毗婆舍那智（vipassanā-ñāṇa）。[\[41\]](#fn-fn41){:id="fr-fn41"}
+《善见律毗婆沙》（Samantapāsādikā）声称，三学并非仅仅指五戒或十戒、八定，或符合业果法则的世间智慧，因为这些戒、定、慧的层次，无论佛陀出世与否，都可被教导。相反，三学特指伴随佛陀出世而有的戒、定、慧，即：增上戒学（adhisīla）等于依循僧团戒律的律仪，增上心学（adhicitta）等于具备八定的心，这些成就是观的基础，而增上慧学（adhipaññā）等于能辨别三法印的观智（vipassanā-ñāṇa）。[\[41\]](#fn-fn41){:id="fr-fn41"}
 
 在最高的意义上，义注说三学指的是出世间戒、定、慧，但这个定义的适用范围有限。
 
-有时他们会放宽定义，指出增上戒学（adhisīla）指的是那些以涅槃为目标的人所奉行的道德行为——无论是五戒还是十戒，而增上心学（adhicitta）指的是八定。[\[42\]](#fn-fn42){:id="fr-fn42"} 关于佛陀谈到居士的“更高德行”的段落，[\[43\]](#fn-fn43){:id="fr-fn43"} 义注说这指的是五戒或十戒。[\[44\]](#fn-fn44){:id="fr-fn44"}
+有时他们会放宽定义，指出增上戒学（adhisīla）指的是那些以涅槃为目标的人所奉行的道德行为——无论是五戒还是十戒，而增上心学（adhicitta）指的是八定。[\[42\]](#fn-fn42){:id="fr-fn42"}关于佛陀谈到居士的“更高德行”的段落，[\[43\]](#fn-fn43){:id="fr-fn43"}义注说这指的是五戒或十戒。[\[44\]](#fn-fn44){:id="fr-fn44"}
 
 有时，前缀 adhi- 仅仅表示比较两件事物时的“更好”或“更高”，例如十戒相对于五戒来说是增上戒学（adhisīla），而色界心（rūpāvacara-citta）相对于欲界心（kāmāvacara-citta）来说，属于增上心（adhicitta）的范畴。[\[45\]](#fn-fn45){:id="fr-fn45"}
 
@@ -835,7 +837,7 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 3.  慧（paññā）的作用是随眠断（anusaya-pahāna）：通过智慧根除潜藏于心相续（santāna）中、待缘而起的微细烦恼（anusaya-kilesa），即七种随眠。
     
 
-三学的进一步定义包括：戒的作用是对治断（tadaṅga-pahāna），定的作用是镇伏断（vikkhambhana-pahāna），慧的作用是断灭断（samuccheda-pahāna）；也可以说：戒的作用是舍弃犯戒行为，定的作用是舍弃渴爱（taṇhā），慧的作用是舍弃邪见（diṭṭhi）。[\[47\]](#fn-fn47){:id="fr-fn47"}
+三学的进一步定义包括：戒的作用是对治断（tadaṅga-pahāna），定的作用是镇伏断（vikkhambhana-pahāna），慧的作用是正断（samuccheda-pahāna，即以道智彻底断除相应烦恼）；也可以说：戒的作用是舍弃犯戒行为，定的作用是舍弃渴爱（taṇhā），慧的作用是舍弃邪见（diṭṭhi）。[\[47\]](#fn-fn47){:id="fr-fn47"}
 
 道支被安排入三学的方式，类似于它们被安排入三“法蕴”（dhamma-khandha）的方式。[\[48\]](#fn-fn48){:id="fr-fn48"}
 
@@ -845,7 +847,7 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 
 《自说经》（Udāna）中包含这段话：
 
-> 那些以学习、戒行、宗教仪轨、谋生、持守梵行以及取悦（天人）为首要价值的人——这是一端。而那些认为贪欲无害的人——这是另一端。这两种极端会增长无明和渴爱，进而增长邪见。那些不理解这两种极端的人——一类人陷入泥沼，另一类人则逾越界限。那些理解这两种极端的人不会被它们困住，也不会因这种不执着而产生傲慢。对这些人而言，已无需再宣告轮回（的苦）。  
+> 那些以学习、戒行、宗教仪轨、谋生、持守梵行以及取悦（天人）为首要价值的人——这是一端。而那些认为贪欲无害的人——这是另一端。这两种极端会增长无明和渴爱，进而增长邪见。那些不理解这两种极端的人——一类人陷入泥沼，另一类人则逾越界限。那些理解这两种极端的人不会被它们困住，也不会因这种不执着而产生傲慢。对这些人而言，已无（再生的）轮转可言。  
 > [Ud 6.8 / Ud 71](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-06-jaccandha/#8-ud-68-游女-gaṇikāsutta){: target="_blank" rel="noopener"}, Gaṇikā Sutta
 
 （义注将“谋生”定义为“作为苦行者生活”，并将自我折磨〔atta-kilamathānuyoga〕等同于执着戒律和宗教修行〔sīlabbata-parāmāsa〕。）[\[50\]](#fn-fn50){:id="fr-fn50"}
@@ -863,7 +865,7 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 \[3\] 善友（kalyāṇamitta）一词不仅指普通的友谊，而是指任何提供建议、传授知识、介绍思维方式和揭示修行道路的老师、朋友或指导者，包括书籍和各种媒体。[&nbsp;↩&nbsp;](#fr-fn3)
 {: id="fn-fn3"}
 
-\[4\] 义注指出，只有具备卓越智慧的人，如一切知佛陀或独觉佛陀，才能凭自己的如理作意生起全面的洞察，而无需依赖社会因素（参见：MA. II. 346）。[&nbsp;↩&nbsp;](#fr-fn4)
+\[4\] 义注指出，只有具备卓越智慧的人，如一切知佛陀或独觉佛陀，才能凭自己的如理作意生起全面的洞察，而无需依赖外在教导和引导（参见：MA. II. 346）。[&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
 \[5\] 译者注：泰语中 sin wayn sin gam（“报应的终结，业的终结”）意为死亡。[&nbsp;↩&nbsp;](#fr-fn5)
@@ -881,7 +883,7 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 \[9\] [MN 73 / M i 490-494](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-073-mahavaccha/){: target="_blank" rel="noopener"}；[DN 29 / D iii 123-126](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}；参照：[DN 16 / D ii 104-105](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-16-mahaparinibbana/){: target="_blank" rel="noopener"} = [SN 51.10 / S v 260-262](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-51-iddhipada/sn-51-01-10-capala/#10-sn-5110-塔-cetiyasutta){: target="_blank" rel="noopener"} = [AN 8.70 / A iv 310](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-061-070-bhumicala/#10-an-870-地震-bhūmicālasutta){: target="_blank" rel="noopener"} = [Ud 6.1 / Ud 63](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-06-jaccandha/#1-ud-61-舍寿-āyusaṅkhārossajjanasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn9)
 {: id="fn-fn9"}
 
-\[10\] 关于 brahma 一词的不同定义，请参阅：MA. I. 34；BvA. 18；VbhA. 399。[&nbsp;↩&nbsp;](#fr-fn10)
+\[10\] 关于 brahma 一词的不同定义，请参见：MA. I. 34；BvA. 18；VbhA. 399。[&nbsp;↩&nbsp;](#fr-fn10)
 {: id="fn-fn10"}
 
 \[11\] Brahmacariyanti seṭṭhacariyaṁ，例如：DA. III. 708。[&nbsp;↩&nbsp;](#fr-fn11)
@@ -890,7 +892,7 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 \[12\] 关于戒法（sīla-dhamma）的定义，请参阅第十七章“戒行道支”附录二。[&nbsp;↩&nbsp;](#fr-fn12)
 {: id="fn-fn12"}
 
-\[13\] 参见第六章“涅槃：至上寂静”附录二“现世与来世”。[&nbsp;↩&nbsp;](#fr-fn13)
+\[13\] 参见第六章“涅槃”附录二“现世与来世”。[&nbsp;↩&nbsp;](#fr-fn13)
 {: id="fn-fn13"}
 
 \[14\] 例如：Nd. II. 57, 66, 72；参照：SnA. I. 74；NdA. II. 296；VismṬ.：Cha-anussatiniddesavaṇṇanā, Buddhānussatikathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn14)
@@ -905,10 +907,10 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 \[17\] 这里的贪欲（rāga）与贪（lobha）相同。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
-\[18\] 另一部相似但较短的经文是：[AN 3.55 / A i 157-158](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#4-an-355-遍历者经-paribbājakasutta){: target="_blank" rel="noopener"}。在 [SN 46.55 / S v 124](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#5-sn-4655-伤歌逻水钵喻经-saṅgāravasutta){: target="_blank" rel="noopener"}和 [AN 5.51 / A iii 64](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-051-060-nivarana/#1-an-551-五盖障碍经-āvaraṇasutta){: target="_blank" rel="noopener"}；[AN 5.193 / A iii 234-235](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-191-200-brahmana/#3-an-5193-桑迦罗婆婆罗门经-saṅgāravasutta){: target="_blank" rel="noopener"}中，五盖（nīvaraṇa）被描述为未能认识这三种福祉的根源。[&nbsp;↩&nbsp;](#fr-fn18)
+\[18\] 另一部相似但较短的经文是：[AN 3.55 / A i 157-158](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#4-an-355-遍历者经-paribbājakasutta){: target="_blank" rel="noopener"}。在 [SN 46.55 / S v 124](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#5-sn-4655-伤歌逻水钵喻经-saṅgāravasutta){: target="_blank" rel="noopener"} 和 [AN 5.51 / A iii 64](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-051-060-nivarana/#1-an-551-五盖障碍经-āvaraṇasutta){: target="_blank" rel="noopener"}；[AN 5.193 / A iii 234-235](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-191-200-brahmana/#3-an-5193-桑迦罗婆婆罗门经-saṅgāravasutta){: target="_blank" rel="noopener"} 中，五盖（nīvaraṇa）被描述为未能认识这三种福祉的根源。[&nbsp;↩&nbsp;](#fr-fn18)
 {: id="fn-fn18"}
 
-\[19\] 此信息的来源与第一组三种利益：现法利益（diṭṭhadhammikattha）、后世利益（samparāyikattha）和究竟利益（paramattha）的来源相同；参见上文经文参考文献。另请参见 VismṬ.：Cha-anussatiniddesavaṇṇanā, Buddhānussatikathāvaṇṇanā（两处）和 VinṬ.：Paṭhamo Bhāgo, Verañjakaṇḍavaṇṇanā 中关于佛陀功德（buddha-guṇa）的解释，其中指出自利（attattha）与智慧（paññā）的关系，以及利他（parattha）与慈悲（karuṇā）的关系。[&nbsp;↩&nbsp;](#fr-fn19)
+\[19\] 此信息的来源与第一组三种利益：现法利益（diṭṭhadhammikattha）、后世利益（samparāyikattha）和究竟利益（paramattha）的来源相同；参见上文所引经文出处。另请参见 VismṬ.：Cha-anussatiniddesavaṇṇanā, Buddhānussatikathāvaṇṇanā（两处）和 VinṬ.：Paṭhamo Bhāgo, Verañjakaṇḍavaṇṇanā 中关于佛陀功德（buddha-guṇa）的解释，其中指出自利（attattha）与智慧（paññā）的关系，以及利他（parattha）与慈悲（karuṇā）的关系。[&nbsp;↩&nbsp;](#fr-fn19)
 {: id="fn-fn19"}
 
 \[20\] 请注意，将三学称为戒（sīla）、定（samādhi）、慧（paññā）是非正式的；在《巴利三藏》中，戒学（sīla-sikkhā）、定学（samādhi-sikkhā）和慧学（paññā-sikkhā）这些术语并不存在。在某些三藏文本中，三蕴和三学是按顺序排列的，但它们的原始名称（增上戒学 adhisīla-sikkhā 等）是严格保留的（例如：VbhA. 122；PsA. 196）。[&nbsp;↩&nbsp;](#fr-fn20)
@@ -917,16 +919,16 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 \[21\] 有关三学的教义解释，请参阅附录一。[&nbsp;↩&nbsp;](#fr-fn21)
 {: id="fn-fn21"}
 
-\[22\] 译者注：作者使用英文翻译“training in higher morality”。[&nbsp;↩&nbsp;](#fr-fn22)
+\[22\] 译者注：作者在此所附英译意为“更高层次的德行训练”（training in higher morality）。[&nbsp;↩&nbsp;](#fr-fn22)
 {: id="fn-fn22"}
 
-\[23\] 译者注：作者使用英文翻译“training in higher mentality”和“training in higher mental discipline”。[&nbsp;↩&nbsp;](#fr-fn23)
+\[23\] 译者注：作者在此所附的两种英译，分别意为“更高层次的心智训练”（training in higher mentality）和“更高层次的心智调御训练”（training in higher mental discipline）。[&nbsp;↩&nbsp;](#fr-fn23)
 {: id="fn-fn23"}
 
 \[24\] vinaya 一词常被佛教学者狭义地解释，仅指处理个人行为的规章制度。[&nbsp;↩&nbsp;](#fr-fn24)
 {: id="fn-fn24"}
 
-\[25\] 参见 [DN 26 / D iii 61](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-26-cakkavatti/){: target="_blank" rel="noopener"}中关于转轮王律的教导，以及根据《究罗檀头经》（Kūṭadanta Sutta, [DN 5 / D i 135](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-05-kutadanta/){: target="_blank" rel="noopener"}）的“王摄事”（rājasaṅgaha-vatthu）；另参见 SA. I. 144, ItA. I. 93。根据佛教原则为社会制定道德规范的突出例子是阿育王（约佛历218-260年或270-312年，即公元前325-283年或273-231年）所规定的统治制度。[&nbsp;↩&nbsp;](#fr-fn25)
+\[25\] 参见 [DN 26 / D iii 61](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-26-cakkavatti/){: target="_blank" rel="noopener"} 中关于转轮王律的教导，以及根据《究罗檀头经》（Kūṭadanta Sutta, [DN 5 / D i 135](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-05-kutadanta/){: target="_blank" rel="noopener"}）的“王摄事”（rājasaṅgaha-vatthu）；另参见 SA. I. 144, ItA. I. 93。根据佛教原则为社会制定道德规范的突出例子是阿育王（约佛历 218-260 年或 270-312 年，即公元前 325-283 年或 273-231 年）所规定的统治制度。[&nbsp;↩&nbsp;](#fr-fn25)
 {: id="fn-fn25"}
 
 \[26\] 例如：Vism. 84-228。[&nbsp;↩&nbsp;](#fr-fn26)
@@ -935,7 +937,7 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 \[27\] 符合或与法（Dhamma）一致的行为。[&nbsp;↩&nbsp;](#fr-fn27)
 {: id="fn-fn27"}
 
-\[28\] 关于十福业事，请参阅：DA. III. 999；Comp.：Vīthimuttaparicchedo, Kammacatukkaṁ。[&nbsp;↩&nbsp;](#fr-fn28)
+\[28\] 关于十福业事，请参见：DA. III. 999；Comp.：Vīthimuttaparicchedo, Kammacatukkaṁ。[&nbsp;↩&nbsp;](#fr-fn28)
 {: id="fn-fn28"}
 
 \[29\] 通过考量关于善友（kalyāṇamitta）和如理作意（yoniso-manasikāra）的教导，这个问题将变得更加清晰；参见第十三章“善友”和第十五章“如理作意”。[&nbsp;↩&nbsp;](#fr-fn29)
@@ -947,7 +949,7 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 \[31\] 参见：Vism. 274。[&nbsp;↩&nbsp;](#fr-fn31)
 {: id="fn-fn31"}
 
-\[32\] [DN 14 / D ii 49-50](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-14-mahapadana/){: target="_blank" rel="noopener"}；[Dhp 183-185](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#144-dhp-183-185-阿难问诸佛教诲的故事-ānandattherapañhavatthu){: target="_blank" rel="noopener"}。关于将此教导归类为符合三学的分类，请参阅：DA. II. 479 和 DhA. III. 237。《长部义注》（Dīgha Nikāya Aṭṭhakathā）指出，第一句指的是戒律仪（sīla-saṁvara），第二句指的是奢摩他（止）和毗婆舍那（观），即定和慧，第三句指的是阿罗汉果（arahatta-phala）。然而，《法句经义注》（Dhammapada Aṭṭhakathā）将第三句解释为仅仅通过去除五盖（nīvaraṇa）来清洁心，就等同于净化自己的心。通过参考这两个来源，我们可以将第一句定义为戒（可以扩展这个定义），第二句定义为定和慧，第三句也定义为定和慧（这里也可以包括解脱 vimutti）。无论如何，《清净道论》提出了一个简单的分类，即第一句 = 戒，第二句 = 定，第三句 = 慧；参见：Vism. 4-5。[&nbsp;↩&nbsp;](#fr-fn32)
+\[32\] [DN 14 / D ii 49-50](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-14-mahapadana/){: target="_blank" rel="noopener"}；[Dhp 183-185](https://aipali.true-dhamma.com/sutta/kn/kn-02-dhp/dhp-129-196-danda-jara-atta-loka-buddha/#144-dhp-183-185-阿难问诸佛教诲的故事-ānandattherapañhavatthu){: target="_blank" rel="noopener"}。关于将此教导归类为符合三学的分类，请参见：DA. II. 479 和 DhA. III. 237。《长部义注》（Dīgha Nikāya Aṭṭhakathā）指出，第一句指的是戒律仪（sīla-saṁvara），第二句指的是止和观，即定和慧，第三句指的是阿罗汉果（arahatta-phala）。然而，《法句经义注》（Dhammapada Aṭṭhakathā）将第三句解释为仅仅通过去除五盖（nīvaraṇa）来清洁心，就等同于净化自己的心。通过参考这两个来源，我们可以将第一句定义为戒（可以扩展这个定义），第二句定义为定和慧，第三句也定义为定和慧（这里也可以包括解脱 vimutti）。无论如何，《清净道论》提出了一个简单的分类，即第一句 = 戒，第二句 = 定，第三句 = 慧；参见：Vism. 4-5。[&nbsp;↩&nbsp;](#fr-fn32)
 {: id="fn-fn32"}
 
 \[33\] 将这两个因素加入八正道，从而构成十个因素，这被称为十正性（sammatta）或十无学法（asekha-dhamma）；参见：[DN 33 / D iii 271](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[DN 34 / D iii 292](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}。义注指出，正智（sammā-ñāṇa）等同于果智（phala-ñāṇa）和省察智（paccavekkhaṇa-ñāṇa）；参见：MA. I. 189；AA. II. 382。正智（sammā-ñāṇa）是正见的最终阶段（参见：MA. IV. 135；AA. V. 70）。[&nbsp;↩&nbsp;](#fr-fn33)
@@ -982,7 +984,7 @@ saddhā 这个词并非直接指人的理解来源，而是一种将人与外部
 \[42\] 例如：DA. III. 1002。[&nbsp;↩&nbsp;](#fr-fn42)
 {: id="fn-fn42"}
 
-\[43\] 例如：[AN 5.235 / A iii 263-264](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-231-240-avasika/#5-an-5235-悲愍在家-anukampasutta){: target="_blank" rel="noopener"}；[AN 7.29 / A iv 25-26](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-021-031-vajjisattaka/#9-an-729-第二衰减经-dutiyaparihānisutta){: target="_blank" rel="noopener"}；另见 [AN 3.128 / A i 279](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-124-133-kusinara/#5-an-3128-诃多迦经-hatthakasutta){: target="_blank" rel="noopener"}中他人所说。[&nbsp;↩&nbsp;](#fr-fn43)
+\[43\] 例如：[AN 5.235 / A iii 263-264](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-231-240-avasika/#5-an-5235-悲愍在家-anukampasutta){: target="_blank" rel="noopener"}；[AN 7.29 / A iv 25-26](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-021-031-vajjisattaka/#9-an-729-第二衰减经-dutiyaparihānisutta){: target="_blank" rel="noopener"}；另参见 [AN 3.128 / A i 279](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-124-133-kusinara/#5-an-3128-诃多迦经-hatthakasutta){: target="_blank" rel="noopener"} 中他人所说。[&nbsp;↩&nbsp;](#fr-fn43)
 {: id="fn-fn43"}
 
 \[44\] AA. II. 378；AA. III. 332；AA. IV. 24。[&nbsp;↩&nbsp;](#fr-fn44)

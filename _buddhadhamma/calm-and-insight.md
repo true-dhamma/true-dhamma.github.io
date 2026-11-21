@@ -10,35 +10,35 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 
 ## 导论
 
-在巴利语中，止（samatha）这个词的意思是“平静”或“寂静”，但这个术语通常指培育止与深度禅定的方法。止的目的是达到禅那（jhāna）。[\[1\]](#fn-fn1){:id="fr-fn1"}在修习止的过程中，修行者将心安住于一个所缘（ārammaṇa）上，直到心达到一境性，这被称为定。当定力善巧建立时，心就进入了禅那。在四种色界禅那（rūpa-jhāna）中，修行者以色法为专注的所缘。比这些更微细的是四种无色界禅那（arūpa-jhāna），其中修行者以名法为专注的所缘。这些禅那合称为“八定”（samāpatti）。
+在巴利语中，止（samatha，音译奢摩他）这个词的意思是“平静”或“寂静”，但这个术语通常指培育止与深度禅定的方法。止的目的是达到禅那（jhāna）。[\[1\]](#fn-fn1){:id="fr-fn1"}在修习止的过程中，修行者将心安住于一个所缘（ārammaṇa）上，直至形成心一境性，这就称为定。当定力善巧建立时，心就进入了禅那。在四种色界禅那（rūpa-jhāna）中，修行者以色法为专注的所缘。比这些更微细的是四种无色界禅那（arūpa-jhāna），其中修行者以名法为专注的所缘。这些禅那合称为“八定”（samāpatti）。
 
 在禅那中，心是安乐、平静和明亮的；没有昏沉或扰动；心远离了五盖（nīvaraṇa）。[\[2\]](#fn-fn2){:id="fr-fn2"}在禅那期间，修行者据说脱离了烦恼（kilesa）。然而，当修行者从禅那中出来时，烦恼又会回来。通过定力来镇伏烦恼，这被称为“镇伏灭”（vikkhambhana-nirodha）和“镇伏解脱”（vikkhambhana-vimutti）。禅那可能产生的果报是五种神通（abhiññā）：神足通、他心通、宿命通、天耳通和天眼通。（参见附注 8.1“殊胜智慧”）
 
 止这个词通常特指“定”。将止等同于“定”是符合阿毗达摩和经藏的，因为无论达到哪种神通或禅定成就，止的本质都是定。[\[3\]](#fn-fn3){:id="fr-fn3"}
 
-毗婆舍那（vipassanā）的意思是“清晰的洞见”。这个术语也指培育智慧的方法，以便如实地看清事物，而不是如同被贪欲和嗔恚扭曲的见解所想象的那样。这种洞见会逐渐加深，直到无明和执取被根除，此时人的印象、想和态度都会转变。
+观（vipassanā，亦称内观，音译毗婆舍那）的意思是“清晰的洞见”。这个术语也指培育智慧的方法，以便如实地看清事物，而不是如同被贪欲和嗔恚扭曲的见解所想象的那样。这种洞见会逐渐加深，直到无明和执取被根除，此时人的印象、想和态度都会转变。
 
-在内观修行中逐渐培育的观智被称为 ñāṇa，它有许多层次。最终和最高的知见被称为“明”（vijjā），它彻底根除了无明。拥有这种明的心是喜悦、平静和自由的。它摆脱了烦恼的束缚，这些烦恼会腐蚀人的思想和行为。觉悟者不受烦恼所扰，也无需与烦恼抗争。这种观智是内观的目标，它导向真实、持久的解脱。这种绝对的解脱被称为“断灭”（samuccheda-nirodha）或“断灭解脱”（samuccheda-vimutti）。[\[4\]](#fn-fn4){:id="fr-fn4"}
+在修观中逐渐培育的观智被称为 ñāṇa，它有许多层次。最终和最高的知见被称为“明”（vijjā），它彻底根除了无明。拥有这种明的心是喜悦、平静和自由的。它摆脱了烦恼的束缚，这些烦恼会腐蚀人的思想和行为。觉悟者不受烦恼所扰，也无需与烦恼抗争。这种观智是观的目标，它导向真实、持久的解脱。这种绝对的解脱被称为“正断灭”（samuccheda-nirodha）或“正断解脱”（samuccheda-vimutti）[\[4\]](#fn-fn4){:id="fr-fn4"}。
 
 > **附注 8.1　殊胜智慧**
 > {: id="note-8-1"}
 >
-> 译者注：abhiññā 这个术语在不同语境中使用。一般来说，它意为“殊胜知”。共有六种殊胜知。前五种（上面列出的）是世俗之知；第六种——漏尽智（āsavakkhaya-ñāṇa）——是出世间之知。在本章中，当指前五种时，我使用“神通”；当指全部六种时，我使用“殊胜知”、“殊胜成就”或“直接知”。
+> 译者注：abhiññā 这个术语在不同语境中使用。一般来说，它意为“殊胜知”。共有六种殊胜知。前五种（上面列出的）是世间之知；第六种——漏尽智（āsavakkhaya-ñāṇa）——是出世间之知。在本章中，当指前五种时，我使用“神通”；当指全部六种时，我使用“殊胜知”、“殊胜成就”或“直接知”。
 
-止禅的目标是禅那；内观的目标是观智。[\[5\]](#fn-fn5){:id="fr-fn5"}人们可以单独修习止禅，希望能享受这种修行的果报：禅那和神通（abhiññā）。他们可能就此止步，不关心内观和智慧的培育。但是修习内观的人必须依赖某种程度的定力。他们可能先达到禅那，然后以禅那为基础修内观；他们可能先修习内观，然后修习止；或者他们可能同时修行这两种禅。那些被称为“纯观乘者”（suddhavipassanā-yānika）的人不“直接”或“专门”修习止——他们在培育智慧之前不达到禅那——但他们在广义上仍然依赖于止：他们仍然依赖于定力。修习内观者最初的定力可能是“刹那定”（khaṇika-samādhi）。但在达到道果（magga-phala）之时，定是稳固建立的（“安止定”——appanā-samādhi），至少达到初禅。
+止的目标是禅那；观的目标是观智。[\[5\]](#fn-fn5){:id="fr-fn5"}人们可以单独修习止，希望能享受这种修行的果报：禅那和神通（abhiññā）。他们可能就此止步，不关心观和智慧的培育。但是修观的人必须依赖某种程度的定力。他们可能先达到禅那，然后以禅那为基础修观；他们可能先修观，然后修习止；或者他们可能同时修行这两种禅。那些被称为“纯观乘者”（suddhavipassanā-yānika）的人不“直接”或“专门”修习止——他们在培育智慧之前不达到禅那——但他们在广义上仍然依赖于止：他们仍然依赖于定力。修观者最初的定力可能是“刹那定”（khaṇika-samādhi）。但在达到道果（magga-phala）之时，定是稳固建立的（“安止定”——appanā-samādhi），至少达到初禅。
 
-无论禅那或神通多么非凡，如果它们仅仅是止禅的结果，它们仍然是“世俗的”：它们仍属于凡夫的境界。[\[6\]](#fn-fn6){:id="fr-fn6"}这类成就的例子有：提婆达多尊者（Devadatta）的神通，[\[7\]](#fn-fn7){:id="fr-fn7"}瞿提迦尊者（Godhika）的暂时解脱，[\[8\]](#fn-fn8){:id="fr-fn8"}以及经文中记载的比丘、苦行者和居士达到禅那的故事。[\[9\]](#fn-fn9){:id="fr-fn9"}
+无论禅那或神通多么非凡，如果它们仅仅是止禅的结果，它们仍然是“世间的”：它们仍属于凡夫的境界。[\[6\]](#fn-fn6){:id="fr-fn6"}这类成就的例子有：提婆达多尊者（Devadatta）的神通，[\[7\]](#fn-fn7){:id="fr-fn7"}瞿提迦尊者（Godhika）的暂时解脱，[\[8\]](#fn-fn8){:id="fr-fn8"}以及经文中记载的比丘、苦行者和居士达到禅那的故事。[\[9\]](#fn-fn9){:id="fr-fn9"}
 
 由止产生的定成就和神通在佛陀时代之前就已存在。[\[10\]](#fn-fn10){:id="fr-fn10"}证得这些成就者来自其他宗教传统，并早于佛陀，例如达到第三无色界禅那的阿罗罗·迦罗摩（Āḷāra Kālāma）和达到第四无色界禅那的郁陀迦·罗摩子（Uddaka Rāmaputta）。[\[11\]](#fn-fn11){:id="fr-fn11"}这些成就并非佛教的目标，因为它们不能带来从苦与烦恼中的真正解脱。有些其他传统的比丘，在达到四禅后，仍然持有邪见，声称安住在这些禅那中就等同于涅槃，这种说法被佛陀所驳斥。[\[12\]](#fn-fn12){:id="fr-fn12"}
 
-佛法中止的真正目的是生起定力，并以此作为内观的基础。（参见附注 8.2“以止为观的基础”）这种以定力为支持的内观修习，导向佛法的最终目标。具足止禅的殊胜果报并达到这个最高目标的人，将受到敬仰和尊崇。但仅仅获得内观果报的人，仍优于那些获得了禅那和神通却尚未觉悟的凡夫。未证得八种禅那或五神通（abhiññā）的阿那含的定，仍被认为是“圆满的”。它是稳固而坚定的，因为没有烦恼来侵蚀或扰乱它。这与那些证得禅那或神通但未修习内观或未证得道果的人不同。尽管他们的定力程度可能非凡，但其稳定性没有保证。他们仍然容易被烦恼所压倒。即使是须陀洹和斯陀含的定力也可能被欲贪扰乱和削弱。因此，他们的定仍被认为是“不圆满的”。[\[13\]](#fn-fn13){:id="fr-fn13"}
+佛法中止的真正目的是生起定力，并以此作为观的基础。（参见附注 8.2“以止为观的基础”）在定力支持下修观，能导向佛法的最终目标。具足止的殊胜果报并达到这个最高目标的人，将受到敬仰和尊崇。但仅仅获得观的果报的人，仍优于那些获得了禅那和神通却尚未觉悟的凡夫。未证得八种禅那或五神通（abhiññā）的阿那含的定，仍被认为是“圆满的”。它是稳固而坚定的，因为没有烦恼来侵蚀或扰乱它。这与那些证得禅那或神通但未修观或未证得道果的人不同。尽管他们的定力程度可能非凡，但其稳定性没有保证。他们仍然容易被烦恼所压倒。即使是须陀洹和斯陀含的定力也可能被欲贪扰乱和削弱。因此，他们的定仍被认为是“不圆满的”。[\[13\]](#fn-fn13){:id="fr-fn13"}
 
 止与观这个主题与下面将讨论的慧解脱和心解脱有关。
 
 > **附注 8.2　以止为观的基础**
 > {: id="note-8-2"}
 >
-> 最高的定是能帮助智慧遣除烦恼并促进觉悟的专注。从技术上讲，它是道的一个要素，即道之定（magga-samādhi）。这种定有一个特殊名称：ānantarika-samādhi（也拼作 anantarika, anantariya 或 ānantariya），译为“无间定”——它立即产生圣果（ariya-phala），没有障碍。佛陀说这种专注是无与伦比的（[Khp 6 / Kh 4](https://aipali.true-dhamma.com/sutta/kn/kn-01-khp/khp-01-09-khuddakapatha/#6-三宝经-ratanasutta){: target="_blank" rel="noopener"}；[Snp 13 / Sn 40](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#13-snp-13-三宝经-ratanasutta){: target="_blank" rel="noopener"}）。即使这种定层次较低，它仍然优于其他形式的色界和无色界禅那。（KhA. 182；SnA. I. 277）Ānantarika-samādhi 在其他语境中也有提及，无论是经典还是义注；见：[DN 34 / D iii 273](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 4.162 / A ii 150](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-161-170-patipada/#2-an-4162-广说经-vitthārasutta){: target="_blank" rel="noopener"}；Ps. I. 2, 94；DA. III. 1056；AA. III. 139；PsA. I. 37；VismṬ.: Ñāṇadassanavisuddhiniddesavaṇṇanā, Sotāpannapuggalakathāvaṇṇanā；ThīgA. 99。
+> 最高的定是能帮助智慧遣除烦恼并促进觉悟的专注。在佛法的分类中，它是道的一个要素，即道之定（magga-samādhi）。这种定有一个特殊名称：ānantarika-samādhi（也拼作 anantarika, anantariya 或 ānantariya），译为“无间定”——它立即产生圣果（ariya-phala），没有障碍。佛陀说这种专注是无与伦比的（[Khp 6 / Kh 4](https://aipali.true-dhamma.com/sutta/kn/kn-01-khp/khp-01-09-khuddakapatha/#6-三宝经-ratanasutta){: target="_blank" rel="noopener"}；[Snp 13 / Sn 40](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-13-26-cula/#13-snp-13-三宝经-ratanasutta){: target="_blank" rel="noopener"}）。即使这种定层次较低，它仍然优于其他形式的色界和无色界禅那。（KhA. 182；SnA. I. 277）Ānantarika-samādhi 在其他语境中也有提及，无论是经典还是义注；参见：[DN 34 / D iii 273](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[AN 4.162 / A ii 150](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-161-170-patipada/#2-an-4162-广说经-vitthārasutta){: target="_blank" rel="noopener"}；Ps. I. 2, 94；DA. III. 1056；AA. III. 139；PsA. I. 37；VismṬ.: Ñāṇadassanavisuddhiniddesavaṇṇanā, Sotāpannapuggalakathāvaṇṇanā；ThīgA. 99。
 
 ## 心解脱与慧解脱
 
@@ -72,9 +72,9 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 >
 > 在“由离欲而解脱”（virāgā vimuccati）这个短语中，解脱与离欲配对出现多次，例如：[SN 23.1 / S iii 189](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-23-radha/sn-23-radha/#11-sn-231-魔罗经-mārasutta){: target="_blank" rel="noopener"}；[SN 35.1 / S iv 2](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-01-12-anicca/#1-sn-351-内六处无常-ajjhattāniccasutta){: target="_blank" rel="noopener"}。
 >
-> 欲知更多解释，例如：Ps. II. 140；SA. II. 268。
+> 更多解释可参见，例如：Ps. II. 140；SA. II. 268。
 
-作为果报的解脱（vimutti），尤其是作为阿罗汉果的解脱，分为两种：心解脱（cetovimutti）和慧解脱（paññāvimutti）。心解脱（cetovimutti）被译为“心解脱”。它是凭借定力而达成的解脱。它是一种定心的状态，能平息贪欲，并从烦恼的束缚中解脱出来。[\[15\]](#fn-fn15){:id="fr-fn15"} 慧解脱（paññāvimutti）被译为“慧解脱”，但同样可以译为“智慧的解脱”，因为它指的是阿罗汉的智慧，这种智慧是净化和完善的。这种智慧能驱散无明，使人从烦恼中解脱。
+作为果报的解脱（vimutti），尤其是作为阿罗汉果的解脱，分为两种：心解脱（cetovimutti）和慧解脱（paññāvimutti）。其中，心解脱是凭借定力而达成的解脱。它是一种定心的状态，能平息贪欲，并从烦恼的束缚中解脱出来。[\[15\]](#fn-fn15){:id="fr-fn15"}慧解脱既指“凭借智慧而解脱”，也可理解为“智慧本身的解脱”，因为它指的是阿罗汉清净而圆满的智慧。这种智慧能驱散无明，使人从烦恼中解脱。
 
 > 因断除贪欲而有心解脱；因断除无明而有慧解脱。  
 > [AN 2.32 / A i 61](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#311-an-232-离贪无明){: target="_blank" rel="noopener"}；Ps. II. 99
@@ -85,37 +85,39 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 > 例如：[DN 6 / D i 156](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-06-mahali/){: target="_blank" rel="noopener"}；[DN 8 / D i 167](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-08-mahasihanada/){: target="_blank" rel="noopener"}；[DN 15 / D ii 71](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-15-mahanidana/){: target="_blank" rel="noopener"}；[DN 19 / D ii 251](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-19-mahagovinda/){: target="_blank" rel="noopener"}；[DN 28 / D iii 107](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-28-sampasadaniya/){: target="_blank" rel="noopener"}；[DN 29 / D iii 132](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-29-pasadika/){: target="_blank" rel="noopener"}；[MN 40 / M i 284](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-040-culaassapura/){: target="_blank" rel="noopener"}；[MN 54 / M i 367](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-054-potaliya/){: target="_blank" rel="noopener"}；[SN 51.11 / S v 266](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-51-iddhipada/sn-51-11-20-pasadakampana/#1-sn-5111-现等觉前经-pubbasutta){: target="_blank" rel="noopener"}；[SN 51.31 / S v 289](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-51-iddhipada/sn-51-21-32-ayogula/#11-sn-5131-目犍连经-moggallānasutta){: target="_blank" rel="noopener"}；[AN 3.74 / A i 220](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-072-081-ananda/#3-an-374-释迦族人摩诃那摩经-mahānāmasakkasutta){: target="_blank" rel="noopener"}； 
 > [AN 5.28 / A iii 29](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-021-030-pancangika/#8-an-528-五正定-pañcaṅgikasutta){: target="_blank" rel="noopener"}, [AN 6.70 / A iii 425-426](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-065-074-devata-2/#6-an-670-三摩地-samādhisutta){: target="_blank" rel="noopener"}
 
-心解脱是止的果报；慧解脱是内观的果报。[\[17\]](#fn-fn17){:id="fr-fn17"}义注认为，这两个术语成对出现表明止和内观必须结合，无论是在“果”（phala）的层面还是在“道”（magga）的层面。[\[18\]](#fn-fn18){:id="fr-fn18"}这里的止可以广义地理解为所需程度的定力；它不一定指导致更高禅定成就的更深层次的专注。
+心解脱是止的果报；慧解脱是观的果报。[\[17\]](#fn-fn17){:id="fr-fn17"}义注认为，这两个术语成对出现表明止和观必须结合，无论是在“果”（phala）的层面还是在“道”（magga）的层面。[\[18\]](#fn-fn18){:id="fr-fn18"}这里的止可以广义地理解为所需程度的定力；它不一定指导致更高禅定成就的更深层次的专注。
 
-> 有两件事关乎殊胜知。[\[19\]](#fn-fn19){:id="fr-fn19"}是哪两件事？止禅与内观。
+> 有两件事属于明分（vijjābhāgiya，即属于“明”的一分）。[\[19\]](#fn-fn19){:id="fr-fn19"}是哪两件事？止与观。
 >
 > 修习止有何益处？能修习心。当心得到培育后，它带来什么益处？贪欲被断除。
 >
-> 修习内观有何益处？能培育智慧。当智慧得到培育后，它带来什么益处？无明被断除。
+> 修观有何益处？能培育智慧。当智慧得到培育后，它带来什么益处？无明被断除。
 >
 > 被贪欲染污的心未得解脱，被无明染污的智慧未得培育。因此，比丘们，因离贪而有心解脱，因离无明而有慧解脱。（参见附注 8.4“心解脱与慧解脱”）  
 > [AN 2.32 / A i 61](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#311-an-232-离贪无明){: target="_blank" rel="noopener"}
 
+<!-- quotation-boundary -->
+
 > **附注 8.4　心解脱与慧解脱**
 > {: id="note-8-4"}
 >
-> 在《巴利三藏》中，心解脱（cetovimutti）和慧解脱（paññāvimutti）的成就被用作阿罗汉果的定义（例如：[SN 55.52 / S v 406](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#2-sn-5552-雨安居经-vassaṃvutthasutta){: target="_blank" rel="noopener"}）。这证明所有阿罗汉都获得了这两种解脱。当这些术语成对用于指阿罗汉时，它们总是以“无漏”（anāsava）一词开头。[AN 4.87 / A ii 87](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-081-090-macala/#7-an-487-四种沙门经-puttasutta){: target="_blank" rel="noopener"}中的段落提到，有些阿罗汉虽然获得了心解脱和慧解脱，但并未获得八解脱（即禅那定和想受灭尽定）。这段文字证实，阿罗汉的心解脱是指支持智慧根除诸漏所必需的专注程度。它并非下面讨论的、指八定（samāpatti）的心解脱。
+> 在《巴利三藏》中，心解脱（cetovimutti）和慧解脱（paññāvimutti）的成就被用作阿罗汉果的定义（例如：[SN 55.52 / S v 406](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-55-sotapatti/sn-55-51-61-sappanna/#2-sn-5552-雨安居经-vassaṃvutthasutta){: target="_blank" rel="noopener"}）。这证明所有阿罗汉都获得了这两种解脱。当这些术语成对用于指阿罗汉时，它们总是以“无漏”（anāsava）一词开头。[AN 4.87 / A ii 87](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-081-090-macala/#7-an-487-四种沙门经-puttasutta){: target="_blank" rel="noopener"} 中的段落提到，有些阿罗汉虽然获得了心解脱和慧解脱，但并未获得八解脱（即禅那定和想受灭尽定）。这段文字证实，阿罗汉的心解脱是指支持智慧根除诸漏所必需的专注程度。它并非下面讨论的、指八定（samāpatti）的心解脱。
 >
-> 义注将止定义为心一境性（cittekaggatā，即定），将内观定义为反思有为法的智慧（AA. II. 119）。
+> 义注将止定义为心一境性（cittekaggatā，即定），将观定义为反思有为法的智慧（AA. II. 119）。
 
-证得心解脱和慧解脱，解脱才是圆满的。单独修习止是可能的，这种修行可以导致更高的禅定成就，其中烦恼被镇伏。这是一种解脱，尽管是暂时的。然而，为了达到真正的解脱，修习止的行者也必须结合内观。心解脱这个术语也可用于证悟道果以外的场合，只是在这些场合，心的解脱并非绝对的。因此，关键在于慧解脱，它逐渐消除无明并根除烦恼。真正的持久解脱伴随着慧解脱而来。“无漏”（anāsava）一词与这两个术语结合使用，以强调完美的解脱。心解脱（cetovimutti）与慧解脱（paññāvimutti）成对使用，仅仅是为了表明需要高水平的定力来为慧解脱作准备。
+证得心解脱和慧解脱，解脱才是圆满的。单独修习止是可能的，这种修行可以导致更高的禅定成就，其中烦恼被镇伏。这是一种解脱，尽管是暂时的。然而，为了达到真正的解脱，修习止的行者也必须结合观。心解脱这个术语也可用于证悟道果以外的场合，只是在这些场合，心的解脱并非绝对的。因此，关键在于慧解脱，它逐渐消除无明并根除烦恼。真正的持久解脱伴随着慧解脱而来。“无漏”（anāsava）一词与这两个术语结合使用，以强调完美的解脱。心解脱（cetovimutti）与慧解脱（paññāvimutti）成对使用，仅仅是因为慧解脱必须依靠心解脱来为心作好准备。
 
-慧解脱只用于完全解脱，并且总是伴随着心解脱。心解脱则也可用于其他场合。如果它指的是从入流开始的道果的决定性解脱，那么它就与慧解脱配对。否则，它必须伴随着一个限定性形容词，明确表示一个确定的觉悟阶段，例如：不动（akuppā）或持久（asamaya）。当它单独出现或伴随其他术语时，它不指完全解脱。
+慧解脱只用于完全解脱，并且总是伴随着心解脱。心解脱则也可用于其他场合。如果它指的是从须陀洹果开始的道果的决定性解脱，那么它就与慧解脱配对。否则，它必须伴随着一个限定性形容词，明确表示一个确定的觉悟阶段，例如：不动（akuppā）或持久（asamaya）。当它单独出现或伴随其他术语时，它不指完全解脱。
 
-由于这些术语的相似性，将阿罗汉分为“慧解脱者”（paññā-vimutta）和“俱解脱者”（ubhatobhāga-vimutta）给人一种印象，前者是指仅通过智慧获得解脱（paññāvimutti）的人。事实上，慧解脱的成就必然包含心解脱的成就，即要依靠精微的定力来获得智慧解脱。在这种情况下，专注无需特别强调。即使是纯观行者（sukkha-vipassaka）也依赖止禅来培育所需程度的定力。在“俱解脱者”（ubhatobhāga-vimutta）的情况下，心解脱被强调。强调的原因是这里所指的心解脱是特殊的，属于八解脱或更高层次的禅那成就。
+由于这些术语的相似性，将阿罗汉分为“慧解脱者”（paññā-vimutta）和“俱解脱者”（ubhatobhāga-vimutta）给人一种印象，前者是指仅通过智慧获得解脱（paññāvimutti）的人。事实上，慧解脱的成就必然包含心解脱的成就，即要依靠必要程度的定力来获得智慧解脱。在这种情况下，专注无需特别强调。即使是纯观行者（sukkha-vipassaka）也依赖止禅来培育所需程度的定力。在“俱解脱者”（ubhatobhāga-vimutta）的情况下，心解脱被强调。强调的原因是这里所指的心解脱是特殊的，属于八解脱或更高层次的禅那成就。
 
 如上所述，vimutti 一词用于许多不同的场合。cetovimutti 一词，当指尚未超越世间的解脱层次时，通常单独使用；在这种情况下，它暗示着一种非绝对的解脱。较低的解脱通常通过禅定的力量发生。后来的文献也使用 vimokkha 一词来指代非超越世间的解脱。[\[20\]](#fn-fn20){:id="fr-fn20"}原始经文为 vimokkha 保留了独特的定义，正如“觉悟者”一章中所解释的。无论使用哪个术语——vimutti、cetovimutti 还是 vimokkha——它通常都伴随着一个限定性形容词来澄清语境，例如：sāmāyika-vimutti、sāmāyika-cetovimutti、sāmāyika-vimokkha（都意为“暂时解脱”），appamaññā-cetovimutti（“无量心解脱”），或 santa-cetovimutti（“寂静心解脱”）。用相反意义的形容词替换劣等解脱层次的限定性形容词，表示至上的解脱（例如，用 asamaya 替换 sāmāyika）。
 
-因此，广义上的解脱可以分为两种：绝对的和非绝对的。当指其最高意义时，解脱一词前面会加上以下限定性形容词之一，以明确指的是绝对的、超越世间的解脱：不动（akuppā-vimutti 和 akuppā-cetovimutti：“不动解脱”；“不退转解脱”）；[\[21\]](#fn-fn21){:id="fr-fn21"}或无时（asamaya-vimutti[\[22\]](#fn-fn22){:id="fr-fn22"}和 asāmāyika-cetovimutti：[\[23\]](#fn-fn23){:id="fr-fn23"}“无时解脱”；“不受时节限制的解脱”）。所有这些术语都指“圣果”（ariya-phala），特别是阿罗汉果。[\[24\]](#fn-fn24){:id="fr-fn24"}而且由于 cetovimutti 一词单独从不指绝对解脱，因此添加 akuppā 和 asāmāyika 这两个术语，以表明一种绝对的、不朽的心解脱，并必然伴随着慧解脱。
+因此，广义上的解脱可以分为两种：绝对的和非绝对的。当指其最高意义时，解脱一词前面会加上以下限定性形容词之一，以明确指的是绝对的、超越世间的解脱：不动（akuppā-vimutti 和 akuppā-cetovimutti：“不动解脱”；“不退转解脱”）[\[21\]](#fn-fn21){:id="fr-fn21"}；或无时（asamaya-vimutti[\[22\]](#fn-fn22){:id="fr-fn22"}和 asāmāyika-cetovimutti：[\[23\]](#fn-fn23){:id="fr-fn23"}“无时解脱”；“不受时节限制的解脱”）。所有这些术语都指“圣果”（ariya-phala），特别是阿罗汉果。[\[24\]](#fn-fn24){:id="fr-fn24"}而且由于 cetovimutti 一词单独从不指绝对解脱，因此添加 akuppā 和 asāmāyika 这两个术语，以表明一种绝对的、不朽的心解脱，并必然伴随着慧解脱。
 
 觉悟者可证得的另一种出世间的心解脱，是“无相心解脱”（animittā-cetovimutti），这被称为“果定”（phala-samāpatti）。当须陀洹、斯陀含、阿那含和阿罗汉希望安乐住并进入一种专注状态，体验他们证悟的“味”（rasa，即“品质”）时，便可达到这种境界。这种解脱状态是“现法乐住”（diṭṭhadhamma-sukhavihāra）和“圣出世间乐”（ariyalokuttara-sukha）。它被称为“无相心解脱”，因为这是一种心的自由，在这种自由中，修行者不留意有为法（即色蕴、受蕴、想蕴、行蕴、识蕴）的相状，而只专注于涅槃（以涅槃为觉知的所缘）。[\[25\]](#fn-fn25){:id="fr-fn25"}
 
-许多较次要的、世俗的解脱层次，当心解脱一词单独出现时，都包含在其中。或者，使用“暂时心解脱”（sāmāyika-cetovimutti）一词（它与 sāmāyika-vimutti 和 samaya-vimutti 等词同义，都意为“暂时解脱”）。[\[26\]](#fn-fn26){:id="fr-fn26"}“决意”（adhimutti，“倾向于”；“投入”）这个词常用来描述这些较次的解脱层次，或者 adhimutti 被用作上述术语的同义词（参见附注 8.5“反思涅槃”）。[\[27\]](#fn-fn27){:id="fr-fn27"}Adhimutti 指的是全神贯注于一个所缘，以至于处在该状态时，能摆脱扰乱和烦恼，例如在入禅（jhāna）时，人会摆脱五盖（nīvaraṇa）。
+许多较次要的、世间的解脱层次，当心解脱一词单独出现时，都包含在其中。或者，使用“暂时心解脱”（sāmāyika-cetovimutti）一词（它与 sāmāyika-vimutti 和 samaya-vimutti 等词同义，都意为“暂时解脱”）。[\[26\]](#fn-fn26){:id="fr-fn26"}“决意”（adhimutti，“倾向于”；“投入”）这个词常用来描述这些较次的解脱层次，或者 adhimutti 被用作上述术语的同义词（参见附注 8.5“反思涅槃”）。[\[27\]](#fn-fn27){:id="fr-fn27"}Adhimutti 指的是全神贯注于一个所缘，以至于处在该状态时，能摆脱扰乱和烦恼，例如在入禅（jhāna）时，人会摆脱五盖（nīvaraṇa）。
 
 > **附注 8.5　反思涅槃**
 > {: id="note-8-5"}
@@ -138,53 +140,56 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 
 有些人声称安住于禅那就是涅槃，或者声称“想受灭尽定”（saññāvedayita-nirodha 或 nirodha-samāpatti），即最高的禅定成就，就是涅槃。事实上，这些禅定成就是用来证得阿罗汉果的工具。它们能预备心，使其适合觉悟。这些成就，连同它们的物质和非物质性质，都是有为法，修行者以观智和智慧反思它们，从而生起真知（vijjā）。[\[37\]](#fn-fn37){:id="fr-fn37"}
 
-阿罗汉们利用这些禅定成就来休息和体验安乐，因此这些成就被称为“现法乐住”（diṭṭhadhamma-sukhavihāra）、[\[38\]](#fn-fn38){:id="fr-fn38"}“天住”（dibba-vihāra），[\[39\]](#fn-fn39){:id="fr-fn39"}和“次第住”（anupubba-vihāra）。[\[40\]](#fn-fn40){:id="fr-fn40"}然而，这些状态并非涅槃。它们是证得涅槃的途径，也是已证得涅槃者的安乐住处。事实上，涅槃的证悟有助于获得这些禅定状态，并使人从中受益匪浅。例如，一个证得八禅的人将拥有必要的定力和智慧，以便在证得不还果或阿罗汉果时达到想受灭尽定（nirodha-samāpatti）。[\[41\]](#fn-fn41){:id="fr-fn41"}
+阿罗汉们利用这些禅定成就来休息和体验安乐，因此这些成就被称为“现法乐住”（diṭṭhadhamma-sukhavihāra）[\[38\]](#fn-fn38){:id="fr-fn38"}、“天住”（dibba-vihāra）[\[39\]](#fn-fn39){:id="fr-fn39"}，和“次第住”（anupubba-vihāra）。[\[40\]](#fn-fn40){:id="fr-fn40"}然而，这些状态并非涅槃。它们是证得涅槃的途径，也是已证得涅槃者的安乐住处。事实上，涅槃的证悟有助于获得这些禅定状态，并使人从中受益匪浅。例如，一个证得八禅的人将拥有必要的定力和智慧，以便在证得阿那含果或阿罗汉果时达到想受灭尽定（nirodha-samāpatti）。[\[41\]](#fn-fn41){:id="fr-fn41"}
 
 尚未证得阿罗汉果的人仍然对色界和无色界的存在有一定程度的执着，他们可能仍然着迷或执着于禅定成就。尽管禅那非常殊胜，但佛教认为对禅那的执着是一种弱点。事实上，这种执着可能成为证得涅槃的障碍。佛陀说，如果一位比丘证得最高的无色界禅那（非想非非想处，nevasaññānāsaññāyatana），但沉溺于这种状态的感觉，他就无法证得涅槃，因为仍然存在取（upādāna）。佛陀称执着于这种微细状态为“最胜之取”（upādāna-seṭṭha；参见附注 8.6“一种被认为殊胜的状态”）。阿罗汉们利用禅那来安住，但没有任何执着。
 
 禅那，乃至想受灭尽定，并非涅槃的证据在于，那些“慧解脱者”（paññāvimutta）的阿罗汉并未证得无色界禅那，也无法进入想受灭尽定。从《巴利三藏》中我们可以推断，在佛陀时代，慧解脱者比俱解脱者更多。例如，在一次比丘大会上，佛陀对尊者舍利弗（Sāriputta）说：
 
-> 舍利弗，在这五百位比丘中，有六十位比丘是三明者（tevijja），[\[42\]](#fn-fn42){:id="fr-fn42"}六十位比丘是六神通者（chaḷabhiñña），六十位比丘是俱解脱者，而其余的三百二十位则是慧解脱者。  
+> 舍利弗，在这五百位比丘中，有六十位比丘是三明者（tevijja）[\[42\]](#fn-fn42){:id="fr-fn42"}，六十位比丘是六神通者（chaḷabhiñña），六十位比丘是俱解脱者，而其余的三百二十位则是慧解脱者。  
 > [SN 8.7 / S i 191](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-08-vangisa/sn-08-vangisa/#17-sn-87-自恣经-pavāraṇāsutta){: target="_blank" rel="noopener"}, Pavāraṇā Sutta
+
+<!-- quotation-boundary -->
 
 > **附注 8.6　一种被认为殊胜的状态**
 > {: id="note-8-6"}
 >
-> [MN 106 / M ii 265](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-106-aneñjasappaya/){: target="_blank" rel="noopener"}。义注解释 upādāna-seṭṭha 在此指“一种被认为殊胜的状态”（即一种更高的转生境界），但上述解释与词源和语境一致（见 MA. IV. 67）。
+> [MN 106 / M ii 265](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-106-aneñjasappaya/){: target="_blank" rel="noopener"}。义注解释 upādāna-seṭṭha 在此指“一种被认为殊胜的状态”（即一种更高的转生境界），但上述解释与词源和语境一致（参见 MA. IV. 67）。
 >
 > 佛陀说，如果有人具有殊胜的品质（例如他富有、有名望、博学、佛法宣讲者、苦行者、林居者、粪扫衣者、树下居者，或证得八禅中任何一种），却变得傲慢并轻视他人，那么这个人就是“劣等”的人（《善人经》〔Sappurisa Sutta〕，[MN 113 / M iii 37-45](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-113-sappurisa/){: target="_blank" rel="noopener"}）。
 >
-> [AN 4.28 / A ii 27-28](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-021-030-uruvela/#8-an-428-四圣种-ariyavaṃsasutta){: target="_blank" rel="noopener"}的教导指出，处于圣族中的比丘满足于他的袈裟、布施食和住所，并乐于禅修，但不用自己的美德来赞扬自己或恐吓他人。
+> [AN 4.28 / A ii 27-28](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-021-030-uruvela/#8-an-428-四圣种-ariyavaṃsasutta){: target="_blank" rel="noopener"} 的教导指出，处于圣族中的比丘满足于他的袈裟、布施食和住所，并乐于禅修，但不用自己的美德来赞扬自己或恐吓他人。
 
 慧解脱（paññāvimutti）是决定性的，等同于证得涅槃。这种解脱将心解脱（cetovimutti）——它可能很久以前就已达成并在过去反复体验——或与慧解脱同时生起[\[43\]](#fn-fn43){:id="fr-fn43"}——转变为不动心解脱（akuppā-cetovimutti），因为此时诸漏已被根除。
 
-觉悟者们最大程度地利用心解脱（cetovimutti），而不伤害自己或他人。他们不沉溺于这些成就，也不误用专注的果报——世俗的神通——来满足自我。在这里，心解脱和慧解脱成对存在，正如经典中经常提到的那样：心解脱和慧解脱中，那些邪恶不善法无余灭尽。[\[44\]](#fn-fn44){:id="fr-fn44"} 佛陀说，这种不动心解脱（cetovimutti 结合 paññāvimutti）是佛教的精髓和目标：
+觉悟者们最大程度地利用心解脱（cetovimutti），而不伤害自己或他人。他们不沉溺于这些成就，也不误用专注的果报——世间的神通——来满足自我。在这里，心解脱和慧解脱成对存在，正如经典中经常提到的那样：心解脱和慧解脱中，那些邪恶不善法无余灭尽。[\[44\]](#fn-fn44){:id="fr-fn44"}佛陀说，这种不动心解脱（cetovimutti 结合 paññāvimutti）是佛教的精髓和目标：
 
 > 当他精进时，便证得无时解脱（asamaya-vimutti）。那位比丘不可能从那种无时解脱中退失。
 >
-> 所以，婆罗门，这梵行并非以利得、尊敬和名誉为益，并非以戒行的成就为益，并非以定的成就为益，亦非以智与见为益。然而，这种不动心解脱才是这梵行的目标、其核心和其究竟。[\[45\]](#fn-fn45){:id="fr-fn45"}  
+> 所以，婆罗门，这梵行并非以利得、尊敬和名誉为益，并非以戒行的成就为益，并非以禅定的成就为益，亦非以智与见为益。然而，这种不动心解脱才是这梵行的目标、其核心和其究竟。[\[45\]](#fn-fn45){:id="fr-fn45"}  
 > [MN 29 / M i 197](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-029-mahasaropama/){: target="_blank" rel="noopener"}, Mahāsāropama Sutta
 
 有三种导致暂时解脱（samaya-cetovimutti）衰退的因素。首先是尚未完全根除的烦恼（kilesa）。它们可能已被压制或降伏，但它们潜伏着，当信心等积极条件减弱时就会被唤醒。其次是信心、热忱、满足和决心等支持性条件。当这些条件消退或减弱时，心解脱也会随之衰退。这些支持性条件甚至可能因正当理由而消退。人可能曾对某事物有强烈信仰并极度投入，但后来意识到该信仰并非基于智慧，且信仰的对象不值得如此投入。第三是环境因素，包括自身的健康和贫困或饥荒等外部条件。在修行中，这三个因素是相互关联的。例如，由于某些困难而灰心丧气；困惑、烦躁和沮丧会随之而生，心解脱也会消失。
 
-《巴利三藏》中有一些关于心解脱如何受到影响的有趣故事。尊者瞿提迦（Godhika）勤奋坚定，达到了暂时解脱（sāmāyika-cetovimutti；世俗的禅定成就）。但由于慢性病的折磨，他从这种心解脱中退失。他第二次、第三次达到暂时解脱，又从中退失。这种情况发生了六次。当他第七次达到暂时解脱时，他心想自己一定会像以前一样退失。他认为在这种解脱状态中死去比退失后再死去更好。于是他用刀自杀，但当他躺在床上忍受痛苦时，他建立了正念，并思惟生起的感受（vedanā）。在这样禅修时，他在证得究竟涅槃之前成就了阿罗汉果。[\[46\]](#fn-fn46){:id="fr-fn46"}
+《巴利三藏》中有一些关于心解脱如何受到影响的有趣故事。尊者瞿提迦（Godhika）勤奋坚定，达到了暂时解脱（sāmāyika-cetovimutti；世间的禅定成就）。但由于慢性病的折磨，他从这种心解脱中退失。他第二次、第三次达到暂时解脱，又从中退失。这种情况发生了六次。当他第七次达到暂时解脱时，他心想自己一定会像以前一样退失。他认为在这种解脱状态中死去比退失后再死去更好。于是他用刀自杀，但当他躺在床上忍受痛苦时，他建立了正念，并思惟生起的感受（vedanā）。在这样禅修时，他在证得究竟涅槃之前成就了阿罗汉果。[\[46\]](#fn-fn46){:id="fr-fn46"}
 
 另一段文字描述了沙门和婆罗门进入森林，以野果为生，他们认为如果沉溺于感官享受，就会变得迷醉，并落入魔罗（Māra）的掌控。当食物匮乏，他们变得消瘦虚弱时，他们的决心和热情减弱，于是他们回到更广阔的世界享受五欲之乐。[\[47\]](#fn-fn47){:id="fr-fn47"}
 
 义注将 vimutti 的众多定义归纳为五组，沿用了他们归类“灭尽”（nirodha）诸定义的同一模式。[\[48\]](#fn-fn48){:id="fr-fn48"}这五组作为有益的总结，涵盖了目前为止所有定义的精髓：[\[49\]](#fn-fn49){:id="fr-fn49"}
 
-*   1\. Vikkhambhana-vimutti：镇伏解脱，即通过定力镇伏烦恼。通过定力暂时停止五盖。这指的是八定（samāpatti）：四种色界禅和四种无色界禅，有时也包括“近行定”（upacāra-samādhi）。
+1.  Vikkhambhana-vimutti：镇伏解脱，即通过定力镇伏烦恼。通过定力暂时停止五盖。这指的是八定（samāpatti）：四种色界禅和四种无色界禅，有时也包括“近行定”（upacāra-samādhi）。
     
-*   2\. Tadaṅga-vimutti：对治解脱，即以对治的方式从特定烦恼中解脱。通过替代相反的特质，从不善法中解脱。从技术上讲，它是通过运用内观或智慧，从邪见和执着中解脱。例如，专注于无常可以使人摆脱对常住的信念。然而，它也可以用于一般的道德和伦理事项。例如：对布施的投入使人摆脱吝啬和贪婪；对慈爱的承诺使人摆脱嗔恨和消极；对悲悯和非暴力的奉献使人摆脱暴力和残酷。
+2.  Tadaṅga-vimutti：对治解脱，即以对治的方式从特定烦恼中解脱。通过替代相反的特质，从不善法中解脱。就其具体含义而言，它是通过运用观或智慧，从邪见和执着中解脱。例如，观照无常可以使人摆脱对常住的信念。然而，它也可以用于一般的道德和伦理事项。例如：对布施的投入使人摆脱吝啬和贪婪；对慈爱的承诺使人摆脱嗔恨和消极；对悲悯和非暴力的奉献使人摆脱暴力和残酷。
     
 
-这前两种解脱涵盖了“暂时解脱”（sāmāyika-cetovimutti）的意义，并且是世俗的。
+这前两种解脱涵盖了“暂时解脱”（sāmāyika-cetovimutti）的意义，并且是世间的。
 
-*   3\. Samuccheda-vimutti：断灭解脱，即通过究竟智慧断除烦恼；vimutti 作为“道”（magga）。
+{:start="3"}
+3.  Samuccheda-vimutti：正断解脱，即通过究竟智慧断除烦恼；vimutti 作为“道”（magga）。
     
-*   4\. Paṭipassaddhi-vimutti：寂静解脱，即烦恼的平息和安息；vimutti 作为“果”（phala）。
+4.  Paṭipassaddhi-vimutti：寂静解脱，即烦恼的平息和安息；vimutti 作为“果”（phala）。
     
-*   5\. Nissaraṇa-vimutti：出离解脱，即完全出离的状态；导致至上安乐和与世界无碍互动的完全解脱；vimutti 作为涅槃（Nibbāna）。
+5.  Nissaraṇa-vimutti：出离解脱，即完全出离的状态；导致至上安乐和与世界无碍互动的完全解脱；vimutti 作为涅槃（Nibbāna）。
     
 
 最后这三种解脱被定义为“永久解脱”（asāmāyika-cetovimutti），并且是出世间的。本质上，这五种解脱分别等同于止、观、道、果和涅槃。
@@ -193,7 +198,7 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 
 以下问题常在佛教修行者和学者之间争论：
 
-*   只修内观而不修止禅的人能否证得阿罗汉果？
+*   只修观而不修止的人能否证得阿罗汉果？
     
 *   在证悟涅槃之前，是否必须先证得禅那？
     
@@ -201,23 +206,23 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
     
 *   要证得漏尽智（āsavakkhaya-ñāṇa）并证悟涅槃，是否必须先证得宿命智（pubbenivāsānussati-ñāṇa）和生死智（cutūpapāta-ñāṇa）？
     
-*   在禅那中能否修习内观并思惟有为法，还是必须先从禅那中出来？
+*   在禅那中能否修观并思惟有为法，还是必须先从禅那中出来？
     
 *   在证得道果（magga-phala）之后，是否可能进一步修习止并证得禅定成就（jhāna-samāpatti）？
     
 
-其中有些问题涉及证悟涅槃的关键方面，有些只是间接相关，有些则已详尽讨论过，特别是关于是否可以仅凭修习内观而证悟涅槃的问题。本节将集中讨论那些与证悟直接相关的问题，并引用经文中的证据。
+其中有些问题涉及证悟涅槃的关键方面，有些只是间接相关，有些则已详尽讨论过，特别是关于是否可以仅凭修观而证悟涅槃的问题。本节将集中讨论那些与证悟直接相关的问题，并引用经文中的证据。
 
 ### 证悟的一般方面
 
 > 比丘们，我宣称，诸漏的灭尽，是依于初禅而达成，或依二禅而发生，或依三禅而发生，或依四禅而发生；依空无边处定而发生，或依识无边处定而发生，或依无所有处定而发生，或依非想非非想处定而发生（或依想受灭而发生）。[\[50\]](#fn-fn50){:id="fr-fn50"}  
-> 《禅那经》（Jhāna Sutta），[AN 9.36 / A iv 422-423](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#5-an-936-禅定经-jhānasutta){: target="_blank" rel="noopener"}
+> [AN 9.36 / A iv 422-423](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#5-an-936-禅定经-jhānasutta){: target="_blank" rel="noopener"}, Jhāna Sutta
 
 此经及另三部经[\[51\]](#fn-fn51){:id="fr-fn51"}描述了如何运用禅定成就的各个阶段来思惟，并深入洞察有为法的真实本性。上述经文继续写道：
 
-> 当说：“‘比丘们，我宣称，诸漏的灭尽，是依于初禅而达成’”，这是出于什么原因呢？这里……一位比丘入于并安住于初禅……其中所包含的任何色蕴、受蕴、想蕴、行蕴、识蕴等法，他观照这些法为无常、苦、空、无我。[\[52\]](#fn-fn52){:id="fr-fn52"}如此观见后，他的心便从这些法中转向，专注于不死界：“这是寂静，这是殊胜：那就是……涅槃。”如果他持续（初禅），[\[53\]](#fn-fn53){:id="fr-fn53"}他便证得漏尽；但如果他因对法的贪恋而未能证得漏尽，那么……他将自然往生 \[至净居天界（Suddhāvāsā）\] 并在那里证得究竟涅槃，不再从那个世界返回。[\[54\]](#fn-fn54){:id="fr-fn54"}
+> 当说：“‘比丘们，我宣称，诸漏的灭尽，是依于初禅而达成’”，这是出于什么原因呢？这里……一位比丘入于并安住于初禅……其中所包含的任何色蕴、受蕴、想蕴、行蕴、识蕴等法，他观照这些法为无常、苦、空、无我。[\[52\]](#fn-fn52){:id="fr-fn52"}如此观见后，他的心便从这些法中转向，专注于不死界：“这是寂静，这是殊胜：那就是……涅槃。”如果他持续（初禅）[\[53\]](#fn-fn53){:id="fr-fn53"}，他便证得漏尽；但如果他因对法的贪恋而未能证得漏尽，那么……他将自然往生 \[至净居天界（Suddhāvāsā）\] 并在那里证得究竟涅槃，不再从那个世界返回。[\[54\]](#fn-fn54){:id="fr-fn54"}
 
-从这里开始，经文描述了在每个禅定层次，直到无所有处定，如何以同样的过程修习内观、达到漏尽。[\[55\]](#fn-fn55){:id="fr-fn55"}
+从这里开始，经文描述了在每个禅定层次，直到无所有处定，如何以同样的过程修观、达到漏尽。[\[55\]](#fn-fn55){:id="fr-fn55"}
 
 《大鬘童子经》（Mahāmāluṅkya Sutta）细节较少，但描述了在每个禅那中，直到无所有处定，思惟五蕴的三法印，从而证得漏尽。《八城经》（Aṭṭhakanāgara Sutta）和《第十居士经》（Dasama Sutta）则略有不同：
 
@@ -225,12 +230,12 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 
 在这些经文中，慈、悲、喜、舍的心解脱被插入到色界禅和无色界禅之间，增加了四种可供思惟的禅定成就。
 
-这四部经文基本上包含相同的信息；它们只在细微之处有所不同。它们描述了在禅那中修习内观，从初禅到无所有处定，最终证得漏尽。然而，《禅那经》增加了一个总结：
+这四部经文基本上包含相同的信息；它们只在细微之处有所不同。它们描述了在禅那中修观，从初禅到无所有处定，最终证得漏尽。然而，《禅那经》增加了一个总结：
 
 > 因此，比丘们，凡有想的禅定成就（saññā-samāpatti）所能及之处，皆可证得究竟智（aññā-paṭivedha）。  
 > [AN 9.36 / A iv 426](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#5-an-936-禅定经-jhānasutta){: target="_blank" rel="noopener"}, Jhāna Sutta
 
-这意味着在禅那中，从无所有处定及以下，存在想（以及其他伴随的蕴），可以用于思惟并支持内观以证得漏尽。在非想非非想处定（nevasaññānāsaññāyatana），想过于微细，不能用于思惟。在想受灭尽定（saññāvedayita-nirodha）中更是如此。因此，这两种成就不属于“有想的成就”（saññā-samāpatti）。
+这意味着在禅那中，从无所有处定及以下，存在想（以及其他伴随的蕴），可以用于思惟并支持观以证得漏尽。在非想非非想处定（nevasaññānāsaññāyatana），想过于微细，不能用于思惟。在想受灭尽定（saññāvedayita-nirodha）中更是如此。因此，这两种成就不属于“有想的成就”（saññā-samāpatti）。
 
 如果真是这样，如何在非想非非想处定和想受灭尽定中证得漏尽呢？答案是，必须先从这些最高层次的禅定成就中出来，然后运用智慧思惟有为法，以证得漏尽。《无间经》（Anupada Sutta）中有一段关于非想非非想处定的内容：
 
@@ -248,18 +253,18 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 
 然而，对原始文本（[Snp 61 / Sn 205-206](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#61-snp-61-优波私婆问经-upasīvamāṇavapucchā){: target="_blank" rel="noopener"}）的考察显示，这里的“非想非非想处定”一词有误。它应该读作“无所有处定”，这已得到义注的证实（NdA. 30；SnA. II. 593）。
 
-次级和后来的文本通常描述在从禅定成就中出来之后思惟有为法和修习内观，无论这些成就有多高或多低。
+次级和后来的文本通常描述在从禅定成就中出来之后思惟有为法和修观，无论这些成就有多高或多低。
 
 关于想受灭尽定（saññāvedayita-nirodha）也有类似的解释：从这种成就中出来后，思惟这种状态的微细物质品质，思惟前一非想非非想处定状态的品质，或者思惟所有有为法，以理解真理并证得漏尽。[\[56\]](#fn-fn56){:id="fr-fn56"}
 
-同样，从每个禅那中出来后，都可以思惟有为法或禅那的心所，从无所有处定直到初禅。[\[57\]](#fn-fn57){:id="fr-fn57"}然而，上述段落的提供是为了证明，在这些禅那状态中安住时也可能修习内观，而无需先从中出来。只有在最高的两种禅定成就——非想非非想处定和想受灭尽定——中，才必须先出定才能修内观。[\[58\]](#fn-fn58){:id="fr-fn58"}
+同样，从每个禅那中出来后，都可以思惟有为法或禅那的心所，从无所有处定直到初禅。[\[57\]](#fn-fn57){:id="fr-fn57"}然而，上述段落的提供是为了证明，在这些禅那状态中安住时也可能修观，而无需先从中出来。只有在最高的两种禅定成就——非想非非想处定和想受灭尽定——中，才必须先出定才能修观。[\[58\]](#fn-fn58){:id="fr-fn58"}
 
-义注将以这种方式修行的人称为“以止为乘者”（samatha-yānika）：这样的修行者修行止直到证得禅那，此时他发展内观。这是经文中所提及的四种修行方式中的第一种：
+义注将以这种方式修行的人称为“以止为乘者”（samatha-yānika）：这样的修行者修行止直到证得禅那，此时他发展观。这是经文中所提及的四种修行方式中的第一种：
 
-1.  由止在前的内观修习（samathapubbaṅgama-vipassanābhāvanā）。
+1.  以止为先导的观修习（samathapubbaṅgama-vipassanābhāvanā）。
     
     
-2.  由内观在前的止修习（vipassanāpubbaṅgama-samathabhāvanā）。
+2.  以观为先导的止修习（vipassanāpubbaṅgama-samathabhāvanā）。
     
     
 3.  止观双运的修行（yuganaddhasamatha-vipassanābhāvanā）。
@@ -272,56 +277,58 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 
 这四种修行方式是尊者阿难（Ānanda）所描述的四条道路（magga）的总结：
 
-> 朋友们，凡是曾在我面前宣称证得阿罗汉果的比丘或比丘尼，都是通过这四条道路或其中某一条道路。哪四条呢？
+> 诸位贤友，凡是曾在我面前宣称证得阿罗汉果的比丘或比丘尼，都是通过这四条道路或其中某一条道路。哪四条呢？
 >
-> 朋友们，这里，一位比丘修习由止在前的观。当他修习由止在前的观时，道在他心中生起。他现在追寻、培育和修习那条道路，当他这样做时，诸结被舍弃，随眠被根除。
+> 诸位贤友，这里，一位比丘修习由止在前的观。当他修习由止在前的观时，道在他心中生起。他现在追寻、培育和修习那条道路，当他这样做时，诸结被舍弃，随眠被根除。
 >
-> 朋友们，再者，一位比丘修习由观在前的止。当他修习由观在前的止时，道在他心中生起。他现在追寻、培育和修习那条道路……随眠被根除。
+> 诸位贤友，再者，一位比丘修习由观在前的止。当他修习由观在前的止时，道在他心中生起。他现在追寻、培育和修习那条道路……随眠被根除。
 >
-> 朋友们，再者，一位比丘修习止观双运。当他如此修习止观双运时，道在他心中生起。他现在追寻、培育和修习那条道路……随眠被根除。
+> 诸位贤友，再者，一位比丘修习止观双运。当他如此修习止观双运时，道在他心中生起。他现在追寻、培育和修习那条道路……随眠被根除。
 >
-> 或者，朋友们，一位比丘的心被由殊胜心境引起的躁动所攫取。但有时他的心会内在稳定、镇定、统一并专注。然后道在他心中生起。他现在追寻、培育和修习那条道路……随眠被根除。  
+> 或者，诸位贤友，一位比丘的心被由殊胜心境引起的躁动所攫取。但有时他的心会内在稳定、镇定、统一并专注。然后道在他心中生起。他现在追寻、培育和修习那条道路……随眠被根除。  
 > [AN 4.170 / A ii 156-157](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-161-170-patipada/#10-an-4170-止观双运经-yuganaddhasutta){: target="_blank" rel="noopener"}；Ps. II. 92；在 VismṬ. 中提及：Maggāmaggañāṇadassanavisuddhiniddesavaṇṇanā, Vipassanupakkilesakathāvaṇṇanā
 
-由止在前的内观：《无碍解道》（Paṭisambhidāmagga）对此解释道：最初，心一境性、稳定、入定。[\[60\]](#fn-fn60){:id="fr-fn60"} 这种定可由以下任何原因生起：离欲（nekkhamma）之力；无嗔（abyāpāda）之力；光明想（āloka-saññā），它能对抗昏沉；无掉举（avikkhepa）；思惟佛法（dhamma-vavatthāna），它能遣除疑惑；智慧（ñāṇa）；悦（pāmojja）；[\[61\]](#fn-fn61){:id="fr-fn61"}初禅；二禅；三禅；四禅；空无边处定（ākāsānañcāyatana）；识无边处定（viññāṇañcāyatana）；无所有处定；非想非非想处定；十遍处禅；十随念（anussati）禅修；十不净（asubha）阶段禅修；以及三十二种出入息念禅修。[\[62\]](#fn-fn62){:id="fr-fn62"}定之后是智慧，它能了知禅定各阶段的所有共相为无常、苦（dukkha）和无我。
+由止在前的观：《无碍解道》（Paṭisambhidāmagga）对此解释道：最初，心一境性、稳定、入定。[\[60\]](#fn-fn60){:id="fr-fn60"}这种定可由以下任何原因生起：离欲（nekkhamma）之力；无嗔（abyāpāda）之力；光明想（āloka-saññā），它能对抗昏沉；无掉举（avikkhepa）；思惟佛法（dhamma-vavatthāna），它能遣除疑惑；智慧（ñāṇa）；悦（pāmojja）；[\[61\]](#fn-fn61){:id="fr-fn61"}初禅；二禅；三禅；四禅；空无边处定（ākāsānañcāyatana）；识无边处定（viññāṇañcāyatana）；无所有处定；非想非非想处定；十遍处禅；十随念（anussati）禅修；十不净（asubha）阶段禅修；以及三十二种出入息念禅修。[\[62\]](#fn-fn62){:id="fr-fn62"}定之后是智慧，它能了知禅定各阶段的所有共相为无常、苦（dukkha）和无我。
 
 义注对此第一种修行方式提供了一个更简单的解释：首先修习定（无论是近行定还是安止定）。然后，他思惟该定境以及伴随的心所法为无常等，直到证得圣道（ariya-magga）。[\[63\]](#fn-fn63){:id="fr-fn63"}
 
-由内观在前的止：《无碍解道》解释道：[\[64\]](#fn-fn64){:id="fr-fn64"}最初，运用内观将诸法视为无常、苦和无我。然后，他“放下”在内观期间显现的一切境界，而这种“放下”成为新的禅修所缘。心随后变得一境性并专注。
+由观在前的止：《无碍解道》解释道：[\[64\]](#fn-fn64){:id="fr-fn64"}最初，运用观将诸法视为无常、苦和无我。然后，他“放下”在观期间显现的一切境界，而这种“放下”成为新的禅修所缘。心随之专注于一境。
 
-义注详述道：尚未生起止，却在五取蕴（upādāna-khandha）中辨识三法印（无常等）。当毗婆舍那（vipassanā）完成时，“放下”内观的一切境界成为禅修所缘，心变得一境性并入定。这导致道果的证得。（参见附注 8.7“止或内观”）
+义注详述道：尚未生起止，却在五取蕴（upādāna-khandha）中辨识三法印（无常等）。当观（vipassanā）完成时，“放下”观的一切境界成为禅修所缘，心随之专注于一境而入定。这导致道果的证得。（参见附注 8.7“止或观”）
 
-> **附注 8.7　止或内观**
+> **附注 8.7　止或观**
 > {: id="note-8-7"}
 >
-> 参见：MA. I. 108；NdA. II. 313；AA. III. 143；ItA. I. 54。[AN 4.92–94 / A ii 92-94](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-091-100-asura/#2-an-492-得定之一-paṭhamasamādhisutta){: target="_blank" rel="noopener"} 提及那些有止而无内观的人和有内观而无止的人。这些成就分别称为 ceto-samatha 和 adhipaññādhamma-vipassanā。
+> 参见：MA. I. 108；NdA. II. 313；AA. III. 143；ItA. I. 54。[AN 4.92–94 / A ii 92-94](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-091-100-asura/#2-an-492-得定之一-paṭhamasamādhisutta){: target="_blank" rel="noopener"} 提及那些有止而无观的人和有观而无止的人。这些成就分别称为 ceto-samatha 和 adhipaññādhamma-vipassanā。
 >
 > AA. III. 116 将它们解释为：
 >
-> 安止定（appanā-samādhi）和思惟有为法的内观。
+> 1.  安止定（appanā-samādhi）；
 >
-> 《增支部》（Aṅguttara Nikāya）的这一段揭示了获得内观不一定会生起止，或者如义注所说：即使获得了内观，也可能达不到所需的定境，即禅那。在这种情况下，鼓励人们在奢摩他方面付出更多努力。
+> 2.  思惟有为法的观。
 >
-> 这一段也揭示了鼓励止与内观双运，以便在后期消除烦恼。参阅：[AN 10.54 / A v 99](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-051-060-sacitta/#4-an-1054-内心寂止经-samathasutta){: target="_blank" rel="noopener"}；[AN 9.4 / A iv 360-361](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#4-an-94-难陀说法经-nandakasutta){: target="_blank" rel="noopener"}；相同段落出现在：《人施设论》Pug. 7-8, 61-62。阿毗达摩（Abhidhamma）对这些术语给出了一个崇高的定义，将 ceto-samatha 解释为色界和无色界成就，而 adhipaññādhamma-vipassanā 解释为道和果（PañcA. 244）。从这个解释来看，一个获得止而无内观的人是已证得八禅的未开悟之人，而一个获得内观而无止的人是纯观行者，即圣弟子。一个既未获得止也未获得内观的人是普通的、未觉醒之人。
+> 《增支部》（Aṅguttara Nikāya）的这一段揭示了获得观不一定会生起止，或者如义注所说：即使获得了观，也可能达不到所需的定境，即禅那。在这种情况下，鼓励人们在修止方面付出更多努力。
+>
+> 这一段也揭示了鼓励止观双运，以便在后期消除烦恼。参照：[AN 10.54 / A v 99](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-051-060-sacitta/#4-an-1054-内心寂止经-samathasutta){: target="_blank" rel="noopener"}；[AN 9.4 / A iv 360-361](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-001-010-sambodha/#4-an-94-难陀说法经-nandakasutta){: target="_blank" rel="noopener"}；相同段落出现在：《人施设论》Pug. 7-8, 61-62。阿毗达摩（Abhidhamma）对这些术语给出了一个崇高的定义，将 ceto-samatha 解释为色界和无色界成就，而 adhipaññādhamma-vipassanā 解释为道和果（PañcA. 244）。从这个解释来看，一个获得止而无观的人是已证得八禅的未开悟之人，而一个获得观而无止的人是纯观行者，即圣弟子。一个既未获得止也未获得观的人是普通的、未觉醒之人。
 
-义注说，无论遵循这两种修行方式中的哪一种（由内观在前的止或由止在前的内观），在证得圣道的那一刻，止和内观都必须总是并存地生起。[\[65\]](#fn-fn65){:id="fr-fn65"}这是因为奢摩他（samatha）和毗婆舍那（vipassanā）本质上等同于八正道：毗婆舍那等同于正见（sammā-diṭṭhi）和正思惟（sammā-saṅkappa），而奢摩他包含所有其余的六个因素。这八个因素在证得“圣位”（ariya-bhūmi）的那一刻自然地同时生起。（参见附注 8.8“道智”）
+义注说，无论遵循这两种修行方式中的哪一种（由观在前的止或由止在前的观），在证得圣道的那一刻，止和观都必须总是并存地生起。[\[65\]](#fn-fn65){:id="fr-fn65"}这是因为止（samatha）和观（vipassanā）本质上等同于八正道：观等同于正见（sammā-diṭṭhi）和正思惟（sammā-saṅkappa），而止包含所有其余的六个因素。这八个因素在证得“圣位”（ariya-bhūmi）的那一刻自然地同时生起。（参见附注 8.8“道智”）
 
 > **附注 8.8　道智**
 > {: id="note-8-8"}
 >
-> 奢摩他、毗婆舍那和道支，参见：PsA. I. 195；VbhA. 120；VismṬ.: Indriyasaccaniddesavaṇṇanā, Ekavidhādivinicchayakathāvaṇṇanā。
+> 止、观和道支，参见：PsA. I. 195；VbhA. 120；VismṬ.: Indriyasaccaniddesavaṇṇanā, Ekavidhādivinicchayakathāvaṇṇanā。
 >
 > 八正道支在“道智”（magga-ñāṇa）生起的那一刻同时生起，参见：PsA. I. 195；VbhA. 120；Vism. 680；MA. II. 363。
 >
-> 事实上，三十七道品（bodhipakkhiya-dhamma）在“道智”的那一刻同时在心中生起。请注意，这种对道支或觉支同时生起的解释来自阿毗达摩，它指出三十七道品是单一心刹那中生起的心所（cetasika）。道支或觉支在“道智”那一刻存在的数量也可以减少，这取决于伴随该特定道阶段的知识种类（参见：PsA. I. 193；DhsA. 228；Vism. 666-667；DA. III. 804；CompṬ.: Cittaparicchedavaṇṇanā, Vitthāragaṇanavaṇṇanā）。
+> 事实上，三十七道品（bodhipakkhiya-dhamma）在“道智”的那一刻同时在心中生起。请注意，这种对道支或觉支同时生起的解释来自阿毗达摩，它指出三十七道品是单一心刹那中生起的心所（cetasika）。道支或觉支在“道智”那一刻存在的数量也可以减少，这取决于伴随该道的禅那层次（参见：PsA. I. 193；DhsA. 228；Vism. 666-667；DA. III. 804；CompṬ.: Cittaparicchedavaṇṇanā, Vitthāragaṇanavaṇṇanā）。
 
-止与内观双运：《无碍解道》解释道：[\[66\]](#fn-fn66){:id="fr-fn66"}以十六种方式发展止与内观双运。其中一种方式是，止（samatha）的修行和毗婆舍那（vipassanā）的修行指向相同的禅修所缘（ārammaṇa）。例如，舍弃掉举（uddhacca）时，心变得专注，“灭尽”（nirodha）成为觉知的所缘。（与此同时），通过舍弃无明，内观生起，“灭尽”成为觉知的所缘。通过这种方式，止与内观平等地协同运作。
+止观双运：《无碍解道》解释道：[\[66\]](#fn-fn66){:id="fr-fn66"}以十六种方式发展止观双运。其中一种方式是，止（samatha）和观（vipassanā）的修行指向相同的禅修所缘（ārammaṇa）。例如，舍弃掉举（uddhacca）时，心变得专注，“灭尽”（nirodha）成为觉知的所缘。（与此同时），通过舍弃无明，观生起，“灭尽”成为觉知的所缘。通过这种方式，止与观平等地协同运作。
 
-一些义注的段落声称，虽然止与内观之间存在协同作用，但这并不意味着奢摩他与毗婆舍那同时生起，因为在心一境性于禅那中时，不可能思惟有为法。[\[67\]](#fn-fn67){:id="fr-fn67"}这些段落指出，这两种禅修方式之所以成对运作，是因为内观紧随所达到的禅定成就水平，同样地，下一个禅定成就水平则依赖于先前的内观水平。即进入初禅，从初禅中出来，思惟初禅的有为性，进入二禅，从二禅中出来，思惟二禅的有为性，进入三禅，等等，直到从非想非非想处中出来并思惟其有为性。[\[68\]](#fn-fn68){:id="fr-fn68"}这种解释的一个重要例子是尊者舍利弗（Sāriputta）的事迹，他从初禅开始，止与内观双运，直至证得道果（阿罗汉果）。[\[69\]](#fn-fn69){:id="fr-fn69"}
+一些义注的段落声称，虽然止与观之间存在协同作用，但这并不意味着止与观同时生起，因为心在禅那中专注于一境时，不可能思惟有为法。[\[67\]](#fn-fn67){:id="fr-fn67"}这些段落指出，这两种禅修方式之所以成对运作，是因为观紧随所达到的禅定成就水平，同样地，下一个禅定成就水平则依赖于先前的观水平。即进入初禅，从初禅中出来，思惟初禅的有为性，进入二禅，从二禅中出来，思惟二禅的有为性，进入三禅，等等，直到从非想非非想处中出来并思惟其有为性。[\[68\]](#fn-fn68){:id="fr-fn68"}这种解释的一个重要例子是尊者舍利弗（Sāriputta）的事迹，他从初禅开始，止与观双运，直至证得道果（阿罗汉果）。[\[69\]](#fn-fn69){:id="fr-fn69"}
 
 心因修行境界而生起兴奋扰动时的修习之道：《无碍解道》解释道：[\[70\]](#fn-fn70){:id="fr-fn70"}思惟五蕴的三法印时，可能会生起以下心境：光明（obhāsa）、智慧（ñāṇa）、喜（pīti）、轻安（passaddhi）、乐（sukha）、胜解（adhimokkha）、精进（paggāha）、现起（upaṭṭhāna）、舍（upekkhā）和悦意（nikanti）。这里的修行者误以为，例如，光明是一种更高深的心境：他相信自己已证得道、果或涅槃。这种想法导致躁动，而这十种心境并未被如实地看待为无常、苦和无我。通过智慧辨识这十种导致心动摇的心境，能使心变得安定、清明和专注。有了这种智慧，就不会被这些心境迷惑。心将纯净寂静，禅修既不会被误导也不会受损。道随后便能生起。
 
-义注将这些殊胜心境称为十种“观的染污”（vipassanūpakilesa；参见附注 8.9“十种观的染污”），它们生起于内观修习仍薄弱（taruṇa-vipassanā）的人。因为这些品质非同寻常且前所未有，修行者很可能会误以为自己已证得道果。这种误解导致他们偏离内观之道；他们沉溺于这些心境而放弃了禅修。正确的修行方法是，当这些心境生起时，要认识到它们的真实本性：它们是无常的、有为的、缘起（paṭicca-samuppanna）的，并且会衰退。它们不属于我们；它们不是我们（“我不是这个；这不属于我”）。通过不对这些心境过度兴奋，对它们的执着就会减弱。随后便能正确修行，直到证得道果。[\[71\]](#fn-fn71){:id="fr-fn71"}
+义注将这些殊胜心境称为十种“观的染污”（vipassanūpakilesa；参见附注 8.9“十种观的染污”），它们生起于观的修习仍薄弱（taruṇa-vipassanā）的人。因为这些品质非同寻常且前所未有，修行者很可能会误以为自己已证得道果。这种误解导致他们偏离观之道；他们沉溺于这些心境而放弃了禅修。正确的修行方法是，当这些心境生起时，要认识到它们的真实本性：它们是无常的、有为的、缘起（paṭicca-samuppanna）的，并且会衰退。它们不属于我们；它们不是我们（“这不是我；这不属于我”）。通过不对这些心境过度兴奋，对它们的执着就会减弱。随后便能正确修行，直到证得道果。[\[71\]](#fn-fn71){:id="fr-fn71"}
 
 > **附注 8.9　十种观的染污**
 > {: id="note-8-9"}
@@ -333,36 +340,38 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 > 1.  喜（pīti）：喜悦；彻底的满足感；
 > 1.  轻安（passaddhi）：宁静；身心感到极其平静、轻盈、敏捷和明亮；没有躁动、沉重和不适；
 > 1.  乐（sukha）：一种超凡、微细的愉悦感弥漫身心；
-> 1.  胜解（adhimokkha）：伴随内观而来的巨大信心，使心充满喜悦；
+> 1.  胜解（adhimokkha）：伴随观而来的巨大信心，使心充满喜悦；
 > 1.  精进（paggāha）：平衡的努力；既不过严也不过松的状态；
 > 1.  现起（upaṭṭhāna）：清晰、善建立的正念；能够灵巧流利地回忆；
 > 1.  舍（upekkhā）：对一切有为法的舍心；
-> 1.  悦意（nikanti）：一种深刻而宁静的满足感，对内观产生执着；这是一种微细的渴爱（taṇhā），修行者无法辨识。
+> 1.  悦意（nikanti）：一种深刻而宁静的满足感，对观产生执着；这是一种微细的渴爱（taṇhā），修行者无法辨识。
 >
 > Vism. 633-637；VismṬ.: Maggāmaggañāṇadassanavisuddhiniddesavaṇṇanā, Vipassanupakkilesakathāvaṇṇanā
 
-根据义注，主要的修行方式有两种：由止在前的内观和由内观在前的止。其余两种修行方式只是前两种的延伸。第三种修行方式，即止与内观双运，是第一种修行方式的次级分类。第四种修行方式适用于特殊情况，即在修行前三种方式时出现特定问题时。它是解决修行中出现的这些问题的策略。
+根据义注，主要的修行方式有两种：由止在前的观和由观在前的止。其余两种修行方式只是前两种的延伸。第三种修行方式，即止与观双运，是第一种修行方式的次级分类。第四种修行方式适用于特殊情况，即在修行前三种方式时出现特定问题时。它是解决修行中出现的这些问题的策略。
 
 这两种主要的修行方式可能是义注中所列举的两种禅修技巧的起源：“止乘”（samatha-yāna）——由“以止为乘者”（samatha-yānika）所行，和“观乘”（vipassanā-yāna）——由“以观为乘者”（vipassanā-yānika）所行。以止为乘者先修止，后修观。一般来说，这种止可以是“近行定”（upacāra-samādhi），也可以指禅那的“安止定”（appanā-samādhi）。[\[72\]](#fn-fn72){:id="fr-fn72"}义注偏向于更严格的含义，指那些已证得禅那的人。[\[73\]](#fn-fn73){:id="fr-fn73"}他们声称，本节开头引述的佛陀所描述的修行方式（即漏尽依初禅等而发生），属于以止为乘者。
 
-以观为乘者又称作 suddhavipassanā-yānika——“以纯观为乘者”。这指的是那些在未曾修习止的情况下培育观的人。当他们正确思惟诸法的真实本性时，心变得平静，定自然而然地生起。最初，定可能是“刹那定”（khaṇika-samādhi），这是后续内观修行所需的最低层次的定，正如这段文字所证实：
+以观为乘者又称作 suddhavipassanā-yānika——“以纯观为乘者”。这指的是那些在未曾修习止的情况下培育观的人。当他们正确思惟诸法的真实本性时，心变得平静，定自然而然地生起。最初，定可能是“刹那定”（khaṇika-samādhi），这是后续修观所需的最低层次的定，正如这段文字所证实：
 
-> 没有刹那定，内观便无法运作。[\[74\]](#fn-fn74){:id="fr-fn74"}
+> 没有刹那定，观便无法运作。[\[74\]](#fn-fn74){:id="fr-fn74"}
 >
 > VismṬ.: Paṭhamo Bhāgo, Nidānādikathāvaṇṇanā
 
-以暂时定开始然后修习内观的人也被归类为以观为乘者，因为大多数人当心专注于某项活动或由于有利的环境时都会体验到暂时定。随着定通过内观修行自然增强，它可能会发展成“近行定”（upacāra-samādhi）：接近禅那的定。（参见附注 8.10“无禅那的内观”）最后，在证得道果的那一刻，定会稳固地建立为“安止定”（参见附注 8.11“禅定的种类”），且至少达到初禅。[\[75\]](#fn-fn75){:id="fr-fn75"}这符合前面提到的原则，即证得“圣位”的人必须在止和内观两方面都已成就。
+以暂时定开始然后修观的人也被归类为以观为乘者，因为大多数人当心专注于某项活动或由于有利的环境时都会体验到暂时定。随着定通过修观自然增强，它可能会发展成“近行定”（upacāra-samādhi）：接近禅那的定。（参见附注 8.10“未先证禅那而修观”）最后，在证得道果的那一刻，定会稳固地建立为“安止定”（参见附注 8.11“禅定的种类”），且至少达到初禅。[\[75\]](#fn-fn75){:id="fr-fn75"}这符合前面提到的原则，即证得“圣位”的人必须在止和观两方面都已成就。
 
 以止为乘者在证得阿罗汉果时，分为两种：慧解脱者（paññā-vimutta）和俱解脱者（ubhatobhāga-vimutta）。前者是指证得不超过四禅的人。后者是指证得无色界禅或更高，直至想受灭尽定的人。以观为乘者证得阿罗汉果的都归类为慧解脱者，义注给他们一个特殊的名称：纯观行者（sukkha-vipassaka，参见附注 8.12“纯观行者”）。义注将阿罗汉分为十种，从高到低列出：[\[76\]](#fn-fn76){:id="fr-fn76"}
 
-> **附注 8.10　无禅那的内观**
+> **附注 8.10　未先证禅那而修观**
 > {: id="note-8-10"}
 >
 > VismṬ.（Paṭipadāñāṇadassanavisuddhiniddesavaṇṇanā, Saṅkhārupekkhāñāṇakathāvaṇṇanā）描述了那些没有禅那的纯观乘者（suddhavipassanā-yānika），这意味着他们达到了暂时的或近行定。
 >
-> 止行者（samatha-yānika）和观行者（vipassanā-yānika）可以与培育四念住（satipaṭṭhāna）中的安止业处（appanā-kammaṭṭhāna）和近行业处（upacāra-kammaṭṭhāna）相匹配：DA. III. 754 = MA. I. 239 = VibA. 215 与 DA. III. 805 = MA. I. 301 相对应。另请参阅：AA. III. 230；ItA. I. 169；SnA. II. 504；Vism. 371, 587；VismṬ.：Diṭṭhivisuddhiniddesavaṇṇanā, Nāmarūpapariggahakathāvaṇṇanā；VismṬ.：Paṭipadāñāṇadassanavisuddhiniddesavaṇṇanā, Saṅkhārupekkhāñāṇakathāvaṇṇanā。
+> 止行者（samatha-yānika）和观行者（vipassanā-yānika）可以与培育四念住（satipaṭṭhāna）中的安止业处（appanā-kammaṭṭhāna）和近行业处（upacāra-kammaṭṭhāna）相匹配：DA. III. 754 = MA. I. 239 = VibA. 215 与 DA. III. 805 = MA. I. 301 相对应。另请参见：AA. III. 230；ItA. I. 169；SnA. II. 504；Vism. 371, 587；VismṬ.：Diṭṭhivisuddhiniddesavaṇṇanā, Nāmarūpapariggahakathāvaṇṇanā；VismṬ.：Paṭipadāñāṇadassanavisuddhiniddesavaṇṇanā, Saṅkhārupekkhāñāṇakathāvaṇṇanā。
 >
-> 至于在没有先达到禅那的情况下也可以修习观的证据，请参阅佛陀对定根（samādhindriya）的定义：[SN 48.11 / S v 200](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-11-20-mudutara/#1-sn-4811-获得-paṭilābhasutta){: target="_blank" rel="noopener"}（参阅：[SN 48.10 / S v 198-199](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-01-10-suddhika/#10-sn-4810-解说五根经之二-dutiyavibhaṅgasutta){: target="_blank" rel="noopener"}）。
+> 至于在没有先达到禅那的情况下也可以修习观的证据，请参见佛陀对定根（samādhindriya）的定义：[SN 48.11 / S v 200](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-11-20-mudutara/#1-sn-4811-获得-paṭilābhasutta){: target="_blank" rel="noopener"}（参照：[SN 48.10 / S v 198-199](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-01-10-suddhika/#10-sn-4810-解说五根经之二-dutiyavibhaṅgasutta){: target="_blank" rel="noopener"}）。
+
+<!-- quotation-boundary -->
 
 > **附注 8.11　禅定的种类**
 > {: id="note-8-11"}
@@ -371,21 +380,25 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 >
 > 虽然 appanā 一词出现在《巴利三藏》中，但它只被用作寻（vitakka）和正思惟（sammā-saṅkappa）的同义词（Dhs. 10, 12, 63；Vbh. 86, 237, 257）。有关这些 samādhi 种类的进一步分析，请参阅《佛法》第十八章“禅定道支”中关于正定的部分。
 
+<!-- quotation-boundary -->
+
 > **附注 8.12　纯观行者**
 > {: id="note-8-12"}
 >
-> 止行者（samatha-yānika）、观行者（vipassanā-yānika）、纯观乘者（suddhavipassanā-yānika）和纯观行者（sukkha-vipassaka）（那些由于在开展观之前没有达到禅那而其证悟是“枯燥”的行者）这些术语都来自义注。
+> 止行者（samatha-yānika）、观行者（vipassanā-yānika）、纯观乘者（suddhavipassanā-yānika）和纯观行者（sukkha-vipassaka，亦称“干观行者”，指在修观前未证得禅那的行者）这些术语都来自义注。
 >
 > 止行者（samatha-yānika）、观行者（vipassanā-yānika）和纯观乘者（suddhavipassanā-yānika）共同出现于：DA. III. 754；MA. I. 239；NdA. 102；\[VbhA. 280\]；Vism. 587-589；VismṬ.：Diṭṭhivisuddhiniddesavaṇṇanā, Nāmarūpapariggahakathāvaṇṇanā；止行者（samatha-yānika）和纯观行者（sukkha-vipassaka）出现于 AA. III. 142；KhA. 178, 183；SnA. I. 277, \[2/448\]；NdA. II. 313；止行者（samatha-yānika）单独出现于：VismṬ.：Paṭhamo Bhāgo, Nidānādikathāvaṇṇanā；纯观行者（sukkha-vipassaka）单独出现于：DA. III. 1032；PsA. I. 194；DhsA. 228；Vism. 666；VismṬ.：Paṭipadāñāṇadassanavisuddhiniddesavaṇṇanā, Saṅkhārupekkhāñāṇakathāvaṇṇanā；CompṬ.：Cittaparicchedavaṇṇanā, Vitthāragaṇanavaṇṇanā；CompṬ.：Manodvāravīthi, Appanājavanavāravaṇṇanā；CompṬ.：Vīthimuttaparicchedavaṇṇanā, Kammacatukkavaṇṇanā。
+
+<!-- quotation-boundary -->
 
 > **附注 8.13　俱解脱**
 > {: id="note-8-13"}
 >
-> 请参阅前面关于七种圣者的章节。这里列出的第一位俱解脱者（ubhatobhāga-vimutta），即已达到想受灭的人，只有在不还者的阶段才能达到这种最高的定力成就。
+> 请参阅前面关于七种圣者的章节。这里列出的第一位俱解脱者（ubhatobhāga-vimutta），即已达到想受灭的人，只有在阿那含的阶段才能达到这种最高的定力成就。
 >
-> 这与其他成就不一样，其他成就在任何修行阶段都可以达到。其他八种成就是止的果报，而想受灭是止和观结合的果报。特别是，想受灭需要最佳的定力强度和纯度，心中没有丝毫的欲贪（kāma-chanda）。欲贪（kāma-chanda）是欲染（kāma-rāga）的同义词，它是一种“结”（saṁyojana），只有不还者和阿罗汉才能断除。因此，只有那些以前已达到八种禅那的不还者和阿罗汉才能进入想受灭（例如：Vism. 702-705；PsA. I. 314）。
+> 这与其他成就不一样，其他成就在任何修行阶段都可以达到。其他八种成就是止的果报，而想受灭是止和观结合的果报。特别是，想受灭需要最佳的定力强度和纯度，心中没有丝毫的欲贪（kāma-chanda）。欲贪（kāma-chanda）是欲染（kāma-rāga）的同义词，它是一种“结”（saṁyojana），只有阿那含和阿罗汉才能断除。因此，只有那些以前已达到八种禅那的阿那含和阿罗汉才能进入想受灭（例如：Vism. 702-705；PsA. I. 314）。
 
-A. 俱解脱者（ubhatobhāga-vimutta）：（参见附注 8.13“俱解脱”）
+一、俱解脱者（ubhatobhāga-vimutta）：（参见附注 8.13“俱解脱”）
 
 1.  俱解脱者，成就想受灭尽定。
     
@@ -398,22 +411,23 @@ A. 俱解脱者（ubhatobhāga-vimutta）：（参见附注 8.13“俱解脱”�
 5.  俱解脱者，成就空无边处定。
     
 
-B. 慧解脱者（paññā-vimutta）：
+二、慧解脱者（paññā-vimutta）：
 
-*   6\. 慧解脱者，成就四禅。
+{:start="6"}
+6.  慧解脱者，成就四禅。
     
-*   7\. 慧解脱者，成就三禅。
+7.  慧解脱者，成就三禅。
     
-*   8\. 慧解脱者，成就二禅。
+8.  慧解脱者，成就二禅。
     
-*   9\. 慧解脱者，成就初禅。
+9.  慧解脱者，成就初禅。
     
-*   10\. 作为纯观行者的慧解脱者。
+10.  作为纯观行者的慧解脱者。
     
 
-前九种阿罗汉以止为乘；他们的定力成就在修观之前发生。第十种阿罗汉以内观为乘。
+前九种阿罗汉以止为乘；他们的定力成就在修观之前发生。第十种阿罗汉以观为乘。
 
-## 止禅的基本原则
+## 修止的基本原则
 
 《巴利三藏》中描述特定修行方法的段落使用相当固定的术语，即使这些段落出现在不同的地方。止先于观的修行方法有两种主要纲要，它们都涉及在发展观之前达到较高层次的定力。这可以被称为殊胜的修行方法。以下是这两种主要纲要的例子，摘自记载佛陀觉悟的段落：
 
@@ -434,7 +448,7 @@ B. 慧解脱者（paññā-vimutta）：
 > \[这是我在夜间第三更所获得的第三种明。无明被驱除……光明生起。\][\[77\]](#fn-fn77){:id="fr-fn77"}  
 > [MN 36 / M i 247-249](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}, Mahāsaccaka Sutta
 
-当这种描述用于描述佛陀弟子的证悟修行时，除了括号内的段落，其术语通常是相同的。[\[78\]](#fn-fn78){:id="fr-fn78"} 有些段落描述将心导向八种智，而不仅仅是上面提到的三种智，[\[79\]](#fn-fn79){:id="fr-fn79"} 而其他段落只提及将心导向最后的智，即漏尽智。[\[80\]](#fn-fn80){:id="fr-fn80"}
+当这种描述用于描述佛陀弟子的证悟修行时，除了括号内的段落，其术语通常是相同的。[\[78\]](#fn-fn78){:id="fr-fn78"}有些段落描述将心导向八种智，而不仅仅是上面提到的三种智，[\[79\]](#fn-fn79){:id="fr-fn79"}而其他段落只提及将心导向最后的智，即漏尽智。[\[80\]](#fn-fn80){:id="fr-fn80"}
 
 ### 纲要二
 
@@ -458,7 +472,7 @@ B. 慧解脱者（paññā-vimutta）：
 >
 > 然后，在非想非非想处定看到了危险……我获得了想受灭尽定，并以智慧观照，诸漏被彻底断尽。
 >
-> 阿难，只要我没有以正向和逆向的顺序获得并出离这九种渐次安住，我就不声称我已在这有天人、魔罗和梵天，有沙门、婆罗门、天人和人类的世界中，觉悟到无上正等正觉。但是，当我以正向和逆向的顺序获得并出离这九种渐次安住时，我就声称我已在这有……天人和人类的世界中，觉悟到无上正等正觉。
+> 阿难，只要我没有以正向和逆向的顺序获得并出离这九种渐次安住，我就不声称我已在这有天人、魔罗和梵天，有沙门、婆罗门、天人和人类的世间中，觉悟到无上正等正觉。但是，当我以正向和逆向的顺序获得并出离这九种渐次安住时，我就声称我已在这有……天人和人类的世间中，觉悟到无上正等正觉。
 >
 > 智见在我心中生起：“我心解脱不动摇；这是我最后一生；现在不再有新的存在。”  
 > [AN 9.41 / A iv 439-448](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#10-an-941-多梨富沙居士经-tapussasutta){: target="_blank" rel="noopener"}, Tapussa Sutta
@@ -485,11 +499,11 @@ B. 慧解脱者（paññā-vimutta）：
 
 让我们更仔细地审视这些误解：
 
-A. 证据表明，为了证得阿罗汉果或实现涅槃，并不需要达到宿命智或众生生死智，这一点很清楚：
+一、证据表明，为了证得阿罗汉果或实现涅槃，并不需要达到宿命智或众生生死智，这一点很清楚：
 
-1.  在第一种纲要的一些例子中，没有提及前两种智：达到四禅，然后直接将专注的心导向漏尽智。[\[83\]](#fn-fn83){:id="fr-fn83"} 这些例子表明，前两种智是可选的。
+1.  在第一种纲要的一些例子中，没有提及前两种智：达到四禅，然后直接将专注的心导向漏尽智。[\[83\]](#fn-fn83){:id="fr-fn83"}这些例子表明，前两种智是可选的。
     
-2.  在《须深经》（Susīma Sutta）中，佛陀描述了慧解脱者阿罗汉（paññāvimutta），他们不执着于五蕴，能辨识缘起，但却无法施展神通：他们没有天耳通、他心通、宿命通、生死智（cutūpapāta-ñāṇa），也不安住于“寂静解脱”（santa-vimokkha = 无色界定成就）。他们只拥有漏尽智；他们不拥有五种世俗的“证智”（abhiññā），也没有证入无色禅那。[\[84\]](#fn-fn84){:id="fr-fn84"}
+2.  在《须深经》（Susīma Sutta）中，佛陀描述了慧解脱者阿罗汉（paññāvimutta），他们不执着于五蕴，能辨识缘起，但却无法施展神通：他们没有天耳通、他心通、宿命通、生死智（cutūpapāta-ñāṇa），也不安住于“寂静解脱”（santa-vimokkha = 无色界定成就）。他们只拥有漏尽智；他们不拥有五种世间的“证智”（abhiññā），也没有证入无色禅那。[\[84\]](#fn-fn84){:id="fr-fn84"}
     
 3.  六种神通（包括三明）的获得取决于一定程度的精细禅定。有了足够的禅定，便能将心导向产生所需的神通；并不需要在获得一种“证智”之前先获得另一种：
     
@@ -501,17 +515,17 @@ A. 证据表明，为了证得阿罗汉果或实现涅槃，并不需要达到�
 
 达到这些成就所需的定力水平如下：
 
-B. 四禅的定力（samādhi）是最高形式的定力。甚至无色禅那的定力也被归类为四禅的定力，[\[85\]](#fn-fn85){:id="fr-fn85"} 因为无色禅那的心所包括了四禅的相同两个要素：舍（upekkhā）和一境性（ekaggatā）。[\[86\]](#fn-fn86){:id="fr-fn86"} 四禅的定力是普遍适用的：例如，它可以作为观、神通（abhiññā）或“想受灭”的基础。[\[87\]](#fn-fn87){:id="fr-fn87"} 然而，有一个特别的条款：无色禅那的定力比四禅的定力更微细，更远离不利条件（paccanīka-dhamma）。[\[88\]](#fn-fn88){:id="fr-fn88"} 即使是不同的无色禅那也逐渐变得更加微细。[\[89\]](#fn-fn89){:id="fr-fn89"} 正因为如此，那些在证得四禅之后获得阿罗汉果的人被归类为“慧解脱”（paññāvimutta），而不是“俱解脱”（ubhatobhāga-vimutta）。要被归类为“俱解脱”，必须事先达到其中一种无色禅那。[\[90\]](#fn-fn90){:id="fr-fn90"} 因此，对于义注中关于四禅作为其他成就基础的说法有一个附加条件：在某些情况下使用普通的四禅的定力，而在其他情况下则需要更精微的四禅的定力（即无色禅那的定力）。
+二、四禅的定力（samādhi）是最高形式的定力。甚至无色禅那的定力也被归类为四禅的定力，[\[85\]](#fn-fn85){:id="fr-fn85"}因为无色禅那的心所包括了四禅的相同两个要素：舍（upekkhā）和心一境性（ekaggatā）。[\[86\]](#fn-fn86){:id="fr-fn86"}四禅的定力是普遍适用的：例如，它可以作为观、神通（abhiññā）或“想受灭”的基础。[\[87\]](#fn-fn87){:id="fr-fn87"}然而，有一个特别的条款：无色禅那的定力比四禅的定力更微细，更远离不利条件（paccanīka-dhamma）。[\[88\]](#fn-fn88){:id="fr-fn88"}即使是不同的无色禅那也逐渐变得更加微细。[\[89\]](#fn-fn89){:id="fr-fn89"}正因为如此，那些在证得四禅之后获得阿罗汉果的人被归类为“慧解脱”（paññāvimutta），而不是“俱解脱”（ubhatobhāga-vimutta）。要被归类为“俱解脱”，必须事先达到其中一种无色禅那。[\[90\]](#fn-fn90){:id="fr-fn90"}因此，对于义注中关于四禅作为其他成就基础的说法有一个附加条件：在某些情况下使用普通的四禅的定力，而在其他情况下则需要更精微的四禅的定力（即无色禅那的定力）。
 
-如前所述，从字面意义上讲，“慧解脱”者（paññā-vimutta）只获得了漏尽智；他们没有获得其他形式的知识（三明或神通），也没有获得无色禅那。三明或六神通的获得是“俱解脱”者（ubhatobhāga-vimutta）的领域，他们也获得了无色禅那。[\[91\]](#fn-fn91){:id="fr-fn91"} 这是《巴利三藏》中标准的定义。
+如前所述，从字面意义上讲，“慧解脱”者（paññā-vimutta）只获得了漏尽智；他们没有获得其他形式的知识（三明或神通），也没有获得无色禅那。三明或六神通的获得是“俱解脱”者（ubhatobhāga-vimutta）的领域，他们也获得了无色禅那。[\[91\]](#fn-fn91){:id="fr-fn91"}这是《巴利三藏》中标准的定义。
 
-义注提供了更详细的定义，可以概括如下：首先修习止禅直到达到四禅；接着是所有八种禅那的成就。然而，这些成就必须是修习八种遍处禅（不包括光遍处和虚空遍处禅）的结果。[\[92\]](#fn-fn92){:id="fr-fn92"} 在精通八种成就之后，心变得易于接受。[\[93\]](#fn-fn93){:id="fr-fn93"} 此时，只需进入四禅，再依自己的意愿，将心导向生起或运用某一种神通（abhiññā）。[\[94\]](#fn-fn94){:id="fr-fn94"} 作为准备，必须进入八种成就，但在获得“殊胜成就”（abhiññā）时，进入四禅就足够了。由于之前已修习八种禅那，在这种情况下，定力将比从未达到高于四禅水平的人的定力更精细。
+义注提供了更详细的定义，可以概括如下：首先修习止禅直到达到四禅；接着是所有八种禅那的成就。然而，这些成就必须是修习八种遍处禅（不包括光遍处和虚空遍处禅）的结果。[\[92\]](#fn-fn92){:id="fr-fn92"}在精通八种成就之后，心变得易于接受。[\[93\]](#fn-fn93){:id="fr-fn93"}此时，只需进入四禅，再依自己的意愿，将心导向生起或运用某一种神通（abhiññā）。[\[94\]](#fn-fn94){:id="fr-fn94"}作为准备，必须进入八种成就，但在获得“殊胜成就”（abhiññā）时，进入四禅就足够了。由于之前已修习八种禅那，在这种情况下，定力将比从未达到高于四禅水平的人的定力更精细。
 
-从这种义注的解释角度来看，可以说四禅是“证智”（abhiññā）的基础。这符合这样的说法：具有八种要素的心，通过将四禅的定力发展到无色界成就的程度，是“适于应用”的；凡可由直接知识证得的境界，它都是其基础，或“近因”（padaṭṭhāna）。[\[95\]](#fn-fn95){:id="fr-fn95"} 此规则的例外是那些具有强烈“宿世关联”（pubba-yoga）的人：那些在过去曾努力并积累功德的人，例如佛陀、“独觉佛”（pacceka-buddha）和首席弟子。他们不需要遵循此程序并精通无色禅那；他们只需精通四禅即可获得神通。[\[96\]](#fn-fn96){:id="fr-fn96"}
+从这种义注的解释角度来看，可以说四禅是“证智”（abhiññā）的基础。这符合这样的说法：具有八种要素的心，通过将四禅的定力发展到无色界成就的程度，是“适于应用”的；凡可由直接知识证得的境界，它都是其基础，或“近因”（padaṭṭhāna）。[\[95\]](#fn-fn95){:id="fr-fn95"}此规则的例外是那些具有强烈“宿世关联”（pubba-yoga）的人：那些在过去曾努力并积累福德的人，例如佛陀、“独觉佛”（pacceka-buddha）和首席弟子。他们不需要遵循此程序并精通无色禅那；他们只需精通四禅即可获得神通。[\[96\]](#fn-fn96){:id="fr-fn96"}
 
-上面描述佛陀觉悟的两段经文与此解释相符，即使它们没有提及“宿世关联”。在第一段经文中，佛陀进入四禅，然后将心导向证得三明。在他生命早期，他与阿罗罗·迦罗摩（Āḷāra Kālāma）和郁陀迦·罗摩子（Uddaka Rāmaputta）两位老师学习时，已在止方面奠定了坚实的基础，并获得了八种禅那。[\[97\]](#fn-fn97){:id="fr-fn97"} 第二段经文揭示了佛陀在觉悟之前，已经熟练掌握了所有层次的禅定。
+上面描述佛陀觉悟的两段经文与此解释相符，即使它们没有提及“宿世关联”。在第一段经文中，佛陀进入四禅，然后将心导向证得三明。在他生命早期，他与阿罗罗·迦罗摩（Āḷāra Kālāma）和郁陀迦·罗摩子（Uddaka Rāmaputta）两位老师学习时，已在止方面奠定了坚实的基础，并获得了八种禅那。[\[97\]](#fn-fn97){:id="fr-fn97"}第二段经文揭示了佛陀在觉悟之前，已经熟练掌握了所有层次的禅定。
 
-C. 描述想受灭尽定（saññāvedayita-nirodha）的段落很容易让缺乏经验的读者错误地得出结论，认为达到此状态的人在安住于此成就时就证得了阿罗汉果：
+三、描述想受灭尽定（saññāvedayita-nirodha）的段落很容易让缺乏经验的读者错误地得出结论，认为达到此状态的人在安住于此成就时就证得了阿罗汉果：
 
 > 通过完全超越非想非非想处，他进入并安住于想受灭尽定；并且以智慧观照，他的诸漏被完全断尽。  
 > [AN 9.40 / A iv 437-438](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#9-an-940-林中大象经-nāgasutta){: target="_blank" rel="noopener"}, Nāga Sutta
@@ -521,32 +535,32 @@ C. 描述想受灭尽定（saññāvedayita-nirodha）的段落很容易让缺�
 > 通过完全超越非想非非想处，比丘进入并安住于想受灭尽定。当比丘既达到又出离该成就时，他的心变得微细而柔韧；并且他的心微细而柔韧时，他已善于修习无量禅定。
 >
 > 凭借这善于修习的无量禅定，他将心导向任何可通过直接知识证悟的精神状态，并且只要必要的条件具备，他就能获得证得这些状态的能力。如果他希望：“愿我能施展各种神通……愿我能听到两种声音，天音和人音……愿我在此生中进入并安住于无漏心解脱……”，只要必要的条件具备，他就能获得证得该状态的能力。  
-> [AN 9.35 / A iv 421](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#4-an-935-牛喻经-gāvīupamāsutta){: target="_blank" rel="noopener"}；参阅：[DN 15 / D ii 71](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-15-mahanidana/){: target="_blank" rel="noopener"}
+> [AN 9.35 / A iv 421](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#4-an-935-牛喻经-gāvīupamāsutta){: target="_blank" rel="noopener"}；参照：[DN 15 / D ii 71](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-15-mahanidana/){: target="_blank" rel="noopener"}
 
 在第二段经文中，“进入想受灭”和“漏尽”是分开的。想受灭的获得是一种辅助条件，赋予心适当的定力水平。之后，通过“智慧观照”，安住于无漏心解脱。这些段落证实了前两种纲要（止先于观的修行方式）本质上具有相同的含义。
 
-D. 从前面解决各种误解的三个要点可以看出，这两个主要纲要从不同角度描述了同一条修行道路。第一个纲要强调了通过运用充分发展的定力来成就“证智”和观而产生的修行和最高证悟。第二个纲要描述了止禅的中间阶段以及止的真正目的：观的最后阶段。从这个意义上说，前面三个要点已经解决了关于这两种纲要描述两种不同修行道路的误解。
+四、从前面解决各种误解的三个要点可以看出，这两个主要纲要从不同角度描述了同一条修行道路。第一个纲要强调了通过运用充分发展的定力来成就“证智”和观而产生的修行和最高证悟。第二个纲要描述了止禅的中间阶段以及止的真正目的：观的最后阶段。从这个意义上说，前面三个要点已经解决了关于这两种纲要描述两种不同修行道路的误解。
 
-E. 第二点和第三点已经触及了修行和证悟方面的时间问题。在第一种纲要中，佛陀渐次获得三明发生在同一个夜晚的三个“时更”中。但对于其他修行者而言，每种明或每种神通的获得可能连续发生，也可能间隔数月或数年。[\[98\]](#fn-fn98){:id="fr-fn98"}
+五、第二点和第三点已经触及了修行和证悟方面的时间问题。在第一种纲要中，佛陀渐次获得三明发生在同一个夜晚的三个“时更”中。但对于其他修行者而言，每种明或每种神通的获得可能连续发生，也可能间隔数月或数年。[\[98\]](#fn-fn98){:id="fr-fn98"}
 
-第二种纲要描述了佛陀的禅定成就，清楚地表明每次成就之间都有一段时间间隔。然而，描述其他修行者成就的相同纲要的例子并未提及时间，这可能给人一种印象，即这些成就发生在单一的时间段内。事实上，这些成就发生的时间段并不统一——它因人而异。[\[99\]](#fn-fn99){:id="fr-fn99"} 这两种纲要仅仅描述了不同层次的成就——它们不一定定义所涉及的时间。
+第二种纲要描述了佛陀的禅定成就，清楚地表明每次成就之间都有一段时间间隔。然而，描述其他修行者成就的相同纲要的例子并未提及时间，这可能给人一种印象，即这些成就发生在单一的时间段内。事实上，这些成就发生的时间段并不统一——它因人而异。[\[99\]](#fn-fn99){:id="fr-fn99"}这两种纲要仅仅描述了不同层次的成就——它们不一定定义所涉及的时间。
 
-经文中有很多段落证实了这一事实，例如《长爪经》（Dīghanakha Sutta）中尊者舍利弗的故事。[\[100\]](#fn-fn100){:id="fr-fn100"} 当佛陀在灵鹫山的野猪洞中向游方者长爪（Dīghanakha）说法时，讲说受（vedanā）和其他主题，舍利弗站在佛陀身后，为他扇扇子。舍利弗思惟此佛法教导，证得了阿罗汉果。这发生在舍利弗受戒两周后。如果孤立地看这部经，人们可能会觉得舍利弗在此之前两周“开启法眼”（入流果）后，没有再获得任何成就；相反，他是在那一刻证得了完全的觉悟（阿罗汉果）。但通过阅读《无间经》（Anupada Sutta），人们会发现，在这两周内，舍利弗不间断地修习止观双运（yuganaddha-samatha-vipassanā），从初禅到想受灭。这揭示了他是在听闻《长爪经》之前就已经证得了不还果。[\[101\]](#fn-fn101){:id="fr-fn101"}
+经文中有很多段落证实了这一事实，例如《长爪经》（Dīghanakha Sutta）中尊者舍利弗的故事。[\[100\]](#fn-fn100){:id="fr-fn100"}当佛陀在灵鹫山的野猪洞中向游方者长爪（Dīghanakha）说法时，讲说受（vedanā）和其他主题，舍利弗站在佛陀身后，为他扇扇子。舍利弗思惟此佛法教导，证得了阿罗汉果。这发生在舍利弗受戒两周后。如果孤立地看这部经，人们可能会觉得舍利弗在此之前两周“开启法眼”（须陀洹果）后，没有再获得任何成就；相反，他是在那一刻证得了完全的觉悟（阿罗汉果）。但通过阅读《无间经》（Anupada Sutta），人们会发现，在这两周内，舍利弗不间断地修习止观双运（yuganaddha-samatha-vipassanā），从初禅到想受灭。这揭示了他是在听闻《长爪经》之前就已经证得了阿那含果。[\[101\]](#fn-fn101){:id="fr-fn101"}
 
 最后一个需要解决的问题是：阿罗汉在觉悟后能否继续修习止禅并增进禅定成就或神通？那些以观为乘（vipassanā-yānika）的人以前没有达到禅那，但在道果证悟的那一刻，定力变得坚定，他们证得了初禅。之后，他们可以随时进入初禅（“果定”——phala-samāpatti），以“安住于现法乐”。这里的问题是他们能否发展更高层次的禅那。复注声称他们可以。他们的心境有助于提炼和加强定力。他们可能修习止是为了促进“现法乐住”（diṭṭhadhamma-sukhavihāra）。（参见附注 8.14“住”）
 
 > **附注 8.14　住**
 > {: id="note-8-14"}
 >
-> CompṬ.：Vīthimuttaparicchedavaṇṇanā, Kammacatukkavaṇṇanā 提到一位不还者是纯观行者（sukkha-vipassaka），他在临终时生起了一种禅定成就，以便能够投生到“净居天”（suddhāvāsa）。
+> CompṬ.：Vīthimuttaparicchedavaṇṇanā, Kammacatukkavaṇṇanā 提到一位阿那含是纯观行者（sukkha-vipassaka），他在临终时生起了一种禅定成就，以便能够投生到“净居天”（suddhāvāsa）。
 >
 > DA. III. 1007 将“现法乐住的禅定”（[DN 33 / D iii 222-223](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}）定义为“禅那果定”（phalasamāpatti-jhāna）以及阿罗汉随后发展的禅那。
 >
 > PañcA. 107 描述了阿罗汉进入他们之前从未达到的连续层次的禅定成就。
 >
-> [AN 3.95 / A i 242-243](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-093-103-lonakapalla/#3-an-395-秋日破暗-saradasutta){: target="_blank" rel="noopener"} 描述了在“开启法眼”的那一刻，圣弟子如何断除前三结（证得入流果）。后来，“法眼”再次出现，贪嗔皆被断除（证得不还果）。这位弟子随后进入初禅。如果他在此刻死去，没有任何结会使他回到这个世界。从一个角度看，这部经似乎表明弟子在证得不还果之后才达到初禅，但根据我们之前的解释，这必须解释为进入了之前已经达到的禅那。
+> [AN 3.95 / A i 242-243](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-093-103-lonakapalla/#3-an-395-秋日破暗-saradasutta){: target="_blank" rel="noopener"} 描述了在“开启法眼”的那一刻，圣弟子如何断除前三结（证得须陀洹果）。后来，“法眼”再次出现，贪嗔皆被断除（证得阿那含果）。这位弟子随后进入初禅。如果他在此刻死去，没有任何结会使他回到这个世界。从一个角度看，这部经似乎表明弟子在证得阿那含果之后才达到初禅，但根据我们之前的解释，这必须解释为进入了之前已经达到的禅那。
 
-同样，对于神通（abhiññā）而言，最有可能也是如此。然而，阿罗汉不会花费大量精力去尝试获得新的神通，原因有二：首先，他们不为自己的利益寻求特殊神通；其次，如《清净道论》（Visuddhimagga）所述，对他人带来的利益不足以抵消修成神通所需的困难和时间。（参见附注 8.15“神通的困难”）阿罗汉更可能将时间和精力用于教导他人，这被称为“教诫神变”（anusāsanī-pāṭihāriya），佛陀称之为所有神变中最伟大的。[\[102\]](#fn-fn102){:id="fr-fn102"} 这优于关注世俗神通，因为世俗神通具有潜在的危害，并导致凡夫沉迷于一个超出他们理解能力、神秘而晦涩的世界，从而使他们忽略了更重要的活动。
+同样，对于神通（abhiññā）而言，最有可能也是如此。然而，阿罗汉不会花费大量精力去尝试获得新的神通，原因有二：首先，他们不为自己的利益寻求特殊神通；其次，如《清净道论》（Visuddhimagga）所述，对他人带来的利益不足以抵消修成神通所需的困难和时间。（参见附注 8.15“神通的困难”）阿罗汉更可能将时间和精力用于教导他人，这被称为“教诫神变”（anusāsanī-pāṭihāriya），佛陀称之为所有神变中最伟大的。[\[102\]](#fn-fn102){:id="fr-fn102"}这优于关注世间神通，因为世间神通具有潜在的危害，并导致凡夫沉迷于一个超出他们理解能力、神秘而晦涩的世界，从而使他们忽略了更重要的活动。
 
 > **附注 8.15　神通的困难**
 > {: id="note-8-15"}
@@ -555,15 +569,15 @@ E. 第二点和第三点已经触及了修行和证悟方面的时间问题。�
 > >
 > > 现在，遍处禅的初步工作对于初学者来说很困难，一百或一千人中只有一人能做到。对于已完成初步工作的人来说，生起禅相很困难，一百或一千人中只有一人能做到。禅相生起后，要扩展禅相并达到安止定很困难，一百或一千人中只有一人能做到。达到安止定后，以十四种方式调伏心很困难，一百或一千人中只有一人能做到。以这种方式训练心后，施展神通很困难，一百或一千人中只有一人能做到。施展后迅速达到禅那很困难，一百或一千人中只有一人能做到。
 
-通常，人们在外部条件或神力中寻求保护，这与佛教的基本原则相悖。没有世俗神通的阿罗汉仍然拥有佛陀所说的“圣神通”（ariya-iddhi）：他们能够将不可爱、令人厌恶的人和事物视为可爱且不令人厌恶。同样地，他们能够将有吸引力、诱人的人和事物视为无常、有条件、不值得执着的。这是一种比在水上行走、潜入地下或腾空飞行更强大的力量，佛陀说这些并非“圣者所行”，带有风险，且不能导向解脱。[\[103\]](#fn-fn103){:id="fr-fn103"}
+通常，人们在外部条件或神力中寻求保护，这与佛教的基本原则相悖。没有世间神通的阿罗汉仍然拥有佛陀所说的“圣神通”（ariya-iddhi）：他们能够将不可爱、令人厌恶的人和事物视为可爱且不令人厌恶。同样地，他们能够将有吸引力、诱人的人和事物视为无常、有条件、不值得执着的。这是一种比在水上行走、潜入地下或腾空飞行更强大的力量，佛陀说这些并非“圣者所行”，带有风险，且不能导向解脱。[\[103\]](#fn-fn103){:id="fr-fn103"}
 
-这些世俗神通并非佛教的精髓，它们也不能衡量人的价值。在佛陀时代之前和其他传统中，都能找到这些神通的证据。只有当纯净且完全觉悟的人运用时，它们才被认为是卓越的。对普通人来说，它们既可能有益，也同样可能危险。一个完全觉悟的人，甚至是一个达到较低觉悟阶段、具有道德行为和完美“正见”（sammā-diṭṭhi）的人，也比拥有五种世俗神通但缺乏这些德行的人更优越。佛陀的大多数阿罗汉弟子是“慧解脱”（paññā-vimutta），没有提升到更高的禅定成就，甚至许多“俱解脱”（ubhatobhāga-vimutta）的弟子也没有生起五种世俗神通。
+这些世间神通并非佛教的精髓，它们也不能衡量人的价值。在佛陀时代之前和其他传统中，都能找到这些神通的证据。只有当纯净且完全觉悟的人运用时，它们才被认为是殊胜的。对凡夫来说，它们既可能有益，也同样可能危险。一个完全觉悟的人，甚至是一个达到较低觉悟阶段、具有道德行为和完美“正见”（sammā-diṭṭhi）的人，也比拥有五种世间神通但缺乏这些德行的人更优越。佛陀的大多数阿罗汉弟子是“慧解脱”（paññā-vimutta），没有提升到更高的禅定成就，甚至许多“俱解脱”（ubhatobhāga-vimutta）的弟子也没有生起五种世间神通。
 
-## 毗婆舍那修行的基本原则
+## 修观的基本原则
 
-观照有为法以生起清晰的理解，并如实地看待事物，是证悟道果的必要要素。所有为佛教目标而修行的人，无论他们是以止还是以观作为修行的工具，也无论他们遵循四种修行方式（先止后观等）中的哪一种，都必须经过内观修习这个阶段。以观为修行工具的人将从一开始就以这种方式修行，而以止为修行工具的人则将在最后阶段运用这种禅修。
+观照有为法以生起清晰的理解，并如实地看待事物，是证悟道果的必要要素。所有为佛教目标而修行的人，无论他们是以止还是以观作为修行的工具，也无论他们遵循四种修行方式（先止后观等）中的哪一种，都必须经过修观这一阶段。以观为修行工具的人将从一开始就以这种方式修行，而以止为修行工具的人则将在最后阶段运用这种禅修。
 
-借鉴前一节关于止禅的内容，这种观照是先前引用段落的延伸：以智慧观照，他的诸漏被彻底断尽。换句话说，它指的是“慧解脱”（paññā-vimutti）。《巴利三藏》中有许多标准的定义来描述这种内观之道。在查看这些定义之前，让我们先考察一些描述佛陀证悟的段落（它们也是毗婆舍那的纲要）。这将揭示同一件事可以有多种不同的诠释：
+参照前一节关于修止的说明，这种观照是先前引用段落的延伸：以智慧观照，他的诸漏被彻底断尽。换句话说，它指的是“慧解脱”（paññā-vimutti）。《巴利三藏》中有许多标准的定义来描述这种观之道。在查看这些定义之前，让我们先考察一些描述佛陀证悟的段落（它们也是观的纲要）。这将揭示同一件事可以有多种不同的诠释：
 
 > 当我对此四圣谛的智见，以其三阶段和十二种方式如实地彻底净化时，我宣称已证得世间无上正等正觉……我生起了智见：“我的心解脱是不可动摇的。这是我的最后一生。现在，不再有再生。”  
 > [MV 1 / Vin i 11](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 56.11 / S v 422-423](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}
@@ -589,10 +603,12 @@ E. 第二点和第三点已经触及了修行和证悟方面的时间问题。�
 > “这是身念住。”比丘们，于是，对于前所未闻的事物，我生起了见、智、慧、明和光明……“这种身念住应被培育”……“这种身念住已被培育”……“这是受念住”……“这是心念住”……“这是法念住”……“这种法念住已被培育”：于是，比丘们……光明。[\[104\]](#fn-fn104){:id="fr-fn104"}  
 > [SN 47.31 / S v 178-179](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-47-satipatthana/sn-47-31-40-ananussuta/#1-sn-4731-未闻经-ananussutasutta){: target="_blank" rel="noopener"}, Ananussuta Sutta
 >
-> “这是欲神足（iddhi-pāda）。”比丘们，于是，对于前所未闻的事物，我生起了见、智、慧、明和光明……“这种欲神足应被培育”……“这种欲神足已被培育”……“这是精进神足”……“这是心神足（citta）”……“这是观神足”……我生起了见、智、慧、明和光明。[\[105\]](#fn-fn105){:id="fr-fn105"}  
+> “这是欲神足（iddhi-pāda）。”比丘们，于是，对于前所未闻的事物，我生起了见、智、慧、明和光明……“这种欲神足应被培育”……“这种欲神足已被培育”……“这是精进神足”……“这是心神足（citta）”……“这是审察神足”……我生起了见、智、慧、明和光明。[\[105\]](#fn-fn105){:id="fr-fn105"}  
 > [SN 51.9 / S v 258](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-51-iddhipada/sn-51-01-10-capala/#9-sn-519-智生-ñāṇasutta){: target="_blank" rel="noopener"}
 
-> 比丘们，在我未证悟之前，当我还是菩萨，尚未完全证悟时，我心里想：“唉，这个世界已经陷入了苦恼，因为有生、老、死，它流逝又再生，然而它却不明白如何从这以老死为首的苦中解脱。什么时候才能辨识出从这以老死为首的苦中解脱呢？”
+<!-- quotation-boundary -->
+
+> 比丘们，在我未证悟之前，当我还是菩萨，尚未完全证悟时，我心里想：“唉，这个世间已经陷入了苦恼，因为有生、老、死，它流逝又再生，然而它却不明白如何从这以老死为首的苦中解脱。什么时候才能辨识出从这以老死为首的苦中解脱呢？”
 >
 > 于是，比丘们，我心里想：“当有什么存在时，老死便会生起？老死是以什么为缘的？”于是，比丘们，通过如理作意，我心中生起了智慧的突破：“当有生时，老死就生起；老死以生为条件……”
 >
@@ -613,7 +629,7 @@ E. 第二点和第三点已经触及了修行和证悟方面的时间问题。�
 > 比丘们，同样地，我看到了古老的道路，过去圆满正等正觉者所行走的古老道路……它正是这八正道；即正见、正思惟……正定。我遵循了这条道路，并通过这样做，我亲知实证了老死，它的生起，它的止息，以及导向它的止息之道。我亲知实证了生……有……执取……爱……受……触……六处……名色……识……行，它们的生起，它们的止息，以及导向它们的止息之道。亲知实证它们之后，我已经将它们解释给了比丘们、比丘尼们、男居士们和女居士们。比丘们，这梵行已经成功和兴盛，广受欢迎，广泛传播，根深蒂固，在天人之间广为宣说。[\[106\]](#fn-fn106){:id="fr-fn106"}  
 > [SN 12.65 / S ii 104-107](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#5-sn-1265-诸佛古道经-nagarasutta){: target="_blank" rel="noopener"}, Nagara Sutta
 
-佛陀的弟子通过毗婆舍那证悟阿罗汉果，有许多标准定义。有些与上面提出的佛陀证悟的段落相似，而另一些则有所不同，但本质上它们是相同的：现象（最常见的是五蕴或十二处）被分为不同的部分，并根据三法印：无常、苦和无我来审视其真实本性。许多段落侧重于对自我的执着，并强调无我的特相。一些段落追溯了缘起背景下的条件关系。从佛法修行的角度来看，这些段落都提到了三十七道品（bodhipakkhiya-dhamma）中的一个或多个组别。[\[107\]](#fn-fn107){:id="fr-fn107"} 如果人们能领会其意义而不被技术性语言所困惑，那么解释特定观照方法的纲要对于毗婆舍那修行来说将非常有帮助。以下是这些纲要的一些例子；义注说佛陀在不同的场合根据听众的性情给予了这些教导。[\[108\]](#fn-fn108){:id="fr-fn108"}
+佛陀的弟子通过观证悟阿罗汉果，有许多标准定义。有些与上面提出的佛陀证悟的段落相似，而另一些则有所不同，但本质上它们是相同的：现象（最常见的是五蕴或十二处）被分为不同的部分，并根据三法印：无常、苦和无我来审视其真实本性。许多段落侧重于对自我的执着，并强调无我的特相。一些段落追溯了缘起背景下的条件关系。从佛法修行的角度来看，这些段落都提到了三十七道品（bodhipakkhiya-dhamma）中的一个或多个组别。[\[107\]](#fn-fn107){:id="fr-fn107"}如果人们能领会其意义而不被专门术语所困惑，那么解释特定观照方法的纲要对于修观来说将非常有帮助。以下是这些纲要的一些例子；义注说佛陀在不同的场合根据听众的性情给予了这些教导。[\[108\]](#fn-fn108){:id="fr-fn108"}
 
 ### 对五蕴的观照
 
@@ -624,9 +640,9 @@ E. 第二点和第三点已经触及了修行和证悟方面的时间问题。�
 > 比丘们，色蕴是无我（anattā）的……受蕴……想蕴……行蕴……识蕴是无我的……如是见时，已受教导的圣弟子生起厌离。[\[109\]](#fn-fn109){:id="fr-fn109"}  
 > 例如：[SN 22.12–14 / S iii 21](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-12-21-anicca/#1-sn-2212-无常经-aniccasutta){: target="_blank" rel="noopener"}
 
-本段中关于三法印的观照有时会改为类似的观照，例如：“色是魔罗”，[\[110\]](#fn-fn110){:id="fr-fn110"}“受是炽热的余烬”，“色是生灭法”，等等。[\[111\]](#fn-fn111){:id="fr-fn111"}
+本段中关于三法印的观照有时会改为类似的观照，例如：“色是魔罗”[\[110\]](#fn-fn110){:id="fr-fn110"}，“受是炽热的余烬”，“色是生灭法”，等等。[\[111\]](#fn-fn111){:id="fr-fn111"}
 
-> 比丘们，色蕴……受蕴……想蕴……行蕴……识蕴是无常的。无常的即是苦（dukkha）的。苦的即是无我的。无我的应以正确智慧如实地看待：“这不是我的，我不是这个，这不是我的自我。”如是见时，已受教导的圣弟子生起厌离。  
+> 比丘们，色蕴……受蕴……想蕴……行蕴……识蕴是无常的。无常的即是苦（dukkha）的。苦的即是无我的。无我的应以正确智慧如实地看待：“这不是我的，这不是我，这不是我的自我。”如是见时，已受教导的圣弟子生起厌离。  
 > [SN 22.15 / S iii 22](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-12-21-anicca/#4-sn-2215-无常者经-yadaniccasutta){: target="_blank" rel="noopener"}, [SN 22.76 / S iii 82-83](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-73-82-khajjaniya/#4-sn-2276-阿罗汉经-arahantasutta){: target="_blank" rel="noopener"}
 >
 > 比丘们，色身是无我的。如果身体是自我，它就不会导致苦恼，而且可能对身体说：“愿我的身体是这样；愿它不是那样。”但因为色身是无我的，色身导致苦，而且不可能对身体说：“愿我的身体是这样；愿它不是那样。”
@@ -674,9 +690,9 @@ E. 第二点和第三点已经触及了修行和证悟方面的时间问题。�
 
 本段中关于三法印的观照有时会改为类似的观照，例如：“眼被遮蔽”，“眼正在燃烧”，以及“眼是坏灭法”。[\[112\]](#fn-fn112){:id="fr-fn112"}
 
-> 比丘们，眼……耳……鼻……舌……身……意是无常的。无常的即是苦的。苦的即是无我的。无我的应以正确智慧如实地看待：“这不是我的，我不是这个，这不是我的自我。”如是见时，已受教导的圣弟子生起厌离……
+> 比丘们，眼……耳……鼻……舌……身……意是无常的。无常的即是苦的。苦的即是无我的。无我的应以正确智慧如实地看待：“这不是我的，这不是我，这不是我的自我。”如是见时，已受教导的圣弟子生起厌离……
 >
-> 比丘们，色……声……香……味……触……法是无常的。无常的即是苦的。苦的即是无我的。无我的应以正确智慧如实地看待：“这不是我的，我不是这个，这不是我的自我。”如是见时，已受教导的圣弟子生起厌离。[\[113\]](#fn-fn113){:id="fr-fn113"}  
+> 比丘们，色……声……香……味……触……法是无常的。无常的即是苦的。苦的即是无我的。无我的应以正确智慧如实地看待：“这不是我的，这不是我，这不是我的自我。”如是见时，已受教导的圣弟子生起厌离。[\[113\]](#fn-fn113){:id="fr-fn113"}  
 > [SN 35.1–4 / S iv 1-3](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-01-12-anicca/#1-sn-351-内六处无常-ajjhattāniccasutta){: target="_blank" rel="noopener"}
 >
 > “比丘们，你们认为眼是常还是无常？”
@@ -702,6 +718,8 @@ E. 第二点和第三点已经触及了修行和证悟方面的时间问题。�
 > “如是见时，已受教导的圣弟子生起厌离。”[\[115\]](#fn-fn115){:id="fr-fn115"}  
 > [SN 35.75 / S iv 48](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-74-83-gilana/#2-sn-3575-为病比丘说法之二-dutiyagilānasutta){: target="_blank" rel="noopener"}, Dutiyagilāna Sutta
 
+<!-- quotation-boundary -->
+
 > 比丘们，眼是无常的。眼生起的因和缘也是无常的。既然眼是从无常的生起的，它怎么可能是常的呢？……
 >
 > 眼是苦的。眼生起的因和缘也是苦的。既然眼是从苦的生起的，它怎么可能是乐的呢？……
@@ -724,7 +742,7 @@ E. 第二点和第三点已经触及了修行和证悟方面的时间问题。�
 > \[佛陀回答说\]：“当比丘了知并看见眼……色……耳……声……意……法……意识……意触……无论因意触为缘而生起的受——无论是乐受、苦受还是不苦不乐受——是无常时，他的无明就被舍弃，明就生起了。”[\[116\]](#fn-fn116){:id="fr-fn116"}  
 > [SN 35.79 / S iv 49-50](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-74-83-gilana/#6-sn-3579-舍离无明之一-paṭhamaavijjāpahānasutta){: target="_blank" rel="noopener"}, Paṭhamaavijjāpahāna Sutta
 >
-> 某位比丘走近世尊……\[佛陀回答说\]：比丘，这里，一位比丘已经听说，[\[117\]](#fn-fn117){:id="fr-fn117"}“没有什么值得执着。”[\[118\]](#fn-fn118){:id="fr-fn118"}“没有什么值得执着”这个概念\[仅仅是\]他所获得的知识。他审察（abhiññā——“亲知”；“注意”）一切；审察一切之后，他完全理解（pariññā）一切。完全理解一切之后，他以不同的方式看待所有相。[\[119\]](#fn-fn119){:id="fr-fn119"} 他以不同的方式看待眼，他以不同的方式看待色……无论因眼触为缘而生起的受……他也以不同的方式看待。当比丘如是了知并看见时，他的无明就被舍弃，明就生起了。（其余的六处、六识、六触和三受也同理。）[\[120\]](#fn-fn120){:id="fr-fn120"}  
+> 某位比丘走近世尊……\[佛陀回答说\]：比丘，这里，一位比丘已经听说[\[117\]](#fn-fn117){:id="fr-fn117"}，“没有什么值得执着。”[\[118\]](#fn-fn118){:id="fr-fn118"}“没有什么值得执着”这个概念\[仅仅是\]他所获得的知识。他审察（abhiññā——“亲知”；“注意”）一切；审察一切之后，他完全理解（pariññā）一切。完全理解一切之后，他以不同的方式看待所有相。[\[119\]](#fn-fn119){:id="fr-fn119"}他以不同的方式看待眼，他以不同的方式看待色……无论因眼触为缘而生起的受……他也以不同的方式看待。当比丘如是了知并看见时，他的无明就被舍弃，明就生起了。（其余的六处、六识、六触和三受也同理。）[\[120\]](#fn-fn120){:id="fr-fn120"}  
 > [SN 35.80 / S iv 50](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-74-83-gilana/#7-sn-3580-舍离无明之二-dutiyaavijjāpahānasutta){: target="_blank" rel="noopener"}, Dutiyaavijjāpahāna Sutta
 
 ### 一般审察
@@ -755,7 +773,7 @@ E. 第二点和第三点已经触及了修行和证悟方面的时间问题。�
 > 因此，比丘们，那个行是无常、有条件、缘起而生的；那个渴爱……受……触……那个无明是无常、有条件、缘起而生的。比丘们，当一个人如是了知并看见时，诸漏就立即被断尽了。[\[122\]](#fn-fn122){:id="fr-fn122"}  
 > [SN 22.81 / S iii 96-97](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-73-82-khajjaniya/#9-sn-2281-波陀聚落经-pālileyyasutta){: target="_blank" rel="noopener"}, Pālileyya Sutta
 >
-> 比丘们，当一位比丘保持正念和正知，[\[123\]](#fn-fn123){:id="fr-fn123"} 勤奋、热忱、坚定地安住时，如果他生起乐受，他就会这样理解：“我生起了一个乐受。现在它是依缘而生的，不是独立存在的。依缘于什么？依缘于这个身体。但这个身体是无常、有条件、缘起而生的。所以，当此乐受依缘于一个无常、有条件、缘起而生的身体而生起时，它怎么可能是常的呢？”他安住于观照身体和此乐受的无常，他安住于观照消逝，观照褪去，观照止息，观照舍弃。当他如此安住时，他对身体和此乐受的贪欲潜在倾向便被舍弃了……
+> 比丘们，当一位比丘保持正念和正知[\[123\]](#fn-fn123){:id="fr-fn123"}，勤奋、热忱、坚定地安住时，如果他生起乐受，他就会这样理解：“我生起了一个乐受。现在它是依缘而生的，不是独立存在的。依缘于什么？依缘于这个身体。但这个身体是无常、有条件、缘起而生的。所以，当此乐受依缘于一个无常、有条件、缘起而生的身体而生起时，它怎么可能是常的呢？”他安住于观照身体和此乐受的无常，他安住于观照消逝，观照褪去，观照止息，观照舍弃。当他如此安住时，他对身体和此乐受的贪欲潜在倾向便被舍弃了……
 >
 > 当一位比丘保持正念……如果他生起苦受，他就会理解……他对身体和苦受的嗔恚潜在倾向便被舍弃了。
 >
@@ -764,25 +782,25 @@ E. 第二点和第三点已经触及了修行和证悟方面的时间问题。�
 
 ### 全面观照
 
-> 尊者大拘絺罗走近尊者舍利弗，对他说：“友舍利弗，一位具戒比丘应该仔细思惟些什么？”
+> 尊者大拘絺罗走近尊者舍利弗，对他说：“贤友舍利弗，一位具戒比丘应该仔细思惟些什么？”
 >
-> “友拘絺罗，一位具戒比丘应该仔细思惟这五取蕴为无常，是苦的，是病，是肿瘤，是箭，是痛苦，是祸患，是异己，是坏灭的，是空虚的，是无我的……友，当一位具戒比丘仔细观照这五取蕴时，他有可能证得须陀洹果。”
+> “贤友拘絺罗，一位具戒比丘应该仔细思惟这五取蕴为无常，是苦的，是病，是肿瘤，是箭，是痛苦，是祸患，是异己，是坏灭的，是空虚的，是无我的……贤友，当一位具戒比丘仔细观照这五取蕴时，他有可能证得须陀洹果。”
 >
-> “但是，友舍利弗，一位须陀洹比丘应该仔细观照些什么？”
+> “但是，贤友舍利弗，一位须陀洹比丘应该仔细观照些什么？”
 >
-> “友拘絺罗，一位须陀洹比丘应该仔细观照这五取蕴是无常的……是无我的。友，当一位须陀洹比丘如此仔细观照这五取蕴时，他有可能证得斯陀含果。”
+> “贤友拘絺罗，一位须陀洹比丘应该仔细观照这五取蕴是无常的……是无我的。贤友，当一位须陀洹比丘如此仔细观照这五取蕴时，他有可能证得斯陀含果。”
 >
-> “但是，友舍利弗，一位斯陀含比丘应该仔细观照些什么？”
+> “但是，贤友舍利弗，一位斯陀含比丘应该仔细观照些什么？”
 >
-> “友拘絺罗，一位斯陀含比丘应该仔细观照这五取蕴是无常的……是无我的。友，当一位斯陀含比丘如此仔细观照这五取蕴时，他有可能证得阿那含果。”
+> “贤友拘絺罗，一位斯陀含比丘应该仔细观照这五取蕴是无常的……是无我的。贤友，当一位斯陀含比丘如此仔细观照这五取蕴时，他有可能证得阿那含果。”
 >
-> “但是，友舍利弗，一位阿那含比丘应该仔细观照些什么？”
+> “但是，贤友舍利弗，一位阿那含比丘应该仔细观照些什么？”
 >
-> “友拘絺罗，一位阿那含比丘应该仔细观照这五取蕴是无常的……是无我的。友，当一位阿那含比丘如此仔细观照这五取蕴时，他有可能证得阿罗汉果。”
+> “贤友拘絺罗，一位阿那含比丘应该仔细观照这五取蕴是无常的……是无我的。贤友，当一位阿那含比丘如此仔细观照这五取蕴时，他有可能证得阿罗汉果。”
 >
-> “但是，友舍利弗，一位阿罗汉比丘应该仔细观照些什么？”
+> “但是，贤友舍利弗，一位阿罗汉比丘应该仔细观照些什么？”
 >
-> “友拘絺罗，一位阿罗汉比丘应该仔细观照这五取蕴是无常的……是无我的。友，对于阿罗汉来说，没有什么需要再做的，也没有什么已做过的需要重复。然而，当这些法被修习和培育时，它们会导向现法乐住，以及正念和正知。”[\[124\]](#fn-fn124){:id="fr-fn124"}  
+> “贤友拘絺罗，一位阿罗汉比丘应该仔细观照这五取蕴是无常的……是无我的。贤友，对于阿罗汉来说，没有什么需要再做的，也没有什么已做过的需要重复。然而，当这些法被修习和培育时，它们会导向现法乐住，以及正念和正知。”[\[124\]](#fn-fn124){:id="fr-fn124"}  
 > [SN 22.122 / S iii 167-169](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-113-125-dhammakathika/#10-sn-22122-戒经-sīlavantasutta){: target="_blank" rel="noopener"}, Sīlavanta Sutta
 
 ## 禅修的系统纲要
@@ -805,7 +823,7 @@ E. 第二点和第三点已经触及了修行和证悟方面的时间问题。�
 3.  Pahāna-pariññā（断遍知）：断除；导向放下执着、获得自由、以及不再迷恋的知。了知如何回应事物并与事物相处。例如，了知事物是无常的，行者便断除了常想（nicca-saññā）。行者了知“如何行事”。
     
 
-*   Vipassanā-ñāṇa（观智）：观智；产生观的智慧；导向对诸法的彻底理解和苦的终结的知。它分为九种（见下文）。
+*   观智（vipassanā-ñāṇa）：产生观的智慧；导向对诸法的彻底理解和苦的终结的知。它分为九种（见下文）。
 
 以下带有括号数字的不同种类之智（ñāṇa），是较新形成的十六智（soḷasa-ñāṇa）的一部分。它们被用来验证人的证悟层次。[\[132\]](#fn-fn132){:id="fr-fn132"}
 
@@ -813,71 +831,76 @@ E. 第二点和第三点已经触及了修行和证悟方面的时间问题。�
 
 #### 增上戒学
 
-*   1\. 戒清净（sīla-visuddhi）：善行；正命；符合自己社会地位的道德行为。《清净道论》主要关注比丘的四遍净戒（pārisuddhi-sīla）：
+1.  戒清净（sīla-visuddhi）：善行；正命；符合自己社会地位的道德行为。《清净道论》主要关注比丘的四遍净戒（pārisuddhi-sīla）：
     
-    *   A. 别解脱律仪戒（Pāṭimokkhasaṁvara-sīla）：关于僧团戒律的防护和严格遵守。
+    1.  别解脱律仪戒（Pāṭimokkhasaṁvara-sīla）：关于僧团戒律的防护和严格遵守。
     
-        B. 根律仪戒（Indriyasaṁvara-sīla）：防护六根；在根尘接触时保持警惕，以防止不善心所占据心。
+    2.  根律仪戒（Indriyasaṁvara-sīla）：防护六根；在根尘接触时保持警惕，以防止不善心所占据心。
     
-        C. 活命遍净戒（Ājīvapārisuddhi-sīla）：正命。
+    3.  活命遍净戒（Ājīvapārisuddhi-sīla）：正命。
     
-        D. 资具依止戒（Paccayasannissita-sīla）：关于四种生活必需品的清净行为；以正思惟而非贪欲来使用这些必需品。[\[133\]](#fn-fn133){:id="fr-fn133"}
+    4.  资具依止戒（Paccayasannissita-sīla）：[\[133\]](#fn-fn133){:id="fr-fn133"}关于四种生活必需品的清净行为；以正思惟而非贪欲来使用这些必需品。
     
 
 除了持守戒律之外，还建议根据个人性情，选择修习佛陀所允许的十三种头陀支（dhutaṅga）中的一些，以增加知足、精进和独处，消除烦恼，净化道德行为，补充和圆满其他宗教行持，并支持整体的精神修习。
 
 #### 增上心学
 
-*   2\. 心清净（citta-visuddhi）：修习心的品质和能力，直到拥有足够的定力作为内观的基础。《清净道论》说这从近行定（upacāra-samādhi）一直延伸到八种禅那的安止定。它提出了修习定力直至证得五种世间神通（abhiññā）的方法。
+{:start="2"}
+2.  心清净（citta-visuddhi）：修习心的品质和能力，直到拥有足够的定力作为观的基础。《清净道论》说这从近行定（upacāra-samādhi）一直延伸到八种禅那的安止定。它提出了修习定力直至证得五种世间神通（abhiññā）的方法。
 
 #### 增上慧学
 
-A. 知遍知（ñāta-pariññā）
+一、知遍知（ñāta-pariññā）
 
 了知苦圣谛：
 
-*   3\. 见清净（diṭṭhi-visuddhi）：了知身心的真实本性，从而去除我见的误解。这一清净层次也被称为“名色分别智”（nāmarūpapariccheda-ñāṇa）（1）。[\[134\]](#fn-fn134){:id="fr-fn134"}在此，了知一切存在的事物都属于名（nāma）或色（rūpa；“身体”）的范畴，并能够通过自己的经验区分什么是名，什么是色。例如，看到一个物体时，了知眼根、光线、视觉形相和颜色是色法的一部分，而眼识或看见的行为是名法的一部分。
+{:start="3"}
+3.  见清净（diṭṭhi-visuddhi）：了知身心的真实本性，从而去除我见的误解。这一清净层次也被称为“名色分别智”（nāmarūpapariccheda-ñāṇa）（1）[\[134\]](#fn-fn134){:id="fr-fn134"}。在此，了知一切存在的事物都属于名（nāma）或色（rūpa；“身体”）的范畴，并能够通过自己的经验区分什么是名，什么是色。例如，看到一个物体时，了知眼根、光线、视觉形相和颜色是色法的一部分，而眼识或看见的行为是名法的一部分。
 
 了知苦集圣谛：
 
-*   4\. 度疑清净（kaṅkhāvitaraṇa-visuddhi）：根据缘起、业的法则、认知过程、三“轮”（vaṭṭa）[\[135\]](#fn-fn135){:id="fr-fn135"}，或任何其他揭示一切有为法都源于因缘和相互依存的视角，准确了知名色法的缘起。这种知息除了对三个时段的怀疑：过去、现在和未来。它也被称为“名色缘摄受智”（nāmarūpapaccayapariggaha-ñāṇa）（2）。[\[136\]](#fn-fn136){:id="fr-fn136"}义注将具有此知的人称为“小须陀洹”（cūḷa-sotāpanna）：他在佛陀的教法中进步的命运已然确定。
+{:start="4"}
+4.  度疑清净（kaṅkhāvitaraṇa-visuddhi）：根据缘起、业的法则、认知过程、三“轮”（vaṭṭa）[\[135\]](#fn-fn135){:id="fr-fn135"}，或任何其他揭示一切有为法都源于因缘和相互依存的视角，准确了知名色法的缘起。这种知息除了对三个时段的怀疑：过去、现在和未来。它也被称为“名色缘摄受智”（nāmarūpapaccayapariggaha-ñāṇa）（2）[\[136\]](#fn-fn136){:id="fr-fn136"}。义注将具有此知的人称为“小须陀洹”（cūḷa-sotāpanna）：他在佛陀的教法中进步的命运已然确定。
 
-B. 审察遍知三法印（tīraṇa-pariññā）
+二、审察遍知三法印（tīraṇa-pariññā）
 
 了知道圣谛：
 
-*   5\. 道非道智见清净（maggāmaggañāṇadassana-visuddhi）：根据三法印审察名法和色法。例如，省察色法的本性是无常（anicca）、苦（dukkha）和无我（anattā），然后同样地省察四种名蕴：受、想、行和识。这种审察延伸到所有法群，例如十二处（āyatana）、十二缘起（paṭiccasamuppāda）支、三有（bhava）、四禅那、四无量心（appamaññā）和八种定（samāpatti），所有这些都属于五蕴的范畴，直到辨识出有为法的生灭。这种审察产生了“初观”（taruṇa-vipassanā）。此时，十种“观的染污”（vipassanūpakilesa）也可能生起，使人误以为自己已证悟，或执着于这些心所。这种误解导致了错误的修习。然而，若具有念和正知，就能区分正确的道，避免陷入这些染污。正是在此时，达到了道非道智见清净。
+{:start="5"}
+5.  道非道智见清净（maggāmaggañāṇadassana-visuddhi）：根据三法印审察名法和色法。例如，省察色法的本性是无常（anicca）、苦（dukkha）和无我（anattā），然后同样地省察四种名蕴：受、想、行和识。这种审察延伸到所有法群，例如十二处（āyatana）、十二缘起（paṭiccasamuppāda）支、三有（bhava）、四禅那、四无量心（appamaññā）和八种定（samāpatti），所有这些都属于五蕴的范畴，直到辨识出有为法的生灭。这种审察产生了“初观”（taruṇa-vipassanā）。此时，十种“观的染污”（vipassanūpakilesa）也可能生起，使人误以为自己已证悟，或执着于这些心所。这种误解导致了错误的修习。然而，若具有念和正知，就能区分正确的道，避免陷入这些染污。正是在此时，达到了道非道智见清净。
     
     《清净道论》中关于此清净层次有一些复杂的段落。产生此清净所需的观的层次被称为“随顺观”（naya-vipassanā）：即运用《巴利三藏》中描述的审察方法来观照。例如，可以省察某个色法（rūpa），无论是过去、现在或未来，内或外等等，都无一例外是无常的。这也被称为“集思惟”（kalāpa-sammasana）。[\[137\]](#fn-fn137){:id="fr-fn137"}在此清净阶段生起的知有时被称为“思惟智”（sammasana-ñāṇa〔3〕），即关于名色法三法印的智慧。
     
     当这种审察智变得强大，开始看到万物的生灭——看到事物的无常性，即每一个事物都依因缘而存在，当这些因缘不存在时就停止存在——“生灭智”（udayabbaya-ñāṇa）就逐渐生起。但是这种知是新的，在这个阶段被称为“初观”（taruṇa-vipassanā 或 taruṇavipassanā-ñāṇa）。拥有这种初观的人被称为“初修观者”（āraddha-vipassaka），并且容易受到“观的染污”影响，例如心中出现光明，这往往会分散和阻碍修行者。通过适当的辨别，便能超越这些染污，完成这个清净阶段。
     
 
-C. 导向解脱和断除无明的知（pahāna-pariññā）
+三、导向解脱和断除无明的知（pahāna-pariññā）
 
-*   6\. 行道智见清净（paṭipadāñāṇadassana-visuddhi）：这指的是具备九个阶段“观智”（vipassanā-ñāṇa）的最高层次的观，从生灭智和随后从观的染污中解脱开始，直到观的最终阶段：完全的觉悟。这九个阶段的观智是：
+{:start="6"}
+6.  行道智见清净（paṭipadāñāṇadassana-visuddhi）：这指的是具备九个阶段“观智”（vipassanā-ñāṇa）的最高层次的观，从生灭智和随后从观的染污中解脱开始，直到观的最终阶段：完全的觉悟。这九个阶段的观智是：
     
-    *   A. 生灭智（udayabbayānupassanā-ñāṇa 或 udayabbaya-ñāṇa）（4）：清晰地看到五取蕴的生灭。理解一切事物都是无常的，无法维持其原始状态，并且不受欲望控制。一切生起的事物都将灭去。在此，于每个心刹那辨识出“名法”（nāma-dhamma）、“色法”（rūpa-dhamma）的生起，以及“能知”，并看到所有这些特质的同步灭去。这种观是强有力观（balava-vipassanā），它驱散了常想（nicca-saññā）、乐想（sukha-saññā）和我想（atta-saññā）。
+    1.  生灭智（udayabbayānupassanā-ñāṇa 或 udayabbaya-ñāṇa）（4）：清晰地看到五取蕴的生灭。理解一切事物都是无常的，无法维持其原始状态，并且不受欲望控制。一切生起的事物都将灭去。在此，于每个心刹那辨识出“名法”（nāma-dhamma）、“色法”（rūpa-dhamma）的生起，以及“能知”，并看到所有这些特质的同步灭去。这种观是强有力观（balava-vipassanā），它驱散了常想（nicca-saññā）、乐想（sukha-saññā）和我想（atta-saññā）。
     
-    *   B. 坏灭智（bhaṅgānupassanā-ñāṇa 或 bhaṅga-ñāṇa）（5）：当能够更连续、不间断地看到这种生灭时，便开始专注于终点，专注于灭去。他省察一切事物都将坏灭。
+    2.  坏灭智（bhaṅgānupassanā-ñāṇa 或 bhaṅga-ñāṇa）（5）：当能够更连续、不间断地看到这种生灭时，便开始着重观察现象的终结与坏灭。他省察一切事物都将坏灭。
     
-    *   C. 怖畏现起智（bhayatūpaṭṭhāna-ñāṇa 或 bhaya-ñāṇa）（6）：通过省察一切事物都将坏灭，便看到所有有为法，无论存在于哪个生存界，都是可怕的，因为它们不提供任何安全保障，最终必将毁灭。
+    3.  怖畏现起智（bhayatūpaṭṭhāna-ñāṇa 或 bhaya-ñāṇa）（6）：通过省察一切事物都将坏灭，便看到所有有为法，无论存在于哪个生存界，都是可怕的，因为它们不提供任何安全保障，最终必将毁灭。
     
-    *   D. 过患智（ādīnavānupassanā-ñāṇa 或 ādīnava-ñāṇa）（7）：见到一切事物都将坏灭、不提供安全保障，便省察事物的缺点、瑕疵和内在的不满足性。
+    4.  过患智（ādīnavānupassanā-ñāṇa 或 ādīnava-ñāṇa）（7）：见到一切事物都将坏灭、不提供安全保障，便省察事物的缺点、瑕疵和内在的不满足性。
     
-    *   E. 厌离智（nibbidānupassanā-ñāṇa 或 nibbidā-ñāṇa）（8）：认识到有为法的缺点，就会对它们感到厌离，不再沉溺其中。
+    5.  厌离智（nibbidānupassanā-ñāṇa 或 nibbidā-ñāṇa）（8）：认识到有为法的缺点，就会对它们感到厌离，不再沉溺其中。
     
-    *   F. 欲解脱智（muñcitukamyatā-ñāṇa）（9）：随着厌离生起，便希望从有为法中解脱。
+    6.  欲解脱智（muñcitukamyatā-ñāṇa）（9）：随着厌离生起，便希望从有为法中解脱。
     
-    *   G. 省察随观智（为了见到道）：paṭisaṅkhānupassanā-ñāṇa 或 paṭisaṅkhā-ñāṇa（10）：怀着解脱的愿望，重新依三法印审察因缘，以寻找获得自由的方法。
+    7.  省察随观智（为了见到道）：paṭisaṅkhānupassanā-ñāṇa 或 paṭisaṅkhā-ñāṇa（10）：怀着解脱的愿望，重新依三法印审察因缘，以寻找获得自由的方法。
     
-    *   H. 行舍智（saṅkhārupekkhā-ñāṇa）（11）：审察有为法时，看到了它们的真实本性，并对它们生起了舍心。对因缘既不喜悦，也不厌恶。他将涅槃视为“寂静道”（santi-pada）。他放下对有为法的执着，趋向涅槃。这种知也被称为“顶端观”（sikhāpatta-vipassanā），因为它达到了顶点，或“出起观”（vuṭṭhānagāminī-vipassanā），因为它把人与道连接起来，而道是脱离执着的方法。
+    8.  行舍智（saṅkhārupekkhā-ñāṇa）（11）：审察有为法时，看到了它们的真实本性，并对它们生起了舍心。对因缘既不喜悦，也不厌恶。他将涅槃视为“寂静道”（santi-pada）。他放下对有为法的执着，趋向涅槃。这种知也被称为“顶端观”（sikhāpatta-vipassanā），因为它达到了顶点，或“出起观”（vuṭṭhānagāminī-vipassanā），因为它把人与道连接起来，而道是脱离执着的方法。
     
-    *   I. 随顺智（为了证悟真理）：saccānulomika-ñāṇa 或 anuloma-ñāṇa（12）：培养了舍心并志向涅槃时，有利于证悟真理的知便随之生起。这是观智的最后阶段。
+    9.  随顺智（为了证悟真理）：saccānulomika-ñāṇa 或 anuloma-ñāṇa（12）：培养了舍心并志向涅槃时，有利于证悟真理的知便随之生起。这是观智的最后阶段。
     
         继“随顺智”之后是“种姓智”（gotrabhū-ñāṇa）（13）：这标志着凡夫和圣者之间的过渡点。从这一点开始，道智（magga-ñāṇa）生起，导向觉悟。种姓智既不属于之前的“行道智见清净”阶段，也不属于接下来的“智见清净”阶段，而是介于两者之间。然而，它仍被认为是独立的观的层次，因为它属于观的过程。
     
-*   7\. 智见清净（ñāṇadassana-visuddhi）：这种清净是从“种姓智”之后生起的，等同于道智（magga-ñāṇa）（14）。特定道智的生起，接着是相应的“果智”（phala-ñāṇa）（15），取决于觉悟的层次。如上所述，正是这种清净使人能够证悟，达到佛教的最高目标。
+7.  智见清净（ñāṇadassana-visuddhi）：这种清净是从“种姓智”之后生起的，等同于道智（magga-ñāṇa）（14）。特定道智的生起，接着是相应的“果智”（phala-ñāṇa）（15），取决于觉悟的层次。如上所述，正是这种清净使人能够证悟，达到佛教的最高目标。
     
     通过道智和果智的证悟，省察智（paccavekkhaṇa-ñāṇa）（16）生起，它省察道和果，省察已断除的烦恼，省察剩余的烦恼，以及省察涅槃（阿罗汉不省察剩余的烦恼）。这种省察智总结了证悟特定觉悟阶段的过程。
     
@@ -888,26 +911,26 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 
 四禅那——经文中标准的一组——是四种色界禅那。在阿毗达摩中，这四禅那被扩展为五禅那。第五禅等同于原始四禅中的第四禅。（四禅被称为 jhāna-catukkanaya，五禅被称为 jhāna-pañcakanaya。）
 
-禅那（“专注”，“禅修”）是一种高度集中的状态，心专注于一个所缘。这种集中有不同的层次，基于其细腻度、深度和强度。这些层次可以通过在这些集中期间存在的心所来确定。这些心所是：寻（vitakka）、伺（vicāra）、喜（pīti）、乐（sukha）、舍（upekkhā）和一境性（ekaggatā）。四种色界禅那具有以下禅支：
+禅那（“专注”，“禅修”）是一种高度集中的状态，心专注于一个所缘。这种集中有不同的层次，基于其细腻度、深度和强度。这些层次可以通过在这些集中期间存在的心所来确定。这些心所是：寻（vitakka）、伺（vicāra）、喜（pīti）、乐（sukha）、舍（upekkhā）和心一境性（ekaggatā）。四种色界禅那具有以下禅支：
 
-1.  初禅：寻、伺、喜、乐、一境性。
+1.  初禅：寻、伺、喜、乐、心一境性。
     
-2.  二禅：喜、乐、一境性。
+2.  二禅：喜、乐、心一境性。
     
-3.  三禅：乐、一境性。
+3.  三禅：乐、心一境性。
     
-4.  四禅：舍、一境性。
+4.  四禅：舍、心一境性。
     
 
-高于这些的禅那是无色禅那（arūpa-jhāna）。无色禅那具有舍和一境性这两个禅支，但根据集中对象的不同而变得越来越精细。有关更多细节，请参阅解脱（vimokkha）一节（第4-7层次）。[\[139\]](#fn-fn139){:id="fr-fn139"}
+高于这些的禅那是无色禅那（arūpa-jhāna）。无色禅那具有舍和心一境性这两个禅支，但根据集中对象的不同而变得越来越精细。有关更多细节，请参阅解脱（vimokkha）一节（第 4-7 层次）。[\[139\]](#fn-fn139){:id="fr-fn139"}
 
-“禅那”一词可以广义地用于“专注”、“审视”或“思量”。有时，它以负面意义用于佛陀所批评的活动。例如，它可以是一种将五盖——贪欲盖、嗔恚盖、昏沉睡眠盖、掉举恶作盖和疑盖——藏于心中的方式。允许这些盖在沉思状态中侵蚀心也被称为禅那。[\[140\]](#fn-fn140){:id="fr-fn140"}“禅那”也以动词形式用于动物，例如猫头鹰凝视老鼠或狐狸捕鱼。[\[141\]](#fn-fn141){:id="fr-fn141"}有时它用于内观修习，意为“考察”或“省察”。义注偶尔将禅那分为两种类型：止禅修中对对象的专注（ārammaṇūpanijjhāna = 八定），以及产生对三法印洞察的省察（lakkhaṇūpanijjhāna = 毗婆舍那）。甚至道和果也可以称为禅那，因为它们被称为“根除烦恼”和“专注于涅槃的空性（suññatā）”。[\[142\]](#fn-fn142){:id="fr-fn142"}
+“禅那”一词可以广义地用于“专注”、“审视”或“思量”。有时，它以负面意义用于佛陀所批评的活动。例如，它可以是一种将五盖——贪欲盖、嗔恚盖、昏沉睡眠盖、掉举恶作盖和疑盖——藏于心中的方式。允许这些盖在沉思状态中侵蚀心也被称为禅那。[\[140\]](#fn-fn140){:id="fr-fn140"}“禅那”也以动词形式用于动物，例如猫头鹰凝视老鼠或狐狸捕鱼。[\[141\]](#fn-fn141){:id="fr-fn141"}有时它用于观的修习，意为“考察”或“省察”。义注偶尔将禅那分为两种类型：止禅修中对对象的专注（ārammaṇūpanijjhāna = 八定），以及产生对三法印洞察的省察（lakkhaṇūpanijjhāna = 观）。甚至道和果也可以称为禅那，因为它们被称为“根除烦恼”和“专注于涅槃的空性（suññatā）”。[\[142\]](#fn-fn142){:id="fr-fn142"}
 
 ## 附录二：能否在禅那中修观或证悟？
 
-关于在禅那中是否可以修习内观或运用正思惟，存在很多争议。那些声称不可能的人倾向于提及禅那的“禅支”：初禅中有寻和伺（vitakka 和 vicāra），而在更高的禅那中，最多只有喜、乐和一境性，那么在这种状态下，又怎能思考或省察呢？事实上，这些禅那的要素仅仅被用作确定是否已证得禅那以及确定禅那层次的标准。这并不意味着这些是禅那中唯一存在的心所。
+关于在禅那中是否可以修观或运用正思惟，存在很多争议。那些声称不可能的人倾向于提及禅那的“禅支”：初禅中有寻和伺（vitakka 和 vicāra），而在更高的禅那中，最多只有喜、乐和心一境性，那么在这种状态下，又怎能思考或省察呢？事实上，这些禅那的要素仅仅被用作确定是否已证得禅那以及确定禅那层次的标准。这并不意味着这些是禅那中唯一存在的心所。
 
-事实上，心在禅那中具有许多心所，这一点在经文和阿毗达摩的早期文献中得到了证实。例如，[MN 111 / M iii 26-27](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-111-anupada/){: target="_blank" rel="noopener"} 描述了与每个禅那层次相关的心所，从初禅到无所有处定，包括：欲（chanda）、胜解（adhimokkha）、精进（viriya）、念（sati）、舍（upekkhā）和作意（manasikāra）。同样，Dhs. 31 和 75 描述了每个禅那层次中存在的众多心所，特别是在“出世间禅那”中，[\[143\]](#fn-fn143){:id="fr-fn143"}包括：信、精进、念、定、慧五根、完整的八正道支，以及奢摩他（止）和毗婆舍那（观）两者。一些后来的义注[\[144\]](#fn-fn144){:id="fr-fn144"}扩展了 PsA. I. 132、Vism. 148-149 和 NdA. I. 133 中的段落，并明确指出定和慧在“禅那之心”（jhāna-citta）中协同作用。
+事实上，心在禅那中具有许多心所，这一点在经文和阿毗达摩的早期文献中得到了证实。例如，[MN 111 / M iii 26-27](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-111-anupada/){: target="_blank" rel="noopener"} 描述了与每个禅那层次相关的心所，从初禅到无所有处定，包括：欲（chanda）、胜解（adhimokkha）、精进（viriya）、念（sati）、舍（upekkhā）和作意（manasikāra）。同样，Dhs. 31 和 75 描述了每个禅那层次中存在的众多心所，特别是在“出世间禅那”[\[143\]](#fn-fn143){:id="fr-fn143"}中，包括：信、精进、念、定、慧五根、完整的八正道支，以及止和观两者。一些后来的义注[\[144\]](#fn-fn144){:id="fr-fn144"}扩展了 PsA. I. 132、Vism. 148-149 和 NdA. I. 133 中的段落，并明确指出定和慧在“禅那之心”（jhāna-citta）中协同作用。
 
 在更高禅那中寻和伺缺失的原因是，心已稳固确立并极大地增强。不必将注意力（vitakka）转向心中的所缘，也不必将注意力（vicāra）持续在这些所缘上。心中存在的观照超越了这些作意模式。《清净道论》这样描述观的培育：
 
@@ -916,44 +939,44 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 
 可以将“应出定……并应辨识”这一短语解释为描述一种特定的修习模式，因为该文献的复注解释说：
 
-> 此处“以止为乘者”一词是指住于禅那或住于近行定并修习内观的人。
+> 此处“以止为乘者”一词是指住于禅那或住于近行定并修观的人。
 >
 > VismṬ.: Diṭṭhivisuddhiniddesavaṇṇanā, Nāmarūpapariggahakathāvaṇṇanā
 
-关于是否可以在禅那中修习内观，或者是否必须先从禅那中出定，复注之间存在分歧。除了 AA. IV. 195 和 VismṬ. 之外，[\[145\]](#fn-fn145){:id="fr-fn145"}唯一提供在禅那中修习内观证据的另一段落是 DA. II. 512，它提及了慧解脱（paññā-vimutta）的阿罗汉：
+关于是否可以在禅那中修观，或者是否必须先从禅那中出定，复注之间存在分歧。除了 AA. IV. 195 和 VismṬ. 之外，[\[145\]](#fn-fn145){:id="fr-fn145"}唯一提供在禅那中修观证据的另一段落是 DA. II. 512，它提及了慧解脱（paññā-vimutta）的阿罗汉：
 
 > 有五种慧解脱者：纯观行者，以及住于四种禅那中的任一禅那，例如初禅，并证得阿罗汉果者。
 
-所有其余的段落都描述了先从禅那中出定，特别是当直接提及毗婆舍那的开展时。这些描述是相似的，例如：
+所有其余的段落都描述了先从禅那中出定，特别是当直接提及观的开展时。这些描述是相似的，例如：
 
 > 住于禅那并从禅那中出定后，一个人省察禅那的禅支和相关心所；住于禅那并从这种等至中出定后，一个人考察一切有为法；从定中出定后，一个人观照定的禅支；从禅那中出定后，一个人观照禅那的品质。[\[146\]](#fn-fn146){:id="fr-fn146"}
 >
 > VinA. II. 430, 433
 
-综合这些段落，义注的意见普遍是，若入了禅那，必须先出定才能修习内观。由于义注和复注中没有清晰的解释，因此很难明确解决各种争论，但有可能通过连接不同来源的证据来达成某种折衷。
+综合这些段落，义注的意见普遍是，若入了禅那，必须先出定才能修观。由于义注和复注中没有清晰的解释，因此很难明确解决各种争论，但有可能通过连接不同来源的证据来达成某种折衷。
 
-通过从禅那中出定并省察有为法来修习内观的形式，来自于《巴利三藏》的次要文献。一个清晰的例子是对《经集》（Suttanipāta）中这一段落的解释：
+通过从禅那中出定并省察有为法来修观的形式，来自于《巴利三藏》的次要文献。一个清晰的例子是对《经集》（Suttanipāta）中这一段落的解释：
 
 > 当一个人了知生起无所有处定的因缘，并了知喜的束缚时，他便清晰地辨识出此定。[\[147\]](#fn-fn147){:id="fr-fn147"}  
 > [Snp 69 / Sn 216](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-55-73-parayana/#69-snp-69-波娑罗问经-posālamāṇavapucchā){: target="_blank" rel="noopener"}, Posālamāṇavapucchā
 
 次要文献《小义释》（Cūḷaniddesa）解释“他清晰地辨识出此定”这一短语为：他进入无所有处定并从其中出定，然后辨识出在该定中生起的心和心所是无常的、苦的，等等。[\[148\]](#fn-fn148){:id="fr-fn148"}两部文献的义注都提供了相似的解释。[\[149\]](#fn-fn149){:id="fr-fn149"}
 
-这些来自次要文献和复注的解释都遵循了阿毗达摩的纲要。阿毗达摩对事物作了详细分析，并将心分解为独立的心刹那，描述了心与其他要素相关的活动，例如与感官印象的卷入。阿毗达摩声称在禅那中不可能修习内观，因为在安止定的瞬间，心是专注于属于禅那的“所缘”（ārammaṇa）的。涉及毗婆舍那修习的所缘是独立的，因此不能在禅那的同一个心刹那中修习内观。[\[150\]](#fn-fn150){:id="fr-fn150"}必须先将注意力从所缘（在禅那中）移开，并专注于另一个对象，这意味着从禅那中出定。[\[151\]](#fn-fn151){:id="fr-fn151"}这并不是一个很大的步骤：它只是需要调整或中断觉知的流（一境性），并进入“有分心”（bhavaṅga），这等同于从禅那中出定。[\[152\]](#fn-fn152){:id="fr-fn152"}
+这些来自次要文献和复注的解释都遵循了阿毗达摩的纲要。阿毗达摩对事物作了详细分析，并将心分解为独立的心刹那，描述了心与其他要素相关的活动，例如与感官印象的卷入。阿毗达摩声称在禅那中不可能修观，因为在安止定的瞬间，心是专注于属于禅那的“所缘”（ārammaṇa）的。涉及观的修习的所缘是独立的，因此不能在禅那的同一个心刹那中修观。[\[150\]](#fn-fn150){:id="fr-fn150"}必须先将注意力从所缘（在禅那中）移开，并专注于另一个对象，这意味着从禅那中出定。[\[151\]](#fn-fn151){:id="fr-fn151"}这并不是一个很大的步骤：它只是需要调整或中断觉知的流（心一境性），并进入“有分心”（bhavaṅga），这等同于从禅那中出定。[\[152\]](#fn-fn152){:id="fr-fn152"}
 
-从禅那中出定后，由于在禅那中培育出的心力，心立即恢复了“安止定”（appanā-samādhi）的稳定。（人们可能误解为出定意味着回到心烦意乱或困惑的状态。）然后，运用安止定来修习内观，观照刚刚出定的那一禅那层次上存在的要素，并根据三法印来了知它们。[\[153\]](#fn-fn153){:id="fr-fn153"}这些要素成为毗婆舍那的所缘。（总而言之，要省察禅那的方面〔jhāna-dhamma〕、与禅那相关的事物〔jhānasampayutta-dhamma〕、等至的方面〔samāpatti-dhamma〕、与禅定相关的事物〔samāpattisampayutta-dhamma〕、在禅那中生起的心和心所，甚至所有有为法。）
+从禅那中出定后，由于在禅那中培育出的心力，心立即恢复了“安止定”（appanā-samādhi）的稳定。（人们可能误解为出定意味着回到心烦意乱或困惑的状态。）然后，运用安止定来修观，观照刚刚出定的那一禅那层次上存在的要素，并根据三法印来了知它们。[\[153\]](#fn-fn153){:id="fr-fn153"}这些要素成为观的所缘。（总而言之，要省察禅那的方面〔jhāna-dhamma〕、与禅那相关的事物〔jhānasampayutta-dhamma〕、等至的方面〔samāpatti-dhamma〕、与禅定相关的事物〔samāpattisampayutta-dhamma〕、在禅那中生起的心和心所，甚至所有有为法。）
 
-禅那的定力（以及更高级的禅定等至的定力）使得毗婆舍那的修习更有效和熟练，这是止禅前导内观的特殊价值。[\[154\]](#fn-fn154){:id="fr-fn154"}义注使用“以禅那为基础修习内观”的表达来描述运用从禅那获得的定力来观照有为实相的过程。此处的禅那被称为“作为毗婆舍那基础的禅那”，[\[155\]](#fn-fn155){:id="fr-fn155"}并根据达到的禅那层次使用各种术语，例如：“以初禅为基础”、“以二禅为基础”、“以无所有处为基础”、“以初禅为基础的毗婆舍那”、“以二禅为基础的毗婆舍那”、“以无色禅那为基础的毗婆舍那”等。禅那的层次越高，用于毗婆舍那的定力就越深、越强。
+禅那的定力（以及更高级的禅定等至的定力）使得观的修习更有效和熟练，这正是以止为先导修观的特殊价值。[\[154\]](#fn-fn154){:id="fr-fn154"}义注使用“以禅那为基础修观”的表达来描述运用从禅那获得的定力来观照有为实相的过程。此处的禅那被称为“作为观基础的禅那”[\[155\]](#fn-fn155){:id="fr-fn155"}，并根据达到的禅那层次使用各种术语，例如：“以初禅为基础”、“以二禅为基础”、“以无所有处为基础”、“以初禅为基础的观”、“以二禅为基础的观”、“以无色禅那为基础的观”等。禅那的层次越高，用于观的定力就越深、越强。
 
-从这种毗婆舍那修习中获得的智慧也可以按禅那的层次分类，例如：“初禅的观智”或“初禅观智”。[\[156\]](#fn-fn156){:id="fr-fn156"}道（magga）证悟的层次取决于所用的禅那层次作为基础，但“非想非非想处”和“灭尽定”的情况除外。（关于道与禅那的关系，请参见例如 DhsA. 228 和 Vism. 666-667 中的不同意见，这在前面已提及。）
+从这种观的修习中获得的智慧也可以按禅那的层次分类，例如：“初禅的观智”或“初禅观智”。[\[156\]](#fn-fn156){:id="fr-fn156"}随后生起的道（magga），其所具的禅那也与作为基础的那一层禅那相同，但“非想非非想处”和“灭尽定”的情况除外。（关于道与禅那的关系，请参见例如 DhsA. 228 和 Vism. 666-667 中的不同意见，这在前面已提及。）
 
-从上述可知，关于在禅那中修习内观的教导和关于先从禅那中出来再修习内观的教导并不矛盾。前者可以称为经文的教导，更为普遍。在这种教导中，“禅那”一词既指实际的禅那状态，也指禅那力量所产生的心的稳定。“在禅那中修习内观”这一表达是指进入禅那，然后利用禅那的力量来修习内观。后者可以称为阿毗达摩的教导，更为具体。[\[157\]](#fn-fn157){:id="fr-fn157"}在这里，“禅那”的定义被限定在心专注于禅修所缘，例如呼吸或遍处（kasiṇa）的“禅相”（nimitta）的过程。
+从上述可知，关于在禅那中修观的教导和关于先从禅那中出来再修观的教导并不矛盾。前者可以称为经文的教导，更为普遍。在这种教导中，“禅那”一词既指实际的禅那状态，也指禅那力量所产生的心的稳定。“在禅那中修观”这一表达是指进入禅那，然后利用禅那的力量来修观。后者可以称为阿毗达摩的教导，更为具体。[\[157\]](#fn-fn157){:id="fr-fn157"}在这里，“禅那”的定义被限定在心专注于禅修所缘，例如呼吸或遍处（kasiṇa）的“禅相”（nimitta）的过程。
 
-阿毗达摩解释说，禅那中的心始终专注于所缘。当心开始运用智慧来观照时，觉知的焦点必须从那个原始所缘移开。阿毗达摩将禅那所强化的心识状态区分开来，将其视为一个独立的过程，即放弃止的所缘并从禅那中出定，尽管他们承认心仍然异常集中。修行者利用这种心力来修习内观，并将注意力转向刚刚出定的禅那及其属性，例如：寻（vitakka）、伺（vicāra）、喜（pīti）、乐（sukha）、欲（chanda）和精进（viriya），作为观照的所缘。这种焦点的改变导致从禅那中出定并进入“有分”（bhavaṅga）。从这一点开始，便进入了一个新的禅修阶段，即内观修习。
+阿毗达摩解释说，禅那中的心始终专注于所缘。当心开始运用智慧来观照时，觉知的焦点必须从那个原始所缘移开。阿毗达摩将禅那所强化的心识状态区分开来，将其视为一个独立的过程，即放弃止的所缘并从禅那中出定，尽管他们承认心仍然异常集中。修行者利用这种心力来修观，并将注意力转向刚刚出定的禅那及其属性，例如：寻（vitakka）、伺（vicāra）、喜（pīti）、乐（sukha）、欲（chanda）和精进（viriya），作为观照的所缘。这种焦点的改变导致从禅那中出定并进入“有分”（bhavaṅga）。从这一点开始，便进入了一个新的禅修阶段，即观的修习。
 
-通过这种区分，需要一个新的术语来描述这个过程，因为尽管从禅那中出定，心并未回到禅那之前的状态。义注师们创造了“以禅那为基础”的表达。他们还引用了“有分心”（bhavaṅga-citta）的原则来定义从禅那状态中出定或中断。[\[158\]](#fn-fn158){:id="fr-fn158"}根据这些证据，我们可以得出结论，普遍的说法“在禅那中修习内观”等同于义注中更具体的说法：“进入禅那后，出定并省察有为法”；[\[159\]](#fn-fn159){:id="fr-fn159"}“从基础禅那中出定，省察诸法”；[\[160\]](#fn-fn160){:id="fr-fn160"}“将禅那确立为基础，修习内观”；[\[161\]](#fn-fn161){:id="fr-fn161"}“证得禅那后，以禅那为基础修习内观”；[\[162\]](#fn-fn162){:id="fr-fn162"}以及：“从定等至中出定后，以坚固的心修习毗婆舍那。”[\[163\]](#fn-fn163){:id="fr-fn163"}
+通过这种区分，需要一个新的术语来描述这个过程，因为尽管从禅那中出定，心并未回到禅那之前的状态。义注师们创造了“以禅那为基础”的表达。他们还引用了“有分心”（bhavaṅga-citta）的原则来定义从禅那状态中出定或中断。[\[158\]](#fn-fn158){:id="fr-fn158"}根据这些证据，我们可以得出结论，普遍的说法“在禅那中修观”等同于义注中更具体的说法：“进入禅那后，出定并省察有为法”[\[159\]](#fn-fn159){:id="fr-fn159"}；“从基础禅那中出定，省察诸法”[\[160\]](#fn-fn160){:id="fr-fn160"}；“将禅那确立为基础，修观”[\[161\]](#fn-fn161){:id="fr-fn161"}；“证得禅那后，以禅那为基础修观”[\[162\]](#fn-fn162){:id="fr-fn162"}；以及：“从定等至中出定后，以坚固的心修观。”[\[163\]](#fn-fn163){:id="fr-fn163"}
 
-经文教导和阿毗达摩教导的根本信息是相同的：运用禅那中产生的定力，从而为智慧洞见实相创造最佳条件。通过进入禅那，心为下一个阶段——内观（毗婆舍那）——做好了准备。由于对禅那的依赖，义注将这个过程称为“以禅那为基础的毗婆舍那”或“以禅那为因的毗婆舍那”。这种解释与经常提及的经文段落相符：当我定心如此清净、明亮……柔软、适业、安住……我将它导向知……。[\[164\]](#fn-fn164){:id="fr-fn164"}有了禅那，便为投入修习做好了心的准备。这种心识状态被称为“适于趣向”（abhinīhārakkhama），它导向更高尚的证得。根据经文段落，义注师将九种素质归因于这种心识状态。心是：[\[165\]](#fn-fn165){:id="fr-fn165"}
+经文教导和阿毗达摩教导的根本信息是相同的：运用禅那中产生的定力，从而为智慧洞见实相创造最佳条件。通过进入禅那，心为下一个阶段——观——做好了准备。由于对禅那的依赖，义注将这个过程称为“以禅那为基础的观”或“以禅那为因的观”。这种解释与经常提及的经文段落相符：当我定心如此清净、明亮……柔软、适业、安住……我将它导向知……。[\[164\]](#fn-fn164){:id="fr-fn164"}有了禅那，便为投入修习做好了心的准备。这种心识状态被称为“适于趣向”（abhinīhārakkhama），它导向更高尚的证得。根据经文段落，义注师将九种素质归因于这种心识状态。心是：[\[165\]](#fn-fn165){:id="fr-fn165"}
 
 1.  正定（samāhita）；
     
@@ -974,27 +997,27 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 9.  不动（āneñjappatta）。
     
 
-无论如何，证得禅那但不用它作为内观基础的人，只能在近行定（upacāra）或刹那定（khaṇika）的帮助下发展毗婆舍那。这与从未证得禅那而修习内观的人相似。
+无论如何，证得禅那但不用它作为观基础的人，只能在近行定（upacāra）或刹那定（khaṇika）的帮助下发展观。这与从未证得禅那而修观的人相似。
 
 ## 附录三：能否在非想非非想处定中修观？
 
-非想非非想处定（nevasaññānāsaññāyatana）和想受灭尽定（saññāvedayita-nirodha）[\[166\]](#fn-fn166){:id="fr-fn166"}这些境界被归类为收获禅修成果的等至，它们不直接用于内观的实践。较低的禅定等至，从无所有处定及其以下的禅定，既可以用来体验修习的成果，也可以用来修习内观与思惟。这些较低的等至仍然清楚地伴随着想和其它心所法，如同对无所有处定作为“想顶”的描述所证实的那样。[\[167\]](#fn-fn167){:id="fr-fn167"}无所有处定是仍然伴随想的最高成就。它被称为“想顶”（saññagga），因为它是在世间法中可用于内观修习的最高等至。[\[168\]](#fn-fn168){:id="fr-fn168"}
+非想非非想处定（nevasaññānāsaññāyatana）和想受灭尽定（saññāvedayita-nirodha）[\[166\]](#fn-fn166){:id="fr-fn166"}这些境界被归类为收获禅修成果的等至，它们不直接用于观的实践。较低的禅定等至，从无所有处定及其以下的禅定，既可以用来体验修习的成果，也可以用来修观与思惟。这些较低的等至仍然清楚地伴随着想和其它心所法，如同对无所有处定作为“想顶”的描述所证实的那样。[\[167\]](#fn-fn167){:id="fr-fn167"}无所有处定是仍然伴随想的最高成就。它被称为“想顶”（saññagga），因为它是在世间法中可用于观的修习的最高等至。[\[168\]](#fn-fn168){:id="fr-fn168"}
 
-非想非非想处定（nevasaññānāsaññāyatana）极其微细，因此被称为“非想非非想”。这种状态的另一个名称是“有行残余定”（saṅkhārāvasesa-samāpatti），因为这种状态的有为法极其微细。在大多数情况下，这些有为法不够明显、粗显，不适合内观修习。更不用说在这种状态中修习内观了，即使出定之后，几乎也不可能观照这些有为法。这至少需要像尊者舍利弗（Sāriputta）那样的智慧水平，而即使是他也只能将它们作为一个整体（kalāpa-vipassanā）来观照。只有佛陀才能够辨识和分析每一个别有为法（anupada-vipassanā）。[\[169\]](#fn-fn169){:id="fr-fn169"}
+非想非非想处定（nevasaññānāsaññāyatana）极其微细，因此被称为“非想非非想”。这种状态的另一个名称是“有行残余定”（saṅkhārāvasesa-samāpatti），因为这种状态的有为法极其微细。在大多数情况下，这些有为法不够明显、粗显，不适合观的修习。更不用说在这种状态中修观了，即使出定之后，几乎也不可能观照这些有为法。这至少需要像尊者舍利弗（Sāriputta）那样的智慧水平，而即使是他也只能将它们作为一个整体（kalāpa-vipassanā）来观照。只有佛陀才能够辨识和分析每一个别有为法（anupada-vipassanā）。[\[169\]](#fn-fn169){:id="fr-fn169"}
 
-经文将八种定（samāpatti）称为“内观的基础”，[\[170\]](#fn-fn170){:id="fr-fn170"}“等至成果的基础”，[\[171\]](#fn-fn171){:id="fr-fn171"}并统称为“证入灭尽的基础”。[\[172\]](#fn-fn172){:id="fr-fn172"}非想非非想处定则并非如此，它不以主动方式运作。这在想受灭等至中清晰可见，其中主动的等至是无所有处定；尽管非想非非想处定是一个重要的中间阶段，但它更多地充当一个通道。[\[173\]](#fn-fn173){:id="fr-fn173"}即使已经证得了渐次禅定直至非想非非想处禅定，如果没有在无所有处定和非想非非想处定之间充分准备好心，也将无法进入想受灭定。而且他将不得不返回无所有处定以满足这个先决条件。[\[174\]](#fn-fn174){:id="fr-fn174"}
+经文将八种定（samāpatti）称为“观的基础”[\[170\]](#fn-fn170){:id="fr-fn170"}，“等至成果的基础”[\[171\]](#fn-fn171){:id="fr-fn171"}，并统称为“证入灭尽的基础”。[\[172\]](#fn-fn172){:id="fr-fn172"}非想非非想处定则并非如此，它不以主动方式运作。这在想受灭等至中清晰可见，其中主动的等至是无所有处定；尽管非想非非想处定是一个重要的中间阶段，但它更多地充当一个通道。[\[173\]](#fn-fn173){:id="fr-fn173"}即使已经证得了渐次禅定直至非想非非想处禅定，如果没有在无所有处定和非想非非想处定之间充分准备好心，也将无法进入想受灭定。而且他将不得不返回无所有处定以满足这个先决条件。[\[174\]](#fn-fn174){:id="fr-fn174"}
 
-由此我们可以得出结论，非想非非想处禅定仅限于体验这种特定等至的成果。当退出此境界时，是彻底地退出：在此意识水平上没有心识状态留下。在内观修习方面，与其它禅那等至不同，从非想非非想处定出定，并非为了转移注意力焦点，而是降到较低的禅定层次：无所有处定。[\[175\]](#fn-fn175){:id="fr-fn175"}这在所有方面都是退出此等至。
+由此我们可以得出结论，非想非非想处禅定仅限于体验这种特定等至的成果。当退出此境界时，是彻底地退出：在此意识水平上没有心识状态留下。在观的修习方面，与其它禅那等至不同，从非想非非想处定出定，并非为了转移注意力焦点，而是降到较低的禅定层次：无所有处定。[\[175\]](#fn-fn175){:id="fr-fn175"}这在所有方面都是退出此等至。
 
-因此，作为内观修习的准备，经文使用“从非想非非想处定出定”的说法。没有明确提到将非想非非想处定作为“内观的基础”。仍然可以使用“毗婆舍那基础”这个说法，因为从非想非非想处定出定后，心变得高度微细，尽管从技术上讲，心应用的是与无所有处定相关的近行定。另请注意，所有无色界定的定力都处于四禅的水平；它只是越来越微细，并远离了心的障碍（paccanīka-dhamma）。[\[176\]](#fn-fn176){:id="fr-fn176"}
+因此，作为修观的准备，经文使用“从非想非非想处定出定”的说法。没有明确提到将非想非非想处定作为“观的基础”。仍然可以使用“修观的基础”这个说法，因为从非想非非想处定出定后，心变得高度微细，尽管严格说来，此时修观所用的心仍是无所有处层次的安止定。另请注意，所有无色界定的定力都处于四禅的水平；它只是越来越微细，并远离了心的障碍（paccanīka-dhamma）。[\[176\]](#fn-fn176){:id="fr-fn176"}
 
-“想受灭尽定”（saññāvedayita-nirodha）显然仅限于体验这种特定等至的成果。在这种状态下不可能培育观，因为没有想或受（以及其它蕴——khandha）伴随这种定，可以作为观照的焦点。这种状态的一个独特特征是，它是唯一不被归类为定（samādhi）的定（samāpatti），这一事实证实了必须首先退出这种状态才能发展毗婆舍那的说法。[\[177\]](#fn-fn177){:id="fr-fn177"}
+“想受灭尽定”（saññāvedayita-nirodha）显然仅限于体验这种特定等至的成果。在这种状态下不可能培育观，因为没有想或受（以及其它蕴——khandha）伴随这种定，可以作为观照的焦点。这种状态的一个独特特征是，它是唯一不被归类为定（samādhi）的定（samāpatti），这一事实证实了必须首先退出这种状态才能发展观的说法。[\[177\]](#fn-fn177){:id="fr-fn177"}
 
-当退出此状态以修习毗婆舍那时，应当安住于可用于此活动的最高定境，即无所有处定。（可以使用任何禅定层次，包括“刹那定”〔khaṇika-samādhi〕，它甚至不是禅那的层次，因为已达到较高禅定层次的人对较低层次具有掌控力。）无论如何，尽管“想受灭尽定”不能直接用于培育观智，但证入此等至能使心极为微细，对修行具有巨大益处。
+当退出此状态以修观时，应当安住于可用于此活动的最高定境，即无所有处定。（可以使用任何禅定层次，包括“刹那定”〔khaṇika-samādhi〕，它甚至不是禅那的层次，因为已达到较高禅定层次的人对较低层次具有掌控力。）无论如何，尽管“想受灭尽定”不能直接用于培育观智，但证入此等至能使心极为微细，对修行具有巨大益处。
 
 ## 附录四：证得道果时的心刹那
 
-几段义注提及了这样的教导：在证得阿罗汉果的刹那，心必须达到“安止定”（appanā-samādhi = 禅那），即使对于从未进入过禅那的人也是如此。[\[178\]](#fn-fn178){:id="fr-fn178"}根据《阿毗达摩》（Abhidhamma）的模式，这些段落概述了以毗婆舍那（vipassanā-yānika）为乘的修行者在证得道果时[\[179\]](#fn-fn179){:id="fr-fn179"}的心识活动序列。此概述可图示如下（括号中的数字指代不同的心刹那）：
+几段义注提及了这样的教导：在证得圣道的刹那，心必须达到“安止定”（appanā-samādhi = 禅那），即使对于从未进入过禅那的人也是如此。[\[178\]](#fn-fn178){:id="fr-fn178"}根据《阿毗达摩》（Abhidhamma）的模式，这些段落概述了以观为乘的修行者（vipassanā-yānika）在证得道果时[\[179\]](#fn-fn179){:id="fr-fn179"}的心识活动序列。此概述可图示如下（括号中的数字指代不同的心刹那）：
 
 > （Saṅkhārupekkhā-ñāṇa[\[180\]](#fn-fn180){:id="fr-fn180"} → 有分〔bhavaṅga〕 →）意门转向（mano-dvārāvajjana） → （1）预备（parikamma）[\[181\]](#fn-fn181){:id="fr-fn181"} → （2）近行（upacāra） → （3）随顺（anuloma） → （4）种姓（gotrabhū） → （5）道心（magga-citta） → （6-7）果心（phala-citta）[\[182\]](#fn-fn182){:id="fr-fn182"} → 有分（bhavaṅga）。
 
@@ -1006,13 +1029,13 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 
 以下是止乘行者（samatha-yānika）的心识过程概要：
 
-> 有分（bhavaṅga） → 智心路（ñāṇa-vīthi，智的心识过程） → 有分（bhavaṅga） → 观心路（vipassanā-vīthi，毗婆舍那的心识过程）[\[183\]](#fn-fn183){:id="fr-fn183"} → 有分（bhavaṅga） → 道心路（magga-vīthi）[\[184\]](#fn-fn184){:id="fr-fn184"} → 有分（bhavaṅga）。
+> 有分（bhavaṅga） → 智心路（ñāṇa-vīthi，智的心识过程） → 有分（bhavaṅga） → 观心路（vipassanā-vīthi，观的心识过程）[\[183\]](#fn-fn183){:id="fr-fn183"} → 有分（bhavaṅga） → 道心路（magga-vīthi）[\[184\]](#fn-fn184){:id="fr-fn184"} → 有分（bhavaṅga）。
 
 无论如何，在觉悟的刹那所生起的智见，通过消除烦恼和改变人格而产生深刻的转化，必然是一种遍透整个身心的体验。
 
 ## 附录五：阿那含死后
 
-《阿毗达摩》说，不还者死后会再现于净居天（Suddhāvāsā），并将净居天归类为四禅的境界。[\[185\]](#fn-fn185){:id="fr-fn185"}然而，《阿毗达摩义广释》（Abhidhammatthavibhāvinī）解释说，不还者将出现在与他们特定禅那层次相对应的境界中；唯一固定的规则是，净居天只为不还者所有。[\[186\]](#fn-fn186){:id="fr-fn186"}这引发了疑问：那些纯观乘者或纯观行者（suddhavipassanā-yānika 或 sukkha-vipassaka）且未证得四禅的不还者（例如《清净道论》和《清净道论大复注》〔Visuddhimagga Mahāṭīkā〕中提及的那些），如何能出现在净居天？[\[187\]](#fn-fn187){:id="fr-fn187"}《阿毗达摩义广释》回应这一疑问说：尽管那些不还者是纯观行者，但在临终时，他们总会进入禅定（samāpatti），因为他们已圆满了定力的修习。[\[188\]](#fn-fn188){:id="fr-fn188"}无论如何，《巴利三藏》的经文确认，证得前四禅中任何一禅的不还者都会再现于净居天。[\[189\]](#fn-fn189){:id="fr-fn189"}在这里，义注也解释说，这些不还者在再现于净居天之前会证得四禅。[\[190\]](#fn-fn190){:id="fr-fn190"}
+《阿毗达摩》说，阿那含死后会再现于净居天（Suddhāvāsā），并将净居天归类为四禅的境界。[\[185\]](#fn-fn185){:id="fr-fn185"}然而，《阿毗达摩义广释》（Abhidhammatthavibhāvinī）解释说，阿那含将出现在与他们特定禅那层次相对应的境界中；唯一固定的规则是，净居天只为阿那含所有。[\[186\]](#fn-fn186){:id="fr-fn186"}这引发了疑问：那些纯观乘者或纯观行者（suddhavipassanā-yānika 或 sukkha-vipassaka）且未证得四禅的阿那含（例如《清净道论》和《清净道论大复注》〔Visuddhimagga Mahāṭīkā〕中提及的那些），如何能出现在净居天？[\[187\]](#fn-fn187){:id="fr-fn187"}《阿毗达摩义广释》回应这一疑问说：尽管那些阿那含是纯观行者，但在临终时，他们总会进入禅定（samāpatti），因为他们已圆满了定力的修习。[\[188\]](#fn-fn188){:id="fr-fn188"}无论如何，《巴利三藏》的经文确认，证得前四禅中任何一禅的阿那含都会再现于净居天。[\[189\]](#fn-fn189){:id="fr-fn189"}在这里，义注也解释说，这些阿那含在再现于净居天之前会证得四禅。[\[190\]](#fn-fn190){:id="fr-fn190"}
 
 ## 附录六：想受灭尽定
 
@@ -1028,28 +1051,28 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 > 比丘证入想受灭尽定，并以智慧照见，诸漏已尽。这是直接（nippariyāya）意义上的现法涅槃（diṭṭhadhamma-nibbāna）。  
 > [AN 9.51 / A iv 454-455](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-042-051-samanna/#10-an-951-现法涅槃经-diṭṭhadhammanibbānasutta){: target="_blank" rel="noopener"}, Diṭṭhadhammanibbāna Sutta
 
-此处，想受灭尽定（saññāvedayita-nirodha）并非涅槃，而是证悟涅槃的基础。涅槃等同于诸漏的灭尽。[\[193\]](#fn-fn193){:id="fr-fn193"}另有经文指出，八解脱（vimokkha）（请注意，想受灭尽定等至是一种解脱）应以身体来证得，[\[194\]](#fn-fn194){:id="fr-fn194"}而诸漏尽（涅槃的定义）则应以智慧来证得。[\[195\]](#fn-fn195){:id="fr-fn195"}《相应部》（Saṁyutta Nikāya）中的一段话指出：
+此处，想受灭尽定（saññāvedayita-nirodha）并非涅槃，而是证悟涅槃的基础。涅槃等同于诸漏的灭尽。[\[193\]](#fn-fn193){:id="fr-fn193"}另有经文指出，八解脱（vimokkha）（请注意，想受灭尽定等至是一种解脱）应以身体[\[194\]](#fn-fn194){:id="fr-fn194"}来证得，而诸漏尽（涅槃的定义）则应以智慧来证得。[\[195\]](#fn-fn195){:id="fr-fn195"}《相应部》（Saṁyutta Nikāya）中的一段话指出：
 
 > 对于已证入想受灭尽定者，想与受已止息。对于诸漏已尽的比丘，贪、嗔、痴已止息。  
 > [SN 36.11 / S iv 217](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#21-sn-3611-独坐经-rahogatasutta){: target="_blank" rel="noopener"}, Rahogata Sutta
 
-另请注意，佛陀般涅槃时，他进入了次第定（anupubbavihāra-samāpatti），从初禅直至想受灭尽定，但他并没有在想受灭尽定中进入究竟涅槃。[\[196\]](#fn-fn196){:id="fr-fn196"}他逐渐返回初禅，然后依次进入禅那直至四禅，在那一刻他证得了究竟涅槃。
+另请注意，佛陀临般涅槃时，他进入了次第定（anupubbavihāra-samāpatti），从初禅直至想受灭尽定，但他并没有在想受灭尽定中般涅槃。[\[196\]](#fn-fn196){:id="fr-fn196"}他逐渐返回初禅，然后依次进入禅那直至四禅，出四禅后，便般涅槃。
 
 ![image](./images/illustrations/lotus-decor-trade.jpg)
 
 \[1\] 禅那（Jhāna）：禅定吸收；专注吸收。参见附录一。[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
 
-\[2\] 五盖（nīvaraṇa）：欲贪（kāma-chanda）、嗔恚（byāpāda）、昏沉睡眠（thīna-middha）、掉举恶作（uddhacca-kukkucca）和疑（vicikicchā）。[&nbsp;↩&nbsp;](#fr-fn2)
+\[2\] 五盖（nīvaraṇa）：贪欲盖（kāma-chanda）、嗔恚盖（byāpāda）、昏沉睡眠盖（thīna-middha）、掉举恶作盖（uddhacca-kukkucca）和疑盖（vicikicchā）。[&nbsp;↩&nbsp;](#fr-fn2)
 {: id="fn-fn2"}
 
-\[3\] 《阿毗达摩》，例如：Dhs. 61, 64, 68。经文，例如：[AN 2.32 / A i 61](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#311-an-232-离贪无明){: target="_blank" rel="noopener"}（AA. II. 119 中解释）。在 [AN 6.54 / A iii 373](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#12-an-654-昙弥经-dhammikasutta){: target="_blank" rel="noopener"}中，谈到五根（indriya）时，samatha 取代 samādhi，vipassanā 取代 paññā。[&nbsp;↩&nbsp;](#fr-fn3)
+\[3\] 《阿毗达摩》，例如：Dhs. 61, 64, 68。经文，例如：[AN 2.32 / A i 61](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#311-an-232-离贪无明){: target="_blank" rel="noopener"}（AA. II. 119 中解释）。在 [AN 6.54 / A iii 373](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#12-an-654-昙弥经-dhammikasutta){: target="_blank" rel="noopener"} 中，谈到五根（indriya）时，samatha 取代 samādhi，vipassanā 取代 paññā。[&nbsp;↩&nbsp;](#fr-fn3)
 {: id="fn-fn3"}
 
 \[4\] 译者注：samuccheda：“断除”、“摧毁”。[&nbsp;↩&nbsp;](#fr-fn4)
 {: id="fn-fn4"}
 
-\[5\] 尽管止（samatha）可以导向五神通（abhiññā），而神通是智慧（ñāṇa）的层次，但这种成就必须以禅那为先导。心识在适当的禅定（samādhi）加持下，运用禅那的力量来达到下一个知识阶段。严格来说，止（samatha）止于禅那；它不会超越非想非非想处智（nevasaññānāsaññāyatana-ñāṇa）（参见：VismṬ.：Paññābhāvanānisaṁsaniddesavaṇṇanā, Nirodhasamāpattikathāvaṇṇanā）。[&nbsp;↩&nbsp;](#fr-fn5)
+\[5\] 尽管止（samatha）可以导向五神通（abhiññā），而神通是智慧（ñāṇa）的层次，但这种成就必须以禅那为先导。心识在适当的禅定（samādhi）加持下，运用禅那的力量来达到下一个知识阶段。严格来说，止（samatha）止于禅那；它不会超越非想非非想处禅那（nevasaññānāsaññāyatana-jhāna）（参见：VismṬ.：Paññābhāvanānisaṁsaniddesavaṇṇanā, Nirodhasamāpattikathāvaṇṇanā）。[&nbsp;↩&nbsp;](#fr-fn5)
 {: id="fn-fn5"}
 
 \[6\] 例如：Vism. 370-372。[&nbsp;↩&nbsp;](#fr-fn6)
@@ -1073,7 +1096,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[12\] [DN 1 / D i 36-37](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-01-brahmajala/){: target="_blank" rel="noopener"}, Brahmajāla Sutta。[&nbsp;↩&nbsp;](#fr-fn12)
 {: id="fn-fn12"}
 
-\[13\] 不还者拥有“完全的”禅定（samādhi），例如：[AN 3.87 / A i 232](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#6-an-387-学处之一-paṭhamasikkhāsutta){: target="_blank" rel="noopener"}；[AN 9.12 / A iv 380](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#2-an-912-有余依经-saupādisesasutta){: target="_blank" rel="noopener"}；参阅：Vism. 704；VismṬ.：Paññābhāvanānisaṁsaniddesavaṇṇanā, Nirodhasamāpattikathāvaṇṇanā。关于不还者死后的去处，请参见附录五。[&nbsp;↩&nbsp;](#fr-fn13)
+\[13\] 阿那含拥有“完全的”禅定（samādhi），例如：[AN 3.87 / A i 232](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#6-an-387-学处之一-paṭhamasikkhāsutta){: target="_blank" rel="noopener"}；[AN 9.12 / A iv 380](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-011-020-sihanada/#2-an-912-有余依经-saupādisesasutta){: target="_blank" rel="noopener"}；参照：Vism. 704；VismṬ.：Paññābhāvanānisaṁsaniddesavaṇṇanā, Nirodhasamāpattikathāvaṇṇanā。关于阿那含死后的去处，请参见附录五。[&nbsp;↩&nbsp;](#fr-fn13)
 {: id="fn-fn13"}
 
 \[14\] 一些义注段落断言，涅槃等同于解脱（vimutti），因为所摆脱的是一切有为法（saṅkhata-dhamma），而不仅仅是烦恼。参见：DA. III. 985。[&nbsp;↩&nbsp;](#fr-fn14)
@@ -1097,7 +1120,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[20\] 《无碍解道》（Paṭisambhidāmagga）使用“解脱”（vimokkha）一词，并配以修饰形容词来描述不同种类的解脱（参见：Ps. II. 35-71，特别是第 40-41 页）。至于“解脱”（vimutti）一词，《无碍解道》提供了广泛的定义，从戒清净（sīla-visuddhi）到涅槃。甚至受（vedanā）也可以是一种解脱，但所有这些定义都分为两类：涅槃，以及以涅槃为禅修所缘（ārammaṇa）而产生的事物；Ps. II. 140-146。[&nbsp;↩&nbsp;](#fr-fn20)
 {: id="fn-fn20"}
 
-\[21\] 在许多地方，不同版本的《巴利三藏》互换使用“不动解脱”（akuppā-vimutti）和“不动心解脱”（akuppā-cetovimutti）——泰文版使用 akuppā-vimutti，而罗马字版使用 akuppā-cetovimutti，例如：[MV 1 / Vin i 11](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 22.26–27 / S iii 29](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-22-32-bhara/#5-sn-2226-味经一-assādasuttaṃ){: target="_blank" rel="noopener"}；[SN 35.15 / S iv 9](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-13-22-yamaka/#3-sn-3515-寻求乐味与过患之一-paṭhamaassādapariyesanasutta){: target="_blank" rel="noopener"}；[SN 48.21 / S v 204](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-21-30-chalindriya/#1-sn-4821-后有-punabbhavasutta){: target="_blank" rel="noopener"}；[SN 56.11 / S v 423](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}；[AN 3.104 / A i 259](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#1-an-3104-正觉以前经-pubbevasambodhasutta){: target="_blank" rel="noopener"}；[AN 7.50 / A iv 56](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#7-an-750-婬欲偶合经-methunasutta){: target="_blank" rel="noopener"}。Akuppā-vimutti 始终用于：[MN 26 / M i 167](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-026-pasarasi/){: target="_blank" rel="noopener"}；[MN 128 / M iii 162](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-128-upakkilesa/){: target="_blank" rel="noopener"}；[AN 3.86 / A i 231](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#5-an-386-有学经-sekkhasutta){: target="_blank" rel="noopener"}；[AN 6.45 / A iii 354](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#3-an-645-负债经-iṇasutta){: target="_blank" rel="noopener"}；[Iti 3.13 / It 53](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#23-iti-313-根经){: target="_blank" rel="noopener"}；[Thag 2.31 / Thag verse 182](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-231-弥格悉拉长老偈-migasirattheragāthā){: target="_blank" rel="noopener"}。Akuppā-cetovimutti 始终用于：[DN 34 / D iii 273](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[MN 29 / M i 197](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-029-mahasaropama/){: target="_blank" rel="noopener"}；[AN 8.64 / A iv 305](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-061-070-bhumicala/#4-an-864-伽耶象头山-gayāsīsasutta){: target="_blank" rel="noopener"}；[AN 9.41 / A iv 448](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#10-an-941-多梨富沙居士经-tapussasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn21)
+\[21\] 在许多地方，不同版本的《巴利三藏》互换使用“不动解脱”（akuppā-vimutti）和“不动心解脱”（akuppā-cetovimutti）——泰文字母版使用 akuppā-vimutti，而罗马字母版使用 akuppā-cetovimutti，例如：[MV 1 / Vin i 11](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 22.26–27 / S iii 29](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-22-32-bhara/#5-sn-2226-味经一-assādasuttaṃ){: target="_blank" rel="noopener"}；[SN 35.15 / S iv 9](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-13-22-yamaka/#3-sn-3515-寻求乐味与过患之一-paṭhamaassādapariyesanasutta){: target="_blank" rel="noopener"}；[SN 48.21 / S v 204](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-21-30-chalindriya/#1-sn-4821-后有-punabbhavasutta){: target="_blank" rel="noopener"}；[SN 56.11 / S v 423](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}；[AN 3.104 / A i 259](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-104-113-sambodha/#1-an-3104-正觉以前经-pubbevasambodhasutta){: target="_blank" rel="noopener"}；[AN 7.50 / A iv 56](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-044-053-mahayanna/#7-an-750-婬欲偶合经-methunasutta){: target="_blank" rel="noopener"}。Akuppā-vimutti 始终用于：[MN 26 / M i 167](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-026-pasarasi/){: target="_blank" rel="noopener"}；[MN 128 / M iii 162](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-128-upakkilesa/){: target="_blank" rel="noopener"}；[AN 3.86 / A i 231](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-082-092-samana/#5-an-386-有学经-sekkhasutta){: target="_blank" rel="noopener"}；[AN 6.45 / A iii 354](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-043-054-dhammika/#3-an-645-负债经-iṇasutta){: target="_blank" rel="noopener"}；[Iti 3.13 / It 53](https://aipali.true-dhamma.com/sutta/kn/kn-04-iti/iti-03-tika/#23-iti-313-根经){: target="_blank" rel="noopener"}；[Thag 2.31 / Thag 第 182 偈](https://aipali.true-dhamma.com/sutta/kn/kn-08-thag/thag-02-05-duka-pancaka/#thag-231-弥格悉拉长老偈-migasirattheragāthā){: target="_blank" rel="noopener"}。Akuppā-cetovimutti 始终用于：[DN 34 / D iii 273](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[MN 29 / M i 197](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-029-mahasaropama/){: target="_blank" rel="noopener"}；[AN 8.64 / A iv 305](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-061-070-bhumicala/#4-an-864-伽耶象头山-gayāsīsasutta){: target="_blank" rel="noopener"}；[AN 9.41 / A iv 448](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#10-an-941-多梨富沙居士经-tapussasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn21)
 {: id="fn-fn21"}
 
 \[22\] [MN 29 / M i 197](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-029-mahasaropama/){: target="_blank" rel="noopener"}（此处，asamaya-vimokkha 被用作 asamaya-vimutti 的同义词）。这个词有时也用于个人，如 asamaya-vimutta（例如：[AN 11.13 / A v 336](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-011-021-anussati/#3-an-1113-释氏难提-nandiyasutta){: target="_blank" rel="noopener"}；Pug. 3, 11）。[&nbsp;↩&nbsp;](#fr-fn22)
@@ -1109,16 +1132,16 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[24\] 例如：DA. III. 1057；MA. II. 174；\[2/312\]。然而，MA. IV 158 指出 asāmāyika-vimutti 等同于 asāmāyika-vimokkha，即四道（magga）和四果（phala）。[&nbsp;↩&nbsp;](#fr-fn24)
 {: id="fn-fn24"}
 
-\[25\] 参见：[DN 33 / D iii 249](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[MN 43 / M i 296-299](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-043-mahavedalla/){: target="_blank" rel="noopener"}；[SN 41.7 / S iv 297](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-41-citta/sn-41-citta/#17-sn-417-牛达多经-godattasutta){: target="_blank" rel="noopener"}；[AN 6.13 / A iii 292](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#3-an-613-六出离界-nissāraṇīyasutta){: target="_blank" rel="noopener"}；MA. II. 352；SA. III. 98；Vism. 700；VismṬ.：Paññābhāvanānisaṁsaniddesavaṇṇanā, Phalasamāpattikathāvaṇṇanā。DA. III. 1036 声称此术语仅指阿罗汉果等至（arahattaphala-samāpatti），但 AA. III. 347 则说它指熟练的毗婆舍那层次。[&nbsp;↩&nbsp;](#fr-fn25)
+\[25\] 参见：[DN 33 / D iii 249](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[MN 43 / M i 296-299](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-043-mahavedalla/){: target="_blank" rel="noopener"}；[SN 41.7 / S iv 297](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-41-citta/sn-41-citta/#17-sn-417-牛达多经-godattasutta){: target="_blank" rel="noopener"}；[AN 6.13 / A iii 292](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#3-an-613-六出离界-nissāraṇīyasutta){: target="_blank" rel="noopener"}；MA. II. 352；SA. III. 98；Vism. 700；VismṬ.：Paññābhāvanānisaṁsaniddesavaṇṇanā, Phalasamāpattikathāvaṇṇanā。DA. III. 1036 声称此术语仅指阿罗汉果等至（arahattaphala-samāpatti），但 AA. III. 347 则说它指熟练的观层次。[&nbsp;↩&nbsp;](#fr-fn25)
 {: id="fn-fn25"}
 
-\[26\] 在 [MN 29 / M i 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-029-mahasaropama/){: target="_blank" rel="noopener"} 中，samaya-vimutti 被用作 samaya-vimokkha 的同义词，指世间解脱（lokiya-vimutti），即八等至（samāpatti）（参见：MA. II. 232；AA. III. 292；并参阅：Ps. II. 40）。在《巴利三藏》中，samaya-vimutti 有时用来指代人，就像术语 samaya-vimutta（[AN 5.149–150 / A iii 173](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-141-150-tikandaki/#9-an-5149-时解脱者之一经-paṭhamasamayavimuttasutta){: target="_blank" rel="noopener"}）一样。然而，《阿毗达摩》将后一个术语保留给那些证得了八等至的须陀洹、斯陀含和阿那含（参见：Pug. 10；PañcA. 179）。[&nbsp;↩&nbsp;](#fr-fn26)
+\[26\] 在 [MN 29 / M i 196](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-029-mahasaropama/){: target="_blank" rel="noopener"} 中，samaya-vimutti 被用作 samaya-vimokkha 的同义词，指世间解脱（lokiya-vimutti），即八等至（samāpatti）（参见：MA. II. 232；AA. III. 292；并参照：Ps. II. 40）。在《巴利三藏》中，samaya-vimutti 有时用来指代人，就像术语 samaya-vimutta（[AN 5.149–150 / A iii 173](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-141-150-tikandaki/#9-an-5149-时解脱者之一经-paṭhamasamayavimuttasutta){: target="_blank" rel="noopener"}）一样。然而，《阿毗达摩》将后一个术语保留给那些证得了八等至的须陀洹、斯陀含和阿那含（参见：Pug. 10；PañcA. 179）。[&nbsp;↩&nbsp;](#fr-fn26)
 {: id="fn-fn26"}
 
 \[27\] 例如：Nd. II. 41；DA. III. 985, 1032；SA. I. 183, 220；AA. III. 321；AA. V. 64；SnA. II. 601；NdA. 59；PsA. I. 88。[&nbsp;↩&nbsp;](#fr-fn27)
 {: id="fn-fn27"}
 
-\[28\] [MN 122 / M iii 110-111](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-122-mahasunnata/){: target="_blank" rel="noopener"}；Nd. II. 64；[SN 4.23 / S i 120-121](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-04-mara/sn-04-mara/#33-sn-423-瞿低迦经-godhikasutta){: target="_blank" rel="noopener"}；[Snp 3 / Sn 9](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#3-snp-3-犀角经-khaggavisāṇasutta){: target="_blank" rel="noopener"}；MA. IV. 158；SA. I. 183；SnA. I. 105。禅那中暂时解脱的例子见：[AN 4.200 / A ii 214](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#10-an-4200-四类爱憎经-pemasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn28)
+\[28\] [MN 122 / M iii 110-111](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-122-mahasunnata/){: target="_blank" rel="noopener"}；Nd. II. 64；[SN 4.23 / S i 120-121](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-04-mara/sn-04-mara/#33-sn-423-瞿低迦经-godhikasutta){: target="_blank" rel="noopener"}；[Snp 3 / Sn 9](https://aipali.true-dhamma.com/sutta/kn/kn-05-snp/snp-01-12-uraga/#3-snp-3-犀角经-khaggavisāṇasutta){: target="_blank" rel="noopener"}；MA. IV. 158；SA. I. 183；SnA. I. 105。禅那中暂时解脱的例子参见：[AN 4.200 / A ii 214](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#10-an-4200-四类爱憎经-pemasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn28)
 {: id="fn-fn28"}
 
 \[29\] [AN 2.37 / A i 64](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-001-052-pathamapannasaka/#45-an-237-内外结经-ajjhattabahiddhāsaṃyojanasutta){: target="_blank" rel="noopener"}；[AN 4.178 / A ii 165](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-171-180-sancetaniya/#8-an-4178-污池经-jambālīsutta){: target="_blank" rel="noopener"}；AA. II. 134, \[2/456\]。[&nbsp;↩&nbsp;](#fr-fn29)
@@ -1130,7 +1153,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[31\] [AN 10.75 / A v 139](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#5-an-1075-鹿住优婆夷经-migasālāsutta){: target="_blank" rel="noopener"}；AA. V. 52。[&nbsp;↩&nbsp;](#fr-fn31)
 {: id="fn-fn31"}
 
-\[32\] [AN 10.94 / A v 192](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#4-an-1094-跋耆居士-vajjiyamāhitasutta){: target="_blank" rel="noopener"}；AA. V. 64。这种解脱很可能被列入 [DN 34 / D iii 290](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[MN 8 / M i 42](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-008-sallekha/){: target="_blank" rel="noopener"}；[AN 10.103 / A v 211-212](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#3-an-10103-邪性经-micchattasutta){: target="_blank" rel="noopener"}的十邪性（micchatta）中的“邪解脱”（micchā-vimutti）。[&nbsp;↩&nbsp;](#fr-fn32)
+\[32\] [AN 10.94 / A v 192](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#4-an-1094-跋耆居士-vajjiyamāhitasutta){: target="_blank" rel="noopener"}；AA. V. 64。这种解脱很可能被列入 [DN 34 / D iii 290](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-34-dasuttara/){: target="_blank" rel="noopener"}；[MN 8 / M i 42](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-01-mulapariyaya/mn-008-sallekha/){: target="_blank" rel="noopener"}；[AN 10.103 / A v 211-212](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-101-112-samanasanna/#3-an-10103-邪性经-micchattasutta){: target="_blank" rel="noopener"} 的十邪性（micchatta）中的“邪解脱”（micchā-vimutti）。[&nbsp;↩&nbsp;](#fr-fn32)
 {: id="fn-fn32"}
 
 \[33\] 例如：[MN 43 / M i 297](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-043-mahavedalla/){: target="_blank" rel="noopener"}；[MN 99 / M ii 207](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-05-brahmana/mn-099-subha/){: target="_blank" rel="noopener"}；[MN 127 / M iii 146](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-127-anuruddha/){: target="_blank" rel="noopener"}；[DN 13 / D i 250](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-13-tevijja/){: target="_blank" rel="noopener"}；[DN 33 / D iii 248](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 1.383–389 / A i 38-39](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-382-611-catutthapannasaka/#12-an-1383-389-第二禅等七经){: target="_blank" rel="noopener"}；[AN 6.13 / A iii 290-291](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#3-an-613-六出离界-nissāraṇīyasutta){: target="_blank" rel="noopener"}；[AN 8.63 / A iv 301](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-061-070-bhumicala/#3-an-863-略说法要-saṃkhittasutta){: target="_blank" rel="noopener"}；[AN 10.219 / A v 299](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-211-220-karajakaya/#9-an-10219-业所生身经-karajakāyasutta){: target="_blank" rel="noopener"}；[SN 20.3 / S ii 264](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-20-opamma/sn-20-opamma/#13-sn-203-家经-kulasutta){: target="_blank" rel="noopener"}；[SN 42.8 / S iv 322](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-42-gamani/sn-42-gamani/#18-sn-428-螺贝经-saṅkhadhamasutta){: target="_blank" rel="noopener"}；ItA. I. 89；PsA. I. 88。[&nbsp;↩&nbsp;](#fr-fn33)
@@ -1145,7 +1168,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[36\] 尊者阿那律（Anuruddha）的教导（[MN 127 / M iii 146-147](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-127-anuruddha/){: target="_blank" rel="noopener"}；在 MA. IV. 200 中解释）。\[译者注：十遍处禅修：地遍处、水遍处、火遍处、风遍处、青遍处、黄遍处、赤遍处、白遍处、空遍处和识遍处（或光明遍处）。\][&nbsp;↩&nbsp;](#fr-fn36)
 {: id="fn-fn36"}
 
-\[37\] 例如：[MN 52 / M i 350-352](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-052-atthakanagara/){: target="_blank" rel="noopener"}；[MN 64 / M i 436](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-064-mahamalukya/){: target="_blank" rel="noopener"}；[AN 11.16 / A v 343-346](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-011-021-anussati/#6-an-1116-八城居士-aṭṭhakanāgarasutta){: target="_blank" rel="noopener"}。另见：[MN 25 / M i 159-160](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-025-nivapa/){: target="_blank" rel="noopener"}；[MN 113 / M iii 45](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-113-sappurisa/){: target="_blank" rel="noopener"}；[AN 9.41 / A iv 438-448](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#10-an-941-多梨富沙居士经-tapussasutta){: target="_blank" rel="noopener"}。请注意，禅那等至（jhāna-samāpatti）有时被间接（pariyāya）定义为“可见的”涅槃，意指在禅那期间烦恼被暂停。有关“想受灭等至”（nirodha-samāpatti）的更多信息，请参见附录六。[&nbsp;↩&nbsp;](#fr-fn37)
+\[37\] 例如：[MN 52 / M i 350-352](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-052-atthakanagara/){: target="_blank" rel="noopener"}；[MN 64 / M i 436](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-064-mahamalukya/){: target="_blank" rel="noopener"}；[AN 11.16 / A v 343-346](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-011-021-anussati/#6-an-1116-八城居士-aṭṭhakanāgarasutta){: target="_blank" rel="noopener"}。另参见：[MN 25 / M i 159-160](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-025-nivapa/){: target="_blank" rel="noopener"}；[MN 113 / M iii 45](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-113-sappurisa/){: target="_blank" rel="noopener"}；[AN 9.41 / A iv 438-448](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#10-an-941-多梨富沙居士经-tapussasutta){: target="_blank" rel="noopener"}。请注意，禅那等至（jhāna-samāpatti）有时被间接（pariyāya）定义为“可见的”涅槃，意指在禅那期间烦恼被暂停。有关“想受灭等至”（nirodha-samāpatti）的更多信息，请参见附录六。[&nbsp;↩&nbsp;](#fr-fn37)
 {: id="fn-fn37"}
 
 \[38\] 四色界禅作为现法乐住的境界，例如：[MN 107 / M iii 4](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-107-ganakamoggallana/){: target="_blank" rel="noopener"}；[AN 8.30 / A iv 231-232](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#10-an-830-阿那律八大人觉经-anuruddhamahāvitakkasutta){: target="_blank" rel="noopener"}；[AN 10.30 / A v 68](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-021-030-maha/#10-an-1030-拘萨罗国之二-dutiyakosalasutta){: target="_blank" rel="noopener"}；[AN 11.14 / A v 339](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-011-021-anussati/#4-an-1114-须菩提-subhūtisutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn38)
@@ -1166,10 +1189,10 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[43\] 心解脱与慧解脱同时生起是真实而本质的心解脱。[&nbsp;↩&nbsp;](#fr-fn43)
 {: id="fn-fn43"}
 
-\[44\] [MN 38 / M i 266](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-038-mahatanhasankhaya/){: target="_blank" rel="noopener"}；[MN 38 / M i 270](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-038-mahatanhasankhaya/){: target="_blank" rel="noopener"}；[SN 35.132 / S iv 120](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-124-133-gahapati/#9-sn-35132-鲁酰遮经-lohiccasutta){: target="_blank" rel="noopener"}；[SN 35.243 / S iv 184](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#6-sn-35243-漏泄经-avassutapariyāyasutta){: target="_blank" rel="noopener"}；[SN 35.244 / S iv 189](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#7-sn-35244-苦法经-dukkhadhammasutta){: target="_blank" rel="noopener"}；[SN 35.247 / S iv 200](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#10-sn-35247-六生物经-chappāṇakopamasutta){: target="_blank" rel="noopener"}；[AN 5.142 / A iii 165](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-141-150-tikandaki/#2-an-5142-违犯之行经-ārabhatisutta){: target="_blank" rel="noopener"}。[AN 10.75 / A v 139-143](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#5-an-1075-鹿住优婆夷经-migasālāsutta){: target="_blank" rel="noopener"}有一个变体：心解脱和慧解脱，其中戒行……戒行缺乏……贪欲……嗔恨……掉举止息无余。义注解释这指的是从须陀洹果（sotāpatti-phala）到阿罗汉果（arahatta-phala）的解脱。[&nbsp;↩&nbsp;](#fr-fn44)
+\[44\] [MN 38 / M i 266](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-038-mahatanhasankhaya/){: target="_blank" rel="noopener"}；[MN 38 / M i 270](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-038-mahatanhasankhaya/){: target="_blank" rel="noopener"}；[SN 35.132 / S iv 120](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-124-133-gahapati/#9-sn-35132-鲁酰遮经-lohiccasutta){: target="_blank" rel="noopener"}；[SN 35.243 / S iv 184](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#6-sn-35243-漏泄经-avassutapariyāyasutta){: target="_blank" rel="noopener"}；[SN 35.244 / S iv 189](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#7-sn-35244-苦法经-dukkhadhammasutta){: target="_blank" rel="noopener"}；[SN 35.247 / S iv 200](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-238-248-asivisa/#10-sn-35247-六生物经-chappāṇakopamasutta){: target="_blank" rel="noopener"}；[AN 5.142 / A iii 165](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-141-150-tikandaki/#2-an-5142-违犯之行经-ārabhatisutta){: target="_blank" rel="noopener"}。[AN 10.75 / A v 139-143](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#5-an-1075-鹿住优婆夷经-migasālāsutta){: target="_blank" rel="noopener"} 有一个变体：心解脱和慧解脱，其中戒行……戒行缺乏……贪欲……嗔恨……掉举止息无余。义注解释这指的是从须陀洹果（sotāpatti-phala）到阿罗汉果（arahatta-phala）的解脱。[&nbsp;↩&nbsp;](#fr-fn44)
 {: id="fn-fn44"}
 
-\[45\] 此经文揭示了人们如何会被财富、荣誉、名声、戒行、禅定和知识所迷惑，而无法进展到不动的心解脱。参阅：[MN 30 / M i 200-205](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-030-culasaropama/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn45)
+\[45\] 此经文揭示了人们如何会被财富、荣誉、名声、戒行、禅定和知识所迷惑，而无法进展到不动的心解脱。参照：[MN 30 / M i 200-205](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-030-culasaropama/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn45)
 {: id="fn-fn45"}
 
 \[46\] [SN 4.23 / S i 120-122](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-04-mara/sn-04-mara/#33-sn-423-瞿低迦经-godhikasutta){: target="_blank" rel="noopener"}；SA. I. 182。义注说他想在禅那中死去，以便确保在梵天界再生。[&nbsp;↩&nbsp;](#fr-fn46)
@@ -1178,10 +1201,10 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[47\] [MN 25 / M i 156](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-025-nivapa/){: target="_blank" rel="noopener"}；MA. II. 162。[&nbsp;↩&nbsp;](#fr-fn47)
 {: id="fn-fn47"}
 
-\[48\] 译者注：请参阅第六章“涅槃：至上寂静”中关于禅那、灭尽和涅槃的部分。[&nbsp;↩&nbsp;](#fr-fn48)
+\[48\] 译者注：请参阅第六章“涅槃”中关于禅那、灭尽和涅槃的部分。[&nbsp;↩&nbsp;](#fr-fn48)
 {: id="fn-fn48"}
 
-\[49\] 参见：UdA. 32；DA. III. 879；MA. IV. 168；SA. III. 209；DhA. I. 158, 434；Vism. 410。与 VbhA. 316 中的离系（viveka）以及 Ps. I. 26-27；Ps. II. 220；Vism. 693-694中的舍断（pahāna）进行比较。UdA. 220 提到了导致解脱（vimutti）的“成熟因素”（paripācaniya-dhamma），例如：[Ud 4.1 / Ud 36](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-04-meghiya/#1-ud-41-尊者弥醯-meghiyasutta){: target="_blank" rel="noopener"}；[SN 35.121 / S iv 105](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-114-123-lokakamaguna/#8-sn-35121-教诫罗睺罗经-rāhulovādasutta){: target="_blank" rel="noopener"}；[MN 147 / M iii 277](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-147-cularahulovada/){: target="_blank" rel="noopener"}。[DN 33 / D iii 243](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}提到了五种使人逐步获得更大程度解脱的事物。[&nbsp;↩&nbsp;](#fr-fn49)
+\[49\] 参见：UdA. 32；DA. III. 879；MA. IV. 168；SA. III. 209；DhA. I. 158, 434；Vism. 410。与 VbhA. 316 中的离系（viveka）以及 Ps. I. 26-27；Ps. II. 220；Vism. 693-694 中的舍断（pahāna）进行比较。UdA. 220 提到了导致解脱（vimutti）的“成熟因素”（paripācaniya-dhamma），例如：[Ud 4.1 / Ud 36](https://aipali.true-dhamma.com/sutta/kn/kn-03-ud/ud-04-meghiya/#1-ud-41-尊者弥醯-meghiyasutta){: target="_blank" rel="noopener"}；[SN 35.121 / S iv 105](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-114-123-lokakamaguna/#8-sn-35121-教诫罗睺罗经-rāhulovādasutta){: target="_blank" rel="noopener"}；[MN 147 / M iii 277](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-147-cularahulovada/){: target="_blank" rel="noopener"}。[DN 33 / D iii 243](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"} 提到了五种使人逐步获得更大程度解脱的事物。[&nbsp;↩&nbsp;](#fr-fn49)
 {: id="fn-fn49"}
 
 \[50\] 括号中的段落未见于泰语的 Siam Raṭṭha 版本，但在其他版本中，例如缅甸版中有所发现。[&nbsp;↩&nbsp;](#fr-fn50)
@@ -1193,10 +1216,10 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[52\] 对于无色禅，去除了“色”字，因为在这些禅那中没有对色的观照；只有对四名蕴的观照：受蕴（vedanā）、想蕴（saññā）、行蕴（saṅkhāra）和识蕴（viññāṇa）。[&nbsp;↩&nbsp;](#fr-fn52)
 {: id="fn-fn52"}
 
-\[53\] “若他安住（于初禅）”译自巴利文：so tattha ṭhito。AA. IV. 196 解释为：“若他安住于初禅（或依次的每个禅那），他便修习出强有力的内观并证得阿罗汉果。”另一个定义是：“他以三法印（tilakkhaṇa）为禅修所缘来安住于毗婆舍那”（MA. III. 188）。MA. III. 14 和 AA. V. 85 解释为：“他安住于止（samatha）与毗婆舍那（vipassanā）。”[&nbsp;↩&nbsp;](#fr-fn53)
+\[53\] “若他安住（于初禅）”译自巴利文：so tattha ṭhito。AA. IV. 196 解释为：“若他安住于初禅（或依次的每个禅那），他便修习出强有力的观并证得阿罗汉果。”另一个定义是：“他以三法印（tilakkhaṇa）为禅修所缘来安住于观”（MA. III. 188）。MA. III. 14 和 AA. V. 85 解释为：“他安住于止（samatha）与观（vipassanā）。”[&nbsp;↩&nbsp;](#fr-fn53)
 {: id="fn-fn53"}
 
-\[54\] 也就是说，他是一位不还者（anāgāmī）。[&nbsp;↩&nbsp;](#fr-fn54)
+\[54\] 也就是说，他是一位阿那含（anāgāmī）。[&nbsp;↩&nbsp;](#fr-fn54)
 {: id="fn-fn54"}
 
 \[55\] 因此包括四色界禅和前三种无色界禅。[&nbsp;↩&nbsp;](#fr-fn55)
@@ -1208,19 +1231,19 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[57\] 此处的“从禅那中出离”与义注中对脱离特定等至所赋予的心识状态的解释相符，即不以禅那为基础。[&nbsp;↩&nbsp;](#fr-fn57)
 {: id="fn-fn57"}
 
-\[58\] 关于能否在非想非非想处禅定中发展毗婆舍那，请参见附录三。[&nbsp;↩&nbsp;](#fr-fn58)
+\[58\] 关于能否在非想非非想处禅定中发展观，请参见附录三。[&nbsp;↩&nbsp;](#fr-fn58)
 {: id="fn-fn58"}
 
 \[59\] 义注将法掉举（dhammuddhacca）归类为“观的染污”（vipassanūpakilesa）：AA. III. 143；Vism. 634。此处将术语 viggahita 翻译为“兴奋激动”，与 VismṬ.：Maggāmaggañāṇadassanavisuddhiniddesavaṇṇanā, Vipassanupakkilesakathāvaṇṇanā 一致。[&nbsp;↩&nbsp;](#fr-fn59)
 {: id="fn-fn59"}
 
-\[60\] Ps. II. 93-96；参阅：Ps. I. 95, 175-176。[&nbsp;↩&nbsp;](#fr-fn60)
+\[60\] Ps. II. 93-96；参照：Ps. I. 95, 175-176。[&nbsp;↩&nbsp;](#fr-fn60)
 {: id="fn-fn60"}
 
-\[61\] 《无碍解道》描述了从出离到喜悦这七种品质，如何参与纯观行者（sukkha-vipassaka）近行定（upacāra-samādhi）的生起：PsA. I. 310；参阅：PsA. I. 68, 103。[&nbsp;↩&nbsp;](#fr-fn61)
+\[61\] 《无碍解道》描述了从出离到喜悦这七种品质，如何参与纯观行者（sukkha-vipassaka）近行定（upacāra-samādhi）的生起：PsA. I. 310；参照：PsA. I. 68, 103。[&nbsp;↩&nbsp;](#fr-fn61)
 {: id="fn-fn61"}
 
-\[62\] 只需提及非想非非想处禅定即可，因为这是最高的禅那。提供这份冗长的清单是为了显示所证得的心识状态（从初禅到非想非非想处禅定）与达到这些成就的修习方法之间的区别（参阅：PsA. I. 312）。[&nbsp;↩&nbsp;](#fr-fn62)
+\[62\] 只需提及非想非非想处禅定即可，因为这是最高的禅那。提供这份冗长的清单是为了显示所证得的心识状态（从初禅到非想非非想处禅定）与达到这些成就的修习方法之间的区别（参照：PsA. I. 312）。[&nbsp;↩&nbsp;](#fr-fn62)
 {: id="fn-fn62"}
 
 \[63\] 参见：MA. I. 108；NdA. II. 313。[&nbsp;↩&nbsp;](#fr-fn63)
@@ -1229,7 +1252,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[64\] Ps. II. 96。[&nbsp;↩&nbsp;](#fr-fn64)
 {: id="fn-fn64"}
 
-\[65\] MA. I. 108；Vism. 682。PsA. I. 281 指出，止（samatha）与毗婆舍那（vipassanā）在希求圣道之时和证得圣道之时都是相互支持的。AA. II. 184 指出，止与毗婆舍那在道果证得和果等至中成对作用。参阅：Ps. I. 70；PsA. I. 287；UdA. 397；ItA. II. 29。[&nbsp;↩&nbsp;](#fr-fn65)
+\[65\] MA. I. 108；Vism. 682。PsA. I. 281 指出，止（samatha）与观（vipassanā）在希求圣道之时和证得圣道之时都是相互支持的。AA. II. 184 指出，止与观在道果证得和果等至中成对作用。参照：Ps. I. 70；PsA. I. 287；UdA. 397；ItA. II. 29。[&nbsp;↩&nbsp;](#fr-fn65)
 {: id="fn-fn65"}
 
 \[66\] Ps. II. 97-100。[&nbsp;↩&nbsp;](#fr-fn66)
@@ -1256,7 +1279,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[73\] 例如：Vism. 588。[&nbsp;↩&nbsp;](#fr-fn73)
 {: id="fn-fn73"}
 
-\[74\] 参阅：VinA. II. 433；Vism. 289；VismṬ.：Anussatikammaṭṭhānaniddesavaṇṇanā, Ānāpānassatikathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn74)
+\[74\] 参照：VinA. II. 433；Vism. 289；VismṬ.：Anussatikammaṭṭhānaniddesavaṇṇanā, Ānāpānassatikathāvaṇṇanā。[&nbsp;↩&nbsp;](#fr-fn74)
 {: id="fn-fn74"}
 
 \[75\] PsA. I. 194；DhsA. 213, 228, 230；Vism. 666-667, 699-700。义注声称禅那的这种证得只持续一个心刹那。此后，觉悟者可以随意定期进入果等至（phala-samāpatti）（在那个特定的禅那中），享受“圣出世间乐”（ariyalokuttara-sukha），安住在当下（Vism. 700-701）。证得道果的刹那：参见附录四。[&nbsp;↩&nbsp;](#fr-fn75)
@@ -1271,19 +1294,19 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[78\] 例如：[MN 27 / M i 181-182](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-027-culahatthipadopama/){: target="_blank" rel="noopener"}；[MN 39 / M i 276](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-039-mahaassapura/){: target="_blank" rel="noopener"}；[MN 51 / M i 347](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-051-kandaraka/){: target="_blank" rel="noopener"}；[MN 60 / M i 412-413](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-060-apannaka/){: target="_blank" rel="noopener"}；[MN 65 / M i 440-441](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-065-bhaddali/){: target="_blank" rel="noopener"}；[MN 76 / M i 521-522](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-076-sandaka/){: target="_blank" rel="noopener"}；[MN 79 / M ii 38](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-079-culasakuludayi/){: target="_blank" rel="noopener"}；[AN 3.59 / A i 163](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#8-an-359-提坎那婆罗门经-tikaṇṇasutta){: target="_blank" rel="noopener"}；[AN 3.60 / A i 166-167](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-052-061-brahmana/#9-an-360-生闻婆罗门经-jāṇussoṇisutta){: target="_blank" rel="noopener"}；[AN 4.198 / A ii 210-211](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#8-an-4198-自苦经-attantapasutta){: target="_blank" rel="noopener"}。这些段落大多描述了从比丘受戒到证得阿罗汉果的修习。[&nbsp;↩&nbsp;](#fr-fn78)
 {: id="fn-fn78"}
 
-\[79\] [DN 2 / D i 73-85](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-02-samannaphala/){: target="_blank" rel="noopener"}。八种智：1. 智见（ñāṇa-dassana，DA. I. 220说这等于观智〔vipassanā-ñāṇa〕）；2. 意生身（manomayābhinimmāna = manomayiddhi——创造一个意所成身）；3. 神变（iddhi-vidhā，展现神通）；4. 天耳（dibba-sota）；5. 他心智（cetopariya-ñāṇa，他心通）；6. 宿命智；7. 知众生死生智；8. 漏尽智。[&nbsp;↩&nbsp;](#fr-fn79)
+\[79\] [DN 2 / D i 73-85](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-02-samannaphala/){: target="_blank" rel="noopener"}。八种智：1. 智见（ñāṇa-dassana，DA. I. 220 说这等于观智〔vipassanā-ñāṇa〕）；2. 意生身（manomayābhinimmāna = manomayiddhi——创造一个意所成身）；3. 神变（iddhi-vidhā，展现神通）；4. 天耳（dibba-sota）；5. 他心智（cetopariya-ñāṇa，他心通）；6. 宿命智；7. 知众生死生智；8. 漏尽智。[&nbsp;↩&nbsp;](#fr-fn79)
 {: id="fn-fn79"}
 
 \[80\] [AN 5.75 / A iii 91](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#5-an-575-战士经之一-paṭhamayodhājīvasutta){: target="_blank" rel="noopener"}, [AN 5.76 / A iii 100](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#6-an-576-战士经之二-dutiyayodhājīvasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn80)
 {: id="fn-fn80"}
 
-\[81\] 亦见于 [AN 9.32–61 / A iv 409-456](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#1-an-932-九次第住经-anupubbavihārasutta){: target="_blank" rel="noopener"}；[MN 25 / M i 159-160](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-025-nivapa/){: target="_blank" rel="noopener"}；[MN 26 / M i 174](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-026-pasarasi/){: target="_blank" rel="noopener"}；[MN 30 / M i 203-204](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-030-culasaropama/){: target="_blank" rel="noopener"}；[MN 31 / M i 208](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-031-culagosinga/){: target="_blank" rel="noopener"}；Nd. II. 44；参阅：[MN 111 / M iii 25](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-111-anupada/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn81)
+\[81\] 亦见于 [AN 9.32–61 / A iv 409-456](https://aipali.true-dhamma.com/sutta/an/nipata-09/an-09-032-041-maha/#1-an-932-九次第住经-anupubbavihārasutta){: target="_blank" rel="noopener"}；[MN 25 / M i 159-160](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-025-nivapa/){: target="_blank" rel="noopener"}；[MN 26 / M i 174](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-026-pasarasi/){: target="_blank" rel="noopener"}；[MN 30 / M i 203-204](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-030-culasaropama/){: target="_blank" rel="noopener"}；[MN 31 / M i 208](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-031-culagosinga/){: target="_blank" rel="noopener"}；Nd. II. 44；参照：[MN 111 / M iii 25](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-111-anupada/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn81)
 {: id="fn-fn81"}
 
-\[82\] 这五种误解很容易发生，许多学者都犯过这些错误。一个值得注意的误解是 Kalupahana 先生的观点，他声称这两个纲要指的是在达到四禅后分叉的两种不同的修习方式。他说第二种修习方式，从空无边处定到想受灭尽定，等同于心解脱（cetovimutti），而第一种修习方式，即三明（或甚至是六神通），等同于慧解脱（paññā-vimutti）。然后他继续说这两种修习方式都导致智（aññā）——即觉悟。（这是第4种误解的一个例子，但也包括前两个误解。）参见：David J. Kalupahana，《因果关系：佛教的核心哲学》（Causality: The Central Philosophy of Buddhism；檀香山：夏威夷大学出版社，1975年），第181-182页。[&nbsp;↩&nbsp;](#fr-fn82)
+\[82\] 这五种误解很容易发生，许多学者都犯过这些错误。一个值得注意的误解是 Kalupahana 先生的观点，他声称这两个纲要指的是在达到四禅后分叉的两种不同的修习方式。他说第二种修习方式，从空无边处定到想受灭尽定，等同于心解脱（cetovimutti），而第一种修习方式，即三明（或甚至是六神通），等同于慧解脱（paññā-vimutti）。然后他继续说这两种修习方式都导致智（aññā）——即觉悟。（这是第 4 种误解的一个例子，但也包括前两个误解。）参见：David J. Kalupahana，《因果关系：佛教的核心哲学》（Causality: The Central Philosophy of Buddhism；檀香山：夏威夷大学出版社，1975 年），第 181-182 页。[&nbsp;↩&nbsp;](#fr-fn82)
 {: id="fn-fn82"}
 
-\[83\] [AN 5.75 / A iii 89](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#5-an-575-战士经之一-paṭhamayodhājīvasutta){: target="_blank" rel="noopener"}；[AN 5.76 / A iii 93-94](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#6-an-576-战士经之二-dutiyayodhājīvasutta){: target="_blank" rel="noopener"}（已提及）；[MN 112 / M iii 36-37](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-112-chabbisodhana/){: target="_blank" rel="noopener"}；参阅：[AN 4.163 / A ii 151](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-161-170-patipada/#3-an-4163-观身不净经-asubhasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn83)
+\[83\] [AN 5.75 / A iii 89](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#5-an-575-战士经之一-paṭhamayodhājīvasutta){: target="_blank" rel="noopener"}；[AN 5.76 / A iii 93-94](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-071-080-yodhajiva/#6-an-576-战士经之二-dutiyayodhājīvasutta){: target="_blank" rel="noopener"}（已提及）；[MN 112 / M iii 36-37](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-112-chabbisodhana/){: target="_blank" rel="noopener"}；参照：[AN 4.163 / A ii 151](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-161-170-patipada/#3-an-4163-观身不净经-asubhasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn83)
 {: id="fn-fn83"}
 
 \[84\] [SN 12.70 / S ii 120-127](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-61-70-maha/#10-sn-1270-须深游方者经-susimaparibbājakasutta){: target="_blank" rel="noopener"}, Susimaparibbājaka Sutta。[&nbsp;↩&nbsp;](#fr-fn84)
@@ -1337,7 +1360,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[100\] [MN 74 / M i 497-498](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-03-paribbajaka/mn-074-dighanakha/){: target="_blank" rel="noopener"}, Dīghanakha Sutta。[&nbsp;↩&nbsp;](#fr-fn100)
 {: id="fn-fn100"}
 
-\[101\] [MN 111 / M iii 25](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-111-anupada/){: target="_blank" rel="noopener"}；MA. IV. 91 总结道：舍利弗在止观双运之后，证得了不还果，并进入想受灭等至（nirodha-samāpatti）；从这个状态出来后，他证得了阿罗汉果。尊者舍利弗对想受灭等至了如指掌，这为他在毗婆舍那方面的突破和阿罗汉果的证得做好了准备；参阅：MA. III. 208。[&nbsp;↩&nbsp;](#fr-fn101)
+\[101\] [MN 111 / M iii 25](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-111-anupada/){: target="_blank" rel="noopener"}；MA. IV. 91 总结道：舍利弗在止观双运之后，证得了阿那含果，并进入想受灭等至（nirodha-samāpatti）；从这个状态出来后，他证得了阿罗汉果。尊者舍利弗对想受灭等至了如指掌，这为他在观方面的突破和阿罗汉果的证得做好了准备；参照：MA. III. 208。[&nbsp;↩&nbsp;](#fr-fn101)
 {: id="fn-fn101"}
 
 \[102\] 参见：[DN 11 / D i 212-213](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-11-kevatta/){: target="_blank" rel="noopener"}；DA. II. 390。[&nbsp;↩&nbsp;](#fr-fn102)
@@ -1373,7 +1396,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[112\] 参见：[SN 35.28–29 / S iv 19-21](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-23-32-sabba/#6-sn-3528-六处燃烧-ādittasutta){: target="_blank" rel="noopener"}；[SN 35.33–51 / S iv 26-29](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-33-42-jatidhamma/#1-sn-3533-生法经-jātidhammasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn112)
 {: id="fn-fn112"}
 
-\[113\] 这段文字有微小变动，可在多处找到；参见：[SN 35.186–221 / S iv 151-155](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-168-227-satthipeyyala/#9-sn-35186-内六处过去无常经-ajjhattātītāniccasutta){: target="_blank" rel="noopener"}。在 [SN 35.235 / S iv 170](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-228-237-samudda/#8-sn-35235-燃烧经-ādittapariyāyasutta){: target="_blank" rel="noopener"}中，这种观照扩展到涵盖六种识（viññāṇa）、六种触（phassa）和三种受（vedanā）——乐受、苦受和不苦不乐受。[&nbsp;↩&nbsp;](#fr-fn113)
+\[113\] 这段文字有微小变动，可在多处找到；参见：[SN 35.186–221 / S iv 151-155](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-168-227-satthipeyyala/#9-sn-35186-内六处过去无常经-ajjhattātītāniccasutta){: target="_blank" rel="noopener"}。在 [SN 35.235 / S iv 170](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-228-237-samudda/#8-sn-35235-燃烧经-ādittapariyāyasutta){: target="_blank" rel="noopener"} 中，这种观照扩展到涵盖六种识（viññāṇa）、六种触（phassa）和三种受（vedanā）——乐受、苦受和不苦不乐受。[&nbsp;↩&nbsp;](#fr-fn113)
 {: id="fn-fn113"}
 
 \[114\] 在对尊者罗睺罗的教导中，以下部分：“任何以眼触为缘而生起的受……无论是乐受、苦受，还是不苦不乐受”被改为：“任何包含在受蕴、想蕴、行蕴和以眼触为缘生起的识之中”（[SN 35.121 / S iv 106-107](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-114-123-lokakamaguna/#8-sn-35121-教诫罗睺罗经-rāhulovādasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn114)
@@ -1406,7 +1429,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[123\] 行者修行四念住。[&nbsp;↩&nbsp;](#fr-fn123)
 {: id="fn-fn123"}
 
-\[124\] 以下经文（[SN 22.123 / S iii 169](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-113-125-dhammakathika/#11-sn-22123-有闻经-sutavantasutta){: target="_blank" rel="noopener"}）类似，但将“具戒比丘”改为“多闻比丘”。[SN 52.4 / S v 298-299](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-52-anuruddha/sn-52-anuruddha/#14-sn-524-坎它契之一-paṭhamakaṇḍakīsutta){: target="_blank" rel="noopener"}指出，有学（sekha）和无学（asekha）都应“进入并安住”于四念住。四禅通常由“有学”（及有学以下的人）修习，但阿罗汉也可将其用于“现法乐住”以及正念和正知（例如：[MN 107 / M iii 4](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-107-ganakamoggallana/){: target="_blank" rel="noopener"}；[DN 33 / D iii 222-223](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 4.41 / A ii 44-45](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-041-050-rohitassa/#1-an-441-四种修定经-samādhibhāvanāsutta){: target="_blank" rel="noopener"}；[AN 6.29 / A iii 323](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-021-030-anuttariya/#9-an-629-优陀夷六随念住经-udāyīsutta){: target="_blank" rel="noopener"}）。身至念也同样用于“现法乐住”（参见：[AN 1.563–570 / A i 43](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-382-611-catutthapannasaka/#2-an-1563-599-身至念品-kāyagatāsativagga){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn124)
+\[124\] 以下经文（[SN 22.123 / S iii 169](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-113-125-dhammakathika/#11-sn-22123-有闻经-sutavantasutta){: target="_blank" rel="noopener"}）类似，但将“具戒比丘”改为“多闻比丘”。[SN 52.4 / S v 298-299](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-52-anuruddha/sn-52-anuruddha/#14-sn-524-坎它契之一-paṭhamakaṇḍakīsutta){: target="_blank" rel="noopener"} 指出，有学（sekha）和无学（asekha）都应“进入并安住”于四念住。四禅通常由“有学”（及有学以下的人）修习，但阿罗汉也可将其用于“现法乐住”以及正念和正知（例如：[MN 107 / M iii 4](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-01-devadaha/mn-107-ganakamoggallana/){: target="_blank" rel="noopener"}；[DN 33 / D iii 222-223](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；[AN 4.41 / A ii 44-45](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-041-050-rohitassa/#1-an-441-四种修定经-samādhibhāvanāsutta){: target="_blank" rel="noopener"}；[AN 6.29 / A iii 323](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-021-030-anuttariya/#9-an-629-优陀夷六随念住经-udāyīsutta){: target="_blank" rel="noopener"}）。身至念也同样用于“现法乐住”（参见：[AN 1.563–570 / A i 43](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-382-611-catutthapannasaka/#2-an-1563-599-身至念品-kāyagatāsativagga){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn124)
 {: id="fn-fn124"}
 
 \[125\] 这种教导散见于经典中（例如：[DN 2 / D i 62-84](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-02-samannaphala/){: target="_blank" rel="noopener"}；[AN 10.99 / A v 203](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#9-an-1099-优波离-upālisutta){: target="_blank" rel="noopener"}；Pug. 56-57）。[&nbsp;↩&nbsp;](#fr-fn125)
@@ -1424,13 +1447,13 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[129\] Ps. I. 1-2, 50, 75-76。[&nbsp;↩&nbsp;](#fr-fn129)
 {: id="fn-fn129"}
 
-\[130\] Visuddhimagga：《清净道论》（710页）。[&nbsp;↩&nbsp;](#fr-fn130)
+\[130\] Visuddhimagga：《清净道论》（710 页）。[&nbsp;↩&nbsp;](#fr-fn130)
 {: id="fn-fn130"}
 
 \[131\] Nd. I. 52；Vism. 606-607。[&nbsp;↩&nbsp;](#fr-fn131)
 {: id="fn-fn131"}
 
-\[132\] 这十六智中，只有道智和果智是出世间智；其余十四种是世间智。请注意，《摄阿毗达摩义论》（Abhidhammatthasaṅgaha）在观智（vipassanā-ñāṇa）的列表中增加了“思惟智”（sammasana-ñāṇa）（第3），从而形成一组十种智；参见：Comp.：Kammaṭṭhānaparicchedo, Vipassanākammaṭṭhānaṁ, Visuddhibhedo。[&nbsp;↩&nbsp;](#fr-fn132)
+\[132\] 这十六智中，只有道智和果智是出世间智；其余十四种是世间智。请注意，《摄阿毗达摩义论》（Abhidhammatthasaṅgaha）在观智（vipassanā-ñāṇa）的列表中增加了“思惟智”（sammasana-ñāṇa）（第 3），从而形成一组十种智；参见：Comp.：Kammaṭṭhānaparicchedo, Vipassanākammaṭṭhānaṁ, Visuddhibhedo。[&nbsp;↩&nbsp;](#fr-fn132)
 {: id="fn-fn132"}
 
 \[133\] 也称为 paccayapaṭisevana-sīla。[&nbsp;↩&nbsp;](#fr-fn133)
@@ -1460,7 +1483,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[141\] [MN 50 / M i 334](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-050-maratajjaniya/){: target="_blank" rel="noopener"}, Māratajjanīya Sutta。[&nbsp;↩&nbsp;](#fr-fn141)
 {: id="fn-fn141"}
 
-\[142\] 参见：AA. II. 41；PsA. I. 183；DhsA. 167。参看：Ps. II. 44-45。[&nbsp;↩&nbsp;](#fr-fn142)
+\[142\] 参见：AA. II. 41；PsA. I. 183；DhsA. 167。参照：Ps. II. 44-45。[&nbsp;↩&nbsp;](#fr-fn142)
 {: id="fn-fn142"}
 
 \[143\] DhsA. 213 说这指的是刹那的安止定。[&nbsp;↩&nbsp;](#fr-fn143)
@@ -1472,10 +1495,10 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[145\] 同上。[&nbsp;↩&nbsp;](#fr-fn145)
 {: id="fn-fn145"}
 
-\[146\] 参看：DA. II. 512；MA. I. 248；SA. III. 272；AA. II. 100；SnA. II. 593；NdA. \[2/247\]；Nd2A. 102；Vism. 286-287, 667。[&nbsp;↩&nbsp;](#fr-fn146)
+\[146\] 参照：DA. II. 512；MA. I. 248；SA. III. 272；AA. II. 100；SnA. II. 593；NdA. \[2/247\]；Nd2A. 102；Vism. 286-287, 667。[&nbsp;↩&nbsp;](#fr-fn146)
 {: id="fn-fn146"}
 
-\[147\] Vipassati：“识别”，“发展内观”。[&nbsp;↩&nbsp;](#fr-fn147)
+\[147\] Vipassati：“识别”，“发展观”。[&nbsp;↩&nbsp;](#fr-fn147)
 {: id="fn-fn147"}
 
 \[148\] Nd. II. 42。[&nbsp;↩&nbsp;](#fr-fn148)
@@ -1535,7 +1558,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[166\] 也称为“灭尽定”（nirodha-samāpatti）。[&nbsp;↩&nbsp;](#fr-fn166)
 {: id="fn-fn166"}
 
-\[167\] Nd. II. 24；参看：[SN 14.11 / S ii 150-151](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-14-dhatu/sn-14-11-22-dutiya/#1-sn-1411-七界等至-sattadhātusutta){: target="_blank" rel="noopener"}；SA. II. 135；AA. IV. 196。[&nbsp;↩&nbsp;](#fr-fn167)
+\[167\] Nd. II. 24；参照：[SN 14.11 / S ii 150-151](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-14-dhatu/sn-14-11-22-dutiya/#1-sn-1411-七界等至-sattadhātusutta){: target="_blank" rel="noopener"}；SA. II. 135；AA. IV. 196。[&nbsp;↩&nbsp;](#fr-fn167)
 {: id="fn-fn167"}
 
 \[168\] DA. II. 372。[&nbsp;↩&nbsp;](#fr-fn168)
@@ -1556,7 +1579,7 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[173\] DA. II. 372。[&nbsp;↩&nbsp;](#fr-fn173)
 {: id="fn-fn173"}
 
-\[174\] Vism. 707-708；参看 DhsA. 230 中的说法，即对某个正在审视非想非非想处的人而言，其生起的道与非想非非想处本身截然不同。[&nbsp;↩&nbsp;](#fr-fn174)
+\[174\] Vism. 707-708；参照 DhsA. 230 中的说法，即对某个正在审视非想非非想处的人而言，其生起的道与非想非非想处本身截然不同。[&nbsp;↩&nbsp;](#fr-fn174)
 {: id="fn-fn174"}
 
 \[175\] 非想非非想处无有专注对象。进入此状态者，通过专注无所有处以进阶。通过舍弃此专注，他们进入非想非非想处。参见，例如：[DN 33 / D iii 265-266](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-33-sangiti/){: target="_blank" rel="noopener"}；Vbh. 245；DhsA. 208；Vism. 333-338。[&nbsp;↩&nbsp;](#fr-fn175)
@@ -1583,10 +1606,10 @@ C. 导向解脱和断除无明的知（pahāna-pariññā）
 \[182\] 此阶段有两个心刹那（除非省略了准备心，则有三个心刹那）。PsA. 29 和 DhsA. 231 提出了另一种纲要，其中包含两个随顺心刹那和一个果心刹那，但 Vism. 675 驳斥了这种说法。[&nbsp;↩&nbsp;](#fr-fn182)
 {: id="fn-fn182"}
 
-\[183\] 这是一个非常笼统的描述；事实上，在此内观过程中会反复落入有分（bhavaṅga）。[&nbsp;↩&nbsp;](#fr-fn183)
+\[183\] 这是一个非常笼统的描述；事实上，在这一修观过程中会反复落入有分（bhavaṅga）。[&nbsp;↩&nbsp;](#fr-fn183)
 {: id="fn-fn183"}
 
-\[184\] 道心路（magga-vīthi）与上文所示（步骤1-7）相同。[&nbsp;↩&nbsp;](#fr-fn184)
+\[184\] 道心路（magga-vīthi）与上文所示（步骤 1-7）相同。[&nbsp;↩&nbsp;](#fr-fn184)
 {: id="fn-fn184"}
 
 \[185\] Vbh. 425；Comp.：Vīthimuttaparicchedo, Kammacatukkaṁ；Comp.：Vīthimuttaparicchedo, Bhūmicatukkaṁ。[&nbsp;↩&nbsp;](#fr-fn185)
