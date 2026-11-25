@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="367" viewBox="0.0 0.0 800 367" role="img" aria-label="修行纲要" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
 <title>修行纲要</title>
 <rect x="0.0" y="0.0" width="800" height="367" fill="#FFFFFF"/>
@@ -22,11 +22,11 @@
 <g transform="translate(0,106.5)"><text x="50.0" y="0.0" font-size="18" font-weight="500" text-anchor="start" dominant-baseline="central">修行的起点或源头</text>
 <text x="50.0" y="26.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">正见的要素</text>
 <text x="50.0" y="70.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">1.</text>
-<text x="71.9" y="70.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">他人的教导</text>
-<text x="71.9" y="95.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">外在影响</text>
+<text x="71.9" y="70.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">他人教导</text>
+<text x="71.9" y="95.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">外缘（社会影响）</text>
 <text x="50.0" y="135.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">2.</text>
 <text x="71.9" y="135.0" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="central">如理作意；善巧的思惟</text>
-<text x="71.9" y="160.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">内在因素</text>
+<text x="71.9" y="160.0" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#6b7785">内缘</text>
 </g><line x1="330.0" y1="186.5" x2="380.0" y2="186.5" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
 </g>
 </svg>

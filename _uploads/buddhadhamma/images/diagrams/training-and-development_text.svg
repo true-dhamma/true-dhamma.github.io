@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="723" viewBox="0.0 0.0 800 723" role="img" aria-label="修行与发展" font-family="'PaliLatin','Noto Sans CJK SC',sans-serif" fill="#2c3e50">
 <title>修行与发展</title>
 <rect x="0.0" y="0.0" width="800" height="723" fill="#FFFFFF"/>
@@ -7,7 +7,7 @@
 <g transform="translate(-18.5,-1.5)">
 <text x="86.0" y="30.0" font-size="16" font-weight="500" text-anchor="middle" dominant-baseline="central">起点/助缘</text>
 <text x="86.0" y="52.0" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785">正见的要素</text>
-<text x="360.0" y="30.6" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">1. 良好的外在影响</text>
+<text x="360.0" y="30.6" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">1. 他人教导</text>
 <text x="360.0" y="51.6" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#6b7785" font-style="italic">paratoghosa</text>
 <line x1="460.0" y1="40.0" x2="540.0" y2="40.0" stroke="#4a5866" stroke-width="1.6" marker-end="url(#ah)"/>
 <text x="640.0" y="30.6" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">2. 如理作意</text>

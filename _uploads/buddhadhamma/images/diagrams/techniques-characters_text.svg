@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="879" viewBox="0.0 0.0 800 879" role="img" aria-label="禅修业处、性格类型与成就范围">
-<title>禅修业处、性格类型与成就范围</title>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="879" viewBox="0.0 0.0 800 879" role="img" aria-label="禅修业处、行者类型与成就范围">
+<title>禅修业处、行者类型与成就范围</title>
 <rect x="0.0" y="0.0" width="800" height="879" fill="#FFFFFF"/>
 <defs><style>@font-face{font-family:'PaliLatin';src:local('Source Sans 3'),local('SourceSans3-Regular');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}@font-face{font-family:'PaliLatin';font-style:italic;src:local('Source Sans 3 Italic'),local('SourceSans3-Italic');font-weight:200 900;unicode-range:U+0000-024F,U+1E00-1EFF;}</style></defs>
 <rect x="24" y="20.5" width="206" height="232.5" fill="rgb(238, 243, 248)"/>
@@ -110,20 +110,26 @@
 <line x1="24" y1="694" x2="776" y2="694" stroke="rgb(138, 150, 163)" stroke-width="1"/>
 <text x="28" y="224" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="500" fill="rgb(44, 62, 80)">禅修业处</text>
 <text x="28" y="244" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="500" font-style="italic" fill="rgb(107, 119, 133)">kammaṭṭhāna</text>
-<text x="306.99" y="39" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="500" fill="rgb(44, 62, 80)">适合的性情类型</text>
+<text x="306.99" y="39" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="500" fill="rgb(44, 62, 80)">适合的行者类型</text>
 <text x="579.99" y="39" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="500" fill="rgb(44, 62, 80)">可达成就的上限</text>
 <text x="251" y="62.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">贪</text>
 <text x="251" y="77.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">行</text>
+<text x="251" y="91.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">者</text>
 <text x="293" y="62.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">嗔</text>
 <text x="293" y="77.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">行</text>
+<text x="293" y="91.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">者</text>
 <text x="335" y="62.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">痴</text>
 <text x="335" y="77.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">行</text>
+<text x="335" y="91.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">者</text>
 <text x="377" y="62.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">信</text>
 <text x="377" y="77.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">行</text>
-<text x="419" y="62.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">智</text>
+<text x="377" y="91.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">者</text>
+<text x="419" y="62.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">觉</text>
 <text x="419" y="77.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">行</text>
-<text x="461" y="62.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">思</text>
+<text x="419" y="91.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">者</text>
+<text x="461" y="62.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">寻</text>
 <text x="461" y="77.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">行</text>
+<text x="461" y="91.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">者</text>
 <text x="503" y="62.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">似</text>
 <text x="503" y="77.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">相</text>
 <text x="545" y="62.5" text-anchor="middle" dominant-baseline="central" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">近</text>
@@ -263,5 +269,5 @@
 <text x="537.99" y="825.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">○</text>
 <text x="705.99" y="825.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">○</text>
 <text x="751.52" y="825.5" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="14px" font-weight="400" fill="rgb(44, 62, 80)">4</text>
-<text x="24" y="857" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="400" fill="rgb(107, 119, 133)">✓ 适合该性情类型　○ 可达到的定境层次　1–4 无色禅的次第</text>
+<text x="24" y="857" xml:space="preserve" font-family="PaliLatin, 'Noto Sans CJK SC', sans-serif" font-size="13px" font-weight="400" fill="rgb(107, 119, 133)">✓ 适合该行者类型　○ 可达到的定境层次　1–4 无色禅的次第</text>
 </svg>

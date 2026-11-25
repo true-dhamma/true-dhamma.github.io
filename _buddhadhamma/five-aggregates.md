@@ -300,10 +300,10 @@ paññā 是一个通用术语，描述上述各种了知。慧有许多不同�
 
 根据《阿毗达摩》（Abhidhamma）的高阶分析体系，五蕴与究竟法（paramattha-dhamma）的对应归纳如下：
 
-1.  识蕴（viññāṇa-khandha）：等同于八十九种或一百二十一种“心”（citta）。
-2.  受蕴（vedanā-khandha，1） + 想蕴（saññā-khandha，1） + 行蕴（saṅkhāra-khandha，50）：合共构成五十二种“心所”（cetasika）。
-3.  色蕴（rūpa-khandha）：等同于二十八种色法，即四大种（mahābhūta-rūpa）与二十四所造色（upādāya-rūpa）。
-4.  涅槃（nibbāna）：超越并脱离于五蕴之外（khandha-vinimutta，离蕴）。
+*   识蕴（viññāṇa-khandha）：等同于八十九种或一百二十一种“心”（citta）。
+*   受蕴（vedanā-khandha，1） + 想蕴（saññā-khandha，1） + 行蕴（saṅkhāra-khandha，50）：合共构成五十二种“心所”（cetasika）。
+*   色蕴（rūpa-khandha）：等同于二十八种色法，即四大种（mahābhūta-rūpa）与二十四所造色（upādāya-rūpa）。
+*   涅槃（nibbāna）：超越并脱离于五蕴之外（khandha-vinimutta，离蕴）。
 
 这四大范畴共同构成了佛教哲学中的四种“究竟法”或“胜义谛”（paramattha-dhamma）：心、心所、色、涅槃。
 

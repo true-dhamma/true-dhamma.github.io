@@ -4,7 +4,7 @@ title: 第七篇：道支 | 佛法 | Buddhadhamma
 
 # 第七篇：道支
 
-> 诸比丘，正如恒河奔流，趋向、倾斜、倾向于海洋，同样地，一位修习和培育八正道的比丘，也渴望、趋向、倾向于涅槃。
+> 诸比丘，正如恒河奔流，趋向、倾斜、倾向于海洋，同样地，一位修习和培育八正道的比丘，也趋向、倾斜、倾向于涅槃。
 >
 > Seyyathāpi bhikkhave gaṅgā nadī  
 > Samuddaninnā samuddapoṇā samuddapabbhārā  
