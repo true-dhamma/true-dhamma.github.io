@@ -76,11 +76,11 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 佛陀将神通能力归类为三种神变（pāṭihāriya）之一：[\[8\]](#fn-fn8){:id="fr-fn8"}
 
-1.  Iddhi-pāṭihāriya：神通神变。
+1.  神通神变（iddhi-pāṭihāriya）。
     
-2.  Ādesanā-pāṭihāriya：记心神变。
+2.  记心神变（ādesanā-pāṭihāriya）。
     
-3.  Anusāsanī-pāṭihāriya：教诫神变：真理的教导，导向真实的洞见与圆满。
+3.  教诫神变（anusāsanī-pāṭihāriya）：真理的教导，导向真实的洞见与圆满。
     
 
 这些神变在《巴利三藏》中是这样描述的：
@@ -102,13 +102,13 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 以下是上述巴利词的字面含义：
 
-*   Pāṭihāriya（“神变”）：意为“击退”、“驱逐”或“摧毁”不利或敌对的事物。
+*   pāṭihāriya（“神变”）：意为“击退”、“驱逐”或“摧毁”不利或敌对的事物。
     
-*   Iddhi（“神通”）：意为“成就”、“圆满”。
+*   iddhi（“神通”）：意为“成就”、“圆满”。
     
-*   Ādesanā（“记心”）：意为“指示”、“揭示”、“指出”、“阐明”。
+*   ādesanā（“记心”）：意为“指示”、“揭示”、“指出”、“阐明”。
     
-*   Anusāsanī：意为“反复教导”。
+*   anusāsanī：意为“反复教导”。
     
 
 运用这些定义，《无碍解道》（Paṭisambhidāmagga）对这三种神变作了新颖的解释。它指出所有善法，如出离、慈心、禅那、观照无我，以及阿罗汉道，都是 iddhi-pāṭihāriya，因为它们导向特定的成就并消除欲贪、嗔恚及其他烦恼等负面品质。所有善法都是 ādesanā-pāṭihāriya，因为它们只在清明无染的心中生起。善法也是 anusāsanī-pāṭihāriya，因为教法强调了它们的正确应用、培育和平衡。[\[10\]](#fn-fn10){:id="fr-fn10"}尽管这些并非对这些神变的常见解释，但它们提供了一个发人深省的视角。
@@ -119,7 +119,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 > 世尊，那烂陀（Nāḷandā）城富饶、繁盛、人口众多，而且充满了对世尊有信心的人。如果世尊能请求某位比丘展现殊胜神变，那将是件好事。这样一来，那烂陀的市民就会对世尊生起更大的信心——生起无量的信心。
 >
-> 佛陀回答说：坚固（Kevaddha），我并不是这样教导比丘们的，说：“去吧，比丘们，为白衣居士展现殊胜神变。”
+> 佛陀回答说：坚固，我并不是这样教导比丘们的，说：“去吧，比丘们，为白衣居士展现殊胜神变。”
 
 佛陀接着说，在三种神变中，他不赞成神通神变和记心神变，因为他看到了它们的潜在危害：当听到这些事时，那些相信其真实性的人会更加确信，而那些持怀疑态度的人则会否认其真实性。他们可能会声称，施展这些神通的比丘是使用了魔法符咒（gandhārī）、读心符咒（maṇīkā）或其他诡计。这种意见分歧随后导致争论和不和。
 
@@ -139,7 +139,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 1.  非“圣”神通：伴随着染污，并作为“苦的所依”（upadhi）的神通，即通常所理解的、前面讨论过的神通。在此，通过坚定的努力，出家众证得心定（cetosamādhi），并施展各种神通能力，比如由一身化为多身、穿墙而过、空中飞行、潜入地下或水上行走。
     
-2.  “圣”神通：没有烦恼，不作为苦的依处的神通。在这种情况下，比丘能够自我掌控其知觉，并能够控制对感官印象的反应。他能够将令人厌恶的物体视为不令人厌恶；例如，他能够看到一个面部毁容的人，并以慈爱和友善对待这个人。他能够将有吸引力的物体视为无吸引力的；例如，他能够看到一个迷人、诱人的身体是令人厌恶的。或者他能够保持舍心，舍弃有吸引力的和令人厌恶的，例如在公正地反思事物并看清它们的真实本性时。
+2.  “圣”神通：没有烦恼，不作为苦的依处的神通。在这种情况下，比丘能够自主调御所起的想，并能够控制对感官印象的反应。他能够将令人厌恶的对象视为不令人厌恶；例如，他能够看到一个面部毁容的人，并以慈爱和友善对待这个人。他能够将有吸引力的对象视为无吸引力的；例如，他能够看到一个迷人、诱人的身体是令人厌恶的。或者他能够保持舍心，舍弃有吸引力的和令人厌恶的，例如在公正地反思事物并看清它们的真实本性时。
     
 
 这段经文证实，通常所理解的神通——施展惊人奇特能力——在佛教中既不受赞扬，也不是佛教的精髓。在佛教中，最高形式的神通是控制自己对感官印象的反应并培育心的自主力。这种能力不会给自己或他人造成伤害。
@@ -154,7 +154,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 ### 神通的危险
 
-神通对拥有它们的人和与这些人交往的人都可能有害。拥有这些神通的凡夫可能会因此而沉醉：[\[18\]](#fn-fn18){:id="fr-fn18"}他们可能会变得自负，感到优越并贬低他人；他们可能会沉迷于由此类神通获得的物质利益和荣誉；他们可能会变得不诚实；或者他们可能会利用这些神通作恶，就像提婆达多（Devadatta）尊者的情况一样。
+神通对拥有它们的人和与这些人交往的人都可能有害。拥有这些神通的凡夫可能会因此而沉醉：[\[18\]](#fn-fn18){:id="fr-fn18"}他们可能会变得自负，感到优越并贬低他人；他们可能会沉迷于由此类神通获得的物质利益和荣誉；他们可能会变得不诚实；或者他们可能会利用这些神通作恶，就像尊者提婆达多（Devadatta）的情况一样。
 
 至少，对神通的执着或迷恋会妨碍人证得更殊胜的德行，并妨碍其净化自心、断除染污。而且，由于凡夫的神通能力会衰退，围绕保护这些能力的焦虑是一个障碍，它会干扰如理作意和观的有效应用。神通因此被归类为观的障碍（iddhi-palibodha），修习智慧者应将其去除或消除。[\[19\]](#fn-fn19){:id="fr-fn19"}
 
@@ -171,7 +171,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 >
 > 这个主题包括圣物和魔法物品、神秘力量，以及佛陀所称的低劣或“旁生术”（tiracchāna-vijjā）。低劣之术是指那些阻碍通往天界和涅槃之道，或与佛教目标不符的外道教义。它们主要涉及占卜、预言和疾病治疗，这些对于比丘而言，如果他为了谋生或追求个人利益而修行这些技艺，则从道德角度来看是错误的和有害的。
 >
-> “旁生术”不同于神通神变（iddhi-pāṭihāriya）。它在《长部》（Dīgha Nikāya）[DN 1 / D i 9-12](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-01-brahmajala/){: target="_blank" rel="noopener"} 中有所讨论，并在《长部》的 Sīlakkhandhavagga 中反复提及。在例如《律藏》（Vinaya Piṭaka）[CV 5 / Vin ii 140](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}；[NV 4.5.10 / Vin iv 306](https://aipali.true-dhamma.com/vinaya/nv/kanda-04-pacittiya/nv-04-05-cittagara/#10-单堕五十教畜生咒-dasamasikkhāpada){: target="_blank" rel="noopener"} 中有禁止学习和教授这些技艺的戒律；例如在 DA. I. 131；Nd1A. II. 402 中有所解释。
+> “旁生术”不同于神通神变（iddhi-pāṭihāriya）。它在《长部》[DN 1 / D i 9-12](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-01-brahmajala/){: target="_blank" rel="noopener"} 中有所讨论，并在《长部》的 Sīlakkhandhavagga 中反复提及。在例如《律藏》（Vinaya Piṭaka）[CV 5 / Vin ii 140](https://aipali.true-dhamma.com/vinaya/cv/cv-05-khuddakavatthu/){: target="_blank" rel="noopener"}；[NV 4.5.10 / Vin iv 306](https://aipali.true-dhamma.com/vinaya/nv/kanda-04-pacittiya/nv-04-05-cittagara/#10-单堕五十教畜生咒-dasamasikkhāpada){: target="_blank" rel="noopener"} 中有禁止学习和教授这些技艺的戒律；例如在 DA. I. 131；Nd1A. II. 402 中有所解释。
 
 即使没有成为声称拥有神通者的受害者，对这些事物的迷恋或全神贯注也与两条重要的佛教原则背道而驰：
 
@@ -189,7 +189,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 通过审视这些场合，我们可以得出结论，佛陀只在降伏（或“驯服”）那些拥有神通的人——那些高度重视这些神通或傲慢地自以为比他人优越的人——时才施展神通，以便他们放弃对神通的迷恋。他施展神通是为了降伏神通，鼓励那些沉迷于神通或对神通自负的人认识到神通的局限性，并看到比神通更优越的事物——学习和认识佛陀通过教诫神变所揭示的事物。这类似于前面提到的神通与教诫结合应用的原则，但在这里，这种应用仅限于那些被神通所迷惑并在遇到佛陀时表现出顽固傲慢的人，例如降伏梵天（Brahmā）的故事。
 
-有一些佛陀主要弟子将神通展示与教诫结合起来的故事，对象是那些对神通着迷的人，例如尊者舍利弗（Sāriputta）通过记心神变教导提婆达多尊者的弟子的故事，以及尊者摩诃目犍连（Mahā Moggallāna）施展神通的类似故事。
+有一些佛陀主要弟子将神通展示与教诫结合起来的故事，对象是那些对神通着迷的人，例如尊者舍利弗（Sāriputta）通过记心神变教导尊者提婆达多的弟子的故事，以及尊者摩诃目犍连（Mahā Moggallāna）施展神通的类似故事。
 
 有几个比丘揭示神通以帮助他人的故事，但在《巴利三藏》中，没有一个比丘应人们请求而施展神通的例子。[\[23\]](#fn-fn23){:id="fr-fn23"}曾有人提出这样的请求，因为他们想亲眼目睹这些神通，但佛陀制定了一条学处，禁止比丘向居士展示此类神通，如前所述。
 
@@ -199,7 +199,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 1.  从智慧的角度来看，神通力不能直接产生智慧，不能洞彻真理，也不能理解事物的真实面貌。这种局限性的一个例子是那个拥有神通的比丘的故事（前面提到过），他遍历所有存在领域寻找答案，直到抵达自称创造世界的梵天界，然而这位比丘的探索徒劳无功。一个类似的故事描述了一位仙人徒劳地旅行寻找宇宙的尽头，直到他死去。[\[25\]](#fn-fn25){:id="fr-fn25"}
     
-2.  从心的角度来看，神通无法真正消除烦恼或止息苦。当心困惑、沮丧、躁动不安或被贪、嗔、痴所困扰时，这些力量无法导向解脱；即使通过禅定的力量压制这些负面心境，这种解决方案也只是暂时的。每当出定、面对日常生活时，烦恼就会回来干扰和困扰，并导致痛苦。更糟糕的是，神通可能被用来服务于烦恼，就像提婆达多（Devadatta）尊者的情况一样。[\[26\]](#fn-fn26){:id="fr-fn26"}
+2.  从心的角度来看，神通无法真正消除烦恼或止息苦。当心困惑、沮丧、躁动不安或被贪、嗔、痴所困扰时，这些力量无法导向解脱；即使通过禅定的力量压制这些负面心境，这种解决方案也只是暂时的。每当出定、面对日常生活时，烦恼就会回来干扰和困扰，并导致痛苦。更糟糕的是，神通可能被用来服务于烦恼，就像尊者提婆达多的情况一样。[\[26\]](#fn-fn26){:id="fr-fn26"}
     
 
 ## 天人
@@ -387,7 +387,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 搬到新地方居住时，应先向周围有德之人提供帮助，然后确立慷慨之心，将自己所累积的福德回向给当地天人。接受了这份供奉后，天人会以善意回应：
 
-> 无论有何天人接受此供养\[的尊敬\]，  
+> 无论有何天人接受此供养〔的尊敬〕，  
 > 他们也会反过来尊敬他。  
 > 接受了他的敬重后，  
 > 他们同样会敬重他。  
@@ -460,7 +460,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
     
 *   降伏另一位梵天（Brahmā）；[\[65\]](#fn-fn65){:id="fr-fn65"}
     
-*   纠正善星（Sunakkhatta）的错误见解，并驳斥裸体苦行者波梨子的说法；[\[66\]](#fn-fn66){:id="fr-fn66"}
+*   纠正善星的错误见解，并驳斥裸体苦行者波梨子的说法；[\[66\]](#fn-fn66){:id="fr-fn66"}
     
 *   降伏盗贼鸯掘摩罗；[\[67\]](#fn-fn67){:id="fr-fn67"}
     
@@ -477,38 +477,38 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 
 以下是《巴利三藏》中记载的佛陀弟子展现神通的场合：
 
-*   宾头卢·颇罗堕尊者（Piṇḍola-Bhāradvāja）接受挑战，腾空而起，从高杆上取下檀香碗；[\[75\]](#fn-fn75){:id="fr-fn75"}
+*   尊者宾头卢·颇罗堕（Piṇḍola-Bhāradvāja）接受挑战，腾空而起，从高杆上取下檀香碗；[\[75\]](#fn-fn75){:id="fr-fn75"}
     
 *   尊者摩诃目犍连降伏魔罗；[\[76\]](#fn-fn76){:id="fr-fn76"}
     
-*   毕陵伽婆蹉尊者（Pilinda-Vaccha）营救他护法居士被绑架的两个女儿；[\[77\]](#fn-fn77){:id="fr-fn77"}
+*   尊者毕陵伽婆蹉（Pilinda-Vaccha）营救他护法居士被绑架的两个女儿；[\[77\]](#fn-fn77){:id="fr-fn77"}
     
-*   毕陵伽婆蹉尊者（Pilinda-Vaccha）将频婆娑罗王的宫殿变成金色，为被诬陷的家庭洗冤；[\[78\]](#fn-fn78){:id="fr-fn78"}
+*   尊者毕陵伽婆蹉将频婆娑罗王的宫殿变成金色，为被诬陷的家庭洗冤；[\[78\]](#fn-fn78){:id="fr-fn78"}
     
 *   尊者陀骠·摩罗子（Dabba-Mallaputta）夜晚带领比丘们前往住所时，用手指作灯照明；[\[79\]](#fn-fn79){:id="fr-fn79"}
     
-*   娑伽陀尊者（Sāgata）向居士展现神通；[\[80\]](#fn-fn80){:id="fr-fn80"}
+*   尊者娑伽陀（Sāgata）向居士展现神通；[\[80\]](#fn-fn80){:id="fr-fn80"}
     
-*   娑伽陀尊者（Sāgata）在螺髻苦行者的隐居处降伏龙；[\[81\]](#fn-fn81){:id="fr-fn81"}
+*   尊者娑伽陀在螺髻苦行者的隐居处降伏龙；[\[81\]](#fn-fn81){:id="fr-fn81"}
     
-*   提婆达多（Devadatta）尊者激励阿阇世王子；[\[82\]](#fn-fn82){:id="fr-fn82"}
+*   尊者提婆达多激励阿阇世王子；[\[82\]](#fn-fn82){:id="fr-fn82"}
     
-*   舍利弗（Sāriputta）尊者和摩诃目犍连（Mahā Moggallāna）尊者通过运用神通神变、记心神变并结合教诫神变，使提婆达多尊者的弟子们回归正道；[\[83\]](#fn-fn83){:id="fr-fn83"}
+*   尊者舍利弗和尊者摩诃目犍连通过运用神通神变、记心神变并结合教诫神变，使尊者提婆达多的弟子们回归正道；[\[83\]](#fn-fn83){:id="fr-fn83"}
     
-*   摩诃迦尊者（Mahaka）召唤凉风细雨，帮助被炎热困扰的长老比丘；[\[84\]](#fn-fn84){:id="fr-fn84"}
+*   尊者摩诃迦（Mahaka）召唤凉风细雨，帮助被炎热困扰的长老比丘；[\[84\]](#fn-fn84){:id="fr-fn84"}
     
-*   摩诃目犍连（Mahā Moggallāna）尊者使毗阇延多宫殿震动，以唤起诸天之王帝释天（Indra）的紧迫感；[\[85\]](#fn-fn85){:id="fr-fn85"}
+*   尊者摩诃目犍连使毗阇延多宫殿震动，以唤起诸天之王帝释天（Indra）的紧迫感；[\[85\]](#fn-fn85){:id="fr-fn85"}
     
-*   摩诃目犍连（Mahā Moggallāna）尊者使鹿母讲堂震动，以警示傲慢的比丘；[\[86\]](#fn-fn86){:id="fr-fn86"}以及
+*   尊者摩诃目犍连使鹿母讲堂震动，以警示傲慢的比丘；[\[86\]](#fn-fn86){:id="fr-fn86"}以及
     
-*   尸弃佛的首座弟子阿毗浮尊者（Abhibhū）在隐形的状态下说法，其声音传遍千世界。[\[87\]](#fn-fn87){:id="fr-fn87"}
+*   尸弃佛的首座弟子尊者阿毗浮（Abhibhū）在隐形的状态下说法，其声音传遍千世界。[\[87\]](#fn-fn87){:id="fr-fn87"}
     
 
 义注中所记载的场合不计其数，其中包括：
 
-*   周利槃陀伽尊者（Cullapanthaka）创造了一千个他自己的意生身像；[\[88\]](#fn-fn88){:id="fr-fn88"}
+*   尊者周利槃陀伽（Cullapanthaka）创造了一千个他自己的意生身像；[\[88\]](#fn-fn88){:id="fr-fn88"}
     
-*   尊者摩诃目犍连（Mahā Moggallāna）降伏龙王难陀优波难陀；[\[89\]](#fn-fn89){:id="fr-fn89"}
+*   尊者摩诃目犍连降伏龙王难陀优波难陀；[\[89\]](#fn-fn89){:id="fr-fn89"}
     
 *   尊者富楼那（Puṇṇa）从愤怒的精灵手中拯救了他的兄弟——一位航海商人；[\[90\]](#fn-fn90){:id="fr-fn90"}
     
@@ -516,7 +516,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
     
 *   须摩那沙弥（Sumana）降伏了一条龙；[\[92\]](#fn-fn92){:id="fr-fn92"}以及
     
-*   孙陀罗·三慕陀尊者（Sundarasamudda）腾空逃离妓女。[\[93\]](#fn-fn93){:id="fr-fn93"}
+*   尊者孙陀罗·三慕陀（Sundarasamudda）腾空逃离妓女。[\[93\]](#fn-fn93){:id="fr-fn93"}
     
 
 还有关于其他个人展现神通的经典故事，例如：
@@ -607,7 +607,7 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
     
 *   治愈丈夫的疾病（AA. III. 349；然而，在《巴利三藏》中，声称康复是由于听了妻子在 [AN 6.16 / A iii 297](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-011-020-saraniya/#6-an-616-那拘罗父-nakulapitusutta){: target="_blank" rel="noopener"} 提供的佛法开示）；
     
-*   以及推断是否存在真正“值得供养”的众生。（AA. IV. 181. \[译者注：值得供养的人 = dakkhiṇeyya-puggala；此术语指觉悟者。\]）
+*   以及推断是否存在真正“值得供养”的众生。（AA. IV. 181. 〔译者注：值得供养的人 = dakkhiṇeyya-puggala；此术语指觉悟者。〕）
     
 
 谛语的实践是衡量社会道德行为稳定性的标尺。这种谛语传统的衰退可能表明社会道德的沦丧，因为当人们缺乏能够带来自信的德行时，他们很可能会重新依赖并祈求天人协助等神通现象。正是由于这种道德行为的薄弱，我们才看到今天原始宗教形式的持续存在和盛行，例如献祭、祈求、诅咒和咒语。
@@ -662,11 +662,11 @@ title: 第九章：神通与天人 | 佛法 | Buddhadhamma
 8.  能知道自己以前是否曾居住在这些天人之中。[\[109\]](#fn-fn109){:id="fr-fn109"}
     
 
-Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“使人超越天人的知见”，因为它使人比天人更了解天人自己（例如梵天〔Brahmā〕不知道自己的年龄，错误地认为自己是不死的）。[\[110\]](#fn-fn110){:id="fr-fn110"} Adhideva-ñāṇadassana 是天眼的一个方面，是圆满觉悟的佛陀所必需的特征，与其他的“如来十力”（tathāgata-balañāṇa）一起，但它并非证得阿罗汉果所必需。[\[111\]](#fn-fn111){:id="fr-fn111"}自古以来，甚至在佛陀时代之前，人们就对天人怀有根深蒂固的敬意。因此，为了显示人类的卓越之处，有必要展示人类如何能够超越天人。
+adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“使人超越天人的知见”，因为它使人比天人更了解天人自己（例如梵天〔Brahmā〕不知道自己的年龄，错误地认为自己是不死的）。[\[110\]](#fn-fn110){:id="fr-fn110"} adhideva-ñāṇadassana 是天眼的一个方面，是圆满觉悟的佛陀所必需的特征，与其他的“如来十力”（tathāgata-balañāṇa）一起，但它并非证得阿罗汉果所必需。[\[111\]](#fn-fn111){:id="fr-fn111"}自古以来，甚至在佛陀时代之前，人们就对天人怀有根深蒂固的敬意。因此，为了显示人类的卓越之处，有必要展示人类如何能够超越天人。
 
 ## 附录六：对天人的供养
 
-对天人的供养（devatā-bali）是佛陀推荐给在家居士的五种如法供养之一。[\[112\]](#fn-fn112){:id="fr-fn112"}其他四种是：对亲属的援助（ñāti-bali）、招待客人的礼物（atithi-bali）、为已故者修福（pubbapeta-bali）和供养国王（rāja-bali，例如纳税）。Bali 是佛陀采纳（即被佛教教义接受）的少数几个源自婆罗门教的词语之一，其含义没有改变（在此情况下含义仅略有改变）。还有像 yañña 和 tapa 等词语也被使用，但它们的含义发生了很大变化。这是因为 bali 最初的含义是献祭，作为一种援助或支持（以及尊敬）。在婆罗门教中，这些供养（bali）是献给天人、精灵、人类，甚至鸟类和其他动物的。供养包括米、酪乳、花、香油、熏香、檀香、槟榔、香料等。在《宝经》（Ratana Sutta）中有一段话，敦促天人对那些供养的人培养慈心并保护他们。[\[113\]](#fn-fn113){:id="fr-fn113"}义注解释说，功德回向（patti-dāna）——让其他众生参与善行——是 bali 的一种（佛教）定义，而经典倡导这种形式的供养表明了人们如何协助天人。接受这些供养的天人应该心怀感激并反过来保护人们。[\[114\]](#fn-fn114){:id="fr-fn114"}
+对天人的供养（devatā-bali）是佛陀推荐给在家居士的五种如法供养之一。[\[112\]](#fn-fn112){:id="fr-fn112"}其他四种是：对亲属的援助（ñāti-bali）、招待客人的礼物（atithi-bali）、为已故者修福（pubbapeta-bali）和供养国王（rāja-bali，例如纳税）。bali 是佛陀采纳（即被佛教教义接受）的少数几个源自婆罗门教的词语之一，其含义没有改变（在此情况下含义仅略有改变）。还有像 yañña 和 tapa 等词语也被使用，但它们的含义发生了很大变化。这是因为 bali 最初的含义是献祭，作为一种援助或支持（以及尊敬）。在婆罗门教中，这些供养（bali）是献给天人、精灵、人类，甚至鸟类和其他动物的。供养包括米、酪乳、花、香油、熏香、檀香、槟榔、香料等。在《宝经》（Ratana Sutta）中有一段话，敦促天人对那些供养的人培养慈心并保护他们。[\[113\]](#fn-fn113){:id="fr-fn113"}义注解释说，功德回向（patti-dāna）——让其他众生参与善行——是 bali 的一种（佛教）定义，而经典倡导这种形式的供养表明了人们如何协助天人。接受这些供养的天人应该心怀感激并反过来保护人们。[\[114\]](#fn-fn114){:id="fr-fn114"}
 
 \[1\] 参见附录一：经典中记载的神通事迹。[&nbsp;↩&nbsp;](#fr-fn1)
 {: id="fn-fn1"}
@@ -719,7 +719,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[17\] [AN 3.145 / A i 292](https://aipali.true-dhamma.com/sutta/an/nipata-03/an-03-134-146-yodhajiva/#12-an-3145-孔雀饲育处之二-dutiyamoranivāpasutta){: target="_blank" rel="noopener"}；[AN 11.10 / A v 326-327](https://aipali.true-dhamma.com/sutta/an/nipata-11/an-11-001-010-nissaya/#10-an-1110-孔雀林园经-moranivāpasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
-\[18\] Iddhi-mada。这种迷醉属于与被知识、道德行为、禅那等所迷醉的同一范畴；参见：Vbh. 345-346。[&nbsp;↩&nbsp;](#fr-fn18)
+\[18\] iddhi-mada。这种迷醉属于与被知识、道德行为、禅那等所迷醉的同一范畴；参见：Vbh. 345-346。[&nbsp;↩&nbsp;](#fr-fn18)
 {: id="fn-fn18"}
 
 \[19\] Vism. 89-90, 97。[&nbsp;↩&nbsp;](#fr-fn19)
@@ -737,7 +737,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[23\] 关于经典中展现神通的记载，请参见附录一。[&nbsp;↩&nbsp;](#fr-fn23)
 {: id="fn-fn23"}
 
-\[24\] Āmisa-iddhi（物质的成功或繁荣；物质作为一种创造力）和 dhamma-iddhi（通过佛法获得的成功或繁荣；精神的繁荣；佛法作为一种创造力；正义的力量）；参见：[AN 2.159 / A i 93-94](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-119-180-tatiyapannasaka/#48-an-2159-财成就与法成就){: target="_blank" rel="noopener"}。拥有美丽的容貌、长寿、健康和吸引力也被称为“成就”（iddhi）的形式；参见：[DN 17 / D ii 177](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-17-mahasudassana/){: target="_blank" rel="noopener"}；[MN 129 / M iii 176](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-129-balapandita/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn24)
+\[24\] āmisa-iddhi（物质的成功或繁荣；物质作为一种创造力）和 dhamma-iddhi（通过佛法获得的成功或繁荣；精神的繁荣；佛法作为一种创造力；正义的力量）；参见：[AN 2.159 / A i 93-94](https://aipali.true-dhamma.com/sutta/an/nipata-02/an-02-119-180-tatiyapannasaka/#48-an-2159-财成就与法成就){: target="_blank" rel="noopener"}。拥有美丽的容貌、长寿、健康和吸引力也被称为“成就”（iddhi）的形式；参见：[DN 17 / D ii 177](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-17-mahasudassana/){: target="_blank" rel="noopener"}；[MN 129 / M iii 176](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-129-balapandita/){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn24)
 {: id="fn-fn24"}
 
 \[25\] [DN 11 / D i 215-216](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-11-kevatta/){: target="_blank" rel="noopener"}；[SN 2.26 / S i 61-62](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-02-devaputta/sn-02-21-30-nanatitthiya/#6-sn-226-赤马经-rohitassasutta){: target="_blank" rel="noopener"}；[AN 4.45 / A ii 47-48](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-041-050-rohitassa/#5-an-445-赤马天子经-rohitassasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn25)
@@ -815,7 +815,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[49\] 关于帝释天的协助与扰乱，请参见附录二。[&nbsp;↩&nbsp;](#fr-fn49)
 {: id="fn-fn49"}
 
-\[50\] 原句译为：“为善之努力是人类的德行；善人的帮助是天界的德行”，但使用“责任”一词强调了实践应用。[&nbsp;↩&nbsp;](#fr-fn50)
+\[50\] 原句译为：“为善之努力是人类的德行；善人的帮助是天界的德行”，但使用“责任”一词强调其在实际行动上的意义。[&nbsp;↩&nbsp;](#fr-fn50)
 {: id="fn-fn50"}
 
 \[51\] “为了投生为天人而进行宗教修行”这句话基于 SnA. I. 291 的解释；这里使用的巴利语 amarā 意为：“不朽”，即天人的状态。[&nbsp;↩&nbsp;](#fr-fn51)
@@ -839,7 +839,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[57\] 当今的一个问题是，善于教导的比丘们对那些在教导在家居士时仍然依赖特殊诱惑的比丘们没有太多顾虑。而后者往往不接受能导向烦恼解脱的教导，他们被困在神通的领域中（更不用说那些被困在追求物质利益的比丘）。结果是这些不同群体比丘之间没有交集点，导致在家居士群体中出现混乱、不和谐甚至争执。[&nbsp;↩&nbsp;](#fr-fn57)
 {: id="fn-fn57"}
 
-\[58\] Bali 包括向天人回向福德。[&nbsp;↩&nbsp;](#fr-fn58)
+\[58\] bali 包括向天人回向福德。[&nbsp;↩&nbsp;](#fr-fn58)
 {: id="fn-fn58"}
 
 \[59\] 更多关于对天人的供养（devatā-bali）的内容，请参见附录六。[&nbsp;↩&nbsp;](#fr-fn59)
@@ -854,7 +854,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[62\] 有许多指涉训练和纪律的经典术语，例如 dama、bhāvanā、vinaya、vinīta 和 sikkhā，但不幸的是，在近代（泰语中）这些词语的一些含义已经偏离了它们的原始内涵。[&nbsp;↩&nbsp;](#fr-fn62)
 {: id="fn-fn62"}
 
-\[63\] [MV 1 / Vin i 24-33](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}. Damana（“降伏”，“驯服”）源自动词 dameti，意为“训练”：消除傲慢并将人引导至正确的修行方式；在这里，它不表示惩罚或责骂。[&nbsp;↩&nbsp;](#fr-fn63)
+\[63\] [MV 1 / Vin i 24-33](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}. damana（“降伏”，“驯服”）源自动词 dameti，意为“训练”：消除傲慢并将人引导至正确的修行方式；在这里，它不表示惩罚或责骂。[&nbsp;↩&nbsp;](#fr-fn63)
 {: id="fn-fn63"}
 
 \[64\] [MN 49 / M i 326-330](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-05-culayamaka/mn-049-brahmanimantanika/){: target="_blank" rel="noopener"}；[SN 6.4 / S i 142](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-06-brahma/sn-06-brahma/#14-sn-64-婆迦梵天经-bakabrahmasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn64)
@@ -935,7 +935,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[89\] JA. V. 126；Vism. 398-401。[&nbsp;↩&nbsp;](#fr-fn89)
 {: id="fn-fn89"}
 
-\[90\] MA. V. 84-92；[MN 145 / M iii 270](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-145-punnovada/){: target="_blank" rel="noopener"} 的一个附录。有一个故事讲述佛陀前往尊者富楼那的出生地输卢那国（Sunāparanta），在那里留下了两个脚印。\[缅甸人将这个国家认定为蒲甘附近的一个地区。\][&nbsp;↩&nbsp;](#fr-fn90)
+\[90\] MA. V. 84-92；[MN 145 / M iii 270](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-05-salayatana/mn-145-punnovada/){: target="_blank" rel="noopener"} 的一个附录。有一个故事讲述佛陀前往尊者富楼那的出生地输卢那国（Sunāparanta），在那里留下了两个脚印。〔缅甸人将这个国家认定为蒲甘附近的一个地区。〕[&nbsp;↩&nbsp;](#fr-fn90)
 {: id="fn-fn90"}
 
 \[91\] DhA. II. 240。盗贼们皈依佛教并受戒成为比丘。[&nbsp;↩&nbsp;](#fr-fn91)
@@ -989,7 +989,7 @@ Adhideva-ñāṇadassana 也可以翻译为“超越天人者的知见”或“�
 \[107\] 译者注：gandhabba：属于四大天王天的半神族，被描述为天界乐师。[&nbsp;↩&nbsp;](#fr-fn107)
 {: id="fn-fn107"}
 
-\[108\] 译者注：关于这个双关语，比丘菩提（Bhikkhu Bodhi）是这样说的：“婆罗门的问题使用了将来时 bhavissati，但很难说他是否真的打算将问题指向佛陀的未来，或者只是将将来时形式用作一种礼貌的习惯。可能存在一个双关语，婆罗门以礼貌的含义使用将来时，佛陀则故意按字面上的将来时来回答。”《佛陀的数字论》（Numerical Discourses of the Buddha），© Buddhist Publication Society，第 291 页。[&nbsp;↩&nbsp;](#fr-fn108)
+\[108\] 译者注：关于这个双关语，菩提比丘（Bhikkhu Bodhi）是这样说的：“婆罗门的问题使用了将来时 bhavissati，但很难说他是否真的打算将问题指向佛陀的未来，或者只是将将来时形式用作一种礼貌的习惯。可能存在一个双关语，婆罗门以礼貌的含义使用将来时，佛陀则故意按字面上的将来时来回答。”《佛陀的数字论》（Numerical Discourses of the Buddha），© Buddhist Publication Society，第 291 页。[&nbsp;↩&nbsp;](#fr-fn108)
 {: id="fn-fn108"}
 
 \[109\] [AN 8.64 / A iv 304-305](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-061-070-bhumicala/#4-an-864-伽耶象头山-gayāsīsasutta){: target="_blank" rel="noopener"}, Gayāsīsa Sutta。[&nbsp;↩&nbsp;](#fr-fn109)

@@ -48,11 +48,11 @@ title: 佛法基金会主席 | 佛法 | Buddhadhamma
 
 2002 年：与中校 Sompone Punyagupta 博士（Vichaiyuth 医院所有者）合作，成立泰国佛教组织大会。担任秘书长，于 2002 年至 2009 年在皇家田（Sanam Luang）组织万佛节庆典，共八年。
 
-2004 年：与曼谷府僧长、摩诃寺（Wat Mahathat）住持尊者帕·贴梅提（Phra Depmedhi，Peesucharto）合作，在皇家田（Sanam Luang）组织阿萨哈普迦（Asalha Puja）仪式。此项工作协助了三年。
+2004 年：与曼谷府僧长、摩诃寺（Wat Mahathat）住持尊者帕·贴梅提（Phra Depmedhi，Peesucharto）合作，在皇家田组织阿萨哈普迦（Asalha Puja）仪式。此项工作协助了三年。
 
 成为国家佛教局印刷厂的委员会成员。
 
-2005 年：成为皇家田（Sanam Luang）卫塞节（Visakha Puja）复兴和发展执行组织委员会成员，在僧王寺（Wat Bowonniwet Vihara）下属的泰国佛教促进中心赞助下，由尊者帕·贴迪洛（Phra Depdilok，Rabaep）担任秘书长。
+2005 年：成为皇家田卫塞节（Visakha Puja）复兴和发展执行组织委员会成员，在僧王寺（Wat Bowonniwet Vihara）下属的泰国佛教促进中心赞助下，由尊者帕·贴迪洛（Phra Depdilok，Rabaep）担任秘书长。
 
 成为国会众议院宗教事务、艺术和文化委员会的顾问，由 Kudeb Saikrachang 中尉博士担任主席。任期两年（2005-2006 年）。
 

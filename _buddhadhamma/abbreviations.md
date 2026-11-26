@@ -4,11 +4,11 @@ title: 缩写 | 佛法 | Buddhadhamma
 
 # 缩写
 
-中文译者注：英文原书的经文出处采用 SuttaCentral 编号，中文版改用中文世界更常引用的 VRI/CSCD 式经号，统一写作“VRI 式经号 / PTS 版卷页号”，例如：
+译者注：本注为中文译者补充。英文原书的经文出处采用 SuttaCentral 编号，中文版改用中文世界更常引用的 VRI/CSCD 式经号，统一写作“VRI 式经号 / PTS 版卷页号”，例如：
 
 [MN 18 / M i 111-112](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-018-madhupindika/){: target="_blank" rel="noopener"}, Madhupiṇḍika Sutta
 
-斜杠前是 VRI 式经号（此例为《中部》第 18 经），链接至“[AIPali 巴利三藏智能化工程](https://aipali.true-dhamma.com/){: target="_blank" rel="noopener"}”，点击即可阅读经文；斜杠后是 PTS 版卷页号（此例为第 1 卷第 111 至 112 页），照录英文原书；最后是经名。《律藏》的标签和编号（BV、NV、MV、CV、PV）按 VRI 的分册方式编排，与其他版本或译本的常见写法不同，详见表后中文译者注。下表 VRI 栏空缺的典籍（如《本生经》《譬喻经》等《小部》诸书、论藏、义注、复注，以及《清净道论》等藏外典籍），出处只标 PTS 版卷页号，不附链接。
+斜杠前是 VRI 式经号（此例为《中部》第 18 经），链接至“[AIPali 巴利三藏智能化工程](https://aipali.true-dhamma.com/){: target="_blank" rel="noopener"}”，点击即可阅读经文；斜杠后是 PTS 版卷页号（此例为第 1 卷第 111 至 112 页），照录英文原书；最后是经名。《律藏》的标签和编号（BV、NV、MV、CV、PV）按 VRI 的分册方式编排，与其他版本或译本的常见写法不同，详见表后中文译者的说明。下表 VRI 栏空缺的典籍（如《本生经》《譬喻经》等《小部》诸书、论藏、义注、复注，以及《清净道论》等藏外典籍），出处只标 PTS 版卷页号，不附链接。
 
 若干缩写与下表写法不同或未列入下表：Nd. I.＝Nd1.，Nd. II.＝Nd2.，NdA.＝Nd1A./Nd2A.，Ps1.、Ps2.＝Ps. I.、Ps. II.，VibA.＝VbhA.，JatA.＝JA.，BudA.＝BvA.，Bu.＝Bv.，VinT.＝VinṬ.；另有 Mang.＝Maṅgalatthadīpanī（《吉祥义灯》），Mhvs.＝Mahāvaṁsa（《大史》）；BE.、CE. 分别指佛历、公元。下表中，三藏圣典的缩写以斜体表示。
 
@@ -93,7 +93,7 @@ title: 缩写 | 佛法 | Buddhadhamma
 |  | _Yam._ | 《双论》（Yamaka）（《阿毗达摩》） |
 |  | YamA. | 《双论义注》（Yamaka Aṭṭhakathā）（Paramatthadīpanī） |
 
-中文译者注：《律藏》部分的 VRI 式编号依 AIPali 的分册：BV＝《比丘分别》（Bhikkhuvibhaṅga），第 1 至 7 篇依次为波罗夷、僧残、不定、尼萨耆波逸提、波逸提、波罗提提舍尼、众学；NV＝《比丘尼分别》（Bhikkhunīvibhaṅga）；MV＝《大品》（Mahāvagga），即第 1 至 10 犍度；CV＝《小品》（Cūḷavagga），即第 11 至 22 犍度，其编号自 1 起另计；PV＝《附随》（Parivāra）。例如 BV 1.1 指《比丘分别》第 1 篇（波罗夷）第 1 条，NV 4.5.10 指《比丘尼分别》第 4 篇（波逸提）第 5 品第 10 条，MV 1 指《大品》第 1 犍度（大犍度）。
+译者注：本注为中文译者补充。《律藏》部分的 VRI 式编号依 AIPali 的分册：BV＝《比丘分别》（Bhikkhuvibhaṅga），第 1 至 7 篇依次为波罗夷、僧残、不定、尼萨耆波逸提、波逸提、波罗提提舍尼、众学；NV＝《比丘尼分别》（Bhikkhunīvibhaṅga）；MV＝《大品》（Mahāvagga），即第 1 至 10 犍度；CV＝《小品》（Cūḷavagga），即第 11 至 22 犍度，其编号自 1 起另计；PV＝《附随》（Parivāra）。例如 BV 1.1 指《比丘分别》第 1 篇（波罗夷）第 1 条，NV 4.5.10 指《比丘尼分别》第 4 篇（波逸提）第 5 品第 10 条，MV 1 指《大品》第 1 犍度（大犍度）。
 
 ![image](./images/illustrations/lotus-flowers.jpg)
 
