@@ -330,7 +330,7 @@ paññā 是一个通用术语，描述上述各种了知。慧有许多不同�
 > 色蕴……受蕴……想蕴……行蕴……识蕴是执取的基础。对色蕴……受蕴……想蕴……行蕴……识蕴的欲望和贪爱（chanda-rāga；贪恋或强烈欲望最终导致执取）就是执取。  
 > [SN 22.121 / S iii 167](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-113-125-dhammakathika/#9-sn-22121-取经-upādāniyasutta){: target="_blank" rel="noopener"}, Upādāniya Sutta
 
-五蕴和五取蕴之间的这种区别是深入学习佛陀法义所需的一个重要原则。
+五蕴和五取蕴之间的这种区别是深入学习佛法所需的一个重要原则。
 
 ## 实践应用
 

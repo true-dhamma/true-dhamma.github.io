@@ -443,7 +443,7 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 >
 > 当我的定心如此清净……我将其导向漏尽智。我如实地亲知实证：“这是苦”，“这是苦的起源”，“这是苦的止息”，“这是导向苦止息之道”……“这些是漏”，“这是漏的起源”，“这是漏的止息”，“这是导向漏止息之道”。
 >
-> 当我如此了知和见到时，我的心从欲漏、有漏和无明漏中解脱。当它解脱时，生起了“它已解脱”的了知。我亲知实证：“生已尽，梵行已立，所作已办，不再有任何存在状态。”
+> 当我如此了知和见到时，我的心从欲漏、有漏和无明漏中解脱。当它解脱时，生起了“它已解脱”的了知。我亲知实证：“生已尽，梵行已立，所作已办，不受后有。”
 >
 > 〔这是我在夜间第三更所获得的第三种明。无明被驱除……光明生起。〕[\[77\]](#fn-fn77){:id="fr-fn77"}  
 > [MN 36 / M i 247-249](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-036-mahasaccaka/){: target="_blank" rel="noopener"}, Mahāsaccaka Sutta
@@ -579,19 +579,19 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 
 参照前一节关于修止的说明，这种观照是先前引用段落的延伸：以智慧观照，他的诸漏被彻底断尽。换句话说，它指的是“慧解脱”（paññā-vimutti）。《巴利三藏》中有许多标准的定义来描述这种观之道。在查看这些定义之前，让我们先考察一些描述佛陀证悟的段落（它们也是观的纲要）。这将揭示同一件事可以有多种不同的诠释：
 
-> 当我对此四圣谛的智见，以其三阶段和十二种方式如实地彻底净化时，我宣称已证得世间无上正等正觉……我生起了智见：“我的心解脱是不可动摇的。这是我的最后一生。现在，不再有再生。”  
+> 当我对此四圣谛的智见，以其三阶段和十二种方式如实地彻底净化时，我宣称已证得世间无上正等正觉……我生起了智见：“我的心解脱是不可动摇的。这是我的最后一生，从此不再受生。”  
 > [MV 1 / Vin i 11](https://aipali.true-dhamma.com/vinaya/mv/mv-01-mahakhandhaka/){: target="_blank" rel="noopener"}；[SN 56.11 / S v 422-423](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-56-sacca/sn-56-11-20-dhammacakkappavattana/#1-sn-5611-转法轮经-dhammacakkappavattanasutta){: target="_blank" rel="noopener"}
 >
-> 当我如实地亲知实证这五取蕴的乐味（assāda）、过患（ādīnava）和出离（nissaraṇa）时，我宣称已证得世间无上正等正觉……“现在，不再有再生。”  
+> 当我如实地亲知实证这五取蕴的乐味（assāda）、过患（ādīnava）和出离（nissaraṇa）时，我宣称已证得世间无上正等正觉……“从此不再受生。”  
 > [SN 22.26 / S iii 28](https://aipali.true-dhamma.com/sutta/sn/vagga-3-khandha/samyutta-22-khandha/sn-22-22-32-bhara/#5-sn-2226-味经一-assādasuttaṃ){: target="_blank" rel="noopener"}, Assāda Sutta
 >
-> 当我如实地亲知实证这六内处（即六内感官）的乐味、过患和出离时，我宣称已证得世间无上正等正觉……“现在，不再有再生。”  
+> 当我如实地亲知实证这六内处（即六内感官）的乐味、过患和出离时，我宣称已证得世间无上正等正觉……“从此不再受生。”  
 > [SN 35.13 / S iv 7-8](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-35-salayatana/sn-35-13-22-yamaka/#1-sn-3513-正觉以前之一-paṭhamapubbesambodhasutta){: target="_blank" rel="noopener"}, Paṭhamapubbesambodha Sutta
 >
-> 当我如实地亲知实证这五根（即信、精进、念、定、慧）的生起和坏灭、乐味、过患和出离时，我宣称已证得世间无上正等正觉……“现在，不再有再生。”  
+> 当我如实地亲知实证这五根（即信、精进、念、定、慧）的生起和坏灭、乐味、过患和出离时，我宣称已证得世间无上正等正觉……“从此不再受生。”  
 > [SN 48.21 / S v 204](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-21-30-chalindriya/#1-sn-4821-后有-punabbhavasutta){: target="_blank" rel="noopener"}, Punabbhava Sutta
 >
-> 当我如实地亲知实证这六根（眼、耳、鼻、舌、身、意）的生起和坏灭、乐味、过患和出离时，我宣称已证得世间无上正等正觉……“现在，不再有再生。”  
+> 当我如实地亲知实证这六根（眼、耳、鼻、舌、身、意）的生起和坏灭、乐味、过患和出离时，我宣称已证得世间无上正等正觉……“从此不再受生。”  
 > [SN 48.28 / S v 206](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-48-indriya/sn-48-21-30-chalindriya/#8-sn-4828-等觉-sambuddhasutta){: target="_blank" rel="noopener"}, Sambuddha Sutta
 >
 > 比丘们，安般念（呼吸念）若被修习和培育，会带来巨大的果报和利益……比丘们，在我未证悟之前，当我还是菩萨，尚未完全证悟时，我经常安住于这种住处。当我经常安住于这种住处时，我的身体和眼睛都没有疲倦，我的心不执着，从而从诸漏中解脱。  
@@ -633,7 +633,7 @@ title: 第八章：止与观 | 佛法 | Buddhadhamma
 
 ### 对五蕴的观照
 
-> 比丘们，色蕴是无常的，受蕴是无常的，想蕴是无常的，行蕴是无常的，识蕴是无常的。比丘们，如是见时，已受教导的圣弟子对色蕴……受蕴……想蕴……行蕴……识蕴生起厌离。生起厌离，他变得无欲。通过无欲，〔他的心〕获得解脱。当它解脱时，了知随之而来：“它已解脱。”他明白：“生已尽，梵行已立，所作已办，此生已无后有。”
+> 比丘们，色蕴是无常的，受蕴是无常的，想蕴是无常的，行蕴是无常的，识蕴是无常的。比丘们，如是见时，已受教导的圣弟子对色蕴……受蕴……想蕴……行蕴……识蕴生起厌离。生起厌离，他变得无欲。通过无欲，〔他的心〕获得解脱。当它解脱时，了知随之而来：“它已解脱。”他明白：“生已尽，梵行已立，所作已办，不受后有。”
 >
 > 比丘们，色蕴是苦（dukkha）的……受蕴……想蕴……行蕴……识蕴是苦的……如是见时，已受教导的圣弟子生起厌离……
 >

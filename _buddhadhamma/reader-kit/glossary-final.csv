@@ -1,0 +1,1135 @@
+source,en,pali,final,current
+core,insight meditation/insight,vipassanā,普通论述用观；动作修观；与止禅对应的明确方法用观禅。首现可释内观、音译毗婆舍那；语词分析、特定译名引述及既定复合名按语境保留。vipassanā-ñāṇa=观智；不把所有insight或ñāṇa都当此术语〔m-review-concepts-01〕,毗婆舍那×126; 观禅×6; 内观×143; 观智×33; 修观×6
+core,tranquillity meditation/calm,samatha,普通论述用止；动作修止；明确禅修方法用止禅。首现可注音译奢摩他；成对与观、观禅同层，技术乘名依止乘/观乘或以止/观为乘〔m-review-concepts-01〕,奢摩他×27; 止禅×49; 止观×10; 寂止×10
+core,Abhidhamma,abhidhamma,阿毗达摩（Abhidhamma Piṭaka=论藏）,阿毗达磨×0; 阿毗达摩×157
+core,hatred/aversion,dosa,嗔（G3：统一用“嗔”，不再用“瞋”；全书已无“瞋”）,瞋×0; 嗔×271
+core,mindfulness,sati,念；忆持所缘，使所缘呈现于心而不忘失，行文可说持续留意。中性“念”不一律改“正念”；不把念仅说成转移注意力（作意），不与定的专一混同。止禅中的专注依语境保留。避免“保持对象/所缘”的生硬搭配。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,正念×294; 念×1330; 觉知×191; 忆念×45
+core,clear comprehension,sampajañña,正知；其作用是如实了知当前行为及正念所留意的事物，不与sati的忆持不忘或定的专一混为同义。〔m-review-concepts-05；m-review-quotation-01措辞回读〕,正知×77; 明觉×1
+core,Commentaries/commentarial,aṭṭhakathā,义注；Sub-commentary=复注,义注×600; 注释×34
+core,sub-commentary,ṭīkā,复注,复注×60; 疏钞×0
+core,Pali Canon/Tipiṭaka,tipiṭaka,《巴利三藏》（Pali Canon；作书名时加书名号，R3/D3）；Tipiṭaka＝三藏；Abhidhamma/Sutta/Vinaya Piṭaka＝论藏/经藏/律藏；不用巴利圣典、巴利经典；专名“巴利圣典协会”（Pali Text Society）保留〔D10〕,巴利三藏×233; 巴利圣典×51; 巴利经典×0; 三藏×288
+core,Pali,,巴利语,巴利语×170; 巴利文×14
+core,happiness,sukha,分类总称、层次比较及第十一章总题用乐；不限善乐或乐受。日常叙述可依句法自然用快乐，明确安稳自在状态、祝愿及惯用句可用安乐。欲乐、禅那之乐、涅槃之乐、至上安乐、利益安乐依对象保留；不可按一切善乐=安乐套用。避免音乐义乐感、乐章〔m-review-concepts-01完成〕,安乐×833; 快乐×623; 幸福×4; 乐×3429
+core,suffering,dukkha,技术总名用苦，辨明四谛苦、三法印之苦与苦受；不得缩成身心疼痛。具体痛感、悲伤及日常困境可自然用疼痛/痛苦。四谛总称苦，三苦为苦苦、坏苦、行苦；解释英译suffering时可提痛苦而注明语义限制。〔m-review-concepts-05〕,苦×2597; 痛苦×544; 苦难×33
+core,virtuous friend/good friend,kalyāṇamitta,善友（章名与正文统一，不用“善知识”）,善知识×0; 善友×194; 良师益友×1
+core,faith/confidence,saddhā,信（saddhā）/信心；不用“信仰”除非指他宗教,信心×569; 信仰×139; 信×1558
+core,wise reflection/wise attention,yoniso-manasikāra,如理作意；与他教外缘对举时为内缘。动作性说明可自然说自行如理思惟，不把一切内在因素等同此术语。〔T1及m-review-concepts-05〕,如理作意×470; 如理思惟×6
+core,heedfulness,appamāda,不放逸,不放逸×139; 精勤×30; 警觉×34
+core,wholesome desire,kusala-chanda,善法欲,善法欲×333; 善欲×3; 正当欲求×0
+core,desire to act,kattukamyatā-chanda,欲求行动（定义、解释处）；行欲（紧凑处）。可随善/不善心生起，不内在恒等善法欲；修道语境可由上下文限定善义〔B8-r2及m-review-concepts-01〕,
+core,moderation in eating,bhojane-mattaññutā,食知节量（人：食知节量者）；不用饮食知量、食知量、饮食适量〔B8-r2 用户确认〕,
+core,craving,taṇhā,渴爱（taṇhā）为默认；缘起支、三爱名、戏论三法等紧凑列举中作“爱”；世间语境用“贪爱”或“贪欲”（见指南 G3-1）,渴爱×885; 贪爱×17; 爱×1593
+core,clinging/attachment,upādāna,取（缘起支）/执取；四取为欲取、见取、戒禁取、我语取。普通attachment可用执着；不混同rāga、parāmāsa或uggaha取相。upādāniya是可成为执取对象的。〔m-review-reader-02八项定向复核已落实〕,执取×368; 执着×463（全书字面频数，非错误/审阅计数）
+core,defilement,kilesa,烦恼,烦恼×426; 杂染×27; 染污×78
+core,mental impurity/taint,āsava,漏（āsava）,漏×280; 诸漏×84; 烦恼漏×0
+core,concentration,samādhi,定；同层对举可用戒、定、慧或戒行、禅定、智慧。禅定在此是广义samādhi，不限jhāna；心的功能可称专注，增上心学不机械缩成禅那学〔m-review-concepts-02〕,原频数为历史采样；本轮逐项判断见m-review-concepts-02候选台账，不以频数定译名
+core,absorption,jhāna,禅那（jhāna）,禅那×532; 禅定×382; 入定×8
+core,meditation,bhāvanā,禅修；bhāvanā=修习；避免“冥想”,禅修×242; 修习×812; 打坐×2
+core,meditation object/meditation technique,kammaṭṭhāna,业处（kammaṭṭhāna）,业处×32; 禅修所缘×20
+core,Path Factors/path factor,maggaṅga,道支,道支×168; 八正道支×10; 道分×4
+core,Noble Eightfold Path/Eightfold Path,ariya aṭṭhaṅgika magga,八正道（首次可注“八圣道”）,八正道×147
+core,Threefold Training,tisso sikkhā,三学,三学×141
+core,Four Noble Truths,ariya-sacca,四圣谛,四圣谛×190; 四谛×1
+core,Dependent Origination,paṭiccasamuppāda,缘起,缘起×413; 缘起法×43; 十二缘起×7; 依缘共起×1
+core,specific conditionality,idappaccayatā,此缘性,此缘性×29; 特定缘起性×0; 具体缘起法×0
+core,Three Characteristics,tilakkhaṇa,三法印；单项可用 无常法印/苦法印/无我法印（指南 4.6）,三法印×169; 三相×2
+core,nonself/not-self,anattā,无我,无我×295; 非我×19
+core,impermanence,anicca,无常,无常×376
+core,formations/volitional formations,saṅkhāra,按语境用诸行/有为法、行蕴或以思为主导的心理造作；缘起及五蕴固定法数保留行；阿罗汉止息生业造作不表示无行蕴或思。〔m-review-reader-02八项定向复核已落实〕,行蕴×108; 有为法×249; 诸行×34; 造作×240（全书字面频数，非错误/审阅计数）
+core,Five Aggregates,pañcakkhandha,五蕴,五蕴×247
+core,sense spheres/sense bases,āyatana,法数用处/六处，内在六处用六内处；说明认知通道时可称根门。不得将一切处、根、根门混成同一术语。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,六处×101; 六入×0; 六根×27; 感官基础×9
+core,perception,saññā,想；依语境解释辨识、取相、记认。似相与可意/不可意之相相关段使用想；普通感知不一律机械改成法数。〔m-review-reader-02八项定向复核已落实〕,想×1343; 知觉×1（全书字面频数，非错误/审阅计数）
+core,feeling,vedanā,受（vedanā）,受×2417; 感受×308
+core,consciousness,viññāṇa,识（viññāṇa）,识×1602; 心识×101; 意识×131
+core,volition/intention,cetanā,思（技术主称），可释心的意向作用；法数、定义、业的核心及连续回指用思。普通打算/目的可用意图；英语intention的词义说明及saṅkappa/adhippāya等不据字面同化。速行思为速行心中的思〔m-review-format-language-02〕,思×1633; 意图×183; 意志×34
+core,mental factor,cetasika,心所,心所×145; 心所法×8
+core,Nibbāna,nibbāna,涅槃,涅槃×807
+core,arahant,arahant,阿罗汉；修行人用阿罗汉向，道本身用阿罗汉道，果用阿罗汉果。不把所有magga一律改向〔m-review-concepts-02〕,原频数为历史采样；本轮逐项判断见m-review-concepts-02候选台账，不以频数定译名
+core,stream-enterer/stream-entry,sotāpanna,须陀洹；修行人用须陀洹向，道本身用须陀洹道，果用须陀洹果。首次或有解释需要可括注入流者；词源讨论及入流支保留意译。不把所有magga一律改向〔m-review-concepts-02〕,原频数为历史采样；本轮逐项判断见m-review-concepts-02候选台账，不以频数定译名
+core,once-returner,sakadāgāmī,斯陀含；修行人用斯陀含向，道本身用斯陀含道，果用斯陀含果。首次或有解释需要可括注一来者；词源讨论及入流支保留意译。不把所有magga一律改向〔m-review-concepts-02〕,原频数为历史采样；本轮逐项判断见m-review-concepts-02候选台账，不以频数定译名
+core,non-returner,anāgāmī,阿那含；修行人用阿那含向，道本身用阿那含道，果用阿那含果。首次或有解释需要可括注不还者；词源讨论及入流支保留意译。不把所有magga一律改向〔m-review-concepts-02〕,原频数为历史采样；本轮逐项判断见m-review-concepts-02候选台账，不以频数定译名
+core,noble disciple,ariya-sāvaka,圣弟子,圣弟子×163; 圣者弟子×2
+core,noble being/noble one,ariya-puggala,圣者,圣者×203; 圣人×1; 圣贤×1
+core,trainee,sekha,有学〔m-review-language-01：技术义指尚须修学的圣者，与无学相对；普通学生、学僧依语境，不机械套用〕,m-review-language-01复核；原current频数为历史采样，不作本轮统计
+core,monk/bhikkhu,bhikkhu,比丘；monastic=出家人,比丘×1436; 僧侣×21; 僧人×4; 和尚×3
+core,layperson/householder,gahapati,居士/在家人,居士×304; 在家人×10; 在家众×19
+core,Sangha/monastic community,saṅgha,僧团（Saṅgha 作专名可用“僧伽”）,僧伽×137; 僧团×266; 僧众×4
+core,Triple Gem,tiratana,三宝；并列主称佛、法、僧。若法明确指佛陀教法，也可佛陀、佛法、僧伽；法还包括真理与证悟，不为字数一律扩为佛法〔m-review-concepts-02〕,原频数为历史采样；本轮逐项判断见m-review-concepts-02候选台账，不以频数定译名
+core,Buddha-Dhamma/Dhamma,dhamma,Dhamma=法；Buddha-Dhamma=佛法；绝不译作“达摩”,佛法×739; 法×5676; 达摩×206; 正法×104
+core,holy life,brahmacariya,梵行；义释可用崇高的行为/生活。广义包含整个道或中道，不仅是戒行；狭义独身依语境说明〔m-review-concepts-02〕,原频数为历史采样；本轮逐项判断见m-review-concepts-02候选台账，不以频数定译名
+core,psychic powers/supernormal powers,iddhi,神通（iddhi）；miracle（pāṭihāriya）=神变；六神通中 iddhividhā=神足通（G3-8）,神通×304; 神变×63
+core,higher knowledge/direct knowledge,abhiññā,证智（abhiññā 总称）；指六种/五种具体能力时作“神通”（六神通）；见 4.5,神通×304; 胜智×4; 殊胜智×4; 证智×57
+core,devas/divine beings/gods,deva,天人（deva）；God（一神教）=上帝/神,天人×323; 天神×37; 诸天×3; 神明×3; 神×814
+core,Indra/Sakka,sakka,帝释天,帝释天×25; 帝释×26; 因陀罗×0
+core,Brahma,brahmā,梵天,梵天×100; 大梵天×11
+core,Mara,māra,魔罗,魔罗×41; 摩罗×12
+core,lovingkindness/loving-kindness,mettā,慈（mettā）/慈心,慈心×101; 慈爱×53; 慈×285
+core,compassion,karuṇā,悲（karuṇā）/悲心,悲心×71; 悲悯×43; 慈悲×59; 悲×354
+core,sympathetic joy/appreciative joy,muditā,喜（muditā）/随喜,随喜×16; 喜心×4
+core,equanimity,upekkhā,舍（upekkhā）,舍×808; 平等心×3; 平静×147; 舍心×30
+core,Divine Abidings/sublime states,brahmavihāra,四梵住〔B10-r2 用户确认；四无量心仅用于 appamaññā〕；单项作“慈梵住”“舍梵住”等，泛指作“梵住”；appamaññā 与 brahmavihāra 对举处作“四无量心（appamaññā）——亦即四梵住（brahmavihāra）”,四梵住×32; 四无量心×6; 梵住×52
+core,rapture/joy/delight,pīti,喜（pīti）,喜×701; 喜悦×242; 欢喜×60
+core,tranquillity,passaddhi,轻安（passaddhi）,轻安×50; 宁静×28; 平静×147
+core,one-pointedness,ekaggatā,心一境性（禅支及心所等技术名相；作谓语可说专注于一境；普通一心一意不机械改写）,一境性×41; 心一境性×13; 一心×48
+core,initial application/applied thought,vitakka,寻〔T1：wise-reflection 195/207 改“寻（vitakka）”〕,寻×519; 觉×1149
+core,sustained application/sustained thought,vicāra,伺,伺×46; 观×1031
+core,hindrances,nīvaraṇa,盖/五盖；独立分支贪欲盖、嗔恚盖、昏沉睡眠盖、掉举恶作盖、疑盖。一般欲贪/恶意/睡眠/疑及复合盖的子心所不因此一律加盖；十盖细分按本身层级命名〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+core,Factors of Enlightenment/enlightenment factors,bojjhaṅga,觉支/七觉支；具体分支念觉支、择法觉支、精进觉支、喜觉支、轻安觉支、定觉支、舍觉支。滋养/义注生起因及十四觉支列表用全称；普通因素、禅支/五根/四梵住及生起条件不机械加觉支〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+core,Foundations of Mindfulness,satipaṭṭhāna,四念住；类别名身念住、受念住、心念住、法念住；anupassanā的随观动作及于身随观身等经典公式另守原义。〔m-review-concepts-03/05〕,四念住×80; 念住×124
+core,mindfulness of breathing,ānāpānasati,安般念（入出息念）,安般念×52; 入出息念×1; 观呼吸×0
+core,Paths to Success/Bases of Success,iddhipāda,四神足；具体分支欲神足、精进神足、心神足、审察神足（传统称观神足）。核心因素欲/精进/心/审察与欲定/心定等不自动等同整个神足；词义分析保留基础词〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+core,access concentration,upacāra-samādhi,近行定,近行定×38
+core,attainment concentration,appanā-samādhi,安止定,安止定×49; 根本定×8
+core,attainment of cessation,nirodha-samāpatti,灭尽定（全称想受灭尽定）,灭尽定×71; 想受灭尽定×44; 想受灭定×2
+core,merit,puñña,福德；动作依句用修福、积累福德、行善积福。十福业事各项用X之福德，与释义协调；作者正在讨论口语做功德时保留该被讨论表达。guṇa殊胜功德、三宝/僧伽功德、ānisaṁsa功德/利益、kāmaguṇa五欲功德不机械改成福德。〔T1及m-review-concepts-05〕,功德×88; 福德×94; 福×437
+core,Bases of Merit/meritorious action,puññakiriyāvatthu,福业事（十福业事）〔B10-r2 / T1〕,福业事×19; 功德行×0
+core,generosity/giving,dāna,布施,布施×281; 慷慨×46; 施舍×2
+core,moral conduct/virtue/morality,sīla,戒行（sīla）；具体条目、五戒、戒学作“戒”；泛论伦理、与他宗教比较时用“道德”；人品用“德行”（指南 4.4）,戒×1346; 戒行×380; 德行×342; 道德×341; 持戒×34
+core,precepts,sikkhāpada,sikkhāpada=学处；precepts（五戒）=戒,戒条×19; 学处×42; 戒律×256
+core,discipline/Vinaya,vinaya,律（Vinaya）；Vinaya Piṭaka=律藏,律×728; 戒律×256; 律藏×75
+core,Ten Wholesome Courses of Action,kusala-kammapatha,十善业道,十善业道×30
+core,Right Livelihood,sammā-ājīva,正命,正命×70
+core,Right Thought/Right Intention,sammā-saṅkappa,正思惟,正思惟×89; 正思维×0
+core,thinking/thought,,按语义：佛法修习的 reflection/contemplation、saṅkappa、cintā＝思惟；一般 thinking/thought process/way of thinking＝思维/思考；manasikāra＝作意〔T1 用户确认〕；paccavekkhaṇa＝省察，yoniso paṭisaṅkhā＝如理省察〔T1〕,思惟×682; 思维×152
+core,wholesome,kusala,善（kusala）/善法,善法×829; 善的×292; 健全×19
+core,unwholesome,akusala,不善,不善法×184; 不善×461
+core,evil/bad,pāpa,恶（pāpa）；避免“罪”（有基督教色彩）,罪×42; 恶×781; 恶业×47
+core,kamma/karma,kamma,业（kamma）；perform kamma / volitional action（动词）＝造业；不用“思业”“意图行为”泛称一切业〔T2〕,业×1552; 业力×10; 因果×204
+core,result of kamma/kamma-result,vipāka,异熟/果报；vipāka-citta=异熟心,果报×193; 业果×57; 异熟×19; 业报×11
+core,rebirth,punabbhava,再生/投生（避免“转世”）,再生×81; 转世×3; 投生×103
+core,round of rebirth/cycle,saṁsāra,轮回,轮回×85; 生死轮回×7; 轮回流转×12
+core,ignorance,avijjā,无明,无明×373; 愚痴×32
+core,delusion,moha,痴,痴×227; 愚痴×32
+core,greed,lobha,贪,贪×536; 贪婪×75; 贪欲×142
+core,sensual desire/sense desire,kāmacchanda,欲贪（kāmacchanda）,欲贪×49; 贪欲×142; 感官欲望×33
+core,sense pleasure/sensual pleasure,kāma-sukha,欲乐,欲乐×475; 感官之乐×14; 感官享乐×35
+core,conceit,māna,慢（māna）；“我是”慢=我慢,我慢×40; 慢×156
+core,identity view/personality view,sakkāya-diṭṭhi,身见（有身见）,身见×20; 有身见×11; 我见×33
+core,wrong view,micchā-diṭṭhi,邪见,邪见×102; 错误见解×3
+core,Right View,sammā-diṭṭhi,正见,正见×392
+core,Middle Way/Middle Path,majjhimā-paṭipadā,中道,中道×174; 中道修行×6
+core,Middle Teaching,majjhena-dhammadesanā,中道法义,中道法义×12; 中道教法×18; 中说×6
+core,virtuous/wholesome way of life,,见 toc.md,贤善生活×5; 健全人生×2
+core,liberation of mind,cetovimutti,心解脱,心解脱×132
+core,liberation by wisdom,paññāvimutti,慧解脱〔释义可区分凭借智慧而解脱与智慧本身的解脱，避免中文同词翻译同词〕,m-review-language-01复核；原current频数为历史采样，不作本轮统计
+core,liberated both ways,ubhatobhāga-vimutta,俱解脱（者）,俱解脱×39; 俱分解脱×0
+core,dry-insight practitioner,sukkha-vipassaka,纯观行者（亦称干观行者）；干指修观前未证禅那，不是证悟枯燥乏味,m-review-language-01复核；原current频数为历史采样，不作本轮统计
+core,wisdom,paññā,慧（paññā）/智慧；术语组合用“慧”,智慧×1507; 慧×1939
+core,knowledge,ñāṇa,智；依语境释了知、认识。信息、学问仍称知识；不把所有knowledge译成智或观智，不把ñāṇa与paññā固定混同。〔m-review-reader-02八项定向复核已落实〕,知识×190; 智见×48; 智慧×1512（全书字面频数，非错误/审阅计数）
+core,true knowledge,vijjā,明（vijjā）,明×1289; 真知×10; 三明×29
+core,Supreme Peace,,至上寂静,至上寂静×7
+core,designation/concept,paññatti,概念／概念法；首现可加“（又译“施设”）”（G3-6，取消 B1-r2 的“施设”规则）；书名《人施设论》照旧,施设×15; 概念×164; 假名×0
+core,ultimate truth/ultimate reality,paramattha,三利益体系中为究竟利益；一般语境可指最高目标或究竟义。paramattha-sacca=胜义谛，paramattha-dhamma=胜义法/究竟法，不能把一切paramattha改成利益或谛。〔m-review-concepts-05〕,胜义×35; 究竟实相×3; 究竟义×4
+core,conventional truth,sammuti-sacca,世俗谛,世俗谛×15
+core,Laws of Nature/natural laws,niyāma,自然法则；五分法依第五章：时节法则、种子法则、心的法则、业的法则、法的法则。不可把五分法当成整套现代科学学科。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,自然法则×171; 尼夜摩×8; 定律×10
+core,suchness,tathatā,如是性（tathatā，作名称时，如 DO“如是性、不虚妄性、不变异性”）／如是（形容“just so”时）；亦可翻译为“如性”〔R3-r2：按语境定夺〕,如是性×4
+core,life-continuum,bhavaṅga,有分（bhavaṅga）,有分×19; 有分心×7; 有分识×1; 潜意识×5
+core,mind-moment,cittakkhaṇa,心刹那,心识刹那×20; 心刹那×17
+core,mind and matter/mentality-materiality,nāma-rūpa,名色,名色×95; 心物×3
+core,object/sense object,ārammaṇa,所缘,所缘×462; 对象×292; 目标×527; 六尘×4
+core,Discourse/Sutta,sutta,经；具体经名用《……经》,经×1454; 经文×310
+core,verse,gāthā,偈,偈×115; 偈颂×57; 诗偈×7
+core,Bodhisatta,bodhisatta,菩萨,菩萨×28
+core,Tathāgata,tathāgata,如来,如来×119
+core,Blessed One,bhagavā,世尊,世尊×214
+core,Venerable,āyasmā,尊者（放在名字前面：尊者舍利弗）；括注不加 Ven.；巴利三藏人名一律译出（G4-1）,尊者×363; 长老×92; 大德×11
+core,Sāriputta,,尊者舍利弗（Sāriputta）；所列原名是必要首注/独立词目的可用形式，不要求每次或所有常见首现都补注〔notation04〕,舍利弗×101
+core,Ānanda,,尊者阿难（Ānanda）；不用阿难陀/阿难达；所列原名是必要首注/独立词目的可用形式，不要求每次或所有常见首现都补注〔notation04〕,阿难陀×1; 阿难达×0; 阿难×86
+core,Moggallāna,,尊者摩诃目犍连（Mahā Moggallāna）,目犍连×14; 摩诃目犍连×11; 大目犍连×0
+core,Anāthapiṇḍika,,给孤独长者（Anāthapiṇḍika）,给孤独长者×14; 给孤独×18
+core,Visākhā,,毗舍佉（Visākhā）,毗舍佉×4; 维沙卡×0
+core,Devadatta,,提婆达多,提婆达多×8; 提婆达多×8
+core,Visuddhimagga,,《清净道论》,清净道论×77
+core,Milindapañhā/Milinda,,《弥兰王问经》,弥兰王问经×8; 弥兰陀王问经×0; 弥兰王问×8
+core,Kālāma Sutta,,《卡拉玛经》（Kālāma Sutta）；族人 Kālāma＝卡拉玛人（G10 定；G8“伽蓝”已取代）；目录“迦摩罗经”有误（已改）,迦摩罗经×0
+core,Dhammapada,,《法句经》,法句经×18; 法句×18
+core,Payutto,,巴育陀（P. A. Payutto）：巴育陀比丘／尊者巴育陀／尊者帕·巴育陀（Phra Payutto）／坦·昭坤·巴育陀（Tahn Chao Khun Payutto）；俗名 巴育（Prayut）；历任僧衔：帕·拉差瓦拉牟尼（Phra Rajavaramuni）、帕·贴威提（Phra Debvedi）、帕·达摩毗达迦（Phra Dhammapitaka）、帕·婆罗摩衮纳蓬（Phra Brahmagunabhorn）、颂德·帕·菩陀构萨迦利雅（Somdet Phra Buddhaghosacariya）〔R3-r2 全书核对一致；不用帕育多等〕,巴育陀×27
+core,Ajahn Jayasaro,,阿姜查雅萨罗（Ajahn Jayasaro），不加间隔号,阿姜·查雅萨罗×0
+core,Thai,,语言=泰语，版本=泰文版,泰文×35; 泰语×70; 泰国×82
+core,spiritual practice/practice,paṭipatti,修行；practical application按语境用实际运用、落实于修行/实践等，不固定都叫实践应用，更不都叫实修。〔m-review-reader-01阶段验收〕,修行×1408; 修持×7; 实修×14; 修习×812
+core,development/cultivation,bhāvanā,bhāvanā=修习；develop wisdom=培育智慧（不用“开发”，指南 4.7）,培育×607; 开发×43; 培养×276; 修习×812; 发展×296
+core,Introduction,,导论,导论×44; 引言×3; 介绍×17; 前言×11
+core,Appendix,,附录一/附录二…,附录×173
+core,Paccekabuddha/Silent Buddha,paccekabuddha,独觉佛（不用“辟支佛”）,辟支佛×0
+core,gratification/advantage (of),assāda,乐味（assāda）；乐味、过患、出离；happiness 标题“乐味与过患”（T1-r3）,优点×37; 功德×88; 乐味×40; 满足×451
+core,danger/drawback/disadvantage,ādīnava,过患（ādīnava）；与乐味、出离成组,缺点×55; 过患×63; 危险×195
+core,escape/release,nissaraṇa,出离（nissaraṇa）；与乐味、过患成组,出离×137; 解脱×1102; 摆脱×171
+core,cessation,nirodha,依语境用灭/止息；缘起过程与生起过程对举时用止息过程。灭谛、苦灭及经典公式等保留灭；不一概解释为已经生起之物被毁灭。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,m-review-language-01复核；原current频数为历史采样，不作本轮统计
+core,supernatural,,神通（标题与正文统一）；世间语境用“超自然”（G3-8）,
+core,Gotama,gotama,乔达摩（人名，保留）,
+core,Somdet Phra Buddhaghosacariya,,颂德·帕·菩陀构萨迦利雅（Somdet Phra Buddhaghosacariya）,
+core,recollection of past lives,pubbenivāsānussati-ñāṇa,宿命智（六神通中作“宿命通”）,宿命智×9; 宿命通×10
+core,destruction of the taints,āsavakkhaya-ñāṇa,漏尽智（六神通中作“漏尽通”）,漏尽智×27; 漏尽通×1
+pali-auto,,chanda,先判语境：广义意欲/欲求，不预设善恶；与渴爱对举且由理解向善的狭义为善法欲；四神足等法数保留欲并依需要释义；语词分析保留原词。不按词形一律善化〔m-review-concepts-01〕,善法欲×61; 欲×23; 正当欲求×1; 欲求×1; 热忱×1; 行动意愿×1
+pali-auto,,diṭṭhi,名相用见，解释性名词用见解；邪见/正见依限定保留。普通意见、建议、学者意见不因汉字相同而强改。〔m-review-concepts-05〕,见×52; 见解×2; 看法×1; 概念×1; 理解×1
+pali-auto,,magga,道（自动·最高频，修订时复核）,道×41; 第四圣谛×2; 四条道路×1
+pali-auto,,bhava-taṇhā,有爱（自动·最高频，修订时复核）,有爱×36; 渴望×1; 生殖受有贪爱×1; 有贪爱×1
+pali-auto,,bhava,有（自动·最高频，修订时复核）,有×34; 状态×3; 生命过程×1
+pali-auto,,phassa,触（自动·最高频，修订时复核）,触×36
+pali-auto,,ānanda,阿难（不用阿难陀/阿难达）,阿难×19; 尊者阿难陀×6; 阿难陀×3; 阿难尊者×1; 尊者阿难达×1; 阿难达×1
+pali-auto,,citta,心（自动·最高频，修订时复核）,心×21; 居士质多×2; 活动×1; 心神通基×1; 根据心识状态×1; 质多居士×1
+pali-auto,,sāriputta,尊者舍利弗,尊者舍利弗×12; 舍利弗尊者×10; 舍利弗×5
+pali-auto,,vimutti,解脱（自动·最高频，修订时复核）,解脱×27
+pali-auto,,viriya,精进（自动·最高频，修订时复核）,精进×20; 精进根×1; 精进觉支×1; 精力×1
+pali-auto,,suta,闻（自动·最高频，修订时复核）,闻×16; 知识×2; 学习×2; 所学×1; 学×1
+pali-auto,,paratoghosa,主名他人教导；普通句法可说他人的教导，听闻他人教导为动作说法。词义本不限善恶：来自他人言说及社会的教导、影响或引导；正见语境依原文保留善法/有益限定。与如理作意对举时对应外缘/内缘；不可一律弱化为环境，也不把普通外部因素都改作术语。〔m-review-terms-diagrams-01〕,教导×11; 他音×3; 言语×3; 他人言教×2; 影响×1; 他人教诲×1
+pali-auto,,vibhava-taṇhā,无有爱（自动·最高频，修订时复核）,无有爱×20; 逃避欲×1; 无有贪爱×1
+pali-auto,,samāpatti,定（自动·最高频，修订时复核）,定×14; 禅定成就×3; 八等至×1; 定境×1; 定成就×1; 智慧×1
+pali-auto,,jāti,生（自动·最高频，修订时复核）,生×21
+pali-auto,,kāma,欲（自动·最高频，修订时复核）,欲×8; 感官享乐×2; 感官所缘×1; 超越感官×1; 感官之乐×1; 感官×1
+pali-auto,,attha,目标（自动·最高频，修订时复核）,目标×6; 利益×6; 义×4; 戒清净是为了×1; 不识善者行善×1
+pali-auto,,sutamaya-paññā,闻所成慧（自动·最高频，修订时复核）,闻所成慧×20
+pali-auto,,saññāvedayita-nirodha,想受灭尽定（自动·最高频，修订时复核）,想受灭尽定×11; 想受灭×7; 想受滅盡定×1
+pali-auto,,paññā-vimutta,慧解脱者（自动·最高频，修订时复核）,慧解脱者×11; 慧解脱×7; 者×1
+pali-auto,,saṅgaha-vatthu,四摄事〔B10-r2 用户确认；全书统一，不用“四摄法”〕：布施、爱语、利行、同事,四摄法×13; 四摄事×4; 摄事×2
+pali-auto,,buddha-dhamma,佛法（自动·最高频，修订时复核）,佛法×16; 品质×1; 佛陀教法×1
+pali-auto,,adhicitta-sikkhā,增上心学（自动·最高频，修订时复核）,增上心学×17; 增上心×1
+pali-auto,,saṁsāra-vaṭṭa,轮回（自动·最高频，修订时复核）,轮回×11; 轮回流转×6
+pali-auto,,cintāmaya-paññā,思所成慧（自动·最高频，修订时复核）,思所成慧×18
+pali-auto,,nimitta,依语境用相、心相、禅相；具体心理影像可称心像，非错字；不一律视为视觉影像。遍作相、取相、似相保留既定名〔m-review-language-01〕,m-review-language-01复核；原current频数为历史采样，不作本轮统计
+pali-auto,,adhimokkha,胜解（自动·最高频，修订时复核）,胜解×16; 决心×1
+pali-auto,,ariya-dhamma,圣法（自动·最高频，修订时复核）,圣法×12; 圣谛×2; 修习其法×1; 圣者之法×1
+pali-auto,,kāya-bhāvanā,修习（自动·最高频，修订时复核）,修习×11; 修行×3; 身体发展×1; 身修×1
+pali-auto,,samudaya,苦集（自动·最高频，修订时复核）,苦集×7; 集×7; 生起×1; 调查原因×1
+pali-auto,,kamma-niyāma,业的法则；有意的造作及其果报之规律。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,法则×12; 业法×2; 业报尼夜摩×1; 业律×1
+pali-auto,,indra,帝释天（自动·最高频，修订时复核）,帝释天×15; 因陀罗×1
+pali-auto,,indriya,根；强调主导功能或生命诸根时保留根；dvāra才是门/根门，不一概改根门。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,根×9; 五根×5; 感官×1
+pali-auto,,phala,果（自动·最高频，修订时复核）,果×14
+pali-auto,,bhāvita,修习成就（自动·最高频，修订时复核）,修习成就×6; 自我修习×3; 自我完善×3; 完成精神修习×1
+pali-auto,,adhisīla-sikkhā,增上戒学（自动·最高频，修订时复核）,增上戒学×15
+pali-auto,,rūpa,色（自动·最高频，修订时复核）,色×9; 色蕴×2; 身体×2; 色法×1
+pali-auto,,dukkha-vedanā,苦受（自动·最高频，修订时复核）,苦受×10; 疼痛感×1; 不适受×1; 不适×1; 感受×1
+pali-auto,,kāma-taṇhā,欲爱（自动·最高频，修订时复核）,欲爱×13; 爱×1; 感官享乐×1
+pali-auto,,bhāvanāmaya-paññā,修所成慧（自动·最高频，修订时复核）,修所成慧×15
+pali-auto,,attā,自我（自动·最高频，修订时复核）,自我×8; 我慢×2; 灵魂×1; 自私×1; 无我×1; 我×1
+pali-auto,,nirāmisa-sukha,非物质之乐（自动·最高频，修订时复核）,非物质之乐×4; 安乐×3; 乐×2; 不依赖物质的×1; 非物质×1; 最高形式×1
+pali-auto,,kāma-chanda,作为五盖独立列项用贪欲盖；词义解释、普通情绪/心所/子因素仍依语境，不将所有同词都限定为盖〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+pali-auto,,samparāyikattha,后世利益；依作者解释也可涵盖当前人生较深层、非眼前可见的利益，不把整段意义一律限制死后。五法组合（信心、戒行、多闻、布施、智慧）是后世利益的因素，不是七项圣财（ariya-dhana 另含惭、愧）。〔m-review-concepts-05；m-review-reader-03〕,来世利益×4; 后世利益×
+pali-auto,,diṭṭhadhammikattha,现法利益；三利益类别名统一，不限于物质报酬，依作者本段说明具体范围。〔m-review-concepts-05〕,现世利益×5; 日常利益×2; 现世善×1; 物质利益×1; 现法利益×1; 世俗利益×1
+pali-auto,,sīlabbata-parāmāsa,戒禁取；作为saṃyojana时称结缚，不称心结；与戒行本身区分〔m-review-language-01〕,m-review-language-01复核；原current频数为历史采样，不作本轮统计
+pali-auto,,adhipaññā-sikkhā,增上慧学（自动·最高频，修订时复核）,增上慧学×13
+pali-auto,,diṭṭhadhamma-sukhavihāra,现法乐住（自动·最高频，修订时复核）,现法乐住×11; 当下安乐生活×1; 当下×1
+pali-auto,,dhammānudhamma-paṭipatti,法随法行（自动·最高频，修订时复核）,法随法行×3; 依法随法行者×2; 修行中×1; 正确地修行法×1; 随法行×1; 下一步×1
+pali-auto,,khandha,五蕴（自动·最高频，修订时复核）,五蕴×6; 蕴×6; 三聚×1
+pali-auto,,ñāṇa-dassana,智见（自动·最高频，修订时复核）,智见×7; 知见×4; 见×1; 知见过程×1
+pali-auto,,dhamma-chanda,善法语境可作爱乐真理、爱乐善法或法欲，依所指决定；六所缘列举中的dhamma是法所缘，不自动善化为爱真理〔m-review-concepts-01〕,热爱×3; 爱×2; 渴望×1; 佛法欲×1; 爱乐真理×1; 爱真理×1
+pali-auto,,bhāvita-kāya,修习圆满（自动·最高频，修订时复核）,修习圆满×3; 修习成就×2; 身已成就×1; 身成就×1; 身体自制×1; 身已圆满成就×1
+pali-auto,,dhammavinaya,律（自动·最高频，修订时复核）,律×11; 佛法×1
+pali-auto,,vipassanā-ñāṇa,观智，与毗婆舍那智同一名相，非将所有vipassanā或所有ñāṇa等同此复合词；P853基线已经正确，保持。〔m-review-concepts-01/05〕,观智×7; 智×3; 内观知×1; 层次×1
+pali-auto,,nāma,名（自动·最高频，修订时复核）,名×11; 心是愉快的×1
+pali-auto,,saḷāyatana,六处（自动·最高频，修订时复核）,六处×10; 六入×2
+pali-auto,,jarāmaraṇa,老死（自动·最高频，修订时复核）,老死×12
+pali-auto,,vicikicchā,作为五盖独立列项用疑盖；词义解释、普通情绪/心所/子因素仍依语境，不将所有同词都限定为盖〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+pali-auto,,bhāvita-sīla,修习圆满（自动·最高频，修订时复核）,修习圆满×3; 戒已完善×3; 培育圆满×2; 戒行已成就×1; 戒行圆满×1; 戒×1
+pali-auto,,ariya-vinaya,圣律（自动·最高频，修订时复核）,圣律×4; 圣者律×3; 圣者之律×3; 圣者戒律×1
+pali-auto,,vimokkha,解脱（自动·最高频，修订时复核）,解脱×11
+pali-auto,,cāga,布施（自动·最高频，修订时复核）,布施×8; 施×1; 或布施行为×1; 舍弃×1
+pali-auto,,nāma-dhamma,名法（自动·最高频，修订时复核）,名法×8; 心法×2; 辅助性心所×1
+pali-auto,,rūpa-dhamma,色法（自动·最高频，修订时复核）,色法×8; 解释物质事物×1; 快乐×1; 物质形式×1
+pali-auto,,saṅkhata-dhamma,法（自动·最高频，修订时复核）,法×11
+pali-auto,,kamma-bhava,业有（自动·最高频，修订时复核）,业有×3; 过程×3; 领域×1; 业力×1; 他的行为×1
+pali-auto,,dhamma-niyāma,法的法则（五分法中的名称）；总义可释普遍自然规律/自然法则，不能视为与前四类完全无关的第五领域。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,法则×7; 自然秩序×1
+pali-auto,,sammati-niyāma,世俗规约；与自然法则相对的人为约定、制度和规则，不与出世间相对的世间法混同。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,世俗法×6; 世俗之法则×3; 世俗法则×2
+pali-auto,,dhātu,依语境释界、元素等；第三章自然法则语境指本来如此、自然成立的事实，不把dhātu全词译为稳定实体。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,元素×5; 界×2; 原则×1; 一真理×1
+pali-auto,,saṁyojana,结（自动·最高频，修订时复核）,结×9; 就有系缚×1
+pali-auto,,citta-bhāvanā,修习（自动·最高频，修订时复核）,修习×6; 修行×2; 心修×1; 培育×1
+pali-auto,,parattha,利他（自动·最高频，修订时复核）,利他×3; 他人福祉×2; 利益×2; 关切×1; 他利×1; 他人所做之事×1
+pali-auto,,sammā-sati,正念（自动·最高频，修订时复核）,正念×10
+pali-auto,,bodhipakkhiya-dhamma,三十七道品（自动·最高频，修订时复核）,三十七道品×8; 法×1; 品质×1
+pali-auto,,pariññā,遍知；四谛职责标签用应遍知。知遍知、审察遍知等智名及一般名词不机械加应。〔m-review-numbering-01，P1221〕,按职责语境而非字形统一；原频率候选由本条人工判断取代。
+pali-auto,,sukha-vedanā,乐受（自动·最高频，修订时复核）,乐受×9; 经历极大乐×1
+pali-auto,,dhamma-cariyā,正行（自动·最高频，修订时复核）,正行×5; 正法行×3; 法行×1; 以及正法行为×1
+pali-auto,,uccheda-diṭṭhi,断见（自动·最高频，修订时复核）,断见×6; 断灭论×1; 自我灭尽见×1; 伴随着断灭见×1; 持断灭见×1
+pali-auto,,kāma-guṇa,五欲境；指色、声、香、味、触五种欲乐所缘，不是欲本身。不用五欲功德、五欲之绳、五妙欲，也不另造五欲诱惑/五欲刺激。行文已出现“五欲”且确指所缘时可视为同指，新出及定义处用五欲境（kāma-guṇa）。〔m-review-reader-03〕,五欲境×; 五欲×
+pali-auto,,vivaṭṭa,与流转对举用轮回止息；首次必要时附传统名还灭。与缘起nirodha-vāra止息过程相关，但不强行合并两巴利术语；vivaṭṭanā、ceto-vivaṭṭa另据本义。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,m-review-language-01复核；原current频数为历史采样，不作本轮统计
+pali-auto,,dhammārammaṇa,法所缘（自动·最高频，修订时复核）,法所缘×7; 法×1; 法尘×1
+pali-auto,,uddhacca,掉举（自动·最高频，修订时复核）,掉举×7; 躁动×2
+pali-auto,,bahussuta,多闻者（自动·最高频，修订时复核）,多闻者×3; 多闻×3; 一位精通佛法×1; 广闻多学×1
+pali-auto,,sammā-ñāṇa,正智（自动·最高频，修订时复核）,正智×7; 正知×2
+pali-auto,,sotāpattiyaṅga,入流支（自动·最高频，修订时复核）,入流支×4; 因素×3; 入流×1; 入流之因×1
+pali-auto,,vata,宗教实践（自动·最高频，修订时复核）,宗教实践×7; 瓦塔×1; 严峻实践×1
+pali-auto,,samatha-yānika,止行者（自动·最高频，修订时复核）,止行者×6; 乘者×2; 止乘行者×1
+pali-auto,,ariya-magga,圣道（自动·最高频，修订时复核）,圣道×7; 八正道×2
+pali-auto,,padaṭṭhāna,近因（自动·最高频，修订时复核）,近因×9
+pali-auto,,visuddhi,清净（自动·最高频，修订时复核）,清净×9
+pali-auto,,vaṭṭa,流转/轮回流转；与vivaṭṭa轮回止息对举，不泛称流动实体。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,轮回×6; 轮×2; 循环×1
+pali-auto,,sammā-kammanta,正业（自动·最高频，修订时复核）,正业×9
+pali-auto,,sammā-vāyāma,正精进（自动·最高频，修订时复核）,正精进×9
+pali-auto,,pasāda,净信（自动·最高频，修订时复核）,净信×8; 五根×1
+pali-auto,,jhāna-sukha,禅那之乐（依既定R4；不作禅悦、禅乐）,禅悦×8; 安乐×1
+pali-auto,,ayoniso-manasikāra,不如理作意（自动·最高频，修订时复核）,不如理作意×6; 缺乏如理作意×2; 非如理作意×1
+pali-auto,,ariya,圣者（自动·最高频，修订时复核）,圣者×4; 圣×4
+pali-auto,,sikkhā,三学（自动·最高频，修订时复核）,三学×6; 训练方面×1; 学×1
+pali-auto,,asekha,无学（自动·最高频，修订时复核）,无学×4; 无学人×2; 具备专业技能×1; 不受训者×1
+pali-auto,,bhāvitatta,修行圆满者（自动·最高频，修订时复核）,修行圆满者×5; 修行圆满×1; 已修习者×1
+pali-auto,,adhicitta,增上心（自动·最高频，修订时复核）,增上心×5; 增上心学×3
+pali-auto,,dvāra,门（自动·最高频，修订时复核）,门×8
+pali-auto,,nevasaññānāsaññāyatana,非想非非想处（自动·最高频，修订时复核）,非想非非想处×1; 无所有处×1
+pali-auto,,mahā moggallāna,尊者摩诃目犍连,摩诃目犍连×5
+pali-auto,,sārāṇīya-dhamma,德行（自动·最高频，修订时复核）,德行×4; 敬法×3; 合增上法×1
+pali-auto,,rāga,贪欲（自动·最高频，修订时复核）,贪欲×6; 贪×2
+pali-auto,,byāpāda,作为五盖独立列项用嗔恚盖；词义解释、普通情绪/心所/子因素仍依语境，不将所有同词都限定为盖〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+pali-auto,,khanti,忍（自动·最高频，修订时复核）,忍×5; 忍耐×2
+pali-auto,,rasa,味（自动·最高频，修订时复核）,味×6; 作用×1; 味道×1
+pali-auto,,jhāna-samāpatti,成就（自动·最高频，修订时复核）,成就×2; 等至×1; 禅定×1; 运用禅定成就×1; 包括禅定成就×1
+pali-auto,,uppatti-bhava,生起过程（自动·最高频，修订时复核）,生起过程×3; 生有×2; 身体特征×1; 动形成过程×1; 他此刻的存在×1
+pali-auto,,sammā-vācā,正语（自动·最高频，修订时复核）,正语×8
+pali-auto,,papañca-saññā,戏论想（G3-7 定稿）,想×6; 戏论想×2
+pali-auto,,chaṭṭhāyatana,缘六处（自动·最高频，修订时复核）,缘六处×4; 六处×4
+pali-auto,,kalyāṇamittatā,善友之谊（kalyāṇamittatā；指与善友的交往关系）〔B10 用户确认〕；kalyāṇamitta＝善友,善友×5; 善友谊×1; 善友交往×1; 善友之谊×1
+pali-auto,,bhāvetabba-dhamma,法（自动·最高频，修订时复核）,法×3; 应修习法×2; 品质×1; 知识×1
+pali-auto,,sāmisa-sukha,物质之乐（自动·最高频，修订时复核）,物质之乐×6; 依赖物质事物×1; 欲乐×1
+pali-auto,,vibhajja-vāda,分别说（自动·最高频，修订时复核）,分别说×4; 分析教义×1; 分析性思维×1; 分别说者×1; 分析性思惟×1
+manual-concepts04,,sabhāva,按语境用性质、特性、实际情形等，不把正面自性固化为独立实体；必要的自性苦及否定实体性的无自性可保留。用户pt100u明确允许无自性，不实行禁字；不可误成无性质。与共相对举的sabhāva-lakkhaṇa用特相。〔m-review-concepts-04/05〕,历史采样：实相×2; 自然状态×1; 面向×1; 从自性×1; 自然现象×1; 自然真理×1
+pali-auto,,paccayākāra,因缘过程；必要时释诸法互为条件、相续生起的方式。与此缘性idappaccayatā相关而不当成词形相同。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,缘起模式×2; 条件模式×1; 缘起支×1; 缘起方式×1; 条件×1; 缘法模式×1
+pali-auto,,brāhmaṇa,婆罗门（自动·最高频，修订时复核）,婆罗门×7
+pali-auto,,kāma-rāga,欲贪（自动·最高频，修订时复核）,欲贪×4; 欲染×2; 贪欲×1
+pali-auto,,bhāvita-citta,修习圆满（自动·最高频，修订时复核）,修习圆满×3; 心×2; 心已成就×1; 心圆满×1
+pali-auto,,sīla-bhāvanā,修习（自动·最高频，修订时复核）,修习×3; 戒的修行×2; 修行×1; 其中戒修×1
+pali-auto,,paññā-bhāvanā,培育智慧；动作可称修慧、慧的修习。自然增长、发展过程等叙述不要求逐字改培育。〔m-review-reader-02八项定向复核已落实〕,培育智慧×69; 开发智慧×0; 发展智慧×0（全书字面频数，非错误/审阅计数）
+pali-auto,,kāya,身（自动·最高频，修订时复核）,身×7
+pali-auto,,domanassa,忧（自动·最高频，修订时复核）,忧×2; 瞋×1; 忧受×1; 嗔恚×1; 不悦×1; 忧愁×1
+pali-auto,,cutūpapāta-ñāṇa,生死智（自动·最高频，修订时复核）,生死智×4; 天眼通×1; 再生×1
+pali-auto,,attattha,自利（自动·最高频，修订时复核）,自利×4; 人福祉×2; 利益×1
+pali-auto,,khaṇika-samādhi,定（自动·最高频，修订时复核）,定×7
+pali-auto,,virāga,离欲（自动·最高频，修订时复核）,离欲×4; 离染×2; 离贪×1
+pali-auto,,upādāna-khandha,五取蕴（自动·最高频，修订时复核）,五取蕴×7
+pali-auto,,magga-ñāṇa,道智（自动·最高频，修订时复核）,道智×7
+pali-auto,,vipassanā-yānika,观行者（自动·最高频，修订时复核）,观行者×4; 乘者×1; 乘×1
+pali-auto,,manasikāra,作意〔T1：本章 reflection 指 manasikāra 方法时亦作作意〕,作意×5; 心所运作×1; 注意×1
+pali-auto,,anupādisesa-nibbāna,无余依涅槃（G7 确认：全书定译，不作“无余涅槃”）,无余依涅槃×6; 无余涅槃×1
+pali-auto,,aniccatā,无常（自动·最高频，修订时复核）,无常×3; 灭×2; 无常性×1; 无常相×1
+pali-auto,,dukkhatā,苦相（自动·最高频，修订时复核）,苦相×3; 苦性×2; 苦×2
+pali-auto,,iriyāpatha,威仪（自动·最高频，修订时复核）,威仪×4; 威仪念住×1; 姿势×1; 威仪相×1
+pali-auto,,puññakiriyā-vatthu,福业事；三福业事／十福业事；不用“功德行处”“功德业处”〔T1〕,三福业事×3; 功德行处×2; 功德业处×1; 功德事×1
+pali-auto,,sāmaggī,谐（自动·最高频，修订时复核）,谐×4; 合×2; 团结×1
+pali-auto,,dhamma-vicaya,择法（自动·最高频，修订时复核）,择法×5; 择法觉支×1; 指出法寻×1
+pali-auto,,ariya-saṅgha,圣僧团（自动·最高频，修订时复核）,圣僧团×4; 圣者社群×2
+pali-auto,,dakkhiṇeyya,应受布施者（自动·最高频，修订时复核）,应受布施者×3; 值得供养者×2; 达希涅亚×1
+pali-auto,,mahā kassapa,尊者大迦叶（自动·最高频，修订时复核）,尊者大迦叶×4; 尊者摩诃迦叶×1
+pali-auto,,mahāpurisa,大丈夫（自动·最高频，修订时复核）,大丈夫×3; 大人×2; 大士×1
+pali-auto,,pacceka-buddha,独觉佛（不用“辟支佛”）,辟支佛×5; 独觉佛×1
+pali-auto,,bhāvita-paññā,修习圆满（自动·最高频，修订时复核）,修习圆满×3; 智慧已成就×1; 智慧圆满×1; 慧×1
+pali-auto,,atta-kilamathānuyoga,自苦行（自动·最高频，修订时复核）,自苦行×2; 苦行×2; 极端×1; 自我折磨×1
+pali-auto,,abhijjhā,贪欲（自动·最高频，修订时复核）,贪欲×5; 贪求×1
+pali-auto,,saddhānusārī,随信行者；不直接称已获须陀洹果的入流者。各经对其余证德叙述须逐源核对，不能靠记忆删MN70所说部分漏尽。〔m-review-concepts-02/05〕,原频数为历史采样；本轮逐项判断见m-review-concepts-02候选台账，不以频数定译名
+pali-auto,,dhammānusārī,随法行者；不直接称已获须陀洹果的入流者。dhammānudhamma-paṭipatti另为法随法行，不属此二人名分类。〔m-review-concepts-02/05，SN25.1核实〕,原频数为历史采样；本轮逐项判断见m-review-concepts-02候选台账，不以频数定译名
+pali-auto,,macchariya,悭吝（自动·最高频，修订时复核）,悭吝×3; 自私×1; 占有欲缘吝啬×1; 悭×1
+pali-auto,,sappurisa,正人（善士亦可，依所在章节）〔B10 用户确认〕,善士×2; 正人×2; 善人×1; 贤人×1
+pali-auto,,loka-dhamma,世间法（自动·最高频，修订时复核）,世间法×3; 人回报×1; 世俗事物×1
+pali-auto,,ottappa,愧（自动·最高频，修订时复核）,愧×5
+pali-auto,,devadatta,提婆达多（自动·最高频，修订时复核）,提婆达多×5; 提婆达多尊者×1
+pali-auto,,pāmojja,悦（次第链与术语作悦；行文中作品质名词时作“愉悦”）〔B9/R4-03/R4-09/R4-r3〕,喜悦×4; 喜×1; 悦×1
+pali-auto,,vipassanūpakilesa,染污（自动·最高频，修订时复核）,染污×2; 内观染×2; 杂染×1; 随烦恼×1
+pali-auto,,appamaññā,四无量心（unbounded states of mind）〔B10-r2 用户确认；仅用于 appamaññā〕,四无量心×5
+pali-auto,,pahāna,断除（自动·最高频，修订时复核）,断除×4; 舍断×1; 舍弃×1
+pali-auto,,nibbidā,厌离（自动·最高频，修订时复核）,厌离×6
+pali-auto,,vacī-saṅkhāra,语行（自动·最高频，修订时复核）,语行×5; 构成言语×1
+pali-auto,,puññābhisaṅkhāra,福行（自动·最高频，修订时复核）,福行×4; 意愿×1; 功德行×1
+pali-auto,,saṅkhāra-khandha,行蕴（自动·最高频，修订时复核）,行蕴×6
+manual-reader02,,attavādupādāna,我语取；对自我见/自我观念的执取，不是有一个实有自我可取。〔m-review-reader-02已落实〕,nibbana-supreme-peace.md:959–971；dependent-origination.md:409/952
+pali-auto,,sacca,谛（自动·最高频，修订时复核）,谛×3; 真实×1; 诚实×1; 真理×1
+pali-auto,,sacca-dhamma,圣谛（自动·最高频，修订时复核）,圣谛×2; 证悟真理×2; 真理之法×1
+pali-auto,,bhava-nirodha,有灭（自动·最高频，修订时复核）,有灭×2; 止息×2; 教导有灭×1; 当教导寂灭有×1
+pali-auto,,sassata-diṭṭhi,常见（自动·最高频，修订时复核）,常见×5; 常见论×1
+pali-auto,,sangha,僧伽（自动·最高频，修订时复核）,僧伽×6
+pali-auto,,tahn chao khun,坦·昭坤（自动·最高频，修订时复核）,坦·昭坤×6
+pali-auto,,nigaṇṭhā,尼乾陀派教徒（复数）；教团为尼乾陀派/耆那教；非专指教主。Nigaṇṭha Nātaputta=尼乾陀·若提子〔m-review-language-01〕,m-review-language-01复核；原current频数为历史采样，不作本轮统计
+pali-auto,,parama-sukha,至上安乐（自动·最高频，修订时复核）,至上安乐×3; 究竟安乐×2; 快乐×1
+pali-auto,,kattukamyatā-chanda,欲求行动（定义、解释处）；行欲（紧凑处）。可随善/不善心生起，不内在恒等善法欲；修道语境可由上下文限定善义〔B8-r2及m-review-concepts-01〕,行动欲×2; 欲×2; 欲求行动×1; 行欲×1
+pali-auto,,nandi,喜（自动·最高频，修订时复核）,喜×6
+pali-auto,,apāya-mukha,衰败之门（自动·最高频，修订时复核）,衰败之门×1; 放逸×1; 衰损之门×1; 毁灭之途×1; 败坏之道×1; 堕落之路×1
+pali-auto,,atthacariyā,利行（自动·最高频，修订时复核）,利行×4; 利他行为×1; 支持×1
+pali-auto,,samānattatā,同事；四摄事第四项，意为平等相待。偈颂与列表统一用“同事”，不以“平等”单独作该项名称。〔m-review-notation-06；m-review-reader-03〕,同事×
+pali-auto,,kusala-kamma,善业（自动·最高频，修订时复核）,善业×6
+pali-auto,,adinnādāna,取（自动·最高频，修订时复核）,取×4; 偷盗×2
+pali-auto,,sammappadhāna,四正勤（自动·最高频，修订时复核）,四正勤×5; 正勤×1
+pali-auto,,lokuttara-dhamma,出世间法（自动·最高频，修订时复核）,出世间法×6
+pali-auto,,mindfulness,念（自动·最高频，修订时复核）,念×6
+pali-auto,,samiddhi,萨密提（自动·最高频，修订时复核）,萨密提×2; 人沙弥×2; 沙弥×2
+pali-auto,,mano,意（自动·最高频，修订时复核）,意×5
+pali-auto,,viññāṇa-khandha,识蕴（自动·最高频，修订时复核）,识蕴×5
+pali-auto,,sāvaka-saṅgha,声闻僧团（自动·最高频，修订时复核）,声闻僧团×1; 真实弟子×1; 弟子僧团×1; 真实弟子社群×1; 真正弟子社群×1
+pali-auto,,samaṇa,沙门（自动·最高频，修订时复核）,沙门×3; 出家众×1
+pali-auto,,dakkhiṇeyya-puggala,应供养者（自动·最高频，修订时复核）,应供养者×4; 八圣士×1
+pali-auto,,iddhi-pāda,四神足；具体分支欲神足、精进神足、心神足、审察神足（传统称观神足）。核心因素欲/精进/心/审察与欲定/心定等不自动等同整个神足；词义分析保留基础词〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+pali-auto,,asekha-dhamma,十无学法〔B10 用户确认〕,十无学法×2; 品质×1; 无学法×1
+pali-auto,,adhisīla,增上戒学（自动·最高频，修订时复核）,增上戒学×4; 增上戒×1
+pali-auto,,adhipaññā,增上慧（自动·最高频，修订时复核）,增上慧×3; 增上慧学×2
+pali-auto,,kamma-dvāra,造作之门（自动·最高频，修订时复核）,造作之门×3; 通过三业门×1
+pali-auto,,pārisuddhi-sīla,清净戒（自动·最高频，修订时复核）,清净戒×3; 四遍净戒×1; 清净德行×1
+pali-auto,,indriya-bhāvanā,培育（自动·最高频，修订时复核）,培育×3; 培育诸根×1
+pali-auto,,indriya-saṁvara,根律仪（自动·最高频，修订时复核）,根律仪×5
+pali-auto,,bhāvitindriya,掌控诸根（自动·最高频，修订时复核）,掌控诸根×2; 已得根自制者×1; 已完成修行者×1
+pali-auto,,paccaya,缘（自动·最高频，修订时复核）,缘×4; 四资具×1
+pali-auto,,parahita-paṭipatti,利益他人（自动·最高频，修订时复核）,利益他人×1; 利益他人而行×1; 利益他人实践×1; 帮助他人×1; 生活×1
+pali-auto,,uposatha,布萨日（自动·最高频，修订时复核）,布萨日×2; 布萨×1
+pali-auto,,pāṭimokkha,波罗提木叉（m-review-language-02逐处复核；含律仪戒与教诫复合名）,波提木叉×3; 诵戒×2
+pali-auto,,khema,安稳（自动·最高频，修订时复核）,安稳×5
+pali-auto,,paṭisambhidā,证得四无碍解（自动·最高频，修订时复核）,证得四无碍解×3; 无碍解×1
+pali-auto,,pariyāya,某些方面（自动·最高频，修订时复核）,某些方面×2; 特定方面×1; 间接×1; 普遍的×1
+pali-auto,,paññāvimutta,慧解脱者（自动·最高频，修订时复核）,慧解脱者×3; 慧解脱×1
+pali-auto,,nakulapitā,拘罗父（自动·最高频，修订时复核）,拘罗父×4
+pali-auto,,kaṅkhāvitaraṇa-visuddhi,度疑清净（自动·最高频，修订时复核）,度疑清净×5
+pali-auto,,kalyāṇa-puthujjana,贤善凡夫（自动·最高频，修订时复核）,贤善凡夫×3; 善凡夫×1; 凡夫×1
+pali-auto,,sammā-vimutti,正解脱（自动·最高频，修订时复核）,正解脱×5
+pali-auto,,attakilamathānuyoga,极端（自动·最高频，修订时复核）,极端×2; 自我折磨×1; 自苦行之极×1; 苦行×1
+pali-auto,,puthujjana,凡夫，仅用于凡圣、修道阶段或源文明示的术语。คนทั่วไป/general people指一般学习者时用一般人；超越常人uttarimanussa亦不能一律改为超越凡夫。P76不改作凡夫。〔m-review-concepts-05 TH核实〕,凡夫×4; 未觉悟者×1
+pali-auto,,sīla-khandha,戒蕴（自动·最高频，修订时复核）,戒蕴×5
+pali-auto,,samādhi-khandha,定蕴（自动·最高频，修订时复核）,定蕴×5
+pali-auto,,paññā-khandha,慧蕴（自动·最高频，修订时复核）,慧蕴×5
+pali-auto,,indriyasaṁvara-sīla,根律仪戒（自动·最高频，修订时复核）,根律仪戒×2; 根律仪×1; 德行×1; 守护根门戒×1
+pali-auto,,nanda,难陀（自动·最高频，修订时复核）,难陀×5
+pali-auto,,hiri,惭（自动·最高频，修订时复核）,惭×5
+pali-auto,,paññāvuḍḍhi-dhamma,德行（自动·最高频，修订时复核）,德行×2; 品质×1; 法×1; 美德×1
+pali-auto,,uccheda-vāda,断灭论（自动·最高频，修订时复核）,断灭论×3; 断见×2
+pali-auto,,uddhacca-kukkucca,作为五盖独立列项用掉举恶作盖；词义解释、普通情绪/心所/子因素仍依语境，不将所有同词都限定为盖〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+pali-auto,,dukkha-samudaya,苦集（自动·最高频，修订时复核）,苦集×3; 苦之集起×1; 起源×1
+pali-auto,,dukkha-nirodha,止息（自动·最高频，修订时复核）,止息×3; 苦灭×2
+pali-auto,,kāya-saṅkhāra,身行（自动·最高频，修订时复核）,身行×4; 意行×1
+pali-auto,,maraṇa,死（自动·最高频，修订时复核）,死×3; 利益中逝去×1; 肉体死亡×1
+pali-auto,,papañca,戏论,戏论×5
+pali-auto,,sammā-samādhi,正定（自动·最高频，修订时复核）,正定×5
+pali-auto,,bhojane-mattaññutā,饮食知量（自动·最高频，修订时复核） →B8-r2 改为：食知节量,饮食知量×2; 食知量×1; 适量进食×1; 知饮食适量者×1
+pali-auto,,visaṅkhāra,法（自动·最高频，修订时复核）,法×4; 离行×1
+pali-auto,,asaṅkhata-dhamma,法（自动·最高频，修订时复核）,法×5
+pali-auto,,sāmañña-lakkhaṇa,共相；可解释为共同特征。三法印不用区别于共相的技术特相；普通特点不硬译特相。〔m-review-reader-02八项定向复核已落实〕,共相×20; 共同特征×16; 特相×4（全书字面频数，非错误/审阅计数）
+pali-auto,,dhammaṭṭhiti-ñāṇa,法住智（自动·最高频，修订时复核）,法住智×5
+pali-auto,,utu-niyāma,时节法则；说明温度等物质变化规律，不限四季，不等同整套现代物理学。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,物理法则×2; 季候尼夜摩×1; 时节自然法则×1; 季节法则×1
+pali-auto,,citta-niyāma,心的法则；释义说明心的运作规律，避免名称和解释原样重复。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,法则×4; 心行尼夜摩×1
+pali-auto,,bhava-diṭṭhi,有见（自动·最高频，修订时复核）,有见×4; 见×1
+pali-auto,,vibhava,无有（自动·最高频，修订时复核）,无有×4
+pali-auto,,pariññeyya-dhamma,应遍知法（自动·最高频，修订时复核）,应遍知法×2; 品质×1; 知识×1; 法×1
+pali-auto,,sāsava,漏（自动·最高频，修订时复核）,漏×3; 有漏×1
+pali-auto,,alobha,无贪（自动·最高频，修订时复核）,无贪×5
+pali-auto,,adosa,无嗔（G3-3）,无嗔×4; 无瞋×1
+pali-auto,,kicca,责任（自动·最高频，修订时复核）,责任×2; 作用×1; 功能×1; 职责×1
+pali-auto,,taṇhā-chanda,渴爱欲（自动·最高频，修订时复核）,渴爱欲×2; 渴爱×1; 贪爱×1; 贪欲×1
+pali-auto,,nibbāna-sukha,涅槃之乐（自动·最高频，修订时复核）,涅槃之乐×5
+pali-auto,,sampatti,优势（自动·最高频，修订时复核）,优势×2; 人天成就×1; 成就×1; 圆满×1
+pali-auto,,mano-kamma,意业（自动·最高频，修订时复核）,意业×4; 心业×1
+pali-auto,,pāṇātipāta,伤害其他生命（自动·最高频，修订时复核）,伤害其他生命×1; 人舍弃杀生×1; 断除杀生×1; 戒绝杀生×1; 戒除杀害众生×1
+pali-auto,,lokiya-sammādiṭṭhi,世间正见（自动·最高频，修订时复核）,世间正见×4; 世俗正见×1
+pali-auto,,anupādisesa-nibbānadhātu,无余依涅槃界（自动·最高频，修订时复核）,无余依涅槃界×5
+pali-auto,,parinibbāna,般涅槃（自动·最高频，修订时复核）,般涅槃×5
+pali-auto,,paṭibhāga-nimitta,似相（自动·最高频，修订时复核）,似相×4; 但第三种×1
+pali-auto,,pañca-sīla,五戒（自动·最高频，修订时复核）,五戒×4; 五道德戒×1
+pali-auto,,sappurisa-dhamma,有关贤善之人（自动·最高频，修订时复核）,有关贤善之人×1; 品德×1; 善士法×1; 品质×1
+pali-auto,,kusaladhamma-chanda,善法欲；欲求善法。与广义中性的chanda区分，按上下文也可自然释为向善的意愿〔m-review-concepts-01〕,欲求贤善品质×1; 品质×1; 欲求×1; 提到善欲×1; 欲望×1
+pali-auto,,bali,供养（自动·最高频，修订时复核）,供养×5
+pali-auto,,attention,适当的注意力（自动·最高频，修订时复核）,适当的注意力×1; 系统的注意力×1; 推理的注意力×1; 细心的注意力×1
+pali-auto,,potaliputta,波多利布达（自动·最高频，修订时复核）,波多利布达×5
+pali-auto,,mano-viññāṇa,意识（自动·最高频，修订时复核）,意识×3; 意×1
+pali-auto,,paṭigha,嗔／嗔恚（G3-3）,瞋×1; 嗔恚×1; 缘瞋恚×1; 瞋恚×1
+pali-auto,,sa-upādisesa-puggala,有余依者（自动·最高频，修订时复核）,有余依者×4
+pali-auto,,khīṇāsava,漏尽者（自动·最高频，修订时复核）,漏尽者×3; 诸漏已尽×1
+pali-auto,,phassa-dvāra,认知之门（自动·最高频，修订时复核）,认知之门×2; 觉知之门×1; 通过六根门×1
+pali-auto,,attahita-sampatti,圆满（自动·最高频，修订时复核）,圆满×4
+pali-auto,,dhutaṅga,头陀支（自动·最高频，修订时复核）,头陀支×4
+pali-auto,,etadagga,家弟子（自动·最高频，修订时复核）,家弟子×2; 记录×1; 份名字列表×1
+pali-auto,,rāhula,罗睺罗（自动·最高频，修订时复核）,罗睺罗×3; 当罗睺罗尊者×1
+pali-auto,,saṅgha-kamma,正式羯磨（自动·最高频，修订时复核）,正式羯磨×1; 僧团×1
+pali-auto,,mahākappina,尊者（自动·最高频，修订时复核）,尊者×1; 大迦比那×1
+pali-auto,,asoka,无忧（自动·最高频，修订时复核）,无忧×2; 就像阿育王×1
+pali-auto,,santa,寂静（自动·最高频，修订时复核）,寂静×4
+pali-auto,,sammati,世俗约定；sammati-niyāma为人为约定的世俗法，不与lokiya/loka-dhamma世间法混同。〔m-review-concepts-05〕,世俗约定×1; 世俗×1; 世俗谛×1
+pali-auto,,paññā-vimutti,慧解脱（自动·最高频，修订时复核）,慧解脱×3
+pali-auto,,samādhindriya,定根（自动·最高频，修订时复核）,定根×4
+pali-auto,,ākāsānañcāyatana,空无边处定（自动·最高频，修订时复核）,空无边处定×4
+pali-auto,,rūpa-saññā,色想（自动·最高频，修订时复核）,色想×4
+pali-auto,,viññāṇañcāyatana,识无边处定（自动·最高频，修订时复核）,识无边处定×4
+pali-auto,,ākiñcaññāyatana,无所有处定（自动·最高频，修订时复核）,无所有处定×3; 空无边处×1
+pali-auto,,saddhā-vimutta,信解脱者（自动·最高频，修订时复核）,信解脱者×3; 信解脱×1
+pali-auto,,paṭisambhidappatta,无碍解遍知者（自动·最高频，修订时复核）,无碍解遍知者×4
+pali-auto,,nippariyāya,全面解释（自动·最高频，修订时复核）,全面解释×1; 直接×1; 具体的×1; 直接的×1
+pali-auto,,tevijja,三明者（自动·最高频，修订时复核）,三明者×4
+pali-auto,,anāthapiṇḍika,给孤独长者,给孤独长者×3; 他频提迦×1
+pali-auto,,mettā-kāyakamma,慈身业（自动·最高频，修订时复核）,慈身业×3; 要素×1
+pali-auto,,apāya,恶趣（自动·最高频，修订时复核）,恶趣×3
+pali-auto,,ñāta-pariññā,知遍知（自动·最高频，修订时复核）,知遍知×2; 遍知智×1; 辨识知×1
+pali-auto,,sutavā ariyasāvaka,多闻圣弟子（自动·最高频，修订时复核）,多闻圣弟子×3; 圣弟子×1
+pali-auto,,sampadā,成就（自动·最高频，修订时复核）,成就×4
+pali-auto,,diṭṭhi-sampanna,具足正见者（自动·最高频，修订时复核）,具足正见者×3
+pali-auto,,sappurisa-saṁseva,贤人交往（自动·最高频，修订时复核）,贤人交往×1; 亲近善人×1; 亲近智者×1; 亲近善士×1
+pali-auto,,tathāgatabodhi-saddhā,信心（自动·最高频，修订时复核）,信心×2; 如来觉悟×1; 觉悟×1
+pali-auto,,saṁvara,律仪（自动·最高频，修订时复核）,律仪×4
+pali-auto,,parāmāsa,帕拉玛萨（自动·最高频，修订时复核）,帕拉玛萨×3; 执取×1
+pali-auto,,dependent origination,缘起（自动·最高频，修订时复核）,缘起×3; 缘起法×1
+pali-auto,,pāṭimokkhasaṁvara-sīla,别解脱律仪戒（自动·最高频，修订时复核）,别解脱律仪戒×1; 依循僧团戒律×1
+pali-auto,,arūpa-jhāna,指无色禅（自动·最高频，修订时复核）,指无色禅×1
+pali-auto,,vikkhambhana-nirodha,镇伏灭（自动·最高频，修订时复核）,镇伏灭×3; 镇伏止息×1
+pali-auto,,suddhavipassanā-yānika,纯观行者（自动·最高频，修订时复核）,纯观行者×4
+pali-auto,,arahatta-phala,阿罗汉果（自动·最高频，修订时复核）,阿罗汉果×4
+pali-auto,,sāmāyika-cetovimutti,暂时心解脱（自动·最高频，修订时复核）,暂时心解脱×2; 暂时解脱×2
+pali-auto,,abyāpāda,无嗔／无嗔恚（G3-3）,无瞋×2; 不瞋×1; 不瞋恚×1
+pali-auto,,asubha,不净观（自动·最高频，修订时复核）,不净观×2; 十不净×1; 十不净业处×1
+pali-auto,,kammanīya,适业（自动·最高频，修订时复核）,适业×2; 工作×1; 心是敏捷的×1
+pali-auto,,thīna-middha,作为五盖独立列项用昏沉睡眠盖；词义解释、普通情绪/心所/子因素仍依语境，不将所有同词都限定为盖〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+pali-auto,,samudaya-vāra,缘起的生起过程；与nirodha-vāra止息过程对举。实际轮回循环及经典此生故彼生等句依义保留，不为字数抹去法数。〔m-review-concepts-05〕,生起之轮×2; 集起循环×1; 集起支分×1
+pali-auto,,nirodha-vāra,缘起的止息过程；不称灭循环/灭之轮。苦灭、灭谛、无明灭→行灭等固定名相及公式仍用灭；vaṭṭa/vivaṭṭa另按流转/还灭。〔m-review-concepts-05〕,灭之轮×1; 止息之轮×1; 灭尽循环×1; 止息循环×1
+pali-auto,,sammati-sacca,世俗谛（自动·最高频，修订时复核）,世俗谛×4
+pali-auto,,cakkhu-viññāṇa,眼识（自动·最高频，修订时复核）,眼识×3; 通过眼×1
+pali-auto,,saññā-khandha,想蕴（自动·最高频，修订时复核）,想蕴×4
+pali-auto,,cakkhu,眼（自动·最高频，修订时复核）,眼×4
+pali-auto,,sota,耳（自动·最高频，修订时复核）,耳×4
+pali-auto,,ghāna,鼻（自动·最高频，修订时复核）,鼻×4
+pali-auto,,jivhā,舌（自动·最高频，修订时复核）,舌×4
+pali-auto,,jarā,老（自动·最高频，修订时复核）,老×3; 衰败×1
+pali-auto,,chanda-rāga,贪爱（自动·最高频，修订时复核）,贪爱×2; 贪×1; 执着×1
+pali-auto,,micchā-saṅkappa,邪思惟（自动·最高频，修订时复核）,邪思惟×3; 邪思×1
+pali-auto,,yathābhūta-ñāṇadassana,如实知见（自动·最高频，修订时复核）,如实知见×3; 如实智见×1
+pali-auto,,anabhijjhā,不贪（自动·最高频，修订时复核）,不贪×2; 无贪×1; 不贪欲×1
+pali-auto,,anattatā,无我（自动·最高频，修订时复核）,无我×2; 无我性×1; 无我相×1
+pali-auto,,asaṅkhata,无为（自动·最高频，修订时复核）,无为×2; 法×1; 涅槃是无为×1
+pali-auto,,saṅkhata-dhammā,法（自动·最高频，修订时复核）,法×3; 之物×1
+pali-auto,,bīja-niyāma,种子法则；涉及生命、遗传等的自然规律。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,子法则×2; 子尼夜摩×1
+pali-auto,,kusala-mūla,善根（自动·最高频，修订时复核）,善根×4
+pali-auto,,vibhava-diṭṭhi,无有见（自动·最高频，修订时复核）,无有见×3; 尽管断灭见×1
+pali-auto,,bhikkhu bodhi,菩提比丘（自动·最高频，修订时复核）,菩提比丘×2; 尊者菩提×1; 比丘菩提×1
+pali-auto,,nāthakaraṇa-dhamma,带来保护的美德（十法）〔B10 用户确认〕；不用“自力”“守护法”,美德×2; 守护法×1; 自力×1
+pali-auto,,takka,逻辑推理（自动·最高频，修订时复核）,逻辑推理×1; 逻辑引导×1; 思×1; 包括应用逻辑×1
+pali-auto,,ruci,意乐（自动·最高频，修订时复核）,意乐×2; 认可×1
+manual-reader02,,upādāniya,可成为执取对象的；不是执取本身，不等同给执取提供助缘。〔m-review-reader-02已落实〕,the-buddhist-teachings-on-desire.md:284/286；三法印章取蕴定义
+pali-auto,,jīvitindriya,命根（自动·最高频，修订时复核）,命根×4
+pali-auto,,robin moore,罗宾·摩尔（自动·最高频，修订时复核）,罗宾·摩尔×4
+pali-auto,,path,道（自动·最高频，修订时复核）,道×2; 修习道×1; 但道×1
+pali-auto,,vipassanā-sukha,观智之乐（自动·最高频，修订时复核）,观智之乐×3; 喜悦×1
+pali-auto,,vimutti-sukha,解脱之乐（自动·最高频，修订时复核）,解脱之乐×4
+pali-auto,,tapa,苦行（自动·最高频，修订时复核）,苦行×3; 自制×1
+pali-auto,,anupubbikathā,次第说法（自动·最高频，修订时复核）,次第说法×2; 次第教导×1
+pali-auto,,sagga-kathā,生天开示（自动·最高频，修订时复核）,生天开示×3; 谈论×1
+pali-auto,,kāmādīnava,欲的过患,过患×2; 弊端×1; 缺点×1
+pali-auto,,nekkhammānisaṁsa,（出离的）功德（ānisaṁsa，保留）〔T1〕,功德×2; 益处×2
+pali-auto,,nissaraṇa-paññā,解脱智慧（自动·最高频，修订时复核）,解脱智慧×4
+pali-auto,,gihi-vinaya,居士戒律（自动·最高频，修订时复核）,居士戒律×1; 家戒律×1; 戒律×1; 学处×1
+pali-auto,,byagghapajja,彪伽帕阇（自动·最高频，修订时复核）,彪伽帕阇×4
+pali-auto,,nekkhamma-sukha,出离之乐（自动·最高频，修订时复核）,出离之乐×4
+pali-auto,,piya-vācā,爱语（自动·最高频，修订时复核）,爱语×4
+pali-auto,,anavajja,无过失（自动·最高频，修订时复核）,无过失×2; 无过×1; 因素×1
+pali-auto,,santati,相续（自动·最高频，修订时复核）,相续×2; 持续×1; 相续性×1
+pali-auto,,cariya,性行（即性情与惯常倾向），本轮六性行语境非凡夫/普通人；普通行持及既定复合词依本义，不机械替换。〔m-review-terms-diagrams-01〕,中性×1; 或佛教行为×1; 性情×1; 善行×1
+pali-auto,,puñña-kiriyā,福业〔B10 / T1〕；不用“功德行”,功德行×3; 行善业×1
+pali-auto,,aparihāniya-dhamma,不衰退法（自动·最高频，修订时复核）,不衰退法×2; 七不退法×1; 不退法×1
+pali-auto,,iddhi-pāṭihāriya,神变／神通神变（G3-8 定稿）,神通神变×2; 神通×2
+pali-auto,,akusala-kamma,不善业（自动·最高频，修订时复核）,不善业×4
+pali-auto,,kāya-kamma,身业（自动·最高频，修订时复核）,身业×4
+pali-auto,,vacī-kamma,语业（自动·最高频，修订时复核）,语业×4
+pali-auto,,kusala-dhamma,善法（自动·最高频，修订时复核）,善法×4
+pali-auto,,vipatti,劣势（自动·最高频，修订时复核）,劣势×2; 衰损×1; 缺陷×1
+pali-auto,,subha,苏跋（自动·最高频，修订时复核）,苏跋×1
+pali-auto,,sammāsambuddha,正自觉者（自动·最高频，修订时复核）,正自觉者×2; 正等正觉者×2
+pali-auto,,soka,愁（自动·最高频，修订时复核）,愁×3; 悲伤×1
+pali-auto,,upāyāsa,恼（自动·最高频，修订时复核）,恼×3; 绝望×1
+pali-auto,,dukkha-dukkha,苦苦（自动·最高频，修订时复核）,苦苦×4
+pali-auto,,anabhinandita,不被贪恋〔R4-18〕,喜乐×4
+pali-auto,,padhāna-saṅkhāra,勤行（四神足语境；可解释为起推动和支持作用的精进；不机械改各处一般精进）,勤奋精进×1; 精进×1; 精进行×1; 力量×1
+pali-auto,,devatā,天人（自动·最高频，修订时复核）,天人×4
+pali-auto,,rāga-carita,人物贪行者；抽象贪行/贪性行，依语法。不混同本书taṇhā-carita爱行者。〔m-review-terms-diagrams-01〕,贪行×4
+pali-auto,,moha-carita,人物痴行者；抽象痴行/痴性行。〔m-review-terms-diagrams-01〕,痴行×4
+pali-auto,,kamma-kilesa,恶行（自动·最高频，修订时复核）,恶行×1; 垢染×1; 根据四行恶业×1
+pali-auto,,mano-dvāra,通过意门（自动·最高频，修订时复核）,通过意门×2; 指通过意门×1; 意×1
+pali-auto,,saccānulomika-ñāṇa,随顺真理之智；不可与anvaya-ñāṇa（类智）混为一名；具体世间/出世间层次仍依正文及义注的分法。〔m-review-reader-02八项定向复核已落实〕,随顺真理之智×7（全书字面频数，非错误/审阅计数）
+pali-auto,,mahānāma,摩诃男（自动·最高频，修订时复核） →G10 改为：摩诃那摩（用户指定）,摩诃男×3; 马×1
+pali-auto,,nāma-khandha,名蕴（自动·最高频，修订时复核）,名蕴×3
+pali-auto,,bhavaṅga-citta,有分心（自动·最高频，修订时复核）,有分心×3
+pali-auto,,dhamma-dhātu,法界（自动·最高频，修订时复核）,法界×2; 真理×1
+pali-auto,,nikāya,引文根据部（自动·最高频，修订时复核）,引文根据部×1; 部派×1; 部×1
+pali-auto,,dassana,见（自动·最高频，修订时复核）,见×2; 洞察×1
+pali-auto,,lokuttara,出世间（自动·最高频，修订时复核）,出世间×2; 出世间法×1
+pali-auto,,rūpa-bhava,色界（自动·最高频，修订时复核）,色界×2; 渴望色界×1
+pali-auto,,arūpa-bhava,无色界（自动·最高频，修订时复核）,无色界×2; 渴望无色界×1
+pali-auto,,anupādisesa-puggala,无余依者（自动·最高频，修订时复核）,无余依者×3
+pali-auto,,sotāpatti-magga,须陀洹道；指道本身。指住道/正行以证果的人才称须陀洹向〔m-review-concepts-02，取代自动最高频建议〕,原频数为历史采样；本轮逐项判断见m-review-concepts-02候选台账，不以频数定译名
+pali-auto,,vedagū,明达者；释通达所应知者。阿罗汉章两处引文与主条同名；历史上完成三吠陀学业的含义仍保留。〔m-review-reader-02八项定向复核已落实〕,明达者×3; 知识大师×0（全书字面频数，非错误/审阅计数）
+pali-auto,,atītaṁsa-ñāṇa,知过去智（自动·最高频，修订时复核）,知过去智×2
+pali-auto,,anulomikā khanti,随顺忍（自动·最高频，修订时复核）,随顺忍×3
+pali-auto,,sayaṁvasī,自主（自动·最高频，修订时复核）,自主×2; 主人×1
+pali-auto,,jīva,命根（自动·最高频，修订时复核）,命根×2; 命×1
+pali-auto,,saddhindriya,信根（自动·最高频，修订时复核）,信根×3
+pali-auto,,anupubbavihāra-samāpatti,次第定（自动·最高频，修订时复核）,次第定×2; 九次第入定×1
+pali-auto,,diṭṭhippatta,见至者（自动·最高频，修订时复核）,见至者×2; 见至×1
+pali-auto,,chaḷabhiñña,六神通者（自动·最高频，修订时复核）,六神通者×3
+pali-auto,,iddhividhā,神足通（六神通列举）；展现神变义作“神变”（G3-8）,神足通×2; 神通×1
+pali-auto,,dibbasota,天耳通（自动·最高频，修订时复核）,天耳通×2; 天耳×1
+pali-auto,,cetopariyañāṇa,他心通（自动·最高频，修订时复核）,他心通×3
+pali-auto,,pubbenivāsānussati,宿命通（自动·最高频，修订时复核）,宿命通×3
+pali-auto,,sukkhavipassaka,纯观行者（自动·最高频，修订时复核）,纯观行者×3
+pali-auto,,anuruddha,尊者阿那律（Anuruddha）,律尊者×1; 律×1; 律陀×1
+pali-auto,,tatha,如此肯定（自动·最高频，修订时复核）,如此肯定×2; 如×1
+pali-auto,,aggivessana,阿奇瓦萨那（自动·最高频，修订时复核）,阿奇瓦萨那×1; 阿吉维萨那×1; 阿耆毗舍那×1
+pali-auto,,nakulamātā,拘罗母（自动·最高频，修订时复核）,拘罗母×2; 纳库拉玛塔×1
+pali-auto,,sutavant,多闻者（自动·最高频，修订时复核）,多闻者×2; 闻法者×1
+pali-auto,,mettā-vacīkamma,慈语业（自动·最高频，修订时复核）,慈语业×3
+pali-auto,,mettā-manokamma,慈意业（自动·最高频，修订时复核）,慈意业×3
+pali-auto,,andhabāla-puthujjana,盲痴凡夫（自动·最高频，修订时复核）,盲痴凡夫×3
+pali-auto,,dassana-sampanna,具足正见者（自动·最高频，修订时复核）,具足正见者×2; 具足正知者×1
+pali-auto,,saddhamma,本质功德（自动·最高频，修订时复核）,本质功德×1; 七圣法×1
+pali-auto,,sammatta,十正性〔B10 用户确认〕,正境×1; 正道×1; 正性×1
+pali-auto,,ariyā vaḍḍhi,圣者的增长；与导向增长的德目（vuḍḍhi-dhamma）相关但不是同一术语。〔m-review-reader-03〕,圣者的增长×
+pali-auto,,anantariya-kamma,重罪（自动·最高频，修订时复核）,重罪×1; 极重罪业×1
+pali-auto,,mahākassapa,大迦叶（自动·最高频，修订时复核）,大迦叶×2
+pali-auto,,vakkali,跋迦利（自动·最高频，修订时复核）,跋迦利×1
+pali-auto,,upāli,优波离（自动·最高频，修订时复核）,优波离×1
+pali-auto,,sāgata,娑伽陀尊者（自动·最高频，修订时复核）,娑伽陀尊者×2; 萨伽陀×1
+pali-auto,,arūpa-samāpatti,无色界定（自动·最高频，修订时复核）,无色界定×2; 解脱×1
+pali-auto,,lokiya,世间/世间的；作为dhamma类别可用世间法。与lokuttara出世间对举，不误作世俗约定；日常非宗教世俗生活与sammuti/vohāra须另判。〔m-review-concepts-05〕,世间法×1
+pali-auto,,kamma-vipāka,业果（自动·最高频，修订时复核）,业果×2; 其结果×1
+pali-auto,,paraloka,他世（自动·最高频，修订时复核）,他世×2; 来世×1
+pali-auto,,paṇḍita,智者（自动·最高频，修订时复核）,智者×2; 般地达×1
+pali-auto,,assaddha,无信（自动·最高频，修订时复核）,无信×3
+pali-auto,,concentration,禅定（自动·最高频，修订时复核）,禅定×2; 开发定×1
+pali-auto,,saddhāvimutta,信解脱者（自动·最高频，修订时复核）,信解脱者×3
+pali-auto,,yogakkhema,离轭安稳/离系安稳；不是离开现代瑜伽练习。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,安稳×3
+pali-auto,,ājīvapārisuddhi-sīla,活命遍净戒（自动·最高频，修订时复核）,活命遍净戒×2; 活命清净戒×1
+pali-auto,,sassata-vāda,常见论（自动·最高频，修订时复核）,常见论×2; 常见×1
+pali-auto,,natthika-vāda,虚无论（自动·最高频，修订时复核）,虚无论×2; 断灭论×1
+manual-concepts04,,samuccheda-nirodha,正断灭：以相应出世间道智永久断除该阶段应断的烦恼；非断灭见，不是第一道即断尽一切烦恼。〔concepts04 A，用户选定〕,历史采样：断灭×2; 断灭止息×1
+pali-auto,,ariya-phala,圣果（自动·最高频，修订时复核）,圣果×2; 产生圣果×1
+pali-auto,,anāsava,无漏（自动·最高频，修订时复核）,无漏×3
+pali-auto,,phala-samāpatti,果定（自动·最高频，修订时复核）,果定×2
+pali-auto,,mettā-cetovimutti,慈心解脱（自动·最高频，修订时复核）,慈心解脱×3
+pali-auto,,dibba-vihāra,天住（自动·最高频，修订时复核）,天住×2; 意指天住之乐×1
+pali-auto,,akuppā-cetovimutti,不动心解脱（自动·最高频，修订时复核）,不动心解脱×3
+pali-auto,,nekkhamma,出离（自动·最高频，修订时复核）,出离×2; 离欲×1
+pali-auto,,āloka-saññā,光明想（自动·最高频，修订时复核）,光明想×3
+pali-auto,,avikkhepa,不散乱（自动·最高频，修订时复核）,不散乱×2; 无掉举×1
+pali-auto,,anussati,十随念（自动·最高频，修订时复核）,十随念×1; 十随念业处×1; 随念×1
+pali-auto,,upaṭṭhāna,在P1160解释念根作用时作照护心，依上下文可释使对象现前/不忘失；不建立每一词形只许一个中文的规则，也不一律改安住。〔C-A批准，m-review-concepts-05〕,现起×2; 看护×1
+pali-auto,,tīraṇa-pariññā,审察遍知（自动·最高频，修订时复核）,审察遍知×1; 审察智×1
+pali-auto,,nicca-saññā,常想（自动·最高频，修订时复核）,常想×3
+pali-auto,,sīla-visuddhi,戒清净（自动·最高频，修订时复核）,戒清净×3
+pali-auto,,paccayasannissita-sīla,资具依止戒（自动·最高频，修订时复核）,资具依止戒×3
+pali-auto,,diṭṭhi-visuddhi,见清净（自动·最高频，修订时复核）,见清净×3
+pali-auto,,atta-saññā,我想（自动·最高频，修订时复核）,我想×3
+pali-auto,,phala-ñāṇa,果智（自动·最高频，修订时复核）,果智×3
+pali-auto,,paccavekkhaṇa-ñāṇa,省察智；paccavekkhaṇa＝省察〔T1〕,省察智×3
+pali-auto,,samāhita,坚定（自动·最高频，修订时复核）,坚定×2; 正定×1
+pali-auto,,upacāra,近行（自动·最高频，修订时复核）,近行×2; 近行定×1
+pali-auto,,anuloma,随顺（自动·最高频，修订时复核）,随顺×2; 顺观×1
+pali-auto,,saṅkhāra-dukkhatā,行苦：有为法持续受生灭逼迫，不限正在体验疼痛或明显不乐；与自性苦类别不同。〔m-review-concepts-05〕,行苦×3
+pali-auto,,upekkhā-vedanā,不苦不乐受（自动·最高频，修订时复核）,不苦不乐受×1; 舍受×1; 中性感受×1
+pali-auto,,citta-saṅkhāra,意行（自动·最高频，修订时复核）,意行×2; 心行×1
+pali-auto,,apuññābhisaṅkhāra,非福行（自动·最高频，修订时复核）,非福行×3
+pali-auto,,āneñjābhisaṅkhāra,不动行（自动·最高频，修订时复核）,不动行×2; 心境×1
+pali-auto,,sota-viññāṇa,耳识（自动·最高频，修订时复核）,耳识×2; 耳×1
+pali-auto,,ghāna-viññāṇa,鼻识（自动·最高频，修订时复核）,鼻识×2; 鼻×1
+pali-auto,,jivhā-viññāṇa,舌识（自动·最高频，修订时复核）,舌识×2; 舌×1
+pali-auto,,kāya-viññāṇa,身识（自动·最高频，修订时复核）,身识×2; 身×1
+pali-auto,,vedanā-khandha,受蕴（自动·最高频，修订时复核）,受蕴×3
+pali-auto,,rūpa-khandha,色蕴（自动·最高频，修订时复核）,色蕴×2; 身体蕴×1
+pali-auto,,kāmupādāna,六尘（自动·最高频，修订时复核）,六尘×1; 欲取×1; 执取×1
+pali-auto,,soka-parideva-dukkha-domanassa-upāyāsa,绝望（自动·最高频，修订时复核）,绝望×3
+pali-auto,,kāmāsava,欲漏（自动·最高频，修订时复核）,欲漏×2; 见漏×1
+pali-auto,,sugati,善趣（自动·最高频，修订时复核）,善趣×3
+pali-auto,,pubbekata-hetu,过去所造之因（自动·最高频，修订时复核）,过去所造之因×1; 过去所做×1
+pali-auto,,kassapa,迦叶（自动·最高频，修订时复核）,迦叶×1; 迦叶佛×1
+pali-auto,,khattiya,刹帝利（自动·最高频，修订时复核）,刹帝利×2; 国王×1
+pali-auto,,vessa,吠舍（自动·最高频，修订时复核）,吠舍×2; 商人×1
+pali-auto,,buddhaghosa,尊者觉音（Buddhaghosa）；每章首现括注原名,世纪觉音尊者×1; 尊者觉音×1; 佛音尊者×1
+pali-auto,,dukkha-ariyasacca,苦圣谛（自动·最高频，修订时复核）,苦圣谛×2; 苦×1
+pali-auto,,sammā-dassana,正见（自动·最高频，修订时复核）,正见×3
+pali-auto,,feeling,受（自动·最高频，修订时复核）,受×3
+pali-auto,,saccānurakkha,守护真相（自动·最高频，修订时复核）,守护真相×3
+pali-auto,,anussava,口传（自动·最高频，修订时复核）,口传×2; 口传引导×1
+pali-auto,,ākāra-parivitakka,理性思惟（自动·最高频，修订时复核）,理性思惟×2; 考虑表象引导×1
+pali-auto,,diṭṭhi-nijjhānakkhanti,人观点（自动·最高频，修订时复核）,人观点×1; 人见解×1; 理论相符引导×1
+pali-auto,,ākāravatī-saddhā,信心（自动·最高频，修订时复核）,信心×2; 有根基的×1
+pali-auto,,pañca-khandha,五蕴（自动·最高频，修订时复核）,五蕴×3
+pali-auto,,issā,嫉妒（自动·最高频，修订时复核）,嫉妒×2; 嫉×1
+pali-auto,,phoṭṭhabba,触尘（自动·最高频，修订时复核）,触尘×1; 觉知触×1; 触×1
+pali-auto,,paṭhavī,地（自动·最高频，修订时复核）,地×3
+pali-auto,,tejo,火（自动·最高频，修订时复核）,火×3
+pali-auto,,vāyo,风（自动·最高频，修订时复核）,风×3
+pali-auto,,adukkhamasukha,不苦不乐受（自动·最高频，修订时复核）,不苦不乐受×1; 中性感受×1; 不苦不乐×1
+pali-auto,,somanassa,喜受（自动·最高频，修订时复核）,喜受×1; 快乐×1; 喜×1
+pali-auto,,wat nyanavesakavan,念慧寺（自动·最高频，修订时复核）,念慧寺×2
+pali-auto,,pts,巴利圣典协会（自动·最高频，修订时复核）,巴利圣典协会×1
+pali-auto,,blessed one,世尊（自动·最高频，修订时复核）,世尊×3
+pali-auto,,māluṅkyaputta,摩伦迦弗达（自动·最高频，修订时复核）,摩伦迦弗达×2; 马鲁迦子×1
+pali-auto,,brahma,神祇专名梵天；构词义崇高、至上、清净等依定义说明，不因中文卓越的成就义而误解梵行〔m-review-concepts-02〕,原频数为历史采样；本轮逐项判断见m-review-concepts-02候选台账，不以频数定译名
+pali-auto,,jhānas,圣者修习禅那（自动·最高频，修订时复核）,圣者修习禅那×2; 然后证得禅那×1
+pali-auto,,sacchikiriyā,现证（自动·最高频，修订时复核）,现证×2; 证悟×1
+pali-auto,,sacchikātabba-dhamma,应现证法（自动·最高频，修订时复核）,应现证法×2; 即明和解脱×1
+pali-auto,,tadaṅga-nirodha,治灭（自动·最高频，修订时复核）,治灭×3
+pali-auto,,cariya-dhamma,行法（自动·最高频，修订时复核）,行法×1; 行持×1; 之法×1
+pali-auto,,sappāya,适顺（自动·最高频，修订时复核）,适顺×1; 适宜条件×1; 条件×1
+pali-auto,,cakkavatti-vatta,转轮王律（自动·最高频，修订时复核）,转轮王律×1; 转轮圣王法×1
+pali-auto,,vibhajja-vidhi,人运用分别法（自动·最高频，修订时复核）,人运用分别法×1; 详细分析模式×1
+pali-auto,,bhoga-sukha,受用之乐（自动·最高频，修订时复核）,受用之乐×2; 资财之乐×1
+pali-auto,,lokuttara-sukha,出世间之乐（自动·最高频，修订时复核）,出世间之乐×2; 出世间安乐×1
+pali-auto,,anariya-sukha,非圣者之乐（自动·最高频，修订时复核）,非圣者之乐×2; 凡夫之乐×1
+pali-auto,,santi,寂静（自动·最高频，修订时复核）,寂静×2; 平静×1
+pali-auto,,kāmāvacara,欲界（自动·最高频，修订时复核）,欲界×3
+pali-auto,,rūpāvacara,色界（自动·最高频，修订时复核）,色界×3
+pali-auto,,saṅkappa,思量（自动·最高频，修订时复核）,思量×1; 思维×1; 意图×1
+pali-auto,,sīla-kathā,戒开示（自动·最高频，修订时复核）,戒开示×2; 谈论×1
+pali-auto,,ubhayattha,彼此利益（自动·最高频，修订时复核）,彼此利益×1; 自他俱利×1; 利益×1
+pali-auto,,anavajja-sukha,无过之乐〔R4-15〕,无过之乐×1; 无过乐×1; 无过之乐×1
+pali-auto,,gihi-sukha,家者之乐（自动·最高频，修订时复核）,家者之乐×2; 安乐×1
+pali-auto,,sagga,投生天人（自动·最高频，修订时复核）,投生天人×1; 六天界×1; 住处×1
+pali-auto,,vipassanā-bhāvanā,观禅（自动·最高频，修订时复核）,观禅×1; 内观×1; 禅修×1
+pali-auto,,nirāmisatara-sukha,乐（自动·最高频，修订时复核）,乐×2; 安乐×1
+pali-auto,,taṇhakkhaya-sukha,爱尽之乐（自动·最高频，修订时复核）,爱尽之乐×2; 渴爱灭尽乐×1
+pali-auto,,phalasamāpatti-sukha,果定之乐（自动·最高频，修订时复核）,果定之乐×2; 果定安乐×1
+pali-auto,,divya-sukha,天人之乐（自动·最高频，修订时复核）,天人之乐×2; 天上乐×1
+pali-auto,,ghana,密集相（自动·最高频，修订时复核）,密集相×3
+pali-auto,,puggala,人（自动·最高频，修订时复核）,人×3
+pali-auto,,utu,环境（自动·最高频，修订时复核）,环境×2; 物理法则×1
+pali-auto,,yoga,比丘应修瑜伽（自动·最高频，修订时复核）,比丘应修瑜伽×1; 证悟离瑜伽×1
+pali-auto,,majjhena-dhamma,中道法（自动·最高频，修订时复核）,中道法×1; 中道真理×1; 中道实相×1
+pali-auto,,amoha,无痴（自动·最高频，修订时复核）,无痴×3
+pali-auto,,akusala-dhamma,不善法（自动·最高频，修订时复核）,不善法×3
+pali-auto,,adhamma,非法（自动·最高频，修订时复核）,非法×3
+pali-auto,,sucarita,善行（自动·最高频，修订时复核）,善行×2; 行为×1
+pali-auto,,lokuttara-sammādiṭṭhi,出世间正见（自动·最高频，修订时复核）,出世间正见×3
+pali-auto,,pavāraṇā-kamma,自恣（自动·最高频，修订时复核）,自恣×2; 正式邀请训诫×1
+pali-auto,,kamma-sammati,形式（自动·最高频，修订时复核）,形式×3
+pali-auto,,javana-citta,速行心（自动·最高频，修订时复核）,速行心×3
+pali-auto,,akusala-kammapatha,不善业道（自动·最高频，修订时复核）,不善业道×3
+pali-auto,,āhāra,食物（自动·最高频，修订时复核）,食物×1; 滋养×1; 食×1
+pali-auto,,nirodhavāra,灭尽支分（自动·最高频，修订时复核）,灭尽支分×3
+pali-auto,,nāmarūpa,名色（自动·最高频，修订时复核）,名色×3
+pali-auto,,saṅkhāra-dukkha,行苦（自动·最高频，修订时复核）,行苦×3
+pali-auto,,sa-upādisesa-nibbānadhātu,有余依涅槃界（自动·最高频，修订时复核）,有余依涅槃界×3
+pali-auto,,vedayita,所受（自动·最高频，修订时复核）,所受×2; 所有所感受×1
+pali-auto,,diṭṭhadhammika,现法（自动·最高频，修订时复核）,现法×2; 现法乐住×1
+pali-auto,,abhinandita,贪恋〔R4-18〕,喜乐×3
+pali-auto,,anupādā-parinibbāna,"无取般涅槃（G7：MN 24/Pvr 14 的 final, absolute Nibbāna；附录五指出义注把 upādā 解作“燃料、缘”并驳斥“无执取”之解，故不用“无执取般涅槃”）",无取般涅槃×1; 无余依涅槃×1; 无余涅槃×1
+pali-auto,,atta-diṭṭhi,我见（自动·最高频，修订时复核）,我见×3
+pali-auto,,vacchagotta,婆蹉衢多（G5）,婆蹉衢多×10
+pali-auto,,sa-upādisesa-nibbāna,有余依涅槃（自动·最高频，修订时复核）,有余依涅槃×3
+pali-auto,,padhāna,四正勤（自动·最高频，修订时复核）,四正勤×1; 精进×1; 策励×1
+pali-auto,,dhammānupassanā,法随观（自动·最高频，修订时复核）,法随观×3
+pali-auto,,vipassanā-samādhi,定（自动·最高频，修订时复核）,定×3
+pali-auto,,appanā,安止定（自动·最高频，修订时复核）,安止定×1; 专注思惟×1; 安止×1
+pali-auto,,saṁvega,紧迫感（自动·最高频，修订时复核）,紧迫感×2; 敬畏感×1
+pali-auto,,dhamma-sāmaggī,合（自动·最高频，修订时复核）,合×3
+pali-auto,,kāyagatā-sati,身至念（自动·最高频，修订时复核）,身至念×2; 法×1
+pali-auto,,dosa-carita,人物嗔行者；抽象嗔行/嗔性行；本书统一嗔字。〔m-review-terms-diagrams-01〕,瞋行×2; 嗔行×1
+pali-auto,,saddhā-carita,人物信行者；抽象信行/信性行；不改随信行者这一圣者名。〔m-review-terms-diagrams-01〕,信行×2; 具虔诚性情×1
+pali-auto,,vitakka-carita,人物寻行者；抽象寻行/寻性行；性行分类指思考倾向，不机械改其他思行〔cetana〕或普通思考语。〔m-review-terms-diagrams-01〕,思行×2; 思考支配×1
+pali-auto,,parikamma-nimitta,遍作相（自动·最高频，修订时复核）,遍作相×2; 预备相×1
+pali-auto,,kasiṇa meditation,遍处禅（自动·最高频，修订时复核）,遍处禅×3
+pali-auto,,pañca-dhamma,五法（自动·最高频，修订时复核）,五法×2; 五德×1
+pali-auto,,devatā-bali,供养（自动·最高频，修订时复核）,供养×2; 天神之供×1
+pali-auto,,pañca-sikkhāpada,五戒（自动·最高频，修订时复核）,五戒×2; 五学处×1
+pali-auto,,vatta,行仪（自动·最高频，修订时复核）,行仪×2; 规定×1
+pali-auto,,saṅghakamma,正式行事（自动·最高频，修订时复核）,正式行事×1; 僧团羯磨×1
+pali-auto,,vīmaṁsā,四神足语境审察；具体分支审察神足（传统称观神足）；审察定=vimaṁsā-samādhi。普通分析/考察依语境，不将全部审察扩为神足〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+pali-auto,,sanam luang,皇家田（自动·最高频，修订时复核）,皇家田×3
+pali-auto,,kilesa-saññā,烦恼想（自动·最高频，修订时复核）,烦恼想×3
+pali-auto,,sukhuma-rūpa,细色（自动·最高频，修订时复核）,细色×2; 物质形式×1
+pali-auto,,atthupaparikkhā,审察义理（自动·最高频，修订时复核）,审察义理×1; 佛法之义×1; 思惟其意义×1
+pali-auto,,tiracchāna-vijjā,旁生术（自动·最高频，修订时复核）,旁生术×2; 低级技艺×1
+pali-auto,,maṅgala,吉祥物（自动·最高频，修订时复核）,吉祥物×1; 吉祥力量×1; 例如吉祥×1
+pali-auto,,sabbe saṅkhārā dukkhā,苦（自动·最高频，修订时复核）,苦×2; 法×1
+pali-auto,,yad’aniccaṁ taṁ dukkhaṁ,苦（自动·最高频，修订时复核）,苦×2; 无我×1
+pali-auto,,consideration,专注的考量（自动·最高频，修订时复核）,专注的考量×1; 推理的考量×1; 细心的考量×1
+pali-auto,,reflection,起源性反省（自动·最高频，修订时复核）,起源性反省×1; 批判性反省×1; 分析性反省×1
+core,"vayadhammā saṅkhārā, appamādena sampādetha",,一切有为法皆是坏灭法，当不放逸以成道业（G4-2，全角逗号）,
+core,Sāriputta (name),,尊者舍利弗；普通正文用中文，既有必要首注及独立人物词目/注释按notation04保留所需原名；G3旧“不留拉丁原名”不再作一概删除令。,
+core,Anuruddha,,尊者阿那律（Anuruddha）,
+core,Aṅgulimāla,,尊者鸯掘摩罗（Aṅgulimāla）,
+core,Puṇṇa,,尊者富楼那（Puṇṇa）；Puṇṇa Koliyaputta（MN 57）＝富楼那·拘利子（G6）,
+core,Soṇa (Koḷivisa),,尊者二十亿耳（Soṇa Koḷivisa）〔G8；R3 按正文同步〕,
+core,Mahaka,,尊者摩诃迦（Mahaka）,
+core,Koṇḍadhāna,,尊者军头波汉（Koṇḍadhāna）,
+core,Piṇḍola Bhāradvāja,,尊者宾头卢·颇罗堕（Piṇḍola Bhāradvāja）,
+core,Sirimaṇḍa,,尊者尸利曼陀（Sirimaṇḍa）,
+core,Vacchagotta,,婆蹉衢多（Vacchagotta）；Aggivacchagotta Sutta=《婆蹉衢多火喻经》（G5）,
+core,Vajirā (nun),,金刚比丘尼（Vajirā）〔R3 按正文同步〕,
+core,Baka Brahmā,,婆迦梵天（Baka）,
+core,Citta (householder),,质多居士（Citta）,
+core,Mahānāga Thera,,尊者摩诃那伽长老（Mahānāga Thera）,
+core,Pabbhāravāsī-Tissa,,长老山窟住帝须（Pabbhāravāsī-Tissa）,
+core,Bhikkhu Bodhi,,菩提比丘（Bhikkhu Bodhi）；所列原名是必要首注/独立词目的可用形式，不要求每次或所有常见首现都补注〔notation04〕,
+core,Bhikkhu Ñāṇamoli,,髻智比丘（Bhikkhu Ñāṇamoli）,
+core,Nyanaponika Thera,,长老向智（Nyanaponika Thera）,
+core,Narada Thera,,那罗陀长老（Narada Thera）；缅甸 U Narada＝尊者那拉达（另一人）〔R3 按正文同步〕,
+core,U Narada,,尊者那拉达（U Narada）,
+core,U Thittila,,尊者帝提拉（U Thittila）,
+core,Thanissaro Bhikkhu,,坦尼沙罗比丘（Thanissaro Bhikkhu）,
+core,Buddhadāsa Bhikkhu,,佛使比丘（Buddhadāsa）,
+core,Parivāra,,《附随》（Parivāra）,
+core,"Special Appendix: Citta, Viññāṇa, Mano",,附录：心（Citta）、识（Viññāṇa）、意（Mano）（标题例外保留巴利）,
+core,loka-paññatti (sutta phrase),,世间施设（经文原译保留）,
+core,pāṭihāriya,,神变,
+core,aniccā vata saṅkhārā,,确实，一切有为法无常，是生灭法。既已生起，便会止息；其止息是究竟之乐。,
+core,Mettagū,,梅达古（G5）,
+core,Uruvelā,,优楼频螺（G5）,
+core,Senānigama,,斯那尼村（G5）,
+core,Cunda (DN 29),,纯陀（G5）,
+core,Pāṭikaputta,,波梨子（G5）,
+core,Nandopananda,,难陀优波难陀（G5）,
+core,Vajjiyamāhita,,伐耆耶摩希达（G5）,
+core,Āḷāra Kālāma,,阿罗罗·迦罗摩（G5）,
+core,Acela Kassapa,,裸行者迦叶（G5） →G10 改为：裸行者迦叶波（用户指定）,
+core,Subhadda (paribbājaka),,游方者须跋陀（G5）,
+core,Acela Seniya,,裸行者塞尼耶（G5） →G10 改为：裸行者先尼（Seniya 作“先尼”）,
+core,Māgaṇḍiya (MN 75),,游方者摩犍提；经名《摩犍提经》（G5/G6）,
+core,Sedaka Sutta,,《私达迦经》（G5）,
+core,Māra,,魔罗（G5）,
+core,Sakka,,帝释天（G5）,
+title,Abhidhammatthasaṅgaha（Comp.）,,《摄阿毗达摩义论》（G6）；Comp.为书名缩写，不是Compare（对照）；引文中的Vīthimuttaparicchedo为章、Paṭisandhicatukkaṁ为节。〔m-review-quotation-01〕,
+title,Abhidhammatthavibhāvinī,,《阿毗达摩义广释》（G6）,
+title,Pañcikā (Abhidhammatthavibhāvinī-atthayojanā),,《阿毗达摩义广释注解》（G6）,
+title,Paramatthadīpanī（Ud/It/Vv/Pv/Th/Thī/Cp 义注、五部论注）,,《胜义灯》（G6）,
+title,Paramatthamañjūsā（VismṬ.）,,《胜义宝函》；描述性名称《清净道论大复注》（G6）,
+title,Sammohavinodanī（VbhA.）,,《破除痴迷》（G6）,
+title,Saddhammappakāsinī（PsA.）,,《正法显明》（G6）,
+title,Manorathapūraṇī（AA.）,,《满足希望》（G6）,
+title,Papañcasūdanī（MA.）,,《破除障碍》（G6）,
+title,Paramatthajotikā（KhA./SnA.）,,《胜义之光》（G6）,
+title,Atthasālinī（DhsA.）,,《显义》（G6）,
+title,Nettipakaraṇa,,《导论》（G6）,
+title,Peṭakopadesa,,《藏释》（G6）,
+title,Maṅgalatthadīpanī,,《吉祥义灯》（G6）,
+title,Abhidhānappadīpikā,,《名义灯》（G6）,
+title,Milindapañha,,《弥兰王问经》（G7 用户决定；国王名“弥兰陀王”）,
+title,Dhātukathā / Yamaka,,《界论》/《双论》（G6）,
+title,Samantapāsādikā,,《善见律毗婆沙》（G6）,
+title,Vimativinodanī,,《除疑律疏》（G6）,
+title,Mahāniddesa / Cūḷaniddesa,,《大义释》/《小义释》（G6）,
+title,描述性义注名,,“X义注”“X复注”：《长部义注》《法句经义注》《分别论义注》《经集义注》《增支部义注》《无碍解道义注》《律藏义注复注》（G6）,
+core,Puṇṇa Koliyaputta,,富楼那·拘利子（G6）,
+core,Udāyī,,优陀夷（G6）,
+core,Subha,,须婆（G6 确认） →G10 改为：须跋（《须跋经》）,
+core,Pali Canon / Tipiṭaka,,《巴利三藏》/ 三藏（G6）,
+G7,final mind / last mind,carima-citta / carimaka-citta,最后心（阿罗汉般涅槃前的最后之心）；carima-viññāṇa＝最后识,
+G7,mind at the moment of death,maraṇāsanna-citta,临终心（本书英文未出现此术语；一般“at the moment/time of death”作“临终时”）,
+G7,death-consciousness,cuti-citta,死心（本书仅作 cuti＝死没/逝去）,
+G7,Vessantara,,维桑塔拉（不用韦桑塔拉）；出处标签 Vessantara Jātaka 保留 →G10 改为：须大拏（用户指定）,
+G7,Dabba Mallaputta,,尊者陀骠·摩罗子（不用达巴·摩罗弗多/达巴·摩罗普塔）,
+G7,Kesaputta,,羁舍子（卡拉玛人的城镇；不用拘萨城）,
+G8,Aggivessana（萨遮迦的族姓）,,火种（不用 阿吉维萨那/阿耆毗舍那）,
+G8,Pārāsariya,,婆罗门波罗奢那（不用 婆罗门波罗萨利耶）,
+G8,Pārāsariya,,波罗奢那（不用 波罗萨利耶）,
+G8,Uttara（波罗奢那的弟子）,,郁多罗（不用 优陀罗）,
+G8,Byagghapajja,,虎路（不用 彪伽帕阇）,
+G8,Dīghajāṇu,,长膝（不用 迪迦阇努/帝伽贾努）,
+G8,Koliya,,拘利人（不用 伽梨人）,
+G8,Bāhiya Dārucīriya,,木皮衣婆醯迦（不用 跋希亚·达鲁契利耶）⚑,
+G8,Cakkhupāla,,护眼（不用 迦库帕拉）⚑,
+G8,Ciñcā-māṇavikā,,旃遮摩那祇（不用 差摩那维迦）,
+G8,Cunda,,银匠纯陀（Cunda）（不用 银匠准达（Cunda））,
+G8,Cunda,,纯陀（不用 准达）,
+G8,Dhanapāla(ka),,护财（不用 达那巴拉）,
+G8,Isidatta,,梨师达多（不用 伊西达塔）,
+G8,Purāṇa,,富兰那（不用 富拉那）,
+G8,Kevaddha Sutta（DN 11）,,《坚固经》（不用 《哥伐陀经》）⚑,
+G8,Kevaddha,,坚固（不用 哥伐陀）⚑,
+G8,Khujjuttarā,,久寿多罗（不用 库珠塔拉）,
+G8,Kosiya,,憍尸迦（Kosiya）（不用 高沙（Kosiya））,
+G8,Macchariya Kosiya,,悭吝憍尸迦（不用 麻沙利亚·高西雅）,
+G8,Kuṇḍadhāna,,军头波汉（不用 昆达达那）,
+G8,Kālāma Sutta,,《伽蓝经》（不用 《卡拉玛经》）⚑ →G10 改为：卡拉玛（卡拉玛人、《卡拉玛经》）,
+G8,Kālāma,,伽蓝人（不用 卡拉玛人）⚑ →G10 改为：卡拉玛（卡拉玛人、《卡拉玛经》）,
+G8,Mahānāma,,摩诃男（不用 马哈那马） →G10 改为：摩诃那摩（用户指定）,
+G8,Mahākappina,,大劫宾那（不用 摩诃迦毗那）,
+G8,Mahākassapa,,大迦叶（不用 摩诃迦叶）,
+G8,Māluṅkyaputta,,鬘童子（不用 马鲁迦子/摩伦迦弗达）,
+G8,Meghiya,,弥醯（不用 弥希亚）,
+G8,Migasālā,,鹿住（不用 弥迦萨拉）⚑,
+G8,Nakulamātā,,那拘罗母（不用 纳库拉玛塔）,
+G8,Nakulapitā,,那拘罗父（不用 纳库拉比达）,
+G8,Narada,,那罗陀长老（Narada Thera）（不用 长老那烂陀（Narada Thera））,
+G8,Piṇḍola Bhāradvāja,,宾头卢·颇罗堕（不用 宾度罗跋啰堕阇/宾度拉·巴拉度瓦迦）,
+G8,Pilindavaccha,,毕陵伽婆蹉（不用 毕陵伽·婆蹉）,
+G8,Potaliputta,,哺罗陀子（不用 波多利布达）,
+G8,Pāvā,,波婆（Pāvā）（不用 波伐（Pāvā））,
+G8,Rohaṇa（那先的师父）,,楼汉（不用 罗哈那）,
+G8,Rohitassa,,赤马（不用 卢奚多萨）,
+G8,Samiddhi,,三弥提（不用 萨密提）,
+G8,Samiddhi,,三弥提（Samiddhi）（不用 沙弥（Samiddhi））,
+G8,Selā,,尸罗比丘尼（不用 舍拉比丘尼）,
+G8,Seniya,,先尼（不用 塞尼耶）⚑,
+G8,Siṁsapā,,申恕（不用 辛沙巴）,
+G8,Soṇa,,二十亿耳（不用 索那）,
+G8,Soṇa Koḷivisa,,二十亿耳（不用 娑那·拘利维萨）,
+G8,Soṇa Kuṭikaṇṇa,,亿耳（不用 娑那·拘帝迦那）,
+G8,Subha,,须婆（不用 苏跋） →G10 改为：须跋（《须跋经》）,
+G8,Sudhamma（质多长者故事中的比丘）,,善法（不用 苏达摩）⚑,
+G8,Moḷiya Sīvaka,,尸婆（不用 西瓦卡/西瓦迦）,
+G8,Tapussa,,帝梨富娑（不用 塔普萨）⚑,
+G8,Vajirā,,金刚比丘尼（Vajirā）（不用 比丘尼瓦吉拉（Vajirā））,
+G8,Vakkali,,跋迦梨（不用 瓦卡利/跋伽利/跋迦利）,
+G8,Vassakāra,,雨行（不用 跋沙迦罗/婆悉迦罗）,
+G8,Khemaka,,差摩迦（不用 奢摩迦）,
+G8,Kakusandha,,拘留孙（不用 迦俱散陀/迦俱孙陀）,
+G8,Bimbisāra,,频婆娑罗（不用 频毗娑罗）,
+G8,Nigaṇṭha Nātaputta,,尼乾陀·若提子（不用 尼干陀·那陀子）,
+G8,Nigaṇṭha,,尼乾陀（不用 尼干陀）,
+G8,Nigaṇṭha,,尼乾子（不用 尼干子）,
+G8,Baka,,婆迦（Baka）（不用 婆伽（Baka）/跋迦（Baka））,
+G8,Susima,,须深（不用 须深摩）,
+G8,Susima,,《须深经》（不用 《须西马经》）,
+G8,Mahāpanthaka,,摩诃槃陀伽（不用 大盘特迦）,
+G8,Cūḷapanthaka,,周利槃陀伽（不用 周利盘特迦）,
+G8,Hatthaka of Āḷavī,,阿罗毗的手长者（不用 哈达卡·阿拉瓦卡居士）,
+G8,Hatthaka of Āḷavī,,手长者（不用 哈达卡居士）,
+G8,Lakuṇṭaka Bhaddiya,,罗婆那跋提（不用 拉孔塔卡·巴迪亚）,
+G8,Saviṭṭha,,殊胜（不用 萨威陀）,
+G8,Kakutthā,,拘孙河（不用 伽窟他河）,
+G8,Dīghāvu,,长生（不用 迪伽乌）,
+G8,Suvaṇṇasāma,,睒子（不用 苏梵纳萨马）,
+G8,Abhayarājakumāra,,无畏（Abhaya）王子（不用 阿跋耶（Abhaya）王子）,
+G8,Saṅkicca,,僧吉蔗（不用 僧吉迦）,
+G8,Bhaddiya Sutta,,《跋提经》（不用 《巴蒂亚经》）,
+G8,,,Kesaputta Sutta、Kesaputti Sutta、Kesaputtiya Sutta 或 Kesamutti Sutta（不用 《揭沙弗经》、《揭沙普提经》、《揭沙普提雅经》或《揭萨穆蒂经》）,
+G8,Pāsarāsi Sutta,,《圣求经》（Pāsarāsi Sutta）（不用 《帕沙拉西经》（Pāsarāsi Sutta））,
+G8,Kīṭāgiri Sutta,,《翅吒山经》（不用 《基塔吉利经》）,
+G8,Kūṭadanta Sutta,,《究罗檀头经》（不用 《瞿昙达那经》）,
+G8,Gosiṅgasāla Sutta,,《牛角娑罗林经》（不用 《高辛萨拉经》）,
+G8,Mandhātu,,《顶生王本生经》（不用 《曼陀度罗阇本生经》）,
+G8,Siṅgālaka Sutta,,《善生经》（不用 《施伽罗经》）,
+G8,Saṅgīti Sutta,,《众集经》（不用 《僧伽提经》）,
+G8,Anupada Sutta,,《无间经》（不用 《阿那巴经》）,
+G8,bhāvitindriya,,已修习诸根,
+G8,diṭṭhi-sampanna,,具足正见者,
+G8,bhāvita-kāya,,身的修习圆满,
+G8,sīla / vata / parāmāsa（戒禁取）,,戒 / 禁 / 取（不用 尸罗 / 瓦塔 / 帕拉玛萨）,
+G10/G11,Kālāma,,卡拉玛（卡拉玛人、《卡拉玛经》）〔1 公认常用〕,
+G10/G11,Bāhiya Dārucīriya,,木皮衣婆醯迦〔2 原译〕,
+G10/G11,Cakkhupāla,,护眼〔1 公认常用〕,
+G10/G11,Kevaṭṭa (Kevaddha),,坚固（《坚固经》）〔1 公认常用〕,
+G10/G11,Migasālā,,鹿住〔2 原译〕,
+G10/G11,Seniya,,先尼〔2 原译〕,
+G10/G11,Sudhamma,,善法〔2 原译〕,
+G10/G11,Tapussa,,帝梨富娑〔2 原译〕,
+G10/G11,Mettagū,,梅达古〔2 原译〕,
+G10/G11,Dhotaka,,多达迦〔用户指定〕,
+G10/G11,Senānigama,,斯那尼村〔2 原译〕,
+G10/G11,Vajjiyamāhita,,伐耆耶摩希达〔用户指定〕,
+G10/G11,Sirimaṇḍa,,尸利曼陀〔2 原译〕,
+G10/G11,Kakkarapatta,,喀卡拉巴塔〔2 原译〕,
+G10/G11,Upasena Vaṅgantaputta,,优波先那·瓦刚塔普塔〔2 原译〕,
+G10/G11,Sobhita,,娑比塔〔用户指定〕,
+G10/G11,Kusa (Jātaka 531),,古萨〔2 原译〕,
+G10/G11,Maṇḍavya (Jātaka 444),,曼达维亚〔2 原译〕,
+G10/G11,Suvaṇṇasāma,,睒子〔1 公认常用〕,
+G10/G11,Sāḷha Sutta (AN 3.66),,《萨拉经》〔2 原译〕,
+G10/G11,Sedaka Sutta,,《私达迦经》〔2 原译〕,
+G10/G11,Bāhukā,,巴乎迦河〔用户指定 G11〕,
+G10/G11,Adhikakkā,,阿提迦（渡口）〔用户指定〕,
+G10/G11,Gayā,,伽耶〔1 公认常用〕,
+G10/G11,Sundarikā,,孙陀利迦〔用户指定〕,
+G10/G11,Sarassatī,,舍罗舍提〔用户指定〕,
+G10/G11,Payāga,,波耶迦〔用户指定〕,
+G10/G11,Bahumatī,,婆睺摩提〔用户指定〕,
+G10/G11,Vessantara,,须大拏〔用户指定〕,
+G10/G11,Jāli,,耶利〔用户指定〕,
+G10/G11,Kaṇhājinā,,罽拏延〔用户指定〕,
+G10/G11,Maddī,,曼坻〔用户指定〕,
+G10/G11,Mahāvessantara Jātaka,,《须大拏本生经》〔用户指定〕,
+G10/G11,Nālāgiri,,护财〔用户指定〕,
+G10/G11,Mayhakasakuṇa Jātaka,,《我有鸟本生经》〔5 元亨寺〕,
+G10/G11,Sudhābhojana Jātaka,,《天食本生经》〔5 元亨寺〕,
+G10/G11,Illīsa Jātaka,,《夷利沙本生经》〔2 原译〕,
+G10/G11,Apaṇṇaka Jātaka,,《无误本生经》〔2 原译〕,
+G10/G11,Mandhātu,,顶生王〔1 公认常用〕,
+G10/G11,Mahājanaka,,摩诃迦那迦〔2 原译〕,
+G10/G11,Sarabhaṅga,,萨拉邦伽〔2 原译〕,
+G10/G11,Sāriputta,,舍利弗〔1 公认常用〕,
+G10/G11,Mahānāma (Sakka),,摩诃那摩〔用户指定〕,
+G10/G11,Nandiya,,难提〔1 公认常用〕,
+G10/G11,Saviṭṭha,,殊胜〔1 公认常用〕,
+G10/G11,Musīla,,茂师罗〔1 公认常用〕,
+G10/G11,Nigaṇṭha,,尼乾陀〔1 公认常用〕,
+G10/G11,Uruvela Kassapa,,优楼频螺迦叶〔2 原译〕,
+G10/G11,Hatthaka Āḷavaka,,阿罗毗的手长者〔2 原译〕,
+G10/G11,Gotama,,乔达摩〔1 公认常用〕,
+G10/G11,Upāli,,优波离〔1 公认常用〕,
+G10/G11,Godhika,,瞿提迦〔2 原译〕,
+G10/G11,Khemaka,,差摩迦〔2 原译〕,
+G10/G11,Sunakkhatta,,善星〔1 公认常用〕,
+G10/G11,Pāṭikaputta,,波梨子〔2 原译〕,
+G10/G11,Poṭṭhapāda,,布吒婆楼〔用户指定〕,
+G10/G11,Pārāsariya,,波罗奢那〔用户指定〕,
+G10/G11,Uttara,,郁多罗〔2 原译〕,
+G10/G11,Kajaṅgala,,迦阇伽罗〔用户指定〕,
+G10/G11,Esukārī,,郁瘦歌罗（《郁瘦歌罗经》）〔用户指定〕,
+G10/G11,Subha,,须跋（《须跋经》）〔用户指定〕,
+G10/G11,Potaliputta,,哺罗陀子〔用户指定〕,
+G10/G11,Bhaddāli,,跋达离〔用户指定〕,
+G10/G11,Kuṇḍaliya,,昆达利耶〔用户指定〕,
+G10/G11,Añjanavana,,安阇那林〔用户指定〕,
+G10/G11,Bhadraka,,跋陀迦〔用户指定〕,
+G10/G11,Dārukammika,,达卢卡摩〔用户指定〕,
+G10/G11,Yasoja,,耶输阇〔用户指定〕,
+G10/G11,Sopāka,,索帕迦〔2 原译〕,
+G10/G11,Adhimutta,,阿地目多〔2 原译〕,
+G10/G11,Migajāla,,弥伽阇罗〔2 原译〕,
+G10/G11,Ujjaya,,优阇耶〔用户指定〕,
+G10/G11,Saṅgārava,,僧伽罗婆〔2 原译〕,
+G10/G11,Ātumā,,阿图玛〔2 原译〕,
+G10/G11,Sudassana (māṇava),,苏达萨那〔2 原译〕,
+G10/G11,Vacchagotta,,婆蹉衢多〔2 原译〕,
+G10/G11,Aggi-Vacchagotta Sutta,,《婆蹉衢多火经》〔2 原译〕,
+G10/G11,Caṅkī Sutta,,《旃奇经》〔用户指定〕,
+G10/G11,Kīṭāgiri Sutta,,《翅吒山经》〔2 原译〕,
+G10/G11,Doṇapāka Sutta,,《多那帕卡经》〔2 原译〕（正文目前只在出处标签出现 Doṇapāka Sutta）,
+G10/G11,Sālā,,萨拉〔2 原译〕,
+G10/G11,Acela Kassapa,,迦叶波（裸行者迦叶波）〔用户指定〕,
+G10/G11,Samiddhi,,三弥提〔2 原译〕,
+G10/G11,Mahākoṭṭhita,,大拘絺罗〔用户指定〕,
+G10/G11,Kosala,,拘萨罗〔1 公认常用〕,
+G10/G11,Gijjhakūṭa,,灵鹫山〔1 公认常用〕,
+G10/G11,Gosiṅgasālavana,,牛角娑罗林〔2 原译〕,
+G10/G11,Bārāṇasī,,波罗奈〔1 公认常用〕,
+G10/G11,Jambudīpa,,阎浮提〔1 公认常用〕,
+G10/G11,Jetavana,,祇树给孤独园〔用户指定〕,
+G10/G11,Vāseṭṭha Sutta,,《婆悉吒经》（对告者 婆悉吒）〔用户指定〕,
+G10/G11,Kuṇḍadhāna,,军头波汉〔1 公认常用〕,
+G10/G11,Sīvali,,尸婆罗〔1 公认常用〕,
+G10/G11,Bakkula,,薄拘罗〔1 公认常用〕,
+G10/G11,Sāti,,嗏帝〔1 公认常用〕,
+G10/G11,Māgandiya,,摩犍提〔1 公认常用〕,
+G10/G11,Selā,,尸罗〔1 公认常用〕,
+G10/G11,Puṇṇa Koliyaputta,,富楼那·拘利子〔2 原译〕,
+G10/G11,Sītavana,,尸陀林〔1 公认常用〕,
+G10/G11,Sāketa,,娑祇多〔1 公认常用〕,
+G10/G11,Sunāparanta,,输卢那〔1 公认常用〕,
+G10/G11,Kakudhā/Kakutthā,,拘孙河〔1 公认常用〕,
+G10/G11,Veḷuvana,,竹林精舍〔1 公认常用〕,
+G10/G11,Isipatana,,仙人住处鹿野苑〔1 公认常用〕,
+G10/G11,Brahmāyu,,梵寿〔1 公认常用〕,
+G10/G11,Byagghapajja / Dīghajāṇu,,虎路 / 长膝〔2 原译〕,
+G10/G11,Sīvaka,,尸婆〔1 公认常用〕,
+G10/G11,Isidatta / Purāṇa,,梨师达多 / 富兰那〔1 公认常用〕,
+G10/G11,Dabba Mallaputta,,陀骠·摩罗子〔1 公认常用〕,
+G10/G11,Āḷavaka,,阿罗婆〔1 公认常用〕,
+G10/G11,Sundara-samudda,,孙陀罗·三慕陀〔2 原译〕,
+G10/G11,Raṭṭhapāla,,赖吒和罗〔1 公认常用〕,
+G10/G11,Kumārakassapa,,鸠摩罗迦叶〔1 公认常用〕,
+G10/G11,Vaṅgīsa,,婆耆舍〔1 公认常用〕,
+G10/G11,Sāgata,,娑伽陀〔1 公认常用〕,
+G10/G11,Mogharāja,,莫伽罗阇〔2 原译〕,
+B9,happiness adulterated by suffering / unadulterated,upadhi-sukha / nirupadhi-sukha,有依之乐 / 无依之乐〔B9 用户确认〕,有漏之乐 / 无漏之乐×1
+b10,"sorrow, lamentation, pain, grief, despair",soka-parideva-dukkha-domanass-upāyāsa,愁、悲、苦、忧、恼〔全书标准，B10 统一〕,
+b10,boundless mind,vimariyādikata-citta / vimariyādikatena cetasā,无限心（不用“无量心”，以免与 appamaññā 四无量心混淆）〔B10 用户确认〕,
+b10,factors of stream-entry,sotāpattiyaṅga,（四）入流支〔B10 用户确认〕；不用“入流之因”“入流的四个因素”,
+b10,pattidāna / pattānumodanā,pattidāna / pattānumodanā,回向功德（pattidāna；回向、分享按语境）／随喜功德〔T1 用户确认 Q2〕,
+b11,reflecting wisely (on requisites),yoniso paṭisaṅkhā,如理省察（区别于 yoniso-manasikāra＝如理作意）〔T1 用户确认〕,
+b11,reflection on the repulsive,paṭikkūla-manasikāra,厌逆作意〔B11 / T1 用户确认〕,
+b11,true and counterfeit value,,真实价值与虚假价值（与小标题一致）〔B11 待确认〕,
+t1,share of merit,puññabhāgiya,属于福德分（bhāga＝分；不用“有福分的”）〔T1〕,
+t1,examine the meaning,atthupaparikkhā,审察其义〔T1〕,
+t1,qualities,guṇa / dhamma,佛、三宝、圣者＝功德；可培育的一般品质＝品质；个人 virtue＝德行〔T1〕,
+t1,benefits / merits (advantages),ānisaṁsa,按语境：利益／好处／优点；固定标题“X的功德”保留〔T1〕,
+t1,moral conduct as basis of merit,sīla-maya,持戒功德〔T1-r2〕,
+R3,refuge / go for refuge,saraṇa,皈依（全书统一，“归依”已改；B14 D4）；attasaraṇa / attadīpa＝自归依（保留）,皈依×32; 自归依×1; 自皈依×1（six-sense-spheres 426，待统一）
+R3,perform kamma / volitional action,,造业（动词义）；业（名词）〔T2〕,造业×15; 思业×1; 意图行为×0
+R3-r2,Dictionary of Buddhism / A Dictionary of Buddhist Teachings,,《佛教词典》（พจนานุกรมพุทธศาสน์ ฉบับประมวลธรรม）；不用佛教辞典、佛教教义辞典〔R3-02〕,
+R3-r2,Dictionary of Buddhist Terminology,,《佛教术语词典》（พจนานุกรมพุทธศาสน์ ฉบับประมวลศัพท์）；不用佛教术语辞典〔R3-02〕,
+R3-r2,Apadāna / Parivāra / Veda,,《譬喻经》／《附随》／《吠陀》（泛称“吠陀”，不用“吠陀经”）〔R3-03/04/08〕,
+R4,sensuality / sense desire,kāma,欲（对欲的渴爱、远离欲）,
+R4,sense pleasure / sensual pleasure,"kāma, kāma-sukha",欲乐（经文、教理处）；紧邻欲/欲望/欲求或现代生活语境标题作“感官享乐”（生育与感官享乐）〔R4-17〕,
+R4,five cords of sensual pleasure,kāma-guṇa,五欲,
+R4,gratification,assāda,乐味,
+R4,"delight (nandi, abhinandita)","nandi, abhinandita",喜（nandi）；abhinandita＝贪恋，anabhinandita＝不被贪恋〔R4-18〕；delightful feelings＝可喜的感受,
+R4,rapture and happiness,pīti-sukha,喜乐（“喜乐”只用于此）,
+R4,joy / gladness (as factor),pāmojja,悦（次第链与术语作悦；行文中作品质名词时作“愉悦”）〔B9/R4-03/R4-09/R4-r3〕,
+R4,bliss (non-pīti),,妙乐；end in bliss＝至乐；不用“极乐”,
+R4,happiness of jhāna,jhāna-sukha,禅那之乐（依既定R4；不作禅悦、禅乐）,
+R4,bliss of craving’s end,taṇhakkhaya-sukha,爱尽之乐,
+R4,bliss of insight,vipassanā-sukha,观智之乐,
+R4,present happiness and wellbeing,diṭṭhadhamma-hita-sukha,现世的利益安乐,
+R4,happiness (everyday idiom),,快乐；日常／世俗语境与引语中可用“幸福”,
+core,welfare and happiness,hita-sukha,福祉和安乐（不用“福利”）；bahujana-hitāya bahujana-sukhāya＝许多人的利益和安乐；今生/来世 hita-sukha＝利益安乐〔R4-08/R4-14〕,
+core,householder's happiness,gihi-sukha,居士之乐：拥有之乐、受用之乐、无债之乐、无过之乐〔R4-10/R4-15〕,
+R4-r3,likes and dislikes,anurodha-virodha,好恶〔R4-18〕,
+R4-r3,social happiness,,社会层面的安乐〔R4-13〕,
+R4-r3,in-book chapter reference,,第N章“章名”／“章名”一章〔R4-16〕,
+R4-r3,seeking delight here and there,tatra-tatrābhinandinī,处处寻求欢愉〔R4-19〕,
+IMG4,first/second/third/fourth jhāna,paṭhama-/dutiya-/tatiya-/catuttha-jhāna,初禅、二禅、三禅、四禅〔IMG4 用户确认：标准用“X禅”，不加“那”；“第一禅”统一作“初禅”；语境需强调序数（如与五禅体系对照）时可用“第X禅”；无色禅保留“第X无色禅”〕,
+m-review-language-01,Sīvaka,sīvaka,尸婆迦；Sīvali尸婆罗为另一人，不联动替换,正文2处；URL冻结
+m-review-language-01,Dasuttara Sutta,Dasuttara Sutta,《十上经》；不改经号或URL,正文1处
+m-review-language-01,without expectation,nirāsa,无所期待、无所希求；解释原词双关时可保留字面无望；不将普通希望/慈悲善愿一律改期待,4段+1注
+m-review-language-01,friend (vocative),āvuso,对等礼貌呼语一般贤友，敬称在人名前；朋友名词、善友/恶友与bho字义注依语境保留,全书语境人工复核
+m-review-language-01,mental fetter,saṃyojana,结缚；五种心缚cetaso vinibandha另译心缚；普通心理纠结可用心结,不一刀切
+m-review-language-01,Thera (proper name),Thera,SN21.10人名保留特拉；词义长老可另作说明，普通敬称则译长老/上座,Theranāmakasutta
+m-review-language-01,skandha-final extinguishment,khandha-parinibbāna,命终语境用般涅槃；不要把究竟涅槃当首次觉悟；无余依复合词依源词与上下文,P601 TH+EN核对
+m-review-language-01,skilled and capable,byatta paṭibala,善巧能干；附注17.9标题、内容和正文回指一致,P1086
+m-review-language-02,four-base citta,citta,四神足通名作心；此处释为专心投入；心定=citta-samādhi；其他心义仍依语境,M014/M015/M017 P1178/P1180
+m-review-language-02,investigation,vimaṁsā,四神足语境审察；具体分支审察神足（传统称观神足）；审察定=vimaṁsā-samādhi。普通分析/考察依语境，不将全部审察扩为神足〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+m-review-language-02,desire in four bases,chanda,先判语境：广义意欲/欲求，不预设善恶；与渴爱对举且由理解向善的狭义为善法欲；四神足等法数保留欲并依需要释义；语词分析保留原词。不按词形一律善化〔m-review-concepts-01〕,M014 P1178
+m-review-language-02,confidence in second-jhana factors,sampasāda,附注18.5作净信；原书明释信〔saddhā〕；内等净可依整句传统使用不设硬性排斥,M011 P1157
+m-review-language-02,cultivated physical quality,bhāvita-kāya,身的修习圆满；描述人可作身的修习圆满者；经文中身已修习等完成态短式可保留；不与bhāvanā过程混同,M022 P1236
+m-review-language-02,cessation,nirodha,依语境用灭/止息；缘起过程与生起过程对举时用止息过程。灭谛、苦灭及经典公式等保留灭；不一概解释为已经生起之物被毁灭。〔m-review-reader-01阶段验收；仅已落稿范围，全书延伸审读状态见清单〕,M021 P1229
+m-review-language-02,varieties of psychic powers,iddhividhā,神足通；释义为示现种种神变的能力；有别于六神通的上位统称,M007 P1154
+m-review-concepts-01,insight wisdom,vipassanā-paññā,观慧（依原词及句义区别于vipassanā-ñāṇa观智；不藉汉字差异另立法数或证量）,four-noble-truths409；six-sense-spheres688
+m-review-concepts-01,ever-present happiness,,恒常具有的乐（本章简明分类）；不是添加永恒实体之义,C009；TH22/23与EN逐类对应
+m-review-concepts-01,happiness of peace,santi-sukha,寂静之乐；普通安稳状态可自然用安乐，不把santi概念省去,C009；TH22/23与EN逐类对应
+m-review-format-language-02,intentional impulse,javana-cetanā,速行思；速行心中的思，与速行心本身区分,F002；EN法则业论第1062块及相关段
+m-review-concepts-02,systems of preconditions / provisional system,,附加条件机制；人为约定先完成行为才给报酬/奖励。首次解释。自然因果、一般必要条件、修行前提不套此名,人工语境规范；非批量映射
+m-review-concepts-02,technical / technically,,按语境为专门术语、佛法中称、严格说来、按佛法分类、实际修习；现代科技/技术人员保留技术，不一对一替换,人工语境规范；非批量映射
+m-review-concepts-02,excellent / excellence,,brahma/梵行义释崇高或高尚；殊胜、圆满、成就按法义对象区分；实际出众能力和成果可保留卓越,人工语境规范；非批量映射
+m-review-concepts-02,prose separator /,,正文汉语并列/替代分隔用半角/紧排。concepts02新增42处空格已按pt98u撤回；不扩撤既存经号/PTS出处空格，不改URL、路径与标识。国标示例支持紧排，不据此杜撰所有外语混排的绝对禁空格条文〔concepts03〕,逐项判断见m-review-concepts-03；不以历史词频决定译名
+m-review-concepts-03,four contemplations formula,kāye kāyānupassī,于身随观身、于受随观受、于心随观心、于法随观法。名词身随观/身念住等不强改成句；内外限定按句法置前；TH16:542–564支持〔concepts03〕,非DQ已定稿规则
+m-review-concepts-03,language/script editions,,一般《书名》中文版/英文版/泰文版；无明确书名可说本书英文版/泰文原版。泰文字母版指巴利原语的文字版本，不等于泰语译本；书目长限定、正式标题、原文引用及口语音视频不机械套写〔concepts03〕,非DQ已定稿规则
+m-review-concepts-03,technical revision restraint,,技术/技能实义自然时不因避词改写；只修technical定义/术语/分类等翻译腔。concepts03限回查上轮57处技术编辑，恢复船夫技术娴熟；其余保留各有语义依据〔concepts03〕,非DQ已定稿规则
+manual-concepts04,cutting-off liberation,samuccheda-vimutti,正断解脱；通过相应道智断除烦恼，不作断灭解脱。,本轮语境核定；非自动频次推荐
+manual-concepts04,cutting-off abandonment,samuccheda-pahāna,正断；必要首释以道智彻底断除相应烦恼。不得叠写正断灭断；也不是四正勤的另一名称。,本轮语境核定；非自动频次推荐
+manual-concepts04,cutting-off parinibbāna,samuccheda-parinibbāna,正断般涅槃；本书义注三分类注释中的特定复合名，不泛改一般般涅槃。,本轮语境核定；非自动频次推荐
+manual-concepts04,specific characteristic,sabhāva-lakkhaṇa,特相；原文所说简称自相（salakkhaṇa）可保留，与共相区别。,本轮语境核定；非自动频次推荐
+manual-concepts04,knowledge of ownership of deeds,kammassakatā-ñāṇa,知业为己有之智；并非sabhāva，不作业自性智。,本轮语境核定；非自动频次推荐
+manual-concepts04,inherent suffering,sabhāva-dukkha,自性苦；必要的既有分类名可保留，并释为有为法固有的苦，即生、老、死，不等同苦苦。,本轮语境核定；非自动频次推荐
+manual-concepts05,,kāyānupassanā,身随观；satipaṭṭhāna相应的修习类别为身念住；全句用于身随观身，不把anupassanā与satipaṭṭhāna逐词等同。〔m-review-concepts-05〕,本轮语境定名；精确候选与保留理由见m-review-concepts-05审计清单
+manual-concepts05,,dukkha-dukkhatā,苦苦：直接身心苦受所显的苦，不把它等同全部dukkha。〔m-review-concepts-05〕,本轮语境定名；精确候选与保留理由见m-review-concepts-05审计清单
+manual-concepts05,,vipariṇāma-dukkhatā,坏苦：乐受变易、不可靠之苦；变易苦可作解释性别称，不采用变苦为主标签。〔m-review-concepts-05〕,本轮语境定名；精确候选与保留理由见m-review-concepts-05审计清单
+manual-concepts05,,loka,有情生命经验、业偈、悲悯众生及经典范畴通常用世间；物理环境、宇宙系统、现代国际语境和世界观、既定书名/经题等依义用世界。MN98主译世间随业而转，非宇宙由业创生。〔m-review-concepts-05〕,本轮语境定名；精确候选与保留理由见m-review-concepts-05审计清单
+manual-concepts05,,mama / mamanti / mamāyita / attaniya,分析所有/归属之执用我所，必要释为我的、归我所有；直接说这是我的/这不是我的仍自然保留。mamāyita偶亦涵盖我执，须按作者释义；attaniya我所不等同attā我。〔m-review-concepts-05〕,本轮语境定名；精确候选与保留理由见m-review-concepts-05审计清单
+manual-concepts05,,asmimāna,我是之慢/“我是”的慢，不等同对我的或所有权的执着；与见、爱区分。〔m-review-concepts-05〕,本轮语境定名；精确候选与保留理由见m-review-concepts-05审计清单
+manual-concepts05,,cattāri purisayugāni aṭṭha purisapuggalā,四双八辈：四道四果的四双、八类圣者；唱诵固定语统一，解释性八种圣者可保留。〔m-review-concepts-05〕,本轮语境定名；精确候选与保留理由见m-review-concepts-05审计清单
+manual-numbering01,knowledge of truth,sacca-ñāṇa,真理智；首次完整定义附常见对应名谛智。,P1221；不声称唯一古译。
+manual-numbering01,knowledge of duty,kicca-ñāṇa,职责智；首次完整定义附常见对应名作智。,P1221；区别已作智及四谛具体应履行的职责。
+manual-numbering01,knowledge of accomplishment,kata-ñāṇa,已作智。,P1221；沿用既定译名，不机械换证智。
+manual-terms-diagrams-01,,carita,性行（抽象性情/惯常倾向）；说具有此性行的人则用X行者。〔m-review-terms-diagrams-01〕,本轮新增规范；非全书词频
+manual-terms-diagrams-01,,buddhi-carita,觉行者（以智慧为主要倾向，并非已觉悟的果位）；抽象觉行/觉性行。六类依叶均《清净道论》《摄阿毗达摩义论》；不再用智行作人物标签。〔m-review-terms-diagrams-01〕,本轮新增规范；非全书词频
+manual-terms-diagrams-01,,ñāṇa-carita,本书六性行中作为buddhi-carita的同义名，人物同译觉行者；不扩推到所有ñāṇa词。〔m-review-terms-diagrams-01〕,本轮新增规范；非全书词频
+manual-terms-diagrams-01,,taṇhā-carita,爱行者；本书与见行者对举，不以rāga-carita贪行者替代。依据《清净道论》XVII的taṇhā/diṭṭhi二类。〔m-review-terms-diagrams-01〕,本轮新增规范；非全书词频
+manual-terms-diagrams-01,,diṭṭhi-carita,见行者；与爱行者对举，指人的性行，不是抽象见行。〔m-review-terms-diagrams-01〕,本轮新增规范；非全书词频
+m-review-reader-01-stage-v1,,paññatti-niyāma,人为规约；人为制定的规范，不限现代法律意义的制定法。〔阶段验收：仅已落稿范围〕,本行不提供新频数
+m-review-reader-01-stage-v1,,lakkhaṇa,依语境作相、特征、特性；与共相严格对举的专门自相/特相保留。〔阶段验收：仅已落稿范围〕,本行不提供新频数
+m-review-reader-01-stage-v1,,saṅgama-niyamana,社会规制；社会所建立的规范与调节机制，依具体句意说明。〔阶段验收：仅已落稿范围〕,本行不提供新频数
+m-review-reader-01-stage-v1,,upadhi,按苦依、执取所依等语境解释；已有修订处释引生苦的依处，不笼统说一切苦之基础，不扩充为新的本体。〔阶段验收：仅已落稿范围〕,本行不提供新频数
+m-review-reader-01-stage-v1,,saṅgama-niyāma,社会规约；人为约定的规范，不是独立的自然定律。〔阶段验收：仅已落稿范围〕,本行不提供新频数
+m-review-reader-01-stage-v1,,dhammaṭṭhiti,第三章依句说明自然成立而确定的规律；不以含混的本质上稳定来暗示固定实体。〔阶段验收：仅已落稿范围〕,本行不提供新频数
+m-review-reader-01-stage-v1,Chinese-reader contextual usage,,动态依句化为运作、变化、因缘相续；苦的生灭逼迫不同于社会压迫；恒常与永恒、物体与事物、佛教与佛法、名称与名相均依所指判断。尚未完成的全书诸知/佛教哲学/执着/名称特征延伸审读不得视为定稿。,历史current频数不是本阶段重数
+manual-reader02,law-knowledge,dhamma-ñāṇa,法智；与类智并列，见SN12.33相关脚注。〔reader02已落实〕,awakened-beings.md:2871
+manual-reader02,inferential/conformity knowledge,anvaya-ñāṇa,类智；不是saccānulomika-ñāṇa的随顺真理之智。〔reader02已落实〕,awakened-beings.md:2871
+manual-reader02,nominal name/term/label,,名称/称谓/标签按语境；不是一律名相。〔reader02已落实〕,six-sense-spheres.md:470；DN9同句与848对照
+manual-reader02,conditioned/mental flow,,因缘过程按语境为相续、迁流、运作；物理河流及明确譬喻可保留流动，不设恒常流动物。〔reader02已落实〕,dependent-origination.md:807；wise-reflection.md:242/462
+manual-reader02,humans and devas as joint beneficiaries,deva-manussa,合举受益/受害范围可用人天众生；人和天人比较、三界分类不合并。〔reader02已落实〕,law-of-kamma.md:1395/1397；introduction.md:67
+manual-reader02,learning/acquired image,uggaha-nimitta,取相；解释为摄取的心相/学习相，不是upādāna的烦恼执取。〔m-review-reader-02已落实〕,path-factors-of-concentration.md:1794
+style:m-review-notation-01,ordinary Pali lexical forms,,中文括注、句首、定义词头、脚注开头的普通巴利词形用小写；只改首字母，不改附标、词尾、拼写或顺序。,第一批确认体例；不替换既有释义。
+style:m-review-notation-01,"proper names, canonical titles and full quotations",,专名、典籍及正式篇名、整句巴利引文按实际来源保留；同形词逐语境判定。冻结标题及其文字引用本轮不改。,既有专名规范拼写全部保留。
+style:m-review-notation-01,language and semantic capitalization,,区分巴利、梵语、泰语转写、英语与引用缩写；Dhamma/Buddha/Nibbāna/Sangha等英巴交界称谓暂保留并列待议，不以宗教义作大小写绝对规则。,不以全部Latin转小写代替语言判断。
+style:m-review-notation-02,Chinese-led ordinary explanations,,普通说明/教学清单中文先行，巴利作括注；保留原有释义、同义与限定，不将长释义强立为唯一词名。,第二批已实施；专门词目、语法/词源讨论可巴利先行。
+style:m-review-notation-02,first and repeated annotations,,按章/文件首注；独立脚注/表格/定义/辨义可复注。同段仅删不承担辨义或查找功能的冗余注，不全书只注一次。,第二批只删6个无须复注的括注；原文引用与节点重复保留。
+style:m-review-notation-02,causal-chain presentation,,同链中文节点（完整巴利原词），节点/关系/顺序/省略/编号/硬换行不变；完整巴利引句内部原式保留。,不改词形、附标、屈折或第一批保护大小写。
+style:m-review-notation-02,dictionary and linguistic exceptions,,仅实际原词同义/译法、词源、构词、语法分析及整句引文可巴利先行；普通业类/来源次第/禅修环节不豁免，中文定义另段也须纳入。,pt120u补查纠正原过宽词目例外；保留全部原词形及否定义范围。
+manual:m-review-notation-02,things to be fully understood,pariññeyya-dhamma,应遍知法；依句法可作应遍知之法/应遍知的法。,核第十九章265/278行，与第二章254/256行承接；优先于旧自动最高频建议，非新译。
+manual:m-review-notation-02,things to be abandoned,pahātabba-dhamma,应断除法；依句法保留应舍弃/断除的法。,核第十九章267/280行，与第二章256行承接；非新译。
+manual:m-review-notation-02,things to be developed,bhāvetabba-dhamma,应修习法；依句法可作应培育之法/应修习的法。,核第十九章271/284行，与第二章256/258/337行承接；优先于旧自动“法”猜词，不全书强换。
+manual-notation03,Chinese editorial supplement brackets,,中文已有编辑/摘引增补可用〔〕，是本书体例而非GB强制；普通（）及真实Latin原文/版本装置分开；不新造来源身份。,notation03 implemented
+manual-notation03,translator-note label,,标签恒为译者注：；英文/中文译者身份必要时放注释正文，作者回应不冒称译者注。,notation03 implemented
+manual-notation03,standalone versus interposed translator note,,整则独立脚注译者注不套外括号；作者注/正文中插注可〔译者注：〕，已有内〔〕时保留外（）避免同形嵌套。,notation03 implemented
+manual-notation03,quote function,,普通释义/词头经全文确认可去冗余引号；真实引语、元语言、特殊义、我/我的、黑白比喻保留。,notation03 implemented
+manual-notation03,speaker-label and clause scope,,补整标签含冒号则范围含冒号；仅补姓名不得扩边；前置条件从句引入的逗号可随其界定，不移动独立连接语标点。,notation03 implemented
+manual-notation03,same-layer adjacent parentheses,,同一所指及作者层的词形/解释可以分号合并；独立出处/自然编号/不同注者不得机械合并；外（）内〔〕的词义嵌套不等于来源增补。,notation03 implemented
+manual-notation04,proper-name first/repeat annotations,,以章/文件及独立阅读单元判必要首注；同一连续行文无辨义复注可删；独立附注/脚注/人物词目/表格/书目作品及同名词形讨论可复注。,notation04 confirmed; not an exhaustive new index
+manual-notation04,book display versus citation apparatus,,正文已定中文《书名》与必要首注、缩写表/各版本书目、独立编号卷页+巴利经名三层分开；后者不套正文书名规则，不改任何源标或链接。脚注的说明句与脚注内编号/卷页来源串再分开，不按整个脚注一刀切。,notation04 confirmed; not an exhaustive new index
+manual-notation04,Mahākhandhaka / Mahāvagga,Mahākhandhaka / Mahāvagga,大犍度（《大品》第1犍度）/《大品》；两者不是同一个层级。依据当前EN与已存缩写表96行；独立出处原名和MV1源标不变。,notation04 confirmed; not an exhaustive new index
+manual-notation04,familiar and rare proper names,,常见阿难/舍利弗不机械增注；少见名保留已有必要首注。长短全名、僧衔和同形不同人物不可无据合并。,notation04 confirmed; not an exhaustive new index
+manual-notation04,honorific order and Bhikkhu Bodhi,,明确姓名的普通尊者敬称前置；Bhikkhu Bodhi既定中文为菩提比丘，不作比丘菩提。Thera人名/称谓、诗偈词义及组合敬称须独立判读，不泛化移词。,notation04 confirmed; not an exhaustive new index
+manual:m-review-notation-02-followup-01,"concealed, not clearly manifest suffering",paṭicchanna-dukkha,本处说明性词头：隐而不显、旁人不易察觉的苦；原有耳痛/牙痛及贪怒例子保留。,现行CN three-characteristics473；EN1332；不是新立唯一传统定译，不同于行苦/坏苦。
+manual:m-review-notation-02-followup-01,overt suffering,appaṭicchanna-dukkha,本处说明性词头：明显的痛苦；原有刺伤/鞭打/刀割例子保留。,现行CN475；EN1337；不以格式理由另造隐性/显性苦定名。
+manual:m-review-notation-02-followup-01,explicit suffering,nippariyāya-dukkha,本处两苦分类：直接义之苦；亦称苦苦dukkha-dukkha，定义苦受保留。,现行CN482及EN1349；本处manual优先于旧自动全面解释，不推广到不同义项。
+manual:m-review-notation-02-followup-01,practice corresponding to Dhamma,dhammānudhamma-paṭipatti,本书本处：依法随法行；法随法行等既有句法不机械消除。,faith500与wise882同形同义承接；不将屈折paṭipanno改成paṭipatti。
+style:m-review-notation-02-followup-01,descriptive Chinese heads and QA,,普通说明中文先行；无既有短名可用准确描述性词头，不冒称传统定译；残余结构词头需逐个功能说明，不能以词典成员或短释正则充完成标准。,抽取与人工决定分离；本轮逐行/完整语境账本留存。
+style:m-review-notation-02-followup-01,definition separator,,中文词头（巴利）后接本项解释用冒号；完整断言句或独立后句保留句号。,t121怀孕之苦同组与全书结构候选复查；不盲换所有）。
+pali-auto,,vuḍḍhi-dhamma,导向增长的德目：信心、戒行、多闻、布施和智慧。与圣者的增长（ariyā vaḍḍhi）相关但分列。学习统一为多闻（suta）。〔m-review-reader-03〕,
+pali-auto,,piṭaka-sampadā,标准圣典知识；piṭaka 指三藏/圣典，不缩成“经文知识”。〔m-review-reader-03〕,
+pali-auto,,saṁvega-vatthu,引生悚惧的所缘。〔m-review-reader-03〕,
+pali-auto,,gabbhokkantimūlaka-dukkha,入胎之苦（gabbhokkanti 本义是入胎，不以“子宫囚禁”作词头）。〔m-review-reader-03〕,

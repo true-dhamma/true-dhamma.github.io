@@ -763,7 +763,7 @@ paṇḍita 是一个有智慧的人，一个用智慧来引导生活的人。�
 \[22\] 参见，例如：[AN 8.54 / A iv 281-282](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-051-060-gotami/#4-an-854-长膝经-dīghajāṇusutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn22)
 {: id="fn-fn22"}
 
-\[23\] [AN 7.37 / A iv 32](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-032-043-devata/#6-an-737-七友之二-dutiyamittasutta){: target="_blank" rel="noopener"}。义注描述了另外八种“善友的特质”（kalyāṇamitta-lakkhaṇa），即：信心、戒行、多闻、布施、精进、念、定和智慧（UdA. 221；ItA. I. 65）。[&nbsp;↩&nbsp;](#fr-fn23)
+\[23\] [AN 7.37 / A iv 32](https://aipali.true-dhamma.com/sutta/an/nipata-07/an-07-032-043-devata/#6-an-737-七友之二-dutiyamittasutta){: target="_blank" rel="noopener"}。义注描述了另外八种“善友的特质”（kalyāṇamitta-lakkhaṇa），即信心、戒行、多闻、布施、精进、正念、禅定和智慧（UdA. 221；ItA. I. 65）。[&nbsp;↩&nbsp;](#fr-fn23)
 {: id="fn-fn23"}
 
 \[24\] dhammānudhamma-paṭipanno：他按照主要原则修习次要佛法原则，也就是说，他根据其形式原则及其真实目标，正确地修习佛法的各个方面。[&nbsp;↩&nbsp;](#fr-fn24)

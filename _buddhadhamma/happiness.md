@@ -386,7 +386,7 @@ pīti 具有振奋、欣快、活力、狂喜、光彩和充满的特征，这�
 
 关于十种乐的教导清晰而详细地划分了乐的层次，这在《巴利三藏》中多处可见：[\[16\]](#fn-fn16){:id="fr-fn16"}
 
-1.  欲乐（kāma）：依赖于五欲（kāma-guṇa）的喜与乐。[\[17\]](#fn-fn17){:id="fr-fn17"}
+1.  欲乐（kāma）：依赖于五欲境（kāma-guṇa）的喜与乐。[\[17\]](#fn-fn17){:id="fr-fn17"}
     
 2.  初禅之乐（paṭhamajhāna-sukha）：初禅之乐，远离欲和不善法，由寻（vitakka）、伺（vicāra）、喜（pīti）、乐（sukha）和心一境性（ekaggatā）组成。
     
@@ -432,7 +432,7 @@ pīti 具有振奋、欣快、活力、狂喜、光彩和充满的特征，这�
 
 以下是一些有助于阐明上述主题的教导：
 
-> 比丘们，有这五种欲（kāma-guṇa）：眼所识知的色……耳所识知的声……鼻所识知的香……舌所识知的味……身所识知的触，它们是可爱、可乐、可意、合意、诱人、引生贪欲的。这些就是五欲。现在，依赖这五欲而生起的乐和喜，就是欲乐方面的乐味（assāda）……  
+> 比丘们，有这五欲境（kāma-guṇa）：眼所识知的色……耳所识知的声……鼻所识知的香……舌所识知的味……身所识知的触，它们是可爱、可乐、可意、合意、诱人、引生贪欲的。这些就是五欲境。现在，依赖这五欲境而生起的乐和喜，就是欲乐方面的乐味（assāda）……  
 > [MN 13 / M i 85](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-02-sihanada/mn-013-mahadukkhakkhandha/){: target="_blank" rel="noopener"}, Mahādukkhakkhandha Sutta
 >
 > 这种乐和喜……被称为欲乐（kāma-sukha）。  
@@ -512,7 +512,7 @@ pīti 具有振奋、欣快、活力、狂喜、光彩和充满的特征，这�
 
 ### 欲乐的过患
 
-什么是 kāma（欲）？如上述引文所示，“kāma”一词有两种定义。首先，它可以指“欲求”、“情爱”、“贪欲”或“渴望”。其次，它可以指“欲求的所缘”、“情爱的所缘”、“贪欲的所缘”、“渴望的所缘”、“满足的所缘”、“刺激快乐的事物”、“提供欲乐的事物”。第二种定义指的是人们为了获得快乐而拥有或执持的任何人、生命、物质财富、个人财产等。总而言之，这些所缘被归类为五欲（kāma-guṇa）：可爱、能提供欲乐（kāma-sukha）的色、声、香、味、触。欲乐依赖于五官和物质事物；它也可以被称为“身体之乐”或“物质之乐”（sāmisa-sukha 或 āmisa-sukha）。
+什么是 kāma（欲）？如上述引文所示，“kāma”一词有两种定义。首先，它可以指“欲求”、“情爱”、“贪欲”或“渴望”。其次，它可以指“欲求的所缘”、“情爱的所缘”、“贪欲的所缘”、“渴望的所缘”、“满足的所缘”、“刺激快乐的事物”、“提供欲乐的事物”。第二种定义指的是人们为了获得快乐而拥有或执持的任何人、生命、物质财富、个人财产等。总而言之，这些所缘被归类为五欲境（kāma-guṇa）：可爱、能提供欲乐（kāma-sukha）的色、声、香、味、触。欲乐依赖于五官和物质事物；它也可以被称为“身体之乐”或“物质之乐”（sāmisa-sukha 或 āmisa-sukha）。
 
 欲乐有许多种类和程度，包括殊胜的天人之乐，所有这些都被认为是乐的形式。在这里，我们将重点关注欲乐的缺陷和至上安乐的优势。我们可能会问，为什么那些体验过更精致之乐的人声称它优于欲乐，甚至完全放弃欲乐。
 
@@ -628,7 +628,7 @@ pīti 具有振奋、欣快、活力、狂喜、光彩和充满的特征，这�
 
 在《圣求经》（Pāsarāsi Sutta）中，佛陀将五欲比作猎人的罗网。此教导涉及三类沙门和婆罗门：[\[32\]](#fn-fn32){:id="fr-fn32"}
 
-1.  第一类：那些带着执着、迷恋和沉溺享受五欲（kāma-guṇa），没有洞察其危险，也没有解脱智慧的沙门和婆罗门。他们类似于被捕获在罗网中的鹿；他们将遭遇堕落和毁灭，被猎人——邪恶的魔罗——屠杀。
+1.  第一类：那些带着执着、迷恋和沉溺享受五欲境（kāma-guṇa），没有洞察其过患，也没有解脱智慧的沙门和婆罗门。他们类似于被捕获在罗网中的鹿；他们将遭遇堕落和毁灭，被猎人——邪恶的魔罗——屠杀。
     
 2.  第二类：那些不带执着、迷恋和沉溺享受五欲，并洞察其危险、拥有解脱智慧的沙门和婆罗门。他们类似于躺在罗网之上但没有被捕获的鹿。他们不会遭遇堕落和毁灭，也不会被猎人带走。
     
@@ -756,7 +756,7 @@ samparāyikattha 一词的含义包括所有形式的内在、精微的乐，从
 在《善生经》的开篇，佛陀将这种生活准则称为圣者之律（ariya-vinaya）。在经文的结尾，他宣说了一偈，描述了建立社会稳定与和谐的原则，这些原则被称为四摄事（saṅgaha-vatthu）：[\[42\]](#fn-fn42){:id="fr-fn42"}
 
 > 布施、爱语，  
-> 利行、平等：  
+> 利行、同事：  
 > 对那些值得支持的人，  
 > 应该如实修行〔这四种事〕。
 >
@@ -1225,7 +1225,7 @@ sukha（“乐”）的字面意思是“方便”或“容易”。没有压力
 
 尽管禅那之乐比欲乐更优越、更深刻，但它仍有缺陷和瑕疵；它还不是圆满之乐。
 
-佛陀指出，在圣律（ariya-vinaya）中，五欲（kāma-guṇa）被称为“世间”（loka）；换句话说，“世间”等同于欲乐。一个执着于欲乐的人仍然被束缚在世间中。一个已证得色界禅那或无色界禅那的人，被描述为已达到并安住于世间的顶峰或极限。然而，此人仍与世间相系，尚未从中解脱或超越。
+佛陀指出，在圣律（ariya-vinaya）中，五欲境（kāma-guṇa）被称为“世间”（loka）；换句话说，“世间”等同于欲乐。一个执着于欲乐的人仍然被束缚在世间中。一个已证得色界禅那或无色界禅那的人，被描述为已达到并安住于世间的顶峰或极限。然而，此人仍与世间相系，尚未从中解脱或超越。
 
 人如果超越了最后的无色界禅那，证得了想受灭尽定（saññāvedayita-nirodha），并通过智慧洞察实相而摆脱了诸漏，此人就被描述为已经达到了世间的尽头，并超越了束缚众生于世间的羁绊。[\[57\]](#fn-fn57){:id="fr-fn57"}
 
@@ -1294,7 +1294,7 @@ sukha（“乐”）的字面意思是“方便”或“容易”。没有压力
 
 受（vedanā）依赖于触（phassa）——即认知——它产生于感官基础（āyatana），例如眼，与所缘（ārammaṇa），例如色，的结合；结果就是“见”、“闻”等。受依赖于所缘；没有所缘，受就无法产生。因此，受可以被定义为“领受所缘”或“品尝所缘的滋味（rasa）”。
 
-因此，作为受的乐必须像所有受一样，依赖于所缘。禅那之乐完全依赖于“法所缘”（dhammārammaṇa）。然而，欲乐依赖于各种所缘，特别是前五种所缘，它们是“物质的”（āmisa），被称为五欲（kāma-guṇa）。
+因此，作为受的乐必须像所有受一样，依赖于所缘。禅那之乐完全依赖于“法所缘”（dhammārammaṇa）。然而，欲乐依赖于各种所缘，特别是前五种所缘，它们是“物质的”（āmisa），被称为五欲境（kāma-guṇa）。
 
 未觉悟者通过寻求欲乐来生活，这等同于将他们的快乐寄托于外在的感官所缘。每当五欲充足时，他们就会自娱自乐，心情愉快。但每当这些所缘发生波动和变化，或者稀缺和无法获得时，这些人就会感到沮丧和消沉。
 
@@ -1341,7 +1341,7 @@ sukha（“乐”）的字面意思是“方便”或“容易”。没有压力
 
 1.  受之乐（vedayita-sukha）：作为受的乐；有领受所缘之乐。
     
-    1.  欲乐（kāma-sukha）：源于五欲（kāma-guṇa）之乐；源于五种根尘接触（phassa）之乐。
+    1.  欲乐（kāma-sukha）：源于五欲境（kāma-guṇa）之乐；源于五种根尘接触（phassa）之乐。
     
     2.  禅那之乐（jhāna-sukha）：作为禅那果报之乐：
     
@@ -2476,7 +2476,7 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[16\] 参照：[MN 59 / M i 398](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-059-bahuvedaniya/){: target="_blank" rel="noopener"}；[SN 36.19 / S iv 225](https://aipali.true-dhamma.com/sutta/sn/vagga-4-salayatana/samyutta-36-vedana/sn-36-vedana/#29-sn-3619-般阇康伽经-pañcakaṅgasutta){: target="_blank" rel="noopener"}.[&nbsp;↩&nbsp;](#fr-fn16)
 {: id="fn-fn16"}
 
-\[17\] 请注意，kāma 一词并非仅限于狭义上普遍理解的性欲。五欲（kāma-guṇa）指的是所有美丽的景象、悦耳的声音、芬芳的气味、美味的口感和令人愉悦的触觉所缘（例如柔软丝滑的床），无一例外。它们包括所有提供物质快乐的事物（āmisa-sukha）。因此，即使出家者也可能沉溺于享受五欲。[&nbsp;↩&nbsp;](#fr-fn17)
+\[17\] 请注意，kāma 一词并非仅限于狭义上普遍理解的性欲。五欲境（kāma-guṇa）指的是所有美丽的景象、悦耳的声音、芬芳的气味、美味的口感和令人愉悦的触觉所缘（例如柔软丝滑的床），无一例外。它们包括所有提供物质快乐的事物（āmisa-sukha）。因此，即使出家者也可能沉溺于享受五欲境。[&nbsp;↩&nbsp;](#fr-fn17)
 {: id="fn-fn17"}
 
 \[18\] 关于乐阶段的另一种分类，请参阅：附录二。[&nbsp;↩&nbsp;](#fr-fn18)
@@ -2545,7 +2545,7 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[39\] 例如：[SN 12.22 / S ii 29](https://aipali.true-dhamma.com/sutta/sn/vagga-2-nidana/samyutta-12-nidana/sn-12-21-30-dasabala/#2-sn-1222-十力之二经-dutiyadasabalasutta){: target="_blank" rel="noopener"}；[SN 46.55 / S v 121-122](https://aipali.true-dhamma.com/sutta/sn/vagga-5-maha/samyutta-46-bojjhanga/sn-46-51-56-sakaccha/#5-sn-4655-伤歌逻水钵喻经-saṅgāravasutta){: target="_blank" rel="noopener"}；[AN 1.45–46 / A i 9](https://aipali.true-dhamma.com/sutta/an/nipata-01/an-01-001-050-pathamapannasaka/#55-an-145-浑水之喻){: target="_blank" rel="noopener"}；[AN 5.51 / A iii 63-64](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-051-060-nivarana/#1-an-551-五盖障碍经-āvaraṇasutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn39)
 {: id="fn-fn39"}
 
-\[40\] [AN 5.63–64 / A iii 80](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-061-070-sanna/#3-an-563-五增长经之一-paṭhamavaḍḍhisutta){: target="_blank" rel="noopener"}；[AN 8.25 / A iv 220-221](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#5-an-825-摩诃那摩经-mahānāmasutta){: target="_blank" rel="noopener"}。vaḍḍhi 的字面翻译是“利润”、“增益”。[AN 10.74 / A v 137](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#4-an-1074-十增长经-vaḍḍhisutta){: target="_blank" rel="noopener"} 描述了圣弟子在十种 ariyā vaḍḍhi 中成长；其中五种是物质利益（diṭṭhadhammikattha；即他们在耕地、财富和谷物、妻儿、仆人、工人和劳工以及牲畜方面增长），这些受五种被归类为内心利益的因素（samparāyikattha；即信心、戒行、学习、慷慨和智慧）的保护。[&nbsp;↩&nbsp;](#fr-fn40)
+\[40\] [AN 5.63–64 / A iii 80](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-061-070-sanna/#3-an-563-五增长经之一-paṭhamavaḍḍhisutta){: target="_blank" rel="noopener"}；[AN 8.25 / A iv 220-221](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-021-030-gahapati/#5-an-825-摩诃那摩经-mahānāmasutta){: target="_blank" rel="noopener"}。vaḍḍhi 的字面翻译是“利润”、“增益”。[AN 10.74 / A v 137](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-071-080-akankha/#4-an-1074-十增长经-vaḍḍhisutta){: target="_blank" rel="noopener"} 描述了圣弟子在十种 ariyā vaḍḍhi 中成长；其中五种是物质利益（diṭṭhadhammikattha；即他们在耕地、财富和谷物、妻儿、仆人、工人和劳工以及牲畜方面增长），这些受五种被归类为后世利益的因素（samparāyikattha；即信心、戒行、多闻、布施和智慧）的保护。[&nbsp;↩&nbsp;](#fr-fn40)
 {: id="fn-fn40"}
 
 \[41\] [DN 31 / D iii 180-193](https://aipali.true-dhamma.com/sutta/dn/vagga-03-pathika/dn-31-singala/){: target="_blank" rel="noopener"}。义注称此经为在家众戒律，出处为：DA. \[3/151\]。对《善生经》（Siṅgālaka Sutta）的系统化分析，请参阅书籍《佛教徒的戒律》（The Buddhist’s Discipline）（P. A. Payutto, © 2000, Dr. Somseen Chanawangsa 翻译）。〔译者注：此经亦称 Sigālaka Sutta〕。[&nbsp;↩&nbsp;](#fr-fn41)
