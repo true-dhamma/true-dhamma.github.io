@@ -50,3 +50,6 @@
 - 本轮暗色完整语境差异 HTML。
 - 内部更新三类规范文档与证据账本。
 - 汇报须区分：已改、有意保留、待用户决定、因出处不足而无法确定。图像问题单列。
+
+## 读者润色（reader 轮次）开工必读
+先读 `reader-workflow.md`（两遍法、HTML 必备内容），再读 `reader-notes.md`、`reader-style-guide.md`（含 R12 规则）、`revision-guide.md` 末节和 `glossary-final.csv` 的 reader-12 各行。

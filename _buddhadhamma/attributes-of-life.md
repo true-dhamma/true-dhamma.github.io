@@ -15,7 +15,7 @@ title: 第二篇：生命是怎样的？ | 佛法 | Buddhadhamma
 > tesaṁ vūpasamo sukho.  
 > [DN 17 / D ii 199](https://aipali.true-dhamma.com/sutta/dn/vagga-02-maha/dn-17-mahasudassana/){: target="_blank" rel="noopener"}
 >
-> 诸比丘，一切有为法皆是坏灭法，  
+> 比丘们，一切有为法皆是坏灭法，  
 > 当不放逸以成道业。
 >
 > Vayadhammā saṅkhārā, appamādena sampādetha.  

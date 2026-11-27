@@ -47,3 +47,8 @@ Reader 批次可以、也应当更新规范文档，但必须**分门别类、�
 ## 启动
 
 先读 `KICKOFF-PROMPT.md`，再读 `reader-style-guide.md`、`revision-guide.md` 的分类原则与冻结项，以及 `glossary-final.csv` 中与本轮相关的条目。不要从零发明另一套总指南。
+
+## reader-12 新增
+- `reader-workflow.md`：两遍法工作流程与交付 HTML 必备内容（常设，必读）。
+- `reader-notes.md`：用户偏好与已定决议、待决事项的记忆笔记。
+- `rounds/<轮次>/`：各轮改动清单（p1_*.py、p2_*.py、applied.json）与审阅 HTML 副本。

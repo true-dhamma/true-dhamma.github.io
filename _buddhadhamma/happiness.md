@@ -647,7 +647,7 @@ pīti 具有振奋、欣快、活力、狂喜、光彩和充满的特征，这�
 
 ### 解脱地受用欲乐
 
-圣弟子具足解脱智慧。他们以透彻的理解享受感官或物质之乐，保持内在的自由，避免被物质事物奴役。他们在使用和消耗事物时，既认识到其益处，也认识到其潜在的危害。他们能够以一种有助于自身、家庭、同伴、受扶养者、同事、社区乃至整个社会福祉的方式来管理事物和事务。此外，他们对自己和他人如何走上圣道（ariya-magga）并得到培育，都了然于心。[\[35\]](#fn-fn35){:id="fr-fn35"}
+圣弟子具足解脱智慧。他们以透彻的理解享受感官或物质之乐，保持内在的自由，避免被物质事物奴役。他们在使用和消耗事物时，既认识到其益处，也认识到其潜在的危害。他们能够以一种有助于自身、家庭、同伴、受扶养者、同事、邻里乃至整个社会福祉的方式来管理事物和事务。此外，他们对自己和他人如何走上圣道（ariya-magga）并得到培育，都了然于心。[\[35\]](#fn-fn35){:id="fr-fn35"}
 
 对于以更高层次之乐和自由为目标的比丘或僧人，佛陀教导要舍弃感官欲望并超越物质事物。但对于居士，他没有强调禁欲。[\[36\]](#fn-fn36){:id="fr-fn36"}相反，他强调管理物质的受用，以及安住于知足中，以一种安全无害、并能为自己和他人带来最大利益的方式。
 
@@ -675,7 +675,7 @@ pīti 具有振奋、欣快、活力、狂喜、光彩和充满的特征，这�
 
 《巴利三藏》指出，当佛陀知道听众的心是适业、柔软、无障、喜悦和明亮——就像一块准备好接受染色的无瑕布料——他就会教导四圣谛。当他们的心准备好时，佛陀便会教导能让他们证悟真理（sacca-dhamma）的智慧，让他们亲证真理，直到法眼（dhamma-cakkhu）生起，从而进入圣者（ariya-puggala）之流，从初果须陀洹开始。
 
-这些拥有法眼的觉悟者中，大多数仍然过着居士生活。[\[37\]](#fn-fn37){:id="fr-fn37"}他们仍然享受欲乐，但这种欲乐与非物质之乐（nirāmisa-sukha）融为一体，后者作为一种保证，防止欲乐造成伤害，反而能产生利益和德行。这些圣者作为其社区的支柱和榜样，行使着权威。他们坚定不移地在圣道上前进，不会退堕。
+这些拥有法眼的觉悟者中，大多数仍然过着居士生活。[\[37\]](#fn-fn37){:id="fr-fn37"}他们仍然享受欲乐，但这种欲乐与非物质之乐（nirāmisa-sukha）融为一体，后者作为一种保证，防止欲乐造成伤害，反而能产生利益和德行。这些圣者作为所在群体的支柱和榜样，行使着权威。他们坚定不移地在圣道上前进，不会退堕。
 
 总而言之，欲乐（kāma-sukha）或物质之乐（sāmisa-sukha），无论它多么美味、闪耀、清爽、非凡或令人渴望，它仍然依赖于外部所缘——它尚未自由和独立。它仍然涉及某种形式的个人执着和占有。
 
@@ -699,7 +699,7 @@ pīti 具有振奋、欣快、活力、狂喜、光彩和充满的特征，这�
 
 *   在工作和谋生中勤奋努力，以获得足够的物质财富来照顾自己、家人和受扶养者，使每个人都安适。
     
-*   保持健康的社会关系和社区和谐；在社会中拥有受人尊敬的地位，此外还获得荣誉和声望，并拥有支持性随从或员工。
+*   保持健康的社会关系和邻里和睦；在社会中拥有受人尊敬的地位，此外还获得荣誉和声望，并拥有支持性随从或员工。
     
 *   使家庭安乐；将家庭建设成为他人的典范，并且有益于社会福祉。
     
@@ -1022,7 +1022,7 @@ sukha（“乐”）的字面意思是“方便”或“容易”。没有压力
 
 就善法欲而言，之前提到过人在工作和学习时都会体验到快乐。然而，关于由善法欲产生的乐的讨论，还有更多方面。
 
-这种增长的乐包括社会层面的乐：友谊的喜悦；以慈悲心与他人共同生活的喜悦；以及家庭和社区中，以相互的善意、关怀和爱共同生活，在和谐中欢庆，以及在有助于共同生活的德行（sārāṇīya-dhamma）[\[52\]](#fn-fn52){:id="fr-fn52"}中团结一致的喜悦。
+这种增长的乐包括社会层面的乐：友谊的喜悦；以慈悲心与他人共同生活的喜悦；以及家庭和邻里中，以相互的善意、关怀和爱共同生活，在和谐中欢庆，以及在有助于共同生活的德行（sārāṇīya-dhamma）[\[52\]](#fn-fn52){:id="fr-fn52"}中团结一致的喜悦。
 
 还有与大自然相关的乐：在大自然中生活的喜悦；接触大自然的宁静与美丽，包括树木、风、山脉、水体和天空；在开花植物中以及在野外的声音中体验到的愉悦，例如鸟鸣、野生动物的叫声和雷鸣般的轰隆声。
 
@@ -1629,7 +1629,7 @@ sukha（“乐”）的字面意思是“方便”或“容易”。没有压力
 
 因此，感官欲望——对物质所缘的欲望——充满危险，它是各种不法行为的根源。人们在附加条件机制内渴望欲乐。（参见此主题先前内容，该内容与此处相关联。）结果是，不道德行为的范围和程度被放大。这就是渴爱在附加条件机制内运作的方式，人们通过避免或半心半意地顺应自然的直接过程来寻求合意所缘。因此，我们的责任是帮助人们培养善法欲，并将人类的法则与自然法则整合起来。
 
-这概述了各种快乐的乐味与过患。核心要点是，要对所有形式的快乐运用“解脱智慧”（nissaraṇa-paññā），从欲乐开始，直到达到心灵烦恼的解脱。在体验快乐时，要保持警觉并懂得节制。这样，便能保持强大，避免心的软弱。
+这概述了各种快乐的乐味与过患。核心要点是，要对所有形式的快乐运用“解脱智慧”（nissaraṇa-paññā），从欲乐开始，直到从内心烦恼中解脱。在体验快乐时，要保持警觉并懂得节制。这样，便能保持强大，避免心的软弱。
 
 ## 实际运用
 
@@ -2273,7 +2273,7 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 
 这种至上或圆满之乐有三个主要属性：
 
-1.  它是恒常的：它无需寻找；它是心灵固有的品质。
+1.  它是恒常的：它无需寻找；它是心本有的品质。
     
 2.  它是自由的：它不依赖于任何其他事物；例如，它不依赖于感官所缘。
     
@@ -2575,7 +2575,7 @@ dukkha 的定义不限于身体和内心痛苦与不适的普遍概念。这个�
 \[49\] [MN 139 / M iii 233](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-139-aranavibhanga/){: target="_blank" rel="noopener"}；[MN 139 / M iii 236](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-04-vibhanga/mn-139-aranavibhanga/){: target="_blank" rel="noopener"}。这些描述也见于：[MN 66 / M i 454](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-02-bhikkhu/mn-066-latukikopama/){: target="_blank" rel="noopener"}；[MN 122 / M iii 110-111](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-03-sunnata/mn-122-mahasunnata/){: target="_blank" rel="noopener"} = Nd. II. 64；[AN 5.30 / A iii 30-31](https://aipali.true-dhamma.com/sutta/an/nipata-05/an-05-021-030-pancangika/#10-an-530-尊者那耆多-nāgitasutta){: target="_blank" rel="noopener"}；[AN 6.42 / A iii 342](https://aipali.true-dhamma.com/sutta/an/nipata-06/an-06-031-042-devata/#12-an-642-尊者那耆多-nāgitasutta){: target="_blank" rel="noopener"}；[AN 8.86 / A iv 341-342](https://aipali.true-dhamma.com/sutta/an/nipata-08/an-08-081-090-sati/#6-an-886-伊奢能伽罗经-yasasutta){: target="_blank" rel="noopener"}。“内在之乐”（ajjhatta-sukha），亦称“无过之乐”（anavajja-sukha），实际上指的是从善行所产生的喜悦开始，向上的一切形式的乐；它在许多段落中被提及，包括：[DN 2 / D i 70](https://aipali.true-dhamma.com/sutta/dn/vagga-01-silakkhandha/dn-02-samannaphala/){: target="_blank" rel="noopener"}；[MN 27 / M i 180-181](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-03-opamma/mn-027-culahatthipadopama/){: target="_blank" rel="noopener"}；[MN 38 / M i 268-269](https://aipali.true-dhamma.com/sutta/mn/pannasa-1-mula/vagga-04-mahayamaka/mn-038-mahatanhasankhaya/){: target="_blank" rel="noopener"}；[MN 51 / M i 346](https://aipali.true-dhamma.com/sutta/mn/pannasa-2-majjhima/vagga-01-gahapati/mn-051-kandaraka/){: target="_blank" rel="noopener"}；[MN 112 / M iii 34-35](https://aipali.true-dhamma.com/sutta/mn/pannasa-3-upari/vagga-02-anupada/mn-112-chabbisodhana/){: target="_blank" rel="noopener"}；[AN 4.198 / A ii 210](https://aipali.true-dhamma.com/sutta/an/nipata-04/an-04-191-200-maha/#8-an-4198-自苦经-attantapasutta){: target="_blank" rel="noopener"}；[AN 10.99 / A v 205-206](https://aipali.true-dhamma.com/sutta/an/nipata-10/an-10-091-100-upasaka/#9-an-1099-优波离-upālisutta){: target="_blank" rel="noopener"}。[&nbsp;↩&nbsp;](#fr-fn49)
 {: id="fn-fn49"}
 
-\[50\] 相续（santati）掩盖了无常相（anicca），威仪（iriyāpatha）掩盖了苦相（dukkha，“受苦”，“压力”），而密集相（ghana）掩盖了无我相（anattā）：Vism. 640。[&nbsp;↩&nbsp;](#fr-fn50)
+\[50\] 相续相（santati）遮蔽了无常相（anicca），威仪相（iriyāpatha）遮蔽了苦相（dukkha，“受苦”，“压力”），而密集相（ghana）遮蔽了无我相（anattā）：Vism. 640。[&nbsp;↩&nbsp;](#fr-fn50)
 {: id="fn-fn50"}
 
 \[51\] 曾有一次关于五欲中哪一个最好的辩论；佛陀回答说，这取决于各人的喜好（[SN 3.12 / S i 79-80](https://aipali.true-dhamma.com/sutta/sn/vagga-1-sagatha/samyutta-03-kosala/sn-03-kosala/#22-sn-312-五王经-pañcarājasutta){: target="_blank" rel="noopener"}）。[&nbsp;↩&nbsp;](#fr-fn51)
