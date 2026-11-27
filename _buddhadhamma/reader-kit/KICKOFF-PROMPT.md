@@ -41,7 +41,7 @@
 
 - 结构计数保持：引文 6275、AIPali 3300、注释 2120、内部链接 4240、硬换行 4131、列表 695；URL、ID、CSS、图片字节不变。
 - 记号批次保护的 141 处／11 组（含 Dhamma/dhamma 等）不得顺手改大小写。`nibbuta`、P432 未映射、未核说话人标记，保持待决议。
-- 不重开 R027/R039，不改标题／TOC（除非新的明确授权），不 push。
+- R027 已于 reader-13 解除（佛法优先，逐处对照泰文，见 reader-style-guide R13-1）；R039 仍不重开；不改标题／TOC（除非新的明确授权），不 push。
 - 本地提交：`git -c user.name=bd -c user.email=bd@local`，不设置全局身份。
 
 ## 交付
@@ -53,3 +53,5 @@
 
 ## 读者润色（reader 轮次）开工必读
 先读 `reader-workflow.md`（两遍法、HTML 必备内容），再读 `reader-notes.md`、`reader-style-guide.md`（含 R12 规则）、`revision-guide.md` 末节和 `glossary-final.csv` 的 reader-12 各行。
+
+全书批次见 `PROJECT-PLAN.md`；每批开工先确认本批文件、跨章事项和质量闸门。

@@ -279,7 +279,7 @@ title: 第五章：业的法则 | 佛法 | Buddhadhamma
 
 接下来的两组主要包含阿罗汉的特质：
 
-> 第四组：akiñcana（无着）：心中无挂碍、远离潜在的焦虑；santa（寂静）：平和、满足；asoka（无忧）：无悲；viraja（离尘）：离垢；khema（安稳）：安全、稳固、远离危险；nicchāta（息渴）：饱足、远离渴望；sītabhūta（清凉）：清凉、深具平静；nibbuta（涅槃）：清凉、平息；serī（自在）：解脱、能够自由游荡；sayaṁvasī（自主）：自主、自立；sukhī（乐）：安乐。[\[26\]](#fn-fn26){:id="fr-fn26"}
+> 第四组：akiñcana（无着）：心中无挂碍、远离潜在的焦虑；santa（寂静）：平和、满足；asoka（无忧）：无悲；viraja（离尘）：离垢；khema（安稳）：安全、稳固、远离危险；nicchāta（息渴）：饱足、远离渴望；sītabhūta（清凉）：清凉、深具平静；nibbuta（寂灭）：清凉、平息；serī（自在）：解脱、能够自由游荡；sayaṁvasī（自主）：自主、自立；sukhī（乐）：安乐。[\[26\]](#fn-fn26){:id="fr-fn26"}
 >
 > 第五组：无缠（anallīna）：无纠缠、无执着；无耽着（anajjhosita）：不耽溺；无染（anūpalitta）：无垢、无染污；无依（anissita）：独立、不依赖任何事物；无缚（visaññuta）：无束缚；解脱（vippamutta）：解脱；心无边际（vimariyādikata-citta）：不受限制、无限。[\[27\]](#fn-fn27){:id="fr-fn27"}
 

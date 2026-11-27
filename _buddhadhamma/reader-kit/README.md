@@ -52,3 +52,7 @@ Reader 批次可以、也应当更新规范文档，但必须**分门别类、�
 - `reader-workflow.md`：两遍法工作流程与交付 HTML 必备内容（常设，必读）。
 - `reader-notes.md`：用户偏好与已定决议、待决事项的记忆笔记。
 - `rounds/<轮次>/`：各轮改动清单（p1_*.py、p2_*.py、applied.json）与审阅 HTML 副本。
+
+## reader-13 新增
+- `PROJECT-PLAN.md`：全书读者润色项目计划（21 批，待用户确认）。
+- `tools/frozen_check.py`、`tools/dom_skeleton.rb`：冻结项校验；R027 只报告；拉丁词改动须登记在 `tools/latin-allow.json`。
